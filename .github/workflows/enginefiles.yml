@@ -14,7 +14,7 @@ jobs:
         with:
           files: analyzers/ data/ visualtext/
           recursive: false
-          dest: visualtext.zip
+          dest: enginefiles.zip
           
       - uses: actions/upload-artifact@v1
         with:
