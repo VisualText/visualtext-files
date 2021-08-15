@@ -1,0 +1,14 @@
+###############################################
+# FILE: paragraphs.pat
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 26/May/20 19:43:46
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_paragraph <-
+    _xWILD [match=(_LINE)]	### (2)
+    @@
