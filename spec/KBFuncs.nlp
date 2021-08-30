@@ -18,6 +18,11 @@ AddUniqueCon(L("concept"),L("name")) {
 	return L("con");
 }
 
+AddUniqueStr(L("concept"),L("attr"),L("value")) {
+	if (!strval(L("concept"),L("attr")))
+		addstrval(L("concept"),L("attr"),L("value"));
+}
+
 ###############################################
 # KB Dump Functins
 ###############################################
@@ -42,6 +47,11 @@ IncrementCount(L("con"),L("countname")) {
 		L("count") = 1;
 	}
 	return L("count");
+}
+
+CountName(L("con"),L("root")) {
+	L("count") = IncrementCount(L("con"),L("root"));
+	return L("root") + str(L("count"));
 }
 
 TakeKB(L("filename")) {
@@ -69,6 +79,13 @@ ChildCount(L("con")) {
 ###############################################
 
 DisplayKB(L("top con"),L("full")) {
+	L("file") = DisplayFileName();
+	DisplayKBRecurse(L("file"),L("top con"),0,L("full"));
+	L("file") << "\n";
+	return L("top con");
+}
+
+DisplayFileName() {
 	if (num(G("$passnum")) < 10) {
 		L("file") = "ana00" + str(G("$passnum"));
 	}else if (num(G("$passnum")) < 100) {
@@ -77,9 +94,7 @@ DisplayKB(L("top con"),L("full")) {
 		L("file") = "ana0" + str(G("$passnum"));
 	}
 	L("file") = L("file") + ".kbb";
-	DisplayKBRecurse(L("file"),L("top con"),0,L("full"));
-	L("file") << "\n";
-	return L("top con");
+	return L("file");
 }
 
 DisplayKBRecurse(L("file"),L("top"),L("level"),L("full")) {
@@ -163,20 +178,32 @@ SpacesStr(L("num")) {
 # DICTIONARY FUNCTIONS
 ###############################################
 
-WriteDictionaryWord(L("file"),L("word"),L("attrName"),L("value"),L("attrType")) {
-	addword(L("word"));
-	addword(L("attrName"));
+DictionaryClear() {
+	G("dictionary path") = G("$apppath") + "\\kb\\user\\dictionary.kb";
+	G("dictionary") = openfile(G("dictionary path"));
+}
+
+DictionaryWord(L("word"),L("attrName"),L("value"),L("attrType")) {
+	L("file") = G("dictionary");
+
+	if (!dictfindword(L("word")))
+		L("file") << "add word \"" + L("word") + "\"\n";
 
 	L("file") << "ind attr\n" << findwordpath(L("word")) << "\n0\n";
 	L("file") << findwordpath(L("attrName")) << "\n";
-	if (L("attrType") == "string")
-		L("file") << "pst\n" << str(L("value"));
-	else if (L("attrType") == "number")
-		L("file") << "pnum\n" << numval(L("value"));
-	else if (L("attrType") == "concept")
+	if (L("attrType") == "str")
+		L("file") << "pst\n" << L("value");
+	else if (L("attrType") == "num")
+		L("file") << "pnum\n" << str(L("value"));
+	else if (L("attrType") == "con")
 		L("file") << "pcon\n" << conceptpath(L("value"));
 		
 	L("file") << "\nend ind\n\n";
+}
+
+DictionaryEnd() {
+	G("dictionary") << "\nquit\n\n";
+	closefile(G("dictionary"));
 }
 
 @@DECL
