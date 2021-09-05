@@ -23,6 +23,34 @@ AddUniqueStr(L("concept"),L("attr"),L("value")) {
 		addstrval(L("concept"),L("attr"),L("value"));
 }
 
+AddUniqueNum(L("concept"),L("attr"),L("value")) {
+	"unique.txt" << L("attr") << " " << str(L("value")) << " " << conceptpath(L("concept")) << "\n";
+	L("val") = AttrValues(L("concept"),L("attr"));
+	while (L("val")) {
+		L("num") = getnumval(L("val"));
+		"unique.txt" << str(L("num")) << "\n";
+		if (str(L("num")) == str(L("value")))
+			return 0;
+		L("val") = nextval(L("val"));
+	}
+	addnumval(L("concept"),L("attr"),num(L("value")));
+	return 1;
+}
+
+CopyAttr(L("from"),L("to"),L("attr")) {
+	L("from value") = strval(L("from"),L("attr"));
+	L("to value") = strval(L("to"),L("attr"));
+	if (L("from value") && !L("to value"))
+		addstrval(L("to"),L("attr"),L("from value"));
+}
+
+AttrValues(L("con"),L("attr")) {
+	L("at") = findattr(L("con"),L("attr"));
+	if (L("at"))
+		return attrvals(L("at"));
+	return 0;
+}
+
 ###############################################
 # KB Dump Functins
 ###############################################
@@ -83,6 +111,13 @@ DisplayKB(L("top con"),L("full")) {
 	DisplayKBRecurse(L("file"),L("top con"),0,L("full"));
 	L("file") << "\n";
 	return L("top con");
+}
+
+KBPipeHeader(L("text")) {
+	L("file") = DisplayFileName();
+	L("file") << "#######################\n";
+	L("file") << "#  " << L("text") << "\n";
+	L("file") << "#######################\n\n";
 }
 
 DisplayFileName() {
