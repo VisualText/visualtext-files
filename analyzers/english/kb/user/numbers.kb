@@ -277,13 +277,4 @@ pnum
 end ind
 
 
-ind attr
-"concept" "sys" "dict" "a" "t" "ti" "trillion"
-0
-"concept" "sys" "dict" "a" "n" "nu" "numeric"
-pnum
-1000000000000
-end ind
-
-
 quit
