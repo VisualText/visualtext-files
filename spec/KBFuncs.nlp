@@ -19,7 +19,7 @@ AddUniqueCon(L("concept"),L("name")) {
 }
 
 AddUniqueStr(L("concept"),L("attr"),L("value")) {
-	if (L("value") && !strval(L("concept"),L("attr")))
+	if (L("value") && strval(L("concept"),L("attr")) != L("value"))
 		addstrval(L("concept"),L("attr"),L("value"));
 }
 
