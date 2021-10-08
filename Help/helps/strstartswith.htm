@@ -8,7 +8,7 @@
 
 <head>
 
-<title>strcontains</title>
+<title>strstartswith</title>
 
 <!--(Meta)==========================================================-->
 
@@ -18,9 +18,9 @@
 <meta name=filetype content=kadov>
 <meta name=filetype-version content=1>
 <meta name=page-count content=1>
-<meta name=layout-height content=636>
+<meta name=layout-height content=641>
 <meta name=layout-width content=916>
-<meta name=date content="01 4, 2002 12:05:31 PM">
+<meta name=date content="01 4, 2002 12:05:53 PM">
 
 
 <!--(Links)=========================================================-->
@@ -36,11 +36,11 @@
 
 <body>
 
-<h1>strcontains</h1>
+<h1>strstartswith</h1>
 
 <h2>Purpose</h2>
 
-<p>Check if string 1 is contained in string 2.</p>
+<p>Check if a string starts with the given substring.</p>
 
 <h2>Syntax</h2>
 
@@ -50,7 +50,7 @@
 			x-text-tab-stops: repeat 1in;
 			white-space: nowrap;
 			font-family: monospace;
-			font-size: 10pt;">returnedBoolean = strcontains(string1, string2)</p>
+			font-size: 10pt;">returnedBoolean = strstartswith(wordString, suffixString)</p>
 
 <p style="margin-left: 40px;
 			line-height: normal;
@@ -60,21 +60,39 @@
 			white-space: nowrap;
 			font-family: monospace;
 			font-size: 10pt;">returnedBoolean - type: bool<br>
-string1 - type: str<br>
-string2 - type: str</p>
+wordString - type: str<br>
+suffixString - type: str</p>
 
 <h2>Returns</h2>
 
 <h2>Remarks</h2>
 
+<p>Unlike the function called <span style="font-weight: bold;">suffix</span>, 
+ <span style="font-weight: bold;">strstartswith</span> does a simple check 
+ for terminal string.</p>
+
 <h2>Example</h2>
+
+<p style="margin-bottom: 14pt;
+			margin-top: 14pt;
+			line-height: normal;
+			x-text-tab-stops: repeat 1in;
+			white-space: nowrap;
+			font-family: monospace;
+			font-size: 10pt;">@POST<br>
+if (!strstartswith(N(&quot;$text&quot;,1),&quot;ing&quot;))<br>
+ fail();<br>
+@RULES<br>
+_ving &lt;- _verb @@</p>
 
 <h2>See Also</h2>
 
-<p style="margin-bottom: 0;"><a href="strcontainsnocase.htm">strcontainsnocase</a>, 
- <a href="strpiece.htm">strpiece</a>, <a href="strsubst.htm">strsubst</a>, 
- <a href="strendswith.htm">strendswith</a>, <a href="strstartswith.htm">strstartswith</a>, <a href="Table_of_String_Functions.htm">String 
- Functions</a></p>
+<p style="margin-bottom: 0;"><a href="strcontains.htm">strcontains</a>, 
+ <a href="strcontainsnocase.htm">strcontainsnocase</a>, <a href="strpiece.htm">strpiece</a>, 
+ <a href="strsubst.htm">strsubst</a>, <a href="suffix.htm">suffix</a>, 
+ <a href="Table_of_String_Functions.htm">String Functions</a></p>
+
+<p>&nbsp;</p>
 
 </body>
 
