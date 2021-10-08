@@ -2204,6 +2204,10 @@
             <param name="Local" value="strendswith.htm">
           </object>
           <li><object type="text/sitemap">
+            <param name="Name" value="strstartswith">
+            <param name="Local" value="strstartswith.htm">
+          </object>
+          <li><object type="text/sitemap">
             <param name="Name" value="strequal">
             <param name="Local" value="strequal.htm">
           </object>
@@ -2528,7 +2532,7 @@
         <param name="Local" value="Tutorials/tutorial5/tutorial5.html#Build_list">
       </object>
       <li><object type="text/sitemap">
-        <param name="Name" value="Variables of  Suggested and Context Nodes">
+        <param name="Name" value="Variables ofï¿½ Suggested and Context Nodes">
         <param name="Local" value="Tutorials/tutorial5/tutorial5.html#t502">
       </object>
       <li><object type="text/sitemap">
