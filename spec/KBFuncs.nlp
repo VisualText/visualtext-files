@@ -186,7 +186,7 @@ DisplayFileName() {
 	}else if (num(G("$passnum")) < 100) {
 		L("file") = "ana0" + str(G("$passnum"));
 	} else {
-		L("file") = "ana0" + str(G("$passnum"));
+		L("file") = "ana" + str(G("$passnum"));
 	}
 	L("file") = L("file") + ".kbb";
 	return L("file");
