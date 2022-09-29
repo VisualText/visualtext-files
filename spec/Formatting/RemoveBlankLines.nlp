@@ -10,7 +10,7 @@
 @NODES _ROOT
 
 @POST
-    excise(1,1);
+excise(1,1);
 
 @RULES
 
