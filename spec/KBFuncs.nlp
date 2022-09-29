@@ -270,32 +270,37 @@ SpacesStr(L("num")) {
 # DICTIONARY FUNCTIONS
 ###############################################
 
-DictionaryClear() {
-	G("dictionary path") = G("$apppath") + "\\kb\\user\\dictionary.kb";
-	G("dictionary") = openfile(G("dictionary path"));
+DictionaryStart() {
+	G("attrs path") = G("$apppath") + "\\kb\\user\\attrs.kb";
+	G("attrs") = openfile(G("attrs path"));
+	G("words path") = G("$apppath") + "\\kb\\user\\words.kb";
+	G("words") = openfile(G("words path"));
 }
 
 DictionaryWord(L("word"),L("attrName"),L("value"),L("attrType")) {
-	L("file") = G("dictionary");
+	L("attrs") = G("attrs");
+	L("words") = G("words");
 
 	if (!dictfindword(L("word")))
-		L("file") << "add word \"" + L("word") + "\"\n";
+		L("words") << "add word \"" + L("word") + "\"\n";
 
-	L("file") << "ind attr\n" << findwordpath(L("word")) << "\n0\n";
-	L("file") << findwordpath(L("attrName")) << "\n";
+	L("attrs") << "ind attr\n" << findwordpath(L("word")) << "\n0\n";
+	L("attrs") << findwordpath(L("attrName")) << "\n";
 	if (L("attrType") == "str")
-		L("file") << "pst\n" << L("value");
+		L("attrs") << "pst\n" << "\"" << L("value") << "\"";
 	else if (L("attrType") == "num")
-		L("file") << "pnum\n" << str(L("value"));
+		L("attrs") << "pnum\n" << str(L("value"));
 	else if (L("attrType") == "con")
-		L("file") << "pcon\n" << conceptpath(L("value"));
+		L("attrs") << "pcon\n" << conceptpath(L("value"));
 		
-	L("file") << "\nend ind\n\n";
+	L("attrs") << "\nend ind\n\n";
 }
 
 DictionaryEnd() {
-	G("dictionary") << "\nquit\n\n";
-	closefile(G("dictionary"));
+	G("attrs") << "\nquit\n\n";
+	closefile(G("attrs"));
+	G("words") << "\nquit\n\n";
+	closefile(G("words"));
 }
 
 @@DECL
