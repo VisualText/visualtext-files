@@ -273,34 +273,23 @@ SpacesStr(L("num")) {
 DictionaryStart() {
 	G("attrs path") = G("$apppath") + "\\kb\\user\\attrs.kb";
 	G("attrs") = openfile(G("attrs path"));
-	G("words path") = G("$apppath") + "\\kb\\user\\words.kb";
-	G("words") = openfile(G("words path"));
 }
 
 DictionaryWord(L("word"),L("attrName"),L("value"),L("attrType")) {
-	L("attrs") = G("attrs");
-	L("words") = G("words");
-
-	if (!dictfindword(L("word")))
-		L("words") << "add word \"" + L("word") + "\"\n";
-
-	L("attrs") << "ind attr\n" << findwordpath(L("word")) << "\n0\n";
-	L("attrs") << findwordpath(L("attrName")) << "\n";
+	G("attrs") << "ind attr\n" << findwordpath(L("word")) << "\n0\n";
+	G("attrs") << findwordpath(L("attrName")) << "\n";
 	if (L("attrType") == "str")
-		L("attrs") << "pst\n" << "\"" << L("value") << "\"";
+		G("attrs") << "pst\n" << "\"" << L("value") << "\"";
 	else if (L("attrType") == "num")
-		L("attrs") << "pnum\n" << str(L("value"));
+		G("attrs") << "pnum\n" << str(L("value"));
 	else if (L("attrType") == "con")
-		L("attrs") << "pcon\n" << conceptpath(L("value"));
-		
-	L("attrs") << "\nend ind\n\n";
+		G("attrs") << "pcon\n" << conceptpath(L("value"));
+	G("attrs") << "\nend ind\n\n";
 }
 
 DictionaryEnd() {
 	G("attrs") << "\nquit\n\n";
 	closefile(G("attrs"));
-	G("words") << "\nquit\n\n";
-	closefile(G("words"));
 }
 
 @@DECL
