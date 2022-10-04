@@ -1,0 +1,35 @@
+ind attr
+"concept" "sys" "dict" "a" "h" "he" "he"
+0
+"concept" "sys" "dict" "a" "g" "ge" "gender"
+pst
+"male"
+end ind
+
+ind attr
+"concept" "sys" "dict" "a" "s" "sh" "she"
+0
+"concept" "sys" "dict" "a" "g" "ge" "gender"
+pst
+"female"
+end ind
+
+ind attr
+"concept" "sys" "dict" "a" "j" "ja" "january"
+0
+"concept" "sys" "dict" "a" "d" "da" "date"
+pst
+"month"
+end ind
+
+ind attr
+"concept" "sys" "dict" "a" "j" "ja" "january"
+0
+"concept" "sys" "dict" "a" "n" "nu" "number"
+pnum
+1
+end ind
+
+
+quit
+
