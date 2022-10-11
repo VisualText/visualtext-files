@@ -287,6 +287,8 @@ DictionaryStart() {
 }
 
 DictionaryWord(L("word"),L("attrName"),L("value"),L("attrType")) {
+	addword(L("word"));
+	addword(L("attrName"));
 	G("attrs") << "ind attr\n" << findwordpath(L("word")) << "\n0\n";
 	G("attrs") << findwordpath(L("attrName")) << "\n";
 	if (L("attrType") == "str")
