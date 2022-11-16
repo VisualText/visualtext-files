@@ -541,6 +541,38 @@
 <p style="margin-bottom: 0;">Get full input file. E.g., &quot;D:\apps\Resume\input\Dev1\rez.txt&quot;</td></tr>
 
 <tr>
+	<td style="x-cell-content-align: TOP;
+				width: 18%;
+				padding-left: 1px;
+				padding-top: 1px;
+				padding-right: 1px;
+				padding-bottom: 1px;"
+		valign=top
+		width=18%>
+	<p style="text-align: left; margin-bottom: 0;"
+		align=left><span style="font-weight: bold;">$inputparent</span></td>
+	<td style="x-cell-content-align: TOP;
+				width: 13%;
+				padding-left: 1px;
+				padding-top: 1px;
+				padding-right: 1px;
+				padding-bottom: 1px;"
+		valign=top
+		width=13%>
+	<p style="text-align: left; margin-bottom: 0;"
+		align=left><span style="font-weight: bold;">G</span></td>
+	<td style="x-cell-content-align: TOP;
+				width: 48%;
+				padding-left: 1px;
+				padding-top: 1px;
+				padding-right: 1px;
+				padding-bottom: 1px;"
+		valign=top
+		width=48%>
+	<p style="margin-bottom: 0;">$inputparent returns &quot;Dev1&quot; assuming input file is &quot;D\apps\Resume\input\Dev1\text.txt&quot;.
+		<span style="color: #ff0000; font-weight: bold;">NEW 1.26.0</span></td></tr>
+		
+<tr>
 <td style="x-cell-content-align: TOP;
 			width: 18%;
 			padding-left: 1px;
@@ -749,89 +781,132 @@
 <p style="margin-bottom: 0;">Get current rule number within current pass. 
  <span style="color: #ff0000; font-weight: bold;">NEW 2.0.2.4</span></td></tr>
 
- <tr>
-	<td colspan=1
-		rowspan=1
-		style="x-cell-content-align: TOP;
-				width: 18%;
-				padding-left: 1px;
-				padding-top: 1px;
-				padding-right: 1px;
-				padding-bottom: 1px;"
-		valign=top
-		width=18%>
-	<p style="text-align: left;
-				margin-bottom: 0;
-				font-weight: bold;"
-		align=left>$isfirstfile</td>
-	<td colspan=1
-		rowspan=1
-		style="x-cell-content-align: TOP;
-				width: 13%;
-				padding-left: 1px;
-				padding-top: 1px;
-				padding-right: 1px;
-				padding-bottom: 1px;"
-		valign=top
-		width=13%>
-	<p style="text-align: left;
-				margin-bottom: 0;
-				font-weight: bold;"
-		align=left>G</td>
-	<td colspan=1
-		rowspan=1
-		style="x-cell-content-align: TOP;
-				width: 48%;
-				padding-left: 1px;
-				padding-top: 1px;
-				padding-right: 1px;
-				padding-bottom: 1px;"
-		valign=top
-		width=48%>
-	<p style="margin-bottom: 0;">Check if is first file processed in a directory. Returns 1 if it is the first file, else 0. 
-	 <span style="color: #ff0000; font-weight: bold;">NEW 1.24.0</span></td></tr>
+<tr>
+<td colspan=1
+	rowspan=1
+	style="x-cell-content-align: TOP;
+			width: 18%;
+			padding-left: 1px;
+			padding-top: 1px;
+			padding-right: 1px;
+			padding-bottom: 1px;"
+	valign=top
+	width=18%>
+<p style="text-align: left;
+			margin-bottom: 0;
+			font-weight: bold;"
+	align=left>$isdirrun</td>
+<td colspan=1
+	rowspan=1
+	style="x-cell-content-align: TOP;
+			width: 13%;
+			padding-left: 1px;
+			padding-top: 1px;
+			padding-right: 1px;
+			padding-bottom: 1px;"
+	valign=top
+	width=13%>
+<p style="text-align: left;
+			margin-bottom: 0;
+			font-weight: bold;"
+	align=left>G</td>
+<td colspan=1
+	rowspan=1
+	style="x-cell-content-align: TOP;
+			width: 48%;
+			padding-left: 1px;
+			padding-top: 1px;
+			padding-right: 1px;
+			padding-bottom: 1px;"
+	valign=top
+	width=48%>
+<p style="margin-bottom: 0;">Check if the engine is processing a file of folders instead of an individual file. Returns 1 if it is analyzing a directory, else 0. 
+	<span style="color: #ff0000; font-weight: bold;">NEW 1.26.0</span></td></tr>
 
- <tr>
-	<td colspan=1
-		rowspan=1
-		style="x-cell-content-align: TOP;
-				width: 18%;
-				padding-left: 1px;
-				padding-top: 1px;
-				padding-right: 1px;
-				padding-bottom: 1px;"
-		valign=top
-		width=18%>
-	<p style="text-align: left;
-				margin-bottom: 0;
-				font-weight: bold;"
-		align=left>$islastfile</td>
-	<td colspan=1
-		rowspan=1
-		style="x-cell-content-align: TOP;
-				width: 13%;
-				padding-left: 1px;
-				padding-top: 1px;
-				padding-right: 1px;
-				padding-bottom: 1px;"
-		valign=top
-		width=13%>
-	<p style="text-align: left;
-				margin-bottom: 0;
-				font-weight: bold;"
-		align=left>G</td>
-	<td colspan=1
-		rowspan=1
-		style="x-cell-content-align: TOP;
-				width: 48%;
-				padding-left: 1px;
-				padding-top: 1px;
-				padding-right: 1px;
-				padding-bottom: 1px;"
-		valign=top
-		width=48%>
-	<p style="margin-bottom: 0;">Check if is last file processed in a directory. Returns 1 if it is the last file, else 0. 
-	 <span style="color: #ff0000; font-weight: bold;">NEW 1.24.0</span></td></tr>
+	 
+<tr>
+<td colspan=1
+	rowspan=1
+	style="x-cell-content-align: TOP;
+			width: 18%;
+			padding-left: 1px;
+			padding-top: 1px;
+			padding-right: 1px;
+			padding-bottom: 1px;"
+	valign=top
+	width=18%>
+<p style="text-align: left;
+			margin-bottom: 0;
+			font-weight: bold;"
+	align=left>$isfirstfile</td>
+<td colspan=1
+	rowspan=1
+	style="x-cell-content-align: TOP;
+			width: 13%;
+			padding-left: 1px;
+			padding-top: 1px;
+			padding-right: 1px;
+			padding-bottom: 1px;"
+	valign=top
+	width=13%>
+<p style="text-align: left;
+			margin-bottom: 0;
+			font-weight: bold;"
+	align=left>G</td>
+<td colspan=1
+	rowspan=1
+	style="x-cell-content-align: TOP;
+			width: 48%;
+			padding-left: 1px;
+			padding-top: 1px;
+			padding-right: 1px;
+			padding-bottom: 1px;"
+	valign=top
+	width=48%>
+<p style="margin-bottom: 0;">Check if is first file processed in a directory. Returns 1 if it is the first file, else 0. 
+	<span style="color: #ff0000; font-weight: bold;">NEW 1.24.0</span></td></tr>
+
+<tr>
+<td colspan=1
+	rowspan=1
+	style="x-cell-content-align: TOP;
+			width: 18%;
+			padding-left: 1px;
+			padding-top: 1px;
+			padding-right: 1px;
+			padding-bottom: 1px;"
+	valign=top
+	width=18%>
+<p style="text-align: left;
+			margin-bottom: 0;
+			font-weight: bold;"
+	align=left>$islastfile</td>
+<td colspan=1
+	rowspan=1
+	style="x-cell-content-align: TOP;
+			width: 13%;
+			padding-left: 1px;
+			padding-top: 1px;
+			padding-right: 1px;
+			padding-bottom: 1px;"
+	valign=top
+	width=13%>
+<p style="text-align: left;
+			margin-bottom: 0;
+			font-weight: bold;"
+	align=left>G</td>
+<td colspan=1
+	rowspan=1
+	style="x-cell-content-align: TOP;
+			width: 48%;
+			padding-left: 1px;
+			padding-top: 1px;
+			padding-right: 1px;
+			padding-bottom: 1px;"
+	valign=top
+	width=48%>
+<p style="margin-bottom: 0;">Check if is last file processed in a directory. Returns 1 if it is the last file, else 0. 
+	<span style="color: #ff0000; font-weight: bold;">NEW 1.24.0</span></td></tr>
 
 <tr>
 <td style="x-cell-content-align: TOP;
