@@ -19,22 +19,33 @@ AddUniqueCon(L("concept"),L("name")) {
 }
 
 AddUniqueStr(L("concept"),L("attr"),L("value")) {
-	if (L("value") && strval(L("concept"),L("attr")) != L("value"))
+	if (L("value")) {
+		L("val") = AttrValues(L("concept"),L("attr"));
+		while (L("val")) {
+			L("str") = getstrval(L("val"));
+			if (L("str") == L("value"))
+				return 0;
+			L("val") = nextval(L("val"));
+		}
 		addstrval(L("concept"),L("attr"),L("value"));
+		return 1;
+	}
+	return 0;
 }
 
 AddUniqueNum(L("concept"),L("attr"),L("value")) {
-	"unique.txt" << L("attr") << " " << str(L("value")) << " " << conceptpath(L("concept")) << "\n";
-	L("val") = AttrValues(L("concept"),L("attr"));
-	while (L("val")) {
-		L("num") = getnumval(L("val"));
-		"unique.txt" << "  value: " << str(L("num")) << "\n";
-		if (L("num") == L("value"))
-			return 0;
-		L("val") = nextval(L("val"));
+	if (L("value")) {
+		L("val") = AttrValues(L("concept"),L("attr"));
+		while (L("val")) {
+			L("num") = getnumval(L("val"));
+			if (L("num") == L("value"))
+				return 0;
+			L("val") = nextval(L("val"));
+		}
+		addnumval(L("concept"),L("attr"),L("value"));
+		return 1;
 	}
-	addnumval(L("concept"),L("attr"),L("value"));
-	return 1;
+	return 0;
 }
 
 AddUniqueConVal(L("concept"),L("attr"),L("value")) {
@@ -276,6 +287,8 @@ DictionaryStart() {
 }
 
 DictionaryWord(L("word"),L("attrName"),L("value"),L("attrType")) {
+	addword(L("word"));
+	addword(L("attrName"));
 	G("attrs") << "ind attr\n" << findwordpath(L("word")) << "\n0\n";
 	G("attrs") << findwordpath(L("attrName")) << "\n";
 	if (L("attrType") == "str")
