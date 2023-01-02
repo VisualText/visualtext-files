@@ -62,6 +62,20 @@ AddUniqueConVal(L("concept"),L("attr"),L("value")) {
 	return 1;
 }
 
+PathToConcept(L("parent"),L("hier")) {
+	L("cons") = split(L("hier")," ");
+	L("i") = 0;
+	L("con") = L("parent");
+	while (L("cons")[L("i")]) {
+		L("c") = L("cons")[L("i")];
+		L("name") = strsubst(L("c"),"\"",0);
+		if (L("name") != "concept")
+			L("con") = AddUniqueCon(L("con"),L("name"));
+		L("i")++;
+	}
+	return L("con");
+}
+
 CopyAttr(L("from"),L("to"),L("attr")) {
 	L("from value") = strval(L("from"),L("attr"));
 	if (L("from value")) {
