@@ -217,17 +217,19 @@ DisplayFileName() {
 	return L("file");
 }
 
-DisplayKBRecurse(L("file"),L("con"),L("level"),L("full")) {
+DisplayKBRecurse(L("file"),L("parent"),L("level"),L("full")) {
+	if (L("level") == 0) {
+		L("file") << conceptname(L("parent")) << "\n";
+	}
+	L("con") = down(L("parent"));
 	while (L("con")) {
 		L("file") << SpacesStr(L("level")+1) << conceptname(L("con"));
 		DisplayAttributes(L("file"),L("con"),L("full"),L("level"));
 		L("file") << "\n";
 		if (down(L("con"))) {
 			L("lev") = 1;
-			DisplayKBRecurse(L("file"),down(L("con")),L("level")+L("lev"),L("full"));
+			DisplayKBRecurse(L("file"),L("con"),L("level")+L("lev"),L("full"));
 		}
-		if (L("level") == 0)
-			return 0;
 		L("con") = next(L("con"));
 	}
 }
