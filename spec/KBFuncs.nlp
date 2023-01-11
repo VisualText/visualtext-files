@@ -191,9 +191,16 @@ ChildCount(L("con")) {
 # KBB DISPLAY FUNCTIONS
 ###############################################
 
-DisplayKB(L("top con"),L("full")) {
+###############################################
+# display type:
+#      0 compact with ellipses on long attr values
+#      1 full, more spread out
+#      2 compact without ellipses on long attr values
+###############################################
+
+DisplayKB(L("top con"),L("display type")) {
 	L("file") = DisplayFileName();
-	DisplayKBRecurse(L("file"),L("top con"),0,L("full"));
+	DisplayKBRecurse(L("file"),L("top con"),0,L("display type"));
 	L("file") << "\n";
 	return L("top con");
 }
@@ -217,35 +224,35 @@ DisplayFileName() {
 	return L("file");
 }
 
-DisplayKBRecurse(L("file"),L("parent"),L("level"),L("full")) {
+DisplayKBRecurse(L("file"),L("parent"),L("level"),L("display type")) {
 	if (L("level") == 0) {
 		L("file") << conceptname(L("parent")) << "\n";
 	}
 	L("con") = down(L("parent"));
 	while (L("con")) {
 		L("file") << SpacesStr(L("level")+1) << conceptname(L("con"));
-		DisplayAttributes(L("file"),L("con"),L("full"),L("level"));
+		DisplayAttributes(L("file"),L("con"),L("display type"),L("level"));
 		L("file") << "\n";
 		if (down(L("con"))) {
 			L("lev") = 1;
-			DisplayKBRecurse(L("file"),L("con"),L("level")+L("lev"),L("full"));
+			DisplayKBRecurse(L("file"),L("con"),L("level")+L("lev"),L("display type"));
 		}
 		L("con") = next(L("con"));
 	}
 }
 
-DisplayAttributes(L("file"),L("con"),L("full"),L("level")) {
+DisplayAttributes(L("file"),L("con"),L("display type"),L("level")) {
 	L("attrs") = findattrs(L("con"));
 	if (L("attrs")) L("file") << ": ";
-	if (L("full") && L("attrs")) L("file") << "\n";
+	if (L("display type") == 1 && L("attrs")) L("file") << "\n";
 	L("first attr") = 1;
 	
 	while (L("attrs")) {
 		L("vals") = attrvals(L("attrs"));
-		if (!L("full") && !L("first attr")) {
+		if (L("display type") != 1 && !L("first attr")) {
 			L("file") << ", ";
 		}
-		if (L("full")) {
+		if (L("display type") == 1) {
 			if (!L("first attr")) L("file") << "\n";
 			L("file") << SpacesStr(L("level")+2);
 		}
@@ -260,7 +267,7 @@ DisplayAttributes(L("file"),L("con"),L("full"),L("level")) {
 			L("con") = getconval(L("vals"));
 			if (L("con")) {
 				L("file") << conceptpath(L("con"));
-			} else if (!L("full") && strlength(L("val")) > 20) {
+			} else if (L("display type") == 0 && strlength(L("val")) > 20) {
 				L("shorty") = strpiece(L("val"),0,20);
 				L("file") << L("shorty");
 				L("file") << "...";
