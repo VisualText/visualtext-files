@@ -275,7 +275,7 @@ DisplayAttributes(L("file"),L("con"),L("display type"),L("level")) {
 			L("con") = getconval(L("vals"));
 			if (!L("first"))
 				L("file") << ",";
-			else if (L("count") > 1 || L("con"))
+			else if (L("count") > 1 && !L("con"))
 				L("file") << "[";
 
 			if (L("con")) {
