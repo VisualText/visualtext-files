@@ -110,11 +110,10 @@ AttrValues(L("con"),L("attr")) {
 	return 0;
 }
 
-ValCount(L("attr")) {
-	L("vals") = attrvals(L("attr"));
-	while (L("con")) {
+ValCount(L("vals")) {
+	while (L("vals")) {
 		L("count")++;
-		L("con") = nextval(L("con"));
+		L("vals") = nextval(L("vals"));
 	}
 	return L("count");
 }
@@ -258,7 +257,7 @@ DisplayAttributes(L("file"),L("con"),L("display type"),L("level")) {
 	
 	while (L("attrs")) {
 		L("vals") = attrvals(L("attrs"));
-		L("count") = ValCount(L("attrs"));
+		L("count") = ValCount(L("vals"));
 		if (L("display type") != 1 && !L("first attr")) {
 			L("file") << ", ";
 		}
@@ -301,7 +300,7 @@ DisplayAttributes(L("file"),L("con"),L("display type"),L("level")) {
 			L("vals") = nextval(L("vals"));
 		}
 		
-		if (L("con"))
+		if (L("con") || L("count") > 1)
 			L("file") << "]";
 		L("first attr") = 0;
 		L("attrs") = nextattr(L("attrs"));
