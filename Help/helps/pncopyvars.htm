@@ -40,7 +40,7 @@
 
 <h2>Purpose</h2>
 
-<p>Copy a node's variables to the suggested node of a rule match. Must 
+<p>Copy a node's variables to the suggested node of a rule match or to a concept. Must 
  be called from the POST Region and can be considered a new-style NLP++ 
  <span style="font-weight: bold;">action</span>.</p>
 
@@ -53,6 +53,8 @@
 			white-space: nowrap;
 			font-family: monospace;
 			font-size: 10pt;">NULL = pncopyvars(Pnode1,Pnode2)<br>
+NULL = pncopyvars(Pnode1,Pnode2)<br>
+NULL = pncopyvars(Pnode1,aConcept)<br>
 NULL = pncopyvars(aPnode)<br>
 NULL = pncopyvars(positionNum)<br>
 NULL = pncopyvars(0)</p>
@@ -79,7 +81,7 @@ NULL = pncopyvars(0)</p>
 
 <h2>Remarks</h2>
 
-<p>The first form copies variables from node 1 to node 2. <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->The 
+<p>The first form copies variables from node 1 to node 2, or copies from node 1 to a concept in the hierarchy. <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->The 
  second form copies node variables from a given node. The third form copies 
  variables from the first node matching the positionNumth element of the 
  current rule. The fourth form copies from the node matching the last element 
