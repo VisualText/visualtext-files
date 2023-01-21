@@ -266,14 +266,14 @@ DisplayAttributes(L("file"),L("con"),L("display type"),L("level")) {
 			L("file") << SpacesStr(L("level")+2);
 		}
 		L("name") = attrname(L("attrs"));
-		L("file") << L("name") << "=";
+		L("file") << QuoteIfNeeded(L("name")) << "=";
 		L("first") = 1;
 		L("type") = attrtype(L("con"),L("name"));
 
 		while (L("vals")) {
 			if (!L("first"))
 				L("file") << ",";
-			else if (L("count") > 1 && !L("con"))
+			else if (L("count") > 1)
 				L("file") << "[";
 
 			if (L("type") == 1) {
@@ -292,20 +292,11 @@ DisplayAttributes(L("file"),L("con"),L("display type"),L("level")) {
 
 			} else {
 				L("val") = getstrval(L("vals"));
-				if (DisplayValNeedsQuote(L("val")))
-					L("file") << "\"";
-
 				if (L("display type") == 0 && strlength(L("val")) > 20) {
 					L("shorty") = strpiece(L("val"),0,20);
-					L("file") << L("shorty");
-					L("file") << "...";
-					if (strendswith(L("val"),"\""))
-						L("file") << "\"";
+					L("val") = L("shorty") + "...";
 				}
-
-				L("file") << str(L("val"));
-				if (DisplayValNeedsQuote(L("val")))
-					L("file") << "\"";
+				L("file") << QuoteIfNeeded(str(L("val")));
 			}
 			L("first") = 0;
 			L("vals") = nextval(L("vals"));
@@ -318,12 +309,13 @@ DisplayAttributes(L("file"),L("con"),L("display type"),L("level")) {
 	}
 }
 
-DisplayValNeedsQuote(L("str")) {
+QuoteIfNeeded(L("str")) {
 	if (!L("str"))
 		return 0;
+	L("new") = L("str");
 	if (strcontains(" ",L("str")) || strcontains("[",L("str")) || strcontains("]",L("str")))
-		return 1;
-	return 0;
+		L("new") = "\"" + L("new") + "\"";
+	return L("new");
 }
 
 # Because NLP++ doesn't allow for empty strings,
