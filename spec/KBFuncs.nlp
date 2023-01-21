@@ -265,34 +265,45 @@ DisplayAttributes(L("file"),L("con"),L("display type"),L("level")) {
 			if (!L("first attr")) L("file") << "\n";
 			L("file") << SpacesStr(L("level")+2);
 		}
-		L("file") << attrname(L("attrs")) << "=";
+		L("name") = attrname(L("attrs"));
+		L("file") << L("name") << "=";
 		L("first") = 1;
+		L("type") = attrtype(L("con"),L("name"));
 
 		while (L("vals")) {
-			L("val") = getstrval(L("vals"));
-			L("num") = getnumval(L("vals"));
-			L("con") = getconval(L("vals"));
 			if (!L("first"))
 				L("file") << ",";
 			else if (L("count") > 1 && !L("con"))
 				L("file") << "[";
 
-			if (L("con")) {
+			if (L("type") == 1) {
+				L("num") = getnumval(L("vals"));
+				L("file") << str(L("num"));
+
+			} else if (L("type") == 2) {
 				if (L("first"))
 					L("file") << "[";
+				L("con") = getconval(L("vals"));
 				L("file") << conceptpath(L("con"));
-			} else if (L("display type") == 0 && strlength(L("val")) > 20) {
-				L("shorty") = strpiece(L("val"),0,20);
-				L("file") << L("shorty");
-				L("file") << "...";
-				if (strendswith(L("val"),"\""))
-					L("file") << "\"";
-			} else if (L("num") > -1) {
-				L("file") << str(L("num"));
+
+			} else if (L("type") == 3) {
+				L("flt") = getfltval(L("vals"));
+				L("file") << str(L("flt"));
+
 			} else {
+				L("val") = getstrval(L("vals"));
 				if (DisplayValNeedsQuote(L("val")))
 					L("file") << "\"";
-				L("file") << L("val");
+
+				if (L("display type") == 0 && strlength(L("val")) > 20) {
+					L("shorty") = strpiece(L("val"),0,20);
+					L("file") << L("shorty");
+					L("file") << "...";
+					if (strendswith(L("val"),"\""))
+						L("file") << "\"";
+				}
+
+				L("file") << str(L("val"));
 				if (DisplayValNeedsQuote(L("val")))
 					L("file") << "\"";
 			}
@@ -300,7 +311,7 @@ DisplayAttributes(L("file"),L("con"),L("display type"),L("level")) {
 			L("vals") = nextval(L("vals"));
 		}
 		
-		if (L("con") || L("count") > 1)
+		if (L("type") == 2 || L("count") > 1)
 			L("file") << "]";
 		L("first attr") = 0;
 		L("attrs") = nextattr(L("attrs"));
@@ -308,6 +319,8 @@ DisplayAttributes(L("file"),L("con"),L("display type"),L("level")) {
 }
 
 DisplayValNeedsQuote(L("str")) {
+	if (!L("str"))
+		return 0;
 	if (strcontains(" ",L("str")) || strcontains("[",L("str")) || strcontains("]",L("str")))
 		return 1;
 	return 0;
