@@ -283,8 +283,8 @@ DisplayAttributes(L("file"),L("con"),L("display type"),L("level")) {
 			} else if (L("type") == 2) {
 				if (L("first"))
 					L("file") << "[";
-				L("con") = getconval(L("vals"));
-				L("file") << conceptpath(L("con"));
+				L("c") = getconval(L("vals"));
+				L("file") << conceptpath(L("c"));
 
 			} else if (L("type") == 3) {
 				L("flt") = getfltval(L("vals"));
