@@ -206,6 +206,12 @@ ChildCount(L("con")) {
 #      2 compact without ellipses on long attr values
 ###############################################
 
+SaveKB(L("file"),L("top con"),L("display type")) {
+	DisplayKBRecurse(L("file"),L("top con"),0,L("display type"));
+	L("file") << "\n";
+	return L("top con");
+}
+
 DisplayKB(L("top con"),L("display type")) {
 	L("file") = DisplayFileName();
 	DisplayKBRecurse(L("file"),L("top con"),0,L("display type"));
