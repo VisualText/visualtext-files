@@ -10,5 +10,5 @@
 
 @RULES
 _paragraph <-
-    _xWILD [match=(_LINE)]	### (2)
+    _xWILD [plus match=(_LINE)]	### (2)
     @@
