@@ -1,0 +1,96 @@
+                           RITVIK BHAVAN     
+DATA ENGINEER , 
+ETL DEVELOPER  & CLOUD CONSULTANT  
+MOBILE: +91-7276072750  
+  
+ 
+EMAIL: ritvik.bhavan@gmail.com  
+https://in.linkedin.com/in/ritvik -
+bhavan -1b2b2ab0  
+                            
+Profile Summary  
+ 
+• Software professional experienced in design and development with major focus 
+in Oracle database and IBM InfoSphere DataStage  
+• Experience in developing DataStage jobs (Server and Parallel)  
+• 6 months experience in openUI5 and JavaScript  
+•     Individual and team award from organization for the best performance and 
+commitment.  
+ 
+ Work Experience  
+Persistent Systems Limited - India – Aug 2018 till date  
+ 
+Project Details  
+ 
+Project: SAS UI Migration — UI Migration  
+Duration:  December  2018 - May 2019  
+Description:  Migration of SAS products from FLEX to HTML5 (openUI5) and 
+JavaScript.  
+Role:  Javascript Developer  
+Responsibilities:  
+• Design and development of software components.  
+• Creating stories and tasks on JIRA for new services.  
+• Writing unit test cas es for developed code.  
+ 
+Project:  ETL developer for Yahoo Inc.  
+Duration:  May 2019 - Now  
+Description:  Management of data warehouse using IBM InfoSphere DataStage and 
+Oracle  
+Role:  ETL developer  
+Responsibilities:  
+• Supervise data load from real -time database to warehouse  
+• Create data -marts according to requirements  
+• Ensure data quality  
+Tools and Technologies : IBM InfoSphere DataStage , Oracle SQL developer , 24x7 
+scheduler  
+ 
+Education  
+• Bachelor of Engineering (2014 -2018) : Pimpri Chinchwad College of 
+Enginee ring, Akurdi : 72%  
+• Higher Secondary School : 90.36% 
+• Senior Secondary School :  87% 
+Certifications  
+• Microsoft Certified Azure Fundamentals  
+• AWS Cloud Practitioner   
+Key Skills  
+ETL tools: DataStage, 
+Talend, Informatica  
+Azure Data Factory  
+Oracle SQL  
+MYSQL  
+Shell Scripting  
+ 
+Languages  
+Java  
+Python  
+ 
+Tools  
+Eclipse  
+PyCharm  
+Atlassian JIRA  
+SQL Developer  
+ 
+Environment  
+Linux  
+Windows  
+ 
+Certifications  
+MS Azure Fundamentals  
+AWS Cloud Practitioner  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

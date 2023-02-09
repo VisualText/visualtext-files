@@ -1,0 +1,43 @@
+ 
+Vinodhini E  
+Phone: (+91) -9003689627  
+vinodhini.eagambaram@gmail.com  
+ 
+ 
+PROFESSIONAL SUMMARY   
+ 
+❖ 3 years of  experience with  almost 2 years  of experience in designing and developing Big Data  applications 
+using  the Hadoop  Ecosystem technologies ( HDFS, Hive, Sqoop, Apache Spark and AWS ) 
+❖ Real time experience in Hadoop/Big Data related technology experience in Storage, Querying, Processing  
+and analysis of data . 
+❖ Understands the Complex Data  Processing  needs  of big data and have experience in developing codes and 
+modules to address those needs.  
+❖ Capable of processing large sets of Structured  and  Semi -structured  data.  
+❖ Worked with different file form ats like  JSON, XML, AVRO  data files and  text files.  
+❖ Loaded and transformed  large sets of semi structured data likes XML,  JSON,  Avro,  Parquet . 
+❖ Queried data using Spark SQL  on top of Spark engine for faster datasets processing.  
+❖ Created multiple Hive tables, running hive queries in those data, implemented Partitioning, Dynamic 
+Partitioning, and Bucketing in Hive  for efficient data access.  
+❖ Processed web URL data using Scala  and converted it to data frames for further transformations.  
+❖ Generated complex JSON  data  after all the transformations for easy storage and access as per client 
+requirements.  
+❖ Expertise in writing Hadoop Jobs for analyzing  data using Hive . 
+❖ Knowledge in installing, configuring , and using Hadoop ecosy stem components like HDFS , Hive, Sqoop, and 
+Spark . 
+❖ Brought in simplification process and Optimization initiatives to bring efficiency into applications.  
+❖ Having hands on experience in deploying spark jobs  over EMR cluster  as a step execution.  
+❖ Used Agile methodology  to work with IT and business  team  to progress efficient system development.  
+❖ Data base experience in SQL Server  and MYSQL . 
+❖ Have good problem solving and analytical skills  and ready  to innovate in order to perform better.  
+❖ Have strong Interpersonal skills and  communication sk ills. 
+ 
+ 
+ 
+   
+TECHNICAL SKILLS  
+ 
+ 
+• Data Eco  System  : Hadoop,  Sqoop , Hive , Apache  Spark  and AWS   
+• Distribution   : Cloudera 5.12  
+• Databases   : SQL Server,  MySQL  
+• Languages   : Scala , Python , SQL  

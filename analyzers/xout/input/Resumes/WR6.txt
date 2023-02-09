@@ -1,0 +1,453 @@
+MARIA RINALDI A
+
+
+
+	+91-9363045506	E-Mail:mariarinaldi90@gmail.com
+
+
+
+
+
+	Professional Summary:	
+
+
+
+	Having 5+ years of Experience in Dataware housing with Hadoop Development - managing and tuning Hadoop cluster and its ecosystem components ( Hive, Pig, HDFS, Sqoop)  python and spark.
+
+Good knowledge on Hadoop ecosystems such as HDFS, ResourceManager, NodeManager, Name Node, Data Node and Map Reduce programming paradigm.
+
+		Extensive experience in working with Spark Ecosystem components (PySpark, Spark SQL) Hand-on experience in working with DevOps tools- Azure DevOps, Bitbucket, GitHub, GIT
+
+		Worked on AWS services like S3, Lambda Function and Step Function.
+
+		Worked on CI/CD along with python in AWS environment.
+
+		Having good Knowledge of Data Warehousing background, experience in design, build and support of Data Warehouses.
+
+		Strong SQL and database knowledge.
+
+		Good understanding of distributed computing concepts.
+
+		Ability to handle multiple tasks and projects   Simultaneously.
+
+		
+
+		
+
+	WORKING EXPERIENCE 
+
+		Company
+
+		Role/designation
+
+		Years
+
+		Duration
+
+		Infosys Technology Pvt Ltd
+
+		Hadoop Developer
+
+		2020(Oct-27)-Till Date
+
+		1.6
+
+		Cognizant Technology Pvt Ltd
+
+		Hadoop developer
+
+		2018(May-23)-2020(July 3rd)
+
+		2 years
+
+		Smart Source Softwares Pvt Ltd
+
+		SAP and Hadoop developer
+
+		2016(Oct 1st)-
+
+		2018(May 18th)
+
+		2 years
+
+		
+
+		
+
+
+
+	Qualifications:	
+
+		B.E from Magna College of Engineering, Anna University, Chennai.
+
+
+
+	Technical Skills:	
+
+
+
+		Bigdata Technologies          :              HDFS,MapReduce,PIG,Hive ,Sqoop,Hbase, Azure
+
+		Operating Systems               :              Linux, Windows XP.
+
+		Programming Languages known:   python.
+
+		Database skills                       :               Oracle10g,SQL server, MySQL
+
+	PROJECT 1:	
+
+
+
+Project             :     APS221-Large Exposure
+
+Duration          :     November ’2020 to Till Date
+
+Client                :     WestPac(Australia Based Banking)
+
+Environment   :     Hadoop, Hive, HDFS, Pyspark, Spark SQL
+
+Organization   :     Infosys Technology Pvt Ltd
+
+
+
+Roles and Responsibilities:
+
+Worked on creating Hive scripts to transfer data from HBase to Hive.
+
+Responsible for checking creating and testing the data retrieved in pipelines for the different formats of files like CSV, Parquet, ORC file.
+
+Creating metadata sheets & inbound control-m jobs to ingest data from source application into BDP environment using DDEP framework.
+
+Creating transform jobs to apply business rules by writing PySpark code and Spark SQL queries 
+
+Checking in code into Bitbucket Repository and developing azure Devops release job for code deployment into DEV/SIT/SVP/UAT/PROD environment 
+
+Scheduling /Executing DDEP jobs (Inbound,Publish) using Control-M 
+
+Ingested the data over HDFS directories with ORC formats as per the requirement 
+
+Performing Data Validations using Putty and Data Analytics Studio is used to find the data availability in the required database in a dataset and data issues to work with source team and client to get data resolved 
+
+HP ALM for maintaining and analyzing the issues or defects raised from different testing team and maintain the software lifecycle. 
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	PROJECT 2:	
+
+
+
+Project              :     WILDCATS
+
+Duration           :     June ’2019 to May 2020
+
+Client                 :     US based insurance(NationWide)
+
+Environment   :     Pyspark,S3, Lambda, Code Pipeline, Athena, Glue ,Hive,EMR
+
+Organization   :     Cognizant Technology Pvt Ltd
+
+
+
+
+
+Roles and Responsibilities:
+
+Unit Testing and continuously integration in AWS environment.
+
+Creating hive table, loading and analyzing data using hive queries.
+
+Created lambda and step function to automate the script Execution.
+
+Prepared demo script documentation for code review.
+
+Worked on Glue ETL service and created workflow jobs and scheduled.
+
+Creating tables in Athena and access files from s3 bucket and loaded into redshift.
+
+Worked on AWS pipeline to automate the code deployment.
+
+Creating and Visualizing pipeline activities through AWS.
+
+Worked on validation script like file name validation, column name validation and data type validation using python script.
+
+Building CI/CD pipeline for a lambda application with AWS code pipeline.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PROJECT 3:
+
+Project Name   :  Astrazeneca(Tax-Transformation)
+
+Duration           :    June ’2018 to May 2019
+
+Environment   :    Spark,python,Hive,UNIX, Sqlserver
+
+Role                    :    Hadoop Developer and AWS support
+
+Organization   :    Cognizant Technology Pvt Ltd
+
+
+
+Roles and Responsibilities:
+
+Tax-Transformation-Analyses records using hive, Gitbase, SQL workbench.
+
+HCM as a service- delta detection and full detection using pyspark code and load it into the reltioDB.
+
+ HCA and HCP delta detection and full detection using pyspark.
+
+Analyzing hive and Redshift table records using SQL workbench.
+
+Creating and Visualizing pipeline activities through Jenkins.
+
+Writing the script files for processing data and loading to HDFS.
+
+Generate different type of data sources and transform data using EMR.
+
+Creating External table in hive and loading required data into that external table.
+
+Working in project deployment  tool jira.
+
+Setup Hive with MySQL as a Remote Metastore.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PROJECT 3:
+
+Project Name : Axa Life Insurance 
+
+Duration          : Feb ’2016 to April’2018
+
+Environment : Hadoop, PIG, Hive, SQOOP, UNIX, Mysql
+
+Role                  :  Hadoop Developer
+
+Organization  : SmartSources Software
+
+
+
+Description:
+
+When the insurance based increasing the data generated out of their web crawling is also increased massively and which cannot be handled in Oracle kind of data box with the same reason Client wants to move it to Hadoop, where exactly we can handle massive amount of data by means of its cluster nodes and also to satisfy the scaling needs of the Client’s business operation.
+
+Roles and Responsibilities:
+
+Creating Hive tables, and loading and analyzing data using hive queries.
+
+Moved all crawl data flat files generated from various retailers to HDFS for further processing.
+
+Created Hive tables to store the processed results in a tabular format.
+
+Writing the script files for processing data and loading to HDFS.
+
+Created External Hive Table on top of parsed data.
+
+Implemented Partitioning, Dynamic Partitions, Buckets in HIVE.
+
+Hive Performance tuning optimization worked in partitioning , bucketing, Map join, Vectorization, and Hive indexing.
+
+Completely involved in the requirement analysis phase.
+
+Moved all log/text files generated by various products into HDFS location.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Personal Details:
+
+DOB                                      :      24 / 11 / 1990
+
+
+
+Sex                                        :      Male
+
+
+
+Marital Status                    :     Married 
+
+
+
+Nationality 	                 :      Indian
+
+
+
+Languages 		  :      Tamil, English

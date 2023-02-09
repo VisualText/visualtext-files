@@ -1,0 +1,45 @@
+Page 1 of 2 
+                                                            RESUME                        
+           
+Email : venuu913 @gmail.com  
+Venu                                        Mobile:  +91 6301042239    
+                            
+Objective:    
+Seeking a technically challenging position in the area Data Engineer , providing a highly motivated, 
+progressive, fri endly environment, these allow the pursuit of career advancement and expand my knowledge and skills.  
+Professional  Summary:    
+• Having 3+ years  of experience in Big Data Engineering in IT.  
+• Having Experience and good knowledge in  Spark, Spark SQL, Spark -Stream ing, Kafka, Hadoop (HDFS, 
+Map reduce) . 
+• Having Experience and good Knowledge and hands on in  Microsoft Azure cloud p latform.  
+• Strong Experience on BIG DATA , SQL Scripting  and Data Warehouse Concepts.  
+• Experience and good Knowledge in PySpark, RDD  and Pandas . 
+• Having Experience and good Knowledge in database like SQL Server  and Oracle.  
+• Having Experience and good Knowledge a nd hands on in ETL and ELT . 
+• Having Hand on Knowledge Handling different data Structured , Semi -Structured  and Unstructured data.  
+• Good Understanding on Waterfall Project methodologie s and Agile . 
+• Having Experience and good Knowledge of the Complete  System De velopment Life Cycle and Implement.  
+• Having good knowledge on ETL & Big Data & BI Testing . 
+• Ability to learn new technologies and processes rapidly and implement them in the project.  
+Professional Experience:  
+➢ Working as IBM  July 2019 to till date.  
+ 
+Academic P rofile:  
+➢ B. TECH  from JNTU -A, with  72 of Aggregate.  
+➢ Diploma  from State Board of Technical Education & Training , with 80 of Aggregate.  
+➢ SSC from Board of Secondary Education, with 8.7 of GPA . 
+ 
+Project Details:    
+#Company : IBM(star Health Insurance)  
+#Project  
+ 
+ 
+Project Title  Star Health Insurance  
+Client  IBM 
+Role  Data Engineer  
+Team Size  7 
+Environment  Python, SQL,PySpark,R DD,PyCharm ,Data bricka, Jupyter ,HIVE ,HDFS & Bit-Bucket  
+ 
+ 
+ 
+ 

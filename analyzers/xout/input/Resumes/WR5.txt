@@ -1,0 +1,215 @@
+JANNU DAMINI			    
+
+E-mail: jannu.damini@gmail.com                                                                                            
+
+Contact-no:   9137795181 
+
+                        
+
+Professional Summary  
+
+
+
+Collaborative and Technically-minded ETL Developer with 4 years of experience. Skilled in ETL, Workiva - Cloud Reporting tool, Informatica, Datastage, SQL, Data Analysis, Reporting. Seeks the opportunity to work cross-functionally to design, develop and deploy strategies in ETL Development and Reporting.  
+
+
+
+Skills Profile :
+
+	Technical
+
+ETL Tools
+
+Informatica Power Center, Datastage, DAC
+
+Operating System
+
+Windows, Unix
+
+Database
+
+SQL, PL SQL, Teradata, MS SQL Server
+
+Languages
+
+C, C++, Java
+
+	
+
+	Professional Projects :
+
+	
+
+	Client: HONEYWELL, Company: CAPGEMINI, HYDERABAD, Associate Consultant 
+
+	
+
+Technologies: Informatica.  
+
+	
+
+OS: Windows
+
+	
+
+Duration: – Jan 2021 - Mar 2022. 
+
+	
+
+		About
+
+	HONEYWELL is a Peace organizations based in the United States. Honeywell Uranium Hexafluoride Processing FacilityKansas City PlantSandia National Laboratories are the facilities.
+
+	
+
+	
+
+		Roles and Responsibilities :
+
+	
+
+Experience in analysing the requirement and providing adequate information.
+
+Good Experience in tasks.
+
+Creating mappings, tables, Queries, Sessions, Linking.
+
+Experience in Creating Chains useful for Automation using various connectors.
+
+Experience in Presentations.
+
+Accomplished alternate solutions with project estimates.
+
+Developed application enhancements by collaborating with teams.
+
+	
+
+	RCCL Client: Royal Caribbean Cruises Ltd., Company: Capgemini, Hyderabad, Senior Software Engineer
+
+	
+
+Technologies: SQL, PL/SQL, Informatica, Unix, .  
+
+	
+
+OS: Windows, Linux 
+
+	
+
+Duration: Aug 2019 – nov 2020 
+
+	
+
+		Roles and Responsibilities :
+
+	
+
+Designed and developed Mappings using Informatica Power Center tool. 
+
+Experience in analyzing, applying transformations, creating reports.
+
+Created scheduled jobs using IBM scheduler. 
+
+Experience in BI Solutions (ETL & Reporting) using Informatica and DDL, DML, DCL commands for various business applications. 
+
+Tested the mappings to view the data got populated according to specified logics in the technical specification document. 
+
+Experience in RDBMS concepts such as Tables, User Defined Data Types, Indexes, Indexed Views, Functions, Table 
+
+Developed mapping to load data in slowly changing dimensions Update Else Insert and updated the flag columns whenever a record is inserted or updated to identify the current record. 
+
+Collaborated with all developers and business users to gather required data and execute all mappings and and implement all data warehouse activities and prepare reports for same.
+
+Improved the existing ETL Jobs with Performance tuning methods and involved in unit testing. 
+
+
+
+
+
+	ZEBRA Client: Zebra Technologies, Company: Capgemini, Hyderabad, Analyst.
+
+	
+
+Technologies: SQL, PL/SQL, Informatica.
+
+	
+
+OS: Windows
+
+	
+
+Duration: june 2018 – july 2019
+
+		 
+
+		       Roles and Responsibilities: 
+
+	
+
+Learnt about DAC – Data Warehouse Administration Console (Dev, Test and PROD) Execution plans, Task groups, Tables, Tasks. 
+
+Grasped Knowledge on Subject areas like Design, setup, Execute. 
+
+Tested the mappings to view the data got populated according to specified logics in the technical specification document. 
+
+Worked on EP failures, Status descriptions, Run times and Execution Instances. 
+
+	
+
+
+
+Academic Details :
+
+
+
+Bachelor’s Degree in Computer science (2013-2017), Vignan’s Institute of Information and Technology, Duvvada with an aggregate of 67%
+
+Intermediate in MPC, Narayana Jr College (2011-2013), Vishakhapatnam with an aggregate of 85.3%.
+
+SSC in Sri Ramakrishna School (2011), Vishakhapatnam with an aggregate of 84%.
+
+
+
+Trainings :
+
+
+
+Trained in Informatica Power Center ETL Tool
+
+Trained in Teradata Database and Oracle SQL, PLSQL
+
+Trained in Unix scripting.
+
+
+
+Certification :
+
+Completed certification on Informatica Cloud 101 and 201 in the month of May 2019. 
+
+Completed certification on Data Governance and Privacy (Foundation level) in the month of September 2020. 
+
+
+
+Key Skills :
+
+
+
+Good Problem solving skills
+
+Attention to Detail
+
+Adaptable Nature
+
+Analytical skills
+
+Communication
+
+Critical thinking
+
+
+
+Interests:   Browsing Internet, Travel, Sports.
+
+
+
+Languages:  English, Telugu, Hindi

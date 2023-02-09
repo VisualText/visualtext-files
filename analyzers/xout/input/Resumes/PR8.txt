@@ -1,0 +1,79 @@
+ 
+ 
+Good Exposure in Understanding business applications, 
+relational and fact data models. 
+Experienced in ETL/ELT Process to Extract, Transform and Load 
+the Data as per Business requirements  
+Experience In Troubleshooting By Tuning Mappings, Identify And 
+Resolve Performance Bottlenecks In Various Levels Like Source, 
+Target, Mappings, And Session. 
+Good Knowledge On Implementing Scd Type-1, Type-2, Type-3 
+Dimensional Tables, And Facts. 
+Expert In Using Different Components In Talend 
+Good Experience In Salesforce Data Migration. 
+Developing Talend Jobs In Studio And Creating Tasks, Triggers, 
+Execution Plans, Monitoring Of Jobs In Tac (Talend Administrator 
+Console). 
+Knowledge On CI / CD Implementation Using Git And Jenkins. 
+Optimising the Talend Jobs to Increase Performance. 
+Ability to Work Efficiently, with adapting latest 
+technologies/methods to fulfill Project needs 
+A Talend / ETL Developer with 2 years of Professional  experience in working 
+with Data Integration and Data warehouse projects using Talend Feeding 
+from Flat Files(AWS S3), Oracle, MySQL Server into Database (MySQL, 
+Oracle, Salesforce, Flat Files).  
+MICOLINKS SERVICES INDIA PRIVATE LIMITED  
+Location : BENGALURU - KARNATAKA  
+Position : TALEND / ETL DEVELOPER  
+Period  : DECEMBER 2020 – PRESENT 
+ 
+Completed 2 Projects on Talend ETL Process 
+Successfully Completed projects on Data Migration and 
+Business Analysis 
+ 
+DELMON INTERNATIONAL  
+LOCATION : MUSCAT - OMAN  
+POSITION  : MECHANICAL ENGINEER  
+PERIOD   : NOVEMBER 2018 – DECEMBER 2020 
+ABDUL NABI SAHEB  
+TA L E N D / E T L  D E V E L O P E R  
+T E C H N I C A L  S K I L L S  
+ W O R K  E X P E R I E N C E  
+ S O F T W A R E  S K I L L S  
+S K I I L L S  
+L A N G U A G E S  
+DEPT OF TECH EDUCATION 
+Bangalore, KA 
+Diploma,  
+May 2012 
+ 
+VISVESVARAYA 
+TECHNOLOGICAL 
+UNIVERSITY  
+Belagavi, KA 
+Bachelor of Engineering,  
+July 2017 
+Mechanical Engineering  
+ETL Tools :                          
+Talend Open Studio 
+6.2/6.4/7.3 Cloud (TOS & 
+Enterprise) 
+Programming Languages : 
+SQL, MySQL, Oracle SQL 
+Developer 
+RDBMS :                           
+Oracle, MySQL, SQL Server 
+and Salesforce 
+Operating System:                
+MS Windows 2007 / 2010, 
+MAC & Linux 
+Scheduling Tools:                
+TAC & Task Scheduler  
++91 9901166012  
+Gulbarga , Karnataka  
+textabdulnabi @gmail.com  
+E D U C A T I O N  
+English : Professional 
+Urdu : Native 
+Kannada : Regional 
+ 

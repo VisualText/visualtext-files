@@ -1,0 +1,116 @@
+Rohit Kulkarni 
+Data Engineering Analyst 
+A competent ETL developer for data Integration
+using Intelligent Informatica Cloud
+Services(IICS). I'm a passionate learner with a
+keen interest in problem-solving. Professional
+work experience in the area of Data
+Warehousing. Having an experience in
+Informatica Cloud, SQL, Snowﬂake, AWS-EMR &
+Autosys. Expertise in Business Requirements
+gathering and understanding the Business
+process ﬂow. 
+kulkarnirohit55@gmail.com 
++918390887541 
+Nagpur, India 
+17 August, 1998 
+linkedin.com/in/rohit-kulkarni-21697a79 
+WORK EXPERIENCE 
+Data Engineering Analyst 
+Accenture 
+06/2022 - Present
+, 
+ 
+Pune 
+Developed and enhanced multiple Informatica and Snowﬂake
+Database objects by writing Optimized SQL queries which
+improved the query proﬁle and time complexity to serve the
+regulatory requirements of high volume datasets. 
+Coordinated with onshore/oﬀshore , Functional & QA teams to
+analyze, develop and improve the ETL as well as produce
+accurate defect-free code. 
+Managing incidents & ensuring resolutions in timely manner on
+Rally. 
+Assisted on hotﬁx development path and managed critical
+migrations for Production via DevOps (Jenkins & GitHub). 
+Engaged closely with business, leadership and downstream
+partners in formal and informal environments to gain approvals
+and overcome obstacles. 
+Application Development Associate 
+Accenture 
+12/2020 - 05/2022
+, 
+ 
+Mumbai 
+Worked for a US-based Finance and Insurance client to develop a
+data warehousing solution from scratch to production. 
+Created IICS Taskﬂows with tuned performance by using
+Parameterization, Pushdown Optimization techniques for
+eﬃcient high volume data loads, generating ﬁle extracts using
+Spark Framework on S3 and Automation using Autosys. 
+Created system understanding/SOP document for critical
+business Database schemas which enabled standardization and
+implementation of best practices within team. 
+Achievement 
+:
+Growth Catalyst Award (Accenture ACE award) 
+EDUCATION 
+Bachelor of Engineering (ETC) 
+Yeshwantrao Chavan College of Engineering 
+2016 - 2020
+, 
+ 
+7.46 CGPA 
+HSC 
+M.P. Deo Memorial Science College 
+2014 - 2016
+, 
+ 
+76% 
+SKILLS 
+Informatica Cloud 
+Snowﬂake 
+SQL 
+AWS - EMR 
+Autosys 
+Business Understanding 
+Linux 
+Data Warehousing 
+PROJECTS 
+Robotic Spraying Machine
+ (2019 - 2020)
+ 
+Paper Published in International Journal of Scientiﬁc
+Research in Science and Technology (IJSRST) in March 2020
+issue 
+IoT Home Automation using Blynk app
+ (2018)
+ 
+Controlling of home appliances using ESP-8266 and Blynk
+app 
+CERTIFICATIONS 
+Hands On Essentials - Data Warehouse
+ (07/2022)
+ 
+Snowﬂake 
+AWS Cloud Technical Essentials
+ (04/2021)
+ 
+Coursera 
+Version Control with Git
+ (08/2020)
+ 
+Coursera 
+LANGUAGES 
+English 
+Full Professional Proﬁciency 
+Marathi 
+Native or Bilingual Proﬁciency 
+Hindi 
+Native or Bilingual Proﬁciency 
+INTERESTS 
+Badminton 
+Music 
+Cricket 
+Tasks 
+Tasks 

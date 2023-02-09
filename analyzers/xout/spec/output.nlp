@@ -1,0 +1,28 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-2-7 16:7:54
+# MODIFIED:
+###############################################
+
+@CODE
+
+L("node") = pndown(pnroot());
+L("filename") = G("$apppath") + "\\input\\X\\" + G("$inputhead") + "." + G("$inputtail");
+
+L("file") = openfile(L("filename"));
+
+# L("debugname") = G("$inputpath") + "debug.txt";
+# L("debug") = openfile(L("debugname"),"app");
+# L("debug") << L("filename") << "\n";
+# closefile(L("debug"));
+
+while (L("node")) {
+	L("file") << pnvar(L("node"),"$treetext") << "\n";
+	L("node") = pnnext(L("node"));
+}
+
+closefile(L("file"));
+
+@@CODE

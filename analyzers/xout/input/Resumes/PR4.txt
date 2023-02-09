@@ -1,0 +1,59 @@
+Prasang Agarwal                 
+ Male, 3 1 years (11.01.1991)  
+ 
+ 
+Phone: +91 -8858708888  | E-MAIL: prasang1991 @icloud .com |  Kanpur INDIA  PROFESSIONAL EXPERIENCE  
+A competent professional in Data warehousing and SDLC including Requirement Analysis, Designing, Development, 
+Testing and Postproduction  Support using ETL Informatica  Power Center , IICS,  SQL, Oracle, MySQL, TeraData, 
+Tableau . Microsoft Certified: Azure Data Fundamentals  
+ 
+Information systems exports (KPSL iTechpath Private Limited) – System consultant   (May’2022  – Nov’2022 ) 
+ 
+Project: ETL developer  for shipping industry giant.  
+•  Working as a developer  task member for the project where the work is done  on ETL Informatica Intelligent Cloud Services  
+(IICS), SSMS, Tableau  and Cognos  BI, Automate Scheduler , Jira  tools   
+• Interact with the US based client daily  acting both as system and business consultant while providing system support as 
+needed.  
+• Monitor incidents to ensure proper incident management time standards are achieved  as all the work is based on tickets  
+• Follow proper escalation process  based on  priority of the incident s and ticket s  
+• Working on system  enhancement , failover  issues and minor enhancement as the pr imary task s 
+ 
+Subhash Agro Industries Pvt. Ltd. – Manager                                                                               (Sep’2017 – Apr’ 2022) 
+ 
+• Managing  the production as per the orders  to ensure the timely production of goods  
+• Managing  the staff to en sure the quality of the products  
+ 
+Accenture – Application Development Analyst                                                                          (Aug’ 2013 – July’ 2017) 
+ 
+Project 1: Architecture & testing phase designing & implementation for Finance club                                    (Jun’ 2016 – July’ 2017) 
+ 
+• Methodology changes  from Development to Architecture, testing phase design & implementation in environment  where 
+very few members know about the Informatica  tool. 
+• Working as an ETL testing lead  on Informatica  power center  for Data Migration  
+• Delivered defect free module from system testing phase to system integration testing phase  
+• As having knowledge from my previous project my suggestions lead the team to save 200+ hours  of effort  
+ 
+Project 2: Development  on Agile based delivery  methodology for a  telecommunications firm                         (Feb’ 2015–May’ 2016) 
+ 
+● Sharp learning curve  with Agile Methodology  in an environment with very high expectations  
+● Completed multiple end -to-end developments on agile based initiatives  as an ETL developer /tester  on Informatica  PC 
+● Responsible  for deciding priority of deliverables  to improve the delivery efficiency within a fixed timeline  
+ 
+Project 3: Designing the Delivery Change Requests for a multinational telecommuni cations firm                        (Jun’2013 – Jan’2015) 
+ 
+● Responsible for designing , developing  & testing the entire delivery pipeline  for the client   
+● Turned around  the project through innovative  ideas that saved the client 100s of hours and lots of analysis  
+● Expected to develop an insightful Data flow  with relevant business insights related to historical data optimization, 
+maximizing quality data as output to make it useful for Business reporting and analysing  purpose  
+● Consistently appreciated  for understanding the client requirements , client expectations  and coming up with creative and 
+practical ideas to include in the business solution by reducing effort on final Business reporting analysis  
+● Learnt  lots of new tools like MKS  a version Control System, HP Quality Centre  a test management and business process 
+testing tool, ACRE  a Requirement Analysis Tool, GIT hub  another version control system  and UNIX  as a self -learning to 
+improve the quality of deliverables & teach that to the team as the entire project came up new to the Accenture  
+● Created many Project Management Excel  reports  using M acros  to manage the different requirement like managing the 
+client billing & reports for send ing to client about t he status workflows running status & availability of records for reporting  
+● Work is done on Informatica Power Center , Oracle.  
+ 
+Accenture –Intern                                                                                                                                  (Feb’ 2013 – Aug’ 2013)             
+● Learned about tools like Informatica as an ETL & SAP Business Object  through a month -long  intensive training program me 
+● Got a chance to join live project for a health care  Insurance  Giant  
