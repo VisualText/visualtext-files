@@ -1,0 +1,133 @@
+Khaja Reddy
+
+		
+
+					   		    Email: khajareddych@yahoo.com
+
+		                   Mobile: +91 6362887305
+
+		
+
+PROFILE SUMMARY
+
+		Having 4 years of experience in Python development.
+
+		Strong experience in Python development with different frameworks and libraries like Flask, REST API, Numpy, Pandas etc.
+
+		 Strong knowledge on HTML, CSS, JavaScript, PySpark.
+
+		Strong experience in Agile methodology.
+
+Strong Experience in Debugging.
+
+		Experience in implementing python code using OOPs concepts.
+
+		Experience in Test case Automation, script development 
+
+		Strong experience in writing Ansible playbooks.
+
+		Experience in Amazon AWS, Google Cloud Services python libraries.
+
+		
+
+TECHNOLOGY EXPERIENCE
+
+Operating Systems		 :     LINUX, Windows 10
+
+Scripting Languages		 :     Python, Java Script, PySpark, Ansible
+
+Web Frameworks		 :     Flask, Django
+
+Database              		 :     MySQL, Sqlite3
+
+Design				 :     HTML, CSS
+
+Domain Skills      		 :     DTV, Automation
+
+Tools   	     			 :     Perforce, Bugzilla, Jira
+
+Version control			 :     SVN, Git
+
+		
+
+PROFESSIONAL EXPERIENCE
+
+
+
+Working as Sr. Python Developer  at TCS from July 2018 to till date
+
+
+
+EDUCATION
+
+
+
+M.B.A from Bharathidasan University in June 2009 
+
+B.Sc  from S.V.University  in June 2007
+
+
+
+
+
+PROJECTS
+
+
+
+Sr. Python Developer, Alliance Technosoft Private Limited::
+
+Oct 2020 to Till Date
+
+Environment: Python, Ansible, REST API, Linux
+
+
+
+This project is to automate the day to day activities of the team by providing  feasible and efficient automation solutions in different environments like different Manufacturers, configuration and python versions. Automation of host OEL7 upgrades activity. Generating Incidents, Work Orders, and tasks to the Hardware Team. Monitoring the health status of the hosts across the environment.
+
+
+
+Responsibilities:
+
+ Gathering the requirements from the team as well as customers on need basis.
+
+ Preparing the Design Document for each requirement.
+
+ Developing the code as per the requirements
+
+ Perform the unit testing on the implemented the code
+
+ Audit of the Git repose  for security vulnerabilities.
+
+
+
+
+
+Python Developer, Play station Automation
+
+July 2018 – Sep 2020
+
+Environment: Python
+
+
+
+		                The NGP is the next generation gaming product from SONY. The DM API is used to communicate with development kit by using DM Server. The DM API attempts to communicate with a DM Server running in the current user session. If no server is running, the DM API creates a new instance of the server by searching the system search path for the server executable. 
+
+			DM Server stores configuration and log files in the LocalAppData location. It also copies the kernel crash logs in the same location. The DMS tool is the server which manages the targets through windows explorer. It also communicates with targets through command prompt. There are thousands of commands to control the Console. This project concentrates to develop the automation of the DMS tool commands. 
+
+		Responsibilities: 
+
+		Understanding Requirement specification & standards.
+
+		Design and development using Python on Windows environment.
+
+		Review design and code developed by team members.
+
+		Analyze the issue and confirm the defect found by the client.
+
+		Integrate the code into automation system.
+
+		Creating and maintaining Defect Reports using Bugzilla
+
+
+
+1

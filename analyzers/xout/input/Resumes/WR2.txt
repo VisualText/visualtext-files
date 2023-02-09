@@ -1,0 +1,259 @@
+DIVYA RAJAGOPAL				Email id: divyaraj.ably@gmail.com
+
+    							Ph. no: +91-8892486178
+
+
+
+SUMMARY
+
+To associate myself in a competitive and challenging environment where I can serve the organization applying my professional skills and establish a challenging career for myself.
+
+AREA OF EXPERIENCE
+
+Pyspark
+
+Unix Shell Scripting
+
+Service Now Incident and change Management
+
+Autosys
+
+Requirement Gathering and Analysis 
+
+Application development & Support
+
+Unit testing
+
+Jira ,Hue, feedhub, actimizer
+
+Github & Jenkins
+
+WORK EXPERIENCE
+
+TATA CONSULTANCY SERVICES Ltd:
+
+IT Analyst (APRIL’17 – Till Now (5yrs & 4 Months)):
+
+LIST OF PROJECTS & ROLES INVOLVED
+
+
+
+BFS Domain – ETL to Bigdata Migration for a Canada Major Bank (Feb 2020 – Present Date)
+
+
+
+ETL to Pyspark Migration – Development & Testing
+
+
+
+Project Description:
+
+
+
+Financial Crime Management & Technology (FCMT)
+
+	This project is about processing and identifying the list of transactions that are found to be suspicious or fraudulent and generate a detailed report specific to the customer account. Also, we do process and generate customer credit risk management reports based on the credit history of a customer to maintain the sufficient funds allocated from General ledger. 
+
+ 
+
+
+
+
+
+Responsibilities:
+
+Involved in requirement analysis during design phase along with ETL developers.
+
+Understanding the source, target and transformation logics followed in ETL (Abinitio).
+
+Develop the code in Pyspark to migrate the ETL transformations to obtain similar results.
+
+Good Knowledge in performing wide transformations like join, group by functions.
+
+Comparing the intermediate results to match with the legacy (ETL) code output.
+
+Creating the UDF to performing typecasting and other functions wherever required. 
+
+Developed code to handle aggregate and windowing functions in Pyspark.
+
+Performing unit testing in Pyspark.
+
+Optimize the code to yield better performance compared to existing ETL code.
+
+Analyzing issues in production and resolve the same within SLA.
+
+Reading and writing the source and targets into AWS S3.
+
+
+
+
+
+
+
+BFS – Application Development and support for a Canada Major Bank 
+
+AUTOSYS Jobs scheduling and Monitoring
+
+
+
+CA-Autosys (4.5.1/11.3.5)
+
+Add, change and/or remove jobs from Autosys instances as requested by customer.
+
+Experience with Autosys batch scheduling utility
+
+Good knowledge on  the various Autosys job types: File watchers, Commands, and Boxes, as well as an in-depth understanding of Autosys job dependency functionality
+
+Creating & Maintaining calendars, users and groups using AUTOSYS_SECURE, AUTOCAL_ASC Utilities.
+
+Performing actions on the Jobs like Force Start, On-ICE, Off-ICE, On-Hold, Off-Hold, Change Status like Kill, Terminate, and Success
+
+Good knowledge of the following Autosys commands: autocal, autocal_asc, jil, autorep, job_depends
+
+Provide Autosys reports and/or data upon request from customers.
+
+Monitor customer jobs and notify customers regarding job failures following established processes.
+
+Notify/Escalate to teams as needed to resolve Autosys monitoring or scheduling issues
+
+Coordinate with the vendor to resolve agent errors and issues as needed
+ Status reporting on a daily/weekly basis
+
+Monitoring and making the jobs ready for next run (daily, weekly, monthly, quarterly and yearly batches).
+
+Identify and resolve gaps in existing batch processes that enable timely issue identification and troubleshooting (e.g., batch job documentation, alerting tools etc.)
+
+
+
+
+
+
+
+Unix Application Support
+
+
+
+Good experience in Handling Incidents and implementing change requests
+
+Worked on Maintaining Unix server and rebooting whenever required.
+
+Analysis of Job failures using the log files and remediating the issue.
+
+Handled various File transfer request between servers via FeedHub application.
+
+Have basic knowledge in python as we have started migration in current project.
+
+Front end support on tools such as Informatica ,SQL, autosys
+
+Doing health check for the prod environment to make it is stable
+
+Experience in WebLogic server activities
+
+Work with internal and external teams for file transferring and end to end success
+
+Informatica session and workflow monitoring and working with application development team
+
+
+
+
+
+
+
+
+
+Retail Domain – Application Development and Production support for Batch jobs (Apr’17 to Oct’18)
+
+Unix Shell scripting and Production support 
+
+
+
+Analysis of issues with production unix shell scripts
+
+Provision of Code fix and deployment into production server
+
+Job Monitoring and Analysis
+
+Shell script development as part of  POC/Automation.
+
+ALCHEMY TECHSOL Pvt Ltd (Worked for Accenture):
+
+
+Application Support Engineer (Dec’14 –Mar’17):	
+
+LIST OF PROJECTS & ROLES INVOLVED
+
+Unix Shell Script Development and Automation
+
+
+
+Hands on experience in independently developing Unix shell scripts for automation.
+
+Good knowledge on all the unix commands like sed, awk etc.
+
+Hands on experience in writing conditional statements and loops in shell scripts.
+
+Worked on sqlplus utility to connect to oracle database to execute SQL procedures.
+
+Developed scripts to automate the process of collecting information about unresolved tickets post SLA deadline.
+
+Worked on shell scripts that trigger mails to associates about the status using sendmail utility.
+
+Using shell script generated a generic report to track and monitor the incidents/tickets and associated status information that was of major use during service now down time
+
+
+
+
+
+EDUCATION
+
+Degree
+
+Name of Institute
+
+Year of Passout
+
+Percentage
+
+BE ECE
+
+Dr.Thimmaiah Institute of Technology, KGF.
+
+2014
+
+67%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DECLARATION
+
+   	  I hereby declare that the above-mentioned details are true to my knowledge and beliefs.
+
+
+
+PLACE: Chennai                                                                                        			 SIGNATURE                                                                  DATE:

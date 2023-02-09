@@ -1,0 +1,113 @@
+CH SRINIVASLU
+
+Email: chithiralasrinuvasulu@gmail.com
+
+Phone NO: 9502093703
+
+	
+
+
+
+Around 4+ years of experience in Big Data Application Development using Pyspark, Python and Hadoop, Hadoop Eco systems: HDFS, Hive, Sqoop, Oozie.
+
+Hands-on experience in Python programming and Pyspark components like Pyspark-core,
+
+            Spark-SQL and SparkStreaming.
+
+Worked on creating the RDDs, DFs for the required input data and performed the data transformations using Pyspark.
+
+Hands on experience in getting data from different sources to HDFS.
+
+Hands on experience creating different types of data into Data Frames.
+
+Hands on experience in writing Hive scripts using HQL.
+
+Hands on experience in Sqoop to import and export the data from HDFS to RDBMS & RDBMS to HDFS.
+
+Good experience in implementing business logic, optimizing queries using HiveQL.
+
+Good experience in using performance tuning techniques in Hive.
+
+Performance tuning for Sqoop Job
+
+Experience in supporting/handling agile projects.
+
+Having good knowledge on Shell scripting.
+
+ Professional Experience 
+
+Software Engineer at TATA CONSULTANCY SERVICES from JULY 2018 to till date.
+
+
+
+Technical Skills
+
+
+
+	Primary Skills		:    Pyspark, Hadoop, HDFS, Hive, Sqoop, SparkSQL
+
+	Languages   		:    Python
+
+Database		            :    Oracle, MySQL, Teradata and MongoDB Compass
+
+IDE			:    Pycharm
+
+Scripting Language           :      Shell Script
+
+Scheduler		             :    Oozie
+
+
+
+
+
+	Educational Qualification
+
+B.Tech (CSE) – Bachelor of Technology in (Computer Science and Engineering)
+
+From JNTUK UNIVERSITY, KAKINDA in 2014.
+
+
+
+		Project
+
+		#PROJECT:1
+
+			Client			: Development Bank of Singapore (DBS)
+
+			Project Title			: Singularity
+
+			Team			: 15
+
+			Duration 			:  July 2018 to till Date
+
+			Environment			: Hadoop, HDFS, Hive, Sqoop, Oozie, Pyspark, Spark SQL,
+
+		                                                   Teradata, Oracle and CDH.
+
+			Description
+
+		In Singularity it deals with related to risk and financial department which consolidate data from different source system including loan accounting, equity and other data into single unified system where these data will send to down streams. In downstream again they are going to merge tables and promote required columns for a particular use case like Card, Account holder, etc.
+
+Responsibilities:
+
+Loaded data from Teradata, a relational database to HBASE on regular basis using Sqoop Import/Export.
+
+Analyzing the source systems data before loading into HDFS.
+
+Using Sqoop we are ingesting data from Teradata to HDFS
+
+Involved in data loading and validating the data fields as part of data loading.
+
+Worked on Sparksql and Hive job development to process the data with respect to different customer’s data on their personal data in different financial services.
+
+Involved in writing the Hive Scripts to further process the data
+
+Worked on Hive Script development which includes Partitioning and Bucketing.
+
+Involved in Mysql Metastore configuration for hive as an external metastore.
+
+Worked on HIVE- Integration-Spark SQL scripts for performance enhancement
+
+Worked on DataFrame Development as part of SparkSQL.
+
+6

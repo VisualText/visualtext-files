@@ -1,0 +1,19 @@
+###############################################
+# FILE: words
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-2-7 15:40:23
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+	if (strisupper(N("$text")))
+		pnrename(N(1),"X");
+	else
+		pnrename(N(1),"x");
+@RULES
+_xNIL <-
+	_xALPHA
+	@@

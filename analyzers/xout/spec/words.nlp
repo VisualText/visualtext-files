@@ -1,0 +1,25 @@
+###############################################
+# FILE: words
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-2-7 15:40:23
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+	L("word") = N("$text");
+	L("len") = strlength(L("word"));
+	while (L("i") < L("len")) {
+		L("let") = strpiece(L("word"),L("i"),L("i"));
+		L("x") = "x";
+		if (striscaps(L("let"))) L("x") = "X";
+		L("str") = L("str") + L("x");
+		L("i")++;
+	}
+	pnrename(N(1),L("str"));
+@RULES
+_xNIL <-
+	_xALPHA
+	@@

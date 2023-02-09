@@ -1,0 +1,88 @@
++91 8989409415    
+shriakhil24@gmail.com    
+Gwalior, Madhya P radesh    
+linkedIn/akhil -shrivastava    
+ 
+Akhil Shrivastava  
+Software Engineer  
+ 
+  
+ 
+ 
+  WORK EXPERIENCE  
+Accenture - Application Development Analyst   
+March 2021 – Present  
+ 
+Created large scale & optimized pipelines for financial transactions data 
+using PySpark, hdfs, AWS S3 , Databricks  
+Worked closely with client in order to get business requirements.  
+Implemented business logics to prepare clean & aggregated data for 
+transaction processing , this data is further used to analyze shoppers’ 
+behavior.  
+Worked on creating visuals in Databricks SQL, using SQLs which refreshes 
+data based o n timely triggers.  
+ 
+ 
+RWS Moravia – Software Engineer  
+June 2018 - Nov 2020  
+ 
+Integrate d data from cloud storage, local files and APIs and then mash -
+up with  sales information to deliver insights to the business with  the aim of 
+improving sales and reducing cost. This project has a highly scalable  
+distributed cloud -based solution using pySpark . 
+Involved in creating data ingestion scripts using pySpark based on the 
+requirements as per Jira Stories.  
+Jira is used as project management tool . 
+ 
+ 
+Other Proj ect  
+IBM Data Science Capstone Project — Battle of the Neighborhoods  
+ 
+Problem statement was to determine potential new restaurant loc ations 
+in New York.  
+Gathered NY restaurants data from FourSquare API, neighborhoods and 
+maps data from Kaggle datasets.  
+Implemented unsupervised - K-mean clustering to cluster neighborhoods 
+with based on independent variables.  
+ 
+ 
+  EDUCATION  
+• B.E. Information Technology – 7.73 CGPA                                             
+Samrat Ashok Technological Institute , Vidisha (RGPV)  2014 -2018 
+ 
+• XII – 82 %                                 Kendriya Vidyalaya Shivpuri (M.P.)  2013  
+ 
+• X – 10.00 CGPA               Kendriya Vidyalaya Shivpuri (M.P.)  2011  
+ Certifications  
+• Databricks Certified Data 
+Engineer Associate  
+• AWS Certified Developer 
+Associate  
+• Databricks Accredited 
+Lakehouse Fundamentals  
+Programing Language s 
+Python, C#, Java, Typescript, 
+Java Script, C++, C  
+ 
+Big Data Frameworks  
+Databricks, Spark, Hadoop, Hive, 
+Kafka, S QL 
+ 
+Web Development  
+HTML, CSS, SCSS, Angular, 
+DotNet Core  
+ 
+Other Skills  
+AWS,  Logic Apps,  EMR, S3, EC2,  
+SNS, SQS,  Kafka , SAFe, Scaled 
+Agile,  Git, Bitbucket, Jira, 
+Confluence  
+ 
+  AWARDS  
+• Crown of Fortnight  for client 
+delivery – RWS Moravia  
+ 
+Additional Information  
+• Date of Birth: 24 Oct 1995  
+• Nationality: Indian  
+• Marital Status: Unmarried  
