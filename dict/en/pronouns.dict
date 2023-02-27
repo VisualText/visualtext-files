@@ -17,14 +17,13 @@ everyone pos=pro
 everything pos=pro
 few pos=pro
 fonds pos=pro
-he pos=pro
-her pos=pro
-hers pos=pro
-herself pos=pro
-him pos=pro
-himself pos=pro
-his pos=pro
-hisself pos=pro
+her pos=pro gender=female
+hers pos=pro gender=female
+herself pos=pro gender=female
+he pos=pro gender=male
+him pos=pro gender=male
+himself pos=pro gender=male
+his pos=pro gender=male
 it pos=pro
 itself pos=pro
 me pos=pro
@@ -43,7 +42,7 @@ oxalating pos=pro
 philtering pos=pro
 same pos=pro
 several pos=pro
-she pos=pro
+she pos=pro gender=female
 some pos=pro
 somebody pos=pro
 someone pos=pro
@@ -66,7 +65,6 @@ thou pos=pro
 thyself pos=pro
 tother pos=pro
 us pos=pro
-voces pos=pro
 we pos=pro
 what pos=pro
 whatever pos=pro

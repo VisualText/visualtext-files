@@ -279,7 +279,7 @@ DisplayAttributes(L("file"),L("con"),L("display type"),L("level")) {
 		while (L("vals")) {
 			if (!L("first"))
 				L("file") << ",";
-			else if (L("count") > 1)
+			else if (L("type") != 2 && L("count") > 1)
 				L("file") << "[";
 
 			if (L("type") == 1) {
