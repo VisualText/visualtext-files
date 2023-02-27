@@ -1,0 +1,105 @@
+# USA States & Abbrivations
+alabama s=state abbrev=AL
+alaska s=state abbrev=AK
+arizona s=state abbrev=AZ
+arkansas s=state abbrev=AR
+california s=state abbrev=CA
+colorado s=state abbrev=CO
+connecticut s=state abbrev=CT
+delaware s=state abbrev=DE
+florida s=state abbrev=FL
+georgia s=state abbrev=GA
+hawaii s=state abbrev=HI
+idaho s=state abbrev=ID
+illinois s=state abbrev=IL
+indiana s=state abbrev=IN
+iowa s=state abbrev=IA
+kansas s=state abbrev=KS
+kentucky s=state abbrev=KY
+louisiana s=state abbrev=LA
+maine s=state abbrev=ME
+maryland s=state abbrev=MD
+massachusetts s=state abbrev=MA
+michigan s=state abbrev=MI
+minnesota s=state abbrev=MN
+mississippi s=state abbrev=MS
+missouri s=state abbrev=MO
+montana s=state abbrev=MT
+nebraska s=state abbrev=NE
+nevada s=state abbrev=NV
+new hampshire s=state abbrev=NH
+new jersey s=state abbrev=NJ
+new mexico s=state abbrev=NM
+new york s=state abbrev=NY
+north carolina s=state abbrev=NC
+north dakota s=state abbrev=ND
+ohio s=state abbrev=OH
+oklahoma s=state abbrev=OK
+oregon s=state abbrev=OR
+pennsylvania s=state abbrev=PA
+rhode island s=state abbrev=RI
+south carolina s=state abbrev=SC
+south dakota s=state abbrev=SD
+tennessee s=state abbrev=TN
+texas s=state abbrev=TX
+utah s=state abbrev=UT
+vermont s=state abbrev=VT
+virginia s=state abbrev=VA
+washington s=state abbrev=WA
+west virginia s=state abbrev=WV
+wisconsin s=state abbrev=WI
+wyoming s=state abbrev=WY
+
+# ABBREVIATIONS
+
+al s=state abbrev=1 state=alabama
+ak s=state abbrev=1 state=alaska
+az s=state abbrev=1 state=arizona
+ar s=state abbrev=1 state=arkansas
+ca s=state abbrev=1 state=california
+co s=state abbrev=1 state=colorado
+ct s=state abbrev=1 state=connecticut
+de s=state abbrev=1 state=delaware
+fl s=state abbrev=1 state=florida
+ga s=state abbrev=1 state=georgia
+hi s=state abbrev=1 state=hawaii
+id s=state abbrev=1 state=idaho
+il s=state abbrev=1 state=illinois
+in s=state abbrev=1 state=indiana
+ia s=state abbrev=1 state=iowa
+ks s=state abbrev=1 state=kansas
+ky s=state abbrev=1 state=kentucky
+la s=state abbrev=1 state=louisiana
+me s=state abbrev=1 state=maine
+md s=state abbrev=1 state=maryland
+ma s=state abbrev=1 state=massachusetts
+mi s=state abbrev=1 state=michigan
+mn s=state abbrev=1 state=minnesota
+ms s=state abbrev=1 state=mississippi
+mo s=state abbrev=1 state=missouri
+mt s=state abbrev=1 state=montana
+ne s=state abbrev=1 state=nebraska
+nv s=state abbrev=1 state=nevada
+nh s=state abbrev=1 state="new hampshire"
+nj s=state abbrev=1 state="new jersey"
+nm s=state abbrev=1 state="new mexico"
+ny s=state abbrev=1 state="new york"
+nc s=state abbrev=1 state="north carolina"
+nd s=state abbrev=1 state="north dakota"
+oh s=state abbrev=1 state=ohio
+ok s=state abbrev=1 state=oklahoma
+or s=state abbrev=1 state=oregon
+pa s=state abbrev=1 state=pennsylvania
+ri s=state abbrev=1 state="rhode island"
+sc s=state abbrev=1 state="south carolina"
+sd s=state abbrev=1 state="south dakota"
+tn s=state abbrev=1 state=tennessee
+tx s=state abbrev=1 state=texas
+ut s=state abbrev=1 state=utah
+vt s=state abbrev=1 state=vermont
+va s=state abbrev=1 state=virginia
+wa s=state abbrev=1 state=washington
+wv s=state abbrev=1 state="west virginia"
+wi s=state abbrev=1 state=wisconsin
+wy s=state abbrev=1 state=wyoming
+
