@@ -206,6 +206,13 @@ ChildCount(L("con")) {
 #      2 compact without ellipses on long attr values
 ###############################################
 
+SaveToKB(L("con"),L("name")) {
+    L("filepath") = G("$kbpath") + L("name") + ".kbb";
+    L("file") = openfile(L("filepath"));
+    SaveKB(L("file"),L("con"),2);
+    closefile(L("file"));
+}
+
 SaveKB(L("file"),L("top con"),L("display type")) {
 	DisplayKBRecurse(L("file"),L("top con"),0,L("display type"));
 	L("file") << "\n";
@@ -373,6 +380,42 @@ DictionaryWord(L("word"),L("attrName"),L("value"),L("attrType")) {
 DictionaryEnd() {
 	G("attrs") << "\nquit\n\n";
 	closefile(G("attrs"));
+}
+
+OrderByCount(L("words"),L("order")) {
+    L("done") = 0;
+    L("sanity") = 0;
+    while (!L("done")) {
+        L("done") = 1;
+        L("conmax") = 0;
+        L("max") = 0;
+        L("word") = down(L("words"));
+        while (L("word")) {
+            L("check") = numval(L("word"),"checked");
+            if (!L("check")) {
+                L("done") = 0;
+                L("count") = numval(L("word"),"count");
+                if (L("count") > L("max")) {
+                    "max.txt" << conceptname(L("word")) << " " << L("count") << "\n";
+                    L("max") = L("count");
+                    L("conmax") = L("word");
+                }
+            }
+            L("word") = next(L("word"));
+        }
+        if (!L("done") && L("conmax")) {
+            L("word") = conceptname(L("conmax"));
+            L("con") = makeconcept(L("order"),L("word"));
+            if (!spellword(L("word"))) {
+                addnumval(L("con"),"unknown",1);
+            }
+            addnumval(L("con"),"count",L("max"));
+            addnumval(L("conmax"),"checked",1);
+        }
+        if (L("safety")++ > 300) {
+            L("done") = 1;
+        }
+    }
 }
 
 @@DECL
