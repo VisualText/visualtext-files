@@ -1,0 +1,20 @@
+###############################################
+# FILE: init
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-2-9 8:24:36
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("words") = getconcept(findroot(),"words");
+G("worder") = getconcept(findroot(),"worder");
+G("known") = getconcept(findroot(),"known");
+G("korder") = getconcept(findroot(),"korder");
+G("unknown") = getconcept(findroot(),"unknown");
+G("uorder") = getconcept(findroot(),"uorder");
+G("abbrev") = getconcept(findroot(),"abbrev");
+G("aorder") = getconcept(findroot(),"aorder");
+
+@@CODE

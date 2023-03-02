@@ -1,0 +1,29 @@
+Swapnali Sharad Onkar  
+                                                                                                                             Mobile:  8793575628  
+                                                                                                                             E-mail:swapnali1990onkar @gmail.com  
+OBJECTIVE:  
+I am seeking a challenging career where I can use my knowledge, sk ills and abilities at their best potential wa y.                   
+I have  4+ years of extensive experience in ETL (Extract Transform Load), Data Integration,  Data Mapping, Data 
+Warehousing using Informatic a and Oracle technology . 
+PROFESSIONAL  SUMMARY:  
+• Having  4.2 years  of experience  in IT industry  as a Software  Engineer  in implementation  of Data  
+warehousing  projects  Using  ETL Tool Informatica  with Oracle.  
+• Good  exposure  in Datawarehouse  Architecture,  SQL and PL/SQL  for continuous  data  ingestion.  
+• Worked  on to Implementing  SCD Techniques  like slowly  changing  dimensions  (type1,  type2).  
+• Expertise  in developing  ETL processes to  extract,  transform and  load data  from  various sources and       archive  
+systems  into Data  Warehouse  and Data  Marts  using  Informatica  with  Oracle . 
+• Worked  with  different  data  sources  like Flat Files  and Relational  Databases.  
+• Strong  Experience  on Repository  Manager,  Mapping  Designer,  Mapplet  Designer,  Transformation  
+Developer, Workflow Manager  and Workflow  Monitor.  
+• Worked  on designing  and developing  mappings  from  varied  transformation  logic  like Unconnected a n d 
+Connected  lookups,  Router,  Filter,  Expression,  Aggregator,  Joiner,  Update  Strategy  etc. 
+• Worked  on Performance  Tuning  the mappings.  
+• Worked  on mapping  re-usability  using  Mapping  Parameters  and Mapping  Variables.  
+• Experience  in developing  Test  Plans,  Test  Strategies  and Test  Cases  for Data  Warehousing  projects  ensuring  
+the data  meets  the business  requirements,  good  work  experience  in SQL, PL/SQL,  UNIX  
+• Good  knowledge  in Informatica  architecture  and components.  
+• Extensively  used ETL  methodology  for supporting  Data  Extraction,  Transformation  and Loading        processing , in 
+a corporate -wide -ETL Solution using  Informatica.  
+• Strong  understanding  of relational  database  concepts  like Oracle , Sql server  and Oracle . 
+• Experienced  in implementing  the business  rules  using  Unix  Scripts. 
+ 

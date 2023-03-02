@@ -1,0 +1,123 @@
+NISHANT GARG
+
+
+
+Software Developer with 4.5+ Years of Experience
+
++91-9121870901    nishantgarg76342@gmail.com
+
+
+
+	LinkedIn: linkedin.com/in/nishant-garg-b6046a129
+
+	
+
+	Github: github.com/GargNishant
+
+SUMMARY
+
+	Experience in making Small to near Medium Scale infrastructures
+
+	Working Experience with 20+ Microservices and 500+ Lambda services
+
+	Optimized Cloud Costs of 3K USD per month
+
+	Worked extensively on Python using libraries and various Rest Framework
+
+	Scaling Backend to allow 10K Reads Per Second using DB Replication
+
+	Extensive usage of Spot Instances for various problems + Custom AMI
+
+	
+
+SKILLS
+
+AWS: VPC, EC2, Fargate, Serverless, Lambda, SQS, SNS, Database, S3, Athena, Aurora, CloudWatch, ASG
+
+Backend: Python, Django, Flask, FastAPI, Web Scraping, RabbitMQ, Load Balancer
+
+DevOps: Docker, Ansible, Jenkins, CI/CD, Shell Script
+
+Database: MySQL, PostgreSQL, RDS, DocumentDB, MongoDB
+
+Others: Data Structures, Algorithms, Git
+
+
+
+EXPERIENCE
+
+Cloudwiry
+
+2021 Nov - Present
+
+Backend Development
+
+Worked extensively on Optimizing Cloud Costs, creating savings up to 3k USD per month
+
+Experience in working with 20+ Microservices and 500+ Lambda Services
+
+Building Serverless Architecture on AWS Cloud using Lambda using Python FastAPI and Boto3
+
+Experience with S3, Athena, Step Functions, RDS, DocumentDB
+
+Worked with Spot Instances as nodes for Jenkins CI CD Pipeline and reducing costs by 90%
+
+Extensively used CloudWatch Metrics
+
+Worked with Read Replications on Database which allowed to Scale 10k Reads Per Sec
+
+Experience in Content Delivery Networks to minimize latency by 10%
+
+Usage of Replication for Data Storage and Compute Service for Fault Tolerance and High Availability
+
+
+
+Aidetic Software Pvt Ltd
+
+2020 Dec - 2021 Nov
+
+Backend Development
+
+Worked on Django, Flask, Web Scraping, Scripting, PostgreSQL in 5+ Projects
+
+Worked Extensively on RabbitMQ to communicate between different Microservices
+
+Used Advanced RDBMS concepts like Replication, Partitioning and Backups of PostgreSQL
+
+Usage of Triggers, Procedures, Keys, in PostgreSQL
+
+Experience in NGINX as a Load Balancer, Reverse Proxy, Proxy Pass
+
+DevOps Engineering
+
+Worked on DevOps stack which includes Dockers, Docker Swarm, Jenkins, Ansible, Shell Scripts
+
+Implemented CI CD pipeline using Bitbucket and Jenkins and Docker
+
+
+
+ZestIOT Technologies
+
+2018 June- 2020 Dec
+
+Backend Development
+
+Worked on Django Rest Framework with MySQL and RabbitMQ, using Python
+
+Processing large amount of IOT Data being stored in DB in real time
+
+Mobile Development
+
+Worked on Creating and Maintaining the application in Android using JAVA language
+
+Creating and implementing MVVM architecture for scaling of the application
+
+
+
+EDUCATION AND CERTIFICATION
+
+	B.E in C.S. from RCET	 2017
+
+	12th CBSE Board from SSV	2013
+
+	Completed Course on Android by Udacity	2017

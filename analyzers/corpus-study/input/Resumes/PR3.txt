@@ -1,0 +1,38 @@
+  
+  
+ 
+  VeeraPrasad Manubo lu                             Email : manuboluveeraprasad08 @gmail.com   
+                                                                                                  Mobile : +91 630295 5654    
+   
+CAREER OBJECTIVE:    
+   
+To pursue a challenging, innovative, and responsible career in the field of 
+computer software to become a successful programmer.    PROFESSIONAL 
+SUMMARY:    
+   
+ Having 4. 2 years of experience as Python developer.    
+ Experience in building REST APIs , API design and development using Django framework.    
+ Experience in Front end development with HTML and CSS.  Experience in Database 
+technologies like PostgreSQL, and MYSQL  Hands on experience on using python 
+modules ( Numpy,pands ).   
+ Committed, goal oriented, & learns new things & technologies.    
+ Ability to handle multiple tasks and assignments concurrently in cross -functional teams and a 
+flexible team player able to communicate with all levels of personnel.    
+   
+EDUCATION:   
+   
+ B-tech in Electronics and Communication Engineering  from JNTU K in 201 8.   
+   
+TECHNICAL SKILLS:    
+   
+Languages    Python    
+Frameworks    Django,RestApi.    
+Web Technologies    HTML, CSS, JSON, XML.    
+SCM and Tools    Git, GitHub    
+Technical Tools     PyCharm, Jupiter Notebook, JIRA    
+Database    MySQL, PostgreSQL,Orm.    
+Operating Systems    Windows.    
+    
+   
+ 
+ 

@@ -1,0 +1,50 @@
+  
+SAHANA T S  
+Bangalore, Karnataka  
+Mob :7892377497, E -mail: sahanateligi@gmail.com  
+______________________________________________________________________________  
+ 
+PROFESSIONAL SUMMARY  
+ 
+Passionate Engineer with  over all 5 years of experience in IT firm out of which 1.5 years of experience in 
+the areas of  PySpark/Python Programming and SQL, build, monitor and analyze data Pipelines tools like 
+Contour, Code Repositories, Health Checks, Lineage Graph on Palantir platform.  
+ 
+ORGANIZATION  
+ 
+Tata Consultancy Services  (TCS), working since 2017 August  
+ 
+SKILLS  
+ 
+Pyspark/Python Programming, SQL , Data tools like Code repositories, Contour dash boards , Data Lineage  
+(Lineage  Graph),  Data Pipelines, Data Connection,  Azure Devops  
+ 
+ 
+PROFESSIONAL EXPERIENCE  
+ 
+Currently working with Tata Consultancy Services, Bangalore ( since August  2017)  
+ 
+Project 1 ( Current Project)  
+ 
+Role : Data Engineer  
+ 
+Technology : Pyspark, Python, SQL, Spark/SQL  
+ 
+Platform : Palantir/Foundry  
+ 
+Description : Reinsurance Project where huge large data flows in batch (Quarterly) into Palantir Platform  
+from different clients   and data is corrected as per requirement.  
+ 
+• Experience in onboarding new client and Ingesting data into Palantir using SFTP Data connection 
+from different da ta sources.  
+• Implemented Building Pipelines, enriching data using Pyspark/Python code and analyzing 
+validations using different Palantir tools (Contour, Fusion sheets, Code Workbook etc.,) and make it 
+usable format for down streams.  
+• Implemented and Executed data health checks and error analysis on huge data . 
+• Executed Data Quality Checks per Azure Devops Story  
+• Responsible for up -gradation of ticket  as per client requirements.  
+• Good Knowledge on Jupyter Notebook  
+• Good at debugging, Analytical and Problem -Solving skills and Interaction with platform, client and 
+QA team seamless bug free delivery.  
+ 
+ 

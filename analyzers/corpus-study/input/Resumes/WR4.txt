@@ -1,0 +1,262 @@
+Arshiya Shaik
+
+    Mail ID: sab4pc@gmail.com
+
+    Mobile: +91 7396434084
+
+
+
+JOB OBJECTIVE
+
+JOB OBJECTIVE
+
+Informatica PowerCenter Application Developer
+
+
+
+PROFILE SUMMARY
+
+PROFILE SUMMARY
+
+Overall having 4+ years of Industry experience and relevant 4 Years experience in Development, Analysis, and Implementation of Data warehousing Technology by using ETL tool Informatica Power Centre 10.2.0
+
+Strong Data warehousing experience using ETL Tool Informatica Power Center (client tools like Source Analyzer, Warehousing Designer, Mapping Designer, and Mapplet Transformations).
+
+Integration of various data sources like Oracle, Flat Files, and CSV files into Informatica PowerCenter.
+
+Design, Develop and ETL Mappings, Mapplets, Workflows, Worklets using Informatica Powercenter 10.2.0
+
+Expertise in implementing complex Business rules by creating complex mappings/mapplets, reusable transformations.
+
+Extensive implementation of various transformations like Lookup (Connected & Unconnected), Expression, Source Qualifier, Aggregator, Sorter, Router, Update Strategy , Union and Sequnce generator etc.
+
+Extensively used Mapping Parameters, Mapping Variables & Parameters.
+
+Implemented Various SCD Mechanisms like TYPE 1 and TYPE 2.
+
+Experience in creating Dynamic lookup and un-connected Lookup.
+
+Used Informatica reusability at various levels of development by using Re-Usable Transformations  and Mapplets.
+
+Experience in working on Incremental load and Parameterization.
+
+Worked and extracted data from various database sources like Oracle and Flat files.
+
+Contributed in Unit testing for developed mapping using sample data.
+
+Has experience in Unix  commands.
+
+Worked with different data sources like Oracle and Flat files.
+
+Team player, Motivated, able to grasp things quickly with analytical and problem solving skills.
+
+	
+
+CORE COMPETENCIES
+
+
+
+Technical Skills:
+
+
+
+Design Tools: Informatica Power Center 10.2.0(Source Analyzer, Warehousing Designer, Mapping Designer, Mapplet, Transformations, Task Developer, Worklet Developer & Workflow Developer)
+
+Databases & GUI Tools: Oracle 11g. SQL
+
+
+
+ORGANISATIONAL 
+
+ORGANISATIONAL Operating Systems: Windows, UNIX.
+
+
+
+
+
+Organization
+
+Designation
+
+Technology
+
+Period
+
+Place
+
+TCS
+
+ Software Engineer
+
+ETL tool (Informatica Power Center)
+
+June 2018 to Till Date
+
+Chennai
+
+
+								        March-2021 to Present
+
+	
+
+Project-2: -
+
+Project Name   –   Zurich Insurance Account
+
+Client                 –    Zurich Insurance
+
+Role                    –   ETL Developer
+
+Duration            –   March 2021 to till date.
+
+Environment    –   Informatica 10.2.0, Oracle 10g.
+
+Description: -
+
+		Zurich Insurance Group Ltd is a Swiss insurance company, headquartered in Zürich, and the country's largest insurer. As of 2021, the group is the world's 112th largest public company according to Forbes' Global 2000s list, and in 2011 it ranked 94th in Interbrand's top 100 brands. Zurich is a global insurance company which is organized into three core business segments: General Insurance, Global Life and Farmers. Zurich employs 55,000 people, with customers in 215 countries and territories. The company is listed on the Six Swiss. 
+
+	Responsibilities: -
+
+Used Informatica Power Center 10.2.0 for extraction, transformation and load (ETL) of data in the data warehouse.
+
+Worked on Informatica Power Centre client tools like Source Analyser, Warehouse designer, Mapping designer, mapplet designer and Tranformations Developer.
+
+Used Informatica Power Center Workflow manager to create sessions and workflows.
+
+Developed complex mappings in Informatica to load the data from various sources.
+
+Created various transformations such as Aggregator, Expression, Joiner,  Filter,  Router, Normalizer, Sequence Generator transformations.
+
+Creating workflows and sessions.
+
+Created mappings that involved implementation of Business Logic to load data in to staging area.
+
+Used Informatica Resuable concecpts like Reusable Transformations, Mapplets and Worklets at various levels of development
+
+Worked on Un-connected lookup and Dynamic Lookups
+
+Experience in loading Various Dimension  tables using SCD Type-1 & Type-2 .
+
+Experience in Extracting the data using Incremental loading.
+
+Experience in working on Versioning Concepts and Indirect file Method.
+
+Created Mapping parameters and varables using Informatica Perameterization.
+
+Checked the output according to the specifications.
+
+Tuned several mappings for the better performance and involved in Performance Testing.
+
+Involved in Unit Testing. 
+
+Worked on UNIX commands.
+
+Designed the Mapping Technical Specifications based on Functional Requirements.
+
+Provide weekly status report to the Project Manager and discuss issues related to quality and deadlines.
+
+
+
+Project 1:
+
+Project Name   –   UMR (United Medical Resource)
+
+Role                    –   ETL Developer
+
+Duration            –   Sep-2018 to Dec-2020.
+
+Environment    –   Informatica 10.2.0, Oracle 10g.
+
+Description: 
+
+	UMR is the third-party business of UHG. It is an American profit managed health care company provides health care products and insurance services. UMR aims to deliver on a seamless basis, value added services such as national health care provider network discounts, advanced claims-control functions, integrated chronic condition management and wellness programs, It headquarters in Wausau, Wisconsin. It has across 4000 employees and generates $625.17 million in sales.
+
+	
+
+	
+
+	
+
+	
+
+	Responsibilities: 
+
+Created ETL mappings using Informatica Power Center to move Data from multiple sources like Flat files, Oracle into a common target area such as Staging, Data Warehouse and Data Marts.
+
+Designed the Mapping Technical Specifications based on Functional Requirements. 
+
+Extensively used Informatica client tools – Informatica Designer, Repository Manager, Workflow Manager and Workflow Monitor.
+
+Developed different mappings by using different Transformations like Aggregator, Lookup, Expression, update Strategy, Joiner, Router etc. to load the data into staging tables and then to target.  
+
+Extensively worked on Mapping Variables, Mapping Parameters.
+
+Implemented effective date range mapping (Slowly Changing dimension type2) methodology to load Dimension (History) table.
+
+Performance tuning of the Informatica jobs using best practices and tuning standards.
+
+Created Different types of Tasks and Sessions using Informatica Workflow Designer.
+
+Used SQL tools like Oracle Sql Developer to run SQL queries and validate the data loaded into the target tables.  
+
+Review the documentation and coding created by other team members.
+
+
+
+KEYSKILLS
+
+KEYSKILLSCreated Unit Test Documents.
+
+
+
+Flexible with working hours.
+
+Adaptable and have a positive attitude towards change.
+
+Self-motivated and goal orientated.
+
+
+
+
+
+ACADEMIC QUALIFICATION
+
+ACADEMIC QUALIFICATION
+
+B.tech: Completed IT from Kuppam Engineering College, Kuppam, Chittoor(Dist).
+
+
+
+
+
+
+
+
+
+			 
+
+
+
+
+
+
+
+									     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 						Arshiya S

@@ -1,0 +1,35 @@
+1  Pratiksha Salunke  
+E-mail Id:salunkepratiksha 92@gmail.com  Mobile: +91- 8976332638  
+ 
+ Career  Objective   
+To be part of an Organization of Global presence, consciously & constantly strive with commitment 
+and dedicated diligence for personal as well as for organizational excellence.  
+ 
+ Technical  Skills   
+ 
+✓ Having 3 + years of experience in IT as Informatica Developer.  
+✓ Experience in processing relational database, flat file formats.  
+✓ Have the capability to understand the requirements, mappings and preparing Technical design 
+Documents.  
+✓ Comprehensive knowledge in SQL.  
+✓ Developed mappings, sessions and workflows for the new ETL process followed with Quality 
+standards.  
+✓ Performed Unit Test Plan and integration testing  
+✓ Data model ing experience using Dimensional Data modeling, Star Schema & Snowflake Schema 
+modeling, and Fact & Dimensions  tables.  
+✓ Performed Performance tuning of end -to-end integration processes within Informatica 
+workflow, or in the source/target database endpoints as needed  
+✓ Quick learner and Excellent Team player, ability to meet tight deadlines and work under 
+pressure.  
+ 
+ Educational  Qualification   
+ 
+▪ BE in Electronic Engineering from Mumbai University.  
+ 
+ Skills   
+ 
+Expertise  Informatica, SQL, Data warehouse  
+Database and  Skills  Oracle (10g ), SQL, PL/SQL  
+Development Tools  Informatica Power Center 9.x  
+Operating Systems  Windows, Unix  
+Web Technologies  XML  

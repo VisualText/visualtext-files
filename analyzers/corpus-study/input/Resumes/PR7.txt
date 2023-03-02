@@ -1,0 +1,32 @@
+Krishna  Chaitanya   Mobile No: +91 -8374054853  
+Python  Developer  Email  Id: chaitanyakrishna851@gmail.com  
+ 
+Professional  Summary:  
+ 4.3 years  of professional  IT experience  and worked  as a developer/analyst  
+ 4 years  of strong  experience in  Python  development  with  Object  Oriented  Programming  
+skills  
+ Good  Experience  in extracting  data  from  databases  MySQL,  Oracle,  and MongoDB   
+ Understanding  of core  data  structures.  
+ Experience  in developing  customized  Data  Structures,  and ability  to solve  the problem  
+solves with  writing  an Algorithms . 
+ Experience in  developing  the restful  services  with  Flask  and Django  
+ Good  experience  in working  on Agile  methodology  
+ Experience  in understanding  business  requirement  and developing  POCs  to create  value  
+to client.  
+ Proficient  in developing  back -end components  and modules  for framework  utilities.  
+ Extensive  knowledge  in troubleshoot  the problems  across  different  levels  of the stack,  
+and in production  environments.  
+ Working  very  closely  with  the team  and participating  in planning,  estimating,  
+scheduling,  retrospectives,  and any other  team  activities  
+ 
+Professional  Experience:  
+ 
+ Worked  as Software  Engineer  in TCS  from  2018  July to 2022  November.  
+ 
+Key Skills:  
+Languages  : Python  
+Key modules  : Pandas,  NumPy,  Matplot  lib,BeautifulSoup,  PySpark  
+Frameworks  : Flask,  Django  
+Databases  : MySQL,  Oracle,  MongoDB  
+Tech Tools  : Toad,  Share  Point,  QC, JIRA,  Tableau  and Oracle  SQL Developer,  
+SQL Assist,  MongoDB  Compass,  WinSCP,  GIT 
