@@ -1,0 +1,107 @@
+# Convert words to numbers
+<modfile kb\user\numbers.dict>
+# Number words with numberic values
+
+one s=number numeric=1
+two s=number numeric=2
+three s=number numeric=3
+four s=number numeric=4
+five s=number numeric=5
+six s=number numeric=6
+seven s=number numeric=7
+eight s=number numeric=8
+nine s=number numeric=9
+ten s=number numeric=10 power=1
+eleven s=number numeric=11 power=1
+twelve s=number numeric=12 power=1
+thirteen s=number numeric=13 power=1
+fourteen s=number numeric=14 power=1
+fifteen s=number numeric=15 power=1
+sixteen s=number numeric=16 power=1
+seventeen s=number numeric=17 power=1
+eighteen s=number numeric=18 power=1
+nineteen s=number numeric=19 power=1
+twenty s=number numeric=20 power=1
+thirty s=number numeric=30 power=1
+forty s=number numeric=40 power=1
+fifty s=number numeric=50 power=1
+sixty s=number numeric=60 power=1
+seventy s=number numeric=70 power=1
+eighty s=number numeric=80 power=1
+ninety s=number numeric=90 power=1
+hundred s=number numeric=100 power=2
+thousand s=number numeric=1000 power=3
+million s=number numeric=1000000 power=4
+billion s=number numeric=1000000000 power=5
+trillion s=number numeric=1000000000000 power=6
+<modfile input\numbers.txt>
+one
+four
+ninety seven
+eighty-five
+seven hundred trillion and three
+twenty-nine hundred million
+two hundred seven billion four hundred fifteen million thirty-nine thousand eight hundred and forty-nine
+eight-nine trillion six hundred twenty billion nine hundred ninety-nine million and three
+six hundred fifty-six thousand seven hundred and ninety-two
+nineteen hundred and fifty-nine
+nineteen fifty nine
+nine twenty
+ten sixty-six
+twenty twenty three
+<modfile spec\numbers.nlp>
+###############################################
+# FILE: numbers
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-3-2 22:8:25
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+    L("node") = N(1);
+    L("last") = 0;
+	L("final") = 0;
+	"number.txt" << "\n";
+
+    while (L("node")) {
+        L("name") = pnname(L("node"));
+        if (L("name") != "," && L("name") != "-" && L("name") != "and"  && L("name") != "&") {
+            L("num") = num(pnvar(L("node"),"numeric"));
+			L("power") = num(pnvar(L("node"),"power"));
+			"number.txt" << pnname(L("node")) << " " << L("num") << " " << L("last") << " => ";   
+
+			if (L("last power") <= 1 && L("power") == 1) {
+				L("last") = L("last") * 100 + L("num");
+			} else if (L("power") <= 2) {
+				if (L("num") > L("last")) {
+					if (L("last"))
+						L("last") = L("last") * L("num");
+					else
+						L("last") = L("num");				
+				} else {
+					L("last") = L("last") + L("num");
+				}
+				"number.txt" << L("last");		
+			} else {
+				L("final") = L("final") + L("last") * L("num");
+				"number.txt" << "final = " << L("final") << " ";
+				L("last") = 0;
+			}
+
+            "number.txt" << "\n";
+			L("last power") = L("power");   
+        }
+        L("node") = pnnext(L("node"));
+    }
+	L("final") = L("final") + L("last");
+	"number.txt" << "=====> " << L("final") << "\n";
+	S("numeric") = L("last");
+	single();
+
+@RULES
+_number <-
+	_xWILD [plus match=(_number \- \, and \&)]	### (1)
+	@@
