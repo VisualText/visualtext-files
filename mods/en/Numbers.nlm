@@ -98,7 +98,7 @@ twenty twenty three
     }
 	L("final") = L("final") + L("last");
 	"number.txt" << "=====> " << L("final") << "\n";
-	S("numeric") = L("last");
+	S("numeric") = L("final");
 	single();
 
 @RULES
