@@ -103,6 +103,29 @@ CopyConAttr(L("from"),L("to"),L("attr")) {
 	}
 }
 
+CopyConAttrs(L("from"),L("to")) {
+	L("attrs") = findattrs(L("from"));
+	while (L("attrs")) {
+		L("vals") = attrvals(L("attrs"));
+		L("name") = attrname(L("attrs"));
+		L("type") = attrtype(L("from"),L("name"));
+
+		while (L("vals")) {
+			if (L("type") == 1) {
+				addnumval(L("to"),L("name"),getnumval(L("vals")));
+			} else if (L("type") == 2) {
+				addconval(L("to"),L("name"),getconval(L("vals")));
+			} else if (L("type") == 3) {
+				addnumval(L("to"),L("name"),getfltval(L("vals")));
+			} else {
+				addstrval(L("to"),L("name"),getstrval(L("vals")));
+			}
+			L("vals") = nextval(L("vals"));
+		}
+		L("attrs") = nextattr(L("attrs"));
+	}		
+}
+
 AttrValues(L("con"),L("attr")) {
 	L("at") = findattr(L("con"),L("attr"));
 	if (L("at"))
@@ -326,7 +349,7 @@ QuoteIfNeeded(L("str")) {
 	if (!L("str"))
 		return 0;
 	L("new") = L("str");
-	if (strcontains(" ",L("str")) || strcontains("[",L("str")) || strcontains("]",L("str")))
+	if (strcontains(" ",L("str")) || strhaspunct(L("str")))
 		L("new") = "\"" + L("new") + "\"";
 	return L("new");
 }
