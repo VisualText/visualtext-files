@@ -1,5 +1,5 @@
 # Convert words to numbers
-<modfile kb\user\numbers.dict>
+<modfile kb\user\en-numbers.dict>
 # Number words with numberic values
 
 one s=number numeric=1
