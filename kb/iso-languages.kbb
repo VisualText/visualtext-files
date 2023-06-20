@@ -1,3 +1,4 @@
+# 2 and 3 letter iso language codes
 langs
   aa: iso2=aar, iso3=aar, iso4=aar, description=" ", language=Afar
   aar: iso=aa, iso3=aar, iso4=aar, description=" "
