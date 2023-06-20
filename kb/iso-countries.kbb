@@ -1,0 +1,500 @@
+iso
+  af: iso3=afg, num=004, country=afghanistan
+  afg: iso2=af, num=004, country=afghanistan
+  al: iso3=alb, num=008, country=albania
+  alb: iso2=al, num=008, country=albania
+  dz: iso3=dza, num=012, country=algeria
+  dza: iso2=dz, num=012, country=algeria
+  as: iso3=asm, num=016, country="american samoa"
+  asm: iso2=as, num=016, country="american samoa"
+  ad: iso3=and, num=020, country=andorra
+  and: iso2=ad, num=020, country=andorra
+  ao: iso3=ago, num=024, country=angola
+  ago: iso2=ao, num=024, country=angola
+  ai: iso3=aia, num=660, country=anguilla
+  aia: iso2=ai, num=660, country=anguilla
+  aq: iso3=ata, num=010, country=antarctica
+  ata: iso2=aq, num=010, country=antarctica
+  ag: iso3=atg, num=028, country="antigua and barbuda"
+  atg: iso2=ag, num=028, country="antigua and barbuda"
+  ar: iso3=arg, num=032, country=argentina
+  arg: iso2=ar, num=032, country=argentina
+  am: iso3=arm, num=051, country=armenia
+  arm: iso2=am, num=051, country=armenia
+  aw: iso3=abw, num=533, country=aruba
+  abw: iso2=aw, num=533, country=aruba
+  au: iso3=aus, num=036, country=australia
+  aus: iso2=au, num=036, country=australia
+  at: iso3=aut, num=040, country=austria
+  aut: iso2=at, num=040, country=austria
+  az: iso3=aze, num=031, country=azerbaijan
+  aze: iso2=az, num=031, country=azerbaijan
+  bs: iso3=bhs, num=044, country="bahamas (the)"
+  bhs: iso2=bs, num=044, country="bahamas (the)"
+  bh: iso3=bhr, num=048, country=bahrain
+  bhr: iso2=bh, num=048, country=bahrain
+  bd: iso3=bgd, num=050, country=bangladesh
+  bgd: iso2=bd, num=050, country=bangladesh
+  bb: iso3=brb, num=052, country=barbados
+  brb: iso2=bb, num=052, country=barbados
+  by: iso3=blr, num=112, country=belarus
+  blr: iso2=by, num=112, country=belarus
+  be: iso3=bel, num=056, country=belgium
+  bel: iso2=be, num=056, country=belgium
+  bz: iso3=blz, num=084, country=belize
+  blz: iso2=bz, num=084, country=belize
+  bj: iso3=ben, num=204, country=benin
+  ben: iso2=bj, num=204, country=benin
+  bm: iso3=bmu, num=060, country=bermuda
+  bmu: iso2=bm, num=060, country=bermuda
+  bt: iso3=btn, num=064, country=bhutan
+  btn: iso2=bt, num=064, country=bhutan
+  bo: iso3=bol, num=068, country="bolivia (plurinational state of)"
+  bol: iso2=bo, num=068, country="bolivia (plurinational state of)"
+  bq: iso3=bes, num=535, country="bonaire, sint eustatius and saba"
+  bes: iso2=bq, num=535, country="bonaire, sint eustatius and saba"
+  ba: iso3=bih, num=070, country="bosnia and herzegovina"
+  bih: iso2=ba, num=070, country="bosnia and herzegovina"
+  bw: iso3=bwa, num=072, country=botswana
+  bwa: iso2=bw, num=072, country=botswana
+  bv: iso3=bvt, num=074, country="bouvet island"
+  bvt: iso2=bv, num=074, country="bouvet island"
+  br: iso3=bra, num=076, country=brazil
+  bra: iso2=br, num=076, country=brazil
+  io: iso3=iot, num=086, country="british indian ocean territory (the)"
+  iot: iso2=io, num=086, country="british indian ocean territory (the)"
+  bn: iso3=brn, num=096, country="brunei darussalam"
+  brn: iso2=bn, num=096, country="brunei darussalam"
+  bg: iso3=bgr, num=100, country=bulgaria
+  bgr: iso2=bg, num=100, country=bulgaria
+  bf: iso3=bfa, num=854, country="burkina faso"
+  bfa: iso2=bf, num=854, country="burkina faso"
+  bi: iso3=bdi, num=108, country=burundi
+  bdi: iso2=bi, num=108, country=burundi
+  cv: iso3=cpv, num=132, country="cabo verde"
+  cpv: iso2=cv, num=132, country="cabo verde"
+  kh: iso3=khm, num=116, country=cambodia
+  khm: iso2=kh, num=116, country=cambodia
+  cm: iso3=cmr, num=120, country=cameroon
+  cmr: iso2=cm, num=120, country=cameroon
+  ca: iso3=can, num=124, country=canada
+  can: iso2=ca, num=124, country=canada
+  ky: iso3=cym, num=136, country="cayman islands (the)"
+  cym: iso2=ky, num=136, country="cayman islands (the)"
+  cf: iso3=caf, num=140, country="central african republic (the)"
+  caf: iso2=cf, num=140, country="central african republic (the)"
+  td: iso3=tcd, num=148, country=chad
+  tcd: iso2=td, num=148, country=chad
+  cl: iso3=chl, num=152, country=chile
+  chl: iso2=cl, num=152, country=chile
+  cn: iso3=chn, num=156, country=china
+  chn: iso2=cn, num=156, country=china
+  cx: iso3=cxr, num=162, country="christmas island"
+  cxr: iso2=cx, num=162, country="christmas island"
+  cc: iso3=cck, num=166, country="cocos (keeling) islands (the)"
+  cck: iso2=cc, num=166, country="cocos (keeling) islands (the)"
+  co: iso3=col, num=170, country=colombia
+  col: iso2=co, num=170, country=colombia
+  km: iso3=com, num=174, country="comoros (the)"
+  com: iso2=km, num=174, country="comoros (the)"
+  cd: iso3=cod, num=180, country="congo (the democratic republic of the)"
+  cod: iso2=cd, num=180, country="congo (the democratic republic of the)"
+  cg: iso3=cog, num=178, country="congo (the)"
+  cog: iso2=cg, num=178, country="congo (the)"
+  ck: iso3=cok, num=184, country="cook islands (the)"
+  cok: iso2=ck, num=184, country="cook islands (the)"
+  cr: iso3=cri, num=188, country="costa rica"
+  cri: iso2=cr, num=188, country="costa rica"
+  hr: iso3=hrv, num=191, country=croatia
+  hrv: iso2=hr, num=191, country=croatia
+  cu: iso3=cub, num=192, country=cuba
+  cub: iso2=cu, num=192, country=cuba
+  cw: iso3=cuw, num=531, country=curaçao
+  cuw: iso2=cw, num=531, country=curaçao
+  cy: iso3=cyp, num=196, country=cyprus
+  cyp: iso2=cy, num=196, country=cyprus
+  cz: iso3=cze, num=203, country=czechia
+  cze: iso2=cz, num=203, country=czechia
+  ci: iso3=civ, num=384, country="côte d'ivoire"
+  civ: iso2=ci, num=384, country="côte d'ivoire"
+  dk: iso3=dnk, num=208, country=denmark
+  dnk: iso2=dk, num=208, country=denmark
+  dj: iso3=dji, num=262, country=djibouti
+  dji: iso2=dj, num=262, country=djibouti
+  dm: iso3=dma, num=212, country=dominica
+  dma: iso2=dm, num=212, country=dominica
+  do: iso3=dom, num=214, country="dominican republic (the)"
+  dom: iso2=do, num=214, country="dominican republic (the)"
+  ec: iso3=ecu, num=218, country=ecuador
+  ecu: iso2=ec, num=218, country=ecuador
+  eg: iso3=egy, num=818, country=egypt
+  egy: iso2=eg, num=818, country=egypt
+  sv: iso3=slv, num=222, country="el salvador"
+  slv: iso2=sv, num=222, country="el salvador"
+  gq: iso3=gnq, num=226, country="equatorial guinea"
+  gnq: iso2=gq, num=226, country="equatorial guinea"
+  er: iso3=eri, num=232, country=eritrea
+  eri: iso2=er, num=232, country=eritrea
+  ee: iso3=est, num=233, country=estonia
+  est: iso2=ee, num=233, country=estonia
+  sz: iso3=swz, num=748, country=eswatini
+  swz: iso2=sz, num=748, country=eswatini
+  et: iso3=eth, num=231, country=ethiopia
+  eth: iso2=et, num=231, country=ethiopia
+  fk: iso3=flk, num=238, country="falkland islands (the) [malvinas]"
+  flk: iso2=fk, num=238, country="falkland islands (the) [malvinas]"
+  fo: iso3=fro, num=234, country="faroe islands (the)"
+  fro: iso2=fo, num=234, country="faroe islands (the)"
+  fj: iso3=fji, num=242, country=fiji
+  fji: iso2=fj, num=242, country=fiji
+  fi: iso3=fin, num=246, country=finland
+  fin: iso2=fi, num=246, country=finland
+  fr: iso3=fra, num=250, country=france
+  fra: iso2=fr, num=250, country=france
+  gf: iso3=guf, num=254, country="french guiana"
+  guf: iso2=gf, num=254, country="french guiana"
+  pf: iso3=pyf, num=258, country="french polynesia"
+  pyf: iso2=pf, num=258, country="french polynesia"
+  tf: iso3=atf, num=260, country="french southern territories (the)"
+  atf: iso2=tf, num=260, country="french southern territories (the)"
+  ga: iso3=gab, num=266, country=gabon
+  gab: iso2=ga, num=266, country=gabon
+  gm: iso3=gmb, num=270, country="gambia (the)"
+  gmb: iso2=gm, num=270, country="gambia (the)"
+  ge: iso3=geo, num=268, country=georgia
+  geo: iso2=ge, num=268, country=georgia
+  de: iso3=deu, num=276, country=germany
+  deu: iso2=de, num=276, country=germany
+  gh: iso3=gha, num=288, country=ghana
+  gha: iso2=gh, num=288, country=ghana
+  gi: iso3=gib, num=292, country=gibraltar
+  gib: iso2=gi, num=292, country=gibraltar
+  gr: iso3=grc, num=300, country=greece
+  grc: iso2=gr, num=300, country=greece
+  gl: iso3=grl, num=304, country=greenland
+  grl: iso2=gl, num=304, country=greenland
+  gd: iso3=grd, num=308, country=grenada
+  grd: iso2=gd, num=308, country=grenada
+  gp: iso3=glp, num=312, country=guadeloupe
+  glp: iso2=gp, num=312, country=guadeloupe
+  gu: iso3=gum, num=316, country=guam
+  gum: iso2=gu, num=316, country=guam
+  gt: iso3=gtm, num=320, country=guatemala
+  gtm: iso2=gt, num=320, country=guatemala
+  gg: iso3=ggy, num=831, country=guernsey
+  ggy: iso2=gg, num=831, country=guernsey
+  gn: iso3=gin, num=324, country=guinea
+  gin: iso2=gn, num=324, country=guinea
+  gw: iso3=gnb, num=624, country="guinea-bissau"
+  gnb: iso2=gw, num=624, country="guinea-bissau"
+  gy: iso3=guy, num=328, country=guyana
+  guy: iso2=gy, num=328, country=guyana
+  ht: iso3=hti, num=332, country=haiti
+  hti: iso2=ht, num=332, country=haiti
+  hm: iso3=hmd, num=334, country="heard island and mcdonald islands"
+  hmd: iso2=hm, num=334, country="heard island and mcdonald islands"
+  va: iso3=vat, num=336, country="holy see (the)"
+  vat: iso2=va, num=336, country="holy see (the)"
+  hn: iso3=hnd, num=340, country=honduras
+  hnd: iso2=hn, num=340, country=honduras
+  hk: iso3=hkg, num=344, country="hong kong"
+  hkg: iso2=hk, num=344, country="hong kong"
+  hu: iso3=hun, num=348, country=hungary
+  hun: iso2=hu, num=348, country=hungary
+  is: iso3=isl, num=352, country=iceland
+  isl: iso2=is, num=352, country=iceland
+  in: iso3=ind, num=356, country=india
+  ind: iso2=in, num=356, country=india
+  id: iso3=idn, num=360, country=indonesia
+  idn: iso2=id, num=360, country=indonesia
+  ir: iso3=irn, num=364, country="iran (islamic republic of)"
+  irn: iso2=ir, num=364, country="iran (islamic republic of)"
+  iq: iso3=irq, num=368, country=iraq
+  irq: iso2=iq, num=368, country=iraq
+  ie: iso3=irl, num=372, country=ireland
+  irl: iso2=ie, num=372, country=ireland
+  im: iso3=imn, num=833, country="isle of man"
+  imn: iso2=im, num=833, country="isle of man"
+  il: iso3=isr, num=376, country=israel
+  isr: iso2=il, num=376, country=israel
+  it: iso3=ita, num=380, country=italy
+  ita: iso2=it, num=380, country=italy
+  jm: iso3=jam, num=388, country=jamaica
+  jam: iso2=jm, num=388, country=jamaica
+  jp: iso3=jpn, num=392, country=japan
+  jpn: iso2=jp, num=392, country=japan
+  je: iso3=jey, num=832, country=jersey
+  jey: iso2=je, num=832, country=jersey
+  jo: iso3=jor, num=400, country=jordan
+  jor: iso2=jo, num=400, country=jordan
+  kz: iso3=kaz, num=398, country=kazakhstan
+  kaz: iso2=kz, num=398, country=kazakhstan
+  ke: iso3=ken, num=404, country=kenya
+  ken: iso2=ke, num=404, country=kenya
+  ki: iso3=kir, num=296, country=kiribati
+  kir: iso2=ki, num=296, country=kiribati
+  kp: iso3=prk, num=408, country="korea (the democratic people's republic of)"
+  prk: iso2=kp, num=408, country="korea (the democratic people's republic of)"
+  kr: iso3=kor, num=410, country="korea (the republic of)"
+  kor: iso2=kr, num=410, country="korea (the republic of)"
+  kw: iso3=kwt, num=414, country=kuwait
+  kwt: iso2=kw, num=414, country=kuwait
+  kg: iso3=kgz, num=417, country=kyrgyzstan
+  kgz: iso2=kg, num=417, country=kyrgyzstan
+  la: iso3=lao, num=418, country="lao people's democratic republic (the)"
+  lao: iso2=la, num=418, country="lao people's democratic republic (the)"
+  lv: iso3=lva, num=428, country=latvia
+  lva: iso2=lv, num=428, country=latvia
+  lb: iso3=lbn, num=422, country=lebanon
+  lbn: iso2=lb, num=422, country=lebanon
+  ls: iso3=lso, num=426, country=lesotho
+  lso: iso2=ls, num=426, country=lesotho
+  lr: iso3=lbr, num=430, country=liberia
+  lbr: iso2=lr, num=430, country=liberia
+  ly: iso3=lby, num=434, country=libya
+  lby: iso2=ly, num=434, country=libya
+  li: iso3=lie, num=438, country=liechtenstein
+  lie: iso2=li, num=438, country=liechtenstein
+  lt: iso3=ltu, num=440, country=lithuania
+  ltu: iso2=lt, num=440, country=lithuania
+  lu: iso3=lux, num=442, country=luxembourg
+  lux: iso2=lu, num=442, country=luxembourg
+  mo: iso3=mac, num=446, country=macao
+  mac: iso2=mo, num=446, country=macao
+  mg: iso3=mdg, num=450, country=madagascar
+  mdg: iso2=mg, num=450, country=madagascar
+  mw: iso3=mwi, num=454, country=malawi
+  mwi: iso2=mw, num=454, country=malawi
+  my: iso3=mys, num=458, country=malaysia
+  mys: iso2=my, num=458, country=malaysia
+  mv: iso3=mdv, num=462, country=maldives
+  mdv: iso2=mv, num=462, country=maldives
+  ml: iso3=mli, num=466, country=mali
+  mli: iso2=ml, num=466, country=mali
+  mt: iso3=mlt, num=470, country=malta
+  mlt: iso2=mt, num=470, country=malta
+  mh: iso3=mhl, num=584, country="marshall islands (the)"
+  mhl: iso2=mh, num=584, country="marshall islands (the)"
+  mq: iso3=mtq, num=474, country=martinique
+  mtq: iso2=mq, num=474, country=martinique
+  mr: iso3=mrt, num=478, country=mauritania
+  mrt: iso2=mr, num=478, country=mauritania
+  mu: iso3=mus, num=480, country=mauritius
+  mus: iso2=mu, num=480, country=mauritius
+  yt: iso3=myt, num=175, country=mayotte
+  myt: iso2=yt, num=175, country=mayotte
+  mx: iso3=mex, num=484, country=mexico
+  mex: iso2=mx, num=484, country=mexico
+  fm: iso3=fsm, num=583, country="micronesia (federated states of)"
+  fsm: iso2=fm, num=583, country="micronesia (federated states of)"
+  md: iso3=mda, num=498, country="moldova (the republic of)"
+  mda: iso2=md, num=498, country="moldova (the republic of)"
+  mc: iso3=mco, num=492, country=monaco
+  mco: iso2=mc, num=492, country=monaco
+  mn: iso3=mng, num=496, country=mongolia
+  mng: iso2=mn, num=496, country=mongolia
+  me: iso3=mne, num=499, country=montenegro
+  mne: iso2=me, num=499, country=montenegro
+  ms: iso3=msr, num=500, country=montserrat
+  msr: iso2=ms, num=500, country=montserrat
+  ma: iso3=mar, num=504, country=morocco
+  mar: iso2=ma, num=504, country=morocco
+  mz: iso3=moz, num=508, country=mozambique
+  moz: iso2=mz, num=508, country=mozambique
+  mm: iso3=mmr, num=104, country=myanmar
+  mmr: iso2=mm, num=104, country=myanmar
+  na: iso3=nam, num=516, country=namibia
+  nam: iso2=na, num=516, country=namibia
+  nr: iso3=nru, num=520, country=nauru
+  nru: iso2=nr, num=520, country=nauru
+  np: iso3=npl, num=524, country=nepal
+  npl: iso2=np, num=524, country=nepal
+  nl: iso3=nld, num=528, country="netherlands (the)"
+  nld: iso2=nl, num=528, country="netherlands (the)"
+  nc: iso3=ncl, num=540, country="new caledonia"
+  ncl: iso2=nc, num=540, country="new caledonia"
+  nz: iso3=nzl, num=554, country="new zealand"
+  nzl: iso2=nz, num=554, country="new zealand"
+  ni: iso3=nic, num=558, country=nicaragua
+  nic: iso2=ni, num=558, country=nicaragua
+  ne: iso3=ner, num=562, country="niger (the)"
+  ner: iso2=ne, num=562, country="niger (the)"
+  ng: iso3=nga, num=566, country=nigeria
+  nga: iso2=ng, num=566, country=nigeria
+  nu: iso3=niu, num=570, country=niue
+  niu: iso2=nu, num=570, country=niue
+  nf: iso3=nfk, num=574, country="norfolk island"
+  nfk: iso2=nf, num=574, country="norfolk island"
+  mp: iso3=mnp, num=580, country="northern mariana islands (the)"
+  mnp: iso2=mp, num=580, country="northern mariana islands (the)"
+  no: iso3=nor, num=578, country=norway
+  nor: iso2=no, num=578, country=norway
+  om: iso3=omn, num=512, country=oman
+  omn: iso2=om, num=512, country=oman
+  pk: iso3=pak, num=586, country=pakistan
+  pak: iso2=pk, num=586, country=pakistan
+  pw: iso3=plw, num=585, country=palau
+  plw: iso2=pw, num=585, country=palau
+  ps: iso3=pse, num=275, country="palestine, state of"
+  pse: iso2=ps, num=275, country="palestine, state of"
+  pa: iso3=pan, num=591, country=panama
+  pan: iso2=pa, num=591, country=panama
+  pg: iso3=png, num=598, country="papua new guinea"
+  png: iso2=pg, num=598, country="papua new guinea"
+  py: iso3=pry, num=600, country=paraguay
+  pry: iso2=py, num=600, country=paraguay
+  pe: iso3=per, num=604, country=peru
+  per: iso2=pe, num=604, country=peru
+  ph: iso3=phl, num=608, country="philippines (the)"
+  phl: iso2=ph, num=608, country="philippines (the)"
+  pn: iso3=pcn, num=612, country=pitcairn
+  pcn: iso2=pn, num=612, country=pitcairn
+  pl: iso3=pol, num=616, country=poland
+  pol: iso2=pl, num=616, country=poland
+  pt: iso3=prt, num=620, country=portugal
+  prt: iso2=pt, num=620, country=portugal
+  pr: iso3=pri, num=630, country="puerto rico"
+  pri: iso2=pr, num=630, country="puerto rico"
+  qa: iso3=qat, num=634, country=qatar
+  qat: iso2=qa, num=634, country=qatar
+  mk: iso3=mkd, num=807, country="republic of north macedonia"
+  mkd: iso2=mk, num=807, country="republic of north macedonia"
+  ro: iso3=rou, num=642, country=romania
+  rou: iso2=ro, num=642, country=romania
+  ru: iso3=rus, num=643, country="russian federation (the)"
+  rus: iso2=ru, num=643, country="russian federation (the)"
+  rw: iso3=rwa, num=646, country=rwanda
+  rwa: iso2=rw, num=646, country=rwanda
+  re: iso3=reu, num=638, country=réunion
+  reu: iso2=re, num=638, country=réunion
+  bl: iso3=blm, num=652, country="saint barthélemy"
+  blm: iso2=bl, num=652, country="saint barthélemy"
+  sh: iso3=shn, num=654, country="saint helena, ascension and tristan da cunha"
+  shn: iso2=sh, num=654, country="saint helena, ascension and tristan da cunha"
+  kn: iso3=kna, num=659, country="saint kitts and nevis"
+  kna: iso2=kn, num=659, country="saint kitts and nevis"
+  lc: iso3=lca, num=662, country="saint lucia"
+  lca: iso2=lc, num=662, country="saint lucia"
+  mf: iso3=maf, num=663, country="saint martin (french part)"
+  maf: iso2=mf, num=663, country="saint martin (french part)"
+  pm: iso3=spm, num=666, country="saint pierre and miquelon"
+  spm: iso2=pm, num=666, country="saint pierre and miquelon"
+  vc: iso3=vct, num=670, country="saint vincent and the grenadines"
+  vct: iso2=vc, num=670, country="saint vincent and the grenadines"
+  ws: iso3=wsm, num=882, country=samoa
+  wsm: iso2=ws, num=882, country=samoa
+  sm: iso3=smr, num=674, country="san marino"
+  smr: iso2=sm, num=674, country="san marino"
+  st: iso3=stp, num=678, country="sao tome and principe"
+  stp: iso2=st, num=678, country="sao tome and principe"
+  sa: iso3=sau, num=682, country="saudi arabia"
+  sau: iso2=sa, num=682, country="saudi arabia"
+  sn: iso3=sen, num=686, country=senegal
+  sen: iso2=sn, num=686, country=senegal
+  rs: iso3=srb, num=688, country=serbia
+  srb: iso2=rs, num=688, country=serbia
+  sc: iso3=syc, num=690, country=seychelles
+  syc: iso2=sc, num=690, country=seychelles
+  sl: iso3=sle, num=694, country="sierra leone"
+  sle: iso2=sl, num=694, country="sierra leone"
+  sg: iso3=sgp, num=702, country=singapore
+  sgp: iso2=sg, num=702, country=singapore
+  sx: iso3=sxm, num=534, country="sint maarten (dutch part)"
+  sxm: iso2=sx, num=534, country="sint maarten (dutch part)"
+  sk: iso3=svk, num=703, country=slovakia
+  svk: iso2=sk, num=703, country=slovakia
+  si: iso3=svn, num=705, country=slovenia
+  svn: iso2=si, num=705, country=slovenia
+  sb: iso3=slb, num=090, country="solomon islands"
+  slb: iso2=sb, num=090, country="solomon islands"
+  so: iso3=som, num=706, country=somalia
+  som: iso2=so, num=706, country=somalia
+  za: iso3=zaf, num=710, country="south africa"
+  zaf: iso2=za, num=710, country="south africa"
+  gs: iso3=sgs, num=239, country="south georgia and the south sandwich islands"
+  sgs: iso2=gs, num=239, country="south georgia and the south sandwich islands"
+  ss: iso3=ssd, num=728, country="south sudan"
+  ssd: iso2=ss, num=728, country="south sudan"
+  es: iso3=esp, num=724, country=spain
+  esp: iso2=es, num=724, country=spain
+  lk: iso3=lka, num=144, country="sri lanka"
+  lka: iso2=lk, num=144, country="sri lanka"
+  sd: iso3=sdn, num=729, country="sudan (the)"
+  sdn: iso2=sd, num=729, country="sudan (the)"
+  sr: iso3=sur, num=740, country=suriname
+  sur: iso2=sr, num=740, country=suriname
+  sj: iso3=sjm, num=744, country="svalbard and jan mayen"
+  sjm: iso2=sj, num=744, country="svalbard and jan mayen"
+  se: iso3=swe, num=752, country=sweden
+  swe: iso2=se, num=752, country=sweden
+  ch: iso3=che, num=756, country=switzerland
+  che: iso2=ch, num=756, country=switzerland
+  sy: iso3=syr, num=760, country="syrian arab republic"
+  syr: iso2=sy, num=760, country="syrian arab republic"
+  tw: iso3=twn, num=158, country="taiwan (province of china)"
+  twn: iso2=tw, num=158, country="taiwan (province of china)"
+  tj: iso3=tjk, num=762, country=tajikistan
+  tjk: iso2=tj, num=762, country=tajikistan
+  tz: iso3=tza, num=834, country="tanzania, united republic of"
+  tza: iso2=tz, num=834, country="tanzania, united republic of"
+  th: iso3=tha, num=764, country=thailand
+  tha: iso2=th, num=764, country=thailand
+  tl: iso3=tls, num=626, country="timor-leste"
+  tls: iso2=tl, num=626, country="timor-leste"
+  tg: iso3=tgo, num=768, country=togo
+  tgo: iso2=tg, num=768, country=togo
+  tk: iso3=tkl, num=772, country=tokelau
+  tkl: iso2=tk, num=772, country=tokelau
+  to: iso3=ton, num=776, country=tonga
+  ton: iso2=to, num=776, country=tonga
+  tt: iso3=tto, num=780, country="trinidad and tobago"
+  tto: iso2=tt, num=780, country="trinidad and tobago"
+  tn: iso3=tun, num=788, country=tunisia
+  tun: iso2=tn, num=788, country=tunisia
+  tr: iso3=tur, num=792, country=turkey
+  tur: iso2=tr, num=792, country=turkey
+  tm: iso3=tkm, num=795, country=turkmenistan
+  tkm: iso2=tm, num=795, country=turkmenistan
+  tc: iso3=tca, num=796, country="turks and caicos islands (the)"
+  tca: iso2=tc, num=796, country="turks and caicos islands (the)"
+  tv: iso3=tuv, num=798, country=tuvalu
+  tuv: iso2=tv, num=798, country=tuvalu
+  ug: iso3=uga, num=800, country=uganda
+  uga: iso2=ug, num=800, country=uganda
+  ua: iso3=ukr, num=804, country=ukraine
+  ukr: iso2=ua, num=804, country=ukraine
+  ae: iso3=are, num=784, country="united arab emirates (the)"
+  are: iso2=ae, num=784, country="united arab emirates (the)"
+  gb: iso3=gbr, num=826, country="united kingdom of great britain and northern ireland (the)"
+  gbr: iso2=gb, num=826, country="united kingdom of great britain and northern ireland (the)"
+  um: iso3=umi, num=581, country="united states minor outlying islands (the)"
+  umi: iso2=um, num=581, country="united states minor outlying islands (the)"
+  us: iso3=usa, num=840, country="united states of america (the)"
+  usa: iso2=us, num=840, country="united states of america (the)"
+  uy: iso3=ury, num=858, country=uruguay
+  ury: iso2=uy, num=858, country=uruguay
+  uz: iso3=uzb, num=860, country=uzbekistan
+  uzb: iso2=uz, num=860, country=uzbekistan
+  vu: iso3=vut, num=548, country=vanuatu
+  vut: iso2=vu, num=548, country=vanuatu
+  ve: iso3=ven, num=862, country="venezuela (bolivarian republic of)"
+  ven: iso2=ve, num=862, country="venezuela (bolivarian republic of)"
+  vn: iso3=vnm, num=704, country="viet nam"
+  vnm: iso2=vn, num=704, country="viet nam"
+  vg: iso3=vgb, num=092, country="virgin islands (british)"
+  vgb: iso2=vg, num=092, country="virgin islands (british)"
+  vi: iso3=vir, num=850, country="virgin islands (u.s.)"
+  vir: iso2=vi, num=850, country="virgin islands (u.s.)"
+  wf: iso3=wlf, num=876, country="wallis and futuna"
+  wlf: iso2=wf, num=876, country="wallis and futuna"
+  eh: iso3=esh, num=732, country="western sahara"
+  esh: iso2=eh, num=732, country="western sahara"
+  ye: iso3=yem, num=887, country=yemen
+  yem: iso2=ye, num=887, country=yemen
+  zm: iso3=zmb, num=894, country=zambia
+  zmb: iso2=zm, num=894, country=zambia
+  zw: iso3=zwe, num=716, country=zimbabwe
+  zwe: iso2=zw, num=716, country=zimbabwe
+  ax: iso3=ala, num=248, country="åland islands"
+  ala: iso2=ax, num=248, country="åland islands"
+

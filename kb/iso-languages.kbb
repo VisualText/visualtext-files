@@ -1,0 +1,366 @@
+langs
+  aa: iso2=aar, iso3=aar, iso4=aar, description=" ", language=Afar
+  aar: iso=aa, iso3=aar, iso4=aar, description=" "
+  ab: iso2=abk, iso3=abk, iso4=abk, description="also known as Abkhaz", language=Abkhazian
+  abk: iso=ab, iso3=abk, iso4=abk, description="also known as Abkhaz"
+  ae: iso2=ave, iso3=ave, iso4=ave, description=ancient, language=Avestan
+  af: iso2=afr, iso3=afr, iso4=afr, description=" ", language=Afrikaans
+  afr: iso=af, iso3=afr, iso4=afr, description=" "
+  ak: iso2=aka, iso3=aka, iso4="aka + 2", description="macrolanguage, Twi is tw/twi, Fanti is fat", language=Akan
+  aka: iso=ak, iso3=aka, iso4="aka + 2", description="macrolanguage, Twi is tw/twi, Fanti is fat"
+  am: iso2=amh, iso3=amh, iso4=amh, description=" ", language=Amharic
+  amh: iso=am, iso3=amh, iso4=amh, description=" "
+  an: iso2=arg, iso3=arg, iso4=arg, description=" ", language=Aragonese
+  ar: iso2=ara, iso3=ara, iso4="ara + 29", description="macrolanguage, Standard Arabic is arb", language=Arabic
+  ara: iso=ar, iso3=ara, iso4="ara + 29", description="macrolanguage, Standard Arabic is arb"
+  arg: iso=an, iso3=arg, iso4=arg, description=" "
+  as: iso2=asm, iso3=asm, iso4=asm, description=" ", language=Assamese
+  asm: iso=as, iso3=asm, iso4=asm, description=" "
+  av: iso2=ava, iso3=ava, iso4=ava, description="also known as Avar", language=Avaric
+  ava: iso=av, iso3=ava, iso4=ava, description="also known as Avar"
+  ave: iso=ae, iso3=ave, iso4=ave, description=ancient
+  ay: iso2=aym, iso3=aym, iso4="aym + 2", description=macrolanguage, language=Aymara
+  aym: iso=ay, iso3=aym, iso4="aym + 2", description=macrolanguage
+  az: iso2=aze, iso3=aze, iso4="aze + 2", description="macrolanguage, also known as Azeri", language=Azerbaijani
+  aze: iso=az, iso3=aze, iso4="aze + 2", description="macrolanguage, also known as Azeri"
+  ba: iso2=bak, iso3=bak, iso4=bak, description=" ", language=Bashkir
+  bak: iso=ba, iso3=bak, iso4=bak, description=" "
+  bam: iso=bm, iso3=bam, iso4=bam, description=" "
+  be: iso2=bel, iso3=bel, iso4=bel, description=" ", language=Belarusian
+  bel: iso=be, iso3=bel, iso4=bel, description=" "
+  ben: iso=bn, iso3=ben, iso4=ben, description="also known as Bangla"
+  bg: iso2=bul, iso3=bul, iso4=bul, description=" ", language=Bulgarian
+  bi: iso2=bis, iso3=bis, iso4=bis, description="Language formed from English and Vanuatuan languages, with some French influence.", language=Bislama
+  bis: iso=bi, iso3=bis, iso4=bis, description="Language formed from English and Vanuatuan languages, with some French influence."
+  bm: iso2=bam, iso3=bam, iso4=bam, description=" ", language=Bambara
+  bn: iso2=ben, iso3=ben, iso4=ben, description="also known as Bangla", language=Bengali
+  bo: iso2=bod, iso3=tib, iso4=bod, description="also known as Standard Tibetan", language=Tibetan
+  bod: iso=bo, iso3=tib, iso4=bod, description="also known as Standard Tibetan"
+  bos: iso=bs, iso3=bos, iso4=bos, description=" "
+  br: iso2=bre, iso3=bre, iso4=bre, description=" ", language=Breton
+  bre: iso=br, iso3=bre, iso4=bre, description=" "
+  bs: iso2=bos, iso3=bos, iso4=bos, description=" ", language=Bosnian
+  bul: iso=bg, iso3=bul, iso4=bul, description=" "
+  ca: iso2=cat, iso3=cat, iso4=cat, description=" ", language=[Catalan,Valencian]
+  cat: iso=ca, iso3=cat, iso4=cat, description=" "
+  ce: iso2=che, iso3=che, iso4=che, description=" ", language=Chechen
+  ces: iso=cs, iso3=cze, iso4=ces, description=" "
+  ch: iso2=cha, iso3=cha, iso4=cha, description=" ", language=Chamorro
+  cha: iso=ch, iso3=cha, iso4=cha, description=" "
+  che: iso=ce, iso3=che, iso4=che, description=" "
+  chu: iso=cu, iso3=chu, iso4=chu, description="ancient, in use by the Eastern Orthodox Church"
+  chv: iso=cv, iso3=chv, iso4=chv, description=" "
+  co: iso2=cos, iso3=cos, iso4=cos, description=" ", language=Corsican
+  cor: iso=kw, iso3=cor, iso4=cor, description=" "
+  cos: iso=co, iso3=cos, iso4=cos, description=" "
+  cr: iso2=cre, iso3=cre, iso4="cre + 6", description=macrolanguage, language=Cree
+  cre: iso=cr, iso3=cre, iso4="cre + 6", description=macrolanguage
+  cs: iso2=ces, iso3=cze, iso4=ces, description=" ", language=Czech
+  cu: iso2=chu, iso3=chu, iso4=chu, description="ancient, in use by the Eastern Orthodox Church", language=["Church Slavonic","Old Slavonic","Old Church Slavonic"]
+  cv: iso2=chv, iso3=chv, iso4=chv, description=" ", language=Chuvash
+  cy: iso2=cym, iso3=wel, iso4=cym, description=" ", language=Welsh
+  cym: iso=cy, iso3=wel, iso4=cym, description=" "
+  da: iso2=dan, iso3=dan, iso4=dan, description=" ", language=Danish
+  dan: iso=da, iso3=dan, iso4=dan, description=" "
+  de: iso2=deu, iso3=ger, iso4=deu, description=" ", language=German
+  deu: iso=de, iso3=ger, iso4=deu, description=" "
+  div: iso=dv, iso3=div, iso4=div, description=" "
+  dv: iso2=div, iso3=div, iso4=div, description=" ", language=[Divehi,Dhivehi,Maldivian]
+  dz: iso2=dzo, iso3=dzo, iso4=dzo, description=" ", language=Dzongkha
+  dzo: iso=dz, iso3=dzo, iso4=dzo, description=" "
+  ee: iso2=ewe, iso3=ewe, iso4=ewe, description=" ", language=Ewe
+  el: iso2=ell, iso3=gre, iso4=ell, description="for Ancient Greek, use the ISO 639-3 code grc", language=[Greek,"Modern (1453–)"]
+  ell: iso=el, iso3=gre, iso4=ell, description="for Ancient Greek, use the ISO 639-3 code grc"
+  en: iso2=eng, iso3=eng, iso4=eng, description=" ", language=English
+  eng: iso=en, iso3=eng, iso4=eng, description=" "
+  eo: iso2=epo, iso3=epo, iso4=epo, description="constructed, initially by L.L. Zamenhof in 1887", language=Esperanto
+  epo: iso=eo, iso3=epo, iso4=epo, description="constructed, initially by L.L. Zamenhof in 1887"
+  es: iso2=spa, iso3=spa, iso4=spa, description=" ", language=[Spanish,Castilian]
+  est: iso=et, iso3=est, iso4="est + 2", description=macrolanguage
+  et: iso2=est, iso3=est, iso4="est + 2", description=macrolanguage, language=Estonian
+  eu: iso2=eus, iso3=baq, iso4=eus, description=" ", language=Basque
+  eus: iso=eu, iso3=baq, iso4=eus, description=" "
+  ewe: iso=ee, iso3=ewe, iso4=ewe, description=" "
+  fa: iso2=fas, iso3=per, iso4="fas + 2", description="macrolanguage, also known as Farsi", language=Persian
+  fao: iso=fo, iso3=fao, iso4=fao, description=" "
+  fas: iso=fa, iso3=per, iso4="fas + 2", description="macrolanguage, also known as Farsi"
+  ff: iso2=ful, iso3=ful, iso4="ful + 9", description="macrolanguage, also known as Fula", language=Fulah
+  fi: iso2=fin, iso3=fin, iso4=fin, description=" ", language=Finnish
+  fij: iso=fj, iso3=fij, iso4=fij, description=" "
+  fin: iso=fi, iso3=fin, iso4=fin, description=" "
+  fj: iso2=fij, iso3=fij, iso4=fij, description=" ", language=Fijian
+  fo: iso2=fao, iso3=fao, iso4=fao, description=" ", language=Faroese
+  fr: iso2=fra, iso3=fre, iso4=fra, description=" ", language=French
+  fra: iso=fr, iso3=fre, iso4=fra, description=" "
+  fry: iso=fy, iso3=fry, iso4=fry, description="also known as Frisian"
+  ful: iso=ff, iso3=ful, iso4="ful + 9", description="macrolanguage, also known as Fula"
+  fy: iso2=fry, iso3=fry, iso4=fry, description="also known as Frisian", language="Western Frisian"
+  ga: iso2=gle, iso3=gle, iso4=gle, description=" ", language=Irish
+  gd: iso2=gla, iso3=gla, iso4=gla, description=" ", language=[Gaelic,"Scottish Gaelic"]
+  gl: iso2=glg, iso3=glg, iso4=glg, description=" ", language=Galician
+  gla: iso=gd, iso3=gla, iso4=gla, description=" "
+  gle: iso=ga, iso3=gle, iso4=gle, description=" "
+  glg: iso=gl, iso3=glg, iso4=glg, description=" "
+  glv: iso=gv, iso3=glv, iso4=glv, description=" "
+  gn: iso2=grn, iso3=grn, iso4="grn + 5", description=macrolanguage, language=Guarani
+  grn: iso=gn, iso3=grn, iso4="grn + 5", description=macrolanguage
+  gu: iso2=guj, iso3=guj, iso4=guj, description=" ", language=Gujarati
+  guj: iso=gu, iso3=guj, iso4=guj, description=" "
+  gv: iso2=glv, iso3=glv, iso4=glv, description=" ", language=Manx
+  ha: iso2=hau, iso3=hau, iso4=hau, description=" ", language=Hausa
+  hat: iso=ht, iso3=hat, iso4=hat, description=" "
+  hau: iso=ha, iso3=hau, iso4=hau, description=" "
+  he: iso2=heb, iso3=heb, iso4=heb, description="Modern Hebrew. Code changed in 1989 from original ISO 639:1988, iw.[1]", language=Hebrew
+  heb: iso=he, iso3=heb, iso4=heb, description="Modern Hebrew. Code changed in 1989 from original ISO 639:1988, iw.[1]"
+  her: iso=hz, iso3=her, iso4=her, description=" "
+  hi: iso2=hin, iso3=hin, iso4=hin, description=" ", language=Hindi
+  hin: iso=hi, iso3=hin, iso4=hin, description=" "
+  hmo: iso=ho, iso3=hmo, iso4=hmo, description=" "
+  ho: iso2=hmo, iso3=hmo, iso4=hmo, description=" ", language="Hiri Motu"
+  hr: iso2=hrv, iso3=hrv, iso4=hrv, description=" ", language=Croatian
+  hrv: iso=hr, iso3=hrv, iso4=hrv, description=" "
+  ht: iso2=hat, iso3=hat, iso4=hat, description=" ", language=[Haitian,"Haitian Creole"]
+  hu: iso2=hun, iso3=hun, iso4=hun, description=" ", language=Hungarian
+  hun: iso=hu, iso3=hun, iso4=hun, description=" "
+  hy: iso2=hye, iso3=arm, iso4=hye, description="ISO 639-3 code hye is for Eastern Armenian, hyw is for Western Armenian, and xcl is for Classical Armenian", language=Armenian
+  hye: iso=hy, iso3=arm, iso4=hye, description="ISO 639-3 code hye is for Eastern Armenian, hyw is for Western Armenian, and xcl is for Classical Armenian"
+  hz: iso2=her, iso3=her, iso4=her, description=" ", language=Herero
+  ia: iso2=ina, iso3=ina, iso4=ina, description="constructed by the International Auxiliary Language Association", language="Interlingua (International Auxiliary Language Association)"
+  ibo: iso=ig, iso3=ibo, iso4=ibo, description=" "
+  id: iso2=ind, iso3=ind, iso4=ind, description="covered by macrolanguage ms/msa. Changed in 1989 from original ISO 639:1988, in.[1]", language=Indonesian
+  ido: iso=io, iso3=ido, iso4=ido, description="constructed by De Beaufront, 1907, as variation of Esperanto"
+  ie: iso2=ile, iso3=ile, iso4=ile, description="constructed by Edgar de Wahl, first published in 1922", language=[Interlingue,Occidental]
+  ig: iso2=ibo, iso3=ibo, iso4=ibo, description=" ", language=Igbo
+  ii: iso2=iii, iso3=iii, iso4=iii, description="standard form of the Yi languages", language=["Sichuan Yi",Nuosu]
+  iii: iso=ii, iso3=iii, iso4=iii, description="standard form of the Yi languages"
+  ik: iso2=ipk, iso3=ipk, iso4="ipk + 2", description=macrolanguage, language=Inupiaq
+  iku: iso=iu, iso3=iku, iso4="iku + 2", description=macrolanguage
+  ile: iso=ie, iso3=ile, iso4=ile, description="constructed by Edgar de Wahl, first published in 1922"
+  ina: iso=ia, iso3=ina, iso4=ina, description="constructed by the International Auxiliary Language Association"
+  ind: iso=id, iso3=ind, iso4=ind, description="covered by macrolanguage ms/msa. Changed in 1989 from original ISO 639:1988, in.[1]"
+  io: iso2=ido, iso3=ido, iso4=ido, description="constructed by De Beaufront, 1907, as variation of Esperanto", language=Ido
+  ipk: iso=ik, iso3=ipk, iso4="ipk + 2", description=macrolanguage
+  is: iso2=isl, iso3=ice, iso4=isl, description=" ", language=Icelandic
+  isl: iso=is, iso3=ice, iso4=isl, description=" "
+  it: iso2=ita, iso3=ita, iso4=ita, description=" ", language=Italian
+  ita: iso=it, iso3=ita, iso4=ita, description=" "
+  iu: iso2=iku, iso3=iku, iso4="iku + 2", description=macrolanguage, language=Inuktitut
+  ja: iso2=jpn, iso3=jpn, iso4=jpn, description=" ", language=Japanese
+  jav: iso=jv, iso3=jav, iso4=jav, description=" "
+  jpn: iso=ja, iso3=jpn, iso4=jpn, description=" "
+  jv: iso2=jav, iso3=jav, iso4=jav, description=" ", language=Javanese
+  ka: iso2=kat, iso3=geo, iso4=kat, description=" ", language=Georgian
+  kal: iso=kl, iso3=kal, iso4=kal, description=" "
+  kan: iso=kn, iso3=kan, iso4=kan, description=" "
+  kas: iso=ks, iso3=kas, iso4=kas, description=" "
+  kat: iso=ka, iso3=geo, iso4=kat, description=" "
+  kau: iso=kr, iso3=kau, iso4="kau + 3", description=macrolanguage
+  kaz: iso=kk, iso3=kaz, iso4=kaz, description=" "
+  kg: iso2=kon, iso3=kon, iso4="kon + 3", description=macrolanguage, language=Kongo
+  khm: iso=km, iso3=khm, iso4=khm, description="also known as Khmer or Cambodian"
+  ki: iso2=kik, iso3=kik, iso4=kik, description=" ", language=[Kikuyu,Gikuyu]
+  kik: iso=ki, iso3=kik, iso4=kik, description=" "
+  kin: iso=rw, iso3=kin, iso4=kin, description=" "
+  kir: iso=ky, iso3=kir, iso4=kir, description=" "
+  kj: iso2=kua, iso3=kua, iso4=kua, description=" ", language=[Kuanyama,Kwanyama]
+  kk: iso2=kaz, iso3=kaz, iso4=kaz, description=" ", language=Kazakh
+  kl: iso2=kal, iso3=kal, iso4=kal, description=" ", language=[Kalaallisut,Greenlandic]
+  km: iso2=khm, iso3=khm, iso4=khm, description="also known as Khmer or Cambodian", language="Central Khmer"
+  kn: iso2=kan, iso3=kan, iso4=kan, description=" ", language=Kannada
+  ko: iso2=kor, iso3=kor, iso4=kor, description=" ", language=Korean
+  kom: iso=kv, iso3=kom, iso4="kom + 2", description=macrolanguage
+  kon: iso=kg, iso3=kon, iso4="kon + 3", description=macrolanguage
+  kor: iso=ko, iso3=kor, iso4=kor, description=" "
+  kr: iso2=kau, iso3=kau, iso4="kau + 3", description=macrolanguage, language=Kanuri
+  ks: iso2=kas, iso3=kas, iso4=kas, description=" ", language=Kashmiri
+  ku: iso2=kur, iso3=kur, iso4="kur + 3", description=macrolanguage, language=Kurdish
+  kua: iso=kj, iso3=kua, iso4=kua, description=" "
+  kur: iso=ku, iso3=kur, iso4="kur + 3", description=macrolanguage
+  kv: iso2=kom, iso3=kom, iso4="kom + 2", description=macrolanguage, language=Komi
+  kw: iso2=cor, iso3=cor, iso4=cor, description=" ", language=Cornish
+  ky: iso2=kir, iso3=kir, iso4=kir, description=" ", language=[Kirghiz,Kyrgyz]
+  la: iso2=lat, iso3=lat, iso4=lat, description=ancient, language=Latin
+  lao: iso=lo, iso3=lao, iso4=lao, description=" "
+  lat: iso=la, iso3=lat, iso4=lat, description=ancient
+  lav: iso=lv, iso3=lav, iso4="lav + 2", description=macrolanguage
+  lb: iso2=ltz, iso3=ltz, iso4=ltz, description=" ", language=[Luxembourgish,Letzeburgesch]
+  lg: iso2=lug, iso3=lug, iso4=lug, description=" ", language=Ganda
+  li: iso2=lim, iso3=lim, iso4=lim, description=" ", language=[Limburgan,Limburger,Limburgish]
+  lim: iso=li, iso3=lim, iso4=lim, description=" "
+  lin: iso=ln, iso3=lin, iso4=lin, description=" "
+  lit: iso=lt, iso3=lit, iso4=lit, description=" "
+  ln: iso2=lin, iso3=lin, iso4=lin, description=" ", language=Lingala
+  lo: iso2=lao, iso3=lao, iso4=lao, description=" ", language=Lao
+  lt: iso2=lit, iso3=lit, iso4=lit, description=" ", language=Lithuanian
+  ltz: iso=lb, iso3=ltz, iso4=ltz, description=" "
+  lu: iso2=lub, iso3=lub, iso4=lub, description="also known as Luba-Shaba", language="Luba-Katanga"
+  lub: iso=lu, iso3=lub, iso4=lub, description="also known as Luba-Shaba"
+  lug: iso=lg, iso3=lug, iso4=lug, description=" "
+  lv: iso2=lav, iso3=lav, iso4="lav + 2", description=macrolanguage, language=Latvian
+  mah: iso=mh, iso3=mah, iso4=mah, description=" "
+  mal: iso=ml, iso3=mal, iso4=mal, description=" "
+  mar: iso=mr, iso3=mar, iso4=mar, description="also known as Marāṭhī"
+  mg: iso2=mlg, iso3=mlg, iso4="mlg + 11", description=macrolanguage, language=Malagasy
+  mh: iso2=mah, iso3=mah, iso4=mah, description=" ", language=Marshallese
+  mi: iso2=mri, iso3=mao, iso4=mri, description="also known as Māori", language=Maori
+  mk: iso2=mkd, iso3=mac, iso4=mkd, description=" ", language=Macedonian
+  mkd: iso=mk, iso3=mac, iso4=mkd, description=" "
+  ml: iso2=mal, iso3=mal, iso4=mal, description=" ", language=Malayalam
+  mlg: iso=mg, iso3=mlg, iso4="mlg + 11", description=macrolanguage
+  mlt: iso=mt, iso3=mlt, iso4=mlt, description=" "
+  mn: iso2=mon, iso3=mon, iso4="mon + 2", description=macrolanguage, language=Mongolian
+  mon: iso=mn, iso3=mon, iso4="mon + 2", description=macrolanguage
+  mr: iso2=mar, iso3=mar, iso4=mar, description="also known as Marāṭhī", language=Marathi
+  mri: iso=mi, iso3=mao, iso4=mri, description="also known as Māori"
+  ms: iso2=msa, iso3=may, iso4="msa + 36", description="macrolanguage, Standard Malay is zsm, Indonesian is id/ind", language=Malay
+  msa: iso=ms, iso3=may, iso4="msa + 36", description="macrolanguage, Standard Malay is zsm, Indonesian is id/ind"
+  mt: iso2=mlt, iso3=mlt, iso4=mlt, description=" ", language=Maltese
+  my: iso2=mya, iso3=bur, iso4=mya, description="also known as Myanmar", language=Burmese
+  mya: iso=my, iso3=bur, iso4=mya, description="also known as Myanmar"
+  na: iso2=nau, iso3=nau, iso4=nau, description="also known as Nauruan", language=Nauru
+  nau: iso=na, iso3=nau, iso4=nau, description="also known as Nauruan"
+  nav: iso=nv, iso3=nav, iso4=nav, description=" "
+  nb: iso2=nob, iso3=nob, iso4=nob, description="covered by macrolanguage no/nor", language="Norwegian Bokmål"
+  nbl: iso=nr, iso3=nbl, iso4=nbl, description="also known as Southern Ndebele"
+  nd: iso2=nde, iso3=nde, iso4=nde, description="also known as Northern Ndebele", language="North Ndebele"
+  nde: iso=nd, iso3=nde, iso4=nde, description="also known as Northern Ndebele"
+  ndo: iso=ng, iso3=ndo, iso4=ndo, description=" "
+  ne: iso2=nep, iso3=nep, iso4="nep + 2", description=macrolanguage, language=Nepali
+  nep: iso=ne, iso3=nep, iso4="nep + 2", description=macrolanguage
+  ng: iso2=ndo, iso3=ndo, iso4=ndo, description=" ", language=Ndonga
+  nl: iso2=nld, iso3=dut, iso4=nld, description="Flemish is not to be confused with the closely related West Flemish which is referred to as Vlaams (Dutch for "Flemish") in ISO 639-3 and has the ISO 639-3 code vls", language=[Dutch,Flemish]
+  nld: iso=nl, iso3=dut, iso4=nld, description="Flemish is not to be confused with the closely related West Flemish which is referred to as Vlaams (Dutch for "Flemish") in ISO 639-3 and has the ISO 639-3 code vls"
+  nn: iso2=nno, iso3=nno, iso4=nno, description="covered by macrolanguage no/nor", language="Norwegian Nynorsk"
+  nno: iso=nn, iso3=nno, iso4=nno, description="covered by macrolanguage no/nor"
+  no: iso2=nor, iso3=nor, iso4="nor + 2", description="macrolanguage, Bokmål is nb/nob, Nynorsk is nn/nno", language=Norwegian
+  nob: iso=nb, iso3=nob, iso4=nob, description="covered by macrolanguage no/nor"
+  nor: iso=no, iso3=nor, iso4="nor + 2", description="macrolanguage, Bokmål is nb/nob, Nynorsk is nn/nno"
+  nr: iso2=nbl, iso3=nbl, iso4=nbl, description="also known as Southern Ndebele", language="South Ndebele"
+  nv: iso2=nav, iso3=nav, iso4=nav, description=" ", language=[Navajo,Navaho]
+  ny: iso2=nya, iso3=nya, iso4=nya, description=" ", language=[Chichewa,Chewa,Nyanja]
+  nya: iso=ny, iso3=nya, iso4=nya, description=" "
+  oc: iso2=oci, iso3=oci, iso4=oci, description=" ", language=Occitan
+  oci: iso=oc, iso3=oci, iso4=oci, description=" "
+  oj: iso2=oji, iso3=oji, iso4="oji + 7", description="macrolanguage, also known as Ojibwe", language=Ojibwa
+  oji: iso=oj, iso3=oji, iso4="oji + 7", description="macrolanguage, also known as Ojibwe"
+  om: iso2=orm, iso3=orm, iso4="orm + 4", description=macrolanguage, language=Oromo
+  or: iso2=ori, iso3=ori, iso4="ori + 2", description="macrolanguage, also known as Odia", language=Oriya
+  ori: iso=or, iso3=ori, iso4="ori + 2", description="macrolanguage, also known as Odia"
+  orm: iso=om, iso3=orm, iso4="orm + 4", description=macrolanguage
+  os: iso2=oss, iso3=oss, iso4=oss, description=" ", language=[Ossetian,Ossetic]
+  oss: iso=os, iso3=oss, iso4=oss, description=" "
+  pa: iso2=pan, iso3=pan, iso4=pan, description=" ", language=[Punjabi,Panjabi]
+  pan: iso=pa, iso3=pan, iso4=pan, description=" "
+  pi: iso2=pli, iso3=pli, iso4=pli, description="ancient, also known as Pāli", language=Pali
+  pl: iso2=pol, iso3=pol, iso4=pol, description=" ", language=Polish
+  pli: iso=pi, iso3=pli, iso4=pli, description="ancient, also known as Pāli"
+  pol: iso=pl, iso3=pol, iso4=pol, description=" "
+  por: iso=pt, iso3=por, iso4=por, description=" "
+  ps: iso2=pus, iso3=pus, iso4="pus + 3", description=macrolanguage, language=[Pashto,Pushto]
+  pt: iso2=por, iso3=por, iso4=por, description=" ", language=Portuguese
+  pus: iso=ps, iso3=pus, iso4="pus + 3", description=macrolanguage
+  qu: iso2=que, iso3=que, iso4="que + 43", description=macrolanguage, language=Quechua
+  que: iso=qu, iso3=que, iso4="que + 43", description=macrolanguage
+  rm: iso2=roh, iso3=roh, iso4=roh, description=" ", language=Romansh
+  rn: iso2=run, iso3=run, iso4=run, description="also known as Kirundi", language=Rundi
+  ro: iso2=ron, iso3=rum, iso4=ron, description="the identifiers mo and mol for Moldavian are deprecated. They will not be assigned to different items, and recordings using these identifiers will not be invalid.", language=[Romanian,Moldavian,Moldovan]
+  roh: iso=rm, iso3=roh, iso4=roh, description=" "
+  ron: iso=ro, iso3=rum, iso4=ron, description="the identifiers mo and mol for Moldavian are deprecated. They will not be assigned to different items, and recordings using these identifiers will not be invalid."
+  ru: iso2=rus, iso3=rus, iso4=rus, description=" ", language=Russian
+  run: iso=rn, iso3=run, iso4=run, description="also known as Kirundi"
+  rus: iso=ru, iso3=rus, iso4=rus, description=" "
+  rw: iso2=kin, iso3=kin, iso4=kin, description=" ", language=Kinyarwanda
+  sa: iso2=san, iso3=san, iso4=san, description=ancient, language=Sanskrit
+  sag: iso=sg, iso3=sag, iso4=sag, description=" "
+  san: iso=sa, iso3=san, iso4=san, description=ancient
+  sc: iso2=srd, iso3=srd, iso4="srd + 4", description=macrolanguage, language=Sardinian
+  sd: iso2=snd, iso3=snd, iso4=snd, description=" ", language=Sindhi
+  se: iso2=sme, iso3=sme, iso4=sme, description=" ", language="Northern Sami"
+  sg: iso2=sag, iso3=sag, iso4=sag, description=" ", language=Sango
+  si: iso2=sin, iso3=sin, iso4=sin, description=" ", language=[Sinhala,Sinhalese]
+  sin: iso=si, iso3=sin, iso4=sin, description=" "
+  sk: iso2=slk, iso3=slo, iso4=slk, description=" ", language=Slovak
+  sl: iso2=slv, iso3=slv, iso4=slv, description="also known as Slovene", language=Slovenian
+  slk: iso=sk, iso3=slo, iso4=slk, description=" "
+  slv: iso=sl, iso3=slv, iso4=slv, description="also known as Slovene"
+  sm: iso2=smo, iso3=smo, iso4=smo, description=" ", language=Samoan
+  sme: iso=se, iso3=sme, iso4=sme, description=" "
+  smo: iso=sm, iso3=smo, iso4=smo, description=" "
+  sn: iso2=sna, iso3=sna, iso4=sna, description=" ", language=Shona
+  sna: iso=sn, iso3=sna, iso4=sna, description=" "
+  snd: iso=sd, iso3=snd, iso4=snd, description=" "
+  so: iso2=som, iso3=som, iso4=som, description=" ", language=Somali
+  som: iso=so, iso3=som, iso4=som, description=" "
+  sot: iso=st, iso3=sot, iso4=sot, description=" "
+  spa: iso=es, iso3=spa, iso4=spa, description=" "
+  sq: iso2=sqi, iso3=alb, iso4="sqi + 4", description="macrolanguage, called "Albanian Phylozone" in 639-6", language=Albanian
+  sqi: iso=sq, iso3=alb, iso4="sqi + 4", description="macrolanguage, called "Albanian Phylozone" in 639-6"
+  sr: iso2=srp, iso3=srp, iso4=srp, description="the ISO 639-2/T code srp deprecated the ISO 639-2/B code scc[2]", language=Serbian
+  srd: iso=sc, iso3=srd, iso4="srd + 4", description=macrolanguage
+  srp: iso=sr, iso3=srp, iso4=srp, description="the ISO 639-2/T code srp deprecated the ISO 639-2/B code scc[2]"
+  ss: iso2=ssw, iso3=ssw, iso4=ssw, description="also known as Swazi", language=Swati
+  ssw: iso=ss, iso3=ssw, iso4=ssw, description="also known as Swazi"
+  st: iso2=sot, iso3=sot, iso4=sot, description=" ", language="Southern Sotho"
+  su: iso2=sun, iso3=sun, iso4=sun, description=" ", language=Sundanese
+  sun: iso=su, iso3=sun, iso4=sun, description=" "
+  sv: iso2=swe, iso3=swe, iso4=swe, description=" ", language=Swedish
+  sw: iso2=swa, iso3=swa, iso4="swa + 2", description=macrolanguage, language=Swahili
+  swa: iso=sw, iso3=swa, iso4="swa + 2", description=macrolanguage
+  swe: iso=sv, iso3=swe, iso4=swe, description=" "
+  ta: iso2=tam, iso3=tam, iso4=tam, description=" ", language=Tamil
+  tah: iso=ty, iso3=tah, iso4=tah, description="one of the Reo Mā`ohi (languages of French Polynesia)[3]"
+  tam: iso=ta, iso3=tam, iso4=tam, description=" "
+  tat: iso=tt, iso3=tat, iso4=tat, description=" "
+  te: iso2=tel, iso3=tel, iso4=tel, description=" ", language=Telugu
+  tel: iso=te, iso3=tel, iso4=tel, description=" "
+  tg: iso2=tgk, iso3=tgk, iso4=tgk, description=" ", language=Tajik
+  tgk: iso=tg, iso3=tgk, iso4=tgk, description=" "
+  tgl: iso=tl, iso3=tgl, iso4=tgl, description="note: Filipino (Pilipino) has the code fil"
+  th: iso2=tha, iso3=tha, iso4=tha, description=" ", language=Thai
+  tha: iso=th, iso3=tha, iso4=tha, description=" "
+  ti: iso2=tir, iso3=tir, iso4=tir, description=" ", language=Tigrinya
+  tir: iso=ti, iso3=tir, iso4=tir, description=" "
+  tk: iso2=tuk, iso3=tuk, iso4=tuk, description=" ", language=Turkmen
+  tl: iso2=tgl, iso3=tgl, iso4=tgl, description="note: Filipino (Pilipino) has the code fil", language=Tagalog
+  tn: iso2=tsn, iso3=tsn, iso4=tsn, description=" ", language=Tswana
+  to: iso2=ton, iso3=ton, iso4=ton, description="also known as Tongan", language="Tonga (Tonga Islands)"
+  ton: iso=to, iso3=ton, iso4=ton, description="also known as Tongan"
+  tr: iso2=tur, iso3=tur, iso4=tur, description=" ", language=Turkish
+  ts: iso2=tso, iso3=tso, iso4=tso, description=" ", language=Tsonga
+  tsn: iso=tn, iso3=tsn, iso4=tsn, description=" "
+  tso: iso=ts, iso3=tso, iso4=tso, description=" "
+  tt: iso2=tat, iso3=tat, iso4=tat, description=" ", language=Tatar
+  tuk: iso=tk, iso3=tuk, iso4=tuk, description=" "
+  tur: iso=tr, iso3=tur, iso4=tur, description=" "
+  tw: iso2=twi, iso3=twi, iso4=twi, description="covered by macrolanguage ak/aka", language=Twi
+  twi: iso=tw, iso3=twi, iso4=twi, description="covered by macrolanguage ak/aka"
+  ty: iso2=tah, iso3=tah, iso4=tah, description="one of the Reo Mā`ohi (languages of French Polynesia)[3]", language=Tahitian
+  ug: iso2=uig, iso3=uig, iso4=uig, description=" ", language=[Uighur,Uyghur]
+  uig: iso=ug, iso3=uig, iso4=uig, description=" "
+  uk: iso2=ukr, iso3=ukr, iso4=ukr, description=" ", language=Ukrainian
+  ukr: iso=uk, iso3=ukr, iso4=ukr, description=" "
+  ur: iso2=urd, iso3=urd, iso4=urd, description=" ", language=Urdu
+  urd: iso=ur, iso3=urd, iso4=urd, description=" "
+  uz: iso2=uzb, iso3=uzb, iso4="uzb + 2", description=macrolanguage, language=Uzbek
+  uzb: iso=uz, iso3=uzb, iso4="uzb + 2", description=macrolanguage
+  ve: iso2=ven, iso3=ven, iso4=ven, description=" ", language=Venda
+  ven: iso=ve, iso3=ven, iso4=ven, description=" "
+  vi: iso2=vie, iso3=vie, iso4=vie, description=" ", language=Vietnamese
+  vie: iso=vi, iso3=vie, iso4=vie, description=" "
+  vo: iso2=vol, iso3=vol, iso4=vol, description=constructed, language=Volapük
+  vol: iso=vo, iso3=vol, iso4=vol, description=constructed
+  wa: iso2=wln, iso3=wln, iso4=wln, description=" ", language=Walloon
+  wln: iso=wa, iso3=wln, iso4=wln, description=" "
+  wo: iso2=wol, iso3=wol, iso4=wol, description=" ", language=Wolof
+  wol: iso=wo, iso3=wol, iso4=wol, description=" "
+  xh: iso2=xho, iso3=xho, iso4=xho, description=" ", language=Xhosa
+  xho: iso=xh, iso3=xho, iso4=xho, description=" "
+  yi: iso2=yid, iso3=yid, iso4="yid + 2", description="macrolanguage. Changed in 1989 from original ISO 639:1988, ji.[1]", language=Yiddish
+  yid: iso=yi, iso3=yid, iso4="yid + 2", description="macrolanguage. Changed in 1989 from original ISO 639:1988, ji.[1]"
+  yo: iso2=yor, iso3=yor, iso4=yor, description=" ", language=Yoruba
+  yor: iso=yo, iso3=yor, iso4=yor, description=" "
+  za: iso2=zha, iso3=zha, iso4="zha + 16", description=macrolanguage, language=[Zhuang,Chuang]
+  zh: iso2=zho, iso3=chi, iso4="zho + 16", description=macrolanguage, language=Chinese
+  zha: iso=za, iso3=zha, iso4="zha + 16", description=macrolanguage
+  zho: iso=zh, iso3=chi, iso4="zho + 16", description=macrolanguage
+
