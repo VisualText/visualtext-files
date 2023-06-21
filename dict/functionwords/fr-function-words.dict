@@ -1,0 +1,1463 @@
+# French function words
+
+### Articles
+#--------------------------------------
+au functword=1 pos=articles
+aux functword=1 pos=articles
+d \' un functword=1 pos=articles
+d \' une functword=1 pos=articles
+des functword=1 pos=articles
+du functword=1 pos=articles
+l \' un functword=1 pos=articles
+l \' une functword=1 pos=articles
+la functword=1 pos=articles
+le functword=1 pos=articles
+les functword=1 pos=articles
+un functword=1 pos=articles
+une functword=1 pos=articles
+
+### Cardinal Numerals
+#--------------------------------------
+cent functword=1 pos=cardinalNumerals
+cinq functword=1 pos=cardinalNumerals
+cinquante functword=1 pos=cardinalNumerals
+deux functword=1 pos=cardinalNumerals
+dix functword=1 pos=cardinalNumerals
+dix \- huit functword=1 pos=cardinalNumerals
+dix \- neuf functword=1 pos=cardinalNumerals
+dix \- sept functword=1 pos=cardinalNumerals
+douze functword=1 pos=cardinalNumerals
+huit functword=1 pos=cardinalNumerals
+huitante functword=1 pos=cardinalNumerals
+mille functword=1 pos=cardinalNumerals
+milliard functword=1 pos=cardinalNumerals
+million functword=1 pos=cardinalNumerals
+neuf functword=1 pos=cardinalNumerals
+nonante functword=1 pos=cardinalNumerals
+octante functword=1 pos=cardinalNumerals
+onze functword=1 pos=cardinalNumerals
+quarante functword=1 pos=cardinalNumerals
+quatorze functword=1 pos=cardinalNumerals
+quatre functword=1 pos=cardinalNumerals
+quatre \- vingt functword=1 pos=cardinalNumerals
+quatre \- vingt \- dix functword=1 pos=cardinalNumerals
+quinze functword=1 pos=cardinalNumerals
+seize functword=1 pos=cardinalNumerals
+sept functword=1 pos=cardinalNumerals
+septante functword=1 pos=cardinalNumerals
+six functword=1 pos=cardinalNumerals
+soixante functword=1 pos=cardinalNumerals
+soixante \- dix functword=1 pos=cardinalNumerals
+treize functword=1 pos=cardinalNumerals
+trente functword=1 pos=cardinalNumerals
+trois functword=1 pos=cardinalNumerals
+vingt functword=1 pos=cardinalNumerals
+
+### Ordinal Numerals
+# 'premier' and 'première' are not included because of their secondary meanings ('prime minister', '[movie] premiere')
+#--------------------------------------
+cinquième functword=1 pos=ordinalNumerals
+cinquièmes functword=1 pos=ordinalNumerals
+deuxième functword=1 pos=ordinalNumerals
+deuxièmes functword=1 pos=ordinalNumerals
+dix \- huitième functword=1 pos=ordinalNumerals
+dix \- huitièmes functword=1 pos=ordinalNumerals
+dix \- neuvième functword=1 pos=ordinalNumerals
+dix \- neuvièmes functword=1 pos=ordinalNumerals
+dix \- septième functword=1 pos=ordinalNumerals
+dix \- septièmes functword=1 pos=ordinalNumerals
+dixième functword=1 pos=ordinalNumerals
+dixièmes functword=1 pos=ordinalNumerals
+douzième functword=1 pos=ordinalNumerals
+douzièmes functword=1 pos=ordinalNumerals
+huitième functword=1 pos=ordinalNumerals
+huitièmes functword=1 pos=ordinalNumerals
+neuvième functword=1 pos=ordinalNumerals
+neuvièmes functword=1 pos=ordinalNumerals
+onzième functword=1 pos=ordinalNumerals
+onzièmes functword=1 pos=ordinalNumerals
+quatorzième functword=1 pos=ordinalNumerals
+quatorzièmes functword=1 pos=ordinalNumerals
+quatrième functword=1 pos=ordinalNumerals
+quatrièmes functword=1 pos=ordinalNumerals
+quinzième functword=1 pos=ordinalNumerals
+quinzièmes functword=1 pos=ordinalNumerals
+second functword=1 pos=ordinalNumerals
+secondes functword=1 pos=ordinalNumerals
+seizième functword=1 pos=ordinalNumerals
+seizièmes functword=1 pos=ordinalNumerals
+septième functword=1 pos=ordinalNumerals
+septièmes functword=1 pos=ordinalNumerals
+sixième functword=1 pos=ordinalNumerals
+sixièmes functword=1 pos=ordinalNumerals
+treizième functword=1 pos=ordinalNumerals
+treizièmes functword=1 pos=ordinalNumerals
+troisième functword=1 pos=ordinalNumerals
+troisièmes functword=1 pos=ordinalNumerals
+vingtième functword=1 pos=ordinalNumerals
+vingtièmes functword=1 pos=ordinalNumerals
+
+### Personal Pronouns Nominative
+#--------------------------------------
+d \' elle functword=1 pos=personalPronounsNominative
+d \' elles functword=1 pos=personalPronounsNominative
+elle functword=1 pos=personalPronounsNominative
+elles functword=1 pos=personalPronounsNominative
+il functword=1 pos=personalPronounsNominative
+ils functword=1 pos=personalPronounsNominative
+je functword=1 pos=personalPronounsNominative
+nous functword=1 pos=personalPronounsNominative
+on functword=1 pos=personalPronounsNominative
+qu \' elle functword=1 pos=personalPronounsNominative
+qu \' elles functword=1 pos=personalPronounsNominative
+qu \' il functword=1 pos=personalPronounsNominative
+qu \' ils functword=1 pos=personalPronounsNominative
+qu \' on functword=1 pos=personalPronounsNominative
+tu functword=1 pos=personalPronounsNominative
+vous functword=1 pos=personalPronounsNominative
+
+### Personal Pronouns Stressed
+#--------------------------------------
+d \' eux functword=1 pos=personalPronounsStressed
+eux functword=1 pos=personalPronounsStressed
+lui functword=1 pos=personalPronounsStressed
+moi functword=1 pos=personalPronounsStressed
+qu \' eux functword=1 pos=personalPronounsStressed
+soi functword=1 pos=personalPronounsStressed
+toi functword=1 pos=personalPronounsStressed
+
+### Personal Pronouns Accusative
+# Le, la, les are already included in the articles list.
+#--------------------------------------
+me functword=1 pos=personalPronounsAccusative
+te functword=1 pos=personalPronounsAccusative
+
+### Demonstrative Pronouns
+#--------------------------------------
+ce functword=1 pos=demonstrativePronouns
+ceci functword=1 pos=demonstrativePronouns
+cela functword=1 pos=demonstrativePronouns
+celle functword=1 pos=demonstrativePronouns
+celle \- ci functword=1 pos=demonstrativePronouns
+celle \- là functword=1 pos=demonstrativePronouns
+celles functword=1 pos=demonstrativePronouns
+celles \- ci functword=1 pos=demonstrativePronouns
+celles \- là functword=1 pos=demonstrativePronouns
+celui functword=1 pos=demonstrativePronouns
+celui \- ci functword=1 pos=demonstrativePronouns
+celui \- là functword=1 pos=demonstrativePronouns
+ces functword=1 pos=demonstrativePronouns
+cet functword=1 pos=demonstrativePronouns
+cette functword=1 pos=demonstrativePronouns
+ceux functword=1 pos=demonstrativePronouns
+ceux \- ci functword=1 pos=demonstrativePronouns
+ceux \- là functword=1 pos=demonstrativePronouns
+ça functword=1 pos=demonstrativePronouns
+
+### Possessive Pronouns
+#--------------------------------------
+leur functword=1 pos=possessivePronouns
+leurs functword=1 pos=possessivePronouns
+ma functword=1 pos=possessivePronouns
+mes functword=1 pos=possessivePronouns
+mon functword=1 pos=possessivePronouns
+nos functword=1 pos=possessivePronouns
+notre functword=1 pos=possessivePronouns
+sa functword=1 pos=possessivePronouns
+ses functword=1 pos=possessivePronouns
+son functword=1 pos=possessivePronouns
+ta functword=1 pos=possessivePronouns
+tes functword=1 pos=possessivePronouns
+ton functword=1 pos=possessivePronouns
+vos functword=1 pos=possessivePronouns
+votre functword=1 pos=possessivePronouns
+
+### Quantifiers
+#--------------------------------------
+beaucoup functword=1 pos=quantifiers
+chaque functword=1 pos=quantifiers
+divers functword=1 pos=quantifiers
+diverse functword=1 pos=quantifiers
+diverses functword=1 pos=quantifiers
+faible functword=1 pos=quantifiers
+moins functword=1 pos=quantifiers
+peu functword=1 pos=quantifiers
+plein functword=1 pos=quantifiers
+plus functword=1 pos=quantifiers
+plusieurs functword=1 pos=quantifiers
+quelque functword=1 pos=quantifiers
+quelques functword=1 pos=quantifiers
+suffisant functword=1 pos=quantifiers
+suffisante functword=1 pos=quantifiers
+suffisantes functword=1 pos=quantifiers
+suffisants functword=1 pos=quantifiers
+tant functword=1 pos=quantifiers
+tous functword=1 pos=quantifiers
+tout functword=1 pos=quantifiers
+toute functword=1 pos=quantifiers
+toutes functword=1 pos=quantifiers
+
+### Reflexive Pronouns
+# The remaining reflexive personal pronouns are already included in other pronoun lists.
+#--------------------------------------
+se functword=1 pos=reflexivePronouns
+
+### Indefinite Pronouns
+#--------------------------------------
+aucun functword=1 pos=indefinitePronouns
+aucune functword=1 pos=indefinitePronouns
+autre functword=1 pos=indefinitePronouns
+autres functword=1 pos=indefinitePronouns
+autrui functword=1 pos=indefinitePronouns
+certain functword=1 pos=indefinitePronouns
+certaine functword=1 pos=indefinitePronouns
+certaines functword=1 pos=indefinitePronouns
+certains functword=1 pos=indefinitePronouns
+chacun functword=1 pos=indefinitePronouns
+chacune functword=1 pos=indefinitePronouns
+d \' aucunes functword=1 pos=indefinitePronouns
+d \' aucuns functword=1 pos=indefinitePronouns
+d \' autres functword=1 pos=indefinitePronouns
+l \' autre functword=1 pos=indefinitePronouns
+même functword=1 pos=indefinitePronouns
+mêmes functword=1 pos=indefinitePronouns
+nul functword=1 pos=indefinitePronouns
+nules functword=1 pos=indefinitePronouns
+nuls functword=1 pos=indefinitePronouns
+personne functword=1 pos=indefinitePronouns
+quelqu \' un functword=1 pos=indefinitePronouns
+quelqu \' une functword=1 pos=indefinitePronouns
+quelques \' unes functword=1 pos=indefinitePronouns
+quelques \' uns functword=1 pos=indefinitePronouns
+quiconque functword=1 pos=indefinitePronouns
+rien functword=1 pos=indefinitePronouns
+tel functword=1 pos=indefinitePronouns
+telle functword=1 pos=indefinitePronouns
+telles functword=1 pos=indefinitePronouns
+tels functword=1 pos=indefinitePronouns
+
+### Relative Pronouns
+#--------------------------------------
+auquel functword=1 pos=relativePronouns
+auxquelles functword=1 pos=relativePronouns
+auxquels functword=1 pos=relativePronouns
+desquelles functword=1 pos=relativePronouns
+desquels functword=1 pos=relativePronouns
+dont functword=1 pos=relativePronouns
+duquel functword=1 pos=relativePronouns
+laquelle functword=1 pos=relativePronouns
+lequel functword=1 pos=relativePronouns
+où functword=1 pos=relativePronouns
+que functword=1 pos=relativePronouns
+qui functword=1 pos=relativePronouns
+quoi functword=1 pos=relativePronouns
+
+### Interrogative Pro Adverbs
+#--------------------------------------
+combien functword=1 pos=interrogativeProAdverbs
+comment functword=1 pos=interrogativeProAdverbs
+d \' où functword=1 pos=interrogativeProAdverbs
+pourquoi functword=1 pos=interrogativeProAdverbs
+
+### Interrogative Adjectives
+#--------------------------------------
+quel functword=1 pos=interrogativeAdjectives
+quelle functword=1 pos=interrogativeAdjectives
+quels functword=1 pos=interrogativeAdjectives
+
+### Pronominal Adverbs
+#--------------------------------------
+n \' y functword=1 pos=pronominalAdverbs
+y functword=1 pos=pronominalAdverbs
+
+### Locative Adverbs
+#--------------------------------------
+d \' ici functword=1 pos=locativeAdverbs
+ici functword=1 pos=locativeAdverbs
+là functword=1 pos=locativeAdverbs
+voici functword=1 pos=locativeAdverbs
+
+### Other Auxiliaries
+# 'Vins' is not included because it also means 'wines'.
+#--------------------------------------
+a functword=1 pos=otherAuxiliaries
+a \- t \- elle functword=1 pos=otherAuxiliaries
+a \- t \- il functword=1 pos=otherAuxiliaries
+a \- t \- on functword=1 pos=otherAuxiliaries
+ai functword=1 pos=otherAuxiliaries
+ai \- je functword=1 pos=otherAuxiliaries
+aie functword=1 pos=otherAuxiliaries
+aille functword=1 pos=otherAuxiliaries
+aillent functword=1 pos=otherAuxiliaries
+ailles functword=1 pos=otherAuxiliaries
+ait functword=1 pos=otherAuxiliaries
+ait \- elle functword=1 pos=otherAuxiliaries
+ait \- il functword=1 pos=otherAuxiliaries
+ait \- on functword=1 pos=otherAuxiliaries
+alla functword=1 pos=otherAuxiliaries
+allai functword=1 pos=otherAuxiliaries
+allaient functword=1 pos=otherAuxiliaries
+allais functword=1 pos=otherAuxiliaries
+allait functword=1 pos=otherAuxiliaries
+allant functword=1 pos=otherAuxiliaries
+allas functword=1 pos=otherAuxiliaries
+allasse functword=1 pos=otherAuxiliaries
+allassent functword=1 pos=otherAuxiliaries
+allasses functword=1 pos=otherAuxiliaries
+allassiez functword=1 pos=otherAuxiliaries
+allassions functword=1 pos=otherAuxiliaries
+allez functword=1 pos=otherAuxiliaries
+allez \- vous functword=1 pos=otherAuxiliaries
+alliez functword=1 pos=otherAuxiliaries
+allions functword=1 pos=otherAuxiliaries
+allons functword=1 pos=otherAuxiliaries
+allons \- nous functword=1 pos=otherAuxiliaries
+allâmes functword=1 pos=otherAuxiliaries
+allât functword=1 pos=otherAuxiliaries
+allâtes functword=1 pos=otherAuxiliaries
+allèrent functword=1 pos=otherAuxiliaries
+allé functword=1 pos=otherAuxiliaries
+allés functword=1 pos=otherAuxiliaries
+as functword=1 pos=otherAuxiliaries
+as \- tu functword=1 pos=otherAuxiliaries
+aura functword=1 pos=otherAuxiliaries
+aurai functword=1 pos=otherAuxiliaries
+auraient functword=1 pos=otherAuxiliaries
+aurais functword=1 pos=otherAuxiliaries
+aurait functword=1 pos=otherAuxiliaries
+auras functword=1 pos=otherAuxiliaries
+aurez functword=1 pos=otherAuxiliaries
+auriez functword=1 pos=otherAuxiliaries
+aurons functword=1 pos=otherAuxiliaries
+auront functword=1 pos=otherAuxiliaries
+avaient functword=1 pos=otherAuxiliaries
+avais functword=1 pos=otherAuxiliaries
+avait functword=1 pos=otherAuxiliaries
+avez functword=1 pos=otherAuxiliaries
+avez \- vous functword=1 pos=otherAuxiliaries
+aviez functword=1 pos=otherAuxiliaries
+avions functword=1 pos=otherAuxiliaries
+avons functword=1 pos=otherAuxiliaries
+avons \- nous functword=1 pos=otherAuxiliaries
+ayez functword=1 pos=otherAuxiliaries
+ayons functword=1 pos=otherAuxiliaries
+devaient functword=1 pos=otherAuxiliaries
+devais functword=1 pos=otherAuxiliaries
+devait functword=1 pos=otherAuxiliaries
+devez functword=1 pos=otherAuxiliaries
+devez \- vous functword=1 pos=otherAuxiliaries
+deviez functword=1 pos=otherAuxiliaries
+devions functword=1 pos=otherAuxiliaries
+devons functword=1 pos=otherAuxiliaries
+devons \- nous functword=1 pos=otherAuxiliaries
+devra functword=1 pos=otherAuxiliaries
+devrai functword=1 pos=otherAuxiliaries
+devraient functword=1 pos=otherAuxiliaries
+devrais functword=1 pos=otherAuxiliaries
+devrait functword=1 pos=otherAuxiliaries
+devras functword=1 pos=otherAuxiliaries
+devrez functword=1 pos=otherAuxiliaries
+devriez functword=1 pos=otherAuxiliaries
+devrions functword=1 pos=otherAuxiliaries
+devrons functword=1 pos=otherAuxiliaries
+devront functword=1 pos=otherAuxiliaries
+dois functword=1 pos=otherAuxiliaries
+dois \- je functword=1 pos=otherAuxiliaries
+dois \- tu functword=1 pos=otherAuxiliaries
+doit functword=1 pos=otherAuxiliaries
+doit \- elle functword=1 pos=otherAuxiliaries
+doit \- il functword=1 pos=otherAuxiliaries
+doit \- on functword=1 pos=otherAuxiliaries
+doive functword=1 pos=otherAuxiliaries
+doivent functword=1 pos=otherAuxiliaries
+doivent \- elles functword=1 pos=otherAuxiliaries
+doivent \- ils functword=1 pos=otherAuxiliaries
+doives functword=1 pos=otherAuxiliaries
+durent functword=1 pos=otherAuxiliaries
+dus functword=1 pos=otherAuxiliaries
+dusse functword=1 pos=otherAuxiliaries
+dussent functword=1 pos=otherAuxiliaries
+dusses functword=1 pos=otherAuxiliaries
+dussiez functword=1 pos=otherAuxiliaries
+dussions functword=1 pos=otherAuxiliaries
+dut functword=1 pos=otherAuxiliaries
+dû functword=1 pos=otherAuxiliaries
+dûmes functword=1 pos=otherAuxiliaries
+dût functword=1 pos=otherAuxiliaries
+dûtes functword=1 pos=otherAuxiliaries
+eu functword=1 pos=otherAuxiliaries
+eurent functword=1 pos=otherAuxiliaries
+eus functword=1 pos=otherAuxiliaries
+eut functword=1 pos=otherAuxiliaries
+eûmes functword=1 pos=otherAuxiliaries
+eûtes functword=1 pos=otherAuxiliaries
+fini functword=1 pos=otherAuxiliaries
+finira functword=1 pos=otherAuxiliaries
+finirai functword=1 pos=otherAuxiliaries
+finiraient functword=1 pos=otherAuxiliaries
+finirais functword=1 pos=otherAuxiliaries
+finirait functword=1 pos=otherAuxiliaries
+finiras functword=1 pos=otherAuxiliaries
+finirent functword=1 pos=otherAuxiliaries
+finirez functword=1 pos=otherAuxiliaries
+finiriez functword=1 pos=otherAuxiliaries
+finirions functword=1 pos=otherAuxiliaries
+finirons functword=1 pos=otherAuxiliaries
+finiront functword=1 pos=otherAuxiliaries
+finis functword=1 pos=otherAuxiliaries
+finis \- je functword=1 pos=otherAuxiliaries
+finis \- tu functword=1 pos=otherAuxiliaries
+finissaient functword=1 pos=otherAuxiliaries
+finissais functword=1 pos=otherAuxiliaries
+finissait functword=1 pos=otherAuxiliaries
+finissant functword=1 pos=otherAuxiliaries
+finisse functword=1 pos=otherAuxiliaries
+finissent functword=1 pos=otherAuxiliaries
+finissent \- elles functword=1 pos=otherAuxiliaries
+finissent \- ils functword=1 pos=otherAuxiliaries
+finisses functword=1 pos=otherAuxiliaries
+finissez functword=1 pos=otherAuxiliaries
+finissez \- vous functword=1 pos=otherAuxiliaries
+finissiez functword=1 pos=otherAuxiliaries
+finissions functword=1 pos=otherAuxiliaries
+finissons functword=1 pos=otherAuxiliaries
+finissons \- nous functword=1 pos=otherAuxiliaries
+finit functword=1 pos=otherAuxiliaries
+finit \- elle functword=1 pos=otherAuxiliaries
+finit \- il functword=1 pos=otherAuxiliaries
+finit \- on functword=1 pos=otherAuxiliaries
+finîmes functword=1 pos=otherAuxiliaries
+finît functword=1 pos=otherAuxiliaries
+finîtes functword=1 pos=otherAuxiliaries
+ira functword=1 pos=otherAuxiliaries
+iraient functword=1 pos=otherAuxiliaries
+irais functword=1 pos=otherAuxiliaries
+irait functword=1 pos=otherAuxiliaries
+iras functword=1 pos=otherAuxiliaries
+irez functword=1 pos=otherAuxiliaries
+iriez functword=1 pos=otherAuxiliaries
+irions functword=1 pos=otherAuxiliaries
+irons functword=1 pos=otherAuxiliaries
+iront functword=1 pos=otherAuxiliaries
+j \' ai functword=1 pos=otherAuxiliaries
+j \' aille functword=1 pos=otherAuxiliaries
+j \' allai functword=1 pos=otherAuxiliaries
+j \' allais functword=1 pos=otherAuxiliaries
+j \' allasse functword=1 pos=otherAuxiliaries
+j \' aurai functword=1 pos=otherAuxiliaries
+j \' avais functword=1 pos=otherAuxiliaries
+j \' eus functword=1 pos=otherAuxiliaries
+j \' irai functword=1 pos=otherAuxiliaries
+j \' irais functword=1 pos=otherAuxiliaries
+met functword=1 pos=otherAuxiliaries
+met \- elle functword=1 pos=otherAuxiliaries
+met \- il functword=1 pos=otherAuxiliaries
+met \- on functword=1 pos=otherAuxiliaries
+mets functword=1 pos=otherAuxiliaries
+mets \- je functword=1 pos=otherAuxiliaries
+mets \- tu functword=1 pos=otherAuxiliaries
+mettaient functword=1 pos=otherAuxiliaries
+mettais functword=1 pos=otherAuxiliaries
+mettait functword=1 pos=otherAuxiliaries
+mettant functword=1 pos=otherAuxiliaries
+mette functword=1 pos=otherAuxiliaries
+mettent functword=1 pos=otherAuxiliaries
+mettent \- elles functword=1 pos=otherAuxiliaries
+mettent \- ils functword=1 pos=otherAuxiliaries
+mettes functword=1 pos=otherAuxiliaries
+mettez functword=1 pos=otherAuxiliaries
+mettez \- vous functword=1 pos=otherAuxiliaries
+mettiez functword=1 pos=otherAuxiliaries
+mettions functword=1 pos=otherAuxiliaries
+mettons functword=1 pos=otherAuxiliaries
+mettons \- nous functword=1 pos=otherAuxiliaries
+mettra functword=1 pos=otherAuxiliaries
+mettrai functword=1 pos=otherAuxiliaries
+mettraient functword=1 pos=otherAuxiliaries
+mettrais functword=1 pos=otherAuxiliaries
+mettrait functword=1 pos=otherAuxiliaries
+mettras functword=1 pos=otherAuxiliaries
+mettrez functword=1 pos=otherAuxiliaries
+mettriez functword=1 pos=otherAuxiliaries
+mettrions functword=1 pos=otherAuxiliaries
+mettrons functword=1 pos=otherAuxiliaries
+mettront functword=1 pos=otherAuxiliaries
+mirent functword=1 pos=otherAuxiliaries
+mis functword=1 pos=otherAuxiliaries
+misse functword=1 pos=otherAuxiliaries
+missent functword=1 pos=otherAuxiliaries
+misses functword=1 pos=otherAuxiliaries
+missiez functword=1 pos=otherAuxiliaries
+missions functword=1 pos=otherAuxiliaries
+mit functword=1 pos=otherAuxiliaries
+mîmes functword=1 pos=otherAuxiliaries
+mît functword=1 pos=otherAuxiliaries
+mîtes functword=1 pos=otherAuxiliaries
+n \' a functword=1 pos=otherAuxiliaries
+n \' ai functword=1 pos=otherAuxiliaries
+n \' aie functword=1 pos=otherAuxiliaries
+n \' allaient functword=1 pos=otherAuxiliaries
+n \' allais functword=1 pos=otherAuxiliaries
+n \' allait functword=1 pos=otherAuxiliaries
+n \' allez functword=1 pos=otherAuxiliaries
+n \' alliez functword=1 pos=otherAuxiliaries
+n \' allions functword=1 pos=otherAuxiliaries
+n \' allons functword=1 pos=otherAuxiliaries
+n \' as functword=1 pos=otherAuxiliaries
+n \' aura functword=1 pos=otherAuxiliaries
+n \' aurai functword=1 pos=otherAuxiliaries
+n \' auraient functword=1 pos=otherAuxiliaries
+n \' aurais functword=1 pos=otherAuxiliaries
+n \' aurait functword=1 pos=otherAuxiliaries
+n \' auras functword=1 pos=otherAuxiliaries
+n \' aurez functword=1 pos=otherAuxiliaries
+n \' auriez functword=1 pos=otherAuxiliaries
+n \' aurons functword=1 pos=otherAuxiliaries
+n \' auront functword=1 pos=otherAuxiliaries
+n \' avaient functword=1 pos=otherAuxiliaries
+n \' avais functword=1 pos=otherAuxiliaries
+n \' avait functword=1 pos=otherAuxiliaries
+n \' avez functword=1 pos=otherAuxiliaries
+n \' avez \- vous functword=1 pos=otherAuxiliaries
+n \' aviez functword=1 pos=otherAuxiliaries
+n \' avions functword=1 pos=otherAuxiliaries
+n \' avons functword=1 pos=otherAuxiliaries
+n \' avons \- nous functword=1 pos=otherAuxiliaries
+n \' ayez functword=1 pos=otherAuxiliaries
+n \' ayons functword=1 pos=otherAuxiliaries
+n \' ira functword=1 pos=otherAuxiliaries
+n \' iras functword=1 pos=otherAuxiliaries
+n \' irez functword=1 pos=otherAuxiliaries
+n \' irons functword=1 pos=otherAuxiliaries
+n \' iront functword=1 pos=otherAuxiliaries
+n \' ont functword=1 pos=otherAuxiliaries
+n \' ont \- elles functword=1 pos=otherAuxiliaries
+n \' ont \- ils functword=1 pos=otherAuxiliaries
+ont functword=1 pos=otherAuxiliaries
+ont \- elles functword=1 pos=otherAuxiliaries
+ont \- ils functword=1 pos=otherAuxiliaries
+parais functword=1 pos=otherAuxiliaries
+parais \- je functword=1 pos=otherAuxiliaries
+parais \- tu functword=1 pos=otherAuxiliaries
+paraissaient functword=1 pos=otherAuxiliaries
+paraissais functword=1 pos=otherAuxiliaries
+paraissait functword=1 pos=otherAuxiliaries
+paraissant functword=1 pos=otherAuxiliaries
+paraisse functword=1 pos=otherAuxiliaries
+paraissent functword=1 pos=otherAuxiliaries
+paraissent \- elles functword=1 pos=otherAuxiliaries
+paraissent \- ils functword=1 pos=otherAuxiliaries
+paraisses functword=1 pos=otherAuxiliaries
+paraissez functword=1 pos=otherAuxiliaries
+paraissez \- vous functword=1 pos=otherAuxiliaries
+paraissiez functword=1 pos=otherAuxiliaries
+paraissions functword=1 pos=otherAuxiliaries
+paraissons functword=1 pos=otherAuxiliaries
+paraissons \- nous functword=1 pos=otherAuxiliaries
+paraitraient functword=1 pos=otherAuxiliaries
+paraitrais functword=1 pos=otherAuxiliaries
+paraitrait functword=1 pos=otherAuxiliaries
+paraitriez functword=1 pos=otherAuxiliaries
+paraitrions functword=1 pos=otherAuxiliaries
+paraît functword=1 pos=otherAuxiliaries
+paraît \- elle functword=1 pos=otherAuxiliaries
+paraît \- il functword=1 pos=otherAuxiliaries
+paraît \- on functword=1 pos=otherAuxiliaries
+paraîtra functword=1 pos=otherAuxiliaries
+paraîtrai functword=1 pos=otherAuxiliaries
+paraîtraient functword=1 pos=otherAuxiliaries
+paraîtrais functword=1 pos=otherAuxiliaries
+paraîtrait functword=1 pos=otherAuxiliaries
+paraîtras functword=1 pos=otherAuxiliaries
+paraîtrez functword=1 pos=otherAuxiliaries
+paraîtriez functword=1 pos=otherAuxiliaries
+paraîtrions functword=1 pos=otherAuxiliaries
+paraîtrons functword=1 pos=otherAuxiliaries
+paraîtront functword=1 pos=otherAuxiliaries
+paru functword=1 pos=otherAuxiliaries
+parurent functword=1 pos=otherAuxiliaries
+parus functword=1 pos=otherAuxiliaries
+parusse functword=1 pos=otherAuxiliaries
+parussent functword=1 pos=otherAuxiliaries
+parusses functword=1 pos=otherAuxiliaries
+parussiez functword=1 pos=otherAuxiliaries
+parussions functword=1 pos=otherAuxiliaries
+parut functword=1 pos=otherAuxiliaries
+parûmes functword=1 pos=otherAuxiliaries
+parût functword=1 pos=otherAuxiliaries
+parûtes functword=1 pos=otherAuxiliaries
+peut functword=1 pos=otherAuxiliaries
+peut \- elle functword=1 pos=otherAuxiliaries
+peut \- il functword=1 pos=otherAuxiliaries
+peut \- on functword=1 pos=otherAuxiliaries
+peuvent functword=1 pos=otherAuxiliaries
+peuvent \- elles functword=1 pos=otherAuxiliaries
+peuvent \- ils functword=1 pos=otherAuxiliaries
+peux functword=1 pos=otherAuxiliaries
+peux \- je functword=1 pos=otherAuxiliaries
+peux \- tu functword=1 pos=otherAuxiliaries
+pourra functword=1 pos=otherAuxiliaries
+pourrai functword=1 pos=otherAuxiliaries
+pourraient functword=1 pos=otherAuxiliaries
+pourrais functword=1 pos=otherAuxiliaries
+pourrait functword=1 pos=otherAuxiliaries
+pourras functword=1 pos=otherAuxiliaries
+pourrez functword=1 pos=otherAuxiliaries
+pourriez functword=1 pos=otherAuxiliaries
+pourrions functword=1 pos=otherAuxiliaries
+pourrons functword=1 pos=otherAuxiliaries
+pourront functword=1 pos=otherAuxiliaries
+pouvaient functword=1 pos=otherAuxiliaries
+pouvais functword=1 pos=otherAuxiliaries
+pouvait functword=1 pos=otherAuxiliaries
+pouvant functword=1 pos=otherAuxiliaries
+pouvez functword=1 pos=otherAuxiliaries
+pouvez \- vous functword=1 pos=otherAuxiliaries
+pouviez functword=1 pos=otherAuxiliaries
+pouvions functword=1 pos=otherAuxiliaries
+pouvons functword=1 pos=otherAuxiliaries
+pouvons \- nous functword=1 pos=otherAuxiliaries
+pu functword=1 pos=otherAuxiliaries
+puisse functword=1 pos=otherAuxiliaries
+puissent functword=1 pos=otherAuxiliaries
+puisses functword=1 pos=otherAuxiliaries
+puissiez functword=1 pos=otherAuxiliaries
+puissions functword=1 pos=otherAuxiliaries
+purent functword=1 pos=otherAuxiliaries
+pus functword=1 pos=otherAuxiliaries
+pusse functword=1 pos=otherAuxiliaries
+pussent functword=1 pos=otherAuxiliaries
+pusses functword=1 pos=otherAuxiliaries
+pussiez functword=1 pos=otherAuxiliaries
+pussions functword=1 pos=otherAuxiliaries
+put functword=1 pos=otherAuxiliaries
+pûmes functword=1 pos=otherAuxiliaries
+pût functword=1 pos=otherAuxiliaries
+pûtes functword=1 pos=otherAuxiliaries
+qu \' a functword=1 pos=otherAuxiliaries
+sembla functword=1 pos=otherAuxiliaries
+semblai functword=1 pos=otherAuxiliaries
+semblaient functword=1 pos=otherAuxiliaries
+semblais functword=1 pos=otherAuxiliaries
+semblait functword=1 pos=otherAuxiliaries
+semblas functword=1 pos=otherAuxiliaries
+semblasse functword=1 pos=otherAuxiliaries
+semblassent functword=1 pos=otherAuxiliaries
+semblasses functword=1 pos=otherAuxiliaries
+semblassiez functword=1 pos=otherAuxiliaries
+semblassions functword=1 pos=otherAuxiliaries
+semble functword=1 pos=otherAuxiliaries
+semble \- je functword=1 pos=otherAuxiliaries
+semblent functword=1 pos=otherAuxiliaries
+semblent \- elles functword=1 pos=otherAuxiliaries
+semblent \- ils functword=1 pos=otherAuxiliaries
+semblera functword=1 pos=otherAuxiliaries
+semblerai functword=1 pos=otherAuxiliaries
+sembleraient functword=1 pos=otherAuxiliaries
+semblerais functword=1 pos=otherAuxiliaries
+semblerait functword=1 pos=otherAuxiliaries
+sembleras functword=1 pos=otherAuxiliaries
+semblerez functword=1 pos=otherAuxiliaries
+sembleriez functword=1 pos=otherAuxiliaries
+semblerions functword=1 pos=otherAuxiliaries
+semblerons functword=1 pos=otherAuxiliaries
+sembleront functword=1 pos=otherAuxiliaries
+sembles functword=1 pos=otherAuxiliaries
+sembles \- elle functword=1 pos=otherAuxiliaries
+sembles \- il functword=1 pos=otherAuxiliaries
+sembles \- on functword=1 pos=otherAuxiliaries
+semblez functword=1 pos=otherAuxiliaries
+semblez \- vous functword=1 pos=otherAuxiliaries
+sembliez functword=1 pos=otherAuxiliaries
+semblions functword=1 pos=otherAuxiliaries
+semblons functword=1 pos=otherAuxiliaries
+semblons \- nous functword=1 pos=otherAuxiliaries
+semblâmes functword=1 pos=otherAuxiliaries
+semblât functword=1 pos=otherAuxiliaries
+semblâtes functword=1 pos=otherAuxiliaries
+semblèrent functword=1 pos=otherAuxiliaries
+semblé functword=1 pos=otherAuxiliaries
+va functword=1 pos=otherAuxiliaries
+va \- t \- elle functword=1 pos=otherAuxiliaries
+va \- t \- il functword=1 pos=otherAuxiliaries
+va \- t \- on functword=1 pos=otherAuxiliaries
+vais functword=1 pos=otherAuxiliaries
+vais \- je functword=1 pos=otherAuxiliaries
+vas functword=1 pos=otherAuxiliaries
+vas \- tu functword=1 pos=otherAuxiliaries
+venaient functword=1 pos=otherAuxiliaries
+venais functword=1 pos=otherAuxiliaries
+venait functword=1 pos=otherAuxiliaries
+venant functword=1 pos=otherAuxiliaries
+venez functword=1 pos=otherAuxiliaries
+venez \- vous functword=1 pos=otherAuxiliaries
+veniez functword=1 pos=otherAuxiliaries
+venions functword=1 pos=otherAuxiliaries
+venons functword=1 pos=otherAuxiliaries
+venons \- nous functword=1 pos=otherAuxiliaries
+venu functword=1 pos=otherAuxiliaries
+venus functword=1 pos=otherAuxiliaries
+viendra functword=1 pos=otherAuxiliaries
+viendrai functword=1 pos=otherAuxiliaries
+viendraient functword=1 pos=otherAuxiliaries
+viendrais functword=1 pos=otherAuxiliaries
+viendrait functword=1 pos=otherAuxiliaries
+viendras functword=1 pos=otherAuxiliaries
+viendrez functword=1 pos=otherAuxiliaries
+viendriez functword=1 pos=otherAuxiliaries
+viendrions functword=1 pos=otherAuxiliaries
+viendrons functword=1 pos=otherAuxiliaries
+viendront functword=1 pos=otherAuxiliaries
+vienne functword=1 pos=otherAuxiliaries
+viennent functword=1 pos=otherAuxiliaries
+viennent \- elles functword=1 pos=otherAuxiliaries
+viennent \- ils functword=1 pos=otherAuxiliaries
+viennes functword=1 pos=otherAuxiliaries
+viens functword=1 pos=otherAuxiliaries
+viens \- de functword=1 pos=otherAuxiliaries
+viens \- je functword=1 pos=otherAuxiliaries
+vient functword=1 pos=otherAuxiliaries
+vient \- elle functword=1 pos=otherAuxiliaries
+vient \- il functword=1 pos=otherAuxiliaries
+vient \- on functword=1 pos=otherAuxiliaries
+vinrent functword=1 pos=otherAuxiliaries
+vins functword=1 pos=otherAuxiliaries
+vinsse functword=1 pos=otherAuxiliaries
+vinssent functword=1 pos=otherAuxiliaries
+vinsses functword=1 pos=otherAuxiliaries
+vinssiez functword=1 pos=otherAuxiliaries
+vinssions functword=1 pos=otherAuxiliaries
+vint functword=1 pos=otherAuxiliaries
+vont functword=1 pos=otherAuxiliaries
+vont \- elles functword=1 pos=otherAuxiliaries
+vont \- ils functword=1 pos=otherAuxiliaries
+vînmes functword=1 pos=otherAuxiliaries
+vînt functword=1 pos=otherAuxiliaries
+vîntes functword=1 pos=otherAuxiliaries
+
+### Other Auxiliaries Infinitive
+#--------------------------------------
+aller functword=1 pos=otherAuxiliariesInfinitive
+avoir functword=1 pos=otherAuxiliariesInfinitive
+d \' aller functword=1 pos=otherAuxiliariesInfinitive
+d \' avoir functword=1 pos=otherAuxiliariesInfinitive
+devoir functword=1 pos=otherAuxiliariesInfinitive
+finir functword=1 pos=otherAuxiliariesInfinitive
+l \' avoir functword=1 pos=otherAuxiliariesInfinitive
+mettre functword=1 pos=otherAuxiliariesInfinitive
+n \' avoir functword=1 pos=otherAuxiliariesInfinitive
+paraitre functword=1 pos=otherAuxiliariesInfinitive
+paraître functword=1 pos=otherAuxiliariesInfinitive
+pouvoir functword=1 pos=otherAuxiliariesInfinitive
+sembler functword=1 pos=otherAuxiliariesInfinitive
+venir functword=1 pos=otherAuxiliariesInfinitive
+
+### Copula
+#--------------------------------------
+es functword=1 pos=copula
+es \- tu functword=1 pos=copula
+est functword=1 pos=copula
+est \- ce functword=1 pos=copula
+est \- elle functword=1 pos=copula
+est \- il functword=1 pos=copula
+est \- on functword=1 pos=copula
+n \' es functword=1 pos=copula
+n \' est functword=1 pos=copula
+n \' est \- ce functword=1 pos=copula
+n \' étaient functword=1 pos=copula
+n \' étais functword=1 pos=copula
+n \' était functword=1 pos=copula
+n \' étiez functword=1 pos=copula
+n \' étions functword=1 pos=copula
+n \' êtes functword=1 pos=copula
+qu \' est functword=1 pos=copula
+sera functword=1 pos=copula
+serai functword=1 pos=copula
+seraient functword=1 pos=copula
+serais functword=1 pos=copula
+serait functword=1 pos=copula
+seras functword=1 pos=copula
+serez functword=1 pos=copula
+seriez functword=1 pos=copula
+serions functword=1 pos=copula
+serons functword=1 pos=copula
+seront functword=1 pos=copula
+soient functword=1 pos=copula
+sois functword=1 pos=copula
+soit functword=1 pos=copula
+sommes functword=1 pos=copula
+sommes \- nous functword=1 pos=copula
+sont functword=1 pos=copula
+sont \- elles functword=1 pos=copula
+sont \- ils functword=1 pos=copula
+soyez functword=1 pos=copula
+soyons functword=1 pos=copula
+suis functword=1 pos=copula
+suis \- je functword=1 pos=copula
+étaient functword=1 pos=copula
+étais functword=1 pos=copula
+était functword=1 pos=copula
+étiez functword=1 pos=copula
+étions functword=1 pos=copula
+été functword=1 pos=copula
+êtes functword=1 pos=copula
+êtes \- vous functword=1 pos=copula
+
+### Copula Infinitive
+#--------------------------------------
+d \' être functword=1 pos=copulaInfinitive
+être functword=1 pos=copulaInfinitive
+
+### Prepositions
+#--------------------------------------
+après functword=1 pos=prepositions
+au \- delà functword=1 pos=prepositions
+au \- dessous functword=1 pos=prepositions
+au \- dessus functword=1 pos=prepositions
+avant functword=1 pos=prepositions
+avec functword=1 pos=prepositions
+chez functword=1 pos=prepositions
+concernant functword=1 pos=prepositions
+contre functword=1 pos=prepositions
+d \' après functword=1 pos=prepositions
+dans functword=1 pos=prepositions
+de functword=1 pos=prepositions
+depuis functword=1 pos=prepositions
+derrière functword=1 pos=prepositions
+devant functword=1 pos=prepositions
+durant functword=1 pos=prepositions
+dès functword=1 pos=prepositions
+en functword=1 pos=prepositions
+entre functword=1 pos=prepositions
+envers functword=1 pos=prepositions
+environ functword=1 pos=prepositions
+hormis functword=1 pos=prepositions
+hors functword=1 pos=prepositions
+jusqu \' au functword=1 pos=prepositions
+jusqu \' aux functword=1 pos=prepositions
+jusqu \' à functword=1 pos=prepositions
+jusque functword=1 pos=prepositions
+loin functword=1 pos=prepositions
+moyennant functword=1 pos=prepositions
+outre functword=1 pos=prepositions
+par functword=1 pos=prepositions
+parmi functword=1 pos=prepositions
+pendant functword=1 pos=prepositions
+pour functword=1 pos=prepositions
+près functword=1 pos=prepositions
+quant functword=1 pos=prepositions
+sans functword=1 pos=prepositions
+sous functword=1 pos=prepositions
+sur functword=1 pos=prepositions
+travers functword=1 pos=prepositions
+vers functword=1 pos=prepositions
+voilà functword=1 pos=prepositions
+à functword=1 pos=prepositions
+
+### Coordinating Conjunctions
+#--------------------------------------
+et functword=1 pos=coordinatingConjunctions
+ni functword=1 pos=coordinatingConjunctions
+or functword=1 pos=coordinatingConjunctions
+ou functword=1 pos=coordinatingConjunctions
+
+### Correlative Conjunctions
+#--------------------------------------
+aussitôt functword=1 pos=correlativeConjunctions
+d \' autre functword=1 pos=correlativeConjunctions
+non functword=1 pos=correlativeConjunctions
+pas functword=1 pos=correlativeConjunctions
+seulement functword=1 pos=correlativeConjunctions
+sitôt functword=1 pos=correlativeConjunctions
+
+### Subordinating Conjunctions
+#--------------------------------------
+afin functword=1 pos=subordinatingConjunctions
+autant functword=1 pos=subordinatingConjunctions
+comme functword=1 pos=subordinatingConjunctions
+d \' autant functword=1 pos=subordinatingConjunctions
+d \' ici functword=1 pos=subordinatingConjunctions
+lors functword=1 pos=subordinatingConjunctions
+parce functword=1 pos=subordinatingConjunctions
+quand functword=1 pos=subordinatingConjunctions
+si functword=1 pos=subordinatingConjunctions
+tandis functword=1 pos=subordinatingConjunctions
+
+### Interview Verbs
+#--------------------------------------
+affirme functword=1 pos=interviewVerbs
+affirme \- t \- elle functword=1 pos=interviewVerbs
+affirme \- t \- elle functword=1 pos=interviewVerbs
+affirme \- t \- il functword=1 pos=interviewVerbs
+affirme \- t \- il functword=1 pos=interviewVerbs
+affirmé functword=1 pos=interviewVerbs
+ajoute \- t \- elle functword=1 pos=interviewVerbs
+ajoute \- t \- il functword=1 pos=interviewVerbs
+analyse \- t \- elle functword=1 pos=interviewVerbs
+analyse \- t \- il functword=1 pos=interviewVerbs
+avance \- t \- elle functword=1 pos=interviewVerbs
+avance \- t \- il functword=1 pos=interviewVerbs
+avoue functword=1 pos=interviewVerbs
+avoue \- t \- elle functword=1 pos=interviewVerbs
+avoue \- t \- il functword=1 pos=interviewVerbs
+avoué functword=1 pos=interviewVerbs
+concède functword=1 pos=interviewVerbs
+concède \- t \- elle functword=1 pos=interviewVerbs
+concède \- t \- il functword=1 pos=interviewVerbs
+concédé functword=1 pos=interviewVerbs
+confie functword=1 pos=interviewVerbs
+confie \- t \- elle functword=1 pos=interviewVerbs
+confie \- t \- il functword=1 pos=interviewVerbs
+confié functword=1 pos=interviewVerbs
+continue functword=1 pos=interviewVerbs
+continue \- t \- elle functword=1 pos=interviewVerbs
+continue \- t \- il functword=1 pos=interviewVerbs
+continué functword=1 pos=interviewVerbs
+demanda functword=1 pos=interviewVerbs
+demanda \- t \- elle functword=1 pos=interviewVerbs
+demanda \- t \- il functword=1 pos=interviewVerbs
+demandaient functword=1 pos=interviewVerbs
+demandaient \- elles functword=1 pos=interviewVerbs
+demandaient \- ils functword=1 pos=interviewVerbs
+demandait functword=1 pos=interviewVerbs
+demandait \- elle functword=1 pos=interviewVerbs
+demandait \- il functword=1 pos=interviewVerbs
+demande functword=1 pos=interviewVerbs
+demande \- t \- elle functword=1 pos=interviewVerbs
+demande \- t \- il functword=1 pos=interviewVerbs
+demandent functword=1 pos=interviewVerbs
+demandent \- elles functword=1 pos=interviewVerbs
+demandent \- ils functword=1 pos=interviewVerbs
+demandé functword=1 pos=interviewVerbs
+dirent functword=1 pos=interviewVerbs
+disaient \- elles functword=1 pos=interviewVerbs
+disaient \- ils functword=1 pos=interviewVerbs
+disait functword=1 pos=interviewVerbs
+disait \- elle functword=1 pos=interviewVerbs
+disait \- il functword=1 pos=interviewVerbs
+disent functword=1 pos=interviewVerbs
+disent \- elles functword=1 pos=interviewVerbs
+disent \- ils functword=1 pos=interviewVerbs
+dit functword=1 pos=interviewVerbs
+dit \- elle functword=1 pos=interviewVerbs
+dit \- il functword=1 pos=interviewVerbs
+déclame functword=1 pos=interviewVerbs
+déclame \- t \- elle functword=1 pos=interviewVerbs
+déclame \- t \- il functword=1 pos=interviewVerbs
+déclamé functword=1 pos=interviewVerbs
+déclare functword=1 pos=interviewVerbs
+déclare \- t \- elle functword=1 pos=interviewVerbs
+déclare \- t \- il functword=1 pos=interviewVerbs
+déclaré functword=1 pos=interviewVerbs
+déplore functword=1 pos=interviewVerbs
+déplore \- t \- elle functword=1 pos=interviewVerbs
+déplore \- t \- il functword=1 pos=interviewVerbs
+déploré functword=1 pos=interviewVerbs
+explique functword=1 pos=interviewVerbs
+explique \- t \- elle functword=1 pos=interviewVerbs
+explique \- t \- il functword=1 pos=interviewVerbs
+expliqué functword=1 pos=interviewVerbs
+indique \- t \- elle functword=1 pos=interviewVerbs
+indique \- t \- il functword=1 pos=interviewVerbs
+lance functword=1 pos=interviewVerbs
+lance \- t \- elle functword=1 pos=interviewVerbs
+lance \- t \- il functword=1 pos=interviewVerbs
+lancé functword=1 pos=interviewVerbs
+narre functword=1 pos=interviewVerbs
+narre \- t \- elle functword=1 pos=interviewVerbs
+narre \- t \- il functword=1 pos=interviewVerbs
+narré functword=1 pos=interviewVerbs
+pensa functword=1 pos=interviewVerbs
+pensa \- t \- elle functword=1 pos=interviewVerbs
+pensa \- t \- il functword=1 pos=interviewVerbs
+pensaient functword=1 pos=interviewVerbs
+pensaient \- elles functword=1 pos=interviewVerbs
+pensaient \- ils functword=1 pos=interviewVerbs
+pensait functword=1 pos=interviewVerbs
+pensait \- elle functword=1 pos=interviewVerbs
+pensait \- il functword=1 pos=interviewVerbs
+pense functword=1 pos=interviewVerbs
+pense \- t \- elle functword=1 pos=interviewVerbs
+pense \- t \- il functword=1 pos=interviewVerbs
+pensent functword=1 pos=interviewVerbs
+pensent \- elles functword=1 pos=interviewVerbs
+pensent \- ils functword=1 pos=interviewVerbs
+pensé functword=1 pos=interviewVerbs
+poursuit \- elle functword=1 pos=interviewVerbs
+poursuit \- il functword=1 pos=interviewVerbs
+précise \- t \- elle functword=1 pos=interviewVerbs
+précise \- t \- il functword=1 pos=interviewVerbs
+raconte functword=1 pos=interviewVerbs
+raconte \- t \- elle functword=1 pos=interviewVerbs
+raconte \- t \- il functword=1 pos=interviewVerbs
+raconté functword=1 pos=interviewVerbs
+rappelle functword=1 pos=interviewVerbs
+rappelle \- t \- elle functword=1 pos=interviewVerbs
+rappelle \- t \- il functword=1 pos=interviewVerbs
+rappelé functword=1 pos=interviewVerbs
+réagi functword=1 pos=interviewVerbs
+réagit functword=1 pos=interviewVerbs
+réagit \- elle functword=1 pos=interviewVerbs
+réagit \- il functword=1 pos=interviewVerbs
+répond functword=1 pos=interviewVerbs
+répond \- elle functword=1 pos=interviewVerbs
+répond \- il functword=1 pos=interviewVerbs
+répondu functword=1 pos=interviewVerbs
+résume \- t \- elle functword=1 pos=interviewVerbs
+résume \- t \- il functword=1 pos=interviewVerbs
+rétorque functword=1 pos=interviewVerbs
+rétorque \- t \- elle functword=1 pos=interviewVerbs
+rétorque \- t \- il functword=1 pos=interviewVerbs
+rétorqué functword=1 pos=interviewVerbs
+souligne functword=1 pos=interviewVerbs
+souligne \- t \- elle functword=1 pos=interviewVerbs
+souligne \- t \- il functword=1 pos=interviewVerbs
+souligné functword=1 pos=interviewVerbs
+souvient \- elle functword=1 pos=interviewVerbs
+souvient \- il functword=1 pos=interviewVerbs
+témoigne \- t \- elle functword=1 pos=interviewVerbs
+témoigne \- t \- il functword=1 pos=interviewVerbs
+écrit \- elle functword=1 pos=interviewVerbs
+écrit \- il functword=1 pos=interviewVerbs
+
+### Interview Verbs Infinitive
+#--------------------------------------
+affirmer functword=1 pos=interviewVerbsInfinitive
+ajouter functword=1 pos=interviewVerbsInfinitive
+analyser functword=1 pos=interviewVerbsInfinitive
+avancer functword=1 pos=interviewVerbsInfinitive
+concéder functword=1 pos=interviewVerbsInfinitive
+confier functword=1 pos=interviewVerbsInfinitive
+continuer functword=1 pos=interviewVerbsInfinitive
+demander functword=1 pos=interviewVerbsInfinitive
+dire functword=1 pos=interviewVerbsInfinitive
+déclamer functword=1 pos=interviewVerbsInfinitive
+déclarer functword=1 pos=interviewVerbsInfinitive
+déplorer functword=1 pos=interviewVerbsInfinitive
+expliquer functword=1 pos=interviewVerbsInfinitive
+indiquer functword=1 pos=interviewVerbsInfinitive
+lancer functword=1 pos=interviewVerbsInfinitive
+narrer functword=1 pos=interviewVerbsInfinitive
+penser functword=1 pos=interviewVerbsInfinitive
+poursuivre functword=1 pos=interviewVerbsInfinitive
+préciser functword=1 pos=interviewVerbsInfinitive
+raconter functword=1 pos=interviewVerbsInfinitive
+rappeler functword=1 pos=interviewVerbsInfinitive
+réagir functword=1 pos=interviewVerbsInfinitive
+répondre functword=1 pos=interviewVerbsInfinitive
+résumer functword=1 pos=interviewVerbsInfinitive
+rétorquer functword=1 pos=interviewVerbsInfinitive
+souligner functword=1 pos=interviewVerbsInfinitive
+témoigner functword=1 pos=interviewVerbsInfinitive
+écrire functword=1 pos=interviewVerbsInfinitive
+
+### Additional Transition Words
+# These transition words were not included in the list for the transition word assessment for various reasons.
+#--------------------------------------
+accidentellement functword=1 pos=additionalTransitionWords
+actuellement functword=1 pos=additionalTransitionWords
+apparemment functword=1 pos=additionalTransitionWords
+c. \- à \- d functword=1 pos=additionalTransitionWords
+clairement functword=1 pos=additionalTransitionWords
+comprenant functword=1 pos=additionalTransitionWords
+compris functword=1 pos=additionalTransitionWords
+d \' habitude functword=1 pos=additionalTransitionWords
+dernièrement functword=1 pos=additionalTransitionWords
+déjà functword=1 pos=additionalTransitionWords
+encore functword=1 pos=additionalTransitionWords
+finalement functword=1 pos=additionalTransitionWords
+fréquemment functword=1 pos=additionalTransitionWords
+généralement functword=1 pos=additionalTransitionWords
+habituellement functword=1 pos=additionalTransitionWords
+immédiatement functword=1 pos=additionalTransitionWords
+incidemment functword=1 pos=additionalTransitionWords
+inclus functword=1 pos=additionalTransitionWords
+initialement functword=1 pos=additionalTransitionWords
+jamais functword=1 pos=additionalTransitionWords
+maintenant functword=1 pos=additionalTransitionWords
+naturellement functword=1 pos=additionalTransitionWords
+notablement functword=1 pos=additionalTransitionWords
+ordinairement functword=1 pos=additionalTransitionWords
+parfois functword=1 pos=additionalTransitionWords
+particulièrement functword=1 pos=additionalTransitionWords
+peut \- être functword=1 pos=additionalTransitionWords
+plausible functword=1 pos=additionalTransitionWords
+pourvu functword=1 pos=additionalTransitionWords
+probable functword=1 pos=additionalTransitionWords
+quelquefois functword=1 pos=additionalTransitionWords
+relativement functword=1 pos=additionalTransitionWords
+récemment functword=1 pos=additionalTransitionWords
+régulièrement functword=1 pos=additionalTransitionWords
+simplement functword=1 pos=additionalTransitionWords
+souvent functword=1 pos=additionalTransitionWords
+toujours functword=1 pos=additionalTransitionWords
+uniquement functword=1 pos=additionalTransitionWords
+vraiment functword=1 pos=additionalTransitionWords
+éternellement functword=1 pos=additionalTransitionWords
+éventuellement functword=1 pos=additionalTransitionWords
+évidemment functword=1 pos=additionalTransitionWords
+
+### Intensifiers
+#--------------------------------------
+absolument functword=1 pos=intensifiers
+assez functword=1 pos=intensifiers
+extrêmement functword=1 pos=intensifiers
+fort functword=1 pos=intensifiers
+presque functword=1 pos=intensifiers
+quasi functword=1 pos=intensifiers
+quasiment functword=1 pos=intensifiers
+tellement functword=1 pos=intensifiers
+trop functword=1 pos=intensifiers
+très functword=1 pos=intensifiers
+
+### Delexicalized Verbs
+# These verbs convey little meaning.
+#--------------------------------------
+fais functword=1 pos=delexicalizedVerbs
+fais \- je functword=1 pos=delexicalizedVerbs
+faisaient functword=1 pos=delexicalizedVerbs
+faisais functword=1 pos=delexicalizedVerbs
+faisait functword=1 pos=delexicalizedVerbs
+faisiez functword=1 pos=delexicalizedVerbs
+faisions functword=1 pos=delexicalizedVerbs
+faisons functword=1 pos=delexicalizedVerbs
+faisons \- nous functword=1 pos=delexicalizedVerbs
+fait functword=1 pos=delexicalizedVerbs
+fait \- elle functword=1 pos=delexicalizedVerbs
+fait \- il functword=1 pos=delexicalizedVerbs
+fait \- on functword=1 pos=delexicalizedVerbs
+faites functword=1 pos=delexicalizedVerbs
+faites \- vous functword=1 pos=delexicalizedVerbs
+fera functword=1 pos=delexicalizedVerbs
+ferai functword=1 pos=delexicalizedVerbs
+feras functword=1 pos=delexicalizedVerbs
+ferez functword=1 pos=delexicalizedVerbs
+ferons functword=1 pos=delexicalizedVerbs
+feront functword=1 pos=delexicalizedVerbs
+firent functword=1 pos=delexicalizedVerbs
+fis functword=1 pos=delexicalizedVerbs
+fit functword=1 pos=delexicalizedVerbs
+font functword=1 pos=delexicalizedVerbs
+font \- elles functword=1 pos=delexicalizedVerbs
+font \- ils functword=1 pos=delexicalizedVerbs
+fîmes functword=1 pos=delexicalizedVerbs
+fîtes functword=1 pos=delexicalizedVerbs
+veulent functword=1 pos=delexicalizedVerbs
+veulent \- elles functword=1 pos=delexicalizedVerbs
+veulent \- ils functword=1 pos=delexicalizedVerbs
+veut functword=1 pos=delexicalizedVerbs
+veut \- elle functword=1 pos=delexicalizedVerbs
+veut \- il functword=1 pos=delexicalizedVerbs
+veut \- on functword=1 pos=delexicalizedVerbs
+veux functword=1 pos=delexicalizedVerbs
+veux \- je functword=1 pos=delexicalizedVerbs
+veux \- tu functword=1 pos=delexicalizedVerbs
+voudra functword=1 pos=delexicalizedVerbs
+voudrai functword=1 pos=delexicalizedVerbs
+voudraient functword=1 pos=delexicalizedVerbs
+voudrais functword=1 pos=delexicalizedVerbs
+voudrait functword=1 pos=delexicalizedVerbs
+voudras functword=1 pos=delexicalizedVerbs
+voudrez functword=1 pos=delexicalizedVerbs
+voudriez functword=1 pos=delexicalizedVerbs
+voudrions functword=1 pos=delexicalizedVerbs
+voudrons functword=1 pos=delexicalizedVerbs
+voudront functword=1 pos=delexicalizedVerbs
+voulaient functword=1 pos=delexicalizedVerbs
+voulais functword=1 pos=delexicalizedVerbs
+voulait functword=1 pos=delexicalizedVerbs
+voulant functword=1 pos=delexicalizedVerbs
+voulez functword=1 pos=delexicalizedVerbs
+voulez \- vous functword=1 pos=delexicalizedVerbs
+vouliez functword=1 pos=delexicalizedVerbs
+voulions functword=1 pos=delexicalizedVerbs
+voulons functword=1 pos=delexicalizedVerbs
+voulons \- nous functword=1 pos=delexicalizedVerbs
+voulu functword=1 pos=delexicalizedVerbs
+voulurent functword=1 pos=delexicalizedVerbs
+voulus functword=1 pos=delexicalizedVerbs
+voulut functword=1 pos=delexicalizedVerbs
+voulûmes functword=1 pos=delexicalizedVerbs
+voulûtes functword=1 pos=delexicalizedVerbs
+
+### Delexicalized Verbs Infinitive
+#--------------------------------------
+faire functword=1 pos=delexicalizedVerbsInfinitive
+vouloir functword=1 pos=delexicalizedVerbsInfinitive
+
+### General Adjectives Adverbs
+#--------------------------------------
+antérieur functword=1 pos=generalAdjectivesAdverbs
+antérieure functword=1 pos=generalAdjectivesAdverbs
+antérieures functword=1 pos=generalAdjectivesAdverbs
+antérieurs functword=1 pos=generalAdjectivesAdverbs
+bas functword=1 pos=generalAdjectivesAdverbs
+basse functword=1 pos=generalAdjectivesAdverbs
+basses functword=1 pos=generalAdjectivesAdverbs
+bien functword=1 pos=generalAdjectivesAdverbs
+bref functword=1 pos=generalAdjectivesAdverbs
+brefs functword=1 pos=generalAdjectivesAdverbs
+brève functword=1 pos=generalAdjectivesAdverbs
+brèves functword=1 pos=generalAdjectivesAdverbs
+communément functword=1 pos=generalAdjectivesAdverbs
+complet functword=1 pos=generalAdjectivesAdverbs
+complets functword=1 pos=generalAdjectivesAdverbs
+complète functword=1 pos=generalAdjectivesAdverbs
+complètes functword=1 pos=generalAdjectivesAdverbs
+constamment functword=1 pos=generalAdjectivesAdverbs
+continuellement functword=1 pos=generalAdjectivesAdverbs
+dernier functword=1 pos=generalAdjectivesAdverbs
+derniers functword=1 pos=generalAdjectivesAdverbs
+dernière functword=1 pos=generalAdjectivesAdverbs
+dernières functword=1 pos=generalAdjectivesAdverbs
+difficile functword=1 pos=generalAdjectivesAdverbs
+difficiles functword=1 pos=generalAdjectivesAdverbs
+différent functword=1 pos=generalAdjectivesAdverbs
+différente functword=1 pos=generalAdjectivesAdverbs
+différentes functword=1 pos=generalAdjectivesAdverbs
+différents functword=1 pos=generalAdjectivesAdverbs
+directement functword=1 pos=generalAdjectivesAdverbs
+facile functword=1 pos=generalAdjectivesAdverbs
+facilement functword=1 pos=generalAdjectivesAdverbs
+faciles functword=1 pos=generalAdjectivesAdverbs
+fur functword=1 pos=generalAdjectivesAdverbs
+habituel functword=1 pos=generalAdjectivesAdverbs
+habituelle functword=1 pos=generalAdjectivesAdverbs
+habituelles functword=1 pos=generalAdjectivesAdverbs
+habituels functword=1 pos=generalAdjectivesAdverbs
+largement functword=1 pos=generalAdjectivesAdverbs
+long functword=1 pos=generalAdjectivesAdverbs
+longe functword=1 pos=generalAdjectivesAdverbs
+longes functword=1 pos=generalAdjectivesAdverbs
+longs functword=1 pos=generalAdjectivesAdverbs
+longue functword=1 pos=generalAdjectivesAdverbs
+longues functword=1 pos=generalAdjectivesAdverbs
+légèrement functword=1 pos=generalAdjectivesAdverbs
+mal functword=1 pos=generalAdjectivesAdverbs
+ordinaire functword=1 pos=generalAdjectivesAdverbs
+ordinaires functword=1 pos=generalAdjectivesAdverbs
+pareil functword=1 pos=generalAdjectivesAdverbs
+pareille functword=1 pos=generalAdjectivesAdverbs
+pareilles functword=1 pos=generalAdjectivesAdverbs
+pareils functword=1 pos=generalAdjectivesAdverbs
+pire functword=1 pos=generalAdjectivesAdverbs
+pires functword=1 pos=generalAdjectivesAdverbs
+possible functword=1 pos=generalAdjectivesAdverbs
+possibles functword=1 pos=generalAdjectivesAdverbs
+prochain functword=1 pos=generalAdjectivesAdverbs
+prochaine functword=1 pos=generalAdjectivesAdverbs
+prochaines functword=1 pos=generalAdjectivesAdverbs
+prochains functword=1 pos=generalAdjectivesAdverbs
+proche functword=1 pos=generalAdjectivesAdverbs
+proches functword=1 pos=generalAdjectivesAdverbs
+propre functword=1 pos=generalAdjectivesAdverbs
+propres functword=1 pos=generalAdjectivesAdverbs
+précédent functword=1 pos=generalAdjectivesAdverbs
+précédente functword=1 pos=generalAdjectivesAdverbs
+précédentes functword=1 pos=generalAdjectivesAdverbs
+précédents functword=1 pos=generalAdjectivesAdverbs
+récent functword=1 pos=generalAdjectivesAdverbs
+récente functword=1 pos=generalAdjectivesAdverbs
+récentes functword=1 pos=generalAdjectivesAdverbs
+récents functword=1 pos=generalAdjectivesAdverbs
+similaire functword=1 pos=generalAdjectivesAdverbs
+similaires functword=1 pos=generalAdjectivesAdverbs
+simple functword=1 pos=generalAdjectivesAdverbs
+simples functword=1 pos=generalAdjectivesAdverbs
+soi \- disant functword=1 pos=generalAdjectivesAdverbs
+suivante functword=1 pos=generalAdjectivesAdverbs
+suivantes functword=1 pos=generalAdjectivesAdverbs
+suivants functword=1 pos=generalAdjectivesAdverbs
+super functword=1 pos=generalAdjectivesAdverbs
+sure functword=1 pos=generalAdjectivesAdverbs
+sures functword=1 pos=generalAdjectivesAdverbs
+surs functword=1 pos=generalAdjectivesAdverbs
+surtout functword=1 pos=generalAdjectivesAdverbs
+sûr functword=1 pos=generalAdjectivesAdverbs
+sûre functword=1 pos=generalAdjectivesAdverbs
+sûres functword=1 pos=generalAdjectivesAdverbs
+sûrs functword=1 pos=generalAdjectivesAdverbs
+total functword=1 pos=generalAdjectivesAdverbs
+totale functword=1 pos=generalAdjectivesAdverbs
+totales functword=1 pos=generalAdjectivesAdverbs
+totaux functword=1 pos=generalAdjectivesAdverbs
+vite functword=1 pos=generalAdjectivesAdverbs
+vites functword=1 pos=generalAdjectivesAdverbs
+vitesse functword=1 pos=generalAdjectivesAdverbs
+vitesses functword=1 pos=generalAdjectivesAdverbs
+
+### General Adjectives Adverbs Preceding
+#--------------------------------------
+beau functword=1 pos=generalAdjectivesAdverbsPreceding
+bel functword=1 pos=generalAdjectivesAdverbsPreceding
+belle functword=1 pos=generalAdjectivesAdverbsPreceding
+belles functword=1 pos=generalAdjectivesAdverbsPreceding
+bon functword=1 pos=generalAdjectivesAdverbsPreceding
+bonne functword=1 pos=generalAdjectivesAdverbsPreceding
+bonnes functword=1 pos=generalAdjectivesAdverbsPreceding
+bons functword=1 pos=generalAdjectivesAdverbsPreceding
+dernier functword=1 pos=generalAdjectivesAdverbsPreceding
+derniers functword=1 pos=generalAdjectivesAdverbsPreceding
+dernière functword=1 pos=generalAdjectivesAdverbsPreceding
+dernières functword=1 pos=generalAdjectivesAdverbsPreceding
+grand functword=1 pos=generalAdjectivesAdverbsPreceding
+grande functword=1 pos=generalAdjectivesAdverbsPreceding
+grandes functword=1 pos=generalAdjectivesAdverbsPreceding
+grands functword=1 pos=generalAdjectivesAdverbsPreceding
+gros functword=1 pos=generalAdjectivesAdverbsPreceding
+grosse functword=1 pos=generalAdjectivesAdverbsPreceding
+grosses functword=1 pos=generalAdjectivesAdverbsPreceding
+haut functword=1 pos=generalAdjectivesAdverbsPreceding
+haute functword=1 pos=generalAdjectivesAdverbsPreceding
+hautes functword=1 pos=generalAdjectivesAdverbsPreceding
+hauts functword=1 pos=generalAdjectivesAdverbsPreceding
+joli functword=1 pos=generalAdjectivesAdverbsPreceding
+jolie functword=1 pos=generalAdjectivesAdverbsPreceding
+jolies functword=1 pos=generalAdjectivesAdverbsPreceding
+jolis functword=1 pos=generalAdjectivesAdverbsPreceding
+mauvais functword=1 pos=generalAdjectivesAdverbsPreceding
+mauvaise functword=1 pos=generalAdjectivesAdverbsPreceding
+mauvaises functword=1 pos=generalAdjectivesAdverbsPreceding
+meilleur functword=1 pos=generalAdjectivesAdverbsPreceding
+meilleure functword=1 pos=generalAdjectivesAdverbsPreceding
+meilleures functword=1 pos=generalAdjectivesAdverbsPreceding
+meilleurs functword=1 pos=generalAdjectivesAdverbsPreceding
+nouveau functword=1 pos=generalAdjectivesAdverbsPreceding
+nouveaux functword=1 pos=generalAdjectivesAdverbsPreceding
+nouvel functword=1 pos=generalAdjectivesAdverbsPreceding
+nouvelle functword=1 pos=generalAdjectivesAdverbsPreceding
+nouvelles functword=1 pos=generalAdjectivesAdverbsPreceding
+petit functword=1 pos=generalAdjectivesAdverbsPreceding
+petite functword=1 pos=generalAdjectivesAdverbsPreceding
+petites functword=1 pos=generalAdjectivesAdverbsPreceding
+petits functword=1 pos=generalAdjectivesAdverbsPreceding
+vieil functword=1 pos=generalAdjectivesAdverbsPreceding
+vieille functword=1 pos=generalAdjectivesAdverbsPreceding
+vieilles functword=1 pos=generalAdjectivesAdverbsPreceding
+vieux functword=1 pos=generalAdjectivesAdverbsPreceding
+
+### Interjections
+#--------------------------------------
+ah functword=1 pos=interjections
+ahi functword=1 pos=interjections
+allo functword=1 pos=interjections
+aïe functword=1 pos=interjections
+bis functword=1 pos=interjections
+bravo functword=1 pos=interjections
+chut functword=1 pos=interjections
+ciel functword=1 pos=interjections
+crac functword=1 pos=interjections
+eh functword=1 pos=interjections
+fi functword=1 pos=interjections
+ha functword=1 pos=interjections
+hem functword=1 pos=interjections
+ho functword=1 pos=interjections
+holà functword=1 pos=interjections
+hurrah functword=1 pos=interjections
+hé functword=1 pos=interjections
+oef functword=1 pos=interjections
+oh functword=1 pos=interjections
+paf functword=1 pos=interjections
+plouf functword=1 pos=interjections
+pouf functword=1 pos=interjections
+stop functword=1 pos=interjections
+vlan functword=1 pos=interjections
+zest functword=1 pos=interjections
+ô functword=1 pos=interjections
+
+### Recipe Words
+# These words and abbreviations are frequently used in recipes in lists of ingredients.
+#--------------------------------------
+cc functword=1 pos=recipeWords
+cd functword=1 pos=recipeWords
+cl functword=1 pos=recipeWords
+cs functword=1 pos=recipeWords
+ct functword=1 pos=recipeWords
+càc functword=1 pos=recipeWords
+càd functword=1 pos=recipeWords
+càs functword=1 pos=recipeWords
+càt functword=1 pos=recipeWords
+dl functword=1 pos=recipeWords
+g functword=1 pos=recipeWords
+gram functword=1 pos=recipeWords
+grammes functword=1 pos=recipeWords
+kg functword=1 pos=recipeWords
+l functword=1 pos=recipeWords
+lbs functword=1 pos=recipeWords
+mg functword=1 pos=recipeWords
+ml functword=1 pos=recipeWords
+once functword=1 pos=recipeWords
+onces functword=1 pos=recipeWords
+oz functword=1 pos=recipeWords
+
+### Time Words
+#--------------------------------------
+année functword=1 pos=timeWords
+années functword=1 pos=timeWords
+après \- demain functword=1 pos=timeWords
+aujourd \' hui functword=1 pos=timeWords
+avant \- hier functword=1 pos=timeWords
+demain functword=1 pos=timeWords
+heure functword=1 pos=timeWords
+heures functword=1 pos=timeWords
+hier functword=1 pos=timeWords
+journée functword=1 pos=timeWords
+journées functword=1 pos=timeWords
+minute functword=1 pos=timeWords
+minutes functword=1 pos=timeWords
+mois functword=1 pos=timeWords
+semaine functword=1 pos=timeWords
+semaines functword=1 pos=timeWords
+
+### Vague Nouns
+#--------------------------------------
+aspect functword=1 pos=vagueNouns
+aspects functword=1 pos=vagueNouns
+cas functword=1 pos=vagueNouns
+chose functword=1 pos=vagueNouns
+choses functword=1 pos=vagueNouns
+façon functword=1 pos=vagueNouns
+façons functword=1 pos=vagueNouns
+fois functword=1 pos=vagueNouns
+idée functword=1 pos=vagueNouns
+idées functword=1 pos=vagueNouns
+manière functword=1 pos=vagueNouns
+manières functword=1 pos=vagueNouns
+objet functword=1 pos=vagueNouns
+objets functword=1 pos=vagueNouns
+personnes functword=1 pos=vagueNouns
+pièce functword=1 pos=vagueNouns
+pièces functword=1 pos=vagueNouns
+sorte functword=1 pos=vagueNouns
+sortes functword=1 pos=vagueNouns
+sujet functword=1 pos=vagueNouns
+sujets functword=1 pos=vagueNouns
+thème functword=1 pos=vagueNouns
+thèmes functword=1 pos=vagueNouns
+truc functword=1 pos=vagueNouns
+trucs functword=1 pos=vagueNouns
+
+### Miscellaneous
+#--------------------------------------
+amen functword=1 pos=miscellaneous
+d \' accord functword=1 pos=miscellaneous
+etc functword=1 pos=miscellaneous
+euro functword=1 pos=miscellaneous
+euros functword=1 pos=miscellaneous
+ne functword=1 pos=miscellaneous
+oui functword=1 pos=miscellaneous
+
+### Titles Preceding
+#--------------------------------------
+dr functword=1 pos=titlesPreceding
+mlle functword=1 pos=titlesPreceding
+mlles functword=1 pos=titlesPreceding
+mm functword=1 pos=titlesPreceding
+mme functword=1 pos=titlesPreceding
+mmes functword=1 pos=titlesPreceding
+pr functword=1 pos=titlesPreceding
+
+### Titles Following
+#--------------------------------------
+jr functword=1 pos=titlesFollowing
+sr functword=1 pos=titlesFollowing
