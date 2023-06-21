@@ -1,0 +1,1379 @@
+# Italian function words
+
+### Articles
+#--------------------------------------
+gli functword=1 pos=articles
+i functword=1 pos=articles
+il functword=1 pos=articles
+la functword=1 pos=articles
+le functword=1 pos=articles
+lo functword=1 pos=articles
+un functword=1 pos=articles
+una functword=1 pos=articles
+uno functword=1 pos=articles
+
+### Cardinal Numerals
+#--------------------------------------
+cento functword=1 pos=cardinalNumerals
+cinque functword=1 pos=cardinalNumerals
+cinquemila functword=1 pos=cardinalNumerals
+diciannove functword=1 pos=cardinalNumerals
+diciassette functword=1 pos=cardinalNumerals
+diciotto functword=1 pos=cardinalNumerals
+dieci functword=1 pos=cardinalNumerals
+diecimila functword=1 pos=cardinalNumerals
+dodici functword=1 pos=cardinalNumerals
+due functword=1 pos=cardinalNumerals
+duemila functword=1 pos=cardinalNumerals
+mila functword=1 pos=cardinalNumerals
+miliardi functword=1 pos=cardinalNumerals
+miliardo functword=1 pos=cardinalNumerals
+milione functword=1 pos=cardinalNumerals
+milioni functword=1 pos=cardinalNumerals
+mille functword=1 pos=cardinalNumerals
+nove functword=1 pos=cardinalNumerals
+novemila functword=1 pos=cardinalNumerals
+otto functword=1 pos=cardinalNumerals
+ottomila functword=1 pos=cardinalNumerals
+quattordici functword=1 pos=cardinalNumerals
+quattro functword=1 pos=cardinalNumerals
+quattromila functword=1 pos=cardinalNumerals
+quindici functword=1 pos=cardinalNumerals
+sedici functword=1 pos=cardinalNumerals
+seimila functword=1 pos=cardinalNumerals
+sette functword=1 pos=cardinalNumerals
+settemila functword=1 pos=cardinalNumerals
+tre functword=1 pos=cardinalNumerals
+tredici functword=1 pos=cardinalNumerals
+tremila functword=1 pos=cardinalNumerals
+undici functword=1 pos=cardinalNumerals
+venti functword=1 pos=cardinalNumerals
+
+### Ordinal Numerals
+#--------------------------------------
+decima functword=1 pos=ordinalNumerals
+decime functword=1 pos=ordinalNumerals
+decimi functword=1 pos=ordinalNumerals
+decimo functword=1 pos=ordinalNumerals
+diciannovesima functword=1 pos=ordinalNumerals
+diciannovesime functword=1 pos=ordinalNumerals
+diciannovesimi functword=1 pos=ordinalNumerals
+diciannovesimo functword=1 pos=ordinalNumerals
+diciassettesima functword=1 pos=ordinalNumerals
+diciassettesime functword=1 pos=ordinalNumerals
+diciassettesimi functword=1 pos=ordinalNumerals
+diciassettesimo functword=1 pos=ordinalNumerals
+dodicesima functword=1 pos=ordinalNumerals
+dodicesime functword=1 pos=ordinalNumerals
+dodicesimi functword=1 pos=ordinalNumerals
+dodicesimo functword=1 pos=ordinalNumerals
+nona functword=1 pos=ordinalNumerals
+none functword=1 pos=ordinalNumerals
+noni functword=1 pos=ordinalNumerals
+nono functword=1 pos=ordinalNumerals
+ottava functword=1 pos=ordinalNumerals
+ottave functword=1 pos=ordinalNumerals
+ottavi functword=1 pos=ordinalNumerals
+ottavo functword=1 pos=ordinalNumerals
+prima functword=1 pos=ordinalNumerals
+prime functword=1 pos=ordinalNumerals
+primi functword=1 pos=ordinalNumerals
+quarta functword=1 pos=ordinalNumerals
+quarte functword=1 pos=ordinalNumerals
+quarti functword=1 pos=ordinalNumerals
+quarto functword=1 pos=ordinalNumerals
+quattordicesima functword=1 pos=ordinalNumerals
+quattordicesime functword=1 pos=ordinalNumerals
+quattordicesimi functword=1 pos=ordinalNumerals
+quattordicesimo functword=1 pos=ordinalNumerals
+quindicesima functword=1 pos=ordinalNumerals
+quindicesime functword=1 pos=ordinalNumerals
+quindicesimi functword=1 pos=ordinalNumerals
+quindicesimo functword=1 pos=ordinalNumerals
+quinta functword=1 pos=ordinalNumerals
+quinte functword=1 pos=ordinalNumerals
+quinti functword=1 pos=ordinalNumerals
+quinto functword=1 pos=ordinalNumerals
+seconda functword=1 pos=ordinalNumerals
+seconde functword=1 pos=ordinalNumerals
+secondi functword=1 pos=ordinalNumerals
+secondo functword=1 pos=ordinalNumerals
+sedicesima functword=1 pos=ordinalNumerals
+sedicesime functword=1 pos=ordinalNumerals
+sedicesimi functword=1 pos=ordinalNumerals
+sedicesimo functword=1 pos=ordinalNumerals
+sesta functword=1 pos=ordinalNumerals
+seste functword=1 pos=ordinalNumerals
+sesti functword=1 pos=ordinalNumerals
+sesto functword=1 pos=ordinalNumerals
+settima functword=1 pos=ordinalNumerals
+settime functword=1 pos=ordinalNumerals
+settimi functword=1 pos=ordinalNumerals
+settimo functword=1 pos=ordinalNumerals
+terza functword=1 pos=ordinalNumerals
+terze functword=1 pos=ordinalNumerals
+terzi functword=1 pos=ordinalNumerals
+terzo functword=1 pos=ordinalNumerals
+tredicesima functword=1 pos=ordinalNumerals
+tredicesime functword=1 pos=ordinalNumerals
+tredicesimi functword=1 pos=ordinalNumerals
+tredicesimo functword=1 pos=ordinalNumerals
+undicesima functword=1 pos=ordinalNumerals
+undicesime functword=1 pos=ordinalNumerals
+undicesimi functword=1 pos=ordinalNumerals
+undicesimo functword=1 pos=ordinalNumerals
+ventesima functword=1 pos=ordinalNumerals
+ventesime functword=1 pos=ordinalNumerals
+ventesimi functword=1 pos=ordinalNumerals
+ventesimo functword=1 pos=ordinalNumerals
+
+### Personal Pronouns Nominative
+#--------------------------------------
+egli functword=1 pos=personalPronounsNominative
+ella functword=1 pos=personalPronounsNominative
+essa functword=1 pos=personalPronounsNominative
+esse functword=1 pos=personalPronounsNominative
+essi functword=1 pos=personalPronounsNominative
+esso functword=1 pos=personalPronounsNominative
+io functword=1 pos=personalPronounsNominative
+lei functword=1 pos=personalPronounsNominative
+loro functword=1 pos=personalPronounsNominative
+lui functword=1 pos=personalPronounsNominative
+noi functword=1 pos=personalPronounsNominative
+tu functword=1 pos=personalPronounsNominative
+voi functword=1 pos=personalPronounsNominative
+
+### Personal Pronouns Accusative
+# 'La' and 'le' are already included in the list of articles.
+#--------------------------------------
+ce functword=1 pos=personalPronounsAccusative
+ci functword=1 pos=personalPronounsAccusative
+glie functword=1 pos=personalPronounsAccusative
+gliela functword=1 pos=personalPronounsAccusative
+gliele functword=1 pos=personalPronounsAccusative
+glieli functword=1 pos=personalPronounsAccusative
+glielo functword=1 pos=personalPronounsAccusative
+gliene functword=1 pos=personalPronounsAccusative
+li functword=1 pos=personalPronounsAccusative
+me functword=1 pos=personalPronounsAccusative
+mi functword=1 pos=personalPronounsAccusative
+se functword=1 pos=personalPronounsAccusative
+si functword=1 pos=personalPronounsAccusative
+te functword=1 pos=personalPronounsAccusative
+ti functword=1 pos=personalPronounsAccusative
+ve functword=1 pos=personalPronounsAccusative
+vi functword=1 pos=personalPronounsAccusative
+
+### Personal Pronouns Prepositional
+#--------------------------------------
+sé functword=1 pos=personalPronounsPrepositional
+
+### Demonstrative Pronouns
+#--------------------------------------
+ciò functword=1 pos=demonstrativePronouns
+codesta functword=1 pos=demonstrativePronouns
+codeste functword=1 pos=demonstrativePronouns
+codesti functword=1 pos=demonstrativePronouns
+codesto functword=1 pos=demonstrativePronouns
+colei functword=1 pos=demonstrativePronouns
+coloro functword=1 pos=demonstrativePronouns
+colui functword=1 pos=demonstrativePronouns
+costei functword=1 pos=demonstrativePronouns
+costoro functword=1 pos=demonstrativePronouns
+costui functword=1 pos=demonstrativePronouns
+medesima functword=1 pos=demonstrativePronouns
+medesime functword=1 pos=demonstrativePronouns
+medesimi functword=1 pos=demonstrativePronouns
+medesimo functword=1 pos=demonstrativePronouns
+quegli functword=1 pos=demonstrativePronouns
+quei functword=1 pos=demonstrativePronouns
+quel functword=1 pos=demonstrativePronouns
+quella functword=1 pos=demonstrativePronouns
+quelle functword=1 pos=demonstrativePronouns
+quelli functword=1 pos=demonstrativePronouns
+quello functword=1 pos=demonstrativePronouns
+questa functword=1 pos=demonstrativePronouns
+queste functword=1 pos=demonstrativePronouns
+questi functword=1 pos=demonstrativePronouns
+questo functword=1 pos=demonstrativePronouns
+
+### Possessive Pronouns
+#--------------------------------------
+mia functword=1 pos=possessivePronouns
+mie functword=1 pos=possessivePronouns
+miei functword=1 pos=possessivePronouns
+mio functword=1 pos=possessivePronouns
+nostra functword=1 pos=possessivePronouns
+nostre functword=1 pos=possessivePronouns
+nostri functword=1 pos=possessivePronouns
+nostro functword=1 pos=possessivePronouns
+sua functword=1 pos=possessivePronouns
+sue functword=1 pos=possessivePronouns
+suo functword=1 pos=possessivePronouns
+suoi functword=1 pos=possessivePronouns
+tua functword=1 pos=possessivePronouns
+tue functword=1 pos=possessivePronouns
+tuo functword=1 pos=possessivePronouns
+tuoi functword=1 pos=possessivePronouns
+vostra functword=1 pos=possessivePronouns
+vostre functword=1 pos=possessivePronouns
+vostri functword=1 pos=possessivePronouns
+vostro functword=1 pos=possessivePronouns
+
+### Quantifiers
+# Already in the list of transition words: appena.
+#--------------------------------------
+affatto functword=1 pos=quantifiers
+alcun functword=1 pos=quantifiers
+alcuna functword=1 pos=quantifiers
+alcune functword=1 pos=quantifiers
+alcuni functword=1 pos=quantifiers
+alcuno functword=1 pos=quantifiers
+bastantemente functword=1 pos=quantifiers
+grandemente functword=1 pos=quantifiers
+massimamente functword=1 pos=quantifiers
+meno functword=1 pos=quantifiers
+minimamente functword=1 pos=quantifiers
+molta functword=1 pos=quantifiers
+molte functword=1 pos=quantifiers
+molti functword=1 pos=quantifiers
+moltissimo functword=1 pos=quantifiers
+molto functword=1 pos=quantifiers
+nessun functword=1 pos=quantifiers
+nessuna functword=1 pos=quantifiers
+nessuno functword=1 pos=quantifiers
+niente functword=1 pos=quantifiers
+nulla functword=1 pos=quantifiers
+ogni functword=1 pos=quantifiers
+più functword=1 pos=quantifiers
+po \'  functword=1 pos=quantifiers
+poca functword=1 pos=quantifiers
+poche functword=1 pos=quantifiers
+pochi functword=1 pos=quantifiers
+pochissime functword=1 pos=quantifiers
+pochissimi functword=1 pos=quantifiers
+poco functword=1 pos=quantifiers
+qualche functword=1 pos=quantifiers
+qualsiasi functword=1 pos=quantifiers
+qualunque functword=1 pos=quantifiers
+quintali functword=1 pos=quantifiers
+rara functword=1 pos=quantifiers
+rarissima functword=1 pos=quantifiers
+rarissimo functword=1 pos=quantifiers
+raro functword=1 pos=quantifiers
+spessissimo functword=1 pos=quantifiers
+spesso functword=1 pos=quantifiers
+sufficientemente functword=1 pos=quantifiers
+taluna functword=1 pos=quantifiers
+talune functword=1 pos=quantifiers
+taluni functword=1 pos=quantifiers
+taluno functword=1 pos=quantifiers
+tanta functword=1 pos=quantifiers
+tante functword=1 pos=quantifiers
+tanti functword=1 pos=quantifiers
+tantissime functword=1 pos=quantifiers
+tantissimi functword=1 pos=quantifiers
+tanto functword=1 pos=quantifiers
+tonnellate functword=1 pos=quantifiers
+troppa functword=1 pos=quantifiers
+troppe functword=1 pos=quantifiers
+troppi functword=1 pos=quantifiers
+troppo functword=1 pos=quantifiers
+tutta functword=1 pos=quantifiers
+tutte functword=1 pos=quantifiers
+tutti functword=1 pos=quantifiers
+tutto functword=1 pos=quantifiers
+
+### Indefinite Pronouns
+# Already in the quantifier list: alcuno, molto, nessuno, poco, taluno tanto, troppo, tutto, nulla, niente.
+#--------------------------------------
+alcunchè functword=1 pos=indefinitePronouns
+alcunché functword=1 pos=indefinitePronouns
+altra functword=1 pos=indefinitePronouns
+altre functword=1 pos=indefinitePronouns
+altri functword=1 pos=indefinitePronouns
+altro functword=1 pos=indefinitePronouns
+certa functword=1 pos=indefinitePronouns
+certe functword=1 pos=indefinitePronouns
+certi functword=1 pos=indefinitePronouns
+checchè functword=1 pos=indefinitePronouns
+checché functword=1 pos=indefinitePronouns
+chicchessia functword=1 pos=indefinitePronouns
+chiunque functword=1 pos=indefinitePronouns
+ciascun functword=1 pos=indefinitePronouns
+ciascuna functword=1 pos=indefinitePronouns
+ciascuno functword=1 pos=indefinitePronouns
+diversa functword=1 pos=indefinitePronouns
+diverse functword=1 pos=indefinitePronouns
+diversi functword=1 pos=indefinitePronouns
+diverso functword=1 pos=indefinitePronouns
+parecchi functword=1 pos=indefinitePronouns
+parecchia functword=1 pos=indefinitePronouns
+parecchie functword=1 pos=indefinitePronouns
+parecchio functword=1 pos=indefinitePronouns
+qualcosa functword=1 pos=indefinitePronouns
+qualcuna functword=1 pos=indefinitePronouns
+qualcuno functword=1 pos=indefinitePronouns
+vari functword=1 pos=indefinitePronouns
+varia functword=1 pos=indefinitePronouns
+varie functword=1 pos=indefinitePronouns
+vario functword=1 pos=indefinitePronouns
+
+### Interrogative Determiners
+#--------------------------------------
+che functword=1 pos=interrogativeDeterminers
+cosa functword=1 pos=interrogativeDeterminers
+cui functword=1 pos=interrogativeDeterminers
+qual functword=1 pos=interrogativeDeterminers
+quale functword=1 pos=interrogativeDeterminers
+quali functword=1 pos=interrogativeDeterminers
+
+### Interrogative Pronouns
+#--------------------------------------
+chi functword=1 pos=interrogativePronouns
+quanta functword=1 pos=interrogativePronouns
+quante functword=1 pos=interrogativePronouns
+quanti functword=1 pos=interrogativePronouns
+quanto functword=1 pos=interrogativePronouns
+
+### Interrogative Adverbs
+#--------------------------------------
+com \' era functword=1 pos=interrogativeAdverbs
+com \' erano functword=1 pos=interrogativeAdverbs
+com \' è functword=1 pos=interrogativeAdverbs
+d \' onde functword=1 pos=interrogativeAdverbs
+donde functword=1 pos=interrogativeAdverbs
+dov \' era functword=1 pos=interrogativeAdverbs
+dov \' erano functword=1 pos=interrogativeAdverbs
+dov \' è functword=1 pos=interrogativeAdverbs
+dove functword=1 pos=interrogativeAdverbs
+dovunque functword=1 pos=interrogativeAdverbs
+
+### Pronominal Adverbs
+# 'Ci' and 'vi' are already part of the list of personal pronouns.
+#--------------------------------------
+ne functword=1 pos=pronominalAdverbs
+
+### Locative Adverbs
+# 'Via' not included because of primary meaning 'street'.
+#--------------------------------------
+accanto functword=1 pos=locativeAdverbs
+altrove functword=1 pos=locativeAdverbs
+attorno functword=1 pos=locativeAdverbs
+dappertutto functword=1 pos=locativeAdverbs
+giù functword=1 pos=locativeAdverbs
+laggiù functword=1 pos=locativeAdverbs
+lassù functword=1 pos=locativeAdverbs
+là functword=1 pos=locativeAdverbs
+lì functword=1 pos=locativeAdverbs
+ovunque functword=1 pos=locativeAdverbs
+qua functword=1 pos=locativeAdverbs
+quaggiù functword=1 pos=locativeAdverbs
+quassù functword=1 pos=locativeAdverbs
+qui functword=1 pos=locativeAdverbs
+
+### Filtered Passive Auxiliaries
+# 'Essere' is already part of the otherAuxiliaries list.
+#--------------------------------------
+vengano functword=1 pos=filteredPassiveAuxiliaries
+vengo functword=1 pos=filteredPassiveAuxiliaries
+vengono functword=1 pos=filteredPassiveAuxiliaries
+veniamo functword=1 pos=filteredPassiveAuxiliaries
+veniate functword=1 pos=filteredPassiveAuxiliaries
+venimmo functword=1 pos=filteredPassiveAuxiliaries
+venisse functword=1 pos=filteredPassiveAuxiliaries
+venissero functword=1 pos=filteredPassiveAuxiliaries
+venissi functword=1 pos=filteredPassiveAuxiliaries
+venissimo functword=1 pos=filteredPassiveAuxiliaries
+veniste functword=1 pos=filteredPassiveAuxiliaries
+venisti functword=1 pos=filteredPassiveAuxiliaries
+venite functword=1 pos=filteredPassiveAuxiliaries
+veniva functword=1 pos=filteredPassiveAuxiliaries
+venivamo functword=1 pos=filteredPassiveAuxiliaries
+venivano functword=1 pos=filteredPassiveAuxiliaries
+venivate functword=1 pos=filteredPassiveAuxiliaries
+venivi functword=1 pos=filteredPassiveAuxiliaries
+venivo functword=1 pos=filteredPassiveAuxiliaries
+venne functword=1 pos=filteredPassiveAuxiliaries
+vennero functword=1 pos=filteredPassiveAuxiliaries
+venni functword=1 pos=filteredPassiveAuxiliaries
+verrai functword=1 pos=filteredPassiveAuxiliaries
+verranno functword=1 pos=filteredPassiveAuxiliaries
+verrebbe functword=1 pos=filteredPassiveAuxiliaries
+verrebbero functword=1 pos=filteredPassiveAuxiliaries
+verrei functword=1 pos=filteredPassiveAuxiliaries
+verremmo functword=1 pos=filteredPassiveAuxiliaries
+verremo functword=1 pos=filteredPassiveAuxiliaries
+verreste functword=1 pos=filteredPassiveAuxiliaries
+verresti functword=1 pos=filteredPassiveAuxiliaries
+verrete functword=1 pos=filteredPassiveAuxiliaries
+verrà functword=1 pos=filteredPassiveAuxiliaries
+verrò functword=1 pos=filteredPassiveAuxiliaries
+viene functword=1 pos=filteredPassiveAuxiliaries
+vieni functword=1 pos=filteredPassiveAuxiliaries
+
+### Passive Auxiliaries Infinitive
+#--------------------------------------
+venir functword=1 pos=passiveAuxiliariesInfinitive
+venire functword=1 pos=passiveAuxiliariesInfinitive
+
+### Other Auxiliaries
+#--------------------------------------
+abbi functword=1 pos=otherAuxiliaries
+abbia functword=1 pos=otherAuxiliaries
+abbiamo functword=1 pos=otherAuxiliaries
+abbiano functword=1 pos=otherAuxiliaries
+abbiate functword=1 pos=otherAuxiliaries
+abbiente functword=1 pos=otherAuxiliaries
+avemmo functword=1 pos=otherAuxiliaries
+avendo functword=1 pos=otherAuxiliaries
+avente functword=1 pos=otherAuxiliaries
+avesse functword=1 pos=otherAuxiliaries
+avessero functword=1 pos=otherAuxiliaries
+avessi functword=1 pos=otherAuxiliaries
+avessimo functword=1 pos=otherAuxiliaries
+aveste functword=1 pos=otherAuxiliaries
+avesti functword=1 pos=otherAuxiliaries
+avete functword=1 pos=otherAuxiliaries
+aveva functword=1 pos=otherAuxiliaries
+avevamo functword=1 pos=otherAuxiliaries
+avevano functword=1 pos=otherAuxiliaries
+avevate functword=1 pos=otherAuxiliaries
+avevi functword=1 pos=otherAuxiliaries
+avevo functword=1 pos=otherAuxiliaries
+avrai functword=1 pos=otherAuxiliaries
+avranno functword=1 pos=otherAuxiliaries
+avrebbe functword=1 pos=otherAuxiliaries
+avrebbero functword=1 pos=otherAuxiliaries
+avrei functword=1 pos=otherAuxiliaries
+avremmo functword=1 pos=otherAuxiliaries
+avremo functword=1 pos=otherAuxiliaries
+avreste functword=1 pos=otherAuxiliaries
+avresti functword=1 pos=otherAuxiliaries
+avrete functword=1 pos=otherAuxiliaries
+avrà functword=1 pos=otherAuxiliaries
+avrò functword=1 pos=otherAuxiliaries
+avuto functword=1 pos=otherAuxiliaries
+debba functword=1 pos=otherAuxiliaries
+debbano functword=1 pos=otherAuxiliaries
+debbono functword=1 pos=otherAuxiliaries
+deva functword=1 pos=otherAuxiliaries
+deve functword=1 pos=otherAuxiliaries
+devi functword=1 pos=otherAuxiliaries
+devo functword=1 pos=otherAuxiliaries
+devono functword=1 pos=otherAuxiliaries
+dobbiamo functword=1 pos=otherAuxiliaries
+dobbiate functword=1 pos=otherAuxiliaries
+dovei functword=1 pos=otherAuxiliaries
+dovemmo functword=1 pos=otherAuxiliaries
+dovendo functword=1 pos=otherAuxiliaries
+doverono functword=1 pos=otherAuxiliaries
+dovesse functword=1 pos=otherAuxiliaries
+dovessero functword=1 pos=otherAuxiliaries
+dovessi functword=1 pos=otherAuxiliaries
+dovessimo functword=1 pos=otherAuxiliaries
+doveste functword=1 pos=otherAuxiliaries
+dovesti functword=1 pos=otherAuxiliaries
+dovete functword=1 pos=otherAuxiliaries
+dovette functword=1 pos=otherAuxiliaries
+dovettero functword=1 pos=otherAuxiliaries
+dovetti functword=1 pos=otherAuxiliaries
+doveva functword=1 pos=otherAuxiliaries
+dovevamo functword=1 pos=otherAuxiliaries
+dovevano functword=1 pos=otherAuxiliaries
+dovevate functword=1 pos=otherAuxiliaries
+dovevi functword=1 pos=otherAuxiliaries
+dovevo functword=1 pos=otherAuxiliaries
+dovrai functword=1 pos=otherAuxiliaries
+dovranno functword=1 pos=otherAuxiliaries
+dovrebbe functword=1 pos=otherAuxiliaries
+dovrebbero functword=1 pos=otherAuxiliaries
+dovrei functword=1 pos=otherAuxiliaries
+dovremmo functword=1 pos=otherAuxiliaries
+dovremo functword=1 pos=otherAuxiliaries
+dovreste functword=1 pos=otherAuxiliaries
+dovresti functword=1 pos=otherAuxiliaries
+dovrete functword=1 pos=otherAuxiliaries
+dovrà functword=1 pos=otherAuxiliaries
+dovrò functword=1 pos=otherAuxiliaries
+dovuto functword=1 pos=otherAuxiliaries
+dové functword=1 pos=otherAuxiliaries
+ebbe functword=1 pos=otherAuxiliaries
+ebbero functword=1 pos=otherAuxiliaries
+ebbi functword=1 pos=otherAuxiliaries
+ha functword=1 pos=otherAuxiliaries
+hai functword=1 pos=otherAuxiliaries
+hanno functword=1 pos=otherAuxiliaries
+ho functword=1 pos=otherAuxiliaries
+l \' abbi functword=1 pos=otherAuxiliaries
+l \' abbia functword=1 pos=otherAuxiliaries
+l \' abbiamo functword=1 pos=otherAuxiliaries
+l \' abbiano functword=1 pos=otherAuxiliaries
+l \' abbiate functword=1 pos=otherAuxiliaries
+l \' abbiente functword=1 pos=otherAuxiliaries
+l \' avemmo functword=1 pos=otherAuxiliaries
+l \' avendo functword=1 pos=otherAuxiliaries
+l \' avente functword=1 pos=otherAuxiliaries
+l \' avesse functword=1 pos=otherAuxiliaries
+l \' avessero functword=1 pos=otherAuxiliaries
+l \' avessi functword=1 pos=otherAuxiliaries
+l \' avessimo functword=1 pos=otherAuxiliaries
+l \' aveste functword=1 pos=otherAuxiliaries
+l \' avesti functword=1 pos=otherAuxiliaries
+l \' avete functword=1 pos=otherAuxiliaries
+l \' aveva functword=1 pos=otherAuxiliaries
+l \' avevamo functword=1 pos=otherAuxiliaries
+l \' avevano functword=1 pos=otherAuxiliaries
+l \' avevate functword=1 pos=otherAuxiliaries
+l \' avevi functword=1 pos=otherAuxiliaries
+l \' avevo functword=1 pos=otherAuxiliaries
+l \' avrai functword=1 pos=otherAuxiliaries
+l \' avranno functword=1 pos=otherAuxiliaries
+l \' avrebbe functword=1 pos=otherAuxiliaries
+l \' avrebbero functword=1 pos=otherAuxiliaries
+l \' avrei functword=1 pos=otherAuxiliaries
+l \' avremmo functword=1 pos=otherAuxiliaries
+l \' avremo functword=1 pos=otherAuxiliaries
+l \' avreste functword=1 pos=otherAuxiliaries
+l \' avresti functword=1 pos=otherAuxiliaries
+l \' avrete functword=1 pos=otherAuxiliaries
+l \' avrà functword=1 pos=otherAuxiliaries
+l \' avrò functword=1 pos=otherAuxiliaries
+l \' avuto functword=1 pos=otherAuxiliaries
+l \' ebbe functword=1 pos=otherAuxiliaries
+l \' ebbero functword=1 pos=otherAuxiliaries
+l \' ebbi functword=1 pos=otherAuxiliaries
+l \' ha functword=1 pos=otherAuxiliaries
+l \' hai functword=1 pos=otherAuxiliaries
+l \' hanno functword=1 pos=otherAuxiliaries
+l \' ho functword=1 pos=otherAuxiliaries
+possa functword=1 pos=otherAuxiliaries
+possano functword=1 pos=otherAuxiliaries
+possiamo functword=1 pos=otherAuxiliaries
+possiate functword=1 pos=otherAuxiliaries
+posso functword=1 pos=otherAuxiliaries
+possono functword=1 pos=otherAuxiliaries
+potei functword=1 pos=otherAuxiliaries
+potemmo functword=1 pos=otherAuxiliaries
+potendo functword=1 pos=otherAuxiliaries
+potente functword=1 pos=otherAuxiliaries
+poterono functword=1 pos=otherAuxiliaries
+potesse functword=1 pos=otherAuxiliaries
+potessero functword=1 pos=otherAuxiliaries
+potessi functword=1 pos=otherAuxiliaries
+potessimo functword=1 pos=otherAuxiliaries
+poteste functword=1 pos=otherAuxiliaries
+potesti functword=1 pos=otherAuxiliaries
+potete functword=1 pos=otherAuxiliaries
+potette functword=1 pos=otherAuxiliaries
+potettero functword=1 pos=otherAuxiliaries
+potetti functword=1 pos=otherAuxiliaries
+poteva functword=1 pos=otherAuxiliaries
+potevamo functword=1 pos=otherAuxiliaries
+potevano functword=1 pos=otherAuxiliaries
+potevate functword=1 pos=otherAuxiliaries
+potevi functword=1 pos=otherAuxiliaries
+potevo functword=1 pos=otherAuxiliaries
+potrai functword=1 pos=otherAuxiliaries
+potranno functword=1 pos=otherAuxiliaries
+potrebbe functword=1 pos=otherAuxiliaries
+potrebbero functword=1 pos=otherAuxiliaries
+potrei functword=1 pos=otherAuxiliaries
+potremmo functword=1 pos=otherAuxiliaries
+potremo functword=1 pos=otherAuxiliaries
+potreste functword=1 pos=otherAuxiliaries
+potresti functword=1 pos=otherAuxiliaries
+potrete functword=1 pos=otherAuxiliaries
+potrà functword=1 pos=otherAuxiliaries
+potrò functword=1 pos=otherAuxiliaries
+potuto functword=1 pos=otherAuxiliaries
+poté functword=1 pos=otherAuxiliaries
+puoi functword=1 pos=otherAuxiliaries
+può functword=1 pos=otherAuxiliaries
+sa functword=1 pos=otherAuxiliaries
+sai functword=1 pos=otherAuxiliaries
+sanno functword=1 pos=otherAuxiliaries
+sapemmo functword=1 pos=otherAuxiliaries
+sapendo functword=1 pos=otherAuxiliaries
+sapesse functword=1 pos=otherAuxiliaries
+sapessero functword=1 pos=otherAuxiliaries
+sapessi functword=1 pos=otherAuxiliaries
+sapessimo functword=1 pos=otherAuxiliaries
+sapeste functword=1 pos=otherAuxiliaries
+sapesti functword=1 pos=otherAuxiliaries
+sapete functword=1 pos=otherAuxiliaries
+sapeva functword=1 pos=otherAuxiliaries
+sapevamo functword=1 pos=otherAuxiliaries
+sapevano functword=1 pos=otherAuxiliaries
+sapevate functword=1 pos=otherAuxiliaries
+sapevi functword=1 pos=otherAuxiliaries
+sapevo functword=1 pos=otherAuxiliaries
+sappi functword=1 pos=otherAuxiliaries
+sappia functword=1 pos=otherAuxiliaries
+sappiamo functword=1 pos=otherAuxiliaries
+sappiano functword=1 pos=otherAuxiliaries
+sappiate functword=1 pos=otherAuxiliaries
+saprai functword=1 pos=otherAuxiliaries
+sapranno functword=1 pos=otherAuxiliaries
+saprebbe functword=1 pos=otherAuxiliaries
+saprebbero functword=1 pos=otherAuxiliaries
+saprei functword=1 pos=otherAuxiliaries
+sapremmo functword=1 pos=otherAuxiliaries
+sapremo functword=1 pos=otherAuxiliaries
+sapreste functword=1 pos=otherAuxiliaries
+sapresti functword=1 pos=otherAuxiliaries
+saprete functword=1 pos=otherAuxiliaries
+saprà functword=1 pos=otherAuxiliaries
+saprò functword=1 pos=otherAuxiliaries
+saputo functword=1 pos=otherAuxiliaries
+seppe functword=1 pos=otherAuxiliaries
+seppero functword=1 pos=otherAuxiliaries
+seppi functword=1 pos=otherAuxiliaries
+so functword=1 pos=otherAuxiliaries
+soglia functword=1 pos=otherAuxiliaries
+sogliamo functword=1 pos=otherAuxiliaries
+sogliano functword=1 pos=otherAuxiliaries
+sogliate functword=1 pos=otherAuxiliaries
+soglio functword=1 pos=otherAuxiliaries
+sogliono functword=1 pos=otherAuxiliaries
+solesse functword=1 pos=otherAuxiliaries
+solessero functword=1 pos=otherAuxiliaries
+solessi functword=1 pos=otherAuxiliaries
+solessimo functword=1 pos=otherAuxiliaries
+soleste functword=1 pos=otherAuxiliaries
+solete functword=1 pos=otherAuxiliaries
+soleva functword=1 pos=otherAuxiliaries
+solevamo functword=1 pos=otherAuxiliaries
+solevano functword=1 pos=otherAuxiliaries
+solevate functword=1 pos=otherAuxiliaries
+solevi functword=1 pos=otherAuxiliaries
+solevo functword=1 pos=otherAuxiliaries
+sta functword=1 pos=otherAuxiliaries
+stai functword=1 pos=otherAuxiliaries
+stando functword=1 pos=otherAuxiliaries
+stanno functword=1 pos=otherAuxiliaries
+stante functword=1 pos=otherAuxiliaries
+starai functword=1 pos=otherAuxiliaries
+staranno functword=1 pos=otherAuxiliaries
+staremo functword=1 pos=otherAuxiliaries
+starete functword=1 pos=otherAuxiliaries
+starà functword=1 pos=otherAuxiliaries
+starò functword=1 pos=otherAuxiliaries
+stava functword=1 pos=otherAuxiliaries
+stavamo functword=1 pos=otherAuxiliaries
+stavano functword=1 pos=otherAuxiliaries
+stavate functword=1 pos=otherAuxiliaries
+stavi functword=1 pos=otherAuxiliaries
+stavo functword=1 pos=otherAuxiliaries
+stemmo functword=1 pos=otherAuxiliaries
+stessero functword=1 pos=otherAuxiliaries
+stessimo functword=1 pos=otherAuxiliaries
+steste functword=1 pos=otherAuxiliaries
+stesti functword=1 pos=otherAuxiliaries
+stette functword=1 pos=otherAuxiliaries
+stettero functword=1 pos=otherAuxiliaries
+stetti functword=1 pos=otherAuxiliaries
+stia functword=1 pos=otherAuxiliaries
+stiamo functword=1 pos=otherAuxiliaries
+stiano functword=1 pos=otherAuxiliaries
+stiate functword=1 pos=otherAuxiliaries
+sto functword=1 pos=otherAuxiliaries
+suoli functword=1 pos=otherAuxiliaries
+voglia functword=1 pos=otherAuxiliaries
+vogliamo functword=1 pos=otherAuxiliaries
+vogliano functword=1 pos=otherAuxiliaries
+vogliate functword=1 pos=otherAuxiliaries
+voglio functword=1 pos=otherAuxiliaries
+vogliono functword=1 pos=otherAuxiliaries
+volemmo functword=1 pos=otherAuxiliaries
+volendo functword=1 pos=otherAuxiliaries
+volente functword=1 pos=otherAuxiliaries
+volesse functword=1 pos=otherAuxiliaries
+volessero functword=1 pos=otherAuxiliaries
+volessi functword=1 pos=otherAuxiliaries
+volessimo functword=1 pos=otherAuxiliaries
+voleste functword=1 pos=otherAuxiliaries
+volesti functword=1 pos=otherAuxiliaries
+volete functword=1 pos=otherAuxiliaries
+voleva functword=1 pos=otherAuxiliaries
+volevamo functword=1 pos=otherAuxiliaries
+volevano functword=1 pos=otherAuxiliaries
+volevate functword=1 pos=otherAuxiliaries
+volevi functword=1 pos=otherAuxiliaries
+volevo functword=1 pos=otherAuxiliaries
+volle functword=1 pos=otherAuxiliaries
+vollero functword=1 pos=otherAuxiliaries
+volli functword=1 pos=otherAuxiliaries
+voluto functword=1 pos=otherAuxiliaries
+vorrai functword=1 pos=otherAuxiliaries
+vorranno functword=1 pos=otherAuxiliaries
+vorrebbe functword=1 pos=otherAuxiliaries
+vorrebbero functword=1 pos=otherAuxiliaries
+vorrei functword=1 pos=otherAuxiliaries
+vorremmo functword=1 pos=otherAuxiliaries
+vorremo functword=1 pos=otherAuxiliaries
+vorreste functword=1 pos=otherAuxiliaries
+vorresti functword=1 pos=otherAuxiliaries
+vorrete functword=1 pos=otherAuxiliaries
+vorrà functword=1 pos=otherAuxiliaries
+vorrò functword=1 pos=otherAuxiliaries
+vuoi functword=1 pos=otherAuxiliaries
+vuole functword=1 pos=otherAuxiliaries
+
+### Other Auxiliaries Infinitive
+#--------------------------------------
+aver functword=1 pos=otherAuxiliariesInfinitive
+avere functword=1 pos=otherAuxiliariesInfinitive
+dover functword=1 pos=otherAuxiliariesInfinitive
+dovere functword=1 pos=otherAuxiliariesInfinitive
+l \' aver functword=1 pos=otherAuxiliariesInfinitive
+l \' avere functword=1 pos=otherAuxiliariesInfinitive
+poter functword=1 pos=otherAuxiliariesInfinitive
+potere functword=1 pos=otherAuxiliariesInfinitive
+saper functword=1 pos=otherAuxiliariesInfinitive
+sapere functword=1 pos=otherAuxiliariesInfinitive
+solere functword=1 pos=otherAuxiliariesInfinitive
+star functword=1 pos=otherAuxiliariesInfinitive
+stare functword=1 pos=otherAuxiliariesInfinitive
+voler functword=1 pos=otherAuxiliariesInfinitive
+volere functword=1 pos=otherAuxiliariesInfinitive
+
+### Copula
+#--------------------------------------
+e \'  functword=1 pos=copula
+era functword=1 pos=copula
+erano functword=1 pos=copula
+eravamo functword=1 pos=copula
+eravate functword=1 pos=copula
+eri functword=1 pos=copula
+ero functword=1 pos=copula
+essendo functword=1 pos=copula
+essente functword=1 pos=copula
+fosse functword=1 pos=copula
+fossero functword=1 pos=copula
+fossi functword=1 pos=copula
+fossimo functword=1 pos=copula
+foste functword=1 pos=copula
+fosti functword=1 pos=copula
+fu functword=1 pos=copula
+fui functword=1 pos=copula
+fummo functword=1 pos=copula
+furono functword=1 pos=copula
+sarai functword=1 pos=copula
+saranno functword=1 pos=copula
+sarebbe functword=1 pos=copula
+sarebbero functword=1 pos=copula
+sarei functword=1 pos=copula
+saremmo functword=1 pos=copula
+saremo functword=1 pos=copula
+sareste functword=1 pos=copula
+saresti functword=1 pos=copula
+sarete functword=1 pos=copula
+sarà functword=1 pos=copula
+sarò functword=1 pos=copula
+sei functword=1 pos=copula
+sia functword=1 pos=copula
+siamo functword=1 pos=copula
+siano functword=1 pos=copula
+siate functword=1 pos=copula
+siete functword=1 pos=copula
+sii functword=1 pos=copula
+sono functword=1 pos=copula
+stata functword=1 pos=copula
+state functword=1 pos=copula
+stati functword=1 pos=copula
+stato functword=1 pos=copula
+è functword=1 pos=copula
+
+### Copula Infinitive
+#--------------------------------------
+esser functword=1 pos=copulaInfinitive
+essere functword=1 pos=copulaInfinitive
+
+### Prepositions
+#--------------------------------------
+a functword=1 pos=prepositions
+ad functword=1 pos=prepositions
+agli functword=1 pos=prepositions
+ai functword=1 pos=prepositions
+al functword=1 pos=prepositions
+alla functword=1 pos=prepositions
+alle functword=1 pos=prepositions
+allo functword=1 pos=prepositions
+attraverso functword=1 pos=prepositions
+circa functword=1 pos=prepositions
+cogli functword=1 pos=prepositions
+coi functword=1 pos=prepositions
+col functword=1 pos=prepositions
+colla functword=1 pos=prepositions
+colle functword=1 pos=prepositions
+collo functword=1 pos=prepositions
+con functword=1 pos=prepositions
+contro functword=1 pos=prepositions
+da functword=1 pos=prepositions
+dagli functword=1 pos=prepositions
+dai functword=1 pos=prepositions
+dal functword=1 pos=prepositions
+dalla functword=1 pos=prepositions
+dalle functword=1 pos=prepositions
+dallo functword=1 pos=prepositions
+davanti functword=1 pos=prepositions
+degli functword=1 pos=prepositions
+dei functword=1 pos=prepositions
+del functword=1 pos=prepositions
+della functword=1 pos=prepositions
+delle functword=1 pos=prepositions
+dello functword=1 pos=prepositions
+dentro functword=1 pos=prepositions
+di functword=1 pos=prepositions
+dietro functword=1 pos=prepositions
+entro functword=1 pos=prepositions
+escluso functword=1 pos=prepositions
+fra functword=1 pos=prepositions
+fuori functword=1 pos=prepositions
+in functword=1 pos=prepositions
+insieme functword=1 pos=prepositions
+intorno functword=1 pos=prepositions
+lontano functword=1 pos=prepositions
+lungo functword=1 pos=prepositions
+mediante functword=1 pos=prepositions
+negli functword=1 pos=prepositions
+nei functword=1 pos=prepositions
+nel functword=1 pos=prepositions
+nella functword=1 pos=prepositions
+nelle functword=1 pos=prepositions
+nello functword=1 pos=prepositions
+oltre functword=1 pos=prepositions
+pegli functword=1 pos=prepositions
+pei functword=1 pos=prepositions
+pel functword=1 pos=prepositions
+pella functword=1 pos=prepositions
+pello functword=1 pos=prepositions
+per functword=1 pos=prepositions
+presso functword=1 pos=prepositions
+rasente functword=1 pos=prepositions
+riguardo functword=1 pos=prepositions
+senza functword=1 pos=prepositions
+sopra functword=1 pos=prepositions
+sotto functword=1 pos=prepositions
+su functword=1 pos=prepositions
+sugli functword=1 pos=prepositions
+sui functword=1 pos=prepositions
+sul functword=1 pos=prepositions
+sulla functword=1 pos=prepositions
+sulle functword=1 pos=prepositions
+sullo functword=1 pos=prepositions
+tra functword=1 pos=prepositions
+tramite functword=1 pos=prepositions
+vicino functword=1 pos=prepositions
+
+### Coordinating Conjunctions
+#--------------------------------------
+e functword=1 pos=coordinatingConjunctions
+ed functword=1 pos=coordinatingConjunctions
+o functword=1 pos=coordinatingConjunctions
+oppure functword=1 pos=coordinatingConjunctions
+
+### Correlative Conjunctions
+#--------------------------------------
+dall \' altra functword=1 pos=correlativeConjunctions
+l \' altro functword=1 pos=correlativeConjunctions
+l \' uno functword=1 pos=correlativeConjunctions
+tale functword=1 pos=correlativeConjunctions
+tali functword=1 pos=correlativeConjunctions
+
+### Subordinating Conjunctions
+#--------------------------------------
+anzichè functword=1 pos=subordinatingConjunctions
+anziché functword=1 pos=subordinatingConjunctions
+fuorchè functword=1 pos=subordinatingConjunctions
+fuorché functword=1 pos=subordinatingConjunctions
+giacchè functword=1 pos=subordinatingConjunctions
+giacché functword=1 pos=subordinatingConjunctions
+laddove functword=1 pos=subordinatingConjunctions
+modo functword=1 pos=subordinatingConjunctions
+ove functword=1 pos=subordinatingConjunctions
+qualora functword=1 pos=subordinatingConjunctions
+quantunque functword=1 pos=subordinatingConjunctions
+volta functword=1 pos=subordinatingConjunctions
+
+### Interview Verbs
+#--------------------------------------
+afferma functword=1 pos=interviewVerbs
+affermato functword=1 pos=interviewVerbs
+aggiunge functword=1 pos=interviewVerbs
+aggiunto functword=1 pos=interviewVerbs
+ammesso functword=1 pos=interviewVerbs
+ammette functword=1 pos=interviewVerbs
+annuncia functword=1 pos=interviewVerbs
+annunciato functword=1 pos=interviewVerbs
+assicura functword=1 pos=interviewVerbs
+assicurato functword=1 pos=interviewVerbs
+chiede functword=1 pos=interviewVerbs
+chiesto functword=1 pos=interviewVerbs
+commentato functword=1 pos=interviewVerbs
+conclude functword=1 pos=interviewVerbs
+concluso functword=1 pos=interviewVerbs
+continua functword=1 pos=interviewVerbs
+continuato functword=1 pos=interviewVerbs
+denuncia functword=1 pos=interviewVerbs
+denunciato functword=1 pos=interviewVerbs
+detto functword=1 pos=interviewVerbs
+dice functword=1 pos=interviewVerbs
+diceva functword=1 pos=interviewVerbs
+dicevano functword=1 pos=interviewVerbs
+dichiara functword=1 pos=interviewVerbs
+dichiarato functword=1 pos=interviewVerbs
+dicono functword=1 pos=interviewVerbs
+disse functword=1 pos=interviewVerbs
+dissero functword=1 pos=interviewVerbs
+domanda functword=1 pos=interviewVerbs
+domandano functword=1 pos=interviewVerbs
+domandarono functword=1 pos=interviewVerbs
+domandato functword=1 pos=interviewVerbs
+domandava functword=1 pos=interviewVerbs
+domandavano functword=1 pos=interviewVerbs
+domandò functword=1 pos=interviewVerbs
+esordisce functword=1 pos=interviewVerbs
+esordito functword=1 pos=interviewVerbs
+inizia functword=1 pos=interviewVerbs
+iniziato functword=1 pos=interviewVerbs
+precisato functword=1 pos=interviewVerbs
+prosegue functword=1 pos=interviewVerbs
+proseguito functword=1 pos=interviewVerbs
+racconta functword=1 pos=interviewVerbs
+raccontato functword=1 pos=interviewVerbs
+recita functword=1 pos=interviewVerbs
+recitato functword=1 pos=interviewVerbs
+replica functword=1 pos=interviewVerbs
+replicato functword=1 pos=interviewVerbs
+rimarca functword=1 pos=interviewVerbs
+rimarcato functword=1 pos=interviewVerbs
+risponde functword=1 pos=interviewVerbs
+risposto functword=1 pos=interviewVerbs
+rivela functword=1 pos=interviewVerbs
+rivelato functword=1 pos=interviewVerbs
+scandisce functword=1 pos=interviewVerbs
+scandito functword=1 pos=interviewVerbs
+segnala functword=1 pos=interviewVerbs
+segnalato functword=1 pos=interviewVerbs
+sottolinea functword=1 pos=interviewVerbs
+sottolineato functword=1 pos=interviewVerbs
+spiega functword=1 pos=interviewVerbs
+spiegato functword=1 pos=interviewVerbs
+
+### Interview Verbs Infinitive
+#--------------------------------------
+affermare functword=1 pos=interviewVerbsInfinitive
+aggiungere functword=1 pos=interviewVerbsInfinitive
+ammettere functword=1 pos=interviewVerbsInfinitive
+annunciare functword=1 pos=interviewVerbsInfinitive
+assicurare functword=1 pos=interviewVerbsInfinitive
+chiedere functword=1 pos=interviewVerbsInfinitive
+commentare functword=1 pos=interviewVerbsInfinitive
+concludere functword=1 pos=interviewVerbsInfinitive
+continuare functword=1 pos=interviewVerbsInfinitive
+denunciare functword=1 pos=interviewVerbsInfinitive
+dichiarare functword=1 pos=interviewVerbsInfinitive
+esordire functword=1 pos=interviewVerbsInfinitive
+iniziare functword=1 pos=interviewVerbsInfinitive
+precisare functword=1 pos=interviewVerbsInfinitive
+proseguire functword=1 pos=interviewVerbsInfinitive
+raccontare functword=1 pos=interviewVerbsInfinitive
+recitare functword=1 pos=interviewVerbsInfinitive
+replicare functword=1 pos=interviewVerbsInfinitive
+rimarcare functword=1 pos=interviewVerbsInfinitive
+rispondere functword=1 pos=interviewVerbsInfinitive
+rivelare functword=1 pos=interviewVerbsInfinitive
+scandire functword=1 pos=interviewVerbsInfinitive
+segnalare functword=1 pos=interviewVerbsInfinitive
+sottolineare functword=1 pos=interviewVerbsInfinitive
+spiegare functword=1 pos=interviewVerbsInfinitive
+
+### Additional Transition Words
+#--------------------------------------
+eventualmente functword=1 pos=additionalTransitionWords
+forse functword=1 pos=additionalTransitionWords
+mai functword=1 pos=additionalTransitionWords
+probabilmente functword=1 pos=additionalTransitionWords
+
+### Intensifiers
+#--------------------------------------
+addirittura functword=1 pos=intensifiers
+assolutamente functword=1 pos=intensifiers
+ben functword=1 pos=intensifiers
+estremamente functword=1 pos=intensifiers
+mica functword=1 pos=intensifiers
+nemmeno functword=1 pos=intensifiers
+quasi functword=1 pos=intensifiers
+
+### Delexicalized Verbs
+# These verbs convey little meaning.
+#--------------------------------------
+fa functword=1 pos=delexicalizedVerbs
+fa \'  functword=1 pos=delexicalizedVerbs
+faccia functword=1 pos=delexicalizedVerbs
+facciamo functword=1 pos=delexicalizedVerbs
+facciano functword=1 pos=delexicalizedVerbs
+facciate functword=1 pos=delexicalizedVerbs
+faccio functword=1 pos=delexicalizedVerbs
+facemmo functword=1 pos=delexicalizedVerbs
+facendo functword=1 pos=delexicalizedVerbs
+facente functword=1 pos=delexicalizedVerbs
+facesse functword=1 pos=delexicalizedVerbs
+facessero functword=1 pos=delexicalizedVerbs
+facessi functword=1 pos=delexicalizedVerbs
+facessimo functword=1 pos=delexicalizedVerbs
+faceste functword=1 pos=delexicalizedVerbs
+facesti functword=1 pos=delexicalizedVerbs
+faceva functword=1 pos=delexicalizedVerbs
+facevamo functword=1 pos=delexicalizedVerbs
+facevano functword=1 pos=delexicalizedVerbs
+facevate functword=1 pos=delexicalizedVerbs
+facevi functword=1 pos=delexicalizedVerbs
+facevo functword=1 pos=delexicalizedVerbs
+fai functword=1 pos=delexicalizedVerbs
+fanno functword=1 pos=delexicalizedVerbs
+farai functword=1 pos=delexicalizedVerbs
+faranno functword=1 pos=delexicalizedVerbs
+farebbe functword=1 pos=delexicalizedVerbs
+farebbero functword=1 pos=delexicalizedVerbs
+farei functword=1 pos=delexicalizedVerbs
+faremmo functword=1 pos=delexicalizedVerbs
+faremo functword=1 pos=delexicalizedVerbs
+fareste functword=1 pos=delexicalizedVerbs
+faresti functword=1 pos=delexicalizedVerbs
+farete functword=1 pos=delexicalizedVerbs
+farà functword=1 pos=delexicalizedVerbs
+farò functword=1 pos=delexicalizedVerbs
+fate functword=1 pos=delexicalizedVerbs
+fatto functword=1 pos=delexicalizedVerbs
+fece functword=1 pos=delexicalizedVerbs
+fecero functword=1 pos=delexicalizedVerbs
+feci functword=1 pos=delexicalizedVerbs
+fo functword=1 pos=delexicalizedVerbs
+
+### Delexicalized Verbs Infinitive
+#--------------------------------------
+fare functword=1 pos=delexicalizedVerbsInfinitive
+
+### General Adjectives Adverbs
+#--------------------------------------
+alta functword=1 pos=generalAdjectivesAdverbs
+alte functword=1 pos=generalAdjectivesAdverbs
+alti functword=1 pos=generalAdjectivesAdverbs
+alto functword=1 pos=generalAdjectivesAdverbs
+anteriore functword=1 pos=generalAdjectivesAdverbs
+anteriori functword=1 pos=generalAdjectivesAdverbs
+avanti functword=1 pos=generalAdjectivesAdverbs
+bassa functword=1 pos=generalAdjectivesAdverbs
+basse functword=1 pos=generalAdjectivesAdverbs
+bassi functword=1 pos=generalAdjectivesAdverbs
+basso functword=1 pos=generalAdjectivesAdverbs
+bene functword=1 pos=generalAdjectivesAdverbs
+benissimo functword=1 pos=generalAdjectivesAdverbs
+breve functword=1 pos=generalAdjectivesAdverbs
+brevi functword=1 pos=generalAdjectivesAdverbs
+completa functword=1 pos=generalAdjectivesAdverbs
+complete functword=1 pos=generalAdjectivesAdverbs
+completi functword=1 pos=generalAdjectivesAdverbs
+completo functword=1 pos=generalAdjectivesAdverbs
+comunemente functword=1 pos=generalAdjectivesAdverbs
+constantemente functword=1 pos=generalAdjectivesAdverbs
+corta functword=1 pos=generalAdjectivesAdverbs
+corte functword=1 pos=generalAdjectivesAdverbs
+corti functword=1 pos=generalAdjectivesAdverbs
+corto functword=1 pos=generalAdjectivesAdverbs
+cosiddetto functword=1 pos=generalAdjectivesAdverbs
+differente functword=1 pos=generalAdjectivesAdverbs
+differenti functword=1 pos=generalAdjectivesAdverbs
+difficile functword=1 pos=generalAdjectivesAdverbs
+difficili functword=1 pos=generalAdjectivesAdverbs
+difficilissima functword=1 pos=generalAdjectivesAdverbs
+difficilissime functword=1 pos=generalAdjectivesAdverbs
+difficilissimi functword=1 pos=generalAdjectivesAdverbs
+difficilissimo functword=1 pos=generalAdjectivesAdverbs
+direttamente functword=1 pos=generalAdjectivesAdverbs
+esattamente functword=1 pos=generalAdjectivesAdverbs
+facile functword=1 pos=generalAdjectivesAdverbs
+facili functword=1 pos=generalAdjectivesAdverbs
+facilissima functword=1 pos=generalAdjectivesAdverbs
+facilissime functword=1 pos=generalAdjectivesAdverbs
+facilissimi functword=1 pos=generalAdjectivesAdverbs
+facilissimo functword=1 pos=generalAdjectivesAdverbs
+facilmente functword=1 pos=generalAdjectivesAdverbs
+generalmente functword=1 pos=generalAdjectivesAdverbs
+giusta functword=1 pos=generalAdjectivesAdverbs
+giustamente functword=1 pos=generalAdjectivesAdverbs
+giuste functword=1 pos=generalAdjectivesAdverbs
+giusti functword=1 pos=generalAdjectivesAdverbs
+giusto functword=1 pos=generalAdjectivesAdverbs
+indietro functword=1 pos=generalAdjectivesAdverbs
+leggermente functword=1 pos=generalAdjectivesAdverbs
+male functword=1 pos=generalAdjectivesAdverbs
+malissimo functword=1 pos=generalAdjectivesAdverbs
+meglio functword=1 pos=generalAdjectivesAdverbs
+normale functword=1 pos=generalAdjectivesAdverbs
+normali functword=1 pos=generalAdjectivesAdverbs
+normalmente functword=1 pos=generalAdjectivesAdverbs
+peggio functword=1 pos=generalAdjectivesAdverbs
+personalmente functword=1 pos=generalAdjectivesAdverbs
+possibile functword=1 pos=generalAdjectivesAdverbs
+possibili functword=1 pos=generalAdjectivesAdverbs
+precedente functword=1 pos=generalAdjectivesAdverbs
+precedenti functword=1 pos=generalAdjectivesAdverbs
+prossima functword=1 pos=generalAdjectivesAdverbs
+prossime functword=1 pos=generalAdjectivesAdverbs
+prossimi functword=1 pos=generalAdjectivesAdverbs
+prossimo functword=1 pos=generalAdjectivesAdverbs
+rapida functword=1 pos=generalAdjectivesAdverbs
+rapide functword=1 pos=generalAdjectivesAdverbs
+rapidi functword=1 pos=generalAdjectivesAdverbs
+rapido functword=1 pos=generalAdjectivesAdverbs
+recente functword=1 pos=generalAdjectivesAdverbs
+recentemente functword=1 pos=generalAdjectivesAdverbs
+recenti functword=1 pos=generalAdjectivesAdverbs
+semplice functword=1 pos=generalAdjectivesAdverbs
+semplicemente functword=1 pos=generalAdjectivesAdverbs
+semplici functword=1 pos=generalAdjectivesAdverbs
+semplicissima functword=1 pos=generalAdjectivesAdverbs
+semplicissime functword=1 pos=generalAdjectivesAdverbs
+semplicissimi functword=1 pos=generalAdjectivesAdverbs
+semplicissimo functword=1 pos=generalAdjectivesAdverbs
+simile functword=1 pos=generalAdjectivesAdverbs
+simili functword=1 pos=generalAdjectivesAdverbs
+sinceramente functword=1 pos=generalAdjectivesAdverbs
+solamente functword=1 pos=generalAdjectivesAdverbs
+totale functword=1 pos=generalAdjectivesAdverbs
+totali functword=1 pos=generalAdjectivesAdverbs
+ultima functword=1 pos=generalAdjectivesAdverbs
+ultime functword=1 pos=generalAdjectivesAdverbs
+ultimi functword=1 pos=generalAdjectivesAdverbs
+ultimo functword=1 pos=generalAdjectivesAdverbs
+veloce functword=1 pos=generalAdjectivesAdverbs
+veloci functword=1 pos=generalAdjectivesAdverbs
+
+### General Adjectives Adverbs Preceding
+#--------------------------------------
+begli functword=1 pos=generalAdjectivesAdverbsPreceding
+bei functword=1 pos=generalAdjectivesAdverbsPreceding
+bella functword=1 pos=generalAdjectivesAdverbsPreceding
+belle functword=1 pos=generalAdjectivesAdverbsPreceding
+belli functword=1 pos=generalAdjectivesAdverbsPreceding
+bellissima functword=1 pos=generalAdjectivesAdverbsPreceding
+bellissime functword=1 pos=generalAdjectivesAdverbsPreceding
+bellissimi functword=1 pos=generalAdjectivesAdverbsPreceding
+bellissimo functword=1 pos=generalAdjectivesAdverbsPreceding
+bello functword=1 pos=generalAdjectivesAdverbsPreceding
+buona functword=1 pos=generalAdjectivesAdverbsPreceding
+buone functword=1 pos=generalAdjectivesAdverbsPreceding
+buoni functword=1 pos=generalAdjectivesAdverbsPreceding
+buonissima functword=1 pos=generalAdjectivesAdverbsPreceding
+buonissime functword=1 pos=generalAdjectivesAdverbsPreceding
+buonissimi functword=1 pos=generalAdjectivesAdverbsPreceding
+buonissimo functword=1 pos=generalAdjectivesAdverbsPreceding
+buono functword=1 pos=generalAdjectivesAdverbsPreceding
+grande functword=1 pos=generalAdjectivesAdverbsPreceding
+grandi functword=1 pos=generalAdjectivesAdverbsPreceding
+grandissima functword=1 pos=generalAdjectivesAdverbsPreceding
+grandissime functword=1 pos=generalAdjectivesAdverbsPreceding
+grandissimi functword=1 pos=generalAdjectivesAdverbsPreceding
+grandissimo functword=1 pos=generalAdjectivesAdverbsPreceding
+lunga functword=1 pos=generalAdjectivesAdverbsPreceding
+lunghe functword=1 pos=generalAdjectivesAdverbsPreceding
+lunghi functword=1 pos=generalAdjectivesAdverbsPreceding
+nuova functword=1 pos=generalAdjectivesAdverbsPreceding
+nuove functword=1 pos=generalAdjectivesAdverbsPreceding
+nuovi functword=1 pos=generalAdjectivesAdverbsPreceding
+nuovo functword=1 pos=generalAdjectivesAdverbsPreceding
+piccola functword=1 pos=generalAdjectivesAdverbsPreceding
+piccole functword=1 pos=generalAdjectivesAdverbsPreceding
+piccoli functword=1 pos=generalAdjectivesAdverbsPreceding
+piccolissima functword=1 pos=generalAdjectivesAdverbsPreceding
+piccolissime functword=1 pos=generalAdjectivesAdverbsPreceding
+piccolissimi functword=1 pos=generalAdjectivesAdverbsPreceding
+piccolissimo functword=1 pos=generalAdjectivesAdverbsPreceding
+piccolo functword=1 pos=generalAdjectivesAdverbsPreceding
+propri functword=1 pos=generalAdjectivesAdverbsPreceding
+propria functword=1 pos=generalAdjectivesAdverbsPreceding
+proprie functword=1 pos=generalAdjectivesAdverbsPreceding
+proprio functword=1 pos=generalAdjectivesAdverbsPreceding
+solita functword=1 pos=generalAdjectivesAdverbsPreceding
+solite functword=1 pos=generalAdjectivesAdverbsPreceding
+soliti functword=1 pos=generalAdjectivesAdverbsPreceding
+solito functword=1 pos=generalAdjectivesAdverbsPreceding
+stessa functword=1 pos=generalAdjectivesAdverbsPreceding
+stesse functword=1 pos=generalAdjectivesAdverbsPreceding
+stessi functword=1 pos=generalAdjectivesAdverbsPreceding
+stesso functword=1 pos=generalAdjectivesAdverbsPreceding
+vecchi functword=1 pos=generalAdjectivesAdverbsPreceding
+vecchia functword=1 pos=generalAdjectivesAdverbsPreceding
+vecchie functword=1 pos=generalAdjectivesAdverbsPreceding
+vecchio functword=1 pos=generalAdjectivesAdverbsPreceding
+
+### Interjections
+#--------------------------------------
+aah functword=1 pos=interjections
+accidenti functword=1 pos=interjections
+acciderba functword=1 pos=interjections
+ah functword=1 pos=interjections
+ahi functword=1 pos=interjections
+ahia functword=1 pos=interjections
+ahimé functword=1 pos=interjections
+bah functword=1 pos=interjections
+beh functword=1 pos=interjections
+boh functword=1 pos=interjections
+ca functword=1 pos=interjections
+caspita functword=1 pos=interjections
+chissà functword=1 pos=interjections
+de \'  functword=1 pos=interjections
+diamine functword=1 pos=interjections
+ecco functword=1 pos=interjections
+eeh functword=1 pos=interjections
+eh functword=1 pos=interjections
+ehi functword=1 pos=interjections
+ehilà functword=1 pos=interjections
+ehm functword=1 pos=interjections
+gna functword=1 pos=interjections
+ih functword=1 pos=interjections
+macchè functword=1 pos=interjections
+macché functword=1 pos=interjections
+magari functword=1 pos=interjections
+mah functword=1 pos=interjections
+mhm functword=1 pos=interjections
+nca functword=1 pos=interjections
+neh functword=1 pos=interjections
+oh functword=1 pos=interjections
+ohe functword=1 pos=interjections
+ohibò functword=1 pos=interjections
+ohilá functword=1 pos=interjections
+ohimé functword=1 pos=interjections
+ohé functword=1 pos=interjections
+oibò functword=1 pos=interjections
+ok functword=1 pos=interjections
+okay functword=1 pos=interjections
+olà functword=1 pos=interjections
+poh functword=1 pos=interjections
+pota functword=1 pos=interjections
+puah functword=1 pos=interjections
+sorbole functword=1 pos=interjections
+to \'  functword=1 pos=interjections
+toh functword=1 pos=interjections
+ts functword=1 pos=interjections
+uff functword=1 pos=interjections
+uffa functword=1 pos=interjections
+uh functword=1 pos=interjections
+uhi functword=1 pos=interjections
+
+### Recipe Words
+# These words and abbreviations are frequently used in recipes in lists of ingredients.
+#--------------------------------------
+cc functword=1 pos=recipeWords
+g functword=1 pos=recipeWords
+hg functword=1 pos=recipeWords
+hl functword=1 pos=recipeWords
+kg functword=1 pos=recipeWords
+l functword=1 pos=recipeWords
+prs functword=1 pos=recipeWords
+pz functword=1 pos=recipeWords
+q.b. functword=1 pos=recipeWords
+qb functword=1 pos=recipeWords
+ta functword=1 pos=recipeWords
+tz functword=1 pos=recipeWords
+
+### Time Words
+#--------------------------------------
+anni functword=1 pos=timeWords
+anno functword=1 pos=timeWords
+domani functword=1 pos=timeWords
+giornata functword=1 pos=timeWords
+giornate functword=1 pos=timeWords
+giorni functword=1 pos=timeWords
+giorno functword=1 pos=timeWords
+ieri functword=1 pos=timeWords
+mese functword=1 pos=timeWords
+mesi functword=1 pos=timeWords
+minuti functword=1 pos=timeWords
+minuto functword=1 pos=timeWords
+oggi functword=1 pos=timeWords
+ora functword=1 pos=timeWords
+ore functword=1 pos=timeWords
+settimana functword=1 pos=timeWords
+settimane functword=1 pos=timeWords
+stamattina functword=1 pos=timeWords
+stanotte functword=1 pos=timeWords
+stasera functword=1 pos=timeWords
+tardi functword=1 pos=timeWords
+
+### Vague Nouns
+# Already included in other lists.
+#--------------------------------------
+aspetti functword=1 pos=vagueNouns
+aspetto functword=1 pos=vagueNouns
+casi functword=1 pos=vagueNouns
+caso functword=1 pos=vagueNouns
+cose functword=1 pos=vagueNouns
+idea functword=1 pos=vagueNouns
+idee functword=1 pos=vagueNouns
+istanza functword=1 pos=vagueNouns
+maniera functword=1 pos=vagueNouns
+oggetti functword=1 pos=vagueNouns
+oggetto functword=1 pos=vagueNouns
+parte functword=1 pos=vagueNouns
+parti functword=1 pos=vagueNouns
+persona functword=1 pos=vagueNouns
+persone functword=1 pos=vagueNouns
+pezzi functword=1 pos=vagueNouns
+pezzo functword=1 pos=vagueNouns
+punti functword=1 pos=vagueNouns
+punto functword=1 pos=vagueNouns
+sorta functword=1 pos=vagueNouns
+sorte functword=1 pos=vagueNouns
+tema functword=1 pos=vagueNouns
+temi functword=1 pos=vagueNouns
+volte functword=1 pos=vagueNouns
+
+### Miscellaneous
+#--------------------------------------
+ecc functword=1 pos=miscellaneous
+eccetera functword=1 pos=miscellaneous
+euro functword=1 pos=miscellaneous
+euros functword=1 pos=miscellaneous
+no functword=1 pos=miscellaneous
+non functword=1 pos=miscellaneous
+sì functword=1 pos=miscellaneous
+€ functword=1 pos=miscellaneous
+
+### Titles Preceding
+#--------------------------------------
+cav functword=1 pos=titlesPreceding
+dott functword=1 pos=titlesPreceding
+dott.ssa functword=1 pos=titlesPreceding
+dr functword=1 pos=titlesPreceding
+dr.ssa functword=1 pos=titlesPreceding
+egr functword=1 pos=titlesPreceding
+egr.i functword=1 pos=titlesPreceding
+egr.ia functword=1 pos=titlesPreceding
+egr.ie functword=1 pos=titlesPreceding
+gent functword=1 pos=titlesPreceding
+gent.ma functword=1 pos=titlesPreceding
+gent.me functword=1 pos=titlesPreceding
+gent.mi functword=1 pos=titlesPreceding
+gent.mo functword=1 pos=titlesPreceding
+ill functword=1 pos=titlesPreceding
+ill.ma functword=1 pos=titlesPreceding
+ill.me functword=1 pos=titlesPreceding
+ill.mi functword=1 pos=titlesPreceding
+ill.mo functword=1 pos=titlesPreceding
+on functword=1 pos=titlesPreceding
+preg.ma functword=1 pos=titlesPreceding
+preg.me functword=1 pos=titlesPreceding
+preg.mo functword=1 pos=titlesPreceding
+preg.mo functword=1 pos=titlesPreceding
+prof functword=1 pos=titlesPreceding
+prof.ssa functword=1 pos=titlesPreceding
+sig functword=1 pos=titlesPreceding
+sig.na functword=1 pos=titlesPreceding
+sig.ra functword=1 pos=titlesPreceding
+sigg functword=1 pos=titlesPreceding
+spett functword=1 pos=titlesPreceding

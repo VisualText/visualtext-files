@@ -1,0 +1,879 @@
+# English function words
+
+### Articles
+#--------------------------------------
+a functword=1 pos=articles
+an functword=1 pos=articles
+the functword=1 pos=articles
+
+### Cardinal Numerals
+#--------------------------------------
+billion functword=1 pos=cardinalNumerals
+billions functword=1 pos=cardinalNumerals
+eight functword=1 pos=cardinalNumerals
+eighteen functword=1 pos=cardinalNumerals
+eleven functword=1 pos=cardinalNumerals
+fifteen functword=1 pos=cardinalNumerals
+five functword=1 pos=cardinalNumerals
+four functword=1 pos=cardinalNumerals
+fourteen functword=1 pos=cardinalNumerals
+hundred functword=1 pos=cardinalNumerals
+hundreds functword=1 pos=cardinalNumerals
+million functword=1 pos=cardinalNumerals
+millions functword=1 pos=cardinalNumerals
+nine functword=1 pos=cardinalNumerals
+nineteen functword=1 pos=cardinalNumerals
+one functword=1 pos=cardinalNumerals
+seven functword=1 pos=cardinalNumerals
+seventeen functword=1 pos=cardinalNumerals
+six functword=1 pos=cardinalNumerals
+sixteen functword=1 pos=cardinalNumerals
+ten functword=1 pos=cardinalNumerals
+thirteen functword=1 pos=cardinalNumerals
+thousand functword=1 pos=cardinalNumerals
+thousands functword=1 pos=cardinalNumerals
+three functword=1 pos=cardinalNumerals
+twelve functword=1 pos=cardinalNumerals
+twenty functword=1 pos=cardinalNumerals
+two functword=1 pos=cardinalNumerals
+
+### Ordinal Numerals
+#--------------------------------------
+eighteenth functword=1 pos=ordinalNumerals
+eighth functword=1 pos=ordinalNumerals
+eleventh functword=1 pos=ordinalNumerals
+fifteenth functword=1 pos=ordinalNumerals
+fifth functword=1 pos=ordinalNumerals
+first functword=1 pos=ordinalNumerals
+fourteenth functword=1 pos=ordinalNumerals
+fourth functword=1 pos=ordinalNumerals
+nineteenth functword=1 pos=ordinalNumerals
+ninth functword=1 pos=ordinalNumerals
+second functword=1 pos=ordinalNumerals
+seventeenth functword=1 pos=ordinalNumerals
+seventh functword=1 pos=ordinalNumerals
+sixteenth functword=1 pos=ordinalNumerals
+sixth functword=1 pos=ordinalNumerals
+tenth functword=1 pos=ordinalNumerals
+third functword=1 pos=ordinalNumerals
+thirteenth functword=1 pos=ordinalNumerals
+twelfth functword=1 pos=ordinalNumerals
+twentieth functword=1 pos=ordinalNumerals
+
+### Personal Pronouns Nominative
+#--------------------------------------
+he functword=1 pos=personalPronounsNominative
+i functword=1 pos=personalPronounsNominative
+it functword=1 pos=personalPronounsNominative
+she functword=1 pos=personalPronounsNominative
+they functword=1 pos=personalPronounsNominative
+we functword=1 pos=personalPronounsNominative
+you functword=1 pos=personalPronounsNominative
+
+### Personal Pronouns Accusative
+#--------------------------------------
+him functword=1 pos=personalPronounsAccusative
+me functword=1 pos=personalPronounsAccusative
+them functword=1 pos=personalPronounsAccusative
+us functword=1 pos=personalPronounsAccusative
+
+### Demonstrative Pronouns
+#--------------------------------------
+that functword=1 pos=demonstrativePronouns
+these functword=1 pos=demonstrativePronouns
+this functword=1 pos=demonstrativePronouns
+those functword=1 pos=demonstrativePronouns
+
+### Possessive Pronouns
+#--------------------------------------
+her functword=1 pos=possessivePronouns
+hers functword=1 pos=possessivePronouns
+his functword=1 pos=possessivePronouns
+its functword=1 pos=possessivePronouns
+mine functword=1 pos=possessivePronouns
+my functword=1 pos=possessivePronouns
+our functword=1 pos=possessivePronouns
+ours functword=1 pos=possessivePronouns
+their functword=1 pos=possessivePronouns
+theirs functword=1 pos=possessivePronouns
+your functword=1 pos=possessivePronouns
+yours functword=1 pos=possessivePronouns
+
+### Quantifiers
+#--------------------------------------
+all functword=1 pos=quantifiers
+bit functword=1 pos=quantifiers
+enough functword=1 pos=quantifiers
+every functword=1 pos=quantifiers
+few functword=1 pos=quantifiers
+fewer functword=1 pos=quantifiers
+kind functword=1 pos=quantifiers
+kinds functword=1 pos=quantifiers
+little functword=1 pos=quantifiers
+lot functword=1 pos=quantifiers
+lots functword=1 pos=quantifiers
+many functword=1 pos=quantifiers
+more functword=1 pos=quantifiers
+most functword=1 pos=quantifiers
+much functword=1 pos=quantifiers
+no functword=1 pos=quantifiers
+plenty functword=1 pos=quantifiers
+several functword=1 pos=quantifiers
+some functword=1 pos=quantifiers
+ton functword=1 pos=quantifiers
+tons functword=1 pos=quantifiers
+
+### Reflexive Pronouns
+#--------------------------------------
+herself functword=1 pos=reflexivePronouns
+himself functword=1 pos=reflexivePronouns
+itself functword=1 pos=reflexivePronouns
+myself functword=1 pos=reflexivePronouns
+oneself functword=1 pos=reflexivePronouns
+ourselves functword=1 pos=reflexivePronouns
+themselves functword=1 pos=reflexivePronouns
+yourself functword=1 pos=reflexivePronouns
+yourselves functword=1 pos=reflexivePronouns
+
+### Indefinite Pronouns
+#--------------------------------------
+any functword=1 pos=indefinitePronouns
+anybody functword=1 pos=indefinitePronouns
+anyone functword=1 pos=indefinitePronouns
+anything functword=1 pos=indefinitePronouns
+both functword=1 pos=indefinitePronouns
+each functword=1 pos=indefinitePronouns
+either functword=1 pos=indefinitePronouns
+everybody functword=1 pos=indefinitePronouns
+everyone functword=1 pos=indefinitePronouns
+everything functword=1 pos=indefinitePronouns
+neither functword=1 pos=indefinitePronouns
+nobody functword=1 pos=indefinitePronouns
+none functword=1 pos=indefinitePronouns
+nothing functword=1 pos=indefinitePronouns
+other functword=1 pos=indefinitePronouns
+others functword=1 pos=indefinitePronouns
+somebody functword=1 pos=indefinitePronouns
+someone functword=1 pos=indefinitePronouns
+something functword=1 pos=indefinitePronouns
+such functword=1 pos=indefinitePronouns
+whatever functword=1 pos=indefinitePronouns
+whichever functword=1 pos=indefinitePronouns
+whoever functword=1 pos=indefinitePronouns
+whomever functword=1 pos=indefinitePronouns
+whomsoever functword=1 pos=indefinitePronouns
+whosoever functword=1 pos=indefinitePronouns
+
+### Indefinite Pronouns Possessive
+#--------------------------------------
+another \' s functword=1 pos=indefinitePronounsPossessive
+anybody \' s functword=1 pos=indefinitePronounsPossessive
+anyone \' s functword=1 pos=indefinitePronounsPossessive
+anything \' s functword=1 pos=indefinitePronounsPossessive
+either \' s functword=1 pos=indefinitePronounsPossessive
+everybody \' s functword=1 pos=indefinitePronounsPossessive
+everyone \' s functword=1 pos=indefinitePronounsPossessive
+everything \' s functword=1 pos=indefinitePronounsPossessive
+neither \' s functword=1 pos=indefinitePronounsPossessive
+nobody \' s functword=1 pos=indefinitePronounsPossessive
+nothing \' s functword=1 pos=indefinitePronounsPossessive
+one \' s functword=1 pos=indefinitePronounsPossessive
+other \' s functword=1 pos=indefinitePronounsPossessive
+others \'  functword=1 pos=indefinitePronounsPossessive
+somebody \' s functword=1 pos=indefinitePronounsPossessive
+someone \' s functword=1 pos=indefinitePronounsPossessive
+something \' s functword=1 pos=indefinitePronounsPossessive
+whoever \' s functword=1 pos=indefinitePronounsPossessive
+
+### Interrogative Determiners
+#--------------------------------------
+what functword=1 pos=interrogativeDeterminers
+which functword=1 pos=interrogativeDeterminers
+whose functword=1 pos=interrogativeDeterminers
+
+### Interrogative Pronouns
+#--------------------------------------
+who functword=1 pos=interrogativePronouns
+whom functword=1 pos=interrogativePronouns
+
+### Interrogative Pro Adverbs
+#--------------------------------------
+how functword=1 pos=interrogativeProAdverbs
+howso functword=1 pos=interrogativeProAdverbs
+howsoever functword=1 pos=interrogativeProAdverbs
+whatso functword=1 pos=interrogativeProAdverbs
+whatsoever functword=1 pos=interrogativeProAdverbs
+whenso functword=1 pos=interrogativeProAdverbs
+whensoever functword=1 pos=interrogativeProAdverbs
+where functword=1 pos=interrogativeProAdverbs
+whereso functword=1 pos=interrogativeProAdverbs
+wheresoever functword=1 pos=interrogativeProAdverbs
+wherever functword=1 pos=interrogativeProAdverbs
+whether functword=1 pos=interrogativeProAdverbs
+whomso functword=1 pos=interrogativeProAdverbs
+whoso functword=1 pos=interrogativeProAdverbs
+why functword=1 pos=interrogativeProAdverbs
+whyever functword=1 pos=interrogativeProAdverbs
+whyso functword=1 pos=interrogativeProAdverbs
+whysoever functword=1 pos=interrogativeProAdverbs
+
+### Pronominal Adverbs
+#--------------------------------------
+hereby functword=1 pos=pronominalAdverbs
+hereto functword=1 pos=pronominalAdverbs
+herewith functword=1 pos=pronominalAdverbs
+thereby functword=1 pos=pronominalAdverbs
+therefor functword=1 pos=pronominalAdverbs
+therein functword=1 pos=pronominalAdverbs
+therewith functword=1 pos=pronominalAdverbs
+wherein functword=1 pos=pronominalAdverbs
+wherewith functword=1 pos=pronominalAdverbs
+
+### Locative Adverbs
+#--------------------------------------
+here functword=1 pos=locativeAdverbs
+hither functword=1 pos=locativeAdverbs
+thence functword=1 pos=locativeAdverbs
+there functword=1 pos=locativeAdverbs
+thither functword=1 pos=locativeAdverbs
+whence functword=1 pos=locativeAdverbs
+whither functword=1 pos=locativeAdverbs
+
+### Adverbial Genitives
+#--------------------------------------
+always functword=1 pos=adverbialGenitives
+once functword=1 pos=adverbialGenitives
+thrice functword=1 pos=adverbialGenitives
+twice functword=1 pos=adverbialGenitives
+
+### Other Auxiliaries
+#--------------------------------------
+can functword=1 pos=otherAuxiliaries
+can \' t functword=1 pos=otherAuxiliaries
+cannot functword=1 pos=otherAuxiliaries
+could functword=1 pos=otherAuxiliaries
+could \' ve functword=1 pos=otherAuxiliaries
+couldn \' t functword=1 pos=otherAuxiliaries
+dare functword=1 pos=otherAuxiliaries
+dared functword=1 pos=otherAuxiliaries
+dares functword=1 pos=otherAuxiliaries
+did functword=1 pos=otherAuxiliaries
+didn \' t functword=1 pos=otherAuxiliaries
+do functword=1 pos=otherAuxiliaries
+does functword=1 pos=otherAuxiliaries
+doesn \' t functword=1 pos=otherAuxiliaries
+don \' t functword=1 pos=otherAuxiliaries
+done functword=1 pos=otherAuxiliaries
+had functword=1 pos=otherAuxiliaries
+hadn \' t functword=1 pos=otherAuxiliaries
+has functword=1 pos=otherAuxiliaries
+hasn \' t functword=1 pos=otherAuxiliaries
+have functword=1 pos=otherAuxiliaries
+haven \' t functword=1 pos=otherAuxiliaries
+he \' d functword=1 pos=otherAuxiliaries
+he \' ll functword=1 pos=otherAuxiliaries
+here \' re functword=1 pos=otherAuxiliaries
+here \' s functword=1 pos=otherAuxiliaries
+i \' d functword=1 pos=otherAuxiliaries
+i \' ll functword=1 pos=otherAuxiliaries
+i \' ve functword=1 pos=otherAuxiliaries
+it \' d functword=1 pos=otherAuxiliaries
+it \' ll functword=1 pos=otherAuxiliaries
+may functword=1 pos=otherAuxiliaries
+might functword=1 pos=otherAuxiliaries
+must functword=1 pos=otherAuxiliaries
+need functword=1 pos=otherAuxiliaries
+needn \' t functword=1 pos=otherAuxiliaries
+needs functword=1 pos=otherAuxiliaries
+ought functword=1 pos=otherAuxiliaries
+shall functword=1 pos=otherAuxiliaries
+shalln \' t functword=1 pos=otherAuxiliaries
+shan \' t functword=1 pos=otherAuxiliaries
+she \' d functword=1 pos=otherAuxiliaries
+she \' ll functword=1 pos=otherAuxiliaries
+should functword=1 pos=otherAuxiliaries
+shouldn \' t functword=1 pos=otherAuxiliaries
+there \' ll functword=1 pos=otherAuxiliaries
+there \' ll functword=1 pos=otherAuxiliaries
+there \' re functword=1 pos=otherAuxiliaries
+there \' s functword=1 pos=otherAuxiliaries
+they \' d functword=1 pos=otherAuxiliaries
+they \' ll functword=1 pos=otherAuxiliaries
+they \' ve functword=1 pos=otherAuxiliaries
+we \' d functword=1 pos=otherAuxiliaries
+we \' ll functword=1 pos=otherAuxiliaries
+we \' ve functword=1 pos=otherAuxiliaries
+will functword=1 pos=otherAuxiliaries
+won \' t functword=1 pos=otherAuxiliaries
+would functword=1 pos=otherAuxiliaries
+would \' ve functword=1 pos=otherAuxiliaries
+wouldn \' t functword=1 pos=otherAuxiliaries
+you \' d functword=1 pos=otherAuxiliaries
+you \' ll functword=1 pos=otherAuxiliaries
+you \' ve functword=1 pos=otherAuxiliaries
+
+### Copula
+#--------------------------------------
+appear functword=1 pos=copula
+appeared functword=1 pos=copula
+appears functword=1 pos=copula
+became functword=1 pos=copula
+become functword=1 pos=copula
+becomes functword=1 pos=copula
+came functword=1 pos=copula
+come functword=1 pos=copula
+comes functword=1 pos=copula
+keep functword=1 pos=copula
+keeps functword=1 pos=copula
+kept functword=1 pos=copula
+remain functword=1 pos=copula
+remained functword=1 pos=copula
+remains functword=1 pos=copula
+stay functword=1 pos=copula
+stayed functword=1 pos=copula
+stays functword=1 pos=copula
+turn functword=1 pos=copula
+turned functword=1 pos=copula
+turns functword=1 pos=copula
+
+### Continuous Verbs
+# These verbs should only be included at the beginning of combinations.
+#--------------------------------------
+adding functword=1 pos=continuousVerbs
+appearing functword=1 pos=continuousVerbs
+asking functword=1 pos=continuousVerbs
+becoming functword=1 pos=continuousVerbs
+coming functword=1 pos=continuousVerbs
+containing functword=1 pos=continuousVerbs
+daring functword=1 pos=continuousVerbs
+doing functword=1 pos=continuousVerbs
+going functword=1 pos=continuousVerbs
+having functword=1 pos=continuousVerbs
+keeping functword=1 pos=continuousVerbs
+letting functword=1 pos=continuousVerbs
+making functword=1 pos=continuousVerbs
+putting functword=1 pos=continuousVerbs
+remaining functword=1 pos=continuousVerbs
+saying functword=1 pos=continuousVerbs
+seeming functword=1 pos=continuousVerbs
+setting functword=1 pos=continuousVerbs
+showing functword=1 pos=continuousVerbs
+stating functword=1 pos=continuousVerbs
+staying functword=1 pos=continuousVerbs
+trying functword=1 pos=continuousVerbs
+using functword=1 pos=continuousVerbs
+
+### Prepositions
+#--------------------------------------
+ablow functword=1 pos=prepositions
+aboard functword=1 pos=prepositions
+about functword=1 pos=prepositions
+above functword=1 pos=prepositions
+abreast functword=1 pos=prepositions
+absent functword=1 pos=prepositions
+across functword=1 pos=prepositions
+adjacent functword=1 pos=prepositions
+afore functword=1 pos=prepositions
+after functword=1 pos=prepositions
+against functword=1 pos=prepositions
+ago functword=1 pos=prepositions
+ahind functword=1 pos=prepositions
+along functword=1 pos=prepositions
+alongside functword=1 pos=prepositions
+amid functword=1 pos=prepositions
+amidst functword=1 pos=prepositions
+among functword=1 pos=prepositions
+amongst functword=1 pos=prepositions
+anear functword=1 pos=prepositions
+apart functword=1 pos=prepositions
+apropos functword=1 pos=prepositions
+apud functword=1 pos=prepositions
+around functword=1 pos=prepositions
+as functword=1 pos=prepositions
+aside functword=1 pos=prepositions
+aslant functword=1 pos=prepositions
+astride functword=1 pos=prepositions
+at functword=1 pos=prepositions
+atop functword=1 pos=prepositions
+atween functword=1 pos=prepositions
+away functword=1 pos=prepositions
+ayond functword=1 pos=prepositions
+behind functword=1 pos=prepositions
+below functword=1 pos=prepositions
+beneath functword=1 pos=prepositions
+beside functword=1 pos=prepositions
+between functword=1 pos=prepositions
+beyond functword=1 pos=prepositions
+by functword=1 pos=prepositions
+chez functword=1 pos=prepositions
+circa functword=1 pos=prepositions
+down functword=1 pos=prepositions
+except functword=1 pos=prepositions
+for functword=1 pos=prepositions
+from functword=1 pos=prepositions
+in functword=1 pos=prepositions
+into functword=1 pos=prepositions
+less functword=1 pos=prepositions
+like functword=1 pos=prepositions
+mid functword=1 pos=prepositions
+midst functword=1 pos=prepositions
+minus functword=1 pos=prepositions
+near functword=1 pos=prepositions
+nearer functword=1 pos=prepositions
+nearest functword=1 pos=prepositions
+neath functword=1 pos=prepositions
+notwithstanding functword=1 pos=prepositions
+of functword=1 pos=prepositions
+off functword=1 pos=prepositions
+on functword=1 pos=prepositions
+onto functword=1 pos=prepositions
+ontop functword=1 pos=prepositions
+opposite functword=1 pos=prepositions
+out functword=1 pos=prepositions
+outen functword=1 pos=prepositions
+over functword=1 pos=prepositions
+past functword=1 pos=prepositions
+per functword=1 pos=prepositions
+pre functword=1 pos=prepositions
+qua functword=1 pos=prepositions
+sans functword=1 pos=prepositions
+sauf functword=1 pos=prepositions
+sithence functword=1 pos=prepositions
+spite functword=1 pos=prepositions
+through functword=1 pos=prepositions
+throughout functword=1 pos=prepositions
+thru functword=1 pos=prepositions
+to functword=1 pos=prepositions
+tofore functword=1 pos=prepositions
+toward functword=1 pos=prepositions
+towards functword=1 pos=prepositions
+truout functword=1 pos=prepositions
+under functword=1 pos=prepositions
+underneath functword=1 pos=prepositions
+up functword=1 pos=prepositions
+upon functword=1 pos=prepositions
+upside functword=1 pos=prepositions
+versus functword=1 pos=prepositions
+via functword=1 pos=prepositions
+vis \- à \- vis functword=1 pos=prepositions
+whilst functword=1 pos=prepositions
+with functword=1 pos=prepositions
+withal functword=1 pos=prepositions
+without functword=1 pos=prepositions
+
+### Prepositional Adverbs
+# Many prepositional adverbs are already listed as preposition.
+#--------------------------------------
+ahead functword=1 pos=prepositionalAdverbs
+back functword=1 pos=prepositionalAdverbs
+backward functword=1 pos=prepositionalAdverbs
+forward functword=1 pos=prepositionalAdverbs
+within functword=1 pos=prepositionalAdverbs
+
+### Coordinating Conjunctions
+#--------------------------------------
+and functword=1 pos=coordinatingConjunctions
+and/or functword=1 pos=coordinatingConjunctions
+or functword=1 pos=coordinatingConjunctions
+yet functword=1 pos=coordinatingConjunctions
+
+### Correlative Conjunctions
+# 'sooner' is part of 'no sooner...than', 'just' is part of 'just as...so',
+# 'Only' is part of 'not only...but also'.
+#--------------------------------------
+just functword=1 pos=correlativeConjunctions
+only functword=1 pos=correlativeConjunctions
+sooner functword=1 pos=correlativeConjunctions
+
+### Subordinating Conjunctions
+#--------------------------------------
+even functword=1 pos=subordinatingConjunctions
+if functword=1 pos=subordinatingConjunctions
+
+### Interview Verbs
+# These verbs are frequently used in interviews to indicate questions and answers.
+# 'Claim','claims', 'state' and 'states' are not included, because these words are also nouns.
+#--------------------------------------
+announced functword=1 pos=interviewVerbs
+announces functword=1 pos=interviewVerbs
+ask functword=1 pos=interviewVerbs
+asked functword=1 pos=interviewVerbs
+asks functword=1 pos=interviewVerbs
+claimed functword=1 pos=interviewVerbs
+discussed functword=1 pos=interviewVerbs
+discusses functword=1 pos=interviewVerbs
+explain functword=1 pos=interviewVerbs
+explained functword=1 pos=interviewVerbs
+explains functword=1 pos=interviewVerbs
+said functword=1 pos=interviewVerbs
+say functword=1 pos=interviewVerbs
+says functword=1 pos=interviewVerbs
+stated functword=1 pos=interviewVerbs
+suggested functword=1 pos=interviewVerbs
+suggests functword=1 pos=interviewVerbs
+talked functword=1 pos=interviewVerbs
+talks functword=1 pos=interviewVerbs
+tells functword=1 pos=interviewVerbs
+think functword=1 pos=interviewVerbs
+thinks functword=1 pos=interviewVerbs
+told functword=1 pos=interviewVerbs
+understands functword=1 pos=interviewVerbs
+understood functword=1 pos=interviewVerbs
+
+### Additional Transition Words
+# These transition words were not included in the list for the transition word assessment for various reasons.
+#--------------------------------------
+actually functword=1 pos=additionalTransitionWords
+again functword=1 pos=additionalTransitionWords
+almost functword=1 pos=additionalTransitionWords
+already functword=1 pos=additionalTransitionWords
+apparently functword=1 pos=additionalTransitionWords
+clearly functword=1 pos=additionalTransitionWords
+currently functword=1 pos=additionalTransitionWords
+definitely functword=1 pos=additionalTransitionWords
+e.g functword=1 pos=additionalTransitionWords
+else functword=1 pos=additionalTransitionWords
+elsewhere functword=1 pos=additionalTransitionWords
+eternally functword=1 pos=additionalTransitionWords
+ever functword=1 pos=additionalTransitionWords
+expressively functword=1 pos=additionalTransitionWords
+expressly functword=1 pos=additionalTransitionWords
+f.i functword=1 pos=additionalTransitionWords
+granted functword=1 pos=additionalTransitionWords
+i.e functword=1 pos=additionalTransitionWords
+immediately functword=1 pos=additionalTransitionWords
+inasmuch functword=1 pos=additionalTransitionWords
+incidentally functword=1 pos=additionalTransitionWords
+including functword=1 pos=additionalTransitionWords
+initially functword=1 pos=additionalTransitionWords
+instantly functword=1 pos=additionalTransitionWords
+instead functword=1 pos=additionalTransitionWords
+likely functword=1 pos=additionalTransitionWords
+maybe functword=1 pos=additionalTransitionWords
+namely functword=1 pos=additionalTransitionWords
+naturally functword=1 pos=additionalTransitionWords
+never functword=1 pos=additionalTransitionWords
+next functword=1 pos=additionalTransitionWords
+notably functword=1 pos=additionalTransitionWords
+now functword=1 pos=additionalTransitionWords
+nowadays functword=1 pos=additionalTransitionWords
+often functword=1 pos=additionalTransitionWords
+optionally functword=1 pos=additionalTransitionWords
+ordinarily functword=1 pos=additionalTransitionWords
+particular functword=1 pos=additionalTransitionWords
+perhaps functword=1 pos=additionalTransitionWords
+positively functword=1 pos=additionalTransitionWords
+probably functword=1 pos=additionalTransitionWords
+provided functword=1 pos=additionalTransitionWords
+recently functword=1 pos=additionalTransitionWords
+regularly functword=1 pos=additionalTransitionWords
+relatively functword=1 pos=additionalTransitionWords
+simply functword=1 pos=additionalTransitionWords
+sometimes functword=1 pos=additionalTransitionWords
+too functword=1 pos=additionalTransitionWords
+truly functword=1 pos=additionalTransitionWords
+ultimately functword=1 pos=additionalTransitionWords
+uniquely functword=1 pos=additionalTransitionWords
+usually functword=1 pos=additionalTransitionWords
+
+### Intensifiers
+#--------------------------------------
+absolutely functword=1 pos=intensifiers
+amazingly functword=1 pos=intensifiers
+completely functword=1 pos=intensifiers
+extremely functword=1 pos=intensifiers
+fairly functword=1 pos=intensifiers
+fully functword=1 pos=intensifiers
+highly functword=1 pos=intensifiers
+quite functword=1 pos=intensifiers
+really functword=1 pos=intensifiers
+seriously functword=1 pos=intensifiers
+somewhat functword=1 pos=intensifiers
+totally functword=1 pos=intensifiers
+utterly functword=1 pos=intensifiers
+very functword=1 pos=intensifiers
+
+### Delexicalized Verbs
+#--------------------------------------
+add functword=1 pos=delexicalizedVerbs
+added functword=1 pos=delexicalizedVerbs
+adds functword=1 pos=delexicalizedVerbs
+based functword=1 pos=delexicalizedVerbs
+called functword=1 pos=delexicalizedVerbs
+consist functword=1 pos=delexicalizedVerbs
+consisted functword=1 pos=delexicalizedVerbs
+consists functword=1 pos=delexicalizedVerbs
+contain functword=1 pos=delexicalizedVerbs
+contained functword=1 pos=delexicalizedVerbs
+contains functword=1 pos=delexicalizedVerbs
+ensure functword=1 pos=delexicalizedVerbs
+ensured functword=1 pos=delexicalizedVerbs
+ensures functword=1 pos=delexicalizedVerbs
+go functword=1 pos=delexicalizedVerbs
+goes functword=1 pos=delexicalizedVerbs
+gone functword=1 pos=delexicalizedVerbs
+let functword=1 pos=delexicalizedVerbs
+let \' s functword=1 pos=delexicalizedVerbs
+lets functword=1 pos=delexicalizedVerbs
+made functword=1 pos=delexicalizedVerbs
+make functword=1 pos=delexicalizedVerbs
+makes functword=1 pos=delexicalizedVerbs
+mean functword=1 pos=delexicalizedVerbs
+means functword=1 pos=delexicalizedVerbs
+meant functword=1 pos=delexicalizedVerbs
+put functword=1 pos=delexicalizedVerbs
+puts functword=1 pos=delexicalizedVerbs
+seem functword=1 pos=delexicalizedVerbs
+seemed functword=1 pos=delexicalizedVerbs
+seems functword=1 pos=delexicalizedVerbs
+showed functword=1 pos=delexicalizedVerbs
+shown functword=1 pos=delexicalizedVerbs
+take functword=1 pos=delexicalizedVerbs
+taken functword=1 pos=delexicalizedVerbs
+takes functword=1 pos=delexicalizedVerbs
+took functword=1 pos=delexicalizedVerbs
+tried functword=1 pos=delexicalizedVerbs
+tries functword=1 pos=delexicalizedVerbs
+try functword=1 pos=delexicalizedVerbs
+use functword=1 pos=delexicalizedVerbs
+used functword=1 pos=delexicalizedVerbs
+want functword=1 pos=delexicalizedVerbs
+went functword=1 pos=delexicalizedVerbs
+
+### General Adjectives Adverbs
+#--------------------------------------
+able functword=1 pos=generalAdjectivesAdverbs
+actual functword=1 pos=generalAdjectivesAdverbs
+anymore functword=1 pos=generalAdjectivesAdverbs
+available functword=1 pos=generalAdjectivesAdverbs
+average functword=1 pos=generalAdjectivesAdverbs
+awesome functword=1 pos=generalAdjectivesAdverbs
+awful functword=1 pos=generalAdjectivesAdverbs
+bad functword=1 pos=generalAdjectivesAdverbs
+basic functword=1 pos=generalAdjectivesAdverbs
+beautiful functword=1 pos=generalAdjectivesAdverbs
+best functword=1 pos=generalAdjectivesAdverbs
+better functword=1 pos=generalAdjectivesAdverbs
+big functword=1 pos=generalAdjectivesAdverbs
+bigger functword=1 pos=generalAdjectivesAdverbs
+biggest functword=1 pos=generalAdjectivesAdverbs
+busy functword=1 pos=generalAdjectivesAdverbs
+certain functword=1 pos=generalAdjectivesAdverbs
+commonly functword=1 pos=generalAdjectivesAdverbs
+complete functword=1 pos=generalAdjectivesAdverbs
+constantly functword=1 pos=generalAdjectivesAdverbs
+continually functword=1 pos=generalAdjectivesAdverbs
+current functword=1 pos=generalAdjectivesAdverbs
+different functword=1 pos=generalAdjectivesAdverbs
+directly functword=1 pos=generalAdjectivesAdverbs
+earlier functword=1 pos=generalAdjectivesAdverbs
+earliest functword=1 pos=generalAdjectivesAdverbs
+early functword=1 pos=generalAdjectivesAdverbs
+easier functword=1 pos=generalAdjectivesAdverbs
+easiest functword=1 pos=generalAdjectivesAdverbs
+easily functword=1 pos=generalAdjectivesAdverbs
+easy functword=1 pos=generalAdjectivesAdverbs
+entire functword=1 pos=generalAdjectivesAdverbs
+estimated functword=1 pos=generalAdjectivesAdverbs
+everywhere functword=1 pos=generalAdjectivesAdverbs
+far functword=1 pos=generalAdjectivesAdverbs
+fast functword=1 pos=generalAdjectivesAdverbs
+faster functword=1 pos=generalAdjectivesAdverbs
+fastest functword=1 pos=generalAdjectivesAdverbs
+good functword=1 pos=generalAdjectivesAdverbs
+great functword=1 pos=generalAdjectivesAdverbs
+hard functword=1 pos=generalAdjectivesAdverbs
+harder functword=1 pos=generalAdjectivesAdverbs
+hardest functword=1 pos=generalAdjectivesAdverbs
+high functword=1 pos=generalAdjectivesAdverbs
+higher functword=1 pos=generalAdjectivesAdverbs
+highest functword=1 pos=generalAdjectivesAdverbs
+important functword=1 pos=generalAdjectivesAdverbs
+large functword=1 pos=generalAdjectivesAdverbs
+larger functword=1 pos=generalAdjectivesAdverbs
+largest functword=1 pos=generalAdjectivesAdverbs
+last functword=1 pos=generalAdjectivesAdverbs
+lately functword=1 pos=generalAdjectivesAdverbs
+latest functword=1 pos=generalAdjectivesAdverbs
+least functword=1 pos=generalAdjectivesAdverbs
+long functword=1 pos=generalAdjectivesAdverbs
+longer functword=1 pos=generalAdjectivesAdverbs
+longest functword=1 pos=generalAdjectivesAdverbs
+low functword=1 pos=generalAdjectivesAdverbs
+lower functword=1 pos=generalAdjectivesAdverbs
+lowest functword=1 pos=generalAdjectivesAdverbs
+main functword=1 pos=generalAdjectivesAdverbs
+mainly functword=1 pos=generalAdjectivesAdverbs
+major functword=1 pos=generalAdjectivesAdverbs
+mostly functword=1 pos=generalAdjectivesAdverbs
+multiple functword=1 pos=generalAdjectivesAdverbs
+nearly functword=1 pos=generalAdjectivesAdverbs
+necessary functword=1 pos=generalAdjectivesAdverbs
+new functword=1 pos=generalAdjectivesAdverbs
+newer functword=1 pos=generalAdjectivesAdverbs
+newest functword=1 pos=generalAdjectivesAdverbs
+nice functword=1 pos=generalAdjectivesAdverbs
+nicer functword=1 pos=generalAdjectivesAdverbs
+nicest functword=1 pos=generalAdjectivesAdverbs
+normal functword=1 pos=generalAdjectivesAdverbs
+obvious functword=1 pos=generalAdjectivesAdverbs
+old functword=1 pos=generalAdjectivesAdverbs
+older functword=1 pos=generalAdjectivesAdverbs
+oldest functword=1 pos=generalAdjectivesAdverbs
+own functword=1 pos=generalAdjectivesAdverbs
+partly functword=1 pos=generalAdjectivesAdverbs
+possible functword=1 pos=generalAdjectivesAdverbs
+previous functword=1 pos=generalAdjectivesAdverbs
+real functword=1 pos=generalAdjectivesAdverbs
+recent functword=1 pos=generalAdjectivesAdverbs
+regular functword=1 pos=generalAdjectivesAdverbs
+same functword=1 pos=generalAdjectivesAdverbs
+short functword=1 pos=generalAdjectivesAdverbs
+shorter functword=1 pos=generalAdjectivesAdverbs
+shortest functword=1 pos=generalAdjectivesAdverbs
+similar functword=1 pos=generalAdjectivesAdverbs
+simple functword=1 pos=generalAdjectivesAdverbs
+simpler functword=1 pos=generalAdjectivesAdverbs
+simplest functword=1 pos=generalAdjectivesAdverbs
+slightly functword=1 pos=generalAdjectivesAdverbs
+small functword=1 pos=generalAdjectivesAdverbs
+smaller functword=1 pos=generalAdjectivesAdverbs
+smallest functword=1 pos=generalAdjectivesAdverbs
+so \- called functword=1 pos=generalAdjectivesAdverbs
+somewhere functword=1 pos=generalAdjectivesAdverbs
+special functword=1 pos=generalAdjectivesAdverbs
+specific functword=1 pos=generalAdjectivesAdverbs
+tinier functword=1 pos=generalAdjectivesAdverbs
+tiniest functword=1 pos=generalAdjectivesAdverbs
+tiny functword=1 pos=generalAdjectivesAdverbs
+usual functword=1 pos=generalAdjectivesAdverbs
+well functword=1 pos=generalAdjectivesAdverbs
+widely functword=1 pos=generalAdjectivesAdverbs
+worse functword=1 pos=generalAdjectivesAdverbs
+worst functword=1 pos=generalAdjectivesAdverbs
+young functword=1 pos=generalAdjectivesAdverbs
+younger functword=1 pos=generalAdjectivesAdverbs
+youngest functword=1 pos=generalAdjectivesAdverbs
+
+### Interjections
+#--------------------------------------
+aha functword=1 pos=interjections
+oh functword=1 pos=interjections
+oops functword=1 pos=interjections
+ouch functword=1 pos=interjections
+phew functword=1 pos=interjections
+shh functword=1 pos=interjections
+tsk \- tsk functword=1 pos=interjections
+tut \- tut functword=1 pos=interjections
+ugh functword=1 pos=interjections
+whew functword=1 pos=interjections
+wow functword=1 pos=interjections
+yea functword=1 pos=interjections
+yeah functword=1 pos=interjections
+yikes functword=1 pos=interjections
+
+### Recipe Words
+# These words and abbreviations are frequently used in recipes in lists of ingredients.
+#--------------------------------------
+bu functword=1 pos=recipeWords
+cl functword=1 pos=recipeWords
+dl functword=1 pos=recipeWords
+doz functword=1 pos=recipeWords
+f.g functword=1 pos=recipeWords
+g functword=1 pos=recipeWords
+hr functword=1 pos=recipeWords
+kg functword=1 pos=recipeWords
+l functword=1 pos=recipeWords
+lb functword=1 pos=recipeWords
+mg functword=1 pos=recipeWords
+ml functword=1 pos=recipeWords
+mod functword=1 pos=recipeWords
+oz functword=1 pos=recipeWords
+pk functword=1 pos=recipeWords
+pt functword=1 pos=recipeWords
+qt functword=1 pos=recipeWords
+quart functword=1 pos=recipeWords
+spk functword=1 pos=recipeWords
+tbs functword=1 pos=recipeWords
+tbsp functword=1 pos=recipeWords
+
+### Time Words
+#--------------------------------------
+day functword=1 pos=timeWords
+days functword=1 pos=timeWords
+hour functword=1 pos=timeWords
+hours functword=1 pos=timeWords
+minute functword=1 pos=timeWords
+minutes functword=1 pos=timeWords
+month functword=1 pos=timeWords
+months functword=1 pos=timeWords
+seconds functword=1 pos=timeWords
+today functword=1 pos=timeWords
+tomorrow functword=1 pos=timeWords
+week functword=1 pos=timeWords
+weeks functword=1 pos=timeWords
+year functword=1 pos=timeWords
+years functword=1 pos=timeWords
+yesterday functword=1 pos=timeWords
+
+### Vague Nouns
+# 'People' should only be removed in combination with 'some', 'many' and 'few' (and is therefore not yet included in the list below).
+#--------------------------------------
+aspect functword=1 pos=vagueNouns
+aspects functword=1 pos=vagueNouns
+case functword=1 pos=vagueNouns
+detail functword=1 pos=vagueNouns
+details functword=1 pos=vagueNouns
+difference functword=1 pos=vagueNouns
+differences functword=1 pos=vagueNouns
+factor functword=1 pos=vagueNouns
+factors functword=1 pos=vagueNouns
+idea functword=1 pos=vagueNouns
+instance functword=1 pos=vagueNouns
+instance functword=1 pos=vagueNouns
+instances functword=1 pos=vagueNouns
+instances functword=1 pos=vagueNouns
+item functword=1 pos=vagueNouns
+items functword=1 pos=vagueNouns
+likelihood functword=1 pos=vagueNouns
+matter functword=1 pos=vagueNouns
+ones functword=1 pos=vagueNouns
+part functword=1 pos=vagueNouns
+parts functword=1 pos=vagueNouns
+percent functword=1 pos=vagueNouns
+person functword=1 pos=vagueNouns
+piece functword=1 pos=vagueNouns
+pieces functword=1 pos=vagueNouns
+stuff functword=1 pos=vagueNouns
+theme functword=1 pos=vagueNouns
+thing functword=1 pos=vagueNouns
+things functword=1 pos=vagueNouns
+times functword=1 pos=vagueNouns
+way functword=1 pos=vagueNouns
+ways functword=1 pos=vagueNouns
+
+### Miscellaneous
+# 'No' is already included in the quantifier list.
+#--------------------------------------
+aka functword=1 pos=miscellaneous
+amen functword=1 pos=miscellaneous
+bottom functword=1 pos=miscellaneous
+etc functword=1 pos=miscellaneous
+etcetera functword=1 pos=miscellaneous
+not functword=1 pos=miscellaneous
+ok functword=1 pos=miscellaneous
+okay functword=1 pos=miscellaneous
+please functword=1 pos=miscellaneous
+sorry functword=1 pos=miscellaneous
+sure functword=1 pos=miscellaneous
+top functword=1 pos=miscellaneous
+yes functword=1 pos=miscellaneous
+
+### Titles Preceding
+#--------------------------------------
+dr functword=1 pos=titlesPreceding
+mr functword=1 pos=titlesPreceding
+mrs functword=1 pos=titlesPreceding
+ms functword=1 pos=titlesPreceding
+mss functword=1 pos=titlesPreceding
+prof functword=1 pos=titlesPreceding

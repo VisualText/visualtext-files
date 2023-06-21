@@ -1,0 +1,1036 @@
+# Dutch function words
+
+### Articles
+#--------------------------------------
+de functword=1 pos=articles
+den functword=1 pos=articles
+der functword=1 pos=articles
+des functword=1 pos=articles
+een functword=1 pos=articles
+het functword=1 pos=articles
+
+### Cardinal Numerals
+#--------------------------------------
+acht functword=1 pos=cardinalNumerals
+achttien functword=1 pos=cardinalNumerals
+biljoen functword=1 pos=cardinalNumerals
+biljoenen functword=1 pos=cardinalNumerals
+dertien functword=1 pos=cardinalNumerals
+drie functword=1 pos=cardinalNumerals
+duizend functword=1 pos=cardinalNumerals
+duizenden functword=1 pos=cardinalNumerals
+elf functword=1 pos=cardinalNumerals
+eén functword=1 pos=cardinalNumerals
+honderd functword=1 pos=cardinalNumerals
+honderden functword=1 pos=cardinalNumerals
+miljoen functword=1 pos=cardinalNumerals
+miljoenen functword=1 pos=cardinalNumerals
+negen functword=1 pos=cardinalNumerals
+negentien functword=1 pos=cardinalNumerals
+tien functword=1 pos=cardinalNumerals
+twaalf functword=1 pos=cardinalNumerals
+twee functword=1 pos=cardinalNumerals
+twintig functword=1 pos=cardinalNumerals
+veertien functword=1 pos=cardinalNumerals
+vier functword=1 pos=cardinalNumerals
+vijf functword=1 pos=cardinalNumerals
+vijftien functword=1 pos=cardinalNumerals
+zes functword=1 pos=cardinalNumerals
+zestien functword=1 pos=cardinalNumerals
+zeven functword=1 pos=cardinalNumerals
+zeventien functword=1 pos=cardinalNumerals
+één functword=1 pos=cardinalNumerals
+
+### Ordinal Numerals
+#--------------------------------------
+achtste functword=1 pos=ordinalNumerals
+achttiende functword=1 pos=ordinalNumerals
+derde functword=1 pos=ordinalNumerals
+dertiende functword=1 pos=ordinalNumerals
+eerste functword=1 pos=ordinalNumerals
+elfde functword=1 pos=ordinalNumerals
+negende functword=1 pos=ordinalNumerals
+negentiende functword=1 pos=ordinalNumerals
+tiende functword=1 pos=ordinalNumerals
+twaalfde functword=1 pos=ordinalNumerals
+tweede functword=1 pos=ordinalNumerals
+twinstigste functword=1 pos=ordinalNumerals
+veertiende functword=1 pos=ordinalNumerals
+vierde functword=1 pos=ordinalNumerals
+vijfde functword=1 pos=ordinalNumerals
+vijftiende functword=1 pos=ordinalNumerals
+zesde functword=1 pos=ordinalNumerals
+zestiende functword=1 pos=ordinalNumerals
+zevende functword=1 pos=ordinalNumerals
+zeventiende functword=1 pos=ordinalNumerals
+
+### Personal Pronouns Nominative
+# 'Het' is already included in the list of articles.
+#--------------------------------------
+ge functword=1 pos=personalPronounsNominative
+gij functword=1 pos=personalPronounsNominative
+hij functword=1 pos=personalPronounsNominative
+ik functword=1 pos=personalPronounsNominative
+je functword=1 pos=personalPronounsNominative
+jij functword=1 pos=personalPronounsNominative
+jullie functword=1 pos=personalPronounsNominative
+men functword=1 pos=personalPronounsNominative
+u functword=1 pos=personalPronounsNominative
+we functword=1 pos=personalPronounsNominative
+wij functword=1 pos=personalPronounsNominative
+ze functword=1 pos=personalPronounsNominative
+zij functword=1 pos=personalPronounsNominative
+
+### Personal Pronouns Accusative
+#--------------------------------------
+haar functword=1 pos=personalPronounsAccusative
+hem functword=1 pos=personalPronounsAccusative
+hen functword=1 pos=personalPronounsAccusative
+hun functword=1 pos=personalPronounsAccusative
+jou functword=1 pos=personalPronounsAccusative
+mij functword=1 pos=personalPronounsAccusative
+uw functword=1 pos=personalPronounsAccusative
+
+### Demonstrative Pronouns
+#--------------------------------------
+dat functword=1 pos=demonstrativePronouns
+deze functword=1 pos=demonstrativePronouns
+die functword=1 pos=demonstrativePronouns
+dit functword=1 pos=demonstrativePronouns
+zelf functword=1 pos=demonstrativePronouns
+
+### Possessive Pronouns
+# What to do with 'zijn', since it is also a verb?
+#--------------------------------------
+elkaars functword=1 pos=possessivePronouns
+elkanders functword=1 pos=possessivePronouns
+hare functword=1 pos=possessivePronouns
+hunne functword=1 pos=possessivePronouns
+jouw functword=1 pos=possessivePronouns
+jouwe functword=1 pos=possessivePronouns
+mijn functword=1 pos=possessivePronouns
+mijne functword=1 pos=possessivePronouns
+ons functword=1 pos=possessivePronouns
+onze functword=1 pos=possessivePronouns
+uwe functword=1 pos=possessivePronouns
+zijne functword=1 pos=possessivePronouns
+
+### Quantifiers
+#--------------------------------------
+alle functword=1 pos=quantifiers
+allemaal functword=1 pos=quantifiers
+allerhande functword=1 pos=quantifiers
+allerlei functword=1 pos=quantifiers
+ander functword=1 pos=quantifiers
+andere functword=1 pos=quantifiers
+beetje functword=1 pos=quantifiers
+beiderhande functword=1 pos=quantifiers
+beiderlei functword=1 pos=quantifiers
+drieërhande functword=1 pos=quantifiers
+drieërlei functword=1 pos=quantifiers
+elk functword=1 pos=quantifiers
+elke functword=1 pos=quantifiers
+enerhande functword=1 pos=quantifiers
+enerlei functword=1 pos=quantifiers
+enig functword=1 pos=quantifiers
+enige functword=1 pos=quantifiers
+enigerhande functword=1 pos=quantifiers
+enigerlei functword=1 pos=quantifiers
+enkele functword=1 pos=quantifiers
+enkelen functword=1 pos=quantifiers
+geen functword=1 pos=quantifiers
+gene functword=1 pos=quantifiers
+generhande functword=1 pos=quantifiers
+generlei functword=1 pos=quantifiers
+genoeg functword=1 pos=quantifiers
+hoeveelste functword=1 pos=quantifiers
+iedere functword=1 pos=quantifiers
+laatste functword=1 pos=quantifiers
+laatsten functword=1 pos=quantifiers
+meer functword=1 pos=quantifiers
+meest functword=1 pos=quantifiers
+meeste functword=1 pos=quantifiers
+meesten functword=1 pos=quantifiers
+menigerhande functword=1 pos=quantifiers
+menigerlei functword=1 pos=quantifiers
+paar functword=1 pos=quantifiers
+sommige functword=1 pos=quantifiers
+sommigen functword=1 pos=quantifiers
+tweeërhande functword=1 pos=quantifiers
+tweeërlei functword=1 pos=quantifiers
+veel functword=1 pos=quantifiers
+vele functword=1 pos=quantifiers
+velen functword=1 pos=quantifiers
+velerhande functword=1 pos=quantifiers
+velerlei functword=1 pos=quantifiers
+verscheidene functword=1 pos=quantifiers
+verschillende functword=1 pos=quantifiers
+voldoende functword=1 pos=quantifiers
+weinig functword=1 pos=quantifiers
+weinige functword=1 pos=quantifiers
+weinigen functword=1 pos=quantifiers
+zekere functword=1 pos=quantifiers
+zoveel functword=1 pos=quantifiers
+zoveelste functword=1 pos=quantifiers
+
+### Reflexive Pronouns
+#--------------------------------------
+haarzelf functword=1 pos=reflexivePronouns
+hemzelf functword=1 pos=reflexivePronouns
+henzelf functword=1 pos=reflexivePronouns
+hunzelf functword=1 pos=reflexivePronouns
+jezelf functword=1 pos=reflexivePronouns
+jouzelf functword=1 pos=reflexivePronouns
+julliezelf functword=1 pos=reflexivePronouns
+mezelf functword=1 pos=reflexivePronouns
+mijzelf functword=1 pos=reflexivePronouns
+onszelf functword=1 pos=reflexivePronouns
+uzelf functword=1 pos=reflexivePronouns
+zich functword=1 pos=reflexivePronouns
+zichzelf functword=1 pos=reflexivePronouns
+
+### Reciprocal Pronouns
+#--------------------------------------
+elkaar functword=1 pos=reciprocalPronouns
+elkander functword=1 pos=reciprocalPronouns
+mekaar functword=1 pos=reciprocalPronouns
+mekander functword=1 pos=reciprocalPronouns
+
+### Indefinite Pronouns
+#--------------------------------------
+alleman functword=1 pos=indefinitePronouns
+allen functword=1 pos=indefinitePronouns
+alles functword=1 pos=indefinitePronouns
+eenieder functword=1 pos=indefinitePronouns
+ieder functword=1 pos=indefinitePronouns
+iedereen functword=1 pos=indefinitePronouns
+iemand functword=1 pos=indefinitePronouns
+iets functword=1 pos=indefinitePronouns
+menigeen functword=1 pos=indefinitePronouns
+niemand functword=1 pos=indefinitePronouns
+niets functword=1 pos=indefinitePronouns
+
+### Indefinite Pronouns Possessive
+#--------------------------------------
+aller functword=1 pos=indefinitePronounsPossessive
+eenieders functword=1 pos=indefinitePronounsPossessive
+iedereens functword=1 pos=indefinitePronounsPossessive
+ieders functword=1 pos=indefinitePronounsPossessive
+
+### Relative Pronouns
+#--------------------------------------
+wat functword=1 pos=relativePronouns
+welk functword=1 pos=relativePronouns
+welke functword=1 pos=relativePronouns
+wie functword=1 pos=relativePronouns
+wiens functword=1 pos=relativePronouns
+wier functword=1 pos=relativePronouns
+
+### Interrogative Pro Adverbs
+#--------------------------------------
+hoe functword=1 pos=interrogativeProAdverbs
+hoeveel functword=1 pos=interrogativeProAdverbs
+hoezo functword=1 pos=interrogativeProAdverbs
+waar functword=1 pos=interrogativeProAdverbs
+waarom functword=1 pos=interrogativeProAdverbs
+
+### Pronominal Adverbs
+#--------------------------------------
+daaraan functword=1 pos=pronominalAdverbs
+daarachter functword=1 pos=pronominalAdverbs
+daaraf functword=1 pos=pronominalAdverbs
+daarbij functword=1 pos=pronominalAdverbs
+daarbinnen functword=1 pos=pronominalAdverbs
+daarboven functword=1 pos=pronominalAdverbs
+daarbuiten functword=1 pos=pronominalAdverbs
+daardoorheen functword=1 pos=pronominalAdverbs
+daarheen functword=1 pos=pronominalAdverbs
+daarin functword=1 pos=pronominalAdverbs
+daarjegens functword=1 pos=pronominalAdverbs
+daarmede functword=1 pos=pronominalAdverbs
+daarnaar functword=1 pos=pronominalAdverbs
+daarnaartoe functword=1 pos=pronominalAdverbs
+daaromtrent functword=1 pos=pronominalAdverbs
+daaronder functword=1 pos=pronominalAdverbs
+daarop functword=1 pos=pronominalAdverbs
+daarover functword=1 pos=pronominalAdverbs
+daaroverheen functword=1 pos=pronominalAdverbs
+daarrond functword=1 pos=pronominalAdverbs
+daartegen functword=1 pos=pronominalAdverbs
+daartussen functword=1 pos=pronominalAdverbs
+daartussenuit functword=1 pos=pronominalAdverbs
+daaruit functword=1 pos=pronominalAdverbs
+daarvan functword=1 pos=pronominalAdverbs
+daarvandaan functword=1 pos=pronominalAdverbs
+eraan functword=1 pos=pronominalAdverbs
+erachter functword=1 pos=pronominalAdverbs
+erachteraan functword=1 pos=pronominalAdverbs
+eraf functword=1 pos=pronominalAdverbs
+erbij functword=1 pos=pronominalAdverbs
+erbinnen functword=1 pos=pronominalAdverbs
+erboven functword=1 pos=pronominalAdverbs
+erbuiten functword=1 pos=pronominalAdverbs
+erdoor functword=1 pos=pronominalAdverbs
+erdoorheen functword=1 pos=pronominalAdverbs
+erheen functword=1 pos=pronominalAdverbs
+erin functword=1 pos=pronominalAdverbs
+erjegens functword=1 pos=pronominalAdverbs
+ermede functword=1 pos=pronominalAdverbs
+ermee functword=1 pos=pronominalAdverbs
+erna functword=1 pos=pronominalAdverbs
+ernaar functword=1 pos=pronominalAdverbs
+ernaartoe functword=1 pos=pronominalAdverbs
+ernaast functword=1 pos=pronominalAdverbs
+erom functword=1 pos=pronominalAdverbs
+eromtrent functword=1 pos=pronominalAdverbs
+eronder functword=1 pos=pronominalAdverbs
+eronderdoor functword=1 pos=pronominalAdverbs
+erop functword=1 pos=pronominalAdverbs
+eropaf functword=1 pos=pronominalAdverbs
+eropuit functword=1 pos=pronominalAdverbs
+erover functword=1 pos=pronominalAdverbs
+eroverheen functword=1 pos=pronominalAdverbs
+errond functword=1 pos=pronominalAdverbs
+ertegen functword=1 pos=pronominalAdverbs
+ertegenaan functword=1 pos=pronominalAdverbs
+ertoe functword=1 pos=pronominalAdverbs
+ertussen functword=1 pos=pronominalAdverbs
+ertussenuit functword=1 pos=pronominalAdverbs
+eruit functword=1 pos=pronominalAdverbs
+ervan functword=1 pos=pronominalAdverbs
+ervandaan functword=1 pos=pronominalAdverbs
+ervandoor functword=1 pos=pronominalAdverbs
+ervoor functword=1 pos=pronominalAdverbs
+hieraan functword=1 pos=pronominalAdverbs
+hierachter functword=1 pos=pronominalAdverbs
+hieraf functword=1 pos=pronominalAdverbs
+hierbij functword=1 pos=pronominalAdverbs
+hierbinnen functword=1 pos=pronominalAdverbs
+hierboven functword=1 pos=pronominalAdverbs
+hierbuiten functword=1 pos=pronominalAdverbs
+hierdoor functword=1 pos=pronominalAdverbs
+hierdoorheen functword=1 pos=pronominalAdverbs
+hierheen functword=1 pos=pronominalAdverbs
+hierin functword=1 pos=pronominalAdverbs
+hierjegens functword=1 pos=pronominalAdverbs
+hierlangs functword=1 pos=pronominalAdverbs
+hiermede functword=1 pos=pronominalAdverbs
+hiermee functword=1 pos=pronominalAdverbs
+hierna functword=1 pos=pronominalAdverbs
+hiernaar functword=1 pos=pronominalAdverbs
+hiernaartoe functword=1 pos=pronominalAdverbs
+hiernaast functword=1 pos=pronominalAdverbs
+hieromheen functword=1 pos=pronominalAdverbs
+hieromtrent functword=1 pos=pronominalAdverbs
+hieronder functword=1 pos=pronominalAdverbs
+hierop functword=1 pos=pronominalAdverbs
+hierover functword=1 pos=pronominalAdverbs
+hieroverheen functword=1 pos=pronominalAdverbs
+hierrond functword=1 pos=pronominalAdverbs
+hiertegen functword=1 pos=pronominalAdverbs
+hiertoe functword=1 pos=pronominalAdverbs
+hiertussen functword=1 pos=pronominalAdverbs
+hiertussenuit functword=1 pos=pronominalAdverbs
+hieruit functword=1 pos=pronominalAdverbs
+hiervan functword=1 pos=pronominalAdverbs
+hiervandaan functword=1 pos=pronominalAdverbs
+hiervoor functword=1 pos=pronominalAdverbs
+vandaan functword=1 pos=pronominalAdverbs
+waaraan functword=1 pos=pronominalAdverbs
+waarachter functword=1 pos=pronominalAdverbs
+waaraf functword=1 pos=pronominalAdverbs
+waarbij functword=1 pos=pronominalAdverbs
+waarboven functword=1 pos=pronominalAdverbs
+waarbuiten functword=1 pos=pronominalAdverbs
+waardoorheen functword=1 pos=pronominalAdverbs
+waarheen functword=1 pos=pronominalAdverbs
+waarin functword=1 pos=pronominalAdverbs
+waarjegens functword=1 pos=pronominalAdverbs
+waarmede functword=1 pos=pronominalAdverbs
+waarna functword=1 pos=pronominalAdverbs
+waarnaar functword=1 pos=pronominalAdverbs
+waarnaartoe functword=1 pos=pronominalAdverbs
+waarnaast functword=1 pos=pronominalAdverbs
+waarop functword=1 pos=pronominalAdverbs
+waarover functword=1 pos=pronominalAdverbs
+waaroverheen functword=1 pos=pronominalAdverbs
+waarrond functword=1 pos=pronominalAdverbs
+waartegen functword=1 pos=pronominalAdverbs
+waartegenin functword=1 pos=pronominalAdverbs
+waartoe functword=1 pos=pronominalAdverbs
+waartussen functword=1 pos=pronominalAdverbs
+waartussenuit functword=1 pos=pronominalAdverbs
+waaruit functword=1 pos=pronominalAdverbs
+waarvan functword=1 pos=pronominalAdverbs
+waarvandaan functword=1 pos=pronominalAdverbs
+waarvoor functword=1 pos=pronominalAdverbs
+
+### Locative Adverbs
+#--------------------------------------
+daar functword=1 pos=locativeAdverbs
+daarginds functword=1 pos=locativeAdverbs
+dichtbij functword=1 pos=locativeAdverbs
+ergens functword=1 pos=locativeAdverbs
+ginder functword=1 pos=locativeAdverbs
+ginds functword=1 pos=locativeAdverbs
+hier functword=1 pos=locativeAdverbs
+kortbij functword=1 pos=locativeAdverbs
+nergens functword=1 pos=locativeAdverbs
+overal functword=1 pos=locativeAdverbs
+ver functword=1 pos=locativeAdverbs
+veraf functword=1 pos=locativeAdverbs
+
+### Filtered Passive Auxiliaries
+#--------------------------------------
+ben functword=1 pos=filteredPassiveAuxiliaries
+bent functword=1 pos=filteredPassiveAuxiliaries
+is functword=1 pos=filteredPassiveAuxiliaries
+waren functword=1 pos=filteredPassiveAuxiliaries
+was functword=1 pos=filteredPassiveAuxiliaries
+werd functword=1 pos=filteredPassiveAuxiliaries
+werden functword=1 pos=filteredPassiveAuxiliaries
+word functword=1 pos=filteredPassiveAuxiliaries
+wordt functword=1 pos=filteredPassiveAuxiliaries
+
+### Passive Auxiliaries Infinitive
+#--------------------------------------
+worden functword=1 pos=passiveAuxiliariesInfinitive
+zijn functword=1 pos=passiveAuxiliariesInfinitive
+
+### Other Auxiliaries
+#--------------------------------------
+dien functword=1 pos=otherAuxiliaries
+diende functword=1 pos=otherAuxiliaries
+dienden functword=1 pos=otherAuxiliaries
+dient functword=1 pos=otherAuxiliaries
+ga functword=1 pos=otherAuxiliaries
+gaat functword=1 pos=otherAuxiliaries
+ging functword=1 pos=otherAuxiliaries
+gingen functword=1 pos=otherAuxiliaries
+had functword=1 pos=otherAuxiliaries
+hadden functword=1 pos=otherAuxiliaries
+heb functword=1 pos=otherAuxiliaries
+hebt functword=1 pos=otherAuxiliaries
+heeft functword=1 pos=otherAuxiliaries
+kan functword=1 pos=otherAuxiliaries
+kon functword=1 pos=otherAuxiliaries
+konden functword=1 pos=otherAuxiliaries
+kun functword=1 pos=otherAuxiliaries
+kunt functword=1 pos=otherAuxiliaries
+mag functword=1 pos=otherAuxiliaries
+mocht functword=1 pos=otherAuxiliaries
+mochten functword=1 pos=otherAuxiliaries
+moest functword=1 pos=otherAuxiliaries
+moesten functword=1 pos=otherAuxiliaries
+moet functword=1 pos=otherAuxiliaries
+
+### Other Auxiliaries Infinitive
+#--------------------------------------
+dienen functword=1 pos=otherAuxiliariesInfinitive
+gaan functword=1 pos=otherAuxiliariesInfinitive
+hebben functword=1 pos=otherAuxiliariesInfinitive
+kunnen functword=1 pos=otherAuxiliariesInfinitive
+moeten functword=1 pos=otherAuxiliariesInfinitive
+mogen functword=1 pos=otherAuxiliariesInfinitive
+
+### Copula
+# 'Vóórkomen' (appear) is not included, because we don't want to filter out 'voorkómen' (prevent).
+#--------------------------------------
+bleek functword=1 pos=copula
+bleken functword=1 pos=copula
+blijk functword=1 pos=copula
+blijkt functword=1 pos=copula
+dunk functword=1 pos=copula
+dunkt functword=1 pos=copula
+dunkte functword=1 pos=copula
+dunkten functword=1 pos=copula
+gebleken functword=1 pos=copula
+gedunkt functword=1 pos=copula
+geheten functword=1 pos=copula
+geleken functword=1 pos=copula
+heet functword=1 pos=copula
+heette functword=1 pos=copula
+heetten functword=1 pos=copula
+leek functword=1 pos=copula
+leken functword=1 pos=copula
+lijk functword=1 pos=copula
+lijkt functword=1 pos=copula
+scheen functword=1 pos=copula
+schenen functword=1 pos=copula
+schijn functword=1 pos=copula
+schijnt functword=1 pos=copula
+toescheen functword=1 pos=copula
+toeschenen functword=1 pos=copula
+toeschijn functword=1 pos=copula
+toeschijnt functword=1 pos=copula
+
+### Copula Infinitive
+#--------------------------------------
+blijken functword=1 pos=copulaInfinitive
+dunken functword=1 pos=copulaInfinitive
+heten functword=1 pos=copulaInfinitive
+lijken functword=1 pos=copulaInfinitive
+schijnen functword=1 pos=copulaInfinitive
+toeschijnen functword=1 pos=copulaInfinitive
+
+### Prepositions
+#--------------------------------------
+aan functword=1 pos=prepositions
+aangaande functword=1 pos=prepositions
+achter functword=1 pos=prepositions
+behalve functword=1 pos=prepositions
+behoudens functword=1 pos=prepositions
+beneden functword=1 pos=prepositions
+benevens functword=1 pos=prepositions
+benoorden functword=1 pos=prepositions
+benoordoosten functword=1 pos=prepositions
+benoordwesten functword=1 pos=prepositions
+beoosten functword=1 pos=prepositions
+betreffende functword=1 pos=prepositions
+bewesten functword=1 pos=prepositions
+bezijden functword=1 pos=prepositions
+bezuiden functword=1 pos=prepositions
+bezuidoosten functword=1 pos=prepositions
+bezuidwesten functword=1 pos=prepositions
+bij functword=1 pos=prepositions
+binnen functword=1 pos=prepositions
+blijkens functword=1 pos=prepositions
+boven functword=1 pos=prepositions
+bovenaan functword=1 pos=prepositions
+buiten functword=1 pos=prepositions
+circa functword=1 pos=prepositions
+conform functword=1 pos=prepositions
+contra functword=1 pos=prepositions
+cum functword=1 pos=prepositions
+dankzij functword=1 pos=prepositions
+door functword=1 pos=prepositions
+gedurende functword=1 pos=prepositions
+gezien functword=1 pos=prepositions
+in functword=1 pos=prepositions
+ingevolge functword=1 pos=prepositions
+inzake functword=1 pos=prepositions
+jegens functword=1 pos=prepositions
+krachtens functword=1 pos=prepositions
+langs functword=1 pos=prepositions
+luidens functword=1 pos=prepositions
+met functword=1 pos=prepositions
+middels functword=1 pos=prepositions
+na functword=1 pos=prepositions
+naar functword=1 pos=prepositions
+naast functword=1 pos=prepositions
+nabij functword=1 pos=prepositions
+namens functword=1 pos=prepositions
+nevens functword=1 pos=prepositions
+niettegenstaande functword=1 pos=prepositions
+nopens functword=1 pos=prepositions
+om functword=1 pos=prepositions
+omstreeks functword=1 pos=prepositions
+omtrent functword=1 pos=prepositions
+onder functword=1 pos=prepositions
+onderaan functword=1 pos=prepositions
+ongeacht functword=1 pos=prepositions
+onverminderd functword=1 pos=prepositions
+op functword=1 pos=prepositions
+over functword=1 pos=prepositions
+overeenkomstig functword=1 pos=prepositions
+per functword=1 pos=prepositions
+plus functword=1 pos=prepositions
+post functword=1 pos=prepositions
+richting functword=1 pos=prepositions
+rond functword=1 pos=prepositions
+rondom functword=1 pos=prepositions
+spijts functword=1 pos=prepositions
+staande functword=1 pos=prepositions
+te functword=1 pos=prepositions
+tegen functword=1 pos=prepositions
+tegenover functword=1 pos=prepositions
+ten functword=1 pos=prepositions
+ter functword=1 pos=prepositions
+tijdens functword=1 pos=prepositions
+tot functword=1 pos=prepositions
+tussen functword=1 pos=prepositions
+uit functword=1 pos=prepositions
+van functword=1 pos=prepositions
+vanaf functword=1 pos=prepositions
+vanuit functword=1 pos=prepositions
+versus functword=1 pos=prepositions
+via functword=1 pos=prepositions
+vis \- à \- vis functword=1 pos=prepositions
+volgens functword=1 pos=prepositions
+voor functword=1 pos=prepositions
+voorbij functword=1 pos=prepositions
+wegens functword=1 pos=prepositions
+zijdens functword=1 pos=prepositions
+zonder functword=1 pos=prepositions
+à functword=1 pos=prepositions
+
+### Prepositional Adverbs
+# Many prepositional adverbs are already listed as preposition.
+#--------------------------------------
+achteraan functword=1 pos=prepositionalAdverbs
+achterop functword=1 pos=prepositionalAdverbs
+af functword=1 pos=prepositionalAdverbs
+binnenin functword=1 pos=prepositionalAdverbs
+bovenop functword=1 pos=prepositionalAdverbs
+buitenop functword=1 pos=prepositionalAdverbs
+heen functword=1 pos=prepositionalAdverbs
+mee functword=1 pos=prepositionalAdverbs
+onderin functword=1 pos=prepositionalAdverbs
+onderop functword=1 pos=prepositionalAdverbs
+tevoren functword=1 pos=prepositionalAdverbs
+toe functword=1 pos=prepositionalAdverbs
+voorin functword=1 pos=prepositionalAdverbs
+
+### Coordinating Conjunctions
+#--------------------------------------
+alsmede functword=1 pos=coordinatingConjunctions
+en functword=1 pos=coordinatingConjunctions
+en/of functword=1 pos=coordinatingConjunctions
+of functword=1 pos=coordinatingConjunctions
+ofwel functword=1 pos=coordinatingConjunctions
+
+### Correlative Conjunctions
+#--------------------------------------
+evenmin functword=1 pos=correlativeConjunctions
+hetzij functword=1 pos=correlativeConjunctions
+zomin functword=1 pos=correlativeConjunctions
+zowel functword=1 pos=correlativeConjunctions
+
+### Subordinating Conjunctions
+#--------------------------------------
+aleer functword=1 pos=subordinatingConjunctions
+alhoewel functword=1 pos=subordinatingConjunctions
+alsof functword=1 pos=subordinatingConjunctions
+alvorens functword=1 pos=subordinatingConjunctions
+dewijl functword=1 pos=subordinatingConjunctions
+dorodien functword=1 pos=subordinatingConjunctions
+eer functword=1 pos=subordinatingConjunctions
+eerdat functword=1 pos=subordinatingConjunctions
+hoezeer functword=1 pos=subordinatingConjunctions
+ingeval functword=1 pos=subordinatingConjunctions
+naardien functword=1 pos=subordinatingConjunctions
+naargelang functword=1 pos=subordinatingConjunctions
+naarmate functword=1 pos=subordinatingConjunctions
+nademaal functword=1 pos=subordinatingConjunctions
+overmits functword=1 pos=subordinatingConjunctions
+sedert functword=1 pos=subordinatingConjunctions
+sinds functword=1 pos=subordinatingConjunctions
+tenware functword=1 pos=subordinatingConjunctions
+totdat functword=1 pos=subordinatingConjunctions
+uitgezonderd functword=1 pos=subordinatingConjunctions
+vermits functword=1 pos=subordinatingConjunctions
+vooraleer functword=1 pos=subordinatingConjunctions
+wijl functword=1 pos=subordinatingConjunctions
+zolang functword=1 pos=subordinatingConjunctions
+zover functword=1 pos=subordinatingConjunctions
+zoverre functword=1 pos=subordinatingConjunctions
+
+### Interview Verbs
+# These verbs are frequently used in interviews to indicate questions and answers.
+#--------------------------------------
+dacht functword=1 pos=interviewVerbs
+denkt functword=1 pos=interviewVerbs
+pleit functword=1 pos=interviewVerbs
+pleitte functword=1 pos=interviewVerbs
+stelt functword=1 pos=interviewVerbs
+vraagt functword=1 pos=interviewVerbs
+vroeg functword=1 pos=interviewVerbs
+zegt functword=1 pos=interviewVerbs
+zei functword=1 pos=interviewVerbs
+
+### Additional Transition Words
+# These transition words were not included in the list for the transition word assessment for various reasons.
+#--------------------------------------
+aannemelijk functword=1 pos=additionalTransitionWords
+aanvankelijk functword=1 pos=additionalTransitionWords
+absoluut functword=1 pos=additionalTransitionWords
+allicht functword=1 pos=additionalTransitionWords
+alvast functword=1 pos=additionalTransitionWords
+alweer functword=1 pos=additionalTransitionWords
+anders functword=1 pos=additionalTransitionWords
+bijna functword=1 pos=additionalTransitionWords
+bijv. functword=1 pos=additionalTransitionWords
+continu functword=1 pos=additionalTransitionWords
+daadwerkelijk functword=1 pos=additionalTransitionWords
+dikwijls functword=1 pos=additionalTransitionWords
+direct functword=1 pos=additionalTransitionWords
+domweg functword=1 pos=additionalTransitionWords
+doorgaans functword=1 pos=additionalTransitionWords
+duidelijk functword=1 pos=additionalTransitionWords
+eens functword=1 pos=additionalTransitionWords
+eenvoudigweg functword=1 pos=additionalTransitionWords
+eigenlijk functword=1 pos=additionalTransitionWords
+elders functword=1 pos=additionalTransitionWords
+eventueel functword=1 pos=additionalTransitionWords
+feitelijk functword=1 pos=additionalTransitionWords
+geregeld functword=1 pos=additionalTransitionWords
+gewoonlijk functword=1 pos=additionalTransitionWords
+herhaaldelijk functword=1 pos=additionalTransitionWords
+incidenteel functword=1 pos=additionalTransitionWords
+inclusief functword=1 pos=additionalTransitionWords
+inderdaad functword=1 pos=additionalTransitionWords
+initieel functword=1 pos=additionalTransitionWords
+juist functword=1 pos=additionalTransitionWords
+kennelijk functword=1 pos=additionalTransitionWords
+klaarblijkelijk functword=1 pos=additionalTransitionWords
+kortweg functword=1 pos=additionalTransitionWords
+laatst functword=1 pos=additionalTransitionWords
+louter functword=1 pos=additionalTransitionWords
+meestal functword=1 pos=additionalTransitionWords
+menigmaal functword=1 pos=additionalTransitionWords
+meteen functword=1 pos=additionalTransitionWords
+misschien functword=1 pos=additionalTransitionWords
+mogelijk functword=1 pos=additionalTransitionWords
+mogelijkerwijs functword=1 pos=additionalTransitionWords
+momenteel functword=1 pos=additionalTransitionWords
+nadrukkelijk functword=1 pos=additionalTransitionWords
+natuurlijk functword=1 pos=additionalTransitionWords
+nog functword=1 pos=additionalTransitionWords
+nooit functword=1 pos=additionalTransitionWords
+normaliter functword=1 pos=additionalTransitionWords
+nu functword=1 pos=additionalTransitionWords
+ogenblikkelijk functword=1 pos=additionalTransitionWords
+ogenschijnlijk functword=1 pos=additionalTransitionWords
+ongetwijfeld functword=1 pos=additionalTransitionWords
+onlangs functword=1 pos=additionalTransitionWords
+onmiddelijk functword=1 pos=additionalTransitionWords
+ooit functword=1 pos=additionalTransitionWords
+oorspronkelijk functword=1 pos=additionalTransitionWords
+oprecht functword=1 pos=additionalTransitionWords
+overduidelijk functword=1 pos=additionalTransitionWords
+recent functword=1 pos=additionalTransitionWords
+recentelijk functword=1 pos=additionalTransitionWords
+reeds functword=1 pos=additionalTransitionWords
+regelmatig functword=1 pos=additionalTransitionWords
+relatief functword=1 pos=additionalTransitionWords
+schijnbaar functword=1 pos=additionalTransitionWords
+simpelweg functword=1 pos=additionalTransitionWords
+sowieso functword=1 pos=additionalTransitionWords
+steeds functword=1 pos=additionalTransitionWords
+stomweg functword=1 pos=additionalTransitionWords
+terstond functword=1 pos=additionalTransitionWords
+thans functword=1 pos=additionalTransitionWords
+trouwens functword=1 pos=additionalTransitionWords
+vaak functword=1 pos=additionalTransitionWords
+vanzelfsprekend functword=1 pos=additionalTransitionWords
+veelal functword=1 pos=additionalTransitionWords
+veelvuldig functword=1 pos=additionalTransitionWords
+vermoedelijk functword=1 pos=additionalTransitionWords
+volgend functword=1 pos=additionalTransitionWords
+waarachtig functword=1 pos=additionalTransitionWords
+waarschijnlijk functword=1 pos=additionalTransitionWords
+weleens functword=1 pos=additionalTransitionWords
+wellicht functword=1 pos=additionalTransitionWords
+werkelijk functword=1 pos=additionalTransitionWords
+wezenlijk functword=1 pos=additionalTransitionWords
+zeker functword=1 pos=additionalTransitionWords
+zojuist functword=1 pos=additionalTransitionWords
+zomaar functword=1 pos=additionalTransitionWords
+
+### Intensifiers
+# 'vrij' is not included because it also means 'free'.
+#--------------------------------------
+behoorlijk functword=1 pos=intensifiers
+bijzonder functword=1 pos=intensifiers
+buitengewoon functword=1 pos=intensifiers
+enigszins functword=1 pos=intensifiers
+erg functword=1 pos=intensifiers
+ernstig functword=1 pos=intensifiers
+flink functword=1 pos=intensifiers
+heel functword=1 pos=intensifiers
+hele functword=1 pos=intensifiers
+nogal functword=1 pos=intensifiers
+ontzettend functword=1 pos=intensifiers
+redelijk functword=1 pos=intensifiers
+reuze functword=1 pos=intensifiers
+tamelijk functword=1 pos=intensifiers
+tikkeltje functword=1 pos=intensifiers
+vreselijk functword=1 pos=intensifiers
+zeer functword=1 pos=intensifiers
+zo functword=1 pos=intensifiers
+zwaar functword=1 pos=intensifiers
+
+### Delexicalized Verbs
+# These verbs convey little meaning.
+#--------------------------------------
+deden functword=1 pos=delexicalizedVerbs
+deed functword=1 pos=delexicalizedVerbs
+doe functword=1 pos=delexicalizedVerbs
+doet functword=1 pos=delexicalizedVerbs
+kom functword=1 pos=delexicalizedVerbs
+komt functword=1 pos=delexicalizedVerbs
+kwam functword=1 pos=delexicalizedVerbs
+kwamen functword=1 pos=delexicalizedVerbs
+laat functword=1 pos=delexicalizedVerbs
+liet functword=1 pos=delexicalizedVerbs
+lieten functword=1 pos=delexicalizedVerbs
+maak functword=1 pos=delexicalizedVerbs
+maakt functword=1 pos=delexicalizedVerbs
+maakte functword=1 pos=delexicalizedVerbs
+maakten functword=1 pos=delexicalizedVerbs
+vind functword=1 pos=delexicalizedVerbs
+vindt functword=1 pos=delexicalizedVerbs
+vond functword=1 pos=delexicalizedVerbs
+vonden functword=1 pos=delexicalizedVerbs
+
+### Delexicalized Verbs Infinitive
+#--------------------------------------
+doen functword=1 pos=delexicalizedVerbsInfinitive
+komen functword=1 pos=delexicalizedVerbsInfinitive
+laten functword=1 pos=delexicalizedVerbsInfinitive
+maken functword=1 pos=delexicalizedVerbsInfinitive
+vinden functword=1 pos=delexicalizedVerbsInfinitive
+
+### General Adjectives Adverbs
+#--------------------------------------
+best functword=1 pos=generalAdjectivesAdverbs
+beste functword=1 pos=generalAdjectivesAdverbs
+beter functword=1 pos=generalAdjectivesAdverbs
+betere functword=1 pos=generalAdjectivesAdverbs
+bijbehorend functword=1 pos=generalAdjectivesAdverbs
+bijbehorende functword=1 pos=generalAdjectivesAdverbs
+directe functword=1 pos=generalAdjectivesAdverbs
+eigen functword=1 pos=generalAdjectivesAdverbs
+er functword=1 pos=generalAdjectivesAdverbs
+extreem functword=1 pos=generalAdjectivesAdverbs
+extreme functword=1 pos=generalAdjectivesAdverbs
+gemakkelijk functword=1 pos=generalAdjectivesAdverbs
+gemakkelijke functword=1 pos=generalAdjectivesAdverbs
+gemakkelijker functword=1 pos=generalAdjectivesAdverbs
+gemakkelijkere functword=1 pos=generalAdjectivesAdverbs
+gemakkelijkst functword=1 pos=generalAdjectivesAdverbs
+gemakkelijste functword=1 pos=generalAdjectivesAdverbs
+goed functword=1 pos=generalAdjectivesAdverbs
+goede functword=1 pos=generalAdjectivesAdverbs
+groot functword=1 pos=generalAdjectivesAdverbs
+grootst functword=1 pos=generalAdjectivesAdverbs
+grootste functword=1 pos=generalAdjectivesAdverbs
+grote functword=1 pos=generalAdjectivesAdverbs
+groter functword=1 pos=generalAdjectivesAdverbs
+grotere functword=1 pos=generalAdjectivesAdverbs
+hard functword=1 pos=generalAdjectivesAdverbs
+harde functword=1 pos=generalAdjectivesAdverbs
+harder functword=1 pos=generalAdjectivesAdverbs
+hardere functword=1 pos=generalAdjectivesAdverbs
+hardst functword=1 pos=generalAdjectivesAdverbs
+hardste functword=1 pos=generalAdjectivesAdverbs
+herhaaldelijke functword=1 pos=generalAdjectivesAdverbs
+hoge functword=1 pos=generalAdjectivesAdverbs
+hoger functword=1 pos=generalAdjectivesAdverbs
+hogere functword=1 pos=generalAdjectivesAdverbs
+hoog functword=1 pos=generalAdjectivesAdverbs
+hoogst functword=1 pos=generalAdjectivesAdverbs
+hoogste functword=1 pos=generalAdjectivesAdverbs
+klein functword=1 pos=generalAdjectivesAdverbs
+kleine functword=1 pos=generalAdjectivesAdverbs
+kleiner functword=1 pos=generalAdjectivesAdverbs
+kleinere functword=1 pos=generalAdjectivesAdverbs
+kleinst functword=1 pos=generalAdjectivesAdverbs
+kleinste functword=1 pos=generalAdjectivesAdverbs
+kort functword=1 pos=generalAdjectivesAdverbs
+korte functword=1 pos=generalAdjectivesAdverbs
+korter functword=1 pos=generalAdjectivesAdverbs
+kortere functword=1 pos=generalAdjectivesAdverbs
+kortst functword=1 pos=generalAdjectivesAdverbs
+kortste functword=1 pos=generalAdjectivesAdverbs
+laag functword=1 pos=generalAdjectivesAdverbs
+laagst functword=1 pos=generalAdjectivesAdverbs
+laagste functword=1 pos=generalAdjectivesAdverbs
+lage functword=1 pos=generalAdjectivesAdverbs
+lager functword=1 pos=generalAdjectivesAdverbs
+lagere functword=1 pos=generalAdjectivesAdverbs
+lang functword=1 pos=generalAdjectivesAdverbs
+lange functword=1 pos=generalAdjectivesAdverbs
+langer functword=1 pos=generalAdjectivesAdverbs
+langere functword=1 pos=generalAdjectivesAdverbs
+langst functword=1 pos=generalAdjectivesAdverbs
+langste functword=1 pos=generalAdjectivesAdverbs
+makkelijk functword=1 pos=generalAdjectivesAdverbs
+makkelijke functword=1 pos=generalAdjectivesAdverbs
+makkelijker functword=1 pos=generalAdjectivesAdverbs
+makkelijkere functword=1 pos=generalAdjectivesAdverbs
+makkelijkst functword=1 pos=generalAdjectivesAdverbs
+makkelijste functword=1 pos=generalAdjectivesAdverbs
+minder functword=1 pos=generalAdjectivesAdverbs
+mindere functword=1 pos=generalAdjectivesAdverbs
+minst functword=1 pos=generalAdjectivesAdverbs
+minste functword=1 pos=generalAdjectivesAdverbs
+niet functword=1 pos=generalAdjectivesAdverbs
+nieuw functword=1 pos=generalAdjectivesAdverbs
+nieuwe functword=1 pos=generalAdjectivesAdverbs
+nieuwer functword=1 pos=generalAdjectivesAdverbs
+nieuwere functword=1 pos=generalAdjectivesAdverbs
+nieuwst functword=1 pos=generalAdjectivesAdverbs
+nieuwste functword=1 pos=generalAdjectivesAdverbs
+ongeveer functword=1 pos=generalAdjectivesAdverbs
+oud functword=1 pos=generalAdjectivesAdverbs
+oude functword=1 pos=generalAdjectivesAdverbs
+ouder functword=1 pos=generalAdjectivesAdverbs
+oudere functword=1 pos=generalAdjectivesAdverbs
+oudst functword=1 pos=generalAdjectivesAdverbs
+oudste functword=1 pos=generalAdjectivesAdverbs
+simpel functword=1 pos=generalAdjectivesAdverbs
+simpele functword=1 pos=generalAdjectivesAdverbs
+simpeler functword=1 pos=generalAdjectivesAdverbs
+simpelere functword=1 pos=generalAdjectivesAdverbs
+simpelst functword=1 pos=generalAdjectivesAdverbs
+simpelste functword=1 pos=generalAdjectivesAdverbs
+slecht functword=1 pos=generalAdjectivesAdverbs
+slechte functword=1 pos=generalAdjectivesAdverbs
+slechter functword=1 pos=generalAdjectivesAdverbs
+slechtere functword=1 pos=generalAdjectivesAdverbs
+slechtst functword=1 pos=generalAdjectivesAdverbs
+slechtste functword=1 pos=generalAdjectivesAdverbs
+snel functword=1 pos=generalAdjectivesAdverbs
+snelle functword=1 pos=generalAdjectivesAdverbs
+sneller functword=1 pos=generalAdjectivesAdverbs
+snellere functword=1 pos=generalAdjectivesAdverbs
+snelst functword=1 pos=generalAdjectivesAdverbs
+snelste functword=1 pos=generalAdjectivesAdverbs
+verder functword=1 pos=generalAdjectivesAdverbs
+verdere functword=1 pos=generalAdjectivesAdverbs
+verre functword=1 pos=generalAdjectivesAdverbs
+verst functword=1 pos=generalAdjectivesAdverbs
+verste functword=1 pos=generalAdjectivesAdverbs
+vorig functword=1 pos=generalAdjectivesAdverbs
+vorige functword=1 pos=generalAdjectivesAdverbs
+zo \' n functword=1 pos=generalAdjectivesAdverbs
+zulk functword=1 pos=generalAdjectivesAdverbs
+zulke functword=1 pos=generalAdjectivesAdverbs
+zulks functword=1 pos=generalAdjectivesAdverbs
+
+### Interjections
+#--------------------------------------
+ach functword=1 pos=interjections
+afijn functword=1 pos=interjections
+aha functword=1 pos=interjections
+ai functword=1 pos=interjections
+au functword=1 pos=interjections
+bah functword=1 pos=interjections
+boem functword=1 pos=interjections
+brr functword=1 pos=interjections
+enfin functword=1 pos=interjections
+foei functword=1 pos=interjections
+haha functword=1 pos=interjections
+halt functword=1 pos=interjections
+hatsjie functword=1 pos=interjections
+hatsjoe functword=1 pos=interjections
+hemeltjelief functword=1 pos=interjections
+heremijntijd functword=1 pos=interjections
+hihi functword=1 pos=interjections
+hm functword=1 pos=interjections
+hmm functword=1 pos=interjections
+ho functword=1 pos=interjections
+hopla functword=1 pos=interjections
+hè functword=1 pos=interjections
+hèhè functword=1 pos=interjections
+hé functword=1 pos=interjections
+jaja functword=1 pos=interjections
+jawel functword=1 pos=interjections
+komaan functword=1 pos=interjections
+komop functword=1 pos=interjections
+nee functword=1 pos=interjections
+nietwaar functword=1 pos=interjections
+nja functword=1 pos=interjections
+nou functword=1 pos=interjections
+och functword=1 pos=interjections
+oef functword=1 pos=interjections
+oh functword=1 pos=interjections
+okido functword=1 pos=interjections
+ssst functword=1 pos=interjections
+tja functword=1 pos=interjections
+tring functword=1 pos=interjections
+verrek functword=1 pos=interjections
+vroem functword=1 pos=interjections
+wauw functword=1 pos=interjections
+welja functword=1 pos=interjections
+
+### Recipe Words
+# These words and abbreviations are frequently used in recipes in lists of ingredients.
+#--------------------------------------
+ca functword=1 pos=recipeWords
+cl functword=1 pos=recipeWords
+dl functword=1 pos=recipeWords
+el functword=1 pos=recipeWords
+g functword=1 pos=recipeWords
+gr functword=1 pos=recipeWords
+kg functword=1 pos=recipeWords
+l functword=1 pos=recipeWords
+mg functword=1 pos=recipeWords
+min functword=1 pos=recipeWords
+ml functword=1 pos=recipeWords
+sec functword=1 pos=recipeWords
+theel functword=1 pos=recipeWords
+tl functword=1 pos=recipeWords
+uur functword=1 pos=recipeWords
+
+### Time Words
+#--------------------------------------
+ \' s functword=1 pos=timeWords
+avonds functword=1 pos=timeWords
+dag functword=1 pos=timeWords
+dagen functword=1 pos=timeWords
+eergisteren functword=1 pos=timeWords
+gisteren functword=1 pos=timeWords
+jaar functword=1 pos=timeWords
+jaren functword=1 pos=timeWords
+maand functword=1 pos=timeWords
+maanden functword=1 pos=timeWords
+middags functword=1 pos=timeWords
+minuten functword=1 pos=timeWords
+minuut functword=1 pos=timeWords
+morgen functword=1 pos=timeWords
+morgens functword=1 pos=timeWords
+nachts functword=1 pos=timeWords
+overmorgen functword=1 pos=timeWords
+seconde functword=1 pos=timeWords
+seconden functword=1 pos=timeWords
+secondes functword=1 pos=timeWords
+uren functword=1 pos=timeWords
+uur functword=1 pos=timeWords
+vandaag functword=1 pos=timeWords
+week functword=1 pos=timeWords
+weken functword=1 pos=timeWords
+
+### Vague Nouns
+#--------------------------------------
+aspect functword=1 pos=vagueNouns
+deel functword=1 pos=vagueNouns
+ding functword=1 pos=vagueNouns
+dingen functword=1 pos=vagueNouns
+geval functword=1 pos=vagueNouns
+item functword=1 pos=vagueNouns
+items functword=1 pos=vagueNouns
+keer functword=1 pos=vagueNouns
+maal functword=1 pos=vagueNouns
+manier functword=1 pos=vagueNouns
+manieren functword=1 pos=vagueNouns
+personen functword=1 pos=vagueNouns
+persoon functword=1 pos=vagueNouns
+procent functword=1 pos=vagueNouns
+
+### Miscellaneous
+#--------------------------------------
+euro functword=1 pos=miscellaneous
+ja functword=1 pos=miscellaneous
+neen functword=1 pos=miscellaneous
+ok functword=1 pos=miscellaneous
+oke functword=1 pos=miscellaneous
+okee functword=1 pos=miscellaneous
+oké functword=1 pos=miscellaneous
+wel functword=1 pos=miscellaneous
+zoiets functword=1 pos=miscellaneous
+€ functword=1 pos=miscellaneous
+
+### Titles Preceding
+#--------------------------------------
+dhr functword=1 pos=titlesPreceding
+dr functword=1 pos=titlesPreceding
+mevr functword=1 pos=titlesPreceding
+mr functword=1 pos=titlesPreceding
+prof functword=1 pos=titlesPreceding
+
+### Titles Following
+#--------------------------------------
+jr functword=1 pos=titlesFollowing
+sr functword=1 pos=titlesFollowing

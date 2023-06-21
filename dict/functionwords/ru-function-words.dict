@@ -1,0 +1,3023 @@
+# Russian function words
+
+### Filtered Passive Auxiliaries
+#--------------------------------------
+будет functword=1 pos=filteredPassiveAuxiliaries
+будут functword=1 pos=filteredPassiveAuxiliaries
+был functword=1 pos=filteredPassiveAuxiliaries
+была functword=1 pos=filteredPassiveAuxiliaries
+были functword=1 pos=filteredPassiveAuxiliaries
+было functword=1 pos=filteredPassiveAuxiliaries
+быть functword=1 pos=filteredPassiveAuxiliaries
+
+### Other Auxiliaries
+#--------------------------------------
+делаем functword=1 pos=otherAuxiliaries
+делает functword=1 pos=otherAuxiliaries
+делаете functword=1 pos=otherAuxiliaries
+делаешь functword=1 pos=otherAuxiliaries
+делал functword=1 pos=otherAuxiliaries
+делала functword=1 pos=otherAuxiliaries
+делали functword=1 pos=otherAuxiliaries
+делали functword=1 pos=otherAuxiliaries
+делало functword=1 pos=otherAuxiliaries
+делать functword=1 pos=otherAuxiliaries
+делаю functword=1 pos=otherAuxiliaries
+делают functword=1 pos=otherAuxiliaries
+должен functword=1 pos=otherAuxiliaries
+должна functword=1 pos=otherAuxiliaries
+должно functword=1 pos=otherAuxiliaries
+должны functword=1 pos=otherAuxiliaries
+есть functword=1 pos=otherAuxiliaries
+имеем functword=1 pos=otherAuxiliaries
+имеет functword=1 pos=otherAuxiliaries
+имеете functword=1 pos=otherAuxiliaries
+имеется functword=1 pos=otherAuxiliaries
+имеешь functword=1 pos=otherAuxiliaries
+имел functword=1 pos=otherAuxiliaries
+имела functword=1 pos=otherAuxiliaries
+имели functword=1 pos=otherAuxiliaries
+имело functword=1 pos=otherAuxiliaries
+иметь functword=1 pos=otherAuxiliaries
+имею functword=1 pos=otherAuxiliaries
+имеют functword=1 pos=otherAuxiliaries
+имеются functword=1 pos=otherAuxiliaries
+мог functword=1 pos=otherAuxiliaries
+могла functword=1 pos=otherAuxiliaries
+могли functword=1 pos=otherAuxiliaries
+могу functword=1 pos=otherAuxiliaries
+могут functword=1 pos=otherAuxiliaries
+можем functword=1 pos=otherAuxiliaries
+может functword=1 pos=otherAuxiliaries
+можете functword=1 pos=otherAuxiliaries
+можешь functword=1 pos=otherAuxiliaries
+можно functword=1 pos=otherAuxiliaries
+мочь functword=1 pos=otherAuxiliaries
+необходим functword=1 pos=otherAuxiliaries
+необходима functword=1 pos=otherAuxiliaries
+необходимо functword=1 pos=otherAuxiliaries
+необходимы functword=1 pos=otherAuxiliaries
+нужен functword=1 pos=otherAuxiliaries
+нужна functword=1 pos=otherAuxiliaries
+нужно functword=1 pos=otherAuxiliaries
+обязан functword=1 pos=otherAuxiliaries
+обязана functword=1 pos=otherAuxiliaries
+обязано functword=1 pos=otherAuxiliaries
+обязаны functword=1 pos=otherAuxiliaries
+решатся functword=1 pos=otherAuxiliaries
+решилась functword=1 pos=otherAuxiliaries
+решились functword=1 pos=otherAuxiliaries
+решился functword=1 pos=otherAuxiliaries
+решимся functword=1 pos=otherAuxiliaries
+решитесь functword=1 pos=otherAuxiliaries
+решится functword=1 pos=otherAuxiliaries
+решиться functword=1 pos=otherAuxiliaries
+решишься functword=1 pos=otherAuxiliaries
+решусь functword=1 pos=otherAuxiliaries
+сделаем functword=1 pos=otherAuxiliaries
+сделает functword=1 pos=otherAuxiliaries
+сделаете functword=1 pos=otherAuxiliaries
+сделаешь functword=1 pos=otherAuxiliaries
+сделал functword=1 pos=otherAuxiliaries
+сделала functword=1 pos=otherAuxiliaries
+сделали functword=1 pos=otherAuxiliaries
+сделали functword=1 pos=otherAuxiliaries
+сделало functword=1 pos=otherAuxiliaries
+сделать functword=1 pos=otherAuxiliaries
+сделаю functword=1 pos=otherAuxiliaries
+сделают functword=1 pos=otherAuxiliaries
+следовало functword=1 pos=otherAuxiliaries
+следует functword=1 pos=otherAuxiliaries
+смогу functword=1 pos=otherAuxiliaries
+смогут functword=1 pos=otherAuxiliaries
+сможем functword=1 pos=otherAuxiliaries
+сможет functword=1 pos=otherAuxiliaries
+сможете functword=1 pos=otherAuxiliaries
+сможешь functword=1 pos=otherAuxiliaries
+смочь functword=1 pos=otherAuxiliaries
+требуется functword=1 pos=otherAuxiliaries
+требуются functword=1 pos=otherAuxiliaries
+
+### Copula
+#--------------------------------------
+держал functword=1 pos=copula
+держала functword=1 pos=copula
+держали functword=1 pos=copula
+держало functword=1 pos=copula
+держать functword=1 pos=copula
+держим functword=1 pos=copula
+держит functword=1 pos=copula
+держите functword=1 pos=copula
+держишь functword=1 pos=copula
+держу functword=1 pos=copula
+держут functword=1 pos=copula
+займемся functword=1 pos=copula
+займетесь functword=1 pos=copula
+займется functword=1 pos=copula
+займешься functword=1 pos=copula
+займусь functword=1 pos=copula
+займутся functword=1 pos=copula
+займёмся functword=1 pos=copula
+займётесь functword=1 pos=copula
+займётся functword=1 pos=copula
+займёшься functword=1 pos=copula
+занимаемся functword=1 pos=copula
+занимаемся functword=1 pos=copula
+занимаетесь functword=1 pos=copula
+занимается functword=1 pos=copula
+занимаешься functword=1 pos=copula
+занималась functword=1 pos=copula
+занимался functword=1 pos=copula
+заниматься functword=1 pos=copula
+занимаюсь functword=1 pos=copula
+занялась functword=1 pos=copula
+занялись functword=1 pos=copula
+занялся functword=1 pos=copula
+заняться functword=1 pos=copula
+изменимся functword=1 pos=copula
+изменитесь functword=1 pos=copula
+изменится functword=1 pos=copula
+изменишься functword=1 pos=copula
+изменюсь functword=1 pos=copula
+изменялась functword=1 pos=copula
+изменялись functword=1 pos=copula
+изменялось functword=1 pos=copula
+изменялся functword=1 pos=copula
+изменятся functword=1 pos=copula
+изменяться functword=1 pos=copula
+оставалась functword=1 pos=copula
+оставались functword=1 pos=copula
+оставалось functword=1 pos=copula
+оставался functword=1 pos=copula
+оставаться functword=1 pos=copula
+остаемся functword=1 pos=copula
+остаетесь functword=1 pos=copula
+остается functword=1 pos=copula
+остаешься functword=1 pos=copula
+осталась functword=1 pos=copula
+остались functword=1 pos=copula
+осталось functword=1 pos=copula
+остался functword=1 pos=copula
+останемся functword=1 pos=copula
+останетесь functword=1 pos=copula
+останется functword=1 pos=copula
+останешься functword=1 pos=copula
+останусь functword=1 pos=copula
+останутся functword=1 pos=copula
+остаться functword=1 pos=copula
+остаюсь functword=1 pos=copula
+остаются functword=1 pos=copula
+остаёмся functword=1 pos=copula
+остаётесь functword=1 pos=copula
+остаётся functword=1 pos=copula
+остаёшься functword=1 pos=copula
+появилась functword=1 pos=copula
+появились functword=1 pos=copula
+появилось functword=1 pos=copula
+появился functword=1 pos=copula
+появимся functword=1 pos=copula
+появимся functword=1 pos=copula
+появитесь functword=1 pos=copula
+появится functword=1 pos=copula
+появиться functword=1 pos=copula
+появишься functword=1 pos=copula
+появлюсь functword=1 pos=copula
+появляемся functword=1 pos=copula
+появляетесь functword=1 pos=copula
+появляется functword=1 pos=copula
+появляешься functword=1 pos=copula
+появлялась functword=1 pos=copula
+появлялись functword=1 pos=copula
+появлялось functword=1 pos=copula
+появлялся functword=1 pos=copula
+появляться functword=1 pos=copula
+появляюсь functword=1 pos=copula
+появляются functword=1 pos=copula
+придем functword=1 pos=copula
+придет functword=1 pos=copula
+придете functword=1 pos=copula
+придешь functword=1 pos=copula
+приду functword=1 pos=copula
+придут functword=1 pos=copula
+придём functword=1 pos=copula
+придёт functword=1 pos=copula
+придёте functword=1 pos=copula
+придёшь functword=1 pos=copula
+прийти functword=1 pos=copula
+приходил functword=1 pos=copula
+приходила functword=1 pos=copula
+приходили functword=1 pos=copula
+приходило functword=1 pos=copula
+приходим functword=1 pos=copula
+приходит functword=1 pos=copula
+приходите functword=1 pos=copula
+приходить functword=1 pos=copula
+приходишь functword=1 pos=copula
+прихожу functword=1 pos=copula
+пришел functword=1 pos=copula
+пришла functword=1 pos=copula
+пришли functword=1 pos=copula
+пришло functword=1 pos=copula
+пришёл functword=1 pos=copula
+происходил functword=1 pos=copula
+происходила functword=1 pos=copula
+происходили functword=1 pos=copula
+происходило functword=1 pos=copula
+происходит functword=1 pos=copula
+происходить functword=1 pos=copula
+происходят functword=1 pos=copula
+содержал functword=1 pos=copula
+содержала functword=1 pos=copula
+содержали functword=1 pos=copula
+содержало functword=1 pos=copula
+содержать functword=1 pos=copula
+содержим functword=1 pos=copula
+содержит functword=1 pos=copula
+содержите functword=1 pos=copula
+содержишь functword=1 pos=copula
+содержу functword=1 pos=copula
+содержут functword=1 pos=copula
+стал functword=1 pos=copula
+стала functword=1 pos=copula
+стало functword=1 pos=copula
+станем functword=1 pos=copula
+станет functword=1 pos=copula
+станете functword=1 pos=copula
+станешь functword=1 pos=copula
+становилась functword=1 pos=copula
+становились functword=1 pos=copula
+становилось functword=1 pos=copula
+становился functword=1 pos=copula
+становимся functword=1 pos=copula
+становитесь functword=1 pos=copula
+становится functword=1 pos=copula
+становиться functword=1 pos=copula
+становишься functword=1 pos=copula
+становлюсь functword=1 pos=copula
+становятся functword=1 pos=copula
+стану functword=1 pos=copula
+станут functword=1 pos=copula
+успеем functword=1 pos=copula
+успеет functword=1 pos=copula
+успеете functword=1 pos=copula
+успеешь functword=1 pos=copula
+успел functword=1 pos=copula
+успела functword=1 pos=copula
+успели functword=1 pos=copula
+успело functword=1 pos=copula
+успеть functword=1 pos=copula
+успею functword=1 pos=copula
+успеют functword=1 pos=copula
+
+### Interview Verbs
+# These verbs are frequently used in interviews to indicate questions and answers.
+#--------------------------------------
+говорил functword=1 pos=interviewVerbs
+говорила functword=1 pos=interviewVerbs
+говорили functword=1 pos=interviewVerbs
+говорим functword=1 pos=interviewVerbs
+говорит functword=1 pos=interviewVerbs
+говорите functword=1 pos=interviewVerbs
+говорить functword=1 pos=interviewVerbs
+говоришь functword=1 pos=interviewVerbs
+говорю functword=1 pos=interviewVerbs
+говорят functword=1 pos=interviewVerbs
+добавил functword=1 pos=interviewVerbs
+добавила functword=1 pos=interviewVerbs
+добавили functword=1 pos=interviewVerbs
+добавим functword=1 pos=interviewVerbs
+добавит functword=1 pos=interviewVerbs
+добавите functword=1 pos=interviewVerbs
+добавить functword=1 pos=interviewVerbs
+добавишь functword=1 pos=interviewVerbs
+добавлю functword=1 pos=interviewVerbs
+добавят functword=1 pos=interviewVerbs
+думаем functword=1 pos=interviewVerbs
+думает functword=1 pos=interviewVerbs
+думаете functword=1 pos=interviewVerbs
+думаешь functword=1 pos=interviewVerbs
+думал functword=1 pos=interviewVerbs
+думала functword=1 pos=interviewVerbs
+думали functword=1 pos=interviewVerbs
+думать functword=1 pos=interviewVerbs
+думаю functword=1 pos=interviewVerbs
+думают functword=1 pos=interviewVerbs
+заявил functword=1 pos=interviewVerbs
+заявила functword=1 pos=interviewVerbs
+заявили functword=1 pos=interviewVerbs
+заявить functword=1 pos=interviewVerbs
+обсудил functword=1 pos=interviewVerbs
+обсудила functword=1 pos=interviewVerbs
+обсудили functword=1 pos=interviewVerbs
+обсудить functword=1 pos=interviewVerbs
+объявил functword=1 pos=interviewVerbs
+объявила functword=1 pos=interviewVerbs
+объявили functword=1 pos=interviewVerbs
+объявить functword=1 pos=interviewVerbs
+объяснил functword=1 pos=interviewVerbs
+объяснила functword=1 pos=interviewVerbs
+объяснили functword=1 pos=interviewVerbs
+объяснить functword=1 pos=interviewVerbs
+подумал functword=1 pos=interviewVerbs
+подумала functword=1 pos=interviewVerbs
+подумали functword=1 pos=interviewVerbs
+подумать functword=1 pos=interviewVerbs
+понимаем functword=1 pos=interviewVerbs
+понимает functword=1 pos=interviewVerbs
+понимаете functword=1 pos=interviewVerbs
+понимаешь functword=1 pos=interviewVerbs
+понимал functword=1 pos=interviewVerbs
+понимала functword=1 pos=interviewVerbs
+понимали functword=1 pos=interviewVerbs
+понимать functword=1 pos=interviewVerbs
+понимаю functword=1 pos=interviewVerbs
+понимают functword=1 pos=interviewVerbs
+предложил functword=1 pos=interviewVerbs
+предложила functword=1 pos=interviewVerbs
+предложили functword=1 pos=interviewVerbs
+предложить functword=1 pos=interviewVerbs
+рассказал functword=1 pos=interviewVerbs
+рассказала functword=1 pos=interviewVerbs
+рассказали functword=1 pos=interviewVerbs
+рассказать functword=1 pos=interviewVerbs
+рассказывает functword=1 pos=interviewVerbs
+рассказывал functword=1 pos=interviewVerbs
+рассказывала functword=1 pos=interviewVerbs
+рассказывали functword=1 pos=interviewVerbs
+рассказывать functword=1 pos=interviewVerbs
+рассказывают functword=1 pos=interviewVerbs
+сказал functword=1 pos=interviewVerbs
+сказала functword=1 pos=interviewVerbs
+сказали functword=1 pos=interviewVerbs
+сказать functword=1 pos=interviewVerbs
+спросил functword=1 pos=interviewVerbs
+спросила functword=1 pos=interviewVerbs
+спросили functword=1 pos=interviewVerbs
+спросить functword=1 pos=interviewVerbs
+указал functword=1 pos=interviewVerbs
+указала functword=1 pos=interviewVerbs
+указали functword=1 pos=interviewVerbs
+указать functword=1 pos=interviewVerbs
+
+### Delexicalized Verbs
+#--------------------------------------
+берем functword=1 pos=delexicalizedVerbs
+берешь functword=1 pos=delexicalizedVerbs
+беру functword=1 pos=delexicalizedVerbs
+берут functword=1 pos=delexicalizedVerbs
+берём functword=1 pos=delexicalizedVerbs
+берёт functword=1 pos=delexicalizedVerbs
+берёте functword=1 pos=delexicalizedVerbs
+берёшь functword=1 pos=delexicalizedVerbs
+брал functword=1 pos=delexicalizedVerbs
+брала functword=1 pos=delexicalizedVerbs
+брали functword=1 pos=delexicalizedVerbs
+брало functword=1 pos=delexicalizedVerbs
+брать functword=1 pos=delexicalizedVerbs
+взял functword=1 pos=delexicalizedVerbs
+взяла functword=1 pos=delexicalizedVerbs
+взяли functword=1 pos=delexicalizedVerbs
+взяло functword=1 pos=delexicalizedVerbs
+взять functword=1 pos=delexicalizedVerbs
+возьмем functword=1 pos=delexicalizedVerbs
+возьмет functword=1 pos=delexicalizedVerbs
+возьмете functword=1 pos=delexicalizedVerbs
+возьмешь functword=1 pos=delexicalizedVerbs
+возьму functword=1 pos=delexicalizedVerbs
+возьмут functword=1 pos=delexicalizedVerbs
+давай functword=1 pos=delexicalizedVerbs
+давайте functword=1 pos=delexicalizedVerbs
+добавляем functword=1 pos=delexicalizedVerbs
+добавляет functword=1 pos=delexicalizedVerbs
+добавляете functword=1 pos=delexicalizedVerbs
+добавляешь functword=1 pos=delexicalizedVerbs
+добавлял functword=1 pos=delexicalizedVerbs
+добавляла functword=1 pos=delexicalizedVerbs
+добавляли functword=1 pos=delexicalizedVerbs
+добавляло functword=1 pos=delexicalizedVerbs
+добавлять functword=1 pos=delexicalizedVerbs
+добавляю functword=1 pos=delexicalizedVerbs
+добавляют functword=1 pos=delexicalizedVerbs
+идем functword=1 pos=delexicalizedVerbs
+идет functword=1 pos=delexicalizedVerbs
+идете functword=1 pos=delexicalizedVerbs
+идешь functword=1 pos=delexicalizedVerbs
+идти functword=1 pos=delexicalizedVerbs
+иду functword=1 pos=delexicalizedVerbs
+идут functword=1 pos=delexicalizedVerbs
+идём functword=1 pos=delexicalizedVerbs
+идёт functword=1 pos=delexicalizedVerbs
+идёте functword=1 pos=delexicalizedVerbs
+идёшь functword=1 pos=delexicalizedVerbs
+имеем functword=1 pos=delexicalizedVerbs
+имеет functword=1 pos=delexicalizedVerbs
+имеете functword=1 pos=delexicalizedVerbs
+имеешь functword=1 pos=delexicalizedVerbs
+имел functword=1 pos=delexicalizedVerbs
+имела functword=1 pos=delexicalizedVerbs
+имели functword=1 pos=delexicalizedVerbs
+имело functword=1 pos=delexicalizedVerbs
+иметь functword=1 pos=delexicalizedVerbs
+имею functword=1 pos=delexicalizedVerbs
+имеют functword=1 pos=delexicalizedVerbs
+использовал functword=1 pos=delexicalizedVerbs
+использовала functword=1 pos=delexicalizedVerbs
+использовали functword=1 pos=delexicalizedVerbs
+использовало functword=1 pos=delexicalizedVerbs
+использовать functword=1 pos=delexicalizedVerbs
+используем functword=1 pos=delexicalizedVerbs
+используете functword=1 pos=delexicalizedVerbs
+используешь functword=1 pos=delexicalizedVerbs
+использую functword=1 pos=delexicalizedVerbs
+используют functword=1 pos=delexicalizedVerbs
+кажется functword=1 pos=delexicalizedVerbs
+кажутся functword=1 pos=delexicalizedVerbs
+казалась functword=1 pos=delexicalizedVerbs
+казались functword=1 pos=delexicalizedVerbs
+казалось functword=1 pos=delexicalizedVerbs
+казался functword=1 pos=delexicalizedVerbs
+казаться functword=1 pos=delexicalizedVerbs
+кладем functword=1 pos=delexicalizedVerbs
+кладет functword=1 pos=delexicalizedVerbs
+кладете functword=1 pos=delexicalizedVerbs
+кладешь functword=1 pos=delexicalizedVerbs
+кладу functword=1 pos=delexicalizedVerbs
+кладут functword=1 pos=delexicalizedVerbs
+кладём functword=1 pos=delexicalizedVerbs
+кладёт functword=1 pos=delexicalizedVerbs
+кладёте functword=1 pos=delexicalizedVerbs
+кладёшь functword=1 pos=delexicalizedVerbs
+класть functword=1 pos=delexicalizedVerbs
+означает functword=1 pos=delexicalizedVerbs
+означал functword=1 pos=delexicalizedVerbs
+означала functword=1 pos=delexicalizedVerbs
+означали functword=1 pos=delexicalizedVerbs
+означало functword=1 pos=delexicalizedVerbs
+означать functword=1 pos=delexicalizedVerbs
+означают functword=1 pos=delexicalizedVerbs
+покажем functword=1 pos=delexicalizedVerbs
+покажет functword=1 pos=delexicalizedVerbs
+покажете functword=1 pos=delexicalizedVerbs
+покажешь functword=1 pos=delexicalizedVerbs
+покажу functword=1 pos=delexicalizedVerbs
+покажут functword=1 pos=delexicalizedVerbs
+показал functword=1 pos=delexicalizedVerbs
+показала functword=1 pos=delexicalizedVerbs
+показали functword=1 pos=delexicalizedVerbs
+показало functword=1 pos=delexicalizedVerbs
+показать functword=1 pos=delexicalizedVerbs
+показываем functword=1 pos=delexicalizedVerbs
+показывает functword=1 pos=delexicalizedVerbs
+показываете functword=1 pos=delexicalizedVerbs
+показываешь functword=1 pos=delexicalizedVerbs
+показывал functword=1 pos=delexicalizedVerbs
+показывала functword=1 pos=delexicalizedVerbs
+показывали functword=1 pos=delexicalizedVerbs
+показывало functword=1 pos=delexicalizedVerbs
+показывать functword=1 pos=delexicalizedVerbs
+показываю functword=1 pos=delexicalizedVerbs
+показывают functword=1 pos=delexicalizedVerbs
+положат functword=1 pos=delexicalizedVerbs
+положил functword=1 pos=delexicalizedVerbs
+положила functword=1 pos=delexicalizedVerbs
+положили functword=1 pos=delexicalizedVerbs
+положило functword=1 pos=delexicalizedVerbs
+положим functword=1 pos=delexicalizedVerbs
+положит functword=1 pos=delexicalizedVerbs
+положите functword=1 pos=delexicalizedVerbs
+положить functword=1 pos=delexicalizedVerbs
+положишь functword=1 pos=delexicalizedVerbs
+положу functword=1 pos=delexicalizedVerbs
+попробовал functword=1 pos=delexicalizedVerbs
+попробовала functword=1 pos=delexicalizedVerbs
+попробовали functword=1 pos=delexicalizedVerbs
+попробовало functword=1 pos=delexicalizedVerbs
+попробовать functword=1 pos=delexicalizedVerbs
+попробуем functword=1 pos=delexicalizedVerbs
+попробует functword=1 pos=delexicalizedVerbs
+попробуете functword=1 pos=delexicalizedVerbs
+попробуешь functword=1 pos=delexicalizedVerbs
+попробую functword=1 pos=delexicalizedVerbs
+попробуют functword=1 pos=delexicalizedVerbs
+пробовал functword=1 pos=delexicalizedVerbs
+пробовала functword=1 pos=delexicalizedVerbs
+пробовали functword=1 pos=delexicalizedVerbs
+пробовало functword=1 pos=delexicalizedVerbs
+пробовать functword=1 pos=delexicalizedVerbs
+пробуем functword=1 pos=delexicalizedVerbs
+пробует functword=1 pos=delexicalizedVerbs
+пробуете functword=1 pos=delexicalizedVerbs
+пробуешь functword=1 pos=delexicalizedVerbs
+пробую functword=1 pos=delexicalizedVerbs
+пробуют functword=1 pos=delexicalizedVerbs
+состоим functword=1 pos=delexicalizedVerbs
+состоит functword=1 pos=delexicalizedVerbs
+состоите functword=1 pos=delexicalizedVerbs
+состоишь functword=1 pos=delexicalizedVerbs
+состою functword=1 pos=delexicalizedVerbs
+состоял functword=1 pos=delexicalizedVerbs
+состояла functword=1 pos=delexicalizedVerbs
+состояли functword=1 pos=delexicalizedVerbs
+состояло functword=1 pos=delexicalizedVerbs
+состоят functword=1 pos=delexicalizedVerbs
+состоять functword=1 pos=delexicalizedVerbs
+убедил functword=1 pos=delexicalizedVerbs
+убедила functword=1 pos=delexicalizedVerbs
+убедилась functword=1 pos=delexicalizedVerbs
+убедили functword=1 pos=delexicalizedVerbs
+убедилось functword=1 pos=delexicalizedVerbs
+убедился functword=1 pos=delexicalizedVerbs
+убедим functword=1 pos=delexicalizedVerbs
+убедимся functword=1 pos=delexicalizedVerbs
+убедит functword=1 pos=delexicalizedVerbs
+убедите functword=1 pos=delexicalizedVerbs
+убедитесь functword=1 pos=delexicalizedVerbs
+убедится functword=1 pos=delexicalizedVerbs
+убедишь functword=1 pos=delexicalizedVerbs
+убедишься functword=1 pos=delexicalizedVerbs
+убедят functword=1 pos=delexicalizedVerbs
+убедятся functword=1 pos=delexicalizedVerbs
+убеждать functword=1 pos=delexicalizedVerbs
+убеждаться functword=1 pos=delexicalizedVerbs
+хотел functword=1 pos=delexicalizedVerbs
+хотела functword=1 pos=delexicalizedVerbs
+хотели functword=1 pos=delexicalizedVerbs
+хотело functword=1 pos=delexicalizedVerbs
+хотеть functword=1 pos=delexicalizedVerbs
+хотим functword=1 pos=delexicalizedVerbs
+хотите functword=1 pos=delexicalizedVerbs
+хотят functword=1 pos=delexicalizedVerbs
+хочет functword=1 pos=delexicalizedVerbs
+хочешь functword=1 pos=delexicalizedVerbs
+хочу functword=1 pos=delexicalizedVerbs
+шел functword=1 pos=delexicalizedVerbs
+шла functword=1 pos=delexicalizedVerbs
+шли functword=1 pos=delexicalizedVerbs
+шло functword=1 pos=delexicalizedVerbs
+шёл functword=1 pos=delexicalizedVerbs
+являемся functword=1 pos=delexicalizedVerbs
+являетесь functword=1 pos=delexicalizedVerbs
+является functword=1 pos=delexicalizedVerbs
+являешься functword=1 pos=delexicalizedVerbs
+являлась functword=1 pos=delexicalizedVerbs
+являлись functword=1 pos=delexicalizedVerbs
+являлось functword=1 pos=delexicalizedVerbs
+являлся functword=1 pos=delexicalizedVerbs
+являться functword=1 pos=delexicalizedVerbs
+являюсь functword=1 pos=delexicalizedVerbs
+являются functword=1 pos=delexicalizedVerbs
+
+### Cardinal Numerals
+# Numerals
+#--------------------------------------
+восемнадцать functword=1 pos=cardinalNumerals
+восемь functword=1 pos=cardinalNumerals
+восемьдесят functword=1 pos=cardinalNumerals
+восемьсот functword=1 pos=cardinalNumerals
+два functword=1 pos=cardinalNumerals
+двадцать functword=1 pos=cardinalNumerals
+две functword=1 pos=cardinalNumerals
+двенадцать functword=1 pos=cardinalNumerals
+двести functword=1 pos=cardinalNumerals
+двое functword=1 pos=cardinalNumerals
+двоим functword=1 pos=cardinalNumerals
+двоими functword=1 pos=cardinalNumerals
+двоих functword=1 pos=cardinalNumerals
+двум functword=1 pos=cardinalNumerals
+двумя functword=1 pos=cardinalNumerals
+двух functword=1 pos=cardinalNumerals
+девяносто functword=1 pos=cardinalNumerals
+девятнадцать functword=1 pos=cardinalNumerals
+девять functword=1 pos=cardinalNumerals
+девятьсот functword=1 pos=cardinalNumerals
+десять functword=1 pos=cardinalNumerals
+миллиард functword=1 pos=cardinalNumerals
+миллиарда functword=1 pos=cardinalNumerals
+миллиардам functword=1 pos=cardinalNumerals
+миллиардами functword=1 pos=cardinalNumerals
+миллиардах functword=1 pos=cardinalNumerals
+миллиарде functword=1 pos=cardinalNumerals
+миллиардов functword=1 pos=cardinalNumerals
+миллиардом functword=1 pos=cardinalNumerals
+миллиарду functword=1 pos=cardinalNumerals
+миллиарды functword=1 pos=cardinalNumerals
+миллион functword=1 pos=cardinalNumerals
+миллиона functword=1 pos=cardinalNumerals
+миллионам functword=1 pos=cardinalNumerals
+миллионами functword=1 pos=cardinalNumerals
+миллионах functword=1 pos=cardinalNumerals
+миллионе functword=1 pos=cardinalNumerals
+миллионов functword=1 pos=cardinalNumerals
+миллионом functword=1 pos=cardinalNumerals
+миллиону functword=1 pos=cardinalNumerals
+миллионы functword=1 pos=cardinalNumerals
+один functword=1 pos=cardinalNumerals
+одиннадцать functword=1 pos=cardinalNumerals
+одна functword=1 pos=cardinalNumerals
+одни functword=1 pos=cardinalNumerals
+одно functword=1 pos=cardinalNumerals
+пятнадцать functword=1 pos=cardinalNumerals
+пять functword=1 pos=cardinalNumerals
+пятьдесят functword=1 pos=cardinalNumerals
+пятьсот functword=1 pos=cardinalNumerals
+семнадцать functword=1 pos=cardinalNumerals
+семь functword=1 pos=cardinalNumerals
+семьдесят functword=1 pos=cardinalNumerals
+семьсот functword=1 pos=cardinalNumerals
+сорок functword=1 pos=cardinalNumerals
+сотни functword=1 pos=cardinalNumerals
+сто functword=1 pos=cardinalNumerals
+трем functword=1 pos=cardinalNumerals
+тремя functword=1 pos=cardinalNumerals
+трех functword=1 pos=cardinalNumerals
+три functword=1 pos=cardinalNumerals
+тридцать functword=1 pos=cardinalNumerals
+тринадцать functword=1 pos=cardinalNumerals
+триста functword=1 pos=cardinalNumerals
+трое functword=1 pos=cardinalNumerals
+троим functword=1 pos=cardinalNumerals
+троих functword=1 pos=cardinalNumerals
+трём functword=1 pos=cardinalNumerals
+трёх functword=1 pos=cardinalNumerals
+тыс functword=1 pos=cardinalNumerals
+тысяча functword=1 pos=cardinalNumerals
+тысячам functword=1 pos=cardinalNumerals
+тысячами functword=1 pos=cardinalNumerals
+тысячах functword=1 pos=cardinalNumerals
+тысяче functword=1 pos=cardinalNumerals
+тысячей functword=1 pos=cardinalNumerals
+тысячи functword=1 pos=cardinalNumerals
+четыре functword=1 pos=cardinalNumerals
+четыреста functword=1 pos=cardinalNumerals
+четырнадцать functword=1 pos=cardinalNumerals
+шестнадцать functword=1 pos=cardinalNumerals
+шесть functword=1 pos=cardinalNumerals
+шестьдесят functword=1 pos=cardinalNumerals
+шестьсот functword=1 pos=cardinalNumerals
+
+### Ordinal Numerals
+#--------------------------------------
+восемнадцатая functword=1 pos=ordinalNumerals
+восемнадцатого functword=1 pos=ordinalNumerals
+восемнадцатое functword=1 pos=ordinalNumerals
+восемнадцатому functword=1 pos=ordinalNumerals
+восемнадцатые functword=1 pos=ordinalNumerals
+восемнадцатый functword=1 pos=ordinalNumerals
+восемнадцатым functword=1 pos=ordinalNumerals
+восемнадцатыми functword=1 pos=ordinalNumerals
+восемнадцатых functword=1 pos=ordinalNumerals
+восьмая functword=1 pos=ordinalNumerals
+восьмидесятая functword=1 pos=ordinalNumerals
+восьмидесятого functword=1 pos=ordinalNumerals
+восьмидесятое functword=1 pos=ordinalNumerals
+восьмидесятому functword=1 pos=ordinalNumerals
+восьмидесятые functword=1 pos=ordinalNumerals
+восьмидесятый functword=1 pos=ordinalNumerals
+восьмидесятым functword=1 pos=ordinalNumerals
+восьмидесятыми functword=1 pos=ordinalNumerals
+восьмидесятых functword=1 pos=ordinalNumerals
+восьмисотая functword=1 pos=ordinalNumerals
+восьмисотого functword=1 pos=ordinalNumerals
+восьмисотое functword=1 pos=ordinalNumerals
+восьмисотому functword=1 pos=ordinalNumerals
+восьмисотые functword=1 pos=ordinalNumerals
+восьмисотый functword=1 pos=ordinalNumerals
+восьмисотым functword=1 pos=ordinalNumerals
+восьмисотыми functword=1 pos=ordinalNumerals
+восьмисотых functword=1 pos=ordinalNumerals
+восьмого functword=1 pos=ordinalNumerals
+восьмое functword=1 pos=ordinalNumerals
+восьмой functword=1 pos=ordinalNumerals
+восьмому functword=1 pos=ordinalNumerals
+восьмые functword=1 pos=ordinalNumerals
+восьмым functword=1 pos=ordinalNumerals
+восьмыми functword=1 pos=ordinalNumerals
+восьмых functword=1 pos=ordinalNumerals
+вторая functword=1 pos=ordinalNumerals
+второго functword=1 pos=ordinalNumerals
+второе functword=1 pos=ordinalNumerals
+второй functword=1 pos=ordinalNumerals
+второй functword=1 pos=ordinalNumerals
+втором functword=1 pos=ordinalNumerals
+второму functword=1 pos=ordinalNumerals
+вторые functword=1 pos=ordinalNumerals
+вторым functword=1 pos=ordinalNumerals
+вторыми functword=1 pos=ordinalNumerals
+вторых functword=1 pos=ordinalNumerals
+двадцатая functword=1 pos=ordinalNumerals
+двадцатого functword=1 pos=ordinalNumerals
+двадцатое functword=1 pos=ordinalNumerals
+двадцатому functword=1 pos=ordinalNumerals
+двадцатые functword=1 pos=ordinalNumerals
+двадцатый functword=1 pos=ordinalNumerals
+двадцатым functword=1 pos=ordinalNumerals
+двадцатыми functword=1 pos=ordinalNumerals
+двадцатых functword=1 pos=ordinalNumerals
+двенадцатая functword=1 pos=ordinalNumerals
+двенадцатого functword=1 pos=ordinalNumerals
+двенадцатое functword=1 pos=ordinalNumerals
+двенадцатому functword=1 pos=ordinalNumerals
+двенадцатые functword=1 pos=ordinalNumerals
+двенадцатый functword=1 pos=ordinalNumerals
+двенадцатым functword=1 pos=ordinalNumerals
+двенадцатыми functword=1 pos=ordinalNumerals
+двенадцатых functword=1 pos=ordinalNumerals
+двухсотая functword=1 pos=ordinalNumerals
+двухсотого functword=1 pos=ordinalNumerals
+двухсотое functword=1 pos=ordinalNumerals
+двухсотому functword=1 pos=ordinalNumerals
+двухсотые functword=1 pos=ordinalNumerals
+двухсотый functword=1 pos=ordinalNumerals
+двухсотым functword=1 pos=ordinalNumerals
+двухсотыми functword=1 pos=ordinalNumerals
+двухсотых functword=1 pos=ordinalNumerals
+девяностая functword=1 pos=ordinalNumerals
+девяностого functword=1 pos=ordinalNumerals
+девяностое functword=1 pos=ordinalNumerals
+девяностому functword=1 pos=ordinalNumerals
+девяностые functword=1 pos=ordinalNumerals
+девяностый functword=1 pos=ordinalNumerals
+девяностым functword=1 pos=ordinalNumerals
+девяностыми functword=1 pos=ordinalNumerals
+девяностых functword=1 pos=ordinalNumerals
+девятая functword=1 pos=ordinalNumerals
+девятисотая functword=1 pos=ordinalNumerals
+девятисотого functword=1 pos=ordinalNumerals
+девятисотое functword=1 pos=ordinalNumerals
+девятисотому functword=1 pos=ordinalNumerals
+девятисотые functword=1 pos=ordinalNumerals
+девятисотый functword=1 pos=ordinalNumerals
+девятисотым functword=1 pos=ordinalNumerals
+девятисотыми functword=1 pos=ordinalNumerals
+девятисотых functword=1 pos=ordinalNumerals
+девятнадцатая functword=1 pos=ordinalNumerals
+девятнадцатого functword=1 pos=ordinalNumerals
+девятнадцатое functword=1 pos=ordinalNumerals
+девятнадцатому functword=1 pos=ordinalNumerals
+девятнадцатые functword=1 pos=ordinalNumerals
+девятнадцатый functword=1 pos=ordinalNumerals
+девятнадцатым functword=1 pos=ordinalNumerals
+девятнадцатыми functword=1 pos=ordinalNumerals
+девятнадцатых functword=1 pos=ordinalNumerals
+девятого functword=1 pos=ordinalNumerals
+девятое functword=1 pos=ordinalNumerals
+девятому functword=1 pos=ordinalNumerals
+девятые functword=1 pos=ordinalNumerals
+девятый functword=1 pos=ordinalNumerals
+девятым functword=1 pos=ordinalNumerals
+девятыми functword=1 pos=ordinalNumerals
+девятых functword=1 pos=ordinalNumerals
+десятая functword=1 pos=ordinalNumerals
+десятого functword=1 pos=ordinalNumerals
+десятое functword=1 pos=ordinalNumerals
+десятому functword=1 pos=ordinalNumerals
+десятые functword=1 pos=ordinalNumerals
+десятый functword=1 pos=ordinalNumerals
+десятым functword=1 pos=ordinalNumerals
+десятыми functword=1 pos=ordinalNumerals
+десятых functword=1 pos=ordinalNumerals
+миллиардная functword=1 pos=ordinalNumerals
+миллиардного functword=1 pos=ordinalNumerals
+миллиардное functword=1 pos=ordinalNumerals
+миллиардному functword=1 pos=ordinalNumerals
+миллиардные functword=1 pos=ordinalNumerals
+миллиардный functword=1 pos=ordinalNumerals
+миллиардным functword=1 pos=ordinalNumerals
+миллиардными functword=1 pos=ordinalNumerals
+миллиардных functword=1 pos=ordinalNumerals
+миллионная functword=1 pos=ordinalNumerals
+миллионного functword=1 pos=ordinalNumerals
+миллионное functword=1 pos=ordinalNumerals
+миллионному functword=1 pos=ordinalNumerals
+миллионные functword=1 pos=ordinalNumerals
+миллионный functword=1 pos=ordinalNumerals
+миллионным functword=1 pos=ordinalNumerals
+миллионными functword=1 pos=ordinalNumerals
+миллионных functword=1 pos=ordinalNumerals
+одиннадцатая functword=1 pos=ordinalNumerals
+одиннадцатого functword=1 pos=ordinalNumerals
+одиннадцатое functword=1 pos=ordinalNumerals
+одиннадцатому functword=1 pos=ordinalNumerals
+одиннадцатые functword=1 pos=ordinalNumerals
+одиннадцатый functword=1 pos=ordinalNumerals
+одиннадцатым functword=1 pos=ordinalNumerals
+одиннадцатыми functword=1 pos=ordinalNumerals
+одиннадцатых functword=1 pos=ordinalNumerals
+первая functword=1 pos=ordinalNumerals
+первого functword=1 pos=ordinalNumerals
+первое functword=1 pos=ordinalNumerals
+первой functword=1 pos=ordinalNumerals
+первом functword=1 pos=ordinalNumerals
+первому functword=1 pos=ordinalNumerals
+первые functword=1 pos=ordinalNumerals
+первый functword=1 pos=ordinalNumerals
+первым functword=1 pos=ordinalNumerals
+первыми functword=1 pos=ordinalNumerals
+первых functword=1 pos=ordinalNumerals
+пятая functword=1 pos=ordinalNumerals
+пятидесятая functword=1 pos=ordinalNumerals
+пятидесятого functword=1 pos=ordinalNumerals
+пятидесятое functword=1 pos=ordinalNumerals
+пятидесятому functword=1 pos=ordinalNumerals
+пятидесятые functword=1 pos=ordinalNumerals
+пятидесятый functword=1 pos=ordinalNumerals
+пятидесятым functword=1 pos=ordinalNumerals
+пятидесятыми functword=1 pos=ordinalNumerals
+пятидесятых functword=1 pos=ordinalNumerals
+пятисотая functword=1 pos=ordinalNumerals
+пятисотого functword=1 pos=ordinalNumerals
+пятисотое functword=1 pos=ordinalNumerals
+пятисотому functword=1 pos=ordinalNumerals
+пятисотые functword=1 pos=ordinalNumerals
+пятисотый functword=1 pos=ordinalNumerals
+пятисотым functword=1 pos=ordinalNumerals
+пятисотыми functword=1 pos=ordinalNumerals
+пятисотых functword=1 pos=ordinalNumerals
+пятнадцатая functword=1 pos=ordinalNumerals
+пятнадцатого functword=1 pos=ordinalNumerals
+пятнадцатое functword=1 pos=ordinalNumerals
+пятнадцатому functword=1 pos=ordinalNumerals
+пятнадцатые functword=1 pos=ordinalNumerals
+пятнадцатый functword=1 pos=ordinalNumerals
+пятнадцатым functword=1 pos=ordinalNumerals
+пятнадцатыми functword=1 pos=ordinalNumerals
+пятнадцатых functword=1 pos=ordinalNumerals
+пятого functword=1 pos=ordinalNumerals
+пятое functword=1 pos=ordinalNumerals
+пятом functword=1 pos=ordinalNumerals
+пятому functword=1 pos=ordinalNumerals
+пятые functword=1 pos=ordinalNumerals
+пятый functword=1 pos=ordinalNumerals
+пятым functword=1 pos=ordinalNumerals
+пятыми functword=1 pos=ordinalNumerals
+пятых functword=1 pos=ordinalNumerals
+седьмая functword=1 pos=ordinalNumerals
+седьмого functword=1 pos=ordinalNumerals
+седьмое functword=1 pos=ordinalNumerals
+седьмой functword=1 pos=ordinalNumerals
+седьмому functword=1 pos=ordinalNumerals
+седьмые functword=1 pos=ordinalNumerals
+седьмым functword=1 pos=ordinalNumerals
+седьмыми functword=1 pos=ordinalNumerals
+седьмых functword=1 pos=ordinalNumerals
+семидесятая functword=1 pos=ordinalNumerals
+семидесятого functword=1 pos=ordinalNumerals
+семидесятое functword=1 pos=ordinalNumerals
+семидесятому functword=1 pos=ordinalNumerals
+семидесятые functword=1 pos=ordinalNumerals
+семидесятый functword=1 pos=ordinalNumerals
+семидесятым functword=1 pos=ordinalNumerals
+семидесятыми functword=1 pos=ordinalNumerals
+семидесятых functword=1 pos=ordinalNumerals
+семисотая functword=1 pos=ordinalNumerals
+семисотого functword=1 pos=ordinalNumerals
+семисотое functword=1 pos=ordinalNumerals
+семисотому functword=1 pos=ordinalNumerals
+семисотые functword=1 pos=ordinalNumerals
+семисотый functword=1 pos=ordinalNumerals
+семисотым functword=1 pos=ordinalNumerals
+семисотыми functword=1 pos=ordinalNumerals
+семисотых functword=1 pos=ordinalNumerals
+семнадцатая functword=1 pos=ordinalNumerals
+семнадцатого functword=1 pos=ordinalNumerals
+семнадцатое functword=1 pos=ordinalNumerals
+семнадцатому functword=1 pos=ordinalNumerals
+семнадцатые functword=1 pos=ordinalNumerals
+семнадцатый functword=1 pos=ordinalNumerals
+семнадцатым functword=1 pos=ordinalNumerals
+семнадцатыми functword=1 pos=ordinalNumerals
+семнадцатых functword=1 pos=ordinalNumerals
+сороковая functword=1 pos=ordinalNumerals
+сорокового functword=1 pos=ordinalNumerals
+сороковое functword=1 pos=ordinalNumerals
+сороковой functword=1 pos=ordinalNumerals
+сороковому functword=1 pos=ordinalNumerals
+сороковые functword=1 pos=ordinalNumerals
+сороковым functword=1 pos=ordinalNumerals
+сороковыми functword=1 pos=ordinalNumerals
+сороковых functword=1 pos=ordinalNumerals
+сотая functword=1 pos=ordinalNumerals
+сотого functword=1 pos=ordinalNumerals
+сотое functword=1 pos=ordinalNumerals
+сотому functword=1 pos=ordinalNumerals
+сотые functword=1 pos=ordinalNumerals
+сотый functword=1 pos=ordinalNumerals
+сотым functword=1 pos=ordinalNumerals
+сотыми functword=1 pos=ordinalNumerals
+сотых functword=1 pos=ordinalNumerals
+третий functword=1 pos=ordinalNumerals
+третье functword=1 pos=ordinalNumerals
+третьего functword=1 pos=ordinalNumerals
+третьей functword=1 pos=ordinalNumerals
+третьем functword=1 pos=ordinalNumerals
+третьему functword=1 pos=ordinalNumerals
+третьи functword=1 pos=ordinalNumerals
+третьим functword=1 pos=ordinalNumerals
+третьими functword=1 pos=ordinalNumerals
+третьих functword=1 pos=ordinalNumerals
+третья functword=1 pos=ordinalNumerals
+трехсотая functword=1 pos=ordinalNumerals
+трехсотого functword=1 pos=ordinalNumerals
+трехсотое functword=1 pos=ordinalNumerals
+трехсотому functword=1 pos=ordinalNumerals
+трехсотые functword=1 pos=ordinalNumerals
+трехсотый functword=1 pos=ordinalNumerals
+трехсотым functword=1 pos=ordinalNumerals
+трехсотыми functword=1 pos=ordinalNumerals
+трехсотых functword=1 pos=ordinalNumerals
+тридцатая functword=1 pos=ordinalNumerals
+тридцатого functword=1 pos=ordinalNumerals
+тридцатое functword=1 pos=ordinalNumerals
+тридцатому functword=1 pos=ordinalNumerals
+тридцатые functword=1 pos=ordinalNumerals
+тридцатый functword=1 pos=ordinalNumerals
+тридцатым functword=1 pos=ordinalNumerals
+тридцатыми functword=1 pos=ordinalNumerals
+тридцатых functword=1 pos=ordinalNumerals
+тринадцатая functword=1 pos=ordinalNumerals
+тринадцатого functword=1 pos=ordinalNumerals
+тринадцатое functword=1 pos=ordinalNumerals
+тринадцатому functword=1 pos=ordinalNumerals
+тринадцатые functword=1 pos=ordinalNumerals
+тринадцатый functword=1 pos=ordinalNumerals
+тринадцатым functword=1 pos=ordinalNumerals
+тринадцатыми functword=1 pos=ordinalNumerals
+тринадцатых functword=1 pos=ordinalNumerals
+трёхсотая functword=1 pos=ordinalNumerals
+трёхсотого functword=1 pos=ordinalNumerals
+трёхсотое functword=1 pos=ordinalNumerals
+трёхсотому functword=1 pos=ordinalNumerals
+трёхсотые functword=1 pos=ordinalNumerals
+трёхсотый functword=1 pos=ordinalNumerals
+трёхсотым functword=1 pos=ordinalNumerals
+трёхсотыми functword=1 pos=ordinalNumerals
+трёхсотых functword=1 pos=ordinalNumerals
+тысячная functword=1 pos=ordinalNumerals
+тысячного functword=1 pos=ordinalNumerals
+тысячное functword=1 pos=ordinalNumerals
+тысячному functword=1 pos=ordinalNumerals
+тысячные functword=1 pos=ordinalNumerals
+тысячный functword=1 pos=ordinalNumerals
+тысячным functword=1 pos=ordinalNumerals
+тысячными functword=1 pos=ordinalNumerals
+тысячных functword=1 pos=ordinalNumerals
+четвертая functword=1 pos=ordinalNumerals
+четвертого functword=1 pos=ordinalNumerals
+четвертое functword=1 pos=ordinalNumerals
+четвертой functword=1 pos=ordinalNumerals
+четвертом functword=1 pos=ordinalNumerals
+четвертому functword=1 pos=ordinalNumerals
+четвертые functword=1 pos=ordinalNumerals
+четвертый functword=1 pos=ordinalNumerals
+четвертым functword=1 pos=ordinalNumerals
+четвертыми functword=1 pos=ordinalNumerals
+четвертых functword=1 pos=ordinalNumerals
+четырехсотая functword=1 pos=ordinalNumerals
+четырехсотого functword=1 pos=ordinalNumerals
+четырехсотое functword=1 pos=ordinalNumerals
+четырехсотому functword=1 pos=ordinalNumerals
+четырехсотые functword=1 pos=ordinalNumerals
+четырехсотый functword=1 pos=ordinalNumerals
+четырехсотым functword=1 pos=ordinalNumerals
+четырехсотыми functword=1 pos=ordinalNumerals
+четырехсотых functword=1 pos=ordinalNumerals
+четырнадцатая functword=1 pos=ordinalNumerals
+четырнадцатого functword=1 pos=ordinalNumerals
+четырнадцатое functword=1 pos=ordinalNumerals
+четырнадцатому functword=1 pos=ordinalNumerals
+четырнадцатые functword=1 pos=ordinalNumerals
+четырнадцатый functword=1 pos=ordinalNumerals
+четырнадцатым functword=1 pos=ordinalNumerals
+четырнадцатыми functword=1 pos=ordinalNumerals
+четырнадцатых functword=1 pos=ordinalNumerals
+четырёхсотая functword=1 pos=ordinalNumerals
+четырёхсотого functword=1 pos=ordinalNumerals
+четырёхсотое functword=1 pos=ordinalNumerals
+четырёхсотому functword=1 pos=ordinalNumerals
+четырёхсотые functword=1 pos=ordinalNumerals
+четырёхсотый functword=1 pos=ordinalNumerals
+четырёхсотым functword=1 pos=ordinalNumerals
+четырёхсотыми functword=1 pos=ordinalNumerals
+четырёхсотых functword=1 pos=ordinalNumerals
+шестая functword=1 pos=ordinalNumerals
+шестидесятая functword=1 pos=ordinalNumerals
+шестидесятого functword=1 pos=ordinalNumerals
+шестидесятое functword=1 pos=ordinalNumerals
+шестидесятому functword=1 pos=ordinalNumerals
+шестидесятые functword=1 pos=ordinalNumerals
+шестидесятый functword=1 pos=ordinalNumerals
+шестидесятым functword=1 pos=ordinalNumerals
+шестидесятыми functword=1 pos=ordinalNumerals
+шестидесятых functword=1 pos=ordinalNumerals
+шестисотая functword=1 pos=ordinalNumerals
+шестисотого functword=1 pos=ordinalNumerals
+шестисотое functword=1 pos=ordinalNumerals
+шестисотому functword=1 pos=ordinalNumerals
+шестисотые functword=1 pos=ordinalNumerals
+шестисотый functword=1 pos=ordinalNumerals
+шестисотым functword=1 pos=ordinalNumerals
+шестисотыми functword=1 pos=ordinalNumerals
+шестисотых functword=1 pos=ordinalNumerals
+шестнадцатая functword=1 pos=ordinalNumerals
+шестнадцатого functword=1 pos=ordinalNumerals
+шестнадцатое functword=1 pos=ordinalNumerals
+шестнадцатому functword=1 pos=ordinalNumerals
+шестнадцатые functword=1 pos=ordinalNumerals
+шестнадцатый functword=1 pos=ordinalNumerals
+шестнадцатым functword=1 pos=ordinalNumerals
+шестнадцатыми functword=1 pos=ordinalNumerals
+шестнадцатых functword=1 pos=ordinalNumerals
+шестого functword=1 pos=ordinalNumerals
+шестое functword=1 pos=ordinalNumerals
+шестой functword=1 pos=ordinalNumerals
+шестому functword=1 pos=ordinalNumerals
+шестые functword=1 pos=ordinalNumerals
+шестым functword=1 pos=ordinalNumerals
+шестыми functword=1 pos=ordinalNumerals
+шестых functword=1 pos=ordinalNumerals
+
+### Personal Pronouns
+# Pronouns (in all cases)
+#--------------------------------------
+вам functword=1 pos=personalPronouns
+вами functword=1 pos=personalPronouns
+вас functword=1 pos=personalPronouns
+вы functword=1 pos=personalPronouns
+его functword=1 pos=personalPronouns
+ее functword=1 pos=personalPronouns
+ей functword=1 pos=personalPronouns
+ему functword=1 pos=personalPronouns
+ею functword=1 pos=personalPronouns
+её functword=1 pos=personalPronouns
+им functword=1 pos=personalPronouns
+ими functword=1 pos=personalPronouns
+их functword=1 pos=personalPronouns
+меня functword=1 pos=personalPronouns
+мне functword=1 pos=personalPronouns
+мной functword=1 pos=personalPronouns
+мною functword=1 pos=personalPronouns
+мы functword=1 pos=personalPronouns
+нам functword=1 pos=personalPronouns
+нами functword=1 pos=personalPronouns
+нас functword=1 pos=personalPronouns
+него functword=1 pos=personalPronouns
+нее functword=1 pos=personalPronouns
+ней functword=1 pos=personalPronouns
+нем functword=1 pos=personalPronouns
+нему functword=1 pos=personalPronouns
+нею functword=1 pos=personalPronouns
+неё functword=1 pos=personalPronouns
+ним functword=1 pos=personalPronouns
+ними functword=1 pos=personalPronouns
+них functword=1 pos=personalPronouns
+нём functword=1 pos=personalPronouns
+он functword=1 pos=personalPronouns
+она functword=1 pos=personalPronouns
+они functword=1 pos=personalPronouns
+оно functword=1 pos=personalPronouns
+тебе functword=1 pos=personalPronouns
+тебя functword=1 pos=personalPronouns
+тобой functword=1 pos=personalPronouns
+ты functword=1 pos=personalPronouns
+я functword=1 pos=personalPronouns
+
+### Demonstrative Pronouns
+#--------------------------------------
+та functword=1 pos=demonstrativePronouns
+такая functword=1 pos=demonstrativePronouns
+такие functword=1 pos=demonstrativePronouns
+таким functword=1 pos=demonstrativePronouns
+такими functword=1 pos=demonstrativePronouns
+таких functword=1 pos=demonstrativePronouns
+такого functword=1 pos=demonstrativePronouns
+такое functword=1 pos=demonstrativePronouns
+такой functword=1 pos=demonstrativePronouns
+таком functword=1 pos=demonstrativePronouns
+такому functword=1 pos=demonstrativePronouns
+такую functword=1 pos=demonstrativePronouns
+те functword=1 pos=demonstrativePronouns
+тем functword=1 pos=demonstrativePronouns
+теми functword=1 pos=demonstrativePronouns
+тех functword=1 pos=demonstrativePronouns
+то functword=1 pos=demonstrativePronouns
+того functword=1 pos=demonstrativePronouns
+той functword=1 pos=demonstrativePronouns
+том functword=1 pos=demonstrativePronouns
+тому functword=1 pos=demonstrativePronouns
+тот functword=1 pos=demonstrativePronouns
+ту functword=1 pos=demonstrativePronouns
+эта functword=1 pos=demonstrativePronouns
+этакая functword=1 pos=demonstrativePronouns
+этакие functword=1 pos=demonstrativePronouns
+этакий functword=1 pos=demonstrativePronouns
+этаким functword=1 pos=demonstrativePronouns
+этакими functword=1 pos=demonstrativePronouns
+этаких functword=1 pos=demonstrativePronouns
+этакого functword=1 pos=demonstrativePronouns
+этакое functword=1 pos=demonstrativePronouns
+этаком functword=1 pos=demonstrativePronouns
+этакому functword=1 pos=demonstrativePronouns
+этакую functword=1 pos=demonstrativePronouns
+эти functword=1 pos=demonstrativePronouns
+этим functword=1 pos=demonstrativePronouns
+этими functword=1 pos=demonstrativePronouns
+этих functword=1 pos=demonstrativePronouns
+это functword=1 pos=demonstrativePronouns
+этого functword=1 pos=demonstrativePronouns
+этой functword=1 pos=demonstrativePronouns
+этом functword=1 pos=demonstrativePronouns
+этому functword=1 pos=demonstrativePronouns
+этот functword=1 pos=demonstrativePronouns
+эту functword=1 pos=demonstrativePronouns
+
+### Possessive Pronouns
+#--------------------------------------
+ваш functword=1 pos=possessivePronouns
+ваша functword=1 pos=possessivePronouns
+ваше functword=1 pos=possessivePronouns
+вашего functword=1 pos=possessivePronouns
+вашей functword=1 pos=possessivePronouns
+вашем functword=1 pos=possessivePronouns
+вашему functword=1 pos=possessivePronouns
+ваши functword=1 pos=possessivePronouns
+вашим functword=1 pos=possessivePronouns
+ваших functword=1 pos=possessivePronouns
+его functword=1 pos=possessivePronouns
+ее functword=1 pos=possessivePronouns
+их functword=1 pos=possessivePronouns
+мое functword=1 pos=possessivePronouns
+моего functword=1 pos=possessivePronouns
+моей functword=1 pos=possessivePronouns
+моему functword=1 pos=possessivePronouns
+мои functword=1 pos=possessivePronouns
+моим functword=1 pos=possessivePronouns
+моим functword=1 pos=possessivePronouns
+моих functword=1 pos=possessivePronouns
+мой functword=1 pos=possessivePronouns
+моя functword=1 pos=possessivePronouns
+моё functword=1 pos=possessivePronouns
+моём functword=1 pos=possessivePronouns
+наш functword=1 pos=possessivePronouns
+наша functword=1 pos=possessivePronouns
+наше functword=1 pos=possessivePronouns
+нашего functword=1 pos=possessivePronouns
+нашей functword=1 pos=possessivePronouns
+нашем functword=1 pos=possessivePronouns
+нашему functword=1 pos=possessivePronouns
+наши functword=1 pos=possessivePronouns
+нашим functword=1 pos=possessivePronouns
+наших functword=1 pos=possessivePronouns
+свое functword=1 pos=possessivePronouns
+своего functword=1 pos=possessivePronouns
+своей functword=1 pos=possessivePronouns
+своем functword=1 pos=possessivePronouns
+своему functword=1 pos=possessivePronouns
+свои functword=1 pos=possessivePronouns
+своим functword=1 pos=possessivePronouns
+своим functword=1 pos=possessivePronouns
+своих functword=1 pos=possessivePronouns
+свой functword=1 pos=possessivePronouns
+свою functword=1 pos=possessivePronouns
+своя functword=1 pos=possessivePronouns
+своё functword=1 pos=possessivePronouns
+своём functword=1 pos=possessivePronouns
+твое functword=1 pos=possessivePronouns
+твоего functword=1 pos=possessivePronouns
+твоей functword=1 pos=possessivePronouns
+твоем functword=1 pos=possessivePronouns
+твоему functword=1 pos=possessivePronouns
+твои functword=1 pos=possessivePronouns
+твоим functword=1 pos=possessivePronouns
+твоим functword=1 pos=possessivePronouns
+твоих functword=1 pos=possessivePronouns
+твой functword=1 pos=possessivePronouns
+твою functword=1 pos=possessivePronouns
+твоя functword=1 pos=possessivePronouns
+твоё functword=1 pos=possessivePronouns
+твоём functword=1 pos=possessivePronouns
+
+### Quantifiers
+#--------------------------------------
+более functword=1 pos=quantifiers
+больше functword=1 pos=quantifiers
+большинства functword=1 pos=quantifiers
+большинстве functword=1 pos=quantifiers
+большинство functword=1 pos=quantifiers
+большинству functword=1 pos=quantifiers
+достаточно functword=1 pos=quantifiers
+же functword=1 pos=quantifiers
+зачем угодно functword=1 pos=quantifiers
+каждая functword=1 pos=quantifiers
+каждого functword=1 pos=quantifiers
+каждое functword=1 pos=quantifiers
+каждом functword=1 pos=quantifiers
+каждому functword=1 pos=quantifiers
+каждую functword=1 pos=quantifiers
+каждые functword=1 pos=quantifiers
+каждый functword=1 pos=quantifiers
+каждым functword=1 pos=quantifiers
+каждыми functword=1 pos=quantifiers
+каждых functword=1 pos=quantifiers
+кто угодно functword=1 pos=quantifiers
+мало functword=1 pos=quantifiers
+менее functword=1 pos=quantifiers
+меньше functword=1 pos=quantifiers
+многая functword=1 pos=quantifiers
+многие functword=1 pos=quantifiers
+многие functword=1 pos=quantifiers
+многим functword=1 pos=quantifiers
+многими functword=1 pos=quantifiers
+многих functword=1 pos=quantifiers
+много functword=1 pos=quantifiers
+многого functword=1 pos=quantifiers
+многое functword=1 pos=quantifiers
+многом functword=1 pos=quantifiers
+многому functword=1 pos=quantifiers
+многую functword=1 pos=quantifiers
+множество functword=1 pos=quantifiers
+наиболее functword=1 pos=quantifiers
+наименее functword=1 pos=quantifiers
+некоторая functword=1 pos=quantifiers
+некоторого functword=1 pos=quantifiers
+некоторое functword=1 pos=quantifiers
+некотором functword=1 pos=quantifiers
+некоторому functword=1 pos=quantifiers
+некоторую functword=1 pos=quantifiers
+некоторые functword=1 pos=quantifiers
+некоторый functword=1 pos=quantifiers
+некоторым functword=1 pos=quantifiers
+некоторыми functword=1 pos=quantifiers
+некоторых functword=1 pos=quantifiers
+нескольких functword=1 pos=quantifiers
+несколько functword=1 pos=quantifiers
+угодно functword=1 pos=quantifiers
+что угодно functword=1 pos=quantifiers
+
+### Reflexive Pronouns
+#--------------------------------------
+себе functword=1 pos=reflexivePronouns
+себя functword=1 pos=reflexivePronouns
+
+### Indefinite Pronouns
+#--------------------------------------
+весь functword=1 pos=indefinitePronouns
+все functword=1 pos=indefinitePronouns
+всего functword=1 pos=indefinitePronouns
+всем functword=1 pos=indefinitePronouns
+всеми functword=1 pos=indefinitePronouns
+всему functword=1 pos=indefinitePronouns
+всех functword=1 pos=indefinitePronouns
+всякая functword=1 pos=indefinitePronouns
+всякие functword=1 pos=indefinitePronouns
+всякий functword=1 pos=indefinitePronouns
+всяким functword=1 pos=indefinitePronouns
+всякими functword=1 pos=indefinitePronouns
+всяких functword=1 pos=indefinitePronouns
+всякого functword=1 pos=indefinitePronouns
+всякое functword=1 pos=indefinitePronouns
+всякой functword=1 pos=indefinitePronouns
+всяком functword=1 pos=indefinitePronouns
+всякому functword=1 pos=indefinitePronouns
+всякую functword=1 pos=indefinitePronouns
+всё functword=1 pos=indefinitePronouns
+всём functword=1 pos=indefinitePronouns
+какая functword=1 pos=indefinitePronouns
+какая \- то functword=1 pos=indefinitePronouns
+какие functword=1 pos=indefinitePronouns
+какие \- то functword=1 pos=indefinitePronouns
+каким functword=1 pos=indefinitePronouns
+каким \- то functword=1 pos=indefinitePronouns
+какими functword=1 pos=indefinitePronouns
+какими \- то functword=1 pos=indefinitePronouns
+каких functword=1 pos=indefinitePronouns
+каких \- то functword=1 pos=indefinitePronouns
+какого functword=1 pos=indefinitePronouns
+какого \- то functword=1 pos=indefinitePronouns
+какое functword=1 pos=indefinitePronouns
+какое \- то functword=1 pos=indefinitePronouns
+какой functword=1 pos=indefinitePronouns
+какой \- то functword=1 pos=indefinitePronouns
+каком functword=1 pos=indefinitePronouns
+каком \- то functword=1 pos=indefinitePronouns
+какому functword=1 pos=indefinitePronouns
+какому \- то functword=1 pos=indefinitePronouns
+какую functword=1 pos=indefinitePronouns
+какую \- то functword=1 pos=indefinitePronouns
+кем \- либо functword=1 pos=indefinitePronouns
+кем \- то functword=1 pos=indefinitePronouns
+кого \- либо functword=1 pos=indefinitePronouns
+кого \- то functword=1 pos=indefinitePronouns
+кое \- кем functword=1 pos=indefinitePronouns
+кое \- кого functword=1 pos=indefinitePronouns
+кое \- ком functword=1 pos=indefinitePronouns
+кое \- кому functword=1 pos=indefinitePronouns
+кое \- кто functword=1 pos=indefinitePronouns
+кое \- чего functword=1 pos=indefinitePronouns
+кое \- чем functword=1 pos=indefinitePronouns
+кое \- чему functword=1 pos=indefinitePronouns
+кое \- что functword=1 pos=indefinitePronouns
+кое \- чём functword=1 pos=indefinitePronouns
+ком \- либо functword=1 pos=indefinitePronouns
+ком \- то functword=1 pos=indefinitePronouns
+кому \- либо functword=1 pos=indefinitePronouns
+кому \- то functword=1 pos=indefinitePronouns
+кто \- либо functword=1 pos=indefinitePronouns
+кто \- то functword=1 pos=indefinitePronouns
+любая functword=1 pos=indefinitePronouns
+любого functword=1 pos=indefinitePronouns
+любое functword=1 pos=indefinitePronouns
+любой functword=1 pos=indefinitePronouns
+любом functword=1 pos=indefinitePronouns
+любому functword=1 pos=indefinitePronouns
+любую functword=1 pos=indefinitePronouns
+любые functword=1 pos=indefinitePronouns
+любым functword=1 pos=indefinitePronouns
+любыми functword=1 pos=indefinitePronouns
+любых functword=1 pos=indefinitePronouns
+ни о ком functword=1 pos=indefinitePronouns
+ни о чем functword=1 pos=indefinitePronouns
+ни о чём functword=1 pos=indefinitePronouns
+никем functword=1 pos=indefinitePronouns
+никого functword=1 pos=indefinitePronouns
+никому functword=1 pos=indefinitePronouns
+никто functword=1 pos=indefinitePronouns
+ничего functword=1 pos=indefinitePronouns
+ничем functword=1 pos=indefinitePronouns
+ничему functword=1 pos=indefinitePronouns
+ничто functword=1 pos=indefinitePronouns
+чего \- либо functword=1 pos=indefinitePronouns
+чего \- то functword=1 pos=indefinitePronouns
+чем \- либо functword=1 pos=indefinitePronouns
+чем \- то functword=1 pos=indefinitePronouns
+чему \- либо functword=1 pos=indefinitePronouns
+чему \- то functword=1 pos=indefinitePronouns
+что \- либо functword=1 pos=indefinitePronouns
+что \- то functword=1 pos=indefinitePronouns
+чём \- либо functword=1 pos=indefinitePronouns
+чём \- то functword=1 pos=indefinitePronouns
+
+### Indefinite Pronouns Possessive
+#--------------------------------------
+ничей functword=1 pos=indefinitePronounsPossessive
+ничейная functword=1 pos=indefinitePronounsPossessive
+ничейного functword=1 pos=indefinitePronounsPossessive
+ничейное functword=1 pos=indefinitePronounsPossessive
+ничейной functword=1 pos=indefinitePronounsPossessive
+ничейном functword=1 pos=indefinitePronounsPossessive
+ничейному functword=1 pos=indefinitePronounsPossessive
+ничейную functword=1 pos=indefinitePronounsPossessive
+ничейные functword=1 pos=indefinitePronounsPossessive
+ничейный functword=1 pos=indefinitePronounsPossessive
+ничейным functword=1 pos=indefinitePronounsPossessive
+ничейными functword=1 pos=indefinitePronounsPossessive
+ничейных functword=1 pos=indefinitePronounsPossessive
+чей \- то functword=1 pos=indefinitePronounsPossessive
+чье functword=1 pos=indefinitePronounsPossessive
+чье \- то functword=1 pos=indefinitePronounsPossessive
+чьего functword=1 pos=indefinitePronounsPossessive
+чьего \- то functword=1 pos=indefinitePronounsPossessive
+чьей functword=1 pos=indefinitePronounsPossessive
+чьей \- то functword=1 pos=indefinitePronounsPossessive
+чьем functword=1 pos=indefinitePronounsPossessive
+чьем \- то functword=1 pos=indefinitePronounsPossessive
+чьему functword=1 pos=indefinitePronounsPossessive
+чьему \- то functword=1 pos=indefinitePronounsPossessive
+чьи functword=1 pos=indefinitePronounsPossessive
+чьи \- то functword=1 pos=indefinitePronounsPossessive
+чьим functword=1 pos=indefinitePronounsPossessive
+чьим \- то functword=1 pos=indefinitePronounsPossessive
+чьими functword=1 pos=indefinitePronounsPossessive
+чьими \- то functword=1 pos=indefinitePronounsPossessive
+чьих functword=1 pos=indefinitePronounsPossessive
+чьих \- то functword=1 pos=indefinitePronounsPossessive
+чья functword=1 pos=indefinitePronounsPossessive
+чья \- то functword=1 pos=indefinitePronounsPossessive
+чьё functword=1 pos=indefinitePronounsPossessive
+чьё \- то functword=1 pos=indefinitePronounsPossessive
+чьём functword=1 pos=indefinitePronounsPossessive
+чьём \- то functword=1 pos=indefinitePronounsPossessive
+
+### Interrogative Determiners
+# Interrogatives, adverbs, intensifiers, adjectives
+#--------------------------------------
+которая functword=1 pos=interrogativeDeterminers
+которого functword=1 pos=interrogativeDeterminers
+которое functword=1 pos=interrogativeDeterminers
+котором functword=1 pos=interrogativeDeterminers
+которому functword=1 pos=interrogativeDeterminers
+которую functword=1 pos=interrogativeDeterminers
+которые functword=1 pos=interrogativeDeterminers
+который functword=1 pos=interrogativeDeterminers
+которым functword=1 pos=interrogativeDeterminers
+которыми functword=1 pos=interrogativeDeterminers
+которых functword=1 pos=interrogativeDeterminers
+чей functword=1 pos=interrogativeDeterminers
+чье functword=1 pos=interrogativeDeterminers
+чьего functword=1 pos=interrogativeDeterminers
+чьей functword=1 pos=interrogativeDeterminers
+чьем functword=1 pos=interrogativeDeterminers
+чьему functword=1 pos=interrogativeDeterminers
+чьи functword=1 pos=interrogativeDeterminers
+чьим functword=1 pos=interrogativeDeterminers
+чьими functword=1 pos=interrogativeDeterminers
+чьих functword=1 pos=interrogativeDeterminers
+чья functword=1 pos=interrogativeDeterminers
+чьё functword=1 pos=interrogativeDeterminers
+чьём functword=1 pos=interrogativeDeterminers
+
+### Interrogative Pronouns
+#--------------------------------------
+кем functword=1 pos=interrogativePronouns
+кого functword=1 pos=interrogativePronouns
+кому functword=1 pos=interrogativePronouns
+кто functword=1 pos=interrogativePronouns
+чего functword=1 pos=interrogativePronouns
+чем functword=1 pos=interrogativePronouns
+чему functword=1 pos=interrogativePronouns
+что functword=1 pos=interrogativePronouns
+чём functword=1 pos=interrogativePronouns
+
+### Interrogative Pro Adverbs
+#--------------------------------------
+где functword=1 pos=interrogativeProAdverbs
+зачем functword=1 pos=interrogativeProAdverbs
+как functword=1 pos=interrogativeProAdverbs
+когда functword=1 pos=interrogativeProAdverbs
+куда functword=1 pos=interrogativeProAdverbs
+ли functword=1 pos=interrogativeProAdverbs
+откуда functword=1 pos=interrogativeProAdverbs
+почему functword=1 pos=interrogativeProAdverbs
+сколько functword=1 pos=interrogativeProAdverbs
+
+### Locative Adverbs
+#--------------------------------------
+везде functword=1 pos=locativeAdverbs
+здесь functword=1 pos=locativeAdverbs
+нигде functword=1 pos=locativeAdverbs
+повсюду functword=1 pos=locativeAdverbs
+там functword=1 pos=locativeAdverbs
+
+### Adverbial Genitives
+#--------------------------------------
+всегда functword=1 pos=adverbialGenitives
+дважды functword=1 pos=adverbialGenitives
+единожды functword=1 pos=adverbialGenitives
+никогда functword=1 pos=adverbialGenitives
+однажды functword=1 pos=adverbialGenitives
+трижды functword=1 pos=adverbialGenitives
+уже functword=1 pos=adverbialGenitives
+четырежды functword=1 pos=adverbialGenitives
+
+### Intensifiers
+#--------------------------------------
+абсолютно functword=1 pos=intensifiers
+довольно functword=1 pos=intensifiers
+значительно functword=1 pos=intensifiers
+крайне functword=1 pos=intensifiers
+немного functword=1 pos=intensifiers
+немножко functword=1 pos=intensifiers
+несколько functword=1 pos=intensifiers
+очень functword=1 pos=intensifiers
+полностью functword=1 pos=intensifiers
+просто functword=1 pos=intensifiers
+совершенно functword=1 pos=intensifiers
+частично functword=1 pos=intensifiers
+часто functword=1 pos=intensifiers
+чаще functword=1 pos=intensifiers
+чрезвычайно functword=1 pos=intensifiers
+
+### General Adjectives Adverbs
+#--------------------------------------
+базовая functword=1 pos=generalAdjectivesAdverbs
+базового functword=1 pos=generalAdjectivesAdverbs
+базовое functword=1 pos=generalAdjectivesAdverbs
+базовой functword=1 pos=generalAdjectivesAdverbs
+базовом functword=1 pos=generalAdjectivesAdverbs
+базовому functword=1 pos=generalAdjectivesAdverbs
+базовые functword=1 pos=generalAdjectivesAdverbs
+базовый functword=1 pos=generalAdjectivesAdverbs
+базовым functword=1 pos=generalAdjectivesAdverbs
+базовым functword=1 pos=generalAdjectivesAdverbs
+базовыми functword=1 pos=generalAdjectivesAdverbs
+базовых functword=1 pos=generalAdjectivesAdverbs
+большая functword=1 pos=generalAdjectivesAdverbs
+большая functword=1 pos=generalAdjectivesAdverbs
+большего functword=1 pos=generalAdjectivesAdverbs
+большее functword=1 pos=generalAdjectivesAdverbs
+большей functword=1 pos=generalAdjectivesAdverbs
+большем functword=1 pos=generalAdjectivesAdverbs
+большему functword=1 pos=generalAdjectivesAdverbs
+большие functword=1 pos=generalAdjectivesAdverbs
+большие functword=1 pos=generalAdjectivesAdverbs
+больший functword=1 pos=generalAdjectivesAdverbs
+большим functword=1 pos=generalAdjectivesAdverbs
+большим functword=1 pos=generalAdjectivesAdverbs
+большим functword=1 pos=generalAdjectivesAdverbs
+большим functword=1 pos=generalAdjectivesAdverbs
+большими functword=1 pos=generalAdjectivesAdverbs
+большими functword=1 pos=generalAdjectivesAdverbs
+больших functword=1 pos=generalAdjectivesAdverbs
+больших functword=1 pos=generalAdjectivesAdverbs
+большого functword=1 pos=generalAdjectivesAdverbs
+большое functword=1 pos=generalAdjectivesAdverbs
+большой functword=1 pos=generalAdjectivesAdverbs
+большом functword=1 pos=generalAdjectivesAdverbs
+большому functword=1 pos=generalAdjectivesAdverbs
+быстрая functword=1 pos=generalAdjectivesAdverbs
+быстрее functword=1 pos=generalAdjectivesAdverbs
+быстрейшая functword=1 pos=generalAdjectivesAdverbs
+быстрейшего functword=1 pos=generalAdjectivesAdverbs
+быстрейшее functword=1 pos=generalAdjectivesAdverbs
+быстрейшей functword=1 pos=generalAdjectivesAdverbs
+быстрейшем functword=1 pos=generalAdjectivesAdverbs
+быстрейшему functword=1 pos=generalAdjectivesAdverbs
+быстрейшие functword=1 pos=generalAdjectivesAdverbs
+быстрейший functword=1 pos=generalAdjectivesAdverbs
+быстрейшим functword=1 pos=generalAdjectivesAdverbs
+быстрейшим functword=1 pos=generalAdjectivesAdverbs
+быстрейшими functword=1 pos=generalAdjectivesAdverbs
+быстрейших functword=1 pos=generalAdjectivesAdverbs
+быстро functword=1 pos=generalAdjectivesAdverbs
+быстрого functword=1 pos=generalAdjectivesAdverbs
+быстрое functword=1 pos=generalAdjectivesAdverbs
+быстрой functword=1 pos=generalAdjectivesAdverbs
+быстром functword=1 pos=generalAdjectivesAdverbs
+быстрому functword=1 pos=generalAdjectivesAdverbs
+быстрые functword=1 pos=generalAdjectivesAdverbs
+быстрый functword=1 pos=generalAdjectivesAdverbs
+быстрым functword=1 pos=generalAdjectivesAdverbs
+быстрым functword=1 pos=generalAdjectivesAdverbs
+быстрыми functword=1 pos=generalAdjectivesAdverbs
+быстрых functword=1 pos=generalAdjectivesAdverbs
+важная functword=1 pos=generalAdjectivesAdverbs
+важнее functword=1 pos=generalAdjectivesAdverbs
+важно functword=1 pos=generalAdjectivesAdverbs
+важного functword=1 pos=generalAdjectivesAdverbs
+важное functword=1 pos=generalAdjectivesAdverbs
+важной functword=1 pos=generalAdjectivesAdverbs
+важном functword=1 pos=generalAdjectivesAdverbs
+важному functword=1 pos=generalAdjectivesAdverbs
+важные functword=1 pos=generalAdjectivesAdverbs
+важный functword=1 pos=generalAdjectivesAdverbs
+важным functword=1 pos=generalAdjectivesAdverbs
+важным functword=1 pos=generalAdjectivesAdverbs
+важными functword=1 pos=generalAdjectivesAdverbs
+важных functword=1 pos=generalAdjectivesAdverbs
+возможная functword=1 pos=generalAdjectivesAdverbs
+возможного functword=1 pos=generalAdjectivesAdverbs
+возможное functword=1 pos=generalAdjectivesAdverbs
+возможной functword=1 pos=generalAdjectivesAdverbs
+возможном functword=1 pos=generalAdjectivesAdverbs
+возможному functword=1 pos=generalAdjectivesAdverbs
+возможные functword=1 pos=generalAdjectivesAdverbs
+возможный functword=1 pos=generalAdjectivesAdverbs
+возможным functword=1 pos=generalAdjectivesAdverbs
+возможным functword=1 pos=generalAdjectivesAdverbs
+возможными functword=1 pos=generalAdjectivesAdverbs
+возможных functword=1 pos=generalAdjectivesAdverbs
+высокая functword=1 pos=generalAdjectivesAdverbs
+высокие functword=1 pos=generalAdjectivesAdverbs
+высокий functword=1 pos=generalAdjectivesAdverbs
+высоким functword=1 pos=generalAdjectivesAdverbs
+высоким functword=1 pos=generalAdjectivesAdverbs
+высокими functword=1 pos=generalAdjectivesAdverbs
+высоких functword=1 pos=generalAdjectivesAdverbs
+высоко functword=1 pos=generalAdjectivesAdverbs
+высокого functword=1 pos=generalAdjectivesAdverbs
+высокое functword=1 pos=generalAdjectivesAdverbs
+высокой functword=1 pos=generalAdjectivesAdverbs
+высоком functword=1 pos=generalAdjectivesAdverbs
+высокому functword=1 pos=generalAdjectivesAdverbs
+выше functword=1 pos=generalAdjectivesAdverbs
+главная functword=1 pos=generalAdjectivesAdverbs
+главного functword=1 pos=generalAdjectivesAdverbs
+главное functword=1 pos=generalAdjectivesAdverbs
+главной functword=1 pos=generalAdjectivesAdverbs
+главном functword=1 pos=generalAdjectivesAdverbs
+главному functword=1 pos=generalAdjectivesAdverbs
+главные functword=1 pos=generalAdjectivesAdverbs
+главный functword=1 pos=generalAdjectivesAdverbs
+главным functword=1 pos=generalAdjectivesAdverbs
+главным functword=1 pos=generalAdjectivesAdverbs
+главными functword=1 pos=generalAdjectivesAdverbs
+главных functword=1 pos=generalAdjectivesAdverbs
+далекая functword=1 pos=generalAdjectivesAdverbs
+далекие functword=1 pos=generalAdjectivesAdverbs
+далекий functword=1 pos=generalAdjectivesAdverbs
+далеким functword=1 pos=generalAdjectivesAdverbs
+далеким functword=1 pos=generalAdjectivesAdverbs
+далекими functword=1 pos=generalAdjectivesAdverbs
+далеких functword=1 pos=generalAdjectivesAdverbs
+далекого functword=1 pos=generalAdjectivesAdverbs
+далекое functword=1 pos=generalAdjectivesAdverbs
+далекой functword=1 pos=generalAdjectivesAdverbs
+далеком functword=1 pos=generalAdjectivesAdverbs
+далекому functword=1 pos=generalAdjectivesAdverbs
+далёкая functword=1 pos=generalAdjectivesAdverbs
+далёкие functword=1 pos=generalAdjectivesAdverbs
+далёкий functword=1 pos=generalAdjectivesAdverbs
+далёким functword=1 pos=generalAdjectivesAdverbs
+далёким functword=1 pos=generalAdjectivesAdverbs
+далёкими functword=1 pos=generalAdjectivesAdverbs
+далёких functword=1 pos=generalAdjectivesAdverbs
+далёкого functword=1 pos=generalAdjectivesAdverbs
+далёкое functword=1 pos=generalAdjectivesAdverbs
+далёкой functword=1 pos=generalAdjectivesAdverbs
+далёком functword=1 pos=generalAdjectivesAdverbs
+далёкому functword=1 pos=generalAdjectivesAdverbs
+действительно functword=1 pos=generalAdjectivesAdverbs
+длинная functword=1 pos=generalAdjectivesAdverbs
+длиннее functword=1 pos=generalAdjectivesAdverbs
+длинного functword=1 pos=generalAdjectivesAdverbs
+длинное functword=1 pos=generalAdjectivesAdverbs
+длинной functword=1 pos=generalAdjectivesAdverbs
+длинном functword=1 pos=generalAdjectivesAdverbs
+длинному functword=1 pos=generalAdjectivesAdverbs
+длинные functword=1 pos=generalAdjectivesAdverbs
+длинный functword=1 pos=generalAdjectivesAdverbs
+длинным functword=1 pos=generalAdjectivesAdverbs
+длинным functword=1 pos=generalAdjectivesAdverbs
+длинными functword=1 pos=generalAdjectivesAdverbs
+длинных functword=1 pos=generalAdjectivesAdverbs
+доступная functword=1 pos=generalAdjectivesAdverbs
+доступного functword=1 pos=generalAdjectivesAdverbs
+доступное functword=1 pos=generalAdjectivesAdverbs
+доступной functword=1 pos=generalAdjectivesAdverbs
+доступном functword=1 pos=generalAdjectivesAdverbs
+доступному functword=1 pos=generalAdjectivesAdverbs
+доступные functword=1 pos=generalAdjectivesAdverbs
+доступный functword=1 pos=generalAdjectivesAdverbs
+доступным functword=1 pos=generalAdjectivesAdverbs
+доступным functword=1 pos=generalAdjectivesAdverbs
+доступными functword=1 pos=generalAdjectivesAdverbs
+доступных functword=1 pos=generalAdjectivesAdverbs
+жуткая functword=1 pos=generalAdjectivesAdverbs
+жуткие functword=1 pos=generalAdjectivesAdverbs
+жуткий functword=1 pos=generalAdjectivesAdverbs
+жутким functword=1 pos=generalAdjectivesAdverbs
+жутким functword=1 pos=generalAdjectivesAdverbs
+жуткими functword=1 pos=generalAdjectivesAdverbs
+жутких functword=1 pos=generalAdjectivesAdverbs
+жуткого functword=1 pos=generalAdjectivesAdverbs
+жуткое functword=1 pos=generalAdjectivesAdverbs
+жуткой functword=1 pos=generalAdjectivesAdverbs
+жутком functword=1 pos=generalAdjectivesAdverbs
+жуткому functword=1 pos=generalAdjectivesAdverbs
+законченная functword=1 pos=generalAdjectivesAdverbs
+законченного functword=1 pos=generalAdjectivesAdverbs
+законченное functword=1 pos=generalAdjectivesAdverbs
+законченной functword=1 pos=generalAdjectivesAdverbs
+законченном functword=1 pos=generalAdjectivesAdverbs
+законченному functword=1 pos=generalAdjectivesAdverbs
+законченные functword=1 pos=generalAdjectivesAdverbs
+законченный functword=1 pos=generalAdjectivesAdverbs
+законченным functword=1 pos=generalAdjectivesAdverbs
+законченным functword=1 pos=generalAdjectivesAdverbs
+законченными functword=1 pos=generalAdjectivesAdverbs
+законченных functword=1 pos=generalAdjectivesAdverbs
+занят functword=1 pos=generalAdjectivesAdverbs
+занята functword=1 pos=generalAdjectivesAdverbs
+занятая functword=1 pos=generalAdjectivesAdverbs
+занятого functword=1 pos=generalAdjectivesAdverbs
+занятое functword=1 pos=generalAdjectivesAdverbs
+занятой functword=1 pos=generalAdjectivesAdverbs
+занятом functword=1 pos=generalAdjectivesAdverbs
+занятому functword=1 pos=generalAdjectivesAdverbs
+заняты functword=1 pos=generalAdjectivesAdverbs
+занятые functword=1 pos=generalAdjectivesAdverbs
+занятым functword=1 pos=generalAdjectivesAdverbs
+занятым functword=1 pos=generalAdjectivesAdverbs
+занятыми functword=1 pos=generalAdjectivesAdverbs
+занятых functword=1 pos=generalAdjectivesAdverbs
+именно functword=1 pos=generalAdjectivesAdverbs
+короткая functword=1 pos=generalAdjectivesAdverbs
+короткие functword=1 pos=generalAdjectivesAdverbs
+короткий functword=1 pos=generalAdjectivesAdverbs
+коротким functword=1 pos=generalAdjectivesAdverbs
+коротким functword=1 pos=generalAdjectivesAdverbs
+короткими functword=1 pos=generalAdjectivesAdverbs
+коротких functword=1 pos=generalAdjectivesAdverbs
+короткого functword=1 pos=generalAdjectivesAdverbs
+короткое functword=1 pos=generalAdjectivesAdverbs
+короткой functword=1 pos=generalAdjectivesAdverbs
+коротком functword=1 pos=generalAdjectivesAdverbs
+короткому functword=1 pos=generalAdjectivesAdverbs
+короче functword=1 pos=generalAdjectivesAdverbs
+кошмарная functword=1 pos=generalAdjectivesAdverbs
+кошмарного functword=1 pos=generalAdjectivesAdverbs
+кошмарное functword=1 pos=generalAdjectivesAdverbs
+кошмарной functword=1 pos=generalAdjectivesAdverbs
+кошмарном functword=1 pos=generalAdjectivesAdverbs
+кошмарному functword=1 pos=generalAdjectivesAdverbs
+кошмарные functword=1 pos=generalAdjectivesAdverbs
+кошмарный functword=1 pos=generalAdjectivesAdverbs
+кошмарным functword=1 pos=generalAdjectivesAdverbs
+кошмарным functword=1 pos=generalAdjectivesAdverbs
+кошмарными functword=1 pos=generalAdjectivesAdverbs
+кошмарных functword=1 pos=generalAdjectivesAdverbs
+красивая functword=1 pos=generalAdjectivesAdverbs
+красивого functword=1 pos=generalAdjectivesAdverbs
+красивое functword=1 pos=generalAdjectivesAdverbs
+красивой functword=1 pos=generalAdjectivesAdverbs
+красивом functword=1 pos=generalAdjectivesAdverbs
+красивому functword=1 pos=generalAdjectivesAdverbs
+красивые functword=1 pos=generalAdjectivesAdverbs
+красивый functword=1 pos=generalAdjectivesAdverbs
+красивым functword=1 pos=generalAdjectivesAdverbs
+красивым functword=1 pos=generalAdjectivesAdverbs
+красивыми functword=1 pos=generalAdjectivesAdverbs
+красивых functword=1 pos=generalAdjectivesAdverbs
+легкая functword=1 pos=generalAdjectivesAdverbs
+легкие functword=1 pos=generalAdjectivesAdverbs
+легкий functword=1 pos=generalAdjectivesAdverbs
+легким functword=1 pos=generalAdjectivesAdverbs
+легким functword=1 pos=generalAdjectivesAdverbs
+легкими functword=1 pos=generalAdjectivesAdverbs
+легких functword=1 pos=generalAdjectivesAdverbs
+легко functword=1 pos=generalAdjectivesAdverbs
+легкого functword=1 pos=generalAdjectivesAdverbs
+легкое functword=1 pos=generalAdjectivesAdverbs
+легкой functword=1 pos=generalAdjectivesAdverbs
+легком functword=1 pos=generalAdjectivesAdverbs
+легкому functword=1 pos=generalAdjectivesAdverbs
+легче functword=1 pos=generalAdjectivesAdverbs
+лучшая functword=1 pos=generalAdjectivesAdverbs
+лучше functword=1 pos=generalAdjectivesAdverbs
+лучшего functword=1 pos=generalAdjectivesAdverbs
+лучшее functword=1 pos=generalAdjectivesAdverbs
+лучшей functword=1 pos=generalAdjectivesAdverbs
+лучшем functword=1 pos=generalAdjectivesAdverbs
+лучшему functword=1 pos=generalAdjectivesAdverbs
+лучшие functword=1 pos=generalAdjectivesAdverbs
+лучший functword=1 pos=generalAdjectivesAdverbs
+лучшим functword=1 pos=generalAdjectivesAdverbs
+лучшим functword=1 pos=generalAdjectivesAdverbs
+лучшими functword=1 pos=generalAdjectivesAdverbs
+лучших functword=1 pos=generalAdjectivesAdverbs
+лёгкая functword=1 pos=generalAdjectivesAdverbs
+лёгкие functword=1 pos=generalAdjectivesAdverbs
+лёгкий functword=1 pos=generalAdjectivesAdverbs
+лёгким functword=1 pos=generalAdjectivesAdverbs
+лёгким functword=1 pos=generalAdjectivesAdverbs
+лёгкими functword=1 pos=generalAdjectivesAdverbs
+лёгких functword=1 pos=generalAdjectivesAdverbs
+лёгкого functword=1 pos=generalAdjectivesAdverbs
+лёгкое functword=1 pos=generalAdjectivesAdverbs
+лёгкой functword=1 pos=generalAdjectivesAdverbs
+лёгком functword=1 pos=generalAdjectivesAdverbs
+лёгкому functword=1 pos=generalAdjectivesAdverbs
+маленькая functword=1 pos=generalAdjectivesAdverbs
+маленькие functword=1 pos=generalAdjectivesAdverbs
+маленький functword=1 pos=generalAdjectivesAdverbs
+маленьким functword=1 pos=generalAdjectivesAdverbs
+маленьким functword=1 pos=generalAdjectivesAdverbs
+маленькими functword=1 pos=generalAdjectivesAdverbs
+маленьких functword=1 pos=generalAdjectivesAdverbs
+маленького functword=1 pos=generalAdjectivesAdverbs
+маленькое functword=1 pos=generalAdjectivesAdverbs
+маленькой functword=1 pos=generalAdjectivesAdverbs
+маленьком functword=1 pos=generalAdjectivesAdverbs
+маленькому functword=1 pos=generalAdjectivesAdverbs
+малюсенькая functword=1 pos=generalAdjectivesAdverbs
+малюсенькие functword=1 pos=generalAdjectivesAdverbs
+малюсенький functword=1 pos=generalAdjectivesAdverbs
+малюсеньким functword=1 pos=generalAdjectivesAdverbs
+малюсеньким functword=1 pos=generalAdjectivesAdverbs
+малюсенькими functword=1 pos=generalAdjectivesAdverbs
+малюсеньких functword=1 pos=generalAdjectivesAdverbs
+малюсенького functword=1 pos=generalAdjectivesAdverbs
+малюсенькое functword=1 pos=generalAdjectivesAdverbs
+малюсенькой functword=1 pos=generalAdjectivesAdverbs
+малюсеньком functword=1 pos=generalAdjectivesAdverbs
+малюсенькому functword=1 pos=generalAdjectivesAdverbs
+меньшая functword=1 pos=generalAdjectivesAdverbs
+меньшая functword=1 pos=generalAdjectivesAdverbs
+меньшего functword=1 pos=generalAdjectivesAdverbs
+меньшего functword=1 pos=generalAdjectivesAdverbs
+меньшее functword=1 pos=generalAdjectivesAdverbs
+меньшее functword=1 pos=generalAdjectivesAdverbs
+меньшей functword=1 pos=generalAdjectivesAdverbs
+меньшей functword=1 pos=generalAdjectivesAdverbs
+меньшем functword=1 pos=generalAdjectivesAdverbs
+меньшем functword=1 pos=generalAdjectivesAdverbs
+меньшему functword=1 pos=generalAdjectivesAdverbs
+меньшему functword=1 pos=generalAdjectivesAdverbs
+меньшие functword=1 pos=generalAdjectivesAdverbs
+меньшие functword=1 pos=generalAdjectivesAdverbs
+меньший functword=1 pos=generalAdjectivesAdverbs
+меньший functword=1 pos=generalAdjectivesAdverbs
+меньшим functword=1 pos=generalAdjectivesAdverbs
+меньшим functword=1 pos=generalAdjectivesAdverbs
+меньшим functword=1 pos=generalAdjectivesAdverbs
+меньшим functword=1 pos=generalAdjectivesAdverbs
+меньшими functword=1 pos=generalAdjectivesAdverbs
+меньшими functword=1 pos=generalAdjectivesAdverbs
+меньших functword=1 pos=generalAdjectivesAdverbs
+меньших functword=1 pos=generalAdjectivesAdverbs
+многочисленная functword=1 pos=generalAdjectivesAdverbs
+многочисленного functword=1 pos=generalAdjectivesAdverbs
+многочисленное functword=1 pos=generalAdjectivesAdverbs
+многочисленной functword=1 pos=generalAdjectivesAdverbs
+многочисленном functword=1 pos=generalAdjectivesAdverbs
+многочисленному functword=1 pos=generalAdjectivesAdverbs
+многочисленные functword=1 pos=generalAdjectivesAdverbs
+многочисленный functword=1 pos=generalAdjectivesAdverbs
+многочисленным functword=1 pos=generalAdjectivesAdverbs
+многочисленным functword=1 pos=generalAdjectivesAdverbs
+многочисленными functword=1 pos=generalAdjectivesAdverbs
+многочисленных functword=1 pos=generalAdjectivesAdverbs
+молодая functword=1 pos=generalAdjectivesAdverbs
+молодого functword=1 pos=generalAdjectivesAdverbs
+молодое functword=1 pos=generalAdjectivesAdverbs
+молодой functword=1 pos=generalAdjectivesAdverbs
+молодом functword=1 pos=generalAdjectivesAdverbs
+молодому functword=1 pos=generalAdjectivesAdverbs
+молодым functword=1 pos=generalAdjectivesAdverbs
+называемая functword=1 pos=generalAdjectivesAdverbs
+называемого functword=1 pos=generalAdjectivesAdverbs
+называемое functword=1 pos=generalAdjectivesAdverbs
+называемой functword=1 pos=generalAdjectivesAdverbs
+называемом functword=1 pos=generalAdjectivesAdverbs
+называемому functword=1 pos=generalAdjectivesAdverbs
+называемые functword=1 pos=generalAdjectivesAdverbs
+называемый functword=1 pos=generalAdjectivesAdverbs
+называемым functword=1 pos=generalAdjectivesAdverbs
+называемым functword=1 pos=generalAdjectivesAdverbs
+называемыми functword=1 pos=generalAdjectivesAdverbs
+называемых functword=1 pos=generalAdjectivesAdverbs
+наибольшая functword=1 pos=generalAdjectivesAdverbs
+наибольшего functword=1 pos=generalAdjectivesAdverbs
+наибольшее functword=1 pos=generalAdjectivesAdverbs
+наибольшей functword=1 pos=generalAdjectivesAdverbs
+наибольшем functword=1 pos=generalAdjectivesAdverbs
+наибольшему functword=1 pos=generalAdjectivesAdverbs
+наибольшие functword=1 pos=generalAdjectivesAdverbs
+наибольший functword=1 pos=generalAdjectivesAdverbs
+наибольшим functword=1 pos=generalAdjectivesAdverbs
+наибольшим functword=1 pos=generalAdjectivesAdverbs
+наибольшими functword=1 pos=generalAdjectivesAdverbs
+наибольших functword=1 pos=generalAdjectivesAdverbs
+наименьшая functword=1 pos=generalAdjectivesAdverbs
+наименьшего functword=1 pos=generalAdjectivesAdverbs
+наименьшее functword=1 pos=generalAdjectivesAdverbs
+наименьшей functword=1 pos=generalAdjectivesAdverbs
+наименьшем functword=1 pos=generalAdjectivesAdverbs
+наименьшему functword=1 pos=generalAdjectivesAdverbs
+наименьшие functword=1 pos=generalAdjectivesAdverbs
+наименьший functword=1 pos=generalAdjectivesAdverbs
+наименьшим functword=1 pos=generalAdjectivesAdverbs
+наименьшим functword=1 pos=generalAdjectivesAdverbs
+наименьшими functword=1 pos=generalAdjectivesAdverbs
+наименьших functword=1 pos=generalAdjectivesAdverbs
+наихудшая functword=1 pos=generalAdjectivesAdverbs
+наихудшего functword=1 pos=generalAdjectivesAdverbs
+наихудшее functword=1 pos=generalAdjectivesAdverbs
+наихудшей functword=1 pos=generalAdjectivesAdverbs
+наихудшем functword=1 pos=generalAdjectivesAdverbs
+наихудшему functword=1 pos=generalAdjectivesAdverbs
+наихудшие functword=1 pos=generalAdjectivesAdverbs
+наихудший functword=1 pos=generalAdjectivesAdverbs
+наихудшим functword=1 pos=generalAdjectivesAdverbs
+наихудшим functword=1 pos=generalAdjectivesAdverbs
+наихудшими functword=1 pos=generalAdjectivesAdverbs
+наихудших functword=1 pos=generalAdjectivesAdverbs
+напрямую functword=1 pos=generalAdjectivesAdverbs
+настоящая functword=1 pos=generalAdjectivesAdverbs
+настоящего functword=1 pos=generalAdjectivesAdverbs
+настоящее functword=1 pos=generalAdjectivesAdverbs
+настоящей functword=1 pos=generalAdjectivesAdverbs
+настоящем functword=1 pos=generalAdjectivesAdverbs
+настоящему functword=1 pos=generalAdjectivesAdverbs
+настоящие functword=1 pos=generalAdjectivesAdverbs
+настоящий functword=1 pos=generalAdjectivesAdverbs
+настоящим functword=1 pos=generalAdjectivesAdverbs
+настоящим functword=1 pos=generalAdjectivesAdverbs
+настоящими functword=1 pos=generalAdjectivesAdverbs
+настоящих functword=1 pos=generalAdjectivesAdverbs
+недавнего functword=1 pos=generalAdjectivesAdverbs
+недавнее functword=1 pos=generalAdjectivesAdverbs
+недавней functword=1 pos=generalAdjectivesAdverbs
+недавнем functword=1 pos=generalAdjectivesAdverbs
+недавнему functword=1 pos=generalAdjectivesAdverbs
+недавние functword=1 pos=generalAdjectivesAdverbs
+недавний functword=1 pos=generalAdjectivesAdverbs
+недавним functword=1 pos=generalAdjectivesAdverbs
+недавним functword=1 pos=generalAdjectivesAdverbs
+недавними functword=1 pos=generalAdjectivesAdverbs
+недавних functword=1 pos=generalAdjectivesAdverbs
+недавняя functword=1 pos=generalAdjectivesAdverbs
+необходимая functword=1 pos=generalAdjectivesAdverbs
+необходимого functword=1 pos=generalAdjectivesAdverbs
+необходимое functword=1 pos=generalAdjectivesAdverbs
+необходимой functword=1 pos=generalAdjectivesAdverbs
+необходимом functword=1 pos=generalAdjectivesAdverbs
+необходимому functword=1 pos=generalAdjectivesAdverbs
+необходимые functword=1 pos=generalAdjectivesAdverbs
+необходимый functword=1 pos=generalAdjectivesAdverbs
+необходимым functword=1 pos=generalAdjectivesAdverbs
+необходимым functword=1 pos=generalAdjectivesAdverbs
+необходимыми functword=1 pos=generalAdjectivesAdverbs
+необходимых functword=1 pos=generalAdjectivesAdverbs
+ниже functword=1 pos=generalAdjectivesAdverbs
+низкая functword=1 pos=generalAdjectivesAdverbs
+низкие functword=1 pos=generalAdjectivesAdverbs
+низкий functword=1 pos=generalAdjectivesAdverbs
+низким functword=1 pos=generalAdjectivesAdverbs
+низким functword=1 pos=generalAdjectivesAdverbs
+низкими functword=1 pos=generalAdjectivesAdverbs
+низких functword=1 pos=generalAdjectivesAdverbs
+низкого functword=1 pos=generalAdjectivesAdverbs
+низкое functword=1 pos=generalAdjectivesAdverbs
+низкой functword=1 pos=generalAdjectivesAdverbs
+низком functword=1 pos=generalAdjectivesAdverbs
+низкому functword=1 pos=generalAdjectivesAdverbs
+новая functword=1 pos=generalAdjectivesAdverbs
+новейшая functword=1 pos=generalAdjectivesAdverbs
+новейшего functword=1 pos=generalAdjectivesAdverbs
+новейшее functword=1 pos=generalAdjectivesAdverbs
+новейшей functword=1 pos=generalAdjectivesAdverbs
+новейшем functword=1 pos=generalAdjectivesAdverbs
+новейшему functword=1 pos=generalAdjectivesAdverbs
+новейшие functword=1 pos=generalAdjectivesAdverbs
+новейший functword=1 pos=generalAdjectivesAdverbs
+новейшим functword=1 pos=generalAdjectivesAdverbs
+новейшим functword=1 pos=generalAdjectivesAdverbs
+новейшими functword=1 pos=generalAdjectivesAdverbs
+новейших functword=1 pos=generalAdjectivesAdverbs
+нового functword=1 pos=generalAdjectivesAdverbs
+новое functword=1 pos=generalAdjectivesAdverbs
+новом functword=1 pos=generalAdjectivesAdverbs
+новому functword=1 pos=generalAdjectivesAdverbs
+новые functword=1 pos=generalAdjectivesAdverbs
+новый functword=1 pos=generalAdjectivesAdverbs
+новым functword=1 pos=generalAdjectivesAdverbs
+новым functword=1 pos=generalAdjectivesAdverbs
+новыми functword=1 pos=generalAdjectivesAdverbs
+новых functword=1 pos=generalAdjectivesAdverbs
+нормальная functword=1 pos=generalAdjectivesAdverbs
+нормального functword=1 pos=generalAdjectivesAdverbs
+нормальное functword=1 pos=generalAdjectivesAdverbs
+нормальном functword=1 pos=generalAdjectivesAdverbs
+нормальному functword=1 pos=generalAdjectivesAdverbs
+нормальные functword=1 pos=generalAdjectivesAdverbs
+нормальный functword=1 pos=generalAdjectivesAdverbs
+нормальным functword=1 pos=generalAdjectivesAdverbs
+нормальным functword=1 pos=generalAdjectivesAdverbs
+нормальными functword=1 pos=generalAdjectivesAdverbs
+нормальных functword=1 pos=generalAdjectivesAdverbs
+обыкновенная functword=1 pos=generalAdjectivesAdverbs
+обыкновенного functword=1 pos=generalAdjectivesAdverbs
+обыкновенное functword=1 pos=generalAdjectivesAdverbs
+обыкновенном functword=1 pos=generalAdjectivesAdverbs
+обыкновенному functword=1 pos=generalAdjectivesAdverbs
+обыкновенные functword=1 pos=generalAdjectivesAdverbs
+обыкновенный functword=1 pos=generalAdjectivesAdverbs
+обыкновенным functword=1 pos=generalAdjectivesAdverbs
+обыкновенным functword=1 pos=generalAdjectivesAdverbs
+обыкновенными functword=1 pos=generalAdjectivesAdverbs
+обыкновенных functword=1 pos=generalAdjectivesAdverbs
+обычная functword=1 pos=generalAdjectivesAdverbs
+обычного functword=1 pos=generalAdjectivesAdverbs
+обычное functword=1 pos=generalAdjectivesAdverbs
+обычном functword=1 pos=generalAdjectivesAdverbs
+обычному functword=1 pos=generalAdjectivesAdverbs
+обычные functword=1 pos=generalAdjectivesAdverbs
+обычный functword=1 pos=generalAdjectivesAdverbs
+обычным functword=1 pos=generalAdjectivesAdverbs
+обычным functword=1 pos=generalAdjectivesAdverbs
+обычными functword=1 pos=generalAdjectivesAdverbs
+обычных functword=1 pos=generalAdjectivesAdverbs
+обязательно functword=1 pos=generalAdjectivesAdverbs
+основная functword=1 pos=generalAdjectivesAdverbs
+основного functword=1 pos=generalAdjectivesAdverbs
+основное functword=1 pos=generalAdjectivesAdverbs
+основной functword=1 pos=generalAdjectivesAdverbs
+основном functword=1 pos=generalAdjectivesAdverbs
+основному functword=1 pos=generalAdjectivesAdverbs
+основные functword=1 pos=generalAdjectivesAdverbs
+основным functword=1 pos=generalAdjectivesAdverbs
+основным functword=1 pos=generalAdjectivesAdverbs
+основными functword=1 pos=generalAdjectivesAdverbs
+основных functword=1 pos=generalAdjectivesAdverbs
+особенная functword=1 pos=generalAdjectivesAdverbs
+особенного functword=1 pos=generalAdjectivesAdverbs
+особенное functword=1 pos=generalAdjectivesAdverbs
+особенном functword=1 pos=generalAdjectivesAdverbs
+особенному functword=1 pos=generalAdjectivesAdverbs
+особенные functword=1 pos=generalAdjectivesAdverbs
+особенный functword=1 pos=generalAdjectivesAdverbs
+особенным functword=1 pos=generalAdjectivesAdverbs
+особенным functword=1 pos=generalAdjectivesAdverbs
+особенными functword=1 pos=generalAdjectivesAdverbs
+особенных functword=1 pos=generalAdjectivesAdverbs
+отличная functword=1 pos=generalAdjectivesAdverbs
+отличного functword=1 pos=generalAdjectivesAdverbs
+отличное functword=1 pos=generalAdjectivesAdverbs
+отличном functword=1 pos=generalAdjectivesAdverbs
+отличному functword=1 pos=generalAdjectivesAdverbs
+отличные functword=1 pos=generalAdjectivesAdverbs
+отличный functword=1 pos=generalAdjectivesAdverbs
+отличным functword=1 pos=generalAdjectivesAdverbs
+отличным functword=1 pos=generalAdjectivesAdverbs
+отличными functword=1 pos=generalAdjectivesAdverbs
+отличных functword=1 pos=generalAdjectivesAdverbs
+очевидная functword=1 pos=generalAdjectivesAdverbs
+очевидного functword=1 pos=generalAdjectivesAdverbs
+очевидное functword=1 pos=generalAdjectivesAdverbs
+очевидном functword=1 pos=generalAdjectivesAdverbs
+очевидному functword=1 pos=generalAdjectivesAdverbs
+очевидные functword=1 pos=generalAdjectivesAdverbs
+очевидный functword=1 pos=generalAdjectivesAdverbs
+очевидным functword=1 pos=generalAdjectivesAdverbs
+очевидным functword=1 pos=generalAdjectivesAdverbs
+очевидными functword=1 pos=generalAdjectivesAdverbs
+очевидных functword=1 pos=generalAdjectivesAdverbs
+плохая functword=1 pos=generalAdjectivesAdverbs
+плохие functword=1 pos=generalAdjectivesAdverbs
+плохим functword=1 pos=generalAdjectivesAdverbs
+плохим functword=1 pos=generalAdjectivesAdverbs
+плохими functword=1 pos=generalAdjectivesAdverbs
+плохих functword=1 pos=generalAdjectivesAdverbs
+плохого functword=1 pos=generalAdjectivesAdverbs
+плохое functword=1 pos=generalAdjectivesAdverbs
+плохой functword=1 pos=generalAdjectivesAdverbs
+плохом functword=1 pos=generalAdjectivesAdverbs
+плохому functword=1 pos=generalAdjectivesAdverbs
+последнего functword=1 pos=generalAdjectivesAdverbs
+последнее functword=1 pos=generalAdjectivesAdverbs
+последней functword=1 pos=generalAdjectivesAdverbs
+последнем functword=1 pos=generalAdjectivesAdverbs
+последнему functword=1 pos=generalAdjectivesAdverbs
+последние functword=1 pos=generalAdjectivesAdverbs
+последний functword=1 pos=generalAdjectivesAdverbs
+последним functword=1 pos=generalAdjectivesAdverbs
+последним functword=1 pos=generalAdjectivesAdverbs
+последними functword=1 pos=generalAdjectivesAdverbs
+последних functword=1 pos=generalAdjectivesAdverbs
+последняя functword=1 pos=generalAdjectivesAdverbs
+постоянная functword=1 pos=generalAdjectivesAdverbs
+постоянно functword=1 pos=generalAdjectivesAdverbs
+постоянного functword=1 pos=generalAdjectivesAdverbs
+постоянное functword=1 pos=generalAdjectivesAdverbs
+постоянном functword=1 pos=generalAdjectivesAdverbs
+постоянному functword=1 pos=generalAdjectivesAdverbs
+постоянные functword=1 pos=generalAdjectivesAdverbs
+постоянный functword=1 pos=generalAdjectivesAdverbs
+постоянным functword=1 pos=generalAdjectivesAdverbs
+постоянным functword=1 pos=generalAdjectivesAdverbs
+постоянными functword=1 pos=generalAdjectivesAdverbs
+постоянных functword=1 pos=generalAdjectivesAdverbs
+похожая functword=1 pos=generalAdjectivesAdverbs
+похожего functword=1 pos=generalAdjectivesAdverbs
+похожее functword=1 pos=generalAdjectivesAdverbs
+похожей functword=1 pos=generalAdjectivesAdverbs
+похожем functword=1 pos=generalAdjectivesAdverbs
+похожему functword=1 pos=generalAdjectivesAdverbs
+похожие functword=1 pos=generalAdjectivesAdverbs
+похожий functword=1 pos=generalAdjectivesAdverbs
+похожим functword=1 pos=generalAdjectivesAdverbs
+похожим functword=1 pos=generalAdjectivesAdverbs
+похожими functword=1 pos=generalAdjectivesAdverbs
+похожих functword=1 pos=generalAdjectivesAdverbs
+почти functword=1 pos=generalAdjectivesAdverbs
+предыдущая functword=1 pos=generalAdjectivesAdverbs
+предыдущего functword=1 pos=generalAdjectivesAdverbs
+предыдущее functword=1 pos=generalAdjectivesAdverbs
+предыдущей functword=1 pos=generalAdjectivesAdverbs
+предыдущем functword=1 pos=generalAdjectivesAdverbs
+предыдущему functword=1 pos=generalAdjectivesAdverbs
+предыдущие functword=1 pos=generalAdjectivesAdverbs
+предыдущий functword=1 pos=generalAdjectivesAdverbs
+предыдущим functword=1 pos=generalAdjectivesAdverbs
+предыдущим functword=1 pos=generalAdjectivesAdverbs
+предыдущими functword=1 pos=generalAdjectivesAdverbs
+предыдущих functword=1 pos=generalAdjectivesAdverbs
+простая functword=1 pos=generalAdjectivesAdverbs
+простейшая functword=1 pos=generalAdjectivesAdverbs
+простейшей functword=1 pos=generalAdjectivesAdverbs
+простейший functword=1 pos=generalAdjectivesAdverbs
+простого functword=1 pos=generalAdjectivesAdverbs
+простое functword=1 pos=generalAdjectivesAdverbs
+простой functword=1 pos=generalAdjectivesAdverbs
+простом functword=1 pos=generalAdjectivesAdverbs
+простому functword=1 pos=generalAdjectivesAdverbs
+простые functword=1 pos=generalAdjectivesAdverbs
+простым functword=1 pos=generalAdjectivesAdverbs
+простым functword=1 pos=generalAdjectivesAdverbs
+простыми functword=1 pos=generalAdjectivesAdverbs
+простых functword=1 pos=generalAdjectivesAdverbs
+проще functword=1 pos=generalAdjectivesAdverbs
+разная functword=1 pos=generalAdjectivesAdverbs
+разного functword=1 pos=generalAdjectivesAdverbs
+разное functword=1 pos=generalAdjectivesAdverbs
+разной functword=1 pos=generalAdjectivesAdverbs
+разном functword=1 pos=generalAdjectivesAdverbs
+разному functword=1 pos=generalAdjectivesAdverbs
+разные functword=1 pos=generalAdjectivesAdverbs
+разный functword=1 pos=generalAdjectivesAdverbs
+разным functword=1 pos=generalAdjectivesAdverbs
+разным functword=1 pos=generalAdjectivesAdverbs
+разными functword=1 pos=generalAdjectivesAdverbs
+разных functword=1 pos=generalAdjectivesAdverbs
+раннего functword=1 pos=generalAdjectivesAdverbs
+раннее functword=1 pos=generalAdjectivesAdverbs
+ранней functword=1 pos=generalAdjectivesAdverbs
+раннем functword=1 pos=generalAdjectivesAdverbs
+раннему functword=1 pos=generalAdjectivesAdverbs
+ранние functword=1 pos=generalAdjectivesAdverbs
+ранний functword=1 pos=generalAdjectivesAdverbs
+ранним functword=1 pos=generalAdjectivesAdverbs
+ранним functword=1 pos=generalAdjectivesAdverbs
+ранними functword=1 pos=generalAdjectivesAdverbs
+ранних functword=1 pos=generalAdjectivesAdverbs
+ранняя functword=1 pos=generalAdjectivesAdverbs
+самая functword=1 pos=generalAdjectivesAdverbs
+самого functword=1 pos=generalAdjectivesAdverbs
+самое functword=1 pos=generalAdjectivesAdverbs
+самой functword=1 pos=generalAdjectivesAdverbs
+самом functword=1 pos=generalAdjectivesAdverbs
+самому functword=1 pos=generalAdjectivesAdverbs
+самые functword=1 pos=generalAdjectivesAdverbs
+самый functword=1 pos=generalAdjectivesAdverbs
+самым functword=1 pos=generalAdjectivesAdverbs
+самым functword=1 pos=generalAdjectivesAdverbs
+самыми functword=1 pos=generalAdjectivesAdverbs
+самых functword=1 pos=generalAdjectivesAdverbs
+собственная functword=1 pos=generalAdjectivesAdverbs
+собственного functword=1 pos=generalAdjectivesAdverbs
+собственное functword=1 pos=generalAdjectivesAdverbs
+собственном functword=1 pos=generalAdjectivesAdverbs
+собственному functword=1 pos=generalAdjectivesAdverbs
+собственные functword=1 pos=generalAdjectivesAdverbs
+собственный functword=1 pos=generalAdjectivesAdverbs
+собственным functword=1 pos=generalAdjectivesAdverbs
+собственным functword=1 pos=generalAdjectivesAdverbs
+собственными functword=1 pos=generalAdjectivesAdverbs
+собственных functword=1 pos=generalAdjectivesAdverbs
+специальная functword=1 pos=generalAdjectivesAdverbs
+специального functword=1 pos=generalAdjectivesAdverbs
+специальное functword=1 pos=generalAdjectivesAdverbs
+специальном functword=1 pos=generalAdjectivesAdverbs
+специальному functword=1 pos=generalAdjectivesAdverbs
+специальные functword=1 pos=generalAdjectivesAdverbs
+специальный functword=1 pos=generalAdjectivesAdverbs
+специальным functword=1 pos=generalAdjectivesAdverbs
+специальным functword=1 pos=generalAdjectivesAdverbs
+специальными functword=1 pos=generalAdjectivesAdverbs
+специальных functword=1 pos=generalAdjectivesAdverbs
+специфичная functword=1 pos=generalAdjectivesAdverbs
+специфичного functword=1 pos=generalAdjectivesAdverbs
+специфичное functword=1 pos=generalAdjectivesAdverbs
+специфичном functword=1 pos=generalAdjectivesAdverbs
+специфичному functword=1 pos=generalAdjectivesAdverbs
+специфичные functword=1 pos=generalAdjectivesAdverbs
+специфичный functword=1 pos=generalAdjectivesAdverbs
+специфичным functword=1 pos=generalAdjectivesAdverbs
+специфичным functword=1 pos=generalAdjectivesAdverbs
+специфичными functword=1 pos=generalAdjectivesAdverbs
+специфичных functword=1 pos=generalAdjectivesAdverbs
+среднего functword=1 pos=generalAdjectivesAdverbs
+среднее functword=1 pos=generalAdjectivesAdverbs
+средней functword=1 pos=generalAdjectivesAdverbs
+среднем functword=1 pos=generalAdjectivesAdverbs
+среднему functword=1 pos=generalAdjectivesAdverbs
+средние functword=1 pos=generalAdjectivesAdverbs
+средний functword=1 pos=generalAdjectivesAdverbs
+средним functword=1 pos=generalAdjectivesAdverbs
+средним functword=1 pos=generalAdjectivesAdverbs
+средними functword=1 pos=generalAdjectivesAdverbs
+средних functword=1 pos=generalAdjectivesAdverbs
+средняя functword=1 pos=generalAdjectivesAdverbs
+старая functword=1 pos=generalAdjectivesAdverbs
+старейшая functword=1 pos=generalAdjectivesAdverbs
+старейшего functword=1 pos=generalAdjectivesAdverbs
+старейшее functword=1 pos=generalAdjectivesAdverbs
+старейшей functword=1 pos=generalAdjectivesAdverbs
+старейшем functword=1 pos=generalAdjectivesAdverbs
+старейшему functword=1 pos=generalAdjectivesAdverbs
+старейшие functword=1 pos=generalAdjectivesAdverbs
+старейший functword=1 pos=generalAdjectivesAdverbs
+старейшим functword=1 pos=generalAdjectivesAdverbs
+старейшим functword=1 pos=generalAdjectivesAdverbs
+старейшими functword=1 pos=generalAdjectivesAdverbs
+старейших functword=1 pos=generalAdjectivesAdverbs
+старого functword=1 pos=generalAdjectivesAdverbs
+старое functword=1 pos=generalAdjectivesAdverbs
+старой functword=1 pos=generalAdjectivesAdverbs
+старом functword=1 pos=generalAdjectivesAdverbs
+старому functword=1 pos=generalAdjectivesAdverbs
+старые functword=1 pos=generalAdjectivesAdverbs
+старый functword=1 pos=generalAdjectivesAdverbs
+старым functword=1 pos=generalAdjectivesAdverbs
+старым functword=1 pos=generalAdjectivesAdverbs
+старыми functword=1 pos=generalAdjectivesAdverbs
+старых functword=1 pos=generalAdjectivesAdverbs
+текущая functword=1 pos=generalAdjectivesAdverbs
+текущего functword=1 pos=generalAdjectivesAdverbs
+текущее functword=1 pos=generalAdjectivesAdverbs
+текущей functword=1 pos=generalAdjectivesAdverbs
+текущем functword=1 pos=generalAdjectivesAdverbs
+текущему functword=1 pos=generalAdjectivesAdverbs
+текущие functword=1 pos=generalAdjectivesAdverbs
+текущий functword=1 pos=generalAdjectivesAdverbs
+текущим functword=1 pos=generalAdjectivesAdverbs
+текущим functword=1 pos=generalAdjectivesAdverbs
+текущими functword=1 pos=generalAdjectivesAdverbs
+текущих functword=1 pos=generalAdjectivesAdverbs
+тяжелая functword=1 pos=generalAdjectivesAdverbs
+тяжелее functword=1 pos=generalAdjectivesAdverbs
+тяжелого functword=1 pos=generalAdjectivesAdverbs
+тяжелое functword=1 pos=generalAdjectivesAdverbs
+тяжелом functword=1 pos=generalAdjectivesAdverbs
+тяжелому functword=1 pos=generalAdjectivesAdverbs
+тяжелые functword=1 pos=generalAdjectivesAdverbs
+тяжелый functword=1 pos=generalAdjectivesAdverbs
+тяжелым functword=1 pos=generalAdjectivesAdverbs
+тяжелым functword=1 pos=generalAdjectivesAdverbs
+тяжелыми functword=1 pos=generalAdjectivesAdverbs
+тяжелых functword=1 pos=generalAdjectivesAdverbs
+тяжёлая functword=1 pos=generalAdjectivesAdverbs
+тяжёлого functword=1 pos=generalAdjectivesAdverbs
+тяжёлое functword=1 pos=generalAdjectivesAdverbs
+тяжёлом functword=1 pos=generalAdjectivesAdverbs
+тяжёлому functword=1 pos=generalAdjectivesAdverbs
+тяжёлые functword=1 pos=generalAdjectivesAdverbs
+тяжёлый functword=1 pos=generalAdjectivesAdverbs
+тяжёлым functword=1 pos=generalAdjectivesAdverbs
+тяжёлым functword=1 pos=generalAdjectivesAdverbs
+тяжёлыми functword=1 pos=generalAdjectivesAdverbs
+тяжёлых functword=1 pos=generalAdjectivesAdverbs
+хорошая functword=1 pos=generalAdjectivesAdverbs
+хорошего functword=1 pos=generalAdjectivesAdverbs
+хорошее functword=1 pos=generalAdjectivesAdverbs
+хорошей functword=1 pos=generalAdjectivesAdverbs
+хорошем functword=1 pos=generalAdjectivesAdverbs
+хорошему functword=1 pos=generalAdjectivesAdverbs
+хорошие functword=1 pos=generalAdjectivesAdverbs
+хороший functword=1 pos=generalAdjectivesAdverbs
+хорошим functword=1 pos=generalAdjectivesAdverbs
+хорошим functword=1 pos=generalAdjectivesAdverbs
+хорошими functword=1 pos=generalAdjectivesAdverbs
+хороших functword=1 pos=generalAdjectivesAdverbs
+хорошо functword=1 pos=generalAdjectivesAdverbs
+худшая functword=1 pos=generalAdjectivesAdverbs
+худшего functword=1 pos=generalAdjectivesAdverbs
+худшее functword=1 pos=generalAdjectivesAdverbs
+худшей functword=1 pos=generalAdjectivesAdverbs
+худшем functword=1 pos=generalAdjectivesAdverbs
+худшему functword=1 pos=generalAdjectivesAdverbs
+худшие functword=1 pos=generalAdjectivesAdverbs
+худший functword=1 pos=generalAdjectivesAdverbs
+худшим functword=1 pos=generalAdjectivesAdverbs
+худшим functword=1 pos=generalAdjectivesAdverbs
+худшими functword=1 pos=generalAdjectivesAdverbs
+худших functword=1 pos=generalAdjectivesAdverbs
+хуже functword=1 pos=generalAdjectivesAdverbs
+целая functword=1 pos=generalAdjectivesAdverbs
+целого functword=1 pos=generalAdjectivesAdverbs
+целое functword=1 pos=generalAdjectivesAdverbs
+целой functword=1 pos=generalAdjectivesAdverbs
+целом functword=1 pos=generalAdjectivesAdverbs
+целому functword=1 pos=generalAdjectivesAdverbs
+целые functword=1 pos=generalAdjectivesAdverbs
+целый functword=1 pos=generalAdjectivesAdverbs
+целым functword=1 pos=generalAdjectivesAdverbs
+целым functword=1 pos=generalAdjectivesAdverbs
+целыми functword=1 pos=generalAdjectivesAdverbs
+целых functword=1 pos=generalAdjectivesAdverbs
+
+### Prepositions
+#--------------------------------------
+а \- ля functword=1 pos=prepositions
+без functword=1 pos=prepositions
+без ведома functword=1 pos=prepositions
+безо functword=1 pos=prepositions
+благодаря functword=1 pos=prepositions
+близ functword=1 pos=prepositions
+в functword=1 pos=prepositions
+в адрес functword=1 pos=prepositions
+в аспекте functword=1 pos=prepositions
+в виде functword=1 pos=prepositions
+в глазах functword=1 pos=prepositions
+в глубь functword=1 pos=prepositions
+в деле functword=1 pos=prepositions
+в дополнение к functword=1 pos=prepositions
+в духе functword=1 pos=prepositions
+в завершение functword=1 pos=prepositions
+в зависимости от functword=1 pos=prepositions
+в заключение functword=1 pos=prepositions
+в знак functword=1 pos=prepositions
+в интересах functword=1 pos=prepositions
+в качестве functword=1 pos=prepositions
+в лице functword=1 pos=prepositions
+в меру functword=1 pos=prepositions
+в направлении functword=1 pos=prepositions
+в направлении к functword=1 pos=prepositions
+в направлении ко functword=1 pos=prepositions
+в нарушение functword=1 pos=prepositions
+в области functword=1 pos=prepositions
+в обмен на functword=1 pos=prepositions
+в обстановке functword=1 pos=prepositions
+в обход functword=1 pos=prepositions
+в ответ на functword=1 pos=prepositions
+в отдалении от functword=1 pos=prepositions
+в отличие от functword=1 pos=prepositions
+в отношении functword=1 pos=prepositions
+в память functword=1 pos=prepositions
+в плане functword=1 pos=prepositions
+в пользу functword=1 pos=prepositions
+в порядке functword=1 pos=prepositions
+в предвидении functword=1 pos=prepositions
+в предвкушении functword=1 pos=prepositions
+в преддверии functword=1 pos=prepositions
+в присутствии functword=1 pos=prepositions
+в продолжение functword=1 pos=prepositions
+в противность functword=1 pos=prepositions
+в противовес functword=1 pos=prepositions
+в противоположность functword=1 pos=prepositions
+в процессе functword=1 pos=prepositions
+в разрезе functword=1 pos=prepositions
+в районе functword=1 pos=prepositions
+в рамках functword=1 pos=prepositions
+в рассуждении functword=1 pos=prepositions
+в расчете на functword=1 pos=prepositions
+в результате functword=1 pos=prepositions
+в роли functword=1 pos=prepositions
+в ряду functword=1 pos=prepositions
+в свете functword=1 pos=prepositions
+в связи с functword=1 pos=prepositions
+в связи со functword=1 pos=prepositions
+в силу functword=1 pos=prepositions
+в случае functword=1 pos=prepositions
+в смысле functword=1 pos=prepositions
+в согласии с functword=1 pos=prepositions
+в сообществе с functword=1 pos=prepositions
+в соответствии с functword=1 pos=prepositions
+в соответствии со functword=1 pos=prepositions
+в сопоставлении с functword=1 pos=prepositions
+в сопровождении functword=1 pos=prepositions
+в составе functword=1 pos=prepositions
+в сравнении с functword=1 pos=prepositions
+в сравнении со functword=1 pos=prepositions
+в стороне от functword=1 pos=prepositions
+в сторону functword=1 pos=prepositions
+в сфере functword=1 pos=prepositions
+в счет functword=1 pos=prepositions
+в течение functword=1 pos=prepositions
+в угоду functword=1 pos=prepositions
+в унисон с functword=1 pos=prepositions
+в условиях functword=1 pos=prepositions
+в ущерб functword=1 pos=prepositions
+в форме functword=1 pos=prepositions
+в ходе functword=1 pos=prepositions
+в целях functword=1 pos=prepositions
+в честь functword=1 pos=prepositions
+в числе functword=1 pos=prepositions
+в число functword=1 pos=prepositions
+вблизи functword=1 pos=prepositions
+вблизи от functword=1 pos=prepositions
+вверху functword=1 pos=prepositions
+ввиду functword=1 pos=prepositions
+вглубь functword=1 pos=prepositions
+вдалеке от functword=1 pos=prepositions
+вдали functword=1 pos=prepositions
+вдали от functword=1 pos=prepositions
+вдобавок к functword=1 pos=prepositions
+вдобавок ко functword=1 pos=prepositions
+вдогон functword=1 pos=prepositions
+вдогонку functword=1 pos=prepositions
+вдоль functword=1 pos=prepositions
+вдоль по functword=1 pos=prepositions
+взамен functword=1 pos=prepositions
+включая functword=1 pos=prepositions
+вкось functword=1 pos=prepositions
+вкруг functword=1 pos=prepositions
+вместе с functword=1 pos=prepositions
+вместе со functword=1 pos=prepositions
+вместо functword=1 pos=prepositions
+вне functword=1 pos=prepositions
+вне зависимости от functword=1 pos=prepositions
+внизу functword=1 pos=prepositions
+внутри functword=1 pos=prepositions
+внутрь functword=1 pos=prepositions
+во functword=1 pos=prepositions
+во время functword=1 pos=prepositions
+во главе functword=1 pos=prepositions
+во главе с functword=1 pos=prepositions
+во главе со functword=1 pos=prepositions
+во избежание functword=1 pos=prepositions
+во изменение functword=1 pos=prepositions
+во имя functword=1 pos=prepositions
+во исполнение functword=1 pos=prepositions
+во славу functword=1 pos=prepositions
+вовнутрь functword=1 pos=prepositions
+возле functword=1 pos=prepositions
+вокруг functword=1 pos=prepositions
+волею functword=1 pos=prepositions
+вопреки functword=1 pos=prepositions
+вослед functword=1 pos=prepositions
+вперед functword=1 pos=prepositions
+впереди functword=1 pos=prepositions
+вплоть до functword=1 pos=prepositions
+впредь до functword=1 pos=prepositions
+вразрез functword=1 pos=prepositions
+времен functword=1 pos=prepositions
+вроде functword=1 pos=prepositions
+вслед functword=1 pos=prepositions
+вслед за functword=1 pos=prepositions
+вследствие functword=1 pos=prepositions
+выше functword=1 pos=prepositions
+для functword=1 pos=prepositions
+до functword=1 pos=prepositions
+за functword=1 pos=prepositions
+за исключением functword=1 pos=prepositions
+за счет functword=1 pos=prepositions
+заботами functword=1 pos=prepositions
+из functword=1 pos=prepositions
+из числа functword=1 pos=prepositions
+из \- за functword=1 pos=prepositions
+из \- под functword=1 pos=prepositions
+из \- подо functword=1 pos=prepositions
+изнутри functword=1 pos=prepositions
+изо functword=1 pos=prepositions
+именем functword=1 pos=prepositions
+имени functword=1 pos=prepositions
+исключая functword=1 pos=prepositions
+исходя из functword=1 pos=prepositions
+к functword=1 pos=prepositions
+к числу functword=1 pos=prepositions
+касаемо functword=1 pos=prepositions
+касательно functword=1 pos=prepositions
+ко functword=1 pos=prepositions
+кончая functword=1 pos=prepositions
+кроме functword=1 pos=prepositions
+кругом functword=1 pos=prepositions
+меж functword=1 pos=prepositions
+между functword=1 pos=prepositions
+мимо functword=1 pos=prepositions
+минуя functword=1 pos=prepositions
+на functword=1 pos=prepositions
+на functword=1 pos=prepositions
+на базе functword=1 pos=prepositions
+на благо functword=1 pos=prepositions
+на глазах у functword=1 pos=prepositions
+на грани functword=1 pos=prepositions
+на имя functword=1 pos=prepositions
+на манер functword=1 pos=prepositions
+на основании functword=1 pos=prepositions
+на основе functword=1 pos=prepositions
+на почве functword=1 pos=prepositions
+на правах functword=1 pos=prepositions
+на предмет functword=1 pos=prepositions
+на протяжении functword=1 pos=prepositions
+на пути functword=1 pos=prepositions
+на пути к functword=1 pos=prepositions
+на пути ко functword=1 pos=prepositions
+на путях functword=1 pos=prepositions
+на путях к functword=1 pos=prepositions
+на путях ко functword=1 pos=prepositions
+на радость functword=1 pos=prepositions
+на случай functword=1 pos=prepositions
+на смену functword=1 pos=prepositions
+на стороне functword=1 pos=prepositions
+на сторону functword=1 pos=prepositions
+на уровне functword=1 pos=prepositions
+на фоне functword=1 pos=prepositions
+наверху functword=1 pos=prepositions
+навстречу functword=1 pos=prepositions
+над functword=1 pos=prepositions
+надо functword=1 pos=prepositions
+назади functword=1 pos=prepositions
+накануне functword=1 pos=prepositions
+наперекор functword=1 pos=prepositions
+наперерез functword=1 pos=prepositions
+наперехват functword=1 pos=prepositions
+наподобие functword=1 pos=prepositions
+напротив functword=1 pos=prepositions
+наравне с functword=1 pos=prepositions
+наравне со functword=1 pos=prepositions
+наряду с functword=1 pos=prepositions
+наряду со functword=1 pos=prepositions
+насупротив functword=1 pos=prepositions
+насчет functword=1 pos=prepositions
+начиная functword=1 pos=prepositions
+начиная от functword=1 pos=prepositions
+начиная с functword=1 pos=prepositions
+начиная со functword=1 pos=prepositions
+не без functword=1 pos=prepositions
+не в пример functword=1 pos=prepositions
+не говоря о functword=1 pos=prepositions
+не говоря об functword=1 pos=prepositions
+не говоря обо functword=1 pos=prepositions
+не до functword=1 pos=prepositions
+не считая functword=1 pos=prepositions
+невдалеке от functword=1 pos=prepositions
+невзирая на functword=1 pos=prepositions
+недалеко functword=1 pos=prepositions
+недалеко от functword=1 pos=prepositions
+независимо functword=1 pos=prepositions
+независимо от functword=1 pos=prepositions
+неподалеку от functword=1 pos=prepositions
+несмотря на functword=1 pos=prepositions
+ниже functword=1 pos=prepositions
+о functword=1 pos=prepositions
+об functword=1 pos=prepositions
+обо functword=1 pos=prepositions
+около functword=1 pos=prepositions
+окрест functword=1 pos=prepositions
+от functword=1 pos=prepositions
+от имени functword=1 pos=prepositions
+от лица functword=1 pos=prepositions
+относительно functword=1 pos=prepositions
+ото functword=1 pos=prepositions
+памяти functword=1 pos=prepositions
+перед functword=1 pos=prepositions
+перед functword=1 pos=prepositions
+перед лицом functword=1 pos=prepositions
+передо functword=1 pos=prepositions
+передо functword=1 pos=prepositions
+плюс к functword=1 pos=prepositions
+плюс ко functword=1 pos=prepositions
+по functword=1 pos=prepositions
+по адресу functword=1 pos=prepositions
+по аналогии с functword=1 pos=prepositions
+по аналогии со functword=1 pos=prepositions
+по вине functword=1 pos=prepositions
+по истечении functword=1 pos=prepositions
+по линии functword=1 pos=prepositions
+по мере functword=1 pos=prepositions
+по направлению functword=1 pos=prepositions
+по направлению к functword=1 pos=prepositions
+по направлению ко functword=1 pos=prepositions
+по отношению к functword=1 pos=prepositions
+по отношению ко functword=1 pos=prepositions
+по поводу functword=1 pos=prepositions
+по праву functword=1 pos=prepositions
+по примеру functword=1 pos=prepositions
+по причине functword=1 pos=prepositions
+по прошествии functword=1 pos=prepositions
+по пути functword=1 pos=prepositions
+по случаю functword=1 pos=prepositions
+по сравнению с functword=1 pos=prepositions
+по сравнению со functword=1 pos=prepositions
+по стопам functword=1 pos=prepositions
+по части functword=1 pos=prepositions
+по \- за functword=1 pos=prepositions
+по \- над functword=1 pos=prepositions
+по \- под functword=1 pos=prepositions
+поблизости functword=1 pos=prepositions
+поблизости от functword=1 pos=prepositions
+поверх functword=1 pos=prepositions
+погодя functword=1 pos=prepositions
+под functword=1 pos=prepositions
+под видом functword=1 pos=prepositions
+под знаком functword=1 pos=prepositions
+под предлогом functword=1 pos=prepositions
+под председательством functword=1 pos=prepositions
+под эгидой functword=1 pos=prepositions
+подле functword=1 pos=prepositions
+подо functword=1 pos=prepositions
+подобно functword=1 pos=prepositions
+позади functword=1 pos=prepositions
+позднее functword=1 pos=prepositions
+поздней functword=1 pos=prepositions
+позже functword=1 pos=prepositions
+помимо functword=1 pos=prepositions
+поодаль от functword=1 pos=prepositions
+поперед functword=1 pos=prepositions
+поперек functword=1 pos=prepositions
+порядка functword=1 pos=prepositions
+посереди functword=1 pos=prepositions
+посередине functword=1 pos=prepositions
+посередке functword=1 pos=prepositions
+посередь functword=1 pos=prepositions
+после functword=1 pos=prepositions
+посреди functword=1 pos=prepositions
+посредине functword=1 pos=prepositions
+посредством functword=1 pos=prepositions
+превыше functword=1 pos=prepositions
+пред functword=1 pos=prepositions
+пред functword=1 pos=prepositions
+предо functword=1 pos=prepositions
+предо functword=1 pos=prepositions
+прежде functword=1 pos=prepositions
+при functword=1 pos=prepositions
+при всей functword=1 pos=prepositions
+при всем functword=1 pos=prepositions
+при всех functword=1 pos=prepositions
+при помощи functword=1 pos=prepositions
+при посредстве functword=1 pos=prepositions
+при условии functword=1 pos=prepositions
+применительно к functword=1 pos=prepositions
+применительно ко functword=1 pos=prepositions
+про functword=1 pos=prepositions
+промеж functword=1 pos=prepositions
+промежду functword=1 pos=prepositions
+против functword=1 pos=prepositions
+противно functword=1 pos=prepositions
+путем functword=1 pos=prepositions
+ради functword=1 pos=prepositions
+раньше functword=1 pos=prepositions
+рядом с functword=1 pos=prepositions
+рядом со functword=1 pos=prepositions
+с functword=1 pos=prepositions
+с ведома functword=1 pos=prepositions
+с помощью functword=1 pos=prepositions
+с учетом functword=1 pos=prepositions
+с целью functword=1 pos=prepositions
+сбоку functword=1 pos=prepositions
+сбоку от functword=1 pos=prepositions
+сверх functword=1 pos=prepositions
+сверху functword=1 pos=prepositions
+свыше functword=1 pos=prepositions
+сзади functword=1 pos=prepositions
+силами functword=1 pos=prepositions
+сквозь functword=1 pos=prepositions
+следом за functword=1 pos=prepositions
+смотря по functword=1 pos=prepositions
+снаружи functword=1 pos=prepositions
+снизу functword=1 pos=prepositions
+со functword=1 pos=prepositions
+со стороны functword=1 pos=prepositions
+совместно с functword=1 pos=prepositions
+совместно со functword=1 pos=prepositions
+совокупно с functword=1 pos=prepositions
+согласно functword=1 pos=prepositions
+согласно с functword=1 pos=prepositions
+согласно со functword=1 pos=prepositions
+сообразно functword=1 pos=prepositions
+сообразно с functword=1 pos=prepositions
+сообразно со functword=1 pos=prepositions
+сообща с functword=1 pos=prepositions
+сообща со functword=1 pos=prepositions
+соответственно functword=1 pos=prepositions
+соответственно с functword=1 pos=prepositions
+соответственно со functword=1 pos=prepositions
+соразмерно functword=1 pos=prepositions
+соразмерно с functword=1 pos=prepositions
+соразмерно со functword=1 pos=prepositions
+спереди functword=1 pos=prepositions
+спустя functword=1 pos=prepositions
+сравнительно с functword=1 pos=prepositions
+сравнительно со functword=1 pos=prepositions
+среди functword=1 pos=prepositions
+средь functword=1 pos=prepositions
+сродни functword=1 pos=prepositions
+судя по functword=1 pos=prepositions
+супротив functword=1 pos=prepositions
+считая functword=1 pos=prepositions
+типа functword=1 pos=prepositions
+у functword=1 pos=prepositions
+ценой functword=1 pos=prepositions
+ценою functword=1 pos=prepositions
+через functword=1 pos=prepositions
+что до functword=1 pos=prepositions
+
+### Coordinating Conjunctions
+# Conjunctions (also covered by transition words
+#--------------------------------------
+а functword=1 pos=coordinatingConjunctions
+еще functword=1 pos=coordinatingConjunctions
+ещё functword=1 pos=coordinatingConjunctions
+и functword=1 pos=coordinatingConjunctions
+и/или functword=1 pos=coordinatingConjunctions
+или functword=1 pos=coordinatingConjunctions
+
+### Subordinating Conjunctions
+#--------------------------------------
+даже functword=1 pos=subordinatingConjunctions
+если functword=1 pos=subordinatingConjunctions
+
+### Interjections
+#--------------------------------------
+ага functword=1 pos=interjections
+бее functword=1 pos=interjections
+вау functword=1 pos=interjections
+вот functword=1 pos=interjections
+ну functword=1 pos=interjections
+ой functword=1 pos=interjections
+ох functword=1 pos=interjections
+ох \- ох \- ох functword=1 pos=interjections
+тю \- тю functword=1 pos=interjections
+угу functword=1 pos=interjections
+упс functword=1 pos=interjections
+фуф functword=1 pos=interjections
+эх functword=1 pos=interjections
+
+### Recipe Words
+# These words and abbreviations are frequently used in recipes in lists of ingredients.
+#--------------------------------------
+г functword=1 pos=recipeWords
+гр functword=1 pos=recipeWords
+дл functword=1 pos=recipeWords
+кг functword=1 pos=recipeWords
+км functword=1 pos=recipeWords
+л functword=1 pos=recipeWords
+м functword=1 pos=recipeWords
+мг functword=1 pos=recipeWords
+мл functword=1 pos=recipeWords
+пол \- литра functword=1 pos=recipeWords
+полкило functword=1 pos=recipeWords
+см functword=1 pos=recipeWords
+ст functword=1 pos=recipeWords
+ч functword=1 pos=recipeWords
+
+### Time Words
+# "век" and all its forms were not added because of conflict with "веко"
+#--------------------------------------
+вчера functword=1 pos=timeWords
+гг functword=1 pos=timeWords
+год functword=1 pos=timeWords
+года functword=1 pos=timeWords
+году functword=1 pos=timeWords
+годы functword=1 pos=timeWords
+день functword=1 pos=timeWords
+дней functword=1 pos=timeWords
+дня functword=1 pos=timeWords
+до н э functword=1 pos=timeWords
+завтра functword=1 pos=timeWords
+лет functword=1 pos=timeWords
+месяц functword=1 pos=timeWords
+месяца functword=1 pos=timeWords
+месяцев functword=1 pos=timeWords
+минут functword=1 pos=timeWords
+минута functword=1 pos=timeWords
+н э functword=1 pos=timeWords
+недели functword=1 pos=timeWords
+недель functword=1 pos=timeWords
+неделя functword=1 pos=timeWords
+позавчера functword=1 pos=timeWords
+послезавтра functword=1 pos=timeWords
+сегодня functword=1 pos=timeWords
+секунд functword=1 pos=timeWords
+секунда functword=1 pos=timeWords
+тыс до н functword=1 pos=timeWords
+тыс до н э functword=1 pos=timeWords
+час functword=1 pos=timeWords
+часа functword=1 pos=timeWords
+часов functword=1 pos=timeWords
+
+### Vague Nouns
+# 'People' should only be removed in combination with 'some', 'many' and 'few' (and is therefore not yet included in the list below).
+#--------------------------------------
+аспект functword=1 pos=vagueNouns
+аспекта functword=1 pos=vagueNouns
+аспектам functword=1 pos=vagueNouns
+аспектами functword=1 pos=vagueNouns
+аспектах functword=1 pos=vagueNouns
+аспекте functword=1 pos=vagueNouns
+аспектом functword=1 pos=vagueNouns
+аспекту functword=1 pos=vagueNouns
+аспекты functword=1 pos=vagueNouns
+вещам functword=1 pos=vagueNouns
+вещами functword=1 pos=vagueNouns
+вещах functword=1 pos=vagueNouns
+вещей functword=1 pos=vagueNouns
+вещи functword=1 pos=vagueNouns
+вещь functword=1 pos=vagueNouns
+вещью functword=1 pos=vagueNouns
+вид functword=1 pos=vagueNouns
+вида functword=1 pos=vagueNouns
+видам functword=1 pos=vagueNouns
+видами functword=1 pos=vagueNouns
+видах functword=1 pos=vagueNouns
+виде functword=1 pos=vagueNouns
+видом functword=1 pos=vagueNouns
+виду functword=1 pos=vagueNouns
+виды functword=1 pos=vagueNouns
+дела functword=1 pos=vagueNouns
+делам functword=1 pos=vagueNouns
+делами functword=1 pos=vagueNouns
+делах functword=1 pos=vagueNouns
+деле functword=1 pos=vagueNouns
+дело functword=1 pos=vagueNouns
+делом functword=1 pos=vagueNouns
+делу functword=1 pos=vagueNouns
+деталей functword=1 pos=vagueNouns
+детали functword=1 pos=vagueNouns
+деталь functword=1 pos=vagueNouns
+деталью functword=1 pos=vagueNouns
+деталям functword=1 pos=vagueNouns
+деталями functword=1 pos=vagueNouns
+деталях functword=1 pos=vagueNouns
+идее functword=1 pos=vagueNouns
+идеей functword=1 pos=vagueNouns
+идеи functword=1 pos=vagueNouns
+идея functword=1 pos=vagueNouns
+идеям functword=1 pos=vagueNouns
+идеями functword=1 pos=vagueNouns
+идеях functword=1 pos=vagueNouns
+метод functword=1 pos=vagueNouns
+метода functword=1 pos=vagueNouns
+методам functword=1 pos=vagueNouns
+методами functword=1 pos=vagueNouns
+методах functword=1 pos=vagueNouns
+методе functword=1 pos=vagueNouns
+методом functword=1 pos=vagueNouns
+методу functword=1 pos=vagueNouns
+методы functword=1 pos=vagueNouns
+отличие functword=1 pos=vagueNouns
+отличий functword=1 pos=vagueNouns
+отличию functword=1 pos=vagueNouns
+отличия functword=1 pos=vagueNouns
+отличиям functword=1 pos=vagueNouns
+отличиями functword=1 pos=vagueNouns
+отличиях functword=1 pos=vagueNouns
+подробностей functword=1 pos=vagueNouns
+подробности functword=1 pos=vagueNouns
+подробность functword=1 pos=vagueNouns
+подробностью functword=1 pos=vagueNouns
+подробностям functword=1 pos=vagueNouns
+подробностями functword=1 pos=vagueNouns
+подробностях functword=1 pos=vagueNouns
+процент functword=1 pos=vagueNouns
+процента functword=1 pos=vagueNouns
+процентам functword=1 pos=vagueNouns
+процентами functword=1 pos=vagueNouns
+процентах functword=1 pos=vagueNouns
+проценте functword=1 pos=vagueNouns
+процентом functword=1 pos=vagueNouns
+проценту functword=1 pos=vagueNouns
+проценты functword=1 pos=vagueNouns
+пункт functword=1 pos=vagueNouns
+пункта functword=1 pos=vagueNouns
+пунктам functword=1 pos=vagueNouns
+пунктами functword=1 pos=vagueNouns
+пунктах functword=1 pos=vagueNouns
+пункте functword=1 pos=vagueNouns
+пунктом functword=1 pos=vagueNouns
+пункту functword=1 pos=vagueNouns
+пункты functword=1 pos=vagueNouns
+раз functword=1 pos=vagueNouns
+раза functword=1 pos=vagueNouns
+разам functword=1 pos=vagueNouns
+разами functword=1 pos=vagueNouns
+разах functword=1 pos=vagueNouns
+разе functword=1 pos=vagueNouns
+различие functword=1 pos=vagueNouns
+различий functword=1 pos=vagueNouns
+различию functword=1 pos=vagueNouns
+различия functword=1 pos=vagueNouns
+различиям functword=1 pos=vagueNouns
+различиями functword=1 pos=vagueNouns
+различиях functword=1 pos=vagueNouns
+разница functword=1 pos=vagueNouns
+разнице functword=1 pos=vagueNouns
+разницей functword=1 pos=vagueNouns
+разницу functword=1 pos=vagueNouns
+разницы functword=1 pos=vagueNouns
+разом functword=1 pos=vagueNouns
+разу functword=1 pos=vagueNouns
+разы functword=1 pos=vagueNouns
+свойств functword=1 pos=vagueNouns
+свойства functword=1 pos=vagueNouns
+свойствам functword=1 pos=vagueNouns
+свойствами functword=1 pos=vagueNouns
+свойствах functword=1 pos=vagueNouns
+свойстве functword=1 pos=vagueNouns
+свойство functword=1 pos=vagueNouns
+ситуацией functword=1 pos=vagueNouns
+ситуации functword=1 pos=vagueNouns
+ситуаций functword=1 pos=vagueNouns
+ситуация functword=1 pos=vagueNouns
+ситуациям functword=1 pos=vagueNouns
+ситуациями functword=1 pos=vagueNouns
+ситуациях functword=1 pos=vagueNouns
+случае functword=1 pos=vagueNouns
+случаем functword=1 pos=vagueNouns
+случаи functword=1 pos=vagueNouns
+случай functword=1 pos=vagueNouns
+случаю functword=1 pos=vagueNouns
+случая functword=1 pos=vagueNouns
+случаям functword=1 pos=vagueNouns
+случаями functword=1 pos=vagueNouns
+случаях functword=1 pos=vagueNouns
+способ functword=1 pos=vagueNouns
+способа functword=1 pos=vagueNouns
+способам functword=1 pos=vagueNouns
+способами functword=1 pos=vagueNouns
+способах functword=1 pos=vagueNouns
+способе functword=1 pos=vagueNouns
+способом functword=1 pos=vagueNouns
+способу functword=1 pos=vagueNouns
+способы functword=1 pos=vagueNouns
+сфера functword=1 pos=vagueNouns
+сферам functword=1 pos=vagueNouns
+сферами functword=1 pos=vagueNouns
+сферах functword=1 pos=vagueNouns
+сфере functword=1 pos=vagueNouns
+сферой functword=1 pos=vagueNouns
+сферу functword=1 pos=vagueNouns
+сферы functword=1 pos=vagueNouns
+сходств functword=1 pos=vagueNouns
+сходства functword=1 pos=vagueNouns
+сходствам functword=1 pos=vagueNouns
+сходствами functword=1 pos=vagueNouns
+сходствах functword=1 pos=vagueNouns
+сходстве functword=1 pos=vagueNouns
+сходство functword=1 pos=vagueNouns
+тема functword=1 pos=vagueNouns
+темам functword=1 pos=vagueNouns
+темами functword=1 pos=vagueNouns
+темах functword=1 pos=vagueNouns
+теме functword=1 pos=vagueNouns
+темой functword=1 pos=vagueNouns
+тему functword=1 pos=vagueNouns
+темы functword=1 pos=vagueNouns
+фактор functword=1 pos=vagueNouns
+фактора functword=1 pos=vagueNouns
+факторам functword=1 pos=vagueNouns
+факторами functword=1 pos=vagueNouns
+факторах functword=1 pos=vagueNouns
+факторе functword=1 pos=vagueNouns
+фактором functword=1 pos=vagueNouns
+фактору functword=1 pos=vagueNouns
+факторы functword=1 pos=vagueNouns
+частей functword=1 pos=vagueNouns
+части functword=1 pos=vagueNouns
+часть functword=1 pos=vagueNouns
+частью functword=1 pos=vagueNouns
+частям functword=1 pos=vagueNouns
+частями functword=1 pos=vagueNouns
+частях functword=1 pos=vagueNouns
+человек functword=1 pos=vagueNouns
+человека functword=1 pos=vagueNouns
+человеке functword=1 pos=vagueNouns
+человеком functword=1 pos=vagueNouns
+человеку functword=1 pos=vagueNouns
+штук functword=1 pos=vagueNouns
+штука functword=1 pos=vagueNouns
+штукам functword=1 pos=vagueNouns
+штуками functword=1 pos=vagueNouns
+штуках functword=1 pos=vagueNouns
+штуке functword=1 pos=vagueNouns
+штуки functword=1 pos=vagueNouns
+штуку functword=1 pos=vagueNouns
+
+### Miscellaneous
+# 'No' is already included in the quantifier list.
+#--------------------------------------
+аминь functword=1 pos=miscellaneous
+будто functword=1 pos=miscellaneous
+бы functword=1 pos=miscellaneous
+вдруг functword=1 pos=miscellaneous
+ведь functword=1 pos=miscellaneous
+верх functword=1 pos=miscellaneous
+вперед functword=1 pos=miscellaneous
+вперёд functword=1 pos=miscellaneous
+да functword=1 pos=miscellaneous
+зато functword=1 pos=miscellaneous
+и т д functword=1 pos=miscellaneous
+и т. д. functword=1 pos=miscellaneous
+и так далее functword=1 pos=miscellaneous
+и тому подобное functword=1 pos=miscellaneous
+иногда functword=1 pos=miscellaneous
+конечно functword=1 pos=miscellaneous
+назад functword=1 pos=miscellaneous
+напрочь functword=1 pos=miscellaneous
+не functword=1 pos=miscellaneous
+не functword=1 pos=miscellaneous
+нет functword=1 pos=miscellaneous
+ни functword=1 pos=miscellaneous
+низ functword=1 pos=miscellaneous
+ок functword=1 pos=miscellaneous
+окей functword=1 pos=miscellaneous
+отлично functword=1 pos=miscellaneous
+пожалуйста functword=1 pos=miscellaneous
+пока functword=1 pos=miscellaneous
+потом functword=1 pos=miscellaneous
+поэтому functword=1 pos=miscellaneous
+причем functword=1 pos=miscellaneous
+причём functword=1 pos=miscellaneous
+прости functword=1 pos=miscellaneous
+простите functword=1 pos=miscellaneous
+пускай functword=1 pos=miscellaneous
+пусть functword=1 pos=miscellaneous
+сам functword=1 pos=miscellaneous
+сама functword=1 pos=miscellaneous
+сами functword=1 pos=miscellaneous
+само functword=1 pos=miscellaneous
+сейчас functword=1 pos=miscellaneous
+сразу functword=1 pos=miscellaneous
+так functword=1 pos=miscellaneous
+также functword=1 pos=miscellaneous
+теперь functword=1 pos=miscellaneous
+тоже functword=1 pos=miscellaneous
+точно functword=1 pos=miscellaneous
+тут functword=1 pos=miscellaneous
+явно functword=1 pos=miscellaneous
+
+### Titles Preceding
+#--------------------------------------
+г \- жа functword=1 pos=titlesPreceding
+г \- н functword=1 pos=titlesPreceding
+гр functword=1 pos=titlesPreceding
+гр \- а functword=1 pos=titlesPreceding
+гр \- н functword=1 pos=titlesPreceding
+проф functword=1 pos=titlesPreceding
+тов functword=1 pos=titlesPreceding
+
+### Titles Following
+# "ст" is already included in recipe words
+#--------------------------------------
+мл functword=1 pos=titlesFollowing
