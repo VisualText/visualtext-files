@@ -749,6 +749,7 @@ add hier "concept" "sys" "dict" "A"
 add hier "concept" "sys" "dict" "wht"
 add hier "concept" "sys" "dict" "pnct"
 add hier "concept" "sys" "dict" "ctrl"
+add hier "concept" "sys" "dict" "emoji"
 add hier "concept" "sys" "dict" "unknown"
 
 quit
