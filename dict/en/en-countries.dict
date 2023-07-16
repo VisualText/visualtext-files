@@ -1,0 +1,257 @@
+# Country names in English
+afghanistan country=1 iso2=af iso3=afg
+albania country=1 iso2=al iso3=alb
+algeria country=1 iso2=dz iso3=dza
+american samoa country=1 iso2=as iso3=asm
+andorra country=1 iso2=ad iso3=and
+angola country=1 iso2=ao iso3=ago
+anguilla country=1 iso2=ai iso3=aia
+antarctica country=1 iso2=aq iso3=ata
+antigua and barbuda country=1 iso2=ag iso3=atg
+argentina country=1 iso2=ar iso3=arg
+armenia country=1 iso2=am iso3=arm
+aruba country=1 iso2=aw iso3=abw
+australia country=1 iso2=au iso3=aus
+austria country=1 iso2=at iso3=aut
+azerbaijan country=1 iso2=az iso3=aze
+bahamas country=1 iso2=bs iso3=bhs
+bahrain country=1 iso2=bh iso3=bhr
+bangladesh country=1 iso2=bd iso3=bgd
+barbados country=1 iso2=bb iso3=brb
+belarus country=1 iso2=by iso3=blr
+belgium country=1 iso2=be iso3=bel
+belize country=1 iso2=bz iso3=blz
+benin country=1 iso2=bj iso3=ben
+bermuda country=1 iso2=bm iso3=bmu
+bhutan country=1 iso2=bt iso3=btn
+bolivia country=1 iso2=bo iso3=bol
+plurinational state of bolivia country=1 iso2=bo iso3=bol
+bonaire, sint eustatius and saba country=1 iso2=bq iso3=bes
+bosnia and herzegovina country=1 iso2=ba iso3=bih
+botswana country=1 iso2=bw iso3=bwa
+bouvet island country=1 iso2=bv iso3=bvt
+brazil country=1 iso2=br iso3=bra
+british indian ocean territory country=1 iso2=io iso3=iot
+brunei darussalam country=1 iso2=bn iso3=brn
+bulgaria country=1 iso2=bg iso3=bgr
+burkina faso country=1 iso2=bf iso3=bfa
+burundi country=1 iso2=bi iso3=bdi
+cabo verde country=1 iso2=cv iso3=cpv
+cambodia country=1 iso2=kh iso3=khm
+cameroon country=1 iso2=cm iso3=cmr
+canada country=1 iso2=ca iso3=can
+cayman islands country=1 iso2=ky iso3=cym
+central african republic country=1 iso2=cf iso3=caf
+chad country=1 iso2=td iso3=tcd
+chile country=1 iso2=cl iso3=chl
+china country=1 iso2=cn iso3=chn
+christmas island country=1 iso2=cx iso3=cxr
+cocos country=1 iso2= iso3=
+colombia country=1 iso2=co iso3=col
+comoros country=1 iso2=km iso3=com
+congo country=1 iso2=cd iso3=cod
+the democratic republic of the congo country=1 iso2=cd iso3=cod
+cook islands country=1 iso2=ck iso3=cok
+costa rica country=1 iso2=cr iso3=cri
+croatia country=1 iso2=hr iso3=hrv
+cuba country=1 iso2=cu iso3=cub
+curaçao country=1 iso2=cw iso3=cuw
+cyprus country=1 iso2=cy iso3=cyp
+czechia country=1 iso2=cz iso3=cze
+côte d'ivoire country=1 iso2=ci iso3=civ
+denmark country=1 iso2=dk iso3=dnk
+djibouti country=1 iso2=dj iso3=dji
+dominica country=1 iso2=dm iso3=dma
+dominican republic country=1 iso2=do iso3=dom
+ecuador country=1 iso2=ec iso3=ecu
+egypt country=1 iso2=eg iso3=egy
+el salvador country=1 iso2=sv iso3=slv
+equatorial guinea country=1 iso2=gq iso3=gnq
+eritrea country=1 iso2=er iso3=eri
+estonia country=1 iso2=ee iso3=est
+eswatini country=1 iso2=sz iso3=swz
+ethiopia country=1 iso2=et iso3=eth
+falkland islands country=1 iso2= iso3=
+faroe islands country=1 iso2=fo iso3=fro
+fiji country=1 iso2=fj iso3=fji
+finland country=1 iso2=fi iso3=fin
+france country=1 iso2=fr iso3=fra
+french guiana country=1 iso2=gf iso3=guf
+french polynesia country=1 iso2=pf iso3=pyf
+french southern territories country=1 iso2=tf iso3=atf
+gabon country=1 iso2=ga iso3=gab
+gambia country=1 iso2=gm iso3=gmb
+georgia country=1 iso2=ge iso3=geo
+germany country=1 iso2=de iso3=deu
+ghana country=1 iso2=gh iso3=gha
+gibraltar country=1 iso2=gi iso3=gib
+greece country=1 iso2=gr iso3=grc
+greenland country=1 iso2=gl iso3=grl
+grenada country=1 iso2=gd iso3=grd
+guadeloupe country=1 iso2=gp iso3=glp
+guam country=1 iso2=gu iso3=gum
+guatemala country=1 iso2=gt iso3=gtm
+guernsey country=1 iso2=gg iso3=ggy
+guinea country=1 iso2=gn iso3=gin
+guinea-bissau country=1 iso2=gw iso3=gnb
+guyana country=1 iso2=gy iso3=guy
+haiti country=1 iso2=ht iso3=hti
+heard island and mcdonald islands country=1 iso2=hm iso3=hmd
+holy see country=1 iso2=va iso3=vat
+honduras country=1 iso2=hn iso3=hnd
+hong kong country=1 iso2=hk iso3=hkg
+hungary country=1 iso2=hu iso3=hun
+iceland country=1 iso2=is iso3=isl
+india country=1 iso2=in iso3=ind
+indonesia country=1 iso2=id iso3=idn
+iran country=1 iso2=ir iso3=irn
+islamic republic of iran country=1 iso2=ir iso3=irn
+iraq country=1 iso2=iq iso3=irq
+ireland country=1 iso2=ie iso3=irl
+islands country=1 iso2=cc iso3=cck
+isle of man country=1 iso2=im iso3=imn
+israel country=1 iso2=il iso3=isr
+italy country=1 iso2=it iso3=ita
+jamaica country=1 iso2=jm iso3=jam
+japan country=1 iso2=jp iso3=jpn
+jersey country=1 iso2=je iso3=jey
+jordan country=1 iso2=jo iso3=jor
+kazakhstan country=1 iso2=kz iso3=kaz
+kenya country=1 iso2=ke iso3=ken
+kiribati country=1 iso2=ki iso3=kir
+korea country=1 iso2=kp iso3=prk
+the democratic people's republic of korea country=1 iso2=kp iso3=prk
+kuwait country=1 iso2=kw iso3=kwt
+kyrgyzstan country=1 iso2=kg iso3=kgz
+lao people's democratic republic country=1 iso2=la iso3=lao
+latvia country=1 iso2=lv iso3=lva
+lebanon country=1 iso2=lb iso3=lbn
+lesotho country=1 iso2=ls iso3=lso
+liberia country=1 iso2=lr iso3=lbr
+libya country=1 iso2=ly iso3=lby
+liechtenstein country=1 iso2=li iso3=lie
+lithuania country=1 iso2=lt iso3=ltu
+luxembourg country=1 iso2=lu iso3=lux
+macao country=1 iso2=mo iso3=mac
+madagascar country=1 iso2=mg iso3=mdg
+malawi country=1 iso2=mw iso3=mwi
+malaysia country=1 iso2=my iso3=mys
+maldives country=1 iso2=mv iso3=mdv
+mali country=1 iso2=ml iso3=mli
+malta country=1 iso2=mt iso3=mlt
+malvinas country=1 iso2=fk iso3=flk
+marshall islands country=1 iso2=mh iso3=mhl
+martinique country=1 iso2=mq iso3=mtq
+mauritania country=1 iso2=mr iso3=mrt
+mauritius country=1 iso2=mu iso3=mus
+mayotte country=1 iso2=yt iso3=myt
+mexico country=1 iso2=mx iso3=mex
+micronesia country=1 iso2=fm iso3=fsm
+federated states of micronesia country=1 iso2=fm iso3=fsm
+moldova country=1 iso2=md iso3=mda
+the republic of moldova country=1 iso2=md iso3=mda
+monaco country=1 iso2=mc iso3=mco
+mongolia country=1 iso2=mn iso3=mng
+montenegro country=1 iso2=me iso3=mne
+montserrat country=1 iso2=ms iso3=msr
+morocco country=1 iso2=ma iso3=mar
+mozambique country=1 iso2=mz iso3=moz
+myanmar country=1 iso2=mm iso3=mmr
+namibia country=1 iso2=na iso3=nam
+nauru country=1 iso2=nr iso3=nru
+nepal country=1 iso2=np iso3=npl
+netherlands country=1 iso2=nl iso3=nld
+new caledonia country=1 iso2=nc iso3=ncl
+new zealand country=1 iso2=nz iso3=nzl
+nicaragua country=1 iso2=ni iso3=nic
+niger country=1 iso2=ne iso3=ner
+nigeria country=1 iso2=ng iso3=nga
+niue country=1 iso2=nu iso3=niu
+norfolk island country=1 iso2=nf iso3=nfk
+northern mariana islands country=1 iso2=mp iso3=mnp
+norway country=1 iso2=no iso3=nor
+oman country=1 iso2=om iso3=omn
+pakistan country=1 iso2=pk iso3=pak
+palau country=1 iso2=pw iso3=plw
+palestine, state of country=1 iso2=ps iso3=pse
+panama country=1 iso2=pa iso3=pan
+papua new guinea country=1 iso2=pg iso3=png
+paraguay country=1 iso2=py iso3=pry
+peru country=1 iso2=pe iso3=per
+philippines country=1 iso2=ph iso3=phl
+pitcairn country=1 iso2=pn iso3=pcn
+poland country=1 iso2=pl iso3=pol
+portugal country=1 iso2=pt iso3=prt
+puerto rico country=1 iso2=pr iso3=pri
+qatar country=1 iso2=qa iso3=qat
+republic of north macedonia country=1 iso2=mk iso3=mkd
+romania country=1 iso2=ro iso3=rou
+russian federation country=1 iso2=ru iso3=rus
+rwanda country=1 iso2=rw iso3=rwa
+réunion country=1 iso2=re iso3=reu
+saint barthélemy country=1 iso2=bl iso3=blm
+saint helena, ascension and tristan da cunha country=1 iso2=sh iso3=shn
+saint kitts and nevis country=1 iso2=kn iso3=kna
+saint lucia country=1 iso2=lc iso3=lca
+saint martin country=1 iso2=mf iso3=maf
+saint pierre and miquelon country=1 iso2=pm iso3=spm
+saint vincent and the grenadines country=1 iso2=vc iso3=vct
+samoa country=1 iso2=ws iso3=wsm
+san marino country=1 iso2=sm iso3=smr
+sao tome and principe country=1 iso2=st iso3=stp
+saudi arabia country=1 iso2=sa iso3=sau
+senegal country=1 iso2=sn iso3=sen
+serbia country=1 iso2=rs iso3=srb
+seychelles country=1 iso2=sc iso3=syc
+sierra leone country=1 iso2=sl iso3=sle
+singapore country=1 iso2=sg iso3=sgp
+sint maarten country=1 iso2=sx iso3=sxm
+slovakia country=1 iso2=sk iso3=svk
+slovenia country=1 iso2=si iso3=svn
+solomon islands country=1 iso2=sb iso3=slb
+somalia country=1 iso2=so iso3=som
+south africa country=1 iso2=za iso3=zaf
+south georgia and the south sandwich islands country=1 iso2=gs iso3=sgs
+south sudan country=1 iso2=ss iso3=ssd
+spain country=1 iso2=es iso3=esp
+sri lanka country=1 iso2=lk iso3=lka
+sudan country=1 iso2=sd iso3=sdn
+suriname country=1 iso2=sr iso3=sur
+svalbard and jan mayen country=1 iso2=sj iso3=sjm
+sweden country=1 iso2=se iso3=swe
+switzerland country=1 iso2=ch iso3=che
+syrian arab republic country=1 iso2=sy iso3=syr
+taiwan country=1 iso2=tw iso3=twn
+tajikistan country=1 iso2=tj iso3=tjk
+tanzania country=1 iso2=tz iso3=tza
+united republic of tanzania country=1 iso2=tz iso3=tza
+thailand country=1 iso2=th iso3=tha
+timor-leste country=1 iso2=tl iso3=tls
+togo country=1 iso2=tg iso3=tgo
+tokelau country=1 iso2=tk iso3=tkl
+tonga country=1 iso2=to iso3=ton
+trinidad and tobago country=1 iso2=tt iso3=tto
+tunisia country=1 iso2=tn iso3=tun
+turkey country=1 iso2=tr iso3=tur
+turkmenistan country=1 iso2=tm iso3=tkm
+turks and caicos islands country=1 iso2=tc iso3=tca
+tuvalu country=1 iso2=tv iso3=tuv
+uganda country=1 iso2=ug iso3=uga
+ukraine country=1 iso2=ua iso3=ukr
+united arab emirates country=1 iso2=ae iso3=are
+united kingdom of great britain and northern ireland country=1 iso2=gb iso3=gbr
+united states minor outlying islands country=1 iso2=um iso3=umi
+united states of america country=1 iso2=us iso3=usa
+uruguay country=1 iso2=uy iso3=ury
+uzbekistan country=1 iso2=uz iso3=uzb
+vanuatu country=1 iso2=vu iso3=vut
+venezuela country=1 iso2=ve iso3=ven
+bolivarian republic of venezuela country=1 iso2=ve iso3=ven
+viet nam country=1 iso2=vn iso3=vnm
+virgin islands country=1 iso2=vg iso3=vgb
+wallis and futuna country=1 iso2=wf iso3=wlf
+western sahara country=1 iso2=eh iso3=esh
+yemen country=1 iso2=ye iso3=yem
+zambia country=1 iso2=zm iso3=zmb
+zimbabwe country=1 iso2=zw iso3=zwe
+åland islands country=1 iso2=ax iso3=ala
