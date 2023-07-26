@@ -1,4 +1,4 @@
-// Generating flat xml
+// Generate flat xml
 import nlp from lib_nlp;
 
 article := RECORD
