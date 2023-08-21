@@ -348,7 +348,7 @@ DisplayAttributes(L("file"),L("con"),L("display type"),L("level")) {
 QuoteIfNeeded(L("str")) {
 	if (!L("str"))
 		return 0;
-	L("new") = L("str");
+	L("new") = strsubst(L("str"),"\"","\\\"");
 	if (strcontains(" ",L("str")) || strhaspunct(L("str")))
 		L("new") = "\"" + L("new") + "\"";
 	return L("new");
