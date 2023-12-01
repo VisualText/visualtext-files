@@ -1,0 +1,179 @@
+# Lograouro para enderços
+a completo="área" lograouro=1
+ac completo="acesso" lograouro=1
+aca completo="acampamento" lograouro=1
+acl completo="acesso local" lograouro=1
+ad completo="adro" lograouro=1
+ae completo="área especial" lograouro=1
+aer completo="aeroporto" lograouro=1
+al completo="alameda" lograouro=1
+amd completo="avenida marginal direita" lograouro=1
+ame completo="avenida marginal esquerda" lograouro=1
+an completo="anel viário" lograouro=1x
+ant completo="antiga estrada" lograouro=1
+art completo="artéria" lograouro=1
+at completo="alto" lograouro=1
+atl completo="atalho" lograouro=1
+a v completo="área verde" lograouro=1
+av completo="avenida" lograouro=1
+avc completo="avenida contorno" lograouro=1
+avm completo="avenida marginal" lograouro=1
+avv completo="avenida velha" lograouro=1
+bal completo="balneário" lograouro=1
+bc completo="beco" lograouro=1
+bco completo="buraco" lograouro=1
+bel completo="belvedere" lograouro=1
+bl completo="bloco" lograouro=1
+blo completo="balão" lograouro=1
+bls completo="blocos" lograouro=1
+blv completo="bulevar" lograouro=1
+bsq completo="bosque" lograouro=1
+bvd completo="boulevard" lograouro=1
+bx completo="baixa" lograouro=1
+c completo="cais" lograouro=1
+cal completo="calçada" lograouro=1
+cam completo="caminho" lograouro=1
+can completo="canal" lograouro=1
+ch completo="chácara" lograouro=1
+cha completo="chapadão" lograouro=1
+cic completo="ciclovia" lograouro=1
+cir completo="circular" lograouro=1
+cj completo="conjunto" lograouro=1
+cjm completo="conjunto mutirão" lograouro=1
+cmp completo="complexo viário" lograouro=1
+col completo="colônia" lograouro=1
+com completo="comunidade" lograouro=1
+con completo="condomínio" lograouro=1
+cor completo="corredor" lograouro=1
+cpo completo="campo" lograouro=1
+crg completo="córrego" lograouro=1
+ctn completo="contorno" lograouro=1
+dsc completo="descida" lograouro=1
+dsv completo="desvio" lograouro=1
+dt completo="distrito" lograouro=1
+eb completo="entre bloco" lograouro=1
+eim completo="estrada intermunicipal" lograouro=1
+ens completo="enseada" lograouro=1
+ent completo="entrada particular" lograouro=1
+eq completo="entre quadra" lograouro=1
+esc completo="escada" lograouro=1
+esd completo="escadaria" lograouro=1
+ese completo="estrada estadual" lograouro=1
+esi completo="estrada vicinal" lograouro=1
+esl completo="estrada de ligação" lograouro=1
+esm completo="estrada municipal" lograouro=1
+esp completo="esplanada" lograouro=1
+ess completo="estrada de servidão" lograouro=1
+est completo="estrada" lograouro=1
+esv completo="estrada velha" lograouro=1
+eta completo="estrada antiga" lograouro=1
+etc completo="estação" lograouro=1
+etd completo="estádio" lograouro=1
+etn completo="estância" lograouro=1
+etp completo="estrada particular" lograouro=1
+ett completo="estacionamento" lograouro=1
+eva completo="evangélica" lograouro=1
+evd completo="elevada" lograouro=1
+ex completo="eixo industrial" lograouro=1
+fav completo="favela" lograouro=1
+faz completo="fazenda" lograouro=1
+fer completo="ferrovia" lograouro=1
+fnt completo="fonte" lograouro=1
+fra completo="feira" lograouro=1
+fte completo="forte" lograouro=1
+gal completo="galeria" lograouro=1
+gja completo="granja" lograouro=1
+hab completo="núcleo habitacional" lograouro=1
+ia completo="ilha" lograouro=1
+ind completo="indeterminado" lograouro=1
+ioa completo="ilhota" lograouro=1
+jd completo="jardim" lograouro=1
+jde completo="jardinete" lograouro=1
+ld completo="ladeira" lograouro=1
+lga completo="lagoa" lograouro=1
+lgo completo="lago" lograouro=1
+lot completo="loteamento" lograouro=1
+lrg completo="largo" lograouro=1
+lt completo="lote" lograouro=1
+mer completo="mercado" lograouro=1
+mna completo="marina" lograouro=1
+mod completo="modulo" lograouro=1
+mrg completo="projeção" lograouro=1
+mro completo="morro" lograouro=1
+mte completo="monte" lograouro=1
+nuc completo="núcleo" lograouro=1
+nur completo="núcleo rural" lograouro=1
+out completo="outeiro" lograouro=1
+par completo="paralela" lograouro=1
+pas completo="passeio" lograouro=1
+pat completo="pátio" lograouro=1
+pc completo="praça" lograouro=1
+pce completo="praça de esportes" lograouro=1
+pda completo="parada" lograouro=1
+pdo completo="paradouro" lograouro=1
+pnt completo="ponta" lograouro=1
+pr completo="praia" lograouro=1
+prl completo="prolongamento" lograouro=1
+prm completo="parque municipal" lograouro=1
+prq completo="parque" lograouro=1
+prr completo="parque residencial" lograouro=1
+psa completo="passarela" lograouro=1
+psg completo="passagem" lograouro=1
+psp completo="passagem de pedestre" lograouro=1
+pss completo="passagem subterrânea" lograouro=1
+pte completo="ponte" lograouro=1
+pto completo="porto" lograouro=1
+q completo="quadra" lograouro=1
+qta completo="quinta" lograouro=1
+qts completo="quintas" lograouro=1
+r completo="rua" lograouro=1
+r i completo="rua integração" lograouro=1
+r l completo="rua de ligação" lograouro=1
+r p completo="rua particular" lograouro=1
+r v completo="rua velha" lograouro=1
+ram completo="ramal" lograouro=1
+rcr completo="recreio" lograouro=1
+rec completo="recanto" lograouro=1
+rer completo="retiro" lograouro=1
+res completo="residencial" lograouro=1
+ret completo="reta" lograouro=1
+rla completo="ruela" lograouro=1
+rmp completo="rampa" lograouro=1
+roa completo="rodo anel" lograouro=1
+rod completo="rodovia" lograouro=1
+rot completo="rotula" lograouro=1
+rpe completo="rua de pedestre" lograouro=1
+rpr completo="margem" lograouro=1
+rtn completo="retorno" lograouro=1
+rtt completo="rotatória" lograouro=1
+seg completo="segunda avenida" lograouro=1
+sit completo="sitio" lograouro=1
+srv completo="servidão" lograouro=1
+st completo="setor" lograouro=1
+sub completo="subida" lograouro=1
+tch completo="trincheira" lograouro=1
+ter completo="terminal" lograouro=1
+tr completo="trecho" lograouro=1
+trv completo="trevo" lograouro=1
+tun completo="túnel" lograouro=1
+tv completo="travessa" lograouro=1
+tvp completo="travessa particular" lograouro=1
+tvv completo="travessa velha" lograouro=1
+uni completo="unidade" lograouro=1
+v completo="via" lograouro=1
+v c completo="via coletora" lograouro=1
+v l completo="via local" lograouro=1
+vac completo="via de acesso" lograouro=1
+val completo="vala" lograouro=1
+vco completo="via costeira" lograouro=1
+vd completo="viaduto" lograouro=1
+v-e completo="via expressa" lograouro=1
+ver completo="vereda" lograouro=1
+vev completo="via elevado" lograouro=1
+vl completo="vila" lograouro=1
+vla completo="viela" lograouro=1
+vle completo="vale" lograouro=1
+vlt completo="via litorânea" lograouro=1
+vpe completo="via de pedestre" lograouro=1
+vrt completo="variante" lograouro=1
+zig completo="zigue-zague" lograouro=1
