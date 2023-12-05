@@ -1,3 +1,4 @@
+# 2 and 3 letter ISO country codes
 af iso=2 three=afg name="afghanistan"
 afg iso=3 two=af name="afghanistan"
 al iso=2 three=alb name="albania"

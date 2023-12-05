@@ -1,0 +1,359 @@
+# Lograouro para enderços
+a completo=área logradouro=1
+a v completo="área verde" logradouro=1
+ac completo=acesso logradouro=1
+aca completo=acampamento logradouro=1
+acl completo="acesso local" logradouro=1
+ad completo=adro logradouro=1
+ae completo="área especial" logradouro=1
+aer completo=aeroporto logradouro=1
+al completo=alameda logradouro=1
+amd completo="avenida marginal direita" logradouro=1
+ame completo="avenida marginal esquerda" logradouro=1
+an completo="anel viário" logradouro=1
+ant completo="antiga estrada" logradouro=1
+art completo=artéria logradouro=1
+at completo=alto logradouro=1
+atl completo=atalho logradouro=1
+av completo=avenida logradouro=1
+avc completo="avenida contorno" logradouro=1
+avm completo="avenida marginal" logradouro=1
+avv completo="avenida velha" logradouro=1
+bal completo=balneário logradouro=1
+bc completo=beco logradouro=1
+bco completo=buraco logradouro=1
+bel completo=belvedere logradouro=1
+bl completo=bloco logradouro=1
+blo completo=balão logradouro=1
+bls completo=blocos logradouro=1
+blv completo=bulevar logradouro=1
+bsq completo=bosque logradouro=1
+bvd completo=boulevard logradouro=1
+bx completo=baixa logradouro=1
+c completo=cais logradouro=1
+cal completo=calçada logradouro=1
+cam completo=caminho logradouro=1
+can completo=canal logradouro=1
+ch completo=chácara logradouro=1
+cha completo=chapadão logradouro=1
+cic completo=ciclovia logradouro=1
+cir completo=circular logradouro=1
+cj completo=conjunto logradouro=1
+cjm completo="conjunto mutirão" logradouro=1
+cmp completo="complexo viário" logradouro=1
+col completo=colônia logradouro=1
+com completo=comunidade logradouro=1
+con completo=condomínio logradouro=1
+cor completo=corredor logradouro=1
+cpo completo=campo logradouro=1
+crg completo=córrego logradouro=1
+ctn completo=contorno logradouro=1
+dsc completo=descida logradouro=1
+dsv completo=desvio logradouro=1
+dt completo=distrito logradouro=1
+eb completo="entre bloco" logradouro=1
+eim completo="estrada intermunicipal" logradouro=1
+ens completo=enseada logradouro=1
+ent completo="entrada particular" logradouro=1
+eq completo="entre quadra" logradouro=1
+esc completo=escada logradouro=1
+esd completo=escadaria logradouro=1
+ese completo="estrada estadual" logradouro=1
+esi completo="estrada vicinal" logradouro=1
+esl completo="estrada de ligação" logradouro=1
+esm completo="estrada municipal" logradouro=1
+esp completo=esplanada logradouro=1
+ess completo="estrada de servidão" logradouro=1
+est completo=estrada logradouro=1
+esv completo="estrada velha" logradouro=1
+eta completo="estrada antiga" logradouro=1
+etc completo=estação logradouro=1
+etd completo=estádio logradouro=1
+etn completo=estância logradouro=1
+etp completo="estrada particular" logradouro=1
+ett completo=estacionamento logradouro=1
+eva completo=evangélica logradouro=1
+evd completo=elevada logradouro=1
+ex completo="eixo industrial" logradouro=1
+fav completo=favela logradouro=1
+faz completo=fazenda logradouro=1
+fer completo=ferrovia logradouro=1
+fnt completo=fonte logradouro=1
+fra completo=feira logradouro=1
+fte completo=forte logradouro=1
+gal completo=galeria logradouro=1
+gja completo=granja logradouro=1
+hab completo="núcleo habitacional" logradouro=1
+ia completo=ilha logradouro=1
+ind completo=indeterminado logradouro=1
+ioa completo=ilhota logradouro=1
+jd completo=jardim logradouro=1
+jde completo=jardinete logradouro=1
+ld completo=ladeira logradouro=1
+lga completo=lagoa logradouro=1
+lgo completo=lago logradouro=1
+lot completo=loteamento logradouro=1
+lrg completo=largo logradouro=1
+lt completo=lote logradouro=1
+mer completo=mercado logradouro=1
+mna completo=marina logradouro=1
+mod completo=modulo logradouro=1
+mrg completo=projeção logradouro=1
+mro completo=morro logradouro=1
+mte completo=monte logradouro=1
+nuc completo=núcleo logradouro=1
+nur completo="núcleo rural" logradouro=1
+out completo=outeiro logradouro=1
+par completo=paralela logradouro=1
+pas completo=passeio logradouro=1
+pat completo=pátio logradouro=1
+pc completo=praça logradouro=1
+pce completo="praça de esportes" logradouro=1
+pda completo=parada logradouro=1
+pdo completo=paradouro logradouro=1
+pnt completo=ponta logradouro=1
+pr completo=praia logradouro=1
+prl completo=prolongamento logradouro=1
+prm completo="parque municipal" logradouro=1
+prq completo=parque logradouro=1
+prr completo="parque residencial" logradouro=1
+psa completo=passarela logradouro=1
+psg completo=passagem logradouro=1
+psp completo="passagem de pedestre" logradouro=1
+pss completo="passagem subterrânea" logradouro=1
+pte completo=ponte logradouro=1
+pto completo=porto logradouro=1
+q completo=quadra logradouro=1
+qta completo=quinta logradouro=1
+qts completo=quintas logradouro=1
+r completo=rua logradouro=1
+r i completo="rua integração" logradouro=1
+r l completo="rua de ligação" logradouro=1
+r p completo="rua particular" logradouro=1
+r v completo="rua velha" logradouro=1
+ram completo=ramal logradouro=1
+rcr completo=recreio logradouro=1
+rec completo=recanto logradouro=1
+rer completo=retiro logradouro=1
+res completo=residencial logradouro=1
+ret completo=reta logradouro=1
+rla completo=ruela logradouro=1
+rmp completo=rampa logradouro=1
+roa completo="rodo anel" logradouro=1
+rod completo=rodovia logradouro=1
+rot completo=rotula logradouro=1
+rpe completo="rua de pedestre" logradouro=1
+rpr completo=margem logradouro=1
+rtn completo=retorno logradouro=1
+rtt completo=rotatória logradouro=1
+seg completo="segunda avenida" logradouro=1
+sit completo=sitio logradouro=1
+srv completo=servidão logradouro=1
+st completo=setor logradouro=1
+sub completo=subida logradouro=1
+tch completo=trincheira logradouro=1
+ter completo=terminal logradouro=1
+tr completo=trecho logradouro=1
+trv completo=trevo logradouro=1
+tun completo=túnel logradouro=1
+tv completo=travessa logradouro=1
+tvp completo="travessa particular" logradouro=1
+tvv completo="travessa velha" logradouro=1
+uni completo=unidade logradouro=1
+v completo=via logradouro=1
+v c completo="via coletora" logradouro=1
+v l completo="via local" logradouro=1
+v-e completo="via expressa" logradouro=1
+vac completo="via de acesso" logradouro=1
+val completo=vala logradouro=1
+vco completo="via costeira" logradouro=1
+vd completo=viaduto logradouro=1
+ver completo=vereda logradouro=1
+vev completo="via elevado" logradouro=1
+vl completo=vila logradouro=1
+vla completo=viela logradouro=1
+vle completo=vale logradouro=1
+vlt completo="via litorânea" logradouro=1
+vpe completo="via de pedestre" logradouro=1
+vrt completo=variante logradouro=1
+zig completo="zigue-zague" logradouro=1
+
+# Frases completos
+acampamento abrev=acampamento logradouro=1
+acesso abrev=acesso logradouro=1
+acesso local abrev=acesso local logradouro=1
+adro abrev=adro logradouro=1
+aeroporto abrev=aeroporto logradouro=1
+alameda abrev=alameda logradouro=1
+alto abrev=alto logradouro=1
+anel viário abrev=anel viário logradouro=1
+antiga estrada abrev=antiga estrada logradouro=1
+artéria abrev=artéria logradouro=1
+atalho abrev=atalho logradouro=1
+avenida abrev=avenida logradouro=1
+avenida contorno abrev=avenida contorno logradouro=1
+avenida marginal abrev=avenida marginal logradouro=1
+avenida marginal direita abrev=avenida marginal direita logradouro=1
+avenida marginal esquerda abrev=avenida marginal esquerda logradouro=1
+avenida velha abrev=avenida velha logradouro=1
+baixa abrev=baixa logradouro=1
+balneário abrev=balneário logradouro=1
+balão abrev=balão logradouro=1
+beco abrev=beco logradouro=1
+belvedere abrev=belvedere logradouro=1
+bloco abrev=bloco logradouro=1
+blocos abrev=blocos logradouro=1
+bosque abrev=bosque logradouro=1
+boulevard abrev=boulevard logradouro=1
+bulevar abrev=bulevar logradouro=1
+buraco abrev=buraco logradouro=1
+cais abrev=cais logradouro=1
+calçada abrev=calçada logradouro=1
+caminho abrev=caminho logradouro=1
+campo abrev=campo logradouro=1
+canal abrev=canal logradouro=1
+chapadão abrev=chapadão logradouro=1
+chácara abrev=chácara logradouro=1
+ciclovia abrev=ciclovia logradouro=1
+circular abrev=circular logradouro=1
+colônia abrev=colônia logradouro=1
+complexo viário abrev=complexo viário logradouro=1
+comunidade abrev=comunidade logradouro=1
+condomínio abrev=condomínio logradouro=1
+conjunto abrev=conjunto logradouro=1
+conjunto mutirão abrev=conjunto mutirão logradouro=1
+contorno abrev=contorno logradouro=1
+corredor abrev=corredor logradouro=1
+córrego abrev=córrego logradouro=1
+descida abrev=descida logradouro=1
+desvio abrev=desvio logradouro=1
+distrito abrev=distrito logradouro=1
+eixo industrial abrev=eixo industrial logradouro=1
+elevada abrev=elevada logradouro=1
+enseada abrev=enseada logradouro=1
+entrada particular abrev=entrada particular logradouro=1
+entre bloco abrev=entre bloco logradouro=1
+entre quadra abrev=entre quadra logradouro=1
+escada abrev=escada logradouro=1
+escadaria abrev=escadaria logradouro=1
+esplanada abrev=esplanada logradouro=1
+estacionamento abrev=estacionamento logradouro=1
+estação abrev=estação logradouro=1
+estrada abrev=estrada logradouro=1
+estrada antiga abrev=estrada antiga logradouro=1
+estrada de ligação abrev=estrada de ligação logradouro=1
+estrada de servidão abrev=estrada de servidão logradouro=1
+estrada estadual abrev=estrada estadual logradouro=1
+estrada intermunicipal abrev=estrada intermunicipal logradouro=1
+estrada municipal abrev=estrada municipal logradouro=1
+estrada particular abrev=estrada particular logradouro=1
+estrada velha abrev=estrada velha logradouro=1
+estrada vicinal abrev=estrada vicinal logradouro=1
+estádio abrev=estádio logradouro=1
+estância abrev=estância logradouro=1
+evangélica abrev=evangélica logradouro=1
+favela abrev=favela logradouro=1
+fazenda abrev=fazenda logradouro=1
+feira abrev=feira logradouro=1
+ferrovia abrev=ferrovia logradouro=1
+fonte abrev=fonte logradouro=1
+forte abrev=forte logradouro=1
+galeria abrev=galeria logradouro=1
+granja abrev=granja logradouro=1
+ilha abrev=ilha logradouro=1
+ilhota abrev=ilhota logradouro=1
+indeterminado abrev=indeterminado logradouro=1
+jardim abrev=jardim logradouro=1
+jardinete abrev=jardinete logradouro=1
+ladeira abrev=ladeira logradouro=1
+lago abrev=lago logradouro=1
+lagoa abrev=lagoa logradouro=1
+largo abrev=largo logradouro=1
+lote abrev=lote logradouro=1
+loteamento abrev=loteamento logradouro=1
+margem abrev=margem logradouro=1
+marina abrev=marina logradouro=1
+mercado abrev=mercado logradouro=1
+modulo abrev=modulo logradouro=1
+monte abrev=monte logradouro=1
+morro abrev=morro logradouro=1
+núcleo abrev=núcleo logradouro=1
+núcleo habitacional abrev=núcleo habitacional logradouro=1
+núcleo rural abrev=núcleo rural logradouro=1
+outeiro abrev=outeiro logradouro=1
+parada abrev=parada logradouro=1
+paradouro abrev=paradouro logradouro=1
+paralela abrev=paralela logradouro=1
+parque abrev=parque logradouro=1
+parque municipal abrev=parque municipal logradouro=1
+parque residencial abrev=parque residencial logradouro=1
+passagem abrev=passagem logradouro=1
+passagem de pedestre abrev=passagem de pedestre logradouro=1
+passagem subterrânea abrev=passagem subterrânea logradouro=1
+passarela abrev=passarela logradouro=1
+passeio abrev=passeio logradouro=1
+ponta abrev=ponta logradouro=1
+ponte abrev=ponte logradouro=1
+porto abrev=porto logradouro=1
+praia abrev=praia logradouro=1
+praça abrev=praça logradouro=1
+praça de esportes abrev=praça de esportes logradouro=1
+projeção abrev=projeção logradouro=1
+prolongamento abrev=prolongamento logradouro=1
+pátio abrev=pátio logradouro=1
+quadra abrev=quadra logradouro=1
+quinta abrev=quinta logradouro=1
+quintas abrev=quintas logradouro=1
+ramal abrev=ramal logradouro=1
+rampa abrev=rampa logradouro=1
+recanto abrev=recanto logradouro=1
+recreio abrev=recreio logradouro=1
+residencial abrev=residencial logradouro=1
+reta abrev=reta logradouro=1
+retiro abrev=retiro logradouro=1
+retorno abrev=retorno logradouro=1
+rodo anel abrev=rodo anel logradouro=1
+rodovia abrev=rodovia logradouro=1
+rotatória abrev=rotatória logradouro=1
+rotula abrev=rotula logradouro=1
+rua abrev=rua logradouro=1
+rua de ligação abrev=rua de ligação logradouro=1
+rua de pedestre abrev=rua de pedestre logradouro=1
+rua integração abrev=rua integração logradouro=1
+rua particular abrev=rua particular logradouro=1
+rua velha abrev=rua velha logradouro=1
+ruela abrev=ruela logradouro=1
+segunda avenida abrev=segunda avenida logradouro=1
+servidão abrev=servidão logradouro=1
+setor abrev=setor logradouro=1
+sitio abrev=sitio logradouro=1
+subida abrev=subida logradouro=1
+terminal abrev=terminal logradouro=1
+travessa abrev=travessa logradouro=1
+travessa particular abrev=travessa particular logradouro=1
+travessa velha abrev=travessa velha logradouro=1
+trecho abrev=trecho logradouro=1
+trevo abrev=trevo logradouro=1
+trincheira abrev=trincheira logradouro=1
+túnel abrev=túnel logradouro=1
+unidade abrev=unidade logradouro=1
+vala abrev=vala logradouro=1
+vale abrev=vale logradouro=1
+variante abrev=variante logradouro=1
+vereda abrev=vereda logradouro=1
+via abrev=via logradouro=1
+via coletora abrev=via coletora logradouro=1
+via costeira abrev=via costeira logradouro=1
+via de acesso abrev=via de acesso logradouro=1
+via de pedestre abrev=via de pedestre logradouro=1
+via elevado abrev=via elevado logradouro=1
+via expressa abrev=via expressa logradouro=1
+via litorânea abrev=via litorânea logradouro=1
+via local abrev=via local logradouro=1
+viaduto abrev=viaduto logradouro=1
+viela abrev=viela logradouro=1
+vila abrev=vila logradouro=1
+zigue-zague abrev=zigue-zague logradouro=1
+área abrev=área logradouro=1
+área especial abrev=área especial logradouro=1
+área verde abrev=área verde logradouro=1

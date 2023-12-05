@@ -1,0 +1,59 @@
+# Estados do Brasil
+estados
+  completo
+    acre: ibge=12, abrev=ac, regiao=norte, mun=22
+    alagoas: ibge=27, abrev=al, regiao=nordeste, mun=102
+    amapá: ibge=16, abrev=ap, regiao=norte, mun=16
+    amazonas: ibge=13, abrev=am, regiao=norte, mun=62
+    bahia: ibge=29, abrev=ba, regiao=nordeste, mun=417
+    ceará: ibge=23, abrev=ce, regiao=nordeste, mun=184
+    distrito federal: ibge=53, abrev=df, regiao="centro-oeste", mun=1
+    espírito santo: ibge=32, abrev=es, regiao=sudeste, mun=78
+    goiás: ibge=52, abrev=go, regiao="centro-oeste", mun=246
+    maranhão: ibge=21, abrev=ma, regiao=nordeste, mun=217
+    mato grosso: ibge=51, abrev=mt, regiao="centro-oeste", mun=141
+    mato grosso do sul: ibge=50, abrev=ms, regiao="centro-oeste", mun=79
+    minas gerais: ibge=31, abrev=mg, regiao=sudeste, mun=853
+    paraná: ibge=41, abrev=pr, regiao=sul, mun=399
+    paraíba: ibge=25, abrev=pb, regiao=nordeste, mun=223
+    pará: ibge=15, abrev=pa, regiao=norte, mun=144
+    pernambuco: ibge=26, abrev=pe, regiao=nordeste, mun=185
+    piauí: ibge=22, abrev=pi, regiao=nordeste, mun=224
+    rio de janeiro: ibge=33, abrev=rj, regiao=sudeste, mun=92
+    rio grande do norte: ibge=24, abrev=rn, regiao=nordeste, mun=167
+    rio grande do sul: ibge=43, abrev=rs, regiao=sul, mun=497
+    rondônia: ibge=11, abrev=ro, regiao=norte, mun=52
+    roraima: ibge=14, abrev=rr, regiao=norte, mun=15
+    santa catarina: ibge=42, abrev=sc, regiao=sul, mun=295
+    sergipe: ibge=28, abrev=se, regiao=nordeste, mun=75
+    são paulo: ibge=35, abrev=sp, regiao=sudeste, mun=645
+    tocantins: ibge=17, abrev=to, regiao=norte, mun=139
+  abrev
+    ac: completo=Acre, ibge=12, regiao=norte
+    al: completo=Alagoas, ibge=27, regiao=nordeste
+    am: completo=Amazonas, ibge=13, regiao=norte
+    ap: completo=Amapá, ibge=16, regiao=norte
+    ba: completo=Bahia, ibge=29, regiao=nordeste
+    ce: completo=Ceará, ibge=23, regiao=nordeste
+    df: completo="Distrito Federal", ibge=53, regiao="centro-oeste"
+    es: completo="Espírito Santo", ibge=32, regiao=sudeste
+    go: completo=Goiás, ibge=52, regiao="centro-oeste"
+    ma: completo=Maranhão, ibge=21, regiao=nordeste
+    mg: completo="Minas Gerais", ibge=31, regiao=sudeste
+    ms: completo="Mato Grosso do Sul", ibge=50, regiao="centro-oeste"
+    mt: completo="Mato Grosso", ibge=51, regiao="centro-oeste"
+    pa: completo=Pará, ibge=15, regiao=norte
+    pb: completo=Paraíba, ibge=25, regiao=nordeste
+    pe: completo=Pernambuco, ibge=26, regiao=nordeste
+    pi: completo=Piauí, ibge=22, regiao=nordeste
+    pr: completo=Paraná, ibge=41, regiao=sul
+    rj: completo="Rio de Janeiro", ibge=33, regiao=sudeste
+    rn: completo="Rio Grande do Norte", ibge=24, regiao=nordeste
+    ro: completo=Rondônia, ibge=11, regiao=norte
+    rr: completo=Roraima, ibge=14, regiao=norte
+    rs: completo="Rio Grande do Sul", ibge=43, regiao=sul
+    sc: completo="Santa Catarina", ibge=42, regiao=sul
+    se: completo=Sergipe, ibge=28, regiao=nordeste
+    sp: completo="São Paulo", ibge=35, regiao=sudeste
+    to: completo=Tocantins, ibge=17, regiao=norte
+

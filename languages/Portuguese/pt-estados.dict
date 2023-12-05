@@ -1,0 +1,57 @@
+# Estados do Brasil
+acre abrev=ac regiao=norte estado=1
+alagoas abrev=al regiao=nordeste estado=1
+amapá abrev=ap regiao=norte estado=1
+amazonas abrev=am regiao=norte estado=1
+bahia abrev=ba regiao=nordeste estado=1
+ceará abrev=ce regiao=nordeste estado=1
+distrito federal abrev=df regiao="centro-oeste" estado=1
+espírito santo abrev=es regiao=sudeste estado=1
+goiás abrev=go regiao="centro-oeste" estado=1
+maranhão abrev=ma regiao=nordeste estado=1
+mato grosso abrev=mt regiao="centro-oeste" estado=1
+mato grosso do sul abrev=ms regiao="centro-oeste" estado=1
+minas gerais abrev=mg regiao=sudeste estado=1
+paraná abrev=pr regiao=sul estado=1
+paraíba abrev=pb regiao=nordeste estado=1
+pará abrev=pa regiao=norte estado=1
+pernambuco abrev=pe regiao=nordeste estado=1
+piauí abrev=pi regiao=nordeste estado=1
+rio de janeiro abrev=rj regiao=sudeste estado=1
+rio grande do norte abrev=rn regiao=nordeste estado=1
+rio grande do sul abrev=rs regiao=sul estado=1
+rondônia abrev=ro regiao=norte estado=1
+roraima abrev=rr regiao=norte estado=1
+santa catarina abrev=sc regiao=sul estado=1
+sergipe abrev=se regiao=nordeste estado=1
+são paulo abrev=sp regiao=sudeste estado=1
+tocantins abrev=to regiao=norte estado=1
+
+# Abreviaturas
+ac completo=Acre regiao=norte estado=1
+al completo=Alagoas regiao=nordeste estado=1
+am completo=Amazonas regiao=norte estado=1
+ap completo=Amapá regiao=norte estado=1
+ba completo=Bahia regiao=nordeste estado=1
+ce completo=Ceará regiao=nordeste estado=1
+df completo="Distrito Federal" regiao="centro-oeste" estado=1
+es completo="Espírito Santo" regiao=sudeste estado=1
+go completo=Goiás regiao="centro-oeste" estado=1
+ma completo=Maranhão regiao=nordeste estado=1
+mg completo="Minas Gerais" regiao=sudeste estado=1
+ms completo="Mato Grosso do Sul" regiao="centro-oeste" estado=1
+mt completo="Mato Grosso" regiao="centro-oeste" estado=1
+pa completo=Pará regiao=norte estado=1
+pb completo=Paraíba regiao=nordeste estado=1
+pe completo=Pernambuco regiao=nordeste estado=1
+pi completo=Piauí regiao=nordeste estado=1
+pr completo=Paraná regiao=sul estado=1
+rj completo="Rio de Janeiro" regiao=sudeste estado=1
+rn completo="Rio Grande do Norte" regiao=nordeste estado=1
+ro completo=Rondônia regiao=norte estado=1
+rr completo=Roraima regiao=norte estado=1
+rs completo="Rio Grande do Sul" regiao=sul estado=1
+sc completo="Santa Catarina" regiao=sul estado=1
+se completo=Sergipe regiao=nordeste estado=1
+sp completo="São Paulo" regiao=sudeste estado=1
+to completo=Tocantins regiao=norte estado=1
