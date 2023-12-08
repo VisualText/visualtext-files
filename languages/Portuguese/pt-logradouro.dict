@@ -181,21 +181,21 @@ zig completo="zigue-zague" logradouro=1
 # Frases completos
 acampamento abrev=acampamento logradouro=1
 acesso abrev=acesso logradouro=1
-acesso local abrev=acesso local logradouro=1
+acesso local abrev="acesso local" logradouro=1
 adro abrev=adro logradouro=1
 aeroporto abrev=aeroporto logradouro=1
 alameda abrev=alameda logradouro=1
 alto abrev=alto logradouro=1
-anel viário abrev=anel viário logradouro=1
-antiga estrada abrev=antiga estrada logradouro=1
+anel viário abrev="anel viário" logradouro=1
+antiga estrada abrev="antiga estrada" logradouro=1
 artéria abrev=artéria logradouro=1
 atalho abrev=atalho logradouro=1
 avenida abrev=avenida logradouro=1
-avenida contorno abrev=avenida contorno logradouro=1
-avenida marginal abrev=avenida marginal logradouro=1
-avenida marginal direita abrev=avenida marginal direita logradouro=1
-avenida marginal esquerda abrev=avenida marginal esquerda logradouro=1
-avenida velha abrev=avenida velha logradouro=1
+avenida contorno abrev="avenida contorno" logradouro=1
+avenida marginal abrev="avenida marginal" logradouro=1
+avenida marginal direita abrev="avenida marginal direita" logradouro=1
+avenida marginal esquerda abrev="avenida marginal esquerda" logradouro=1
+avenida velha abrev="avenida velha" logradouro=1
 baixa abrev=baixa logradouro=1
 balneário abrev=balneário logradouro=1
 balão abrev=balão logradouro=1
@@ -217,38 +217,38 @@ chácara abrev=chácara logradouro=1
 ciclovia abrev=ciclovia logradouro=1
 circular abrev=circular logradouro=1
 colônia abrev=colônia logradouro=1
-complexo viário abrev=complexo viário logradouro=1
+complexo viário abrev="complexo viário" logradouro=1
 comunidade abrev=comunidade logradouro=1
 condomínio abrev=condomínio logradouro=1
 conjunto abrev=conjunto logradouro=1
-conjunto mutirão abrev=conjunto mutirão logradouro=1
+conjunto mutirão abrev="conjunto mutirão" logradouro=1
 contorno abrev=contorno logradouro=1
 corredor abrev=corredor logradouro=1
 córrego abrev=córrego logradouro=1
 descida abrev=descida logradouro=1
 desvio abrev=desvio logradouro=1
 distrito abrev=distrito logradouro=1
-eixo industrial abrev=eixo industrial logradouro=1
+eixo industrial abrev="eixo industrial" logradouro=1
 elevada abrev=elevada logradouro=1
 enseada abrev=enseada logradouro=1
-entrada particular abrev=entrada particular logradouro=1
-entre bloco abrev=entre bloco logradouro=1
-entre quadra abrev=entre quadra logradouro=1
+entrada particular abrev="entrada particular" logradouro=1
+entre bloco abrev="entre bloco" logradouro=1
+entre quadra abrev="entre quadra" logradouro=1
 escada abrev=escada logradouro=1
 escadaria abrev=escadaria logradouro=1
 esplanada abrev=esplanada logradouro=1
 estacionamento abrev=estacionamento logradouro=1
 estação abrev=estação logradouro=1
 estrada abrev=estrada logradouro=1
-estrada antiga abrev=estrada antiga logradouro=1
-estrada de ligação abrev=estrada de ligação logradouro=1
-estrada de servidão abrev=estrada de servidão logradouro=1
-estrada estadual abrev=estrada estadual logradouro=1
-estrada intermunicipal abrev=estrada intermunicipal logradouro=1
-estrada municipal abrev=estrada municipal logradouro=1
-estrada particular abrev=estrada particular logradouro=1
-estrada velha abrev=estrada velha logradouro=1
-estrada vicinal abrev=estrada vicinal logradouro=1
+estrada antiga abrev="estrada antiga" logradouro=1
+estrada de ligação abrev="estrada de ligação" logradouro=1
+estrada de servidão abrev="estrada de servidão" logradouro=1
+estrada estadual abrev="estrada estadual" logradouro=1
+estrada intermunicipal abrev="estrada intermunicipal" logradouro=1
+estrada municipal abrev="estrada municipal" logradouro=1
+estrada particular abrev="estrada particular" logradouro=1
+estrada velha abrev="estrada velha" logradouro=1
+estrada vicinal abrev="estrada vicinal" logradouro=1
 estádio abrev=estádio logradouro=1
 estância abrev=estância logradouro=1
 evangélica abrev=evangélica logradouro=1
@@ -278,18 +278,18 @@ modulo abrev=modulo logradouro=1
 monte abrev=monte logradouro=1
 morro abrev=morro logradouro=1
 núcleo abrev=núcleo logradouro=1
-núcleo habitacional abrev=núcleo habitacional logradouro=1
-núcleo rural abrev=núcleo rural logradouro=1
+núcleo habitacional abrev="núcleo habitacional" logradouro=1
+núcleo rural abrev="núcleo rural" logradouro=1
 outeiro abrev=outeiro logradouro=1
 parada abrev=parada logradouro=1
 paradouro abrev=paradouro logradouro=1
 paralela abrev=paralela logradouro=1
 parque abrev=parque logradouro=1
-parque municipal abrev=parque municipal logradouro=1
-parque residencial abrev=parque residencial logradouro=1
+parque municipal abrev="parque municipal" logradouro=1
+parque residencial abrev="parque residencial" logradouro=1
 passagem abrev=passagem logradouro=1
-passagem de pedestre abrev=passagem de pedestre logradouro=1
-passagem subterrânea abrev=passagem subterrânea logradouro=1
+passagem de pedestre abrev="passagem de pedestre" logradouro=1
+passagem subterrânea abrev="passagem subterrânea" logradouro=1
 passarela abrev=passarela logradouro=1
 passeio abrev=passeio logradouro=1
 ponta abrev=ponta logradouro=1
@@ -297,7 +297,7 @@ ponte abrev=ponte logradouro=1
 porto abrev=porto logradouro=1
 praia abrev=praia logradouro=1
 praça abrev=praça logradouro=1
-praça de esportes abrev=praça de esportes logradouro=1
+praça de esportes abrev="praça de esportes" logradouro=1
 projeção abrev=projeção logradouro=1
 prolongamento abrev=prolongamento logradouro=1
 pátio abrev=pátio logradouro=1
@@ -312,26 +312,26 @@ residencial abrev=residencial logradouro=1
 reta abrev=reta logradouro=1
 retiro abrev=retiro logradouro=1
 retorno abrev=retorno logradouro=1
-rodo anel abrev=rodo anel logradouro=1
+rodo anel abrev="rodo anel" logradouro=1
 rodovia abrev=rodovia logradouro=1
 rotatória abrev=rotatória logradouro=1
 rotula abrev=rotula logradouro=1
 rua abrev=rua logradouro=1
-rua de ligação abrev=rua de ligação logradouro=1
-rua de pedestre abrev=rua de pedestre logradouro=1
-rua integração abrev=rua integração logradouro=1
-rua particular abrev=rua particular logradouro=1
-rua velha abrev=rua velha logradouro=1
+rua de ligação abrev="rua de ligação" logradouro=1
+rua de pedestre abrev="rua de pedestre" logradouro=1
+rua integração abrev="rua integração" logradouro=1
+rua particular abrev="rua particular" logradouro=1
+rua velha abrev="rua velha" logradouro=1
 ruela abrev=ruela logradouro=1
-segunda avenida abrev=segunda avenida logradouro=1
+segunda avenida abrev="segunda avenida" logradouro=1
 servidão abrev=servidão logradouro=1
 setor abrev=setor logradouro=1
 sitio abrev=sitio logradouro=1
 subida abrev=subida logradouro=1
 terminal abrev=terminal logradouro=1
 travessa abrev=travessa logradouro=1
-travessa particular abrev=travessa particular logradouro=1
-travessa velha abrev=travessa velha logradouro=1
+travessa particular abrev="travessa particular" logradouro=1
+travessa velha abrev="travessa velha" logradouro=1
 trecho abrev=trecho logradouro=1
 trevo abrev=trevo logradouro=1
 trincheira abrev=trincheira logradouro=1
@@ -342,18 +342,18 @@ vale abrev=vale logradouro=1
 variante abrev=variante logradouro=1
 vereda abrev=vereda logradouro=1
 via abrev=via logradouro=1
-via coletora abrev=via coletora logradouro=1
-via costeira abrev=via costeira logradouro=1
-via de acesso abrev=via de acesso logradouro=1
-via de pedestre abrev=via de pedestre logradouro=1
-via elevado abrev=via elevado logradouro=1
-via expressa abrev=via expressa logradouro=1
-via litorânea abrev=via litorânea logradouro=1
-via local abrev=via local logradouro=1
+via coletora abrev="via coletora" logradouro=1
+via costeira abrev="via costeira" logradouro=1
+via de acesso abrev="via de acesso" logradouro=1
+via de pedestre abrev="via de pedestre" logradouro=1
+via elevado abrev="via elevado" logradouro=1
+via expressa abrev="via expressa" logradouro=1
+via litorânea abrev="via litorânea" logradouro=1
+via local abrev="via local" logradouro=1
 viaduto abrev=viaduto logradouro=1
 viela abrev=viela logradouro=1
 vila abrev=vila logradouro=1
-zigue-zague abrev=zigue-zague logradouro=1
+zigue-zague abrev="zigue-zague" logradouro=1
 área abrev=área logradouro=1
-área especial abrev=área especial logradouro=1
-área verde abrev=área verde logradouro=1
+área especial abrev="área especial" logradouro=1
+área verde abrev="área verde" logradouro=1
