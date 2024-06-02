@@ -1,0 +1,17 @@
+###############################################
+# FILE: highlight
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-2 8:8:22
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+noop();
+
+@RULES
+_xNIL <-
+	_xWILD [one match=(_date _time)]	### (1)
+	@@

@@ -1,0 +1,25 @@
+###############################################
+# FILE: ORDINALS
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-1 11:44:34
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+S("num") = num(N("$text",1));
+single();
+
+@RULES
+_ordinal <-
+	_xNUM								### (1)
+	_xWILD [one match=(st nd rd th)]	### (2)
+	@@
+
+@RULES
+_am <- am @@
+_pm <- pm @@
+_am <- a \. m \. @@
+_pm <- p \. m \. @@

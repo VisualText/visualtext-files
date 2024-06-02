@@ -1,0 +1,130 @@
+###############################################
+# FILE: dates
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-5-31 21:28:10
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+###############################################
+# 19th day of May, 2015
+###############################################
+
+@PRE
+<4,4> var("month");
+<6,6> var("year");
+
+@POST
+S("day") = N("num",1);
+S("month") = N("month",4);
+S("year") = num(N("$text",6));
+single();
+
+@RULES
+_date <-
+	_ordinal	### (1)
+	day			### (2)
+	of			### (3)
+	_xALPHA		### (4)
+	\, [opt]	### (5)
+	_xNUM		### (6)
+	@@
+
+###############################################
+# 2/4/2005
+###############################################
+
+@POST
+L("one") = num(N("$text",1));
+L("two") = num(N("$text",3));
+L("three") = num(N("$text",5));
+
+if (L("one") > 99) {
+	S("year") = L("one");
+	S("month") = L("two");
+	S("day") = L("three");
+} else {
+	S("month") = L("one");
+	S("day") = L("two");
+	S("year") = L("three");
+}
+single();
+
+@RULES
+_date <-
+	_xNUM							### (1)
+	_xWILD [match=(\/ \' \- \.)]	### (2)
+	_xNUM							### (3)
+	_xWILD [match=(\/ \' \- \.)]	### (4)
+	_xNUM							### (5)
+	@@
+
+###############################################
+# 31 Oct 2021
+###############################################
+
+@PRE
+<1,1> var("day");
+<2,2> var("month");
+<3,3> var("year");
+
+@POST
+S("day") = num(N("month",1));
+S("month") = N("month",2);
+S("year") = num(N("$text",3));
+single();
+
+@RULES
+_date <-
+	_xNUM	### (1)
+	_xALPHA	### (2)
+	_xNUM	### (3)
+	@@
+
+###############################################
+# December 10, 2014
+###############################################
+
+@PRE
+<1,1> var("month");
+<3,3> var("day");
+<5,5> var("year");
+
+@POST
+S("month") = N("month",1);
+S("day") = num(N("$text",3));
+S("year") = num(N("$text",5));
+single();
+
+@RULES
+_date <-
+	_xALPHA		### (1)
+	\. [opt]	### (2)
+	_xNUM		### (3)
+	\, [opt]	### (4)
+	_xNUM		### (5)
+	@@
+
+###############################################
+# july 3rd 2013
+###############################################
+
+@PRE
+<1,1> var("month");
+<4,4> var("year");
+
+@POST
+S("month") = N("month",1);
+S("day") = N("num",2);
+S("year") = num(N("$text",4));
+single();
+
+@RULES
+_date <-
+	_xALPHA		### (1)
+	_ordinal	### (2)
+	\, [opt]	### (3)
+	_xNUM		### (4)
+	@@

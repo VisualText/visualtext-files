@@ -1,0 +1,30 @@
+###############################################
+# FILE: zulu
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-2 18:48:29
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+L("num") = num(N("$text",1));
+S("zulu") = L("num");
+single();
+
+@RULES
+_zulu <-
+	_xNUM	### (1)
+	z		### (2)
+	@@
+
+@POST
+S("zulu") = 0;
+group(2,2,"_zulu");
+
+@RULES
+_zulu <-
+	_time	### (1)
+	z
+	@@
