@@ -1,0 +1,48 @@
+###############################################
+# FILE: times
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-1 11:56:34
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+###############################################
+# 10:04:23 pm
+###############################################
+
+@POST
+S("hour") = num(N("$text",1));
+S("min") = num(N("$text",3));
+S("sec") = num(N("$text",5));
+if (N(6)) S("am") = strpiece(pnname(N(6)),1,2);
+single();
+
+@RULES
+_time <-
+	_xNUM							### (1)
+	\:								### (2)
+	_xNUM							### (3)
+	\:								### (4)
+	_xNUM							### (5)
+	_xWILD [star match=(_am _pm)]	### (6)
+	@@
+
+###############################################
+# 10:04am
+###############################################
+
+@POST
+S("hour") = num(N("$text",1));
+S("min") = num(N("$text",3));
+if (N(4)) S("am") = strpiece(pnname(N(4)),1,2);
+single();
+
+@RULES
+_time <-
+	_xNUM							### (1)
+	\:								### (2)
+	_xNUM							### (3)
+	_xWILD [star match=(_am _pm)]	### (4)
+	@@

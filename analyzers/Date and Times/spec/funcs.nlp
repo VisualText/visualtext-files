@@ -1,0 +1,26 @@
+###############################################
+# FILE: funcs
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-5-31 21:26:46
+# MODIFIED:
+###############################################
+
+@DECL
+
+NumberType(L("node"),L("num")) {
+    if (L("num") >= 1 && L("num") <= 12) {
+        pnmakevar(L("node"),"month",1);
+    }
+    if (L("num") >= 1 && L("num") <= 31) {
+        pnmakevar(L("node"),"day",1);
+    }
+    if (L("num") >= 1900 && L("num") <= 2050) {
+        pnmakevar(L("node"),"year",1);
+    }
+	if (L("num") >= 0 && L("num") <= 99) {
+        pnmakevar(L("node"),"year",1);
+    }
+}
+
+@@DECL

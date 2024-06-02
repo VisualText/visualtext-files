@@ -1,0 +1,19 @@
+###############################################
+# FILE: numbers
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-1 15:14:37
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+L("num") = num(N("$text",1));
+NumberType(N(1),L("num"));
+
+@RULES
+_xNIL <-
+	_xNUM	### (1)
+	@@
+
