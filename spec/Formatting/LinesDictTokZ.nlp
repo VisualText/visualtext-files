@@ -20,6 +20,10 @@ _LINE <-
 <1,1> var("NL");
 <2,2> varz("NL");
 
+@POST
+S("NL") = N("NL",1);
+single();
+
 @RULES
 _LINE <-
     _xWILD [one]	### (1)
