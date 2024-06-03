@@ -1,3 +1,3 @@
 # BASIC
 
-A bare minimum analyzer
+A date and time analyzer.
