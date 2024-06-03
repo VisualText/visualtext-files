@@ -1,0 +1,19 @@
+###############################################
+# FILE: paragraphs
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-5-31 14:33:19
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@PRE
+<2,2> varne("NL",2);
+
+@RULES
+_paragraph <-
+	_LINE						### (1)
+	_xWILD [star match=(_LINE)]	### (2)
+	@@
+    

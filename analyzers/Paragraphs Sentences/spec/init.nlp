@@ -1,0 +1,15 @@
+###############################################
+# FILE: init
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-5-31 15:6:15
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("names") = getconcept(findroot(),"names");
+G("people") = getconcept(findroot(),"people");
+G("companies") = getconcept(findroot(),"companies");
+
+@@CODE

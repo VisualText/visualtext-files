@@ -1,0 +1,19 @@
+###############################################
+# FILE: sentenceEnders
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-5-31 14:34:15
+# MODIFIED:
+###############################################
+
+@NODES _paragraph
+
+@POST
+singler(2,2);
+
+@RULES
+_endSent <-
+    _xWILD [s one match=(_xALPHA _xNUM)]					### (1)
+    _xWILD [one trig match=(\. \? \!)]						### (2)
+    _xWILD [one match=(_xWHITE _xALPHA _xNUM _xEND _xCTRL)]	### (3)
+    @@
