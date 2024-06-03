@@ -1,3 +1,3 @@
 # BASIC
 
-A date and time analyzer.
+A date and time analyzer
