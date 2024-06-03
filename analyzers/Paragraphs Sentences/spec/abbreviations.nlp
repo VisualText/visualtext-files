@@ -1,0 +1,12 @@
+###############################################
+# FILE: abbreviations
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-3 14:52:37
+# MODIFIED:
+###############################################
+
+@NODES _paragraph
+
+@RULES
+_usa <- u \. s \. @@

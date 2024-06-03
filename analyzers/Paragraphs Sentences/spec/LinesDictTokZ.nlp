@@ -1,0 +1,31 @@
+###################################################
+# FILE: lines.pat
+# SUBJ: Gather Lines when using dicttokz
+# CREATED: 4/29/2023  Dd.
+# Date of this version: 4/29/2023
+###################################################
+
+@NODES _ROOT
+
+@PRE
+<2,2> varz("NL");
+
+@RULES
+_LINE <-
+    _xSTART			### (1)
+    _xWILD [plus]	### (2)
+    @@
+
+@PRE
+<1,1> var("NL");
+<2,2> varz("NL");
+
+@POST
+S("NL") = N("NL",1);
+single();
+
+@RULES
+_LINE <-
+    _xWILD [one]	### (1)
+    _xWILD [star]	### (2)
+    @@

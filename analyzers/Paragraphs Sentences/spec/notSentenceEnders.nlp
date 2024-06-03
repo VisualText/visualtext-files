@@ -1,0 +1,27 @@
+###############################################
+# FILE: notSentenceEnders
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-6-3 14:39:21
+# MODIFIED:
+###############################################
+
+@NODES _paragraph
+
+###############################################
+# John R. Jones
+###############################################
+
+@PRE
+<4,4> lengthr(1,100);
+
+@POST
+group(2,3,"_initial");
+
+@RULES
+_xNIL <-
+	_xALPHA	### (1)
+	_xLET	### (2)
+	\.		### (3)
+	_xALPHA	### (4)
+	@@
