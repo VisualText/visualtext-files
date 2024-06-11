@@ -1,0 +1,19 @@
+# Map directions (north, south, nw, etc.)
+north direction=north abbrev=n
+south direction=south abbrev=s
+east direction=east abbrev=e
+west direction=west abbrev=w
+northeast direction=northeast abbrev=ne
+northwest direction=northwest abbrev=nw
+southeast direction=southeast abbrev=se
+southwest direction=southwest abbrev=sw
+
+# Map locations
+n direction=north
+s direction=south
+e direction=east
+w direction=west
+ne direction=northeast
+nw direction=northwest
+se direction=southeast
+sw direction=southwest
