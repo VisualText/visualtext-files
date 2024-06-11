@@ -1,0 +1,25 @@
+# Human name prefixes and suffixes
+jr suffix=junior
+sr suffix=senior
+phd suffix=phd
+esq suffix=esquire
+phd suffix=phd
+md suffix=medical
+rn suffix=nurse
+ii suffix=2
+iii suffix=3
+iv suffix=4
+v suffix=5
+vi suffix=6
+vii suffix=7
+viii suffix=8
+
+# Human name prefixes
+mr prefix=mister
+mrs prefix=misses
+ms prefix=ms
+miss prefix=miss
+dr prefix=doctor
+prof prefix=professor
+rev prefix=reverend
+hon prefix=honorable
