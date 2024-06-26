@@ -1,0 +1,96 @@
+# Pronomes em português
+pronomesedit
+  a: type=[p,od], g=f
+  algum: type=pr
+  alguns: type=pr
+  alguém: type=pr
+  as: type=od, g=f
+  com: type=pr
+  comigo: type=pr
+  como: type=pr, g=m
+  connosco: type=pr
+  conosco: type=pr
+  consigo: type=pr
+  cujo: type=pr, n=s
+  cujos: type=pr, n=p
+  de: type=pr, g=m
+  dela: type=pr, g=f
+  delas: type=pr, g=f
+  dele: type=pr, g=m
+  deles: type=pr, g=m
+  ela: type=[p,oi,pr], g=f, n=s
+  elas: type=[p,oi,pr], g=f, n=p
+  ele: type=[p,oi,pr], g=m, n=s
+  eles: type=[p,oi,pr], g=m, n=p
+  em: type=pr
+  essa: type=pr, g=f, n=s
+  essas: type=pr, g=f, n=p
+  esse: type=pr, g=m, n=s
+  esses: type=pr, g=m, n=p
+  esta: type=pr, g=f, n=s
+  estas: type=pr, g=f, n=p
+  este: type=pr, g=m, n=s
+  estes: type=pr, g=m n=p
+  eu: type=p, p=1
+  gente: type=p
+  isso: type=pr
+  lhe: type=oi
+  lhes: type=oi
+  mais: type=pr
+  me: type=[r,od], p=1
+  menos: type=pr
+  meu: type=pr, p=1, n=s
+  meus: type=pr, p=1, n=p
+  mim: type=[oi,pr], p=1
+  muita: type=pr, g=f, n=s
+  muitas: type=pr, g=f, n=p
+  muito: type=pr, g=m, n=s
+  muitos: type=pr, g=m, n=p
+  nada: type=pr, g=f
+  nenhum: type=pr, n=s
+  nenhuns: type=pr, n=p
+  ninguém: type=pr
+  nos: type=[r,od,oi], p=3, n=p
+  nosso: type=pr, p=3, n=s
+  nossos: type=pr, p=3, n=p
+  nós: type=[p,oi,pr], p=3, n=s
+  o: type=[od,pr], g=m n=s
+  onde: type=pr, g=m
+  os: type=od, g=m, n=p
+  para: type=[oi,pr], g=f
+  por: type=pr
+  pouca: type=pr, g=f, n=s
+  poucas: type=pr, g=f, n=p
+  pouco: type=pr, g=m, n=s
+  poucos: type=pr, g=m, n=p
+  quais: type=pr, n=p
+  qual: type=pr, n=s
+  quando: type=pr, g=m
+  quanto: type=pr, g=m, n=s
+  quantos: type=pr, g=m, n=p
+  que: type=pr, g=m
+  quem: type=pr
+  se: type=r
+  si: type=[r,pr]
+  tanta: type=pr, g=f, n=s
+  tantas: type=pr, g=f, n=p
+  tanto: type=pr, g=m, n=s
+  tantos: type=pr, g=m, n=p
+  te: type=[r,od,oi], p=2, n=s
+  teu: type=pr, p=2, n=s
+  teus: type=pr, p=2, n=p
+  ti: type=[r,oi], p=2, n=s
+  toda: type=pr, g=f, n=s
+  todas: type=pr, g=f, n=p
+  todo: type=pr, g=m, n=s
+  todos: type=pr, g=m, n=p
+  tu: type=p
+  tudo: type=pr, g=m
+  você: type=[p,oi,pr], p=2, n=s
+  vocês: type=[p,oi], p=2, n=p
+  vos: type=[r,od], p=2, n=s
+  vosso: type=pr, p=2, n=s
+  vossos: type=pr, p=2, n=p
+  várias: type=pr, p=2, n=p
+  vários: type=pr, p=2, n=p
+  vós: type=p, p=2, n=s
