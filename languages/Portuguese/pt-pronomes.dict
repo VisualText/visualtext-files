@@ -1,0 +1,95 @@
+# Pronomes em português
+a pro=p g=f
+algum pro=pr
+alguns pro=pr
+alguém pro=pr
+as pro=od g=f
+com pro=pr
+comigo pro=pr
+como pro=pr g=m
+connosco pro=pr
+conosco pro=pr
+consigo pro=pr
+cujo pro=pr n=s
+cujos pro=pr n=p
+de pro=pr g=m
+dela pro=pr g=f
+delas pro=pr g=f
+dele pro=pr g=m
+deles pro=pr g=m
+ela pro=p n=s g=f
+elas pro=p n=p g=f
+ele pro=p n=s g=m
+eles pro=p n=p g=m
+em pro=pr
+essa pro=pr n=s g=f
+essas pro=pr n=p g=f
+esse pro=pr n=s g=m
+esses pro=pr n=p g=m
+esta pro=pr n=s g=f
+estas pro=pr n=p g=f
+este pro=pr n=s g=m
+estes pro=pr n=p
+eu pro=p p=1
+gente pro=p
+isso pro=pr
+lhe pro=oi
+lhes pro=oi
+mais pro=pr
+me pro=r p=1
+menos pro=pr
+meu pro=pr p=1 n=s
+meus pro=pr p=1 n=p
+mim pro=oi p=1
+muita pro=pr n=s g=f
+muitas pro=pr n=p g=f
+muito pro=pr n=s g=m
+muitos pro=pr n=p g=m
+nada pro=pr g=f
+nenhum pro=pr n=s
+nenhuns pro=pr n=p
+ninguém pro=pr
+nos pro=r p=3 n=p
+nosso pro=pr p=3 n=s
+nossos pro=pr p=3 n=p
+nós pro=p p=3 n=s
+o pro=od n=s
+onde pro=pr g=m
+os pro=od n=p g=m
+para pro=oi g=f
+por pro=pr
+pouca pro=pr n=s g=f
+poucas pro=pr n=p g=f
+pouco pro=pr n=s g=m
+poucos pro=pr n=p g=m
+quais pro=pr n=p
+qual pro=pr n=s
+quando pro=pr g=m
+quanto pro=pr n=s g=m
+quantos pro=pr n=p g=m
+que pro=pr g=m
+quem pro=pr
+se pro=r
+si pro=r
+tanta pro=pr n=s g=f
+tantas pro=pr n=p g=f
+tanto pro=pr n=s g=m
+tantos pro=pr n=p g=m
+te pro=r p=2 n=s
+teu pro=pr p=2 n=s
+teus pro=pr p=2 n=p
+ti pro=r p=2 n=s
+toda pro=pr n=s g=f
+todas pro=pr n=p g=f
+todo pro=pr n=s g=m
+todos pro=pr n=p g=m
+tu pro=p
+tudo pro=pr g=m
+você pro=p p=2 n=s
+vocês pro=p p=2 n=p
+vos pro=r p=2 n=s
+vosso pro=pr p=2 n=s
+vossos pro=pr p=2 n=p
+várias pro=pr p=2 n=p
+vários pro=pr p=2 n=p
+vós pro=p p=2 n=s

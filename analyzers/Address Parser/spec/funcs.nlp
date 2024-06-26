@@ -42,6 +42,7 @@ AddAttrs(L("node"))
     if(pnvar(L("node"),"country"))
     addstrval(L("concept"),"country",pnvar(L("node"),"country"));    
 }
+
 FindCity(L("node"),L("add"))
 {
     L("pre")=pnprev(L("node"));
