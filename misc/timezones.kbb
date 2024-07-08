@@ -1,5 +1,5 @@
 # Timezone Abbreviations
-timeszones
+timezones
   acdt: hour=10, min=10, sign="+", descr="Australian Central Daylight Saving Time", daylight=1
   acst: hour=9, min=9, sign="+", descr="Australian Central Standard Time", standard=1
   act: act=1, ambig=1, hour=5, min=5, sign="-", descr="Acre Time"
