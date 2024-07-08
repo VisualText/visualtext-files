@@ -185,7 +185,7 @@ StripEndDigits(L("name")) {
 }
 
 ###############################################
-# KB Dump Functins
+# KB Dump Functipns
 ###############################################
 
 DumpKB(L("con"),L("file")) {
@@ -378,7 +378,97 @@ PadStr(L("num str"),L("pad str"),L("pad len")) {
 }
 
 ###############################################
-# DICTIONARY FUNCTIONS
+# JSON FUNCTIONS
+###############################################
+
+JsonKB(L("file"),L("con")) {
+	JsonKBRecurse(L("file"),L("con"),0);
+}
+
+JsonKBRecurse(L("file"),L("parent"),L("level")) {
+	if (L("level") == 0) {
+		L("file") << "{\n";
+	}
+	L("con") = down(L("parent"));
+	L("first") = 1;
+	while (L("con")) {
+		L("file") << SpacesStr(L("level")+1) << JsonStr(conceptname(L("con"))) << ": {\n";
+		JsonAttributes(L("file"),L("con"),L("level")+1);
+		if (down(L("con"))) {
+			L("lev") = 1;
+			if (!L("first")) L("file") << ",\n";
+			JsonKBRecurse(L("file"),L("con"),L("level")+L("lev"));
+		}
+		else {
+			L("file") << "\n";
+		}
+		L("file") << SpacesStr(L("level")+1) << "}";
+		if (next(L("con"))) {
+			L("file") << ",";
+		}
+		L("file") << "\n";
+		L("first") = 0;
+		L("con") = next(L("con"));
+	}
+	if (L("level") == 0) {
+		L("file") << "}\n";
+	}
+}
+
+JsonAttributes(L("file"),L("con"),L("level")) {
+	L("attrs") = findattrs(L("con"));
+	if (L("display type") == 1 && L("attrs")) L("file") << "\n";
+	L("first attr") = 1;
+	L("first") = 1;
+	
+	while (L("attrs")) {
+		L("vals") = attrvals(L("attrs"));
+		L("count") = ValCount(L("vals"));
+		if (!L("first attr")) {
+			L("file") << "\n";
+		}
+		L("name") = attrname(L("attrs"));
+		L("file") << SpacesStr(L("level")+1) << JsonStr(L("name")) << ": ";
+		L("type") = attrtype(L("con"),L("name"));
+
+		while (L("vals")) {
+			if (L("type") != 2 && L("count") > 1)
+				L("file") << "[";
+
+			if (L("type") == 1) {
+				L("num") = getnumval(L("vals"));
+				L("file") << JsonStr(str(L("num")));
+
+			} else if (L("type") == 2) {
+				L("c") = getconval(L("vals"));
+				L("file") << JsonStr(conceptpath(L("c")));
+
+			} else if (L("type") == 3) {
+				L("flt") = getfltval(L("vals"));
+				L("file") << JsonStr(str(L("flt")));
+
+			} else {
+				L("val") = getstrval(L("vals"));
+				L("file") << JsonStr(str(L("val")));
+			}
+			L("first") = 0;
+			L("vals") = nextval(L("vals"));
+		}
+		
+		L("first attr") = 0;
+		L("attrs") = nextattr(L("attrs"));
+		if (L("attrs")) L("file") << ",";
+	}
+}
+
+JsonStr(L("str")) {
+	L("str") = strsubst(L("str"), "\\", "\\\\");
+	L("str") = strsubst(L("str"), "\"", "\\\"");
+	return "\"" + L("str") + "\"";
+}
+
+###############################################
+# DICTIONARY FUNCTIONS (These are no longer needed. Relics of the past.)
 ###############################################
 
 DictionaryStart() {
