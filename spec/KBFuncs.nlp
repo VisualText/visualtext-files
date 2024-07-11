@@ -468,6 +468,50 @@ JsonStr(L("str")) {
 }
 
 ###############################################
+# Ambiguity Functions
+###############################################
+
+AmbigTrimPOS(L("node"),L("pos")) {
+	L("con") = down(N("meaning",2));
+	while (L("con")) {
+		if (strval(L("con"),"pos") == L("pos")) {
+			AmbigCopyAttrs(L("con"),N(2));
+			pnreplaceval(N(2),"pos num",1);
+			pnreplaceval(N(2),"meaning",L("con"));
+			pnremoveval(N(2),L("pos"));
+		}
+		L("con") = next(L("con"));
+	}
+}
+
+AmbigCopyAttrs(L("con"),L("node")) {
+	L("attrs") = findattrs(L("con"));
+	
+	while (L("attrs")) {
+		L("vals") = attrvals(L("attrs"));
+		L("name") = attrname(L("attrs"));
+		L("type") = attrtype(L("con"),L("name"));
+
+		if (L("name") != "pos") {
+			while (L("vals")) {
+				if (L("type") == 1) {
+					pnmakevar(L("node"),L("name"),getnumval(L("vals")));
+				} else if (L("type") == 2) {
+					pnmakevar(L("node"),L("name"),getconval(L("vals")));
+				} else if (L("type") == 3) {
+					pnmakevar(L("node"),L("name"),getfltval(L("vals")));
+				} else {
+					pnmakevar(L("node"),L("name"),getstrval(L("vals")));
+				}
+				L("vals") = nextval(L("vals"));
+			}			
+		}
+
+		L("attrs") = nextattr(L("attrs"));
+	}		
+}
+
+###############################################
 # DICTIONARY FUNCTIONS (These are no longer needed. Relics of the past.)
 ###############################################
 
