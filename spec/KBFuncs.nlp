@@ -472,16 +472,29 @@ JsonStr(L("str")) {
 ###############################################
 
 AmbigTrimPOS(L("node"),L("pos")) {
-	L("con") = down(N("meaning",2));
+	L("meaning") = pnvar(L("node"),"meaning");
+	if (!L("meaning")) {
+		return;
+	}
+	L("con") = down(L("meaning"));
 	while (L("con")) {
-		if (strval(L("con"),"pos") == L("pos")) {
-			AmbigCopyAttrs(L("con"),N(2));
-			pnreplaceval(N(2),"pos num",1);
-			pnreplaceval(N(2),"meaning",L("con"));
-			pnremoveval(N(2),L("pos"));
+		L("p") = strval(L("con"),"pos");
+		if (L("p") == L("pos")) {
+			AmbigCopyAttrs(L("con"),L("node"));
+			pnreplaceval(L("node"),"pos num",1);
+			pnreplaceval(L("node"),"meaning",L("con"));
 		}
 		L("con") = next(L("con"));
 	}
+
+	L("names") = pnvarnames(L("node"));
+	while (L("names")[L("ii")]) {
+		L("name") = L("names")[ L("ii") ];
+		if (IsPOS(L("name")) && L("name") != L("pos")) {
+			pnremoveval(L("node"),L("name"));
+		}
+		L("ii")++;
+    }
 }
 
 AmbigCopyAttrs(L("con"),L("node")) {
@@ -509,6 +522,12 @@ AmbigCopyAttrs(L("con"),L("node")) {
 
 		L("attrs") = nextattr(L("attrs"));
 	}		
+}
+
+IsPOS(L("pos")) {
+	if (L("pos") == "noun" || L("pos") == "verb" || L("pos") == "adj" || L("pos") == "adv" || L("pos") == "prep" || L("pos") == "pron" || L("pos") == "conj" || L("pos") == "det" || L("pos") == "num" || L("pos") == "int" || L("pos") == "art" || L("pos") == "pro" || L("pos") == "punct")
+		return 1;
+	return 0;
 }
 
 ###############################################
