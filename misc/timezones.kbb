@@ -1,219 +1,219 @@
 # Timezone Abbreviations
-timezones
-  acdt: hour=10, min=10, sign="+", descr="Australian Central Daylight Saving Time", daylight=1
-  acst: hour=9, min=9, sign="+", descr="Australian Central Standard Time", standard=1
-  act: act=1, ambig=1, hour=5, min=5, sign="-", descr="Acre Time"
-    act1: hour=8, min=8, sign="+", descr="ASEAN Common Time (proposed)"
-  acwst: hour=8, min=8, sign="+", descr="Australian Central Western Standard Time (unofficial)", standard=1
-  adt: hour=3, min=3, sign="-", descr="Atlantic Daylight Time", daylight=1
-  aedt: hour=11, min=11, sign="+", descr="Australian Eastern Daylight Saving Time", daylight=1
+timeszones
+  acdt: hour=10, min=30, sign="+", descr="Australian Central Daylight Saving Time", daylight=1
+  acst: hour=9, min=30, sign="+", descr="Australian Central Standard Time", standard=1
+  act: act=1, ambig=1, hour=5, min=0, sign="-", descr="Acre Time"
+    act1: hour=8, min=0, sign="+", descr="ASEAN Common Time (proposed)"
+  acwst: hour=8, min=45, sign="+", descr="Australian Central Western Standard Time (unofficial)", standard=1
+  adt: hour=3, min=0, sign="-", descr="Atlantic Daylight Time", daylight=1
+  aedt: hour=11, min=0, sign="+", descr="Australian Eastern Daylight Saving Time", daylight=1
     daylight: hour=11, min=0, sign="+"
-  aest: hour=10, min=10, sign="+", descr="Australian Eastern Standard Time", standard=1
-  aet: hour=10, min=10, sign="+", descr="Australian Eastern Time"
-  aft: hour=4, min=4, sign="+", descr="Afghanistan Time"
-  akdt: hour=8, min=8, sign="-", descr="Alaska Daylight Time", daylight=1
-  akst: hour=9, min=9, sign="-", descr="Alaska Standard Time", standard=1
-  almt: hour=6, min=6, sign="+", descr="Alma-Ata Time[1]"
-  amst: hour=3, min=3, sign="-", descr="Amazon Summer Time (Brazil)[2]"
-  amt: amt=1, ambig=1, hour=4, min=4, sign="-", descr="Amazon Time (Brazil)[3]"
-    amt1: hour=4, min=4, sign="+", descr="Armenia Time"
-  anat: hour=12, min=12, sign="+", descr="Anadyr Time[4]"
-  aqtt: hour=5, min=5, sign="+", descr="Aqtobe Time[5]"
-  art: hour=3, min=3, sign="-", descr="Argentina Time"
-  ast: ast=1, ambig=1, hour=3, min=3, sign="+", descr="Arabia Standard Time", standard=1
-    ast1: hour=4, min=4, sign="-", descr="Atlantic Standard Time", standard=1
-  awst: hour=8, min=8, sign="+", descr="Australian Western Standard Time", standard=1
+  aest: hour=10, min=0, sign="+", descr="Australian Eastern Standard Time", standard=1
+  aet: hour=10, min=0, sign="+", descr="Australian Eastern Time"
+  aft: hour=4, min=30, sign="+", descr="Afghanistan Time"
+  akdt: hour=8, min=0, sign="-", descr="Alaska Daylight Time", daylight=1
+  akst: hour=9, min=0, sign="-", descr="Alaska Standard Time", standard=1
+  almt: hour=6, min=0, sign="+", descr="Alma-Ata Time[1]"
+  amst: hour=3, min=0, sign="-", descr="Amazon Summer Time (Brazil)[2]"
+  amt: amt=1, ambig=1, hour=4, min=0, sign="-", descr="Amazon Time (Brazil)[3]"
+    amt1: hour=4, min=0, sign="+", descr="Armenia Time"
+  anat: hour=12, min=0, sign="+", descr="Anadyr Time[4]"
+  aqtt: hour=5, min=0, sign="+", descr="Aqtobe Time[5]"
+  art: hour=3, min=0, sign="-", descr="Argentina Time"
+  ast: ast=1, ambig=1, hour=3, min=0, sign="+", descr="Arabia Standard Time", standard=1
+    ast1: hour=4, min=0, sign="-", descr="Atlantic Standard Time", standard=1
+  awst: hour=8, min=0, sign="+", descr="Australian Western Standard Time", standard=1
   azost: hour=0, min=0, sign=±, descr="Azores Summer Time"
-  azot: hour=1, min=1, sign="-", descr="Azores Standard Time", standard=1
-  azt: hour=4, min=4, sign="+", descr="Azerbaijan Time"
-  bnt: hour=8, min=8, sign="+", descr="Brunei Time"
-  biot: hour=6, min=6, sign="+", descr="British Indian Ocean Time"
-  bit: hour=12, min=12, sign="-", descr="Baker Island Time"
-  bot: hour=4, min=4, sign="-", descr="Bolivia Time"
-  brst: hour=2, min=2, sign="-", descr="Brasília Summer Time"
-  brt: hour=3, min=3, sign="-", descr="Brasília Time"
-  bst: bst=2, ambig=2, hour=6, min=6, sign="+", descr="Bangladesh Standard Time", standard=1
-    bst1: hour=11, min=11, sign="+", descr="Bougainville Standard Time[6]", standard=1
-    bst2: hour=1, min=1, sign="+", descr="British Summer Time (British Standard Time from Mar 1968 to Oct 1971)", standard=1
-  btt: hour=6, min=6, sign="+", descr="Bhutan Time"
-  cat: hour=2, min=2, sign="+", descr="Central Africa Time"
-  cct: hour=6, min=6, sign="+", descr="Cocos Islands Time"
-  cdt: cdt=1, ambig=1, hour=5, min=5, sign="-", descr="Central Daylight Time (North America)", daylight=1
-    cdt1: hour=4, min=4, sign="-", descr="Cuba Daylight Time[7]", daylight=1
+  azot: hour=1, min=0, sign="-", descr="Azores Standard Time", standard=1
+  azt: hour=4, min=0, sign="+", descr="Azerbaijan Time"
+  bnt: hour=8, min=0, sign="+", descr="Brunei Time"
+  biot: hour=6, min=0, sign="+", descr="British Indian Ocean Time"
+  bit: hour=12, min=0, sign="-", descr="Baker Island Time"
+  bot: hour=4, min=0, sign="-", descr="Bolivia Time"
+  brst: hour=2, min=0, sign="-", descr="Brasília Summer Time"
+  brt: hour=3, min=0, sign="-", descr="Brasília Time"
+  bst: bst=2, ambig=2, hour=6, min=0, sign="+", descr="Bangladesh Standard Time", standard=1
+    bst1: hour=11, min=0, sign="+", descr="Bougainville Standard Time[6]", standard=1
+    bst2: hour=1, min=0, sign="+", descr="British Summer Time (British Standard Time from Mar 1968 to Oct 1971)", standard=1
+  btt: hour=6, min=0, sign="+", descr="Bhutan Time"
+  cat: hour=2, min=0, sign="+", descr="Central Africa Time"
+  cct: hour=6, min=30, sign="+", descr="Cocos Islands Time"
+  cdt: cdt=1, ambig=1, hour=5, min=0, sign="-", descr="Central Daylight Time (North America)", daylight=1
+    cdt1: hour=4, min=0, sign="-", descr="Cuba Daylight Time[7]", daylight=1
     daylight: hour=5, min=0, sign="-"
-  cest: hour=2, min=2, sign="+", descr="Central European Summer Time"
-  cet: hour=1, min=1, sign="+", descr="Central European Time"
-  chadt: hour=13, min=13, sign="+", descr="Chatham Daylight Time", daylight=1
-  chast: hour=12, min=12, sign="+", descr="Chatham Standard Time", standard=1
-  chot: hour=8, min=8, sign="+", descr="Choibalsan Standard Time", standard=1
-  chost: hour=9, min=9, sign="+", descr="Choibalsan Summer Time"
-  chst: hour=10, min=10, sign="+", descr="Chamorro Standard Time", standard=1
-  chut: hour=10, min=10, sign="+", descr="Chuuk Time"
-  cist: hour=8, min=8, sign="-", descr="Clipperton Island Standard Time", standard=1
-  ckt: hour=10, min=10, sign="-", descr="Cook Island Time"
-  clst: hour=3, min=3, sign="-", descr="Chile Summer Time"
-  clt: hour=4, min=4, sign="-", descr="Chile Standard Time", standard=1
-  cost: hour=4, min=4, sign="-", descr="Colombia Summer Time"
-  cot: hour=5, min=5, sign="-", descr="Colombia Time"
-  cst: cst=2, ambig=2, hour=6, min=6, sign="-", descr="Central Standard Time (Central America)", standard=1
-    cst1: hour=8, min=8, sign="+", descr="China Standard Time", standard=1
-    cst2: hour=5, min=5, sign="-", descr="Cuba Standard Time", standard=1
-  ct: hour=6, min=6, sign="-", descr="Central Time"
-  cvt: hour=1, min=1, sign="-", descr="Cape Verde Time"
-  cwst: hour=8, min=8, sign="+", descr="Central Western Standard Time (Australia) unofficial", standard=1
-  cxt: hour=7, min=7, sign="+", descr="Christmas Island Time"
-  davt: hour=7, min=7, sign="+", descr="Davis Time"
-  ddut: hour=10, min=10, sign="+", descr="Dumont d'Urville Time"
-  dft: hour=1, min=1, sign="+", descr="AIX-specific equivalent of Central European Time[NB 1]"
-  easst: hour=5, min=5, sign="-", descr="Easter Island Summer Time"
-  east: hour=6, min=6, sign="-", descr="Easter Island Standard Time", standard=1
-  eat: hour=3, min=3, sign="+", descr="East Africa Time"
-  ect: ect=1, ambig=1, hour=4, min=4, sign="-", descr="Eastern Caribbean Time (does not recognise DST)"
-    ect1: hour=5, min=5, sign="-", descr="Ecuador Time"
-  edt: hour=4, min=4, sign="-", descr="Eastern Daylight Time (North America)", daylight=1
+  cest: hour=2, min=0, sign="+", descr="Central European Summer Time"
+  cet: hour=1, min=0, sign="+", descr="Central European Time"
+  chadt: hour=13, min=45, sign="+", descr="Chatham Daylight Time", daylight=1
+  chast: hour=12, min=45, sign="+", descr="Chatham Standard Time", standard=1
+  chot: hour=8, min=0, sign="+", descr="Choibalsan Standard Time", standard=1
+  chost: hour=9, min=0, sign="+", descr="Choibalsan Summer Time"
+  chst: hour=10, min=0, sign="+", descr="Chamorro Standard Time", standard=1
+  chut: hour=10, min=0, sign="+", descr="Chuuk Time"
+  cist: hour=8, min=0, sign="-", descr="Clipperton Island Standard Time", standard=1
+  ckt: hour=10, min=0, sign="-", descr="Cook Island Time"
+  clst: hour=3, min=0, sign="-", descr="Chile Summer Time"
+  clt: hour=4, min=0, sign="-", descr="Chile Standard Time", standard=1
+  cost: hour=4, min=0, sign="-", descr="Colombia Summer Time"
+  cot: hour=5, min=0, sign="-", descr="Colombia Time"
+  cst: cst=2, ambig=2, hour=6, min=0, sign="-", descr="Central Standard Time (Central America)", standard=1
+    cst1: hour=8, min=0, sign="+", descr="China Standard Time", standard=1
+    cst2: hour=5, min=0, sign="-", descr="Cuba Standard Time", standard=1
+  ct: hour=6, min=0, sign="-", descr="Central Time"
+  cvt: hour=1, min=0, sign="-", descr="Cape Verde Time"
+  cwst: hour=8, min=45, sign="+", descr="Central Western Standard Time (Australia) unofficial", standard=1
+  cxt: hour=7, min=0, sign="+", descr="Christmas Island Time"
+  davt: hour=7, min=0, sign="+", descr="Davis Time"
+  ddut: hour=10, min=0, sign="+", descr="Dumont d'Urville Time"
+  dft: hour=1, min=0, sign="+", descr="AIX-specific equivalent of Central European Time[NB 1]"
+  easst: hour=5, min=0, sign="-", descr="Easter Island Summer Time"
+  east: hour=6, min=0, sign="-", descr="Easter Island Standard Time", standard=1
+  eat: hour=3, min=0, sign="+", descr="East Africa Time"
+  ect: ect=1, ambig=1, hour=4, min=0, sign="-", descr="Eastern Caribbean Time (does not recognise DST)"
+    ect1: hour=5, min=0, sign="-", descr="Ecuador Time"
+  edt: hour=4, min=0, sign="-", descr="Eastern Daylight Time (North America)", daylight=1
     daylight: hour=4, min=0, sign="-"
-  eest: hour=3, min=3, sign="+", descr="Eastern European Summer Time"
-  eet: hour=2, min=2, sign="+", descr="Eastern European Time"
+  eest: hour=3, min=0, sign="+", descr="Eastern European Summer Time"
+  eet: hour=2, min=0, sign="+", descr="Eastern European Time"
   egst: hour=0, min=0, sign=±, descr="Eastern Greenland Summer Time"
-  egt: hour=1, min=1, sign="-", descr="Eastern Greenland Time"
-  est: hour=5, min=5, sign="-", descr="Eastern Standard Time (North America)", standard=1
-  et: hour=5, min=5, sign="-", descr="Eastern Time (North America)"
-  fet: hour=3, min=3, sign="+", descr="Further-eastern European Time"
-  fjt: hour=12, min=12, sign="+", descr="Fiji Time"
-  fkst: hour=3, min=3, sign="-", descr="Falkland Islands Summer Time"
-  fkt: hour=4, min=4, sign="-", descr="Falkland Islands Time"
-  fnt: hour=2, min=2, sign="-", descr="Fernando de Noronha Time"
-  galt: hour=6, min=6, sign="-", descr="Galápagos Time"
-  gamt: hour=9, min=9, sign="-", descr="Gambier Islands Time"
-  get: hour=4, min=4, sign="+", descr="Georgia Standard Time", standard=1
-  gft: hour=3, min=3, sign="-", descr="French Guiana Time"
-  gilt: hour=12, min=12, sign="+", descr="Gilbert Island Time"
-  git: hour=9, min=9, sign="-", descr="Gambier Island Time"
+  egt: hour=1, min=0, sign="-", descr="Eastern Greenland Time"
+  est: hour=5, min=0, sign="-", descr="Eastern Standard Time (North America)", standard=1
+  et: hour=5, min=0, sign="-", descr="Eastern Time (North America)"
+  fet: hour=3, min=0, sign="+", descr="Further-eastern European Time"
+  fjt: hour=12, min=0, sign="+", descr="Fiji Time"
+  fkst: hour=3, min=0, sign="-", descr="Falkland Islands Summer Time"
+  fkt: hour=4, min=0, sign="-", descr="Falkland Islands Time"
+  fnt: hour=2, min=0, sign="-", descr="Fernando de Noronha Time"
+  galt: hour=6, min=0, sign="-", descr="Galápagos Time"
+  gamt: hour=9, min=0, sign="-", descr="Gambier Islands Time"
+  get: hour=4, min=0, sign="+", descr="Georgia Standard Time", standard=1
+  gft: hour=3, min=0, sign="-", descr="French Guiana Time"
+  gilt: hour=12, min=0, sign="+", descr="Gilbert Island Time"
+  git: hour=9, min=0, sign="-", descr="Gambier Island Time"
   gmt: hour=0, min=0, sign=±, descr="Greenwich Mean Time"
-  gst: gst=1, ambig=1, hour=2, min=2, sign="-", descr="South Georgia and the South Sandwich Islands Time"
-    gst1: hour=4, min=4, sign="+", descr="Gulf Standard Time", standard=1
-  gyt: hour=4, min=4, sign="-", descr="Guyana Time"
-  hdt: hour=9, min=9, sign="-", descr="Hawaii–Aleutian Daylight Time", daylight=1
-  haec: hour=2, min=2, sign="+", descr="Heure Avancée d'Europe Centrale French-language name for CEST"
-  hst: hour=10, min=10, sign="-", descr="Hawaii–Aleutian Standard Time", standard=1
-  hkt: hour=8, min=8, sign="+", descr="Hong Kong Time"
-  hmt: hour=5, min=5, sign="+", descr="Heard and McDonald Islands Time"
-  hovst: hour=8, min=8, sign="+", descr="Hovd Summer Time (not used from 2017-present)"
-  hovt: hour=7, min=7, sign="+", descr="Hovd Time"
-  ict: hour=7, min=7, sign="+", descr="Indochina Time"
-  idlw: hour=12, min=12, sign="-", descr="International Date Line West time zone"
-  idt: hour=3, min=3, sign="+", descr="Israel Daylight Time", daylight=1
-  iot: hour=6, min=6, sign="+", descr="Indian Ocean Time"
-  irdt: hour=4, min=4, sign="+", descr="Iran Daylight Time", daylight=1
-  irkt: hour=8, min=8, sign="+", descr="Irkutsk Time"
-  irst: hour=3, min=3, sign="+", descr="Iran Standard Time", standard=1
-  ist: ist=2, ambig=2, hour=5, min=5, sign="+", descr="Indian Standard Time", standard=1
-    ist1: hour=1, min=1, sign="+", descr="Irish Standard Time[8]", standard=1
-    ist2: hour=2, min=2, sign="+", descr="Israel Standard Time", standard=1
-  jst: hour=9, min=9, sign="+", descr="Japan Standard Time", standard=1
-  kalt: hour=2, min=2, sign="+", descr="Kaliningrad Time"
-  kgt: hour=6, min=6, sign="+", descr="Kyrgyzstan Time"
-  kost: hour=11, min=11, sign="+", descr="Kosrae Time"
-  krat: hour=7, min=7, sign="+", descr="Krasnoyarsk Time"
-  kst: hour=9, min=9, sign="+", descr="Korea Standard Time", standard=1
-  lhst: lhst=1, ambig=1, hour=10, min=10, sign="+", descr="Lord Howe Standard Time", standard=1
-    lhst1: hour=11, min=11, sign="+", descr="Lord Howe Summer Time"
-  lint: hour=14, min=14, sign="+", descr="Line Islands Time"
-  magt: hour=12, min=12, sign="+", descr="Magadan Time"
-  mart: hour=9, min=9, sign="-", descr="Marquesas Islands Time"
-  mawt: hour=5, min=5, sign="+", descr="Mawson Station Time"
-  mdt: hour=6, min=6, sign="-", descr="Mountain Daylight Time (North America)", daylight=1
+  gst: gst=1, ambig=1, hour=2, min=0, sign="-", descr="South Georgia and the South Sandwich Islands Time"
+    gst1: hour=4, min=0, sign="+", descr="Gulf Standard Time", standard=1
+  gyt: hour=4, min=0, sign="-", descr="Guyana Time"
+  hdt: hour=9, min=0, sign="-", descr="Hawaii–Aleutian Daylight Time", daylight=1
+  haec: hour=2, min=0, sign="+", descr="Heure Avancée d'Europe Centrale French-language name for CEST"
+  hst: hour=10, min=0, sign="-", descr="Hawaii–Aleutian Standard Time", standard=1
+  hkt: hour=8, min=0, sign="+", descr="Hong Kong Time"
+  hmt: hour=5, min=0, sign="+", descr="Heard and McDonald Islands Time"
+  hovst: hour=8, min=0, sign="+", descr="Hovd Summer Time (not used from 2017-present)"
+  hovt: hour=7, min=0, sign="+", descr="Hovd Time"
+  ict: hour=7, min=0, sign="+", descr="Indochina Time"
+  idlw: hour=12, min=0, sign="-", descr="International Date Line West time zone"
+  idt: hour=3, min=0, sign="+", descr="Israel Daylight Time", daylight=1
+  iot: hour=6, min=0, sign="+", descr="Indian Ocean Time"
+  irdt: hour=4, min=30, sign="+", descr="Iran Daylight Time", daylight=1
+  irkt: hour=8, min=0, sign="+", descr="Irkutsk Time"
+  irst: hour=3, min=30, sign="+", descr="Iran Standard Time", standard=1
+  ist: ist=2, ambig=2, hour=5, min=30, sign="+", descr="Indian Standard Time", standard=1
+    ist1: hour=1, min=0, sign="+", descr="Irish Standard Time[8]", standard=1
+    ist2: hour=2, min=0, sign="+", descr="Israel Standard Time", standard=1
+  jst: hour=9, min=0, sign="+", descr="Japan Standard Time", standard=1
+  kalt: hour=2, min=0, sign="+", descr="Kaliningrad Time"
+  kgt: hour=6, min=0, sign="+", descr="Kyrgyzstan Time"
+  kost: hour=11, min=0, sign="+", descr="Kosrae Time"
+  krat: hour=7, min=0, sign="+", descr="Krasnoyarsk Time"
+  kst: hour=9, min=0, sign="+", descr="Korea Standard Time", standard=1
+  lhst: lhst=1, ambig=1, hour=10, min=30, sign="+", descr="Lord Howe Standard Time", standard=1
+    lhst1: hour=11, min=0, sign="+", descr="Lord Howe Summer Time"
+  lint: hour=14, min=0, sign="+", descr="Line Islands Time"
+  magt: hour=12, min=0, sign="+", descr="Magadan Time"
+  mart: hour=9, min=30, sign="-", descr="Marquesas Islands Time"
+  mawt: hour=5, min=0, sign="+", descr="Mawson Station Time"
+  mdt: hour=6, min=0, sign="-", descr="Mountain Daylight Time (North America)", daylight=1
     daylight: hour=6, min=0, sign="-"
-  met: hour=1, min=1, sign="+", descr="Middle European Time (same zone as CET)"
-  mest: hour=2, min=2, sign="+", descr="Middle European Summer Time (same zone as CEST)"
-  mht: hour=12, min=12, sign="+", descr="Marshall Islands Time"
-  mist: hour=11, min=11, sign="+", descr="Macquarie Island Station Time"
-  mit: hour=9, min=9, sign="-", descr="Marquesas Islands Time"
-  mmt: hour=6, min=6, sign="+", descr="Myanmar Standard Time", standard=1
-  msk: hour=3, min=3, sign="+", descr="Moscow Time"
-  mst: mst=1, ambig=1, hour=8, min=8, sign="+", descr="Malaysia Standard Time", standard=1
-    mst1: hour=7, min=7, sign="-", descr="Mountain Standard Time (North America)", standard=1
-  mt: hour=7, min=7, sign="-", descr="Mountain Time (North America)"
-  mut: hour=4, min=4, sign="+", descr="Mauritius Time"
-  mvt: hour=5, min=5, sign="+", descr="Maldives Time"
-  myt: hour=8, min=8, sign="+", descr="Malaysia Time"
-  nct: hour=11, min=11, sign="+", descr="New Caledonia Time"
-  ndt: hour=2, min=2, sign="-", descr="Newfoundland Daylight Time", daylight=1
-  nft: hour=11, min=11, sign="+", descr="Norfolk Island Time"
-  novt: hour=7, min=7, sign="+", descr="Novosibirsk Time [9]"
-  npt: hour=5, min=5, sign="+", descr="Nepal Time"
-  nst: hour=3, min=3, sign="-", descr="Newfoundland Standard Time", standard=1
-  nt: hour=3, min=3, sign="-", descr="Newfoundland Time"
-  nut: hour=11, min=11, sign="-", descr="Niue Time"
-  nzdt: hour=13, min=13, sign="+", descr="New Zealand Daylight Time", daylight=1
-  nzst: hour=12, min=12, sign="+", descr="New Zealand Standard Time", standard=1
-  omst: hour=6, min=6, sign="+", descr="Omsk Time"
-  orat: hour=5, min=5, sign="+", descr="Oral Time"
-  pdt: hour=7, min=7, sign="-", descr="Pacific Daylight Time (North America)", daylight=1
+  met: hour=1, min=0, sign="+", descr="Middle European Time (same zone as CET)"
+  mest: hour=2, min=0, sign="+", descr="Middle European Summer Time (same zone as CEST)"
+  mht: hour=12, min=0, sign="+", descr="Marshall Islands Time"
+  mist: hour=11, min=0, sign="+", descr="Macquarie Island Station Time"
+  mit: hour=9, min=30, sign="-", descr="Marquesas Islands Time"
+  mmt: hour=6, min=30, sign="+", descr="Myanmar Standard Time", standard=1
+  msk: hour=3, min=0, sign="+", descr="Moscow Time"
+  mst: mst=1, ambig=1, hour=8, min=0, sign="+", descr="Malaysia Standard Time", standard=1
+    mst1: hour=7, min=0, sign="-", descr="Mountain Standard Time (North America)", standard=1
+  mt: hour=7, min=0, sign="-", descr="Mountain Time (North America)"
+  mut: hour=4, min=0, sign="+", descr="Mauritius Time"
+  mvt: hour=5, min=0, sign="+", descr="Maldives Time"
+  myt: hour=8, min=0, sign="+", descr="Malaysia Time"
+  nct: hour=11, min=0, sign="+", descr="New Caledonia Time"
+  ndt: hour=2, min=30, sign="-", descr="Newfoundland Daylight Time", daylight=1
+  nft: hour=11, min=0, sign="+", descr="Norfolk Island Time"
+  novt: hour=7, min=0, sign="+", descr="Novosibirsk Time [9]"
+  npt: hour=5, min=45, sign="+", descr="Nepal Time"
+  nst: hour=3, min=30, sign="-", descr="Newfoundland Standard Time", standard=1
+  nt: hour=3, min=30, sign="-", descr="Newfoundland Time"
+  nut: hour=11, min=0, sign="-", descr="Niue Time"
+  nzdt: hour=13, min=0, sign="+", descr="New Zealand Daylight Time", daylight=1
+  nzst: hour=12, min=0, sign="+", descr="New Zealand Standard Time", standard=1
+  omst: hour=6, min=0, sign="+", descr="Omsk Time"
+  orat: hour=5, min=0, sign="+", descr="Oral Time"
+  pdt: hour=7, min=0, sign="-", descr="Pacific Daylight Time (North America)", daylight=1
     daylight: hour=7, min=0, sign="-"
-  pet: hour=5, min=5, sign="-", descr="Peru Time"
-  pett: hour=12, min=12, sign="+", descr="Kamchatka Time"
-  pgt: hour=10, min=10, sign="+", descr="Papua New Guinea Time"
-  phot: hour=13, min=13, sign="+", descr="Phoenix Island Time"
-  pht: hour=8, min=8, sign="+", descr="Philippine Time"
-  phst: hour=8, min=8, sign="+", descr="Philippine Standard Time", standard=1
-  pkt: hour=5, min=5, sign="+", descr="Pakistan Standard Time", standard=1
-  pmdt: hour=2, min=2, sign="-", descr="Saint Pierre and Miquelon Daylight Time", daylight=1
-  pmst: hour=3, min=3, sign="-", descr="Saint Pierre and Miquelon Standard Time", standard=1
-  pont: hour=11, min=11, sign="+", descr="Pohnpei Standard Time", standard=1
-  pst: hour=8, min=8, sign="-", descr="Pacific Standard Time (North America)", standard=1
-  pt: hour=8, min=8, sign="-", descr="Pacific Time (North America)"
-  pwt: hour=9, min=9, sign="+", descr="Palau Time[10]"
-  pyst: hour=3, min=3, sign="-", descr="Paraguay Summer Time[11]"
-  pyt: hour=4, min=4, sign="-", descr="Paraguay Time[12]"
-  ret: hour=4, min=4, sign="+", descr="Réunion Time"
-  rott: hour=3, min=3, sign="-", descr="Rothera Research Station Time"
-  sakt: hour=11, min=11, sign="+", descr="Sakhalin Island Time"
-  samt: hour=4, min=4, sign="+", descr="Samara Time"
-  sast: hour=2, min=2, sign="+", descr="South African Standard Time", standard=1
-  sbt: hour=11, min=11, sign="+", descr="Solomon Islands Time"
-  sct: hour=4, min=4, sign="+", descr="Seychelles Time"
-  sdt: hour=10, min=10, sign="-", descr="Samoa Daylight Time", daylight=1
-  sgt: hour=8, min=8, sign="+", descr="Singapore Time"
-  slst: hour=5, min=5, sign="+", descr="Sri Lanka Standard Time", standard=1
-  sret: hour=11, min=11, sign="+", descr="Srednekolymsk Time"
-  srt: hour=3, min=3, sign="-", descr="Suriname Time"
-  sst: sst=1, ambig=1, hour=11, min=11, sign="-", descr="Samoa Standard Time", standard=1
-    sst1: hour=8, min=8, sign="+", descr="Singapore Standard Time", standard=1
-  syot: hour=3, min=3, sign="+", descr="Showa Station Time"
-  taht: hour=10, min=10, sign="-", descr="Tahiti Time"
-  tha: hour=7, min=7, sign="+", descr="Thailand Standard Time", standard=1
-  tft: hour=5, min=5, sign="+", descr="French Southern and Antarctic Time[13]"
-  tjt: hour=5, min=5, sign="+", descr="Tajikistan Time"
-  tkt: hour=13, min=13, sign="+", descr="Tokelau Time"
-  tlt: hour=9, min=9, sign="+", descr="Timor Leste Time"
-  tmt: hour=5, min=5, sign="+", descr="Turkmenistan Time"
-  trt: hour=3, min=3, sign="+", descr="Turkey Time"
-  tot: hour=13, min=13, sign="+", descr="Tonga Time"
-  tst: hour=8, min=8, sign="+", descr="Taiwan Standard Time", standard=1
-  tvt: hour=12, min=12, sign="+", descr="Tuvalu Time"
-  ulast: hour=9, min=9, sign="+", descr="Ulaanbaatar Summer Time"
-  ulat: hour=8, min=8, sign="+", descr="Ulaanbaatar Standard Time", standard=1
+  pet: hour=5, min=0, sign="-", descr="Peru Time"
+  pett: hour=12, min=0, sign="+", descr="Kamchatka Time"
+  pgt: hour=10, min=0, sign="+", descr="Papua New Guinea Time"
+  phot: hour=13, min=0, sign="+", descr="Phoenix Island Time"
+  pht: hour=8, min=0, sign="+", descr="Philippine Time"
+  phst: hour=8, min=0, sign="+", descr="Philippine Standard Time", standard=1
+  pkt: hour=5, min=0, sign="+", descr="Pakistan Standard Time", standard=1
+  pmdt: hour=2, min=0, sign="-", descr="Saint Pierre and Miquelon Daylight Time", daylight=1
+  pmst: hour=3, min=0, sign="-", descr="Saint Pierre and Miquelon Standard Time", standard=1
+  pont: hour=11, min=0, sign="+", descr="Pohnpei Standard Time", standard=1
+  pst: hour=8, min=0, sign="-", descr="Pacific Standard Time (North America)", standard=1
+  pt: hour=8, min=0, sign="-", descr="Pacific Time (North America)"
+  pwt: hour=9, min=0, sign="+", descr="Palau Time[10]"
+  pyst: hour=3, min=0, sign="-", descr="Paraguay Summer Time[11]"
+  pyt: hour=4, min=0, sign="-", descr="Paraguay Time[12]"
+  ret: hour=4, min=0, sign="+", descr="Réunion Time"
+  rott: hour=3, min=0, sign="-", descr="Rothera Research Station Time"
+  sakt: hour=11, min=0, sign="+", descr="Sakhalin Island Time"
+  samt: hour=4, min=0, sign="+", descr="Samara Time"
+  sast: hour=2, min=0, sign="+", descr="South African Standard Time", standard=1
+  sbt: hour=11, min=0, sign="+", descr="Solomon Islands Time"
+  sct: hour=4, min=0, sign="+", descr="Seychelles Time"
+  sdt: hour=10, min=0, sign="-", descr="Samoa Daylight Time", daylight=1
+  sgt: hour=8, min=0, sign="+", descr="Singapore Time"
+  slst: hour=5, min=30, sign="+", descr="Sri Lanka Standard Time", standard=1
+  sret: hour=11, min=0, sign="+", descr="Srednekolymsk Time"
+  srt: hour=3, min=0, sign="-", descr="Suriname Time"
+  sst: sst=1, ambig=1, hour=11, min=0, sign="-", descr="Samoa Standard Time", standard=1
+    sst1: hour=8, min=0, sign="+", descr="Singapore Standard Time", standard=1
+  syot: hour=3, min=0, sign="+", descr="Showa Station Time"
+  taht: hour=10, min=0, sign="-", descr="Tahiti Time"
+  tha: hour=7, min=0, sign="+", descr="Thailand Standard Time", standard=1
+  tft: hour=5, min=0, sign="+", descr="French Southern and Antarctic Time[13]"
+  tjt: hour=5, min=0, sign="+", descr="Tajikistan Time"
+  tkt: hour=13, min=0, sign="+", descr="Tokelau Time"
+  tlt: hour=9, min=0, sign="+", descr="Timor Leste Time"
+  tmt: hour=5, min=0, sign="+", descr="Turkmenistan Time"
+  trt: hour=3, min=0, sign="+", descr="Turkey Time"
+  tot: hour=13, min=0, sign="+", descr="Tonga Time"
+  tst: hour=8, min=0, sign="+", descr="Taiwan Standard Time", standard=1
+  tvt: hour=12, min=0, sign="+", descr="Tuvalu Time"
+  ulast: hour=9, min=0, sign="+", descr="Ulaanbaatar Summer Time"
+  ulat: hour=8, min=0, sign="+", descr="Ulaanbaatar Standard Time", standard=1
   utc: hour=0, min=0, sign=±, descr="Coordinated Universal Time"
-  uyst: hour=2, min=2, sign="-", descr="Uruguay Summer Time"
-  uyt: hour=3, min=3, sign="-", descr="Uruguay Standard Time", standard=1
-  uzt: hour=5, min=5, sign="+", descr="Uzbekistan Time"
-  vet: hour=4, min=4, sign="-", descr="Venezuelan Standard Time", standard=1
-  vlat: hour=10, min=10, sign="+", descr="Vladivostok Time"
-  volt: hour=3, min=3, sign="+", descr="Volgograd Time"
-  vost: hour=6, min=6, sign="+", descr="Vostok Station Time"
-  vut: hour=11, min=11, sign="+", descr="Vanuatu Time"
-  wakt: hour=12, min=12, sign="+", descr="Wake Island Time"
-  wast: hour=2, min=2, sign="+", descr="West Africa Summer Time"
-  wat: hour=1, min=1, sign="+", descr="West Africa Time"
-  west: hour=1, min=1, sign="+", descr="Western European Summer Time"
+  uyst: hour=2, min=0, sign="-", descr="Uruguay Summer Time"
+  uyt: hour=3, min=0, sign="-", descr="Uruguay Standard Time", standard=1
+  uzt: hour=5, min=0, sign="+", descr="Uzbekistan Time"
+  vet: hour=4, min=0, sign="-", descr="Venezuelan Standard Time", standard=1
+  vlat: hour=10, min=0, sign="+", descr="Vladivostok Time"
+  volt: hour=3, min=0, sign="+", descr="Volgograd Time"
+  vost: hour=6, min=0, sign="+", descr="Vostok Station Time"
+  vut: hour=11, min=0, sign="+", descr="Vanuatu Time"
+  wakt: hour=12, min=0, sign="+", descr="Wake Island Time"
+  wast: hour=2, min=0, sign="+", descr="West Africa Summer Time"
+  wat: hour=1, min=0, sign="+", descr="West Africa Time"
+  west: hour=1, min=0, sign="+", descr="Western European Summer Time"
   wet: hour=0, min=0, sign=±, descr="Western European Time"
-  wib: hour=7, min=7, sign="+", descr="Western Indonesian Time"
-  wit: hour=9, min=9, sign="+", descr="Eastern Indonesian Time"
-  wita: hour=8, min=8, sign="+", descr="Central Indonesia Time"
-  wgst: hour=2, min=2, sign="-", descr="West Greenland Summer Time[14]"
-  wgt: hour=3, min=3, sign="-", descr="West Greenland Time[15]"
-  wst: hour=8, min=8, sign="+", descr="Western Standard Time", standard=1
-  yakt: hour=9, min=9, sign="+", descr="Yakutsk Time"
-  yekt: hour=5, min=5, sign="+", descr="Yekaterinburg Time"
+  wib: hour=7, min=0, sign="+", descr="Western Indonesian Time"
+  wit: hour=9, min=0, sign="+", descr="Eastern Indonesian Time"
+  wita: hour=8, min=0, sign="+", descr="Central Indonesia Time"
+  wgst: hour=2, min=0, sign="-", descr="West Greenland Summer Time[14]"
+  wgt: hour=3, min=0, sign="-", descr="West Greenland Time[15]"
+  wst: hour=8, min=0, sign="+", descr="Western Standard Time", standard=1
+  yakt: hour=9, min=0, sign="+", descr="Yakutsk Time"
+  yekt: hour=5, min=0, sign="+", descr="Yekaterinburg Time"
 
