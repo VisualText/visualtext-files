@@ -1,11 +1,10 @@
 dicttokz	nil	# Gen:   Convert input to token list
-nlp	LinesDictTokZ	# comment
 nlp	funcs	# comment
 nlp	numbers	# comment
 nlp	ordinals	# comment
 nlp	times	# comment
 nlp	zulu	# comment
-nlp	times1	# comment
+nlp	timeAdd	# comment
 nlp	dates	# comment
 nlp	datesDay	# comment
 nlp	highlight	# comment

@@ -6,7 +6,19 @@
 # MODIFIED:
 ###############################################
 
-@NODES _LINE
+@NODES _ROOT
+
+@POST
+S("time") = N("$text",1);
+S("adjust") = N("$text",3);
+single();
+
+@RULES
+_time <-
+	_time	### (1)
+	\+		### (2)
+	_time	### (3)
+	@@
 
 @POST
 L("num") = num(N("$text",1));

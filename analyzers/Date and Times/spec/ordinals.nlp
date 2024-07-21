@@ -6,7 +6,7 @@
 # MODIFIED:
 ###############################################
 
-@NODES _LINE
+@NODES _ROOT
 
 @POST
 S("num") = num(N("$text",1));
