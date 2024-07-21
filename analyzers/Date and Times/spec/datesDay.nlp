@@ -6,7 +6,37 @@
 # MODIFIED:
 ###############################################
 
-@NODES _LINE
+@NODES _ROOT
+
+###############################################
+# Wed Aug 05 12:00:00 EDT 2015
+###############################################
+
+@PRE
+<1,1> var("day");
+<2,2> var("month");
+<3,3> var("day");
+<5,5> var("year");
+
+@POST
+S("weekday") = N("$text",1);
+S("month") = N("month",2);
+S("day") = num(N("$text",3));
+S("year") = num(N("$text",5));
+
+S("hour") = N("hour",4);
+S("min") = N("min",4);
+S("sec") = N("sec",4);
+single();
+
+@RULES
+_dateTime <-
+	_xALPHA	### (1)
+	_xALPHA	### (2)
+	_xNUM	### (3)
+	_time	### (4)
+	_xNUM	### (5)
+	@@
 
 ###############################################
 # Fri, 12 Dec 2014
