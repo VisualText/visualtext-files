@@ -1,0 +1,160 @@
+currency
+  $: name=[dollar,escudo]
+    BND: currency="Brunei Dollar", country=Brunei
+    SGD: currency="Singapore Dollar", country=Singapore
+    USD: currency="United States Dollar", country="Timor-Leste"
+    CVE: currency="Cape Verde Escudo", country="Cabo Verde"
+    LRD: currency="Liberian Dollar", country=Liberia
+    NAD: currency="Namibian Dollar", country=Namibia
+    ZWD: currency="Zimbabwean Dollar", country=Zimbabwe
+  Ar: name=ariary
+    MGA: currency="Malagasy Ariary", country=Madagascar
+  CF: name=franc
+    KMF: currency="Comorian Franc", country=Comoros
+  CFA: name=cfa
+    XOF: currency="West African CFA", country=[Benin,"Burkina Faso","Cote d'Ivoire","Guinea-Bissau",Mali,Niger,Senegal]
+  D: name=dalasi
+    GMD: currency="Gambian Dalasi", country=Gambia
+  DH: name=dirham
+    MAD: currency="Moroccan Dirham", country=Morocco
+  EEK: name=kroon
+    EEK: currency="Estonian Kroon", country=Estonia
+  FBu: name=franc
+    BIF: currency="Burundian Franc", country=Burundi
+  FC: name=franc
+    CDF: currency="Congolese franc", country="Democratic Republic of the Congo"
+  FCFA: name=cfa
+    XAF: currency="Central African CFA", country=[Cameroon,"Central African Republic (CAR)","Republic of the Congo","Equatorial Guinea"]
+  Fdj: name=franc
+    DJF: currency="Djiboutian Franc", country=Djibouti
+  FG: name=franc
+    GNF: currency="Guinean Franc", country=Guinea
+  FRw: name=franc
+    RWF: currency="Rwandan Franc", country=Rwanda
+  Ft: name=forint
+    HUF: currency="Hungarian Forint", country=Hungary
+  GH₵: name=cedi
+    GHC: currency="Ghanaian Cedi", country=Ghana
+  K: name=kyat
+    MMK: currency="Myanmar Kyat", country="Myanmar (Burma)"
+  kn: name=kuna
+    HRK: currency="Croatian Kuna", country=Croatia
+  kr: name=[krone,krona]
+    DKK: currency="Danish Krone", country=Denmark
+    ISK: currency="Icelandic Krona", country=Iceland
+  KSh: name=shilling
+    KES: currency="Kenyan Shilling", country=Kenya
+  Kz: name=kwanza
+    AOA: currency="Angolan Kwanza", country=Angola
+  Kč: name=koruna
+    CZK: currency="Czech Koruna", country="Czech Republic"
+  L: name=loti
+    LSL: currency="Lesotho Loti", country=Lesotho
+  Lek: name=lek
+    ALL: currency="Albanian Lek", country=Albania
+  MT: name=metical
+    MZN: currency="Mozambican Metical", country=Mozambique
+  NT$: name=dollar
+    TWD: currency="New Taiwan Dollar", country=Taiwan
+  Nu: name=ngultrum
+    BTN: currency="Bhutanese Ngultrum", country=Bhutan
+  P: name=pula
+    BWP: currency="Botswana Pula", country=Botswana
+  R: name=rand
+    ZAR: currency="South African Rand", country="South Africa"
+  Rf: name=rufiyaa
+    MVR: currency="Maldives Rufiyaa", country=Maldives
+  RM: name=ringgit
+    MYR: currency="Malaysian Ringgit", country=Malaysia
+  Rp: name=rupiah
+    IDR: currency="Indonesian Rupiah", country=Indonesia
+  S: name=shilling
+    SOS: currency="Somali Shilling", country=Somalia
+  SD: name=pound
+    SDG: currency="Sudanese pound", country=Sudan
+  Symbol
+    Code: currency=Currency, country=Country
+  T: name=manat
+    TMM: currency="Turkmenistani Manat", country=Turkmenistan
+  TSh: name=shilling
+    TZS: currency="Tanzanian Shilling", country=Tanzania
+  UM: name=ouguiya
+    MRO: currency="Mauritanian Ouguiya", country=Mauritania
+  USh: name=shilling
+    UGX: currency="Ugandan Shilling", country=Uganda
+  £: name=pound
+    LBP: currency="Lebanese Pound", country=Lebanon
+    EGP: currency="Egyptian Pound", country=Egypt
+    SSP: currency="South Sudanese pound", country="South Sudan"
+    CYP: currency="Cypriot Pound", country=Cyprus
+  ¥: name=[renminbi,yen]
+    CNY: currency="Chinese Yuan Renminbi", country=China
+    JPY: currency="Japanese Yen", country=Japan
+  лв: name=[tenge,som,lev]
+    KZT: currency="Kazakhstani Tenge", country=Kazakhstan
+    KGS: currency="Kyrgyzstani Som", country=Kyrgyzstan
+    UZS: currency="Uzbekistani Som", country=Uzbekistan
+    BGN: currency="Bulgarian Lev", country=Bulgaria
+  ЅM: name=somoni
+    TJS: currency="Tajikistan Somoni", country=Tajikistan
+  դր: name=dram
+    AMD: currency="Armenian Dram", country=Armenia
+  ؋: name=afghani
+    AFN: currency="Afghanistani Afghani", country=Afghanistan
+  دإ: name=dirham
+    AED: currency="United Arab Emirates Dirham", country="United Arab Emirates (UAE)"
+  دا: name=dinar
+    JOD: currency="Jordanian Dinar", country=[Jordan,Palestine]
+  دب: name=dinar
+    BHD: currency="Bahraini Dinar", country=Bahrain
+  عد: name=dinar
+    IQD: currency="Iraqi Dinar", country=Iraq
+  لد: name=dinar
+    LYD: currency="Libyan Dinar", country=Libya
+  ৳: name=taka
+    BDT: currency="Bangladeshi Taka", country=Bangladesh
+  ฿: name=baht
+    THB: currency="Thai Baht", country=Thailand
+  ლ: name=lari
+    GEL: currency="Georgian Lari", country=Georgia
+  ብር: name=birr
+    ETB: currency="Ethiopian Birr", country=Ethiopia
+  ናቕፋ: name=nakfa
+    ERN: currency="Eritrean Nakfa", country=Eritrea
+  ៛: name=riel
+    KHR: currency="Cambodian Riel", country=Cambodia
+  ₦: name=naira
+    NGN: currency="Nigerian Naira", country=Nigeria
+  ₨: name=rupee
+    NPR: currency="Nepalese Rupee", country=Nepal
+    PKR: currency="Pakistan Rupee", country=Pakistan
+    LKR: currency="Sri Lankan Rupee", country="Sri Lanka"
+    MUR: currency="Mauritian Rupee", country=Mauritius
+  ₩: name=won
+    KPW: currency="North Korean Won", country="North Korea"
+    KRW: currency="Korean Won", country="South Korea"
+  ₪: name=sheqel
+    ILS: currency="Israeli New Sheqel", country=Israel
+  ₫: name=dong
+    VND: currency="Viet Nam Dong", country=Vietnam
+  €: name=euro
+    EUR: currency=["European Euro",Euro], country=[Andorra,Austria,Belgium,Finland,Germany,Italy,Kosovo]
+  ₭: name=kip
+    LAK: currency="Lao Kip", country=Laos
+  ₮: name=tugrik
+    MNT: currency="Mongolian Tugrik", country=Mongolia
+  ₱: name=peso
+    PHP: currency="Philippine Peso", country=Philippines
+  ₹: name=rupee
+    INR: currency="Indian Rupee", country=India
+  ₺: name=lira
+    TRY: currency="Turkish New Lira", country=Turkey
+  ₼: name=manat
+    AZN: currency="Azerbaijani Manat", country=Azerbaijan
+  ₽: name=ruble
+    RUB: currency="Russian Ruble", country=Russia
+  ﷼: name=[rial,riyal]
+    IRR: currency="Iranian Rial", country=Iran
+    QAR: currency="Qatari Riyal", country=Qatar
+    SAR: currency="Saudi Arabian Riyal", country="Saudi Arabia"
+
