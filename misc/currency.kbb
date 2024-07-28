@@ -1,3 +1,4 @@
+# Currency symbols
 currency
   $: name=[dollar,escudo]
     BND: currency="Brunei Dollar", country=Brunei
