@@ -381,18 +381,34 @@ PadStr(L("num str"),L("pad str"),L("pad len")) {
 # JSON FUNCTIONS
 ###############################################
 
-JsonKB(L("file"),L("con")) {
-	JsonKBRecurse(L("file"),L("con"),0);
+JsonKB(L("file"),L("con"),L("id flag")) {
+	L("level") = 0;
+	if (L("id flag")) {
+		L("file") << "{\n";
+		L("file") << SpacesStr(1) << "\"" << conceptname(L("con")) << "\":\t[\n";
+		L("level") = 1;
+	}	
+	JsonKBRecurse(L("file"),L("con"),L("level"),L("id flag"));
+	if (L("id flag")) {
+		L("file") << "\t]\n}";
+	}
 }
 
-JsonKBRecurse(L("file"),L("parent"),L("level")) {
+JsonKBRecurse(L("file"),L("parent"),L("level"),L("id flag")) {
 	if (L("level") == 0) {
 		L("file") << "{\n";
 	}
 	L("con") = down(L("parent"));
 	L("first") = 1;
 	while (L("con")) {
-		L("file") << SpacesStr(L("level")+1) << JsonStr(conceptname(L("con"))) << ": {\n";
+		L("name") = conceptname(L("con"));
+		if (L("id flag")) {
+			L("name") = SeparateConNumber(L("name"));
+			L("file") << SpacesStr(L("level")+1) << "{\n";
+			L("file") << SpacesStr(L("level")+2) << "\"id\": \"" << G("connum") << "\",\n";
+		} else {
+			L("file") << SpacesStr(L("level")+1) << JsonStr(L("name")) << ": {\n";
+		}
 		JsonAttributes(L("file"),L("con"),L("level")+1);
 		if (down(L("con"))) {
 			L("lev") = 1;
@@ -465,6 +481,22 @@ JsonStr(L("str")) {
 	L("str") = strsubst(L("str"), "\\", "\\\\");
 	L("str") = strsubst(L("str"), "\"", "\\\"");
 	return "\"" + L("str") + "\"";
+}
+
+SeparateConNumber(L("str")) {
+	L("i") = strlength(L("str")) - 1;
+	L("stop") = 0;
+	while (!L("stop") && L("i") > 0) {
+		L("c") = strpiece(L("str"),L("i"),L("i"));
+		if (strisdigit(L("c"))) {
+			L("num") = L("c") + L("num");
+		} else {
+			L("stop");
+		}
+		L("i")--;
+	}
+	G("connum") = L("num");
+	return strpiece(L("str"),0,strlength(L("str"))-strlength(L("num"))-1);
 }
 
 ###############################################

@@ -1,0 +1,41 @@
+# Secondary Postal Designators
+apartment secdesignator=1 abbrev="apt"
+apt secdesignator=1 full="apartment"
+basement secdesignator=1 abbrev="bsmt"
+bldg secdesignator=1 full="building"
+bsmt secdesignator=1 full="basement"
+building secdesignator=1 abbrev="bldg"
+department secdesignator=1 abbrev="dept"
+dept secdesignator=1 full="department"
+fl secdesignator=1 full="floor"
+floor secdesignator=1 abbrev="fl"
+frnt secdesignator=1 full="front"
+front secdesignator=1 abbrev="frnt"
+hanger secdesignator=1 abbrev="hngr"
+hngr secdesignator=1 full="hanger"
+key secdesignator=1
+lbby secdesignator=1 full="lobby"
+lobby secdesignator=1 abbrev="lbby"
+lot secdesignator=1
+lower secdesignator=1 abbrev="lowr"
+lowr secdesignator=1 full="lower"
+ofc secdesignator=1 full="office"
+office secdesignator=1 abbrev="ofc"
+penthouse secdesignator=1 abbrev="ph"
+ph secdesignator=1 full="penthouse"
+pier secdesignator=1
+rear secdesignator=1
+rm secdesignator=1 full="room"
+room secdesignator=1 abbrev="rm"
+side secdesignator=1
+slip secdesignator=1
+space secdesignator=1 abbrev="spc"
+spc secdesignator=1 full="space"
+ste secdesignator=1 full="suite"
+stop secdesignator=1
+suite secdesignator=1 abbrev="ste"
+trailer secdesignator=1 abbrev="trlr"
+trlr secdesignator=1 full="trailer"
+unit secdesignator=1
+upper secdesignator=1 abbrev="uppr"
+uppr secdesignator=1 full="upper"
