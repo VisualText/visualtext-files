@@ -1,0 +1,42 @@
+designators
+  apartment: abbrev=apt
+  apt: full=apartment
+  basement: abbrev=bsmt
+  bldg: full=building
+  bsmt: full=basement
+  building: abbrev=bldg
+  department: abbrev=dept
+  dept: full=department
+  fl: full=floor
+  floor: abbrev=fl
+  frnt: full=front
+  front: abbrev=frnt
+  hanger: abbrev=hngr
+  hngr: full=hanger
+  key: full=key, abbrev=key
+  lbby: full=lobby
+  lobby: abbrev=lbby
+  lot: full=lot, abbrev=lot
+  lower: abbrev=lowr
+  lowr: full=lower
+  ofc: full=office
+  office: abbrev=ofc
+  penthouse: abbrev=ph
+  ph: full=penthouse
+  pier: full=pier, abbrev=pier
+  rear: full=rear, abbrev=rear
+  rm: full=room
+  room: abbrev=rm
+  side: full=side, abbrev=side
+  slip: full=slip, abbrev=slip
+  space: abbrev=spc
+  spc: full=space
+  ste: full=suite
+  stop: full=stop, abbrev=stop
+  suite: abbrev=ste
+  trailer: abbrev=trlr
+  trlr: full=trailer
+  unit: full=unit, abbrev=unit
+  upper: abbrev=uppr
+  uppr: full=upper
+
