@@ -381,100 +381,129 @@ PadStr(L("num str"),L("pad str"),L("pad len")) {
 # JSON FUNCTIONS
 ###############################################
 
-JsonKB(L("file"),L("con"),L("id flag")) {
-	L("level") = 0;
-	if (L("id flag")) {
-		L("file") << "{\n";
-		L("file") << SpacesStr(1) << "\"" << conceptname(L("con")) << "\":\t[\n";
-		L("level") = 1;
-	}	
-	JsonKBRecurse(L("file"),L("con"),L("level"),L("id flag"));
-	if (L("id flag")) {
-		L("file") << "\t]\n}";
-	}
+JsonKB(L("file"),L("con")) {
+	L("file") << "{\n" << SpacesStr(1) << "\"" << conceptname(L("con")) << "\": {\n";
+	JsonKBRecurse(L("file"),L("con"),1);
+	L("file") << "\n}\n";
 }
 
-JsonKBRecurse(L("file"),L("parent"),L("level"),L("id flag")) {
-	if (L("level") == 0) {
-		L("file") << "{\n";
-	}
+JsonKBRecurse(L("file"),L("parent"),L("level")) {
 	L("con") = down(L("parent"));
 	L("first") = 1;
+	L("has concount") = 0;
 	while (L("con")) {
 		L("name") = conceptname(L("con"));
-		if (L("id flag")) {
-			L("name") = SeparateConNumber(L("name"));
-			L("file") << SpacesStr(L("level")+1) << "{\n";
-			L("file") << SpacesStr(L("level")+2) << "\"id\": \"" << G("connum") << "\",\n";
+		L("concount") = SeparateConCount(L("name"));
+		L("connum") = G("connum");
+		"hier.txt" << SpacesStr(L("level")+1) << L("name") << "\n";
+
+		if (L("concount")) {
+			"hier.txt" << SpacesStr(L("level")+1) << " ====> " << L("connum") << "\n";
+			if (!L("has concount")) {
+				L("file") << SpacesStr(L("level")+1) << JsonStr(L("concount")) << ": [\n";
+			} else {
+				L("file") << "\n";
+			}
+			L("file") << SpacesStr(L("level")+2) << "{\n";
+			L("file") << SpacesStr(L("level")+3) << "\"id\": \"" << L("connum") << "\",\n";
+			L("first") = !JsonAttributes(L("file"),L("con"),L("level")+2);
+			L("has concount") = 1;
+			
+			if (down(L("con"))) {
+				if (!L("first")) L("file") << ",\n";
+				JsonKBRecurse(L("file"),L("con"),L("level")+2);
+			} else {
+				L("file") << "\n" << SpacesStr(L("level")+2) << "}";
+			}
+
 		} else {
+			if (L("has concount")) {
+				L("file") << "\n" << SpacesStr(L("level")+2) << "}";
+				L("file") << "\n" << SpacesStr(L("level")+1) << "]";
+				L("has concount") = 0;
+			}
+			if (!L("first"))
+				L("file") << "\n";
 			L("file") << SpacesStr(L("level")+1) << JsonStr(L("name")) << ": {\n";
+			L("first") = !JsonAttributes(L("file"),L("con"),L("level")+1);
+
+			if (down(L("con"))) {
+				if (!L("first")) L("file") << ",\n";
+				JsonKBRecurse(L("file"),L("con"),L("level")+1);
+			}
+			else if (!L("has concount")) {
+				L("file") << "\n" << SpacesStr(L("level")+1) << "}";
+			}
 		}
-		JsonAttributes(L("file"),L("con"),L("level")+1);
-		if (down(L("con"))) {
-			L("lev") = 1;
-			if (!L("first")) L("file") << ",\n";
-			JsonKBRecurse(L("file"),L("con"),L("level")+L("lev"));
-		}
-		else {
-			L("file") << "\n";
-		}
-		L("file") << SpacesStr(L("level")+1) << "}";
-		if (next(L("con"))) {
+
+		L("con") = next(L("con"));
+		if (L("con")) {
 			L("file") << ",";
 		}
-		L("file") << "\n";
 		L("first") = 0;
-		L("con") = next(L("con"));
 	}
-	if (L("level") == 0) {
-		L("file") << "}\n";
+	if (L("has concount")) {
+		L("file") << "\n" << SpacesStr(L("level")+1) << "]";
 	}
+	L("file") << "\n" << SpacesStr(L("level")) << "}";
 }
 
 JsonAttributes(L("file"),L("con"),L("level")) {
 	L("attrs") = findattrs(L("con"));
-	if (L("display type") == 1 && L("attrs")) L("file") << "\n";
+	if (!L("attrs")) {
+		return 0;
+	}
+
 	L("first attr") = 1;
 	L("first") = 1;
+	L("has attrs") = 0;
 	
 	while (L("attrs")) {
-		L("vals") = attrvals(L("attrs"));
-		L("count") = ValCount(L("vals"));
-		if (!L("first attr")) {
-			L("file") << "\n";
-		}
 		L("name") = attrname(L("attrs"));
-		L("file") << SpacesStr(L("level")+1) << JsonStr(L("name")) << ": ";
-		L("type") = attrtype(L("con"),L("name"));
-
-		while (L("vals")) {
-			if (L("type") != 2 && L("count") > 1)
-				L("file") << "[";
-
-			if (L("type") == 1) {
-				L("num") = getnumval(L("vals"));
-				L("file") << JsonStr(str(L("num")));
-
-			} else if (L("type") == 2) {
-				L("c") = getconval(L("vals"));
-				L("file") << JsonStr(conceptpath(L("c")));
-
-			} else if (L("type") == 3) {
-				L("flt") = getfltval(L("vals"));
-				L("file") << JsonStr(str(L("flt")));
-
-			} else {
-				L("val") = getstrval(L("vals"));
-				L("file") << JsonStr(str(L("val")));
+		if (IsCountCon(L("name"),L("con"))) {
+			L("nothing") = 0;
+		} else {
+			L("has attrs") = 1;
+			L("vals") = attrvals(L("attrs"));
+			L("count") = ValCount(L("vals"));
+			if (!L("first attr")) {
+				L("file") << ",\n";
 			}
-			L("first") = 0;
-			L("vals") = nextval(L("vals"));
+
+			L("file") << SpacesStr(L("level")+1) << JsonStr(L("name")) << ": ";
+			L("type") = attrtype(L("con"),L("name"));
+
+			# NOTE: Only handling one value for now
+
+			# while (L("vals")) {
+				# if (L("type") != 2 && L("count") > 1)
+				# 	L("file") << "[";
+
+				if (L("type") == 1) {
+					L("num") = getnumval(L("vals"));
+					L("file") << JsonStr(str(L("num")));
+
+				} else if (L("type") == 2) {
+					L("c") = getconval(L("vals"));
+					L("file") << JsonStr(conceptpath(L("c")));
+
+				} else if (L("type") == 3) {
+					L("flt") = getfltval(L("vals"));
+					L("file") << JsonStr(str(L("flt")));
+
+				} else {
+					L("val") = getstrval(L("vals"));
+					L("file") << JsonStr(str(L("val")));
+				}
+				L("first") = 0;
+				L("vals") = nextval(L("vals"));
+			# }
+			L("first attr") = 0;			
 		}
-		
-		L("first attr") = 0;
+			
 		L("attrs") = nextattr(L("attrs"));
-		if (L("attrs")) L("file") << ",";
 	}
+	return L("has attrs");
 }
 
 JsonStr(L("str")) {
@@ -483,11 +512,14 @@ JsonStr(L("str")) {
 	return "\"" + L("str") + "\"";
 }
 
-SeparateConNumber(L("str")) {
-	L("i") = strlength(L("str")) - 1;
+SeparateConCount(L("conname")) {
+	if (strisdigit(L("conname"))) return 0;
+
+	L("i") = strlength(L("conname")) - 1;
+	G("connum") = 0;
 	L("stop") = 0;
 	while (!L("stop") && L("i") > 0) {
-		L("c") = strpiece(L("str"),L("i"),L("i"));
+		L("c") = strpiece(L("conname"),L("i"),L("i"));
 		if (strisdigit(L("c"))) {
 			L("num") = L("c") + L("num");
 		} else {
@@ -495,8 +527,26 @@ SeparateConNumber(L("str")) {
 		}
 		L("i")--;
 	}
-	G("connum") = L("num");
-	return strpiece(L("str"),0,strlength(L("str"))-strlength(L("num"))-1);
+	if (L("num")) {
+		G("connum") = L("num");
+		L("base") = strpiece(L("conname"),0,strlength(L("conname"))-strlength(L("num"))-1);
+		"base.txt" << L("conname") << " " <<  L("base") << "\n";
+		return L("base");
+	}
+	return 0;
+}
+
+IsCountCon(L("str"),L("con")) {
+	L("child") = down(L("con"));
+	L("first") = L("str") + "1";
+	while (L("child")) {
+		L("name") = conceptname(L("child"));
+		if (L("name") == L("first")) {
+			return 1;
+		}
+		L("child") = next(L("child"));
+	}
+	return 0;
 }
 
 ###############################################
