@@ -395,7 +395,6 @@ JsonKBRecurse(L("file"),L("parent"),L("level")) {
 		L("name") = conceptname(L("con"));
 		L("concount") = SeparateConCount(L("name"));
 		L("connum") = G("connum");
-		"hier.txt" << SpacesStr(L("level")+1) << L("name") << "\n";
 
 		if (L("concount")) {
 			"hier.txt" << SpacesStr(L("level")+1) << " ====> " << L("connum") << "\n";
@@ -530,7 +529,6 @@ SeparateConCount(L("conname")) {
 	if (L("num")) {
 		G("connum") = L("num");
 		L("base") = strpiece(L("conname"),0,strlength(L("conname"))-strlength(L("num"))-1);
-		"base.txt" << L("conname") << " " <<  L("base") << "\n";
 		return L("base");
 	}
 	return 0;
