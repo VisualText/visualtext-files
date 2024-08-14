@@ -1,0 +1,237 @@
+# Human languages in English
+abkhaz language=1 laiso2=ab iso3=abk root=abkhazian
+abkhazian language=1 laiso2=ab iso3=abk
+afar language=1 laiso2=aa iso3=aar
+afrikaans language=1 laiso2=af iso3=afr
+akan language=1 laiso2=ak iso3=aka
+albanian language=1 laiso2=sq iso3=alb
+amharic language=1 laiso2=am iso3=amh
+arabic language=1 laiso2=ar iso3=ara
+aragonese language=1 laiso2=an iso3=arg
+armenian language=1 laiso2=hy iso3=arm
+assamese language=1 laiso2=as iso3=asm
+avar language=1 laiso2=av iso3=ava root=avaric
+avaric language=1 laiso2=av iso3=ava
+avestan language=1 laiso2=ae iso3=ave
+aymara language=1 laiso2=ay iso3=aym
+azerbaijani language=1 laiso2=az iso3=aze
+azeri language=1 laiso2=az iso3=aze root=azerbaijani
+bambara language=1 laiso2=bm iso3=bam
+bangla language=1 laiso2=bn iso3=ben root=bengali
+bashkir language=1 laiso2=ba iso3=bak
+basque language=1 laiso2=eu iso3=baq
+belarusian language=1 laiso2=be iso3=bel
+bengali language=1 laiso2=bn iso3=ben
+bislama language=1 laiso2=bi iso3=bis
+bosnian language=1 laiso2=bs iso3=bos
+breton language=1 laiso2=br iso3=bre
+bulgarian language=1 laiso2=bg iso3=bul
+burmese language=1 laiso2=my iso3=bur
+cambodian language=1 laiso2=km iso3=khm root="central khmer"
+castilian language=1 laiso2=es iso3=spa
+catalan language=1 laiso2=ca iso3=cat
+central khmer language=1 laiso2=km iso3=khm
+chamorro language=1 laiso2=ch iso3=cha
+chechen language=1 laiso2=ce iso3=che
+chewa language=1 laiso2=ny iso3=nya
+chichewa language=1 laiso2=ny iso3=nya
+chinese language=1 laiso2=zh iso3=chi
+chuang language=1 laiso2=za iso3=zha
+church slavonic language=1 laiso2=cu iso3=chu
+chuvash language=1 laiso2=cv iso3=chv
+cornish language=1 laiso2=kw iso3=cor
+corsican language=1 laiso2=co iso3=cos
+cree language=1 laiso2=cr iso3=cre
+croatian language=1 laiso2=hr iso3=hrv
+czech language=1 laiso2=cs iso3=cze
+danish language=1 laiso2=da iso3=dan
+dhivehi language=1 laiso2=dv iso3=div
+divehi language=1 laiso2=dv iso3=div
+dutch language=1 laiso2=nl iso3=dut
+dzongkha language=1 laiso2=dz iso3=dzo
+english language=1 laiso2=en iso3=eng
+esperanto language=1 laiso2=eo iso3=epo
+estonian language=1 laiso2=et iso3=est
+ewe language=1 laiso2=ee iso3=ewe
+faroese language=1 laiso2=fo iso3=fao
+farsi language=1 laiso2=fa iso3=per root=persian
+fijian language=1 laiso2=fj iso3=fij
+finnish language=1 laiso2=fi iso3=fin
+flemish language=1 laiso2=nl iso3=dut
+french language=1 laiso2=fr iso3=fre
+frisian language=1 laiso2=fy iso3=fry root="western frisian"
+fula language=1 laiso2=ff iso3=ful root=fulah
+fulah language=1 laiso2=ff iso3=ful
+gaelic language=1 laiso2=gd iso3=gla
+galician language=1 laiso2=gl iso3=glg
+ganda language=1 laiso2=lg iso3=lug
+georgian language=1 laiso2=ka iso3=geo
+german language=1 laiso2=de iso3=ger
+gikuyu language=1 laiso2=ki iso3=kik
+greek language=1 laiso2=el iso3=gre
+greenlandic language=1 laiso2=kl iso3=kal
+guarani language=1 laiso2=gn iso3=grn
+gujarati language=1 laiso2=gu iso3=guj
+haitian creole language=1 laiso2=ht iso3=hat
+haitian language=1 laiso2=ht iso3=hat
+hausa language=1 laiso2=ha iso3=hau
+hebrew language=1 laiso2=he iso3=heb
+herero language=1 laiso2=hz iso3=her
+hindi language=1 laiso2=hi iso3=hin
+hiri motu language=1 laiso2=ho iso3=hmo
+hungarian language=1 laiso2=hu iso3=hun
+icelandic language=1 laiso2=is iso3=ice
+ido language=1 laiso2=io iso3=ido
+igbo language=1 laiso2=ig iso3=ibo
+indonesian language=1 laiso2=id iso3=ind
+interlingua language=1 laiso2=ia iso3=ina
+interlingue language=1 laiso2=ie iso3=ile
+inuktitut language=1 laiso2=iu iso3=iku
+inupiaq language=1 laiso2=ik iso3=ipk
+irish language=1 laiso2=ga iso3=gle
+italian language=1 laiso2=it iso3=ita
+japanese language=1 laiso2=ja iso3=jpn
+javanese language=1 laiso2=jv iso3=jav
+kalaallisut language=1 laiso2=kl iso3=kal
+kannada language=1 laiso2=kn iso3=kan
+kanuri language=1 laiso2=kr iso3=kau
+kashmiri language=1 laiso2=ks iso3=kas
+kazakh language=1 laiso2=kk iso3=kaz
+khmer language=1 laiso2=km iso3=khm root="central khmer"
+kikuyu language=1 laiso2=ki iso3=kik
+kinyarwanda language=1 laiso2=rw iso3=kin
+kirghiz language=1 laiso2=ky iso3=kir
+kirundi language=1 laiso2=rn iso3=run root=rundi
+komi language=1 laiso2=kv iso3=kom
+kongo language=1 laiso2=kg iso3=kon
+korean language=1 laiso2=ko iso3=kor
+kuanyama language=1 laiso2=kj iso3=kua
+kurdish language=1 laiso2=ku iso3=kur
+kwanyama language=1 laiso2=kj iso3=kua
+kyrgyz language=1 laiso2=ky iso3=kir
+lao language=1 laiso2=lo iso3=lao
+latin language=1 laiso2=la iso3=lat
+latvian language=1 laiso2=lv iso3=lav
+letzeburgesch language=1 laiso2=lb iso3=ltz
+limburgan language=1 laiso2=li iso3=lim
+limburger language=1 laiso2=li iso3=lim
+limburgish language=1 laiso2=li iso3=lim
+lingala language=1 laiso2=ln iso3=lin
+lithuanian language=1 laiso2=lt iso3=lit
+luba-katanga language=1 laiso2=lu iso3=lub
+luba-shaba language=1 laiso2=lu iso3=lub root="luba-katanga"
+luxembourgish language=1 laiso2=lb iso3=ltz
+macedonian language=1 laiso2=mk iso3=mac
+malagasy language=1 laiso2=mg iso3=mlg
+malay language=1 laiso2=ms iso3=may
+malayalam language=1 laiso2=ml iso3=mal
+maldivian language=1 laiso2=dv iso3=div
+maltese language=1 laiso2=mt iso3=mlt
+manx language=1 laiso2=gv iso3=glv
+maori language=1 laiso2=mi iso3=mao
+māori language=1 laiso2=mi iso3=mao root=maori
+marathi language=1 laiso2=mr iso3=mar
+marāṭhī language=1 laiso2=mr iso3=mar root=marathi
+marshallese language=1 laiso2=mh iso3=mah
+modern language=1 laiso2=el iso3=gre
+moldavian language=1 laiso2=ro iso3=rum
+moldovan language=1 laiso2=ro iso3=rum
+mongolian language=1 laiso2=mn iso3=mon
+myanmar language=1 laiso2=my iso3=bur root=burmese
+nauru language=1 laiso2=na iso3=nau
+nauruan language=1 laiso2=na iso3=nau root=nauru
+navaho language=1 laiso2=nv iso3=nav
+navajo language=1 laiso2=nv iso3=nav
+ndonga language=1 laiso2=ng iso3=ndo
+nepali language=1 laiso2=ne iso3=nep
+north ndebele language=1 laiso2=nd iso3=nde
+northern ndebele language=1 laiso2=nd iso3=nde root="north ndebele"
+northern sami language=1 laiso2=se iso3=sme
+norwegian bokmål language=1 laiso2=nb iso3=nob
+norwegian language=1 laiso2=no iso3=nor
+norwegian nynorsk language=1 laiso2=nn iso3=nno
+nuosu language=1 laiso2=ii iso3=iii
+nyanja language=1 laiso2=ny iso3=nya
+occidental language=1 laiso2=ie iso3=ile
+occitan language=1 laiso2=oc iso3=oci
+odia language=1 laiso2=or iso3=ori root=oriya
+ojibwa language=1 laiso2=oj iso3=oji
+ojibwe language=1 laiso2=oj iso3=oji root=ojibwa
+old church slavonic language=1 laiso2=cu iso3=chu
+old slavonic language=1 laiso2=cu iso3=chu
+oriya language=1 laiso2=or iso3=ori
+oromo language=1 laiso2=om iso3=orm
+ossetian language=1 laiso2=os iso3=oss
+ossetic language=1 laiso2=os iso3=oss
+pali language=1 laiso2=pi iso3=pli
+pāli language=1 laiso2=pi iso3=pli root=pali
+panjabi language=1 laiso2=pa iso3=pan
+pashto language=1 laiso2=ps iso3=pus
+persian language=1 laiso2=fa iso3=per
+polish language=1 laiso2=pl iso3=pol
+portuguese language=1 laiso2=pt iso3=por
+punjabi language=1 laiso2=pa iso3=pan
+pushto language=1 laiso2=ps iso3=pus
+quechua language=1 laiso2=qu iso3=que
+romanian language=1 laiso2=ro iso3=rum
+romansh language=1 laiso2=rm iso3=roh
+rundi language=1 laiso2=rn iso3=run
+russian language=1 laiso2=ru iso3=rus
+samoan language=1 laiso2=sm iso3=smo
+sango language=1 laiso2=sg iso3=sag
+sanskrit language=1 laiso2=sa iso3=san
+sardinian language=1 laiso2=sc iso3=srd
+scottish gaelic language=1 laiso2=gd iso3=gla
+serbian language=1 laiso2=sr iso3=srp
+shona language=1 laiso2=sn iso3=sna
+sichuan yi language=1 laiso2=ii iso3=iii
+sindhi language=1 laiso2=sd iso3=snd
+sinhala language=1 laiso2=si iso3=sin
+sinhalese language=1 laiso2=si iso3=sin
+slovak language=1 laiso2=sk iso3=slo
+slovene language=1 laiso2=sl iso3=slv root=slovenian
+slovenian language=1 laiso2=sl iso3=slv
+somali language=1 laiso2=so iso3=som
+south ndebele language=1 laiso2=nr iso3=nbl
+southern ndebele language=1 laiso2=nr iso3=nbl root="south ndebele"
+southern sotho language=1 laiso2=st iso3=sot
+spanish language=1 laiso2=es iso3=spa
+standard tibetan language=1 laiso2=bo iso3=tib root=tibetan
+sundanese language=1 laiso2=su iso3=sun
+swahili language=1 laiso2=sw iso3=swa
+swati language=1 laiso2=ss iso3=ssw
+swazi language=1 laiso2=ss iso3=ssw root=swati
+swedish language=1 laiso2=sv iso3=swe
+tagalog language=1 laiso2=tl iso3=tgl
+tahitian language=1 laiso2=ty iso3=tah
+tajik language=1 laiso2=tg iso3=tgk
+tamil language=1 laiso2=ta iso3=tam
+tatar language=1 laiso2=tt iso3=tat
+telugu language=1 laiso2=te iso3=tel
+thai language=1 laiso2=th iso3=tha
+tibetan language=1 laiso2=bo iso3=tib
+tigrinya language=1 laiso2=ti iso3=tir
+tonga language=1 laiso2=to iso3=ton
+tongan language=1 laiso2=to iso3=ton root=tonga
+tsonga language=1 laiso2=ts iso3=tso
+tswana language=1 laiso2=tn iso3=tsn
+turkish language=1 laiso2=tr iso3=tur
+turkmen language=1 laiso2=tk iso3=tuk
+twi language=1 laiso2=tw iso3=twi
+uighur language=1 laiso2=ug iso3=uig
+ukrainian language=1 laiso2=uk iso3=ukr
+urdu language=1 laiso2=ur iso3=urd
+uyghur language=1 laiso2=ug iso3=uig
+uzbek language=1 laiso2=uz iso3=uzb
+valencian language=1 laiso2=ca iso3=cat
+venda language=1 laiso2=ve iso3=ven
+vietnamese language=1 laiso2=vi iso3=vie
+volapük language=1 laiso2=vo iso3=vol
+walloon language=1 laiso2=wa iso3=wln
+welsh language=1 laiso2=cy iso3=wel
+western frisian language=1 laiso2=fy iso3=fry
+wolof language=1 laiso2=wo iso3=wol
+xhosa language=1 laiso2=xh iso3=xho
+yiddish language=1 laiso2=yi iso3=yid
+yoruba language=1 laiso2=yo iso3=yor
+zhuang language=1 laiso2=za iso3=zha
