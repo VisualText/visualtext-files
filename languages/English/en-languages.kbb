@@ -1,0 +1,215 @@
+# Human languages in English
+languages
+  abkhazian: iso2=ab, iso3=abk, synonym=abkhaz
+  afar: iso2=aa, iso3=aar
+  afrikaans: iso2=af, iso3=afr
+  akan: iso2=ak, iso3=aka
+  albanian: iso2=sq, iso3=alb
+  amharic: iso2=am, iso3=amh
+  arabic: iso2=ar, iso3=ara
+  aragonese: iso2=an, iso3=arg
+  armenian: iso2=hy, iso3=arm
+  assamese: iso2=as, iso3=asm
+  avaric: iso2=av, iso3=ava, synonym=avar
+  avestan: iso2=ae, iso3=ave
+  aymara: iso2=ay, iso3=aym
+  azerbaijani: iso2=az, iso3=aze, synonym=azeri
+  bambara: iso2=bm, iso3=bam
+  bashkir: iso2=ba, iso3=bak
+  basque: iso2=eu, iso3=baq
+  belarusian: iso2=be, iso3=bel
+  bengali: iso2=bn, iso3=ben, synonym=bangla
+  bislama: iso2=bi, iso3=bis
+  bosnian: iso2=bs, iso3=bos
+  breton: iso2=br, iso3=bre
+  bulgarian: iso2=bg, iso3=bul
+  burmese: iso2=my, iso3=bur, synonym=myanmar
+  castilian: iso2=es, iso3=spa
+  catalan: iso2=ca, iso3=cat
+  central khmer: iso2=km, iso3=khm, synonym=[khmer,cambodian]
+  chamorro: iso2=ch, iso3=cha
+  chechen: iso2=ce, iso3=che
+  chewa: iso2=ny, iso3=nya
+  chichewa: iso2=ny, iso3=nya
+  chinese: iso2=zh, iso3=chi
+  chuang: iso2=za, iso3=zha
+  church slavonic: iso2=cu, iso3=chu
+  chuvash: iso2=cv, iso3=chv
+  cornish: iso2=kw, iso3=cor
+  corsican: iso2=co, iso3=cos
+  cree: iso2=cr, iso3=cre
+  croatian: iso2=hr, iso3=hrv
+  czech: iso2=cs, iso3=cze
+  danish: iso2=da, iso3=dan
+  dhivehi: iso2=dv, iso3=div
+  divehi: iso2=dv, iso3=div
+  dutch: iso2=nl, iso3=dut
+  dzongkha: iso2=dz, iso3=dzo
+  english: iso2=en, iso3=eng
+  esperanto: iso2=eo, iso3=epo
+  estonian: iso2=et, iso3=est
+  ewe: iso2=ee, iso3=ewe
+  faroese: iso2=fo, iso3=fao
+  fijian: iso2=fj, iso3=fij
+  finnish: iso2=fi, iso3=fin
+  flemish: iso2=nl, iso3=dut
+  french: iso2=fr, iso3=fre
+  fulah: iso2=ff, iso3=ful, synonym=fula
+  gaelic: iso2=gd, iso3=gla
+  galician: iso2=gl, iso3=glg
+  ganda: iso2=lg, iso3=lug
+  georgian: iso2=ka, iso3=geo
+  german: iso2=de, iso3=ger
+  gikuyu: iso2=ki, iso3=kik
+  greek: note=1453, iso2=el, iso3=gre
+  greenlandic: iso2=kl, iso3=kal
+  guarani: iso2=gn, iso3=grn
+  gujarati: iso2=gu, iso3=guj
+  haitian: iso2=ht, iso3=hat
+  haitian creole: iso2=ht, iso3=hat
+  hausa: iso2=ha, iso3=hau
+  hebrew: iso2=he, iso3=heb
+  herero: iso2=hz, iso3=her
+  hindi: iso2=hi, iso3=hin
+  hiri motu: iso2=ho, iso3=hmo
+  hungarian: iso2=hu, iso3=hun
+  icelandic: iso2=is, iso3=ice
+  ido: iso2=io, iso3=ido
+  igbo: iso2=ig, iso3=ibo
+  indonesian: iso2=id, iso3=ind
+  interlingua: note="International Auxiliary Language Association", iso2=ia, iso3=ina
+  interlingue: iso2=ie, iso3=ile
+  inuktitut: iso2=iu, iso3=iku
+  inupiaq: iso2=ik, iso3=ipk
+  irish: iso2=ga, iso3=gle
+  italian: iso2=it, iso3=ita
+  japanese: iso2=ja, iso3=jpn
+  javanese: iso2=jv, iso3=jav
+  kalaallisut: iso2=kl, iso3=kal
+  kannada: iso2=kn, iso3=kan
+  kanuri: iso2=kr, iso3=kau
+  kashmiri: iso2=ks, iso3=kas
+  kazakh: iso2=kk, iso3=kaz
+  kikuyu: iso2=ki, iso3=kik
+  kinyarwanda: iso2=rw, iso3=kin
+  kirghiz: iso2=ky, iso3=kir
+  komi: iso2=kv, iso3=kom
+  kongo: iso2=kg, iso3=kon
+  korean: iso2=ko, iso3=kor
+  kuanyama: iso2=kj, iso3=kua
+  kurdish: iso2=ku, iso3=kur
+  kwanyama: iso2=kj, iso3=kua
+  kyrgyz: iso2=ky, iso3=kir
+  lao: iso2=lo, iso3=lao
+  latin: iso2=la, iso3=lat
+  latvian: iso2=lv, iso3=lav
+  letzeburgesch: iso2=lb, iso3=ltz
+  limburgan: iso2=li, iso3=lim
+  limburger: iso2=li, iso3=lim
+  limburgish: iso2=li, iso3=lim
+  lingala: iso2=ln, iso3=lin
+  lithuanian: iso2=lt, iso3=lit
+  luba-katanga: iso2=lu, iso3=lub, synonym="luba-shaba"
+  luxembourgish: iso2=lb, iso3=ltz
+  macedonian: iso2=mk, iso3=mac
+  malagasy: iso2=mg, iso3=mlg
+  malay: iso2=ms, iso3=may
+  malayalam: iso2=ml, iso3=mal
+  maldivian: iso2=dv, iso3=div
+  maltese: iso2=mt, iso3=mlt
+  manx: iso2=gv, iso3=glv
+  maori: iso2=mi, iso3=mao, synonym=māori
+  marathi: iso2=mr, iso3=mar, synonym=marāṭhī
+  marshallese: iso2=mh, iso3=mah
+  modern: note=1453, iso2=el, iso3=gre
+  moldavian: iso2=ro, iso3=rum
+  moldovan: iso2=ro, iso3=rum
+  mongolian: iso2=mn, iso3=mon
+  nauru: iso2=na, iso3=nau, synonym=nauruan
+  navaho: iso2=nv, iso3=nav
+  navajo: iso2=nv, iso3=nav
+  ndonga: iso2=ng, iso3=ndo
+  nepali: iso2=ne, iso3=nep
+  north ndebele: iso2=nd, iso3=nde, synonym="northern ndebele"
+  northern sami: iso2=se, iso3=sme
+  norwegian: iso2=no, iso3=nor
+  norwegian bokmål: iso2=nb, iso3=nob
+  norwegian nynorsk: iso2=nn, iso3=nno
+  nuosu: iso2=ii, iso3=iii
+  nyanja: iso2=ny, iso3=nya
+  occidental: iso2=ie, iso3=ile
+  occitan: iso2=oc, iso3=oci
+  ojibwa: iso2=oj, iso3=oji, synonym=ojibwe
+  old church slavonic: iso2=cu, iso3=chu
+  old slavonic: iso2=cu, iso3=chu
+  oriya: iso2=or, iso3=ori, synonym=odia
+  oromo: iso2=om, iso3=orm
+  ossetian: iso2=os, iso3=oss
+  ossetic: iso2=os, iso3=oss
+  pali: iso2=pi, iso3=pli, synonym=pāli
+  panjabi: iso2=pa, iso3=pan
+  pashto: iso2=ps, iso3=pus
+  persian: iso2=fa, iso3=per, synonym=farsi
+  polish: iso2=pl, iso3=pol
+  portuguese: iso2=pt, iso3=por
+  punjabi: iso2=pa, iso3=pan
+  pushto: iso2=ps, iso3=pus
+  quechua: iso2=qu, iso3=que
+  romanian: iso2=ro, iso3=rum
+  romansh: iso2=rm, iso3=roh
+  rundi: iso2=rn, iso3=run, synonym=kirundi
+  russian: iso2=ru, iso3=rus
+  samoan: iso2=sm, iso3=smo
+  sango: iso2=sg, iso3=sag
+  sanskrit: iso2=sa, iso3=san
+  sardinian: iso2=sc, iso3=srd
+  scottish gaelic: iso2=gd, iso3=gla
+  serbian: iso2=sr, iso3=srp
+  shona: iso2=sn, iso3=sna
+  sichuan yi: iso2=ii, iso3=iii
+  sindhi: iso2=sd, iso3=snd
+  sinhala: iso2=si, iso3=sin
+  sinhalese: iso2=si, iso3=sin
+  slovak: iso2=sk, iso3=slo
+  slovenian: iso2=sl, iso3=slv, synonym=slovene
+  somali: iso2=so, iso3=som
+  south ndebele: iso2=nr, iso3=nbl, synonym="southern ndebele"
+  southern sotho: iso2=st, iso3=sot
+  spanish: iso2=es, iso3=spa
+  sundanese: iso2=su, iso3=sun
+  swahili: iso2=sw, iso3=swa
+  swati: iso2=ss, iso3=ssw, synonym=swazi
+  swedish: iso2=sv, iso3=swe
+  tagalog: iso2=tl, iso3=tgl
+  tahitian: iso2=ty, iso3=tah
+  tajik: iso2=tg, iso3=tgk
+  tamil: iso2=ta, iso3=tam
+  tatar: iso2=tt, iso3=tat
+  telugu: iso2=te, iso3=tel
+  thai: iso2=th, iso3=tha
+  tibetan: iso2=bo, iso3=tib, synonym="standard tibetan"
+  tigrinya: iso2=ti, iso3=tir
+  tonga: note="Tonga Islands", iso2=to, iso3=ton, synonym=tongan
+  tsonga: iso2=ts, iso3=tso
+  tswana: iso2=tn, iso3=tsn
+  turkish: iso2=tr, iso3=tur
+  turkmen: iso2=tk, iso3=tuk
+  twi: iso2=tw, iso3=twi
+  uighur: iso2=ug, iso3=uig
+  ukrainian: iso2=uk, iso3=ukr
+  urdu: iso2=ur, iso3=urd
+  uyghur: iso2=ug, iso3=uig
+  uzbek: iso2=uz, iso3=uzb
+  valencian: iso2=ca, iso3=cat
+  venda: iso2=ve, iso3=ven
+  vietnamese: iso2=vi, iso3=vie
+  volapük: iso2=vo, iso3=vol
+  walloon: iso2=wa, iso3=wln
+  welsh: iso2=cy, iso3=wel
+  western frisian: iso2=fy, iso3=fry, synonym=frisian
+  wolof: iso2=wo, iso3=wol
+  xhosa: iso2=xh, iso3=xho
+  yiddish: iso2=yi, iso3=yid
+  yoruba: iso2=yo, iso3=yor
+  zhuang: iso2=za, iso3=zha
+
