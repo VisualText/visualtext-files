@@ -151,7 +151,12 @@ LastChild(L("parent")) {
 }
 
 MakeCountCon(L("con"),L("count name")) {
-	L("count name") = CountName(L("con"),L("count name"));
+	L("count name") = CountName(L("con"),L("count name"),0);
+	return makeconcept(L("con"),L("count name"));
+}
+
+MakeCountConPad(L("con"),L("count name"),L("pad")) {
+	L("count name") = CountName(L("con"),L("count name"),L("pad"));
 	return makeconcept(L("con"),L("count name"));
 }
 
@@ -167,9 +172,14 @@ IncrementCount(L("con"),L("countname")) {
 	return L("count");
 }
 
-CountName(L("con"),L("root")) {
+CountName(L("con"),L("root"),L("pad")) {
 	L("count") = IncrementCount(L("con"),L("root"));
-	return L("root") + str(L("count"));
+	if (L("pad")) {
+		L("pad") = RepeatStr(L("pad")-strlength(str(L("count"))),"0");
+	} else {
+		L("pad") = SpacesStr("  ");
+	}
+	return L("root") + L("pad") + str(L("count"));
 }
 
 StripEndDigits(L("name")) {
@@ -357,10 +367,14 @@ QuoteIfNeeded(L("str")) {
 # Because NLP++ doesn't allow for empty strings,
 # this function can only be called with "num" >= 1
 SpacesStr(L("num")) {
+    return RepeatStr(L("num"),"  ");
+}
+
+RepeatStr(L("num"),L("str")) {
     L("n") = 1;
-	L("spaces") = "  ";
+	L("spaces") = L("str");
 	while (L("n") < L("num")) {
-		L("spaces") = L("spaces") + "  ";
+		L("spaces") = L("spaces") + L("str");
 		L("n")++;
 	}
 	return L("spaces");
