@@ -161,6 +161,7 @@ MakeCountConPad(L("con"),L("count name"),L("pad")) {
 }
 
 IncrementCount(L("con"),L("countname")) {
+	L("countname") = L("countname") + "_count";
 	L("count") = numval(L("con"),L("countname"));
 	if (L("count")) {
 		L("count") = L("count") + 1;
@@ -177,7 +178,7 @@ CountName(L("con"),L("root"),L("pad")) {
 	if (L("pad")) {
 		L("pad") = RepeatStr(L("pad")-strlength(str(L("count"))),"0");
 	} else {
-		L("pad") = SpacesStr("  ");
+		L("pad") = 0;
 	}
 	return L("root") + L("pad") + str(L("count"));
 }
