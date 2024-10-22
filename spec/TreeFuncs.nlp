@@ -1,0 +1,106 @@
+###############################################
+# FILE: TreeFuncs
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-10-11 8:58:32
+# MODIFIED:
+###############################################
+
+@DECL
+
+PNCopyAttrsToCPn(L("from"),L("to")) {
+	L("attrs") = pnvarnames(L("from"));
+	"pnpncopy.txt" << "attrs: " << pnname(L("from")) << ": " << L("attrs") << "\n";
+	while (L("attrs")[L("i")]) {
+		L("attr") = L("attrs")[ L("i") ];
+		L("val") = pnvar(L("from"),L("attr"));
+		pnmakevar(L("to"),L("attr"),L("val"));
+		L("i")++;
+    }
+}
+
+PNCopyAttrsToCon(L("pn"),L("con")) {
+	L("attrs") = pnvarnames(L("pn"));
+	while (L("attrs")[L("i")]) {
+		L("attr") = L("attrs")[ L("i") ];
+		"copyperson.txt" << "  ==> " << L("attr") << "\n";
+		L("val") = pnvar(L("pn"),L("attr"));
+		L("type") = pnvartype(L("pn"),L("attr"));
+		if (L("type") == 0) {
+			addstrval(L("con"),L("attr"),L("val"));
+		} else if (L("type") == 1) {
+			addnumval(L("con"),L("attr"),L("val"));
+		}
+		L("i")++;
+    }
+}
+
+PNIncrement(L("node"),L("var")) {
+	L("val") = pnvar(L("node"),L("var"));
+	if (L("val")) {
+		pnreplaceval(L("node"),L("var"),L("val")+1);
+	} else {
+		pnmakevar(L("node"),L("var"),1);
+	}
+}
+
+AddTreeID(L("con"),L("node")) {
+	L("id") = pnvar(L("node"),"id");
+	if (L("id")) {
+		return 0;
+	}
+	pnmakevar(L("node"),"id",++G("tree id"));
+	L("path") = str(G("tree id"));
+
+	while (L("node")) {
+		while (L("node") && !pnup(L("node"))) {
+			L("node") = pnprev(L("node"));
+		}
+		if (L("node") && pnup(L("node"))) {
+			L("node") = pnup(L("node"));
+			if (L("node") != pnroot()) {
+				if (pnvar(L("node"),"id")) {
+					L("path") = str(pnvar(L("node"),"id")) + " " + L("path");
+				} else {
+					pnmakevar(L("node"),"id",++G("tree id"));
+					L("path") = str(G("tree id")) + " " + L("path");		
+				}				
+			}
+		}
+	}
+	addstrval(L("con"),"pn",L("path"));
+}
+
+TreeNodeID(L("nodes str")) {
+	L("tokens") = split(L("nodes str")," ");
+	L("len") = arraylength(L("tokens"));
+	L("node") = pnroot();
+	while (L("i") < L("len")) {
+		L("node") = pndown(L("node"));
+		L("id") = num(L("tokens")[L("i")]);
+		"tree.txt" << L("id") << "\n";
+		L("node") = TreeNodeWithID(L("node"),L("id"));
+		L("i")++;
+	}
+	return L("node");
+}
+
+TreeNodeWithID(L("node"),L("id")) {
+	"tree.txt" << "Looking for: " << pnname(L("node")) << " " << L("id") << "\n";
+	while (L("node")) {
+		"tree.txt" << "  Node: " << pnname(L("node")) << " " << pnvar(L("node"),"id") << "\n";
+		if (pnvar(L("node"),"id") == L("id")) {
+			"tree.txt" << "  Found: " << pnname(L("node")) << " " << L("id") << "\n";
+			return L("node");
+		}
+		L("node") = pnnext(L("node"));
+	}
+}
+
+MarkFired(L("node")) {
+    L("pn str") = strval(L("node"),"pn");
+    L("pn") = TreeNodeID(L("pn str"));
+    pnsetfired(L("pn"),1);
+}
+
+@@DECL
