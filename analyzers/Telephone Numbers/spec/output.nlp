@@ -11,6 +11,4 @@
 SaveKB("telephones.kbb",G("telephones"),1);
 JsonKB("telephones.json",G("telephones"));
 
-SaveKB("brain.kbb",findroot(),1);
-
 @@CODE
