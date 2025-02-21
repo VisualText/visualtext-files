@@ -7,5 +7,7 @@
 ###############################################
 
 @CODE
-G("telephone") = getconcept(findroot(),"telephones");
+
+G("telephones") = getconcept(findroot(),"telephones");
+
 @@CODE
