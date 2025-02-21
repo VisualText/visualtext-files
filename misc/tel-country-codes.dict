@@ -1,5 +1,5 @@
 # Telephone country codes
-1 ccode=1 country="American Samoa,Anguilla,Antigua and Barbuda,Bahamas,Barbados,Bermuda,British Virgin Islands,Canada,Cayman Islands,Dominica,Dominican Republic,Grenada,Guam,Jamaica,Montserrat,Northern Mariana Islands,Puerto Rico,Saint Kitts and Nevis,Saint Lucia,Saint Vincent and the Grenadines,Sint Maarten,Trinidad and Tobago,Turks and Caicos Islands,U.S. Virgin Islands,United States"
+1 ccode=1 country="United States"
 20 ccode=1 country=Egypt
 211 ccode=1 country="South Sudan"
 212 ccode=1 country="Morocco,Western Sahara"
