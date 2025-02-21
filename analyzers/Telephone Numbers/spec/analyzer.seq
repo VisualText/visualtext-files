@@ -3,7 +3,6 @@ nlp	KBFuncs	# comment
 nlp	funcs	# comment
 nlp	kbinit	# comment
 nlp	Lines	# comment
-nlp	Telep1	# comment
-nlp	Telep2	# comment
-nlp	kbdisp01	# comment
+nlp	telephone	# comment
+nlp	telKB	# comment
 nlp	output	# comment

@@ -1,0 +1,205 @@
+# Telephone country codes
+1 ccode=1 country="American Samoa,Anguilla,Antigua and Barbuda,Bahamas,Barbados,Bermuda,British Virgin Islands,Canada,Cayman Islands,Dominica,Dominican Republic,Grenada,Guam,Jamaica,Montserrat,Northern Mariana Islands,Puerto Rico,Saint Kitts and Nevis,Saint Lucia,Saint Vincent and the Grenadines,Sint Maarten,Trinidad and Tobago,Turks and Caicos Islands,U.S. Virgin Islands,United States"
+20 ccode=1 country=Egypt
+211 ccode=1 country="South Sudan"
+212 ccode=1 country="Morocco,Western Sahara"
+213 ccode=1 country=Algeria
+216 ccode=1 country=Tunisia
+218 ccode=1 country=Libya
+220 ccode=1 country=Gambia
+221 ccode=1 country=Senegal
+222 ccode=1 country=Mauritania
+223 ccode=1 country=Mali
+224 ccode=1 country=Guinea
+225 ccode=1 country="Ivory Coast"
+226 ccode=1 country="Burkina Faso"
+227 ccode=1 country=Niger
+228 ccode=1 country=Togo
+229 ccode=1 country=Benin
+230 ccode=1 country=Mauritius
+231 ccode=1 country=Liberia
+232 ccode=1 country="Sierra Leone"
+233 ccode=1 country=Ghana
+234 ccode=1 country=Nigeria
+235 ccode=1 country=Chad
+236 ccode=1 country="Central African Republic"
+237 ccode=1 country=Cameroon
+238 ccode=1 country="Cape Verde"
+239 ccode=1 country="Sao Tome and Principe"
+240 ccode=1 country="Equatorial Guinea"
+241 ccode=1 country=Gabon
+242 ccode=1 country="Republic of the Congo"
+243 ccode=1 country="Democratic Republic of the Congo"
+244 ccode=1 country=Angola
+245 ccode=1 country="Guinea-Bissau"
+246 ccode=1 country="British Indian Ocean Territory"
+248 ccode=1 country=Seychelles
+249 ccode=1 country=Sudan
+250 ccode=1 country=Rwanda
+251 ccode=1 country=Ethiopia
+252 ccode=1 country=Somalia
+253 ccode=1 country=Djibouti
+254 ccode=1 country=Kenya
+255 ccode=1 country=Tanzania
+256 ccode=1 country=Uganda
+257 ccode=1 country=Burundi
+258 ccode=1 country=Mozambique
+260 ccode=1 country=Zambia
+261 ccode=1 country=Madagascar
+262 ccode=1 country="Mayotte,Reunion"
+263 ccode=1 country=Zimbabwe
+264 ccode=1 country=Namibia
+265 ccode=1 country=Malawi
+266 ccode=1 country=Lesotho
+267 ccode=1 country=Botswana
+268 ccode=1 country=Swaziland
+269 ccode=1 country=Comoros
+27 ccode=1 country="South Africa"
+290 ccode=1 country="Saint Helena"
+291 ccode=1 country=Eritrea
+297 ccode=1 country=Aruba
+298 ccode=1 country="Faroe Islands"
+299 ccode=1 country=Greenland
+30 ccode=1 country=Greece
+31 ccode=1 country=Netherlands
+32 ccode=1 country=Belgium
+33 ccode=1 country=France
+34 ccode=1 country=Spain
+350 ccode=1 country=Gibraltar
+351 ccode=1 country=Portugal
+352 ccode=1 country=Luxembourg
+353 ccode=1 country=Ireland
+354 ccode=1 country=Iceland
+355 ccode=1 country=Albania
+356 ccode=1 country=Malta
+357 ccode=1 country=Cyprus
+358 ccode=1 country=Finland
+359 ccode=1 country=Bulgaria
+36 ccode=1 country=Hungary
+370 ccode=1 country=Lithuania
+371 ccode=1 country=Latvia
+372 ccode=1 country=Estonia
+373 ccode=1 country=Moldova
+374 ccode=1 country=Armenia
+375 ccode=1 country=Belarus
+376 ccode=1 country=Andorra
+377 ccode=1 country=Monaco
+378 ccode=1 country="San Marino"
+379 ccode=1 country=Vatican
+380 ccode=1 country=Ukraine
+381 ccode=1 country=Serbia
+382 ccode=1 country=Montenegro
+383 ccode=1 country=Kosovo
+385 ccode=1 country=Croatia
+386 ccode=1 country=Slovenia
+387 ccode=1 country="Bosnia and Herzegovina"
+389 ccode=1 country=Macedonia
+39 ccode=1 country=Italy
+40 ccode=1 country=Romania
+41 ccode=1 country=Switzerland
+420 ccode=1 country="Czech Republic"
+421 ccode=1 country=Slovakia
+423 ccode=1 country=Liechtenstein
+43 ccode=1 country=Austria
+44 ccode=1 country="Guernsey,Isle of Man,Jersey,United Kingdom"
+45 ccode=1 country=Denmark
+46 ccode=1 country=Sweden
+47 ccode=1 country="Norway,Svalbard and Jan Mayen"
+48 ccode=1 country=Poland
+49 ccode=1 country=Germany
+500 ccode=1 country="Falkland Islands"
+501 ccode=1 country=Belize
+502 ccode=1 country=Guatemala
+503 ccode=1 country="El Salvador"
+504 ccode=1 country=Honduras
+505 ccode=1 country=Nicaragua
+506 ccode=1 country="Costa Rica"
+507 ccode=1 country=Panama
+508 ccode=1 country="Saint Pierre and Miquelon"
+509 ccode=1 country=Haiti
+51 ccode=1 country=Peru
+52 ccode=1 country=Mexico
+53 ccode=1 country=Cuba
+54 ccode=1 country=Argentina
+55 ccode=1 country=Brazil
+56 ccode=1 country=Chile
+57 ccode=1 country=Colombia
+58 ccode=1 country=Venezuela
+590 ccode=1 country="Saint Barthelemy,Saint Martin"
+591 ccode=1 country=Bolivia
+592 ccode=1 country=Guyana
+593 ccode=1 country=Ecuador
+595 ccode=1 country=Paraguay
+597 ccode=1 country=Suriname
+598 ccode=1 country=Uruguay
+599 ccode=1 country="Curacao,Netherlands Antilles"
+60 ccode=1 country=Malaysia
+61 ccode=1 country="Australia,Christmas Island,Cocos Islands"
+62 ccode=1 country=Indonesia
+63 ccode=1 country=Philippines
+64 ccode=1 country="New Zealand,Pitcairn"
+65 ccode=1 country=Singapore
+66 ccode=1 country=Thailand
+670 ccode=1 country="East Timor"
+672 ccode=1 country=Antarctica
+673 ccode=1 country=Brunei
+674 ccode=1 country=Nauru
+675 ccode=1 country="Papua New Guinea"
+676 ccode=1 country=Tonga
+677 ccode=1 country="Solomon Islands"
+678 ccode=1 country=Vanuatu
+679 ccode=1 country=Fiji
+680 ccode=1 country=Palau
+681 ccode=1 country="Wallis and Futuna"
+682 ccode=1 country="Cook Islands"
+683 ccode=1 country=Niue
+685 ccode=1 country=Samoa
+686 ccode=1 country=Kiribati
+687 ccode=1 country="New Caledonia"
+688 ccode=1 country=Tuvalu
+689 ccode=1 country="French Polynesia"
+690 ccode=1 country=Tokelau
+691 ccode=1 country=Micronesia
+692 ccode=1 country="Marshall Islands"
+7 ccode=1 country="Kazakhstan,Russia"
+81 ccode=1 country=Japan
+82 ccode=1 country="South Korea"
+84 ccode=1 country=Vietnam
+850 ccode=1 country="North Korea"
+852 ccode=1 country="Hong Kong"
+853 ccode=1 country=Macau
+855 ccode=1 country=Cambodia
+856 ccode=1 country=Laos
+86 ccode=1 country=China
+880 ccode=1 country=Bangladesh
+886 ccode=1 country=Taiwan
+90 ccode=1 country=Turkey
+91 ccode=1 country=India
+92 ccode=1 country=Pakistan
+93 ccode=1 country=Afghanistan
+94 ccode=1 country="Sri Lanka"
+95 ccode=1 country=Myanmar
+960 ccode=1 country=Maldives
+961 ccode=1 country=Lebanon
+962 ccode=1 country=Jordan
+963 ccode=1 country=Syria
+964 ccode=1 country=Iraq
+965 ccode=1 country=Kuwait
+966 ccode=1 country="Saudi Arabia"
+967 ccode=1 country=Yemen
+968 ccode=1 country=Oman
+970 ccode=1 country=Palestine
+971 ccode=1 country="United Arab Emirates"
+972 ccode=1 country=Israel
+973 ccode=1 country=Bahrain
+974 ccode=1 country=Qatar
+975 ccode=1 country=Bhutan
+976 ccode=1 country=Mongolia
+977 ccode=1 country=Nepal
+98 ccode=1 country=Iran
+992 ccode=1 country=Tajikistan
+993 ccode=1 country=Turkmenistan
+994 ccode=1 country=Azerbaijan
+995 ccode=1 country=Georgia
+996 ccode=1 country=Kyrgyzstan
+998 ccode=1 country=Uzbekistan
