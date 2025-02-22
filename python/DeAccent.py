@@ -1,4 +1,4 @@
-# Deacent words in the current text
+# Deaccent words in a text file
 
 import sys
 

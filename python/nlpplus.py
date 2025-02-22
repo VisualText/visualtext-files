@@ -1,3 +1,5 @@
+# Example Python script using the NLPPlus Python package
+
 import NLPPlus
 import json
 
