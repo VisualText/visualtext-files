@@ -9,6 +9,6 @@
 @CODE
 
 SaveKB("telephones.kbb",G("telephones"),1);
-JsonKB("telephones.json",G("telephones"));
+JsonKB("output.json",G("telephones"));
 
 @@CODE
