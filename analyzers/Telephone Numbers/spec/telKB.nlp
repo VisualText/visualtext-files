@@ -9,8 +9,8 @@
 @PATH _ROOT _LINE
 
 @POST
-N("con",1)= MakeCountCon(G("telephones"),"telephone");
-AddAttrs(N(1));
+N("con",1) = MakeCountCon(G("telephones"),"telephone");
+PNCopyAttrsToCon(N(1),N("con",1));
 
 @RULES
 _xNIL <-
