@@ -1,3 +1,5 @@
+# Example script to show how to use the NLPEngine Python class
+
 import os
 from nlpengine import NLPEngine
 

@@ -1,3 +1,5 @@
+# NLPEngine Python class that uses nlp.exe
+
 import shutil
 import subprocess
 import os
