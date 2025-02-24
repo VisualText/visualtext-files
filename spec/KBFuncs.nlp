@@ -281,7 +281,9 @@ DisplayFileName() {
 
 DisplayKBRecurse(L("file"),L("parent"),L("level"),L("display type")) {
 	if (L("level") == 0) {
-		L("file") << conceptname(L("parent")) << "\n";
+		L("file") << conceptname(L("parent"));
+		DisplayAttributes(L("file"),L("parent"),L("display type"),L("level"));
+		L("file") << "\n";
 	}
 	L("con") = down(L("parent"));
 	while (L("con")) {
