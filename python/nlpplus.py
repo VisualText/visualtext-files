@@ -15,7 +15,7 @@ import json
 
 NLPPlus.set_analyzers_folder("your path to analyzers folder")
 text = "My phone number is 123-456-7890. Call me at (123) 456-7890 or 123.456.7890."
-results = NLPPlus.engine.analyze(text,"Telephone Numbers")
+results = NLPPlus.engine.analyze(text,"telephones")
 json_obj = json.loads(results.output_json)
 
 for telephone in json_obj["telephones"]["telephone"]:

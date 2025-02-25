@@ -34,13 +34,13 @@ nlp = NLPEngine(engineDir,analyzersDir)
 
 # Call the analyzer on a specific file that exists in the input directory
 filename = "telephones.txt"
-nlp.analyzeFile("Telephone Numbers", filename, True)
-jsonStr = nlp.outputFileContents("Telephone Numbers", filename, "telephones.json")
+nlp.analyzeFile("telephones", filename, True)
+jsonStr = nlp.outputFileContents("telephones", filename, "output.json")
 
 # Call the analyzer on a string
 filename = "tmp.txt"
 telephoneStr = "My phone number is 123-456-7890. Call me at (123) 456-7890 or 123.456.7890."
-nlp.analyzeStr("Telephone Numbers", filename, telephoneStr)
-jsonStr = nlp.outputFileContents("Telephone Numbers", filename, "telephones.json")
+nlp.analyzeStr("telephones", filename, telephoneStr)
+jsonStr = nlp.outputFileContents("telephones", filename, "output.json")
 
 print(jsonStr)
