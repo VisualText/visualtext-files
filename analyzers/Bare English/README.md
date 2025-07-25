@@ -1,3 +1,3 @@
-# Bare English Parser
+# Bare English
 
 Bare minimum parser with full English dictionary
