@@ -10,6 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      
+      - name: Initialize submodules
+        run: git submodule update --init --recursive
+
       - uses: papeloto/action-zip@v1
         with:
           files: analyzers/ Help/ spec/ languages/ misc/ ecl/ python/
