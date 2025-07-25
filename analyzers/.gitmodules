@@ -1,1 +1,3 @@
-
+[submodule "analyzers/parse-en-us"]
+  path = analyzers/parse-en-us
+  url = https://github.com/VisualText/parse-en-us.git
