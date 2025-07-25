@@ -1,4 +1,4 @@
-# Address Parse
+# Address Parser
 
 A parser for American postal addresses
 
