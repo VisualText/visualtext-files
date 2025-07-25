@@ -1,3 +1,3 @@
-# Bare Minium
+# Bare Minimum
 
 A bare minimum analyzer
