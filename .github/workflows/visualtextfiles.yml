@@ -16,7 +16,7 @@ jobs:
 
       - uses: papeloto/action-zip@v1
         with:
-          files: analyzers/ Help/ spec/ languages/ misc/ ecl/ python/
+          files: analyzers/ analyzer-templates/ Help/ spec/ languages/ misc/ ecl/ python/
           recursive: false
           dest: visualtext.zip
           
