@@ -1,0 +1,38 @@
+name: Update analyzer-templates submodule
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * 1'
+
+permissions:
+  contents: write
+
+jobs:
+  update-submodule:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pull latest analyzer-templates
+        run: |
+          git -C analyzer-templates fetch origin
+          DEFAULT_BRANCH=$(git -C analyzer-templates remote show origin | awk '/HEAD branch/ {print $NF}')
+          git -C analyzer-templates checkout "$DEFAULT_BRANCH"
+          git -C analyzer-templates pull origin "$DEFAULT_BRANCH"
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- analyzer-templates; then
+            echo "analyzer-templates already up to date."
+            exit 0
+          fi
+          NEW_SHA=$(git -C analyzer-templates rev-parse --short HEAD)
+          git add analyzer-templates
+          git commit -m "Update analyzer-templates submodule to $NEW_SHA"
+          git push
