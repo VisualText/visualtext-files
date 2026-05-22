@@ -2,6 +2,8 @@ name: Update analyzer-templates submodule
 
 on:
   workflow_dispatch:
+  repository_dispatch:
+    types: [analyzer-templates-release]
   schedule:
     - cron: '0 6 * * 1'
 
