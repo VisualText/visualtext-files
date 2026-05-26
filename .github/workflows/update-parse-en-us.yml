@@ -1,0 +1,87 @@
+name: Update parse-en-us and release
+
+on:
+  workflow_dispatch:
+    inputs:
+      bump:
+        description: 'Version bump type'
+        required: true
+        default: 'patch'
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
+
+permissions:
+  contents: write
+
+jobs:
+  update-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pull latest parse-en-us
+        id: update
+        run: |
+          git -C analyzers/parse-en-us fetch origin
+          DEFAULT_BRANCH=$(git -C analyzers/parse-en-us remote show origin | awk '/HEAD branch/ {print $NF}')
+          OLD_SHA=$(git -C analyzers/parse-en-us rev-parse --short HEAD)
+          git -C analyzers/parse-en-us checkout "$DEFAULT_BRANCH"
+          git -C analyzers/parse-en-us pull origin "$DEFAULT_BRANCH"
+          NEW_SHA=$(git -C analyzers/parse-en-us rev-parse --short HEAD)
+          echo "old_sha=$OLD_SHA" >> "$GITHUB_OUTPUT"
+          echo "new_sha=$NEW_SHA" >> "$GITHUB_OUTPUT"
+          if [ "$OLD_SHA" = "$NEW_SHA" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Compute next version
+        if: steps.update.outputs.changed == 'true'
+        id: version
+        run: |
+          LATEST=$(git tag --sort=-v:refname | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+$' | head -n1)
+          LATEST=${LATEST:-v0.0.0}
+          VER=${LATEST#v}
+          IFS='.' read -r MAJ MIN PAT <<< "$VER"
+          case "${{ inputs.bump }}" in
+            major) MAJ=$((MAJ+1)); MIN=0; PAT=0 ;;
+            minor) MIN=$((MIN+1)); PAT=0 ;;
+            patch) PAT=$((PAT+1)) ;;
+          esac
+          NEW="v$MAJ.$MIN.$PAT"
+          echo "tag=$NEW" >> "$GITHUB_OUTPUT"
+          echo "Next version: $NEW (previous: $LATEST)"
+
+      - name: Commit and tag
+        if: steps.update.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add analyzers/parse-en-us
+          git commit -m "${{ steps.version.outputs.tag }} parse-en-us updated (${{ steps.update.outputs.old_sha }} -> ${{ steps.update.outputs.new_sha }})"
+          git tag "${{ steps.version.outputs.tag }}"
+          git push
+          git push origin "${{ steps.version.outputs.tag }}"
+
+      - name: Create GitHub Release
+        if: steps.update.outputs.changed == 'true'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.tag }}
+          name: ${{ steps.version.outputs.tag }}
+          body: |
+            parse-en-us updated
+
+            Submodule bumped from `${{ steps.update.outputs.old_sha }}` to `${{ steps.update.outputs.new_sha }}`.
+
+      - name: Nothing to do
+        if: steps.update.outputs.changed == 'false'
+        run: echo "parse-en-us already up to date — no release created."
