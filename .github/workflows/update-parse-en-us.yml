@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: true
+          submodules: recursive
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -71,12 +71,25 @@ jobs:
           git push
           git push origin "${{ steps.version.outputs.tag }}"
 
+      # Build the release asset here. A release created by this workflow uses the
+      # default GITHUB_TOKEN, which does NOT fire the `release: created` event, so
+      # the separate Attach-Released-Assets workflow never runs for auto-releases.
+      # Attaching visualtext.zip directly keeps the release self-contained.
+      - name: Build visualtext.zip
+        if: steps.update.outputs.changed == 'true'
+        uses: papeloto/action-zip@v1
+        with:
+          files: analyzers/ analyzer-templates/ Help/ spec/ languages/ misc/ ecl/ python/
+          recursive: false
+          dest: visualtext.zip
+
       - name: Create GitHub Release
         if: steps.update.outputs.changed == 'true'
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.version.outputs.tag }}
           name: ${{ steps.version.outputs.tag }}
+          files: visualtext.zip
           body: |
             parse-en-us updated
 
