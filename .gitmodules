@@ -1,6 +1,8 @@
 [submodule "analyzers/parse-en-us"]
 	path = analyzers/parse-en-us
 	url = https://github.com/VisualText/parse-en-us.git
+	branch = main
 [submodule "analyzer-templates"]
 	path = analyzer-templates
 	url = https://github.com/VisualText/analyzer-templates
+	branch = main
