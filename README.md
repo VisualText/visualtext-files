@@ -127,3 +127,9 @@ MIT &mdash; see [LICENSE](LICENSE). Copyright (c) 2021 VisualText and NLP++.
 - [VisualText VSCode Extension](http://vscode.visualtext.org)
 - [nlp-engine](https://github.com/VisualText/nlp-engine) &mdash; the NLP++ engine source
 - [parse-en-us](https://github.com/VisualText/parse-en-us) &mdash; full English parser (included here as a submodule)
+
+## Cross-repo release automation
+
+This repo participates in the VisualText cross-repo release "percolation"
+system: submodule bumps flow downstream automatically via `repository_dispatch`.
+See **[nlp-engine/docs/PERCOLATION.md](https://github.com/VisualText/nlp-engine/blob/master/docs/PERCOLATION.md)** for the full map.
