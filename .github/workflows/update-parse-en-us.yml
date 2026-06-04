@@ -12,6 +12,8 @@ on:
           - patch
           - minor
           - major
+  repository_dispatch:
+    types: [parse-en-us-release]    # ping sent by parse-en-us/dispatch-update-parse-en-us.yml
 
 permissions:
   contents: write
@@ -47,18 +49,21 @@ jobs:
         if: steps.update.outputs.changed == 'true'
         id: version
         run: |
+          # workflow_dispatch supplies inputs.bump; repository_dispatch does not,
+          # so default to patch on a ping.
+          BUMP="${{ github.event.inputs.bump }}"; BUMP="${BUMP:-patch}"
           LATEST=$(git tag --sort=-v:refname | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+$' | head -n1)
           LATEST=${LATEST:-v0.0.0}
           VER=${LATEST#v}
           IFS='.' read -r MAJ MIN PAT <<< "$VER"
-          case "${{ inputs.bump }}" in
+          case "$BUMP" in
             major) MAJ=$((MAJ+1)); MIN=0; PAT=0 ;;
             minor) MIN=$((MIN+1)); PAT=0 ;;
             patch) PAT=$((PAT+1)) ;;
           esac
           NEW="v$MAJ.$MIN.$PAT"
           echo "tag=$NEW" >> "$GITHUB_OUTPUT"
-          echo "Next version: $NEW (previous: $LATEST)"
+          echo "Next version: $NEW (previous: $LATEST, bump: $BUMP)"
 
       - name: Commit and tag
         if: steps.update.outputs.changed == 'true'
