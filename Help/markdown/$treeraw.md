@@ -1,0 +1,39 @@
+# $treeraw
+
+## Purpose
+
+Fetch the text covered by the node from the parse tree. Leading and trailing spaces are not removed and separators are not converted to single space.
+
+## Syntax
+
+```
+returnedString = variableType("$treeraw"[, number])
+```
+
+```
+returnedString - type: str
+
+variableType - type: N or X
+
+number - type: int
+```
+
+## Returns
+
+## Remarks
+
+Analogous to $treetext.
+
+## Example
+
+```
+@RULES
+```
+
+```
+@@RULES
+```
+
+## See Also
+
+[$treetext]($treetext.md), [$text]($text.md), [$raw]($raw.md), , [$xmltext]($xmltext.md), [phraseraw](phraseraw.md), [phrasetext](phrasetext.md), [Special Variables](NLP_PP_Stuff/Special_Variables.md#table)
