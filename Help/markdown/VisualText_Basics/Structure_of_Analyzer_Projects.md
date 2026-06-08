@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Structure of Analyzer Projects
 
 When an analyzer is created and saved in VisualText™, a directory structure is created in the working directory (e.g. C:\apps). This structure is referred to as the **analyzer** **project**. The analyzer project stores the analyzer and its related files.

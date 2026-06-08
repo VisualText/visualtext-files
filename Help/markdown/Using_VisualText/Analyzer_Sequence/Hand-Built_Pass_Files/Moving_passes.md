@@ -1,3 +1,5 @@
+[← Help Contents](../../../index.md) | [📘 NLP++ Textbook](../../../NLP++_Textbook.md)
+
 # Moving Passes
 
 Passes, whether they are a part of a stub region or not, can be moved around in the analyzer sequence.

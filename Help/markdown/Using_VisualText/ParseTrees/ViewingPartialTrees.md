@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 **Viewing Partial Trees from Text Files**
 
 You can select a specific part of text in an analyzed file and view the parse tree for that line of text only. This is helpful when you want to see how the rule matcher worked on a particular part of text.

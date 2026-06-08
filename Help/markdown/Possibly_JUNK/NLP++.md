@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # NLP++
 
 [Note: This topic is slated for removal. Refer also to the NLP++ section.]

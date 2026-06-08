@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Browser Toolbar
 
 ![](../../../helps/VisualText_Interface/Toolbars/browser_toolbar.gif)

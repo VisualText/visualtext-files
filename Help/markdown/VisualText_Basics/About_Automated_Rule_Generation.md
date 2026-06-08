@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # About Automated Rule Generation
 
 VisualText allows you to enhance text analyzers by merely highlighting and categorizing samples from text. Automated rule generation (or **RUG**, for short) creates passes and rules for you automatically, so that you don't have to worry about the details of rule writing. It also makes analyzers much more maintainable, because when you modify an analyzer and then invoke RUG, it *automatically* updates rules according to changes made earlier on in the analyzer. That is, the developer doesn't need to worry that changes to rules in one pass will invalidate dependent rules in subsequent passes.

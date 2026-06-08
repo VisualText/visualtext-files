@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Working with Debugging Tools
 
 VisualText provides a number of debugging tools to make building text analyzers easier. Screen shots from this section are from the VisualText Sample "Corporate" analyzer.

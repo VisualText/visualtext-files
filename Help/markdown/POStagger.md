@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # POStagger
 
 **NOTE:** We are no longer bundling and distributing this third party tagger, as its licensing is incompatible with the commercial uses of VisualText.

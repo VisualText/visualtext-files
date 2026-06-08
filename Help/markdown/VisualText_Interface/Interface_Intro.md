@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Overview
 
 The major components of the VisualText™ user interface (or Main Window) are called out below.

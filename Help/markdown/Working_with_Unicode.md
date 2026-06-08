@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # Working with Unicode
 
 Starting with VisualText 2.0.1, a Unicode VisualText executable is available with every release.

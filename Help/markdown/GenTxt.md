@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # The GenTxt General Analyzer
 
 **NOTE:** GenTxt is no longer supported and is unavailable for download.  It is superseded by TAIParse, a general English analyzer available at

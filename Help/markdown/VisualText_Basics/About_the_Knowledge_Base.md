@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # About the Knowledge Base
 
 The Knowledge Base Management System (KBMS) used in VisualText™ is based on a knowledge representation framework developed by Text Analysis International, called Conceptual Grammar™ (CG). CG represents knowledge in terms of concepts, phrases, and their attributes. Everything "hangs" off a hierarchy of concepts. Because CG can represent concepts, phrases, attributes, and their interrelationships, it allows diverse types of knowledge to be stored flexibly within a single framework. See also the [Introduction to the Knowledge Base](../VisualText_Interface/Knowledge_Base.md).

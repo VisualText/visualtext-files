@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 **Viewing Parse Tree Matches**
 
 You can select a specific pass in the analyzer sequence and view the parse tree for that pass only.

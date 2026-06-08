@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 **Viewing Concept Trees**
 
 The concept tree shows you which nodes were built for a specific pass in the analyzer sequence.

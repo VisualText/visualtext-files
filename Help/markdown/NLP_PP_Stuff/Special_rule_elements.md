@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Special Rule Elements
 
 NLP++ has a set of predefined rule elements that make writing rules easier.  These **special rule elements** match various types of tokens such as alpha characters, punctuation, wildcards, etc.  For examples of these special rule elements, refer to the individual pages included in the Special Rule Elements section.

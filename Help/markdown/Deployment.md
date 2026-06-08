@@ -1,17 +1,28 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # Deployment
 
-Analyzers can run inside VisualText, as standalone programs, or embedded within other programs.  See the [Compiled and Standalone Analyzers](VisualText_Basics/Compiled_and_Standalone_Analyzers.md) topic for technical details.
+VisualText is now delivered as a VSCode language extension, so getting started takes only a few steps:
 
-Analyzers built with VisualText are now readily available.  See the Apps tab of our website above for [TAIParse](TAIParse.md), our advanced analyzer for general English text.  TAIParse currently performs accurate part-of-speech tagging (93+% in internal blind tests) and also supports chunking, parsing, and semantic analysis of text.  Passes that use HTML and/or strip it out are available and can easily be extended.
+1. **Download and install Visual Studio Code** from [https://code.visualstudio.com](https://code.visualstudio.com), then launch it.
+2. **Open the Extensions view** and type **`nlp`** into the extensions search box.
+3. **Install the VisualText (NLP++) extension** by clicking its **Install** button. The required NLP-ENGINE is included with the extension.
+4. **Click "VisualText" in the bottom panel** to open the VisualText views.
+5. **Click the "cog" (gear) icon** to download and set up the NLP-ENGINE and the example analyzers.
+6. **Start building analyzers.** You can now create, edit, and run NLP++ analyzers right inside VSCode.
 
-A [Resume Analyzer](Resume_Analyzer.md) prototype at about 80% accuracy (internal blind testing) is also available on the web site.  TAI has constructed numerous other analyzers that will be made available periodically at the Apps tab.
+The extension runs on **Linux, Windows, and macOS**.
 
-A bridge enabling **.NET** programs to call analyzers is also available.  See the VisualText\apps\DotNetTest and DotNetWeb folders in the product installation for sample deployments.  These use the libraries DotNetAPI and DotNetBridge, both in VisualText\bin.
+▶ **Quick start video:** [Getting started with VisualText](https://youtu.be/xGbGYj9ixv4)
 
-VisualText now supports analyzers that process **Unicode**, addressing all the world's languages (and mixed-language texts).
+## Running and Distributing Analyzers
 
-A **Java** bridge is not part of the release, but examples of Java programs calling C++ libraries are readily available on the Web.  If you need help with that, please contact us.
+Analyzers can run inside VisualText, as standalone programs, or embedded within other programs. See the [Compiled and Standalone Analyzers](VisualText_Basics/Compiled_and_Standalone_Analyzers.md) topic for technical details.
 
-A Gnu/C++/Linux version of the VisualText runtime libraries, enabling analyzers to run on **Linux** platforms, is available.
+Beginning with Version 3, analyzers and the knowledge base (KB) can be compiled to C++ libraries for faster execution and for protecting native NLP++ source code when delivering analyzers to customers. Analyzers can be compiled locally (using a C++ toolchain on your machine) or in the cloud (no local toolchain required).
 
-Questions?  Contact us at support@textanalysis.com, 1-949-376-8507.  Business line at 1-877-235-6259.
+VisualText supports analyzers that process **Unicode** (UTF-8 via the ICU C++ package), addressing all the world's languages and mixed-language texts, including emojis.
+
+## Questions?
+
+Contact us at [contact@visualtext.org](mailto:contact@visualtext.org), or join the discussion on our [Discourse forum](https://nlp.discourse.group).

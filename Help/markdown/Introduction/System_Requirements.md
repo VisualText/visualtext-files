@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # System Requirements
 
 VisualText™ runs on PCs with Windows: NT, Windows 2000, Win98, and WinME.

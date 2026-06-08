@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Compiled and Standalone Analyzers
 
 This section is concerned with configuring and using text analyzers outside the VisualText™ environment. It covers:

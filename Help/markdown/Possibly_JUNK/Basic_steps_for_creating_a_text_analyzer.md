@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Basic steps for creating a text analyzer
 
 This topic outlines the basic steps for creating and running a text analyzer using VisualText. Since VisualText can be used to create many different types of text analyzers, we will give a rough outline of the overall process of creating, running and defining a text analyzer.

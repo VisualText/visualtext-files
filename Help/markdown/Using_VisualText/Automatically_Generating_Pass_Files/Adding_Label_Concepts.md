@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Adding Label Concepts
 
 Label concepts hold subsamples of larger concepts.  For example, the area code or exchange of a telephone number can be a subsample of a telephone number.

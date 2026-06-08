@@ -1,3 +1,5 @@
+[← Help Contents](../../../index.md) | [📘 NLP++ Textbook](../../../NLP++_Textbook.md)
+
 **CORPORATE ANALYZER**** Table of Contents**
 
 | **Pass #** | **Name** | **Description** |

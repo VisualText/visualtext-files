@@ -1,3 +1,5 @@
+[← Help Contents](../../../index.md) | [📘 NLP++ Textbook](../../../NLP++_Textbook.md)
+
 | ![](../../../../helps/HowToBuild/Corporate/Companies/Bullet8.gif) Money | CORPORATE ANALYZER** Companies** | Anaphora ![](../../../../helps/HowToBuild/Corporate/Companies/Bullet7.gif) |
 | --- | --- | --- |
 

@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Suggested Element Modifiers
 
 Element modifiers for the suggested element are listed in the table below. The element modifier must be enclosed in square brackets** [ ] **and placed **after** the element. The element modifier **layers** has several synonyms, **layer**, **attrs** and **attr**.

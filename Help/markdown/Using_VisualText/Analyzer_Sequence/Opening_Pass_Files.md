@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Opening Pass Files
 
 **To open a pass file associated with a pass in the analyzer sequence**:

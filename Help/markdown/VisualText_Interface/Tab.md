@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Tab Window
 
 There are three tabs in the **Tab Window**, [Ana](#Ana_Tab), [Gram](#Gram_Tab), and [Text](#Text_Tab)

@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # Table_of_Web_Functions
 
 NLP++ functions are provided to help process web pages.

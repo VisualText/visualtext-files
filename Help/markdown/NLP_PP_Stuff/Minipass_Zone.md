@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Minipass Zone
 
 The Minipass Zone is used to write zero or more nested "minipasses" within a pass file. Each minipass is called a RECURSE Region and has an associated name. The Grammar Region within a RECURSE Region is not executed directly, but rather it is invoked by a **recurse** element action when a rule elsewhere in the pass file has matched.

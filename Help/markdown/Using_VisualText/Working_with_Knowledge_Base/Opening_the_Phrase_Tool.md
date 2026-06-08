@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Opening the Phrase Tool
 
 The Phrase Tool allows you to view the phrase of a concept in the Knowledge Base.  You can delete, add or edit nodes and their attributes using the Phrase Tool.  Concepts in the Knowledge Base with phrases are indicated by a yellow icon in the Knowledge Base hierarchy.

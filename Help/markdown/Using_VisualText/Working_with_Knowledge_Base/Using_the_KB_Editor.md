@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Editing the Knowledge Base with the KB Editor
 
 The KB Editor displays the hierarchy of concepts in the Knowledge Base.  You can edit the Knowledge Base using NLP++ Functions or using the KB Editor.

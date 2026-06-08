@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # VisualText Help
 
 The present Help documentation can be accessed by selecting **VisualText**™** Help** from the Help Menu.

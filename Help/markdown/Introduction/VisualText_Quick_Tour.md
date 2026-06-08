@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # VisualText Quick Tour
 
 Welcome to the VisualText™ Quick Tour, which introduces the major components of VisualText and shows how these components work together to create, run, and debug a text analyzer.

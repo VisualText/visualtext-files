@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # VB_to_VT
 
 A Visual Basic .NET driver program that demonstrates how to call a VisualText analyzer.  It uses the new VTAPI_VB.dll library built to provide a simple programmer's API to VisualText.  The main code file is repeated here for convenience.  All the API functions are invoked in this sample.

@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # Using the Attribute Editor
 
 You can edit the attributes of a concept or node in the Knowledge Base using the Attribute Editor.  The Attribute Editor is particularly handy when creating or working with a lexicon as you can edit lexical items directly.

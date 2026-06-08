@@ -1,3 +1,5 @@
+[← Help Contents](../../../index.md) | [📘 NLP++ Textbook](../../../NLP++_Textbook.md)
+
 # Adding Passes
 
 When you add a pass to the analyzer sequence you are also creating the pass file that is associated with the pass. You can associate existing pass files from another analyzer project with a new pass in the analyzer sequence.

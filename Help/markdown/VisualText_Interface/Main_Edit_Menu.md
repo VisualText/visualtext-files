@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Edit Menu
 
 The Edit Menu controls actions done to files in the Workspace.

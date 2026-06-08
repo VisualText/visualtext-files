@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Text File Popup
 
 The Text File Popup menu is launched by selecting a text file in the Workspace and right mouse clicking.

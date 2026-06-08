@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # TAIParse
 
 TAIParse is a general analyzer for English.  It is the best starting point for many text analysis and information extraction tasks.

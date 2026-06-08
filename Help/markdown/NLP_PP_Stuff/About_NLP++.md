@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # About NLP++
 
 NLP++™ is a general purpose programming language that integrates extensions for natural language processing (NLP). In addition to a C++ -like code syntax, NLP++ embodies a syntax for pass files, contexts, rules, and actions. Similar to LISP, NLP++ is a loosely-typed language.  In addition to integer, string, and array data types, NLP++ includes parse tree and knowledge base data types. In this way, the user can naturally address the rules, parse trees, and the knowledge base, while using C++ -like code to embed heuristics. Integration with the parse tree makes it possible to manipulate nodes and to manage semantic information within them. Integration with the knowledge base makes it possible to dynamically create and manage complex data structures. Integration with rules makes it possible to control every aspect of rule matching, to exploit context, and to elaborate the actions that follow rule matching.

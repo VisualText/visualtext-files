@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Pass File Popup
 
 The Pass File Popup menu is launched by selecting a pass file in the Workspace and right mouse clicking. Many of the rule-editing actions assume that rules are in written in [standard rule format](../../VisualText_Basics/Standard_Rule_Format.md).

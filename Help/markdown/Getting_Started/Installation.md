@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Obtaining and Installing VisualText™
 
 VisualText can be downloaded over the internet. In order to do this, contact [Text Analysis International, Inc.](../Text_Analysis_International/Contact_Information.md#Contact_Info) for the appropriate password and file name.

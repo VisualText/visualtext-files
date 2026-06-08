@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Tours and Tutorials
 
 We have provided several tours and tutorials to help you get started with VisualText.

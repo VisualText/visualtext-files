@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Functions
 
 NLP++ provides a variety of predefined functions for managing the parse tree and knowledge base. Convenient functions also support output formatting, string handling, and spelling. The spell functions can be used to help with unknown word lookup by a text analyzer.
@@ -17,7 +19,7 @@ As NLP++ evolved from an "action language" for rules, the Actions section provid
 
 [Formatting and I/O Functions](../Table_of_Formatting_and_I_O_Functions.md)
 
-Math Functions
+[Math Functions](../Table_of_Math_Functions.md)
 
 [Parse Tree Functions](../Table_of_Parse_Tree_Functions.md)
 

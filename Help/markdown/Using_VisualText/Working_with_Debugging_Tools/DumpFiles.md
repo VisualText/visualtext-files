@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 **Using Dump Files**
 
 To debug your analyzer it is often helpful to output information to **dump files**.  Dump files are created by inserting a line of code in the desired pass file indicating where to output the information.

@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # About Parse Trees
 
 VisualText analyzers build and use a single **parse tree** (or **tree,** for short) which is a data structure that tracks the patterns that have matched within the input text. Building parse trees is similar to the sentence diagramming taught in elementary school. The first pass of every analyzer tokenizes the text, that is, it converts a stream of characters to a parse tree in which alphabetic, numeric, whitespace, and punctuation are grouped into units called **nodes**. Below is a tokenized parse tree as displayed in the Parse Tree View.

@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Tutorial 6 - More on Rules
 
 In this tutorial we will cover more details of rule construction.  We will review rule element conditions, special rule elements and some code region rule conditions.

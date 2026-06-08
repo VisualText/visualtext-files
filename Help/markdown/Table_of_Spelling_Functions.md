@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # Table of Spelling Functions
 
 The NLP++ functions used to check spelling are listed here in table form for easy reference.  For examples of these functions, refer to the individual function pages included in the Spelling Functions section.

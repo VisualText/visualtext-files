@@ -1,3 +1,5 @@
+[← Help Contents](../../../index.md) | [📘 NLP++ Textbook](../../../NLP++_Textbook.md)
+
 | ![](../../../../helps/HowToBuild/Corporate/Output/Bullet8.gif) Meta Events | CORPORATE ANALYZER** Output** |   |
 | --- | --- | --- |
 

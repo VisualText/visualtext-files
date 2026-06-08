@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Code Zone
 
 The Code Zone is reserved for regions of NLP++ code that are independent of rule matching.

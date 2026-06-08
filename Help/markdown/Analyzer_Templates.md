@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # Analyzer Templates
 
 VisualText analyzers are built from initial **templates**.  A template is a starter or skeletal analyzer that can be copied and modified.

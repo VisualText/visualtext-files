@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Parse Tree Popup
 
 The Parse Tree Popup menu is launched by selecting an item in a parse tree file in the Workspace and right mouse clicking.

@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Grammar Zone
 
 The Grammar Zone is where you place the main rules of a pass file.

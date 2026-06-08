@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # Unicode_Test
 
 **NOTE:** Some users find a Microsoft library missing when they run VisualText Unicode.  support@textanalysis.com can help with any problems.

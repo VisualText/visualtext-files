@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Inactivating Passes
 
 **To inactivate a pass in the analyzer sequence**:

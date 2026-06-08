@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Writing Analyzers with VisualText
 
 The VisualText Basics section includes a set of topics designed to help you build analyzers. As a prerequisite, we recommend you work through the Tutorials to understand the workings of the VisualText GUI. Also, working through the Corporate analyzer documentation and studying the Corporate analyzer will provide a feel for the ordering and specification of the steps, or passes, in a text analyzer.

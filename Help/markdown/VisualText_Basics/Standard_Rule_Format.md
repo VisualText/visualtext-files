@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Standard Rule Format
 
 To facilitate the editing of rules in pass files, we've developed a convention called the **standard rule format**. Its main requirement is that each element of a rule occupy a separate line of text.  If is possible to write rules such that all rule elements are on the same line.  When referencing nodes however, it is often helpful to have elements written on separate lines.

@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # DictTok_Sample
 
 [All sample analyzers are in Program Files\TexAI\VisualText\apps.]

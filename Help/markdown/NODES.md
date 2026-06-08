@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # NODES Selector
 
 The NODES Selector allows you to specify a **list** of node names to be searched for independently in the parse tree. The phrase immediately under such a context node will be traversed to look for rule matches.

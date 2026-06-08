@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # PRE Region
 
 The PRE Region is used to extend the pattern matcher's mechanism for matching each rule element.   Currently, the PRE Region does not support general NLP++ expressions and statements.

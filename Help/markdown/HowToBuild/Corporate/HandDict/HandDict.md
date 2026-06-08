@@ -1,3 +1,5 @@
+[← Help Contents](../../../index.md) | [📘 NLP++ Textbook](../../../NLP++_Textbook.md)
+
 | ![](../../../../helps/HowToBuild/Corporate/HandDict/Bullet8.gif) Rule Generation | CORPORATE ANALYZER** KB & Dictionary** | Money ![](../../../../helps/HowToBuild/Corporate/HandDict/Bullet7.gif) |
 | --- | --- | --- |
 

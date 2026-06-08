@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # @@RULES
 
 A region marker that indicates the end of a RULES Region.

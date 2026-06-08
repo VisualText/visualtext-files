@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Analyzer Menu
 
 The Analyzer Menu controls the actions of an analyzer.  It is also used in generating rules.

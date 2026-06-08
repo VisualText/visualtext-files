@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Find in Files Dialog
 
 The **Find in Files** dialog** **allows you to** **find text in multiple files.

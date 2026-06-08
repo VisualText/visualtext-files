@@ -1,3 +1,5 @@
+[← Help Contents](../../../index.md) | [📘 NLP++ Textbook](../../../NLP++_Textbook.md)
+
 | ![](../../../../helps/HowToBuild/Tour15/Run/Bullet8.gif) Text Tab | Quick Tour** Running the Analyzer** | Output ![](../../../../helps/HowToBuild/Tour15/Run/Bullet7.gif) |
 | --- | --- | --- |
 

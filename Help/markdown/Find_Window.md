@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # Find Window
 
 The **Find Window** displays search results when a search is performed over multiple files. Clicking on a line in the Find Window displays the file where the search target was found in the Workspace.

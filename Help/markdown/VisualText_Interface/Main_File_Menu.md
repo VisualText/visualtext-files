@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # File Menu
 
 The File Menu is context sensitive. Available menu items change when a text file is open in the Workspace.  Here is the File Menu when all options are available.

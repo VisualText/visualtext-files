@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # About KB Command Files
 
 On examining the interpreted knowledge base in the kb\user folder of an analyzer project, you will find files with human-readable commands:

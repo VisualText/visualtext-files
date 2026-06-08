@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Parse Tree Menu
 
 The Parse Tree Menu controls actions with parse tree displays.

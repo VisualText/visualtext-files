@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Running Analyzers
 
 You can run the analyzer on files one at a time or you can run the analyzer on multiple files contained in a tree of folders.

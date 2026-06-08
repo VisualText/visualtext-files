@@ -1,28 +1,24 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Contact Information
 
-Contacting Text Analysis International, Inc.
-
-**Address**:
-
-Text Analysis International, Inc. 1669-2 Hollenbeck Ave. #501 Sunnyvale, CA 94087
+Contacting Conceptual Systems
 
 **Email**:
 
-| Department | Email Address |
-| --- | --- |
-| Technical Support | support@textanalysis.com |
-| Documentation Feedback | help@textanalysis.com |
-| Sales and Marketing | sales@textanalysis.com |
-| Corporate | info@textanalysis.com |
+[contact@visualtext.org](mailto:contact@visualtext.org)
 
-**Telephone**:
+**Discussion Forum**:
 
-| Department | Telephone Number |
-| --- | --- |
-| Corporate, Sales and Marketing | 1-877-235-6259 (USA toll free) |
-| Technical Support | 949-376-8507 |
-|   |   |
+Join our Discourse discussions at [https://nlp.discourse.group](https://nlp.discourse.group), where you can ask questions and discuss NLP++ and VisualText with the community.
 
 Please check for updates to this information at our website,
 
-[http://www.textanalysis.com](http://www.textanalysis.com)
+[https://visualtext.org](https://visualtext.org)
+
+**Our Websites**:
+
+- [https://visualtext.org](https://visualtext.org)
+- [https://nluglob.org](https://nluglob.org)
+- [https://nlp.foundation](https://nlp.foundation)
+- [https://conceptualsystems.biz](https://conceptualsystems.biz)

@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # @@MULTI
 
 An optional end marker that indicates the termination of the @MULTI Selector specification.

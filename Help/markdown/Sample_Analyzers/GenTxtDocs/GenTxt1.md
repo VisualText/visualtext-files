@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # The GenTxt General Analyzer
 
 **GenTxt** is not currently supported. It is superseded by **TAIParse**, which is available at

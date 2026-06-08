@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # ****Grammar Region
 
 A Grammar Region is where you write NLP++ rules and actions.

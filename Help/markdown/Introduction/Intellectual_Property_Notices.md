@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Intellectual Property Notices
 
 VisualText® Help Copyright © 2007 Text Analysis International, Inc. All rights reserved.

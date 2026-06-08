@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # Table of Database Functions
 
 The NLP++ functions for interfacing with a database are listed here in table form for easy reference.  For examples of these functions, refer to the individual function pages included in the Database Functions section.  Also available is a sample analyzer illustrating connection to a database, in **Samples\database1**.  An introductory page is available at [Database1 Analyzer](Sample_Analyzers/Database1_Analyzer.md).

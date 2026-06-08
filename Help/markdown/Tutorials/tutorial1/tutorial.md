@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Tutorial 1 - Creating a New Analyzer
 
 In Tutorial 1, you create and run a simple text analyzer. You give the analyzer a name and a location, select an initial template, and save the analyzer. Then you exit VisualText™ and reload the analyzer you created. We also introduce the Tab Window and the Log Window portions of the interface and explain how to create an input file. Finally, you run the analyzer and view the parse tree, which holds the patterns matched in a text.

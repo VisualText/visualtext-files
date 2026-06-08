@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # Table of Array Functions
 
 Arrays and lists are treated equivalently in NLP++, and we'll continue to call them both "arrays" for conciseness.

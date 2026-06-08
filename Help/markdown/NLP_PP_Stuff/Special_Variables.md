@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Special Variables
 
 To get useful information from the parse tree and other sources when analyzing a text, some special variable names have been provided. All start with a dollar sign (**$**). No such variable names are usable with suggested (**S**) variables, at present.

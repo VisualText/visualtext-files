@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # Table of Math Functions
 
 NLP++ now features mathematical functions analogous to those provided in C/C++.

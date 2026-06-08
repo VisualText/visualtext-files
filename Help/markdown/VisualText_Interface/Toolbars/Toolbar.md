@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Toolbars
 
 The toolbars on the VisualText™ interface provide quick and easy access to the most commonly used commands. You can move the toolbars to any location on the interface. You can also open and close any combination of them to suit your needs.

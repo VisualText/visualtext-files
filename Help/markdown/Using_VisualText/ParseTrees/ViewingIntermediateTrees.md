@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 **Viewing Intermediate Trees**
 
 You can select a specific pass in the analyzer sequence and view the cumulative parse tree for that pass. This is helpful when you want to see how the each pass in the analyzer sequence is operating.

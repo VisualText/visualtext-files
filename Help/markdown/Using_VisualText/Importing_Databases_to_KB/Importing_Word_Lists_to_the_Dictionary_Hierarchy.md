@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Importing Word Lists to the Dictionary Hierarchy
 
 The Knowledge Base comes with a specialized concept called **dict** (for dictionary) which stores information about words.

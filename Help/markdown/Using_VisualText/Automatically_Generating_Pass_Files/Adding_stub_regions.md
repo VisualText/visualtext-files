@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Adding Stub Concepts
 
 The stub concept is the primary organizer of user-highlighted samples.

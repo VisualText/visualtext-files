@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Corporate Analyzer Tour
 
 The tour of the Corporate Analyzer (in the VisualText\apps folder) is intended to take you through the step by step process used in building the Corporate Analyzer. It will give you an idea of the approach and techniques used to build analyzers. This tour is a supplement to the VisualText Quick Tour.  Study of the tutorials is also recommended for a more complete understanding of this tour.

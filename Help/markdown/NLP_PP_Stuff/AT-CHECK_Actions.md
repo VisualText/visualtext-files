@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # CHECK Action
 
 CHECK Actions operate **after** the rule's right-hand-side phrase has matched.

@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # POST Region
 
 NLP++ code in the POST Region executes **after** the rule matcher has successfully matched a rule and the match is accepted. Element actions are also executed prior to the POST Region.
