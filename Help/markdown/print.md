@@ -1,0 +1,29 @@
+# print
+
+## Purpose
+
+**OBSOLETE.**  Print the literal **string** to standard output.
+
+## Syntax
+
+```
+print(string)
+```
+
+```
+string - type: str
+```
+
+## Returns
+
+## Remarks
+
+Old-style.  Use NLP++ syntax such as
+
+"output.txt" << "string...\n";
+
+## Example
+
+## See Also
+
+[printr](printr.md), [prlit](prlit.md), [prrange](prrange.md), [startout](startout.md), [stopout](stopout.md), [CODE Actions](NLP_PP_Stuff/AT-CODE_Actions.md#tables_of_code), [POST Actions](NLP_PP_Stuff/AT-POST_Actions.md#table_of_@POST_Actions)
