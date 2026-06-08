@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # About Pass Files
 
 A pass file holds the NLP++ code and rules associated with a Pattern or Recursive pass type. Five zones divide a pass file and are ordered as follows:

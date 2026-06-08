@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # DECL Region
 
 The DECL Region is where you define your own functions in NLP++.  It is delimited by @DECL and optionally by @@DECL.  When present, it must be the first region in a pass file.

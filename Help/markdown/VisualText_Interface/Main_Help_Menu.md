@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Help Menu
 
 The Help Menu provides access to the VisualText Help documentation and to general information about VisualText.

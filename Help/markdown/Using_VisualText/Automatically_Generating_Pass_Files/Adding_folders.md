@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Adding Folder Concepts
 
 Folder concepts are used to organize multiple types of samples.

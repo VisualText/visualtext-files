@@ -1,3 +1,5 @@
+[← Help Contents](../../../index.md) | [📘 NLP++ Textbook](../../../NLP++_Textbook.md)
+
 **The VisualText Quick Tour**** Table of Contents**
 
 | **Title** | **Description** |

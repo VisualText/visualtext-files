@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 **Viewing Parse Trees**
 
 There are several different ways to view parse trees of an analyzed text.

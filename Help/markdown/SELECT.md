@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # SELECT Region
 
 The SELECT Region specifies methods for selecting **context nodes** in the parse tree. Each **selected node** serves as a locus for rule matching.

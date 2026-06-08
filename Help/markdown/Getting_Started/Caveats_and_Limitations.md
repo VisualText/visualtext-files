@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Programming Notes and Issues
 
 This document details issues with VisualText™ and NLP++™. Additional information about the current release can be found in the [New in Current Version](../New_in_Current_Version.md) page and in the Release Report, located by default at

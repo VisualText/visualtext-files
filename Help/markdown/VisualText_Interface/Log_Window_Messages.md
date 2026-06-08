@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Log Window Messages
 
 Two types of messages are given in the Log Window: [informational](#info_messages) messages and [error](#error_messages) messages.

@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # Table of Special Functions
 
 NLP++ has a set of special functions.  These have been listed here in table form for easy reference.  For examples of these functions, refer to the individual function pages included in the Special Functions section.

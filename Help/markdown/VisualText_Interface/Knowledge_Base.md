@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Introduction to the Knowledge Base
 
 The Conceptual Grammar (CG) Knowledge Base Management System (KBMS) provides a permanent store for linguistic, conceptual, and domain knowledge. The KBMS serves as a flexible "vanilla" framework in which users may implement arbitrary representation schemes. Users can manage the KB manually, while text analyzers can automatically access and update information in the KB. The KB can be used to collect information across multiple texts, for example, in training a categorizer or in managing an electronic chat.

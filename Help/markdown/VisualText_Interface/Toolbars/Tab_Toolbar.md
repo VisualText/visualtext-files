@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Tab Toolbar
 
 ![](../../../helps/VisualText_Interface/Toolbars/tab_toolbar.gif)

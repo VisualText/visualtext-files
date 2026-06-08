@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Code Syntax
 
 NLP++ code syntax is similar to C or C++ code. Further topics within the Code Syntax section elaborate the tokens, data types, variables, operators, functions, actions, expressions, statements, arrays, and other constructs of the language.

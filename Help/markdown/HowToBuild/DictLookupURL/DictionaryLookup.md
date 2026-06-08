@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # URLs for Dictionary Lookup
 
 The Dictionary Lookup Tool is a very handy tool for building and refining lexicons.  This tool allows users to easily access dictionary sites on the Web and to display search results within VisualText.

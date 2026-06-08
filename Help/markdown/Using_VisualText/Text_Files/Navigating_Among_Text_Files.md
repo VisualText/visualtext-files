@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Navigating Among Text Files
 
 You can navigate among the different files in the Text Tab using the Page Mode feature.  This feature allows you to move from one file to the next file and is handy when you want to quickly get to the next file listed in the Text Tab.

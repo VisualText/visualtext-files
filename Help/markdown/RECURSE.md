@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # RECURSE Region
 
 The RECURSE Region is a nested "minipass" within a pass file. It can only be invoked from an element of a rule that has matched. The phrase that the recurse minipass operates on is the set of nodes that matched the invoking rule element. Each RECURSE Region contains within it a Grammar Region.

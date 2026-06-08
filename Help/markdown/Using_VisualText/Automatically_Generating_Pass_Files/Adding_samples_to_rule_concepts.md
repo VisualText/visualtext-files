@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Adding Samples to Rule Concepts
 
 There are several ways to add samples to a rule concept. You can add samples to rules by highlighting example text from a text file in the Workspace, or by importing lists of samples from an existing text file.

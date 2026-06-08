@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Library Passes
 
 To help you get started building your text analyzer, VisualText comes with several pre-built pass files.  These pre-built pass files are called **library passes**.  They are available within [Add menu item](../Ana_Tab_Popup.md#Add_Submenu) of the Ana Tab popup menu.

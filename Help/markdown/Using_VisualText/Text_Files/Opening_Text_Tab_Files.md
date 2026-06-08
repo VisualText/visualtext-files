@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Opening Text Tab Files
 
 **To open a file in the Text Tab**:

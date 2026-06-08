@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # Text Tab Popup
 
 The Text Tab Popup menu is launched by right clicking in the Text Tab Window.

@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Database1 Analyzer
 
 VisualText version 1.4 introduces database connectivity functions within NLP++.  The database1 sample analyzer (in VisualText\apps) connects to a database, sends commands to it, retrieves data from it, and prints the results to a file.  Some features:

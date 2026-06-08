@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Adding Existing Text Files to a Project
 
 If you already have text files to be analyzed, you can add them directly to the analyzer input directory for processing.

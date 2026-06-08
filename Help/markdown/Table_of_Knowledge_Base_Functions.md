@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # Table of Knowledge Base Functions
 
 The functions used to operate on objects in the Knowledge Base have been listed here in table form for easy reference.  For examples of these functions, please refer to the individual function pages within the subsections of the current Help section, Knowledge Base Functions.

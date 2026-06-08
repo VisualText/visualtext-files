@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # KB Menu
 
 The KB (Knowledge Base) Menu is used to control actions in the Knowledge Base.

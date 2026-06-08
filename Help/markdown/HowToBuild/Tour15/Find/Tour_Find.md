@@ -1,3 +1,5 @@
+[← Help Contents](../../../index.md) | [📘 NLP++ Textbook](../../../NLP++_Textbook.md)
+
 | ![](../../../../helps/HowToBuild/Tour15/Find/Bullet8.gif) KB | Quick Tour** Find** |   |
 | --- | --- | --- |
 

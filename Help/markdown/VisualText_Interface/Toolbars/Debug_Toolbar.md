@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Debug Toolbar
 
 ![](../../../helps/VisualText_Interface/Toolbars/debug_toolbar0614.gif)

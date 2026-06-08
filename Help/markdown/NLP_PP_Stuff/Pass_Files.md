@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Pass Files
 
 A pass file (also called a rule file), consists of NLP++™ code and rules. A pass file represents a single pass of a text analyzer over a parse tree. There are two different algorithms used to traverse the parse tree: PAT (for pattern) and REC (for recursive).

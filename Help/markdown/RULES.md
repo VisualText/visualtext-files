@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # RULES Region
 
 The RULES Region is where you write the actual NLP++ rules.  The RULES Region begins with the @RULES marker and optionally terminates with the @@RULES marker.

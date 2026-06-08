@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # MULTI Selector
 
 The MULTI Selector lets you specify a **list** of node names to be searched for independently in the parse tree. The entire subtree under such a context node will be traversed to look for rule matches. (The MULTI Selector currently does not check the **unsealed** flag.)

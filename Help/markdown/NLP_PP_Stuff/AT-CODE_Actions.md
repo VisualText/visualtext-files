@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # CODE Action
 
 The CODE Actions in this section predate the NLP++ language, but are retained because they are still useful. In subsequent releases, these actions may be modified.

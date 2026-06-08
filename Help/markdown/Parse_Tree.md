@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # Parse Tree
 
 The Parse Tree display is a tool for viewing the results of pattern matching by an analyzer.

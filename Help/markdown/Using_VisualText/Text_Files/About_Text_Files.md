@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # About Text Files
 
 This "section" describes ways to manage text files, primarily within the Text Tab.

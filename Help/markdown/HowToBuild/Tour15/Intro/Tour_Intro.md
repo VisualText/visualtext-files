@@ -1,3 +1,5 @@
+[← Help Contents](../../../index.md) | [📘 NLP++ Textbook](../../../NLP++_Textbook.md)
+
 | ![](../../../../helps/HowToBuild/Tour15/Intro/Bullet8.gif) TOC | Quick Tour** Intro** | Screen Layout ![](../../../../helps/HowToBuild/Tour15/Intro/Bullet7.gif) |
 | --- | --- | --- |
 

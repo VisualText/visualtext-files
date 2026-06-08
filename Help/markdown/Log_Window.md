@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # Log Window
 
 The Log Window displays basic information about an analyzer when an analyzer is opened as well as information about passes as they are processed and applied. It can be a valuable tool when debugging your analyzer.

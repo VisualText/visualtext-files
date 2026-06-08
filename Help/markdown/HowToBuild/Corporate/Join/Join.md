@@ -1,3 +1,5 @@
+[← Help Contents](../../../index.md) | [📘 NLP++ Textbook](../../../NLP++_Textbook.md)
+
 | ![](../../../../helps/HowToBuild/Corporate/Join/Bullet8.gif) Initial KB | CORPORATE ANALYZER** Join** | Formatting ![](../../../../helps/HowToBuild/Corporate/Join/Bullet7.gif) |
 | --- | --- | --- |
 

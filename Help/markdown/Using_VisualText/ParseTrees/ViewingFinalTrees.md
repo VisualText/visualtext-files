@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 **Viewing Final Trees**
 
 You can view the final parse tree after all the passes in the analyzer sequence have been executed.

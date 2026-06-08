@@ -1,3 +1,5 @@
+[← Help Contents](../../../index.md) | [📘 NLP++ Textbook](../../../NLP++_Textbook.md)
+
 | ![](../../../../helps/HowToBuild/Tour15/Kb/Bullet8.gif) Debugging | Quick Tour** Knowledge Base** | Find ![](../../../../helps/HowToBuild/Tour15/Kb/Bullet7.gif) |
 | --- | --- | --- |
 

@@ -1,3 +1,5 @@
+[← Help Contents](../../../index.md) | [📘 NLP++ Textbook](../../../NLP++_Textbook.md)
+
 | ![](../../../../helps/HowToBuild/Corporate/CompConj/Bullet8.gif)Anaphora | CORPORATE ANALYZER** Company Conjunction** | Events ![](../../../../helps/HowToBuild/Corporate/CompConj/Bullet7.gif) |
 | --- | --- | --- |
 

@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Tutorial 2 - Rules From Sample Data
 
 In Tutorial 1, you saw an analyzer with a single pass, the tokenize pass. Recall that the tokenize pass is nothing more than a set of rules and instructions that tell the analyzer what to do. In Tutorial 2, we will learn more about generating rules in VisualText™ to create passes in the analyzer sequence.

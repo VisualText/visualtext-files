@@ -1,3 +1,5 @@
+[← Help Contents](../../../index.md) | [📘 NLP++ Textbook](../../../NLP++_Textbook.md)
+
 | ![](../../../../helps/HowToBuild/Corporate/Money/Bullet8.gif) KB & Dictionary | CORPORATE ANALYZER** Money** | Companies ![](../../../../helps/HowToBuild/Corporate/Money/Bullet7.gif) |
 | --- | --- | --- |
 

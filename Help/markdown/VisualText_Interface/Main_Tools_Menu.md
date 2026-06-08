@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Tools Menu
 
 The Tools Menu controls the display of some of VisualText tools.  Tools listed in this menu are also available from the [Text Tab Popup](../Text_Tab_Popup.md) and the [Text File Popup](Popups/Text_File_Popup.md) menus.

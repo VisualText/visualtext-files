@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Popup Menus
 
 There are a number of popup menus in VisualText™. The main popup menus are provided for the following: [Ana Tab](#Ana_Tab), [Gram Tab](#Gram_Tab), [Text Tab](#Text_Tab), [Text Files](#Text_File), [Pass Files](#Pass_File), [Parse Trees](#Parse_Tree) and the [KB Editor](#kb_editor). To see a description of each of these menus, click on the titles below.

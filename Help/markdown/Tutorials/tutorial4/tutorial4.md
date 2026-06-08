@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Tutorial 4 - Input/Output
 
 In this tutorial we create and read input files, add more rule concepts and associate concepts with the input files. We extract text from specific parts of the parse tree and write such information to an output file.  We also take a closer look at rule syntax. Finally, we introduce some navigation shortcuts and a useful debugging tool in VisualText®.

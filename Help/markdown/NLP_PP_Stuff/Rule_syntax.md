@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Rule Syntax
 
 All rules are written in the RULES Region of a pass file. Within each RULES Region, any number of rules can occur.

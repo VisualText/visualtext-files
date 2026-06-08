@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # Gram Tab Popup
 
 The Gram Tab Popup menu is launched by right clicking in the Gram Tab Window.

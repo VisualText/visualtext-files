@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 **Using Page Mode**
 
 Page Mode allows you to automatically browse multiple windows simultaneously. For example, if you've run the analyzer on a folder, you can then open a window for the input file and output file, then browse among all the input-output pairs using the left and right arrows on the Workspace Toolbar. If a parse tree view is open, you can also browse the parse tree for each pass of a single text analysis.

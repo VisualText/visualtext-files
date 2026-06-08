@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # MAJOR RELEASE (2.0 NON-UNICODE + UNICODE BETA)
 
 [1] **VisualText executables.** Version 2.0.1.X and later include both Unicode and non-Unicode (or ANSI) executables.

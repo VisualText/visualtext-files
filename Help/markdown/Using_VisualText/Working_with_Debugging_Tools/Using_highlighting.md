@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Using Highlighting
 
 You can highlight regions of text in an analyzed file that match rules in a selected pass of the analyzer sequence using Highlight Mode. To use this highlighting feature, you must run the analyzer with Toggle Generate Log button selected.

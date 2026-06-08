@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Replace in Files Dialog
 
 The **Replace in Files** dialog** **allows you to** **replace text in multiple files.

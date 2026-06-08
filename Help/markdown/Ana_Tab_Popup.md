@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # Ana Tab Popup
 
 The Ana Tab Popup menu is launched by right clicking in the Ana Tab Window.

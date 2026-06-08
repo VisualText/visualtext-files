@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Adding New Text Tiles to a Project
 
 There are several ways to add new text files to an analyzer project.

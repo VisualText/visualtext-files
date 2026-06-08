@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Adding Rule Concepts
 
 Rule concepts own a set of related samples, from which the rule generator will generalize, merge and generate rules.

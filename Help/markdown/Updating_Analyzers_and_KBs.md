@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # Updating Analyzers and KBs
 
 This topic applies to the latest version of VisualText.  You may want to read the topic [Compiled and Standalone Analyzers](VisualText_Basics/Compiled_and_Standalone_Analyzers.md) for background.

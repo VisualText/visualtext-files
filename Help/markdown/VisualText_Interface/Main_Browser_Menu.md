@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Browser Menu
 
 The Browser Menu provides access to the World Wide Web and various controls for browsers.

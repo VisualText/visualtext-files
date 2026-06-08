@@ -1,3 +1,5 @@
+[← Help Contents](../../../index.md) | [📘 NLP++ Textbook](../../../NLP++_Textbook.md)
+
 | ![](../../../../helps/HowToBuild/Tour15/Debug/Bullet8.gif) Gram Tab | Quick Tour** Debugging** | KB ![](../../../../helps/HowToBuild/Tour15/Debug/Bullet7.gif) |
 | --- | --- | --- |
 

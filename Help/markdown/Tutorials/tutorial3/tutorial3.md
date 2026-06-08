@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Tutorial 3 - Rules by Hand
 
 In Tutorial 2, we saw how to automatically generate rules by highlighting samples in our text files. In this tutorial, we will use the other method of generating rules, and that is to build them by hand. An in-depth text analyzer will typically include rules made by both of these methods.

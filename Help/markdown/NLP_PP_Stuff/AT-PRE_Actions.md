@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # PRE Action
 
 PRE Actions operate **after** a rule element has successfully matched. They provide further constraints on the element match, and may result in the match being rejected if the additional constraints are not met.  PRE Actions provide the only means for specifying additional constraints on element matching.

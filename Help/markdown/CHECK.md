@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # CHECK Region
 
 NLP++ code in the CHECK Region applies after the rule matcher has succeeded in matching a rule. These represent the final opportunity to reject the rule match based on inconsistencies spanning one or more rule elements. For example, before accepting a noun-phrase rule, we could check for agreement between the determiner and noun (e.g., accept "this company" but reject "these company").

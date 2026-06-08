@@ -1,3 +1,5 @@
+[← Help Contents](../../index.md) | [📘 NLP++ Textbook](../../NLP++_Textbook.md)
+
 # Tutorial 5 - NLP++
 
 In the last several tutorials, you have learned how to create pass files in VisualText™. The pass files you have seen so far contain NLP++™ code and rules.

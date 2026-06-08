@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # View Menu
 
 The View Menu controls the display of various windows and toolbars in the Interface.  The View Menu is also used to control certain VisualText modes.

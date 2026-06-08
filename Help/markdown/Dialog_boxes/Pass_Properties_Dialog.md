@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Pass Properties Dialog
 
 The Pass Properties Dialog is used to specify what kind of pass you would like to create in the analyzer sequence.  This dialog is also used to provide a name for the pass and to control whether the pass is active or skipped over during the analysis process.

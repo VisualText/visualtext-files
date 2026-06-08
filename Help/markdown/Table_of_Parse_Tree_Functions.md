@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # Table of Parse Tree Functions
 
 The functions used to operate on parse trees have been listed here in table form for easy reference.  For examples of these functions, refer to the individual function pages included in the Parse Tree Functions section.

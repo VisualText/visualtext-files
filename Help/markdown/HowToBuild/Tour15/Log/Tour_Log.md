@@ -1,3 +1,5 @@
+[← Help Contents](../../../index.md) | [📘 NLP++ Textbook](../../../NLP++_Textbook.md)
+
 | ![](../../../../helps/HowToBuild/Tour15/Log/Bullet8.gif) Load Analyzer | Quick Tour** Log Window** | Text Tab ![](../../../../helps/HowToBuild/Tour15/Log/Bullet7.gif) |
 | --- | --- | --- |
 

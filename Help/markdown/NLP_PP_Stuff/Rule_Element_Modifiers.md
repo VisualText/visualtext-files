@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Rule Element Modifiers
 
 Each rule element can be followed by **optional** **element modifiers**.  Element modifiers can be used for **both** the **suggested element** (_SUGG) and the **phrase of elements** (_PHRASE) on the right-hand side of a rule.

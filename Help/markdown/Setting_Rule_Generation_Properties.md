@@ -1,3 +1,5 @@
+[← Help Contents](index.md) | [📘 NLP++ Textbook](NLP++_Textbook.md)
+
 # Setting Rule Generation Properties
 
 You can control the generation of particular rule sets by setting attributes for concepts in the Gram (or sample) hierarchy. These attributes control aspects of rule generation and specify actions to associate with generated rules.

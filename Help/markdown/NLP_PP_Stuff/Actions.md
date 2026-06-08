@@ -1,3 +1,5 @@
+[← Help Contents](../index.md) | [📘 NLP++ Textbook](../NLP++_Textbook.md)
+
 # Actions
 
 Actions are NLP++ functions that are specialized to know about particular contexts. For example, the POST Action **single** assumes that a rule has successfully matched.
