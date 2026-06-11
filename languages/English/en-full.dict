@@ -1,4 +1,5 @@
 # Full English Dictionary POS
+a pos=det
 aah pos=verb
 aah pos=int
 aahed pos=verb
@@ -79442,6 +79443,7 @@ hysterotomies pos=noun
 hysterotomy pos=noun
 hyte pos=noun
 i pos=noun
+i pos=pro
 iamb pos=noun
 iambi pos=noun
 iambic pos=noun
