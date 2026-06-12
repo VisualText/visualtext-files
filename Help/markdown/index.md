@@ -270,6 +270,8 @@ to a topic.
           - [sorthier](sorthier.md)
         - **Command File**
           - [kbdumptree](kbdumptree.md)
+          - [loaddict](loaddict.md)
+          - [loadkbb](loadkbb.md)
           - [take](take.md)
         - **Dictionary**
           - [addword](addword.md)

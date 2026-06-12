@@ -14,6 +14,8 @@ In the table below, a **name** must be a STR, **parent** is a CON, **attr_str** 
 | --- | --- | --- |
 | **Command File Functions** |   |   |
 | [kbdumptree(root_con, file_str)](kbdumptree.md) | BOOL | Create a dump file of knowledge base concept. |
+| [loaddict(file_str)](loaddict.md) | BOOL | Load a `.dict` dictionary file from the `kb/user` directory into the conceptual grammar. |
+| [loadkbb(file_str)](loadkbb.md) | BOOL | Load a `.kbb` knowledge base file from the `kb/user` directory into the conceptual grammar. |
 | [**take(file_str)**](take.md) | BOOL | Execute commands in a knowledge base command file (.KB file) |
 | [writekb()](writekb.md) | BOOL | Dumps the entire KB currently in memory to the kb/user directory which includes a word.kb, attrs.kb, and main.kb file. |
 | **Functions that Find and Fetch** |   |   |
