@@ -9,10 +9,12 @@ Rename concept *aConcept* with new name *newConceptNameStr*.
 ## Syntax
 
 ```
-None = renameconcept(aConcept, newConceptNameStr)
+returnedNumber = renameconcept(aConcept, newConceptNameStr)
 ```
 
 ```
+returnedNumber - type: int
+
 aConcept - type: con
 
 newConceptNameStr - type: str

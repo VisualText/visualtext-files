@@ -22,9 +22,19 @@ string2 - type: str
 
 ## Returns
 
+True if string1 sorts lexically (alphabetically) after string2, otherwise false.
+
 ## Remarks
 
 ## Example
+
+```
+@CODE
+G("after") = strgreaterthan("banana", "apple");
+"output.txt" << G("after") << "\n";
+# prints 1 because "banana" sorts after "apple"
+@@CODE
+```
 
 ## See Also
 

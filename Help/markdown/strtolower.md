@@ -20,9 +20,18 @@ string - type: str
 
 ## Returns
 
+Returns the input string converted entirely to lowercase.
+
 ## Remarks
 
 ## Example
+
+```
+@CODE
+G("out") = strtolower("Hello World");
+"output.txt" << G("out") << "\n";   # hello world
+@@CODE
+```
 
 ## See Also
 

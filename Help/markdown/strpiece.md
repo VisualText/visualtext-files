@@ -24,9 +24,19 @@ endNumber - type: int
 
 ## Returns
 
+The substring of `string` from the zero-based index startNumber to endNumber, inclusive.
+
 ## Remarks
 
 ## Example
+
+```
+@CODE
+G("piece") = strpiece("hello", 1, 3);
+"output.txt" << G("piece") << "\n";
+# Writes "ell"
+@@CODE
+```
 
 ## See Also
 

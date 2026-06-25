@@ -17,7 +17,7 @@ returnedStr - type: str
 
 concept - type: con
 
-attrNameString - type: attr
+attrNameString - type: str
 ```
 
 ## Returns

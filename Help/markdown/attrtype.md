@@ -13,9 +13,11 @@ type = attrtype(concept,attr_name);
 ```
 
 ```
-returnedValue(s) - type: number
+type - type: int
 
-anAttribute - type: attr
+concept - type: con
+
+attr_name - type: str
 ```
 
 ## Returns
@@ -27,3 +29,15 @@ Returns 0 for string, 1 for number, 2 for concept, and 3 for float.
 This allows for calling the correct function, either getstrval, getnumval, or getconval.
 
 ## Example
+
+```
+@CODE
+
+G("apple") = makeconcept(findroot(),"apple");
+
+addstrval(G("apple"),"color","red");
+
+# prints 0 (string)
+
+"output.txt" << "type = " << attrtype(G("apple"),"color") << "\n";
+```

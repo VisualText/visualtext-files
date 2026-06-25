@@ -22,6 +22,8 @@ fileNameStr - type: string
 
 ## Returns
 
+The output stream bound to the given file (opened in append mode). Returns no value if the file could not be opened.
+
 ## Remarks
 
 In VisualText, a way to bind where outputs to cout() are sent.

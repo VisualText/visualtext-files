@@ -9,10 +9,12 @@ Replace the values of an attribute.  There are three variants of `replaceval`, 
 ## Syntax
 
 ```
-None = replaceval(concept, attrNameStr, valueInt)
+returnedNumber = replaceval(concept, attrNameStr, valueInt)
 ```
 
 ```
+returnedNumber - type: int
+
 concept - type: con
 
 attrNameString - type: str
@@ -21,7 +23,7 @@ valueInt - type: int
 ```
 
 ```
-None = replaceval(concept, attrNameStr, valueString)
+returnedNumber = replaceval(concept, attrNameStr, valueString)
 ```
 
 ```
@@ -33,7 +35,7 @@ valueString - type: str
 ```
 
 ```
-None = replaceval(concept, attrNameStr, valueConcept)
+returnedNumber = replaceval(concept, attrNameStr, valueConcept)
 ```
 
 ```

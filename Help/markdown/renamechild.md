@@ -9,10 +9,12 @@ Rename the child concept of a concept *parentConcept* with new name *newNameStr*
 ## Syntax
 
 ```
-None = renamechild(parentConcept, childNumber, newNameStr)
+returnedNumber = renamechild(parentConcept, childNumber, newNameStr)
 ```
 
 ```
+returnedNumber - type: int
+
 parentConcept - type: con
 
 childNumber - type: int

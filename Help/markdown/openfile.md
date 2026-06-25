@@ -24,6 +24,8 @@ mode_str - type: str
 
 ## Returns
 
+The opened output file stream, for use with the `<<` output operator and [closefile](closefile.md).
+
 ## Remarks
 
 Zero to three mode strings selected from: 1) "app" = append; 2) "ate" = special C++ append; 3) "binary" = open in binary mode (text is default).

@@ -9,7 +9,7 @@ Fetch the concept that owns the given node's phrase.
 ## Syntax
 
 ```
-returnedConcept = nodeconcept(node)
+returnedConcept = nodeowner(node)
 ```
 
 ```
@@ -20,11 +20,21 @@ node - type: con
 
 ## Returns
 
+The concept (CON) that owns the phrase containing the given node, or none if the node has no owning concept.
+
 ## Remarks
 
 This usurps the functionality formerly given to the *nodeconcept* function.
 
 ## Example
+
+```
+G("vp") = makeconcept(findroot(),"verb phrase");
+
+G("node") = addcnode(G("vp"),"verb");
+
+G("owner") = nodeowner(G("node"));
+```
 
 ## See Also
 

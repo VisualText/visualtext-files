@@ -20,9 +20,19 @@ string - type: str
 
 ## Returns
 
+True if every character in the string is a digit, otherwise false.
+
 ## Remarks
 
 ## Example
+
+```
+@POST
+if (strisdigit(N("$text",1)))
+    excise(1,1);
+@@RULES
+_num <- _xWILD @@
+```
 
 ## See Also
 

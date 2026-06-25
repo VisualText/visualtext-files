@@ -20,9 +20,18 @@ string - type: str
 
 ## Returns
 
+Returns the input string with title capitalization (the first letter capitalized).
+
 ## Remarks
 
 ## Example
+
+```
+@CODE
+G("out") = strtotitle("hello world");
+"output.txt" << G("out") << "\n";   # Hello world
+@@CODE
+```
 
 ## See Also
 

@@ -20,9 +20,18 @@ string - type: str
 
 ## Returns
 
+Returns the input string with leading and trailing whitespace removed.
+
 ## Remarks
 
 ## Example
+
+```
+@CODE
+G("out") = strtrim("   hello   ");
+"output.txt" << G("out") << "\n";   # hello
+@@CODE
+```
 
 ## See Also
 

@@ -22,9 +22,23 @@ elt_num - type: int
 
 ## Returns
 
+Returns the value(s) of the var_str variable from the first node (among those that matched the elt_numth rule element) that has that variable. Returns nothing if no matching node carries the variable. Special ($-prefixed) variables are not handled.
+
 ## Remarks
 
+Useful when a single rule element matches multiple nodes (for example, a `[plus]` or `[star]` element): varinlist scans those nodes left to right and returns the variable from the first one that has it.
+
 ## Example
+
+```
+@POST
+
+G("pos") = varinlist("pos", 2);     # First "pos" value among the nodes matching the 2nd element.
+
+@RULES
+
+_xNIL <- _det _noun [plus] @@
+```
 
 ## See Also
 

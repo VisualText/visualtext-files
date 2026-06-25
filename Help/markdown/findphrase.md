@@ -20,9 +20,19 @@ aConcept - type: con
 
 ## Returns
 
+The phrase (PHR) attached to *aConcept*. If the concept has no phrase, an empty/null phrase handle is returned.
+
 ## Remarks
 
 ## Example
+
+```
+G("vp") = makeconcept(findroot(),"verb phrase");
+
+makephrase(G("vp"),"verb");
+
+G("phr") = findphrase(G("vp"));
+```
 
 ## See Also
 

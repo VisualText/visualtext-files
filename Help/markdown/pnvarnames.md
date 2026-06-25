@@ -21,6 +21,8 @@ aPnode - type: pnode
 
 ## Returns
 
+Returns an array of the node's variable names (as strings). Returns nothing if the node has no variables.
+
 ## Remarks
 
 A quick way to get a node's variables.
@@ -95,3 +97,5 @@ _xNIL <- _TEXTZONE @@
 ```
 
 ## See Also
+
+[pnvar](pnvar.md), [pnvartype](pnvartype.md), [pnmakevar](pnmakevar.md), [Parse Tree Functions](Table_of_Parse_Tree_Functions.md)

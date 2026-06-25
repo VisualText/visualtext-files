@@ -22,6 +22,8 @@ True if we're processing the first file in a batch, as signaled by the Batch Tog
 
 ## Remarks
 
+Reads a batch-start flag set by the host environment. Outside of a batch run (when no batch flag has been set), `batchstart()` returns 0.
+
 ## Example
 
 ```

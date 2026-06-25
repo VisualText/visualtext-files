@@ -108,10 +108,24 @@ valValue - type: val
 
 ## Returns
 
+Nothing. Replaces all current values of the named variable on the given node with the supplied value. The variable name cannot start with `$`.
+
 ## Remarks
+
+Unlike pnmakevar, pnreplaceval overwrites a variable that already has a value.
 
 ## Example
 
+```
+@POST
+
+pnreplaceval(N(1), "pos", "verb");     # Set the node's "pos" variable to "verb".
+
+@RULES
+
+_xNIL <- _verb @@
+```
+
 ## See Also
 
-[Parse Tree Functions](Table_of_Parse_Tree_Functions.md)
+[pnmakevar](pnmakevar.md), [pnpushval](pnpushval.md), [pnrpushval](pnrpushval.md), [Parse Tree Functions](Table_of_Parse_Tree_Functions.md)

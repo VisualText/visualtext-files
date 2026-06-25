@@ -18,9 +18,23 @@ returnedString - type: str
 
 ## Returns
 
+Returns the raw (uncleaned) input text spanned by the nodes that matched the rule's right-hand side. Unlike phrasetext, the text is not whitespace-cleaned. Returns nothing if the rule matched no nodes.
+
 ## Remarks
 
+Must appear in a @CHECK or @POST region.
+
 ## Example
+
+```
+@POST
+
+G("raw") = phraseraw();     # Raw text matched by the whole right-hand side.
+
+@RULES
+
+_np <- _det _noun @@
+```
 
 ## See Also
 

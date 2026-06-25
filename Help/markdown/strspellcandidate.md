@@ -22,9 +22,30 @@ listString - type: str
 
 ## Returns
 
+The single best-matching candidate from the given space-separated list, adjusted to match the letter case of the word (all-uppercase or capitalized).  Returns an empty string if either argument is empty or no candidate is selected.
+
 ## Remarks
 
+The candidate list is typically the string returned by [spellcandidates](spellcandidates.md).
+
 ## Example
+
+```
+@CODE
+
+L("cands") = spellcandidates("recieve");
+"output.txt" << strspellcandidate("recieve", L("cands")) << "\n";
+
+@@CODE
+```
+
+```
+Outputs:
+```
+
+```
+receive
+```
 
 ## See Also
 

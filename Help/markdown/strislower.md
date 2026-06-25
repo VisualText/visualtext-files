@@ -20,7 +20,11 @@ string1 - type: str
 
 ## Returns
 
+Returns true if the first character of the string is lowercase, otherwise false.
+
 ## Remarks
+
+Only the first character is tested, not the whole string.
 
 ## Example
 

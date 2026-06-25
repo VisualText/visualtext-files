@@ -22,9 +22,21 @@ number - type: int
 
 ## Returns
 
+The single character at the zero-based index `number`, or an empty string if the index is past the end of the string or negative.
+
 ## Remarks
 
+Indexing is by Unicode code point, not by byte, so a multi-byte UTF-8 character is returned whole.
+
 ## Example
+
+```
+@CODE
+G("ch") = strchar("hello", 1);
+"output.txt" << G("ch") << "\n";
+# Writes "e"
+@@CODE
+```
 
 ## See Also
 

@@ -20,7 +20,11 @@ fileOstream - type: ostream
 
 ## Returns
 
+True if the file stream was closed successfully.
+
 ## Remarks
+
+The argument must be an output stream returned by [openfile](openfile.md). Closing flushes any pending output and removes the stream.
 
 ## Example
 

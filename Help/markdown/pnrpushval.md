@@ -30,6 +30,16 @@ New in 2.7.3.2.
 
 ## Example
 
+```
+@POST
+
+pnrpushval(N(1), "tags", "noun");     # Push "noun" onto the end of the node's "tags" variable.
+
+@RULES
+
+_xNIL <- _noun @@
+```
+
 ## See Also
 
 [pnpushval](pnpushval.md), [pnreplaceval](pnreplaceval.md), [Parse Tree Functions](Table_of_Parse_Tree_Functions.md)

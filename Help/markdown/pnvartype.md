@@ -33,9 +33,20 @@ An integer code for the type of the variable's first value:
 
 ## Remarks
 
-Pnvartype looks up the variable named var_str on the given pnode and returns a number describing the type of its first value.
+Pnvartype looks up the variable named var_str on the given pnode and returns a number describing the type of its first value. Returns nothing if the variable does not exist or has no value.
 
 ## Example
+
+```
+@POST
+
+if (pnvartype(N(1), "pos") == 0)     # 0 means the value is a string.
+   single();
+
+@RULES
+
+_xNIL <- _noun @@
+```
 
 ## See Also
 

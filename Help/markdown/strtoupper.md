@@ -20,9 +20,18 @@ string - type: str
 
 ## Returns
 
+Returns the input string converted entirely to uppercase.
+
 ## Remarks
 
 ## Example
+
+```
+@CODE
+G("out") = strtoupper("Hello World");
+"output.txt" << G("out") << "\n";   # HELLO WORLD
+@@CODE
+```
 
 ## See Also
 

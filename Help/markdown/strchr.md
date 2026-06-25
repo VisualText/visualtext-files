@@ -22,9 +22,21 @@ characterString - type: str
 
 ## Returns
 
+The portion of `string` starting at the first occurrence of the character characterString, or an empty string if the character is not found.
+
 ## Remarks
 
+The second argument must be a single character (one Unicode code point); otherwise a warning is issued.
+
 ## Example
+
+```
+@CODE
+G("tail") = strchr("foo.bar.txt", ".");
+"output.txt" << G("tail") << "\n";
+# Writes ".bar.txt"
+@@CODE
+```
 
 ## See Also
 

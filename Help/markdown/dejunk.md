@@ -26,6 +26,14 @@ String with characters converted to non-accented variants or to question marks i
 
 ## Example
 
+```
+@CODE
+G("out") = dejunk("smart "quotes" and dashes");
+"output.txt" << G("out") << "\n";
+# non-simple-ASCII chars are replaced or removed
+@@CODE
+```
+
 ## See Also
 
 [String Functions](Table_of_String_Functions.md)

@@ -34,6 +34,16 @@ New in 06/14/26.
 
 ## Example
 
+```
+@POST
+
+L("np") = pnpush(N(1), "_np");     # Group the matched node under a new _np parent.
+
+@RULES
+
+_xNIL <- _noun @@
+```
+
 ## See Also
 
 [pnmakevar](pnmakevar.md), [pnpushval](pnpushval.md), [Parse Tree Functions](Table_of_Parse_Tree_Functions.md)

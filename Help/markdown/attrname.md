@@ -15,7 +15,7 @@ returnedString = attrname(anAttribute);
 ```
 returnedString - type: str
 
-anAttribute - type: con
+anAttribute - type: attr
 ```
 
 ## Returns

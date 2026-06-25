@@ -24,9 +24,19 @@ newString - type: str
 
 ## Returns
 
+A copy of `string` with occurrences of oldString replaced by newString.
+
 ## Remarks
 
 ## Example
+
+```
+@CODE
+G("fixed") = strsubst("a-b-c", "-", "_");
+"output.txt" << G("fixed") << "\n";
+# Writes "a_b_c"
+@@CODE
+```
 
 ## See Also
 

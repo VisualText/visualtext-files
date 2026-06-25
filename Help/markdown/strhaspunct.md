@@ -20,9 +20,19 @@ string - type: str
 
 ## Returns
 
+True if the string contains at least one punctuation character, otherwise false.
+
 ## Remarks
 
 ## Example
+
+```
+@POST
+if (strhaspunct(N("$text",1)))
+    excise(1,1);
+@@RULES
+_token <- _xWILD @@
+```
 
 ## See Also
 

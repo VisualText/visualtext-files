@@ -20,6 +20,8 @@ aPnode - type: pnode
 
 ## Returns
 
+Returns the child reached by descending the "singlet chain" below the node. Descent stops (and returns nothing further) at branching, or at a node whose BASE flag is set. Returns nothing if there is no such child.
+
 ## Remarks
 
 ## Example

@@ -22,6 +22,8 @@ suffixString - type: str
 
 ## Returns
 
+True (1) if wordString begins with suffixString, otherwise false (0).
+
 ## Remarks
 
 Unlike the function called **suffix**, **strstartswith** does a simple check for terminal string.

@@ -20,9 +20,21 @@ aConcept - type: con
 
 ## Returns
 
+The number of nodes (int) in *aConcept*'s phrase.
+
 ## Remarks
 
 ## Example
+
+```
+G("vp") = makeconcept(findroot(),"verb phrase");
+
+makephrase(G("vp"),"verb");
+
+addcnode(G("vp"),"adverb");
+
+N("len") = phraselength(G("vp"));
+```
 
 ## See Also
 

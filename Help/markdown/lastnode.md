@@ -20,9 +20,21 @@ aPhrase - type: phrase
 
 ## Returns
 
+The last node (CON) in *aPhrase*, or none if the phrase is empty.
+
 ## Remarks
 
 ## Example
+
+```
+G("vp") = makeconcept(findroot(),"verb phrase");
+
+G("phr") = makephrase(G("vp"),"verb");
+
+addnode(G("phr"),"adverb",2);
+
+G("node") = lastnode(G("phr"));
+```
 
 ## See Also
 

@@ -20,9 +20,21 @@ node - type: con
 
 ## Returns
 
+The first node (CON) in the given node's list, or none if there is none.
+
 ## Remarks
 
 ## Example
+
+```
+G("vp") = makeconcept(findroot(),"verb phrase");
+
+G("phr") = makephrase(G("vp"),"verb");
+
+G("node") = firstnode(G("phr"));
+
+G("first") = listnode(G("node"));
+```
 
 ## See Also
 

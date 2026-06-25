@@ -9,10 +9,12 @@ Remove a concept from the Knowledge Base.
 ## Syntax
 
 ```
-NULL = rmconcept(concept)
+returnedNumber = rmconcept(concept)
 ```
 
 ```
+returnedNumber - type: int
+
 concept - type: con
 ```
 
