@@ -8,10 +8,13 @@
   is reported only as INFORMATION, never as an error to auto-fix.
 
   Reports:
-    1. Broken links     - any ](*.md) reference in the corpus that does not resolve.
-    2. Orphaned pages   - *.md files not referenced from index.md (legacy candidates).
-    3. Table/index drift- pages linked from a Table_of_* but absent from index.md.
-    4. Engine coverage  - (info) engine function/action names with no help page.
+    1.  Broken links     - any ](*.md) reference in the corpus that does not resolve.
+    1b. Broken images    - any ![..](img) reference that does not resolve.
+    2.  Orphaned pages   - *.md files not referenced from index.md (legacy candidates).
+    3.  Table/index drift- pages linked from a Table_of_* but absent from index.md.
+    4.  Engine coverage  - (info) engine function/action names with no help page.
+    5.  Empty stubs      - (-Stubs) current pages with empty Returns/Example/etc.
+    6.  Orphaned images  - (-Images) image files on disk referenced by no page.
 
 .PARAMETER HelpDir
   Path to the Help/markdown directory. Defaults to ./markdown relative to this script.
@@ -26,7 +29,8 @@
 param(
   [string]$HelpDir    = (Join-Path $PSScriptRoot 'markdown'),
   [string]$EnginePath = 'c:\git\nlp-engine\lite',
-  [switch]$Stubs       # also report current pages with empty Returns/Example/Remarks sections
+  [switch]$Stubs,      # also report current pages with empty Returns/Example/Remarks sections
+  [switch]$Images      # also list orphaned image assets (on disk but referenced by no page)
 )
 
 if (-not (Test-Path $HelpDir)) { Write-Error "HelpDir not found: $HelpDir"; exit 2 }
@@ -53,6 +57,23 @@ foreach ($f in $allMd) {
 Write-Host "== 1. Broken .md links ($($broken.Count)) ==" -ForegroundColor Cyan
 $broken | Sort-Object | ForEach-Object { Write-Host "   $_" }
 $issues += $broken.Count
+
+# --- 1b. Broken image links ---------------------------------------------------
+$brokenImg = @()
+foreach ($f in $allMd) {
+  $txt = Get-Content $f.FullName -Raw
+  foreach ($m in [regex]::Matches($txt, '!\[[^\]]*\]\(([^)]+)\)')) {
+    $tgt = $m.Groups[1].Value
+    if ($tgt -match '^https?://') { continue }
+    $tgt = ([uri]::UnescapeDataString($tgt) -split '#')[0].Trim()
+    if (-not $tgt) { continue }
+    if (-not (Test-Path (Join-Path $f.DirectoryName $tgt))) {
+      $brokenImg += '{0}  ->  {1}' -f $f.FullName.Substring($HelpDir.Length+1), $tgt
+    }
+  }
+}
+Write-Host "`n== 1b. Broken image links ($($brokenImg.Count)) ==" -ForegroundColor Cyan
+$brokenImg | Sort-Object | ForEach-Object { Write-Host "   $_" }
 
 # --- 2. Orphaned flat pages (not referenced from index.md) --------------------
 $flat = $allMd | Where-Object { $_.DirectoryName -eq $HelpDir -and $_.Name -ne 'index.md' }
@@ -126,7 +147,29 @@ if ($Stubs) {
   $rows | Sort-Object Page | ForEach-Object { Write-Host ("   {0,-22} {1}" -f $_.Page, $_.Empty) }
 }
 
+# --- 6. Orphaned image assets (opt-in via -Images) ----------------------------
+if ($Images) {
+  $assetRoot = Split-Path $HelpDir   # Help/
+  $imgFiles = Get-ChildItem -Path $assetRoot -Recurse -File -Include *.gif,*.png,*.jpg,*.jpeg
+  $refset = @{}
+  foreach ($f in $allMd) {
+    $txt = Get-Content $f.FullName -Raw
+    foreach ($m in [regex]::Matches($txt, '!\[[^\]]*\]\(([^)]+)\)')) {
+      $tgt = $m.Groups[1].Value
+      if ($tgt -match '^https?://') { continue }
+      $tgt = ([uri]::UnescapeDataString($tgt) -split '#')[0].Trim()
+      if (-not $tgt) { continue }
+      try { $r = [System.IO.Path]::GetFullPath((Join-Path $f.DirectoryName $tgt)) } catch { continue }
+      $refset[$r.ToLower()] = $true
+    }
+  }
+  $orphanImg = $imgFiles | Where-Object { -not $refset.ContainsKey($_.FullName.ToLower()) }
+  Write-Host "`n== 6. Orphaned image assets: on disk but referenced by no page ($($orphanImg.Count)) ==" -ForegroundColor Cyan
+  Write-Host "   (informational; paths relative to Help/)"
+  $orphanImg | ForEach-Object { Write-Host ("   " + $_.FullName.Substring($assetRoot.Length+1)) }
+}
+
 Write-Host "`n--- summary ---" -ForegroundColor Green
-Write-Host ("broken links: {0}   orphaned pages: {1}   table/index drift: {2}" -f $broken.Count, $orphans.Count, $tableDrift.Count)
-# Exit non-zero only on hard errors (broken links / table-index drift), so it can gate CI.
-if (($broken.Count + $tableDrift.Count) -gt 0) { exit 1 } else { exit 0 }
+Write-Host ("broken links: {0}   broken images: {1}   orphaned pages: {2}   table/index drift: {3}" -f $broken.Count, $brokenImg.Count, $orphans.Count, $tableDrift.Count)
+# Exit non-zero on hard errors (broken .md links / broken images / table-index drift) so it can gate CI.
+if (($broken.Count + $brokenImg.Count + $tableDrift.Count) -gt 0) { exit 1 } else { exit 0 }

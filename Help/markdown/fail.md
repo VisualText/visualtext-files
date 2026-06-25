@@ -32,4 +32,4 @@ fail(); # Reject the current rule match.
 
 ## See Also
 
-[exitpass](exitpass.md), [succeed](succeed.md), [or](or.md), [Phrase Element Modifier fails](fails.md)
+[exitpass](exitpass.md), [succeed](succeed.md), [or](or.md), [CHECK Actions](NLP_PP_Stuff/AT-CHECK_Actions.md), [Phrase Element Modifier fails](fails.md)

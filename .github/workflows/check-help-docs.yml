@@ -1,0 +1,26 @@
+name: Check Help Docs
+
+# Validates the NLP++ Help markdown on every PR / push that touches it:
+# fails on broken .md links, broken image links, or table/index drift.
+# (Runs on windows-latest because Help/check-help-docs.ps1 uses Windows path logic.)
+
+on:
+  pull_request:
+    paths:
+      - 'Help/markdown/**'
+      - 'Help/check-help-docs.ps1'
+      - '.github/workflows/check-help-docs.yml'
+  push:
+    branches: [ main ]
+    paths:
+      - 'Help/markdown/**'
+      - 'Help/check-help-docs.ps1'
+
+jobs:
+  check:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate help docs (links, images, table/index drift)
+        shell: pwsh
+        run: ./Help/check-help-docs.ps1

@@ -178,7 +178,7 @@ to a topic.
       - [PRE Action](NLP_PP_Stuff/AT-PRE_Actions.md)
         - [PRE Action](NLP_PP_Stuff/AT-PRE_Actions.md)
         - [cap](cap.md)
-        - [debug](Functions/Regions_and_Rule_Actions/Pre_Actions/debug.md)
+        - [debug](debug.md)
         - [length](length.md)
         - [lengthr](lengthr.md)
         - [lowercase](lowercase.md)
@@ -196,7 +196,7 @@ to a topic.
       - [CHECK Action](NLP_PP_Stuff/AT-CHECK_Actions.md)
         - [CHECK Action](NLP_PP_Stuff/AT-CHECK_Actions.md)
         - [or](or.md)
-        - [fail](Functions/Miscellaneous_Functions/fail.md)
+        - [fail](fail.md)
       - [POST Action](NLP_PP_Stuff/AT-POST_Actions.md)
         - [POST Action](NLP_PP_Stuff/AT-POST_Actions.md)
         - **Node Actions**
@@ -580,4 +580,4 @@ above. They are grouped here so that every page remains reachable from this inde
 
 ### Other Pages
 
-[Pass_Files](NLP_PP_Stuff/Pass_Files.md) &nbsp;|&nbsp; [Basic_steps_for_creating_a_text_analyzer](Possibly_JUNK/Basic_steps_for_creating_a_text_analyzer.md) &nbsp;|&nbsp; [NLP++](Possibly_JUNK/NLP++.md) &nbsp;|&nbsp; [GenTxt1](Sample_Analyzers/GenTxtDocs/GenTxt1.md) &nbsp;|&nbsp; [Welcome](SPLASH_SCREEN/Welcome.md) &nbsp;|&nbsp; [Running_Analyzer_on_Multiple_Files](Using_VisualText/Running_Analyzers/Running_Analyzer_on_Multiple_Files.md)
+[Pass_Files](NLP_PP_Stuff/Pass_Files.md) &nbsp;|&nbsp; [GenTxt1](Sample_Analyzers/GenTxtDocs/GenTxt1.md) &nbsp;|&nbsp; [Welcome](SPLASH_SCREEN/Welcome.md) &nbsp;|&nbsp; [Running_Analyzer_on_Multiple_Files](Using_VisualText/Running_Analyzers/Running_Analyzer_on_Multiple_Files.md)
