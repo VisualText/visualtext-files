@@ -9,18 +9,30 @@ Remove a concept *aConcept*'s phrase.
 ## Syntax
 
 ```
-None = rmcphrase(aConcept)
+returnedNumber = rmcphrase(aConcept)
 ```
 
 ```
+returnedNumber - type: int
+
 aConcept - type: con
 ```
 
 ## Returns
 
+Returns 1 (int) if the concept's phrase was removed successfully, otherwise 0.
+
 ## Remarks
 
 ## Example
+
+```
+G("vp") = makeconcept(findroot(),"verb phrase");
+
+makephrase(G("vp"),"verb");
+
+rmcphrase(G("vp"));
+```
 
 ## See Also
 

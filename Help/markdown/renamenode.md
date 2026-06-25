@@ -9,10 +9,12 @@ Rename a node's name *oldName* or the numth node *number* in a phrase *aPhrase* 
 ## Syntax
 
 ```
-None = renamenode(aPhrase, oldName, newName)
+returnedNumber = renamenode(aPhrase, oldName, newName)
 ```
 
 ```
+returnedNumber - type: int
+
 aPhrase - type: phrase
 
 oldName - type: str
@@ -21,10 +23,12 @@ newName - type: str
 ```
 
 ```
-None - renamenode(aPhrase, number, newName)
+returnedNumber = renamenode(aPhrase, number, newName)
 ```
 
 ```
+returnedNumber - type: int
+
 aPhrase - type: phrase
 
 number - type: int
@@ -34,9 +38,19 @@ newName - type: str
 
 ## Returns
 
+Returns 1 (int) if the node was renamed successfully, otherwise 0.
+
 ## Remarks
 
 ## Example
+
+```
+G("vp") = makeconcept(findroot(),"verb phrase");
+
+G("phr") = makephrase(G("vp"),"verb");
+
+renamenode(G("phr"),"verb","verbnode");
+```
 
 ## See Also
 

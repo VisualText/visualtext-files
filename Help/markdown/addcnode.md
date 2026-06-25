@@ -13,18 +13,42 @@ returnedConcept = addcnode(aConcept, nodeName)
 ```
 
 ```
-returnedConcpet - type: con
+returnedConcept - type: con
 
 aConcept - type:  con
 
-nodeName - type:
+nodeName - type: str
+```
+
+The second argument may instead be a concept, in which case the new node is a proxy for that concept:
+
+```
+returnedConcept = addcnode(aConcept, nodeConcept)
+```
+
+```
+returnedConcept - type: con
+
+aConcept - type: con
+
+nodeConcept - type: con
 ```
 
 ## Returns
 
+The newly created node (CON) that was added to the end of *aConcept*'s phrase.
+
 ## Remarks
 
 ## Example
+
+```
+G("vp") = makeconcept(findroot(),"verb phrase");
+
+makephrase(G("vp"),"verb");
+
+G("node") = addcnode(G("vp"),"adverb");
+```
 
 ## See Also
 

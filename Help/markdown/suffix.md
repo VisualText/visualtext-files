@@ -22,6 +22,8 @@ suff- type: str
 
 ## Returns
 
+Returns true if the given string may be a valid morphological suffix of the given word, otherwise false.
+
 ## Remarks
 
 Uses morphological information and heuristics to see if the word's ending is a reasonable suffix.  For example, given "bolts" and "s" as candidate suffix, suffix("bolts","s") tries to determine if "s" is a suffix of "bolts", that is, if "bolts" is either a plural noun or a third person singular verb form.  Suffix is not foolproof, but provides a good indication based on morphological and lexical knowledge and heuristics.

@@ -14,6 +14,8 @@ NULL = fail()
 
 ## Returns
 
+Nothing. `fail()` is called as a statement; in the CHECK region it flags the current rule match to be rejected. Elsewhere it is a no-op.
+
 ## Remarks
 
 Constrained to appear directly in the CHECK region, not within functions defined in the DECL region.

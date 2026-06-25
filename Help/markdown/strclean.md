@@ -20,9 +20,18 @@ string - type: str
 
 ## Returns
 
+Returns the input string with leading and trailing whitespace removed and repeated internal whitespace separators collapsed to a single space.
+
 ## Remarks
 
 ## Example
+
+```
+@CODE
+G("out") = strclean("  hello    big   world  ");
+"output.txt" << G("out") << "\n";   # hello big world
+@@CODE
+```
 
 ## See Also
 

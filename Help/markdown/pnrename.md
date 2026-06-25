@@ -22,9 +22,21 @@ newNameString - type: str
 
 ## Returns
 
+Returns the interned new name string. It is an error if no rename string is supplied.
+
 ## Remarks
 
 ## Example
+
+```
+@POST
+
+pnrename(N(1), "_propernoun");     # Rename the matched node.
+
+@RULES
+
+_xNIL <- _noun @@
+```
 
 ## See Also
 

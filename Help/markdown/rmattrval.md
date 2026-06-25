@@ -9,10 +9,12 @@ Remove the string *valNameString* as a string value of the concept *aConcept*'s 
 ## Syntax
 
 ```
-NULL = rmattrval(aConcept, attrNameStr, valNameStr)
+returnedNumber = rmattrval(aConcept, attrNameStr, valNameStr)
 ```
 
 ```
+returnedNumber - type: int
+
 aConcept - type: con
 
 attrNameString - type: str

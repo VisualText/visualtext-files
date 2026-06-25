@@ -14,6 +14,8 @@ NULL = exitpass()
 
 ## Returns
 
+Nothing. `exitpass()` is called as a statement; it flags the current pass to stop.
+
 ## Remarks
 
 `exitpass` can be called from the CODE, POST, and CHECK Regions, but won't work as desired from inside a user-defined function. It can be used (a bit crudely) to support conditional execution of passes in the analyzer.

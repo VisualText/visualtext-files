@@ -11,8 +11,6 @@ Copy a node's variables to the suggested node of a rule match or to a concept. M
 ```
 NULL = pncopyvars(Pnode1,Pnode2)
 
-NULL = pncopyvars(Pnode1,Pnode2)
-
 NULL = pncopyvars(Pnode1,aConcept)
 
 NULL = pncopyvars(aPnode)
@@ -20,6 +18,8 @@ NULL = pncopyvars(aPnode)
 NULL = pncopyvars(positionNum)
 
 NULL = pncopyvars(0)
+
+NULL = pncopyvars()
 ```
 
 ```
@@ -31,6 +31,8 @@ positionNum - type: int
 ```
 
 ## Returns
+
+Nothing. Copies the source node's variables onto the destination node (or concept). The no-argument and pncopyvars(0) forms copy from the node matching the last rule element to the rule's suggested node.
 
 ## Remarks
 

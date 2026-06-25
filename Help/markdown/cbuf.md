@@ -18,6 +18,8 @@ returnedOstream - type: ostream
 
 ## Returns
 
+The user-supplied output buffer stream, for use with the `<<` output operator.
+
 ## Remarks
 
 For use in embedded or standalone analyzers.  User may supply an output buffer to an API call such as nlp->analyze().  Then sending output to cbuf() will write to the user-supplied output stream.

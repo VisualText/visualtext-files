@@ -14,6 +14,8 @@ NULL = debug()
 
 ## Returns
 
+Nothing. `debug()` is a no-op called as a statement.
+
 ## Remarks
 
 Enables VisualText developers to set a breakpoint in a particular rule, from a C++ development environment, e.g. MS Visual C++.

@@ -22,9 +22,19 @@ string2 - type: str
 
 ## Returns
 
+True if string1 differs from string2, otherwise false.
+
 ## Remarks
 
 ## Example
+
+```
+@POST
+if (strnotequal(N("$text",1), "the"))
+    excise(1,1);
+@@RULES
+_word <- _xWILD @@
+```
 
 ## See Also
 

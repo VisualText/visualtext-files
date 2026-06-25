@@ -24,6 +24,8 @@ num - type: int
 
 ## Returns
 
+Returns the floating-point value of the string or int if it can be converted; a float argument is returned unchanged.
+
 ## Remarks
 
 This function also accepts a float arg.

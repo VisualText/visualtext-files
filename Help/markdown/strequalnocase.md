@@ -22,9 +22,19 @@ wordString2 - type: str
 
 ## Returns
 
+True if wordString1 equals wordString2 ignoring letter case, otherwise false.
+
 ## Remarks
 
 ## Example
+
+```
+@POST
+if (strequalnocase(N("$text",1), "The"))
+    excise(1,1);
+@@RULES
+_word <- _xWILD @@
+```
 
 ## See Also
 

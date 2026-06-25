@@ -4,22 +4,38 @@
 
 ## Purpose
 
-Left-justify number in a given field size.
+Left-justify a string in a given field size.
 
 ## Syntax
 
 ```
-LJ(num,fieldsize_num)
+returnedStr = LJ(str,fieldsize_num)
+```
+
+```
+returnedStr - type: str
+
+str - type: str
+
+fieldsize_num - type: num
 ```
 
 ## Returns
 
+A string of the given field size, with the text left-justified (padded on the right with spaces). If the text is longer than the field size, a wider string is returned.
+
 ## Remarks
+
+The first argument is a string. Field size is the total width of the returned string.
 
 ## Example
 
 ```
 @CODE
+```
+
+```
+"output.txt" << LJ("abc",6) << "|" << "\n";   # Prints: abc   |
 ```
 
 ```

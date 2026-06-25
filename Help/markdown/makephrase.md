@@ -22,11 +22,19 @@ nameString - type: str
 
 ## Returns
 
+The newly created phrase (PHR) for *aConcept*.
+
 ## Remarks
 
 To add additional nodes to a concept's phrase, use `addcnode`.
 
 ## Example
+
+```
+G("vp") = makeconcept(findroot(),"verb phrase");
+
+G("phr") = makephrase(G("vp"),"verb");
+```
 
 ## See Also
 

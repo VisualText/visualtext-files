@@ -92,8 +92,8 @@ to a topic.
         - [$mixcap]($mixcap.md)
         - [$uppercase]($uppercase.md)
       - **Parser Variables**
-        - $passnum
-        - $rulenum
+        - [$passnum]($passnum.md)
+        - [$rulenum]($rulenum.md)
       - **Test Variables**
         - [$end]($end.md)
         - [$exists]($exists.md)
@@ -412,7 +412,6 @@ to a topic.
         - [getpopupdata](getpopupdata.md)
         - [hitconf](hitconf.md)
         - [interactive](interactive.md)
-        - [lextagger](lextagger.md)
         - [mkdir](mkdir.md)
         - [permuten](permuten.md)
         - [sortconsbyattr](sortconsbyattr.md)

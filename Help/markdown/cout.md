@@ -18,6 +18,8 @@ returnedOstream - type: ostream
 
 ## Returns
 
+The standard output stream (or the user-supplied stream, in standalone or embedded analyzers), for use with the `<<` output operator.
+
 ## Remarks
 
 For use in embedded or standalone analyzers.  User may supply an output stream to an API call such as nlp->analyze().  Then sending output to cout() will write to the user-supplied output stream.

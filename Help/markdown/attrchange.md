@@ -9,12 +9,10 @@ Replace all matching attribute-value pairs *attrStr*-*oldValStr* in the KB belon
 ## Syntax
 
 ```
-returnedBoolean = attrchange(aConcept, attrStr, oldValStr, newValStr)
+attrchange(aConcept, attrStr, oldValStr, newValStr)
 ```
 
 ```
-returnedBoolean - type: bool
-
 aConcept - type: con
 
 attrStr - type: str
@@ -26,7 +24,7 @@ newValStr - type: str
 
 ## Returns
 
-1 if at least one pair is changed, 0 otherwise.
+Nothing. The matching attribute-value pairs are changed in place in the KB.
 
 ## Remarks
 

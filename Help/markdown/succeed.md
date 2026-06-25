@@ -14,6 +14,8 @@ NULL = succeed()
 
 ## Returns
 
+Nothing. `succeed()` is called as a statement; in the CHECK or CODE region it ends checking/action execution with success. Elsewhere it is a no-op.
+
 ## Remarks
 
 Constrained to appear directly in the CHECK region, not within functions defined in the DECL region.

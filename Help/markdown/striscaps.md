@@ -20,7 +20,11 @@ string1 - type: str
 
 ## Returns
 
+Returns true if the entire string is uppercase, otherwise false.
+
 ## Remarks
+
+Unlike strisupper, which tests only the first character, striscaps checks every character in the string.
 
 ## Example
 

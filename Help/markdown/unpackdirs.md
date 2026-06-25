@@ -14,6 +14,8 @@ str array = unpackdirs(dir_str)
 
 ## Returns
 
+An array of strings, each holding one individual directory-name component of the given path.
+
 ## Remarks
 
 Now the split function is available also, for getting at the components of a file path.

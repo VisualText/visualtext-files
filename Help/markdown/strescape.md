@@ -31,11 +31,21 @@ escapeStr - type:  str
 
 ## Returns
 
+The string with the escape character inserted before each occurrence of any character listed in charsToEscapeStr.
+
 ## Remarks
 
 Escaping adds the escape character before each instance of the characters to escape.
 
 ## Example
+
+```
+@CODE
+G("out") = strescape("a,b,c", ",", "\\");
+"output.txt" << G("out") << "\n";
+# writes: a\,b\,c
+@@CODE
+```
 
 ## See Also
 

@@ -20,9 +20,21 @@ aPnode - type: pnode
 
 ## Returns
 
+Returns the node's left sibling. Returns nothing if the node is the first in its list of siblings.
+
 ## Remarks
 
 ## Example
+
+```
+@POST
+
+L("sib") = pnprev(N(2));     # Node to the left of the second matched node.
+
+@RULES
+
+_xNIL <- _det _noun @@
+```
 
 ## See Also
 

@@ -18,9 +18,21 @@ returnedPnode - type: pnode
 
 ## Returns
 
+Returns the root node of the current parse tree.
+
 ## Remarks
 
 ## Example
+
+```
+@POST
+
+L("top") = pndown(pnroot());     # First child under the root of the parse tree.
+
+@RULES
+
+_xNIL <- _noun @@
+```
 
 ## See Also
 

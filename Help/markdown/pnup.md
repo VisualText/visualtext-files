@@ -20,11 +20,23 @@ aPnode - type: pnode
 
 ## Returns
 
+Returns the node's parent. Only the leftmost node in a list of siblings has a parent; for any other node, or for the root, pnup returns nothing.
+
 ## Remarks
 
 Pnup is a primitive that does not fetch the parent.  (An NLP++ **pnparent** function is called for or can be written by the user.)
 
 ## Example
+
+```
+@POST
+
+L("parent") = pnup(pndown(N(1)));     # Back up to the parent of the first child.
+
+@RULES
+
+_xNIL <- _np @@
+```
 
 ## See Also
 

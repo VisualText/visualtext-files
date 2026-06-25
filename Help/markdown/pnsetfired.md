@@ -28,6 +28,16 @@ Pnsetfired sets the fired flag of the given pnode. The num argument must be 0 or
 
 ## Example
 
+```
+@POST
+
+pnsetfired(N(1), 1);     # Mark the first matched node as fired.
+
+@RULES
+
+_xNIL <- _noun @@
+```
+
 ## See Also
 
 [pnvar](pnvar.md), [pnvarnames](pnvarnames.md), [Parse Tree Functions](Table_of_Parse_Tree_Functions.md)

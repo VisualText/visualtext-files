@@ -28,6 +28,16 @@ Pnremoveval removes the variable named var_str, along with all of its values, fr
 
 ## Example
 
+```
+@POST
+
+pnremoveval(N(1), "tags");     # Remove the "tags" variable from the matched node.
+
+@RULES
+
+_xNIL <- _noun @@
+```
+
 ## See Also
 
 [pnpushval](pnpushval.md), [pnrpushval](pnrpushval.md), [pnvar](pnvar.md), [Parse Tree Functions](Table_of_Parse_Tree_Functions.md)

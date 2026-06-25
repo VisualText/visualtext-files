@@ -22,6 +22,8 @@ labelString - type: str
 
 ## Returns
 
+Returns the parse tree node created by the reduction. Must be called from the @POST region.
+
 ## Remarks
 
 NOTE: the old group action has long been replaced by this more flexible group function. As of VisualText 2.3.1.9, the group function returns the reduce node that it creates, rather than a boolean "ok".  As with the action, the group function alters the element numbers of subsequent POST actions.

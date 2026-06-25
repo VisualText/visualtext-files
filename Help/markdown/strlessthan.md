@@ -22,9 +22,19 @@ string2 - type: str
 
 ## Returns
 
+True if string1 sorts lexically (alphabetically) before string2, otherwise false.
+
 ## Remarks
 
 ## Example
+
+```
+@CODE
+G("first") = strlessthan("apple", "banana");
+"output.txt" << G("first") << "\n";
+# prints 1 because "apple" sorts before "banana"
+@@CODE
+```
 
 ## See Also
 

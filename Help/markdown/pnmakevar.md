@@ -122,6 +122,8 @@ valValue - type: val
 
 ## Returns
 
+Nothing. Creates the named variable on the given node and sets it to the supplied value. It is an error if the variable already exists with a value, or if the name begins with `$`.
+
 ## Remarks
 
 Functionally equivalent to statements such as
@@ -135,6 +137,16 @@ pnmakevar(N(3), "na" + "me", "xyz");
 In this way, the name of a variable can be created dynamically.
 
 ## Example
+
+```
+@POST
+
+pnmakevar(N(1), "pos", "noun");     # Make a "pos" string variable on the matched node.
+
+@RULES
+
+_xNIL <- _noun @@
+```
 
 ## See Also
 

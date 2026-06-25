@@ -20,11 +20,20 @@ number - type: int
 
 ## Returns
 
+Returns the string representation of a numeric (int or float) value; a string argument is returned unchanged.
+
 ## Remarks
 
 This function also accepts a string arg.
 
 ## Example
+
+```
+@CODE
+G("out") = str(42);
+"output.txt" << G("out") << "\n";   # 42
+@@CODE
+```
 
 ## See Also
 

@@ -24,9 +24,19 @@ number - type: int
 
 ## Returns
 
+The newly created node (CON) inserted at position *number* in *aPhrase*.
+
 ## Remarks
 
 ## Example
+
+```
+G("vp") = makeconcept(findroot(),"verb phrase");
+
+G("phr") = makephrase(G("vp"),"verb");
+
+G("node") = addnode(G("phr"),"adverb",2);
+```
 
 ## See Also
 

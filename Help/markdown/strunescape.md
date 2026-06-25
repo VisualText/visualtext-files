@@ -39,11 +39,21 @@ returnedString = strunescape(str,
 
 ## Returns
 
+The string with the escape character removed from before each occurrence of any character listed in escapedCharsStr.
+
 ## Remarks
 
 Unescaping removes the escape char preceding each instance of the escaped chars.
 
 ## Example
+
+```
+@CODE
+G("out") = strunescape("a\\,b\\,c", ",", "\\");
+"output.txt" << G("out") << "\n";
+# writes: a,b,c
+@@CODE
+```
 
 ## See Also
 

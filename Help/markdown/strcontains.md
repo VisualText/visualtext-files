@@ -22,9 +22,19 @@ string2 - type: str
 
 ## Returns
 
+True if string1 occurs as a substring of string2, otherwise false.
+
 ## Remarks
 
 ## Example
+
+```
+@POST
+if (strcontains("cat", N("$text",1)))
+    excise(1,1);
+@@RULES
+_word <- _xWILD @@
+```
 
 ## See Also
 

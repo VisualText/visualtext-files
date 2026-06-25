@@ -25,6 +25,14 @@ Return a string of all the unique characters in a string. They are returned in t
 
 ## Example
 
+```
+@CODE
+G("uniq") = struniquechars("mississippi");
+"output.txt" << G("uniq") << "\n";
+# Writes "misp"
+@@CODE
+```
+
 ## See Also
 
 [strsubst](strsubst.md), [strcontains](strcontains.md), [strcontainsnocase](strcontainsnocase.md), [strendswith](strendswith.md), [strendswith](strendswith.md), [String Functions](Table_of_String_Functions.md)

@@ -18,6 +18,8 @@ aConcept - type: con
 
 ## Returns
 
+1 if the sort succeeded, 0 otherwise.
+
 ## Remarks
 
 ## Example

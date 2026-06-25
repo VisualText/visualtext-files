@@ -13,7 +13,7 @@ returnedNum = getfltval(aValue);
 ```
 
 ```
-returnedNum - type: int
+returnedNum - type: flt
 
 aValue - type: val
 ```

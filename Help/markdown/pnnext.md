@@ -20,9 +20,21 @@ aPnode - type: pnode
 
 ## Returns
 
+Returns the node's right sibling. Returns nothing if the node is the last in its list of siblings.
+
 ## Remarks
 
 ## Example
+
+```
+@POST
+
+L("sib") = pnnext(N(1));     # Node to the right of the first matched node.
+
+@RULES
+
+_xNIL <- _noun @@
+```
 
 ## See Also
 

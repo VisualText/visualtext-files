@@ -9,12 +9,10 @@ Remove all of the attributes (and values) of a concept *aConcept*.
 ## Syntax
 
 ```
-returnedBoolean = rmattrs(aConcept)
+None = rmattrs(aConcept)
 ```
 
 ```
-returnedBoolean - type: bool
-
 aConcept - type: con
  
 ```

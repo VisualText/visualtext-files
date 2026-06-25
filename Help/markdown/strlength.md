@@ -20,9 +20,19 @@ string - type: str
 
 ## Returns
 
+The number of characters (Unicode code points) in `string`.
+
 ## Remarks
 
 ## Example
+
+```
+@CODE
+G("len") = strlength("hello");
+"output.txt" << G("len") << "\n";
+# Writes 5
+@@CODE
+```
 
 ## See Also
 

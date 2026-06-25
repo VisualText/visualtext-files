@@ -9,10 +9,12 @@ Remove dictionary concept *wordString* from the KB dictionary hierarchy.
 ## Syntax
 
 ```
-NULL = rmword(wordString)
+returnedNumber = rmword(wordString)
 ```
 
 ```
+returnedNumber - type: int
+
 wordString - type: str
 ```
 

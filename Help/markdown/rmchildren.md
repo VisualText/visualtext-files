@@ -9,12 +9,10 @@ Remove all children of a concept *parentCon*.
 ## Syntax
 
 ```
-returnedBoolean = rmchildren(parentCon)
+None = rmchildren(parentCon)
 ```
 
 ```
-returnedBoolean - type: boolean
-
 parentCon - type: con
 ```
 

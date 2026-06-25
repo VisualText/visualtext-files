@@ -22,9 +22,19 @@ number - type: int
 
 ## Returns
 
+A copy of `string` broken into lines no longer than `number` characters (word wrap).
+
 ## Remarks
 
 ## Example
+
+```
+@CODE
+G("wrapped") = strwrap("the quick brown fox", 10);
+"output.txt" << G("wrapped") << "\n";
+# Each output line is no longer than 10 characters
+@@CODE
+```
 
 ## See Also
 

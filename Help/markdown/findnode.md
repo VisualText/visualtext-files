@@ -34,9 +34,21 @@ positionNum - type: int
 
 ## Returns
 
+The matching node (CON), or none if no node matches. For the name form, the first node with that name is returned. For the number form, the *positionNum*th node is returned; a *positionNum* of 0 returns the last node.
+
 ## Remarks
 
 ## Example
+
+```
+G("vp") = makeconcept(findroot(),"verb phrase");
+
+G("phr") = makephrase(G("vp"),"verb");
+
+addnode(G("phr"),"adverb",2);
+
+G("node") = findnode(G("phr"),"adverb");
+```
 
 ## See Also
 
