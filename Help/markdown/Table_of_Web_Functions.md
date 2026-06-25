@@ -8,7 +8,7 @@ NLP++ functions are provided to help process web pages.
 
 | **FUNCTION NAME** | **RETURNS** | **DESCRIPTION** |
 | --- | --- | --- |
-| [resolveurl(base_str,embed_str)](resolveurl.md) | STR | Create an absolute URL from embed_str, using base_str as a base URL. |
+| [**resolveurl(base_str,embed_str)**](resolveurl.md) | STR | Create an absolute URL from embed_str, using base_str as a base URL. |
 | [**urlbase(url_str)**](urlbase.md) | **STR** | (Superseded by resolveurl) Fetch a normalized, partial URL ending in a directory path. Aids in resolving relative URLs within a web page.** (New in 1.6)** |
 | [**urltofile(url_str,file_str)**](urltofile.md) | NONE | Fetch the web page specified by the url_str into a file located at file file_str on the local machine. **(New in 1.6)** |
 |   |   |   |

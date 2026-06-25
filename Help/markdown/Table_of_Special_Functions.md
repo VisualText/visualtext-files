@@ -10,15 +10,16 @@ The return types include:  **STR** (string), **INT** (integer), and **BOOL** (B
 | --- | --- | --- |
 | [**batchstart()**](batchstart.md) | **BOOL(1,0)** | Check if start of a batch analysis. True if current file is first in a batch run. |
 | [**debug()**](debug.md) | **BOOL(1,0)** | No op. Convenient breakpoint for debugging from C++ compiler. |
-| [exitpass()](exitpass.md) | NONE | Exit from the current pass file immediately, without performing rule matching (if any). |
-| [exittopopup(message_str, type_str)](exittopopup.md) | BOOL(1,0) | Exit from current pass, invoking a popup if within VisualText. |
+| [**exitpass()**](exitpass.md) | NONE | Exit from the current pass file immediately, without performing rule matching (if any). |
+| [**exittopopup(message_str, type_str)**](exittopopup.md) | BOOL(1,0) | Exit from current pass, invoking a popup if within VisualText. |
 | [**fail()**](fail.md) | NONE | In CHECK Region, abort the rule that has just matched. Noop elsewhere. See succeed(). |
-| [findana](findana.md) | STR | See if named project is already resident in memory. **(New in 1.6)** |
-| [getpopupdata()](getpopupdata.md) | STR | Get the data typed in by a call to **exittopopup**(). |
-| [hitconf(hits_num, total_num, fudge_num)](hitconf.md) | INT (0 to 100) | Calculate the keyword density. Fudge factor is typically 3 to 20. |
-| [interactive()](interactive.md) | BOOL(1,0) | True if analyzer is being run in an interactive environment, e.g., inside VisualText. |
-| [mkdir(dir_str)](mkdir.md) | BOOL(1,0) | Create a directory. Operating system-dependent. |
-| [permuten(tot_num)](permuten.md) | INT ARR | Permute integers 0 to (tot_num - 1) such that array element k will never be equal to k. |
+| [**findana**](findana.md) | STR | See if named project is already resident in memory. **(New in 1.6)** |
+| [**getpopupdata()**](getpopupdata.md) | STR | Get the data typed in by a call to **exittopopup**(). |
+| [**hitconf(hits_num, total_num, fudge_num)**](hitconf.md) | INT (0 to 100) | Calculate the keyword density. Fudge factor is typically 3 to 20. |
+| [**interactive()**](interactive.md) | BOOL(1,0) | True if analyzer is being run in an interactive environment, e.g., inside VisualText. |
+| [**lextagger()**](lextagger.md) | INT | Invoke the bundled LexTagger part-of-speech tagger and update the parse tree with its tags. Windows-only. |
+| [**mkdir(dir_str)**](mkdir.md) | BOOL(1,0) | Create a directory. Operating system-dependent. |
+| [**permuten(tot_num)**](permuten.md) | INT ARR | Permute integers 0 to (tot_num - 1) such that array element k will never be equal to k. |
 | [**succeed()**](succeed.md) | NONE | In CHECK Region and CODE Region, succeed without executing further code. See fail(). |
 | [**system(str)**](system.md) | BOOL(1,0) | Execute str as operating system command. |
 | [**today()**](today.md) | **STR** | Format the current date and time as a string. |
