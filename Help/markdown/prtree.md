@@ -22,11 +22,22 @@ name - type: str
 
 ## Returns
 
+If a node named **name** is found anywhere in the subtree under rule element **number**, writes that node's matched input text to **fileName**.  If no such node is found, nothing is written.  This action returns no value.
+
 ## Remarks
 
 The output file (**fileName**) must be set up in advance using **openfile**, **fileout** or an output statement.
 
 ## Example
+
+```
+@POST
+  prtree("output.txt", 1, "_date");
+@@POST
+
+@RULES
+_event <- _name _clause @@
+```
 
 ## See Also
 

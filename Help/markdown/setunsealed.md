@@ -14,6 +14,8 @@ setunsealed(num, bool_str)
 
 ## Returns
 
+Nothing is returned to NLP++. As a side effect, the UNSEALED attribute is set on the node matching the ***num***th rule element.
+
 ## Remarks
 
 A path of unsealed nodes in the parse tree can be searched via the @NODES selector.  If a node is sealed, then @NODES won't look inside it.  Another way is with the element modifier **unsealed**.  The code below places the unsealed attribute on a _sentence node.

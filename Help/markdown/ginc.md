@@ -14,6 +14,8 @@ ginc(var)
 
 ## Returns
 
+Nothing is returned to NLP++. As a side effect, the global variable ***var*** is incremented by 1.
+
 ## Remarks
 
 ***ginc*** operates on the parse's **global** variable list (the same variable space used by **fprintgvar** and **gdump**). ***ginc*** and **inc** are equivalent; ***ginc*** is the explicitly "global" spelling.

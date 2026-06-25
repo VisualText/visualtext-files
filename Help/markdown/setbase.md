@@ -14,6 +14,8 @@ setbase(num, bool_str)
 
 ## Returns
 
+Nothing is returned to NLP++. As a side effect, the BASE attribute is set on the node matching the ***num***th rule element.
+
 ## Remarks
 
 The **base** attribute is equivalent to using setbase.  But setbase lets you access any element in the rhs phrase of a rule.

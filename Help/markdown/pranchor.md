@@ -22,6 +22,8 @@ number2 - type: int
 
 ## Returns
 
+Treats the input text spanning rule elements **number1** through **number2** as a URL and writes it to **fileName**, resolving relative URLs against the global **Base** variable.  This action returns no value.
+
 ## Remarks
 
 Use the global variable named **Base** to resolve and print complete relative URLs. (A prior pass must find the <base> HTML tag and set **Base** appropriately. NOT yet using the file's URL, so not handling cases where <base> itself is a relative URL.)
@@ -29,6 +31,15 @@ Use the global variable named **Base** to resolve and print complete relative UR
 The output file (**fileName**) must be set up in advance using **openfile**, **fileout** or an output statement.
 
 ## Example
+
+```
+@POST
+  pranchor("links.txt", 1, 1);
+@@POST
+
+@RULES
+_anchor <- _href @@
+```
 
 ## See Also
 

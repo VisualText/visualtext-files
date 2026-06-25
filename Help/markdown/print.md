@@ -18,6 +18,8 @@ string - type: str
 
 ## Returns
 
+Writes **string** to the current output file if one is open, otherwise to standard output.  This action returns no value.
+
 ## Remarks
 
 Old-style.  Use NLP++ syntax such as
@@ -25,6 +27,12 @@ Old-style.  Use NLP++ syntax such as
 "output.txt" << "string...\n";
 
 ## Example
+
+```
+@CODE
+
+print("Hello, world!\n");
+```
 
 ## See Also
 

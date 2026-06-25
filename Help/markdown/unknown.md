@@ -20,6 +20,8 @@ toRuleEltNumber - type: int
 
 ## Returns
 
+Succeeds (keeps the match) if the leaf token has been looked up and is not a known word; otherwise fails and the element does not match. If the word has not been looked up, the action fails.
+
 ## Remarks
 
 This action is meaningful only if a prior pass has performed the CODE Action **lookup()**.
@@ -27,6 +29,16 @@ This action is meaningful only if a prior pass has performed the CODE Action **l
 This mechanism is somewhat obsolete.  Use the function [spellword](spellword.md) instead.
 
 ## Example
+
+```
+@PRE
+
+<1,1>unknown();
+
+@RULES
+
+_unknownWord <- _xALPHA@@
+```
 
 ## See Also
 

@@ -22,6 +22,8 @@ flag - type: str
 
 ## Returns
 
+Nothing. This is a side-effecting CODE action: for each value in **var** that is found in **fileName**, it sets the named bit-**flag** on that word's symbol-table entry. It returns no value to NLP++.
+
 ## Remarks
 
 Old-style, slated for overhaul.  For most purposes, we recommend using the **spellword** function to see if something is a dictionary word.

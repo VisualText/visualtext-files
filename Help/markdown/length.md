@@ -22,9 +22,23 @@ lengthNumber - type: int
 
 ## Returns
 
+Succeeds (keeps the match) if the leaf token has length exactly equal to lengthNumber; otherwise fails and the element does not match.
+
 ## Remarks
 
+The length is measured in Unicode characters. This is a single-leaf-token action: if the matched node covers more than one leaf token, the action automatically fails.
+
 ## Example
+
+```
+@PRE
+
+<1,1>length(3);
+
+@RULES
+
+_threeLetterWord <- _xALPHA@@
+```
 
 ## See Also
 

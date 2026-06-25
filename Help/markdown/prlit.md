@@ -20,11 +20,19 @@ string - type: str
 
 ## Returns
 
+Writes the literal string **string** to **fileName**.  This action returns no value.
+
 ## Remarks
 
 Old-style.  The output file (**fileName**) must be set up in advance using **openfile**, **fileout** or an output statement.
 
 ## Example
+
+```
+@POST
+  prlit("output.txt", "found a match\n");
+@@POST
+```
 
 ## See Also
 

@@ -14,6 +14,8 @@ excise(ruleEltNumber1, ruleEltNumber2)
 
 ## Returns
 
+Nothing is returned to NLP++. As a side effect, the nodes matching the range of rule elements (and their subtrees) are excised (removed and deleted) from the parse tree.
+
 ## Remarks
 
 For multiple excise actions, operations must be ordered such that the highest number is listed first in the operation.

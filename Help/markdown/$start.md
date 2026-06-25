@@ -29,11 +29,13 @@ Evaluates to **0** if the node has a left sibling and **1 **if the referenced no
 ## Example
 
 ```
-@RULES
-```
+@POST
+    if (N("$start",1))
+        N("firstchild",1) = 1;
+@@POST
 
-```
-@@RULES
+@RULES
+_word <- _xWILD [one] @@
 ```
 
 ## See Also

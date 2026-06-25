@@ -10,6 +10,12 @@ Match a numeric token.
 
 ## Example
 
+```
+@RULES
+
+_phone <- _xNUM \- _xNUM @@
+```
+
 ## See Also
 
 [_xALPHA](_xALPHA.md), [Special Rule Elements](NLP_PP_Stuff/Special_rule_elements.md)

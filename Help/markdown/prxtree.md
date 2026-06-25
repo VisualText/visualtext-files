@@ -26,6 +26,8 @@ poststr - type: str
 
 ## Returns
 
+If a node named **name** is found in the subtree of the **ord**th rule element, writes **prestr**, then that node's matched input text, then **poststr** to **fileName**.  If no such node is found, nothing is written.  This action returns no value.
+
 ## Remarks
 
 The output file (**fileName**) must be set up in advance using **openfile**, **fileout** or an output statement.

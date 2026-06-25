@@ -10,6 +10,12 @@ Match the end of file.
 
 ## Example
 
+```
+@RULES
+
+_endOfFile <- _xEOF @@
+```
+
 ## See Also
 
 [Special Rule Elements](NLP_PP_Stuff/Special_rule_elements.md)

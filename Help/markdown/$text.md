@@ -22,6 +22,8 @@ number - type: int
 
 ## Returns
 
+Returns the cleaned-up text covered by the node as a string, gathered from the original input text buffer.
+
 ## Remarks
 
 Uses the original text buffer, rather than the subtree under the node, in order to gather text.
@@ -29,11 +31,12 @@ Uses the original text buffer, rather than the subtree under the node, in order 
 ## Example
 
 ```
-@RULES
-```
+@POST
+    "output.txt" << N("$text",1) << "\n";
+@@POST
 
-```
-@@RULES
+@RULES
+_phrase <- _word [plus] @@
 ```
 
 ## See Also

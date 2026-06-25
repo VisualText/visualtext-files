@@ -22,6 +22,8 @@ number - type: int
 
 ## Returns
 
+Returns the cleaned-up text covered by the node as a string, the same as $raw but with characters special to HTML and XML converted (e.g., "<" becomes "&lt;").
+
 ## Remarks
 
 ## Example
@@ -29,11 +31,12 @@ number - type: int
 "<" is converted to "&lt;".
 
 ```
-@RULES
-```
+@POST
+    "output.xml" << N("$xmltext",1) << "\n";
+@@POST
 
-```
-@@RULES
+@RULES
+_phrase <- _word [plus] @@
 ```
 
 ## See Also

@@ -26,6 +26,14 @@ Returns 1 if processing a directory, 0 if not.
 
 ## Example
 
+```
+@CODE
+    if (G("$isdirrun")) {
+        "summary.txt" << "Processing a directory of files.\n";
+    }
+@@CODE
+```
+
 ## See Also
 
 [$isfirstfile]($isfirstfile.md), [$islastfile]($islastfile.md), [$inputpath]($inputpath.md), [Special Variables](NLP_PP_Stuff/Special_Variables.md#table)

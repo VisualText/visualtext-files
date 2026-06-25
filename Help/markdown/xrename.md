@@ -14,6 +14,8 @@ xrename(name [,num])
 
 ## Returns
 
+Nothing is returned to NLP++. As a side effect, the ***num***th context node (or the last context node if ***num*** is absent or 0) is renamed to ***name***.
+
 ## Remarks
 
 ## Example

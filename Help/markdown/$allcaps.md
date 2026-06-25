@@ -28,6 +28,16 @@ None.
 
 ## Example
 
+```
+@POST
+    if (N("$allcaps",1))
+        N("acronym",1) = 1;
+@@POST
+
+@RULES
+_word <- _xWILD [one] @@
+```
+
 ## See Also
 
 [$cap]($cap.md), [$lowercase]($lowercase.md), [$mixcap]($mixcap.md), [$uppercase]($uppercase.md), [Special Variables](NLP_PP_Stuff/Special_Variables.md#table)

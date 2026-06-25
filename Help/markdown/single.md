@@ -14,6 +14,8 @@ single()
 
 ## Returns
 
+Nothing is returned to NLP++. As a side effect, the entire set of nodes that matched the rule phrase is reduced to a single new node named for the rule's suggested (left-hand side) element.
+
 ## Remarks
 
 ## Example

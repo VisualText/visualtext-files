@@ -18,9 +18,13 @@ varname - type: str
 
 ## Returns
 
+Nothing. This is a side-effecting CODE action: it removes redundant adjacent string values from the global variable **varname** in place and returns no value to NLP++.
+
 ## Remarks
 
 Old-style, slated for replacement.
+
+Operates like the Unix **uniq** utility: it only removes duplicates that are adjacent, so the values must already be sorted (e.g. with **sortvals**) for all redundancies to be eliminated.
 
 ## Example
 

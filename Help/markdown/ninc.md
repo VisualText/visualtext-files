@@ -14,6 +14,8 @@ ninc(num, var)
 
 ## Returns
 
+Nothing is returned to NLP++. As a side effect, the variable ***var*** on the node matching the ***num***th rule element is incremented by 1. The action is silently ignored if that element matched more than one node.
+
 ## Remarks
 
 ***ninc*** increments a variable belonging to a phrase-element ("N") node — the node that matched rule element ***num***. If that rule element matched more than one node, the action is ignored.

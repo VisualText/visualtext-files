@@ -10,6 +10,12 @@ Match an alphabetic consisting of a single uppercase letter.
 
 ## Example
 
+```
+@RULES
+
+_initial <- _xCAPLET \. @@
+```
+
 ## See Also
 
 [_xLET](_xLET.md), [Special Rule Elements](NLP_PP_Stuff/Special_rule_elements.md)

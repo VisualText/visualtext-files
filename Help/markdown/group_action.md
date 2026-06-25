@@ -22,6 +22,8 @@ labelString - type: str
 
 ## Returns
 
+As a side effect, the range of rule elements from ***ruleEltNumber1*** to ***ruleEltNumber2*** is reduced to a single group node named ***labelString***. As noted below, the modern **group** function returns the reduce node it creates (as of VisualText 2.3.1.9); the original POST action returned only a boolean "ok".
+
 ## Remarks
 
 NOTE: the old group action documented here has long been replaced by a more flexible group function.  Rather than rule element numbers, the first two arguments are the first node and the last node of a range (which may be the same node).  As of VisualText 2.3.1.9, the group function also returns the reduce node that it creates, rather than a boolean "ok".  As mentioned here, group alters the element numbers of subsequent POST actions.

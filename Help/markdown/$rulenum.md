@@ -28,6 +28,13 @@ Rule numbering is relative to the pass currently executing. See also [$passnum](
 
 ## Example
 
+```
+@CODE
+    L("file") = "output.txt";
+    L("file") << "Pass " << G("$passnum") << " rule " << G("$rulenum") << "\n";
+@@CODE
+```
+
 ## See Also
 
 [$passnum]($passnum.md), [Special Variables](NLP_PP_Stuff/Special_Variables.md#table)

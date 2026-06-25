@@ -14,6 +14,8 @@ xaddnvar(num, nvar, xvar)
 
 ## Returns
 
+Nothing is returned to NLP++. As a side effect, the value of node variable ***nvar*** (from the node matching the ***num***th rule element) is added to the variable ***xvar*** on the context (dominant) node. The action is silently ignored if that element matched more than one node.
+
 ## Remarks
 
 ***xaddnvar*** reads the numeric value of ***nvar*** from the phrase-element ("N") node that matched rule element ***num***, then adds that value to the context ("X") node's variable ***xvar***. If ***xvar*** has no numeric value yet, the added value becomes its value.

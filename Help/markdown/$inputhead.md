@@ -20,11 +20,20 @@ variableType - type: G
 
 ## Returns
 
+Returns the head (base name without extension) of the input file as a string (e.g., "rez").
+
 ## Remarks
 
 ## Example
 
 $inputhead returns "rez" if the input file is "rez.txt".
+
+```
+@CODE
+    L("file") = "output.txt";
+    L("file") << "Input head: " << G("$inputhead") << "\n";
+@@CODE
+```
 
 ## See Also
 

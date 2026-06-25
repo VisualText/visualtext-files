@@ -22,11 +22,22 @@ ord - type:
 
 ## Returns
 
+Writes the value of variable **var** stored on the **ord**th context node to **fileName**.  This action returns no value.
+
 ## Remarks
 
 The output file (**fileName**) must be set up in advance using **openfile**, **fileout** or an output statement.
 
 ## Example
+
+```
+@POST
+  fprintxvar("output.txt", "number", 1);
+@@POST
+
+@RULES
+_item <- _noun @@
+```
 
 ## See Also
 

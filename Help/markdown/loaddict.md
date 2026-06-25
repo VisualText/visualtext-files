@@ -8,7 +8,9 @@ Load a single dictionary file (`.dict`) from the analyzer's `kb/user` directory 
 
 ## Syntax
 
-## `returnedBoolean = loaddict(file_str)`
+```
+returnedBoolean = loaddict(file_str)
+```
 
 ```
 returnedBoolean - type: bool (1 or 0)

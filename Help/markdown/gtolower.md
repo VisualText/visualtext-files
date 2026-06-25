@@ -18,6 +18,8 @@ varname - type: str
 
 ## Returns
 
+Nothing. This is a side-effecting CODE action: it lowercases the string values held in the global variable **varname** in place and returns no value to NLP++.
+
 ## Remarks
 
 Old-style function slated for replacement.

@@ -10,6 +10,12 @@ Match an alphabetic consisting of a single letter.
 
 ## Example
 
+```
+@RULES
+
+_singleLetter <- _xLET @@
+```
+
 ## See Also
 
 [_xCAPLET](_xCAPLET.md), [Special Rule Elements](NLP_PP_Stuff/Special_rule_elements.md)

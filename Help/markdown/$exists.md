@@ -29,11 +29,13 @@ Returns **1** if the node exists and **0** if the node does not exist.
 ## Example
 
 ```
-@RULES
-```
+@POST
+    if (N("$exists",2))
+        N("hasmodifier",1) = 1;
+@@POST
 
-```
-@@RULES
+@RULES
+_phrase <- _adj [opt] _noun [one] @@
 ```
 
 ## See Also

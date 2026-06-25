@@ -14,6 +14,8 @@ xaddlen(var, num)
 
 ## Returns
 
+Nothing is returned to NLP++. As a side effect, the text length of the node(s) matching the ***num***th rule element is added to the variable ***var*** on the context (dominant) node.
+
 ## Remarks
 
 ***xaddlen*** computes the length covered by the node's text-buffer offsets (end − start + 1) and adds it to the context ("X") node's variable ***var***. If ***var*** has no numeric value yet, the length becomes its value.

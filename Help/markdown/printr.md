@@ -20,9 +20,22 @@ number2 - type: int
 
 ## Returns
 
+Writes the matched input text spanning rule elements **number1** through **number2** to standard output.  This action returns no value.
+
 ## Remarks
 
+Output always goes to standard output, not to a file.  Use **prrange** to print a rule element range to a file.
+
 ## Example
+
+```
+@POST
+  printr(1, 3);
+@@POST
+
+@RULES
+_company <- _name [s] _suffix @@
+```
 
 ## See Also
 

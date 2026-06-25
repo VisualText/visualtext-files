@@ -20,11 +20,20 @@ variableType - type: G
 
 ## Returns
 
+Returns the parent directory path of the analyzer folders as a string.
+
 ## Remarks
 
 ## Example
 
 $anaspath returns "D\apps\Resume" assuming the app directory is "D\apps\".
+
+```
+@CODE
+    L("file") = "output.txt";
+    L("file") << "Analyzers parent: " << G("$anaspath") << "\n";
+@@CODE
+```
 
 ## See Also
 

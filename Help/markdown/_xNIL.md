@@ -12,6 +12,12 @@ _xNIL has no special action, but serves as documentation for the rule writer.
 
 ## Example
 
+```
+@RULES
+
+_deleteMe <- _xNIL @@
+```
+
 ## See Also
 
 [_xWILD](_xWILD.md), [Special Rule Elements](NLP_PP_Stuff/Special_rule_elements.md)

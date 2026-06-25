@@ -14,6 +14,8 @@ xinc(var)
 
 ## Returns
 
+Nothing is returned to NLP++. As a side effect, the variable ***var*** on the context (dominant) node is incremented by 1.
+
 ## Remarks
 
 ***xinc*** increments a variable belonging to the context ("X") node — the dominant node selected for the current rule match. A context node must be present for the action to take effect.

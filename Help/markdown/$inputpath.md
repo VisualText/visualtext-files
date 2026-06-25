@@ -20,11 +20,20 @@ variableType - type: G
 
 ## Returns
 
+Returns the directory path containing the input file as a string (e.g., "D:\apps\Resume\input\Dev1").
+
 ## Remarks
 
 ## Example
 
 $inputpath returns "D\apps\Resume\input\Dev1" assuming input file "rez.txt" resides in Dev1 directory.
+
+```
+@CODE
+    L("file") = "output.txt";
+    L("file") << "Input path: " << G("$inputpath") << "\n";
+@@CODE
+```
 
 ## See Also
 

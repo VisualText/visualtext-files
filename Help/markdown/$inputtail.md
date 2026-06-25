@@ -20,11 +20,20 @@ variableType - type: G
 
 ## Returns
 
+Returns the tail (file extension, without the dot) of the input file as a string (e.g., "txt").
+
 ## Remarks
 
 ## Example
 
 $inputtail returns "txt" if the input file is "rez.txt".
+
+```
+@CODE
+    L("file") = "output.txt";
+    L("file") << "Input tail: " << G("$inputtail") << "\n";
+@@CODE
+```
 
 ## See Also
 

@@ -14,6 +14,8 @@ singlezap()
 
 ## Returns
 
+Nothing is returned to NLP++. As a side effect, a single new node (named for the rule's suggested element) replaces the matched phrase, and all of the original matched nodes are excised (removed) from the parse tree.
+
 ## Remarks
 
 Useful for things like retokenizing or replacing parse tree nodes with new nodes.

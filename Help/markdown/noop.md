@@ -14,6 +14,8 @@ noop()
 
 ## Returns
 
+Nothing is returned to NLP++, and no action is performed on the parse tree. Its only effect is to mark the rule as a no-op so that the default **single()** reduce does not run, leaving the matched nodes unchanged.
+
 ## Remarks
 
 ## Example

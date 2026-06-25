@@ -37,3 +37,5 @@ mkdir("c:\abc\myfolder"); # This will work on Windows OS even if abc doesn't exi
 ```
 
 ## See Also
+
+[system](system.md), [today](today.md), [Special Functions](Table_of_Special_Functions.md)

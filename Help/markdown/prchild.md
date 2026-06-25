@@ -22,11 +22,22 @@ name - type: str
 
 ## Returns
 
+If a node named **name** is found immediately under rule element **number**, writes that node's matched input text to **fileName**.  If no such child is found, nothing is written.  This action returns no value.
+
 ## Remarks
 
 The output file (**fileName**) must be set up in advance using **openfile**, **fileout** or an output statement.
 
 ## Example
+
+```
+@POST
+  prchild("output.txt", 1, "_name");
+@@POST
+
+@RULES
+_company <- _org @@
+```
 
 ## See Also
 

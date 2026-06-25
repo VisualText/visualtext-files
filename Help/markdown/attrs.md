@@ -14,6 +14,10 @@ Use the names in the list to name nodes. Each node that matched current rule ele
 
 ## Example
 
+```
+_np <- _det _noun [attrs=(_head)] @@
+```
+
 ## See Also
 
 [Suggested Element Modifiers](NLP_PP_Stuff/Suggested_element_modifiers.md), [Phrase Element Modifiers](NLP_PP_Stuff/Phrase_element_modifiers.md)

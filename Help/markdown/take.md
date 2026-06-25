@@ -8,7 +8,9 @@ Execute commands in a knowledge base command file (.KB file).
 
 ## Syntax
 
-## `returnedBoolean = take(file_str)`
+```
+returnedBoolean = take(file_str)
+```
 
 ```
 returnedBoolean - type: bool (1 or 0)

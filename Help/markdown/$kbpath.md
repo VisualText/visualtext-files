@@ -20,11 +20,20 @@ variableType - type: G
 
 ## Returns
 
+Returns the base directory path of the kb / user directory as a string (e.g., "D:\dev\apps\Resume\kb\user").
+
 ## Remarks
 
 ## Example
 
 $kbpath returns "D\apps\Resume\input\Dev1\kb\user" assuming the app directory is "D\apps\Resume\input\Dev1" resides in Dev1 directory.
+
+```
+@CODE
+    L("file") = "output.txt";
+    L("file") << "KB path: " << G("$kbpath") << "\n";
+@@CODE
+```
 
 ## See Also
 

@@ -20,11 +20,20 @@ variableType - type: G
 
 ## Returns
 
+Returns the full path of the input file being analyzed as a string (e.g., "D:\apps\Resume\input\Dev1\rez.txt").
+
 ## Remarks
 
 ## Example
 
 $input returns "D:\apps\Resume\input\Dev1\rez.txt" if the input file is "rez.txt".
+
+```
+@CODE
+    L("file") = "output.txt";
+    L("file") << "Input file: " << G("$input") << "\n";
+@@CODE
+```
 
 ## See Also
 

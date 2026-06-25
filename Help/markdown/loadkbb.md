@@ -8,7 +8,9 @@ Load a single knowledge base binary file (`.kbb`) from the analyzer's `kb/user` 
 
 ## Syntax
 
-## `returnedBoolean = loadkbb(file_str)`
+```
+returnedBoolean = loadkbb(file_str)
+```
 
 ```
 returnedBoolean - type: bool (1 or 0)
