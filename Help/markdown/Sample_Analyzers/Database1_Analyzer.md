@@ -6,7 +6,7 @@ VisualText version 1.4 introduces database connectivity functions within NLP++. 
 
 - Uses the **[interactive](../interactive.md)**() function to alter the behavior of the analyzer when running within VisualText as opposed to standalone
 
-- Uses the **[exittopopup](../exittopopup.md)**() function within VisualText to have the user type in a command such as "SELECT * FROM sql;".  Then a subsequent pass can grab the type-in using **[getpopupdata](../getpopupdata.md)**().
+- Uses the **exittopopup**() function within VisualText to have the user type in a command such as "SELECT * FROM sql;".  Then a subsequent pass can grab the type-in using **getpopupdata**().
 
 - Includes an example of fetching every supported database type.  Everything except the various BLOB data types is handled.
 

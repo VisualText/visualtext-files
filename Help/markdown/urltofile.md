@@ -9,11 +9,11 @@ Fetch a page from the web using the given URL and writing to the given file name
 ## Syntax
 
 ```
-returnedBool = urltofile(urlStr, fileStr)
+returnedStr = urltofile(urlStr, fileStr)
 ```
 
 ```
-returnedBool - type: bool (0 or 1)
+returnedStr - type: str
 ```
 
 ```
@@ -26,11 +26,11 @@ fileStr - type: str
 
 ## Returns
 
-True if fetched the web page successfully.
+On success, returns a non-empty string identifying the fetched resource (and writes the page to fileStr); on failure, returns no value (an empty result).
 
 ## Remarks
 
-This function can serve as the basis for a web traversal capability.
+This function can serve as the basis for a web traversal capability. Web fetching is gated by a build-time web option and is not implemented in the Linux build (where it returns no value).
 
 ## Example
 

@@ -22,7 +22,7 @@ Return the current date and time as a string.
 
 ## Remarks
 
-An "escape to the shell" from inside NLP++.
+`today()` takes no arguments and returns the current local date and time. It does not invoke the operating-system shell; for that, use [system](system.md).
 
 ## Example
 
