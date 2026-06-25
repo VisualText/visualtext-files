@@ -36,4 +36,4 @@ exitpass(); # Exit the current pass file immediately.
 
 ## See Also
 
-[fail](Functions/Miscellaneous_Functions/fail.md), [succeed](succeed.md), [Special Functions](Table_of_Special_Functions.md)
+[fail](fail.md), [succeed](succeed.md), [Special Functions](Table_of_Special_Functions.md)

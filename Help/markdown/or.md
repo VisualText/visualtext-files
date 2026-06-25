@@ -36,4 +36,4 @@ _vgroup <- _have [opt] _be [opt] _verb [opt] @@
 
 ## See Also
 
-[succeed](succeed.md), [fail](Functions/Miscellaneous_Functions/fail.md), [CHECK Actions](NLP_PP_Stuff/AT-CHECK_Actions.md)
+[succeed](succeed.md), [fail](fail.md), [CHECK Actions](NLP_PP_Stuff/AT-CHECK_Actions.md)

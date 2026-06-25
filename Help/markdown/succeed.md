@@ -32,4 +32,4 @@ succeed();
 
 ## See Also
 
-[or](or.md), [fail](Functions/Miscellaneous_Functions/fail.md), [exitpass](exitpass.md), [Special Functions](Table_of_Special_Functions.md), [CHECK Actions](NLP_PP_Stuff/AT-CHECK_Actions.md)
+[or](or.md), [fail](fail.md), [exitpass](exitpass.md), [Special Functions](Table_of_Special_Functions.md), [CHECK Actions](NLP_PP_Stuff/AT-CHECK_Actions.md)
