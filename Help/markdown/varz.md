@@ -30,4 +30,4 @@ varName - type: string
 
 ## See Also
 
-[var](var.md), [vareq](vareq.md), [varne](varne.md), [PRE Actions](NLP_PP_Stuff/AT-PRE_Actions.md)
+[var](var.md), [vareq](vareq.md), [varne](varne.md), [vargt](vargt.md), [varlt](varlt.md), [PRE Actions](NLP_PP_Stuff/AT-PRE_Actions.md)

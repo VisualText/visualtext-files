@@ -26,16 +26,16 @@ Actions available in the POST Region are provided in the table below.  For exam
 
 | POST Action | Description |
 | --- | --- |
-| [**pncopyvars(aPnode)** pncopyvars(num) pncopyvars(0)](../pncopyvars.md) | Copy a node's variables to the suggested node of a rule match. Must be called from the POST Region and can be considered a new-style NLP++ **action**. See pncopyvars. |
-| [setbase(num, bool)](../setbase.md) | Set the BASE attribute of the ***num***th node to "true" or "false". |
-| [setunsealed(num, bool)](../setunsealed.md) | Set the UNSEALED attribute of the ***num***th node to "true" or "false". |
-| [xrename(name [, num])](../xrename.md) | Rename the ***num***th context node to ***name***. If *num* is absent or 0, rename last context node. |
+| [**pncopyvars(aPnode)**](../pncopyvars.md) [**pncopyvars(num)**](../pncopyvars.md) [**pncopyvars(0)**](../pncopyvars.md) | Copy a node's variables to the suggested node of a rule match. Must be called from the POST Region and can be considered a new-style NLP++ **action**. See pncopyvars. |
+| [**setbase(num, bool)**](../setbase.md) | Set the BASE attribute of the ***num***th node to "true" or "false". |
+| [**setunsealed(num, bool)**](../setunsealed.md) | Set the UNSEALED attribute of the ***num***th node to "true" or "false". |
+| [**xrename(name [, num])**](../xrename.md) | Rename the ***num***th context node to ***name***. If *num* is absent or 0, rename last context node. |
 
 ## Reduce Actions
 
 | POST Action | Description |
 | --- | --- |
-| [setlookahead(num1)](../setlookahead.md) | Set the node that rule matcher will continue with, after the current rule match is done. New in 1.7.5.2 |
+| [**setlookahead(num1)**](../setlookahead.md) | Set the node that rule matcher will continue with, after the current rule match is done. New in 1.7.5.2 |
 | [**single()**](../single.md) | Single-tier reduce. Reduce the entire set of nodes that matched a rule phrase. |
 | [**singler(num1,num2)**](../singler.md) | Single-tier reduce of a range of rule elements. eg, if finding a period to be end-of-sentence in context, we only want to reduce the period to end-of-sentence, not the whole context. |
 | [**singlex(num1,num2)**](../singlex.md) | Single-tier reduce of a range of rule elements. All nodes not in the range are EXCISED. eg, if matching a keyword html tag, we only want to reduce the keywords and to zap the rest of the tag. |
@@ -73,6 +73,12 @@ Actions available in the POST Region are provided in the table below.  For exam
 | POST Action | Description |
 | --- | --- |
 | **addstrs(var,num)** | Add a string to the multi-string **global** variable **var**. Fetch the string from the nodes matching rule element **num**. **var** should have been declared using the CODE Action **varstrs()**. (***REMOVED***. Use NLP++ array syntax instead.) |
+| [**inc(var)**](../inc.md) | Increment the value of the global variable ***var***. If the variable has no numeric value, incrementing yields 1. |
+| [**ginc(var)**](../ginc.md) | Increment the value of the global variable ***var***. Equivalent to **inc**; the explicitly "global" spelling. |
+| [**ninc(num, var)**](../ninc.md) | Increment the variable ***var*** on the node matching the ***num***th rule element. Ignored if that element matched multiple nodes. |
+| [**xinc(var)**](../xinc.md) | Increment the variable ***var*** on the context (dominant) node. |
+| [**xaddlen(var, num)**](../xaddlen.md) | Add the text length of the node(s) matching the ***num***th rule element to the context-node variable ***var***. |
+| [**xaddnvar(num, nvar, xvar)**](../xaddnvar.md) | Add the value of node variable ***nvar*** (from the node matching the ***num***th rule element) to the context-node variable ***xvar***. Ignored if that element matched multiple nodes. |
 
 ## See Also
 

@@ -10,7 +10,7 @@ Arrays can also be assigned and manipulated with parse tree functions and kb fun
 
 | **FUNCTION NAME** | **RETURNS** | **DESCRIPTION** |
 | --- | --- | --- |
-| [**push(var)**](push.md) | ARRAY | Push a value to the front of a variable's value(s). Allows mixed types (string, num, flt, concept...), allows redundant values, does not check uniqueness. NOTE: This will alter the array indexing, pushed item will be the 0th element of array index. **UNIMPLEMENTED** |
+| **push(var)** | ARRAY | Push a value to the front of a variable's value(s). Allows mixed types (string, num, flt, concept...), allows redundant values, does not check uniqueness. NOTE: This will alter the array indexing, pushed item will be the 0th element of array index. **UNIMPLEMENTED** |
 |   |   |   |
 
 ## See Also

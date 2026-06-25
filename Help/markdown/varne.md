@@ -32,4 +32,4 @@ numOrString - type: int or string
 
 ## See Also
 
-[var](var.md), [varz](varz.md), [vareq](vareq.md), [PRE Actions](NLP_PP_Stuff/AT-PRE_Actions.md)
+[var](var.md), [varz](varz.md), [vareq](vareq.md), [vargt](vargt.md), [varlt](varlt.md), [PRE Actions](NLP_PP_Stuff/AT-PRE_Actions.md)
