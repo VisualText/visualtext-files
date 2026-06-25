@@ -13,7 +13,7 @@ The return types include:**  STR** (string), **OSTREAM** (output stream) and **
 | [**coutreset(fileNameStr)**](coutreset.md) | **OSTREAM** | Bind cout() stream to the given filename. |
 | [**closefile(fileOstream)**](closefile.md) | **BOOL** | Close the output file stream. |
 | [**inputrangetofile(start_n,end_n,out_ostr)**](inputrangetofile.md) | **BOOL** | Print a range of chars from the input text to an output stream. (Listed with Parse Tree Functions) |
-| [**LJ(num, fieldsize_num)**](LJ.md) | **STR** | Left-justify num in given field size. |
+| [**LJ(str, fieldsize_num)**](LJ.md) | **STR** | Left-justify str in given field size. |
 | [**openfile(fileNameStr)**](openfile.md) | **OSTREAM** | Open output file stream. |
 | [**percentstr(numerator_num, denominator_num)**](percentstr.md) | **STR (" 0" to "100")** | Format a percentage (right-justified in field of 3 chars). |
 | [**rightjustifynum(num, fieldsize_num)**](rightjustifynum.md) | **STR** | Right-justify num in given field size. |

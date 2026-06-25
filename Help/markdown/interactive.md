@@ -61,4 +61,4 @@ G("out") << "Hello output!" << "\n";
 
 ## See Also
 
-[cbuf](cbuf.md), [cout](cout.md), [batchstart](batchstart.md), [Special Functions](Table_of_Special_Functions.md)
+[cbuf](cbuf.md), [cout](cout.md), [Special Functions](Table_of_Special_Functions.md)

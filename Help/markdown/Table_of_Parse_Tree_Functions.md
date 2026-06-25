@@ -12,7 +12,6 @@ The return types include:  **INT** (integer), **PNODE** (parse tree node), **ST
 | [**eltnode(elt_num)**](eltnode.md) | **PNODE** | Fetch the first node that matched the nth element of a rule. |
 | [**group(start_n,end_n,name_str)**](group.md) | **PNODE** | Perform a reduction in the @POST region. Replaces the old group action. (2.3.1.9 return the created node.) |
 | [**inputrange(start_n,end_n)**](inputrange.md) | **STR** | Return a substring of the input text as specified by start and end offsets. |
-| [**inputrange(start_n,end_n,out_ostr)**](inputrange.md) | **BOOL** | Print a range of chars from the input text to an output stream. |
 | [**lasteltnode(elt_num)**](lasteltnode.md) | **PNODE** | Fetch the last node that matched the nth element of a rule. |
 | [**phrasetext()**](phrasetext.md) | **STR** | Fetch the text that matched the right hand side phrase of a rule. Analogous to $text. |
 | [**phraseraw()**](phraseraw.md) | **STR** | Fetch the raw text that matched the right hand side phrase of a rule. Analogous to $raw |

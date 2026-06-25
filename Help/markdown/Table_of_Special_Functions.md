@@ -8,13 +8,10 @@ The return types include:  **STR** (string), **INT** (integer), and **BOOL** (B
 
 | **FUNCTION NAME** | **RETURNS** | **DESCRIPTION** |
 | --- | --- | --- |
-| [**batchstart()**](batchstart.md) | **BOOL(1,0)** | Check if start of a batch analysis. True if current file is first in a batch run. |
 | [**debug()**](debug.md) | **BOOL(1,0)** | No op. Convenient breakpoint for debugging from C++ compiler. |
 | [**exitpass()**](exitpass.md) | **NONE** | Exit from the current pass file immediately, without performing rule matching (if any). |
-| [**exittopopup(message_str, type_str)**](exittopopup.md) | **BOOL(1,0)** | Exit from current pass, invoking a popup if within VisualText. |
 | [**fail()**](fail.md) | **NONE** | In CHECK Region, abort the rule that has just matched. Noop elsewhere. See succeed(). |
-| [**findana**](findana.md) | **STR** | See if named project is already resident in memory. **(New in 1.6)** |
-| [**getpopupdata()**](getpopupdata.md) | **STR** | Get the data typed in by a call to **exittopopup**(). |
+| [**findana**](findana.md) | **BOOL(1,0)** | See if named project is already resident in memory. **(New in 1.6)** |
 | [**hitconf(hits_num, total_num, fudge_num)**](hitconf.md) | **INT (0 to 100)** | Calculate the keyword density. Fudge factor is typically 3 to 20. |
 | [**interactive()**](interactive.md) | **BOOL(1,0)** | True if analyzer is being run in an interactive environment, e.g., inside VisualText. |
 | [**mkdir(dir_str)**](mkdir.md) | **BOOL(1,0)** | Create a directory. Operating system-dependent. |

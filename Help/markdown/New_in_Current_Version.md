@@ -296,7 +296,7 @@ The [Attribute Editor](VisualText_Interface/Tools/Attribute_Editor.md) has been 
 
 ## Miscellaneous
 
-An analyzer may now cause the creation of a popup window within VisualText, with the new functions **[exittopopup](exittopopup.md)**() and **[getpopupdata](getpopupdata.md)**().
+An analyzer may now cause the creation of a popup window within VisualText, with the new functions **exittopopup**() and **getpopupdata**().
 
 The built-in database function **[dbbindcol](dbbindcol.md)**() is the first to employ call-by-reference within NLP++.  User-defined functions may not use call-by-reference at this time.
 
