@@ -27,4 +27,4 @@ The KB Editor displays the hierarchy of concepts in the Knowledge Base.  You ca
 
 1. Select a **concept** in the KB.
 
-1. Right-click and select **Attributes** from the menu.  This will bring up the Attribute Editor.  See [Attribute Editor Description](../../VisualText_Interface/Tools/Attribute_Editor.md#function) for details on the Attribute Editor buttons.
+1. Right-click and select **Attributes** from the menu.  This will bring up the Attribute Editor.  See Attribute Editor Description for details on the Attribute Editor buttons.

@@ -40,4 +40,4 @@ To view the phrase for a concept in the Knowledge Base:
 
 ## See Also
 
-[Attribute Editor](../../VisualText_Interface/Tools/Attribute_Editor.md)
+Attribute Editor

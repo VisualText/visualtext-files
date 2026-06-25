@@ -6,7 +6,7 @@ VisualText provides a number of debugging tools to make building text analyzers 
 
 **Debug Structure: Trees**
 
-Almost all debugging tools in VisualText are based on parse trees. VisualText analyzers build parse trees, which organize information into meaningful chunks. You can debug an analyzer pass-by-pass, by setting the [Generate Logs](../VisualText_Interface/Toolbars/Workspace_Toolbar.md#Toggle_Generate_Logs) button and running the analyzer:
+Almost all debugging tools in VisualText are based on parse trees. VisualText analyzers build parse trees, which organize information into meaningful chunks. You can debug an analyzer pass-by-pass, by setting the Generate Logs button and running the analyzer:
 
 ![](../../helps/HowToBuild/Debugging/Image196.gif)  followed by ![](../../helps/HowToBuild/Debugging/Image197.gif)
 
@@ -20,7 +20,7 @@ The Ana Tab provides the context for what tree is displayed during debugging. Th
 
 ## Highlighting
 
-Highlighting is the quickest way to see which rules in a pass have fired. It operates on the text in the text file you are analyzing. Highlighting is activated by clicking the [Toggle Highlight Mode](../VisualText_Interface/Toolbars/Workspace_Toolbar.md#Toggle_Highlight_Mode) button on the toolbar. It must be turned on before you run the analyzer.
+Highlighting is the quickest way to see which rules in a pass have fired. It operates on the text in the text file you are analyzing. Highlighting is activated by clicking the Toggle Highlight Mode button on the toolbar. It must be turned on before you run the analyzer.
 
 ![](../../helps/HowToBuild/Debugging/Image200.gif)
 
@@ -80,10 +80,10 @@ VisualText informs you of syntax errors via the Log Window. If a syntax error is
 
 ## Searching in Text
 
-VisualText's [Find in Files](../VisualText_Interface/Windows/Find_in_Files_Dialog.md) dialog is handy for finding words and concepts in an analyzer project. One can search for a word or phrase in only the word files, text files, or even in other analyzers in the user's analyzer area:
+VisualText's Find in Files dialog is handy for finding words and concepts in an analyzer project. One can search for a word or phrase in only the word files, text files, or even in other analyzers in the user's analyzer area:
 
 ![](../../helps/VisualText_Interface/Windows/findInFilesCorpSample.gif)
 
-Search results are displayed in the [Find Window](../Find_Window.md).  By double-clicking on a search result line, you can go immediately to the file and line containing an instance of the search string:
+Search results are displayed in the Find Window.  By double-clicking on a search result line, you can go immediately to the file and line containing an instance of the search string:
 
 ![](../../helps/HowToBuild/Debugging/Image216.gif)

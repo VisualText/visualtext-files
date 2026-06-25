@@ -84,7 +84,7 @@ GE
 
 ![](../../../helps/Tutorials/GO.gif) Close and double-click on the file to open it.  (VisualText converts carriage return plus line feed to carriage return, which will affect the offsets and automated rule generation, so this step needs to be done for each new or saved file.)
 
-The file companies.txt is now contained in the dictionary directory. (If you don't see it in the Text Tab, choose Refresh from the [Text Tab Popup Menu)](../../Text_Tab_Popup.md)
+The file companies.txt is now contained in the dictionary directory. (If you don't see it in the Text Tab, choose Refresh from the Text Tab Popup Menu)
 
 ![](../../../helps/Tutorials/tutorial4/file_in_dict_folder.gif)
 
@@ -414,7 +414,7 @@ Now that we have edited our company2nouns pass file to print information to an o
 
 There are a couple of methods to view output files. The easiest is:
 
-![](../../../helps/Tutorials/GO.gif) Select the View Output File button ![](../../../helps/Toolbar_buttons/view_output_file_button.gif) located on the [Debug Toolbar](../../VisualText_Interface/Toolbars/Toolbar.md#Debug_Toolbar).
+![](../../../helps/Tutorials/GO.gif) Select the View Output File button ![](../../../helps/Toolbar_buttons/view_output_file_button.gif) located on the Debug Toolbar.
 
 The output.txt file will open up in the Workspace. The result looks like this:
 

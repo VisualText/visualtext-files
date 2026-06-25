@@ -16,7 +16,7 @@ A caveat in using RUG is that sometimes rules will not be as general as you want
 
 ## Automated Rule Generation and the Gram Tab
 
-The [Gram Tab](../VisualText_Interface/Tab.md#Gram_Tab) is where you set up concepts and samples for the automated rule generation process.
+The Gram Tab is where you set up concepts and samples for the automated rule generation process.
 
 ## Basic Process of Automated Rule Generation
 

@@ -42,9 +42,9 @@ C:\apps\myAnalyzerFolder
 
 Our first step is to create a stub. A stub is a placeholder for a sequence of passes that will be generated automatically. You are setting aside an area for the automatic rule generator to create the rules for you.
 
-![](../../../helps/Tutorials/GO.gif) In the [Tab Window](../../VisualText_Interface/Tab.md), click on the Ana Tab and select the tokenize pass. (The stub will be inserted after the pass you select in this step.)
+![](../../../helps/Tutorials/GO.gif) In the Tab Window, click on the Ana Tab and select the tokenize pass. (The stub will be inserted after the pass you select in this step.)
 
-![](../../../helps/Tutorials/GO.gif) Now go the Gram Tab, move cursor into the window and right mouse click to bring up the [Gram Tab Popup Menu](../../Gram_Tab_Popup.md).
+![](../../../helps/Tutorials/GO.gif) Now go the Gram Tab, move cursor into the window and right mouse click to bring up the Gram Tab Popup Menu.
 
 ![](../../../helps/Tutorials/GO.gif) Select Add > Stub.
 
@@ -72,7 +72,7 @@ Now that we have a words stub, our next step is to create a set of rule concepts
 
 The rule concepts we will create correspond to the classic syntactic categories of noun, verb, determiner, adjective, etc.
 
-![](../../../helps/Tutorials/GO.gif) (Make sure the words concept selected.) Right click In the Gram Tab, to bring up the [Gram Tab Popup Menu](../../Gram_Tab_Popup.md).
+![](../../../helps/Tutorials/GO.gif) (Make sure the words concept selected.) Right click In the Gram Tab, to bring up the Gram Tab Popup Menu.
 
 ![](../../../helps/Tutorials/GO.gif) Select Add > Rule.
 
@@ -199,7 +199,7 @@ In this tutorial, we are concerned with setting only one of the properties, the 
 
 ![](../../../helps/Tutorials/GO.gif) Select the words stub in the Gram Tab.
 
-![](../../../helps/Tutorials/GO.gif) Right click to bring up the [Gram Tab Popup Menu](../../Gram_Tab_Popup.md).
+![](../../../helps/Tutorials/GO.gif) Right click to bring up the Gram Tab Popup Menu.
 
 ![](../../../helps/Tutorials/GO.gif) Choose Properties.
 
@@ -233,7 +233,7 @@ Additional passes appear in our analyzer sequence. Each of the new passes contai
 
 ![](../../../helps/Tutorials/tutorial2/anaStubrules.gif)
 
-Notice that the [Log Window](../../Log_Window.md) has also changed.  It says Generating rules: start then Generating rules: done. This window is just telling you that VisualText has started and completed the task of generating rules. If there had been problems generating the rules, error messages would have been displayed here.
+Notice that the Log Window has also changed.  It says Generating rules: start then Generating rules: done. This window is just telling you that VisualText has started and completed the task of generating rules. If there had been problems generating the rules, error messages would have been displayed here.
 
 Let's take a look at the rules VisualText created.
 
@@ -264,7 +264,7 @@ Now that we have some extra passes in our analyzer sequence, let's run the analy
 
 Now that we have run the analyzer, let's view the resulting parse tree.
 
-![](../../../helps/Tutorials/GO.gif) Click on the View Parse Tree button. ![](../../../helps/Toolbar_buttons/view_entire_tree_button.gif) or select the eg1.txt in the Workspace, right mouse click, and select View > Parse Tree from the[Text File Popup Menu.](../../VisualText_Interface/Popups/Text_File_Popup.md)
+![](../../../helps/Tutorials/GO.gif) Click on the View Parse Tree button. ![](../../../helps/Toolbar_buttons/view_entire_tree_button.gif) or select the eg1.txt in the Workspace, right mouse click, and select View > Parse Tree from theText File Popup Menu.
 
 Your parse tree should look like this:
 

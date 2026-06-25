@@ -4,7 +4,7 @@
 
 The Dictionary Lookup Tool is a very handy tool for building and refining lexicons.  This tool allows users to easily access dictionary sites on the Web and to display search results within VisualText.
 
-To access online dictionaries, the paths to these sites must be set in [VisualText preferences](../../VisualText_Interface/Main_File_Menu.md#dictionaryLookup_pref) located under the File Menu.
+To access online dictionaries, the paths to these sites must be set in VisualText preferences located under the File Menu.
 
 ## List of Commonly Used Online Dictionary Sites
 
@@ -20,7 +20,7 @@ A list of commonly used online dictionary sites and the paths to their search pa
 | **Note**: The Google path returns pages for English only. |
 | --- |
 
-Once set, the dictionaries can be accessed from the main [Tools Menu](../../VisualText_Interface/Main_Tools_Menu.md), and from the Tools menu in both the [Text Tab Popup Menu](../../Text_Tab_Popup.md) and the [Text File Popup Menu](../../VisualText_Interface/Popups/Text_File_Popup.md).  Dictionaries can also be accessed from the [Attribute Editor](../../VisualText_Interface/Tools/Attribute_Editor.md).
+Once set, the dictionaries can be accessed from the main Tools Menu, and from the Tools menu in both the Text Tab Popup Menu and the Text File Popup Menu.  Dictionaries can also be accessed from the Attribute Editor.
 
 ## **Constructing Simple URLs**
 

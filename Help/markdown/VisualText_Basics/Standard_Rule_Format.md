@@ -10,7 +10,7 @@ The rules below are not in standard rule format. Notice that the elements (_VP, 
 
 ## Converting to Standard Form
 
-Rules written on a single line can be converted using the Pass File Popup Menu item [One Line to Standard Rule Format](../VisualText_Interface/Popups/Pass_File_Popup.md#pass_file_popup_convert_line_to_srf):
+Rules written on a single line can be converted using the Pass File Popup Menu item One Line to Standard Rule Format:
 
 ![](../../helps/VisualText_Basics/FIGURE2.GIF)
 
