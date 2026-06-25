@@ -29,6 +29,16 @@ Returns **1** if the token is all lowercase and **0** if not. If multiple words 
 
 ## Example
 
+```
+@POST
+    if (N("$lowercase",1))
+        N("common",1) = 1;
+@@POST
+
+@RULES
+_word <- _xWILD [one] @@
+```
+
 ## See Also
 
 [$allcaps]($allcaps.md), [$cap]($cap.md), [$mixcap]($mixcap.md), [$uppercase]($uppercase.md), [Special Variables](NLP_PP_Stuff/Special_Variables.md#table)

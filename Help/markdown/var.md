@@ -22,7 +22,11 @@ varName - type: string
 
 ## Returns
 
+Succeeds (keeps the match) if the matched node has a variable called varName with a non-zero value; otherwise fails and the element does not match.
+
 ## Remarks
+
+The variable is read directly from the matched node. PRE actions disregard the **base** attribute of a node, looking under it to the leaf node.
 
 ## Example
 

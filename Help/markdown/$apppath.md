@@ -20,11 +20,20 @@ variableType - type: G
 
 ## Returns
 
+Returns the base directory path of the current application as a string (e.g., "D:\dev\apps\Resume").
+
 ## Remarks
 
 ## Example
 
 "D:\dev\apps\Resume".
+
+```
+@CODE
+    L("file") = "output.txt";
+    L("file") << "App path: " << G("$apppath") << "\n";
+@@CODE
+```
 
 ## See Also
 

@@ -22,16 +22,20 @@ number - type: int
 
 ## Returns
 
+Returns the length of the node's text as an integer.
+
 ## Remarks
 
 ## Example
 
 ```
-@RULES
-```
+@POST
+    if (N("$length",1) > 3)
+        N("long",1) = 1;
+@@POST
 
-```
-@@RULES
+@RULES
+_word <- _xWILD [one] @@
 ```
 
 ## See Also

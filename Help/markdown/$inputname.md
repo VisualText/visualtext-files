@@ -20,11 +20,20 @@ variableType - type: G
 
 ## Returns
 
+Returns the name (file name with extension) of the input file as a string (e.g., "rez.txt").
+
 ## Remarks
 
 ## Example
 
 $inputname returns "rez.txt" if the input file is "rez.txt".
+
+```
+@CODE
+    L("file") = "output.txt";
+    L("file") << "Input name: " << G("$inputname") << "\n";
+@@CODE
+```
 
 ## See Also
 

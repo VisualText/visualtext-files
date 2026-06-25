@@ -20,16 +20,19 @@ number - type: int
 
 ## Returns
 
+Returns the start offset of the referenced node in the input text as an integer.
+
 ## Remarks
 
 ## Example
 
 ```
-@RULES
-```
+@POST
+    "output.txt" << N("$ostart",1) << "\n";
+@@POST
 
-```
-@@RULES
+@RULES
+_word <- _xWILD [one] @@
 ```
 
 ## See Also

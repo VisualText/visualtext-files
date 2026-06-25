@@ -10,6 +10,12 @@ Match an alphabetic token, including accented and other extended ANSI chars.
 
 ## Example
 
+```
+@RULES
+
+_word <- _xALPHA @@
+```
+
 ## See Also
 
 [_xCAP](_xCAP.md), [_xNUM](_xNUM.md), [_xCTRL](_xCTRL.md), [Special Rule Elements](NLP_PP_Stuff/Special_rule_elements.md)

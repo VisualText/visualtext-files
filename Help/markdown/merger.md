@@ -20,6 +20,8 @@ number2 - type: int
 
 ## Returns
 
+Nothing is returned to NLP++. As a side effect, the nodes in the range from ***number1*** to ***number2*** are reduced to a single new node, and each top-level node in that range is dissolved so that its children become direct children of the new node.
+
 ## Remarks
 
 ## Example

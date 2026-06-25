@@ -20,11 +20,22 @@ ord - type:
 
 ## Returns
 
+Writes every variable on the **ord**th context node and its value(s) to **fileName**.  If **ord** is 0 or omitted, the last context node is used.  This action returns no value.
+
 ## Remarks
 
 The output file (**fileName**) must be set up in advance using **openfile**, **fileout** or an output statement.
 
 ## Example
+
+```
+@POST
+  xdump("context.txt", 1);
+@@POST
+
+@RULES
+_item <- _noun @@
+```
 
 ## See Also
 

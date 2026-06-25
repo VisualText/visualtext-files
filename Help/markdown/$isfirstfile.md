@@ -26,6 +26,14 @@ Returns 1 if the current file is the first file, 0 if not.
 
 ## Example
 
+```
+@CODE
+    if (G("$isfirstfile")) {
+        "summary.txt" << "Header\n";
+    }
+@@CODE
+```
+
 ## See Also
 
 [$isdirrun]($isdirrun.md), [$islastfile]($islastfile.md), [$inputpath]($inputpath.md), [Special Variables](NLP_PP_Stuff/Special_Variables.md#table)

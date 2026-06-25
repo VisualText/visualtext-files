@@ -10,6 +10,12 @@ Match control and nonalphabetic extended ANSI characters.
 
 ## Example
 
+```
+@RULES
+
+_ctrl <- _xCTRL @@
+```
+
 ## See Also
 
 [_xALPHA](_xALPHA.md),  [Special Rule Elements](NLP_PP_Stuff/Special_rule_elements.md)

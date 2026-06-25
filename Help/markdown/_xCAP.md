@@ -10,6 +10,12 @@ Match an alphabetic with uppercase first letter.
 
 ## Example
 
+```
+@RULES
+
+_properNoun <- _xCAP @@
+```
+
 ## See Also
 
 [_xALPHA](_xALPHA.md), [Special Rule Elements](NLP_PP_Stuff/Special_rule_elements.md)

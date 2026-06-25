@@ -55,3 +55,5 @@ cout() << "Hello output stream!" << "\n";
 ```
 
 ## See Also
+
+[cout](cout.md), [cbuf](cbuf.md), [openfile](openfile.md), [Formatting and I/O Functions](Table_of_Formatting_and_I_O_Functions.md)

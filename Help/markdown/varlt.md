@@ -24,6 +24,8 @@ num - type: int
 
 ## Returns
 
+Succeeds (keeps the match) if the matched node has a variable called varName whose numeric value is less than num; otherwise fails and the element does not match.
+
 ## Remarks
 
 The comparison is defined only numerically. If the variable holds a string value (or is absent), the match fails.

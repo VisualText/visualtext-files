@@ -15,6 +15,13 @@ Designate the first lookahead element of a rule. The first node matching the loo
 
 ## Example
 
+```
+@POST
+singler();
+@RULES
+_det <- _xWILD [match=(the a an)] _noun [look] @@
+```
+
 ## See Also
 
 [trigger](trigger.md), [Phrase Element Modifiers](NLP_PP_Stuff/Phrase_element_modifiers.md).

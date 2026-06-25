@@ -14,6 +14,8 @@ merge()
 
 ## Returns
 
+Nothing is returned to NLP++. As a side effect, the matched phrase is reduced to a single new node, and each top-level matched node is dissolved so that its children become direct children of the new node.
+
 ## Remarks
 
 ## Example

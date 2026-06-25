@@ -28,6 +28,16 @@ Returns **1** if the token is a mixed-capitalized word and **0** if not.
 
 MIchigan, or abcD
 
+```
+@POST
+    if (N("$mixcap",1))
+        N("mixedcase",1) = 1;
+@@POST
+
+@RULES
+_word <- _xWILD [one] @@
+```
+
 ## See Also
 
 [$allcaps]($allcaps.md), [$cap]($cap.md), [$lowercase]($lowercase.md), [$uppercase]($uppercase.md), [Special Variables](NLP_PP_Stuff/Special_Variables.md#table)

@@ -14,6 +14,8 @@ listadd(olist, oitem[,keep])
 
 ## Returns
 
+Nothing is returned to NLP++. As a side effect, the node matching ***oitem*** is added as a child of the list node matching ***olist*** (as the first or last child depending on their order in the phrase). This reduce does not create a new reduce node.
+
 ## Remarks
 
 ## Example

@@ -20,6 +20,8 @@ number2 - type: int
 
 ## Returns
 
+Nothing is returned to NLP++. As a side effect, only the nodes in the range from ***number1*** to ***number2*** are reduced to a single new node named for the rule's suggested element; nodes outside the range are left in place.
+
 ## Remarks
 
 ## Example

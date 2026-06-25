@@ -59,3 +59,5 @@ G("out") << "Hello output stream!" << "\n";
 ```
 
 ## See Also
+
+[cbuf](cbuf.md), [coutreset](coutreset.md), [openfile](openfile.md), [interactive](interactive.md), [Formatting and I/O Functions](Table_of_Formatting_and_I_O_Functions.md)

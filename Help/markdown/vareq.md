@@ -24,7 +24,11 @@ numOrString - type: int or string
 
 ## Returns
 
+Succeeds (keeps the match) if the matched node has a variable called varName whose value equals the string or number given in the second argument; otherwise fails and the element does not match.
+
 ## Remarks
+
+If the second argument is a non-empty string, the value is compared as a string; otherwise it is compared numerically.
 
 ## Example
 

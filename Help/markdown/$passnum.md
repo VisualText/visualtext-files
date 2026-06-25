@@ -28,6 +28,13 @@ Pass numbering reflects the order of passes in the analyzer sequence. See also [
 
 ## Example
 
+```
+@CODE
+    L("file") = "output.txt";
+    L("file") << "Pass: " << G("$passnum") << "\n";
+@@CODE
+```
+
 ## See Also
 
 [$rulenum]($rulenum.md), [Special Variables](NLP_PP_Stuff/Special_Variables.md#table)

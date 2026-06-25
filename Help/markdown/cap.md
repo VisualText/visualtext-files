@@ -20,7 +20,11 @@ toRuleEltNumber - type: int
 
 ## Returns
 
+Succeeds (keeps the match) if the leaf token begins with an uppercase alphabetic letter; otherwise fails and the element does not match. A token whose first character is not alphabetic always fails.
+
 ## Remarks
+
+This is a single-leaf-token action. If the matched node covers more than one leaf token, the action automatically fails. PRE actions disregard the **base** attribute, looking under it to the leaf node. Any arguments passed are ignored.
 
 ## Example
 

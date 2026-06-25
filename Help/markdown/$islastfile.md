@@ -26,6 +26,14 @@ Returns 1 if the current file is the last file, 0 if not.
 
 ## Example
 
+```
+@CODE
+    if (G("$islastfile")) {
+        "summary.txt" << "Done processing all files.\n";
+    }
+@@CODE
+```
+
 ## See Also
 
 [$isdirrun]($isdirrun.md), [$isfirstfile]($isfirstfile.md), [$inputpath]($inputpath.md), [Special Variables](NLP_PP_Stuff/Special_Variables.md#table)

@@ -22,6 +22,8 @@ number - type: int
 
 ## Returns
 
+Returns the text covered by the node from the parse tree as a string, without cleanup of leading/trailing spaces or separators.
+
 ## Remarks
 
 Analogous to $treetext.
@@ -29,11 +31,12 @@ Analogous to $treetext.
 ## Example
 
 ```
-@RULES
-```
+@POST
+    "output.txt" << N("$treeraw",1) << "\n";
+@@POST
 
-```
-@@RULES
+@RULES
+_phrase <- _word [plus] @@
 ```
 
 ## See Also

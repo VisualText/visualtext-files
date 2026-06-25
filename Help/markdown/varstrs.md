@@ -18,6 +18,8 @@ varname - type: str
 
 ## Returns
 
+Nothing. This is a side-effecting CODE action: it creates the empty multi-string-valued global variable **varname** in the current parse and returns no value to NLP++.
+
 ## Remarks
 
 Obsolete, slated for removal.  Use NLP++ array code instead, e.g., G("tmp") = 0; G("tmp") = "abc"; G("tmp")[1] = "def";

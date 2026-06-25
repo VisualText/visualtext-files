@@ -22,6 +22,8 @@ number - type: int
 
 ## Returns
 
+Returns the cleaned-up text gleaned from the node's subtree (parse tree) as a string.
+
 ## Remarks
 
 Uses the parse tree as input, not text buffer. $treetext is analogous to $text. The difference between $treetext and $text is $text returns text from the input text buffer while $treetext returns text from the parse tree. If you have removed some nodes from a tree with an excise(), $treetext returns the text minus the excised elements, while $text returns everything in the input text buffer, including the text under excised nodes.
@@ -30,20 +32,11 @@ Uses the parse tree as input, not text buffer. $treetext is analogous to $text. 
 
 ```
 @POST
-
-
-
-
-
+    "output.txt" << N("$treetext",1) << "\n";
 @@POST
-```
 
-```
 @RULES
-```
-
-```
-@@RULES
+_phrase <- _word [plus] @@
 ```
 
 ## See Also

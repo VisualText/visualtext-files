@@ -20,6 +20,8 @@ number2 - type: int
 
 ## Returns
 
+Nothing is returned to NLP++. As a side effect, the nodes in the range from ***number1*** to ***number2*** are reduced to a single new node, and all matched nodes outside the range are excised (removed) from the parse tree.
+
 ## Remarks
 
 ## Example

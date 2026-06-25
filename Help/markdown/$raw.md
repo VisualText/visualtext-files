@@ -22,16 +22,19 @@ number - type: int
 
 ## Returns
 
+Returns the cleaned-up text covered by the node as a string, gathered from the input text buffer.
+
 ## Remarks
 
 ## Example
 
 ```
-@RULES
-```
+@POST
+    "output.txt" << N("$raw",1) << "\n";
+@@POST
 
-```
-@@RULES
+@RULES
+_phrase <- _word [plus] @@
 ```
 
 ## See Also

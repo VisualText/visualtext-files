@@ -25,7 +25,8 @@
 #>
 param(
   [string]$HelpDir    = (Join-Path $PSScriptRoot 'markdown'),
-  [string]$EnginePath = 'c:\git\nlp-engine\lite'
+  [string]$EnginePath = 'c:\git\nlp-engine\lite',
+  [switch]$Stubs       # also report current pages with empty Returns/Example/Remarks sections
 )
 
 if (-not (Test-Path $HelpDir)) { Write-Error "HelpDir not found: $HelpDir"; exit 2 }
@@ -97,6 +98,32 @@ if (Test-Path $EnginePath) {
   Write-Host ("   " + ($noPage -join ', '))
 } else {
   Write-Host "`n== 4. Engine coverage skipped (EnginePath not found: $EnginePath) ==" -ForegroundColor DarkYellow
+}
+
+# --- 5. Empty stub sections in current pages (opt-in via -Stubs) --------------
+if ($Stubs) {
+  $cats = @('Returns','Example','Remarks','Purpose','Syntax','See Also')
+  $tally = @{}; foreach ($c in $cats) { $tally[$c] = 0 }
+  $rows = @()
+  $currentFlat = $flat | Where-Object { $indexTxt -match [regex]::Escape('(' + $_.Name + ')') }
+  foreach ($f in $currentFlat) {
+    $lines = Get-Content $f.FullName
+    $empty = @()
+    for ($i = 0; $i -lt $lines.Count; $i++) {
+      if ($lines[$i] -match '^##\s+(Returns|Example|Remarks|Purpose|Syntax|See Also)\s*$') {
+        $sec = $Matches[1]; $j = $i + 1; $has = $false
+        while ($j -lt $lines.Count -and $lines[$j] -notmatch '^##\s') {
+          if ($lines[$j].Trim() -ne '') { $has = $true; break }
+          $j++
+        }
+        if (-not $has) { $empty += $sec; $tally[$sec]++ }
+      }
+    }
+    if ($empty.Count -gt 0) { $rows += [pscustomobject]@{ Page = $f.BaseName; Empty = ($empty -join ',') } }
+  }
+  Write-Host "`n== 5. Current pages with empty sections ($($rows.Count) pages) ==" -ForegroundColor Cyan
+  Write-Host ("   by section: " + (($cats | ForEach-Object { "$_=$($tally[$_])" }) -join '  '))
+  $rows | Sort-Object Page | ForEach-Object { Write-Host ("   {0,-22} {1}" -f $_.Page, $_.Empty) }
 }
 
 Write-Host "`n--- summary ---" -ForegroundColor Green

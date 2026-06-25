@@ -22,6 +22,8 @@ number2 - type: int
 
 ## Returns
 
+Writes the matched input text spanning rule elements **number1** through **number2** to **fileName**.  This action returns no value.
+
 ## Remarks
 
 The output file (**fileName**) must be set up in advance using **openfile**, **fileout** or an output statement.
@@ -31,8 +33,7 @@ The output file (**fileName**) must be set up in advance using **openfile**, **f
 ```
 @POST
 
-
-
+prrange("output.txt", 1, 3);
 
 
 @@POST
@@ -40,6 +41,7 @@ The output file (**fileName**) must be set up in advance using **openfile**, **f
 
 ```
 @RULES
+_company <- _name [s] _suffix @@
 ```
 
 ```

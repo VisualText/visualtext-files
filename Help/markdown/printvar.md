@@ -18,11 +18,19 @@ varName - type: str
 
 ## Returns
 
+Writes the value(s) of the global variable **varName** to the current output file if one is open, otherwise to standard output.  If the variable has multiple values, they are written separated by spaces.  This action returns no value.
+
 ## Remarks
 
 Old-style.
 
 ## Example
+
+```
+@CODE
+
+printvar("count");
+```
 
 ## See Also
 

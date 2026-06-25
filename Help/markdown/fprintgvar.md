@@ -20,11 +20,19 @@ var - type:
 
 ## Returns
 
+Writes the value of the global variable **var** to **fileName**.  This action returns no value.
+
 ## Remarks
 
 The output file (**fileName**) must be set up in advance using **openfile**, **fileout** or an output statement.
 
 ## Example
+
+```
+@POST
+  fprintgvar("output.txt", "count");
+@@POST
+```
 
 ## See Also
 

@@ -22,7 +22,11 @@ varName - type: string
 
 ## Returns
 
+Succeeds (keeps the match) if the matched node has a variable called varName with a zero value, or lacks the variable altogether; otherwise fails and the element does not match.
+
 ## Remarks
+
+This is the complement of [var](var.md): it succeeds in exactly the cases where var would fail.
 
 ## Example
 

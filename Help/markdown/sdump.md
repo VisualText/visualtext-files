@@ -18,11 +18,19 @@ fileName - type: str
 
 ## Returns
 
+Writes every variable being built for the suggested node and its value(s) to **fileName**.  This action returns no value.
+
 ## Remarks
 
 The output file (**fileName**) must be set up in advance using **openfile**, **fileout** or an output statement.
 
 ## Example
+
+```
+@POST
+  sdump("suggested.txt");
+@@POST
+```
 
 ## See Also
 

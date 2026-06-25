@@ -24,9 +24,23 @@ lengthNumber2 - type: int
 
 ## Returns
 
+Succeeds (keeps the match) if the leaf token length is within the inclusive range (lengthNumber1, lengthNumber2); otherwise fails and the element does not match.
+
 ## Remarks
 
+The length is measured in Unicode characters. The range must be valid: both numbers non-negative and lengthNumber1 not greater than lengthNumber2, otherwise the action reports a bad-range error and fails. This is a single-leaf-token action: if the matched node covers more than one leaf token, the action automatically fails.
+
 ## Example
+
+```
+@PRE
+
+<1,1>lengthr(3,6);
+
+@RULES
+
+_shortWord <- _xALPHA@@
+```
 
 ## See Also
 

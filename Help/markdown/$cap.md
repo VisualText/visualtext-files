@@ -29,6 +29,16 @@ Returns **1** if the token is a capitalized word and **0** if not.
 
 ## Example
 
+```
+@POST
+    if (N("$cap",1))
+        N("proper",1) = 1;
+@@POST
+
+@RULES
+_word <- _xWILD [one] @@
+```
+
 ## See Also
 
 [$allcaps]($allcaps.md), [$lowercase]($lowercase.md), [$mixcap]($mixcap.md), [$uppercase]($uppercase.md), [Special Variables](NLP_PP_Stuff/Special_Variables.md#table)

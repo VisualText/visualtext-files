@@ -20,11 +20,20 @@ variableType - type: G
 
 ## Returns
 
+Returns the name of the parent directory of the input file as a string (e.g., "Dev1").
+
 ## Remarks
 
 ## Example
 
 $inputparent returns "Dev1" assuming input file is "D\apps\Resume\input\Dev1\text.txt".
+
+```
+@CODE
+    L("file") = "output.txt";
+    L("file") << "Input parent: " << G("$inputparent") << "\n";
+@@CODE
+```
 
 ## See Also
 

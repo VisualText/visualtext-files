@@ -18,11 +18,19 @@ fileName - type: str
 
 ## Returns
 
+Writes every global variable and its value(s) to **fileName**.  This action returns no value.
+
 ## Remarks
 
 The output file (**fileName**) must be set up in advance using **openfile**, **fileout** or an output statement.
 
 ## Example
+
+```
+@CODE
+
+gdump("globals.txt");
+```
 
 ## See Also
 
