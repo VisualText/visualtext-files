@@ -2,9 +2,9 @@
 
 # About the Knowledge Base
 
-The Knowledge Base Management System (KBMS) used in VisualText™ is based on a knowledge representation framework developed by Text Analysis International, called Conceptual Grammar™ (CG). CG represents knowledge in terms of concepts, phrases, and their attributes. Everything "hangs" off a hierarchy of concepts. Because CG can represent concepts, phrases, attributes, and their interrelationships, it allows diverse types of knowledge to be stored flexibly within a single framework. See also the [Introduction to the Knowledge Base](../VisualText_Interface/Knowledge_Base.md).
+The Knowledge Base Management System (KBMS) used in VisualText™ is based on a knowledge representation framework developed by Text Analysis International, called Conceptual Grammar™ (CG). CG represents knowledge in terms of concepts, phrases, and their attributes. Everything "hangs" off a hierarchy of concepts. Because CG can represent concepts, phrases, attributes, and their interrelationships, it allows diverse types of knowledge to be stored flexibly within a single framework. See also the Introduction to the Knowledge Base.
 
-The [KB Editor](../VisualText_Interface/Tools/KB_Editor.md) and the [Attribute Editor](../VisualText_Interface/Tools/Attribute_Editor.md) can be used to manipulate portions of the KB.
+The KB Editor and the Attribute Editor can be used to manipulate portions of the KB.
 
 ## KB Location
 

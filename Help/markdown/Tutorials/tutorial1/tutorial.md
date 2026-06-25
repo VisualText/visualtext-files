@@ -14,9 +14,9 @@ In Tutorial 1, you create and run a simple text analyzer. You give the analyzer 
 
 Take a moment to familiarize yourself with the interface, which divides into three general areas: toolbars, windows, and a workspace.
 
-The various** **toolbars** **give you access to commonly used functions. In Tutorial 1 you will mostly be working with the Main Toolbar. (See the [Interface Overview](../../VisualText_Interface/Interface_Intro.md#Interface_Overview) section for the naming of the VisualText components).
+The various** **toolbars** **give you access to commonly used functions. In Tutorial 1 you will mostly be working with the Main Toolbar. (See the Interface Overview section for the naming of the VisualText components).
 
-At the bottom of the Main Window, you'll see the Log Window and the Find Window (VisualText 2 separates these into tabs). This is where you will be creating and monitoring your analyzer. You will learn more about the Main Window later in this tutorial. The Workspace is where you can view and manipulate files and tools for building and running text analyzers. For more details on the function of all of the windows, toolbars and menus, see the [Interface](../../VisualText_Interface/Interface_Intro.md) section of this manual.
+At the bottom of the Main Window, you'll see the Log Window and the Find Window (VisualText 2 separates these into tabs). This is where you will be creating and monitoring your analyzer. You will learn more about the Main Window later in this tutorial. The Workspace is where you can view and manipulate files and tools for building and running text analyzers. For more details on the function of all of the windows, toolbars and menus, see the Interface section of this manual.
 
 ## Create Analyzer
 
@@ -88,7 +88,7 @@ The Log Window gives you some basic information about an analyzer when you open 
 
 Here it displays the time it took to load the minimal analyzer (myAnalyzer) and its associated knowledge base (KB).
 
-When an error occurs or other information needs to be reported to the user, it is displayed in the Log Window. For typical messages displayed in the Log Window, refer to [Log Window Messages](../../Log_Window.md).
+When an error occurs or other information needs to be reported to the user, it is displayed in the Log Window. For typical messages displayed in the Log Window, refer to Log Window Messages.
 
 ## Tab Window
 
@@ -108,7 +108,7 @@ The Tab Window can be resized by dragging the right edge of the window towards t
 
 ![](../../../helps/Tutorials/GO.gif) Familiarize yourself with each of the tabs in the Tab Window, by selecting the tab (Ana, Gram or Text) and with the cursor in the window (not directly on the tab), right clicking to bring up the popup menu.
 
-You'll be working with a few of these popup menu items in this tutorial. But for a detailed list of the various functions available in the Tab Window, see [Popup Menus](../../VisualText_Interface/Popups/Popup_Menus.md) in the Interface section of this guide.
+You'll be working with a few of these popup menu items in this tutorial. But for a detailed list of the various functions available in the Tab Window, see Popup Menus in the Interface section of this guide.
 
 ![](../../../helps/Tutorials/GO.gif) Click on the **Gram Tab** and then on the **Text Tab**.
 
@@ -122,7 +122,7 @@ The **tokenize** pass algorithm is a system pass and does not have an associated
 
 ## Find Window
 
-The last of the Main Windows is the [Find Window](../../Find_Window.md#Find_Window). It is used to display search results when running a search on texts. Since we don't have any text to search yet, we won't be able to use this window now.
+The last of the Main Windows is the Find Window. It is used to display search results when running a search on texts. Since we don't have any text to search yet, we won't be able to use this window now.
 
 ## Add Text File
 
@@ -182,7 +182,7 @@ If you do add existing text files to the directory, it will be necessary to refr
 
 Now that we have some text, we are ready to run the analyzer. Recall that the analyzer at this point is made up of one default rule pass:** **tokenize.
 
-So that you can see each step in the analyzer sequence, select** Generate Logs** button ![](../../../helps/Toolbar_buttons/toggle_gen_logs_button.gif) on the [Workspace Toolbar](../../VisualText_Interface/Toolbars/Toolbar.md#KB_Toolbar). (When the button is depressed, it appears indented.) When you run an analyzer with Generate Logs on, log files will be created so that you can get detailed information about each step of the analyzer sequence, which can help you debug your analyzer. You'll learn more about generating logs in later tutorials.
+So that you can see each step in the analyzer sequence, select** Generate Logs** button ![](../../../helps/Toolbar_buttons/toggle_gen_logs_button.gif) on the Workspace Toolbar. (When the button is depressed, it appears indented.) When you run an analyzer with Generate Logs on, log files will be created so that you can get detailed information about each step of the analyzer sequence, which can help you debug your analyzer. You'll learn more about generating logs in later tutorials.
 
 ![](../../../helps/Tutorials/GO.gif) Select **eg1.txt** in the Text Tab**.**
 
@@ -202,7 +202,7 @@ There'll be a lot more information about passes and trees later on in these tuto
 
 ![](../../../helps/Tutorials/GO.gif) Select **eg1.txt** in the Workspace.
 
-![](../../../helps/Tutorials/GO.gif) Right click to bring up the **[Text File Popup Menu](../../VisualText_Interface/Popups/Text_File_Popup.md)**.
+![](../../../helps/Tutorials/GO.gif) Right click to bring up the **Text File Popup Menu**.
 
 ![](../../../helps/Tutorials/GO.gif) Select **View > Parse Tree:**
 

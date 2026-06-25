@@ -16,4 +16,4 @@
 
 ## See Also
 
-[Opening analyzers](Opening_analyzers.md) [Structure of analyzer projects](../../VisualText_Basics/Structure_of_Analyzer_Projects.md) [Setting VisualText Preferences](../../VisualText_Interface/Main_File_Menu.md#general_preferences)
+[Opening analyzers](Opening_analyzers.md) [Structure of analyzer projects](../../VisualText_Basics/Structure_of_Analyzer_Projects.md) Setting VisualText Preferences

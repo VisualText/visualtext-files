@@ -38,7 +38,7 @@ Our analyzer right now has eight passes, namely **tokenize**, the automatically 
 
 Now we'll add a new pass following the **words** stub region. In this case, we want to add our next pass to the end of the current analyzer sequence.
 
-![](../../../helps/Tutorials/GO.gif) Select the end-of-stub marker **end_words** and right-click to display the **[Ana Tab Popup Menu](../../Ana_Tab_Popup.md)**.
+![](../../../helps/Tutorials/GO.gif) Select the end-of-stub marker **end_words** and right-click to display the **Ana Tab Popup Menu**.
 
 ![](../../../helps/Tutorials/GO.gif) Select **Add > New Pass**.
 

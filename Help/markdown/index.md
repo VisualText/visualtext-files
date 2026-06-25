@@ -580,4 +580,4 @@ above. They are grouped here so that every page remains reachable from this inde
 
 ### Other Pages
 
-[Pass_Files](NLP_PP_Stuff/Pass_Files.md) &nbsp;|&nbsp; [Basic_steps_for_creating_a_text_analyzer](Possibly_JUNK/Basic_steps_for_creating_a_text_analyzer.md) &nbsp;|&nbsp; [NLP++](Possibly_JUNK/NLP++.md) &nbsp;|&nbsp; [GenTxt1](Sample_Analyzers/GenTxtDocs/GenTxt1.md) &nbsp;|&nbsp; [Welcome](SPLASH_SCREEN/Welcome.md) &nbsp;|&nbsp; [Running_Analyzer_on_Multiple_Files](Using_VisualText/Running_Analyzers/Running_Analyzer_on_Multiple_Files.md) &nbsp;|&nbsp; [Knowledge_Base](VisualText_Interface/Knowledge_Base.md)
+[Pass_Files](NLP_PP_Stuff/Pass_Files.md) &nbsp;|&nbsp; [Basic_steps_for_creating_a_text_analyzer](Possibly_JUNK/Basic_steps_for_creating_a_text_analyzer.md) &nbsp;|&nbsp; [NLP++](Possibly_JUNK/NLP++.md) &nbsp;|&nbsp; [GenTxt1](Sample_Analyzers/GenTxtDocs/GenTxt1.md) &nbsp;|&nbsp; [Welcome](SPLASH_SCREEN/Welcome.md) &nbsp;|&nbsp; [Running_Analyzer_on_Multiple_Files](Using_VisualText/Running_Analyzers/Running_Analyzer_on_Multiple_Files.md)

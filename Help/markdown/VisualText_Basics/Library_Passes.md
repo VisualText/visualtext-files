@@ -2,7 +2,7 @@
 
 # Library Passes
 
-To help you get started building your text analyzer, VisualText comes with several pre-built pass files.  These pre-built pass files are called **library passes**.  They are available within [Add menu item](../Ana_Tab_Popup.md#Add_Submenu) of the Ana Tab popup menu.
+To help you get started building your text analyzer, VisualText comes with several pre-built pass files.  These pre-built pass files are called **library passes**.  They are available within Add menu item of the Ana Tab popup menu.
 
 Library passes contain NLP++ rules and code to recognize common or generic types of data. Generic data includes telephone numbers, email addresses, different types of money formats, dates, etc.  VisualText also provides library passes for importing existing databases into the knowledge base.
 

@@ -26,7 +26,7 @@ There are several ways to open an analyzer project.
 
 ## See Also
 
-[Load Compiled KB Preference](../../VisualText_Interface/Main_File_Menu.md#analyzerDependent_pref)
+Load Compiled KB Preference
 
 [Saving Analyzers](Saving_analyzers.md)
 
