@@ -6,9 +6,32 @@ Welcome to the **NLP++ Language Extension** for Visual Studio Code. This page is
 hub for the extension's help. Pick a topic below, or open any of these any time from
 the **Help** view in the NLP++ sidebar or the 📖 book button on the view toolbars.
 
+---
+
+# 📘 Now Available — The NLP++ Textbook
+
+[![The NLP++ Textbook](TextbookLaunch.png)](https://book.visualtext.org)
+
+**The first textbook on the NLP++ programming language is here — available world-wide.**
+Written for programmers, it takes you from these help pages to real fluency: how the
+language works, and how to build analyzers that parse text and extract information
+**deterministically**.
+
+NLP++ needs **no training data** — you write the rules and the analyzer behaves predictably
+every time. That makes it a strong, auditable alternative to an LLM in **agentic flows**:
+the logic is human-written code you can read, [test](testing.md), and ship.
+
+### 🛒 Get your copy
+
+- **Amazon** — [amazon.visualtext.org](https://amazon.visualtext.org)
+- **BPB Online** — [book.visualtext.org](https://book.visualtext.org)
+
+---
+
 ## Getting started
 
 - **[Quick Start](quickstart.md)** — install the engine, create or open an analyzer, and run it over text.
+- **Create Claude Prompt** — let Claude help you build a prototype analyzer. Click **Create Claude Prompt** in the Help view (or the 💬 button on the Analyzers toolbar) to open a ready-to-paste prompt with your machine's engine and analyzer paths already filled in.
 - **[Compiling Analyzers](compiling.md)** — turn an analyzer (and/or its knowledge base) into a fast compiled C++ library.
 - **[Regression Testing](testing.md)** — set up golden-file regression tests so you catch changes in your analyzer's output.
 - **[Lazy Loading](lazyload.md)** — keep startup fast and memory low by loading knowledge-base data only when it's needed.
@@ -25,4 +48,3 @@ opens automatically the first time you run that version.
 
 - **[Master Help Index](../index.md)** — the full VisualText / NLP++ help table of contents.
 - **[NLP++ Functions](../NLP_PP_Stuff/Functions.md)** and **[NLP++ Variables](../NLP_PP_Stuff/About_NLP++_Variables.md)**.
-- 📘 **[The NLP++ Textbook](../NLP++_Textbook.md)**.
