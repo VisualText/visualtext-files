@@ -45,6 +45,7 @@ import os
 import shutil
 import subprocess
 import sys
+import tempfile
 from pathlib import Path
 
 # ---------------------------------------------------------------------------
@@ -167,21 +168,60 @@ def diff_records(expected, actual, ignore_fields):
 # ---------------------------------------------------------------------------
 
 class NlpPlusBackend:
-    """Run analyzers through the cross-platform NLPPlus Python package."""
+    """Run analyzers through the cross-platform NLPPlus Python package.
+
+    NLPPlus resolves an analyzer by NAME under ``<working_folder>/analyzers/``
+    (its own layout convention), and the working folder must also contain a
+    ``data/`` directory. Our analyzers, by contrast, live at the top level of
+    the repo (``telephone/``, not ``analyzers/telephone/``) -- so pointing the
+    working folder straight at the analyzer's parent fails with
+    "analyzers directory not found". Instead we build a private temp working
+    folder, seed it with NLPPlus's bundled ``analyzers/`` + ``data/``
+    (``initialize=True``), and link each real analyzer in as
+    ``analyzers/<name>`` before analyzing.
+    """
 
     name = "NLPPlus"
 
     def __init__(self):
         import NLPPlus  # noqa: F401  (import error -> backend unavailable)
         self._nlp = NLPPlus
+        self._wf = None          # private working folder (Path)
+        self._current = None     # name of the analyzer currently linked/active
+
+    def _ensure_workfolder(self):
+        if self._wf is None:
+            self._wf = Path(tempfile.mkdtemp(prefix="nlpregress-"))
+            # initialize=True copies NLPPlus's bundled analyzers/ + data/ in,
+            # giving us a working folder we can add our own analyzers to.
+            self._nlp.set_working_folder(str(self._wf), initialize=True)
+        return self._wf
+
+    def _link_analyzer(self, analyzer_dir):
+        """Make <wf>/analyzers/<name> resolve to the real analyzer directory."""
+        dest = self._wf / "analyzers" / analyzer_dir.name
+        if dest.is_symlink() or dest.is_file():
+            dest.unlink()
+        elif dest.is_dir():
+            shutil.rmtree(dest)
+        try:
+            dest.symlink_to(analyzer_dir, target_is_directory=True)
+        except (OSError, NotImplementedError):
+            # Windows without symlink privilege: copy the analyzer in instead.
+            shutil.copytree(analyzer_dir, dest)
+        # Re-point the engine at the working folder so it sees the new analyzer.
+        # initialize=False -> no recopy, just rebuild the engine.
+        self._nlp.set_working_folder(str(self._wf), initialize=False)
 
     def analyze(self, analyzer_dir, input_path):
         analyzer_dir = Path(analyzer_dir).resolve()
-        # NLPPlus resolves an analyzer by NAME inside a working folder that
-        # contains it; point the working folder at the analyzer's parent.
-        self._nlp.set_working_folder(str(analyzer_dir.parent))
+        name = analyzer_dir.name
+        self._ensure_workfolder()
+        if self._current != name:
+            self._link_analyzer(analyzer_dir)
+            self._current = name
         text = read_text(input_path)
-        result = self._nlp.engine.analyze(text, analyzer_dir.name)
+        result = self._nlp.engine.analyze(text, name)
         out = getattr(result, "output", None)
         if isinstance(out, str):
             out = json.loads(out) if out.strip() else {}
