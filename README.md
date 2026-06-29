@@ -40,6 +40,41 @@ See [`analyzers/README.md`](analyzers/README.md) for the conventions a submitted
 
 Source content for VisualText's offline help system, including a precompiled `Help.chm` and the underlying `helps/` directory of HTML pages. Each NLP++ function, pattern variable, and special symbol has a corresponding `.htm` file (e.g. `$start.htm`, `@@RULES.htm`, `RECURSE.htm`) that the extension opens when a user invokes "Lookup Word" on an NLP++ token.
 
+The markdown help system lives under [`Help/markdown/`](Help/markdown/), and the VSCode-specific help pages are under [`Help/markdown/vscode/`](Help/markdown/vscode/) (see below).
+
+## VS Code Help, Version Notes & Announcements (`Help/markdown/vscode/`)
+
+The NLP++ VSCode extension shows a **Help** view (and a 📖 book button) backed by the markdown under [`Help/markdown/vscode/`](Help/markdown/vscode/). Pages render in VS Code's markdown preview, so **keep any image in the same folder as the page that references it** — parent-folder paths like `../logo.png` are blocked by the preview's security policy.
+
+| File | Shown as |
+| ---- | -------- |
+| `home.md` | the Help hub (logo, links, featured content) |
+| `quickstart.md`, `compiling.md`, `testing.md`, `lazyload.md` | the guide pages |
+| `versions/<version>.md` | **version notes** (see below) |
+| `announcements/<id>.md` | **announcements** (see below) |
+
+### Version notes — `versions/<version>.md`
+
+A version note is a "what's new" page tied to the **extension version**. Create one **only for a release significant enough that users should see it**, named after the version — e.g. `versions/3.2.0.md`.
+
+- On a **first install**, the extension opens `home.md`.
+- On an **upgrade**, it opens the **newest version note the user hasn't seen yet** whose version is greater than the last-seen version and ≤ the installed version — once. The last-seen version is remembered per user.
+- All version notes are also listed on `home.md` and in the Help view's **Version Notes** node.
+
+Because they are keyed to the extension version, a version note only appears when users **update the extension** to (at least) that version.
+
+### Announcements — `announcements/<id>.md`
+
+An announcement is a broadcast that is **independent of the extension version**. Drop a new file in `announcements/` and it shows **once, on the user's next relogin** — even if the extension version hasn't changed (e.g. delivered through a normal VisualText-files content update).
+
+- Keyed by **id** (the file name without `.md`), **not** version. Seen ids are remembered per user, so each announcement shows at most once.
+- **Name files so they sort newest-first** — a date prefix works well, e.g. `announcements/2026-06-29-textbook-launch.md`. The extension shows the newest unseen one.
+- Keep any image **inside the `announcements/` folder** and reference it by plain file name.
+- On a given startup the extension shows **at most one** popup: a pending version note takes priority over an announcement.
+- Announcements are listed in the Help view's **Announcements** node, and the **Show Latest Announcement** (📣) button opens the newest one on demand.
+
+> Version notes and announcements reach users only after this repo is **released** (so the files ship inside `visualtext.zip`). See [Releases](#releases).
+
 ## spec/
 
 Reusable libraries of NLP++ passes that an analyzer can pull into its sequence rather than re-implementing common patterns.
