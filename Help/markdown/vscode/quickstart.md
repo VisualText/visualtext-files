@@ -46,12 +46,7 @@ build your analyzer:
 
 1. Install the **Claude Code** extension from the Extensions view.
 2. Sign in to link it to your Claude subscription — the extension walks you through this.
-3. Open Claude and use a starter prompt like the one below:
-
-<!-- PLACEHOLDER: David to replace the text below with the starter prompt -->
-> **Starter prompt:**
->
-> _[ your starter prompt goes here ]_
+3. [**Click here to create a Claude prompt**](command:helpView.createClaudePrompt) (or click **Create Claude Prompt** in the NLP++ **Help** panel). It opens a new editor with a ready-to-paste prompt — already filled in with your machine's engine, example/template analyzer, and library paths. Copy that prompt into Claude to get started.
 
 ## More help
 

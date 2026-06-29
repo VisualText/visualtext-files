@@ -42,7 +42,7 @@ Source content for VisualText's offline help system, including a precompiled `He
 
 The markdown help system lives under [`Help/markdown/`](Help/markdown/), and the VSCode-specific help pages are under [`Help/markdown/vscode/`](Help/markdown/vscode/) (see below).
 
-## VS Code Help, Version Notes & Announcements (`Help/markdown/vscode/`)
+## VS Code Help, Version Notes, Announcements & LLM Prompts (`Help/markdown/vscode/`)
 
 The NLP++ VSCode extension shows a **Help** view (and a 📖 book button) backed by the markdown under [`Help/markdown/vscode/`](Help/markdown/vscode/). Pages render in VS Code's markdown preview, so **keep any image in the same folder as the page that references it** — parent-folder paths like `../logo.png` are blocked by the preview's security policy.
 
@@ -52,6 +52,7 @@ The NLP++ VSCode extension shows a **Help** view (and a 📖 book button) backed
 | `quickstart.md`, `compiling.md`, `testing.md`, `lazyload.md` | the guide pages |
 | `versions/<version>.md` | **version notes** (see below) |
 | `announcements/<id>.md` | **announcements** (see below) |
+| `prompts/<name>.md` | **LLM prompts** (see below) |
 
 ### Version notes — `versions/<version>.md`
 
@@ -73,7 +74,31 @@ An announcement is a broadcast that is **independent of the extension version**.
 - On a given startup the extension shows **at most one** popup: a pending version note takes priority over an announcement.
 - Announcements are listed in the Help view's **Announcements** node, and the **Show Latest Announcement** (📣) button opens the newest one on demand.
 
-> Version notes and announcements reach users only after this repo is **released** (so the files ship inside `visualtext.zip`). See [Releases](#releases).
+### LLM prompts — `prompts/<name>.md`
+
+A prompt file is a reusable, ready-to-paste prompt for an LLM (e.g. Claude) to help build or extend an analyzer. They are listed under the Help view's **LLM Prompts** node, and the **Create Claude Prompt** button (Analyzers toolbar) opens the first one.
+
+File format:
+
+- **The first line is the title** shown in the Help tree (a leading `#` is stripped). The rest of the file is the prompt body.
+- The body may contain **`{{variable}}`** placeholders, which the extension fills in with this machine's actual paths before opening the prompt in a new editor. Clicking a prompt opens the filled-in result (the title line is dropped).
+
+Available variables:
+
+| Placeholder | Filled with |
+| ----------- | ----------- |
+| `{{engineExe}}` | full path to the NLP engine executable (`nlp.exe` / `nlp`) |
+| `{{engineDir}}` | the engine's working directory |
+| `{{visualTextDir}}` | the `visualText` support-files directory |
+| `{{analyzersDir}}` | the example analyzers directory |
+| `{{templatesDir}}` | the analyzer-templates directory |
+| `{{languagesDir}}` | the per-language dictionaries / KBs directory |
+| `{{miscDir}}` | the misc dictionaries / KBs directory |
+| `{{currentAnalyzer}}` | the loaded analyzer's folder (or `(no analyzer loaded)`) |
+
+An unknown `{{...}}` placeholder is left as-is. Name files with a numeric prefix (e.g. `01-build-analyzer.md`) to control their order in the list.
+
+> Version notes, announcements, and prompts reach users only after this repo is **released** (so the files ship inside `visualtext.zip`). See [Releases](#releases).
 
 ## spec/
 
