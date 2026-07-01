@@ -1,4 +1,5 @@
-Build dictionaries and knowledge bases
+Create Dictionaries & KBs
+<!-- desc: Builds NLP++ dictionaries (.dict) and knowledge bases (.kbb) for the current analyzer, learning the exact format from the shared language and misc libraries, and places them under kb/user/. -->
 Help me build dictionaries (.dict) and knowledge bases (.kbb) for an NLP++ analyzer.
 
 - Current analyzer (its kb/user/ folder holds the KB sources): {{currentAnalyzer}}
