@@ -1,4 +1,5 @@
 NLP++ local install — build an analyzer
+<!-- desc: Generic starting prompt — hands Claude the installed engine, example, and template paths, then asks it to build a brand-new NLP++ analyzer for a task you fill in. Use this to start any analyzer from scratch. -->
 I want you to help me write a prototype NLP++ analyzer. NLP++ is a rule-based programming language for natural language processing, run by the NLP engine. Everything you need is already installed on this machine at the paths below:
 
 - NLP engine executable (run analyzers with this): {{engineExe}}

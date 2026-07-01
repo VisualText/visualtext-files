@@ -1,4 +1,5 @@
-Create more text files for hardening
+Harden analyzer
+<!-- desc: Generates additional, varied test inputs (with edge cases) for the current analyzer, runs them through the engine, and reports where extraction looks wrong so you can tighten rules and re-bless regression goldens. -->
 I am hardening an NLP++ analyzer by adding more test inputs. The analyzer and engine are here:
 
 - Current analyzer (add files under its input/ directory): {{currentAnalyzer}}
