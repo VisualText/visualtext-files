@@ -46,7 +46,7 @@ build your analyzer:
 
 1. Install the **Claude Code** extension from the Extensions view.
 2. Sign in to link it to your Claude subscription — the extension walks you through this.
-3. [**Click here to create a Claude prompt**](command:helpView.createClaudePrompt) (or click **Create Claude Prompt** in the NLP++ **Help** panel). It opens a new editor with a ready-to-paste prompt — already filled in with your machine's engine, example/template analyzer, and library paths. Copy that prompt into Claude to get started.
+3. Open the NLP++ **Help** panel and choose a **Claude prompt** from the list — there are several, one per task (build an analyzer from scratch, harden an existing one, create dictionaries & KBs, add missing words). Each opens in a new editor as a ready-to-paste prompt, already filled in with your machine's engine, example/template analyzer, and library paths. Copy the one that fits into Claude to get started. New to it? Start with [**From scratch: chemical formulas**](prompts/01-chemical-formulas.md) to watch an analyzer built end to end.
 
 ## More help
 

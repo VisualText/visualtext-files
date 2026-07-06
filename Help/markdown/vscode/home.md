@@ -31,7 +31,7 @@ the logic is human-written code you can read, [test](testing.md), and ship.
 ## Getting started
 
 - **[Quick Start](quickstart.md)** — install the engine, create or open an analyzer, and run it over text.
-- **Create Claude Prompt** — let Claude help you build a prototype analyzer. Click **Create Claude Prompt** in the Help view (or the 💬 button on the Analyzers toolbar) to open a ready-to-paste prompt with your machine's engine and analyzer paths already filled in.
+- **Claude Prompts** — let Claude help you build a prototype analyzer. The Help view lists several ready-to-paste prompts, one per task; choose the one you need and it opens with your machine's engine and analyzer paths already filled in. Start with [**General pointers: Claude + NLP++**](prompts/00-general-pointers.md) for an overview of the library.
 - **[Compiling Analyzers](compiling.md)** — turn an analyzer (and/or its knowledge base) into a fast compiled C++ library.
 - **[Regression Testing](testing.md)** — set up golden-file regression tests so you catch changes in your analyzer's output.
 - **[Lazy Loading](lazyload.md)** — keep startup fast and memory low by loading knowledge-base data only when it's needed.
