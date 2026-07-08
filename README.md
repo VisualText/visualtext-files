@@ -53,6 +53,7 @@ The NLP++ VSCode extension shows a **Help** view (and a 📖 book button) backed
 | `versions/<version>.md` | **version notes** (see below) |
 | `announcements/<id>.md` | **announcements** (see below) |
 | `prompts/<name>.md` | **LLM prompts** (see below) |
+| `helpful-links.txt` | **Helpful Links** (see below) |
 
 ### Version notes — `versions/<version>.md`
 
@@ -73,6 +74,20 @@ An announcement is a broadcast that is **independent of the extension version**.
 - Keep any image **inside the `announcements/` folder** and reference it by plain file name.
 - On a given startup the extension shows **at most one** popup: a pending version note takes priority over an announcement.
 - Announcements are listed in the Help view's **Announcements** node, and the **Show Latest Announcement** (📣) button opens the newest one on demand.
+
+### Helpful Links — `helpful-links.txt`
+
+An editable list of external resources (tutorial videos, articles, sites) shown under the Help view's **Helpful Links** node. Clicking a link opens it in the browser. Because it ships in the VisualText files, links can be added, removed, or reordered **without an extension update**.
+
+File format — **one link per line**:
+
+```
+Title | https://url | Description
+```
+
+- `Title` is shown in the Help tree; `Description` is the hover tooltip (optional).
+- Blank lines and lines starting with `#` are ignored.
+- Links appear in file order — reorder the lines to reorder the list.
 
 ### LLM prompts — `prompts/<name>.md`
 

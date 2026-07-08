@@ -1,0 +1,15 @@
+# Helpful Links shown under "Helpful Links" in the NLP++ Help view.
+#
+# Format: one link per line as
+#     Title | https://url | Description
+# Blank lines and lines starting with # are ignored.
+# The Title is shown in the tree; the Description is the hover tooltip.
+# Edit this file to add, remove, or reorder links (ships in the VisualText files,
+# so changes take effect without an extension update).
+
+VisualText Tutorial Videos | https://youtube.com/playlist?list=PLrRF6oTCn26CGezjYzwqkE2AaoTtb5wHM | YouTube playlist of VisualText and NLP++ tutorial videos
+NLP++ Articles | https://visualtext.org/category/nlp/ | Articles about NLP++ on visualtext.org
+VisualText | https://visualtext.org | The VisualText website — the IDE for building NLP++ analyzers
+NLP++ Foundation | https://nlp.foundation | The NLP++ Foundation
+NLU Global | https://nluglob.org | Natural Language Understanding Global
+NLPFix | https://nlpfix.ai | NLPFix — AI-assisted NLP++ analyzer building
