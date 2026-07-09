@@ -400,6 +400,15 @@ PadStr(L("num str"),L("pad str"),L("pad len")) {
 
 JsonKB(L("file"),L("con")) {
 	L("file") << "{\n" << SpacesStr(1) << "\"" << conceptname(L("con")) << "\": {\n";
+	# Emit the top concept's OWN attributes before its child concepts.
+	# JsonKBRecurse only descends into children, so any attribute on the
+	# top concept was silently dropped. Emitting them here lets a top
+	# concept carry scalar fields alongside its nested objects (e.g. a
+	# "document_type" next to nested "data" objects). When the top concept
+	# has no attributes, output is unchanged.
+	L("hasattrs") = JsonAttributes(L("file"),L("con"),1);
+	if (down(L("con")) && L("hasattrs"))
+		L("file") << ",\n";
 	JsonKBRecurse(L("file"),L("con"),1);
 	L("file") << "\n}\n";
 }
