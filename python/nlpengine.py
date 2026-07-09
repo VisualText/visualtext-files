@@ -1,3 +1,4 @@
+# DESC: NLPEngine Python class - run nlp.exe analyzers from Python
 # NLPEngine Python class that uses nlp.exe
 
 import shutil
