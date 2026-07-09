@@ -1,3 +1,4 @@
+# DESC: Remove accents from all words in a text file
 # Deaccent words in a text file
 
 import sys

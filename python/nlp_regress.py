@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# DESC: Golden-file regression tester for NLP++ analyzers
 """
 nlp_regress.py - golden-file regression tester for NLP++ analyzers.
 

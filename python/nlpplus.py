@@ -1,3 +1,4 @@
+# DESC: Example - using the NLPPlus Python package
 # Example Python script using the NLPPlus Python package
 
 import NLPPlus
