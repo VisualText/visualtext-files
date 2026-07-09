@@ -10,6 +10,12 @@
 VisualText Tutorial Videos | https://youtube.com/playlist?list=PLrRF6oTCn26CGezjYzwqkE2AaoTtb5wHM | YouTube playlist of VisualText and NLP++ tutorial videos
 NLP++ Articles | https://visualtext.org/category/nlp/ | Articles about NLP++ on visualtext.org
 VisualText | https://visualtext.org | The VisualText website — the IDE for building NLP++ analyzers
-NLP++ Foundation | https://nlp.foundation | The NLP++ Foundation
-NLU Global | https://nluglob.org | Natural Language Understanding Global
-NLPFix | https://nlpfix.ai | NLPFix — AI-assisted NLP++ analyzer building
+NLP++ Extension | https://marketplace.visualstudio.com/items?itemName=dehilster.nlp | The NLP++ extension on the VS Code Marketplace — install or share it
+NLP Engine (source) | https://github.com/VisualText/nlp-engine | Open-source engine that runs NLP++ analyzers on Windows, macOS, and Linux
+VisualText on GitHub | https://github.com/VisualText | The VisualText GitHub organization — engine, analyzers, and libraries
+NLP++ Python Package | https://pypi.org/project/nlpplus/ | NLPPlus on PyPI — run NLP++ analyzers from Python (pip install nlpplus)
+NLP++ Node.js Package | https://www.npmjs.com/package/nlpplus | NLPPlus on npm — Node.js bindings for the NLP++ engine (npm install nlpplus)
+NLP++ Wiki | https://naturalphilosophy.org/wiki/index.php?title=NLP%2B%2B | Natural Philosophy Wiki article on NLP++ — history, architecture, and resources
+NLP Foundation | https://nlp.foundation | Creating a complete symbolic understanding of human language
+NLU Global | https://nluglob.org | Natural Language Understanding Global Initiative
+NLPFix | https://nlpfix.ai | Commercial MCP and API NLP++ deterministic extractors
