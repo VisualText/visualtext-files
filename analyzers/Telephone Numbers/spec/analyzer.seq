@@ -1,8 +1,0 @@
-dicttok	nil	# Gen:   Convert input to token list
-nlp	KBFuncs	# comment
-nlp	TreeFuncs	# comment
-nlp	kbinit	# comment
-nlp	Lines	# comment
-nlp	telephone	# comment
-nlp	telKB	# comment
-nlp	output	# comment
