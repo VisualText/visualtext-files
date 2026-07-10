@@ -17,9 +17,9 @@
 #   To REBUILD after editing a .json, delete its "<name>.kbb" and run again
 #   (an existing .kbb is left untouched so hand-edited KBs are never clobbered).
 #
-#   The engine invokes a python pass as:
-#       python "<appdir>/spec/json2kbb.py" "<appdir>" "<inputfile>" <pre|post>
-#   Only <appdir> is used (to locate kb/user/); the input file is ignored.
+#   The engine simply executes this python pass with no arguments. It locates the
+#   analyzer directory from its own path — this script lives in  <appdir>/spec/  —
+#   and then scans  <appdir>/kb/user/ .
 #
 # JSON -> KBB MAPPING  (the inverse of KBFuncs.nlp's JsonKB serializer)
 #   - a JSON object            -> a concept
@@ -140,11 +140,15 @@ def convert_file(jsonpath, kbbpath):
         f.write(kbb)
 
 
+def app_dir():
+    # This script lives in  <appdir>/spec/json2kbb.py , so the analyzer directory
+    # is the parent of the spec/ folder that contains this file.
+    spec_dir = os.path.dirname(os.path.abspath(__file__))
+    return os.path.dirname(spec_dir)
+
+
 def main():
-    if len(sys.argv) < 2:
-        sys.stderr.write("[json2kbb: usage: json2kbb.py <appdir> [<inputfile>] [pre|post]]\n")
-        return
-    appdir = sys.argv[1]
+    appdir = app_dir()
     kbdir = os.path.join(appdir, "kb", "user")
     if not os.path.isdir(kbdir):
         sys.stderr.write("[json2kbb: no kb/user directory at " + kbdir + "]\n")
