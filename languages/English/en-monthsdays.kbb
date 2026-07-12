@@ -1,0 +1,47 @@
+# English months and days with their ordinal numbers.
+# Forward lookup:  month/day name -> num   (e.g. concept "march" -> num=3)
+# Reverse lookup:  num -> name              (e.g. monthbynum "3" -> name=march)
+# Month numbers are 1-12 (january=1); day numbers are 1-7 (monday=1).
+monthsdays
+  months
+    january: num=1, abbr=jan
+    february: num=2, abbr=feb
+    march: num=3, abbr=mar
+    april: num=4, abbr=apr
+    may: num=5, abbr=may
+    june: num=6, abbr=jun
+    july: num=7, abbr=jul
+    august: num=8, abbr=aug
+    september: num=9, abbr=sep
+    october: num=10, abbr=oct
+    november: num=11, abbr=nov
+    december: num=12, abbr=dec
+  monthbynum
+    1: name=january, abbr=jan
+    2: name=february, abbr=feb
+    3: name=march, abbr=mar
+    4: name=april, abbr=apr
+    5: name=may, abbr=may
+    6: name=june, abbr=jun
+    7: name=july, abbr=jul
+    8: name=august, abbr=aug
+    9: name=september, abbr=sep
+    10: name=october, abbr=oct
+    11: name=november, abbr=nov
+    12: name=december, abbr=dec
+  days
+    monday: num=1, abbr=mon
+    tuesday: num=2, abbr=tue
+    wednesday: num=3, abbr=wed
+    thursday: num=4, abbr=thu
+    friday: num=5, abbr=fri
+    saturday: num=6, abbr=sat
+    sunday: num=7, abbr=sun
+  daybynum
+    1: name=monday, abbr=mon
+    2: name=tuesday, abbr=tue
+    3: name=wednesday, abbr=wed
+    4: name=thursday, abbr=thu
+    5: name=friday, abbr=fri
+    6: name=saturday, abbr=sat
+    7: name=sunday, abbr=sun

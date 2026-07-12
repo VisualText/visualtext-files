@@ -1,0 +1,258 @@
+# Country names in English
+countries
+  afghanistan: iso2=af, iso3=afg
+  albania: iso2=al, iso3=alb
+  algeria: iso2=dz, iso3=dza
+  american samoa: iso2=as, iso3=asm
+  andorra: iso2=ad, iso3=and
+  angola: iso2=ao, iso3=ago
+  anguilla: iso2=ai, iso3=aia
+  antarctica: iso2=aq, iso3=ata
+  antigua and barbuda: iso2=ag, iso3=atg
+  argentina: iso2=ar, iso3=arg
+  armenia: iso2=am, iso3=arm
+  aruba: iso2=aw, iso3=abw
+  australia: iso2=au, iso3=aus
+  austria: iso2=at, iso3=aut
+  azerbaijan: iso2=az, iso3=aze
+  bahamas: iso2=bs, iso3=bhs
+  bahrain: iso2=bh, iso3=bhr
+  bangladesh: iso2=bd, iso3=bgd
+  barbados: iso2=bb, iso3=brb
+  belarus: iso2=by, iso3=blr
+  belgium: iso2=be, iso3=bel
+  belize: iso2=bz, iso3=blz
+  benin: iso2=bj, iso3=ben
+  bermuda: iso2=bm, iso3=bmu
+  bhutan: iso2=bt, iso3=btn
+  bolivia: iso2=bo, iso3=bol
+  plurinational state of bolivia: iso2=bo, iso3=bol
+  bonaire, sint eustatius and saba: iso2=bq, iso3=bes
+  bosnia and herzegovina: iso2=ba, iso3=bih
+  botswana: iso2=bw, iso3=bwa
+  bouvet island: iso2=bv, iso3=bvt
+  brazil: iso2=br, iso3=bra
+  british indian ocean territory: iso2=io, iso3=iot
+  brunei darussalam: iso2=bn, iso3=brn
+  bulgaria: iso2=bg, iso3=bgr
+  burkina faso: iso2=bf, iso3=bfa
+  burundi: iso2=bi, iso3=bdi
+  cabo verde: iso2=cv, iso3=cpv
+  cambodia: iso2=kh, iso3=khm
+  cameroon: iso2=cm, iso3=cmr
+  canada: iso2=ca, iso3=can
+  cayman islands: iso2=ky, iso3=cym
+  central african republic: iso2=cf, iso3=caf
+  chad: iso2=td, iso3=tcd
+  chile: iso2=cl, iso3=chl
+  china: iso2=cn, iso3=chn
+  christmas island: iso2=cx, iso3=cxr
+  cocos: iso2="", iso3=""
+  colombia: iso2=co, iso3=col
+  comoros: iso2=km, iso3=com
+  congo: iso2=cd, iso3=cod
+  the democratic republic of the congo: iso2=cd, iso3=cod
+  cook islands: iso2=ck, iso3=cok
+  costa rica: iso2=cr, iso3=cri
+  croatia: iso2=hr, iso3=hrv
+  cuba: iso2=cu, iso3=cub
+  curaçao: iso2=cw, iso3=cuw
+  cyprus: iso2=cy, iso3=cyp
+  czechia: iso2=cz, iso3=cze
+  côte d'ivoire: iso2=ci, iso3=civ
+  denmark: iso2=dk, iso3=dnk
+  djibouti: iso2=dj, iso3=dji
+  dominica: iso2=dm, iso3=dma
+  dominican republic: iso2=do, iso3=dom
+  ecuador: iso2=ec, iso3=ecu
+  egypt: iso2=eg, iso3=egy
+  el salvador: iso2=sv, iso3=slv
+  equatorial guinea: iso2=gq, iso3=gnq
+  eritrea: iso2=er, iso3=eri
+  estonia: iso2=ee, iso3=est
+  eswatini: iso2=sz, iso3=swz
+  ethiopia: iso2=et, iso3=eth
+  falkland islands: iso2="", iso3=""
+  faroe islands: iso2=fo, iso3=fro
+  fiji: iso2=fj, iso3=fji
+  finland: iso2=fi, iso3=fin
+  france: iso2=fr, iso3=fra
+  french guiana: iso2=gf, iso3=guf
+  french polynesia: iso2=pf, iso3=pyf
+  french southern territories: iso2=tf, iso3=atf
+  gabon: iso2=ga, iso3=gab
+  gambia: iso2=gm, iso3=gmb
+  georgia: iso2=ge, iso3=geo
+  germany: iso2=de, iso3=deu
+  ghana: iso2=gh, iso3=gha
+  gibraltar: iso2=gi, iso3=gib
+  greece: iso2=gr, iso3=grc
+  greenland: iso2=gl, iso3=grl
+  grenada: iso2=gd, iso3=grd
+  guadeloupe: iso2=gp, iso3=glp
+  guam: iso2=gu, iso3=gum
+  guatemala: iso2=gt, iso3=gtm
+  guernsey: iso2=gg, iso3=ggy
+  guinea: iso2=gn, iso3=gin
+  guinea-bissau: iso2=gw, iso3=gnb
+  guyana: iso2=gy, iso3=guy
+  haiti: iso2=ht, iso3=hti
+  heard island and mcdonald islands: iso2=hm, iso3=hmd
+  holy see: iso2=va, iso3=vat
+  honduras: iso2=hn, iso3=hnd
+  hong kong: iso2=hk, iso3=hkg
+  hungary: iso2=hu, iso3=hun
+  iceland: iso2=is, iso3=isl
+  india: iso2=in, iso3=ind
+  indonesia: iso2=id, iso3=idn
+  iran: iso2=ir, iso3=irn
+  islamic republic of iran: iso2=ir, iso3=irn
+  iraq: iso2=iq, iso3=irq
+  ireland: iso2=ie, iso3=irl
+  islands: iso2=cc, iso3=cck
+  isle of man: iso2=im, iso3=imn
+  israel: iso2=il, iso3=isr
+  italy: iso2=it, iso3=ita
+  jamaica: iso2=jm, iso3=jam
+  japan: iso2=jp, iso3=jpn
+  jersey: iso2=je, iso3=jey
+  jordan: iso2=jo, iso3=jor
+  kazakhstan: iso2=kz, iso3=kaz
+  kenya: iso2=ke, iso3=ken
+  kiribati: iso2=ki, iso3=kir
+  korea: iso2=kp, iso3=prk
+  the democratic people's republic of korea: iso2=kp, iso3=prk
+  kuwait: iso2=kw, iso3=kwt
+  kyrgyzstan: iso2=kg, iso3=kgz
+  lao people's democratic republic: iso2=la, iso3=lao
+  latvia: iso2=lv, iso3=lva
+  lebanon: iso2=lb, iso3=lbn
+  lesotho: iso2=ls, iso3=lso
+  liberia: iso2=lr, iso3=lbr
+  libya: iso2=ly, iso3=lby
+  liechtenstein: iso2=li, iso3=lie
+  lithuania: iso2=lt, iso3=ltu
+  luxembourg: iso2=lu, iso3=lux
+  macao: iso2=mo, iso3=mac
+  madagascar: iso2=mg, iso3=mdg
+  malawi: iso2=mw, iso3=mwi
+  malaysia: iso2=my, iso3=mys
+  maldives: iso2=mv, iso3=mdv
+  mali: iso2=ml, iso3=mli
+  malta: iso2=mt, iso3=mlt
+  malvinas: iso2=fk, iso3=flk
+  marshall islands: iso2=mh, iso3=mhl
+  martinique: iso2=mq, iso3=mtq
+  mauritania: iso2=mr, iso3=mrt
+  mauritius: iso2=mu, iso3=mus
+  mayotte: iso2=yt, iso3=myt
+  mexico: iso2=mx, iso3=mex
+  micronesia: iso2=fm, iso3=fsm
+  federated states of micronesia: iso2=fm, iso3=fsm
+  moldova: iso2=md, iso3=mda
+  the republic of moldova: iso2=md, iso3=mda
+  monaco: iso2=mc, iso3=mco
+  mongolia: iso2=mn, iso3=mng
+  montenegro: iso2=me, iso3=mne
+  montserrat: iso2=ms, iso3=msr
+  morocco: iso2=ma, iso3=mar
+  mozambique: iso2=mz, iso3=moz
+  myanmar: iso2=mm, iso3=mmr
+  namibia: iso2=na, iso3=nam
+  nauru: iso2=nr, iso3=nru
+  nepal: iso2=np, iso3=npl
+  netherlands: iso2=nl, iso3=nld
+  new caledonia: iso2=nc, iso3=ncl
+  new zealand: iso2=nz, iso3=nzl
+  nicaragua: iso2=ni, iso3=nic
+  niger: iso2=ne, iso3=ner
+  nigeria: iso2=ng, iso3=nga
+  niue: iso2=nu, iso3=niu
+  norfolk island: iso2=nf, iso3=nfk
+  northern mariana islands: iso2=mp, iso3=mnp
+  norway: iso2=no, iso3=nor
+  oman: iso2=om, iso3=omn
+  pakistan: iso2=pk, iso3=pak
+  palau: iso2=pw, iso3=plw
+  palestine, state of: iso2=ps, iso3=pse
+  panama: iso2=pa, iso3=pan
+  papua new guinea: iso2=pg, iso3=png
+  paraguay: iso2=py, iso3=pry
+  peru: iso2=pe, iso3=per
+  philippines: iso2=ph, iso3=phl
+  pitcairn: iso2=pn, iso3=pcn
+  poland: iso2=pl, iso3=pol
+  portugal: iso2=pt, iso3=prt
+  puerto rico: iso2=pr, iso3=pri
+  qatar: iso2=qa, iso3=qat
+  republic of north macedonia: iso2=mk, iso3=mkd
+  romania: iso2=ro, iso3=rou
+  russian federation: iso2=ru, iso3=rus
+  rwanda: iso2=rw, iso3=rwa
+  réunion: iso2=re, iso3=reu
+  saint barthélemy: iso2=bl, iso3=blm
+  saint helena, ascension and tristan da cunha: iso2=sh, iso3=shn
+  saint kitts and nevis: iso2=kn, iso3=kna
+  saint lucia: iso2=lc, iso3=lca
+  saint martin: iso2=mf, iso3=maf
+  saint pierre and miquelon: iso2=pm, iso3=spm
+  saint vincent and the grenadines: iso2=vc, iso3=vct
+  samoa: iso2=ws, iso3=wsm
+  san marino: iso2=sm, iso3=smr
+  sao tome and principe: iso2=st, iso3=stp
+  saudi arabia: iso2=sa, iso3=sau
+  senegal: iso2=sn, iso3=sen
+  serbia: iso2=rs, iso3=srb
+  seychelles: iso2=sc, iso3=syc
+  sierra leone: iso2=sl, iso3=sle
+  singapore: iso2=sg, iso3=sgp
+  sint maarten: iso2=sx, iso3=sxm
+  slovakia: iso2=sk, iso3=svk
+  slovenia: iso2=si, iso3=svn
+  solomon islands: iso2=sb, iso3=slb
+  somalia: iso2=so, iso3=som
+  south africa: iso2=za, iso3=zaf
+  south georgia and the south sandwich islands: iso2=gs, iso3=sgs
+  south sudan: iso2=ss, iso3=ssd
+  spain: iso2=es, iso3=esp
+  sri lanka: iso2=lk, iso3=lka
+  sudan: iso2=sd, iso3=sdn
+  suriname: iso2=sr, iso3=sur
+  svalbard and jan mayen: iso2=sj, iso3=sjm
+  sweden: iso2=se, iso3=swe
+  switzerland: iso2=ch, iso3=che
+  syrian arab republic: iso2=sy, iso3=syr
+  taiwan: iso2=tw, iso3=twn
+  tajikistan: iso2=tj, iso3=tjk
+  tanzania: iso2=tz, iso3=tza
+  united republic of tanzania: iso2=tz, iso3=tza
+  thailand: iso2=th, iso3=tha
+  timor-leste: iso2=tl, iso3=tls
+  togo: iso2=tg, iso3=tgo
+  tokelau: iso2=tk, iso3=tkl
+  tonga: iso2=to, iso3=ton
+  trinidad and tobago: iso2=tt, iso3=tto
+  tunisia: iso2=tn, iso3=tun
+  turkey: iso2=tr, iso3=tur
+  turkmenistan: iso2=tm, iso3=tkm
+  turks and caicos islands: iso2=tc, iso3=tca
+  tuvalu: iso2=tv, iso3=tuv
+  uganda: iso2=ug, iso3=uga
+  ukraine: iso2=ua, iso3=ukr
+  united arab emirates: iso2=ae, iso3=are
+  united kingdom of great britain and northern ireland: iso2=gb, iso3=gbr
+  united states minor outlying islands: iso2=um, iso3=umi
+  united states of america: iso2=us, iso3=usa
+  uruguay: iso2=uy, iso3=ury
+  uzbekistan: iso2=uz, iso3=uzb
+  vanuatu: iso2=vu, iso3=vut
+  venezuela: iso2=ve, iso3=ven
+  bolivarian republic of venezuela: iso2=ve, iso3=ven
+  viet nam: iso2=vn, iso3=vnm
+  virgin islands: iso2=vg, iso3=vgb
+  wallis and futuna: iso2=wf, iso3=wlf
+  western sahara: iso2=eh, iso3=esh
+  yemen: iso2=ye, iso3=yem
+  zambia: iso2=zm, iso3=zmb
+  zimbabwe: iso2=zw, iso3=zwe
+  åland islands: iso2=ax, iso3=ala
