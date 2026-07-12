@@ -1,0 +1,72 @@
+# English number words with their numeric values.
+# Forward lookup:  word -> value   (e.g. concept "twelve" -> value=12)
+# Reverse lookup:  value -> word    (e.g. numberbyvalue "12" -> name=twelve)
+# Reverse index only covers the words that exist in the forward list
+# (ones through nineteen, the tens, and the scale words).
+numbers
+  words
+    one: value=1
+    two: value=2
+    three: value=3
+    four: value=4
+    five: value=5
+    six: value=6
+    seven: value=7
+    eight: value=8
+    nine: value=9
+    ten: value=10
+    eleven: value=11
+    twelve: value=12
+    thirteen: value=13
+    fourteen: value=14
+    fifteen: value=15
+    sixteen: value=16
+    seventeen: value=17
+    eighteen: value=18
+    nineteen: value=19
+    twenty: value=20
+    thirty: value=30
+    forty: value=40
+    fifty: value=50
+    sixty: value=60
+    seventy: value=70
+    eighty: value=80
+    ninety: value=90
+    hundred: value=100
+    thousand: value=1000
+    million: value=1000000
+    billion: value=1000000000
+    trillion: value=1000000000000
+  numberbyvalue
+    1: name=one
+    2: name=two
+    3: name=three
+    4: name=four
+    5: name=five
+    6: name=six
+    7: name=seven
+    8: name=eight
+    9: name=nine
+    10: name=ten
+    11: name=eleven
+    12: name=twelve
+    13: name=thirteen
+    14: name=fourteen
+    15: name=fifteen
+    16: name=sixteen
+    17: name=seventeen
+    18: name=eighteen
+    19: name=nineteen
+    20: name=twenty
+    30: name=thirty
+    40: name=forty
+    50: name=fifty
+    60: name=sixty
+    70: name=seventy
+    80: name=eighty
+    90: name=ninety
+    100: name=hundred
+    1000: name=thousand
+    1000000: name=million
+    1000000000: name=billion
+    1000000000000: name=trillion
