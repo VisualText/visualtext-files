@@ -112,6 +112,15 @@ def derive_adjective_degrees(paradigms, adj_words, all_words):
     return n
 
 
+def concept_line(indent, name, attrs):
+    # A KBB concept line carries a trailing ':' only when attributes follow it;
+    # a bare concept (children only, or a leaf marker) needs no colon.
+    line = " " * indent + name
+    if attrs:
+        line += ": " + " ".join(k + "=" + v for k, v in attrs)
+    return line + "\n"
+
+
 def main(argv):
     if len(argv) < 2:
         sys.stderr.write("usage: kbb_roots.py <en-full.kbb> <en-roots.kbb>\n")
@@ -164,23 +173,16 @@ def main(argv):
         out.write("#   python kbb_roots.py en-full.kbb en-roots.kbb\n")
         out.write("roots\n")
         for root in sorted(paradigms):
-            out.write("  " + root + ":\n")
+            out.write(concept_line(2, root, None))       # bare root, no attrs
             forms = paradigms[root]
             for surface in sorted(forms):
                 readings = forms[surface]
                 if len(readings) == 1:
-                    attrs = readings[0]
-                    line = "    " + surface + ":"
-                    if attrs:
-                        line += " " + " ".join(k + "=" + v for k, v in attrs)
-                    out.write(line + "\n")
+                    out.write(concept_line(4, surface, readings[0]))
                 else:
-                    out.write("    " + surface + ":\n")
+                    out.write(concept_line(4, surface, None))  # parent of m01..
                     for i, attrs in enumerate(readings, start=1):
-                        line = "      m%02d:" % i
-                        if attrs:
-                            line += " " + " ".join(k + "=" + v for k, v in attrs)
-                        out.write(line + "\n")
+                        out.write(concept_line(6, "m%02d" % i, attrs))
 
     sys.stderr.write("[kbb_roots: %d roots, %d inflected readings, "
                      "%d derived adj-degree links -> %s]\n"
