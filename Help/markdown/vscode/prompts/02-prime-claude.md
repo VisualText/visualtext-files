@@ -1,6 +1,6 @@
-NLP++ local install — build an analyzer
-<!-- desc: Generic starting prompt — hands Claude the installed engine, example, and template paths, plus the conventions that keep it on the rails (use the Knowledge Base template as intended, build results into a KB and emit JSON with JsonKB, and run with -WORK pointing at the engine). Fill in your task at the bottom. -->
-I want you to help me write a prototype NLP++ analyzer. NLP++ is a rule-based programming language for natural language processing, run by the NLP engine. Everything you need is already installed on this machine at the paths below:
+Prime Claude for NLP++
+<!-- desc: Paste this into a fresh Claude session before asking for any NLP++ help — it is everything Claude needs to know to work on your analyzers: the installed engine, example, and template paths, the conventions that keep it on the rails (use the Knowledge Base template as intended, build results into a KB and emit JSON with JsonKB, and run with -WORK pointing at the engine), and the engine facts that trip up newcomers. No task to fill in — once Claude has read this, ask it for whatever you need. -->
+This is everything you need to know to help me work on NLP++ analyzers. NLP++ is a rule-based programming language for natural language processing, run by the NLP engine. Read this in full before we start — afterward I will ask you to build a new analyzer, extend an existing one, write dictionaries and knowledge bases, generate test inputs, or debug why a rule fires. Everything you need is already installed on this machine at the paths below:
 
 - NLP engine executable (run analyzers with this): {{engineExe}}
 - NLP engine command-line switches (how to run, compile, set the working directory, etc.): https://github.com/VisualText/nlp-engine/blob/master/README.md#switches
@@ -29,6 +29,4 @@ Run an analyzer with:
 
 -WORK must point at the engine directory (the folder containing nlp.exe), NOT the analyzer folder — otherwise the engine prints "ERROR IN ANALYZER INIT", silently runs only the tokenizer, and no passes execute. Per-input output (and .tree debug files under -DEV) appears in input/<file>.txt_log/.
 
-Study a couple of the example and template analyzers first to learn the conventions. Then build the passes, run the analyzer over the input files, and show me the output so we can check it together.
-
-Create a folder of text files from the internet that (FILL IN YOUR DESCRIPTION) and create an analyzer that does (FILL IN YOUR DESCRIPTION OF THE ANALYZER).
+Study a couple of the example and template analyzers now to learn the conventions, then tell me you are ready and I will describe the task. When we work, build the passes, run the analyzer over the input files, and show me the output so we can check it together.
