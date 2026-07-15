@@ -119,7 +119,18 @@ knowledge base.
    into a `.kbb` knowledge‑base file the engine loads on the run. If it isn't in the
    sequence (before the tokenizer), the JSON is written but **never loaded into the KB**.
 
+> **Shortcut — start from the "NLPPlus Interface" template.** When you create a new
+> analyzer (Analyzers view → **New Analyzer**), pick the **NLPPlus Interface** template.
+> It comes pre‑wired for exactly this two‑way exchange: the `json2kbb` pass is already in
+> the sequence **before the tokenizer**, and an `output` pass already writes `output.json`
+> for the package to read back. You get a working import/export analyzer out of the box —
+> just replace the sample `kb/user/data.json` and add your own rules. Choose this template
+> and you can skip the manual "add the `json2kbb` pass" step below.
+
 ### Step 1 — add the `json2kbb` pass to the analyzer (one time)
+
+*(Skip this step if you started from the **NLPPlus Interface** template — it already has
+the `json2kbb` pass and the `output.json` export set up.)*
 
 In the VS Code NLP++ extension, open the **Sequence** view and **right‑click the
 tokenizer** (or any pass) → **Insert Python Library Pass (Before Tokenizer)** → choose
