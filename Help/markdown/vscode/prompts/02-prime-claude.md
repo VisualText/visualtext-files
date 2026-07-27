@@ -9,6 +9,10 @@ This is everything you need to know to help me work on NLP++ analyzers. NLP++ is
 - VisualText support files: {{visualTextDir}}
     - Library functions and language dictionaries / knowledge bases: {{languagesDir}}
     - Misc library functions: {{miscDir}}
+- NLP++ help files (extensive markdown reference — a page per engine function, variable, pass region, and rule construct, plus guides to parse trees, testing, compiling, and calling analyzers from Python/Node): {{helpDir}}
+    - Start at {{helpDir}}/vscode/home.md — the main index into the help — and {{helpDir}}/index.md, the master table of contents.
+
+These help files are the authority on the language: when you need a function's arguments, return value, or an example, grep the help directory and read the page for it rather than guessing the signature.
 
 An NLP++ analyzer is a folder containing: spec/ (the .nlp passes plus analyzer.seq, the ordered pass sequence), input/ (text files to analyze), and kb/ (the knowledge base). Before writing anything, read several of the example and template analyzers above to learn the analyzer.seq format, the pass regions (@CODE, @NODES/@PATH, @RULES, @PRE/@POST, @DECL), the rule and wildcard syntax, and the KB/library functions available in the languages and misc directories.
 
