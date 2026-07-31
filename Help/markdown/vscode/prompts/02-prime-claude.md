@@ -9,10 +9,14 @@ This is everything you need to know to help me work on NLP++ analyzers. NLP++ is
 - VisualText support files: {{visualTextDir}}
     - Library functions and language dictionaries / knowledge bases: {{languagesDir}}
     - Misc library functions: {{miscDir}}
-- NLP++ help files (extensive markdown reference — a page per engine function, variable, pass region, and rule construct, plus guides to parse trees, testing, compiling, and calling analyzers from Python/Node): {{helpDir}}
-    - Start at {{helpDir}}/vscode/home.md — the main index into the help — and {{helpDir}}/index.md, the master table of contents.
+- NLP++ help files — over 400 markdown pages, the reference documentation for the language and the tool: {{helpDir}}
+    - {{helpDir}}/index.md — the master table of contents for the whole help system.
+    - {{helpDir}}/vscode/home.md — the VS Code extension's help hub: quick start, parse trees, regression testing, compiling analyzers, and calling them from Python / Node.js.
+    - {{helpDir}}/NLP_PP_Stuff/ — the language itself: Rule_syntax.md, Rule_Element_Modifiers.md, Special_rule_elements.md, Code_Zone.md, Grammar_Zone.md, Actions.md, Functions.md, About_NLP++_Variables.md, Special_Variables.md, Operators_and_Expressions.md, Variable_types.md, Tokens.md.
+    - {{helpDir}}/VisualText_Basics/ — how an analyzer is put together: Structure_of_Analyzer_Projects.md, About_the_analyzer_sequence.md, About_the_Knowledge_Base.md, About_Parse_Trees.md, Standard_Rule_Format.md.
+    - One page per builtin, named for it: {{helpDir}}/<name>.md — e.g. pnname.md, makeconcept.md, dictfindword.md, $text.md, _xWILD.md.
 
-These help files are the authority on the language: when you need a function's arguments, return value, or an example, grep the help directory and read the page for it rather than guessing the signature.
+Learn NLP++ from these pages, and keep using them as you work — they are the authority on the language, not your priors. Before you call a function, read its page for the argument order, return value, and example. Before you write a rule, read the rule-syntax and element-modifier pages. When you meet a name you do not recognize, grep the help directory for it and read what comes back; that is faster and far more reliable than inferring the behavior from example analyzers.
 
 An NLP++ analyzer is a folder containing: spec/ (the .nlp passes plus analyzer.seq, the ordered pass sequence), input/ (text files to analyze), and kb/ (the knowledge base). Before writing anything, read several of the example and template analyzers above to learn the analyzer.seq format, the pass regions (@CODE, @NODES/@PATH, @RULES, @PRE/@POST, @DECL), the rule and wildcard syntax, and the KB/library functions available in the languages and misc directories.
 
