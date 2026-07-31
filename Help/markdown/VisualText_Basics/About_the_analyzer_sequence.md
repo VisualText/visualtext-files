@@ -26,6 +26,19 @@ will match the character (€) in the following text and output it.
 
 â€œsmall
 
+## Comments in analyzer.seq
+
+A **#** starts a comment that runs to the end of the line, and each pass line normally carries one.  C-style block comments, **/\* ... \*/**, are also allowed and may span several lines:
+
+```
+/* Zone the resume before anything reads its headers.
+   The nestHeaders pass has to stay recursive. */
+tokenize	nil	# convert the input text to a parse tree
+pat	header	/* one-liner */	# find the section headers
+```
+
+Note that a lone **/** at the start of a line already means an *inactive* pass, so **/\*** is recognized as a comment opener and never as an inactive pass.
+
 ## Ordering of Passes
 
 Since each pass in the analyzer typically builds upon the last one (via a common parse tree), careful attention should be given to the ordering of each pass in the sequence. When a pass creates a structure that is used by later passes, the pass is said to be **feeding** them. If it removes or hides information from successive passes, it is said to be **bleeding**. One nice feature of VisualText is that you can create an analyzer sequence, see how it works and easily change the sequence around to suit your needs. Since the ordering of rules *within* a pass file can also create, hide or destroy parse tree structure available for later rules and passes, careful attention should also be given to the ordering of rules within the pass file.

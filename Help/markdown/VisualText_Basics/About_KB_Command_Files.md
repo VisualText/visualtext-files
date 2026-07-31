@@ -154,6 +154,18 @@ end ind
 
 Each command file should end with the **quit** command alone on a line.  Comments are indicated by a semicolon, as above.
 
+C-style block comments, **/\* ... \*/**, may also be used, and unlike the semicolon they can span several lines:
+
+```
+/* Company hierarchy.
+   Loaded by main.kb before the word entries. */
+add hier "concept" "company"   /* one branch per client */
+```
+
+Block comments work the same way in the other knowledge base files -- **.dict** and **.kbb** -- and in the analyzer sequence file, **analyzer.seq**.  As in C they do not nest: the first **\*/** closes the comment.  A delimiter written inside a double-quoted argument, or after a semicolon (or **#**) comment marker, is ordinary text and is left alone.  An unterminated **/\*** is reported as an error rather than silently swallowing the rest of the file.
+
+One restriction: in a lazily-loaded **\*full.dict** or **\*full.kbb**, which the engine binary-searches instead of reading end to end, a block comment must begin and end on the same line.
+
 Note that command files can be executed from an analyzer pass file, using the NLP++ **take** function (also available as an API function in include/API/consh/cg.h).  take(filename) executes the commands in the specified .kb file.  This is one way in which knowledge can be layered or imported into a knowledge base conveniently.  In addition, there's a **take** command, as in
 
 take "kb\\user\\main.kb"
