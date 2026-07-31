@@ -32,7 +32,7 @@ NLP++ combines several types of syntax:
 
 - Rule syntax
 
-One region of pass files, the PRE Region also has an element range construct, e.g., "<1, 3>" that is not found elsewhere. We strive to keep the syntax sets as integrated as possible. For example, double quoted "abc" is a string in every context, and C/C++ conventions for backslashed characters are used everywhere. # is used for comments throughout, and a token starting with an underscore (e.g., "_noun") denotes a nonliteral everywhere.
+One region of pass files, the PRE Region also has an element range construct, e.g., "<1, 3>" that is not found elsewhere. We strive to keep the syntax sets as integrated as possible. For example, double quoted "abc" is a string in every context, and C/C++ conventions for backslashed characters are used everywhere. # is used for line comments throughout and /\* \*/ for block comments, and a token starting with an underscore (e.g., "_noun") denotes a nonliteral everywhere.
 
 ## See Also
 

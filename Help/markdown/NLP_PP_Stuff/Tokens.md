@@ -7,6 +7,7 @@ Following are some token types that occur in NLP++ code.
 | **ITEM** | **DESCRIPTION** |
 | --- | --- |
 | **#** | Comment. Text till the end of the line is ignored. |
+| **/\* \*/** | Block comment. Everything between `/*` and the next `*/` is ignored, including line breaks. Block comments do not nest: the first `*/` closes the comment. Delimiters inside a string or inside a `#` comment are ordinary text. |
 | **AAA or NNN** | Literal tokens. Completely alphabetic or completely numeric. |
 | **_AAA** | Nonliteral tokens must begin with underscore. All the remaining letters MUST be alphabetic. Currently, only alphabetics are allowed after the initial underscore. |
 | **"XXX"** | Strings get double quoted. Everything within string taken literally (except backslashed characters). |
