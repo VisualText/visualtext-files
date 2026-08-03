@@ -28,10 +28,14 @@ Succeeds if the pattern matches, else fails.
 
 A pattern consists of text and the special characters ? and *. ? matches any single character, and * matches any zero or more characters.  (There is no way to currently escape ? and *).  Matching is case sensitive.
 
+The pattern must match the **whole** string, not a part of it. `regexp("run")` does not match `running`, and `regexp("at")` does not match `cat`. Wrap the pattern in stars to search inside a word: `regexp("*at*")` matches `cat`.
+
 ## Example
 
 # This will match words such as junk, junks, junky, junkyard. @PRE <1,1> regexp("junk*"); @POST group(1,1,"_junkword"); @RULES _xNIL <- _xALPHA @@
 
+For a full regular expression — character classes, anchors, quantifiers, alternation and capture groups — and one that can be called from anywhere rather than only from a `@PRE` region, see [rematch](rematch.md), [refind](refind.md) and [resubst](resubst.md).
+
 ## See Also
 
-[regexpi](regexpi.md), [PRE Actions](NLP_PP_Stuff/AT-PRE_Actions.md)
+[regexpi](regexpi.md), [rematch](rematch.md), [refind](refind.md), [resubst](resubst.md), [PRE Actions](NLP_PP_Stuff/AT-PRE_Actions.md)

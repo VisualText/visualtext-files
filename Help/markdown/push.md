@@ -4,30 +4,47 @@
 
 ## Purpose
 
-Push a value to the front of a variable's value(s).
+Add a value to the front of an array.
 
 ## Syntax
 
 ```
-ARRAY = push(var);
+returnedArray = push(value, array)
 ```
 
 ```
-var - type: array
+returnedArray - type: array
+
+array - type: array
+
+value - type: str, num, flt or concept
 ```
 
 ## Returns
 
-ARRAY
+A new array with value as element 0, followed by every element of the original array. Returns an empty array if the first argument is not an array.
 
 ## Remarks
 
-Allows mixed types (string, num, flt, concept...), allows redundant values, and does not check uniqueness. NOTE: This will alter the array indexing — the pushed item will be the 0th element of the array index.
+Up to now arrays were grown mainly by indexing past the last element. `push` adds at the **front** instead.
 
-**UNIMPLEMENTED**
+The pushed value keeps its own type, so strings, numbers, floats and concepts can all be pushed, and mixed-type arrays are allowed. Uniqueness is not checked; pushing a value already in the array simply adds it again.
+
+Note that this changes the array's indexing: the pushed value becomes element 0 and every existing element shifts up by one.
+
+The source array is not modified; a new array comes back.
 
 ## Example
 
+```
+@CODE
+
+L("abc") = split("a b c"," ");
+"out.txt" << strjoin(push("z",L("abc")),",") << "\n";   # z,a,b,c
+
+@@CODE
+```
+
 ## See Also
 
-[Array Functions](Table_of_Array_Functions.md)
+[arrayslice](arrayslice.md), [arrayreverse](arrayreverse.md), [arraylength](arraylength.md), [Array Functions](Table_of_Array_Functions.md)

@@ -20,6 +20,18 @@ An example follows.
 
 This function call returns and outputs the number "6" to the file "output.txt".
 
+## Shadowing a built-in function
+
+If you define a function whose name is also that of a built-in NLP++ function, **your definition wins**. The analyzer still builds, and a warning is written to the build log:
+
+```
+[Warning: user function shadows built-in NLP++ function name='push'. The user function will be used.]
+```
+
+This used to be a hard error, which meant that adding a new built-in function could break any existing analyzer that happened to have defined a function of that name. Shadowing makes the language safe to extend: your analyzer keeps doing exactly what it did before, whatever gets added to the engine later.
+
+If you want the built-in behavior instead, remove or rename your own definition. Check the warning if a function does not behave the way its help page describes — a shadowing definition elsewhere in the analyzer is the usual reason.
+
 ## See Also
 
 [Declare Zone](Declare.md)
