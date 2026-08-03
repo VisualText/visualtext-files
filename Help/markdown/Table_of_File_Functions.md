@@ -10,11 +10,14 @@ The return types include: **STR** (string), **INT** (integer), and **BOOL** (Boo
 | --- | --- | --- |
 | [**deletefile(path_str)**](deletefile.md) | **BOOL(1,0)** | Delete a regular file. Never removes directories. |
 | [**direxists(path_str)**](direxists.md) | **BOOL(1,0)** | True if the path is an existing directory. |
+| [**dirlist(dir_str [, pattern_str])**](dirlist.md) | **STR ARRAY** | Full paths of the entries of a directory, sorted, optionally filtered by a `*`/`?` glob. |
 | [**fileexists(path_str)**](fileexists.md) | **BOOL(1,0)** | True if the path is an existing regular file. |
 | [**filesize(path_str)**](filesize.md) | **INT** | Size of a regular file in bytes, or -1 if not a readable file. |
 | [**mkdir(dir_str)**](mkdir.md) | **BOOL(1,0)** | Create a directory. Operating system-dependent. |
+| [**readfile(path_str)**](readfile.md) | **STR** | Read a whole text file into a string. |
+| [**readlines(path_str)**](readlines.md) | **STR ARRAY** | Read a text file as an array of its lines, terminators stripped. |
 
-For reading and writing file contents, see the file-stream functions [openfile](openfile.md), [closefile](closefile.md), and [fileout](fileout.md) in the [Formatting and I/O Functions](Table_of_Formatting_and_I_O_Functions.md) table, and [urltofile](urltofile.md) in the [Web Functions](Table_of_Web_Functions.md) table.
+For writing file contents, see the file-stream functions [openfile](openfile.md), [closefile](closefile.md), and [fileout](fileout.md) in the [Formatting and I/O Functions](Table_of_Formatting_and_I_O_Functions.md) table, and [urltofile](urltofile.md) in the [Web Functions](Table_of_Web_Functions.md) table.
 
 ## See Also
 

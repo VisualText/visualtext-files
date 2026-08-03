@@ -13,6 +13,9 @@ The return types include:  **STR** (string), **STR ARRAY** (string array), **IN
 | [**flt(str)**](flt.md) | **FLOAT** | Convert string or int to float, if possible. |
 | [**levenshtein(str1,str2)**](levenshtein.md) | **INT** | Levenshtein edit-distance between two strings.** New in 2.0.2.9** |
 | [**num(str)**](num.md) | **INT** | Convert string to number, if possible. (Also accepts num arg). |
+| [**refind(str, pattern_str [, flags_str])**](refind.md) | **STR ARRAY** | Regular expression match: element 0 is the whole match, 1..n the capture groups. |
+| [**rematch(str, pattern_str [, flags_str])**](rematch.md) | **BOOL** | True if the regular expression matches the string. |
+| [**resubst(str, pattern_str, replacement_str [, flags_str])**](resubst.md) | **STR** | Replace every regular expression match, with `$1` backreferences. |
 | [**split(str, char_str)**](split.md) | **STR ARRAY** | Split a string using the given char as separator. |
 | [**stem(str)**](stem.md) | **STR** | Compute stem of noun and verb. Return lowercase string. |
 | [**strchar(str, num)**](strchar.md) | **STR** | Index to numth char of string |
@@ -23,6 +26,9 @@ The return types include:  **STR** (string), **STR ARRAY** (string array), **IN
 | [**strcontainsnocase(str1,str2)**](strcontainsnocase.md) | **BOOL** | Check if str1 is contained in str2, ignoring letter case. |
 | [**strendswith(str, suffix_str)**](strendswith.md) | **BOOL** | Does given str ends with given suffix_str |
 | [**strhaspunct(str)**](strhaspunct.md) | **BOOL** | Check if str contains a punctuation character. |
+| [**strindexof(str, substr)**](strindexof.md) | **INT** | Zero-based position of the first occurrence of substr, or -1. |
+| [**strlastindexof(str, substr)**](strlastindexof.md) | **INT** | Zero-based position of the last occurrence of substr, or -1. |
+| [**strjoin(array, separator_str)**](strjoin.md) | **STR** | Join an array's elements into one string. The inverse of split. |
 | [**strstartswith(str, suffix_str)**](strstartswith.md) | **BOOL** | Does given str starts with given suffix_str |
 | [**strequal(str1,str2)**](strequal.md) | **BOOL** | Check if str1 is identical to str2. |
 | [**strisalpha(str)**](strisalpha.md) | **BOOL** | Check if str is all alphabetic chars. |
