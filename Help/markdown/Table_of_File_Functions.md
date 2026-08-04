@@ -14,6 +14,8 @@ The return types include: **STR** (string), **INT** (integer), and **BOOL** (Boo
 | [**fileexists(path_str)**](fileexists.md) | **BOOL(1,0)** | True if the path is an existing regular file. |
 | [**filesize(path_str)**](filesize.md) | **INT** | Size of a regular file in bytes, or -1 if not a readable file. |
 | [**mkdir(dir_str)**](mkdir.md) | **BOOL(1,0)** | Create a directory. Operating system-dependent. |
+| [**jsonparse(json_str, parent_con)**](jsonparse.md) | **BOOL(1,0)** | Parse a JSON document into knowledge base concepts. |
+| [**jsonwrite(path_str, concept)**](jsonwrite.md) | **BOOL(1,0)** | Write a concept tree to a file as JSON. |
 | [**readfile(path_str)**](readfile.md) | **STR** | Read a whole text file into a string. |
 | [**readlines(path_str)**](readlines.md) | **STR ARRAY** | Read a text file as an array of its lines, terminators stripped. |
 

@@ -269,6 +269,8 @@ to a topic.
         - [dirlist](dirlist.md)
         - [fileexists](fileexists.md)
         - [filesize](filesize.md)
+        - [jsonparse](jsonparse.md)
+        - [jsonwrite](jsonwrite.md)
         - [readfile](readfile.md)
         - [readlines](readlines.md)
       - [Formatting and I/O Functions](Table_of_Formatting_and_I_O_Functions.md)

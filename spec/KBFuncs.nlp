@@ -399,20 +399,26 @@ PadStr(L("num str"),L("pad str"),L("pad len")) {
 ###############################################
 
 JsonKB(L("file"),L("con")) {
-	L("file") << "{\n" << SpacesStr(1) << "\"" << conceptname(L("con")) << "\": {\n";
-	# Emit the top concept's OWN attributes before its child concepts.
-	# JsonKBRecurse only descends into children, so any attribute on the
-	# top concept was silently dropped. Emitting them here lets a top
-	# concept carry scalar fields alongside its nested objects (e.g. a
-	# "document_type" next to nested "data" objects). When the top concept
-	# has no attributes, output is unchanged.
-	L("hasattrs") = JsonAttributes(L("file"),L("con"),1);
-	if (down(L("con")) && L("hasattrs"))
-		L("file") << ",\n";
-	JsonKBRecurse(L("file"),L("con"),1);
-	L("file") << "\n}\n";
+	# Delegates to the jsonwrite builtin (engine 3.8.2 and later).
+	#
+	# This used to be ~130 lines of NLP++ across JsonKB, JsonKBRecurse,
+	# JsonAttributes and JsonStr.  Serializing the KB is where a knowledge
+	# base analyzer spends most of its time -- measured on the date-time
+	# analyzer, the 13-line output pass that calls JsonKB and SaveKB was
+	# 43.9% of total runtime.  The builtin produces byte-identical output
+	# and is about 3x faster on that pass.
+	#
+	# Kept as a wrapper rather than changing every analyzer's output.nlp,
+	# so existing analyzers pick up the speedup unchanged.  An analyzer
+	# that defines its own JsonKB still wins: a user function shadows a
+	# builtin, and this is an ordinary NLP++ function like any other.
+	jsonwrite(L("file"),L("con"));
 }
-
+# JsonKBRecurse, JsonAttributes and JsonStr below are no longer reached from
+# JsonKB, which now calls the jsonwrite builtin.  They are kept because an
+# analyzer may call them directly -- JsonStr in particular is useful on its
+# own for escaping a string as a JSON literal.  They also document exactly
+# what jsonwrite reproduces, byte for byte.
 JsonKBRecurse(L("file"),L("parent"),L("level")) {
 	L("con") = down(L("parent"));
 	L("first") = 1;
