@@ -31,7 +31,7 @@ the logic is human-written code you can read, [test](testing.md), and ship.
 ## Getting started
 
 - **[Quick Start](quickstart.md)** — install the engine, create or open an analyzer, and run it over text.
-- **Claude Prompts** — let Claude help you build a prototype analyzer. The Help view lists several ready-to-paste prompts, one per task; choose the one you need and it opens with your machine's engine and analyzer paths already filled in. Start with [**General pointers: Claude + NLP++**](prompts/00-general-pointers.md) for an overview of the library.
+- **Claude Prompts** — let Claude help you build a prototype analyzer. The Help view lists several ready-to-paste prompts, one per task; choose the one you need and it opens with your machine's engine and analyzer paths already filled in. Start with [**Prime Claude for NLP++**](prompts/00-prime-claude.md), the first entry, then see [**General pointers: Claude + NLP++**](prompts/01-general-pointers.md) for an overview of the library.
 - **[Parse Trees](parsetrees.md)** — read the `.tree` files your passes produce, and draw any tree as a linguistic diagram you can zoom, drill into, and click back into the text.
 - **[Calling Analyzers from Python & Node.js](packages.md)** — drive an analyzer from your own code with the `NLPPlus` (PyPI) / `nlpplus` (npm) packages: pass data in, get results back.
 - **[Compiling Analyzers](compiling.md)** — turn an analyzer (and/or its knowledge base) into a fast compiled C++ library.
