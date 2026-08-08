@@ -1,0 +1,612 @@
+# Nationality (demonym) names in English.
+# One line per surface form:  adjective, singular noun and plural noun.
+#   nationality=1  every entry            adj=1 / noun=1 / plural=1  word role
+#   collective=1   the adjective is also the plural people ("the French")
+#   syn=1          a variant spelling or an alternate demonym
+#   root=          canonical nationality for a variant or synonym form
+#   country=       country name as keyed in en-countries.dict
+#   iso2= iso3=    ISO 3166-1 codes, matching en-countries.dict
+#   ambig=1        the form names more than one country (see en-nationalities.kbb)
+# Uninhabited ISO territories (Antarctica, Bouvet Island, Heard and McDonald
+# Islands, French Southern Territories, South Georgia, US Minor Outlying
+# Islands, British Indian Ocean Territory, Svalbard) have no demonym and are
+# not listed.
+# Five entries are not ISO countries and so have no en-countries.dict entry:
+# england, scotland, wales and northern ireland (which carry the UK's gb/gbr
+# codes) and kosovo (xk/xkx, the user-assigned code in common use).
+afghan nationality=1 adj=1 noun=1 country=afghanistan iso2=af iso3=afg
+afghans nationality=1 noun=1 plural=1 root=afghan country=afghanistan iso2=af iso3=afg
+alander nationality=1 noun=1 root=alandic country="åland islands" iso2=ax iso3=ala
+alanders nationality=1 noun=1 plural=1 root=alandic country="åland islands" iso2=ax iso3=ala
+alandic nationality=1 adj=1 country="åland islands" iso2=ax iso3=ala
+albanian nationality=1 adj=1 noun=1 country=albania iso2=al iso3=alb
+albanians nationality=1 noun=1 plural=1 root=albanian country=albania iso2=al iso3=alb
+algerian nationality=1 adj=1 noun=1 country=algeria iso2=dz iso3=dza
+algerians nationality=1 noun=1 plural=1 root=algerian country=algeria iso2=dz iso3=dza
+american nationality=1 adj=1 noun=1 country="united states of america" iso2=us iso3=usa
+american samoan nationality=1 adj=1 noun=1 country="american samoa" iso2=as iso3=asm
+american samoans nationality=1 noun=1 plural=1 root="american samoan" country="american samoa" iso2=as iso3=asm
+americans nationality=1 noun=1 plural=1 root=american country="united states of america" iso2=us iso3=usa
+andorran nationality=1 adj=1 noun=1 country=andorra iso2=ad iso3=and
+andorrans nationality=1 noun=1 plural=1 root=andorran country=andorra iso2=ad iso3=and
+angolan nationality=1 adj=1 noun=1 country=angola iso2=ao iso3=ago
+angolans nationality=1 noun=1 plural=1 root=angolan country=angola iso2=ao iso3=ago
+anguillan nationality=1 adj=1 noun=1 country=anguilla iso2=ai iso3=aia
+anguillans nationality=1 noun=1 plural=1 root=anguillan country=anguilla iso2=ai iso3=aia
+anguillian nationality=1 adj=1 noun=1 syn=1 root=anguillan country=anguilla iso2=ai iso3=aia
+antiguan nationality=1 adj=1 noun=1 country="antigua and barbuda" iso2=ag iso3=atg
+antiguans nationality=1 noun=1 plural=1 root=antiguan country="antigua and barbuda" iso2=ag iso3=atg
+antiguans and barbudans nationality=1 noun=1 plural=1 syn=1 root=antiguan country="antigua and barbuda" iso2=ag iso3=atg
+argentine nationality=1 adj=1 noun=1 country=argentina iso2=ar iso3=arg
+argentines nationality=1 noun=1 plural=1 root=argentine country=argentina iso2=ar iso3=arg
+argentinian nationality=1 adj=1 noun=1 syn=1 root=argentine country=argentina iso2=ar iso3=arg
+argentinians nationality=1 noun=1 plural=1 syn=1 root=argentine country=argentina iso2=ar iso3=arg
+armenian nationality=1 adj=1 noun=1 country=armenia iso2=am iso3=arm
+armenians nationality=1 noun=1 plural=1 root=armenian country=armenia iso2=am iso3=arm
+aruban nationality=1 adj=1 noun=1 country=aruba iso2=aw iso3=abw
+arubans nationality=1 noun=1 plural=1 root=aruban country=aruba iso2=aw iso3=abw
+aussie nationality=1 adj=1 noun=1 syn=1 root=australian country=australia iso2=au iso3=aus
+aussies nationality=1 noun=1 plural=1 syn=1 root=australian country=australia iso2=au iso3=aus
+australian nationality=1 adj=1 noun=1 country=australia iso2=au iso3=aus
+australians nationality=1 noun=1 plural=1 root=australian country=australia iso2=au iso3=aus
+austrian nationality=1 adj=1 noun=1 country=austria iso2=at iso3=aut
+austrians nationality=1 noun=1 plural=1 root=austrian country=austria iso2=at iso3=aut
+azerbaijani nationality=1 adj=1 noun=1 country=azerbaijan iso2=az iso3=aze
+azerbaijanis nationality=1 noun=1 plural=1 root=azerbaijani country=azerbaijan iso2=az iso3=aze
+azeri nationality=1 adj=1 noun=1 syn=1 root=azerbaijani country=azerbaijan iso2=az iso3=aze
+azeris nationality=1 noun=1 plural=1 syn=1 root=azerbaijani country=azerbaijan iso2=az iso3=aze
+bahamian nationality=1 adj=1 noun=1 country=bahamas iso2=bs iso3=bhs
+bahamians nationality=1 noun=1 plural=1 root=bahamian country=bahamas iso2=bs iso3=bhs
+bahraini nationality=1 adj=1 noun=1 country=bahrain iso2=bh iso3=bhr
+bahrainis nationality=1 noun=1 plural=1 root=bahraini country=bahrain iso2=bh iso3=bhr
+bajan nationality=1 noun=1 syn=1 root=barbadian country=barbados iso2=bb iso3=brb
+bajans nationality=1 noun=1 plural=1 syn=1 root=barbadian country=barbados iso2=bb iso3=brb
+bangladeshi nationality=1 adj=1 noun=1 country=bangladesh iso2=bd iso3=bgd
+bangladeshis nationality=1 noun=1 plural=1 root=bangladeshi country=bangladesh iso2=bd iso3=bgd
+barbadian nationality=1 adj=1 noun=1 country=barbados iso2=bb iso3=brb
+barbadians nationality=1 noun=1 plural=1 root=barbadian country=barbados iso2=bb iso3=brb
+barbudan nationality=1 adj=1 noun=1 syn=1 root=antiguan country="antigua and barbuda" iso2=ag iso3=atg
+barthelemois nationality=1 adj=1 noun=1 plural=1 country="saint barthélemy" iso2=bl iso3=blm
+basotho nationality=1 adj=1 noun=1 plural=1 country=lesotho iso2=ls iso3=lso
+batswana nationality=1 noun=1 plural=1 root=botswanan country=botswana iso2=bw iso3=bwa
+belarusian nationality=1 adj=1 noun=1 country=belarus iso2=by iso3=blr
+belarusians nationality=1 noun=1 plural=1 root=belarusian country=belarus iso2=by iso3=blr
+belgian nationality=1 adj=1 noun=1 country=belgium iso2=be iso3=bel
+belgians nationality=1 noun=1 plural=1 root=belgian country=belgium iso2=be iso3=bel
+belizean nationality=1 adj=1 noun=1 country=belize iso2=bz iso3=blz
+belizeans nationality=1 noun=1 plural=1 root=belizean country=belize iso2=bz iso3=blz
+beninese nationality=1 adj=1 noun=1 plural=1 country=benin iso2=bj iso3=ben
+bermudan nationality=1 adj=1 noun=1 syn=1 root=bermudian country=bermuda iso2=bm iso3=bmu
+bermudian nationality=1 adj=1 noun=1 country=bermuda iso2=bm iso3=bmu
+bermudians nationality=1 noun=1 plural=1 root=bermudian country=bermuda iso2=bm iso3=bmu
+bhutanese nationality=1 adj=1 noun=1 plural=1 country=bhutan iso2=bt iso3=btn
+bissau-guinean nationality=1 adj=1 noun=1 country="guinea-bissau" iso2=gw iso3=gnb
+bissau-guineans nationality=1 noun=1 plural=1 root="bissau-guinean" country="guinea-bissau" iso2=gw iso3=gnb
+bolivian nationality=1 adj=1 noun=1 country=bolivia iso2=bo iso3=bol
+bolivians nationality=1 noun=1 plural=1 root=bolivian country=bolivia iso2=bo iso3=bol
+bonairean nationality=1 adj=1 noun=1 country="bonaire, sint eustatius and saba" iso2=bq iso3=bes
+bonaireans nationality=1 noun=1 plural=1 root=bonairean country="bonaire, sint eustatius and saba" iso2=bq iso3=bes
+bosnian nationality=1 adj=1 noun=1 country="bosnia and herzegovina" iso2=ba iso3=bih
+bosnians nationality=1 noun=1 plural=1 root=bosnian country="bosnia and herzegovina" iso2=ba iso3=bih
+botswanan nationality=1 adj=1 country=botswana iso2=bw iso3=bwa
+brazilian nationality=1 adj=1 noun=1 country=brazil iso2=br iso3=bra
+brazilians nationality=1 noun=1 plural=1 root=brazilian country=brazil iso2=br iso3=bra
+brit nationality=1 noun=1 syn=1 root=british country="united kingdom of great britain and northern ireland" iso2=gb iso3=gbr
+british nationality=1 adj=1 collective=1 country="united kingdom of great britain and northern ireland" iso2=gb iso3=gbr
+british virgin island nationality=1 adj=1 country="virgin islands" iso2=vg iso3=vgb
+british virgin islander nationality=1 noun=1 root="british virgin island" country="virgin islands" iso2=vg iso3=vgb
+british virgin islanders nationality=1 noun=1 plural=1 root="british virgin island" country="virgin islands" iso2=vg iso3=vgb
+briton nationality=1 noun=1 root=british country="united kingdom of great britain and northern ireland" iso2=gb iso3=gbr
+britons nationality=1 noun=1 plural=1 root=british country="united kingdom of great britain and northern ireland" iso2=gb iso3=gbr
+brits nationality=1 noun=1 plural=1 syn=1 root=british country="united kingdom of great britain and northern ireland" iso2=gb iso3=gbr
+bruneian nationality=1 adj=1 noun=1 country="brunei darussalam" iso2=bn iso3=brn
+bruneians nationality=1 noun=1 plural=1 root=bruneian country="brunei darussalam" iso2=bn iso3=brn
+bulgarian nationality=1 adj=1 noun=1 country=bulgaria iso2=bg iso3=bgr
+bulgarians nationality=1 noun=1 plural=1 root=bulgarian country=bulgaria iso2=bg iso3=bgr
+burkinabe nationality=1 adj=1 noun=1 plural=1 country="burkina faso" iso2=bf iso3=bfa
+burkinabé nationality=1 adj=1 noun=1 syn=1 root=burkinabe country="burkina faso" iso2=bf iso3=bfa
+burmese nationality=1 adj=1 noun=1 plural=1 country=myanmar iso2=mm iso3=mmr
+burundian nationality=1 adj=1 noun=1 country=burundi iso2=bi iso3=bdi
+burundians nationality=1 noun=1 plural=1 root=burundian country=burundi iso2=bi iso3=bdi
+byelorussian nationality=1 adj=1 noun=1 syn=1 root=belarusian country=belarus iso2=by iso3=blr
+cabo verdean nationality=1 adj=1 noun=1 syn=1 root="cape verdean" country="cabo verde" iso2=cv iso3=cpv
+cambodian nationality=1 adj=1 noun=1 country=cambodia iso2=kh iso3=khm
+cambodians nationality=1 noun=1 plural=1 root=cambodian country=cambodia iso2=kh iso3=khm
+cameroonian nationality=1 adj=1 noun=1 country=cameroon iso2=cm iso3=cmr
+cameroonians nationality=1 noun=1 plural=1 root=cameroonian country=cameroon iso2=cm iso3=cmr
+canadian nationality=1 adj=1 noun=1 country=canada iso2=ca iso3=can
+canadians nationality=1 noun=1 plural=1 root=canadian country=canada iso2=ca iso3=can
+cape verdean nationality=1 adj=1 noun=1 country="cabo verde" iso2=cv iso3=cpv
+cape verdeans nationality=1 noun=1 plural=1 root="cape verdean" country="cabo verde" iso2=cv iso3=cpv
+caymanian nationality=1 adj=1 noun=1 country="cayman islands" iso2=ky iso3=cym
+caymanians nationality=1 noun=1 plural=1 root=caymanian country="cayman islands" iso2=ky iso3=cym
+central african nationality=1 adj=1 noun=1 country="central african republic" iso2=cf iso3=caf
+central africans nationality=1 noun=1 plural=1 root="central african" country="central african republic" iso2=cf iso3=caf
+chadian nationality=1 adj=1 noun=1 country=chad iso2=td iso3=tcd
+chadians nationality=1 noun=1 plural=1 root=chadian country=chad iso2=td iso3=tcd
+chamorro nationality=1 adj=1 noun=1 syn=1 root="northern marianan" country="northern mariana islands" iso2=mp iso3=mnp
+chilean nationality=1 adj=1 noun=1 country=chile iso2=cl iso3=chl
+chileans nationality=1 noun=1 plural=1 root=chilean country=chile iso2=cl iso3=chl
+chinese nationality=1 adj=1 noun=1 plural=1 country=china iso2=cn iso3=chn
+christmas island nationality=1 adj=1 country="christmas island" iso2=cx iso3=cxr
+christmas islander nationality=1 noun=1 root="christmas island" country="christmas island" iso2=cx iso3=cxr
+christmas islanders nationality=1 noun=1 plural=1 root="christmas island" country="christmas island" iso2=cx iso3=cxr
+cocos island nationality=1 adj=1 country=cocos iso2=cc iso3=cck
+cocos islander nationality=1 noun=1 root="cocos island" country=cocos iso2=cc iso3=cck
+cocos islanders nationality=1 noun=1 plural=1 root="cocos island" country=cocos iso2=cc iso3=cck
+colombian nationality=1 adj=1 noun=1 country=colombia iso2=co iso3=col
+colombians nationality=1 noun=1 plural=1 root=colombian country=colombia iso2=co iso3=col
+comoran nationality=1 adj=1 noun=1 syn=1 root=comorian country=comoros iso2=km iso3=com
+comorian nationality=1 adj=1 noun=1 country=comoros iso2=km iso3=com
+comorians nationality=1 noun=1 plural=1 root=comorian country=comoros iso2=km iso3=com
+congolese nationality=1 adj=1 noun=1 plural=1 ambig=1 country=congo iso2=cg iso3=cog
+cook island nationality=1 adj=1 country="cook islands" iso2=ck iso3=cok
+cook islander nationality=1 noun=1 root="cook island" country="cook islands" iso2=ck iso3=cok
+cook islanders nationality=1 noun=1 plural=1 root="cook island" country="cook islands" iso2=ck iso3=cok
+costa rican nationality=1 adj=1 noun=1 country="costa rica" iso2=cr iso3=cri
+costa ricans nationality=1 noun=1 plural=1 root="costa rican" country="costa rica" iso2=cr iso3=cri
+croat nationality=1 noun=1 root=croatian country=croatia iso2=hr iso3=hrv
+croatian nationality=1 adj=1 country=croatia iso2=hr iso3=hrv
+croatians nationality=1 noun=1 plural=1 syn=1 root=croatian country=croatia iso2=hr iso3=hrv
+croats nationality=1 noun=1 plural=1 root=croatian country=croatia iso2=hr iso3=hrv
+cuban nationality=1 adj=1 noun=1 country=cuba iso2=cu iso3=cub
+cubans nationality=1 noun=1 plural=1 root=cuban country=cuba iso2=cu iso3=cub
+curacaoan nationality=1 adj=1 noun=1 country=curaçao iso2=cw iso3=cuw
+curacaoans nationality=1 noun=1 plural=1 root=curacaoan country=curaçao iso2=cw iso3=cuw
+curaçaoan nationality=1 adj=1 noun=1 syn=1 root=curacaoan country=curaçao iso2=cw iso3=cuw
+cypriot nationality=1 adj=1 noun=1 country=cyprus iso2=cy iso3=cyp
+cypriots nationality=1 noun=1 plural=1 root=cypriot country=cyprus iso2=cy iso3=cyp
+czech nationality=1 adj=1 noun=1 country=czechia iso2=cz iso3=cze
+czechs nationality=1 noun=1 plural=1 root=czech country=czechia iso2=cz iso3=cze
+dane nationality=1 noun=1 root=danish country=denmark iso2=dk iso3=dnk
+danes nationality=1 noun=1 plural=1 root=danish country=denmark iso2=dk iso3=dnk
+danish nationality=1 adj=1 collective=1 country=denmark iso2=dk iso3=dnk
+djiboutian nationality=1 adj=1 noun=1 country=djibouti iso2=dj iso3=dji
+djiboutians nationality=1 noun=1 plural=1 root=djiboutian country=djibouti iso2=dj iso3=dji
+dominican nationality=1 adj=1 noun=1 ambig=1 country=dominica iso2=dm iso3=dma
+dominicans nationality=1 noun=1 plural=1 ambig=1 root=dominican country=dominica iso2=dm iso3=dma
+dutch nationality=1 adj=1 collective=1 country=netherlands iso2=nl iso3=nld
+dutchman nationality=1 noun=1 root=dutch country=netherlands iso2=nl iso3=nld
+dutchmen nationality=1 noun=1 plural=1 root=dutch country=netherlands iso2=nl iso3=nld
+dutchwoman nationality=1 noun=1 syn=1 root=dutch country=netherlands iso2=nl iso3=nld
+dutchwomen nationality=1 noun=1 plural=1 syn=1 root=dutch country=netherlands iso2=nl iso3=nld
+east timorese nationality=1 adj=1 noun=1 syn=1 root=timorese country="timor-leste" iso2=tl iso3=tls
+ecuadorean nationality=1 adj=1 noun=1 syn=1 root=ecuadorian country=ecuador iso2=ec iso3=ecu
+ecuadorian nationality=1 adj=1 noun=1 country=ecuador iso2=ec iso3=ecu
+ecuadorians nationality=1 noun=1 plural=1 root=ecuadorian country=ecuador iso2=ec iso3=ecu
+egyptian nationality=1 adj=1 noun=1 country=egypt iso2=eg iso3=egy
+egyptians nationality=1 noun=1 plural=1 root=egyptian country=egypt iso2=eg iso3=egy
+emirati nationality=1 adj=1 noun=1 country="united arab emirates" iso2=ae iso3=are
+emiratis nationality=1 noun=1 plural=1 root=emirati country="united arab emirates" iso2=ae iso3=are
+emirian nationality=1 adj=1 noun=1 syn=1 root=emirati country="united arab emirates" iso2=ae iso3=are
+english nationality=1 adj=1 collective=1 country=england iso2=gb iso3=gbr
+englishman nationality=1 noun=1 root=english country=england iso2=gb iso3=gbr
+englishmen nationality=1 noun=1 plural=1 root=english country=england iso2=gb iso3=gbr
+englishwoman nationality=1 noun=1 syn=1 root=english country=england iso2=gb iso3=gbr
+englishwomen nationality=1 noun=1 plural=1 syn=1 root=english country=england iso2=gb iso3=gbr
+equatoguinean nationality=1 noun=1 root="equatorial guinean" country="equatorial guinea" iso2=gq iso3=gnq
+equatoguineans nationality=1 noun=1 plural=1 root="equatorial guinean" country="equatorial guinea" iso2=gq iso3=gnq
+equatorial guinean nationality=1 adj=1 country="equatorial guinea" iso2=gq iso3=gnq
+equatorial guineans nationality=1 noun=1 plural=1 syn=1 root="equatorial guinean" country="equatorial guinea" iso2=gq iso3=gnq
+eritrean nationality=1 adj=1 noun=1 country=eritrea iso2=er iso3=eri
+eritreans nationality=1 noun=1 plural=1 root=eritrean country=eritrea iso2=er iso3=eri
+estonian nationality=1 adj=1 noun=1 country=estonia iso2=ee iso3=est
+estonians nationality=1 noun=1 plural=1 root=estonian country=estonia iso2=ee iso3=est
+ethiopian nationality=1 adj=1 noun=1 country=ethiopia iso2=et iso3=eth
+ethiopians nationality=1 noun=1 plural=1 root=ethiopian country=ethiopia iso2=et iso3=eth
+faeroese nationality=1 adj=1 noun=1 syn=1 root=faroese country="faroe islands" iso2=fo iso3=fro
+falkland island nationality=1 adj=1 country="falkland islands" iso2=fk iso3=flk
+falkland islander nationality=1 noun=1 root="falkland island" country="falkland islands" iso2=fk iso3=flk
+falkland islanders nationality=1 noun=1 plural=1 root="falkland island" country="falkland islands" iso2=fk iso3=flk
+faroese nationality=1 adj=1 noun=1 plural=1 country="faroe islands" iso2=fo iso3=fro
+fijian nationality=1 adj=1 noun=1 country=fiji iso2=fj iso3=fji
+fijians nationality=1 noun=1 plural=1 root=fijian country=fiji iso2=fj iso3=fji
+filipina nationality=1 noun=1 syn=1 root=filipino country=philippines iso2=ph iso3=phl
+filipinas nationality=1 noun=1 plural=1 syn=1 root=filipino country=philippines iso2=ph iso3=phl
+filipino nationality=1 adj=1 noun=1 country=philippines iso2=ph iso3=phl
+filipinos nationality=1 noun=1 plural=1 root=filipino country=philippines iso2=ph iso3=phl
+finn nationality=1 noun=1 root=finnish country=finland iso2=fi iso3=fin
+finnish nationality=1 adj=1 collective=1 country=finland iso2=fi iso3=fin
+finns nationality=1 noun=1 plural=1 root=finnish country=finland iso2=fi iso3=fin
+french nationality=1 adj=1 collective=1 country=france iso2=fr iso3=fra
+french guianese nationality=1 adj=1 noun=1 plural=1 country="french guiana" iso2=gf iso3=guf
+french polynesian nationality=1 adj=1 noun=1 country="french polynesia" iso2=pf iso3=pyf
+french polynesians nationality=1 noun=1 plural=1 root="french polynesian" country="french polynesia" iso2=pf iso3=pyf
+frenchman nationality=1 noun=1 root=french country=france iso2=fr iso3=fra
+frenchmen nationality=1 noun=1 plural=1 root=french country=france iso2=fr iso3=fra
+frenchwoman nationality=1 noun=1 syn=1 root=french country=france iso2=fr iso3=fra
+frenchwomen nationality=1 noun=1 plural=1 syn=1 root=french country=france iso2=fr iso3=fra
+futunan nationality=1 adj=1 noun=1 syn=1 root=wallisian country="wallis and futuna" iso2=wf iso3=wlf
+gabonese nationality=1 adj=1 noun=1 plural=1 country=gabon iso2=ga iso3=gab
+gambian nationality=1 adj=1 noun=1 country=gambia iso2=gm iso3=gmb
+gambians nationality=1 noun=1 plural=1 root=gambian country=gambia iso2=gm iso3=gmb
+georgian nationality=1 adj=1 noun=1 country=georgia iso2=ge iso3=geo
+georgians nationality=1 noun=1 plural=1 root=georgian country=georgia iso2=ge iso3=geo
+german nationality=1 adj=1 noun=1 country=germany iso2=de iso3=deu
+germans nationality=1 noun=1 plural=1 root=german country=germany iso2=de iso3=deu
+ghanaian nationality=1 adj=1 noun=1 country=ghana iso2=gh iso3=gha
+ghanaians nationality=1 noun=1 plural=1 root=ghanaian country=ghana iso2=gh iso3=gha
+gibraltarian nationality=1 adj=1 noun=1 country=gibraltar iso2=gi iso3=gib
+gibraltarians nationality=1 noun=1 plural=1 root=gibraltarian country=gibraltar iso2=gi iso3=gib
+greek nationality=1 adj=1 noun=1 country=greece iso2=gr iso3=grc
+greeks nationality=1 noun=1 plural=1 root=greek country=greece iso2=gr iso3=grc
+greenlander nationality=1 noun=1 root=greenlandic country=greenland iso2=gl iso3=grl
+greenlanders nationality=1 noun=1 plural=1 root=greenlandic country=greenland iso2=gl iso3=grl
+greenlandic nationality=1 adj=1 country=greenland iso2=gl iso3=grl
+grenadian nationality=1 adj=1 noun=1 country=grenada iso2=gd iso3=grd
+grenadians nationality=1 noun=1 plural=1 root=grenadian country=grenada iso2=gd iso3=grd
+guadeloupean nationality=1 adj=1 noun=1 country=guadeloupe iso2=gp iso3=glp
+guadeloupeans nationality=1 noun=1 plural=1 root=guadeloupean country=guadeloupe iso2=gp iso3=glp
+guamanian nationality=1 adj=1 noun=1 country=guam iso2=gu iso3=gum
+guamanians nationality=1 noun=1 plural=1 root=guamanian country=guam iso2=gu iso3=gum
+guatemalan nationality=1 adj=1 noun=1 country=guatemala iso2=gt iso3=gtm
+guatemalans nationality=1 noun=1 plural=1 root=guatemalan country=guatemala iso2=gt iso3=gtm
+guernsey nationality=1 adj=1 country=guernsey iso2=gg iso3=ggy
+guernseyman nationality=1 noun=1 root=guernsey country=guernsey iso2=gg iso3=ggy
+guernseymen nationality=1 noun=1 plural=1 root=guernsey country=guernsey iso2=gg iso3=ggy
+guinean nationality=1 adj=1 noun=1 country=guinea iso2=gn iso3=gin
+guineans nationality=1 noun=1 plural=1 root=guinean country=guinea iso2=gn iso3=gin
+guyanese nationality=1 adj=1 noun=1 plural=1 country=guyana iso2=gy iso3=guy
+haitian nationality=1 adj=1 noun=1 country=haiti iso2=ht iso3=hti
+haitians nationality=1 noun=1 plural=1 root=haitian country=haiti iso2=ht iso3=hti
+hellenic nationality=1 adj=1 syn=1 root=greek country=greece iso2=gr iso3=grc
+herzegovinian nationality=1 adj=1 noun=1 syn=1 root=bosnian country="bosnia and herzegovina" iso2=ba iso3=bih
+honduran nationality=1 adj=1 noun=1 country=honduras iso2=hn iso3=hnd
+hondurans nationality=1 noun=1 plural=1 root=honduran country=honduras iso2=hn iso3=hnd
+hong kong nationality=1 adj=1 country="hong kong" iso2=hk iso3=hkg
+hong konger nationality=1 noun=1 root="hong kong" country="hong kong" iso2=hk iso3=hkg
+hong kongers nationality=1 noun=1 plural=1 root="hong kong" country="hong kong" iso2=hk iso3=hkg
+hongkongese nationality=1 adj=1 noun=1 syn=1 root="hong kong" country="hong kong" iso2=hk iso3=hkg
+hungarian nationality=1 adj=1 noun=1 country=hungary iso2=hu iso3=hun
+hungarians nationality=1 noun=1 plural=1 root=hungarian country=hungary iso2=hu iso3=hun
+i-kiribati nationality=1 adj=1 noun=1 plural=1 country=kiribati iso2=ki iso3=kir
+icelander nationality=1 noun=1 root=icelandic country=iceland iso2=is iso3=isl
+icelanders nationality=1 noun=1 plural=1 root=icelandic country=iceland iso2=is iso3=isl
+icelandic nationality=1 adj=1 country=iceland iso2=is iso3=isl
+indian nationality=1 adj=1 noun=1 country=india iso2=in iso3=ind
+indians nationality=1 noun=1 plural=1 root=indian country=india iso2=in iso3=ind
+indonesian nationality=1 adj=1 noun=1 country=indonesia iso2=id iso3=idn
+indonesians nationality=1 noun=1 plural=1 root=indonesian country=indonesia iso2=id iso3=idn
+iranian nationality=1 adj=1 noun=1 country=iran iso2=ir iso3=irn
+iranians nationality=1 noun=1 plural=1 root=iranian country=iran iso2=ir iso3=irn
+iraqi nationality=1 adj=1 noun=1 country=iraq iso2=iq iso3=irq
+iraqis nationality=1 noun=1 plural=1 root=iraqi country=iraq iso2=iq iso3=irq
+irish nationality=1 adj=1 collective=1 country=ireland iso2=ie iso3=irl
+irishman nationality=1 noun=1 root=irish country=ireland iso2=ie iso3=irl
+irishmen nationality=1 noun=1 plural=1 root=irish country=ireland iso2=ie iso3=irl
+irishwoman nationality=1 noun=1 syn=1 root=irish country=ireland iso2=ie iso3=irl
+irishwomen nationality=1 noun=1 plural=1 syn=1 root=irish country=ireland iso2=ie iso3=irl
+israeli nationality=1 adj=1 noun=1 country=israel iso2=il iso3=isr
+israelis nationality=1 noun=1 plural=1 root=israeli country=israel iso2=il iso3=isr
+italian nationality=1 adj=1 noun=1 country=italy iso2=it iso3=ita
+italians nationality=1 noun=1 plural=1 root=italian country=italy iso2=it iso3=ita
+ivoirian nationality=1 adj=1 noun=1 syn=1 root=ivorian country="côte d'ivoire" iso2=ci iso3=civ
+ivorian nationality=1 adj=1 noun=1 country="côte d'ivoire" iso2=ci iso3=civ
+ivorians nationality=1 noun=1 plural=1 root=ivorian country="côte d'ivoire" iso2=ci iso3=civ
+jamaican nationality=1 adj=1 noun=1 country=jamaica iso2=jm iso3=jam
+jamaicans nationality=1 noun=1 plural=1 root=jamaican country=jamaica iso2=jm iso3=jam
+japanese nationality=1 adj=1 noun=1 plural=1 country=japan iso2=jp iso3=jpn
+jersey nationality=1 adj=1 country=jersey iso2=je iso3=jey
+jerseyman nationality=1 noun=1 root=jersey country=jersey iso2=je iso3=jey
+jerseymen nationality=1 noun=1 plural=1 root=jersey country=jersey iso2=je iso3=jey
+jordanian nationality=1 adj=1 noun=1 country=jordan iso2=jo iso3=jor
+jordanians nationality=1 noun=1 plural=1 root=jordanian country=jordan iso2=jo iso3=jor
+kazakh nationality=1 adj=1 noun=1 country=kazakhstan iso2=kz iso3=kaz
+kazakhs nationality=1 noun=1 plural=1 root=kazakh country=kazakhstan iso2=kz iso3=kaz
+kazakhstani nationality=1 adj=1 noun=1 syn=1 root=kazakh country=kazakhstan iso2=kz iso3=kaz
+kenyan nationality=1 adj=1 noun=1 country=kenya iso2=ke iso3=ken
+kenyans nationality=1 noun=1 plural=1 root=kenyan country=kenya iso2=ke iso3=ken
+khmer nationality=1 adj=1 noun=1 syn=1 root=cambodian country=cambodia iso2=kh iso3=khm
+kirghiz nationality=1 adj=1 noun=1 syn=1 root=kyrgyz country=kyrgyzstan iso2=kg iso3=kgz
+kiribatian nationality=1 adj=1 noun=1 syn=1 root="i-kiribati" country=kiribati iso2=ki iso3=kir
+kittitian nationality=1 adj=1 noun=1 country="saint kitts and nevis" iso2=kn iso3=kna
+kittitians nationality=1 noun=1 plural=1 root=kittitian country="saint kitts and nevis" iso2=kn iso3=kna
+kiwi nationality=1 adj=1 noun=1 syn=1 root="new zealand" country="new zealand" iso2=nz iso3=nzl
+kiwis nationality=1 noun=1 plural=1 syn=1 root="new zealand" country="new zealand" iso2=nz iso3=nzl
+korean nationality=1 adj=1 noun=1 country=korea iso2=kr iso3=kor
+koreans nationality=1 noun=1 plural=1 root=korean country=korea iso2=kr iso3=kor
+kosovan nationality=1 adj=1 noun=1 syn=1 root=kosovar country=kosovo iso2=xk iso3=xkx
+kosovar nationality=1 adj=1 noun=1 country=kosovo iso2=xk iso3=xkx
+kosovars nationality=1 noun=1 plural=1 root=kosovar country=kosovo iso2=xk iso3=xkx
+kuwaiti nationality=1 adj=1 noun=1 country=kuwait iso2=kw iso3=kwt
+kuwaitis nationality=1 noun=1 plural=1 root=kuwaiti country=kuwait iso2=kw iso3=kwt
+kyrgyz nationality=1 adj=1 noun=1 plural=1 country=kyrgyzstan iso2=kg iso3=kgz
+kyrgyzstani nationality=1 adj=1 noun=1 syn=1 root=kyrgyz country=kyrgyzstan iso2=kg iso3=kgz
+lao nationality=1 noun=1 plural=1 root=laotian country="lao people's democratic republic" iso2=la iso3=lao
+laotian nationality=1 adj=1 country="lao people's democratic republic" iso2=la iso3=lao
+laotians nationality=1 noun=1 plural=1 syn=1 root=laotian country="lao people's democratic republic" iso2=la iso3=lao
+latvian nationality=1 adj=1 noun=1 country=latvia iso2=lv iso3=lva
+latvians nationality=1 noun=1 plural=1 root=latvian country=latvia iso2=lv iso3=lva
+lebanese nationality=1 adj=1 noun=1 plural=1 country=lebanon iso2=lb iso3=lbn
+liberian nationality=1 adj=1 noun=1 country=liberia iso2=lr iso3=lbr
+liberians nationality=1 noun=1 plural=1 root=liberian country=liberia iso2=lr iso3=lbr
+libyan nationality=1 adj=1 noun=1 country=libya iso2=ly iso3=lby
+libyans nationality=1 noun=1 plural=1 root=libyan country=libya iso2=ly iso3=lby
+liechtenstein nationality=1 adj=1 country=liechtenstein iso2=li iso3=lie
+liechtensteiner nationality=1 noun=1 root=liechtenstein country=liechtenstein iso2=li iso3=lie
+liechtensteiners nationality=1 noun=1 plural=1 root=liechtenstein country=liechtenstein iso2=li iso3=lie
+lithuanian nationality=1 adj=1 noun=1 country=lithuania iso2=lt iso3=ltu
+lithuanians nationality=1 noun=1 plural=1 root=lithuanian country=lithuania iso2=lt iso3=ltu
+luxembourger nationality=1 noun=1 root=luxembourgish country=luxembourg iso2=lu iso3=lux
+luxembourgers nationality=1 noun=1 plural=1 root=luxembourgish country=luxembourg iso2=lu iso3=lux
+luxembourgish nationality=1 adj=1 collective=1 country=luxembourg iso2=lu iso3=lux
+macanese nationality=1 adj=1 noun=1 plural=1 country=macao iso2=mo iso3=mac
+macedonian nationality=1 adj=1 noun=1 country="republic of north macedonia" iso2=mk iso3=mkd
+macedonians nationality=1 noun=1 plural=1 root=macedonian country="republic of north macedonia" iso2=mk iso3=mkd
+madagascan nationality=1 adj=1 noun=1 syn=1 root=malagasy country=madagascar iso2=mg iso3=mdg
+magyar nationality=1 adj=1 noun=1 syn=1 root=hungarian country=hungary iso2=hu iso3=hun
+magyars nationality=1 noun=1 plural=1 syn=1 root=hungarian country=hungary iso2=hu iso3=hun
+mahorais nationality=1 adj=1 noun=1 syn=1 root=mahoran country=mayotte iso2=yt iso3=myt
+mahoran nationality=1 adj=1 noun=1 country=mayotte iso2=yt iso3=myt
+mahorans nationality=1 noun=1 plural=1 root=mahoran country=mayotte iso2=yt iso3=myt
+malagasy nationality=1 adj=1 noun=1 plural=1 country=madagascar iso2=mg iso3=mdg
+malawian nationality=1 adj=1 noun=1 country=malawi iso2=mw iso3=mwi
+malawians nationality=1 noun=1 plural=1 root=malawian country=malawi iso2=mw iso3=mwi
+malaysian nationality=1 adj=1 noun=1 country=malaysia iso2=my iso3=mys
+malaysians nationality=1 noun=1 plural=1 root=malaysian country=malaysia iso2=my iso3=mys
+maldivian nationality=1 adj=1 noun=1 country=maldives iso2=mv iso3=mdv
+maldivians nationality=1 noun=1 plural=1 root=maldivian country=maldives iso2=mv iso3=mdv
+malian nationality=1 adj=1 noun=1 country=mali iso2=ml iso3=mli
+malians nationality=1 noun=1 plural=1 root=malian country=mali iso2=ml iso3=mli
+maltese nationality=1 adj=1 noun=1 plural=1 country=malta iso2=mt iso3=mlt
+manx nationality=1 adj=1 collective=1 country="isle of man" iso2=im iso3=imn
+manxman nationality=1 noun=1 root=manx country="isle of man" iso2=im iso3=imn
+manxmen nationality=1 noun=1 plural=1 root=manx country="isle of man" iso2=im iso3=imn
+marshallese nationality=1 adj=1 noun=1 plural=1 country="marshall islands" iso2=mh iso3=mhl
+martinican nationality=1 adj=1 country=martinique iso2=mq iso3=mtq
+martiniquais nationality=1 noun=1 plural=1 root=martinican country=martinique iso2=mq iso3=mtq
+mauritanian nationality=1 adj=1 noun=1 country=mauritania iso2=mr iso3=mrt
+mauritanians nationality=1 noun=1 plural=1 root=mauritanian country=mauritania iso2=mr iso3=mrt
+mauritian nationality=1 adj=1 noun=1 country=mauritius iso2=mu iso3=mus
+mauritians nationality=1 noun=1 plural=1 root=mauritian country=mauritius iso2=mu iso3=mus
+mexican nationality=1 adj=1 noun=1 country=mexico iso2=mx iso3=mex
+mexicans nationality=1 noun=1 plural=1 root=mexican country=mexico iso2=mx iso3=mex
+micronesian nationality=1 adj=1 noun=1 country=micronesia iso2=fm iso3=fsm
+micronesians nationality=1 noun=1 plural=1 root=micronesian country=micronesia iso2=fm iso3=fsm
+miquelonnais nationality=1 adj=1 noun=1 syn=1 root="saint-pierrais" country="saint pierre and miquelon" iso2=pm iso3=spm
+moldavian nationality=1 adj=1 noun=1 syn=1 root=moldovan country=moldova iso2=md iso3=mda
+moldovan nationality=1 adj=1 noun=1 country=moldova iso2=md iso3=mda
+moldovans nationality=1 noun=1 plural=1 root=moldovan country=moldova iso2=md iso3=mda
+monacan nationality=1 adj=1 noun=1 syn=1 root=monegasque country=monaco iso2=mc iso3=mco
+monegasque nationality=1 adj=1 noun=1 country=monaco iso2=mc iso3=mco
+monegasques nationality=1 noun=1 plural=1 root=monegasque country=monaco iso2=mc iso3=mco
+mongol nationality=1 adj=1 noun=1 syn=1 root=mongolian country=mongolia iso2=mn iso3=mng
+mongolian nationality=1 adj=1 noun=1 country=mongolia iso2=mn iso3=mng
+mongolians nationality=1 noun=1 plural=1 root=mongolian country=mongolia iso2=mn iso3=mng
+mongols nationality=1 noun=1 plural=1 syn=1 root=mongolian country=mongolia iso2=mn iso3=mng
+montenegrin nationality=1 adj=1 noun=1 country=montenegro iso2=me iso3=mne
+montenegrins nationality=1 noun=1 plural=1 root=montenegrin country=montenegro iso2=me iso3=mne
+montserratian nationality=1 adj=1 noun=1 country=montserrat iso2=ms iso3=msr
+montserratians nationality=1 noun=1 plural=1 root=montserratian country=montserrat iso2=ms iso3=msr
+moroccan nationality=1 adj=1 noun=1 country=morocco iso2=ma iso3=mar
+moroccans nationality=1 noun=1 plural=1 root=moroccan country=morocco iso2=ma iso3=mar
+mosotho nationality=1 noun=1 root=basotho country=lesotho iso2=ls iso3=lso
+motswana nationality=1 noun=1 root=botswanan country=botswana iso2=bw iso3=bwa
+mozambican nationality=1 adj=1 noun=1 country=mozambique iso2=mz iso3=moz
+mozambicans nationality=1 noun=1 plural=1 root=mozambican country=mozambique iso2=mz iso3=moz
+myanmarese nationality=1 adj=1 noun=1 syn=1 root=burmese country=myanmar iso2=mm iso3=mmr
+namibian nationality=1 adj=1 noun=1 country=namibia iso2=na iso3=nam
+namibians nationality=1 noun=1 plural=1 root=namibian country=namibia iso2=na iso3=nam
+nauruan nationality=1 adj=1 noun=1 country=nauru iso2=nr iso3=nru
+nauruans nationality=1 noun=1 plural=1 root=nauruan country=nauru iso2=nr iso3=nru
+nepalese nationality=1 adj=1 noun=1 syn=1 root=nepali country=nepal iso2=np iso3=npl
+nepali nationality=1 adj=1 noun=1 country=nepal iso2=np iso3=npl
+nepalis nationality=1 noun=1 plural=1 root=nepali country=nepal iso2=np iso3=npl
+netherlandish nationality=1 adj=1 syn=1 root=dutch country=netherlands iso2=nl iso3=nld
+nevisian nationality=1 adj=1 noun=1 syn=1 root=kittitian country="saint kitts and nevis" iso2=kn iso3=kna
+new caledonian nationality=1 adj=1 noun=1 country="new caledonia" iso2=nc iso3=ncl
+new caledonians nationality=1 noun=1 plural=1 root="new caledonian" country="new caledonia" iso2=nc iso3=ncl
+new zealand nationality=1 adj=1 country="new zealand" iso2=nz iso3=nzl
+new zealander nationality=1 noun=1 root="new zealand" country="new zealand" iso2=nz iso3=nzl
+new zealanders nationality=1 noun=1 plural=1 root="new zealand" country="new zealand" iso2=nz iso3=nzl
+ni-vanuatu nationality=1 noun=1 plural=1 root=vanuatuan country=vanuatu iso2=vu iso3=vut
+nicaraguan nationality=1 adj=1 noun=1 country=nicaragua iso2=ni iso3=nic
+nicaraguans nationality=1 noun=1 plural=1 root=nicaraguan country=nicaragua iso2=ni iso3=nic
+nigerian nationality=1 adj=1 noun=1 country=nigeria iso2=ng iso3=nga
+nigerians nationality=1 noun=1 plural=1 root=nigerian country=nigeria iso2=ng iso3=nga
+nigerien nationality=1 adj=1 noun=1 country=niger iso2=ne iso3=ner
+nigeriens nationality=1 noun=1 plural=1 root=nigerien country=niger iso2=ne iso3=ner
+niuean nationality=1 adj=1 noun=1 country=niue iso2=nu iso3=niu
+niueans nationality=1 noun=1 plural=1 root=niuean country=niue iso2=nu iso3=niu
+norfolk island nationality=1 adj=1 country="norfolk island" iso2=nf iso3=nfk
+norfolk islander nationality=1 noun=1 root="norfolk island" country="norfolk island" iso2=nf iso3=nfk
+norfolk islanders nationality=1 noun=1 plural=1 root="norfolk island" country="norfolk island" iso2=nf iso3=nfk
+north korean nationality=1 adj=1 noun=1 country="the democratic people's republic of korea" iso2=kp iso3=prk
+north koreans nationality=1 noun=1 plural=1 root="north korean" country="the democratic people's republic of korea" iso2=kp iso3=prk
+northern irish nationality=1 adj=1 collective=1 country="northern ireland" iso2=gb iso3=gbr
+northern irishman nationality=1 noun=1 root="northern irish" country="northern ireland" iso2=gb iso3=gbr
+northern irishmen nationality=1 noun=1 plural=1 root="northern irish" country="northern ireland" iso2=gb iso3=gbr
+northern marianan nationality=1 adj=1 noun=1 country="northern mariana islands" iso2=mp iso3=mnp
+northern marianans nationality=1 noun=1 plural=1 root="northern marianan" country="northern mariana islands" iso2=mp iso3=mnp
+norwegian nationality=1 adj=1 noun=1 country=norway iso2=no iso3=nor
+norwegians nationality=1 noun=1 plural=1 root=norwegian country=norway iso2=no iso3=nor
+omani nationality=1 adj=1 noun=1 country=oman iso2=om iso3=omn
+omanis nationality=1 noun=1 plural=1 root=omani country=oman iso2=om iso3=omn
+pakistani nationality=1 adj=1 noun=1 country=pakistan iso2=pk iso3=pak
+pakistanis nationality=1 noun=1 plural=1 root=pakistani country=pakistan iso2=pk iso3=pak
+palauan nationality=1 adj=1 noun=1 country=palau iso2=pw iso3=plw
+palauans nationality=1 noun=1 plural=1 root=palauan country=palau iso2=pw iso3=plw
+palestinian nationality=1 adj=1 noun=1 country="palestine, state of" iso2=ps iso3=pse
+palestinians nationality=1 noun=1 plural=1 root=palestinian country="palestine, state of" iso2=ps iso3=pse
+panamanian nationality=1 adj=1 noun=1 country=panama iso2=pa iso3=pan
+panamanians nationality=1 noun=1 plural=1 root=panamanian country=panama iso2=pa iso3=pan
+papua new guinean nationality=1 adj=1 noun=1 country="papua new guinea" iso2=pg iso3=png
+papua new guineans nationality=1 noun=1 plural=1 root="papua new guinean" country="papua new guinea" iso2=pg iso3=png
+paraguayan nationality=1 adj=1 noun=1 country=paraguay iso2=py iso3=pry
+paraguayans nationality=1 noun=1 plural=1 root=paraguayan country=paraguay iso2=py iso3=pry
+persian nationality=1 adj=1 noun=1 syn=1 root=iranian country=iran iso2=ir iso3=irn
+persians nationality=1 noun=1 plural=1 syn=1 root=iranian country=iran iso2=ir iso3=irn
+peruvian nationality=1 adj=1 noun=1 country=peru iso2=pe iso3=per
+peruvians nationality=1 noun=1 plural=1 root=peruvian country=peru iso2=pe iso3=per
+philippine nationality=1 adj=1 syn=1 root=filipino country=philippines iso2=ph iso3=phl
+pitcairn island nationality=1 adj=1 country=pitcairn iso2=pn iso3=pcn
+pitcairn islander nationality=1 noun=1 root="pitcairn island" country=pitcairn iso2=pn iso3=pcn
+pitcairn islanders nationality=1 noun=1 plural=1 root="pitcairn island" country=pitcairn iso2=pn iso3=pcn
+pole nationality=1 noun=1 root=polish country=poland iso2=pl iso3=pol
+poles nationality=1 noun=1 plural=1 root=polish country=poland iso2=pl iso3=pol
+polish nationality=1 adj=1 collective=1 country=poland iso2=pl iso3=pol
+portuguese nationality=1 adj=1 noun=1 plural=1 country=portugal iso2=pt iso3=prt
+puerto rican nationality=1 adj=1 noun=1 country="puerto rico" iso2=pr iso3=pri
+puerto ricans nationality=1 noun=1 plural=1 root="puerto rican" country="puerto rico" iso2=pr iso3=pri
+qatari nationality=1 adj=1 noun=1 country=qatar iso2=qa iso3=qat
+qataris nationality=1 noun=1 plural=1 root=qatari country=qatar iso2=qa iso3=qat
+reunionese nationality=1 adj=1 noun=1 plural=1 country=réunion iso2=re iso3=reu
+romanian nationality=1 adj=1 noun=1 country=romania iso2=ro iso3=rou
+romanians nationality=1 noun=1 plural=1 root=romanian country=romania iso2=ro iso3=rou
+rumanian nationality=1 adj=1 noun=1 syn=1 root=romanian country=romania iso2=ro iso3=rou
+russian nationality=1 adj=1 noun=1 country="russian federation" iso2=ru iso3=rus
+russians nationality=1 noun=1 plural=1 root=russian country="russian federation" iso2=ru iso3=rus
+rwandan nationality=1 adj=1 noun=1 country=rwanda iso2=rw iso3=rwa
+rwandans nationality=1 noun=1 plural=1 root=rwandan country=rwanda iso2=rw iso3=rwa
+rwandese nationality=1 adj=1 noun=1 syn=1 root=rwandan country=rwanda iso2=rw iso3=rwa
+réunionese nationality=1 adj=1 noun=1 syn=1 root=reunionese country=réunion iso2=re iso3=reu
+sahraouian nationality=1 adj=1 noun=1 syn=1 root=sahrawi country="western sahara" iso2=eh iso3=esh
+sahrawi nationality=1 adj=1 noun=1 country="western sahara" iso2=eh iso3=esh
+sahrawis nationality=1 noun=1 plural=1 root=sahrawi country="western sahara" iso2=eh iso3=esh
+saint helenian nationality=1 adj=1 noun=1 country="saint helena, ascension and tristan da cunha" iso2=sh iso3=shn
+saint helenians nationality=1 noun=1 plural=1 root="saint helenian" country="saint helena, ascension and tristan da cunha" iso2=sh iso3=shn
+saint lucian nationality=1 adj=1 noun=1 country="saint lucia" iso2=lc iso3=lca
+saint lucians nationality=1 noun=1 plural=1 root="saint lucian" country="saint lucia" iso2=lc iso3=lca
+saint-martinois nationality=1 adj=1 noun=1 plural=1 country="saint martin" iso2=mf iso3=maf
+saint-pierrais nationality=1 adj=1 noun=1 plural=1 country="saint pierre and miquelon" iso2=pm iso3=spm
+salvadoran nationality=1 adj=1 noun=1 country="el salvador" iso2=sv iso3=slv
+salvadorans nationality=1 noun=1 plural=1 root=salvadoran country="el salvador" iso2=sv iso3=slv
+salvadorean nationality=1 adj=1 noun=1 syn=1 root=salvadoran country="el salvador" iso2=sv iso3=slv
+salvadorian nationality=1 adj=1 noun=1 syn=1 root=salvadoran country="el salvador" iso2=sv iso3=slv
+sammarinese nationality=1 adj=1 noun=1 plural=1 country="san marino" iso2=sm iso3=smr
+samoan nationality=1 adj=1 noun=1 country=samoa iso2=ws iso3=wsm
+samoans nationality=1 noun=1 plural=1 root=samoan country=samoa iso2=ws iso3=wsm
+sao tomean nationality=1 adj=1 noun=1 country="sao tome and principe" iso2=st iso3=stp
+sao tomeans nationality=1 noun=1 plural=1 root="sao tomean" country="sao tome and principe" iso2=st iso3=stp
+saudi nationality=1 adj=1 noun=1 country="saudi arabia" iso2=sa iso3=sau
+saudi arabian nationality=1 adj=1 noun=1 syn=1 root=saudi country="saudi arabia" iso2=sa iso3=sau
+saudi arabians nationality=1 noun=1 plural=1 syn=1 root=saudi country="saudi arabia" iso2=sa iso3=sau
+saudis nationality=1 noun=1 plural=1 root=saudi country="saudi arabia" iso2=sa iso3=sau
+scot nationality=1 noun=1 root=scottish country=scotland iso2=gb iso3=gbr
+scots nationality=1 noun=1 plural=1 root=scottish country=scotland iso2=gb iso3=gbr
+scotsman nationality=1 noun=1 syn=1 root=scottish country=scotland iso2=gb iso3=gbr
+scotsmen nationality=1 noun=1 plural=1 syn=1 root=scottish country=scotland iso2=gb iso3=gbr
+scotswoman nationality=1 noun=1 syn=1 root=scottish country=scotland iso2=gb iso3=gbr
+scotswomen nationality=1 noun=1 plural=1 syn=1 root=scottish country=scotland iso2=gb iso3=gbr
+scottish nationality=1 adj=1 collective=1 country=scotland iso2=gb iso3=gbr
+senegalese nationality=1 adj=1 noun=1 plural=1 country=senegal iso2=sn iso3=sen
+serb nationality=1 noun=1 root=serbian country=serbia iso2=rs iso3=srb
+serbian nationality=1 adj=1 country=serbia iso2=rs iso3=srb
+serbians nationality=1 noun=1 plural=1 syn=1 root=serbian country=serbia iso2=rs iso3=srb
+serbs nationality=1 noun=1 plural=1 root=serbian country=serbia iso2=rs iso3=srb
+seychellois nationality=1 adj=1 noun=1 plural=1 country=seychelles iso2=sc iso3=syc
+sierra leonean nationality=1 adj=1 noun=1 country="sierra leone" iso2=sl iso3=sle
+sierra leoneans nationality=1 noun=1 plural=1 root="sierra leonean" country="sierra leone" iso2=sl iso3=sle
+singaporean nationality=1 adj=1 noun=1 country=singapore iso2=sg iso3=sgp
+singaporeans nationality=1 noun=1 plural=1 root=singaporean country=singapore iso2=sg iso3=sgp
+sint maarten nationality=1 adj=1 country="sint maarten" iso2=sx iso3=sxm
+sint maartener nationality=1 noun=1 root="sint maarten" country="sint maarten" iso2=sx iso3=sxm
+sint maarteners nationality=1 noun=1 plural=1 root="sint maarten" country="sint maarten" iso2=sx iso3=sxm
+slovak nationality=1 adj=1 noun=1 country=slovakia iso2=sk iso3=svk
+slovakian nationality=1 adj=1 noun=1 syn=1 root=slovak country=slovakia iso2=sk iso3=svk
+slovaks nationality=1 noun=1 plural=1 root=slovak country=slovakia iso2=sk iso3=svk
+slovene nationality=1 noun=1 root=slovenian country=slovenia iso2=si iso3=svn
+slovenes nationality=1 noun=1 plural=1 root=slovenian country=slovenia iso2=si iso3=svn
+slovenian nationality=1 adj=1 country=slovenia iso2=si iso3=svn
+slovenians nationality=1 noun=1 plural=1 syn=1 root=slovenian country=slovenia iso2=si iso3=svn
+solomon island nationality=1 adj=1 country="solomon islands" iso2=sb iso3=slb
+solomon islander nationality=1 noun=1 root="solomon island" country="solomon islands" iso2=sb iso3=slb
+solomon islanders nationality=1 noun=1 plural=1 root="solomon island" country="solomon islands" iso2=sb iso3=slb
+somali nationality=1 adj=1 noun=1 country=somalia iso2=so iso3=som
+somalis nationality=1 noun=1 plural=1 root=somali country=somalia iso2=so iso3=som
+sotho nationality=1 adj=1 noun=1 syn=1 root=basotho country=lesotho iso2=ls iso3=lso
+south african nationality=1 adj=1 noun=1 country="south africa" iso2=za iso3=zaf
+south africans nationality=1 noun=1 plural=1 root="south african" country="south africa" iso2=za iso3=zaf
+south korean nationality=1 adj=1 noun=1 country="south korea" iso2=kr iso3=kor
+south koreans nationality=1 noun=1 plural=1 root="south korean" country="south korea" iso2=kr iso3=kor
+south sudanese nationality=1 adj=1 noun=1 plural=1 country="south sudan" iso2=ss iso3=ssd
+spaniard nationality=1 noun=1 root=spanish country=spain iso2=es iso3=esp
+spaniards nationality=1 noun=1 plural=1 root=spanish country=spain iso2=es iso3=esp
+spanish nationality=1 adj=1 collective=1 country=spain iso2=es iso3=esp
+sri lankan nationality=1 adj=1 noun=1 country="sri lanka" iso2=lk iso3=lka
+sri lankans nationality=1 noun=1 plural=1 root="sri lankan" country="sri lanka" iso2=lk iso3=lka
+st. lucian nationality=1 adj=1 noun=1 syn=1 root="saint lucian" country="saint lucia" iso2=lc iso3=lca
+sudanese nationality=1 adj=1 noun=1 plural=1 country=sudan iso2=sd iso3=sdn
+surinamer nationality=1 noun=1 syn=1 root=surinamese country=suriname iso2=sr iso3=sur
+surinamers nationality=1 noun=1 plural=1 syn=1 root=surinamese country=suriname iso2=sr iso3=sur
+surinamese nationality=1 adj=1 noun=1 plural=1 country=suriname iso2=sr iso3=sur
+swazi nationality=1 adj=1 noun=1 country=eswatini iso2=sz iso3=swz
+swazis nationality=1 noun=1 plural=1 root=swazi country=eswatini iso2=sz iso3=swz
+swede nationality=1 noun=1 root=swedish country=sweden iso2=se iso3=swe
+swedes nationality=1 noun=1 plural=1 root=swedish country=sweden iso2=se iso3=swe
+swedish nationality=1 adj=1 collective=1 country=sweden iso2=se iso3=swe
+swiss nationality=1 adj=1 noun=1 plural=1 country=switzerland iso2=ch iso3=che
+syrian nationality=1 adj=1 noun=1 country="syrian arab republic" iso2=sy iso3=syr
+syrians nationality=1 noun=1 plural=1 root=syrian country="syrian arab republic" iso2=sy iso3=syr
+tadzhik nationality=1 adj=1 noun=1 syn=1 root=tajik country=tajikistan iso2=tj iso3=tjk
+taiwanese nationality=1 adj=1 noun=1 plural=1 country=taiwan iso2=tw iso3=twn
+tajik nationality=1 adj=1 noun=1 country=tajikistan iso2=tj iso3=tjk
+tajikistani nationality=1 adj=1 noun=1 syn=1 root=tajik country=tajikistan iso2=tj iso3=tjk
+tajiks nationality=1 noun=1 plural=1 root=tajik country=tajikistan iso2=tj iso3=tjk
+tanzanian nationality=1 adj=1 noun=1 country=tanzania iso2=tz iso3=tza
+tanzanians nationality=1 noun=1 plural=1 root=tanzanian country=tanzania iso2=tz iso3=tza
+thai nationality=1 adj=1 noun=1 country=thailand iso2=th iso3=tha
+thais nationality=1 noun=1 plural=1 root=thai country=thailand iso2=th iso3=tha
+timorese nationality=1 adj=1 noun=1 plural=1 country="timor-leste" iso2=tl iso3=tls
+tobagonian nationality=1 adj=1 noun=1 syn=1 root=trinidadian country="trinidad and tobago" iso2=tt iso3=tto
+tobagonians nationality=1 noun=1 plural=1 syn=1 root=trinidadian country="trinidad and tobago" iso2=tt iso3=tto
+togolese nationality=1 adj=1 noun=1 plural=1 country=togo iso2=tg iso3=tgo
+tokelauan nationality=1 adj=1 noun=1 country=tokelau iso2=tk iso3=tkl
+tokelauans nationality=1 noun=1 plural=1 root=tokelauan country=tokelau iso2=tk iso3=tkl
+tongan nationality=1 adj=1 noun=1 country=tonga iso2=to iso3=ton
+tongans nationality=1 noun=1 plural=1 root=tongan country=tonga iso2=to iso3=ton
+trinidadian nationality=1 adj=1 noun=1 country="trinidad and tobago" iso2=tt iso3=tto
+trinidadians nationality=1 noun=1 plural=1 root=trinidadian country="trinidad and tobago" iso2=tt iso3=tto
+tswana nationality=1 adj=1 noun=1 syn=1 root=botswanan country=botswana iso2=bw iso3=bwa
+tunisian nationality=1 adj=1 noun=1 country=tunisia iso2=tn iso3=tun
+tunisians nationality=1 noun=1 plural=1 root=tunisian country=tunisia iso2=tn iso3=tun
+turk nationality=1 noun=1 root=turkish country=turkey iso2=tr iso3=tur
+turkish nationality=1 adj=1 collective=1 country=turkey iso2=tr iso3=tur
+turkiye nationality=1 adj=1 syn=1 root=turkish country=turkey iso2=tr iso3=tur
+turkmen nationality=1 adj=1 noun=1 country=turkmenistan iso2=tm iso3=tkm
+turkmenistani nationality=1 adj=1 noun=1 syn=1 root=turkmen country=turkmenistan iso2=tm iso3=tkm
+turkmens nationality=1 noun=1 plural=1 root=turkmen country=turkmenistan iso2=tm iso3=tkm
+turks nationality=1 noun=1 plural=1 root=turkish country=turkey iso2=tr iso3=tur
+turks and caicos island nationality=1 adj=1 country="turks and caicos islands" iso2=tc iso3=tca
+turks and caicos islander nationality=1 noun=1 root="turks and caicos island" country="turks and caicos islands" iso2=tc iso3=tca
+turks and caicos islanders nationality=1 noun=1 plural=1 root="turks and caicos island" country="turks and caicos islands" iso2=tc iso3=tca
+tuvaluan nationality=1 adj=1 noun=1 country=tuvalu iso2=tv iso3=tuv
+tuvaluans nationality=1 noun=1 plural=1 root=tuvaluan country=tuvalu iso2=tv iso3=tuv
+ugandan nationality=1 adj=1 noun=1 country=uganda iso2=ug iso3=uga
+ugandans nationality=1 noun=1 plural=1 root=ugandan country=uganda iso2=ug iso3=uga
+ukrainian nationality=1 adj=1 noun=1 country=ukraine iso2=ua iso3=ukr
+ukrainians nationality=1 noun=1 plural=1 root=ukrainian country=ukraine iso2=ua iso3=ukr
+ulsterman nationality=1 noun=1 syn=1 root="northern irish" country="northern ireland" iso2=gb iso3=gbr
+ulstermen nationality=1 noun=1 plural=1 syn=1 root="northern irish" country="northern ireland" iso2=gb iso3=gbr
+uruguayan nationality=1 adj=1 noun=1 country=uruguay iso2=uy iso3=ury
+uruguayans nationality=1 noun=1 plural=1 root=uruguayan country=uruguay iso2=uy iso3=ury
+us virgin island nationality=1 adj=1 country="united states virgin islands" iso2=vi iso3=vir
+us virgin islander nationality=1 noun=1 root="us virgin island" country="united states virgin islands" iso2=vi iso3=vir
+us virgin islanders nationality=1 noun=1 plural=1 root="us virgin island" country="united states virgin islands" iso2=vi iso3=vir
+uzbek nationality=1 adj=1 noun=1 country=uzbekistan iso2=uz iso3=uzb
+uzbekistani nationality=1 adj=1 noun=1 syn=1 root=uzbek country=uzbekistan iso2=uz iso3=uzb
+uzbeks nationality=1 noun=1 plural=1 root=uzbek country=uzbekistan iso2=uz iso3=uzb
+vanuatuan nationality=1 adj=1 country=vanuatu iso2=vu iso3=vut
+vatican nationality=1 adj=1 country="holy see" iso2=va iso3=vat
+vatican citizen nationality=1 noun=1 root=vatican country="holy see" iso2=va iso3=vat
+vatican citizens nationality=1 noun=1 plural=1 root=vatican country="holy see" iso2=va iso3=vat
+venezuelan nationality=1 adj=1 noun=1 country=venezuela iso2=ve iso3=ven
+venezuelans nationality=1 noun=1 plural=1 root=venezuelan country=venezuela iso2=ve iso3=ven
+vietnamese nationality=1 adj=1 noun=1 plural=1 country="viet nam" iso2=vn iso3=vnm
+vincentian nationality=1 adj=1 noun=1 country="saint vincent and the grenadines" iso2=vc iso3=vct
+vincentians nationality=1 noun=1 plural=1 root=vincentian country="saint vincent and the grenadines" iso2=vc iso3=vct
+wallisian nationality=1 adj=1 noun=1 country="wallis and futuna" iso2=wf iso3=wlf
+wallisians nationality=1 noun=1 plural=1 root=wallisian country="wallis and futuna" iso2=wf iso3=wlf
+welsh nationality=1 adj=1 collective=1 country=wales iso2=gb iso3=gbr
+welshman nationality=1 noun=1 root=welsh country=wales iso2=gb iso3=gbr
+welshmen nationality=1 noun=1 plural=1 root=welsh country=wales iso2=gb iso3=gbr
+welshwoman nationality=1 noun=1 syn=1 root=welsh country=wales iso2=gb iso3=gbr
+welshwomen nationality=1 noun=1 plural=1 syn=1 root=welsh country=wales iso2=gb iso3=gbr
+yemeni nationality=1 adj=1 noun=1 country=yemen iso2=ye iso3=yem
+yemenis nationality=1 noun=1 plural=1 root=yemeni country=yemen iso2=ye iso3=yem
+zambian nationality=1 adj=1 noun=1 country=zambia iso2=zm iso3=zmb
+zambians nationality=1 noun=1 plural=1 root=zambian country=zambia iso2=zm iso3=zmb
+zimbabwean nationality=1 adj=1 noun=1 country=zimbabwe iso2=zw iso3=zwe
+zimbabweans nationality=1 noun=1 plural=1 root=zimbabwean country=zimbabwe iso2=zw iso3=zwe
+åland island nationality=1 adj=1 syn=1 root=alandic country="åland islands" iso2=ax iso3=ala
+åland islander nationality=1 noun=1 syn=1 root=alandic country="åland islands" iso2=ax iso3=ala
