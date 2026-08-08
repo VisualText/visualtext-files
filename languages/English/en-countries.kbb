@@ -47,10 +47,12 @@ countries
   chile: iso2=cl, iso3=chl
   china: iso2=cn, iso3=chn
   christmas island: iso2=cx, iso3=cxr
-  cocos: iso2="", iso3=""
+  cocos: iso2=cc, iso3=cck
+  cocos islands: iso2=cc, iso3=cck
   colombia: iso2=co, iso3=col
   comoros: iso2=km, iso3=com
-  congo: iso2=cd, iso3=cod
+  congo: iso2=cg, iso3=cog
+  republic of the congo: iso2=cg, iso3=cog
   the democratic republic of the congo: iso2=cd, iso3=cod
   cook islands: iso2=ck, iso3=cok
   costa rica: iso2=cr, iso3=cri
@@ -72,7 +74,7 @@ countries
   estonia: iso2=ee, iso3=est
   eswatini: iso2=sz, iso3=swz
   ethiopia: iso2=et, iso3=eth
-  falkland islands: iso2="", iso3=""
+  falkland islands: iso2=fk, iso3=flk
   faroe islands: iso2=fo, iso3=fro
   fiji: iso2=fj, iso3=fji
   finland: iso2=fi, iso3=fin
@@ -109,7 +111,6 @@ countries
   islamic republic of iran: iso2=ir, iso3=irn
   iraq: iso2=iq, iso3=irq
   ireland: iso2=ie, iso3=irl
-  islands: iso2=cc, iso3=cck
   isle of man: iso2=im, iso3=imn
   israel: iso2=il, iso3=isr
   italy: iso2=it, iso3=ita
@@ -120,8 +121,11 @@ countries
   kazakhstan: iso2=kz, iso3=kaz
   kenya: iso2=ke, iso3=ken
   kiribati: iso2=ki, iso3=kir
-  korea: iso2=kp, iso3=prk
+  korea: iso2=kr, iso3=kor
   the democratic people's republic of korea: iso2=kp, iso3=prk
+  north korea: iso2=kp, iso3=prk
+  south korea: iso2=kr, iso3=kor
+  republic of korea: iso2=kr, iso3=kor
   kuwait: iso2=kw, iso3=kwt
   kyrgyzstan: iso2=kg, iso3=kgz
   lao people's democratic republic: iso2=la, iso3=lao
@@ -243,6 +247,7 @@ countries
   united kingdom of great britain and northern ireland: iso2=gb, iso3=gbr
   united states minor outlying islands: iso2=um, iso3=umi
   united states of america: iso2=us, iso3=usa
+  united states virgin islands: iso2=vi, iso3=vir
   uruguay: iso2=uy, iso3=ury
   uzbekistan: iso2=uz, iso3=uzb
   vanuatu: iso2=vu, iso3=vut

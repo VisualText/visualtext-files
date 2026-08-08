@@ -1,0 +1,539 @@
+# Nationality (demonym) names in English, related to their countries.
+# Forward lookup:  nationality -> country   (concept "nationalities nationality french" -> country=france)
+# Reverse lookup:  country -> nationality   (concept "nationalities country france" -> nationality=french)
+# Each nationality carries the adjective (the concept name), the singular
+# noun, the plural noun and the ISO 3166-1 codes of its country.  Country
+# names are keyed exactly as in en-countries.dict / en-countries.kbb so the
+# two knowledge bases join.
+# A form naming more than one country is marked ambig=1 and its further
+# readings hang below it as <name>1, <name>2, ... (same convention as
+# timezones.kbb).
+# Country entries marked alias=1 are common short names (usa, uk, russia,
+# holland, ...) rather than the ISO name.  England, scotland, wales, northern
+# ireland and kosovo are not ISO countries and have no en-countries.dict entry.
+nationalities
+  nationality
+    afghan: country=afghanistan, iso2=af, iso3=afg, noun=afghan, plural=afghans
+    alandic: country="åland islands", iso2=ax, iso3=ala, noun=alander, plural=alanders, synonym=["åland island","åland islander"]
+    albanian: country=albania, iso2=al, iso3=alb, noun=albanian, plural=albanians
+    algerian: country=algeria, iso2=dz, iso3=dza, noun=algerian, plural=algerians
+    american: country="united states of america", iso2=us, iso3=usa, noun=american, plural=americans
+    american samoan: country="american samoa", iso2=as, iso3=asm, noun="american samoan", plural="american samoans"
+    andorran: country=andorra, iso2=ad, iso3=and, noun=andorran, plural=andorrans
+    angolan: country=angola, iso2=ao, iso3=ago, noun=angolan, plural=angolans
+    anguillan: country=anguilla, iso2=ai, iso3=aia, noun=anguillan, plural=anguillans, synonym=anguillian
+    antiguan: country="antigua and barbuda", iso2=ag, iso3=atg, noun=antiguan, plural=antiguans, synonym=[barbudan,"antiguans and barbudans"]
+    argentine: country=argentina, iso2=ar, iso3=arg, noun=argentine, plural=argentines, synonym=[argentinian,argentinians]
+    armenian: country=armenia, iso2=am, iso3=arm, noun=armenian, plural=armenians
+    aruban: country=aruba, iso2=aw, iso3=abw, noun=aruban, plural=arubans
+    australian: country=australia, iso2=au, iso3=aus, noun=australian, plural=australians, synonym=[aussie,aussies]
+    austrian: country=austria, iso2=at, iso3=aut, noun=austrian, plural=austrians
+    azerbaijani: country=azerbaijan, iso2=az, iso3=aze, noun=azerbaijani, plural=azerbaijanis, synonym=[azeri,azeris]
+    bahamian: country=bahamas, iso2=bs, iso3=bhs, noun=bahamian, plural=bahamians
+    bahraini: country=bahrain, iso2=bh, iso3=bhr, noun=bahraini, plural=bahrainis
+    bangladeshi: country=bangladesh, iso2=bd, iso3=bgd, noun=bangladeshi, plural=bangladeshis
+    barbadian: country=barbados, iso2=bb, iso3=brb, noun=barbadian, plural=barbadians, synonym=[bajan,bajans]
+    barthelemois: country="saint barthélemy", iso2=bl, iso3=blm, noun=barthelemois, plural=barthelemois
+    basotho: country=lesotho, iso2=ls, iso3=lso, noun=mosotho, plural=basotho, synonym=sotho
+    belarusian: country=belarus, iso2=by, iso3=blr, noun=belarusian, plural=belarusians, synonym=byelorussian
+    belgian: country=belgium, iso2=be, iso3=bel, noun=belgian, plural=belgians
+    belizean: country=belize, iso2=bz, iso3=blz, noun=belizean, plural=belizeans
+    beninese: country=benin, iso2=bj, iso3=ben, noun=beninese, plural=beninese
+    bermudian: country=bermuda, iso2=bm, iso3=bmu, noun=bermudian, plural=bermudians, synonym=bermudan
+    bhutanese: country=bhutan, iso2=bt, iso3=btn, noun=bhutanese, plural=bhutanese
+    bissau-guinean: country="guinea-bissau", iso2=gw, iso3=gnb, noun="bissau-guinean", plural="bissau-guineans"
+    bolivian: country=bolivia, iso2=bo, iso3=bol, noun=bolivian, plural=bolivians
+    bonairean: country="bonaire, sint eustatius and saba", iso2=bq, iso3=bes, noun=bonairean, plural=bonaireans
+    bosnian: country="bosnia and herzegovina", iso2=ba, iso3=bih, noun=bosnian, plural=bosnians, synonym=herzegovinian
+    botswanan: country=botswana, iso2=bw, iso3=bwa, noun=motswana, plural=batswana, synonym=tswana
+    brazilian: country=brazil, iso2=br, iso3=bra, noun=brazilian, plural=brazilians
+    british: country="united kingdom of great britain and northern ireland", iso2=gb, iso3=gbr, noun=briton, plural=britons, collective=british, synonym=[brit,brits]
+    british virgin island: country="virgin islands", iso2=vg, iso3=vgb, noun="british virgin islander", plural="british virgin islanders"
+    bruneian: country="brunei darussalam", iso2=bn, iso3=brn, noun=bruneian, plural=bruneians
+    bulgarian: country=bulgaria, iso2=bg, iso3=bgr, noun=bulgarian, plural=bulgarians
+    burkinabe: country="burkina faso", iso2=bf, iso3=bfa, noun=burkinabe, plural=burkinabe, synonym=burkinabé
+    burmese: country=myanmar, iso2=mm, iso3=mmr, noun=burmese, plural=burmese, synonym=myanmarese
+    burundian: country=burundi, iso2=bi, iso3=bdi, noun=burundian, plural=burundians
+    cambodian: country=cambodia, iso2=kh, iso3=khm, noun=cambodian, plural=cambodians, synonym=khmer
+    cameroonian: country=cameroon, iso2=cm, iso3=cmr, noun=cameroonian, plural=cameroonians
+    canadian: country=canada, iso2=ca, iso3=can, noun=canadian, plural=canadians
+    cape verdean: country="cabo verde", iso2=cv, iso3=cpv, noun="cape verdean", plural="cape verdeans", synonym="cabo verdean"
+    caymanian: country="cayman islands", iso2=ky, iso3=cym, noun=caymanian, plural=caymanians
+    central african: country="central african republic", iso2=cf, iso3=caf, noun="central african", plural="central africans"
+    chadian: country=chad, iso2=td, iso3=tcd, noun=chadian, plural=chadians
+    chilean: country=chile, iso2=cl, iso3=chl, noun=chilean, plural=chileans
+    chinese: country=china, iso2=cn, iso3=chn, noun=chinese, plural=chinese
+    christmas island: country="christmas island", iso2=cx, iso3=cxr, noun="christmas islander", plural="christmas islanders"
+    cocos island: country=cocos, iso2=cc, iso3=cck, noun="cocos islander", plural="cocos islanders"
+    colombian: country=colombia, iso2=co, iso3=col, noun=colombian, plural=colombians
+    comorian: country=comoros, iso2=km, iso3=com, noun=comorian, plural=comorians, synonym=comoran
+    congolese: ambig=1, country=congo, iso2=cg, iso3=cog, noun=congolese, plural=congolese
+      congolese1: country="the democratic republic of the congo", iso2=cd, iso3=cod, noun=congolese, plural=congolese
+    cook island: country="cook islands", iso2=ck, iso3=cok, noun="cook islander", plural="cook islanders"
+    costa rican: country="costa rica", iso2=cr, iso3=cri, noun="costa rican", plural="costa ricans"
+    croatian: country=croatia, iso2=hr, iso3=hrv, noun=croat, plural=croats, synonym=croatians
+    cuban: country=cuba, iso2=cu, iso3=cub, noun=cuban, plural=cubans
+    curacaoan: country=curaçao, iso2=cw, iso3=cuw, noun=curacaoan, plural=curacaoans, synonym=curaçaoan
+    cypriot: country=cyprus, iso2=cy, iso3=cyp, noun=cypriot, plural=cypriots
+    czech: country=czechia, iso2=cz, iso3=cze, noun=czech, plural=czechs
+    danish: country=denmark, iso2=dk, iso3=dnk, noun=dane, plural=danes, collective=danish
+    djiboutian: country=djibouti, iso2=dj, iso3=dji, noun=djiboutian, plural=djiboutians
+    dominican: ambig=1, country=dominica, iso2=dm, iso3=dma, noun=dominican, plural=dominicans
+      dominican1: country="dominican republic", iso2=do, iso3=dom, noun=dominican, plural=dominicans
+    dutch: country=netherlands, iso2=nl, iso3=nld, noun=dutchman, plural=dutchmen, collective=dutch, synonym=[netherlandish,dutchwoman,dutchwomen]
+    ecuadorian: country=ecuador, iso2=ec, iso3=ecu, noun=ecuadorian, plural=ecuadorians, synonym=ecuadorean
+    egyptian: country=egypt, iso2=eg, iso3=egy, noun=egyptian, plural=egyptians
+    emirati: country="united arab emirates", iso2=ae, iso3=are, noun=emirati, plural=emiratis, synonym=emirian
+    english: country=england, iso2=gb, iso3=gbr, noun=englishman, plural=englishmen, collective=english, synonym=[englishwoman,englishwomen]
+    equatorial guinean: country="equatorial guinea", iso2=gq, iso3=gnq, noun=equatoguinean, plural=equatoguineans, synonym="equatorial guineans"
+    eritrean: country=eritrea, iso2=er, iso3=eri, noun=eritrean, plural=eritreans
+    estonian: country=estonia, iso2=ee, iso3=est, noun=estonian, plural=estonians
+    ethiopian: country=ethiopia, iso2=et, iso3=eth, noun=ethiopian, plural=ethiopians
+    falkland island: country="falkland islands", iso2=fk, iso3=flk, noun="falkland islander", plural="falkland islanders"
+    faroese: country="faroe islands", iso2=fo, iso3=fro, noun=faroese, plural=faroese, synonym=faeroese
+    fijian: country=fiji, iso2=fj, iso3=fji, noun=fijian, plural=fijians
+    filipino: country=philippines, iso2=ph, iso3=phl, noun=filipino, plural=filipinos, synonym=[philippine,filipina,filipinas]
+    finnish: country=finland, iso2=fi, iso3=fin, noun=finn, plural=finns, collective=finnish
+    french: country=france, iso2=fr, iso3=fra, noun=frenchman, plural=frenchmen, collective=french, synonym=[frenchwoman,frenchwomen]
+    french guianese: country="french guiana", iso2=gf, iso3=guf, noun="french guianese", plural="french guianese"
+    french polynesian: country="french polynesia", iso2=pf, iso3=pyf, noun="french polynesian", plural="french polynesians"
+    gabonese: country=gabon, iso2=ga, iso3=gab, noun=gabonese, plural=gabonese
+    gambian: country=gambia, iso2=gm, iso3=gmb, noun=gambian, plural=gambians
+    georgian: country=georgia, iso2=ge, iso3=geo, noun=georgian, plural=georgians
+    german: country=germany, iso2=de, iso3=deu, noun=german, plural=germans
+    ghanaian: country=ghana, iso2=gh, iso3=gha, noun=ghanaian, plural=ghanaians
+    gibraltarian: country=gibraltar, iso2=gi, iso3=gib, noun=gibraltarian, plural=gibraltarians
+    greek: country=greece, iso2=gr, iso3=grc, noun=greek, plural=greeks, synonym=hellenic
+    greenlandic: country=greenland, iso2=gl, iso3=grl, noun=greenlander, plural=greenlanders
+    grenadian: country=grenada, iso2=gd, iso3=grd, noun=grenadian, plural=grenadians
+    guadeloupean: country=guadeloupe, iso2=gp, iso3=glp, noun=guadeloupean, plural=guadeloupeans
+    guamanian: country=guam, iso2=gu, iso3=gum, noun=guamanian, plural=guamanians
+    guatemalan: country=guatemala, iso2=gt, iso3=gtm, noun=guatemalan, plural=guatemalans
+    guernsey: country=guernsey, iso2=gg, iso3=ggy, noun=guernseyman, plural=guernseymen
+    guinean: country=guinea, iso2=gn, iso3=gin, noun=guinean, plural=guineans
+    guyanese: country=guyana, iso2=gy, iso3=guy, noun=guyanese, plural=guyanese
+    haitian: country=haiti, iso2=ht, iso3=hti, noun=haitian, plural=haitians
+    honduran: country=honduras, iso2=hn, iso3=hnd, noun=honduran, plural=hondurans
+    hong kong: country="hong kong", iso2=hk, iso3=hkg, noun="hong konger", plural="hong kongers", synonym=hongkongese
+    hungarian: country=hungary, iso2=hu, iso3=hun, noun=hungarian, plural=hungarians, synonym=[magyar,magyars]
+    i-kiribati: country=kiribati, iso2=ki, iso3=kir, noun="i-kiribati", plural="i-kiribati", synonym=kiribatian
+    icelandic: country=iceland, iso2=is, iso3=isl, noun=icelander, plural=icelanders
+    indian: country=india, iso2=in, iso3=ind, noun=indian, plural=indians
+    indonesian: country=indonesia, iso2=id, iso3=idn, noun=indonesian, plural=indonesians
+    iranian: country=iran, iso2=ir, iso3=irn, noun=iranian, plural=iranians, synonym=[persian,persians]
+    iraqi: country=iraq, iso2=iq, iso3=irq, noun=iraqi, plural=iraqis
+    irish: country=ireland, iso2=ie, iso3=irl, noun=irishman, plural=irishmen, collective=irish, synonym=[irishwoman,irishwomen]
+    israeli: country=israel, iso2=il, iso3=isr, noun=israeli, plural=israelis
+    italian: country=italy, iso2=it, iso3=ita, noun=italian, plural=italians
+    ivorian: country="côte d'ivoire", iso2=ci, iso3=civ, noun=ivorian, plural=ivorians, synonym=ivoirian
+    jamaican: country=jamaica, iso2=jm, iso3=jam, noun=jamaican, plural=jamaicans
+    japanese: country=japan, iso2=jp, iso3=jpn, noun=japanese, plural=japanese
+    jersey: country=jersey, iso2=je, iso3=jey, noun=jerseyman, plural=jerseymen
+    jordanian: country=jordan, iso2=jo, iso3=jor, noun=jordanian, plural=jordanians
+    kazakh: country=kazakhstan, iso2=kz, iso3=kaz, noun=kazakh, plural=kazakhs, synonym=kazakhstani
+    kenyan: country=kenya, iso2=ke, iso3=ken, noun=kenyan, plural=kenyans
+    kittitian: country="saint kitts and nevis", iso2=kn, iso3=kna, noun=kittitian, plural=kittitians, synonym=nevisian
+    korean: country=korea, iso2=kr, iso3=kor, noun=korean, plural=koreans
+    kosovar: country=kosovo, iso2=xk, iso3=xkx, noun=kosovar, plural=kosovars, synonym=kosovan
+    kuwaiti: country=kuwait, iso2=kw, iso3=kwt, noun=kuwaiti, plural=kuwaitis
+    kyrgyz: country=kyrgyzstan, iso2=kg, iso3=kgz, noun=kyrgyz, plural=kyrgyz, synonym=[kyrgyzstani,kirghiz]
+    laotian: country="lao people's democratic republic", iso2=la, iso3=lao, noun=lao, plural=lao, synonym=laotians
+    latvian: country=latvia, iso2=lv, iso3=lva, noun=latvian, plural=latvians
+    lebanese: country=lebanon, iso2=lb, iso3=lbn, noun=lebanese, plural=lebanese
+    liberian: country=liberia, iso2=lr, iso3=lbr, noun=liberian, plural=liberians
+    libyan: country=libya, iso2=ly, iso3=lby, noun=libyan, plural=libyans
+    liechtenstein: country=liechtenstein, iso2=li, iso3=lie, noun=liechtensteiner, plural=liechtensteiners
+    lithuanian: country=lithuania, iso2=lt, iso3=ltu, noun=lithuanian, plural=lithuanians
+    luxembourgish: country=luxembourg, iso2=lu, iso3=lux, noun=luxembourger, plural=luxembourgers, collective=luxembourgish
+    macanese: country=macao, iso2=mo, iso3=mac, noun=macanese, plural=macanese
+    macedonian: country="republic of north macedonia", iso2=mk, iso3=mkd, noun=macedonian, plural=macedonians
+    mahoran: country=mayotte, iso2=yt, iso3=myt, noun=mahoran, plural=mahorans, synonym=mahorais
+    malagasy: country=madagascar, iso2=mg, iso3=mdg, noun=malagasy, plural=malagasy, synonym=madagascan
+    malawian: country=malawi, iso2=mw, iso3=mwi, noun=malawian, plural=malawians
+    malaysian: country=malaysia, iso2=my, iso3=mys, noun=malaysian, plural=malaysians
+    maldivian: country=maldives, iso2=mv, iso3=mdv, noun=maldivian, plural=maldivians
+    malian: country=mali, iso2=ml, iso3=mli, noun=malian, plural=malians
+    maltese: country=malta, iso2=mt, iso3=mlt, noun=maltese, plural=maltese
+    manx: country="isle of man", iso2=im, iso3=imn, noun=manxman, plural=manxmen, collective=manx
+    marshallese: country="marshall islands", iso2=mh, iso3=mhl, noun=marshallese, plural=marshallese
+    martinican: country=martinique, iso2=mq, iso3=mtq, noun=martiniquais, plural=martiniquais
+    mauritanian: country=mauritania, iso2=mr, iso3=mrt, noun=mauritanian, plural=mauritanians
+    mauritian: country=mauritius, iso2=mu, iso3=mus, noun=mauritian, plural=mauritians
+    mexican: country=mexico, iso2=mx, iso3=mex, noun=mexican, plural=mexicans
+    micronesian: country=micronesia, iso2=fm, iso3=fsm, noun=micronesian, plural=micronesians
+    moldovan: country=moldova, iso2=md, iso3=mda, noun=moldovan, plural=moldovans, synonym=moldavian
+    monegasque: country=monaco, iso2=mc, iso3=mco, noun=monegasque, plural=monegasques, synonym=monacan
+    mongolian: country=mongolia, iso2=mn, iso3=mng, noun=mongolian, plural=mongolians, synonym=[mongol,mongols]
+    montenegrin: country=montenegro, iso2=me, iso3=mne, noun=montenegrin, plural=montenegrins
+    montserratian: country=montserrat, iso2=ms, iso3=msr, noun=montserratian, plural=montserratians
+    moroccan: country=morocco, iso2=ma, iso3=mar, noun=moroccan, plural=moroccans
+    mozambican: country=mozambique, iso2=mz, iso3=moz, noun=mozambican, plural=mozambicans
+    namibian: country=namibia, iso2=na, iso3=nam, noun=namibian, plural=namibians
+    nauruan: country=nauru, iso2=nr, iso3=nru, noun=nauruan, plural=nauruans
+    nepali: country=nepal, iso2=np, iso3=npl, noun=nepali, plural=nepalis, synonym=nepalese
+    new caledonian: country="new caledonia", iso2=nc, iso3=ncl, noun="new caledonian", plural="new caledonians"
+    new zealand: country="new zealand", iso2=nz, iso3=nzl, noun="new zealander", plural="new zealanders", synonym=[kiwi,kiwis]
+    nicaraguan: country=nicaragua, iso2=ni, iso3=nic, noun=nicaraguan, plural=nicaraguans
+    nigerian: country=nigeria, iso2=ng, iso3=nga, noun=nigerian, plural=nigerians
+    nigerien: country=niger, iso2=ne, iso3=ner, noun=nigerien, plural=nigeriens
+    niuean: country=niue, iso2=nu, iso3=niu, noun=niuean, plural=niueans
+    norfolk island: country="norfolk island", iso2=nf, iso3=nfk, noun="norfolk islander", plural="norfolk islanders"
+    north korean: country="the democratic people's republic of korea", iso2=kp, iso3=prk, noun="north korean", plural="north koreans"
+    northern irish: country="northern ireland", iso2=gb, iso3=gbr, noun="northern irishman", plural="northern irishmen", collective="northern irish", synonym=[ulsterman,ulstermen]
+    northern marianan: country="northern mariana islands", iso2=mp, iso3=mnp, noun="northern marianan", plural="northern marianans", synonym=chamorro
+    norwegian: country=norway, iso2=no, iso3=nor, noun=norwegian, plural=norwegians
+    omani: country=oman, iso2=om, iso3=omn, noun=omani, plural=omanis
+    pakistani: country=pakistan, iso2=pk, iso3=pak, noun=pakistani, plural=pakistanis
+    palauan: country=palau, iso2=pw, iso3=plw, noun=palauan, plural=palauans
+    palestinian: country="palestine, state of", iso2=ps, iso3=pse, noun=palestinian, plural=palestinians
+    panamanian: country=panama, iso2=pa, iso3=pan, noun=panamanian, plural=panamanians
+    papua new guinean: country="papua new guinea", iso2=pg, iso3=png, noun="papua new guinean", plural="papua new guineans"
+    paraguayan: country=paraguay, iso2=py, iso3=pry, noun=paraguayan, plural=paraguayans
+    peruvian: country=peru, iso2=pe, iso3=per, noun=peruvian, plural=peruvians
+    pitcairn island: country=pitcairn, iso2=pn, iso3=pcn, noun="pitcairn islander", plural="pitcairn islanders"
+    polish: country=poland, iso2=pl, iso3=pol, noun=pole, plural=poles, collective=polish
+    portuguese: country=portugal, iso2=pt, iso3=prt, noun=portuguese, plural=portuguese
+    puerto rican: country="puerto rico", iso2=pr, iso3=pri, noun="puerto rican", plural="puerto ricans"
+    qatari: country=qatar, iso2=qa, iso3=qat, noun=qatari, plural=qataris
+    reunionese: country=réunion, iso2=re, iso3=reu, noun=reunionese, plural=reunionese, synonym=réunionese
+    romanian: country=romania, iso2=ro, iso3=rou, noun=romanian, plural=romanians, synonym=rumanian
+    russian: country="russian federation", iso2=ru, iso3=rus, noun=russian, plural=russians
+    rwandan: country=rwanda, iso2=rw, iso3=rwa, noun=rwandan, plural=rwandans, synonym=rwandese
+    sahrawi: country="western sahara", iso2=eh, iso3=esh, noun=sahrawi, plural=sahrawis, synonym=sahraouian
+    saint helenian: country="saint helena, ascension and tristan da cunha", iso2=sh, iso3=shn, noun="saint helenian", plural="saint helenians"
+    saint lucian: country="saint lucia", iso2=lc, iso3=lca, noun="saint lucian", plural="saint lucians", synonym="st. lucian"
+    saint-martinois: country="saint martin", iso2=mf, iso3=maf, noun="saint-martinois", plural="saint-martinois"
+    saint-pierrais: country="saint pierre and miquelon", iso2=pm, iso3=spm, noun="saint-pierrais", plural="saint-pierrais", synonym=miquelonnais
+    salvadoran: country="el salvador", iso2=sv, iso3=slv, noun=salvadoran, plural=salvadorans, synonym=[salvadorian,salvadorean]
+    sammarinese: country="san marino", iso2=sm, iso3=smr, noun=sammarinese, plural=sammarinese
+    samoan: country=samoa, iso2=ws, iso3=wsm, noun=samoan, plural=samoans
+    sao tomean: country="sao tome and principe", iso2=st, iso3=stp, noun="sao tomean", plural="sao tomeans"
+    saudi: country="saudi arabia", iso2=sa, iso3=sau, noun=saudi, plural=saudis, synonym=["saudi arabian","saudi arabians"]
+    scottish: country=scotland, iso2=gb, iso3=gbr, noun=scot, plural=scots, collective=scottish, synonym=[scotsman,scotsmen,scotswoman,scotswomen]
+    senegalese: country=senegal, iso2=sn, iso3=sen, noun=senegalese, plural=senegalese
+    serbian: country=serbia, iso2=rs, iso3=srb, noun=serb, plural=serbs, synonym=serbians
+    seychellois: country=seychelles, iso2=sc, iso3=syc, noun=seychellois, plural=seychellois
+    sierra leonean: country="sierra leone", iso2=sl, iso3=sle, noun="sierra leonean", plural="sierra leoneans"
+    singaporean: country=singapore, iso2=sg, iso3=sgp, noun=singaporean, plural=singaporeans
+    sint maarten: country="sint maarten", iso2=sx, iso3=sxm, noun="sint maartener", plural="sint maarteners"
+    slovak: country=slovakia, iso2=sk, iso3=svk, noun=slovak, plural=slovaks, synonym=slovakian
+    slovenian: country=slovenia, iso2=si, iso3=svn, noun=slovene, plural=slovenes, synonym=slovenians
+    solomon island: country="solomon islands", iso2=sb, iso3=slb, noun="solomon islander", plural="solomon islanders"
+    somali: country=somalia, iso2=so, iso3=som, noun=somali, plural=somalis
+    south african: country="south africa", iso2=za, iso3=zaf, noun="south african", plural="south africans"
+    south korean: country="south korea", iso2=kr, iso3=kor, noun="south korean", plural="south koreans"
+    south sudanese: country="south sudan", iso2=ss, iso3=ssd, noun="south sudanese", plural="south sudanese"
+    spanish: country=spain, iso2=es, iso3=esp, noun=spaniard, plural=spaniards, collective=spanish
+    sri lankan: country="sri lanka", iso2=lk, iso3=lka, noun="sri lankan", plural="sri lankans"
+    sudanese: country=sudan, iso2=sd, iso3=sdn, noun=sudanese, plural=sudanese
+    surinamese: country=suriname, iso2=sr, iso3=sur, noun=surinamese, plural=surinamese, synonym=[surinamer,surinamers]
+    swazi: country=eswatini, iso2=sz, iso3=swz, noun=swazi, plural=swazis
+    swedish: country=sweden, iso2=se, iso3=swe, noun=swede, plural=swedes, collective=swedish
+    swiss: country=switzerland, iso2=ch, iso3=che, noun=swiss, plural=swiss
+    syrian: country="syrian arab republic", iso2=sy, iso3=syr, noun=syrian, plural=syrians
+    taiwanese: country=taiwan, iso2=tw, iso3=twn, noun=taiwanese, plural=taiwanese
+    tajik: country=tajikistan, iso2=tj, iso3=tjk, noun=tajik, plural=tajiks, synonym=[tadzhik,tajikistani]
+    tanzanian: country=tanzania, iso2=tz, iso3=tza, noun=tanzanian, plural=tanzanians
+    thai: country=thailand, iso2=th, iso3=tha, noun=thai, plural=thais
+    timorese: country="timor-leste", iso2=tl, iso3=tls, noun=timorese, plural=timorese, synonym="east timorese"
+    togolese: country=togo, iso2=tg, iso3=tgo, noun=togolese, plural=togolese
+    tokelauan: country=tokelau, iso2=tk, iso3=tkl, noun=tokelauan, plural=tokelauans
+    tongan: country=tonga, iso2=to, iso3=ton, noun=tongan, plural=tongans
+    trinidadian: country="trinidad and tobago", iso2=tt, iso3=tto, noun=trinidadian, plural=trinidadians, synonym=[tobagonian,tobagonians]
+    tunisian: country=tunisia, iso2=tn, iso3=tun, noun=tunisian, plural=tunisians
+    turkish: country=turkey, iso2=tr, iso3=tur, noun=turk, plural=turks, collective=turkish, synonym=turkiye
+    turkmen: country=turkmenistan, iso2=tm, iso3=tkm, noun=turkmen, plural=turkmens, synonym=turkmenistani
+    turks and caicos island: country="turks and caicos islands", iso2=tc, iso3=tca, noun="turks and caicos islander", plural="turks and caicos islanders"
+    tuvaluan: country=tuvalu, iso2=tv, iso3=tuv, noun=tuvaluan, plural=tuvaluans
+    ugandan: country=uganda, iso2=ug, iso3=uga, noun=ugandan, plural=ugandans
+    ukrainian: country=ukraine, iso2=ua, iso3=ukr, noun=ukrainian, plural=ukrainians
+    uruguayan: country=uruguay, iso2=uy, iso3=ury, noun=uruguayan, plural=uruguayans
+    us virgin island: country="united states virgin islands", iso2=vi, iso3=vir, noun="us virgin islander", plural="us virgin islanders"
+    uzbek: country=uzbekistan, iso2=uz, iso3=uzb, noun=uzbek, plural=uzbeks, synonym=uzbekistani
+    vanuatuan: country=vanuatu, iso2=vu, iso3=vut, noun="ni-vanuatu", plural="ni-vanuatu"
+    vatican: country="holy see", iso2=va, iso3=vat, noun="vatican citizen", plural="vatican citizens"
+    venezuelan: country=venezuela, iso2=ve, iso3=ven, noun=venezuelan, plural=venezuelans
+    vietnamese: country="viet nam", iso2=vn, iso3=vnm, noun=vietnamese, plural=vietnamese
+    vincentian: country="saint vincent and the grenadines", iso2=vc, iso3=vct, noun=vincentian, plural=vincentians
+    wallisian: country="wallis and futuna", iso2=wf, iso3=wlf, noun=wallisian, plural=wallisians, synonym=futunan
+    welsh: country=wales, iso2=gb, iso3=gbr, noun=welshman, plural=welshmen, collective=welsh, synonym=[welshwoman,welshwomen]
+    yemeni: country=yemen, iso2=ye, iso3=yem, noun=yemeni, plural=yemenis
+    zambian: country=zambia, iso2=zm, iso3=zmb, noun=zambian, plural=zambians
+    zimbabwean: country=zimbabwe, iso2=zw, iso3=zwe, noun=zimbabwean, plural=zimbabweans
+  country
+    afghanistan: nationality=afghan, iso2=af, iso3=afg, noun=afghan, plural=afghans
+    albania: nationality=albanian, iso2=al, iso3=alb, noun=albanian, plural=albanians
+    algeria: nationality=algerian, iso2=dz, iso3=dza, noun=algerian, plural=algerians
+    america: alias=1, nationality=american, iso2=us, iso3=usa, noun=american, plural=americans
+    american samoa: nationality="american samoan", iso2=as, iso3=asm, noun="american samoan", plural="american samoans"
+    andorra: nationality=andorran, iso2=ad, iso3=and, noun=andorran, plural=andorrans
+    angola: nationality=angolan, iso2=ao, iso3=ago, noun=angolan, plural=angolans
+    anguilla: nationality=anguillan, iso2=ai, iso3=aia, noun=anguillan, plural=anguillans
+    antigua and barbuda: nationality=antiguan, iso2=ag, iso3=atg, noun=antiguan, plural=antiguans
+    argentina: nationality=argentine, iso2=ar, iso3=arg, noun=argentine, plural=argentines
+    armenia: nationality=armenian, iso2=am, iso3=arm, noun=armenian, plural=armenians
+    aruba: nationality=aruban, iso2=aw, iso3=abw, noun=aruban, plural=arubans
+    australia: nationality=australian, iso2=au, iso3=aus, noun=australian, plural=australians
+    austria: nationality=austrian, iso2=at, iso3=aut, noun=austrian, plural=austrians
+    azerbaijan: nationality=azerbaijani, iso2=az, iso3=aze, noun=azerbaijani, plural=azerbaijanis
+    bahamas: nationality=bahamian, iso2=bs, iso3=bhs, noun=bahamian, plural=bahamians
+    bahrain: nationality=bahraini, iso2=bh, iso3=bhr, noun=bahraini, plural=bahrainis
+    bangladesh: nationality=bangladeshi, iso2=bd, iso3=bgd, noun=bangladeshi, plural=bangladeshis
+    barbados: nationality=barbadian, iso2=bb, iso3=brb, noun=barbadian, plural=barbadians
+    belarus: nationality=belarusian, iso2=by, iso3=blr, noun=belarusian, plural=belarusians
+    belgium: nationality=belgian, iso2=be, iso3=bel, noun=belgian, plural=belgians
+    belize: nationality=belizean, iso2=bz, iso3=blz, noun=belizean, plural=belizeans
+    benin: nationality=beninese, iso2=bj, iso3=ben, noun=beninese, plural=beninese
+    bermuda: nationality=bermudian, iso2=bm, iso3=bmu, noun=bermudian, plural=bermudians
+    bhutan: nationality=bhutanese, iso2=bt, iso3=btn, noun=bhutanese, plural=bhutanese
+    bolivia: nationality=bolivian, iso2=bo, iso3=bol, noun=bolivian, plural=bolivians
+    bonaire, sint eustatius and saba: nationality=bonairean, iso2=bq, iso3=bes, noun=bonairean, plural=bonaireans
+    bosnia: alias=1, nationality=bosnian, iso2=ba, iso3=bih, noun=bosnian, plural=bosnians
+    bosnia and herzegovina: nationality=bosnian, iso2=ba, iso3=bih, noun=bosnian, plural=bosnians
+    botswana: nationality=botswanan, iso2=bw, iso3=bwa, noun=motswana, plural=batswana
+    brazil: nationality=brazilian, iso2=br, iso3=bra, noun=brazilian, plural=brazilians
+    britain: alias=1, nationality="northern irish", iso2=gb, iso3=gbr, noun="northern irishman", plural="northern irishmen"
+    brunei: alias=1, nationality=bruneian, iso2=bn, iso3=brn, noun=bruneian, plural=bruneians
+    brunei darussalam: nationality=bruneian, iso2=bn, iso3=brn, noun=bruneian, plural=bruneians
+    bulgaria: nationality=bulgarian, iso2=bg, iso3=bgr, noun=bulgarian, plural=bulgarians
+    burkina faso: nationality=burkinabe, iso2=bf, iso3=bfa, noun=burkinabe, plural=burkinabe
+    burma: alias=1, nationality=burmese, iso2=mm, iso3=mmr, noun=burmese, plural=burmese
+    burundi: nationality=burundian, iso2=bi, iso3=bdi, noun=burundian, plural=burundians
+    cabo verde: nationality="cape verdean", iso2=cv, iso3=cpv, noun="cape verdean", plural="cape verdeans"
+    cambodia: nationality=cambodian, iso2=kh, iso3=khm, noun=cambodian, plural=cambodians
+    cameroon: nationality=cameroonian, iso2=cm, iso3=cmr, noun=cameroonian, plural=cameroonians
+    canada: nationality=canadian, iso2=ca, iso3=can, noun=canadian, plural=canadians
+    cape verde: alias=1, nationality="cape verdean", iso2=cv, iso3=cpv, noun="cape verdean", plural="cape verdeans"
+    cayman islands: nationality=caymanian, iso2=ky, iso3=cym, noun=caymanian, plural=caymanians
+    central african republic: nationality="central african", iso2=cf, iso3=caf, noun="central african", plural="central africans"
+    chad: nationality=chadian, iso2=td, iso3=tcd, noun=chadian, plural=chadians
+    chile: nationality=chilean, iso2=cl, iso3=chl, noun=chilean, plural=chileans
+    china: nationality=chinese, iso2=cn, iso3=chn, noun=chinese, plural=chinese
+    christmas island: nationality="christmas island", iso2=cx, iso3=cxr, noun="christmas islander", plural="christmas islanders"
+    cocos: nationality="cocos island", iso2=cc, iso3=cck, noun="cocos islander", plural="cocos islanders"
+    cocos islands: alias=1, nationality="cocos island", iso2=cc, iso3=cck, noun="cocos islander", plural="cocos islanders"
+    colombia: nationality=colombian, iso2=co, iso3=col, noun=colombian, plural=colombians
+    comoros: nationality=comorian, iso2=km, iso3=com, noun=comorian, plural=comorians
+    congo: nationality=congolese, iso2=cg, iso3=cog, noun=congolese, plural=congolese
+    cook islands: nationality="cook island", iso2=ck, iso3=cok, noun="cook islander", plural="cook islanders"
+    costa rica: nationality="costa rican", iso2=cr, iso3=cri, noun="costa rican", plural="costa ricans"
+    croatia: nationality=croatian, iso2=hr, iso3=hrv, noun=croat, plural=croats
+    cuba: nationality=cuban, iso2=cu, iso3=cub, noun=cuban, plural=cubans
+    curaçao: nationality=curacaoan, iso2=cw, iso3=cuw, noun=curacaoan, plural=curacaoans
+    cyprus: nationality=cypriot, iso2=cy, iso3=cyp, noun=cypriot, plural=cypriots
+    czech republic: alias=1, nationality=czech, iso2=cz, iso3=cze, noun=czech, plural=czechs
+    czechia: nationality=czech, iso2=cz, iso3=cze, noun=czech, plural=czechs
+    côte d'ivoire: nationality=ivorian, iso2=ci, iso3=civ, noun=ivorian, plural=ivorians
+    democratic republic of the congo: alias=1, nationality=congolese, iso2=cd, iso3=cod, noun=congolese, plural=congolese
+    denmark: nationality=danish, iso2=dk, iso3=dnk, noun=dane, plural=danes
+    djibouti: nationality=djiboutian, iso2=dj, iso3=dji, noun=djiboutian, plural=djiboutians
+    dominica: nationality=dominican, iso2=dm, iso3=dma, noun=dominican, plural=dominicans
+    dominican republic: nationality=dominican, iso2=do, iso3=dom, noun=dominican, plural=dominicans
+    east timor: alias=1, nationality=timorese, iso2=tl, iso3=tls, noun=timorese, plural=timorese
+    ecuador: nationality=ecuadorian, iso2=ec, iso3=ecu, noun=ecuadorian, plural=ecuadorians
+    egypt: nationality=egyptian, iso2=eg, iso3=egy, noun=egyptian, plural=egyptians
+    el salvador: nationality=salvadoran, iso2=sv, iso3=slv, noun=salvadoran, plural=salvadorans
+    england: nationality=english, iso2=gb, iso3=gbr, noun=englishman, plural=englishmen
+    equatorial guinea: nationality="equatorial guinean", iso2=gq, iso3=gnq, noun=equatoguinean, plural=equatoguineans
+    eritrea: nationality=eritrean, iso2=er, iso3=eri, noun=eritrean, plural=eritreans
+    estonia: nationality=estonian, iso2=ee, iso3=est, noun=estonian, plural=estonians
+    eswatini: nationality=swazi, iso2=sz, iso3=swz, noun=swazi, plural=swazis
+    ethiopia: nationality=ethiopian, iso2=et, iso3=eth, noun=ethiopian, plural=ethiopians
+    falkland islands: nationality="falkland island", iso2=fk, iso3=flk, noun="falkland islander", plural="falkland islanders"
+    faroe islands: nationality=faroese, iso2=fo, iso3=fro, noun=faroese, plural=faroese
+    fiji: nationality=fijian, iso2=fj, iso3=fji, noun=fijian, plural=fijians
+    finland: nationality=finnish, iso2=fi, iso3=fin, noun=finn, plural=finns
+    france: nationality=french, iso2=fr, iso3=fra, noun=frenchman, plural=frenchmen
+    french guiana: nationality="french guianese", iso2=gf, iso3=guf, noun="french guianese", plural="french guianese"
+    french polynesia: nationality="french polynesian", iso2=pf, iso3=pyf, noun="french polynesian", plural="french polynesians"
+    gabon: nationality=gabonese, iso2=ga, iso3=gab, noun=gabonese, plural=gabonese
+    gambia: nationality=gambian, iso2=gm, iso3=gmb, noun=gambian, plural=gambians
+    georgia: nationality=georgian, iso2=ge, iso3=geo, noun=georgian, plural=georgians
+    germany: nationality=german, iso2=de, iso3=deu, noun=german, plural=germans
+    ghana: nationality=ghanaian, iso2=gh, iso3=gha, noun=ghanaian, plural=ghanaians
+    gibraltar: nationality=gibraltarian, iso2=gi, iso3=gib, noun=gibraltarian, plural=gibraltarians
+    great britain: alias=1, nationality="northern irish", iso2=gb, iso3=gbr, noun="northern irishman", plural="northern irishmen"
+    greece: nationality=greek, iso2=gr, iso3=grc, noun=greek, plural=greeks
+    greenland: nationality=greenlandic, iso2=gl, iso3=grl, noun=greenlander, plural=greenlanders
+    grenada: nationality=grenadian, iso2=gd, iso3=grd, noun=grenadian, plural=grenadians
+    guadeloupe: nationality=guadeloupean, iso2=gp, iso3=glp, noun=guadeloupean, plural=guadeloupeans
+    guam: nationality=guamanian, iso2=gu, iso3=gum, noun=guamanian, plural=guamanians
+    guatemala: nationality=guatemalan, iso2=gt, iso3=gtm, noun=guatemalan, plural=guatemalans
+    guernsey: nationality=guernsey, iso2=gg, iso3=ggy, noun=guernseyman, plural=guernseymen
+    guinea: nationality=guinean, iso2=gn, iso3=gin, noun=guinean, plural=guineans
+    guinea-bissau: nationality="bissau-guinean", iso2=gw, iso3=gnb, noun="bissau-guinean", plural="bissau-guineans"
+    guyana: nationality=guyanese, iso2=gy, iso3=guy, noun=guyanese, plural=guyanese
+    haiti: nationality=haitian, iso2=ht, iso3=hti, noun=haitian, plural=haitians
+    holland: alias=1, nationality=dutch, iso2=nl, iso3=nld, noun=dutchman, plural=dutchmen
+    holy see: nationality=vatican, iso2=va, iso3=vat, noun="vatican citizen", plural="vatican citizens"
+    honduras: nationality=honduran, iso2=hn, iso3=hnd, noun=honduran, plural=hondurans
+    hong kong: nationality="hong kong", iso2=hk, iso3=hkg, noun="hong konger", plural="hong kongers"
+    hungary: nationality=hungarian, iso2=hu, iso3=hun, noun=hungarian, plural=hungarians
+    iceland: nationality=icelandic, iso2=is, iso3=isl, noun=icelander, plural=icelanders
+    india: nationality=indian, iso2=in, iso3=ind, noun=indian, plural=indians
+    indonesia: nationality=indonesian, iso2=id, iso3=idn, noun=indonesian, plural=indonesians
+    iran: nationality=iranian, iso2=ir, iso3=irn, noun=iranian, plural=iranians
+    iraq: nationality=iraqi, iso2=iq, iso3=irq, noun=iraqi, plural=iraqis
+    ireland: nationality=irish, iso2=ie, iso3=irl, noun=irishman, plural=irishmen
+    isle of man: nationality=manx, iso2=im, iso3=imn, noun=manxman, plural=manxmen
+    israel: nationality=israeli, iso2=il, iso3=isr, noun=israeli, plural=israelis
+    italy: nationality=italian, iso2=it, iso3=ita, noun=italian, plural=italians
+    ivory coast: alias=1, nationality=ivorian, iso2=ci, iso3=civ, noun=ivorian, plural=ivorians
+    jamaica: nationality=jamaican, iso2=jm, iso3=jam, noun=jamaican, plural=jamaicans
+    japan: nationality=japanese, iso2=jp, iso3=jpn, noun=japanese, plural=japanese
+    jersey: nationality=jersey, iso2=je, iso3=jey, noun=jerseyman, plural=jerseymen
+    jordan: nationality=jordanian, iso2=jo, iso3=jor, noun=jordanian, plural=jordanians
+    kazakhstan: nationality=kazakh, iso2=kz, iso3=kaz, noun=kazakh, plural=kazakhs
+    kenya: nationality=kenyan, iso2=ke, iso3=ken, noun=kenyan, plural=kenyans
+    kiribati: nationality="i-kiribati", iso2=ki, iso3=kir, noun="i-kiribati", plural="i-kiribati"
+    korea: nationality=korean, iso2=kr, iso3=kor, noun=korean, plural=koreans
+    kosovo: nationality=kosovar, iso2=xk, iso3=xkx, noun=kosovar, plural=kosovars
+    kuwait: nationality=kuwaiti, iso2=kw, iso3=kwt, noun=kuwaiti, plural=kuwaitis
+    kyrgyzstan: nationality=kyrgyz, iso2=kg, iso3=kgz, noun=kyrgyz, plural=kyrgyz
+    lao people's democratic republic: nationality=laotian, iso2=la, iso3=lao, noun=lao, plural=lao
+    laos: alias=1, nationality=laotian, iso2=la, iso3=lao, noun=lao, plural=lao
+    latvia: nationality=latvian, iso2=lv, iso3=lva, noun=latvian, plural=latvians
+    lebanon: nationality=lebanese, iso2=lb, iso3=lbn, noun=lebanese, plural=lebanese
+    lesotho: nationality=basotho, iso2=ls, iso3=lso, noun=mosotho, plural=basotho
+    liberia: nationality=liberian, iso2=lr, iso3=lbr, noun=liberian, plural=liberians
+    libya: nationality=libyan, iso2=ly, iso3=lby, noun=libyan, plural=libyans
+    liechtenstein: nationality=liechtenstein, iso2=li, iso3=lie, noun=liechtensteiner, plural=liechtensteiners
+    lithuania: nationality=lithuanian, iso2=lt, iso3=ltu, noun=lithuanian, plural=lithuanians
+    luxembourg: nationality=luxembourgish, iso2=lu, iso3=lux, noun=luxembourger, plural=luxembourgers
+    macao: nationality=macanese, iso2=mo, iso3=mac, noun=macanese, plural=macanese
+    macedonia: alias=1, nationality=macedonian, iso2=mk, iso3=mkd, noun=macedonian, plural=macedonians
+    madagascar: nationality=malagasy, iso2=mg, iso3=mdg, noun=malagasy, plural=malagasy
+    malawi: nationality=malawian, iso2=mw, iso3=mwi, noun=malawian, plural=malawians
+    malaysia: nationality=malaysian, iso2=my, iso3=mys, noun=malaysian, plural=malaysians
+    maldives: nationality=maldivian, iso2=mv, iso3=mdv, noun=maldivian, plural=maldivians
+    mali: nationality=malian, iso2=ml, iso3=mli, noun=malian, plural=malians
+    malta: nationality=maltese, iso2=mt, iso3=mlt, noun=maltese, plural=maltese
+    marshall islands: nationality=marshallese, iso2=mh, iso3=mhl, noun=marshallese, plural=marshallese
+    martinique: nationality=martinican, iso2=mq, iso3=mtq, noun=martiniquais, plural=martiniquais
+    mauritania: nationality=mauritanian, iso2=mr, iso3=mrt, noun=mauritanian, plural=mauritanians
+    mauritius: nationality=mauritian, iso2=mu, iso3=mus, noun=mauritian, plural=mauritians
+    mayotte: nationality=mahoran, iso2=yt, iso3=myt, noun=mahoran, plural=mahorans
+    mexico: nationality=mexican, iso2=mx, iso3=mex, noun=mexican, plural=mexicans
+    micronesia: nationality=micronesian, iso2=fm, iso3=fsm, noun=micronesian, plural=micronesians
+    moldova: nationality=moldovan, iso2=md, iso3=mda, noun=moldovan, plural=moldovans
+    monaco: nationality=monegasque, iso2=mc, iso3=mco, noun=monegasque, plural=monegasques
+    mongolia: nationality=mongolian, iso2=mn, iso3=mng, noun=mongolian, plural=mongolians
+    montenegro: nationality=montenegrin, iso2=me, iso3=mne, noun=montenegrin, plural=montenegrins
+    montserrat: nationality=montserratian, iso2=ms, iso3=msr, noun=montserratian, plural=montserratians
+    morocco: nationality=moroccan, iso2=ma, iso3=mar, noun=moroccan, plural=moroccans
+    mozambique: nationality=mozambican, iso2=mz, iso3=moz, noun=mozambican, plural=mozambicans
+    myanmar: nationality=burmese, iso2=mm, iso3=mmr, noun=burmese, plural=burmese
+    namibia: nationality=namibian, iso2=na, iso3=nam, noun=namibian, plural=namibians
+    nauru: nationality=nauruan, iso2=nr, iso3=nru, noun=nauruan, plural=nauruans
+    nepal: nationality=nepali, iso2=np, iso3=npl, noun=nepali, plural=nepalis
+    netherlands: nationality=dutch, iso2=nl, iso3=nld, noun=dutchman, plural=dutchmen
+    new caledonia: nationality="new caledonian", iso2=nc, iso3=ncl, noun="new caledonian", plural="new caledonians"
+    new zealand: nationality="new zealand", iso2=nz, iso3=nzl, noun="new zealander", plural="new zealanders"
+    nicaragua: nationality=nicaraguan, iso2=ni, iso3=nic, noun=nicaraguan, plural=nicaraguans
+    niger: nationality=nigerien, iso2=ne, iso3=ner, noun=nigerien, plural=nigeriens
+    nigeria: nationality=nigerian, iso2=ng, iso3=nga, noun=nigerian, plural=nigerians
+    niue: nationality=niuean, iso2=nu, iso3=niu, noun=niuean, plural=niueans
+    norfolk island: nationality="norfolk island", iso2=nf, iso3=nfk, noun="norfolk islander", plural="norfolk islanders"
+    north korea: alias=1, nationality="north korean", iso2=kp, iso3=prk, noun="north korean", plural="north koreans"
+    north korea: alias=1, nationality="north korean", iso2=kp, iso3=prk, noun="north korean", plural="north koreans"
+    north macedonia: alias=1, nationality=macedonian, iso2=mk, iso3=mkd, noun=macedonian, plural=macedonians
+    northern ireland: nationality="northern irish", iso2=gb, iso3=gbr, noun="northern irishman", plural="northern irishmen"
+    northern mariana islands: nationality="northern marianan", iso2=mp, iso3=mnp, noun="northern marianan", plural="northern marianans"
+    norway: nationality=norwegian, iso2=no, iso3=nor, noun=norwegian, plural=norwegians
+    oman: nationality=omani, iso2=om, iso3=omn, noun=omani, plural=omanis
+    pakistan: nationality=pakistani, iso2=pk, iso3=pak, noun=pakistani, plural=pakistanis
+    palau: nationality=palauan, iso2=pw, iso3=plw, noun=palauan, plural=palauans
+    palestine, state of: nationality=palestinian, iso2=ps, iso3=pse, noun=palestinian, plural=palestinians
+    panama: nationality=panamanian, iso2=pa, iso3=pan, noun=panamanian, plural=panamanians
+    papua new guinea: nationality="papua new guinean", iso2=pg, iso3=png, noun="papua new guinean", plural="papua new guineans"
+    paraguay: nationality=paraguayan, iso2=py, iso3=pry, noun=paraguayan, plural=paraguayans
+    peru: nationality=peruvian, iso2=pe, iso3=per, noun=peruvian, plural=peruvians
+    philippines: nationality=filipino, iso2=ph, iso3=phl, noun=filipino, plural=filipinos
+    pitcairn: nationality="pitcairn island", iso2=pn, iso3=pcn, noun="pitcairn islander", plural="pitcairn islanders"
+    poland: nationality=polish, iso2=pl, iso3=pol, noun=pole, plural=poles
+    portugal: nationality=portuguese, iso2=pt, iso3=prt, noun=portuguese, plural=portuguese
+    puerto rico: nationality="puerto rican", iso2=pr, iso3=pri, noun="puerto rican", plural="puerto ricans"
+    qatar: nationality=qatari, iso2=qa, iso3=qat, noun=qatari, plural=qataris
+    republic of korea: alias=1, nationality="south korean", iso2=kr, iso3=kor, noun="south korean", plural="south koreans"
+    republic of north macedonia: nationality=macedonian, iso2=mk, iso3=mkd, noun=macedonian, plural=macedonians
+    romania: nationality=romanian, iso2=ro, iso3=rou, noun=romanian, plural=romanians
+    russia: alias=1, nationality=russian, iso2=ru, iso3=rus, noun=russian, plural=russians
+    russian federation: nationality=russian, iso2=ru, iso3=rus, noun=russian, plural=russians
+    rwanda: nationality=rwandan, iso2=rw, iso3=rwa, noun=rwandan, plural=rwandans
+    réunion: nationality=reunionese, iso2=re, iso3=reu, noun=reunionese, plural=reunionese
+    saint barthélemy: nationality=barthelemois, iso2=bl, iso3=blm, noun=barthelemois, plural=barthelemois
+    saint helena, ascension and tristan da cunha: nationality="saint helenian", iso2=sh, iso3=shn, noun="saint helenian", plural="saint helenians"
+    saint kitts and nevis: nationality=kittitian, iso2=kn, iso3=kna, noun=kittitian, plural=kittitians
+    saint lucia: nationality="saint lucian", iso2=lc, iso3=lca, noun="saint lucian", plural="saint lucians"
+    saint martin: nationality="saint-martinois", iso2=mf, iso3=maf, noun="saint-martinois", plural="saint-martinois"
+    saint pierre and miquelon: nationality="saint-pierrais", iso2=pm, iso3=spm, noun="saint-pierrais", plural="saint-pierrais"
+    saint vincent: alias=1, nationality=vincentian, iso2=vc, iso3=vct, noun=vincentian, plural=vincentians
+    saint vincent and the grenadines: nationality=vincentian, iso2=vc, iso3=vct, noun=vincentian, plural=vincentians
+    samoa: nationality=samoan, iso2=ws, iso3=wsm, noun=samoan, plural=samoans
+    san marino: nationality=sammarinese, iso2=sm, iso3=smr, noun=sammarinese, plural=sammarinese
+    sao tome and principe: nationality="sao tomean", iso2=st, iso3=stp, noun="sao tomean", plural="sao tomeans"
+    saudi arabia: nationality=saudi, iso2=sa, iso3=sau, noun=saudi, plural=saudis
+    scotland: nationality=scottish, iso2=gb, iso3=gbr, noun=scot, plural=scots
+    senegal: nationality=senegalese, iso2=sn, iso3=sen, noun=senegalese, plural=senegalese
+    serbia: nationality=serbian, iso2=rs, iso3=srb, noun=serb, plural=serbs
+    seychelles: nationality=seychellois, iso2=sc, iso3=syc, noun=seychellois, plural=seychellois
+    sierra leone: nationality="sierra leonean", iso2=sl, iso3=sle, noun="sierra leonean", plural="sierra leoneans"
+    singapore: nationality=singaporean, iso2=sg, iso3=sgp, noun=singaporean, plural=singaporeans
+    sint maarten: nationality="sint maarten", iso2=sx, iso3=sxm, noun="sint maartener", plural="sint maarteners"
+    slovakia: nationality=slovak, iso2=sk, iso3=svk, noun=slovak, plural=slovaks
+    slovenia: nationality=slovenian, iso2=si, iso3=svn, noun=slovene, plural=slovenes
+    solomon islands: nationality="solomon island", iso2=sb, iso3=slb, noun="solomon islander", plural="solomon islanders"
+    somalia: nationality=somali, iso2=so, iso3=som, noun=somali, plural=somalis
+    south africa: nationality="south african", iso2=za, iso3=zaf, noun="south african", plural="south africans"
+    south korea: nationality="south korean", iso2=kr, iso3=kor, noun="south korean", plural="south koreans"
+    south sudan: nationality="south sudanese", iso2=ss, iso3=ssd, noun="south sudanese", plural="south sudanese"
+    spain: nationality=spanish, iso2=es, iso3=esp, noun=spaniard, plural=spaniards
+    sri lanka: nationality="sri lankan", iso2=lk, iso3=lka, noun="sri lankan", plural="sri lankans"
+    sudan: nationality=sudanese, iso2=sd, iso3=sdn, noun=sudanese, plural=sudanese
+    suriname: nationality=surinamese, iso2=sr, iso3=sur, noun=surinamese, plural=surinamese
+    swaziland: alias=1, nationality=swazi, iso2=sz, iso3=swz, noun=swazi, plural=swazis
+    sweden: nationality=swedish, iso2=se, iso3=swe, noun=swede, plural=swedes
+    switzerland: nationality=swiss, iso2=ch, iso3=che, noun=swiss, plural=swiss
+    syria: alias=1, nationality=syrian, iso2=sy, iso3=syr, noun=syrian, plural=syrians
+    syrian arab republic: nationality=syrian, iso2=sy, iso3=syr, noun=syrian, plural=syrians
+    taiwan: nationality=taiwanese, iso2=tw, iso3=twn, noun=taiwanese, plural=taiwanese
+    tajikistan: nationality=tajik, iso2=tj, iso3=tjk, noun=tajik, plural=tajiks
+    tanzania: nationality=tanzanian, iso2=tz, iso3=tza, noun=tanzanian, plural=tanzanians
+    thailand: nationality=thai, iso2=th, iso3=tha, noun=thai, plural=thais
+    the democratic people's republic of korea: nationality="north korean", iso2=kp, iso3=prk, noun="north korean", plural="north koreans"
+    the democratic republic of the congo: nationality=congolese, iso2=cd, iso3=cod, noun=congolese, plural=congolese
+    timor-leste: nationality=timorese, iso2=tl, iso3=tls, noun=timorese, plural=timorese
+    togo: nationality=togolese, iso2=tg, iso3=tgo, noun=togolese, plural=togolese
+    tokelau: nationality=tokelauan, iso2=tk, iso3=tkl, noun=tokelauan, plural=tokelauans
+    tonga: nationality=tongan, iso2=to, iso3=ton, noun=tongan, plural=tongans
+    trinidad and tobago: nationality=trinidadian, iso2=tt, iso3=tto, noun=trinidadian, plural=trinidadians
+    tunisia: nationality=tunisian, iso2=tn, iso3=tun, noun=tunisian, plural=tunisians
+    turkey: nationality=turkish, iso2=tr, iso3=tur, noun=turk, plural=turks
+    turkmenistan: nationality=turkmen, iso2=tm, iso3=tkm, noun=turkmen, plural=turkmens
+    turks and caicos islands: nationality="turks and caicos island", iso2=tc, iso3=tca, noun="turks and caicos islander", plural="turks and caicos islanders"
+    tuvalu: nationality=tuvaluan, iso2=tv, iso3=tuv, noun=tuvaluan, plural=tuvaluans
+    uganda: nationality=ugandan, iso2=ug, iso3=uga, noun=ugandan, plural=ugandans
+    uk: alias=1, nationality="northern irish", iso2=gb, iso3=gbr, noun="northern irishman", plural="northern irishmen"
+    ukraine: nationality=ukrainian, iso2=ua, iso3=ukr, noun=ukrainian, plural=ukrainians
+    united arab emirates: nationality=emirati, iso2=ae, iso3=are, noun=emirati, plural=emiratis
+    united kingdom: alias=1, nationality="northern irish", iso2=gb, iso3=gbr, noun="northern irishman", plural="northern irishmen"
+    united kingdom of great britain and northern ireland: nationality=british, iso2=gb, iso3=gbr, noun=briton, plural=britons
+    united states: alias=1, nationality=american, iso2=us, iso3=usa, noun=american, plural=americans
+    united states of america: nationality=american, iso2=us, iso3=usa, noun=american, plural=americans
+    united states virgin islands: nationality="us virgin island", iso2=vi, iso3=vir, noun="us virgin islander", plural="us virgin islanders"
+    uruguay: nationality=uruguayan, iso2=uy, iso3=ury, noun=uruguayan, plural=uruguayans
+    usa: alias=1, nationality=american, iso2=us, iso3=usa, noun=american, plural=americans
+    uzbekistan: nationality=uzbek, iso2=uz, iso3=uzb, noun=uzbek, plural=uzbeks
+    vanuatu: nationality=vanuatuan, iso2=vu, iso3=vut, noun="ni-vanuatu", plural="ni-vanuatu"
+    vatican city: alias=1, nationality=vatican, iso2=va, iso3=vat, noun="vatican citizen", plural="vatican citizens"
+    venezuela: nationality=venezuelan, iso2=ve, iso3=ven, noun=venezuelan, plural=venezuelans
+    viet nam: nationality=vietnamese, iso2=vn, iso3=vnm, noun=vietnamese, plural=vietnamese
+    vietnam: alias=1, nationality=vietnamese, iso2=vn, iso3=vnm, noun=vietnamese, plural=vietnamese
+    virgin islands: nationality="british virgin island", iso2=vg, iso3=vgb, noun="british virgin islander", plural="british virgin islanders"
+    wales: nationality=welsh, iso2=gb, iso3=gbr, noun=welshman, plural=welshmen
+    wallis and futuna: nationality=wallisian, iso2=wf, iso3=wlf, noun=wallisian, plural=wallisians
+    western sahara: nationality=sahrawi, iso2=eh, iso3=esh, noun=sahrawi, plural=sahrawis
+    yemen: nationality=yemeni, iso2=ye, iso3=yem, noun=yemeni, plural=yemenis
+    zambia: nationality=zambian, iso2=zm, iso3=zmb, noun=zambian, plural=zambians
+    zimbabwe: nationality=zimbabwean, iso2=zw, iso3=zwe, noun=zimbabwean, plural=zimbabweans
+    åland islands: nationality=alandic, iso2=ax, iso3=ala, noun=alander, plural=alanders
