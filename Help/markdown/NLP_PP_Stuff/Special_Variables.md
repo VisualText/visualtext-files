@@ -49,6 +49,8 @@ A consolidated table of NLP++ special variables is provided below. Each item in 
 | [**$inputtail**](../$inputtail.md) | **G** | Get input file tail. E.g., "txt" |
 | **$passnum** | G | Get current pass number. **NEW 2.0.2.4** |
 | **$rulenum** | G | Get current rule number within current pass. **NEW 2.0.2.4** |
+| [**$dev**](../$dev.md) | G | Check if the engine was run with **-DEV**. Returns 1 under -DEV, else 0. Use it to gate an analyzer's own diagnostic passes on what the caller asked for. **NEW 3.8.4** |
+| [**$silent**](../$silent.md) | G | Check if the engine was run with **-SILENT**. Returns 1 under -SILENT, else 0. Note -SILENT also suppresses the analyzer's own output files. **NEW 3.8.4** |
 | [**$isdirrun**](../$isdirrun.md) | G | Check if the engine is processing a directory of files instead of an individual file. Returns 1 if it is analyzing a directory, else 0. **NEW 1.26.0** |
 | [**$isfirstfile**](../$isfirstfile.md) | G | Check if is first file processed in a directory. Returns 1 if it is the first file, else 0. **NEW 1.24.0** |
 | [**$islastfile**](../$islastfile.md) | G | Check if is last file processed in a directory. Returns 1 if it is the last file, else 0. **NEW 1.24.0** |

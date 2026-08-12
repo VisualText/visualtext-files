@@ -94,6 +94,9 @@ to a topic.
       - **Parser Variables**
         - [$passnum]($passnum.md)
         - [$rulenum]($rulenum.md)
+      - **Run Mode Variables**
+        - [$dev]($dev.md)
+        - [$silent]($silent.md)
       - **Test Variables**
         - [$end]($end.md)
         - [$exists]($exists.md)
@@ -595,6 +598,10 @@ above. They are grouped here so that every page remains reachable from this inde
 ### Path & File Variables
 
 [$anaspath]($anaspath.md) &nbsp;|&nbsp; [$inputparent]($inputparent.md) &nbsp;|&nbsp; [$isdirrun]($isdirrun.md) &nbsp;|&nbsp; [$isfirstfile]($isfirstfile.md) &nbsp;|&nbsp; [$islastfile]($islastfile.md) &nbsp;|&nbsp; [$kbpath]($kbpath.md)
+
+### Run Mode Variables
+
+[$dev]($dev.md) &nbsp;|&nbsp; [$silent]($silent.md)
 
 ### Control Flow Keywords
 
