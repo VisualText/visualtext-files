@@ -1,0 +1,288 @@
+# Academic degrees in English, related to their names, levels and fields.
+# Forward lookup:  abbreviation -> name  (concept "degrees degree phd" -> name="doctor of philosophy")
+# Reverse lookup:  name -> abbreviation  (concept "degrees name doctor of philosophy" -> abbrev=phd)
+# Level lookup:    level -> its generic words and its degrees
+#   level=        associate | bachelor | master | specialist | doctorate
+#   field=        broad subject area
+#   latin=        the Latin name the abbreviation actually spells, where the
+#                 abbreviation is Latin rather than English
+#   synonym=      variant abbreviations       altname=  alternate spelled names
+#   professional=1  a practice (first-professional) degree
+#   honorary=1    normally conferred honoris causa
+#   uk=1          chiefly British or Commonwealth usage
+#   suffix=1      also listed in en-name-pre-suffix.dict as a name suffix
+# An abbreviation naming more than one degree is marked ambig=1 and its
+# further readings hang below it as <abbrev>1, <abbrev>2, ... (same convention
+# as en-nationalities.kbb).
+# Every form named here is tagged by en-degrees.dict.
+degrees
+  degree
+    aa: name="associate of arts", level=associate, field=arts
+    aaa: name="associate of applied arts", level=associate, field="applied arts"
+    aas: name="associate of applied science", level=associate, field="applied science"
+    aat: name="associate of arts in teaching", level=associate, field=education
+    aba: name="associate of business administration", level=associate, field=business
+    adn: name="associate degree in nursing", level=associate, field=nursing, altname="associate of nursing"
+    afa: name="associate of fine arts", level=associate, field="fine arts"
+    ags: name="associate of general studies", level=associate, field="general studies"
+    aos: name="associate of occupational studies", level=associate, field="occupational studies"
+    as: name="associate of science", level=associate, field=science
+    asn: name="associate of science in nursing", level=associate, field=nursing
+    aud: name="doctor of audiology", level=doctorate, field=audiology, professional=1
+    ba: name="bachelor of arts", level=bachelor, field=arts, latin="artium baccalaureus", synonym=ab
+    barch: name="bachelor of architecture", level=bachelor, field=architecture
+    bas: name="bachelor of applied science", level=bachelor, field="applied science", synonym=basc
+    bba: name="bachelor of business administration", level=bachelor, field=business
+    bcom: name="bachelor of commerce", level=bachelor, field=business, synonym=bcomm, uk=1
+    bcs: name="bachelor of computer science", level=bachelor, field="computer science"
+    bd: name="bachelor of divinity", level=bachelor, field=theology
+    bed: name="bachelor of education", level=bachelor, field=education
+    beng: name="bachelor of engineering", level=bachelor, field=engineering, synonym=be
+    bfa: name="bachelor of fine arts", level=bachelor, field="fine arts"
+    bgs: name="bachelor of general studies", level=bachelor, field="general studies"
+    bj: name="bachelor of journalism", level=bachelor, field=journalism
+    bla: name="bachelor of landscape architecture", level=bachelor, field=architecture
+    bls: name="bachelor of liberal studies", level=bachelor, field="liberal studies"
+    bm: name="bachelor of music", level=bachelor, field=music, synonym=bmus
+    bpharm: name="bachelor of pharmacy", level=bachelor, field=pharmacy, uk=1
+    bphil: name="bachelor of philosophy", level=bachelor, field=philosophy
+    bs: name="bachelor of science", level=bachelor, field=science, latin="scientiae baccalaureus", synonym=[bsc,sb,scb]
+    bsa: name="bachelor of science in agriculture", level=bachelor, field=agriculture
+    bsba: name="bachelor of science in business administration", level=bachelor, field=business
+    bsce: name="bachelor of science in civil engineering", level=bachelor, field=engineering
+    bscs: name="bachelor of science in computer science", level=bachelor, field="computer science"
+    bse: name="bachelor of science in engineering", level=bachelor, field=engineering
+    bsed: name="bachelor of science in education", level=bachelor, field=education
+    bsee: name="bachelor of science in electrical engineering", level=bachelor, field=engineering
+    bsit: name="bachelor of science in information technology", level=bachelor, field="information technology"
+    bsj: name="bachelor of science in journalism", level=bachelor, field=journalism
+    bsme: name="bachelor of science in mechanical engineering", level=bachelor, field=engineering
+    bsn: name="bachelor of science in nursing", level=bachelor, field=nursing
+    bsph: name="bachelor of science in public health", level=bachelor, field="public health"
+    bsw: name="bachelor of social work", level=bachelor, field="social work"
+    btech: name="bachelor of technology", level=bachelor, field=technology, uk=1
+    bth: name="bachelor of theology", level=bachelor, field=theology
+    bvsc: name="bachelor of veterinary science", level=bachelor, field="veterinary medicine", synonym=bvms, professional=1, uk=1
+    da: name="doctor of arts", level=doctorate, field=arts
+    dba: name="doctor of business administration", level=doctorate, field=business
+    dc: name="doctor of chiropractic", level=doctorate, field=chiropractic, professional=1
+    dd: name="doctor of divinity", level=doctorate, field=theology, latin="divinitatis doctor", honorary=1
+    dds: name="doctor of dental surgery", level=doctorate, field=dentistry, professional=1, suffix=1
+    deng: name="doctor of engineering", level=doctorate, field=engineering, synonym=engd
+    dfa: name="doctor of fine arts", level=doctorate, field="fine arts", honorary=1
+    dhl: name="doctor of humane letters", level=doctorate, field=letters, latin="doctor humanitatum", synonym=lhd, honorary=1
+    dma: name="doctor of musical arts", level=doctorate, field=music
+    dmd: name="doctor of dental medicine", level=doctorate, field=dentistry, latin="dentariae medicinae doctor", professional=1, suffix=1
+    dmin: name="doctor of ministry", level=doctorate, field=theology, professional=1
+    dnp: name="doctor of nursing practice", level=doctorate, field=nursing, professional=1
+    do: name="doctor of osteopathic medicine", level=doctorate, field=medicine, altname="doctor of osteopathy", professional=1, suffix=1
+    dpa: name="doctor of public administration", level=doctorate, field="public affairs"
+    dpm: name="doctor of podiatric medicine", level=doctorate, field=podiatry, professional=1
+    dpt: name="doctor of physical therapy", level=doctorate, field="physical therapy", professional=1
+    drph: name="doctor of public health", level=doctorate, field="public health", synonym=dph
+    dsw: name="doctor of social work", level=doctorate, field="social work"
+    dvm: name="doctor of veterinary medicine", level=doctorate, field="veterinary medicine", synonym=vmd, professional=1, suffix=1
+    edd: name="doctor of education", level=doctorate, field=education, suffix=1
+    eds: name="education specialist", level=specialist, field=education, altname="specialist in education"
+    jd: name="juris doctor", level=doctorate, field=law, latin="juris doctor", altname="doctor of jurisprudence", professional=1, suffix=1
+    littd: name="doctor of letters", level=doctorate, field=letters, latin="litterarum doctor", synonym=dlitt
+    llb: name="bachelor of laws", level=bachelor, field=law, latin="legum baccalaureus", uk=1
+    lld: name="doctor of laws", level=doctorate, field=law, latin="legum doctor", honorary=1
+    llm: name="master of laws", level=master, field=law, latin="legum magister"
+    ma: name="master of arts", level=master, field=arts, latin="artium magister", synonym=am
+    macc: name="master of accountancy", level=master, field=accounting, synonym=macct, altname="master of accounting"
+    march: name="master of architecture", level=master, field=architecture
+    mat: name="master of arts in teaching", level=master, field=education
+    mba: name="master of business administration", level=master, field=business, suffix=1
+    mbbs: name="bachelor of medicine and bachelor of surgery", level=bachelor, field=medicine, synonym=[bmbs,mbchb], altname="bachelor of medicine and surgery", professional=1, uk=1
+    mcp: name="master of city planning", level=master, field="urban planning"
+    mcs: name="master of computer science", level=master, field="computer science"
+    md: name="doctor of medicine", level=doctorate, field=medicine, latin="medicinae doctor", professional=1, suffix=1
+    mdiv: name="master of divinity", level=master, field=theology, professional=1
+    med: name="master of education", level=master, field=education
+    mem: name="master of engineering management", level=master, field="engineering management"
+    meng: name="master of engineering", level=master, field=engineering, synonym=me
+    mfa: name="master of fine arts", level=master, field="fine arts"
+    mha: name="master of health administration", level=master, field="health administration"
+    mia: name="master of international affairs", level=master, field="international affairs"
+    mla: ambig=1, name="master of landscape architecture", level=master, field=architecture
+      mla1: name="master of liberal arts", level=master, field="liberal studies"
+    mlis: name="master of library and information science", level=master, field="library science"
+    mls: name="master of library science", level=master, field="library science"
+    mm: name="master of music", level=master, field=music, synonym=mmus
+    mot: name="master of occupational therapy", level=master, field="occupational therapy", professional=1
+    mpa: name="master of public administration", level=master, field="public affairs"
+    mpas: name="master of physician assistant studies", level=master, field="physician assistant studies", professional=1
+    mph: name="master of public health", level=master, field="public health"
+    mphil: name="master of philosophy", level=master, field=philosophy
+    mpp: name="master of public policy", level=master, field="public affairs"
+    mps: name="master of professional studies", level=master, field="professional studies"
+    mpt: name="master of physical therapy", level=master, field="physical therapy", professional=1
+    mres: name="master of research", level=master, field=research, uk=1
+    ms: name="master of science", level=master, field=science, latin="scientiae magister", synonym=[msc,sm,scm]
+    msa: name="master of science in accounting", level=master, field=accounting
+    msce: name="master of science in civil engineering", level=master, field=engineering
+    mscs: name="master of science in computer science", level=master, field="computer science"
+    msed: name="master of science in education", level=master, field=education
+    msee: name="master of science in electrical engineering", level=master, field=engineering
+    msf: name="master of science in finance", level=master, field=finance
+    msis: name="master of science in information systems", level=master, field="information systems"
+    msm: name="master of science in management", level=master, field=management
+    msme: name="master of science in mechanical engineering", level=master, field=engineering
+    msn: name="master of science in nursing", level=master, field=nursing
+    msph: name="master of science in public health", level=master, field="public health"
+    mst: ambig=1, name="master of science in teaching", level=master, field=education
+      mst1: name="master of studies", level=master, field="general studies", uk=1
+    msw: name="master of social work", level=master, field="social work"
+    mtax: name="master of taxation", level=master, field=accounting
+    mth: name="master of theology", level=master, field=theology, synonym=thm
+    mup: name="master of urban planning", level=master, field="urban planning"
+    od: name="doctor of optometry", level=doctorate, field=optometry, professional=1
+    otd: name="doctor of occupational therapy", level=doctorate, field="occupational therapy", professional=1
+    pharmd: name="doctor of pharmacy", level=doctorate, field=pharmacy, professional=1
+    phd: name="doctor of philosophy", level=doctorate, field=philosophy, latin="philosophiae doctor", synonym=dphil, suffix=1
+    psyd: name="doctor of psychology", level=doctorate, field=psychology, professional=1, suffix=1
+    scd: name="doctor of science", level=doctorate, field=science, latin="scientiae doctor", synonym=dsc
+    sjd: name="doctor of juridical science", level=doctorate, field=law, latin="scientiae juridicae doctor", synonym=jsd
+    thd: name="doctor of theology", level=doctorate, field=theology, latin="theologiae doctor", synonym=dth
+  name
+    associate degree in nursing: abbrev=adn, level=associate, field=nursing
+    associate of applied arts: abbrev=aaa, level=associate, field="applied arts"
+    associate of applied science: abbrev=aas, level=associate, field="applied science"
+    associate of arts: abbrev=aa, level=associate, field=arts
+    associate of arts in teaching: abbrev=aat, level=associate, field=education
+    associate of business administration: abbrev=aba, level=associate, field=business
+    associate of fine arts: abbrev=afa, level=associate, field="fine arts"
+    associate of general studies: abbrev=ags, level=associate, field="general studies"
+    associate of nursing: abbrev=adn, level=associate, field=nursing, syn=1
+    associate of occupational studies: abbrev=aos, level=associate, field="occupational studies"
+    associate of science: abbrev=as, level=associate, field=science
+    associate of science in nursing: abbrev=asn, level=associate, field=nursing
+    bachelor of applied science: abbrev=bas, level=bachelor, field="applied science"
+    bachelor of architecture: abbrev=barch, level=bachelor, field=architecture
+    bachelor of arts: abbrev=ba, level=bachelor, field=arts
+    bachelor of business administration: abbrev=bba, level=bachelor, field=business
+    bachelor of commerce: abbrev=bcom, level=bachelor, field=business
+    bachelor of computer science: abbrev=bcs, level=bachelor, field="computer science"
+    bachelor of divinity: abbrev=bd, level=bachelor, field=theology
+    bachelor of education: abbrev=bed, level=bachelor, field=education
+    bachelor of engineering: abbrev=beng, level=bachelor, field=engineering
+    bachelor of fine arts: abbrev=bfa, level=bachelor, field="fine arts"
+    bachelor of general studies: abbrev=bgs, level=bachelor, field="general studies"
+    bachelor of journalism: abbrev=bj, level=bachelor, field=journalism
+    bachelor of landscape architecture: abbrev=bla, level=bachelor, field=architecture
+    bachelor of laws: abbrev=llb, level=bachelor, field=law
+    bachelor of liberal studies: abbrev=bls, level=bachelor, field="liberal studies"
+    bachelor of medicine and bachelor of surgery: abbrev=mbbs, level=bachelor, field=medicine
+    bachelor of medicine and surgery: abbrev=mbbs, level=bachelor, field=medicine, syn=1
+    bachelor of music: abbrev=bm, level=bachelor, field=music
+    bachelor of pharmacy: abbrev=bpharm, level=bachelor, field=pharmacy
+    bachelor of philosophy: abbrev=bphil, level=bachelor, field=philosophy
+    bachelor of science: abbrev=bs, level=bachelor, field=science
+    bachelor of science in agriculture: abbrev=bsa, level=bachelor, field=agriculture
+    bachelor of science in business administration: abbrev=bsba, level=bachelor, field=business
+    bachelor of science in civil engineering: abbrev=bsce, level=bachelor, field=engineering
+    bachelor of science in computer science: abbrev=bscs, level=bachelor, field="computer science"
+    bachelor of science in education: abbrev=bsed, level=bachelor, field=education
+    bachelor of science in electrical engineering: abbrev=bsee, level=bachelor, field=engineering
+    bachelor of science in engineering: abbrev=bse, level=bachelor, field=engineering
+    bachelor of science in information technology: abbrev=bsit, level=bachelor, field="information technology"
+    bachelor of science in journalism: abbrev=bsj, level=bachelor, field=journalism
+    bachelor of science in mechanical engineering: abbrev=bsme, level=bachelor, field=engineering
+    bachelor of science in nursing: abbrev=bsn, level=bachelor, field=nursing
+    bachelor of science in public health: abbrev=bsph, level=bachelor, field="public health"
+    bachelor of social work: abbrev=bsw, level=bachelor, field="social work"
+    bachelor of technology: abbrev=btech, level=bachelor, field=technology
+    bachelor of theology: abbrev=bth, level=bachelor, field=theology
+    bachelor of veterinary science: abbrev=bvsc, level=bachelor, field="veterinary medicine"
+    doctor of arts: abbrev=da, level=doctorate, field=arts
+    doctor of audiology: abbrev=aud, level=doctorate, field=audiology
+    doctor of business administration: abbrev=dba, level=doctorate, field=business
+    doctor of chiropractic: abbrev=dc, level=doctorate, field=chiropractic
+    doctor of dental medicine: abbrev=dmd, level=doctorate, field=dentistry
+    doctor of dental surgery: abbrev=dds, level=doctorate, field=dentistry
+    doctor of divinity: abbrev=dd, level=doctorate, field=theology
+    doctor of education: abbrev=edd, level=doctorate, field=education
+    doctor of engineering: abbrev=deng, level=doctorate, field=engineering
+    doctor of fine arts: abbrev=dfa, level=doctorate, field="fine arts"
+    doctor of humane letters: abbrev=dhl, level=doctorate, field=letters
+    doctor of juridical science: abbrev=sjd, level=doctorate, field=law
+    doctor of jurisprudence: abbrev=jd, level=doctorate, field=law, syn=1
+    doctor of laws: abbrev=lld, level=doctorate, field=law
+    doctor of letters: abbrev=littd, level=doctorate, field=letters
+    doctor of medicine: abbrev=md, level=doctorate, field=medicine
+    doctor of ministry: abbrev=dmin, level=doctorate, field=theology
+    doctor of musical arts: abbrev=dma, level=doctorate, field=music
+    doctor of nursing practice: abbrev=dnp, level=doctorate, field=nursing
+    doctor of occupational therapy: abbrev=otd, level=doctorate, field="occupational therapy"
+    doctor of optometry: abbrev=od, level=doctorate, field=optometry
+    doctor of osteopathic medicine: abbrev=do, level=doctorate, field=medicine
+    doctor of osteopathy: abbrev=do, level=doctorate, field=medicine, syn=1
+    doctor of pharmacy: abbrev=pharmd, level=doctorate, field=pharmacy
+    doctor of philosophy: abbrev=phd, level=doctorate, field=philosophy
+    doctor of physical therapy: abbrev=dpt, level=doctorate, field="physical therapy"
+    doctor of podiatric medicine: abbrev=dpm, level=doctorate, field=podiatry
+    doctor of psychology: abbrev=psyd, level=doctorate, field=psychology
+    doctor of public administration: abbrev=dpa, level=doctorate, field="public affairs"
+    doctor of public health: abbrev=drph, level=doctorate, field="public health"
+    doctor of science: abbrev=scd, level=doctorate, field=science
+    doctor of social work: abbrev=dsw, level=doctorate, field="social work"
+    doctor of theology: abbrev=thd, level=doctorate, field=theology
+    doctor of veterinary medicine: abbrev=dvm, level=doctorate, field="veterinary medicine"
+    education specialist: abbrev=eds, level=specialist, field=education
+    juris doctor: abbrev=jd, level=doctorate, field=law
+    master of accountancy: abbrev=macc, level=master, field=accounting
+    master of accounting: abbrev=macc, level=master, field=accounting, syn=1
+    master of architecture: abbrev=march, level=master, field=architecture
+    master of arts: abbrev=ma, level=master, field=arts
+    master of arts in teaching: abbrev=mat, level=master, field=education
+    master of business administration: abbrev=mba, level=master, field=business
+    master of city planning: abbrev=mcp, level=master, field="urban planning"
+    master of computer science: abbrev=mcs, level=master, field="computer science"
+    master of divinity: abbrev=mdiv, level=master, field=theology
+    master of education: abbrev=med, level=master, field=education
+    master of engineering: abbrev=meng, level=master, field=engineering
+    master of engineering management: abbrev=mem, level=master, field="engineering management"
+    master of fine arts: abbrev=mfa, level=master, field="fine arts"
+    master of health administration: abbrev=mha, level=master, field="health administration"
+    master of international affairs: abbrev=mia, level=master, field="international affairs"
+    master of landscape architecture: abbrev=mla, level=master, field=architecture
+    master of laws: abbrev=llm, level=master, field=law
+    master of liberal arts: abbrev=mla, sense=1, level=master, field="liberal studies"
+    master of library and information science: abbrev=mlis, level=master, field="library science"
+    master of library science: abbrev=mls, level=master, field="library science"
+    master of music: abbrev=mm, level=master, field=music
+    master of occupational therapy: abbrev=mot, level=master, field="occupational therapy"
+    master of philosophy: abbrev=mphil, level=master, field=philosophy
+    master of physical therapy: abbrev=mpt, level=master, field="physical therapy"
+    master of physician assistant studies: abbrev=mpas, level=master, field="physician assistant studies"
+    master of professional studies: abbrev=mps, level=master, field="professional studies"
+    master of public administration: abbrev=mpa, level=master, field="public affairs"
+    master of public health: abbrev=mph, level=master, field="public health"
+    master of public policy: abbrev=mpp, level=master, field="public affairs"
+    master of research: abbrev=mres, level=master, field=research
+    master of science: abbrev=ms, level=master, field=science
+    master of science in accounting: abbrev=msa, level=master, field=accounting
+    master of science in civil engineering: abbrev=msce, level=master, field=engineering
+    master of science in computer science: abbrev=mscs, level=master, field="computer science"
+    master of science in education: abbrev=msed, level=master, field=education
+    master of science in electrical engineering: abbrev=msee, level=master, field=engineering
+    master of science in finance: abbrev=msf, level=master, field=finance
+    master of science in information systems: abbrev=msis, level=master, field="information systems"
+    master of science in management: abbrev=msm, level=master, field=management
+    master of science in mechanical engineering: abbrev=msme, level=master, field=engineering
+    master of science in nursing: abbrev=msn, level=master, field=nursing
+    master of science in public health: abbrev=msph, level=master, field="public health"
+    master of science in teaching: abbrev=mst, level=master, field=education
+    master of social work: abbrev=msw, level=master, field="social work"
+    master of studies: abbrev=mst, sense=1, level=master, field="general studies"
+    master of taxation: abbrev=mtax, level=master, field=accounting
+    master of theology: abbrev=mth, level=master, field=theology
+    master of urban planning: abbrev=mup, level=master, field="urban planning"
+    specialist in education: abbrev=eds, level=specialist, field=education, syn=1
+  level
+    associate: word=[associate,associates], degree=[aa,aaa,aas,aat,aba,adn,afa,ags,aos,as,asn]
+    bachelor: word=[bachelor,bachelors,baccalaureate], degree=[ba,barch,bas,bba,bcom,bcs,bd,bed,beng,bfa,bgs,bj,bla,bls,bm,bpharm,bphil,bs,bsa,bsba,bsce,bscs,bse,bsed,bsee,bsit,bsj,bsme,bsn,bsph,bsw,btech,bth,bvsc,llb,mbbs]
+    master: word=[master,masters], degree=[llm,ma,macc,march,mat,mba,mcp,mcs,mdiv,med,mem,meng,mfa,mha,mia,mla,mlis,mls,mm,mot,mpa,mpas,mph,mphil,mpp,mps,mpt,mres,ms,msa,msce,mscs,msed,msee,msf,msis,msm,msme,msn,msph,mst,msw,mtax,mth,mup]
+    specialist: degree=[eds]
+    doctorate: word=[doctorate,doctorates,doctoral], degree=[aud,da,dba,dc,dd,dds,deng,dfa,dhl,dma,dmd,dmin,dnp,do,dpa,dpm,dpt,drph,dsw,dvm,edd,jd,littd,lld,md,od,otd,pharmd,phd,psyd,scd,sjd,thd]
