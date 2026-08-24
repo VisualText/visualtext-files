@@ -1,0 +1,296 @@
+# Subjects and fields of study in English, related to their broader areas.
+# Forward lookup:  subject -> area   (concept "subjects subject biology" -> area="natural science")
+# Area lookup:     area -> its subjects
+# The tree walks both ways: parent= points up, child= points down.
+#   area=         natural science | formal science | social science |
+#                 humanities | arts | engineering | health | business |
+#                 education | law | agriculture | interdisciplinary
+#   parent=       the broader subject this one sits under
+#   child=        the immediate children of this subject
+#   synonym=      alternate names        adjective=  adjective forms
+#   school=1      a common primary or secondary school subject
+#   lang=1        the name is also a language and a nationality
+# The subject names here are the vocabulary of field= in en-degrees.dict, so a
+# degree joins to its subject on that attribute.
+# Every form named here is tagged by en-subjects.dict.
+subjects
+  subject
+    accounting: area=business, parent=business, synonym=accountancy, child=taxation, school=1
+    actuarial science: area=business, parent=business, adjective=actuarial
+    aerospace engineering: area=engineering, parent=engineering, synonym="aeronautical engineering"
+    agriculture: area=agriculture, synonym=["agricultural science",ag], adjective=agricultural, child=[agronomy,horticulture,"animal science",forestry,"food science",fisheries], school=1
+    agronomy: area=agriculture, parent=agriculture
+    algebra: area="formal science", parent=mathematics, adjective=algebraic, school=1
+    american history: area="social science", parent=history, synonym="us history", school=1
+    analytical chemistry: area="natural science", parent=chemistry
+    anatomy: area="natural science", parent=biology, adjective=anatomical
+    ancient history: area="social science", parent=history
+    anesthesiology: area=health, parent=medicine, synonym=anaesthesiology
+    animal science: area=agriculture, parent=agriculture, synonym="animal husbandry"
+    anthropology: area="social science", adjective=anthropological, child=archaeology
+    applied arts: area=interdisciplinary
+    applied mathematics: area="formal science", parent=mathematics, synonym="applied math"
+    applied science: area=interdisciplinary, synonym="applied sciences"
+    arabic: area=humanities, parent="modern languages", lang=1
+    archaeology: area="social science", parent=anthropology, synonym=archeology, adjective=archaeological
+    architecture: area=arts, adjective=architectural, child="landscape architecture"
+    arithmetic: area="formal science", parent=mathematics, school=1
+    art: area=arts, synonym=["visual arts",arts], adjective=artistic, child=["fine arts",drawing,painting,sculpture,photography,ceramics,printmaking], school=1
+    art history: area="social science", parent=history
+    artificial intelligence: area="formal science", parent="computer science", synonym=ai, child="machine learning"
+    astronomy: area="natural science", parent=science, adjective=astronomical, child=[cosmology,"planetary science"], school=1
+    astrophysics: area="natural science", parent=physics
+    audiology: area=health
+    bacteriology: area="natural science", parent=biology
+    biochemistry: area="natural science", parent=biology, synonym=biochem, adjective=biochemical
+    biology: area="natural science", parent=science, synonym=[bio,"life science","biological science"], adjective=biological, child=[botany,zoology,microbiology,"molecular biology","cell biology",genetics,biochemistry,biophysics,ecology,"marine biology",neuroscience,physiology,anatomy,immunology,virology,bacteriology,mycology,entomology,ornithology,paleontology,"evolutionary biology",biotechnology], school=1
+    biomedical engineering: area=engineering, parent=engineering, synonym=bioengineering
+    biophysics: area="natural science", parent=biology, adjective=biophysical
+    biotechnology: area="natural science", parent=biology, synonym=biotech
+    botany: area="natural science", parent=biology, synonym=["plant science","plant biology"], adjective=botanical
+    business: area=business, synonym=["business administration","business studies"], child=[accounting,finance,marketing,management,entrepreneurship,"international business","real estate","actuarial science"], school=1
+    calculus: area="formal science", parent=mathematics, school=1
+    cardiology: area=health, parent=medicine
+    cell biology: area="natural science", parent=biology, synonym=cytology
+    ceramics: area=arts, parent=art, synonym=pottery, school=1
+    chemical engineering: area=engineering, parent=engineering
+    chemistry: area="natural science", parent=science, synonym=chem, adjective=chemical, child=["organic chemistry","inorganic chemistry","physical chemistry","analytical chemistry"], school=1
+    chinese: area=humanities, parent="modern languages", synonym=mandarin, school=1, lang=1
+    chiropractic: area=health
+    civics: area="social science", parent="social studies", adjective=civic, school=1
+    civil engineering: area=engineering, parent=engineering, child="structural engineering"
+    classics: area=humanities, parent=humanities, synonym="classical studies", adjective=classical, child=[latin,greek]
+    climatology: area="natural science", parent="earth science", synonym="climate science"
+    clinical psychology: area="social science", parent=psychology
+    cognitive science: area="social science", parent=psychology, adjective=cognitive
+    communications: area="social science", synonym=[communication,"communication studies"], child=[journalism,"public relations","media studies"]
+    composition: area=humanities, parent=english, school=1
+    computer engineering: area=engineering, parent=engineering
+    computer graphics: area="formal science", parent="computer science"
+    computer science: area="formal science", synonym=[cs,computing,"comp sci"], adjective=computational, child=["software engineering","artificial intelligence","data science",cybersecurity,"information technology","information systems","computer graphics","human-computer interaction"], school=1
+    constitutional law: area=law, parent=law
+    cosmology: area="natural science", parent=astronomy, adjective=cosmological
+    creative writing: area=humanities, parent=english, school=1
+    criminal justice: area=law, parent=law, school=1
+    criminology: area="social science", parent=sociology
+    curriculum and instruction: area=education, parent=education
+    cybersecurity: area="formal science", parent="computer science", synonym=["information security","cyber security"]
+    dance: area=arts, school=1
+    data science: area="formal science", parent="computer science"
+    demography: area="social science", parent=sociology, adjective=demographic
+    dentistry: area=health, adjective=dental
+    dermatology: area=health, parent=medicine
+    design: area=arts, child=["graphic design","industrial design","fashion design","interior design"]
+    developmental psychology: area="social science", parent=psychology
+    discrete mathematics: area="formal science", parent=mathematics, synonym="discrete math"
+    divinity: area=humanities, parent="religious studies"
+    drafting: area=engineering, parent=technology, synonym="technical drawing", school=1
+    drawing: area=arts, parent=art, school=1
+    driver education: area=interdisciplinary, synonym=["drivers education","driver training"], school=1
+    early childhood education: area=education, parent=education
+    earth science: area="natural science", parent=science, synonym=["earth sciences",geoscience,geosciences], child=[geology,meteorology,oceanography,climatology,seismology,hydrology,"soil science","environmental science"], school=1
+    ecology: area="natural science", parent=biology, adjective=ecological
+    econometrics: area="social science", parent=economics
+    economics: area="social science", parent="social studies", synonym=econ, adjective=economic, child=[microeconomics,macroeconomics,econometrics], school=1
+    education: area=education, adjective=educational, child=["early childhood education","elementary education","secondary education","special education","curriculum and instruction",pedagogy]
+    educational psychology: area="social science", parent=psychology
+    electrical engineering: area=engineering, parent=engineering
+    elementary education: area=education, parent=education, synonym="primary education"
+    engineering: area=engineering, child=["civil engineering","mechanical engineering","electrical engineering","chemical engineering","aerospace engineering","biomedical engineering","industrial engineering","environmental engineering","nuclear engineering","petroleum engineering","systems engineering","computer engineering","engineering management","materials science",robotics]
+    engineering management: area=engineering, parent=engineering
+    english: area=humanities, parent=humanities, synonym=["english language arts","language arts"], child=[literature,"creative writing",composition,rhetoric,grammar,spelling,reading], school=1, lang=1
+    entomology: area="natural science", parent=biology
+    entrepreneurship: area=business, parent=business
+    environmental engineering: area=engineering, parent=engineering
+    environmental science: area="natural science", parent="earth science", synonym="environmental sciences", adjective=environmental, school=1
+    environmental studies: area=interdisciplinary, child=sustainability
+    epidemiology: area=health, parent="public health", adjective=epidemiological
+    epistemology: area=humanities, parent=philosophy
+    ethics: area=humanities, parent=philosophy, adjective=ethical
+    evolutionary biology: area="natural science", parent=biology
+    fashion design: area=arts, parent=design
+    film: area=arts, synonym=["film studies",cinema,"cinema studies"]
+    finance: area=business, parent=business, adjective=financial
+    fine arts: area=arts, parent=art
+    fisheries: area=agriculture, parent=agriculture, synonym="fishery science"
+    food science: area=agriculture, parent=agriculture
+    forestry: area=agriculture, parent=agriculture
+    french: area=humanities, parent="modern languages", school=1, lang=1
+    gender studies: area="social science", synonym="womens studies"
+    general studies: area=interdisciplinary
+    genetics: area="natural science", parent=biology, adjective=genetic, child=genomics
+    genomics: area="natural science", parent=genetics, adjective=genomic
+    geography: area="social science", parent="social studies", adjective=[geographic,geographical], child=["human geography","physical geography"], school=1
+    geology: area="natural science", parent="earth science", adjective=geological
+    geometry: area="formal science", parent=mathematics, adjective=geometric, school=1
+    geriatrics: area=health, parent=medicine
+    german: area=humanities, parent="modern languages", school=1, lang=1
+    grammar: area=humanities, parent=english, adjective=grammatical, school=1
+    graphic design: area=arts, parent=design
+    greek: area=humanities, parent=classics, lang=1
+    gynecology: area=health, parent=medicine, synonym=gynaecology
+    health: area=health, synonym="health education", school=1
+    health administration: area=health, parent="public health", synonym="healthcare administration"
+    hebrew: area=humanities, parent="modern languages", lang=1
+    history: area="social science", parent="social studies", adjective=historical, child=["ancient history","world history","american history","art history"], school=1
+    home economics: area=interdisciplinary, synonym=["family and consumer science","family and consumer sciences"], school=1
+    horticulture: area=agriculture, parent=agriculture, adjective=horticultural
+    hospitality management: area=business, parent=management, synonym="hotel management"
+    human geography: area="social science", parent=geography
+    human resources: area=business, parent=management, synonym="human resource management"
+    human-computer interaction: area="formal science", parent="computer science"
+    humanities: area=humanities, child=[english,philosophy,classics,"religious studies","modern languages",letters]
+    hydrology: area="natural science", parent="earth science"
+    immunology: area="natural science", parent=biology, adjective=immunological
+    industrial arts: area=engineering, parent=technology, synonym=[shop,woodworking,metalworking], school=1
+    industrial design: area=arts, parent=design
+    industrial engineering: area=engineering, parent=engineering
+    information systems: area="formal science", parent="computer science"
+    information technology: area="formal science", parent="computer science", synonym=it
+    inorganic chemistry: area="natural science", parent=chemistry
+    interdisciplinary studies: area=interdisciplinary, synonym="multidisciplinary studies"
+    interior design: area=arts, parent=design
+    international business: area=business, parent=business
+    international law: area=law, parent=law
+    international relations: area="social science", parent="political science", synonym=["international affairs","international studies"]
+    italian: area=humanities, parent="modern languages", lang=1
+    japanese: area=humanities, parent="modern languages", school=1, lang=1
+    journalism: area="social science", parent=communications, adjective=journalistic
+    keyboarding: area=interdisciplinary, synonym=typing, school=1
+    kinesiology: area=health, synonym="exercise science"
+    korean: area=humanities, parent="modern languages", lang=1
+    landscape architecture: area=arts, parent=architecture
+    latin: area=humanities, parent=classics, school=1, lang=1
+    law: area=law, synonym=["legal studies",jurisprudence], adjective=legal, child=["criminal justice","international law","constitutional law"]
+    letters: area=humanities, parent=humanities, synonym="humane letters"
+    liberal arts: area=interdisciplinary, synonym="liberal studies"
+    library science: area="formal science", synonym=["information science","library and information science"]
+    linear algebra: area="formal science", parent=mathematics
+    linguistics: area="social science", adjective=linguistic
+    literature: area=humanities, parent=english, adjective=literary, child=poetry, school=1
+    logic: area="formal science", adjective=logical
+    machine learning: area="formal science", parent="artificial intelligence"
+    macroeconomics: area="social science", parent=economics
+    management: area=business, parent=business, adjective=managerial, child=["human resources","supply chain management","hospitality management"]
+    marine biology: area="natural science", parent=biology
+    marketing: area=business, parent=business
+    materials science: area=engineering, parent=engineering, synonym=["materials engineering","material science"]
+    mathematics: area="formal science", synonym=[math,maths], adjective=mathematical, child=[arithmetic,algebra,geometry,trigonometry,calculus,statistics,probability,"number theory",topology,"linear algebra","discrete mathematics","applied mathematics"], school=1
+    mechanical engineering: area=engineering, parent=engineering
+    mechanics: area="natural science", parent=physics, adjective=mechanical
+    media studies: area="social science", parent=communications
+    medicine: area=health, adjective=medical, child=[surgery,pediatrics,psychiatry,cardiology,oncology,radiology,neurology,pathology,anesthesiology,dermatology,obstetrics,gynecology,orthopedics,geriatrics,"osteopathic medicine","physician assistant studies"]
+    metaphysics: area=humanities, parent=philosophy
+    meteorology: area="natural science", parent="earth science", adjective=meteorological
+    microbiology: area="natural science", parent=biology, adjective=microbiological
+    microeconomics: area="social science", parent=economics
+    modern languages: area=humanities, parent=humanities, synonym=["foreign languages","world languages"], child=[spanish,french,german,italian,portuguese,russian,chinese,japanese,korean,arabic,hebrew], school=1
+    molecular biology: area="natural science", parent=biology
+    music: area=arts, adjective=musical, child=["music theory","music composition"], school=1
+    music composition: area=arts, parent=music
+    music theory: area=arts, parent=music, school=1
+    mycology: area="natural science", parent=biology
+    neurology: area=health, parent=medicine
+    neuroscience: area="natural science", parent=biology, synonym=neurobiology, adjective=neuroscientific
+    nuclear engineering: area=engineering, parent=engineering
+    nuclear physics: area="natural science", parent=physics
+    number theory: area="formal science", parent=mathematics
+    nursing: area=health
+    nutrition: area=health, synonym=dietetics, adjective=nutritional, school=1
+    obstetrics: area=health, parent=medicine
+    occupational studies: area=interdisciplinary
+    occupational therapy: area=health
+    oceanography: area="natural science", parent="earth science", synonym="marine science"
+    oncology: area=health, parent=medicine
+    optics: area="natural science", parent=physics, adjective=optical
+    optometry: area=health
+    organic chemistry: area="natural science", parent=chemistry
+    ornithology: area="natural science", parent=biology
+    orthopedics: area=health, parent=medicine, synonym=orthopaedics
+    osteopathic medicine: area=health, parent=medicine, synonym=osteopathy
+    painting: area=arts, parent=art, school=1
+    paleontology: area="natural science", parent=biology, synonym=palaeontology
+    particle physics: area="natural science", parent=physics, synonym="high energy physics"
+    pathology: area=health, parent=medicine, adjective=pathological
+    pedagogy: area=education, parent=education, synonym=teaching, adjective=pedagogical
+    pediatrics: area=health, parent=medicine, synonym=paediatrics, adjective=pediatric
+    performing arts: area=arts, school=1
+    petroleum engineering: area=engineering, parent=engineering
+    pharmacy: area=health, adjective=pharmaceutical
+    philosophy: area=humanities, parent=humanities, adjective=philosophical, child=[ethics,metaphysics,epistemology]
+    photography: area=arts, parent=art, adjective=photographic, school=1
+    physical chemistry: area="natural science", parent=chemistry
+    physical education: area=health, synonym=[pe,gym,"phys ed"], school=1
+    physical geography: area="social science", parent=geography
+    physical therapy: area=health, synonym=physiotherapy
+    physician assistant studies: area=health, parent=medicine
+    physics: area="natural science", parent=science, child=[astrophysics,"nuclear physics","particle physics","quantum mechanics",thermodynamics,optics,mechanics], school=1
+    physiology: area="natural science", parent=biology, adjective=physiological
+    planetary science: area="natural science", parent=astronomy
+    podiatry: area=health, synonym="podiatric medicine", adjective=podiatric
+    poetry: area=humanities, parent=literature, adjective=poetic
+    political science: area="social science", parent="social studies", synonym=[politics,"poli sci",government], adjective=political, child=["international relations","public policy","public administration"], school=1
+    portuguese: area=humanities, parent="modern languages", lang=1
+    printmaking: area=arts, parent=art
+    probability: area="formal science", parent=mathematics
+    professional studies: area=interdisciplinary
+    psychiatry: area=health, parent=medicine, adjective=psychiatric
+    psychology: area="social science", synonym=psych, adjective=psychological, child=["clinical psychology","developmental psychology","social psychology","educational psychology","cognitive science"], school=1
+    public administration: area="social science", parent="political science", synonym="public affairs"
+    public health: area=health, child=[epidemiology,"health administration"]
+    public policy: area="social science", parent="political science"
+    public relations: area="social science", parent=communications
+    quantum mechanics: area="natural science", parent=physics, synonym="quantum physics"
+    radiology: area=health, parent=medicine
+    reading: area=humanities, parent=english, school=1
+    real estate: area=business, parent=business
+    religious studies: area=humanities, parent=humanities, synonym=religion, adjective=religious, child=[theology,divinity]
+    research: area=interdisciplinary
+    rhetoric: area=humanities, parent=english, adjective=rhetorical
+    robotics: area=engineering, parent=engineering
+    russian: area=humanities, parent="modern languages", lang=1
+    science: area="natural science", synonym=sciences, adjective=scientific, child=[biology,chemistry,physics,astronomy,"earth science"], school=1
+    sculpture: area=arts, parent=art
+    secondary education: area=education, parent=education
+    seismology: area="natural science", parent="earth science"
+    social psychology: area="social science", parent=psychology
+    social studies: area="social science", child=[history,geography,economics,"political science",civics], school=1
+    social work: area="social science", parent=sociology
+    sociology: area="social science", adjective=sociological, child=[criminology,demography,"social work"], school=1
+    software engineering: area="formal science", parent="computer science"
+    soil science: area="natural science", parent="earth science"
+    spanish: area=humanities, parent="modern languages", school=1, lang=1
+    special education: area=education, parent=education, synonym=sped
+    speech pathology: area=health, synonym=["speech-language pathology","speech therapy"]
+    spelling: area=humanities, parent=english, school=1
+    statistics: area="formal science", parent=mathematics, synonym=stats, adjective=statistical, school=1
+    structural engineering: area=engineering, parent="civil engineering"
+    supply chain management: area=business, parent=management, synonym=logistics
+    surgery: area=health, parent=medicine, adjective=surgical
+    sustainability: area=interdisciplinary, parent="environmental studies"
+    systems engineering: area=engineering, parent=engineering
+    taxation: area=business, parent=accounting
+    technology: area=engineering, synonym=tech, adjective=technological, child=["industrial arts",drafting], school=1
+    theater: area=arts, synonym=[theatre,drama,"dramatic arts"], adjective=dramatic, school=1
+    theology: area=humanities, parent="religious studies", adjective=theological
+    thermodynamics: area="natural science", parent=physics
+    topology: area="formal science", parent=mathematics
+    trigonometry: area="formal science", parent=mathematics, synonym=trig, school=1
+    urban planning: area="social science", synonym=["city planning","urban studies"]
+    veterinary medicine: area=health, synonym="veterinary science", adjective=veterinary
+    virology: area="natural science", parent=biology
+    world history: area="social science", parent=history, school=1
+    zoology: area="natural science", parent=biology, adjective=zoological
+  area
+    natural science: count=50, top=[science], subject=["analytical chemistry",anatomy,astronomy,astrophysics,bacteriology,biochemistry,biology,biophysics,biotechnology,botany,"cell biology",chemistry,climatology,cosmology,"earth science",ecology,entomology,"environmental science","evolutionary biology",genetics,genomics,geology,hydrology,immunology,"inorganic chemistry","marine biology",mechanics,meteorology,microbiology,"molecular biology",mycology,neuroscience,"nuclear physics",oceanography,optics,"organic chemistry",ornithology,paleontology,"particle physics","physical chemistry",physics,physiology,"planetary science","quantum mechanics",science,seismology,"soil science",thermodynamics,virology,zoology]
+    formal science: count=25, top=["computer science","library science",logic,mathematics], subject=[algebra,"applied mathematics",arithmetic,"artificial intelligence",calculus,"computer graphics","computer science",cybersecurity,"data science","discrete mathematics",geometry,"human-computer interaction","information systems","information technology","library science","linear algebra",logic,"machine learning",mathematics,"number theory",probability,"software engineering",statistics,topology,trigonometry]
+    social science: count=37, top=[anthropology,communications,"gender studies",linguistics,psychology,"social studies",sociology,"urban planning"], subject=["american history","ancient history",anthropology,archaeology,"art history",civics,"clinical psychology","cognitive science",communications,criminology,demography,"developmental psychology",econometrics,economics,"educational psychology","gender studies",geography,history,"human geography","international relations",journalism,linguistics,macroeconomics,"media studies",microeconomics,"physical geography","political science",psychology,"public administration","public policy","public relations","social psychology","social studies","social work",sociology,"urban planning","world history"]
+    humanities: count=33, top=[humanities], subject=[arabic,chinese,classics,composition,"creative writing",divinity,english,epistemology,ethics,french,german,grammar,greek,hebrew,humanities,italian,japanese,korean,latin,letters,literature,metaphysics,"modern languages",philosophy,poetry,portuguese,reading,"religious studies",rhetoric,russian,spanish,spelling,theology]
+    arts: count=22, top=[architecture,art,dance,design,film,music,"performing arts",theater], subject=[architecture,art,ceramics,dance,design,drawing,"fashion design",film,"fine arts","graphic design","industrial design","interior design","landscape architecture",music,"music composition","music theory",painting,"performing arts",photography,printmaking,sculpture,theater]
+    engineering: count=20, top=[engineering,technology], subject=["aerospace engineering","biomedical engineering","chemical engineering","civil engineering","computer engineering",drafting,"electrical engineering",engineering,"engineering management","environmental engineering","industrial arts","industrial engineering","materials science","mechanical engineering","nuclear engineering","petroleum engineering",robotics,"structural engineering","systems engineering",technology]
+    health: count=35, top=[audiology,chiropractic,dentistry,health,kinesiology,medicine,nursing,nutrition,"occupational therapy",optometry,pharmacy,"physical education","physical therapy",podiatry,"public health","speech pathology","veterinary medicine"], subject=[anesthesiology,audiology,cardiology,chiropractic,dentistry,dermatology,epidemiology,geriatrics,gynecology,health,"health administration",kinesiology,medicine,neurology,nursing,nutrition,obstetrics,"occupational therapy",oncology,optometry,orthopedics,"osteopathic medicine",pathology,pediatrics,pharmacy,"physical education","physical therapy","physician assistant studies",podiatry,psychiatry,"public health",radiology,"speech pathology",surgery,"veterinary medicine"]
+    business: count=13, top=[business], subject=[accounting,"actuarial science",business,entrepreneurship,finance,"hospitality management","human resources","international business",management,marketing,"real estate","supply chain management",taxation]
+    education: count=7, top=[education], subject=["curriculum and instruction","early childhood education",education,"elementary education",pedagogy,"secondary education","special education"]
+    law: count=4, top=[law], subject=["constitutional law","criminal justice","international law",law]
+    agriculture: count=7, top=[agriculture], subject=[agriculture,agronomy,"animal science",fisheries,"food science",forestry,horticulture]
+    interdisciplinary: count=13, top=["applied arts","applied science","driver education","environmental studies","general studies","home economics","interdisciplinary studies",keyboarding,"liberal arts","occupational studies","professional studies",research], subject=["applied arts","applied science","driver education","environmental studies","general studies","home economics","interdisciplinary studies",keyboarding,"liberal arts","occupational studies","professional studies",research,sustainability]

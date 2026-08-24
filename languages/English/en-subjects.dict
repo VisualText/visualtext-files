@@ -1,0 +1,479 @@
+# Subjects and fields of study in English: school subjects and academic
+# disciplines.  One line per surface form.
+#   subject=      the canonical subject name -- on every entry, so rules join
+#                 into en-subjects.kbb on this, not on $text
+#   area=         the broad division the subject sits in (natural science,
+#                 formal science, social science, humanities, arts,
+#                 engineering, health, business, education, law, agriculture,
+#                 interdisciplinary)
+#   parent=       the broader subject this one sits under, where there is one
+#   name=1        the form is the canonical name    syn=1  a synonym
+#   adj=1         an adjective form (biological, mathematical)
+#   school=1      a common primary or secondary school subject
+#   lang=1        the name is also a language and a nationality (english,
+#                 french, latin) -- see en-languages.dict, en-nationalities.dict
+#   ambig=1       the form is also an entry in another library dictionary
+# Nearly every subject name is also an ordinary English word (art, history,
+# reading, design, law), so a subject reading always needs context: a "degree
+# in", "majored in", "class" or "department" frame, or a course listing.  The
+# dictionary does not flag that; only cross-library collisions are flagged.
+# The canonical names here are the vocabulary of field= in en-degrees.dict, so
+# a degree joins to its subject on that attribute.
+accountancy syn=1 subject=accounting area=business parent=business school=1
+accounting name=1 subject=accounting area=business parent=business school=1
+actuarial adj=1 subject="actuarial science" area=business parent=business
+actuarial science name=1 subject="actuarial science" area=business parent=business
+aeronautical engineering syn=1 subject="aerospace engineering" area=engineering parent=engineering
+aerospace engineering name=1 subject="aerospace engineering" area=engineering parent=engineering
+ag syn=1 subject=agriculture area=agriculture school=1
+agricultural adj=1 subject=agriculture area=agriculture school=1
+agricultural science syn=1 subject=agriculture area=agriculture school=1
+agriculture name=1 subject=agriculture area=agriculture school=1
+agronomy name=1 subject=agronomy area=agriculture parent=agriculture
+ai syn=1 subject="artificial intelligence" area="formal science" parent="computer science"
+algebra name=1 subject=algebra area="formal science" parent=mathematics school=1
+algebraic adj=1 subject=algebra area="formal science" parent=mathematics school=1
+american history name=1 subject="american history" area="social science" parent=history school=1
+anaesthesiology syn=1 subject=anesthesiology area=health parent=medicine
+analytical chemistry name=1 subject="analytical chemistry" area="natural science" parent=chemistry
+anatomical adj=1 subject=anatomy area="natural science" parent=biology
+anatomy name=1 subject=anatomy area="natural science" parent=biology
+ancient history name=1 subject="ancient history" area="social science" parent=history
+anesthesiology name=1 subject=anesthesiology area=health parent=medicine
+animal husbandry syn=1 subject="animal science" area=agriculture parent=agriculture
+animal science name=1 subject="animal science" area=agriculture parent=agriculture
+anthropological adj=1 subject=anthropology area="social science"
+anthropology name=1 subject=anthropology area="social science"
+applied arts name=1 subject="applied arts" area=interdisciplinary
+applied math syn=1 subject="applied mathematics" area="formal science" parent=mathematics
+applied mathematics name=1 subject="applied mathematics" area="formal science" parent=mathematics
+applied science name=1 subject="applied science" area=interdisciplinary
+applied sciences syn=1 subject="applied science" area=interdisciplinary
+arabic name=1 subject=arabic area=humanities parent="modern languages" lang=1 ambig=1
+archaeological adj=1 subject=archaeology area="social science" parent=anthropology
+archaeology name=1 subject=archaeology area="social science" parent=anthropology
+archeology syn=1 subject=archaeology area="social science" parent=anthropology
+architectural adj=1 subject=architecture area=arts
+architecture name=1 subject=architecture area=arts
+arithmetic name=1 subject=arithmetic area="formal science" parent=mathematics school=1
+art name=1 subject=art area=arts school=1
+art history name=1 subject="art history" area="social science" parent=history
+artificial intelligence name=1 subject="artificial intelligence" area="formal science" parent="computer science"
+artistic adj=1 subject=art area=arts school=1
+arts syn=1 subject=art area=arts school=1
+astronomical adj=1 subject=astronomy area="natural science" parent=science school=1
+astronomy name=1 subject=astronomy area="natural science" parent=science school=1
+astrophysics name=1 subject=astrophysics area="natural science" parent=physics
+audiology name=1 subject=audiology area=health
+bacteriology name=1 subject=bacteriology area="natural science" parent=biology
+bio syn=1 subject=biology area="natural science" parent=science school=1
+biochem syn=1 subject=biochemistry area="natural science" parent=biology
+biochemical adj=1 subject=biochemistry area="natural science" parent=biology
+biochemistry name=1 subject=biochemistry area="natural science" parent=biology
+bioengineering syn=1 subject="biomedical engineering" area=engineering parent=engineering
+biological adj=1 subject=biology area="natural science" parent=science school=1
+biological science syn=1 subject=biology area="natural science" parent=science school=1
+biology name=1 subject=biology area="natural science" parent=science school=1
+biomedical engineering name=1 subject="biomedical engineering" area=engineering parent=engineering
+biophysical adj=1 subject=biophysics area="natural science" parent=biology
+biophysics name=1 subject=biophysics area="natural science" parent=biology
+biotech syn=1 subject=biotechnology area="natural science" parent=biology
+biotechnology name=1 subject=biotechnology area="natural science" parent=biology
+botanical adj=1 subject=botany area="natural science" parent=biology
+botany name=1 subject=botany area="natural science" parent=biology
+business name=1 subject=business area=business school=1
+business administration syn=1 subject=business area=business school=1
+business studies syn=1 subject=business area=business school=1
+calculus name=1 subject=calculus area="formal science" parent=mathematics school=1
+cardiology name=1 subject=cardiology area=health parent=medicine
+cell biology name=1 subject="cell biology" area="natural science" parent=biology
+ceramics name=1 subject=ceramics area=arts parent=art school=1
+chem syn=1 subject=chemistry area="natural science" parent=science school=1
+chemical adj=1 subject=chemistry area="natural science" parent=science school=1
+chemical engineering name=1 subject="chemical engineering" area=engineering parent=engineering
+chemistry name=1 subject=chemistry area="natural science" parent=science school=1
+chinese name=1 subject=chinese area=humanities parent="modern languages" school=1 lang=1 ambig=1
+chiropractic name=1 subject=chiropractic area=health
+cinema syn=1 subject=film area=arts
+cinema studies syn=1 subject=film area=arts
+city planning syn=1 subject="urban planning" area="social science"
+civic adj=1 subject=civics area="social science" parent="social studies" school=1
+civics name=1 subject=civics area="social science" parent="social studies" school=1
+civil engineering name=1 subject="civil engineering" area=engineering parent=engineering
+classical adj=1 subject=classics area=humanities parent=humanities
+classical studies syn=1 subject=classics area=humanities parent=humanities
+classics name=1 subject=classics area=humanities parent=humanities
+climate science syn=1 subject=climatology area="natural science" parent="earth science"
+climatology name=1 subject=climatology area="natural science" parent="earth science"
+clinical psychology name=1 subject="clinical psychology" area="social science" parent=psychology
+cognitive adj=1 subject="cognitive science" area="social science" parent=psychology
+cognitive science name=1 subject="cognitive science" area="social science" parent=psychology
+communication syn=1 subject=communications area="social science"
+communication studies syn=1 subject=communications area="social science"
+communications name=1 subject=communications area="social science"
+comp sci syn=1 subject="computer science" area="formal science" school=1
+composition name=1 subject=composition area=humanities parent=english school=1
+computational adj=1 subject="computer science" area="formal science" school=1
+computer engineering name=1 subject="computer engineering" area=engineering parent=engineering
+computer graphics name=1 subject="computer graphics" area="formal science" parent="computer science"
+computer science name=1 subject="computer science" area="formal science" school=1
+computing syn=1 subject="computer science" area="formal science" school=1
+constitutional law name=1 subject="constitutional law" area=law parent=law
+cosmological adj=1 subject=cosmology area="natural science" parent=astronomy
+cosmology name=1 subject=cosmology area="natural science" parent=astronomy
+creative writing name=1 subject="creative writing" area=humanities parent=english school=1
+criminal justice name=1 subject="criminal justice" area=law parent=law school=1
+criminology name=1 subject=criminology area="social science" parent=sociology
+cs syn=1 subject="computer science" area="formal science" school=1
+curriculum and instruction name=1 subject="curriculum and instruction" area=education parent=education
+cyber security syn=1 subject=cybersecurity area="formal science" parent="computer science"
+cybersecurity name=1 subject=cybersecurity area="formal science" parent="computer science"
+cytology syn=1 subject="cell biology" area="natural science" parent=biology
+dance name=1 subject=dance area=arts school=1
+data science name=1 subject="data science" area="formal science" parent="computer science"
+demographic adj=1 subject=demography area="social science" parent=sociology
+demography name=1 subject=demography area="social science" parent=sociology
+dental adj=1 subject=dentistry area=health
+dentistry name=1 subject=dentistry area=health
+dermatology name=1 subject=dermatology area=health parent=medicine
+design name=1 subject=design area=arts
+developmental psychology name=1 subject="developmental psychology" area="social science" parent=psychology
+dietetics syn=1 subject=nutrition area=health school=1
+discrete math syn=1 subject="discrete mathematics" area="formal science" parent=mathematics
+discrete mathematics name=1 subject="discrete mathematics" area="formal science" parent=mathematics
+divinity name=1 subject=divinity area=humanities parent="religious studies"
+drafting name=1 subject=drafting area=engineering parent=technology school=1
+drama syn=1 subject=theater area=arts school=1
+dramatic adj=1 subject=theater area=arts school=1
+dramatic arts syn=1 subject=theater area=arts school=1
+drawing name=1 subject=drawing area=arts parent=art school=1
+driver education name=1 subject="driver education" area=interdisciplinary school=1
+driver training syn=1 subject="driver education" area=interdisciplinary school=1
+drivers education syn=1 subject="driver education" area=interdisciplinary school=1
+early childhood education name=1 subject="early childhood education" area=education parent=education
+earth science name=1 subject="earth science" area="natural science" parent=science school=1
+earth sciences syn=1 subject="earth science" area="natural science" parent=science school=1
+ecological adj=1 subject=ecology area="natural science" parent=biology
+ecology name=1 subject=ecology area="natural science" parent=biology
+econ syn=1 subject=economics area="social science" parent="social studies" school=1
+econometrics name=1 subject=econometrics area="social science" parent=economics
+economic adj=1 subject=economics area="social science" parent="social studies" school=1
+economics name=1 subject=economics area="social science" parent="social studies" school=1
+education name=1 subject=education area=education
+educational adj=1 subject=education area=education
+educational psychology name=1 subject="educational psychology" area="social science" parent=psychology
+electrical engineering name=1 subject="electrical engineering" area=engineering parent=engineering
+elementary education name=1 subject="elementary education" area=education parent=education
+engineering name=1 subject=engineering area=engineering
+engineering management name=1 subject="engineering management" area=engineering parent=engineering
+english name=1 subject=english area=humanities parent=humanities school=1 lang=1 ambig=1
+english language arts syn=1 subject=english area=humanities parent=humanities school=1 lang=1
+entomology name=1 subject=entomology area="natural science" parent=biology
+entrepreneurship name=1 subject=entrepreneurship area=business parent=business
+environmental adj=1 subject="environmental science" area="natural science" parent="earth science" school=1
+environmental engineering name=1 subject="environmental engineering" area=engineering parent=engineering
+environmental science name=1 subject="environmental science" area="natural science" parent="earth science" school=1
+environmental sciences syn=1 subject="environmental science" area="natural science" parent="earth science" school=1
+environmental studies name=1 subject="environmental studies" area=interdisciplinary
+epidemiological adj=1 subject=epidemiology area=health parent="public health"
+epidemiology name=1 subject=epidemiology area=health parent="public health"
+epistemology name=1 subject=epistemology area=humanities parent=philosophy
+ethical adj=1 subject=ethics area=humanities parent=philosophy
+ethics name=1 subject=ethics area=humanities parent=philosophy
+evolutionary biology name=1 subject="evolutionary biology" area="natural science" parent=biology
+exercise science syn=1 subject=kinesiology area=health
+family and consumer science syn=1 subject="home economics" area=interdisciplinary school=1
+family and consumer sciences syn=1 subject="home economics" area=interdisciplinary school=1
+fashion design name=1 subject="fashion design" area=arts parent=design
+film name=1 subject=film area=arts
+film studies syn=1 subject=film area=arts
+finance name=1 subject=finance area=business parent=business
+financial adj=1 subject=finance area=business parent=business
+fine arts name=1 subject="fine arts" area=arts parent=art
+fisheries name=1 subject=fisheries area=agriculture parent=agriculture
+fishery science syn=1 subject=fisheries area=agriculture parent=agriculture
+food science name=1 subject="food science" area=agriculture parent=agriculture
+foreign languages syn=1 subject="modern languages" area=humanities parent=humanities school=1
+forestry name=1 subject=forestry area=agriculture parent=agriculture
+french name=1 subject=french area=humanities parent="modern languages" school=1 lang=1 ambig=1
+gender studies name=1 subject="gender studies" area="social science"
+general studies name=1 subject="general studies" area=interdisciplinary
+genetic adj=1 subject=genetics area="natural science" parent=biology
+genetics name=1 subject=genetics area="natural science" parent=biology
+genomic adj=1 subject=genomics area="natural science" parent=genetics
+genomics name=1 subject=genomics area="natural science" parent=genetics
+geographic adj=1 subject=geography area="social science" parent="social studies" school=1
+geographical adj=1 subject=geography area="social science" parent="social studies" school=1
+geography name=1 subject=geography area="social science" parent="social studies" school=1
+geological adj=1 subject=geology area="natural science" parent="earth science"
+geology name=1 subject=geology area="natural science" parent="earth science"
+geometric adj=1 subject=geometry area="formal science" parent=mathematics school=1
+geometry name=1 subject=geometry area="formal science" parent=mathematics school=1
+geoscience syn=1 subject="earth science" area="natural science" parent=science school=1
+geosciences syn=1 subject="earth science" area="natural science" parent=science school=1
+geriatrics name=1 subject=geriatrics area=health parent=medicine
+german name=1 subject=german area=humanities parent="modern languages" school=1 lang=1 ambig=1
+government syn=1 subject="political science" area="social science" parent="social studies" school=1
+grammar name=1 subject=grammar area=humanities parent=english school=1
+grammatical adj=1 subject=grammar area=humanities parent=english school=1
+graphic design name=1 subject="graphic design" area=arts parent=design
+greek name=1 subject=greek area=humanities parent=classics lang=1 ambig=1
+gym syn=1 subject="physical education" area=health school=1
+gynaecology syn=1 subject=gynecology area=health parent=medicine
+gynecology name=1 subject=gynecology area=health parent=medicine
+health name=1 subject=health area=health school=1
+health administration name=1 subject="health administration" area=health parent="public health"
+health education syn=1 subject=health area=health school=1
+healthcare administration syn=1 subject="health administration" area=health parent="public health"
+hebrew name=1 subject=hebrew area=humanities parent="modern languages" lang=1 ambig=1
+high energy physics syn=1 subject="particle physics" area="natural science" parent=physics
+historical adj=1 subject=history area="social science" parent="social studies" school=1
+history name=1 subject=history area="social science" parent="social studies" school=1
+home economics name=1 subject="home economics" area=interdisciplinary school=1
+horticultural adj=1 subject=horticulture area=agriculture parent=agriculture
+horticulture name=1 subject=horticulture area=agriculture parent=agriculture
+hospitality management name=1 subject="hospitality management" area=business parent=management
+hotel management syn=1 subject="hospitality management" area=business parent=management
+human geography name=1 subject="human geography" area="social science" parent=geography
+human resource management syn=1 subject="human resources" area=business parent=management
+human resources name=1 subject="human resources" area=business parent=management
+human-computer interaction name=1 subject="human-computer interaction" area="formal science" parent="computer science"
+humane letters syn=1 subject=letters area=humanities parent=humanities
+humanities name=1 subject=humanities area=humanities
+hydrology name=1 subject=hydrology area="natural science" parent="earth science"
+immunological adj=1 subject=immunology area="natural science" parent=biology
+immunology name=1 subject=immunology area="natural science" parent=biology
+industrial arts name=1 subject="industrial arts" area=engineering parent=technology school=1
+industrial design name=1 subject="industrial design" area=arts parent=design
+industrial engineering name=1 subject="industrial engineering" area=engineering parent=engineering
+information science syn=1 subject="library science" area="formal science"
+information security syn=1 subject=cybersecurity area="formal science" parent="computer science"
+information systems name=1 subject="information systems" area="formal science" parent="computer science"
+information technology name=1 subject="information technology" area="formal science" parent="computer science"
+inorganic chemistry name=1 subject="inorganic chemistry" area="natural science" parent=chemistry
+interdisciplinary studies name=1 subject="interdisciplinary studies" area=interdisciplinary
+interior design name=1 subject="interior design" area=arts parent=design
+international affairs syn=1 subject="international relations" area="social science" parent="political science"
+international business name=1 subject="international business" area=business parent=business
+international law name=1 subject="international law" area=law parent=law
+international relations name=1 subject="international relations" area="social science" parent="political science"
+international studies syn=1 subject="international relations" area="social science" parent="political science"
+it syn=1 subject="information technology" area="formal science" parent="computer science"
+italian name=1 subject=italian area=humanities parent="modern languages" lang=1 ambig=1
+japanese name=1 subject=japanese area=humanities parent="modern languages" school=1 lang=1 ambig=1
+journalism name=1 subject=journalism area="social science" parent=communications
+journalistic adj=1 subject=journalism area="social science" parent=communications
+jurisprudence syn=1 subject=law area=law
+keyboarding name=1 subject=keyboarding area=interdisciplinary school=1
+kinesiology name=1 subject=kinesiology area=health
+korean name=1 subject=korean area=humanities parent="modern languages" lang=1 ambig=1
+landscape architecture name=1 subject="landscape architecture" area=arts parent=architecture
+language arts syn=1 subject=english area=humanities parent=humanities school=1 lang=1
+latin name=1 subject=latin area=humanities parent=classics school=1 lang=1 ambig=1
+law name=1 subject=law area=law
+legal adj=1 subject=law area=law
+legal studies syn=1 subject=law area=law
+letters name=1 subject=letters area=humanities parent=humanities
+liberal arts name=1 subject="liberal arts" area=interdisciplinary
+liberal studies syn=1 subject="liberal arts" area=interdisciplinary
+library and information science syn=1 subject="library science" area="formal science"
+library science name=1 subject="library science" area="formal science"
+life science syn=1 subject=biology area="natural science" parent=science school=1
+linear algebra name=1 subject="linear algebra" area="formal science" parent=mathematics
+linguistic adj=1 subject=linguistics area="social science"
+linguistics name=1 subject=linguistics area="social science"
+literary adj=1 subject=literature area=humanities parent=english school=1
+literature name=1 subject=literature area=humanities parent=english school=1
+logic name=1 subject=logic area="formal science"
+logical adj=1 subject=logic area="formal science"
+logistics syn=1 subject="supply chain management" area=business parent=management
+machine learning name=1 subject="machine learning" area="formal science" parent="artificial intelligence"
+macroeconomics name=1 subject=macroeconomics area="social science" parent=economics
+management name=1 subject=management area=business parent=business ambig=1
+managerial adj=1 subject=management area=business parent=business
+mandarin syn=1 subject=chinese area=humanities parent="modern languages" school=1 lang=1
+marine biology name=1 subject="marine biology" area="natural science" parent=biology
+marine science syn=1 subject=oceanography area="natural science" parent="earth science"
+marketing name=1 subject=marketing area=business parent=business
+material science syn=1 subject="materials science" area=engineering parent=engineering
+materials engineering syn=1 subject="materials science" area=engineering parent=engineering
+materials science name=1 subject="materials science" area=engineering parent=engineering
+math syn=1 subject=mathematics area="formal science" school=1
+mathematical adj=1 subject=mathematics area="formal science" school=1
+mathematics name=1 subject=mathematics area="formal science" school=1
+maths syn=1 subject=mathematics area="formal science" school=1
+mechanical adj=1 subject=mechanics area="natural science" parent=physics
+mechanical engineering name=1 subject="mechanical engineering" area=engineering parent=engineering
+mechanics name=1 subject=mechanics area="natural science" parent=physics
+media studies name=1 subject="media studies" area="social science" parent=communications
+medical adj=1 subject=medicine area=health
+medicine name=1 subject=medicine area=health ambig=1
+metalworking syn=1 subject="industrial arts" area=engineering parent=technology school=1
+metaphysics name=1 subject=metaphysics area=humanities parent=philosophy
+meteorological adj=1 subject=meteorology area="natural science" parent="earth science"
+meteorology name=1 subject=meteorology area="natural science" parent="earth science"
+microbiological adj=1 subject=microbiology area="natural science" parent=biology
+microbiology name=1 subject=microbiology area="natural science" parent=biology
+microeconomics name=1 subject=microeconomics area="social science" parent=economics
+modern languages name=1 subject="modern languages" area=humanities parent=humanities school=1
+molecular biology name=1 subject="molecular biology" area="natural science" parent=biology
+multidisciplinary studies syn=1 subject="interdisciplinary studies" area=interdisciplinary
+music name=1 subject=music area=arts school=1
+music composition name=1 subject="music composition" area=arts parent=music
+music theory name=1 subject="music theory" area=arts parent=music school=1
+musical adj=1 subject=music area=arts school=1
+mycology name=1 subject=mycology area="natural science" parent=biology
+neurobiology syn=1 subject=neuroscience area="natural science" parent=biology
+neurology name=1 subject=neurology area=health parent=medicine
+neuroscience name=1 subject=neuroscience area="natural science" parent=biology
+neuroscientific adj=1 subject=neuroscience area="natural science" parent=biology
+nuclear engineering name=1 subject="nuclear engineering" area=engineering parent=engineering
+nuclear physics name=1 subject="nuclear physics" area="natural science" parent=physics
+number theory name=1 subject="number theory" area="formal science" parent=mathematics
+nursing name=1 subject=nursing area=health
+nutrition name=1 subject=nutrition area=health school=1
+nutritional adj=1 subject=nutrition area=health school=1
+obstetrics name=1 subject=obstetrics area=health parent=medicine
+occupational studies name=1 subject="occupational studies" area=interdisciplinary
+occupational therapy name=1 subject="occupational therapy" area=health
+oceanography name=1 subject=oceanography area="natural science" parent="earth science"
+oncology name=1 subject=oncology area=health parent=medicine
+optical adj=1 subject=optics area="natural science" parent=physics
+optics name=1 subject=optics area="natural science" parent=physics
+optometry name=1 subject=optometry area=health
+organic chemistry name=1 subject="organic chemistry" area="natural science" parent=chemistry
+ornithology name=1 subject=ornithology area="natural science" parent=biology
+orthopaedics syn=1 subject=orthopedics area=health parent=medicine
+orthopedics name=1 subject=orthopedics area=health parent=medicine
+osteopathic medicine name=1 subject="osteopathic medicine" area=health parent=medicine
+osteopathy syn=1 subject="osteopathic medicine" area=health parent=medicine
+paediatrics syn=1 subject=pediatrics area=health parent=medicine
+painting name=1 subject=painting area=arts parent=art school=1
+palaeontology syn=1 subject=paleontology area="natural science" parent=biology
+paleontology name=1 subject=paleontology area="natural science" parent=biology
+particle physics name=1 subject="particle physics" area="natural science" parent=physics
+pathological adj=1 subject=pathology area=health parent=medicine
+pathology name=1 subject=pathology area=health parent=medicine
+pe syn=1 subject="physical education" area=health school=1 ambig=1
+pedagogical adj=1 subject=pedagogy area=education parent=education
+pedagogy name=1 subject=pedagogy area=education parent=education
+pediatric adj=1 subject=pediatrics area=health parent=medicine
+pediatrics name=1 subject=pediatrics area=health parent=medicine
+performing arts name=1 subject="performing arts" area=arts school=1
+petroleum engineering name=1 subject="petroleum engineering" area=engineering parent=engineering
+pharmaceutical adj=1 subject=pharmacy area=health
+pharmacy name=1 subject=pharmacy area=health
+philosophical adj=1 subject=philosophy area=humanities parent=humanities
+philosophy name=1 subject=philosophy area=humanities parent=humanities
+photographic adj=1 subject=photography area=arts parent=art school=1
+photography name=1 subject=photography area=arts parent=art school=1
+phys ed syn=1 subject="physical education" area=health school=1
+physical chemistry name=1 subject="physical chemistry" area="natural science" parent=chemistry
+physical education name=1 subject="physical education" area=health school=1
+physical geography name=1 subject="physical geography" area="social science" parent=geography
+physical therapy name=1 subject="physical therapy" area=health
+physician assistant studies name=1 subject="physician assistant studies" area=health parent=medicine
+physics name=1 subject=physics area="natural science" parent=science school=1
+physiological adj=1 subject=physiology area="natural science" parent=biology
+physiology name=1 subject=physiology area="natural science" parent=biology
+physiotherapy syn=1 subject="physical therapy" area=health
+planetary science name=1 subject="planetary science" area="natural science" parent=astronomy
+plant biology syn=1 subject=botany area="natural science" parent=biology
+plant science syn=1 subject=botany area="natural science" parent=biology
+podiatric adj=1 subject=podiatry area=health
+podiatric medicine syn=1 subject=podiatry area=health
+podiatry name=1 subject=podiatry area=health
+poetic adj=1 subject=poetry area=humanities parent=literature
+poetry name=1 subject=poetry area=humanities parent=literature
+poli sci syn=1 subject="political science" area="social science" parent="social studies" school=1
+political adj=1 subject="political science" area="social science" parent="social studies" school=1
+political science name=1 subject="political science" area="social science" parent="social studies" school=1
+politics syn=1 subject="political science" area="social science" parent="social studies" school=1
+portuguese name=1 subject=portuguese area=humanities parent="modern languages" lang=1 ambig=1
+pottery syn=1 subject=ceramics area=arts parent=art school=1
+primary education syn=1 subject="elementary education" area=education parent=education
+printmaking name=1 subject=printmaking area=arts parent=art
+probability name=1 subject=probability area="formal science" parent=mathematics
+professional studies name=1 subject="professional studies" area=interdisciplinary
+psych syn=1 subject=psychology area="social science" school=1
+psychiatric adj=1 subject=psychiatry area=health parent=medicine
+psychiatry name=1 subject=psychiatry area=health parent=medicine
+psychological adj=1 subject=psychology area="social science" school=1
+psychology name=1 subject=psychology area="social science" school=1
+public administration name=1 subject="public administration" area="social science" parent="political science"
+public affairs syn=1 subject="public administration" area="social science" parent="political science"
+public health name=1 subject="public health" area=health
+public policy name=1 subject="public policy" area="social science" parent="political science"
+public relations name=1 subject="public relations" area="social science" parent=communications
+quantum mechanics name=1 subject="quantum mechanics" area="natural science" parent=physics
+quantum physics syn=1 subject="quantum mechanics" area="natural science" parent=physics
+radiology name=1 subject=radiology area=health parent=medicine
+reading name=1 subject=reading area=humanities parent=english school=1
+real estate name=1 subject="real estate" area=business parent=business
+religion syn=1 subject="religious studies" area=humanities parent=humanities
+religious adj=1 subject="religious studies" area=humanities parent=humanities
+religious studies name=1 subject="religious studies" area=humanities parent=humanities
+research name=1 subject=research area=interdisciplinary
+rhetoric name=1 subject=rhetoric area=humanities parent=english
+rhetorical adj=1 subject=rhetoric area=humanities parent=english
+robotics name=1 subject=robotics area=engineering parent=engineering
+russian name=1 subject=russian area=humanities parent="modern languages" lang=1 ambig=1
+science name=1 subject=science area="natural science" school=1
+sciences syn=1 subject=science area="natural science" school=1
+scientific adj=1 subject=science area="natural science" school=1
+sculpture name=1 subject=sculpture area=arts parent=art
+secondary education name=1 subject="secondary education" area=education parent=education
+seismology name=1 subject=seismology area="natural science" parent="earth science"
+shop syn=1 subject="industrial arts" area=engineering parent=technology school=1
+social psychology name=1 subject="social psychology" area="social science" parent=psychology
+social studies name=1 subject="social studies" area="social science" school=1
+social work name=1 subject="social work" area="social science" parent=sociology
+sociological adj=1 subject=sociology area="social science" school=1
+sociology name=1 subject=sociology area="social science" school=1
+software engineering name=1 subject="software engineering" area="formal science" parent="computer science"
+soil science name=1 subject="soil science" area="natural science" parent="earth science"
+spanish name=1 subject=spanish area=humanities parent="modern languages" school=1 lang=1 ambig=1
+special education name=1 subject="special education" area=education parent=education
+sped syn=1 subject="special education" area=education parent=education
+speech pathology name=1 subject="speech pathology" area=health
+speech therapy syn=1 subject="speech pathology" area=health
+speech-language pathology syn=1 subject="speech pathology" area=health
+spelling name=1 subject=spelling area=humanities parent=english school=1
+statistical adj=1 subject=statistics area="formal science" parent=mathematics school=1
+statistics name=1 subject=statistics area="formal science" parent=mathematics school=1
+stats syn=1 subject=statistics area="formal science" parent=mathematics school=1
+structural engineering name=1 subject="structural engineering" area=engineering parent="civil engineering"
+supply chain management name=1 subject="supply chain management" area=business parent=management
+surgery name=1 subject=surgery area=health parent=medicine
+surgical adj=1 subject=surgery area=health parent=medicine
+sustainability name=1 subject=sustainability area=interdisciplinary parent="environmental studies"
+systems engineering name=1 subject="systems engineering" area=engineering parent=engineering
+taxation name=1 subject=taxation area=business parent=accounting
+teaching syn=1 subject=pedagogy area=education parent=education
+tech syn=1 subject=technology area=engineering school=1
+technical drawing syn=1 subject=drafting area=engineering parent=technology school=1
+technological adj=1 subject=technology area=engineering school=1
+technology name=1 subject=technology area=engineering school=1
+theater name=1 subject=theater area=arts school=1
+theatre syn=1 subject=theater area=arts school=1
+theological adj=1 subject=theology area=humanities parent="religious studies"
+theology name=1 subject=theology area=humanities parent="religious studies"
+thermodynamics name=1 subject=thermodynamics area="natural science" parent=physics
+topology name=1 subject=topology area="formal science" parent=mathematics
+trig syn=1 subject=trigonometry area="formal science" parent=mathematics school=1
+trigonometry name=1 subject=trigonometry area="formal science" parent=mathematics school=1
+typing syn=1 subject=keyboarding area=interdisciplinary school=1
+urban planning name=1 subject="urban planning" area="social science"
+urban studies syn=1 subject="urban planning" area="social science"
+us history syn=1 subject="american history" area="social science" parent=history school=1
+veterinary adj=1 subject="veterinary medicine" area=health
+veterinary medicine name=1 subject="veterinary medicine" area=health
+veterinary science syn=1 subject="veterinary medicine" area=health
+virology name=1 subject=virology area="natural science" parent=biology
+visual arts syn=1 subject=art area=arts school=1
+womens studies syn=1 subject="gender studies" area="social science"
+woodworking syn=1 subject="industrial arts" area=engineering parent=technology school=1
+world history name=1 subject="world history" area="social science" parent=history school=1
+world languages syn=1 subject="modern languages" area=humanities parent=humanities school=1
+zoological adj=1 subject=zoology area="natural science" parent=biology
+zoology name=1 subject=zoology area="natural science" parent=biology

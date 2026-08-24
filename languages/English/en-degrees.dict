@@ -20,16 +20,16 @@
 #                 so carries no degree=
 # Dotted forms (Ph.D., B.A., M.Sc.) are not listed: the tokenizer splits them
 # into separate tokens.
-aa abbrev=1 degree=aa level=associate field=arts ambig=1
+aa abbrev=1 degree=aa level=associate field=art ambig=1
 aaa abbrev=1 degree=aaa level=associate field="applied arts"
 aas abbrev=1 degree=aas level=associate field="applied science" ambig=1
 aat abbrev=1 degree=aat level=associate field=education
-ab abbrev=1 syn=1 degree=ba level=bachelor field=arts ambig=1
+ab abbrev=1 syn=1 degree=ba level=bachelor field=art ambig=1
 aba abbrev=1 degree=aba level=associate field=business ambig=1
 adn abbrev=1 degree=adn level=associate field=nursing
 afa abbrev=1 degree=afa level=associate field="fine arts"
 ags abbrev=1 degree=ags level=associate field="general studies"
-am abbrev=1 syn=1 degree=ma level=master field=arts ambig=1
+am abbrev=1 syn=1 degree=ma level=master field=art ambig=1
 aos abbrev=1 degree=aos level=associate field="occupational studies"
 as abbrev=1 degree=as level=associate field=science ambig=1
 asn abbrev=1 degree=asn level=associate field=nursing
@@ -38,7 +38,7 @@ associate levelword=1 level=associate ambig=1
 associate of applied arts spelled=1 degree=aaa level=associate field="applied arts"
 associate of applied science spelled=1 degree=aas level=associate field="applied science"
 associate of arts in teaching spelled=1 degree=aat level=associate field=education
-associate of arts spelled=1 degree=aa level=associate field=arts
+associate of arts spelled=1 degree=aa level=associate field=art
 associate of business administration spelled=1 degree=aba level=associate field=business
 associate of fine arts spelled=1 degree=afa level=associate field="fine arts"
 associate of general studies spelled=1 degree=ags level=associate field="general studies"
@@ -48,12 +48,12 @@ associate of science in nursing spelled=1 degree=asn level=associate field=nursi
 associate of science spelled=1 degree=as level=associate field=science
 associates levelword=1 level=associate plural=1 ambig=1
 aud abbrev=1 degree=aud level=doctorate field=audiology professional=1
-ba abbrev=1 degree=ba level=bachelor field=arts
+ba abbrev=1 degree=ba level=bachelor field=art
 baccalaureate levelword=1 level=bachelor
 bachelor levelword=1 level=bachelor ambig=1
 bachelor of applied science spelled=1 degree=bas level=bachelor field="applied science"
 bachelor of architecture spelled=1 degree=barch level=bachelor field=architecture
-bachelor of arts spelled=1 degree=ba level=bachelor field=arts
+bachelor of arts spelled=1 degree=ba level=bachelor field=art
 bachelor of business administration spelled=1 degree=bba level=bachelor field=business
 bachelor of commerce spelled=1 degree=bcom level=bachelor field=business uk=1
 bachelor of computer science spelled=1 degree=bcs level=bachelor field="computer science"
@@ -65,7 +65,7 @@ bachelor of general studies spelled=1 degree=bgs level=bachelor field="general s
 bachelor of journalism spelled=1 degree=bj level=bachelor field=journalism
 bachelor of landscape architecture spelled=1 degree=bla level=bachelor field=architecture
 bachelor of laws spelled=1 degree=llb level=bachelor field=law uk=1
-bachelor of liberal studies spelled=1 degree=bls level=bachelor field="liberal studies"
+bachelor of liberal studies spelled=1 degree=bls level=bachelor field="liberal arts"
 bachelor of medicine and bachelor of surgery spelled=1 degree=mbbs level=bachelor field=medicine professional=1 uk=1
 bachelor of medicine and surgery spelled=1 syn=1 degree=mbbs level=bachelor field=medicine professional=1 uk=1
 bachelor of music spelled=1 degree=bm level=bachelor field=music
@@ -104,7 +104,7 @@ bfa abbrev=1 degree=bfa level=bachelor field="fine arts"
 bgs abbrev=1 degree=bgs level=bachelor field="general studies"
 bj abbrev=1 degree=bj level=bachelor field=journalism
 bla abbrev=1 degree=bla level=bachelor field=architecture
-bls abbrev=1 degree=bls level=bachelor field="liberal studies"
+bls abbrev=1 degree=bls level=bachelor field="liberal arts"
 bm abbrev=1 degree=bm level=bachelor field=music
 bmbs abbrev=1 syn=1 degree=mbbs level=bachelor field=medicine professional=1 uk=1
 bmus abbrev=1 syn=1 degree=bm level=bachelor field=music
@@ -129,7 +129,7 @@ btech abbrev=1 degree=btech level=bachelor field=technology uk=1
 bth abbrev=1 degree=bth level=bachelor field=theology
 bvms abbrev=1 syn=1 degree=bvsc level=bachelor field="veterinary medicine" professional=1 uk=1
 bvsc abbrev=1 degree=bvsc level=bachelor field="veterinary medicine" professional=1 uk=1
-da abbrev=1 degree=da level=doctorate field=arts
+da abbrev=1 degree=da level=doctorate field=art
 dba abbrev=1 degree=dba level=doctorate field=business
 dc abbrev=1 degree=dc level=doctorate field=chiropractic professional=1 ambig=1
 dd abbrev=1 degree=dd level=doctorate field=theology honorary=1
@@ -143,7 +143,7 @@ dmd abbrev=1 degree=dmd level=doctorate field=dentistry professional=1 suffix=1
 dmin abbrev=1 degree=dmin level=doctorate field=theology professional=1
 dnp abbrev=1 degree=dnp level=doctorate field=nursing professional=1
 do abbrev=1 degree=do level=doctorate field=medicine professional=1 suffix=1 ambig=1
-doctor of arts spelled=1 degree=da level=doctorate field=arts
+doctor of arts spelled=1 degree=da level=doctorate field=art
 doctor of audiology spelled=1 degree=aud level=doctorate field=audiology professional=1
 doctor of business administration spelled=1 degree=dba level=doctorate field=business
 doctor of chiropractic spelled=1 degree=dc level=doctorate field=chiropractic professional=1
@@ -171,7 +171,7 @@ doctor of philosophy spelled=1 degree=phd level=doctorate field=philosophy
 doctor of physical therapy spelled=1 degree=dpt level=doctorate field="physical therapy" professional=1
 doctor of podiatric medicine spelled=1 degree=dpm level=doctorate field=podiatry professional=1
 doctor of psychology spelled=1 degree=psyd level=doctorate field=psychology professional=1
-doctor of public administration spelled=1 degree=dpa level=doctorate field="public affairs"
+doctor of public administration spelled=1 degree=dpa level=doctorate field="public administration"
 doctor of public health spelled=1 degree=drph level=doctorate field="public health"
 doctor of science spelled=1 degree=scd level=doctorate field=science
 doctor of social work spelled=1 degree=dsw level=doctorate field="social work"
@@ -180,7 +180,7 @@ doctor of veterinary medicine spelled=1 degree=dvm level=doctorate field="veteri
 doctoral levelword=1 level=doctorate ambig=1
 doctorate levelword=1 level=doctorate
 doctorates levelword=1 level=doctorate plural=1
-dpa abbrev=1 degree=dpa level=doctorate field="public affairs"
+dpa abbrev=1 degree=dpa level=doctorate field="public administration"
 dph abbrev=1 syn=1 degree=drph level=doctorate field="public health"
 dphil abbrev=1 syn=1 degree=phd level=doctorate field=philosophy
 dpm abbrev=1 degree=dpm level=doctorate field=podiatry professional=1
@@ -202,7 +202,7 @@ littd abbrev=1 degree=littd level=doctorate field=letters
 llb abbrev=1 degree=llb level=bachelor field=law uk=1
 lld abbrev=1 degree=lld level=doctorate field=law honorary=1
 llm abbrev=1 degree=llm level=master field=law
-ma abbrev=1 degree=ma level=master field=arts ambig=1
+ma abbrev=1 degree=ma level=master field=art ambig=1
 macc abbrev=1 degree=macc level=master field=accounting
 macct abbrev=1 syn=1 degree=macc level=master field=accounting
 march abbrev=1 degree=march level=master field=architecture ambig=1
@@ -211,7 +211,7 @@ master of accountancy spelled=1 degree=macc level=master field=accounting
 master of accounting spelled=1 syn=1 degree=macc level=master field=accounting
 master of architecture spelled=1 degree=march level=master field=architecture
 master of arts in teaching spelled=1 degree=mat level=master field=education
-master of arts spelled=1 degree=ma level=master field=arts
+master of arts spelled=1 degree=ma level=master field=art
 master of business administration spelled=1 degree=mba level=master field=business
 master of city planning spelled=1 degree=mcp level=master field="urban planning"
 master of computer science spelled=1 degree=mcs level=master field="computer science"
@@ -221,10 +221,10 @@ master of engineering management spelled=1 degree=mem level=master field="engine
 master of engineering spelled=1 degree=meng level=master field=engineering
 master of fine arts spelled=1 degree=mfa level=master field="fine arts"
 master of health administration spelled=1 degree=mha level=master field="health administration"
-master of international affairs spelled=1 degree=mia level=master field="international affairs"
+master of international affairs spelled=1 degree=mia level=master field="international relations"
 master of landscape architecture spelled=1 degree=mla level=master field=architecture
 master of laws spelled=1 degree=llm level=master field=law
-master of liberal arts spelled=1 degree=mla sense=1 level=master field="liberal studies"
+master of liberal arts spelled=1 degree=mla sense=1 level=master field="liberal arts"
 master of library and information science spelled=1 degree=mlis level=master field="library science"
 master of library science spelled=1 degree=mls level=master field="library science"
 master of music spelled=1 degree=mm level=master field=music
@@ -233,9 +233,9 @@ master of philosophy spelled=1 degree=mphil level=master field=philosophy
 master of physical therapy spelled=1 degree=mpt level=master field="physical therapy" professional=1
 master of physician assistant studies spelled=1 degree=mpas level=master field="physician assistant studies" professional=1
 master of professional studies spelled=1 degree=mps level=master field="professional studies"
-master of public administration spelled=1 degree=mpa level=master field="public affairs"
+master of public administration spelled=1 degree=mpa level=master field="public administration"
 master of public health spelled=1 degree=mph level=master field="public health"
-master of public policy spelled=1 degree=mpp level=master field="public affairs"
+master of public policy spelled=1 degree=mpp level=master field="public policy"
 master of research spelled=1 degree=mres level=master field=research uk=1
 master of science in accounting spelled=1 degree=msa level=master field=accounting
 master of science in civil engineering spelled=1 degree=msce level=master field=engineering
@@ -270,18 +270,18 @@ mem abbrev=1 degree=mem level=master field="engineering management" ambig=1
 meng abbrev=1 degree=meng level=master field=engineering
 mfa abbrev=1 degree=mfa level=master field="fine arts"
 mha abbrev=1 degree=mha level=master field="health administration"
-mia abbrev=1 degree=mia level=master field="international affairs"
+mia abbrev=1 degree=mia level=master field="international relations"
 mla abbrev=1 degree=mla level=master field=architecture ambig=1
 mlis abbrev=1 degree=mlis level=master field="library science"
 mls abbrev=1 degree=mls level=master field="library science"
 mm abbrev=1 degree=mm level=master field=music ambig=1
 mmus abbrev=1 syn=1 degree=mm level=master field=music
 mot abbrev=1 degree=mot level=master field="occupational therapy" professional=1 ambig=1
-mpa abbrev=1 degree=mpa level=master field="public affairs"
+mpa abbrev=1 degree=mpa level=master field="public administration"
 mpas abbrev=1 degree=mpas level=master field="physician assistant studies" professional=1
 mph abbrev=1 degree=mph level=master field="public health" ambig=1
 mphil abbrev=1 degree=mphil level=master field=philosophy
-mpp abbrev=1 degree=mpp level=master field="public affairs"
+mpp abbrev=1 degree=mpp level=master field="public policy"
 mps abbrev=1 degree=mps level=master field="professional studies"
 mpt abbrev=1 degree=mpt level=master field="physical therapy" professional=1
 mres abbrev=1 degree=mres level=master field=research uk=1

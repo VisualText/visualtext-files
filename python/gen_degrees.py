@@ -40,7 +40,7 @@ import io, os, sys
 # abbrev, name, level, field, latin, syn abbrevs, syn names, flags
 T = [
  # --- associate ------------------------------------------------------------
- ("aa","associate of arts","associate","arts",None,[],[],[]),
+ ("aa","associate of arts","associate","art",None,[],[],[]),
  ("as","associate of science","associate","science",None,[],[],[]),
  ("aas","associate of applied science","associate","applied science",None,[],[],[]),
  ("aaa","associate of applied arts","associate","applied arts",None,[],[],[]),
@@ -53,7 +53,7 @@ T = [
  ("aos","associate of occupational studies","associate","occupational studies",None,[],[],[]),
 
  # --- bachelor -------------------------------------------------------------
- ("ba","bachelor of arts","bachelor","arts","artium baccalaureus",["ab"],[],[]),
+ ("ba","bachelor of arts","bachelor","art","artium baccalaureus",["ab"],[],[]),
  ("bs","bachelor of science","bachelor","science","scientiae baccalaureus",["bsc","sb","scb"],[],[]),
  ("bfa","bachelor of fine arts","bachelor","fine arts",None,[],[],[]),
  ("bba","bachelor of business administration","bachelor","business",None,[],[],[]),
@@ -75,7 +75,7 @@ T = [
  ("bsw","bachelor of social work","bachelor","social work",None,[],[],[]),
  ("bphil","bachelor of philosophy","bachelor","philosophy",None,[],[],[]),
  ("bla","bachelor of landscape architecture","bachelor","architecture",None,[],[],[]),
- ("bls","bachelor of liberal studies","bachelor","liberal studies",None,[],[],[]),
+ ("bls","bachelor of liberal studies","bachelor","liberal arts",None,[],[],[]),
  ("bgs","bachelor of general studies","bachelor","general studies",None,[],[],[]),
  ("bsa","bachelor of science in agriculture","bachelor","agriculture",None,[],[],[]),
  ("bsj","bachelor of science in journalism","bachelor","journalism",None,[],[],[]),
@@ -91,7 +91,7 @@ T = [
  ("bvsc","bachelor of veterinary science","bachelor","veterinary medicine",None,["bvms"],[],["uk","professional"]),
 
  # --- master ---------------------------------------------------------------
- ("ma","master of arts","master","arts","artium magister",["am"],[],[]),
+ ("ma","master of arts","master","art","artium magister",["am"],[],[]),
  ("ms","master of science","master","science","scientiae magister",["msc","sm","scm"],[],[]),
  ("mba","master of business administration","master","business",None,[],[],[]),
  ("mfa","master of fine arts","master","fine arts",None,[],[],[]),
@@ -103,9 +103,9 @@ T = [
  ("meng","master of engineering","master","engineering",None,["me"],[],[]),
  ("march","master of architecture","master","architecture",None,[],[],[]),
  ("mla","master of landscape architecture","master","architecture",None,[],[],[]),
- ("mla","master of liberal arts","master","liberal studies",None,[],[],[]),
- ("mpa","master of public administration","master","public affairs",None,[],[],[]),
- ("mpp","master of public policy","master","public affairs",None,[],[],[]),
+ ("mla","master of liberal arts","master","liberal arts",None,[],[],[]),
+ ("mpa","master of public administration","master","public administration",None,[],[],[]),
+ ("mpp","master of public policy","master","public policy",None,[],[],[]),
  ("mph","master of public health","master","public health",None,[],[],[]),
  ("msph","master of science in public health","master","public health",None,[],[],[]),
  ("msw","master of social work","master","social work",None,[],[],[]),
@@ -132,7 +132,7 @@ T = [
  ("mup","master of urban planning","master","urban planning",None,[],[],[]),
  ("mcp","master of city planning","master","urban planning",None,[],[],[]),
  ("mps","master of professional studies","master","professional studies",None,[],[],[]),
- ("mia","master of international affairs","master","international affairs",None,[],[],[]),
+ ("mia","master of international affairs","master","international relations",None,[],[],[]),
  ("msm","master of science in management","master","management",None,[],[],[]),
  ("mem","master of engineering management","master","engineering management",None,[],[],[]),
  ("mpt","master of physical therapy","master","physical therapy",None,[],[],["professional"]),
@@ -147,11 +147,11 @@ T = [
  ("edd","doctor of education","doctorate","education",None,[],[],[]),
  ("dba","doctor of business administration","doctorate","business",None,[],[],[]),
  ("scd","doctor of science","doctorate","science","scientiae doctor",["dsc"],[],[]),
- ("da","doctor of arts","doctorate","arts",None,[],[],[]),
+ ("da","doctor of arts","doctorate","art",None,[],[],[]),
  ("dma","doctor of musical arts","doctorate","music",None,[],[],[]),
  ("thd","doctor of theology","doctorate","theology","theologiae doctor",["dth"],[],[]),
  ("dmin","doctor of ministry","doctorate","theology",None,[],[],["professional"]),
- ("dpa","doctor of public administration","doctorate","public affairs",None,[],[],[]),
+ ("dpa","doctor of public administration","doctorate","public administration",None,[],[],[]),
  ("drph","doctor of public health","doctorate","public health",None,["dph"],[],[]),
  ("deng","doctor of engineering","doctorate","engineering",None,["engd"],[],[]),
  ("dsw","doctor of social work","doctorate","social work",None,[],[],[]),
