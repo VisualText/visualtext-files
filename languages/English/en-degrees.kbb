@@ -17,7 +17,7 @@
 # Every form named here is tagged by en-degrees.dict.
 degrees
   degree
-    aa: name="associate of arts", level=associate, field=arts
+    aa: name="associate of arts", level=associate, field=art
     aaa: name="associate of applied arts", level=associate, field="applied arts"
     aas: name="associate of applied science", level=associate, field="applied science"
     aat: name="associate of arts in teaching", level=associate, field=education
@@ -29,7 +29,7 @@ degrees
     as: name="associate of science", level=associate, field=science
     asn: name="associate of science in nursing", level=associate, field=nursing
     aud: name="doctor of audiology", level=doctorate, field=audiology, professional=1
-    ba: name="bachelor of arts", level=bachelor, field=arts, latin="artium baccalaureus", synonym=ab
+    ba: name="bachelor of arts", level=bachelor, field=art, latin="artium baccalaureus", synonym=ab
     barch: name="bachelor of architecture", level=bachelor, field=architecture
     bas: name="bachelor of applied science", level=bachelor, field="applied science", synonym=basc
     bba: name="bachelor of business administration", level=bachelor, field=business
@@ -42,7 +42,7 @@ degrees
     bgs: name="bachelor of general studies", level=bachelor, field="general studies"
     bj: name="bachelor of journalism", level=bachelor, field=journalism
     bla: name="bachelor of landscape architecture", level=bachelor, field=architecture
-    bls: name="bachelor of liberal studies", level=bachelor, field="liberal studies"
+    bls: name="bachelor of liberal studies", level=bachelor, field="liberal arts"
     bm: name="bachelor of music", level=bachelor, field=music, synonym=bmus
     bpharm: name="bachelor of pharmacy", level=bachelor, field=pharmacy, uk=1
     bphil: name="bachelor of philosophy", level=bachelor, field=philosophy
@@ -63,7 +63,7 @@ degrees
     btech: name="bachelor of technology", level=bachelor, field=technology, uk=1
     bth: name="bachelor of theology", level=bachelor, field=theology
     bvsc: name="bachelor of veterinary science", level=bachelor, field="veterinary medicine", synonym=bvms, professional=1, uk=1
-    da: name="doctor of arts", level=doctorate, field=arts
+    da: name="doctor of arts", level=doctorate, field=art
     dba: name="doctor of business administration", level=doctorate, field=business
     dc: name="doctor of chiropractic", level=doctorate, field=chiropractic, professional=1
     dd: name="doctor of divinity", level=doctorate, field=theology, latin="divinitatis doctor", honorary=1
@@ -76,7 +76,7 @@ degrees
     dmin: name="doctor of ministry", level=doctorate, field=theology, professional=1
     dnp: name="doctor of nursing practice", level=doctorate, field=nursing, professional=1
     do: name="doctor of osteopathic medicine", level=doctorate, field=medicine, altname="doctor of osteopathy", professional=1, suffix=1
-    dpa: name="doctor of public administration", level=doctorate, field="public affairs"
+    dpa: name="doctor of public administration", level=doctorate, field="public administration"
     dpm: name="doctor of podiatric medicine", level=doctorate, field=podiatry, professional=1
     dpt: name="doctor of physical therapy", level=doctorate, field="physical therapy", professional=1
     drph: name="doctor of public health", level=doctorate, field="public health", synonym=dph
@@ -89,7 +89,7 @@ degrees
     llb: name="bachelor of laws", level=bachelor, field=law, latin="legum baccalaureus", uk=1
     lld: name="doctor of laws", level=doctorate, field=law, latin="legum doctor", honorary=1
     llm: name="master of laws", level=master, field=law, latin="legum magister"
-    ma: name="master of arts", level=master, field=arts, latin="artium magister", synonym=am
+    ma: name="master of arts", level=master, field=art, latin="artium magister", synonym=am
     macc: name="master of accountancy", level=master, field=accounting, synonym=macct, altname="master of accounting"
     march: name="master of architecture", level=master, field=architecture
     mat: name="master of arts in teaching", level=master, field=education
@@ -104,18 +104,18 @@ degrees
     meng: name="master of engineering", level=master, field=engineering, synonym=me
     mfa: name="master of fine arts", level=master, field="fine arts"
     mha: name="master of health administration", level=master, field="health administration"
-    mia: name="master of international affairs", level=master, field="international affairs"
+    mia: name="master of international affairs", level=master, field="international relations"
     mla: ambig=1, name="master of landscape architecture", level=master, field=architecture
-      mla1: name="master of liberal arts", level=master, field="liberal studies"
+      mla1: name="master of liberal arts", level=master, field="liberal arts"
     mlis: name="master of library and information science", level=master, field="library science"
     mls: name="master of library science", level=master, field="library science"
     mm: name="master of music", level=master, field=music, synonym=mmus
     mot: name="master of occupational therapy", level=master, field="occupational therapy", professional=1
-    mpa: name="master of public administration", level=master, field="public affairs"
+    mpa: name="master of public administration", level=master, field="public administration"
     mpas: name="master of physician assistant studies", level=master, field="physician assistant studies", professional=1
     mph: name="master of public health", level=master, field="public health"
     mphil: name="master of philosophy", level=master, field=philosophy
-    mpp: name="master of public policy", level=master, field="public affairs"
+    mpp: name="master of public policy", level=master, field="public policy"
     mps: name="master of professional studies", level=master, field="professional studies"
     mpt: name="master of physical therapy", level=master, field="physical therapy", professional=1
     mres: name="master of research", level=master, field=research, uk=1
@@ -149,7 +149,7 @@ degrees
     associate degree in nursing: abbrev=adn, level=associate, field=nursing
     associate of applied arts: abbrev=aaa, level=associate, field="applied arts"
     associate of applied science: abbrev=aas, level=associate, field="applied science"
-    associate of arts: abbrev=aa, level=associate, field=arts
+    associate of arts: abbrev=aa, level=associate, field=art
     associate of arts in teaching: abbrev=aat, level=associate, field=education
     associate of business administration: abbrev=aba, level=associate, field=business
     associate of fine arts: abbrev=afa, level=associate, field="fine arts"
@@ -160,7 +160,7 @@ degrees
     associate of science in nursing: abbrev=asn, level=associate, field=nursing
     bachelor of applied science: abbrev=bas, level=bachelor, field="applied science"
     bachelor of architecture: abbrev=barch, level=bachelor, field=architecture
-    bachelor of arts: abbrev=ba, level=bachelor, field=arts
+    bachelor of arts: abbrev=ba, level=bachelor, field=art
     bachelor of business administration: abbrev=bba, level=bachelor, field=business
     bachelor of commerce: abbrev=bcom, level=bachelor, field=business
     bachelor of computer science: abbrev=bcs, level=bachelor, field="computer science"
@@ -172,7 +172,7 @@ degrees
     bachelor of journalism: abbrev=bj, level=bachelor, field=journalism
     bachelor of landscape architecture: abbrev=bla, level=bachelor, field=architecture
     bachelor of laws: abbrev=llb, level=bachelor, field=law
-    bachelor of liberal studies: abbrev=bls, level=bachelor, field="liberal studies"
+    bachelor of liberal studies: abbrev=bls, level=bachelor, field="liberal arts"
     bachelor of medicine and bachelor of surgery: abbrev=mbbs, level=bachelor, field=medicine
     bachelor of medicine and surgery: abbrev=mbbs, level=bachelor, field=medicine, syn=1
     bachelor of music: abbrev=bm, level=bachelor, field=music
@@ -195,7 +195,7 @@ degrees
     bachelor of technology: abbrev=btech, level=bachelor, field=technology
     bachelor of theology: abbrev=bth, level=bachelor, field=theology
     bachelor of veterinary science: abbrev=bvsc, level=bachelor, field="veterinary medicine"
-    doctor of arts: abbrev=da, level=doctorate, field=arts
+    doctor of arts: abbrev=da, level=doctorate, field=art
     doctor of audiology: abbrev=aud, level=doctorate, field=audiology
     doctor of business administration: abbrev=dba, level=doctorate, field=business
     doctor of chiropractic: abbrev=dc, level=doctorate, field=chiropractic
@@ -223,7 +223,7 @@ degrees
     doctor of physical therapy: abbrev=dpt, level=doctorate, field="physical therapy"
     doctor of podiatric medicine: abbrev=dpm, level=doctorate, field=podiatry
     doctor of psychology: abbrev=psyd, level=doctorate, field=psychology
-    doctor of public administration: abbrev=dpa, level=doctorate, field="public affairs"
+    doctor of public administration: abbrev=dpa, level=doctorate, field="public administration"
     doctor of public health: abbrev=drph, level=doctorate, field="public health"
     doctor of science: abbrev=scd, level=doctorate, field=science
     doctor of social work: abbrev=dsw, level=doctorate, field="social work"
@@ -234,7 +234,7 @@ degrees
     master of accountancy: abbrev=macc, level=master, field=accounting
     master of accounting: abbrev=macc, level=master, field=accounting, syn=1
     master of architecture: abbrev=march, level=master, field=architecture
-    master of arts: abbrev=ma, level=master, field=arts
+    master of arts: abbrev=ma, level=master, field=art
     master of arts in teaching: abbrev=mat, level=master, field=education
     master of business administration: abbrev=mba, level=master, field=business
     master of city planning: abbrev=mcp, level=master, field="urban planning"
@@ -245,10 +245,10 @@ degrees
     master of engineering management: abbrev=mem, level=master, field="engineering management"
     master of fine arts: abbrev=mfa, level=master, field="fine arts"
     master of health administration: abbrev=mha, level=master, field="health administration"
-    master of international affairs: abbrev=mia, level=master, field="international affairs"
+    master of international affairs: abbrev=mia, level=master, field="international relations"
     master of landscape architecture: abbrev=mla, level=master, field=architecture
     master of laws: abbrev=llm, level=master, field=law
-    master of liberal arts: abbrev=mla, sense=1, level=master, field="liberal studies"
+    master of liberal arts: abbrev=mla, sense=1, level=master, field="liberal arts"
     master of library and information science: abbrev=mlis, level=master, field="library science"
     master of library science: abbrev=mls, level=master, field="library science"
     master of music: abbrev=mm, level=master, field=music
@@ -257,9 +257,9 @@ degrees
     master of physical therapy: abbrev=mpt, level=master, field="physical therapy"
     master of physician assistant studies: abbrev=mpas, level=master, field="physician assistant studies"
     master of professional studies: abbrev=mps, level=master, field="professional studies"
-    master of public administration: abbrev=mpa, level=master, field="public affairs"
+    master of public administration: abbrev=mpa, level=master, field="public administration"
     master of public health: abbrev=mph, level=master, field="public health"
-    master of public policy: abbrev=mpp, level=master, field="public affairs"
+    master of public policy: abbrev=mpp, level=master, field="public policy"
     master of research: abbrev=mres, level=master, field=research
     master of science: abbrev=ms, level=master, field=science
     master of science in accounting: abbrev=msa, level=master, field=accounting
