@@ -22,6 +22,9 @@
 #   (e.g. "goes" = noun-plural AND verb-3sg), the form gets m01/m02 reading
 #   sub-concepts, exactly like en-full.kbb; a single-reading form is inlined.
 #
+#   For the opposite direction -- an analyzer holding "went" that needs "go"
+#   -- see kbb_lemmas.py, which builds en-lemmas.kbb from the same source.
+#
 #   Only roots that actually have inflected forms are emitted (invariant words
 #   such as adverbs / interjections have nothing to generate and are skipped).
 #

@@ -59,7 +59,7 @@ def synonyms_for(wn, word):
     # applies morphy, so "aahed" would otherwise pull in "aah"'s synset and
     # report the lemma as a bogus synonym of its own inflection. Requiring exact
     # lemma membership keeps synonymy a lemma-level relation (surface forms get
-    # no entry — lemmatize via en-roots.kbb first).
+    # no entry — lemmatize via en-lemmas.kbb first).
     key = word.replace(" ", "_").lower()
     out = set()
     for ss in wn.synsets(word):
