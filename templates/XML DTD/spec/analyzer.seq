@@ -1,16 +1,16 @@
 # 
 tokenize	nil	# Gen:   Convert input to token list.
-pat	XML_DTD_BaseElements	# comment
-pat	XML_DTD_Literals	# comment
-pat	XML_DTD_DocType	# comment
-pat	XML_DTD_NotationDeclarations	# comment
-pat	XML_DTD_ExternalID	# comment
-pat	XML_DTD_EntityDefs	# comment
-pat	XML_DTD_Attdefs	# comment
-pat	XML_DTD_Attdefs2	# comment
-pat	XML_DTD_Attdefs3	# comment
-pat	XML_DTD_DeclarationElements	# comment
-pat	XML_DTD_PcData	# comment
-pat	XML_DTD_DeclarationConstructors	# comment
-rec	XML_DTD_DeclarationConstructors2	# comment
-pat	XML_DTD_DeclSep	# comment
+pat	XML_DTD_BaseElements	# Identify base elements such as entity references and the starts and ends of tags
+pat	XML_DTD_Literals	# Identify quoted literal strings in the DTD
+pat	XML_DTD_DocType	# Delimit the document type declaration inside the DTD
+pat	XML_DTD_NotationDeclarations	# Recognize XML notation declarations
+pat	XML_DTD_ExternalID	# Recognize external ID references, the SYSTEM and PUBLIC identifiers
+pat	XML_DTD_EntityDefs	# Recognize entity definitions and record each entity in the knowledge base
+pat	XML_DTD_Attdefs	# Recognize XML attribute definitions
+pat	XML_DTD_Attdefs2	# Continue building XML attribute definitions
+pat	XML_DTD_Attdefs3	# Finish building XML attribute definitions
+pat	XML_DTD_DeclarationElements	# Identify the basic tagging elements of an XML declaration
+pat	XML_DTD_PcData	# Find the pure character data sections in the DTD
+pat	XML_DTD_DeclarationConstructors	# Build the base elements of an entity declaration
+rec	XML_DTD_DeclarationConstructors2	# Combine the elements that make up an entity declaration
+pat	XML_DTD_DeclSep	# Identify the declaration separators in the DTD syntax
