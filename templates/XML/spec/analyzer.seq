@@ -1,24 +1,24 @@
 # 
 tokenize	nil	# Gen:   Convert input to token list.
-pat	XMLbaseElements	# comment
-pat	XMLLiterals	# comment
-pat	XMLbaseDefs	# comment
-pat	XMLDecl	# comment
-pat	XMLDOCTYPE	# comment
-pat	XMLNotationDeclarations	# comment
-pat	XMLExternalID	# comment
-pat	XMLEntityDefs	# comment
-pat	XMLattdefs	# comment
-pat	XMLattdefs2	# comment
-pat	XMLattdefs3	# comment
-rec	XMLdeclarationElements	# comment
-pat	XMLPCDATA	# comment
-pat	XMLdeclarationConstructors	# comment
-rec	XMLdeclarationConstructors2	# comment
-pat	XMLdeclSep	# comment
-pat	XMLdeclSep2	# comment
-pat	XMLtagElements	# comment
-pat	XMLStartingTag	# comment
-rec	XMLtagStructure	# comment
-pat	XMLSubschema	# comment
-pat	XMLOverallSchema	# comment
+pat	XMLbaseElements	# Collect the smallest syntactic pieces: tag starts and ends, entity references, and the like
+pat	XMLLiterals	# Identify quoted literal strings in the XML document
+pat	XMLbaseDefs	# Recognize processing instructions and other base elements
+pat	XMLDecl	# Recognize the starts and ends of comments and other declaration markers
+pat	XMLDOCTYPE	# Delimit the document type declaration
+pat	XMLNotationDeclarations	# Recognize XML notation declarations
+pat	XMLExternalID	# Recognize external ID references, the SYSTEM and PUBLIC identifiers
+pat	XMLEntityDefs	# Recognize entity definitions and record each entity in the knowledge base
+pat	XMLattdefs	# Recognize the attribute definitions of an XML tag
+pat	XMLattdefs2	# Continue building XML attribute definitions
+pat	XMLattdefs3	# Finish building XML attribute definitions
+rec	XMLdeclarationElements	# Process the elements of the document type declaration
+pat	XMLPCDATA	# Identify the pure character data sections of the document
+pat	XMLdeclarationConstructors	# Build the basic elements of an entity declaration
+rec	XMLdeclarationConstructors2	# Build the entity declarations inside the document type declaration
+pat	XMLdeclSep	# Identify the declaration separators inside the document
+pat	XMLdeclSep2	# Take parameter entity references and whitespace as declaration separators
+pat	XMLtagElements	# Combine the elements of an XML tag
+pat	XMLStartingTag	# Find the attributes within an XML start tag
+rec	XMLtagStructure	# Put together the segments bounded by matching XML tags
+pat	XMLSubschema	# Put together the major blocks of the XML document
+pat	XMLOverallSchema	# Put together the last pieces of the XML document

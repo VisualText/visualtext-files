@@ -1,12 +1,12 @@
 # hello
 tokenize	nil	# Gen:   Convert input to token list.
-pat	SetupVariables	# comment
-pat	SetupKB	# comment
-pat	EmptyItems	# comment
-pat	Items	# comment
-pat	Fields	# comment
-pat	FieldItems	# comment
-pat	Records	# comment
-pat	ItemsToKB	# comment
-pat	FillRemainingItems	# comment
-pat	KBOutput	# comment
+pat	SetupVariables	# Set the delimiter globals and mark quotes, commas, and line terminators
+pat	SetupKB	# Create the database, fields, and records concepts in the knowledge base
+pat	EmptyItems	# Mark empty items, the zero-length values between two delimiters
+pat	Items	# Gather each cell into an item node, honoring quoting and escapes
+pat	Fields	# Gather the first line of the file into the header row of field names
+pat	FieldItems	# Make a knowledge base concept for each field name in the header row
+pat	Records	# Group each remaining line of items into a record
+pat	ItemsToKB	# Store each record's item values under their field names in the knowledge base
+pat	FillRemainingItems	# Fill in blank values for the fields missing from the end of a record
+pat	KBOutput	# Dump the database from the knowledge base back out as delimited text

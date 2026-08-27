@@ -1,11 +1,11 @@
 # 
 tokenize	nil	# Gen:   Convert input to token list.
-pat	SIMPLE_NUMERICS	# comment
-rec	COMPOUND_NUMERICS	# comment
-pat	COMPOUND_NUMERICS_2	# comment
-pat	PhoneNumbersetc	# comment
-rec	TimeofDayplusAbbrevsandAcronyms	# comment
-pat	NumericSequences	# comment
-rec	NumericLists	# comment
-pat	DATE_PATTERNS	# comment
-pat	DATE_PATTERNS_NO_YEAR	# comment
+pat	SIMPLE_NUMERICS	# Load month names into the dictionary and analyze simple numeric words as numerals
+rec	COMPOUND_NUMERICS	# Analyze word-based numerals and extract their numeric values
+pat	COMPOUND_NUMERICS_2	# Analyze complex word-based numerals and extract their numeric values
+pat	PhoneNumbersetc	# Recognize telephone numbers, year abbreviations, and monetary expressions
+rec	TimeofDayplusAbbrevsandAcronyms	# Recognize times of day, abbreviations, and acronyms from character patterns alone
+pat	NumericSequences	# Recognize numeric range expressions like 5-15 or between 5 and 15
+rec	NumericLists	# Recognize coordinate noun phrases built from numbers
+pat	DATE_PATTERNS	# Recognize date expressions that include a year
+pat	DATE_PATTERNS_NO_YEAR	# Recognize common date expressions with no year specified
