@@ -8,6 +8,8 @@ The return types include:  **STR** (string), **INT** (integer), and **BOOL** (B
 
 | **FUNCTION NAME** | **RETURNS** | **DESCRIPTION** |
 | --- | --- | --- |
+| [**callanalyzer(pnode, concept, analyzer_str)**](callanalyzer.md) | **BOOL(1,0)** | Run another analyzer's passes on the subtree under pnode, sharing this parse tree and knowledge base. The analyzer is loaded once and stays in memory. **(New in 4.1.0)** |
+| [**callconcept()**](callconcept.md) | **CONCEPT** | In an analyzer run by callanalyzer, the concept it was given for its results. **(New in 4.1.0)** |
 | [**debug()**](debug.md) | **BOOL(1,0)** | No op. Convenient breakpoint for debugging from C++ compiler. |
 | [**exitpass()**](exitpass.md) | **NONE** | Exit from the current pass file immediately, without performing rule matching (if any). |
 | [**fail()**](fail.md) | **NONE** | In CHECK Region, abort the rule that has just matched. Noop elsewhere. See succeed(). |

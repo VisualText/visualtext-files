@@ -429,6 +429,8 @@ to a topic.
         - [varinlist](varinlist.md)
       - [Special Functions](Table_of_Special_Functions.md)
         - [Table of Special Functions](Table_of_Special_Functions.md)
+        - [callanalyzer](callanalyzer.md)
+        - [callconcept](callconcept.md)
         - [debug](debug.md)
         - [exitpass](exitpass.md)
         - [fail](fail.md)
