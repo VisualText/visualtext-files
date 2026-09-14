@@ -990,7 +990,7 @@ dictionary
   absinthe:
     m01: pos=noun number=singular
   absinthes:
-    m01: pos=noun root=absinth number=plural
+    m01: pos=noun root=absinthe number=plural
   absinths:
     m01: pos=noun root=absinth number=plural
   absolute:
@@ -1346,7 +1346,7 @@ dictionary
   abyes:
     m01: pos=verb root=abye vform=pres3sg tense=present person=3 number=singular
   abying:
-    m01: pos=verb root=abye vform=ger
+    m01: pos=verb root=aby vform=ger
   abys:
     m01: pos=verb root=aby vform=pres3sg tense=present person=3 number=singular
   abysm:
@@ -1413,7 +1413,7 @@ dictionary
   acalephe:
     m01: pos=noun number=singular
   acalephes:
-    m01: pos=noun root=acaleph number=plural
+    m01: pos=noun root=acalephe number=plural
   acalephs:
     m01: pos=noun root=acaleph number=plural
   acanthi:
@@ -2248,7 +2248,7 @@ dictionary
   acetamide:
     m01: pos=noun number=singular
   acetamides:
-    m01: pos=noun root=acetamid number=plural
+    m01: pos=noun root=acetamide number=plural
   acetamids:
     m01: pos=noun root=acetamid number=plural
   acetaminophen:
@@ -2260,7 +2260,7 @@ dictionary
   acetanilide:
     m01: pos=noun number=singular
   acetanilides:
-    m01: pos=noun root=acetanilid number=plural
+    m01: pos=noun root=acetanilide number=plural
   acetanilids:
     m01: pos=noun root=acetanilid number=plural
   acetate:
@@ -2531,7 +2531,7 @@ dictionary
   acidophile:
     m01: pos=noun number=singular
   acidophiles:
-    m01: pos=noun root=acidophil number=plural
+    m01: pos=noun root=acidophile number=plural
   acidophilic:
     m01: pos=adj
   acidophils:
@@ -4165,7 +4165,7 @@ dictionary
   adrenaline:
     m01: pos=noun number=singular
   adrenalines:
-    m01: pos=noun root=adrenalin number=plural
+    m01: pos=noun root=adrenaline number=plural
   adrenals:
     m01: pos=noun root=adrenal number=plural
   adrenergic:
@@ -5050,7 +5050,7 @@ dictionary
   affaire:
     m01: pos=noun number=singular
   affaires:
-    m01: pos=noun root=affair number=plural
+    m01: pos=noun root=affaire number=plural
   affairs:
     m01: pos=noun root=affair number=plural
   affect:
@@ -6026,7 +6026,7 @@ dictionary
   aglycone:
     m01: pos=noun number=singular
   aglycones:
-    m01: pos=noun root=aglycon number=plural
+    m01: pos=noun root=aglycone number=plural
   aglycons:
     m01: pos=noun root=aglycon number=plural
   agma:
@@ -6355,7 +6355,7 @@ dictionary
   aiders:
     m01: pos=noun root=aider number=plural
   aides:
-    m01: pos=noun root=aid number=plural
+    m01: pos=noun root=aide number=plural
     m02: pos=verb root=aid vform=pres3sg tense=present person=3 number=singular
   aidful:
     m01: pos=adj
@@ -6898,7 +6898,7 @@ dictionary
   alanine:
     m01: pos=noun number=singular
   alanines:
-    m01: pos=noun root=alanin number=plural
+    m01: pos=noun root=alanine number=plural
   alanins:
     m01: pos=noun root=alanin number=plural
   alans:
@@ -7268,7 +7268,7 @@ dictionary
   aleurone:
     m01: pos=noun number=singular
   aleurones:
-    m01: pos=noun root=aleuron number=plural
+    m01: pos=noun root=aleurone number=plural
   aleurons:
     m01: pos=noun root=aleuron number=plural
   alevin:
@@ -7305,7 +7305,7 @@ dictionary
   alexine:
     m01: pos=noun number=singular
   alexines:
-    m01: pos=noun root=alexin number=plural
+    m01: pos=noun root=alexine number=plural
   alexins:
     m01: pos=noun root=alexin number=plural
   alfa:
@@ -7466,7 +7466,7 @@ dictionary
   alidade:
     m01: pos=noun number=singular
   alidades:
-    m01: pos=noun root=alidad number=plural
+    m01: pos=noun root=alidade number=plural
   alidads:
     m01: pos=noun root=alidad number=plural
   alien:
@@ -8472,7 +8472,7 @@ dictionary
   almude:
     m01: pos=noun number=singular
   almudes:
-    m01: pos=noun root=almud number=plural
+    m01: pos=noun root=almude number=plural
   almuds:
     m01: pos=noun root=almud number=plural
   almug:
@@ -8845,7 +8845,7 @@ dictionary
   alumine:
     m01: pos=noun number=singular
   alumines:
-    m01: pos=noun root=alumin number=plural
+    m01: pos=noun root=alumine number=plural
   aluminic:
     m01: pos=adj
   aluminium:
@@ -9563,7 +9563,7 @@ dictionary
   amidine:
     m01: pos=noun number=singular
   amidines:
-    m01: pos=noun root=amidin number=plural
+    m01: pos=noun root=amidine number=plural
   amidins:
     m01: pos=noun root=amidin number=plural
   amido:
@@ -9592,7 +9592,7 @@ dictionary
   amie:
     m01: pos=noun number=singular
   amies:
-    m01: pos=noun root=ami number=plural
+    m01: pos=noun root=amie number=plural
   amiga:
     m01: pos=noun number=singular
   amigas:
@@ -9606,7 +9606,7 @@ dictionary
   amine:
     m01: pos=noun number=singular
   amines:
-    m01: pos=noun root=amin number=plural
+    m01: pos=noun root=amine number=plural
   aminic:
     m01: pos=adj
   aminities:
@@ -10145,7 +10145,7 @@ dictionary
   ampule:
     m01: pos=noun number=singular
   ampules:
-    m01: pos=noun root=ampul number=plural
+    m01: pos=noun root=ampule number=plural
   ampulla:
     m01: pos=noun number=singular
   ampullae:
@@ -11221,7 +11221,7 @@ dictionary
   anethole:
     m01: pos=noun number=singular
   anetholes:
-    m01: pos=noun root=anethol number=plural
+    m01: pos=noun root=anethole number=plural
   anethols:
     m01: pos=noun root=anethol number=plural
   aneuploid:
@@ -11538,7 +11538,7 @@ dictionary
   aniline:
     m01: pos=noun number=singular
   anilines:
-    m01: pos=noun root=anilin number=plural
+    m01: pos=noun root=aniline number=plural
   anilingus:
     m01: pos=noun number=singular
   anilinguses:
@@ -11699,7 +11699,7 @@ dictionary
   aniseikonic:
     m01: pos=adj
   anises:
-    m01: pos=noun root=anis number=plural
+    m01: pos=noun root=anise number=plural
   anisette:
     m01: pos=noun number=singular
   anisettes:
@@ -12112,7 +12112,7 @@ dictionary
   anomie:
     m01: pos=noun number=singular
   anomies:
-    m01: pos=noun root=anomy number=plural
+    m01: pos=noun root=anomie number=plural
   anomy:
     m01: pos=noun number=singular
   anon:
@@ -12433,7 +12433,7 @@ dictionary
   anterooms:
     m01: pos=noun root=anteroom number=plural
   antes:
-    m01: pos=noun root=ant number=plural
+    m01: pos=noun root=ante number=plural
     m02: pos=verb root=ante vform=pres3sg tense=present person=3 number=singular
   antetype:
     m01: pos=noun number=singular
@@ -17790,7 +17790,7 @@ dictionary
   artiste:
     m01: pos=noun number=singular
   artistes:
-    m01: pos=noun root=artist number=plural
+    m01: pos=noun root=artiste number=plural
   artistic:
     m01: pos=adj
   artistically:
@@ -19734,7 +19734,7 @@ dictionary
   atropine:
     m01: pos=noun number=singular
   atropines:
-    m01: pos=noun root=atropin number=plural
+    m01: pos=noun root=atropine number=plural
   atropins:
     m01: pos=noun root=atropin number=plural
   atropism:
@@ -21996,7 +21996,7 @@ dictionary
   axonemes:
     m01: pos=noun root=axoneme number=plural
   axones:
-    m01: pos=noun root=axon number=plural
+    m01: pos=noun root=axone number=plural
   axonic:
     m01: pos=adj
   axonometric:
@@ -23071,7 +23071,7 @@ dictionary
   baddie:
     m01: pos=noun number=singular
   baddies:
-    m01: pos=noun root=baddy number=plural
+    m01: pos=noun root=baddie number=plural
   baddy:
     m01: pos=noun number=singular
   bade:
@@ -23184,7 +23184,7 @@ dictionary
   bagasse:
     m01: pos=noun number=singular
   bagasses:
-    m01: pos=noun root=bagass number=plural
+    m01: pos=noun root=bagasse number=plural
   bagatelle:
     m01: pos=noun number=singular
   bagatelles:
@@ -23565,7 +23565,7 @@ dictionary
   balers:
     m01: pos=noun root=baler number=plural
   bales:
-    m01: pos=noun root=bal number=plural
+    m01: pos=noun root=bale number=plural
     m02: pos=verb root=bale vform=pres3sg tense=present person=3 number=singular
   baling:
     m01: pos=verb root=bale vform=ger
@@ -23632,7 +23632,7 @@ dictionary
   balladeers:
     m01: pos=noun root=balladeer number=plural
   ballades:
-    m01: pos=noun root=ballad number=plural
+    m01: pos=noun root=ballade number=plural
   balladic:
     m01: pos=adj
   balladist:
@@ -24009,7 +24009,7 @@ dictionary
   banderole:
     m01: pos=noun number=singular
   banderoles:
-    m01: pos=noun root=banderol number=plural
+    m01: pos=noun root=banderole number=plural
   banderols:
     m01: pos=noun root=banderol number=plural
   banders:
@@ -24106,7 +24106,7 @@ dictionary
   banefully:
     m01: pos=adv
   banes:
-    m01: pos=noun root=ban number=plural
+    m01: pos=noun root=bane number=plural
     m02: pos=verb root=ban vform=pres3sg tense=present person=3 number=singular
   bang:
     m01: pos=noun number=singular
@@ -24765,7 +24765,7 @@ dictionary
   bargee:
     m01: pos=noun number=singular
   bargees:
-    m01: pos=noun root=barge number=plural
+    m01: pos=noun root=bargee number=plural
     m02: pos=verb root=barge vform=pres3sg tense=present person=3 number=singular
   bargello:
     m01: pos=noun number=singular
@@ -25526,7 +25526,7 @@ dictionary
   basophile:
     m01: pos=noun number=singular
   basophiles:
-    m01: pos=noun root=basophil number=plural
+    m01: pos=noun root=basophile number=plural
   basophilia:
     m01: pos=noun number=singular
   basophilias:
@@ -25641,7 +25641,7 @@ dictionary
   basters:
     m01: pos=noun root=baster number=plural
   bastes:
-    m01: pos=noun root=bast number=plural
+    m01: pos=noun root=baste number=plural
     m02: pos=verb root=baste vform=pres3sg tense=present person=3 number=singular
   bastile:
     m01: pos=noun number=singular
@@ -25742,7 +25742,7 @@ dictionary
   bathers:
     m01: pos=noun root=bather number=plural
   bathes:
-    m01: pos=noun root=bath number=plural
+    m01: pos=noun root=bathe number=plural
     m02: pos=verb root=bathe vform=pres3sg tense=present person=3 number=singular
   bathetic:
     m01: pos=adj
@@ -25811,7 +25811,7 @@ dictionary
   bathyscaphe:
     m01: pos=noun number=singular
   bathyscaphes:
-    m01: pos=noun root=bathyscaph number=plural
+    m01: pos=noun root=bathyscaphe number=plural
   bathyscaphs:
     m01: pos=noun root=bathyscaph number=plural
   bathysphere:
@@ -28145,7 +28145,7 @@ dictionary
   beldame:
     m01: pos=noun number=singular
   beldames:
-    m01: pos=noun root=beldam number=plural
+    m01: pos=noun root=beldame number=plural
   beldams:
     m01: pos=noun root=beldam number=plural
   beleaguer:
@@ -28282,7 +28282,7 @@ dictionary
   belleeks:
     m01: pos=noun root=belleek number=plural
   belles:
-    m01: pos=noun root=bell number=plural
+    m01: pos=noun root=belle number=plural
     m02: pos=verb root=bell vform=pres3sg tense=present person=3 number=singular
   belletrist:
     m01: pos=noun number=singular
@@ -28937,7 +28937,7 @@ dictionary
   benzidine:
     m01: pos=noun number=singular
   benzidines:
-    m01: pos=noun root=benzidin number=plural
+    m01: pos=noun root=benzidine number=plural
   benzidins:
     m01: pos=noun root=benzidin number=plural
   benzimidazole:
@@ -28949,7 +28949,7 @@ dictionary
   benzine:
     m01: pos=noun number=singular
   benzines:
-    m01: pos=noun root=benzin number=plural
+    m01: pos=noun root=benzine number=plural
   benzins:
     m01: pos=noun root=benzin number=plural
   benzoapyrene:
@@ -29068,7 +29068,7 @@ dictionary
   berberine:
     m01: pos=noun number=singular
   berberines:
-    m01: pos=noun root=berberin number=plural
+    m01: pos=noun root=berberine number=plural
   berberins:
     m01: pos=noun root=berberin number=plural
   berberis:
@@ -30450,7 +30450,7 @@ dictionary
   bicorne:
     m01: pos=noun number=singular
   bicornes:
-    m01: pos=noun root=bicorn number=plural
+    m01: pos=noun root=bicorne number=plural
   bicron:
     m01: pos=noun number=singular
   bicrons:
@@ -31244,7 +31244,7 @@ dictionary
   bine:
     m01: pos=noun number=singular
   bines:
-    m01: pos=noun root=bin number=plural
+    m01: pos=noun root=bine number=plural
     m02: pos=verb root=bin vform=pres3sg tense=present person=3 number=singular
   binge:
     m01: pos=noun number=singular
@@ -32193,7 +32193,7 @@ dictionary
   bisects:
     m01: pos=verb root=bisect vform=pres3sg tense=present person=3 number=singular
   bises:
-    m01: pos=noun root=bis number=plural
+    m01: pos=noun root=bise number=plural
   bisexual:
     m01: pos=noun number=singular
     m02: pos=adj
@@ -32329,7 +32329,7 @@ dictionary
   biters:
     m01: pos=noun root=biter number=plural
   bites:
-    m01: pos=noun root=bit number=plural
+    m01: pos=noun root=bite number=plural
     m02: pos=verb root=bite vform=pres3sg tense=present person=3 number=singular
   bitewing:
     m01: pos=noun number=singular
@@ -32871,7 +32871,7 @@ dictionary
   blamers:
     m01: pos=noun number=singular
   blames:
-    m01: pos=noun root=blam number=plural
+    m01: pos=noun root=blame number=plural
     m02: pos=verb root=blame vform=pres3sg tense=present person=3 number=singular
   blameworthiness:
     m01: pos=noun number=singular
@@ -33068,7 +33068,7 @@ dictionary
   blastocoele:
     m01: pos=noun number=singular
   blastocoeles:
-    m01: pos=noun root=blastocoel number=plural
+    m01: pos=noun root=blastocoele number=plural
   blastocoelic:
     m01: pos=adj
   blastocoels:
@@ -33388,7 +33388,7 @@ dictionary
   blenders:
     m01: pos=noun root=blender number=plural
   blendes:
-    m01: pos=noun root=blend number=plural
+    m01: pos=noun root=blende number=plural
     m02: pos=verb root=blend vform=pres3sg tense=present person=3 number=singular
   blending:
     m01: pos=noun number=singular
@@ -33806,7 +33806,7 @@ dictionary
   blonder:
     m01: pos=adj
   blondes:
-    m01: pos=noun root=blond number=plural
+    m01: pos=noun root=blonde number=plural
   blondest:
     m01: pos=adj
   blondish:
@@ -34871,7 +34871,7 @@ dictionary
   boccie:
     m01: pos=noun number=singular
   boccies:
-    m01: pos=noun root=bocci number=plural
+    m01: pos=noun root=boccie number=plural
   boccis:
     m01: pos=noun root=bocci number=plural
   boche:
@@ -36989,7 +36989,7 @@ dictionary
   bourne:
     m01: pos=noun number=singular
   bournes:
-    m01: pos=noun root=bourn number=plural
+    m01: pos=noun root=bourne number=plural
   bourns:
     m01: pos=noun root=bourn number=plural
   bourree:
@@ -37568,7 +37568,7 @@ dictionary
   brae:
     m01: pos=noun number=singular
   braes:
-    m01: pos=noun root=bra number=plural
+    m01: pos=noun root=brae number=plural
   brag:
     m01: pos=noun number=singular
     m02: pos=verb vform=base tense=present
@@ -39029,7 +39029,7 @@ dictionary
   briners:
     m01: pos=noun root=briner number=plural
   brines:
-    m01: pos=noun root=brin number=plural
+    m01: pos=noun root=brine number=plural
     m02: pos=verb root=brine vform=pres3sg tense=present person=3 number=singular
   bring:
     m01: pos=verb vform=base tense=present
@@ -39509,7 +39509,7 @@ dictionary
   bromide:
     m01: pos=noun number=singular
   bromides:
-    m01: pos=noun root=bromid number=plural
+    m01: pos=noun root=bromide number=plural
   bromidic:
     m01: pos=adj
   bromids:
@@ -39532,7 +39532,7 @@ dictionary
   bromine:
     m01: pos=noun number=singular
   bromines:
-    m01: pos=noun root=bromin number=plural
+    m01: pos=noun root=bromine number=plural
   bromins:
     m01: pos=noun root=bromin number=plural
   bromism:
@@ -39920,7 +39920,7 @@ dictionary
   browsers:
     m01: pos=noun root=browser number=plural
   browses:
-    m01: pos=noun root=brows number=plural
+    m01: pos=noun root=browse number=plural
     m02: pos=verb root=browse vform=pres3sg tense=present person=3 number=singular
   browsing:
     m01: pos=noun number=singular
@@ -39944,7 +39944,7 @@ dictionary
   brucine:
     m01: pos=noun number=singular
   brucines:
-    m01: pos=noun root=brucin number=plural
+    m01: pos=noun root=brucine number=plural
   brucins:
     m01: pos=noun root=brucin number=plural
   brugh:
@@ -40220,7 +40220,7 @@ dictionary
   bubale:
     m01: pos=noun number=singular
   bubales:
-    m01: pos=noun root=bubal number=plural
+    m01: pos=noun root=bubale number=plural
   bubaline:
     m01: pos=adj
   bubalis:
@@ -42901,7 +42901,7 @@ dictionary
   cabezone:
     m01: pos=noun number=singular
   cabezones:
-    m01: pos=noun root=cabezon number=plural
+    m01: pos=noun root=cabezone number=plural
   cabezons:
     m01: pos=noun root=cabezon number=plural
   cabildo:
@@ -43377,7 +43377,7 @@ dictionary
   caffeine:
     m01: pos=noun number=singular
   caffeines:
-    m01: pos=noun root=caffein number=plural
+    m01: pos=noun root=caffeine number=plural
   caffeins:
     m01: pos=noun root=caffein number=plural
   caffs:
@@ -44160,7 +44160,7 @@ dictionary
   calorie:
     m01: pos=noun number=singular
   calories:
-    m01: pos=noun root=calory number=plural
+    m01: pos=noun root=calorie number=plural
   calorific:
     m01: pos=adj
   calorimeter:
@@ -44984,7 +44984,7 @@ dictionary
   caners:
     m01: pos=noun root=caner number=plural
   canes:
-    m01: pos=noun root=can number=plural
+    m01: pos=noun root=cane number=plural
     m02: pos=verb root=cane vform=pres3sg tense=present person=3 number=singular
   canescent:
     m01: pos=adj
@@ -45327,7 +45327,7 @@ dictionary
   cantaloupe:
     m01: pos=noun number=singular
   cantaloupes:
-    m01: pos=noun root=cantaloup number=plural
+    m01: pos=noun root=cantaloupe number=plural
   cantaloups:
     m01: pos=noun root=cantaloup number=plural
   cantankerous:
@@ -45664,7 +45664,7 @@ dictionary
     m01: pos=noun root=caper number=plural
     m02: pos=verb root=caper vform=pres3sg tense=present person=3 number=singular
   capes:
-    m01: pos=noun root=cap number=plural
+    m01: pos=noun root=cape number=plural
     m02: pos=verb root=cap vform=pres3sg tense=present person=3 number=singular
   capeskin:
     m01: pos=noun number=singular
@@ -46095,7 +46095,7 @@ dictionary
   carabiners:
     m01: pos=noun root=carabiner number=plural
   carabines:
-    m01: pos=noun root=carabin number=plural
+    m01: pos=noun root=carabine number=plural
   carabinier:
     m01: pos=noun number=singular
   carabiniere:
@@ -46776,7 +46776,7 @@ dictionary
   carers:
     m01: pos=noun root=carer number=plural
   cares:
-    m01: pos=noun root=car number=plural
+    m01: pos=noun root=care number=plural
     m02: pos=verb root=care vform=pres3sg tense=present person=3 number=singular
   caress:
     m01: pos=noun root=cares number=plural
@@ -46944,7 +46944,7 @@ dictionary
   carle:
     m01: pos=noun number=singular
   carles:
-    m01: pos=noun root=carl number=plural
+    m01: pos=noun root=carle number=plural
   carless:
     m01: pos=adj
   carlin:
@@ -46952,7 +46952,7 @@ dictionary
   carline:
     m01: pos=noun number=singular
   carlines:
-    m01: pos=noun root=carlin number=plural
+    m01: pos=noun root=carline number=plural
   carling:
     m01: pos=noun number=singular
   carlings:
@@ -47090,7 +47090,7 @@ dictionary
   caroche:
     m01: pos=noun number=singular
   caroches:
-    m01: pos=noun root=caroch number=plural
+    m01: pos=noun root=caroche number=plural
   carol:
     m01: pos=noun number=singular
     m02: pos=verb vform=base tense=present
@@ -47497,7 +47497,7 @@ dictionary
   carters:
     m01: pos=noun root=carter number=plural
   cartes:
-    m01: pos=noun root=cart number=plural
+    m01: pos=noun root=carte number=plural
     m02: pos=verb root=cart vform=pres3sg tense=present person=3 number=singular
   carthorse:
     m01: pos=noun number=singular
@@ -47991,7 +47991,7 @@ dictionary
   casters:
     m01: pos=noun root=caster number=plural
   castes:
-    m01: pos=noun root=cast number=plural
+    m01: pos=noun root=caste number=plural
     m02: pos=verb root=cast vform=pres3sg tense=present person=3 number=singular
   castigate:
     m01: pos=verb vform=base tense=present
@@ -49151,7 +49151,7 @@ dictionary
   cavers:
     m01: pos=noun root=caver number=plural
   caves:
-    m01: pos=noun root=cafe number=plural
+    m01: pos=noun root=cave number=plural
     m02: pos=verb root=cave vform=pres3sg tense=present person=3 number=singular
   cavetti:
     m01: pos=noun root=cavetto number=plural
@@ -49164,7 +49164,7 @@ dictionary
   caviare:
     m01: pos=noun number=singular
   caviares:
-    m01: pos=noun root=caviar number=plural
+    m01: pos=noun root=caviare number=plural
   caviars:
     m01: pos=noun root=caviar number=plural
   cavicorn:
@@ -50036,7 +50036,7 @@ dictionary
   cepe:
     m01: pos=noun number=singular
   cepes:
-    m01: pos=noun root=cep number=plural
+    m01: pos=noun root=cepe number=plural
   cephalad:
     m01: pos=adv
   cephalexin:
@@ -51123,7 +51123,7 @@ dictionary
   changers:
     m01: pos=noun root=changer number=plural
   changes:
-    m01: pos=noun root=chang number=plural
+    m01: pos=noun root=change number=plural
     m02: pos=verb root=change vform=pres3sg tense=present person=3 number=singular
   changing:
     m01: pos=verb root=change vform=ger
@@ -51283,7 +51283,7 @@ dictionary
     m01: pos=verb root=chaperone vform=past tense=past
     m02: pos=verb root=chaperone vform=pastpart
   chaperones:
-    m01: pos=noun root=chaperon number=plural
+    m01: pos=noun root=chaperone number=plural
     m02: pos=verb root=chaperone vform=pres3sg tense=present person=3 number=singular
   chaperoning:
     m01: pos=verb root=chaperone vform=ger
@@ -51833,7 +51833,7 @@ dictionary
   chatelaine:
     m01: pos=noun number=singular
   chatelaines:
-    m01: pos=noun root=chatelain number=plural
+    m01: pos=noun root=chatelaine number=plural
   chatelains:
     m01: pos=noun root=chatelain number=plural
   chatoyance:
@@ -53187,7 +53187,7 @@ dictionary
   chimere:
     m01: pos=noun number=singular
   chimeres:
-    m01: pos=noun root=chimer number=plural
+    m01: pos=noun root=chimere number=plural
   chimeric:
     m01: pos=adj
   chimerical:
@@ -53299,7 +53299,7 @@ dictionary
     m01: pos=verb root=chine vform=past tense=past
     m02: pos=verb root=chine vform=pastpart
   chines:
-    m01: pos=noun root=chin number=plural
+    m01: pos=noun root=chine number=plural
     m02: pos=verb root=chine vform=pres3sg tense=present person=3 number=singular
   chining:
     m01: pos=verb root=chine vform=ger
@@ -53529,12 +53529,12 @@ dictionary
   chirre:
     m01: pos=verb vform=base tense=present
   chirred:
-    m01: pos=verb root=chirre vform=past tense=past
-    m02: pos=verb root=chirre vform=pastpart
+    m01: pos=verb root=chirr vform=past tense=past
+    m02: pos=verb root=chirr vform=pastpart
   chirres:
     m01: pos=verb root=chirre vform=pres3sg tense=present person=3 number=singular
   chirring:
-    m01: pos=verb root=chirre vform=ger
+    m01: pos=verb root=chirr vform=ger
   chirrs:
     m01: pos=verb root=chirr vform=pres3sg tense=present person=3 number=singular
   chirrup:
@@ -53737,7 +53737,7 @@ dictionary
   chlordane:
     m01: pos=noun number=singular
   chlordanes:
-    m01: pos=noun root=chlordan number=plural
+    m01: pos=noun root=chlordane number=plural
   chlordans:
     m01: pos=noun root=chlordan number=plural
   chlordiazepoxide:
@@ -53759,7 +53759,7 @@ dictionary
   chloride:
     m01: pos=noun number=singular
   chlorides:
-    m01: pos=noun root=chlorid number=plural
+    m01: pos=noun root=chloride number=plural
   chlorids:
     m01: pos=noun root=chlorid number=plural
   chlorin:
@@ -53784,7 +53784,7 @@ dictionary
   chlorine:
     m01: pos=noun number=singular
   chlorines:
-    m01: pos=noun root=chlorin number=plural
+    m01: pos=noun root=chlorine number=plural
   chlorinities:
     m01: pos=noun root=chlorinity number=plural
   chlorinity:
@@ -54165,7 +54165,7 @@ dictionary
   chopine:
     m01: pos=noun number=singular
   chopines:
-    m01: pos=noun root=chopin number=plural
+    m01: pos=noun root=chopine number=plural
   chopins:
     m01: pos=noun root=chopin number=plural
   choplogic:
@@ -54219,7 +54219,7 @@ dictionary
   chorale:
     m01: pos=noun number=singular
   chorales:
-    m01: pos=noun root=choral number=plural
+    m01: pos=noun root=chorale number=plural
   chorally:
     m01: pos=adv
   chorals:
@@ -54514,7 +54514,7 @@ dictionary
   christie:
     m01: pos=noun number=singular
   christies:
-    m01: pos=noun root=christy number=plural
+    m01: pos=noun root=christie number=plural
   christy:
     m01: pos=noun number=singular
   chroma:
@@ -55430,7 +55430,7 @@ dictionary
   cineaste:
     m01: pos=noun number=singular
   cineastes:
-    m01: pos=noun root=cineast number=plural
+    m01: pos=noun root=cineaste number=plural
   cineasts:
     m01: pos=noun root=cineast number=plural
   cinema:
@@ -55479,7 +55479,7 @@ dictionary
   cineole:
     m01: pos=noun number=singular
   cineoles:
-    m01: pos=noun root=cineol number=plural
+    m01: pos=noun root=cineole number=plural
   cineols:
     m01: pos=noun root=cineol number=plural
   cineraria:
@@ -56085,7 +56085,7 @@ dictionary
   citrine:
     m01: pos=noun number=singular
   citrines:
-    m01: pos=noun root=citrin number=plural
+    m01: pos=noun root=citrine number=plural
   citrinin:
     m01: pos=noun number=singular
   citrinins:
@@ -57844,7 +57844,7 @@ dictionary
   cloners:
     m01: pos=noun root=cloner number=plural
   clones:
-    m01: pos=noun root=clon number=plural
+    m01: pos=noun root=clone number=plural
     m02: pos=verb root=clone vform=pres3sg tense=present person=3 number=singular
   clonic:
     m01: pos=adj
@@ -59008,7 +59008,7 @@ dictionary
   cocaine:
     m01: pos=noun number=singular
   cocaines:
-    m01: pos=noun root=cocain number=plural
+    m01: pos=noun root=cocaine number=plural
   cocainization:
     m01: pos=noun number=singular
   cocainizations:
@@ -59507,7 +59507,7 @@ dictionary
   codeine:
     m01: pos=noun number=singular
   codeines:
-    m01: pos=noun root=codein number=plural
+    m01: pos=noun root=codeine number=plural
   codeins:
     m01: pos=noun root=codein number=plural
   codeless:
@@ -59542,7 +59542,7 @@ dictionary
   coders:
     m01: pos=noun number=singular
   codes:
-    m01: pos=noun root=cod number=plural
+    m01: pos=noun root=code number=plural
     m02: pos=verb root=code vform=pres3sg tense=present person=3 number=singular
   codesign:
     m01: pos=verb vform=base tense=present
@@ -60375,7 +60375,7 @@ dictionary
   coigned:
     m01: pos=verb vform=base tense=present
   coignes:
-    m01: pos=noun root=coign number=plural
+    m01: pos=noun root=coigne number=plural
   coigning:
     m01: pos=verb vform=base tense=present
   coigns:
@@ -60663,7 +60663,7 @@ dictionary
   coleorhizae:
     m01: pos=noun root=coleorhiza number=plural
   coles:
-    m01: pos=noun root=col number=plural
+    m01: pos=noun root=cole number=plural
   coleseed:
     m01: pos=noun number=singular
   coleseeds:
@@ -60695,7 +60695,7 @@ dictionary
   colicine:
     m01: pos=noun number=singular
   colicines:
-    m01: pos=noun root=colicin number=plural
+    m01: pos=noun root=colicine number=plural
   colicins:
     m01: pos=noun root=colicin number=plural
   colicky:
@@ -62211,7 +62211,7 @@ dictionary
   commie:
     m01: pos=noun number=singular
   commies:
-    m01: pos=noun root=commy number=plural
+    m01: pos=noun root=commie number=plural
   commination:
     m01: pos=noun number=singular
   comminations:
@@ -63277,7 +63277,7 @@ dictionary
   compline:
     m01: pos=noun number=singular
   complines:
-    m01: pos=noun root=complin number=plural
+    m01: pos=noun root=compline number=plural
   complins:
     m01: pos=noun root=complin number=plural
   complot:
@@ -63411,7 +63411,7 @@ dictionary
   compradore:
     m01: pos=noun number=singular
   compradores:
-    m01: pos=noun root=comprador number=plural
+    m01: pos=noun root=compradore number=plural
   compradors:
     m01: pos=noun root=comprador number=plural
   comprehend:
@@ -64602,7 +64602,7 @@ dictionary
   conepatls:
     m01: pos=noun root=conepatl number=plural
   cones:
-    m01: pos=noun root=con number=plural
+    m01: pos=noun root=cone number=plural
     m02: pos=verb root=cone vform=pres3sg tense=present person=3 number=singular
   coney:
     m01: pos=noun number=singular
@@ -64784,7 +64784,7 @@ dictionary
   confidante:
     m01: pos=noun number=singular
   confidantes:
-    m01: pos=noun root=confidant number=plural
+    m01: pos=noun root=confidante number=plural
   confidants:
     m01: pos=noun root=confidant number=plural
   confide:
@@ -65452,7 +65452,7 @@ dictionary
   conine:
     m01: pos=noun number=singular
   conines:
-    m01: pos=noun root=conin number=plural
+    m01: pos=noun root=conine number=plural
   coning:
     m01: pos=verb root=cone vform=ger
   conins:
@@ -66153,7 +66153,7 @@ dictionary
   consolers:
     m01: pos=noun root=consoler number=plural
   consoles:
-    m01: pos=noun root=consol number=plural
+    m01: pos=noun root=console number=plural
     m02: pos=verb root=console vform=pres3sg tense=present person=3 number=singular
   consolidate:
     m01: pos=verb vform=base tense=present
@@ -68029,7 +68029,7 @@ dictionary
   cookie:
     m01: pos=noun number=singular
   cookies:
-    m01: pos=noun root=cooky number=plural
+    m01: pos=noun root=cookie number=plural
   cooking:
     m01: pos=noun number=singular
     m02: pos=verb root=cook vform=ger
@@ -68121,7 +68121,7 @@ dictionary
   coombe:
     m01: pos=noun number=singular
   coombes:
-    m01: pos=noun root=coomb number=plural
+    m01: pos=noun root=coombe number=plural
   coombs:
     m01: pos=noun root=coomb number=plural
   coon:
@@ -68339,7 +68339,7 @@ dictionary
   copers:
     m01: pos=noun root=coper number=plural
   copes:
-    m01: pos=noun root=cop number=plural
+    m01: pos=noun root=cope number=plural
     m02: pos=verb root=cope vform=pres3sg tense=present person=3 number=singular
   copesetic:
     m01: pos=adj
@@ -68567,7 +68567,7 @@ dictionary
   copse:
     m01: pos=noun number=singular
   copses:
-    m01: pos=noun root=cops number=plural
+    m01: pos=noun root=copse number=plural
   copter:
     m01: pos=noun number=singular
   copters:
@@ -68990,7 +68990,7 @@ dictionary
   corers:
     m01: pos=noun root=corer number=plural
   cores:
-    m01: pos=noun root=cor number=plural
+    m01: pos=noun root=core number=plural
     m02: pos=verb root=core vform=pres3sg tense=present person=3 number=singular
   coresearcher:
     m01: pos=noun number=singular
@@ -69442,7 +69442,7 @@ dictionary
   corpse:
     m01: pos=noun number=singular
   corpses:
-    m01: pos=noun root=corps number=plural
+    m01: pos=noun root=corpse number=plural
   corpsman:
     m01: pos=noun number=singular
   corpsmen:
@@ -70302,7 +70302,7 @@ dictionary
   coterminously:
     m01: pos=adv
   cotes:
-    m01: pos=noun root=cot number=plural
+    m01: pos=noun root=cote number=plural
   cothurn:
     m01: pos=noun number=singular
   cothurni:
@@ -71586,7 +71586,7 @@ dictionary
   couped:
     m01: pos=adj
   coupes:
-    m01: pos=noun root=coup number=plural
+    m01: pos=noun root=coupe number=plural
   couping:
     m01: pos=verb vform=base tense=present
   couple:
@@ -71643,7 +71643,7 @@ dictionary
   courante:
     m01: pos=noun number=singular
   courantes:
-    m01: pos=noun root=courant number=plural
+    m01: pos=noun root=courante number=plural
   couranto:
     m01: pos=noun number=singular
   courantoes:
@@ -72751,7 +72751,7 @@ dictionary
   crannoge:
     m01: pos=noun number=singular
   crannoges:
-    m01: pos=noun root=crannog number=plural
+    m01: pos=noun root=crannoge number=plural
   crannogs:
     m01: pos=noun root=crannog number=plural
   cranny:
@@ -72770,7 +72770,7 @@ dictionary
     m01: pos=verb root=crape vform=past tense=past
     m02: pos=verb root=crape vform=pastpart
   crapes:
-    m01: pos=noun root=crap number=plural
+    m01: pos=noun root=crape number=plural
     m02: pos=verb root=crape vform=pres3sg tense=present person=3 number=singular
   craping:
     m01: pos=verb root=crape vform=ger
@@ -73130,7 +73130,7 @@ dictionary
   creatine:
     m01: pos=noun number=singular
   creatines:
-    m01: pos=noun root=creatin number=plural
+    m01: pos=noun root=creatine number=plural
   creating:
     m01: pos=verb root=create vform=ger
   creatinine:
@@ -74132,7 +74132,7 @@ dictionary
   croceine:
     m01: pos=noun number=singular
   croceines:
-    m01: pos=noun root=crocein number=plural
+    m01: pos=noun root=croceine number=plural
   croceins:
     m01: pos=noun root=crocein number=plural
   crochet:
@@ -74595,7 +74595,7 @@ dictionary
   croupe:
     m01: pos=noun number=singular
   croupes:
-    m01: pos=noun root=croup number=plural
+    m01: pos=noun root=croupe number=plural
   croupier:
     m01: pos=noun number=singular
   croupiers:
@@ -74800,7 +74800,7 @@ dictionary
   cruder:
     m01: pos=adj
   crudes:
-    m01: pos=noun root=crud number=plural
+    m01: pos=noun root=crude number=plural
   crudest:
     m01: pos=adj
   crudites:
@@ -75458,7 +75458,7 @@ dictionary
   cubers:
     m01: pos=noun root=cuber number=plural
   cubes:
-    m01: pos=noun root=cub number=plural
+    m01: pos=noun root=cube number=plural
     m02: pos=verb root=cube vform=pres3sg tense=present person=3 number=singular
   cubic:
     m01: pos=adj
@@ -76355,7 +76355,7 @@ dictionary
   curers:
     m01: pos=noun number=singular
   cures:
-    m01: pos=noun root=cur number=plural
+    m01: pos=noun root=cure number=plural
     m02: pos=verb root=cure vform=pres3sg tense=present person=3 number=singular
   curet:
     m01: pos=noun number=singular
@@ -76604,7 +76604,7 @@ dictionary
   cursers:
     m01: pos=noun root=curser number=plural
   curses:
-    m01: pos=noun root=curs number=plural
+    m01: pos=noun root=curse number=plural
     m02: pos=verb root=curse vform=pres3sg tense=present person=3 number=singular
   cursing:
     m01: pos=verb root=curse vform=ger
@@ -76749,7 +76749,7 @@ dictionary
   curvedly:
     m01: pos=adv
   curves:
-    m01: pos=noun root=curf number=plural
+    m01: pos=noun root=curve number=plural
     m02: pos=verb root=curve vform=pres3sg tense=present person=3 number=singular
   curvet:
     m01: pos=noun number=singular
@@ -77192,7 +77192,7 @@ dictionary
   cyanamide:
     m01: pos=noun number=singular
   cyanamides:
-    m01: pos=noun root=cyanamid number=plural
+    m01: pos=noun root=cyanamide number=plural
   cyanamids:
     m01: pos=noun root=cyanamid number=plural
   cyanate:
@@ -77219,7 +77219,7 @@ dictionary
   cyanine:
     m01: pos=noun number=singular
   cyanines:
-    m01: pos=noun root=cyanin number=plural
+    m01: pos=noun root=cyanine number=plural
   cyanins:
     m01: pos=noun root=cyanin number=plural
   cyanite:
@@ -77734,7 +77734,7 @@ dictionary
   cysteine:
     m01: pos=noun number=singular
   cysteines:
-    m01: pos=noun root=cystein number=plural
+    m01: pos=noun root=cysteine number=plural
   cysteins:
     m01: pos=noun root=cystein number=plural
   cystic:
@@ -78370,7 +78370,7 @@ dictionary
   daledhs:
     m01: pos=noun root=daledh number=plural
   dales:
-    m01: pos=noun root=dal number=plural
+    m01: pos=noun root=dale number=plural
   dalesman:
     m01: pos=noun number=singular
   dalesmen:
@@ -78474,7 +78474,7 @@ dictionary
   dame:
     m01: pos=noun number=singular
   dames:
-    m01: pos=noun root=dam number=plural
+    m01: pos=noun root=dame number=plural
     m02: pos=verb root=dam vform=pres3sg tense=present person=3 number=singular
   damewort:
     m01: pos=noun number=singular
@@ -80062,12 +80062,12 @@ dictionary
   debouche:
     m01: pos=verb vform=base tense=present
   debouched:
-    m01: pos=verb root=debouche vform=past tense=past
-    m02: pos=verb root=debouche vform=pastpart
+    m01: pos=verb root=debouch vform=past tense=past
+    m02: pos=verb root=debouch vform=pastpart
   debouches:
-    m01: pos=verb root=debouche vform=pres3sg tense=present person=3 number=singular
+    m01: pos=verb root=debouch vform=pres3sg tense=present person=3 number=singular
   debouching:
-    m01: pos=verb root=debouche vform=ger
+    m01: pos=verb root=debouch vform=ger
   debouchment:
     m01: pos=noun number=singular
   debouchments:
@@ -80153,7 +80153,7 @@ dictionary
   debutante:
     m01: pos=noun number=singular
   debutantes:
-    m01: pos=noun root=debutant number=plural
+    m01: pos=noun root=debutante number=plural
   debutants:
     m01: pos=noun root=debutant number=plural
   debuted:
@@ -83049,7 +83049,7 @@ dictionary
   deleing:
     m01: pos=verb vform=base tense=present
   deles:
-    m01: pos=noun root=del number=plural
+    m01: pos=noun root=dele number=plural
   delete:
     m01: pos=verb vform=base tense=present
   deleted:
@@ -84521,7 +84521,7 @@ dictionary
   dentine:
     m01: pos=noun number=singular
   dentines:
-    m01: pos=noun root=dentin number=plural
+    m01: pos=noun root=dentine number=plural
   denting:
     m01: pos=verb root=dent vform=ger
   dentins:
@@ -86715,7 +86715,7 @@ dictionary
   detente:
     m01: pos=noun number=singular
   detentes:
-    m01: pos=noun root=detent number=plural
+    m01: pos=noun root=detente number=plural
   detention:
     m01: pos=noun number=singular
   detentions:
@@ -87230,8 +87230,8 @@ dictionary
   develope:
     m01: pos=verb vform=base tense=present
   developed:
-    m01: pos=verb root=develope vform=past tense=past
-    m02: pos=verb root=develope vform=pastpart
+    m01: pos=verb root=develop vform=past tense=past
+    m02: pos=verb root=develop vform=pastpart
     m03: pos=adj
   developer:
     m01: pos=noun number=singular
@@ -87241,7 +87241,7 @@ dictionary
     m01: pos=verb root=develope vform=pres3sg tense=present person=3 number=singular
   developing:
     m01: pos=noun number=singular
-    m02: pos=verb root=develope vform=ger
+    m02: pos=verb root=develop vform=ger
     m03: pos=adj
   development:
     m01: pos=noun number=singular
@@ -87388,7 +87388,7 @@ dictionary
   devisee:
     m01: pos=noun number=singular
   devisees:
-    m01: pos=noun root=devise number=plural
+    m01: pos=noun root=devisee number=plural
     m02: pos=verb root=devise vform=pres3sg tense=present person=3 number=singular
   deviser:
     m01: pos=noun number=singular
@@ -87753,7 +87753,7 @@ dictionary
   dhootie:
     m01: pos=noun number=singular
   dhooties:
-    m01: pos=noun root=dhooti number=plural
+    m01: pos=noun root=dhootie number=plural
   dhootis:
     m01: pos=noun root=dhooti number=plural
   dhoti:
@@ -88155,7 +88155,7 @@ dictionary
   diamine:
     m01: pos=noun number=singular
   diamines:
-    m01: pos=noun root=diamin number=plural
+    m01: pos=noun root=diamine number=plural
   diamins:
     m01: pos=noun root=diamin number=plural
   diamond:
@@ -88403,7 +88403,7 @@ dictionary
   diazine:
     m01: pos=noun number=singular
   diazines:
-    m01: pos=noun root=diazin number=plural
+    m01: pos=noun root=diazine number=plural
   diazinon:
     m01: pos=noun number=singular
   diazinons:
@@ -88577,7 +88577,7 @@ dictionary
   dichromate:
     m01: pos=noun number=singular
   dichromates:
-    m01: pos=noun root=dichromat number=plural
+    m01: pos=noun root=dichromate number=plural
   dichromatic:
     m01: pos=adj
   dichromatism:
@@ -90039,7 +90039,7 @@ dictionary
   dioxane:
     m01: pos=noun number=singular
   dioxanes:
-    m01: pos=noun root=dioxan number=plural
+    m01: pos=noun root=dioxane number=plural
   dioxans:
     m01: pos=noun root=dioxan number=plural
   dioxid:
@@ -90047,7 +90047,7 @@ dictionary
   dioxide:
     m01: pos=noun number=singular
   dioxides:
-    m01: pos=noun root=dioxid number=plural
+    m01: pos=noun root=dioxide number=plural
   dioxids:
     m01: pos=noun root=dioxid number=plural
   dioxin:
@@ -90182,7 +90182,7 @@ dictionary
   diplomate:
     m01: pos=noun number=singular
   diplomates:
-    m01: pos=noun root=diplomat number=plural
+    m01: pos=noun root=diplomate number=plural
   diplomatic:
     m01: pos=adj
   diplomatically:
@@ -94282,7 +94282,7 @@ dictionary
   disulfide:
     m01: pos=noun number=singular
   disulfides:
-    m01: pos=noun root=disulfid number=plural
+    m01: pos=noun root=disulfide number=plural
   disulfids:
     m01: pos=noun root=disulfid number=plural
   disulfiram:
@@ -94795,7 +94795,7 @@ dictionary
   divorcee:
     m01: pos=noun number=singular
   divorcees:
-    m01: pos=noun root=divorce number=plural
+    m01: pos=noun root=divorcee number=plural
     m02: pos=verb root=divorce vform=pres3sg tense=present person=3 number=singular
   divorcement:
     m01: pos=noun number=singular
@@ -95288,7 +95288,7 @@ dictionary
   dogedoms:
     m01: pos=noun root=dogedom number=plural
   doges:
-    m01: pos=noun root=dog number=plural
+    m01: pos=noun root=doge number=plural
     m02: pos=verb root=dog vform=pres3sg tense=present person=3 number=singular
   dogeship:
     m01: pos=noun number=singular
@@ -95569,7 +95569,7 @@ dictionary
   doleritic:
     m01: pos=adj
   doles:
-    m01: pos=noun root=dol number=plural
+    m01: pos=noun root=dole number=plural
     m02: pos=verb root=dole vform=pres3sg tense=present person=3 number=singular
   dolesome:
     m01: pos=adj
@@ -95713,7 +95713,7 @@ dictionary
   domelike:
     m01: pos=adj
   domes:
-    m01: pos=noun root=dom number=plural
+    m01: pos=noun root=dome number=plural
   domesday:
     m01: pos=noun number=singular
   domesdays:
@@ -96372,7 +96372,7 @@ dictionary
   dosers:
     m01: pos=noun root=doser number=plural
   doses:
-    m01: pos=noun root=dos number=plural
+    m01: pos=noun root=dose number=plural
     m02: pos=verb root=dose vform=pres3sg tense=present person=3 number=singular
   dosimeter:
     m01: pos=noun number=singular
@@ -96725,7 +96725,7 @@ dictionary
   dovecote:
     m01: pos=noun number=singular
   dovecotes:
-    m01: pos=noun root=dovecot number=plural
+    m01: pos=noun root=dovecote number=plural
   dovecots:
     m01: pos=noun root=dovecot number=plural
   dovekey:
@@ -97471,7 +97471,7 @@ dictionary
   dramaturge:
     m01: pos=noun number=singular
   dramaturges:
-    m01: pos=noun root=dramaturg number=plural
+    m01: pos=noun root=dramaturge number=plural
   dramaturgic:
     m01: pos=adj
   dramaturgical:
@@ -98951,7 +98951,7 @@ dictionary
   dudeens:
     m01: pos=noun root=dudeen number=plural
   dudes:
-    m01: pos=noun root=dud number=plural
+    m01: pos=noun root=dude number=plural
   dudgeon:
     m01: pos=noun number=singular
   dudgeons:
@@ -99344,7 +99344,7 @@ dictionary
   dunelike:
     m01: pos=adj
   dunes:
-    m01: pos=noun root=dun number=plural
+    m01: pos=noun root=dune number=plural
     m02: pos=verb root=dun vform=pres3sg tense=present person=3 number=singular
   dung:
     m01: pos=noun number=singular
@@ -99510,7 +99510,7 @@ dictionary
   dupery:
     m01: pos=noun number=singular
   dupes:
-    m01: pos=noun root=dup number=plural
+    m01: pos=noun root=dupe number=plural
     m02: pos=verb root=dupe vform=pres3sg tense=present person=3 number=singular
   duping:
     m01: pos=verb root=dupe vform=ger
@@ -99818,7 +99818,7 @@ dictionary
   duvetyne:
     m01: pos=noun number=singular
   duvetynes:
-    m01: pos=noun root=duvetyn number=plural
+    m01: pos=noun root=duvetyne number=plural
   duvetyns:
     m01: pos=noun root=duvetyn number=plural
   duxelles:
@@ -100809,7 +100809,7 @@ dictionary
   ecdysone:
     m01: pos=noun number=singular
   ecdysones:
-    m01: pos=noun root=ecdyson number=plural
+    m01: pos=noun root=ecdysone number=plural
   ecdysons:
     m01: pos=noun root=ecdyson number=plural
   ecesis:
@@ -104230,7 +104230,7 @@ dictionary
   emetine:
     m01: pos=noun number=singular
   emetines:
-    m01: pos=noun root=emetin number=plural
+    m01: pos=noun root=emetine number=plural
   emetins:
     m01: pos=noun root=emetin number=plural
   emeu:
@@ -104581,7 +104581,7 @@ dictionary
   employee:
     m01: pos=noun number=singular
   employees:
-    m01: pos=noun root=employe number=plural
+    m01: pos=noun root=employee number=plural
   employer:
     m01: pos=noun number=singular
   employers:
@@ -104774,7 +104774,7 @@ dictionary
   emyde:
     m01: pos=noun number=singular
   emydes:
-    m01: pos=noun root=emyd number=plural
+    m01: pos=noun root=emyde number=plural
   emyds:
     m01: pos=noun root=emyd number=plural
   enable:
@@ -107196,7 +107196,7 @@ dictionary
   enterocoele:
     m01: pos=noun number=singular
   enterocoeles:
-    m01: pos=noun root=enterocoel number=plural
+    m01: pos=noun root=enterocoele number=plural
   enterocoelic:
     m01: pos=adj
   enterocoelous:
@@ -107909,7 +107909,7 @@ dictionary
   enzyme:
     m01: pos=noun number=singular
   enzymes:
-    m01: pos=noun root=enzym number=plural
+    m01: pos=noun root=enzyme number=plural
   enzymic:
     m01: pos=adj
   enzymically:
@@ -108073,7 +108073,7 @@ dictionary
   ephedrine:
     m01: pos=noun number=singular
   ephedrines:
-    m01: pos=noun root=ephedrin number=plural
+    m01: pos=noun root=ephedrine number=plural
   ephedrins:
     m01: pos=noun root=ephedrin number=plural
   ephemera:
@@ -108343,7 +108343,7 @@ dictionary
   epigone:
     m01: pos=noun number=singular
   epigones:
-    m01: pos=noun root=epigon number=plural
+    m01: pos=noun root=epigone number=plural
   epigoni:
     m01: pos=noun number=singular
   epigonic:
@@ -108461,7 +108461,7 @@ dictionary
   epimere:
     m01: pos=noun number=singular
   epimeres:
-    m01: pos=noun root=epimer number=plural
+    m01: pos=noun root=epimere number=plural
   epimeric:
     m01: pos=adj
   epimers:
@@ -108483,7 +108483,7 @@ dictionary
   epinephrine:
     m01: pos=noun number=singular
   epinephrines:
-    m01: pos=noun root=epinephrin number=plural
+    m01: pos=noun root=epinephrine number=plural
   epinephrins:
     m01: pos=noun root=epinephrin number=plural
   epineurium:
@@ -109432,7 +109432,7 @@ dictionary
   erne:
     m01: pos=noun number=singular
   ernes:
-    m01: pos=noun root=ern number=plural
+    m01: pos=noun root=erne number=plural
   erns:
     m01: pos=noun root=ern number=plural
   erode:
@@ -109753,7 +109753,7 @@ dictionary
   erythrosine:
     m01: pos=noun number=singular
   erythrosines:
-    m01: pos=noun root=erythrosin number=plural
+    m01: pos=noun root=erythrosine number=plural
   erythrosins:
     m01: pos=noun root=erythrosin number=plural
   escadrille:
@@ -109827,7 +109827,7 @@ dictionary
   escapee:
     m01: pos=noun number=singular
   escapees:
-    m01: pos=noun root=escape number=plural
+    m01: pos=noun root=escapee number=plural
     m02: pos=verb root=escape vform=pres3sg tense=present person=3 number=singular
   escapement:
     m01: pos=noun number=singular
@@ -110448,7 +110448,7 @@ dictionary
   etamine:
     m01: pos=noun number=singular
   etamines:
-    m01: pos=noun root=etamin number=plural
+    m01: pos=noun root=etamine number=plural
   etamins:
     m01: pos=noun root=etamin number=plural
   etape:
@@ -110950,7 +110950,7 @@ dictionary
   eucalyptole:
     m01: pos=noun number=singular
   eucalyptoles:
-    m01: pos=noun root=eucalyptol number=plural
+    m01: pos=noun root=eucalyptole number=plural
   eucalyptols:
     m01: pos=noun root=eucalyptol number=plural
   eucalypts:
@@ -114028,7 +114028,7 @@ dictionary
   exposers:
     m01: pos=noun root=exposer number=plural
   exposes:
-    m01: pos=noun root=expos number=plural
+    m01: pos=noun root=expose number=plural
     m02: pos=verb root=expose vform=pres3sg tense=present person=3 number=singular
   exposing:
     m01: pos=verb root=expose vform=ger
@@ -115696,7 +115696,7 @@ dictionary
   faders:
     m01: pos=noun root=fader number=plural
   fades:
-    m01: pos=noun root=fad number=plural
+    m01: pos=noun root=fade number=plural
     m02: pos=verb root=fade vform=pres3sg tense=present person=3 number=singular
   fadge:
     m01: pos=verb vform=base tense=present
@@ -116739,7 +116739,7 @@ dictionary
   farle:
     m01: pos=noun number=singular
   farles:
-    m01: pos=noun root=farl number=plural
+    m01: pos=noun root=farle number=plural
   farls:
     m01: pos=noun root=farl number=plural
   farm:
@@ -117137,7 +117137,7 @@ dictionary
   fatefulnesses:
     m01: pos=noun root=fatefulness number=plural
   fates:
-    m01: pos=noun root=fat number=plural
+    m01: pos=noun root=fate number=plural
     m02: pos=verb root=fate vform=pres3sg tense=present person=3 number=singular
   fathead:
     m01: pos=noun number=singular
@@ -118973,7 +118973,7 @@ dictionary
   feteritas:
     m01: pos=noun root=feterita number=plural
   fetes:
-    m01: pos=noun root=fet number=plural
+    m01: pos=noun root=fete number=plural
     m02: pos=verb root=fete vform=pres3sg tense=present person=3 number=singular
   fetial:
     m01: pos=noun number=singular
@@ -119240,7 +119240,7 @@ dictionary
   fiancee:
     m01: pos=noun number=singular
   fiancees:
-    m01: pos=noun root=fiance number=plural
+    m01: pos=noun root=fiancee number=plural
   fiances:
     m01: pos=noun root=fiance number=plural
   fianchetto:
@@ -120054,7 +120054,7 @@ dictionary
   fillers:
     m01: pos=noun root=filler number=plural
   filles:
-    m01: pos=noun root=fill number=plural
+    m01: pos=noun root=fille number=plural
     m02: pos=verb root=fill vform=pres3sg tense=present person=3 number=singular
   fillet:
     m01: pos=noun number=singular
@@ -120278,7 +120278,7 @@ dictionary
   finale:
     m01: pos=noun number=singular
   finales:
-    m01: pos=noun root=final number=plural
+    m01: pos=noun root=finale number=plural
   finalis:
     m01: pos=adj
   finalism:
@@ -120384,7 +120384,7 @@ dictionary
   finery:
     m01: pos=noun number=singular
   fines:
-    m01: pos=noun root=fin number=plural
+    m01: pos=noun root=fine number=plural
     m02: pos=verb root=fine vform=pres3sg tense=present person=3 number=singular
   finespun:
     m01: pos=adj
@@ -120817,7 +120817,7 @@ dictionary
   firers:
     m01: pos=noun root=firer number=plural
   fires:
-    m01: pos=noun root=fir number=plural
+    m01: pos=noun root=fire number=plural
     m02: pos=verb root=fire vform=pres3sg tense=present person=3 number=singular
   fireside:
     m01: pos=noun number=singular
@@ -121254,7 +121254,7 @@ dictionary
   fivers:
     m01: pos=noun root=fiver number=plural
   fives:
-    m01: pos=noun root=fife number=plural
+    m01: pos=noun root=five number=plural
   fix:
     m01: pos=noun number=singular
     m02: pos=verb vform=base tense=present
@@ -121280,7 +121280,7 @@ dictionary
   fixative:
     m01: pos=noun number=singular
   fixatives:
-    m01: pos=noun root=fixatif number=plural
+    m01: pos=noun root=fixative number=plural
   fixed:
     m01: pos=verb root=fix vform=past tense=past
     m02: pos=verb root=fix vform=pastpart
@@ -121569,7 +121569,7 @@ dictionary
   flakers:
     m01: pos=noun root=flaker number=plural
   flakes:
-    m01: pos=noun root=flak number=plural
+    m01: pos=noun root=flake number=plural
     m02: pos=verb root=flake vform=pres3sg tense=present person=3 number=singular
   flakey:
     m01: pos=adj
@@ -121658,7 +121658,7 @@ dictionary
   flamers:
     m01: pos=noun root=flamer number=plural
   flames:
-    m01: pos=noun root=flam number=plural
+    m01: pos=noun root=flame number=plural
     m02: pos=verb root=flame vform=pres3sg tense=present person=3 number=singular
   flamethrower:
     m01: pos=noun number=singular
@@ -123473,7 +123473,7 @@ dictionary
   fluerics:
     m01: pos=noun root=flueric number=plural
   flues:
-    m01: pos=noun root=flu number=plural
+    m01: pos=noun root=flue number=plural
   fluff:
     m01: pos=noun number=singular
     m02: pos=verb vform=base tense=present
@@ -123684,7 +123684,7 @@ dictionary
   fluoride:
     m01: pos=noun number=singular
   fluorides:
-    m01: pos=noun root=fluorid number=plural
+    m01: pos=noun root=fluoride number=plural
   fluoridization:
     m01: pos=noun number=singular
   fluoridizations:
@@ -123728,7 +123728,7 @@ dictionary
   fluorine:
     m01: pos=noun number=singular
   fluorines:
-    m01: pos=noun root=fluorin number=plural
+    m01: pos=noun root=fluorine number=plural
   fluorins:
     m01: pos=noun root=fluorin number=plural
   fluorite:
@@ -124486,7 +124486,7 @@ dictionary
   folkmote:
     m01: pos=noun number=singular
   folkmotes:
-    m01: pos=noun root=folkmot number=plural
+    m01: pos=noun root=folkmote number=plural
   folkmots:
     m01: pos=noun root=folkmot number=plural
   folks:
@@ -124634,7 +124634,7 @@ dictionary
   fondue:
     m01: pos=noun number=singular
   fondues:
-    m01: pos=noun root=fondu number=plural
+    m01: pos=noun root=fondue number=plural
   fondus:
     m01: pos=noun root=fondu number=plural
   fons:
@@ -126422,7 +126422,7 @@ dictionary
     m01: pos=noun root=fortepiano number=plural
   fortes:
     m01: pos=verb root=fort vform=pres3sg tense=present person=3 number=singular
-    m02: pos=noun root=fort number=plural
+    m02: pos=noun root=forte number=plural
   forth:
     m01: pos=adv
   forthcoming:
@@ -126589,7 +126589,7 @@ dictionary
   fosse:
     m01: pos=noun number=singular
   fosses:
-    m01: pos=noun root=foss number=plural
+    m01: pos=noun root=fosse number=plural
   fossette:
     m01: pos=noun number=singular
   fossettes:
@@ -127070,7 +127070,7 @@ dictionary
     m02: pos=verb root=fracture vform=pastpart
     m03: pos=adj
   fractures:
-    m01: pos=noun root=fractur number=plural
+    m01: pos=noun root=fracture number=plural
     m02: pos=verb root=fracture vform=pres3sg tense=present person=3 number=singular
   fracturing:
     m01: pos=verb root=fracture vform=ger
@@ -128934,7 +128934,7 @@ dictionary
   fuchsine:
     m01: pos=noun number=singular
   fuchsines:
-    m01: pos=noun root=fuchsin number=plural
+    m01: pos=noun root=fuchsine number=plural
   fuchsins:
     m01: pos=noun root=fuchsin number=plural
   fuci:
@@ -129105,7 +129105,7 @@ dictionary
   fugued:
     m01: pos=verb vform=base tense=present
   fugues:
-    m01: pos=noun root=fugu number=plural
+    m01: pos=noun root=fugue number=plural
   fuguing:
     m01: pos=verb vform=base tense=present
   fuguist:
@@ -129638,7 +129638,7 @@ dictionary
   furane:
     m01: pos=noun number=singular
   furanes:
-    m01: pos=noun root=furan number=plural
+    m01: pos=noun root=furane number=plural
   furanose:
     m01: pos=noun number=singular
   furanoses:
@@ -129804,7 +129804,7 @@ dictionary
   furore:
     m01: pos=noun number=singular
   furores:
-    m01: pos=noun root=furor number=plural
+    m01: pos=noun root=furore number=plural
   furors:
     m01: pos=noun root=furor number=plural
   furosemide:
@@ -129926,7 +129926,7 @@ dictionary
   fusee:
     m01: pos=noun number=singular
   fusees:
-    m01: pos=noun root=fuse number=plural
+    m01: pos=noun root=fusee number=plural
     m02: pos=verb root=fuse vform=pres3sg tense=present person=3 number=singular
   fusel:
     m01: pos=noun number=singular
@@ -130162,7 +130162,7 @@ dictionary
   fuzee:
     m01: pos=noun number=singular
   fuzees:
-    m01: pos=noun root=fuze number=plural
+    m01: pos=noun root=fuzee number=plural
   fuzes:
     m01: pos=noun root=fuze number=plural
   fuzil:
@@ -130404,7 +130404,7 @@ dictionary
   gaffers:
     m01: pos=noun root=gaffer number=plural
   gaffes:
-    m01: pos=noun root=gaff number=plural
+    m01: pos=noun root=gaffe number=plural
   gaffing:
     m01: pos=verb vform=base tense=present
   gaffs:
@@ -130429,7 +130429,7 @@ dictionary
   gagers:
     m01: pos=noun root=gager number=plural
   gages:
-    m01: pos=noun root=gag number=plural
+    m01: pos=noun root=gage number=plural
     m02: pos=verb root=gage vform=pres3sg tense=present person=3 number=singular
   gagged:
     m01: pos=verb root=gag vform=past tense=past
@@ -130669,7 +130669,7 @@ dictionary
   galeres:
     m01: pos=noun root=galere number=plural
   gales:
-    m01: pos=noun root=gal number=plural
+    m01: pos=noun root=gale number=plural
   galilee:
     m01: pos=noun number=singular
   galilees:
@@ -131048,7 +131048,7 @@ dictionary
   gambe:
     m01: pos=noun number=singular
   gambes:
-    m01: pos=noun root=gamb number=plural
+    m01: pos=noun root=gambe number=plural
   gambeson:
     m01: pos=noun number=singular
   gambesons:
@@ -131148,7 +131148,7 @@ dictionary
   gamers:
     m01: pos=noun number=singular
   games:
-    m01: pos=noun root=gam number=plural
+    m01: pos=noun root=game number=plural
     m02: pos=verb root=game vform=pres3sg tense=present person=3 number=singular
   gamesman:
     m01: pos=noun number=singular
@@ -131221,7 +131221,7 @@ dictionary
   gamine:
     m01: pos=noun number=singular
   gamines:
-    m01: pos=noun root=gamin number=plural
+    m01: pos=noun root=gamine number=plural
   gaminess:
     m01: pos=noun root=gamines number=plural
   gaminesses:
@@ -131506,7 +131506,7 @@ dictionary
   gapers:
     m01: pos=noun root=gaper number=plural
   gapes:
-    m01: pos=noun root=gap number=plural
+    m01: pos=noun root=gape number=plural
     m02: pos=verb root=gape vform=pres3sg tense=present person=3 number=singular
   gapeseed:
     m01: pos=noun number=singular
@@ -132269,7 +132269,7 @@ dictionary
   gateposts:
     m01: pos=noun root=gatepost number=plural
   gates:
-    m01: pos=noun root=gat number=plural
+    m01: pos=noun root=gate number=plural
     m02: pos=verb root=gate vform=pres3sg tense=present person=3 number=singular
   gateway:
     m01: pos=noun number=singular
@@ -132772,7 +132772,7 @@ dictionary
   gelatine:
     m01: pos=noun number=singular
   gelatines:
-    m01: pos=noun root=gelatin number=plural
+    m01: pos=noun root=gelatine number=plural
   gelating:
     m01: pos=verb root=gelate vform=ger
   gelatinization:
@@ -132942,7 +132942,7 @@ dictionary
   gemote:
     m01: pos=noun number=singular
   gemotes:
-    m01: pos=noun root=gemot number=plural
+    m01: pos=noun root=gemote number=plural
   gemots:
     m01: pos=noun root=gemot number=plural
   gems:
@@ -133116,7 +133116,7 @@ dictionary
   generousnesses:
     m01: pos=noun root=generousness number=plural
   genes:
-    m01: pos=noun root=gen number=plural
+    m01: pos=noun root=gene number=plural
   geneses:
     m01: pos=noun root=genesis number=plural
   genesis:
@@ -133233,7 +133233,7 @@ dictionary
   genome:
     m01: pos=noun number=singular
   genomes:
-    m01: pos=noun root=genom number=plural
+    m01: pos=noun root=genome number=plural
   genomic:
     m01: pos=adj
   genoms:
@@ -133298,7 +133298,7 @@ dictionary
     m01: pos=noun number=singular
     m02: pos=adj
   gentiles:
-    m01: pos=noun root=gentil number=plural
+    m01: pos=noun root=gentile number=plural
   gentilesse:
     m01: pos=noun number=singular
   gentilesses:
@@ -133959,7 +133959,7 @@ dictionary
   geste:
     m01: pos=noun number=singular
   gestes:
-    m01: pos=noun root=gest number=plural
+    m01: pos=noun root=geste number=plural
   gestic:
     m01: pos=adj
   gestical:
@@ -134320,7 +134320,7 @@ dictionary
   gibers:
     m01: pos=noun root=giber number=plural
   gibes:
-    m01: pos=noun root=gib number=plural
+    m01: pos=noun root=gibe number=plural
     m02: pos=verb root=gibe vform=pres3sg tense=present person=3 number=singular
   gibing:
     m01: pos=verb root=gibe vform=ger
@@ -135462,7 +135462,7 @@ dictionary
   glede:
     m01: pos=noun number=singular
   gledes:
-    m01: pos=noun root=gled number=plural
+    m01: pos=noun root=glede number=plural
   gleds:
     m01: pos=noun root=gled number=plural
   glee:
@@ -135552,7 +135552,7 @@ dictionary
   gliadine:
     m01: pos=noun number=singular
   gliadines:
-    m01: pos=noun root=gliadin number=plural
+    m01: pos=noun root=gliadine number=plural
   gliadins:
     m01: pos=noun root=gliadin number=plural
   glial:
@@ -135824,7 +135824,7 @@ dictionary
   globeflowers:
     m01: pos=noun root=globeflower number=plural
   globes:
-    m01: pos=noun root=glob number=plural
+    m01: pos=noun root=globe number=plural
   globetrot:
     m01: pos=verb vform=base tense=present
   globetrots:
@@ -136397,7 +136397,7 @@ dictionary
   glycerine:
     m01: pos=noun number=singular
   glycerines:
-    m01: pos=noun root=glycerin number=plural
+    m01: pos=noun root=glycerine number=plural
   glycerins:
     m01: pos=noun root=glycerin number=plural
   glycerol:
@@ -136413,7 +136413,7 @@ dictionary
   glycine:
     m01: pos=noun number=singular
   glycines:
-    m01: pos=noun root=glycin number=plural
+    m01: pos=noun root=glycine number=plural
   glycins:
     m01: pos=noun root=glycin number=plural
   glycogen:
@@ -137335,7 +137335,7 @@ dictionary
     m01: pos=noun number=singular
     m02: pos=int
   goodbyes:
-    m01: pos=noun root=goodby number=plural
+    m01: pos=noun root=goodbye number=plural
   goodbys:
     m01: pos=noun root=goodby number=plural
   goodie:
@@ -137539,7 +137539,7 @@ dictionary
     m01: pos=verb root=gore vform=past tense=past
     m02: pos=verb root=gore vform=pastpart
   gores:
-    m01: pos=noun root=gor number=plural
+    m01: pos=noun root=gore number=plural
     m02: pos=verb root=gore vform=pres3sg tense=present person=3 number=singular
   gorge:
     m01: pos=noun number=singular
@@ -137794,7 +137794,7 @@ dictionary
   gourde:
     m01: pos=noun number=singular
   gourdes:
-    m01: pos=noun root=gourd number=plural
+    m01: pos=noun root=gourde number=plural
   gourds:
     m01: pos=noun root=gourd number=plural
   gourmand:
@@ -138085,7 +138085,7 @@ dictionary
   graders:
     m01: pos=noun root=grader number=plural
   grades:
-    m01: pos=noun root=grad number=plural
+    m01: pos=noun root=grade number=plural
     m02: pos=verb root=grade vform=pres3sg tense=present person=3 number=singular
   gradient:
     m01: pos=noun number=singular
@@ -138096,7 +138096,7 @@ dictionary
   gradine:
     m01: pos=noun number=singular
   gradines:
-    m01: pos=noun root=gradin number=plural
+    m01: pos=noun root=gradine number=plural
   grading:
     m01: pos=noun number=singular
     m02: pos=verb root=grade vform=ger
@@ -138243,7 +138243,7 @@ dictionary
   gramarye:
     m01: pos=noun number=singular
   gramaryes:
-    m01: pos=noun root=gramary number=plural
+    m01: pos=noun root=gramarye number=plural
   gramas:
     m01: pos=noun root=grama number=plural
   gramercies:
@@ -138324,7 +138324,7 @@ dictionary
   grandame:
     m01: pos=noun number=singular
   grandames:
-    m01: pos=noun root=grandam number=plural
+    m01: pos=noun root=grandame number=plural
   grandams:
     m01: pos=noun root=grandam number=plural
   grandaunt:
@@ -138455,7 +138455,7 @@ dictionary
   grandsire:
     m01: pos=noun number=singular
   grandsires:
-    m01: pos=noun root=grandsir number=plural
+    m01: pos=noun root=grandsire number=plural
   grandsirs:
     m01: pos=noun root=grandsir number=plural
   grandson:
@@ -138733,7 +138733,7 @@ dictionary
   grapline:
     m01: pos=noun number=singular
   graplines:
-    m01: pos=noun root=graplin number=plural
+    m01: pos=noun root=grapline number=plural
   graplins:
     m01: pos=noun root=graplin number=plural
   grapnel:
@@ -139680,7 +139680,7 @@ dictionary
   griffe:
     m01: pos=noun number=singular
   griffes:
-    m01: pos=noun root=griff number=plural
+    m01: pos=noun root=griffe number=plural
   griffin:
     m01: pos=noun number=singular
   griffins:
@@ -139734,7 +139734,7 @@ dictionary
   grillers:
     m01: pos=noun root=griller number=plural
   grilles:
-    m01: pos=noun root=grill number=plural
+    m01: pos=noun root=grille number=plural
     m02: pos=verb root=grill vform=pres3sg tense=present person=3 number=singular
   grilling:
     m01: pos=noun number=singular
@@ -139878,7 +139878,7 @@ dictionary
   gripers:
     m01: pos=noun root=griper number=plural
   gripes:
-    m01: pos=noun root=grip number=plural
+    m01: pos=noun root=gripe number=plural
     m02: pos=verb root=gripe vform=pres3sg tense=present person=3 number=singular
   gripey:
     m01: pos=adj
@@ -140866,7 +140866,7 @@ dictionary
   guanidine:
     m01: pos=noun number=singular
   guanidines:
-    m01: pos=noun root=guanidin number=plural
+    m01: pos=noun root=guanidine number=plural
   guanidins:
     m01: pos=noun root=guanidin number=plural
   guanin:
@@ -140874,7 +140874,7 @@ dictionary
   guanine:
     m01: pos=noun number=singular
   guanines:
-    m01: pos=noun root=guanin number=plural
+    m01: pos=noun root=guanine number=plural
   guanins:
     m01: pos=noun root=guanin number=plural
   guano:
@@ -141149,7 +141149,7 @@ dictionary
   guiders:
     m01: pos=noun root=guider number=plural
   guides:
-    m01: pos=noun root=guid number=plural
+    m01: pos=noun root=guide number=plural
     m02: pos=verb root=guide vform=pres3sg tense=present person=3 number=singular
   guideway:
     m01: pos=noun number=singular
@@ -143116,13 +143116,13 @@ dictionary
   halide:
     m01: pos=noun number=singular
   halides:
-    m01: pos=noun root=halid number=plural
+    m01: pos=noun root=halide number=plural
   halidom:
     m01: pos=noun number=singular
   halidome:
     m01: pos=noun number=singular
   halidomes:
-    m01: pos=noun root=halidom number=plural
+    m01: pos=noun root=halidome number=plural
   halidoms:
     m01: pos=noun root=halidom number=plural
   halids:
@@ -143466,7 +143466,7 @@ dictionary
   hame:
     m01: pos=noun number=singular
   hames:
-    m01: pos=noun root=ham number=plural
+    m01: pos=noun root=hame number=plural
     m02: pos=verb root=ham vform=pres3sg tense=present person=3 number=singular
   hamlet:
     m01: pos=noun number=singular
@@ -144231,7 +144231,7 @@ dictionary
   haptene:
     m01: pos=noun number=singular
   haptenes:
-    m01: pos=noun root=hapten number=plural
+    m01: pos=noun root=haptene number=plural
   haptenic:
     m01: pos=adj
   haptens:
@@ -144637,7 +144637,7 @@ dictionary
   harmine:
     m01: pos=noun number=singular
   harmines:
-    m01: pos=noun root=harmin number=plural
+    m01: pos=noun root=harmine number=plural
   harming:
     m01: pos=verb root=harm vform=ger
   harmins:
@@ -145116,7 +145116,7 @@ dictionary
   haters:
     m01: pos=noun root=hater number=plural
   hates:
-    m01: pos=noun root=hat number=plural
+    m01: pos=noun root=hate number=plural
     m02: pos=verb root=hate vform=pres3sg tense=present person=3 number=singular
   hatful:
     m01: pos=noun number=singular
@@ -145435,7 +145435,7 @@ dictionary
   hawsers:
     m01: pos=noun root=hawser number=plural
   hawses:
-    m01: pos=noun root=haws number=plural
+    m01: pos=noun root=hawse number=plural
   hawthorn:
     m01: pos=noun number=singular
   hawthorns:
@@ -146568,7 +146568,7 @@ dictionary
   hegumene:
     m01: pos=noun number=singular
   hegumenes:
-    m01: pos=noun root=hegumen number=plural
+    m01: pos=noun root=hegumene number=plural
   hegumenies:
     m01: pos=noun root=hegumeny number=plural
   hegumens:
@@ -147157,7 +147157,7 @@ dictionary
   hemerythrins:
     m01: pos=noun root=hemerythrin number=plural
   hemes:
-    m01: pos=noun root=hem number=plural
+    m01: pos=noun root=heme number=plural
     m02: pos=verb root=hem vform=pres3sg tense=present person=3 number=singular
   hemiacetal:
     m01: pos=noun number=singular
@@ -148000,7 +148000,7 @@ dictionary
   heroine:
     m01: pos=noun number=singular
   heroines:
-    m01: pos=noun root=heroin number=plural
+    m01: pos=noun root=heroine number=plural
   heroinism:
     m01: pos=noun number=singular
   heroinisms:
@@ -149436,7 +149436,7 @@ dictionary
   histaminergic:
     m01: pos=adj
   histamines:
-    m01: pos=noun root=histamin number=plural
+    m01: pos=noun root=histamine number=plural
   histamins:
     m01: pos=noun root=histamin number=plural
   histed:
@@ -149447,7 +149447,7 @@ dictionary
   histidine:
     m01: pos=noun number=singular
   histidines:
-    m01: pos=noun root=histidin number=plural
+    m01: pos=noun root=histidine number=plural
   histidins:
     m01: pos=noun root=histidin number=plural
   histing:
@@ -151071,7 +151071,7 @@ dictionary
   honers:
     m01: pos=noun root=honer number=plural
   hones:
-    m01: pos=noun root=hon number=plural
+    m01: pos=noun root=hone number=plural
     m02: pos=verb root=hone vform=pres3sg tense=present person=3 number=singular
   honest:
     m01: pos=adj
@@ -151574,7 +151574,7 @@ dictionary
   hopers:
     m01: pos=noun root=hoper number=plural
   hopes:
-    m01: pos=noun root=hop number=plural
+    m01: pos=noun root=hope number=plural
     m02: pos=verb root=hope vform=pres3sg tense=present person=3 number=singular
   hophead:
     m01: pos=noun number=singular
@@ -153754,7 +153754,7 @@ dictionary
     m01: pos=noun number=singular
     m02: pos=adj
   hyalines:
-    m01: pos=noun root=hyalin number=plural
+    m01: pos=noun root=hyaline number=plural
   hyalins:
     m01: pos=noun root=hyalin number=plural
   hyalite:
@@ -153906,7 +153906,7 @@ dictionary
   hydride:
     m01: pos=noun number=singular
   hydrides:
-    m01: pos=noun root=hydrid number=plural
+    m01: pos=noun root=hydride number=plural
   hydrids:
     m01: pos=noun root=hydrid number=plural
   hydro:
@@ -157247,7 +157247,7 @@ dictionary
   imide:
     m01: pos=noun number=singular
   imides:
-    m01: pos=noun root=imid number=plural
+    m01: pos=noun root=imide number=plural
   imidic:
     m01: pos=adj
   imido:
@@ -159212,7 +159212,7 @@ dictionary
   improvisatore:
     m01: pos=noun number=singular
   improvisatores:
-    m01: pos=noun root=improvisator number=plural
+    m01: pos=noun root=improvisatore number=plural
   improvisatori:
     m01: pos=noun number=singular
   improvisatorial:
@@ -160922,7 +160922,7 @@ dictionary
   indamine:
     m01: pos=noun number=singular
   indamines:
-    m01: pos=noun root=indamin number=plural
+    m01: pos=noun root=indamine number=plural
   indamins:
     m01: pos=noun root=indamin number=plural
   indebted:
@@ -161334,7 +161334,7 @@ dictionary
   indigene:
     m01: pos=noun number=singular
   indigenes:
-    m01: pos=noun root=indigen number=plural
+    m01: pos=noun root=indigene number=plural
   indigenization:
     m01: pos=noun number=singular
   indigenizations:
@@ -161658,7 +161658,7 @@ dictionary
   indolently:
     m01: pos=adv
   indoles:
-    m01: pos=noun root=indol number=plural
+    m01: pos=noun root=indole number=plural
   indols:
     m01: pos=noun root=indol number=plural
   indomethacin:
@@ -161835,7 +161835,7 @@ dictionary
   induline:
     m01: pos=noun number=singular
   indulines:
-    m01: pos=noun root=indulin number=plural
+    m01: pos=noun root=induline number=plural
   indulins:
     m01: pos=noun root=indulin number=plural
   indult:
@@ -166751,7 +166751,7 @@ dictionary
   internationale:
     m01: pos=noun number=singular
   internationales:
-    m01: pos=noun root=international number=plural
+    m01: pos=noun root=internationale number=plural
   internationalise:
     m01: pos=verb vform=base tense=present
   internationalised:
@@ -166801,9 +166801,9 @@ dictionary
   internee:
     m01: pos=noun number=singular
   internees:
-    m01: pos=noun root=interne number=plural
+    m01: pos=noun root=internee number=plural
   internes:
-    m01: pos=noun root=intern number=plural
+    m01: pos=noun root=interne number=plural
     m02: pos=verb root=intern vform=pres3sg tense=present person=3 number=singular
   interneuron:
     m01: pos=noun number=singular
@@ -168794,7 +168794,7 @@ dictionary
   invitee:
     m01: pos=noun number=singular
   invitees:
-    m01: pos=noun root=invite number=plural
+    m01: pos=noun root=invitee number=plural
     m02: pos=verb root=invite vform=pres3sg tense=present person=3 number=singular
   inviter:
     m01: pos=noun number=singular
@@ -168984,7 +168984,7 @@ dictionary
   iodide:
     m01: pos=noun number=singular
   iodides:
-    m01: pos=noun root=iodid number=plural
+    m01: pos=noun root=iodide number=plural
   iodids:
     m01: pos=noun root=iodid number=plural
   iodin:
@@ -169007,7 +169007,7 @@ dictionary
   iodine:
     m01: pos=noun number=singular
   iodines:
-    m01: pos=noun root=iodin number=plural
+    m01: pos=noun root=iodine number=plural
   iodins:
     m01: pos=noun root=iodin number=plural
   iodise:
@@ -169826,7 +169826,7 @@ dictionary
   isatine:
     m01: pos=noun number=singular
   isatines:
-    m01: pos=noun root=isatin number=plural
+    m01: pos=noun root=isatine number=plural
   isatinic:
     m01: pos=adj
   isatins:
@@ -169948,7 +169948,7 @@ dictionary
   isochore:
     m01: pos=noun number=singular
   isochores:
-    m01: pos=noun root=isochor number=plural
+    m01: pos=noun root=isochore number=plural
   isochors:
     m01: pos=noun root=isochor number=plural
   isochromosome:
@@ -169964,7 +169964,7 @@ dictionary
   isochrone:
     m01: pos=noun number=singular
   isochrones:
-    m01: pos=noun root=isochron number=plural
+    m01: pos=noun root=isochrone number=plural
   isochronism:
     m01: pos=noun number=singular
   isochronisms:
@@ -170044,7 +170044,7 @@ dictionary
   isogone:
     m01: pos=noun number=singular
   isogones:
-    m01: pos=noun root=isogon number=plural
+    m01: pos=noun root=isogone number=plural
   isogonic:
     m01: pos=adj
   isogonics:
@@ -171283,7 +171283,7 @@ dictionary
   jasmine:
     m01: pos=noun number=singular
   jasmines:
-    m01: pos=noun root=jasmin number=plural
+    m01: pos=noun root=jasmine number=plural
   jasmins:
     m01: pos=noun root=jasmin number=plural
   jasper:
@@ -171996,7 +171996,7 @@ dictionary
   jibers:
     m01: pos=noun root=jiber number=plural
   jibes:
-    m01: pos=noun root=jib number=plural
+    m01: pos=noun root=jibe number=plural
     m02: pos=verb root=jibe vform=pres3sg tense=present person=3 number=singular
   jibing:
     m01: pos=verb root=jibe vform=ger
@@ -172995,7 +172995,7 @@ dictionary
   jubilee:
     m01: pos=noun number=singular
   jubilees:
-    m01: pos=noun root=jubile number=plural
+    m01: pos=noun root=jubilee number=plural
   jubiles:
     m01: pos=noun root=jubile number=plural
   judas:
@@ -173587,7 +173587,7 @@ dictionary
   jute:
     m01: pos=noun number=singular
   jutes:
-    m01: pos=noun root=jut number=plural
+    m01: pos=noun root=jute number=plural
   juts:
     m01: pos=noun root=jut number=plural
     m02: pos=verb root=jut vform=pres3sg tense=present person=3 number=singular
@@ -173767,7 +173767,7 @@ dictionary
   kainite:
     m01: pos=noun number=singular
   kainites:
-    m01: pos=noun root=kainit number=plural
+    m01: pos=noun root=kainite number=plural
   kainits:
     m01: pos=noun root=kainit number=plural
   kains:
@@ -173973,7 +173973,7 @@ dictionary
   kaoline:
     m01: pos=noun number=singular
   kaolines:
-    m01: pos=noun root=kaolin number=plural
+    m01: pos=noun root=kaoline number=plural
   kaolinic:
     m01: pos=adj
   kaolinite:
@@ -174033,7 +174033,7 @@ dictionary
   karateists:
     m01: pos=noun root=karateist number=plural
   karates:
-    m01: pos=noun root=karat number=plural
+    m01: pos=noun root=karate number=plural
   karats:
     m01: pos=noun root=karat number=plural
   karma:
@@ -174448,7 +174448,7 @@ dictionary
   keeve:
     m01: pos=noun number=singular
   keeves:
-    m01: pos=noun root=keef number=plural
+    m01: pos=noun root=keeve number=plural
   kef:
     m01: pos=noun number=singular
   keffiyeh:
@@ -175534,7 +175534,7 @@ dictionary
   kinase:
     m01: pos=noun number=singular
   kinases:
-    m01: pos=noun root=kinas number=plural
+    m01: pos=noun root=kinase number=plural
   kind:
     m01: pos=noun number=singular
     m02: pos=adj
@@ -175622,7 +175622,7 @@ dictionary
   kinematics:
     m01: pos=noun number=singular
   kines:
-    m01: pos=noun root=kin number=plural
+    m01: pos=noun root=kine number=plural
   kinescope:
     m01: pos=noun number=singular
   kinescoped:
@@ -175978,7 +175978,7 @@ dictionary
   kiters:
     m01: pos=noun root=kiter number=plural
   kites:
-    m01: pos=noun root=kit number=plural
+    m01: pos=noun root=kite number=plural
     m02: pos=verb root=kit vform=pres3sg tense=present person=3 number=singular
   kith:
     m01: pos=noun number=singular
@@ -177513,7 +177513,7 @@ dictionary
   lacertids:
     m01: pos=noun root=lacertid number=plural
   laces:
-    m01: pos=noun root=lac number=plural
+    m01: pos=noun root=lace number=plural
     m02: pos=verb root=lace vform=pres3sg tense=present person=3 number=singular
   lacewing:
     m01: pos=noun number=singular
@@ -177839,7 +177839,7 @@ dictionary
   ladrone:
     m01: pos=noun number=singular
   ladrones:
-    m01: pos=noun root=ladron number=plural
+    m01: pos=noun root=ladrone number=plural
   ladrons:
     m01: pos=noun root=ladron number=plural
   lads:
@@ -178277,7 +178277,7 @@ dictionary
   lamer:
     m01: pos=adj
   lames:
-    m01: pos=noun root=lam number=plural
+    m01: pos=noun root=lame number=plural
     m02: pos=verb root=lame vform=pres3sg tense=present person=3 number=singular
   lamest:
     m01: pos=adj
@@ -178980,7 +178980,7 @@ dictionary
   lapsers:
     m01: pos=noun root=lapser number=plural
   lapses:
-    m01: pos=noun root=laps number=plural
+    m01: pos=noun root=lapse number=plural
     m02: pos=verb root=lapse vform=pres3sg tense=present person=3 number=singular
   lapsible:
     m01: pos=adj
@@ -179526,7 +179526,7 @@ dictionary
   lathery:
     m01: pos=adj
   lathes:
-    m01: pos=noun root=lath number=plural
+    m01: pos=noun root=lathe number=plural
   lathi:
     m01: pos=noun number=singular
   lathier:
@@ -179864,7 +179864,7 @@ dictionary
   lavaliere:
     m01: pos=noun number=singular
   lavalieres:
-    m01: pos=noun root=lavalier number=plural
+    m01: pos=noun root=lavaliere number=plural
   lavaliers:
     m01: pos=noun root=lavalier number=plural
   lavalike:
@@ -180552,7 +180552,7 @@ dictionary
   leasers:
     m01: pos=noun root=leaser number=plural
   leases:
-    m01: pos=noun root=leas number=plural
+    m01: pos=noun root=lease number=plural
     m02: pos=verb root=lease vform=pres3sg tense=present person=3 number=singular
   leash:
     m01: pos=noun number=singular
@@ -180947,7 +180947,7 @@ dictionary
   legatee:
     m01: pos=noun number=singular
   legatees:
-    m01: pos=noun root=legate number=plural
+    m01: pos=noun root=legatee number=plural
   legates:
     m01: pos=noun root=legate number=plural
   legateship:
@@ -181769,7 +181769,7 @@ dictionary
   leucine:
     m01: pos=noun number=singular
   leucines:
-    m01: pos=noun root=leucin number=plural
+    m01: pos=noun root=leucine number=plural
   leucins:
     m01: pos=noun root=leucin number=plural
   leucite:
@@ -182489,7 +182489,7 @@ dictionary
   licensee:
     m01: pos=noun number=singular
   licensees:
-    m01: pos=noun root=license number=plural
+    m01: pos=noun root=licensee number=plural
     m02: pos=verb root=license vform=pres3sg tense=present person=3 number=singular
   licenser:
     m01: pos=noun number=singular
@@ -183036,7 +183036,7 @@ dictionary
   ligroine:
     m01: pos=noun number=singular
   ligroines:
-    m01: pos=noun root=ligroin number=plural
+    m01: pos=noun root=ligroine number=plural
   ligroins:
     m01: pos=noun root=ligroin number=plural
   ligula:
@@ -183626,7 +183626,7 @@ dictionary
   liners:
     m01: pos=noun root=liner number=plural
   lines:
-    m01: pos=noun root=lin number=plural
+    m01: pos=noun root=line number=plural
     m02: pos=verb root=line vform=pres3sg tense=present person=3 number=singular
   linesman:
     m01: pos=noun number=singular
@@ -183926,7 +183926,7 @@ dictionary
   lipide:
     m01: pos=noun number=singular
   lipides:
-    m01: pos=noun root=lipid number=plural
+    m01: pos=noun root=lipide number=plural
   lipidic:
     m01: pos=adj
   lipids:
@@ -185025,7 +185025,7 @@ dictionary
   lobelines:
     m01: pos=noun root=lobeline number=plural
   lobes:
-    m01: pos=noun root=lob number=plural
+    m01: pos=noun root=lobe number=plural
     m02: pos=verb root=lob vform=pres3sg tense=present person=3 number=singular
   loblollies:
     m01: pos=noun root=loblolly number=plural
@@ -185112,7 +185112,7 @@ dictionary
   locale:
     m01: pos=noun number=singular
   locales:
-    m01: pos=noun root=local number=plural
+    m01: pos=noun root=locale number=plural
   localise:
     m01: pos=verb vform=base tense=present
   localised:
@@ -185491,7 +185491,7 @@ dictionary
   loge:
     m01: pos=noun number=singular
   loges:
-    m01: pos=noun root=log number=plural
+    m01: pos=noun root=loge number=plural
     m02: pos=verb root=log vform=pres3sg tense=present person=3 number=singular
   loggats:
     m01: pos=noun number=singular
@@ -186920,7 +186920,7 @@ dictionary
   lucerne:
     m01: pos=noun number=singular
   lucernes:
-    m01: pos=noun root=lucern number=plural
+    m01: pos=noun root=lucerne number=plural
   lucerns:
     m01: pos=noun root=lucern number=plural
   luces:
@@ -187054,7 +187054,7 @@ dictionary
   lugers:
     m01: pos=noun root=luger number=plural
   luges:
-    m01: pos=noun root=lug number=plural
+    m01: pos=noun root=luge number=plural
     m02: pos=verb root=luge vform=pres3sg tense=present person=3 number=singular
   luggage:
     m01: pos=noun number=singular
@@ -187386,7 +187386,7 @@ dictionary
   lungers:
     m01: pos=noun root=lunger number=plural
   lunges:
-    m01: pos=noun root=lung number=plural
+    m01: pos=noun root=lunge number=plural
     m02: pos=verb root=lunge vform=pres3sg tense=present person=3 number=singular
   lungfish:
     m01: pos=noun number=singular
@@ -187471,7 +187471,7 @@ dictionary
     m01: pos=noun number=singular
     m02: pos=adj
   lupines:
-    m01: pos=noun root=lupin number=plural
+    m01: pos=noun root=lupine number=plural
   lupins:
     m01: pos=noun root=lupin number=plural
   lupous:
@@ -187505,7 +187505,7 @@ dictionary
   lurdane:
     m01: pos=noun number=singular
   lurdanes:
-    m01: pos=noun root=lurdan number=plural
+    m01: pos=noun root=lurdane number=plural
   lurdans:
     m01: pos=noun root=lurdan number=plural
   lure:
@@ -188116,7 +188116,7 @@ dictionary
   lysine:
     m01: pos=noun number=singular
   lysines:
-    m01: pos=noun root=lysin number=plural
+    m01: pos=noun root=lysine number=plural
   lysing:
     m01: pos=verb root=lyse vform=ger
   lysins:
@@ -188292,7 +188292,7 @@ dictionary
   macers:
     m01: pos=noun root=macer number=plural
   maces:
-    m01: pos=noun root=mac number=plural
+    m01: pos=noun root=mace number=plural
   mach:
     m01: pos=noun number=singular
   mache:
@@ -190375,7 +190375,7 @@ dictionary
   maneless:
     m01: pos=adj
   manes:
-    m01: pos=noun root=man number=plural
+    m01: pos=noun root=mane number=plural
     m02: pos=verb root=man vform=pres3sg tense=present person=3 number=singular
   maneuver:
     m01: pos=noun number=singular
@@ -190857,7 +190857,7 @@ dictionary
   manservants:
     m01: pos=noun root=manservant number=plural
   manses:
-    m01: pos=noun root=mans number=plural
+    m01: pos=noun root=manse number=plural
   mansion:
     m01: pos=noun number=singular
   mansions:
@@ -191265,7 +191265,7 @@ dictionary
   marengo:
     m01: pos=noun number=singular
   mares:
-    m01: pos=noun root=mar number=plural
+    m01: pos=noun root=mare number=plural
     m02: pos=verb root=mar vform=pres3sg tense=present person=3 number=singular
   margaric:
     m01: pos=adj
@@ -191274,7 +191274,7 @@ dictionary
   margarine:
     m01: pos=noun number=singular
   margarines:
-    m01: pos=noun root=margarin number=plural
+    m01: pos=noun root=margarine number=plural
   margarins:
     m01: pos=noun root=margarin number=plural
   margarita:
@@ -191570,7 +191570,7 @@ dictionary
   marline:
     m01: pos=noun number=singular
   marlines:
-    m01: pos=noun root=marlin number=plural
+    m01: pos=noun root=marline number=plural
   marlinespike:
     m01: pos=noun number=singular
   marlinespikes:
@@ -191647,7 +191647,7 @@ dictionary
   marquee:
     m01: pos=noun number=singular
   marquees:
-    m01: pos=noun root=marque number=plural
+    m01: pos=noun root=marquee number=plural
   marques:
     m01: pos=noun root=marque number=plural
   marquess:
@@ -192500,7 +192500,7 @@ dictionary
   matelote:
     m01: pos=noun number=singular
   matelotes:
-    m01: pos=noun root=matelot number=plural
+    m01: pos=noun root=matelote number=plural
   matelots:
     m01: pos=noun root=matelot number=plural
   mater:
@@ -192578,7 +192578,7 @@ dictionary
   maters:
     m01: pos=noun root=mater number=plural
   mates:
-    m01: pos=noun root=mat number=plural
+    m01: pos=noun root=mate number=plural
     m02: pos=verb root=mate vform=pres3sg tense=present person=3 number=singular
   mateship:
     m01: pos=noun number=singular
@@ -192759,7 +192759,7 @@ dictionary
   mattery:
     m01: pos=adj
   mattes:
-    m01: pos=noun root=matt number=plural
+    m01: pos=noun root=matte number=plural
   mattin:
     m01: pos=noun number=singular
   matting:
@@ -194029,7 +194029,7 @@ dictionary
   megapode:
     m01: pos=noun number=singular
   megapodes:
-    m01: pos=noun root=megapod number=plural
+    m01: pos=noun root=megapode number=plural
   megapods:
     m01: pos=noun root=megapod number=plural
   megaproject:
@@ -195273,7 +195273,7 @@ dictionary
   merle:
     m01: pos=noun number=singular
   merles:
-    m01: pos=noun root=merl number=plural
+    m01: pos=noun root=merle number=plural
   merlin:
     m01: pos=noun number=singular
   merlins:
@@ -195607,7 +195607,7 @@ dictionary
   mesquite:
     m01: pos=noun number=singular
   mesquites:
-    m01: pos=noun root=mesquit number=plural
+    m01: pos=noun root=mesquite number=plural
   mesquits:
     m01: pos=noun root=mesquit number=plural
   mess:
@@ -195930,7 +195930,7 @@ dictionary
   metamere:
     m01: pos=noun number=singular
   metameres:
-    m01: pos=noun root=metamer number=plural
+    m01: pos=noun root=metamere number=plural
   metameric:
     m01: pos=adj
   metamerically:
@@ -196196,7 +196196,7 @@ dictionary
   methadone:
     m01: pos=noun number=singular
   methadones:
-    m01: pos=noun root=methadon number=plural
+    m01: pos=noun root=methadone number=plural
   methadons:
     m01: pos=noun root=methadon number=plural
   methamphetamine:
@@ -196599,7 +196599,7 @@ dictionary
   mezquite:
     m01: pos=noun number=singular
   mezquites:
-    m01: pos=noun root=mezquit number=plural
+    m01: pos=noun root=mezquite number=plural
   mezquits:
     m01: pos=noun root=mezquit number=plural
   mezuza:
@@ -196712,7 +196712,7 @@ dictionary
   micelle:
     m01: pos=noun number=singular
   micelles:
-    m01: pos=noun root=micell number=plural
+    m01: pos=noun root=micelle number=plural
   micells:
     m01: pos=noun root=micell number=plural
   miche:
@@ -198105,7 +198105,7 @@ dictionary
   milers:
     m01: pos=noun root=miler number=plural
   miles:
-    m01: pos=noun root=mil number=plural
+    m01: pos=noun root=mile number=plural
   milesimo:
     m01: pos=noun number=singular
   milesimos:
@@ -198353,7 +198353,7 @@ dictionary
   millepede:
     m01: pos=noun number=singular
   millepedes:
-    m01: pos=noun root=milleped number=plural
+    m01: pos=noun root=millepede number=plural
   millepeds:
     m01: pos=noun root=milleped number=plural
   miller:
@@ -198517,7 +198517,7 @@ dictionary
   millipede:
     m01: pos=noun number=singular
   millipedes:
-    m01: pos=noun root=milliped number=plural
+    m01: pos=noun root=millipede number=plural
   millipeds:
     m01: pos=noun root=milliped number=plural
   milliradian:
@@ -199331,7 +199331,7 @@ dictionary
     m02: pos=verb root=mire vform=pastpart
     m03: pos=adj
   mires:
-    m01: pos=noun root=mir number=plural
+    m01: pos=noun root=mire number=plural
     m02: pos=verb root=mire vform=pres3sg tense=present person=3 number=singular
   mirex:
     m01: pos=noun number=singular
@@ -200455,7 +200455,7 @@ dictionary
   misericorde:
     m01: pos=noun number=singular
   misericordes:
-    m01: pos=noun root=misericord number=plural
+    m01: pos=noun root=misericorde number=plural
   misericords:
     m01: pos=noun root=misericord number=plural
   miseries:
@@ -202174,7 +202174,7 @@ dictionary
   miswrite:
     m01: pos=noun number=singular
   miswrites:
-    m01: pos=noun root=miswrit number=plural
+    m01: pos=noun root=miswrite number=plural
   miswriting:
     m01: pos=noun number=singular
     m02: pos=verb vform=base tense=present
@@ -202708,7 +202708,7 @@ dictionary
   moderns:
     m01: pos=noun root=modern number=plural
   modes:
-    m01: pos=noun root=mod number=plural
+    m01: pos=noun root=mode number=plural
   modest:
     m01: pos=adj
   modester:
@@ -203049,7 +203049,7 @@ dictionary
   molehills:
     m01: pos=noun root=molehill number=plural
   moles:
-    m01: pos=noun root=mol number=plural
+    m01: pos=noun root=mole number=plural
   moleskin:
     m01: pos=noun number=singular
   moleskins:
@@ -204600,7 +204600,7 @@ dictionary
   moose:
     m01: pos=noun number=singular
   mooses:
-    m01: pos=noun root=moos number=plural
+    m01: pos=noun root=moose number=plural
   moot:
     m01: pos=verb vform=base tense=present
     m02: pos=adj
@@ -204640,7 +204640,7 @@ dictionary
   mopery:
     m01: pos=noun number=singular
   mopes:
-    m01: pos=noun root=mop number=plural
+    m01: pos=noun root=mope number=plural
     m02: pos=verb root=mope vform=pres3sg tense=present person=3 number=singular
   mopey:
     m01: pos=verb vform=base tense=present
@@ -204704,7 +204704,7 @@ dictionary
   morale:
     m01: pos=noun number=singular
   morales:
-    m01: pos=noun root=moral number=plural
+    m01: pos=noun root=morale number=plural
   moralise:
     m01: pos=verb vform=base tense=present
   moralised:
@@ -204834,7 +204834,7 @@ dictionary
   moreover:
     m01: pos=adv
   mores:
-    m01: pos=noun root=mor number=plural
+    m01: pos=noun root=more number=plural
   moresque:
     m01: pos=adj
   moresques:
@@ -204941,7 +204941,7 @@ dictionary
   morphine:
     m01: pos=noun number=singular
   morphines:
-    m01: pos=noun root=morphin number=plural
+    m01: pos=noun root=morphine number=plural
   morphinism:
     m01: pos=noun number=singular
   morphinisms:
@@ -205070,7 +205070,7 @@ dictionary
   mortgagee:
     m01: pos=noun number=singular
   mortgagees:
-    m01: pos=noun root=mortgage number=plural
+    m01: pos=noun root=mortgagee number=plural
     m02: pos=verb root=mortgage vform=pres3sg tense=present person=3 number=singular
   mortgager:
     m01: pos=noun number=singular
@@ -205266,7 +205266,7 @@ dictionary
   motels:
     m01: pos=noun root=motel number=plural
   motes:
-    m01: pos=noun root=mot number=plural
+    m01: pos=noun root=mote number=plural
   motet:
     m01: pos=noun number=singular
   motets:
@@ -205435,7 +205435,7 @@ dictionary
   motivelessly:
     m01: pos=adv
   motives:
-    m01: pos=noun root=motif number=plural
+    m01: pos=noun root=motive number=plural
   motivic:
     m01: pos=adj
   motiving:
@@ -207652,7 +207652,7 @@ dictionary
   murrelets:
     m01: pos=noun root=murrelet number=plural
   murres:
-    m01: pos=noun root=murr number=plural
+    m01: pos=noun root=murre number=plural
   murrey:
     m01: pos=noun number=singular
   murreys:
@@ -207775,7 +207775,7 @@ dictionary
   musers:
     m01: pos=noun root=muser number=plural
   muses:
-    m01: pos=noun root=mus number=plural
+    m01: pos=noun root=muse number=plural
     m02: pos=verb root=muse vform=pres3sg tense=present person=3 number=singular
   musette:
     m01: pos=noun number=singular
@@ -208131,7 +208131,7 @@ dictionary
   muter:
     m01: pos=adj
   mutes:
-    m01: pos=noun root=mut number=plural
+    m01: pos=noun root=mute number=plural
     m02: pos=verb root=mute vform=pres3sg tense=present person=3 number=singular
   mutest:
     m01: pos=adj
@@ -208449,7 +208449,7 @@ dictionary
   myeline:
     m01: pos=noun number=singular
   myelines:
-    m01: pos=noun root=myelin number=plural
+    m01: pos=noun root=myeline number=plural
   myelinic:
     m01: pos=adj
   myelins:
@@ -209262,7 +209262,7 @@ dictionary
   napery:
     m01: pos=noun number=singular
   napes:
-    m01: pos=noun root=nap number=plural
+    m01: pos=noun root=nape number=plural
     m02: pos=verb root=nap vform=pres3sg tense=present person=3 number=singular
   naphtha:
     m01: pos=noun number=singular
@@ -209346,7 +209346,7 @@ dictionary
   narceine:
     m01: pos=noun number=singular
   narceines:
-    m01: pos=noun root=narcein number=plural
+    m01: pos=noun root=narceine number=plural
   narceins:
     m01: pos=noun root=narcein number=plural
   narcism:
@@ -209537,7 +209537,7 @@ dictionary
   narwhale:
     m01: pos=noun number=singular
   narwhales:
-    m01: pos=noun root=narwhal number=plural
+    m01: pos=noun root=narwhale number=plural
   narwhals:
     m01: pos=noun root=narwhal number=plural
   nary:
@@ -210560,7 +210560,7 @@ dictionary
   negligee:
     m01: pos=noun number=singular
   negligees:
-    m01: pos=noun root=neglige number=plural
+    m01: pos=noun root=negligee number=plural
   negligence:
     m01: pos=noun number=singular
   negligences:
@@ -211335,7 +211335,7 @@ dictionary
   neume:
     m01: pos=noun number=singular
   neumes:
-    m01: pos=noun root=neum number=plural
+    m01: pos=noun root=neume number=plural
   neumic:
     m01: pos=adj
   neums:
@@ -212187,7 +212187,7 @@ dictionary
   nicotine:
     m01: pos=noun number=singular
   nicotines:
-    m01: pos=noun root=nicotin number=plural
+    m01: pos=noun root=nicotine number=plural
   nicotinic:
     m01: pos=adj
   nicotins:
@@ -212408,7 +212408,7 @@ dictionary
   nightie:
     m01: pos=noun number=singular
   nighties:
-    m01: pos=noun root=nighty number=plural
+    m01: pos=noun root=nightie number=plural
   nightingale:
     m01: pos=noun number=singular
   nightingales:
@@ -212839,7 +212839,7 @@ dictionary
   nitrile:
     m01: pos=noun number=singular
   nitriles:
-    m01: pos=noun root=nitril number=plural
+    m01: pos=noun root=nitrile number=plural
   nitrils:
     m01: pos=noun root=nitril number=plural
   nitrite:
@@ -212877,7 +212877,7 @@ dictionary
   nitroglycerine:
     m01: pos=noun number=singular
   nitroglycerines:
-    m01: pos=noun root=nitroglycerin number=plural
+    m01: pos=noun root=nitroglycerine number=plural
   nitroglycerins:
     m01: pos=noun root=nitroglycerin number=plural
   nitrolic:
@@ -213054,7 +213054,7 @@ dictionary
   nocturne:
     m01: pos=noun number=singular
   nocturnes:
-    m01: pos=noun root=nocturn number=plural
+    m01: pos=noun root=nocturne number=plural
   nocturns:
     m01: pos=noun root=nocturn number=plural
   nocuous:
@@ -213097,7 +213097,7 @@ dictionary
   node:
     m01: pos=noun number=singular
   nodes:
-    m01: pos=noun root=nod number=plural
+    m01: pos=noun root=node number=plural
     m02: pos=verb root=nod vform=pres3sg tense=present person=3 number=singular
   nodi:
     m01: pos=noun root=nodus number=plural
@@ -213278,7 +213278,7 @@ dictionary
   nomenclatures:
     m01: pos=noun root=nomenclature number=plural
   nomes:
-    m01: pos=noun root=nom number=plural
+    m01: pos=noun root=nome number=plural
   nomina:
     m01: pos=noun root=nomen number=plural
   nominal:
@@ -216814,7 +216814,7 @@ dictionary
   noradrenaline:
     m01: pos=noun number=singular
   noradrenalines:
-    m01: pos=noun root=noradrenalin number=plural
+    m01: pos=noun root=noradrenaline number=plural
   noradrenalins:
     m01: pos=noun root=noradrenalin number=plural
   noradrenergic:
@@ -217070,7 +217070,7 @@ dictionary
   noserings:
     m01: pos=noun root=nosering number=plural
   noses:
-    m01: pos=noun root=nos number=plural
+    m01: pos=noun root=nose number=plural
     m02: pos=verb root=nose vform=pres3sg tense=present person=3 number=singular
   nosewheel:
     m01: pos=noun number=singular
@@ -218898,7 +218898,7 @@ dictionary
   obole:
     m01: pos=noun number=singular
   oboles:
-    m01: pos=noun root=obol number=plural
+    m01: pos=noun root=obole number=plural
   oboli:
     m01: pos=noun root=obolus number=plural
   obols:
@@ -219618,7 +219618,7 @@ dictionary
   octane:
     m01: pos=noun number=singular
   octanes:
-    m01: pos=noun root=octan number=plural
+    m01: pos=noun root=octane number=plural
   octangle:
     m01: pos=noun number=singular
   octangles:
@@ -219911,7 +219911,7 @@ dictionary
   odyle:
     m01: pos=noun number=singular
   odyles:
-    m01: pos=noun root=odyl number=plural
+    m01: pos=noun root=odyle number=plural
   odyls:
     m01: pos=noun root=odyl number=plural
   odyssey:
@@ -220517,7 +220517,7 @@ dictionary
   oldie:
     m01: pos=noun number=singular
   oldies:
-    m01: pos=noun root=oldy number=plural
+    m01: pos=noun root=oldie number=plural
   oldish:
     m01: pos=adj
   oldness:
@@ -220581,7 +220581,7 @@ dictionary
   olefine:
     m01: pos=noun number=singular
   olefines:
-    m01: pos=noun root=olefin number=plural
+    m01: pos=noun root=olefine number=plural
   olefinic:
     m01: pos=adj
   olefins:
@@ -222111,7 +222111,7 @@ dictionary
   orangery:
     m01: pos=noun number=singular
   oranges:
-    m01: pos=noun root=orang number=plural
+    m01: pos=noun root=orange number=plural
   orangewood:
     m01: pos=noun number=singular
   orangewoods:
@@ -222932,7 +222932,7 @@ dictionary
   orpine:
     m01: pos=noun number=singular
   orpines:
-    m01: pos=noun root=orpin number=plural
+    m01: pos=noun root=orpine number=plural
   orpins:
     m01: pos=noun root=orpin number=plural
   orra:
@@ -223262,7 +223262,7 @@ dictionary
   osmole:
     m01: pos=noun number=singular
   osmoles:
-    m01: pos=noun root=osmol number=plural
+    m01: pos=noun root=osmole number=plural
   osmols:
     m01: pos=noun root=osmol number=plural
   osmometer:
@@ -223744,7 +223744,7 @@ dictionary
   ouphe:
     m01: pos=noun number=singular
   ouphes:
-    m01: pos=noun root=ouph number=plural
+    m01: pos=noun root=ouphe number=plural
   ouphs:
     m01: pos=noun root=ouph number=plural
   our:
@@ -224148,7 +224148,7 @@ dictionary
     m01: pos=noun number=singular
     m02: pos=adj
   outcastes:
-    m01: pos=noun root=outcast number=plural
+    m01: pos=noun root=outcaste number=plural
   outcasts:
     m01: pos=noun root=outcast number=plural
   outcatch:
@@ -226774,7 +226774,7 @@ dictionary
   outwrite:
     m01: pos=noun number=singular
   outwrites:
-    m01: pos=noun root=outwrit number=plural
+    m01: pos=noun root=outwrite number=plural
   outwriting:
     m01: pos=noun number=singular
     m02: pos=verb vform=base tense=present
@@ -230972,7 +230972,7 @@ dictionary
   oxide:
     m01: pos=noun number=singular
   oxides:
-    m01: pos=noun root=oxid number=plural
+    m01: pos=noun root=oxide number=plural
   oxidic:
     m01: pos=adj
   oxidise:
@@ -231020,7 +231020,7 @@ dictionary
   oxime:
     m01: pos=noun number=singular
   oximes:
-    m01: pos=noun root=oxim number=plural
+    m01: pos=noun root=oxime number=plural
   oxims:
     m01: pos=noun root=oxim number=plural
   oxlip:
@@ -231112,7 +231112,7 @@ dictionary
   oxyphile:
     m01: pos=noun number=singular
   oxyphiles:
-    m01: pos=noun root=oxyphil number=plural
+    m01: pos=noun root=oxyphile number=plural
   oxyphilic:
     m01: pos=adj
   oxyphils:
@@ -231280,7 +231280,7 @@ dictionary
   pacers:
     m01: pos=noun root=pacer number=plural
   paces:
-    m01: pos=noun root=pac number=plural
+    m01: pos=noun root=pace number=plural
     m02: pos=verb root=pace vform=pres3sg tense=present person=3 number=singular
   pacesetter:
     m01: pos=noun number=singular
@@ -232218,7 +232218,7 @@ dictionary
   paler:
     m01: pos=adj
   pales:
-    m01: pos=noun root=pal number=plural
+    m01: pos=noun root=pale number=plural
     m02: pos=verb root=pale vform=pres3sg tense=present person=3 number=singular
   palest:
     m01: pos=adj
@@ -232879,7 +232879,7 @@ dictionary
     m01: pos=noun root=panel number=plural
     m02: pos=verb root=panel vform=pres3sg tense=present person=3 number=singular
   panes:
-    m01: pos=noun root=pan number=plural
+    m01: pos=noun root=pane number=plural
     m02: pos=verb root=pan vform=pres3sg tense=present person=3 number=singular
   panetela:
     m01: pos=noun number=singular
@@ -232918,7 +232918,7 @@ dictionary
   pangene:
     m01: pos=noun number=singular
   pangenes:
-    m01: pos=noun root=pangen number=plural
+    m01: pos=noun root=pangene number=plural
   pangeneses:
     m01: pos=noun root=pangenes number=plural
   pangenesis:
@@ -234615,10 +234615,10 @@ dictionary
   parolee:
     m01: pos=noun number=singular
   parolees:
-    m01: pos=noun root=parole number=plural
+    m01: pos=noun root=parolee number=plural
     m02: pos=verb root=parole vform=pres3sg tense=present person=3 number=singular
   paroles:
-    m01: pos=noun root=parol number=plural
+    m01: pos=noun root=parole number=plural
     m02: pos=verb root=parole vform=pres3sg tense=present person=3 number=singular
   paroling:
     m01: pos=verb root=parole vform=ger
@@ -235390,7 +235390,7 @@ dictionary
   pasters:
     m01: pos=noun number=singular
   pastes:
-    m01: pos=noun root=past number=plural
+    m01: pos=noun root=paste number=plural
     m02: pos=verb root=paste vform=pres3sg tense=present person=3 number=singular
   pasteup:
     m01: pos=noun number=singular
@@ -235488,7 +235488,7 @@ dictionary
   pastorale:
     m01: pos=noun number=singular
   pastorales:
-    m01: pos=noun root=pastoral number=plural
+    m01: pos=noun root=pastorale number=plural
   pastoralism:
     m01: pos=noun number=singular
   pastoralisms:
@@ -235711,7 +235711,7 @@ dictionary
   paters:
     m01: pos=noun root=pater number=plural
   pates:
-    m01: pos=noun root=pat number=plural
+    m01: pos=noun root=pate number=plural
     m02: pos=verb root=pat vform=pres3sg tense=present person=3 number=singular
   path:
     m01: pos=noun number=singular
@@ -236156,7 +236156,7 @@ dictionary
   pavane:
     m01: pos=noun number=singular
   pavanes:
-    m01: pos=noun root=pavan number=plural
+    m01: pos=noun root=pavane number=plural
   pavans:
     m01: pos=noun root=pavan number=plural
   pave:
@@ -238338,7 +238338,7 @@ dictionary
   peptide:
     m01: pos=noun number=singular
   peptides:
-    m01: pos=noun root=peptid number=plural
+    m01: pos=noun root=peptide number=plural
   peptidic:
     m01: pos=adj
   peptidoglycan:
@@ -238572,7 +238572,7 @@ dictionary
   perdue:
     m01: pos=noun number=singular
   perdues:
-    m01: pos=noun root=perdu number=plural
+    m01: pos=noun root=perdue number=plural
   perdurabilities:
     m01: pos=noun root=perdurability number=plural
   perdurability:
@@ -238615,7 +238615,7 @@ dictionary
     m01: pos=noun number=singular
     m02: pos=adj
   peregrines:
-    m01: pos=noun root=peregrin number=plural
+    m01: pos=noun root=peregrine number=plural
   peregrins:
     m01: pos=noun root=peregrin number=plural
   pereia:
@@ -239471,7 +239471,7 @@ dictionary
     m01: pos=verb root=peroxide vform=past tense=past
     m02: pos=verb root=peroxide vform=pastpart
   peroxides:
-    m01: pos=noun root=peroxid number=plural
+    m01: pos=noun root=peroxide number=plural
     m02: pos=verb root=peroxide vform=pres3sg tense=present person=3 number=singular
   peroxidic:
     m01: pos=adj
@@ -240839,7 +240839,7 @@ dictionary
   phenazine:
     m01: pos=noun number=singular
   phenazines:
-    m01: pos=noun root=phenazin number=plural
+    m01: pos=noun root=phenazine number=plural
   phenazins:
     m01: pos=noun root=phenazin number=plural
   phencyclidine:
@@ -241367,7 +241367,7 @@ dictionary
   phonemics:
     m01: pos=noun number=singular
   phones:
-    m01: pos=noun root=phon number=plural
+    m01: pos=noun root=phone number=plural
     m02: pos=verb root=phone vform=pres3sg tense=present person=3 number=singular
   phonetic:
     m01: pos=adj
@@ -241557,7 +241557,7 @@ dictionary
   phosphide:
     m01: pos=noun number=singular
   phosphides:
-    m01: pos=noun root=phosphid number=plural
+    m01: pos=noun root=phosphide number=plural
   phosphids:
     m01: pos=noun root=phosphid number=plural
   phosphin:
@@ -241565,7 +241565,7 @@ dictionary
   phosphine:
     m01: pos=noun number=singular
   phosphines:
-    m01: pos=noun root=phosphin number=plural
+    m01: pos=noun root=phosphine number=plural
   phosphins:
     m01: pos=noun root=phosphin number=plural
   phosphite:
@@ -243153,7 +243153,7 @@ dictionary
   picoline:
     m01: pos=noun number=singular
   picolines:
-    m01: pos=noun root=picolin number=plural
+    m01: pos=noun root=picoline number=plural
   picolins:
     m01: pos=noun root=picolin number=plural
   picomole:
@@ -243423,7 +243423,7 @@ dictionary
   piers:
     m01: pos=noun root=pier number=plural
   pies:
-    m01: pos=noun root=pi number=plural
+    m01: pos=noun root=pie number=plural
   pieta:
     m01: pos=noun number=singular
   pietas:
@@ -244099,7 +244099,7 @@ dictionary
   pinery:
     m01: pos=noun number=singular
   pines:
-    m01: pos=noun root=pin number=plural
+    m01: pos=noun root=pine number=plural
     m02: pos=verb root=pine vform=pres3sg tense=present person=3 number=singular
   pinesap:
     m01: pos=noun number=singular
@@ -244226,7 +244226,7 @@ dictionary
   pinkeye:
     m01: pos=noun number=singular
   pinkeyes:
-    m01: pos=noun root=pinkey number=plural
+    m01: pos=noun root=pinkeye number=plural
   pinkeys:
     m01: pos=noun root=pinkey number=plural
   pinkie:
@@ -244570,7 +244570,7 @@ dictionary
   pipers:
     m01: pos=noun root=piper number=plural
   pipes:
-    m01: pos=noun root=pip number=plural
+    m01: pos=noun root=pipe number=plural
     m02: pos=verb root=pipe vform=pres3sg tense=present person=3 number=singular
   pipestem:
     m01: pos=noun number=singular
@@ -245159,7 +245159,7 @@ dictionary
   pixieish:
     m01: pos=adj
   pixies:
-    m01: pos=noun root=pixy number=plural
+    m01: pos=noun root=pixie number=plural
   pixilated:
     m01: pos=adj
   pixilation:
@@ -245582,7 +245582,7 @@ dictionary
   planers:
     m01: pos=noun root=planer number=plural
   planes:
-    m01: pos=noun root=plan number=plural
+    m01: pos=noun root=plane number=plural
     m02: pos=verb root=plane vform=pres3sg tense=present person=3 number=singular
   planet:
     m01: pos=noun number=singular
@@ -246486,7 +246486,7 @@ dictionary
   plebeians:
     m01: pos=noun root=plebeian number=plural
   plebes:
-    m01: pos=noun root=pleb number=plural
+    m01: pos=noun root=plebe number=plural
   plebiscitary:
     m01: pos=adj
   plebiscite:
@@ -246801,7 +246801,7 @@ dictionary
   plimsole:
     m01: pos=noun number=singular
   plimsoles:
-    m01: pos=noun root=plimsol number=plural
+    m01: pos=noun root=plimsole number=plural
   plimsoll:
     m01: pos=noun number=singular
   plimsolls:
@@ -247150,7 +247150,7 @@ dictionary
   plumerias:
     m01: pos=noun root=plumeria number=plural
   plumes:
-    m01: pos=noun root=plum number=plural
+    m01: pos=noun root=plume number=plural
     m02: pos=verb root=plume vform=pres3sg tense=present person=3 number=singular
   plumier:
     m01: pos=adj
@@ -247916,7 +247916,7 @@ dictionary
   poisers:
     m01: pos=noun root=poiser number=plural
   poises:
-    m01: pos=noun root=pois number=plural
+    m01: pos=noun root=poise number=plural
     m02: pos=verb root=poise vform=pres3sg tense=present person=3 number=singular
   poisha:
     m01: pos=noun number=singular
@@ -248143,7 +248143,7 @@ dictionary
   polers:
     m01: pos=noun root=poler number=plural
   poles:
-    m01: pos=noun root=pol number=plural
+    m01: pos=noun root=pole number=plural
     m02: pos=verb root=pole vform=pres3sg tense=present person=3 number=singular
   polestar:
     m01: pos=noun number=singular
@@ -249149,7 +249149,7 @@ dictionary
   pomelos:
     m01: pos=noun root=pomelo number=plural
   pomes:
-    m01: pos=noun root=pom number=plural
+    m01: pos=noun root=pome number=plural
   pomfret:
     m01: pos=noun number=singular
   pomfrets:
@@ -249483,7 +249483,7 @@ dictionary
   poove:
     m01: pos=noun number=singular
   pooves:
-    m01: pos=noun root=poof number=plural
+    m01: pos=noun root=poove number=plural
   pop:
     m01: pos=noun number=singular
     m02: pos=verb vform=base tense=present
@@ -249509,7 +249509,7 @@ dictionary
   popery:
     m01: pos=noun number=singular
   popes:
-    m01: pos=noun root=pop number=plural
+    m01: pos=noun root=pope number=plural
     m02: pos=verb root=pop vform=pres3sg tense=present person=3 number=singular
   popeyed:
     m01: pos=adj
@@ -250020,7 +250020,7 @@ dictionary
   posers:
     m01: pos=noun root=poser number=plural
   poses:
-    m01: pos=noun root=pos number=plural
+    m01: pos=noun root=pose number=plural
     m02: pos=verb root=pose vform=pres3sg tense=present person=3 number=singular
   poseur:
     m01: pos=noun number=singular
@@ -251244,7 +251244,7 @@ dictionary
   pouffed:
     m01: pos=verb vform=base tense=present
   pouffes:
-    m01: pos=noun root=pouff number=plural
+    m01: pos=noun root=pouffe number=plural
   pouffs:
     m01: pos=noun root=pouff number=plural
   poufs:
@@ -251254,7 +251254,7 @@ dictionary
   poularde:
     m01: pos=noun number=singular
   poulardes:
-    m01: pos=noun root=poulard number=plural
+    m01: pos=noun root=poularde number=plural
   poulards:
     m01: pos=noun root=poulard number=plural
   poult:
@@ -251765,7 +251765,7 @@ dictionary
   praters:
     m01: pos=noun root=prater number=plural
   prates:
-    m01: pos=noun root=prat number=plural
+    m01: pos=noun root=prate number=plural
     m02: pos=verb root=prate vform=pres3sg tense=present person=3 number=singular
   pratfall:
     m01: pos=noun number=singular
@@ -253770,7 +253770,7 @@ dictionary
     m01: pos=verb root=premiere vform=past tense=past
     m02: pos=verb root=premiere vform=pastpart
   premieres:
-    m01: pos=noun root=premier number=plural
+    m01: pos=noun root=premiere number=plural
     m02: pos=verb root=premiere vform=pres3sg tense=present person=3 number=singular
   premiering:
     m01: pos=verb root=premiere vform=ger
@@ -255262,7 +255262,7 @@ dictionary
     m01: pos=noun number=singular
     m02: pos=adj
   preterites:
-    m01: pos=noun root=preterit number=plural
+    m01: pos=noun root=preterite number=plural
   preterits:
     m01: pos=noun root=preterit number=plural
   preterm:
@@ -257036,7 +257036,7 @@ dictionary
   professoriate:
     m01: pos=noun number=singular
   professoriates:
-    m01: pos=noun root=professoriat number=plural
+    m01: pos=noun root=professoriate number=plural
   professoriats:
     m01: pos=noun root=professoriat number=plural
   professors:
@@ -257445,7 +257445,7 @@ dictionary
   prolamine:
     m01: pos=noun number=singular
   prolamines:
-    m01: pos=noun root=prolamin number=plural
+    m01: pos=noun root=prolamine number=plural
   prolamins:
     m01: pos=noun root=prolamin number=plural
   prolan:
@@ -257685,7 +257685,7 @@ dictionary
   promisee:
     m01: pos=noun number=singular
   promisees:
-    m01: pos=noun root=promise number=plural
+    m01: pos=noun root=promisee number=plural
     m02: pos=verb root=promise vform=pres3sg tense=present person=3 number=singular
   promiser:
     m01: pos=noun number=singular
@@ -258573,7 +258573,7 @@ dictionary
   prosers:
     m01: pos=noun root=proser number=plural
   proses:
-    m01: pos=noun root=pros number=plural
+    m01: pos=noun root=prose number=plural
   prosier:
     m01: pos=adj
   prosiest:
@@ -258799,7 +258799,7 @@ dictionary
   protamine:
     m01: pos=noun number=singular
   protamines:
-    m01: pos=noun root=protamin number=plural
+    m01: pos=noun root=protamine number=plural
   protamins:
     m01: pos=noun root=protamin number=plural
   protases:
@@ -258819,7 +258819,7 @@ dictionary
   protease:
     m01: pos=noun number=singular
   proteases:
-    m01: pos=noun root=proteas number=plural
+    m01: pos=noun root=protease number=plural
   protect:
     m01: pos=verb vform=base tense=present
   protectant:
@@ -258883,7 +258883,7 @@ dictionary
   protegee:
     m01: pos=noun number=singular
   protegees:
-    m01: pos=noun root=protege number=plural
+    m01: pos=noun root=protegee number=plural
   proteges:
     m01: pos=noun root=protege number=plural
   protei:
@@ -258893,7 +258893,7 @@ dictionary
   proteide:
     m01: pos=noun number=singular
   proteides:
-    m01: pos=noun root=proteid number=plural
+    m01: pos=noun root=proteide number=plural
   proteids:
     m01: pos=noun root=proteid number=plural
   protein:
@@ -259256,7 +259256,7 @@ dictionary
   protyle:
     m01: pos=noun number=singular
   protyles:
-    m01: pos=noun root=protyl number=plural
+    m01: pos=noun root=protyle number=plural
   protyls:
     m01: pos=noun root=protyl number=plural
   proud:
@@ -260411,7 +260411,7 @@ dictionary
   ptomaine:
     m01: pos=noun number=singular
   ptomaines:
-    m01: pos=noun root=ptomain number=plural
+    m01: pos=noun root=ptomaine number=plural
   ptomains:
     m01: pos=noun root=ptomain number=plural
   ptoses:
@@ -260994,7 +260994,7 @@ dictionary
   pulsers:
     m01: pos=noun root=pulser number=plural
   pulses:
-    m01: pos=noun root=puls number=plural
+    m01: pos=noun root=pulse number=plural
     m02: pos=verb root=pulse vform=pres3sg tense=present person=3 number=singular
   pulsing:
     m01: pos=noun number=singular
@@ -261652,7 +261652,7 @@ dictionary
   purine:
     m01: pos=noun number=singular
   purines:
-    m01: pos=noun root=purin number=plural
+    m01: pos=noun root=purine number=plural
   purins:
     m01: pos=noun root=purin number=plural
   puris:
@@ -261701,7 +261701,7 @@ dictionary
   purline:
     m01: pos=noun number=singular
   purlines:
-    m01: pos=noun root=purlin number=plural
+    m01: pos=noun root=purline number=plural
   purling:
     m01: pos=verb root=purl vform=ger
   purlins:
@@ -261844,7 +261844,7 @@ dictionary
   pursers:
     m01: pos=noun root=purser number=plural
   purses:
-    m01: pos=noun root=purs number=plural
+    m01: pos=noun root=purse number=plural
     m02: pos=verb root=purse vform=pres3sg tense=present person=3 number=singular
   pursier:
     m01: pos=adj
@@ -262667,7 +262667,7 @@ dictionary
   pyrrole:
     m01: pos=noun number=singular
   pyrroles:
-    m01: pos=noun root=pyrrol number=plural
+    m01: pos=noun root=pyrrole number=plural
   pyrrolic:
     m01: pos=adj
   pyrrols:
@@ -264085,7 +264085,7 @@ dictionary
   quinine:
     m01: pos=noun number=singular
   quinines:
-    m01: pos=noun root=quinin number=plural
+    m01: pos=noun root=quinine number=plural
   quinins:
     m01: pos=noun root=quinin number=plural
   quinnat:
@@ -264107,7 +264107,7 @@ dictionary
   quinoline:
     m01: pos=noun number=singular
   quinolines:
-    m01: pos=noun root=quinolin number=plural
+    m01: pos=noun root=quinoline number=plural
   quinolins:
     m01: pos=noun root=quinolin number=plural
   quinols:
@@ -265362,10 +265362,10 @@ dictionary
   ragee:
     m01: pos=noun number=singular
   ragees:
-    m01: pos=noun root=rage number=plural
+    m01: pos=noun root=ragee number=plural
     m02: pos=verb root=rage vform=pres3sg tense=present person=3 number=singular
   rages:
-    m01: pos=noun root=rag number=plural
+    m01: pos=noun root=rage number=plural
     m02: pos=verb root=rage vform=pres3sg tense=present person=3 number=singular
   ragged:
     m01: pos=verb root=rag vform=past tense=past
@@ -265828,7 +265828,7 @@ dictionary
   ramie:
     m01: pos=noun number=singular
   ramies:
-    m01: pos=noun root=rami number=plural
+    m01: pos=noun root=ramie number=plural
   ramification:
     m01: pos=noun number=singular
   ramifications:
@@ -266256,7 +266256,7 @@ dictionary
   rapers:
     m01: pos=noun root=raper number=plural
   rapes:
-    m01: pos=noun root=rap number=plural
+    m01: pos=noun root=rape number=plural
     m02: pos=verb root=rape vform=pres3sg tense=present person=3 number=singular
   rapeseed:
     m01: pos=noun number=singular
@@ -266648,7 +266648,7 @@ dictionary
   raters:
     m01: pos=noun root=rater number=plural
   rates:
-    m01: pos=noun root=rat number=plural
+    m01: pos=noun root=rate number=plural
     m02: pos=verb root=rate vform=pres3sg tense=present person=3 number=singular
   ratfink:
     m01: pos=noun number=singular
@@ -266809,7 +266809,7 @@ dictionary
   ratline:
     m01: pos=noun number=singular
   ratlines:
-    m01: pos=noun root=ratlin number=plural
+    m01: pos=noun root=ratline number=plural
   ratlins:
     m01: pos=noun root=ratlin number=plural
   rato:
@@ -271954,7 +271954,7 @@ dictionary
     m01: pos=verb root=reeve vform=past tense=past
     m02: pos=verb root=reeve vform=pastpart
   reeves:
-    m01: pos=noun root=reef number=plural
+    m01: pos=noun root=reeve number=plural
     m02: pos=verb root=reeve vform=pres3sg tense=present person=3 number=singular
   reeving:
     m01: pos=verb root=reeve vform=ger
@@ -272580,7 +272580,7 @@ dictionary
   reformate:
     m01: pos=noun number=singular
   reformates:
-    m01: pos=noun root=reformat number=plural
+    m01: pos=noun root=reformate number=plural
   reformation:
     m01: pos=noun number=singular
   reformational:
@@ -272866,7 +272866,7 @@ dictionary
   refugeeisms:
     m01: pos=noun root=refugeeism number=plural
   refugees:
-    m01: pos=noun root=refuge number=plural
+    m01: pos=noun root=refugee number=plural
   refuges:
     m01: pos=noun root=refuge number=plural
   refugia:
@@ -276379,7 +276379,7 @@ dictionary
   renters:
     m01: pos=noun root=renter number=plural
   rentes:
-    m01: pos=noun root=rent number=plural
+    m01: pos=noun root=rente number=plural
     m02: pos=verb root=rent vform=pres3sg tense=present person=3 number=singular
   rentier:
     m01: pos=noun number=singular
@@ -277363,7 +277363,7 @@ dictionary
   reposers:
     m01: pos=noun root=reposer number=plural
   reposes:
-    m01: pos=noun root=repos number=plural
+    m01: pos=noun root=repose number=plural
     m02: pos=verb root=repose vform=pres3sg tense=present person=3 number=singular
   reposing:
     m01: pos=verb root=repose vform=ger
@@ -280677,7 +280677,7 @@ dictionary
   retiree:
     m01: pos=noun number=singular
   retirees:
-    m01: pos=noun root=retire number=plural
+    m01: pos=noun root=retiree number=plural
     m02: pos=verb root=retire vform=pres3sg tense=present person=3 number=singular
   retirement:
     m01: pos=noun number=singular
@@ -281575,7 +281575,7 @@ dictionary
   reverie:
     m01: pos=noun number=singular
   reveries:
-    m01: pos=noun root=revery number=plural
+    m01: pos=noun root=reverie number=plural
   reverified:
     m01: pos=verb vform=base tense=present
     m02: pos=adj
@@ -281608,7 +281608,7 @@ dictionary
   reversers:
     m01: pos=noun number=singular
   reverses:
-    m01: pos=noun root=revers number=plural
+    m01: pos=noun root=reverse number=plural
     m02: pos=verb root=reverse vform=pres3sg tense=present person=3 number=singular
   reversibilities:
     m01: pos=noun root=reversibility number=plural
@@ -282277,7 +282277,7 @@ dictionary
   rhabdomeres:
     m01: pos=noun root=rhabdomere number=plural
   rhabdomes:
-    m01: pos=noun root=rhabdom number=plural
+    m01: pos=noun root=rhabdome number=plural
   rhabdoms:
     m01: pos=noun root=rhabdom number=plural
   rhabdomyosarcoma:
@@ -282541,7 +282541,7 @@ dictionary
   rhodamine:
     m01: pos=noun number=singular
   rhodamines:
-    m01: pos=noun root=rhodamin number=plural
+    m01: pos=noun root=rhodamine number=plural
   rhodamins:
     m01: pos=noun root=rhodamin number=plural
   rhodic:
@@ -283449,7 +283449,7 @@ dictionary
   rimers:
     m01: pos=noun root=rimer number=plural
   rimes:
-    m01: pos=noun root=rim number=plural
+    m01: pos=noun root=rime number=plural
     m02: pos=verb root=rime vform=pres3sg tense=present person=3 number=singular
   rimester:
     m01: pos=noun number=singular
@@ -283638,7 +283638,7 @@ dictionary
   rinsers:
     m01: pos=noun root=rinser number=plural
   rinses:
-    m01: pos=noun root=rins number=plural
+    m01: pos=noun root=rinse number=plural
     m02: pos=verb root=rinse vform=pres3sg tense=present person=3 number=singular
   rinsible:
     m01: pos=adj
@@ -283737,7 +283737,7 @@ dictionary
     m01: pos=verb root=riposte vform=past tense=past
     m02: pos=verb root=riposte vform=pastpart
   ripostes:
-    m01: pos=noun root=ripost number=plural
+    m01: pos=noun root=riposte number=plural
     m02: pos=verb root=riposte vform=pres3sg tense=present person=3 number=singular
   riposting:
     m01: pos=verb root=riposte vform=ger
@@ -284359,7 +284359,7 @@ dictionary
   rockabye:
     m01: pos=noun number=singular
   rockabyes:
-    m01: pos=noun root=rockaby number=plural
+    m01: pos=noun root=rockabye number=plural
   rockaway:
     m01: pos=noun number=singular
   rockaways:
@@ -285372,7 +285372,7 @@ dictionary
   rotenones:
     m01: pos=noun root=rotenone number=plural
   rotes:
-    m01: pos=noun root=rot number=plural
+    m01: pos=noun root=rote number=plural
     m02: pos=verb root=rot vform=pres3sg tense=present person=3 number=singular
   rotgut:
     m01: pos=noun number=singular
@@ -285796,7 +285796,7 @@ dictionary
   routers:
     m01: pos=noun root=router number=plural
   routes:
-    m01: pos=noun root=rout number=plural
+    m01: pos=noun root=route number=plural
     m02: pos=verb root=route vform=pres3sg tense=present person=3 number=singular
   routeway:
     m01: pos=noun number=singular
@@ -286096,7 +286096,7 @@ dictionary
   rubeolas:
     m01: pos=noun root=rubeola number=plural
   rubes:
-    m01: pos=noun root=rub number=plural
+    m01: pos=noun root=rube number=plural
     m02: pos=verb root=rub vform=pres3sg tense=present person=3 number=singular
   rubicund:
     m01: pos=adj
@@ -286745,7 +286745,7 @@ dictionary
   runelike:
     m01: pos=adj
   runes:
-    m01: pos=noun root=run number=plural
+    m01: pos=noun root=rune number=plural
     m02: pos=verb root=run vform=pres3sg tense=present person=3 number=singular
   rung:
     m01: pos=noun number=singular
@@ -287214,7 +287214,7 @@ dictionary
   sabine:
     m01: pos=noun number=singular
   sabines:
-    m01: pos=noun root=sabin number=plural
+    m01: pos=noun root=sabine number=plural
   sabins:
     m01: pos=noun root=sabin number=plural
   sabir:
@@ -287713,7 +287713,7 @@ dictionary
   safranine:
     m01: pos=noun number=singular
   safranines:
-    m01: pos=noun root=safranin number=plural
+    m01: pos=noun root=safranine number=plural
   safranins:
     m01: pos=noun root=safranin number=plural
   safrol:
@@ -287721,7 +287721,7 @@ dictionary
   safrole:
     m01: pos=noun number=singular
   safroles:
-    m01: pos=noun root=safrol number=plural
+    m01: pos=noun root=safrole number=plural
   safrols:
     m01: pos=noun root=safrol number=plural
   sag:
@@ -287775,7 +287775,7 @@ dictionary
   sager:
     m01: pos=adj
   sages:
-    m01: pos=noun root=sag number=plural
+    m01: pos=noun root=sage number=plural
     m02: pos=verb root=sag vform=pres3sg tense=present person=3 number=singular
   sagest:
     m01: pos=adj
@@ -288106,7 +288106,7 @@ dictionary
   salerooms:
     m01: pos=noun root=saleroom number=plural
   sales:
-    m01: pos=noun root=sal number=plural
+    m01: pos=noun root=sale number=plural
   salesclerk:
     m01: pos=noun number=singular
   salesclerks:
@@ -288148,7 +288148,7 @@ dictionary
   salicine:
     m01: pos=noun number=singular
   salicines:
-    m01: pos=noun root=salicin number=plural
+    m01: pos=noun root=salicine number=plural
   salicins:
     m01: pos=noun root=salicin number=plural
   salicylate:
@@ -289670,7 +289670,7 @@ dictionary
   sarode:
     m01: pos=noun number=singular
   sarodes:
-    m01: pos=noun root=sarod number=plural
+    m01: pos=noun root=sarode number=plural
   sarodist:
     m01: pos=noun number=singular
   sarodists:
@@ -290172,7 +290172,7 @@ dictionary
   sautoire:
     m01: pos=noun number=singular
   sautoires:
-    m01: pos=noun root=sautoir number=plural
+    m01: pos=noun root=sautoire number=plural
   sautoirs:
     m01: pos=noun root=sautoir number=plural
   savable:
@@ -290245,7 +290245,7 @@ dictionary
   savers:
     m01: pos=noun root=saver number=plural
   saves:
-    m01: pos=noun root=safe number=plural
+    m01: pos=noun root=save number=plural
     m02: pos=verb root=save vform=pres3sg tense=present person=3 number=singular
   savin:
     m01: pos=noun number=singular
@@ -290989,7 +290989,7 @@ dictionary
   scarers:
     m01: pos=noun root=scarer number=plural
   scares:
-    m01: pos=noun root=scar number=plural
+    m01: pos=noun root=scare number=plural
     m02: pos=verb root=scare vform=pres3sg tense=present person=3 number=singular
   scarey:
     m01: pos=adj
@@ -291520,10 +291520,10 @@ dictionary
   schlepp:
     m01: pos=verb vform=base tense=present
   schlepped:
-    m01: pos=verb root=schlepp vform=past tense=past
-    m02: pos=verb root=schlepp vform=pastpart
+    m01: pos=verb root=schlep vform=past tense=past
+    m02: pos=verb root=schlep vform=pastpart
   schlepping:
-    m01: pos=verb root=schlepp vform=ger
+    m01: pos=verb root=schlep vform=ger
   schlepps:
     m01: pos=verb root=schlepp vform=pres3sg tense=present person=3 number=singular
   schleps:
@@ -292629,7 +292629,7 @@ dictionary
   scrapers:
     m01: pos=noun root=scraper number=plural
   scrapes:
-    m01: pos=noun root=scrap number=plural
+    m01: pos=noun root=scrape number=plural
     m02: pos=verb root=scrape vform=pres3sg tense=present person=3 number=singular
   scrapheap:
     m01: pos=noun number=singular
@@ -293589,7 +293589,7 @@ dictionary
   scutellum:
     m01: pos=noun number=singular
   scutes:
-    m01: pos=noun root=scut number=plural
+    m01: pos=noun root=scute number=plural
   scuts:
     m01: pos=noun root=scut number=plural
   scutter:
@@ -296840,7 +296840,7 @@ dictionary
   serine:
     m01: pos=noun number=singular
   serines:
-    m01: pos=noun root=serin number=plural
+    m01: pos=noun root=serine number=plural
   sering:
     m01: pos=verb root=ser vform=ger
   seringa:
@@ -297057,7 +297057,7 @@ dictionary
   servers:
     m01: pos=noun root=server number=plural
   serves:
-    m01: pos=noun root=serf number=plural
+    m01: pos=noun root=serve number=plural
     m02: pos=verb root=serve vform=pres3sg tense=present person=3 number=singular
   service:
     m01: pos=noun number=singular
@@ -297713,7 +297713,7 @@ dictionary
   shaders:
     m01: pos=noun root=shader number=plural
   shades:
-    m01: pos=noun root=shad number=plural
+    m01: pos=noun root=shade number=plural
     m02: pos=verb root=shade vform=pres3sg tense=present person=3 number=singular
   shadflies:
     m01: pos=noun root=shadfly number=plural
@@ -298054,7 +298054,7 @@ dictionary
   shamelessnesses:
     m01: pos=noun root=shamelessness number=plural
   shames:
-    m01: pos=noun root=sham number=plural
+    m01: pos=noun root=shame number=plural
     m02: pos=verb root=shame vform=pres3sg tense=present person=3 number=singular
   shaming:
     m01: pos=verb root=shame vform=ger
@@ -298646,7 +298646,7 @@ dictionary
   sheepcote:
     m01: pos=noun number=singular
   sheepcotes:
-    m01: pos=noun root=sheepcot number=plural
+    m01: pos=noun root=sheepcote number=plural
   sheepcots:
     m01: pos=noun root=sheepcot number=plural
   sheepdog:
@@ -299283,7 +299283,7 @@ dictionary
   shiners:
     m01: pos=noun root=shiner number=plural
   shines:
-    m01: pos=noun root=shin number=plural
+    m01: pos=noun root=shine number=plural
     m02: pos=verb root=shine vform=pres3sg tense=present person=3 number=singular
   shingle:
     m01: pos=noun number=singular
@@ -299663,10 +299663,10 @@ dictionary
   shlepp:
     m01: pos=verb vform=base tense=present
   shlepped:
-    m01: pos=verb root=shlepp vform=past tense=past
-    m02: pos=verb root=shlepp vform=pastpart
+    m01: pos=verb root=shlep vform=past tense=past
+    m02: pos=verb root=shlep vform=pastpart
   shlepping:
-    m01: pos=verb root=shlepp vform=ger
+    m01: pos=verb root=shlep vform=ger
   shlepps:
     m01: pos=verb root=shlepp vform=pres3sg tense=present person=3 number=singular
   shleps:
@@ -300201,7 +300201,7 @@ dictionary
   shote:
     m01: pos=noun number=singular
   shotes:
-    m01: pos=noun root=shot number=plural
+    m01: pos=noun root=shote number=plural
   shotgun:
     m01: pos=noun number=singular
     m02: pos=verb vform=base tense=present
@@ -301837,7 +301837,7 @@ dictionary
   silicone:
     m01: pos=noun number=singular
   silicones:
-    m01: pos=noun root=silicon number=plural
+    m01: pos=noun root=silicone number=plural
   siliconized:
     m01: pos=adj
   silicons:
@@ -302381,7 +302381,7 @@ dictionary
   sinecures:
     m01: pos=noun root=sinecure number=plural
   sines:
-    m01: pos=noun root=sin number=plural
+    m01: pos=noun root=sine number=plural
     m02: pos=verb root=sin vform=pres3sg tense=present person=3 number=singular
   sinew:
     m01: pos=noun number=singular
@@ -302734,7 +302734,7 @@ dictionary
   sirens:
     m01: pos=noun root=siren number=plural
   sires:
-    m01: pos=noun root=sir number=plural
+    m01: pos=noun root=sire number=plural
     m02: pos=verb root=sire vform=pres3sg tense=present person=3 number=singular
   siring:
     m01: pos=verb root=sire vform=ger
@@ -303073,7 +303073,7 @@ dictionary
   skaters:
     m01: pos=noun root=skater number=plural
   skates:
-    m01: pos=noun root=skat number=plural
+    m01: pos=noun root=skate number=plural
     m02: pos=verb root=skate vform=pres3sg tense=present person=3 number=singular
   skating:
     m01: pos=noun number=singular
@@ -303085,7 +303085,7 @@ dictionary
   skatole:
     m01: pos=noun number=singular
   skatoles:
-    m01: pos=noun root=skatol number=plural
+    m01: pos=noun root=skatole number=plural
   skatols:
     m01: pos=noun root=skatol number=plural
   skats:
@@ -303095,7 +303095,7 @@ dictionary
   skeane:
     m01: pos=noun number=singular
   skeanes:
-    m01: pos=noun root=skean number=plural
+    m01: pos=noun root=skeane number=plural
   skeans:
     m01: pos=noun root=skean number=plural
   skedaddle:
@@ -304224,7 +304224,7 @@ dictionary
   slaters:
     m01: pos=noun root=slater number=plural
   slates:
-    m01: pos=noun root=slat number=plural
+    m01: pos=noun root=slate number=plural
     m02: pos=verb root=slate vform=pres3sg tense=present person=3 number=singular
   slatey:
     m01: pos=adj
@@ -305116,7 +305116,7 @@ dictionary
   slopers:
     m01: pos=noun root=sloper number=plural
   slopes:
-    m01: pos=noun root=slop number=plural
+    m01: pos=noun root=slope number=plural
     m02: pos=verb root=slope vform=pres3sg tense=present person=3 number=singular
   sloping:
     m01: pos=verb root=slope vform=ger
@@ -305673,7 +305673,7 @@ dictionary
   smaragde:
     m01: pos=noun number=singular
   smaragdes:
-    m01: pos=noun root=smaragd number=plural
+    m01: pos=noun root=smaragde number=plural
   smaragdine:
     m01: pos=adj
   smaragdite:
@@ -306545,7 +306545,7 @@ dictionary
   snathe:
     m01: pos=noun number=singular
   snathes:
-    m01: pos=noun root=snath number=plural
+    m01: pos=noun root=snathe number=plural
   snaths:
     m01: pos=noun root=snath number=plural
   snaw:
@@ -306836,7 +306836,7 @@ dictionary
   sniperscopes:
     m01: pos=noun root=sniperscope number=plural
   snipes:
-    m01: pos=noun root=snip number=plural
+    m01: pos=noun root=snipe number=plural
     m02: pos=verb root=snipe vform=pres3sg tense=present person=3 number=singular
   sniping:
     m01: pos=verb root=snipe vform=ger
@@ -308201,7 +308201,7 @@ dictionary
   solanine:
     m01: pos=noun number=singular
   solanines:
-    m01: pos=noun root=solanin number=plural
+    m01: pos=noun root=solanine number=plural
   solanins:
     m01: pos=noun root=solanin number=plural
   solano:
@@ -309005,7 +309005,7 @@ dictionary
   sone:
     m01: pos=noun number=singular
   sones:
-    m01: pos=noun root=son number=plural
+    m01: pos=noun root=sone number=plural
   song:
     m01: pos=noun number=singular
   songbird:
@@ -309902,7 +309902,7 @@ dictionary
     m02: pos=verb root=souse vform=pastpart
     m03: pos=adj
   souses:
-    m01: pos=noun root=sous number=plural
+    m01: pos=noun root=souse number=plural
     m02: pos=verb root=souse vform=pres3sg tense=present person=3 number=singular
   sousing:
     m01: pos=noun number=singular
@@ -310154,7 +310154,7 @@ dictionary
   sozine:
     m01: pos=noun number=singular
   sozines:
-    m01: pos=noun root=sozin number=plural
+    m01: pos=noun root=sozine number=plural
   sozins:
     m01: pos=noun root=sozin number=plural
   sozzled:
@@ -310495,7 +310495,7 @@ dictionary
   sparers:
     m01: pos=noun number=singular
   spares:
-    m01: pos=noun root=spar number=plural
+    m01: pos=noun root=spare number=plural
     m02: pos=verb root=spare vform=pres3sg tense=present person=3 number=singular
   sparest:
     m01: pos=adj
@@ -310674,7 +310674,7 @@ dictionary
   spate:
     m01: pos=noun number=singular
   spates:
-    m01: pos=noun root=spat number=plural
+    m01: pos=noun root=spate number=plural
     m02: pos=verb root=spat vform=pres3sg tense=present person=3 number=singular
   spathal:
     m01: pos=adj
@@ -311752,7 +311752,7 @@ dictionary
   spicery:
     m01: pos=noun number=singular
   spices:
-    m01: pos=noun root=spic number=plural
+    m01: pos=noun root=spice number=plural
     m02: pos=verb root=spice vform=pres3sg tense=present person=3 number=singular
   spicey:
     m01: pos=adj
@@ -311902,7 +311902,7 @@ dictionary
   spikers:
     m01: pos=noun root=spiker number=plural
   spikes:
-    m01: pos=noun root=spik number=plural
+    m01: pos=noun root=spike number=plural
     m02: pos=verb root=spike vform=pres3sg tense=present person=3 number=singular
   spikey:
     m01: pos=adj
@@ -312045,7 +312045,7 @@ dictionary
   spinels:
     m01: pos=noun root=spinel number=plural
   spines:
-    m01: pos=noun root=spin number=plural
+    m01: pos=noun root=spine number=plural
     m02: pos=verb root=spin vform=pres3sg tense=present person=3 number=singular
   spinet:
     m01: pos=noun number=singular
@@ -312201,7 +312201,7 @@ dictionary
   spireme:
     m01: pos=noun number=singular
   spiremes:
-    m01: pos=noun root=spirem number=plural
+    m01: pos=noun root=spireme number=plural
   spirems:
     m01: pos=noun root=spirem number=plural
   spires:
@@ -312387,7 +312387,7 @@ dictionary
   spitefulnesses:
     m01: pos=noun root=spitefulness number=plural
   spites:
-    m01: pos=noun root=spit number=plural
+    m01: pos=noun root=spite number=plural
     m02: pos=verb root=spite vform=pres3sg tense=present person=3 number=singular
   spitfire:
     m01: pos=noun number=singular
@@ -313584,7 +313584,7 @@ dictionary
   springinesses:
     m01: pos=noun root=springiness number=plural
   springing:
-    m01: pos=verb root=springe vform=ger
+    m01: pos=verb root=spring vform=ger
     m02: pos=adj
   springings:
     m01: pos=noun number=singular
@@ -313659,7 +313659,7 @@ dictionary
   sprite:
     m01: pos=noun number=singular
   sprites:
-    m01: pos=noun root=sprit number=plural
+    m01: pos=noun root=sprite number=plural
   sprits:
     m01: pos=noun root=sprit number=plural
   spritsail:
@@ -314754,7 +314754,7 @@ dictionary
   stagers:
     m01: pos=noun root=stager number=plural
   stages:
-    m01: pos=noun root=stag number=plural
+    m01: pos=noun root=stage number=plural
     m02: pos=verb root=stage vform=pres3sg tense=present person=3 number=singular
   stagestruck:
     m01: pos=adj
@@ -315423,7 +315423,7 @@ dictionary
   starers:
     m01: pos=noun number=singular
   stares:
-    m01: pos=noun root=star number=plural
+    m01: pos=noun root=stare number=plural
     m02: pos=verb root=stare vform=pres3sg tense=present person=3 number=singular
   starets:
     m01: pos=noun number=singular
@@ -315668,7 +315668,7 @@ dictionary
   staters:
     m01: pos=noun number=singular
   states:
-    m01: pos=noun root=stat number=plural
+    m01: pos=noun root=state number=plural
     m02: pos=verb root=state vform=pres3sg tense=present person=3 number=singular
   stateside:
     m01: pos=adj
@@ -315696,7 +315696,7 @@ dictionary
   statice:
     m01: pos=noun number=singular
   statices:
-    m01: pos=noun root=static number=plural
+    m01: pos=noun root=statice number=plural
   staticky:
     m01: pos=adj
   statics:
@@ -318264,7 +318264,7 @@ dictionary
   stoure:
     m01: pos=noun number=singular
   stoures:
-    m01: pos=noun root=stour number=plural
+    m01: pos=noun root=stoure number=plural
   stourie:
     m01: pos=noun number=singular
   stours:
@@ -319206,7 +319206,7 @@ dictionary
   striders:
     m01: pos=noun root=strider number=plural
   strides:
-    m01: pos=noun root=strid number=plural
+    m01: pos=noun root=stride number=plural
     m02: pos=verb root=stride vform=pres3sg tense=present person=3 number=singular
   striding:
     m01: pos=verb root=stride vform=ger
@@ -319357,7 +319357,7 @@ dictionary
   stripers:
     m01: pos=noun root=striper number=plural
   stripes:
-    m01: pos=noun root=strip number=plural
+    m01: pos=noun root=stripe number=plural
     m02: pos=verb root=stripe vform=pres3sg tense=present person=3 number=singular
   stripier:
     m01: pos=adj
@@ -319435,7 +319435,7 @@ dictionary
   strobile:
     m01: pos=noun number=singular
   strobiles:
-    m01: pos=noun root=strobil number=plural
+    m01: pos=noun root=strobile number=plural
   strobili:
     m01: pos=noun root=strobilus number=plural
   strobils:
@@ -319530,7 +319530,7 @@ dictionary
   strongyle:
     m01: pos=noun number=singular
   strongyles:
-    m01: pos=noun root=strongyl number=plural
+    m01: pos=noun root=strongyle number=plural
   strongyloidiases:
     m01: pos=noun number=singular
   strongyloidiasis:
@@ -320190,7 +320190,7 @@ dictionary
     m01: pos=verb root=sty vform=past tense=past
     m02: pos=verb root=sty vform=pastpart
   styes:
-    m01: pos=noun root=sty number=plural
+    m01: pos=noun root=stye number=plural
   stygian:
     m01: pos=adj
   stying:
@@ -323215,7 +323215,7 @@ dictionary
   suiters:
     m01: pos=noun root=suiter number=plural
   suites:
-    m01: pos=noun root=suit number=plural
+    m01: pos=noun root=suite number=plural
     m02: pos=verb root=suit vform=pres3sg tense=present person=3 number=singular
   suiting:
     m01: pos=noun number=singular
@@ -323290,7 +323290,7 @@ dictionary
   sulfide:
     m01: pos=noun number=singular
   sulfides:
-    m01: pos=noun root=sulfid number=plural
+    m01: pos=noun root=sulfide number=plural
   sulfids:
     m01: pos=noun root=sulfid number=plural
   sulfinpyrazone:
@@ -323467,7 +323467,7 @@ dictionary
   sulphide:
     m01: pos=noun number=singular
   sulphides:
-    m01: pos=noun root=sulphid number=plural
+    m01: pos=noun root=sulphide number=plural
   sulphids:
     m01: pos=noun root=sulphid number=plural
   sulphite:
@@ -326954,7 +326954,7 @@ dictionary
   swathers:
     m01: pos=noun root=swather number=plural
   swathes:
-    m01: pos=noun root=swath number=plural
+    m01: pos=noun root=swathe number=plural
     m02: pos=verb root=swathe vform=pres3sg tense=present person=3 number=singular
   swathing:
     m01: pos=noun number=singular
@@ -327411,7 +327411,7 @@ dictionary
     m01: pos=adj
   swinging:
     m01: pos=noun number=singular
-    m02: pos=verb root=swinge vform=ger
+    m02: pos=verb root=swing vform=ger
     m03: pos=adj
   swingingest:
     m01: pos=adj
@@ -327823,7 +327823,7 @@ dictionary
   sycee:
     m01: pos=noun number=singular
   sycees:
-    m01: pos=noun root=syce number=plural
+    m01: pos=noun root=sycee number=plural
   syces:
     m01: pos=noun root=syce number=plural
   sycomore:
@@ -328010,7 +328010,7 @@ dictionary
   sylvine:
     m01: pos=noun number=singular
   sylvines:
-    m01: pos=noun root=sylvin number=plural
+    m01: pos=noun root=sylvine number=plural
   sylvins:
     m01: pos=noun root=sylvin number=plural
   sylvite:
@@ -328034,7 +328034,7 @@ dictionary
   symbiote:
     m01: pos=noun number=singular
   symbiotes:
-    m01: pos=noun root=symbiot number=plural
+    m01: pos=noun root=symbiote number=plural
   symbiotic:
     m01: pos=adj
   symbiotically:
@@ -329096,7 +329096,7 @@ dictionary
   tablemate:
     m01: pos=noun number=singular
   tablemates:
-    m01: pos=noun root=tablemat number=plural
+    m01: pos=noun root=tablemate number=plural
   tablemats:
     m01: pos=noun root=tablemat number=plural
   tables:
@@ -329173,7 +329173,7 @@ dictionary
   taborine:
     m01: pos=noun number=singular
   taborines:
-    m01: pos=noun root=taborin number=plural
+    m01: pos=noun root=taborine number=plural
   taboring:
     m01: pos=verb vform=base tense=present
   taborins:
@@ -329263,7 +329263,7 @@ dictionary
   tachisme:
     m01: pos=noun number=singular
   tachismes:
-    m01: pos=noun root=tachism number=plural
+    m01: pos=noun root=tachisme number=plural
   tachisms:
     m01: pos=noun root=tachism number=plural
   tachist:
@@ -329271,7 +329271,7 @@ dictionary
   tachiste:
     m01: pos=noun number=singular
   tachistes:
-    m01: pos=noun root=tachist number=plural
+    m01: pos=noun root=tachiste number=plural
   tachistoscope:
     m01: pos=noun number=singular
   tachistoscopes:
@@ -330049,7 +330049,7 @@ dictionary
   tamale:
     m01: pos=noun number=singular
   tamales:
-    m01: pos=noun root=tamal number=plural
+    m01: pos=noun root=tamale number=plural
   tamals:
     m01: pos=noun root=tamal number=plural
   tamandu:
@@ -330585,7 +330585,7 @@ dictionary
   tapersticks:
     m01: pos=noun root=taperstick number=plural
   tapes:
-    m01: pos=noun root=tap number=plural
+    m01: pos=noun root=tape number=plural
     m02: pos=verb root=tape vform=pres3sg tense=present person=3 number=singular
   tapestried:
     m01: pos=adj
@@ -330742,7 +330742,7 @@ dictionary
     m01: pos=verb root=tar vform=past tense=past
     m02: pos=verb root=tar vform=pastpart
   tares:
-    m01: pos=noun root=tar number=plural
+    m01: pos=noun root=tare number=plural
     m02: pos=verb root=tar vform=pres3sg tense=present person=3 number=singular
   targe:
     m01: pos=noun number=singular
@@ -331029,7 +331029,7 @@ dictionary
   tassels:
     m01: pos=noun root=tassel number=plural
   tasses:
-    m01: pos=noun root=tass number=plural
+    m01: pos=noun root=tasse number=plural
   tasset:
     m01: pos=noun number=singular
   tassets:
@@ -331364,7 +331364,7 @@ dictionary
   tawsed:
     m01: pos=noun number=singular
   tawses:
-    m01: pos=noun root=taws number=plural
+    m01: pos=noun root=tawse number=plural
   tawsing:
     m01: pos=verb vform=base tense=present
   tax:
@@ -331722,7 +331722,7 @@ dictionary
   teasers:
     m01: pos=noun root=teaser number=plural
   teases:
-    m01: pos=noun root=teas number=plural
+    m01: pos=noun root=tease number=plural
     m02: pos=verb root=tease vform=pres3sg tense=present person=3 number=singular
   teashop:
     m01: pos=noun number=singular
@@ -333199,7 +333199,7 @@ dictionary
   tenser:
     m01: pos=adj
   tenses:
-    m01: pos=noun root=tens number=plural
+    m01: pos=noun root=tense number=plural
     m02: pos=verb root=tense vform=pres3sg tense=present person=3 number=singular
   tensest:
     m01: pos=adj
@@ -334326,7 +334326,7 @@ dictionary
   tetroxide:
     m01: pos=noun number=singular
   tetroxides:
-    m01: pos=noun root=tetroxid number=plural
+    m01: pos=noun root=tetroxide number=plural
   tetroxids:
     m01: pos=noun root=tetroxid number=plural
   tetryl:
@@ -334726,7 +334726,7 @@ dictionary
   theine:
     m01: pos=noun number=singular
   theines:
-    m01: pos=noun root=thein number=plural
+    m01: pos=noun root=theine number=plural
   theins:
     m01: pos=noun root=thein number=plural
   their:
@@ -335400,7 +335400,7 @@ dictionary
   thiamine:
     m01: pos=noun number=singular
   thiamines:
-    m01: pos=noun root=thiamin number=plural
+    m01: pos=noun root=thiamine number=plural
   thiamins:
     m01: pos=noun root=thiamin number=plural
   thiazide:
@@ -335412,7 +335412,7 @@ dictionary
   thiazine:
     m01: pos=noun number=singular
   thiazines:
-    m01: pos=noun root=thiazin number=plural
+    m01: pos=noun root=thiazine number=plural
   thiazins:
     m01: pos=noun root=thiazin number=plural
   thiazol:
@@ -335420,7 +335420,7 @@ dictionary
   thiazole:
     m01: pos=noun number=singular
   thiazoles:
-    m01: pos=noun root=thiazol number=plural
+    m01: pos=noun root=thiazole number=plural
   thiazols:
     m01: pos=noun root=thiazol number=plural
   thick:
@@ -335685,7 +335685,7 @@ dictionary
   thionine:
     m01: pos=noun number=singular
   thionines:
-    m01: pos=noun root=thionin number=plural
+    m01: pos=noun root=thionine number=plural
   thionins:
     m01: pos=noun root=thionin number=plural
   thionyl:
@@ -335701,7 +335701,7 @@ dictionary
   thiophene:
     m01: pos=noun number=singular
   thiophenes:
-    m01: pos=noun root=thiophen number=plural
+    m01: pos=noun root=thiophene number=plural
   thiophens:
     m01: pos=noun root=thiophen number=plural
   thioridazine:
@@ -335982,7 +335982,7 @@ dictionary
   thorpe:
     m01: pos=noun number=singular
   thorpes:
-    m01: pos=noun root=thorp number=plural
+    m01: pos=noun root=thorpe number=plural
   thorps:
     m01: pos=noun root=thorp number=plural
   those:
@@ -336943,7 +336943,7 @@ dictionary
   thyroxine:
     m01: pos=noun number=singular
   thyroxines:
-    m01: pos=noun root=thyroxin number=plural
+    m01: pos=noun root=thyroxine number=plural
   thyroxins:
     m01: pos=noun root=thyroxin number=plural
   thyrse:
@@ -337227,7 +337227,7 @@ dictionary
   tiers:
     m01: pos=noun root=tier number=plural
   ties:
-    m01: pos=noun root=ti number=plural
+    m01: pos=noun root=tie number=plural
     m02: pos=verb root=tie vform=pres3sg tense=present person=3 number=singular
   tiff:
     m01: pos=noun number=singular
@@ -337373,7 +337373,7 @@ dictionary
   tilers:
     m01: pos=noun root=tiler number=plural
   tiles:
-    m01: pos=noun root=til number=plural
+    m01: pos=noun root=tile number=plural
     m02: pos=verb root=tile vform=pres3sg tense=present person=3 number=singular
   tiling:
     m01: pos=noun number=singular
@@ -337465,7 +337465,7 @@ dictionary
   timbale:
     m01: pos=noun number=singular
   timbales:
-    m01: pos=noun root=timbal number=plural
+    m01: pos=noun root=timbale number=plural
   timbals:
     m01: pos=noun root=timbal number=plural
   timber:
@@ -337729,7 +337729,7 @@ dictionary
   tineids:
     m01: pos=noun root=tineid number=plural
   tines:
-    m01: pos=noun root=tin number=plural
+    m01: pos=noun root=tine number=plural
     m02: pos=verb root=tin vform=pres3sg tense=present person=3 number=singular
   tinfoil:
     m01: pos=noun number=singular
@@ -337752,7 +337752,7 @@ dictionary
   tingeing:
     m01: pos=verb root=tinge vform=ger
   tinges:
-    m01: pos=noun root=ting number=plural
+    m01: pos=noun root=tinge number=plural
     m02: pos=verb root=tinge vform=pres3sg tense=present person=3 number=singular
   tinging:
     m01: pos=verb root=tinge vform=ger
@@ -338818,7 +338818,7 @@ dictionary
   tolane:
     m01: pos=noun number=singular
   tolanes:
-    m01: pos=noun root=tolan number=plural
+    m01: pos=noun root=tolane number=plural
   tolans:
     m01: pos=noun root=tolan number=plural
   tolas:
@@ -338885,7 +338885,7 @@ dictionary
   tolidine:
     m01: pos=noun number=singular
   tolidines:
-    m01: pos=noun root=tolidin number=plural
+    m01: pos=noun root=tolidine number=plural
   tolidins:
     m01: pos=noun root=tolidin number=plural
   toling:
@@ -338950,13 +338950,13 @@ dictionary
   toluide:
     m01: pos=noun number=singular
   toluides:
-    m01: pos=noun root=toluid number=plural
+    m01: pos=noun root=toluide number=plural
   toluidin:
     m01: pos=noun number=singular
   toluidine:
     m01: pos=noun number=singular
   toluidines:
-    m01: pos=noun root=toluidin number=plural
+    m01: pos=noun root=toluidine number=plural
   toluidins:
     m01: pos=noun root=toluidin number=plural
   toluids:
@@ -338966,7 +338966,7 @@ dictionary
   toluole:
     m01: pos=noun number=singular
   toluoles:
-    m01: pos=noun root=toluol number=plural
+    m01: pos=noun root=toluole number=plural
   toluols:
     m01: pos=noun root=toluol number=plural
   tolus:
@@ -339079,7 +339079,7 @@ dictionary
   tomentum:
     m01: pos=noun number=singular
   tomes:
-    m01: pos=noun root=tom number=plural
+    m01: pos=noun root=tome number=plural
   tomfool:
     m01: pos=noun number=singular
   tomfooleries:
@@ -339176,7 +339176,7 @@ dictionary
   toners:
     m01: pos=noun root=toner number=plural
   tones:
-    m01: pos=noun root=ton number=plural
+    m01: pos=noun root=tone number=plural
     m02: pos=verb root=tone vform=pres3sg tense=present person=3 number=singular
   tonetic:
     m01: pos=noun number=singular
@@ -339551,7 +339551,7 @@ dictionary
   tophe:
     m01: pos=noun number=singular
   tophes:
-    m01: pos=noun root=toph number=plural
+    m01: pos=noun root=tophe number=plural
   tophi:
     m01: pos=noun root=tophus number=plural
   tophs:
@@ -339829,7 +339829,7 @@ dictionary
   toreros:
     m01: pos=noun root=torero number=plural
   tores:
-    m01: pos=noun root=tor number=plural
+    m01: pos=noun root=tore number=plural
   toreutic:
     m01: pos=noun number=singular
   toreutics:
@@ -340033,7 +340033,7 @@ dictionary
   torten:
     m01: pos=noun number=singular
   tortes:
-    m01: pos=noun root=tort number=plural
+    m01: pos=noun root=torte number=plural
   torticollis:
     m01: pos=noun number=singular
   torticollises:
@@ -340268,7 +340268,7 @@ dictionary
   toters:
     m01: pos=noun root=toter number=plural
   totes:
-    m01: pos=noun root=tot number=plural
+    m01: pos=noun root=tote number=plural
     m02: pos=verb root=tote vform=pres3sg tense=present person=3 number=singular
   tother:
     m01: pos=pro
@@ -341069,7 +341069,7 @@ dictionary
   traders:
     m01: pos=noun root=trader number=plural
   trades:
-    m01: pos=noun root=trad number=plural
+    m01: pos=noun root=trade number=plural
     m02: pos=verb root=trade vform=pres3sg tense=present person=3 number=singular
   tradescantia:
     m01: pos=noun number=singular
@@ -343380,7 +343380,7 @@ dictionary
   triazine:
     m01: pos=noun number=singular
   triazines:
-    m01: pos=noun root=triazin number=plural
+    m01: pos=noun root=triazine number=plural
   triazins:
     m01: pos=noun root=triazin number=plural
   triazole:
@@ -343713,7 +343713,7 @@ dictionary
   tricornered:
     m01: pos=adj
   tricornes:
-    m01: pos=noun root=tricorn number=plural
+    m01: pos=noun root=tricorne number=plural
   tricorns:
     m01: pos=noun root=tricorn number=plural
   tricot:
@@ -344188,13 +344188,13 @@ dictionary
   triose:
     m01: pos=noun number=singular
   trioses:
-    m01: pos=noun root=trios number=plural
+    m01: pos=noun root=triose number=plural
   trioxid:
     m01: pos=noun number=singular
   trioxide:
     m01: pos=noun number=singular
   trioxides:
-    m01: pos=noun root=trioxid number=plural
+    m01: pos=noun root=trioxide number=plural
   trioxids:
     m01: pos=noun root=trioxid number=plural
   trip:
@@ -344213,7 +344213,7 @@ dictionary
   tripedal:
     m01: pos=adj
   tripes:
-    m01: pos=noun root=trip number=plural
+    m01: pos=noun root=tripe number=plural
     m02: pos=verb root=trip vform=pres3sg tense=present person=3 number=singular
   triphase:
     m01: pos=noun number=singular
@@ -344685,7 +344685,7 @@ dictionary
   trochee:
     m01: pos=noun number=singular
   trochees:
-    m01: pos=noun root=troche number=plural
+    m01: pos=noun root=trochee number=plural
   troches:
     m01: pos=noun root=troche number=plural
   trochil:
@@ -344882,7 +344882,7 @@ dictionary
   trope:
     m01: pos=noun number=singular
   tropes:
-    m01: pos=noun root=trop number=plural
+    m01: pos=noun root=trope number=plural
   trophallaxes:
     m01: pos=noun number=singular
   trophallaxis:
@@ -344932,7 +344932,7 @@ dictionary
   tropine:
     m01: pos=noun number=singular
   tropines:
-    m01: pos=noun root=tropin number=plural
+    m01: pos=noun root=tropine number=plural
   tropins:
     m01: pos=noun root=tropin number=plural
   tropism:
@@ -345626,7 +345626,7 @@ dictionary
   tryptophane:
     m01: pos=noun number=singular
   tryptophanes:
-    m01: pos=noun root=tryptophan number=plural
+    m01: pos=noun root=tryptophane number=plural
   tryptophans:
     m01: pos=noun root=tryptophan number=plural
   trysail:
@@ -345825,7 +345825,7 @@ dictionary
   tubers:
     m01: pos=noun root=tuber number=plural
   tubes:
-    m01: pos=noun root=tub number=plural
+    m01: pos=noun root=tube number=plural
     m02: pos=verb root=tube vform=pres3sg tense=present person=3 number=singular
   tubework:
     m01: pos=noun number=singular
@@ -346234,7 +346234,7 @@ dictionary
   tuners:
     m01: pos=noun root=tuner number=plural
   tunes:
-    m01: pos=noun root=tun number=plural
+    m01: pos=noun root=tune number=plural
     m02: pos=verb root=tune vform=pres3sg tense=present person=3 number=singular
   tunesmith:
     m01: pos=noun number=singular
@@ -346716,7 +346716,7 @@ dictionary
   turquoise:
     m01: pos=noun number=singular
   turquoises:
-    m01: pos=noun root=turquois number=plural
+    m01: pos=noun root=turquoise number=plural
   turret:
     m01: pos=noun number=singular
   turreted:
@@ -346844,7 +346844,7 @@ dictionary
   tussore:
     m01: pos=noun number=singular
   tussores:
-    m01: pos=noun root=tussor number=plural
+    m01: pos=noun root=tussore number=plural
   tussors:
     m01: pos=noun root=tussor number=plural
   tussuck:
@@ -346953,7 +346953,7 @@ dictionary
   tuyere:
     m01: pos=noun number=singular
   tuyeres:
-    m01: pos=noun root=tuyer number=plural
+    m01: pos=noun root=tuyere number=plural
   tuyers:
     m01: pos=noun root=tuyer number=plural
   twaddle:
@@ -347253,7 +347253,7 @@ dictionary
   twiners:
     m01: pos=noun number=singular
   twines:
-    m01: pos=noun root=twin number=plural
+    m01: pos=noun root=twine number=plural
     m02: pos=verb root=twine vform=pres3sg tense=present person=3 number=singular
   twinflower:
     m01: pos=noun number=singular
@@ -347469,7 +347469,7 @@ dictionary
   tyee:
     m01: pos=noun number=singular
   tyees:
-    m01: pos=noun root=tye number=plural
+    m01: pos=noun root=tyee number=plural
   tyer:
     m01: pos=noun number=singular
   tyers:
@@ -347807,7 +347807,7 @@ dictionary
   tyrocidine:
     m01: pos=noun number=singular
   tyrocidines:
-    m01: pos=noun root=tyrocidin number=plural
+    m01: pos=noun root=tyrocidine number=plural
   tyrocidins:
     m01: pos=noun root=tyrocidin number=plural
   tyronic:
@@ -358381,7 +358381,7 @@ dictionary
   urease:
     m01: pos=noun number=singular
   ureases:
-    m01: pos=noun root=ureas number=plural
+    m01: pos=noun root=urease number=plural
   uredia:
     m01: pos=noun number=singular
   uredial:
@@ -358441,7 +358441,7 @@ dictionary
   urethane:
     m01: pos=noun number=singular
   urethanes:
-    m01: pos=noun root=urethan number=plural
+    m01: pos=noun root=urethane number=plural
   urethans:
     m01: pos=noun root=urethan number=plural
   urethra:
@@ -358727,7 +358727,7 @@ dictionary
   users:
     m01: pos=noun root=user number=plural
   uses:
-    m01: pos=noun root=us number=plural
+    m01: pos=noun root=use number=plural
     m02: pos=verb root=use vform=pres3sg tense=present person=3 number=singular
   usher:
     m01: pos=noun number=singular
@@ -359089,7 +359089,7 @@ dictionary
   vaccinee:
     m01: pos=noun number=singular
   vaccinees:
-    m01: pos=noun root=vaccine number=plural
+    m01: pos=noun root=vaccinee number=plural
   vaccines:
     m01: pos=noun root=vaccine number=plural
   vaccinia:
@@ -359724,7 +359724,7 @@ dictionary
   vaned:
     m01: pos=adj
   vanes:
-    m01: pos=noun root=van number=plural
+    m01: pos=noun root=vane number=plural
   vang:
     m01: pos=noun number=singular
   vangs:
@@ -360198,7 +360198,7 @@ dictionary
   vaseline:
     m01: pos=noun number=singular
   vases:
-    m01: pos=noun root=vas number=plural
+    m01: pos=noun root=vase number=plural
   vasiform:
     m01: pos=adj
   vasoactive:
@@ -360930,7 +360930,7 @@ dictionary
   venine:
     m01: pos=noun number=singular
   venines:
-    m01: pos=noun root=venin number=plural
+    m01: pos=noun root=venine number=plural
   venins:
     m01: pos=noun root=venin number=plural
   venipuncture:
@@ -361179,7 +361179,7 @@ dictionary
   veratrine:
     m01: pos=noun number=singular
   veratrines:
-    m01: pos=noun root=veratrin number=plural
+    m01: pos=noun root=veratrine number=plural
   veratrins:
     m01: pos=noun root=veratrin number=plural
   veratrum:
@@ -363136,7 +363136,7 @@ dictionary
   virtueless:
     m01: pos=adj
   virtues:
-    m01: pos=noun root=virtu number=plural
+    m01: pos=noun root=virtue number=plural
   virtuosa:
     m01: pos=noun number=singular
   virtuosas:
@@ -363300,7 +363300,7 @@ dictionary
   viselike:
     m01: pos=adj
   vises:
-    m01: pos=noun root=vis number=plural
+    m01: pos=noun root=vise number=plural
   visibilities:
     m01: pos=noun root=visibility number=plural
   visibility:
@@ -364810,7 +364810,7 @@ dictionary
   wacke:
     m01: pos=noun number=singular
   wackes:
-    m01: pos=noun root=wack number=plural
+    m01: pos=noun root=wacke number=plural
   wackier:
     m01: pos=adj
   wackiest:
@@ -365038,7 +365038,7 @@ dictionary
     m01: pos=noun root=wager number=plural
     m02: pos=verb root=wager vform=pres3sg tense=present person=3 number=singular
   wages:
-    m01: pos=noun root=wag number=plural
+    m01: pos=noun root=wage number=plural
     m02: pos=verb root=wage vform=pres3sg tense=present person=3 number=singular
   wageworker:
     m01: pos=noun number=singular
@@ -365617,7 +365617,7 @@ dictionary
     m01: pos=verb root=wane vform=past tense=past
     m02: pos=verb root=wane vform=pastpart
   wanes:
-    m01: pos=noun root=wan number=plural
+    m01: pos=noun root=wane number=plural
     m02: pos=verb root=wane vform=pres3sg tense=present person=3 number=singular
   waney:
     m01: pos=noun number=singular
@@ -365862,7 +365862,7 @@ dictionary
   warerooms:
     m01: pos=noun root=wareroom number=plural
   wares:
-    m01: pos=noun root=war number=plural
+    m01: pos=noun root=ware number=plural
     m02: pos=verb root=ware vform=pres3sg tense=present person=3 number=singular
   warfare:
     m01: pos=noun number=singular
@@ -366370,7 +366370,7 @@ dictionary
   wastery:
     m01: pos=noun number=singular
   wastes:
-    m01: pos=noun root=wast number=plural
+    m01: pos=noun root=waste number=plural
     m02: pos=verb root=waste vform=pres3sg tense=present person=3 number=singular
   wastewater:
     m01: pos=noun number=singular
@@ -366402,7 +366402,7 @@ dictionary
   watape:
     m01: pos=noun number=singular
   watapes:
-    m01: pos=noun root=watap number=plural
+    m01: pos=noun root=watape number=plural
   wataps:
     m01: pos=noun root=watap number=plural
   watch:
@@ -368792,7 +368792,7 @@ dictionary
   whiners:
     m01: pos=noun root=whiner number=plural
   whines:
-    m01: pos=noun root=whin number=plural
+    m01: pos=noun root=whine number=plural
     m02: pos=verb root=whine vform=pres3sg tense=present person=3 number=singular
   whiney:
     m01: pos=adj
@@ -369166,7 +369166,7 @@ dictionary
   whiter:
     m01: pos=adj
   whites:
-    m01: pos=noun root=whit number=plural
+    m01: pos=noun root=white number=plural
     m02: pos=verb root=white vform=pres3sg tense=present person=3 number=singular
   whitesmith:
     m01: pos=noun number=singular
@@ -370382,7 +370382,7 @@ dictionary
   winery:
     m01: pos=noun number=singular
   wines:
-    m01: pos=noun root=win number=plural
+    m01: pos=noun root=wine number=plural
     m02: pos=verb root=wine vform=pres3sg tense=present person=3 number=singular
   wineshop:
     m01: pos=noun number=singular
@@ -370977,7 +370977,7 @@ dictionary
   witenagemote:
     m01: pos=noun number=singular
   witenagemotes:
-    m01: pos=noun root=witenagemot number=plural
+    m01: pos=noun root=witenagemote number=plural
   witenagemots:
     m01: pos=noun root=witenagemot number=plural
   wites:
@@ -371562,7 +371562,7 @@ dictionary
   woodbine:
     m01: pos=noun number=singular
   woodbines:
-    m01: pos=noun root=woodbin number=plural
+    m01: pos=noun root=woodbine number=plural
   woodbins:
     m01: pos=noun root=woodbin number=plural
   woodblock:
@@ -373021,7 +373021,7 @@ dictionary
   xanthine:
     m01: pos=noun number=singular
   xanthines:
-    m01: pos=noun root=xanthin number=plural
+    m01: pos=noun root=xanthine number=plural
   xanthins:
     m01: pos=noun root=xanthin number=plural
   xanthoma:
@@ -373194,7 +373194,7 @@ dictionary
   xylidine:
     m01: pos=noun number=singular
   xylidines:
-    m01: pos=noun root=xylidin number=plural
+    m01: pos=noun root=xylidine number=plural
   xylidins:
     m01: pos=noun root=xylidin number=plural
   xylitol:
@@ -374183,7 +374183,7 @@ dictionary
   yokemates:
     m01: pos=noun root=yokemate number=plural
   yokes:
-    m01: pos=noun root=yok number=plural
+    m01: pos=noun root=yoke number=plural
     m02: pos=verb root=yoke vform=pres3sg tense=present person=3 number=singular
   yoking:
     m01: pos=verb root=yoke vform=ger
@@ -375139,7 +375139,7 @@ dictionary
   zombielike:
     m01: pos=adj
   zombies:
-    m01: pos=noun root=zombi number=plural
+    m01: pos=noun root=zombie number=plural
   zombification:
     m01: pos=noun number=singular
   zombifications:
