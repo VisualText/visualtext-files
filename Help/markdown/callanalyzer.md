@@ -37,7 +37,7 @@ analyzerStr - type: str
 **What runs on each call.** The called analyzer's passes run in order on the subtree, with these differences from running on a text of its own:
 
 - Tokenizer passes are skipped, because the tree already exists.
-- A `dicttok` or `dicttokz` pass does not tokenize. Instead it looks up every word under `pnode` in the dictionaries, including the lazily loaded `*full` files, which only load a word once it is seen. Each word gets its dictionary attributes (such as `pos`), and multi-word dictionary phrases are matched among `pnode`'s children.
+- A `dicttok` or `dicttokz` pass does not tokenize. Instead it looks up every word under `pnode` in the dictionaries, including the lazily loaded `*full` files, which only load a word once it is seen. The called analyzer's lazy files add their attributes even to a word the caller's dictionaries already define: if the caller's dictionary gives `hello` the attribute `greeting=1`, `hello` keeps it and also gets its part of speech. Each word gets its dictionary attributes (such as `pos`), and multi-word dictionary phrases are matched among `pnode`'s children.
 - Global variables (`G`) start empty on every call and are discarded afterwards, so the caller's global variables are neither visible nor changed.
 - `G("$apppath")` is the called analyzer's folder.
 - No per-pass `.tree` log files are written.
