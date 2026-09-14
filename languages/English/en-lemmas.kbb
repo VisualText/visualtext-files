@@ -9,7 +9,7 @@
 #       m01: pos=noun root=calf
 #       m02: pos=verb root=calve <- a verb caller must read these
 #
-# Only ~173 of ~79k forms have more than one possible root. Those keep a
+# Only ~90 of ~79k forms have more than one possible root. Those keep a
 # root= on the parent, so a caller that does not know the part of speech
 # still gets one answer in one hop, and add m01/m02 children so one that
 # does can be exact -- scan them for the pos you are holding, and fall
@@ -232,7 +232,7 @@ lemmas
   absenting: root=absent
   absentmindednesses: root=absentmindedness
   absents: root=absent
-  absinthes: root=absinth
+  absinthes: root=absinthe
   absinths: root=absinth
   absolutenesses: root=absoluteness
   absolutes: root=absolute
@@ -306,7 +306,7 @@ lemmas
   abwatts: root=abwatt
   abye: root=aby
   abyes: root=abye
-  abying: root=abye
+  abying: root=aby
   abys: root=aby
   abysms: root=abysm
   abysses: root=abyss
@@ -319,7 +319,7 @@ lemmas
   academies: root=academy
   academisms: root=academism
   acajous: root=acajou
-  acalephes: root=acaleph
+  acalephes: root=acalephe
   acalephs: root=acaleph
   acanthi: root=acanthus
   acanthocephalans: root=acanthocephalan
@@ -505,10 +505,10 @@ lemmas
   acetabulums: root=acetabulum
   acetaldehydes: root=acetaldehyde
   acetals: root=acetal
-  acetamides: root=acetamid
+  acetamides: root=acetamide
   acetamids: root=acetamid
   acetaminophens: root=acetaminophen
-  acetanilides: root=acetanilid
+  acetanilides: root=acetanilide
   acetanilids: root=acetanilid
   acetates: root=acetate
   acetazolamides: root=acetazolamide
@@ -567,7 +567,7 @@ lemmas
   acidimetries: root=acidimetry
   acidities: root=acidity
   acidnesses: root=acidness
-  acidophiles: root=acidophil
+  acidophiles: root=acidophile
   acidophils: root=acidophil
   acids: root=acid
   acidulated: root=acidulate
@@ -904,7 +904,7 @@ lemmas
   adorns: root=adorn
   ados: root=ado
   adrenalectomies: root=adrenalectomy
-  adrenalines: root=adrenalin
+  adrenalines: root=adrenaline
   adrenals: root=adrenal
   adrenochromes: root=adrenochrome
   adrenocorticosteroids: root=adrenocorticosteroid
@@ -1078,7 +1078,7 @@ lemmas
   aethers: root=aether
   aetiologies: root=aetiology
   affabilities: root=affability
-  affaires: root=affair
+  affaires: root=affaire
   affairs: root=affair
   affectabilities: root=affectability
   affectations: root=affectation
@@ -1279,7 +1279,7 @@ lemmas
   agitators: root=agitator
   agitprops: root=agitprop
   aglets: root=aglet
-  aglycones: root=aglycon
+  aglycones: root=aglycone
   aglycons: root=aglycon
   agmas: root=agma
   agnails: root=agnail
@@ -1341,7 +1341,9 @@ lemmas
   aholds: root=ahold
   aided: root=aid
   aiders: root=aider
-  aides: root=aid
+  aides: root=aide
+    m01: pos=noun root=aide
+    m02: pos=verb root=aid
   aiding: root=aid
   aidmen: root=aidman
   aids: root=aid
@@ -1460,7 +1462,7 @@ lemmas
   alamodes: root=alamode
   alamos: root=alamo
   alands: root=aland
-  alanines: root=alanin
+  alanines: root=alanine
   alanins: root=alanin
   alans: root=alan
   alants: root=alant
@@ -1537,7 +1539,7 @@ lemmas
   alertnesses: root=alertness
   alerts: root=alert
   ales: root=ale
-  aleurones: root=aleuron
+  aleurones: root=aleurone
   aleurons: root=aleuron
   alevins: root=alevin
   alewives: root=alewife
@@ -1546,7 +1548,7 @@ lemmas
   alexandrites: root=alexandrite
   alexias: root=alexia
   alexics: root=alexic
-  alexines: root=alexin
+  alexines: root=alexine
   alexins: root=alexin
   alfakis: root=alfaki
   alfalfas: root=alfalfa
@@ -1579,7 +1581,7 @@ lemmas
   alibies: root=alibi
   alibiing: root=alibi
   alibis: root=alibi
-  alidades: root=alidad
+  alidades: root=alidade
   alidads: root=alidad
   alienabilities: root=alienability
   alienages: root=alienage
@@ -1801,7 +1803,7 @@ lemmas
   almshouses: root=almshouse
   almsmen: root=almsman
   almuces: root=almuce
-  almudes: root=almud
+  almudes: root=almude
   almuds: root=almud
   almugs: root=almug
   alnicoes: root=alnico
@@ -1871,7 +1873,7 @@ lemmas
   alulae: root=alula
   aluminas: root=alumina
   aluminates: root=aluminate
-  alumines: root=alumin
+  alumines: root=alumine
   aluminiums: root=aluminium
   aluminized: root=aluminize
   aluminizes: root=aluminize
@@ -2021,15 +2023,15 @@ lemmas
   amices: root=amice
   amidases: root=amidase
   amides: root=amide
-  amidines: root=amidin
+  amidines: root=amidine
   amidins: root=amidin
   amidogens: root=amidogen
   amidols: root=amidol
   amidones: root=amidone
-  amies: root=ami
+  amies: root=amie
   amigas: root=amiga
   amigos: root=amigo
-  amines: root=amin
+  amines: root=amine
   aminities: root=aminity
   aminoacidurias: root=aminoaciduria
   aminopeptidases: root=aminopeptidase
@@ -2142,7 +2144,7 @@ lemmas
   amplitudes: root=amplitude
   ampoules: root=ampoule
   amps: root=amp
-  ampules: root=ampul
+  ampules: root=ampule
   ampullae: root=ampulla
   ampuls: root=ampul
   amputated: root=amputate
@@ -2348,7 +2350,7 @@ lemmas
   anesthetized: root=anesthetize
   anesthetizes: root=anesthetize
   anesthetizing: root=anesthetize
-  anetholes: root=anethol
+  anetholes: root=anethole
   anethols: root=anethol
   aneuploidies: root=aneuploidy
   aneurins: root=aneurin
@@ -2408,7 +2410,7 @@ lemmas
   anhydrides: root=anhydride
   anhydrites: root=anhydrite
   anilinctuses: root=anilinctus
-  anilines: root=anilin
+  anilines: root=aniline
   anilinguses: root=anilingus
   anilins: root=anilin
   anilities: root=anility
@@ -2444,7 +2446,7 @@ lemmas
   anis: root=ani
   aniseeds: root=aniseed
   aniseikonias: root=aniseikonia
-  anises: root=anis
+  anises: root=anise
   anisettes: root=anisette
   anisogamies: root=anisogamy
   anisoles: root=anisole
@@ -2536,7 +2538,7 @@ lemmas
   anolytes: root=anolyte
   anomalies: root=anomaly
   anomalousnesses: root=anomalousness
-  anomies: root=anomy
+  anomies: root=anomie
   anonymities: root=anonymity
   anonymousnesses: root=anonymousness
   anonyms: root=anonym
@@ -2598,9 +2600,7 @@ lemmas
   antepenultimates: root=antepenultimate
   antepenults: root=antepenult
   anterooms: root=anteroom
-  antes: root=ant
-    m01: pos=noun root=ant
-    m02: pos=verb root=ante
+  antes: root=ante
   antetypes: root=antetype
   anteverted: root=antevert
   anteverting: root=antevert
@@ -3601,7 +3601,7 @@ lemmas
   artiodactyls: root=artiodactyl
   artisans: root=artisan
   artisanships: root=artisanship
-  artistes: root=artist
+  artistes: root=artiste
   artistries: root=artistry
   artists: root=artist
   artlessnesses: root=artlessness
@@ -3983,7 +3983,7 @@ lemmas
   atrophied: root=atrophy
   atrophies: root=atrophy
   atrophying: root=atrophy
-  atropines: root=atropin
+  atropines: root=atropine
   atropins: root=atropin
   atropisms: root=atropism
   attached: root=attach
@@ -4450,7 +4450,7 @@ lemmas
   axmen: root=axman
   axolotls: root=axolotl
   axonemes: root=axoneme
-  axones: root=axon
+  axones: root=axone
   axons: root=axon
   axoplasms: root=axoplasm
   axseeds: root=axseed
@@ -4692,7 +4692,7 @@ lemmas
   bacula: root=baculum
   baculums: root=baculum
   badasses: root=badass
-  baddies: root=baddy
+  baddies: root=baddie
   bade: root=bid
   badged: root=badge
   badgered: root=badger
@@ -4716,7 +4716,7 @@ lemmas
   baffles: root=baffle
   baffling: root=baffle
   baffs: root=baff
-  bagasses: root=bagass
+  bagasses: root=bagasse
   bagatelles: root=bagatelle
   bagels: root=bagel
   bagfuls: root=bagful
@@ -4801,9 +4801,7 @@ lemmas
   balefires: root=balefire
   balefulnesses: root=balefulness
   balers: root=baler
-  bales: root=bal
-    m01: pos=noun root=bal
-    m02: pos=verb root=bale
+  bales: root=bale
   baling: root=bale
   balisaurs: root=balisaur
   balkanizations: root=balkanization
@@ -4817,7 +4815,7 @@ lemmas
   balklines: root=balkline
   balks: root=balk
   balladeers: root=balladeer
-  ballades: root=ballad
+  ballades: root=ballade
   balladists: root=balladist
   balladries: root=balladry
   ballads: root=ballad
@@ -4901,7 +4899,7 @@ lemmas
   banded: root=band
   banderillas: root=banderilla
   banderilleros: root=banderillero
-  banderoles: root=banderol
+  banderoles: root=banderole
   banderols: root=banderol
   banders: root=bander
   bandicoots: root=bandicoot
@@ -4926,7 +4924,9 @@ lemmas
   bandying: root=bandy
   baneberries: root=baneberry
   baned: root=ban
-  banes: root=ban
+  banes: root=bane
+    m01: pos=noun root=bane
+    m02: pos=verb root=ban
   banged: root=bang
   bangers: root=banger
   banging: root=bang
@@ -5078,7 +5078,9 @@ lemmas
   bargains: root=bargain
   bargeboards: root=bargeboard
   barged: root=barge
-  bargees: root=barge
+  bargees: root=bargee
+    m01: pos=noun root=bargee
+    m02: pos=verb root=barge
   bargellos: root=bargello
   bargemen: root=bargeman
   bargepoles: root=bargepole
@@ -5245,7 +5247,7 @@ lemmas
   basking: root=bask
   basks: root=bask
   basmatis: root=basmati
-  basophiles: root=basophil
+  basophiles: root=basophile
   basophilias: root=basophilia
   basophils: root=basophil
   basques: root=basque
@@ -5275,9 +5277,7 @@ lemmas
   bastards: root=bastard
   basted: root=baste
   basters: root=baster
-  bastes: root=bast
-    m01: pos=noun root=bast
-    m02: pos=verb root=baste
+  bastes: root=baste
   bastiles: root=bastile
   bastilles: root=bastille
   bastinades: root=bastinade
@@ -5303,9 +5303,7 @@ lemmas
   batfowls: root=batfowl
   bathed: root=bathe
   bathers: root=bather
-  bathes: root=bath
-    m01: pos=noun root=bath
-    m02: pos=verb root=bathe
+  bathes: root=bathe
   bathhouses: root=bathhouse
   bathing: root=bathe
   bathings: root=bathing
@@ -5318,7 +5316,7 @@ lemmas
   bathtubs: root=bathtub
   bathwaters: root=bathwater
   bathymetries: root=bathymetry
-  bathyscaphes: root=bathyscaph
+  bathyscaphes: root=bathyscaphe
   bathyscaphs: root=bathyscaph
   bathyspheres: root=bathysphere
   bathythermographs: root=bathythermograph
@@ -5895,7 +5893,7 @@ lemmas
   belchers: root=belcher
   belches: root=belch
   belching: root=belch
-  beldames: root=beldam
+  beldames: root=beldame
   beldams: root=beldam
   beleaguered: root=beleaguer
   beleaguering: root=beleaguer
@@ -5929,7 +5927,9 @@ lemmas
   bellboys: root=bellboy
   belled: root=bell
   belleeks: root=belleek
-  belles: root=bell
+  belles: root=belle
+    m01: pos=noun root=belle
+    m02: pos=verb root=bell
   belletrists: root=belletrist
   bellflowers: root=bellflower
   bellhops: root=bellhop
@@ -6090,10 +6090,10 @@ lemmas
   benzaldehydes: root=benzaldehyde
   benzanthracenes: root=benzanthracene
   benzenes: root=benzene
-  benzidines: root=benzidin
+  benzidines: root=benzidine
   benzidins: root=benzidin
   benzimidazoles: root=benzimidazole
-  benzines: root=benzin
+  benzines: root=benzine
   benzins: root=benzin
   benzoapyrenes: root=benzoapyrene
   benzoates: root=benzoate
@@ -6126,7 +6126,7 @@ lemmas
   berated: root=berate
   berates: root=berate
   berating: root=berate
-  berberines: root=berberin
+  berberines: root=berberine
   berberins: root=berberin
   berberises: root=berberis
   berceuses: root=berceuse
@@ -6463,7 +6463,7 @@ lemmas
   biconcavities: root=biconcavity
   biconditionals: root=biconditional
   biconvexities: root=biconvexity
-  bicornes: root=bicorn
+  bicornes: root=bicorne
   bicrons: root=bicron
   biculturalisms: root=biculturalism
   bicuspids: root=bicuspid
@@ -6616,7 +6616,9 @@ lemmas
   bindles: root=bindle
   binds: root=bind
   bindweeds: root=bindweed
-  bines: root=bin
+  bines: root=bine
+    m01: pos=noun root=bine
+    m02: pos=verb root=bin
   binged: root=binge
   bingeing: root=binge
   bingers: root=binger
@@ -6798,7 +6800,7 @@ lemmas
   bisections: root=bisection
   bisectors: root=bisector
   bisects: root=bisect
-  bises: root=bis
+  bises: root=bise
   bisexualities: root=bisexuality
   bisexuals: root=bisexual
   bishoprics: root=bishopric
@@ -6824,9 +6826,7 @@ lemmas
   bitchinesses: root=bitchiness
   bitching: root=bitch
   biters: root=biter
-  bites: root=bit
-    m01: pos=noun root=bit
-    m02: pos=verb root=bite
+  bites: root=bite
   bitewings: root=bitewing
   biting: root=bite
   bits: root=bit
@@ -6939,9 +6939,7 @@ lemmas
   blains: root=blain
   blamed: root=blame
   blamelessnesses: root=blamelessness
-  blames: root=blam
-    m01: pos=noun root=blam
-    m02: pos=verb root=blame
+  blames: root=blame
   blameworthinesses: root=blameworthiness
   blaming: root=blame
   blams: root=blam
@@ -6984,7 +6982,7 @@ lemmas
   blasties: root=blastie
   blasting: root=blast
   blastments: root=blastment
-  blastocoeles: root=blastocoel
+  blastocoeles: root=blastocoele
   blastocoels: root=blastocoel
   blastocysts: root=blastocyst
   blastoderms: root=blastoderm
@@ -7057,7 +7055,9 @@ lemmas
   blenching: root=blench
   blended: root=blend
   blenders: root=blender
-  blendes: root=blend
+  blendes: root=blende
+    m01: pos=noun root=blende
+    m02: pos=verb root=blend
   blending: root=blend
   blends: root=blend
   blennies: root=blenny
@@ -7146,7 +7146,7 @@ lemmas
   blocks: root=block
   blocs: root=bloc
   blokes: root=bloke
-  blondes: root=blond
+  blondes: root=blonde
   blonds: root=blond
   bloodbaths: root=bloodbath
   blooded: root=blood
@@ -7376,7 +7376,7 @@ lemmas
   bocaccios: root=bocaccio
   bocces: root=bocce
   boccias: root=boccia
-  boccies: root=bocci
+  boccies: root=boccie
   boccis: root=bocci
   boches: root=boche
   bocks: root=bock
@@ -7853,7 +7853,7 @@ lemmas
   bourgeoning: root=bourgeon
   bourgeons: root=bourgeon
   bourgs: root=bourg
-  bournes: root=bourn
+  bournes: root=bourne
   bourns: root=bourn
   bourrees: root=bourree
   bourrides: root=bourride
@@ -7988,7 +7988,7 @@ lemmas
   brads: root=brad
   bradycardias: root=bradycardia
   bradykinins: root=bradykinin
-  braes: root=bra
+  braes: root=brae
   braggadocios: root=braggadocio
   braggarts: root=braggart
   bragged: root=brag
@@ -8299,9 +8299,7 @@ lemmas
   brimstones: root=brimstone
   brined: root=brine
   briners: root=briner
-  brines: root=brin
-    m01: pos=noun root=brin
-    m02: pos=verb root=brine
+  brines: root=brine
   bringdowns: root=bringdown
   bringers: root=bringer
   bringing: root=bring
@@ -8402,13 +8400,13 @@ lemmas
   bromeliads: root=bromeliad
   bromelins: root=bromelin
   bromes: root=brome
-  bromides: root=bromid
+  bromides: root=bromide
   bromids: root=bromid
   brominated: root=brominate
   brominates: root=brominate
   brominating: root=brominate
   brominations: root=bromination
-  bromines: root=bromin
+  bromines: root=bromine
   bromins: root=bromin
   bromisms: root=bromism
   bromized: root=bromize
@@ -8487,12 +8485,10 @@ lemmas
   brows: root=brow
   browsed: root=browse
   browsers: root=browser
-  browses: root=brows
-    m01: pos=noun root=brows
-    m02: pos=verb root=browse
+  browses: root=browse
   browsing: root=browse
   brucellas: root=brucella
-  brucines: root=brucin
+  brucines: root=brucine
   brucins: root=brucin
   brughs: root=brugh
   bruins: root=bruin
@@ -8553,7 +8549,7 @@ lemmas
   bryophyllums: root=bryophyllum
   bryophytes: root=bryophyte
   bryozoans: root=bryozoan
-  bubales: root=bubal
+  bubales: root=bubale
   bubalises: root=bubalis
   bubals: root=bubal
   bubbies: root=bubby
@@ -9152,7 +9148,7 @@ lemmas
   cabernets: root=cabernet
   cabers: root=caber
   cabestros: root=cabestro
-  cabezones: root=cabezon
+  cabezones: root=cabezone
   cabezons: root=cabezon
   cabildos: root=cabildo
   cabined: root=cabin
@@ -9257,7 +9253,7 @@ lemmas
   cafes: root=cafe
   cafeterias: root=cafeteria
   cafetoriums: root=cafetorium
-  caffeines: root=caffein
+  caffeines: root=caffeine
   caffeins: root=caffein
   caffs: root=caff
   caftans: root=caftan
@@ -9425,7 +9421,7 @@ lemmas
   calmodulins: root=calmodulin
   calms: root=calm
   calomels: root=calomel
-  calories: root=calory
+  calories: root=calorie
   calorimeters: root=calorimeter
   calorimetries: root=calorimetry
   calorized: root=calorize
@@ -9616,9 +9612,7 @@ lemmas
   canellas: root=canella
   canephors: root=canephor
   caners: root=caner
-  canes: root=can
-    m01: pos=noun root=can
-    m02: pos=verb root=cane
+  canes: root=cane
   canewares: root=caneware
   canfields: root=canfield
   canfuls: root=canful
@@ -9692,7 +9686,7 @@ lemmas
   cans: root=can
   cansos: root=canso
   cantalas: root=cantala
-  cantaloupes: root=cantaloup
+  cantaloupes: root=cantaloupe
   cantaloups: root=cantaloup
   cantankerousnesses: root=cantankerousness
   cantatas: root=cantata
@@ -9772,7 +9766,9 @@ lemmas
   caperers: root=caperer
   capering: root=caper
   capers: root=caper
-  capes: root=cap
+  capes: root=cape
+    m01: pos=noun root=cape
+    m02: pos=verb root=cap
   capeskins: root=capeskin
   capeworks: root=capework
   capfuls: root=capful
@@ -9872,7 +9868,7 @@ lemmas
   carabineers: root=carabineer
   carabineros: root=carabinero
   carabiners: root=carabiner
-  carabines: root=carabin
+  carabines: root=carabine
   carabinieri: root=carabiniere
   carabiniers: root=carabinier
   carabins: root=carabin
@@ -10024,9 +10020,7 @@ lemmas
   caregivings: root=caregiving
   carelessnesses: root=carelessness
   carers: root=carer
-  cares: root=car
-    m01: pos=noun root=car
-    m02: pos=verb root=care
+  cares: root=care
   caress: root=cares
   caressed: root=caress
   caressers: root=caresser
@@ -10061,8 +10055,8 @@ lemmas
   carked: root=cark
   carking: root=cark
   carks: root=cark
-  carles: root=carl
-  carlines: root=carlin
+  carles: root=carle
+  carlines: root=carline
   carlings: root=carling
   carlins: root=carlin
   carloads: root=carload
@@ -10092,7 +10086,7 @@ lemmas
   carns: root=carn
   caroaches: root=caroach
   carobs: root=carob
-  caroches: root=caroch
+  caroches: root=caroche
   caroled: root=carol
   carolers: root=caroler
   caroli: root=carolus
@@ -10191,7 +10185,9 @@ lemmas
   cartelizing: root=cartelize
   cartels: root=cartel
   carters: root=carter
-  cartes: root=cart
+  cartes: root=carte
+    m01: pos=noun root=carte
+    m02: pos=verb root=cart
   carthorses: root=carthorse
   cartilages: root=cartilage
   carting: root=cart
@@ -10302,7 +10298,9 @@ lemmas
   casteisms: root=casteism
   castellans: root=castellan
   casters: root=caster
-  castes: root=cast
+  castes: root=caste
+    m01: pos=noun root=caste
+    m02: pos=verb root=cast
   castigated: root=castigate
   castigates: root=castigate
   castigating: root=castigate
@@ -10549,12 +10547,10 @@ lemmas
   caverning: root=cavern
   caverns: root=cavern
   cavers: root=caver
-  caves: root=cafe
-    m01: pos=noun root=cafe
-    m02: pos=verb root=cave
+  caves: root=cave
   cavetti: root=cavetto
   cavettos: root=cavetto
-  caviares: root=caviar
+  caviares: root=caviare
   caviars: root=caviar
   cavies: root=cavy
   caviled: root=cavil
@@ -10747,7 +10743,7 @@ lemmas
   centuries: root=century
   centurions: root=centurion
   ceorls: root=ceorl
-  cepes: root=cep
+  cepes: root=cepe
   cephalexins: root=cephalexin
   cephalins: root=cephalin
   cephalizations: root=cephalization
@@ -10985,9 +10981,7 @@ lemmas
   changelings: root=changeling
   changeovers: root=changeover
   changers: root=changer
-  changes: root=chang
-    m01: pos=noun root=chang
-    m02: pos=verb root=change
+  changes: root=change
   changing: root=change
   changs: root=chang
   channeled: root=channel
@@ -11025,9 +11019,7 @@ lemmas
   chapels: root=chapel
   chaperonages: root=chaperonage
   chaperoned: root=chaperone
-  chaperones: root=chaperon
-    m01: pos=noun root=chaperon
-    m02: pos=verb root=chaperone
+  chaperones: root=chaperone
   chaperoning: root=chaperone
   chaperons: root=chaperon
   chapes: root=chap
@@ -11150,7 +11142,7 @@ lemmas
   chateaubriands: root=chateaubriand
   chateaus: root=chateau
   chateaux: root=chateau
-  chatelaines: root=chatelain
+  chatelaines: root=chatelaine
   chatelains: root=chatelain
   chatoyances: root=chatoyance
   chatoyancies: root=chatoyancy
@@ -11431,7 +11423,7 @@ lemmas
   chimbs: root=chimb
   chimed: root=chime
   chimeras: root=chimera
-  chimeres: root=chimer
+  chimeres: root=chimere
   chimerisms: root=chimerism
   chimers: root=chimer
   chimes: root=chime
@@ -11456,9 +11448,7 @@ lemmas
   chinches: root=chinch
   chinchillas: root=chinchilla
   chined: root=chine
-  chines: root=chin
-    m01: pos=noun root=chin
-    m02: pos=verb root=chine
+  chines: root=chine
   chining: root=chine
   chinkapins: root=chinkapin
   chinked: root=chink
@@ -11506,9 +11496,9 @@ lemmas
   chirpers: root=chirper
   chirping: root=chirp
   chirps: root=chirp
-  chirred: root=chirre
+  chirred: root=chirr
   chirres: root=chirre
-  chirring: root=chirre
+  chirring: root=chirr
   chirrs: root=chirr
   chirruped: root=chirrup
   chirruping: root=chirrup
@@ -11554,19 +11544,19 @@ lemmas
   chloramines: root=chloramine
   chloramphenicols: root=chloramphenicol
   chlorates: root=chlorate
-  chlordanes: root=chlordan
+  chlordanes: root=chlordane
   chlordans: root=chlordan
   chlordiazepoxides: root=chlordiazepoxide
   chlorellas: root=chlorella
   chlorenchymas: root=chlorenchyma
-  chlorides: root=chlorid
+  chlorides: root=chloride
   chlorids: root=chlorid
   chlorinated: root=chlorinate
   chlorinates: root=chlorinate
   chlorinating: root=chlorinate
   chlorinations: root=chlorination
   chlorinators: root=chlorinator
-  chlorines: root=chlorin
+  chlorines: root=chlorine
   chlorinities: root=chlorinity
   chlorins: root=chlorin
   chlorites: root=chlorite
@@ -11640,7 +11630,7 @@ lemmas
   chooses: root=choose
   choosing: root=choose
   chophouses: root=chophouse
-  chopines: root=chopin
+  chopines: root=chopine
   chopins: root=chopin
   choplogics: root=choplogic
   chopped: root=chop
@@ -11651,7 +11641,7 @@ lemmas
   chopsticks: root=chopstick
   choragi: root=choragus
   choraguses: root=choragus
-  chorales: root=choral
+  chorales: root=chorale
   chorals: root=choral
   chordamesoderms: root=chordamesoderm
   chordates: root=chordate
@@ -11715,7 +11705,7 @@ lemmas
   christenings: root=christening
   christens: root=christen
   christianias: root=christiania
-  christies: root=christy
+  christies: root=christie
   chromas: root=chroma
   chromates: root=chromate
   chromaticisms: root=chromaticism
@@ -11905,7 +11895,7 @@ lemmas
   cinchonisms: root=cinchonism
   cinctures: root=cincture
   cinders: root=cinder
-  cineastes: root=cineast
+  cineastes: root=cineaste
   cineasts: root=cineast
   cinemagoers: root=cinemagoer
   cinemas: root=cinema
@@ -11916,7 +11906,7 @@ lemmas
   cinematographers: root=cinematographer
   cinematographies: root=cinematography
   cinematographs: root=cinematograph
-  cineoles: root=cineol
+  cineoles: root=cineole
   cineols: root=cineol
   cineraria: root=cinerarium
   cinerarias: root=cineraria
@@ -12052,7 +12042,7 @@ lemmas
   citrates: root=citrate
   citricultures: root=citriculture
   citriculturists: root=citriculturist
-  citrines: root=citrin
+  citrines: root=citrine
   citrinins: root=citrinin
   citrins: root=citrin
   citronellals: root=citronellal
@@ -12415,9 +12405,7 @@ lemmas
   clomps: root=clomp
   cloned: root=clone
   cloners: root=cloner
-  clones: root=clon
-    m01: pos=noun root=clon
-    m02: pos=verb root=clone
+  clones: root=clone
   clonicities: root=clonicity
   clonidines: root=clonidine
   cloning: root=clone
@@ -12677,7 +12665,7 @@ lemmas
   cobras: root=cobra
   cobs: root=cob
   cobwebs: root=cobweb
-  cocaines: root=cocain
+  cocaines: root=cocaine
   cocainizations: root=cocainization
   cocainized: root=cocainize
   cocainizes: root=cocainize
@@ -12789,7 +12777,7 @@ lemmas
   codefendants: root=codefendant
   codeias: root=codeia
   codeinas: root=codeina
-  codeines: root=codein
+  codeines: root=codeine
   codeins: root=codein
   codens: root=coden
   codependences: root=codependence
@@ -12798,9 +12786,7 @@ lemmas
   coderived: root=coderive
   coderives: root=coderive
   coderiving: root=coderive
-  codes: root=cod
-    m01: pos=noun root=cod
-    m02: pos=verb root=code
+  codes: root=code
   codesigned: root=codesign
   codesigning: root=codesign
   codesigns: root=codesign
@@ -13001,7 +12987,7 @@ lemmas
   coiffuring: root=coiffure
   coifing: root=coif
   coifs: root=coif
-  coignes: root=coign
+  coignes: root=coigne
   coigns: root=coign
   coilabilities: root=coilability
   coiled: root=coil
@@ -13066,14 +13052,14 @@ lemmas
   coleopterists: root=coleopterist
   coleoptiles: root=coleoptile
   coleorhizae: root=coleorhiza
-  coles: root=col
+  coles: root=cole
   coleseeds: root=coleseed
   coleslaws: root=coleslaw
   colessees: root=colessee
   colessors: root=colessor
   coleuses: root=coleus
   coleworts: root=colewort
-  colicines: root=colicin
+  colicines: root=colicine
   colicins: root=colicin
   colicroots: root=colicroot
   colics: root=colic
@@ -13402,7 +13388,7 @@ lemmas
   commercializes: root=commercialize
   commercializing: root=commercialize
   commercials: root=commercial
-  commies: root=commy
+  commies: root=commie
   comminations: root=commination
   commingled: root=commingle
   commingles: root=commingle
@@ -13634,7 +13620,7 @@ lemmas
   complimented: root=compliment
   complimenting: root=compliment
   compliments: root=compliment
-  complines: root=complin
+  complines: root=compline
   complins: root=complin
   complots: root=complot
   complotted: root=complot
@@ -13662,7 +13648,7 @@ lemmas
   compounded: root=compound
   compounding: root=compound
   compounds: root=compound
-  compradores: root=comprador
+  compradores: root=compradore
   compradors: root=comprador
   comprehended: root=comprehend
   comprehending: root=comprehend
@@ -13922,9 +13908,7 @@ lemmas
   conenoses: root=conenose
   conepates: root=conepate
   conepatls: root=conepatl
-  cones: root=con
-    m01: pos=noun root=con
-    m02: pos=verb root=cone
+  cones: root=cone
   coneys: root=coney
   confabbed: root=confab
   confabbing: root=confab
@@ -13966,7 +13950,7 @@ lemmas
   confessionals: root=confessional
   confessions: root=confession
   confessors: root=confessor
-  confidantes: root=confidant
+  confidantes: root=confidante
   confidants: root=confidant
   confided: root=confide
   confidences: root=confidence
@@ -14110,7 +14094,7 @@ lemmas
   conies: root=cony
   conifers: root=conifer
   coniines: root=coniine
-  conines: root=conin
+  conines: root=conine
   coning: root=cone
   conins: root=conin
   coniums: root=conium
@@ -14254,9 +14238,7 @@ lemmas
   consolations: root=consolation
   consoled: root=console
   consolers: root=consoler
-  consoles: root=consol
-    m01: pos=noun root=consol
-    m02: pos=verb root=console
+  consoles: root=console
   consolidated: root=consolidate
   consolidates: root=consolidate
   consolidating: root=consolidate
@@ -14670,7 +14652,7 @@ lemmas
   cookers: root=cooker
   cookeys: root=cookey
   cookhouses: root=cookhouse
-  cookies: root=cooky
+  cookies: root=cookie
   cooking: root=cook
   cookings: root=cooking
   cookouts: root=cookout
@@ -14689,7 +14671,7 @@ lemmas
   coolnesses: root=coolness
   cools: root=cool
   coolths: root=coolth
-  coombes: root=coomb
+  coombes: root=coombe
   coombs: root=coomb
   cooncans: root=cooncan
   coonhounds: root=coonhound
@@ -14742,9 +14724,7 @@ lemmas
   copens: root=copen
   copepods: root=copepod
   copers: root=coper
-  copes: root=cop
-    m01: pos=noun root=cop
-    m02: pos=verb root=cope
+  copes: root=cope
   copestones: root=copestone
   copied: root=copy
   copiers: root=copier
@@ -14797,7 +14777,7 @@ lemmas
   coproprietors: root=coproprietor
   coprosperities: root=coprosperity
   cops: root=cop
-  copses: root=cops
+  copses: root=copse
   copters: root=copter
   copublishers: root=copublisher
   copulae: root=copula
@@ -14892,9 +14872,7 @@ lemmas
   corepressors: root=corepressor
   corequisites: root=corequisite
   corers: root=corer
-  cores: root=cor
-    m01: pos=noun root=cor
-    m02: pos=verb root=core
+  cores: root=core
   coresearchers: root=coresearcher
   coresidents: root=coresident
   corespondents: root=corespondent
@@ -14994,7 +14972,7 @@ lemmas
   corporealnesses: root=corporealness
   corporeities: root=corporeity
   corposants: root=corposant
-  corpses: root=corps
+  corpses: root=corpse
   corpsmen: root=corpsman
   corpulences: root=corpulence
   corpulencies: root=corpulency
@@ -15173,7 +15151,7 @@ lemmas
   cotans: root=cotan
   cotenants: root=cotenant
   coteries: root=coterie
-  cotes: root=cot
+  cotes: root=cote
   cothurni: root=cothurnus
   cothurns: root=cothurn
   cotilions: root=cotilion
@@ -15484,7 +15462,7 @@ lemmas
   countrysides: root=countryside
   countrywomen: root=countrywoman
   counts: root=count
-  coupes: root=coup
+  coupes: root=coupe
   coupled: root=couple
   couplements: root=couplement
   couplers: root=coupler
@@ -15497,7 +15475,7 @@ lemmas
   coups: root=coup
   courageousnesses: root=courageousness
   courages: root=courage
-  courantes: root=courant
+  courantes: root=courante
   courantoes: root=couranto
   courantos: root=couranto
   courants: root=courant
@@ -15727,13 +15705,11 @@ lemmas
   cranks: root=crank
   crankshafts: root=crankshaft
   crannies: root=cranny
-  crannoges: root=crannog
+  crannoges: root=crannoge
   crannogs: root=crannog
   cranreuchs: root=cranreuch
   craped: root=crape
-  crapes: root=crap
-    m01: pos=noun root=crap
-    m02: pos=verb root=crape
+  crapes: root=crape
   craping: root=crape
   crapped: root=crap
   crappers: root=crapper
@@ -15805,7 +15781,7 @@ lemmas
   creasing: root=crease
   created: root=create
   creates: root=create
-  creatines: root=creatin
+  creatines: root=creatine
   creating: root=create
   creatinines: root=creatinine
   creatins: root=creatin
@@ -16018,7 +15994,7 @@ lemmas
   croakers: root=croaker
   croaking: root=croak
   croaks: root=croak
-  croceines: root=crocein
+  croceines: root=croceine
   croceins: root=crocein
   crocheted: root=crochet
   crocheters: root=crocheter
@@ -16118,7 +16094,7 @@ lemmas
   crouched: root=crouch
   crouches: root=crouch
   crouching: root=crouch
-  croupes: root=croup
+  croupes: root=croupe
   croupiers: root=croupier
   croups: root=croup
   croustades: root=croustade
@@ -16157,7 +16133,7 @@ lemmas
   crucifying: root=crucify
   crucks: root=cruck
   crudenesses: root=crudeness
-  crudes: root=crud
+  crudes: root=crude
   crudities: root=crudity
   cruds: root=crud
   cruelnesses: root=cruelness
@@ -16285,9 +16261,7 @@ lemmas
   cubebs: root=cubeb
   cubed: root=cube
   cubers: root=cuber
-  cubes: root=cub
-    m01: pos=noun root=cub
-    m02: pos=verb root=cube
+  cubes: root=cube
   cubicities: root=cubicity
   cubicles: root=cubicle
   cubing: root=cube
@@ -16473,9 +16447,7 @@ lemmas
   curdling: root=curdle
   curds: root=curd
   cured: root=cure
-  cures: root=cur
-    m01: pos=noun root=cur
-    m02: pos=verb root=cure
+  cures: root=cure
   curets: root=curet
   curettages: root=curettage
   curetted: root=curet
@@ -16528,9 +16500,7 @@ lemmas
   cursed: root=curse
   cursednesses: root=cursedness
   cursers: root=curser
-  curses: root=curs
-    m01: pos=noun root=curs
-    m02: pos=verb root=curse
+  curses: root=curse
   cursing: root=curse
   cursivenesses: root=cursiveness
   cursives: root=cursive
@@ -16560,9 +16530,7 @@ lemmas
   curveballing: root=curveball
   curveballs: root=curveball
   curved: root=curve
-  curves: root=curf
-    m01: pos=noun root=curf
-    m02: pos=verb root=curve
+  curves: root=curve
   curveted: root=curvet
   curveting: root=curvet
   curvets: root=curvet
@@ -16659,14 +16627,14 @@ lemmas
   cutworms: root=cutworm
   cuvettes: root=cuvette
   cwms: root=cwm
-  cyanamides: root=cyanamid
+  cyanamides: root=cyanamide
   cyanamids: root=cyanamid
   cyanates: root=cyanate
   cyanided: root=cyanid
   cyanides: root=cyanide
   cyaniding: root=cyanid
   cyanids: root=cyanid
-  cyanines: root=cyanin
+  cyanines: root=cyanine
   cyanins: root=cyanin
   cyanites: root=cyanite
   cyanoacrylates: root=cyanoacrylate
@@ -16771,7 +16739,7 @@ lemmas
   cypruses: root=cyprus
   cypselae: root=cypsela
   cysteamines: root=cysteamine
-  cysteines: root=cystein
+  cysteines: root=cysteine
   cysteins: root=cystein
   cysticerci: root=cysticercus
   cysticercoids: root=cysticercoid
@@ -16903,7 +16871,7 @@ lemmas
   dalapons: root=dalapon
   dalasis: root=dalasi
   daledhs: root=daledh
-  dales: root=dal
+  dales: root=dale
   dalesmen: root=dalesman
   daleths: root=daleth
   dalliances: root=dalliance
@@ -16926,7 +16894,9 @@ lemmas
   damascenes: root=damascene
   damascening: root=damascene
   damasks: root=damask
-  dames: root=dam
+  dames: root=dame
+    m01: pos=noun root=dame
+    m02: pos=verb root=dam
   dameworts: root=damewort
   dammars: root=dammar
   dammed: root=dam
@@ -17269,9 +17239,9 @@ lemmas
   deboners: root=deboner
   debones: root=debone
   deboning: root=debone
-  debouched: root=debouche
-  debouches: root=debouche
-  debouching: root=debouche
+  debouched: root=debouch
+  debouches: root=debouch
+  debouching: root=debouch
   debouchments: root=debouchment
   debrided: root=debride
   debridements: root=debridement
@@ -17294,7 +17264,7 @@ lemmas
   debunkers: root=debunker
   debunking: root=debunk
   debunks: root=debunk
-  debutantes: root=debutant
+  debutantes: root=debutante
   debutants: root=debutant
   debuted: root=debut
   debuting: root=debut
@@ -18003,7 +17973,7 @@ lemmas
   delegations: root=delegation
   delegators: root=delegator
   delegitimations: root=delegitimation
-  deles: root=del
+  deles: root=dele
   deleted: root=delete
   deleteriousnesses: root=deleteriousness
   deletes: root=delete
@@ -18347,7 +18317,7 @@ lemmas
   denticulations: root=denticulation
   dentifrices: root=dentifrice
   dentils: root=dentil
-  dentines: root=dentin
+  dentines: root=dentine
   denting: root=dent
   dentins: root=dentin
   dentistries: root=dentistry
@@ -18893,7 +18863,7 @@ lemmas
   detectives: root=detective
   detectors: root=detector
   detects: root=detect
-  detentes: root=detent
+  detentes: root=detente
   detentions: root=detention
   detents: root=detent
   deterged: root=deterge
@@ -19014,10 +18984,10 @@ lemmas
   deveins: root=devein
   develed: root=devel
   develing: root=devel
-  developed: root=develope
+  developed: root=develop
   developers: root=developer
   developes: root=develope
-  developing: root=develope
+  developing: root=develop
   developments: root=development
   develops: root=develop
   devels: root=devel
@@ -19051,7 +19021,9 @@ lemmas
   deviousnesses: root=deviousness
   devisals: root=devisal
   devised: root=devise
-  devisees: root=devise
+  devisees: root=devisee
+    m01: pos=noun root=devisee
+    m02: pos=verb root=devise
   devisers: root=deviser
   devises: root=devise
   devising: root=devise
@@ -19137,7 +19109,7 @@ lemmas
   dholes: root=dhole
   dhoolies: root=dhooly
   dhooras: root=dhoora
-  dhooties: root=dhooti
+  dhooties: root=dhootie
   dhootis: root=dhooti
   dhotis: root=dhoti
   dhourras: root=dhourra
@@ -19214,7 +19186,7 @@ lemmas
   diamantes: root=diamante
   diameters: root=diameter
   diamides: root=diamide
-  diamines: root=diamin
+  diamines: root=diamine
   diamins: root=diamin
   diamonds: root=diamond
   dianthuses: root=dianthus
@@ -19256,7 +19228,7 @@ lemmas
   diatribes: root=diatribe
   diatrons: root=diatron
   diazepams: root=diazepam
-  diazines: root=diazin
+  diazines: root=diazine
   diazinons: root=diazinon
   diazins: root=diazin
   diazoles: root=diazole
@@ -19294,7 +19266,7 @@ lemmas
   dichotomizing: root=dichotomize
   dichotomousnesses: root=dichotomousness
   dichroisms: root=dichroism
-  dichromates: root=dichromat
+  dichromates: root=dichromate
   dichromatisms: root=dichromatism
   dichromats: root=dichromat
   dichroscopes: root=dichroscope
@@ -19602,9 +19574,9 @@ lemmas
   dioptres: root=dioptre
   dioramas: root=diorama
   diorites: root=diorite
-  dioxanes: root=dioxan
+  dioxanes: root=dioxane
   dioxans: root=dioxan
-  dioxides: root=dioxid
+  dioxides: root=dioxide
   dioxids: root=dioxid
   dioxins: root=dioxin
   dipeptidases: root=dipeptidase
@@ -19631,7 +19603,7 @@ lemmas
   diploids: root=diploid
   diplomacies: root=diplomacy
   diplomas: root=diploma
-  diplomates: root=diplomat
+  diplomates: root=diplomate
   diplomatists: root=diplomatist
   diplomats: root=diplomat
   diplonts: root=diplont
@@ -20590,7 +20562,7 @@ lemmas
   disturbers: root=disturber
   disturbing: root=disturb
   disturbs: root=disturb
-  disulfides: root=disulfid
+  disulfides: root=disulfide
   disulfids: root=disulfid
   disulfirams: root=disulfiram
   disulfotons: root=disulfoton
@@ -20706,7 +20678,9 @@ lemmas
   divisivenesses: root=divisiveness
   divisors: root=divisor
   divorced: root=divorce
-  divorcees: root=divorce
+  divorcees: root=divorcee
+    m01: pos=noun root=divorcee
+    m02: pos=verb root=divorce
   divorcements: root=divorcement
   divorcers: root=divorcer
   divorces: root=divorce
@@ -20819,7 +20793,9 @@ lemmas
   dogearing: root=dogear
   dogears: root=dogear
   dogedoms: root=dogedom
-  doges: root=dog
+  doges: root=doge
+    m01: pos=noun root=doge
+    m02: pos=verb root=dog
   dogeships: root=dogeship
   dogeys: root=dogey
   dogfaces: root=dogface
@@ -20876,9 +20852,7 @@ lemmas
   doled: root=dole
   dolefulnesses: root=dolefulness
   dolerites: root=dolerite
-  doles: root=dol
-    m01: pos=noun root=dol
-    m02: pos=verb root=dole
+  doles: root=dole
   dolichocephalies: root=dolichocephaly
   doling: root=dole
   dollars: root=dollar
@@ -20908,7 +20882,7 @@ lemmas
   doltishnesses: root=doltishness
   dolts: root=dolt
   domains: root=domain
-  domes: root=dom
+  domes: root=dome
   domesdays: root=domesday
   domesticated: root=domesticate
   domesticates: root=domesticate
@@ -21052,9 +21026,7 @@ lemmas
   dosages: root=dosage
   dosed: root=dose
   dosers: root=doser
-  doses: root=dos
-    m01: pos=noun root=dos
-    m02: pos=verb root=dose
+  doses: root=dose
   dosimeters: root=dosimeter
   dosimetries: root=dosimetry
   dosing: root=dose
@@ -21126,7 +21098,7 @@ lemmas
   dousing: root=douse
   douzepers: root=douzeper
   dove: root=dive
-  dovecotes: root=dovecot
+  dovecotes: root=dovecote
   dovecots: root=dovecot
   dovekeys: root=dovekey
   dovekies: root=dovekie
@@ -21276,7 +21248,7 @@ lemmas
   dramatized: root=dramatize
   dramatizes: root=dramatize
   dramatizing: root=dramatize
-  dramaturges: root=dramaturg
+  dramaturges: root=dramaturge
   dramaturgies: root=dramaturgy
   dramaturgs: root=dramaturg
   dramedies: root=dramedy
@@ -21580,7 +21552,7 @@ lemmas
   ductules: root=ductule
   ductworks: root=ductwork
   dudeens: root=dudeen
-  dudes: root=dud
+  dudes: root=dude
   dudgeons: root=dudgeon
   duds: root=dud
   duecentos: root=duecento
@@ -21661,7 +21633,9 @@ lemmas
   dunces: root=dunce
   dunderheads: root=dunderhead
   dunelands: root=duneland
-  dunes: root=dun
+  dunes: root=dune
+    m01: pos=noun root=dune
+    m02: pos=verb root=dun
   dungarees: root=dungaree
   dunged: root=dung
   dungeons: root=dungeon
@@ -21696,9 +21670,7 @@ lemmas
   duped: root=dupe
   duperies: root=dupery
   dupers: root=duper
-  dupes: root=dup
-    m01: pos=noun root=dup
-    m02: pos=verb root=dupe
+  dupes: root=dupe
   duping: root=dupe
   duplexes: root=duplex
   duplicated: root=duplicate
@@ -21758,7 +21730,7 @@ lemmas
   duumvirs: root=duumvir
   duvetines: root=duvetine
   duvets: root=duvet
-  duvetynes: root=duvetyn
+  duvetynes: root=duvetyne
   duvetyns: root=duvetyn
   dwarfed: root=dwarf
   dwarfing: root=dwarf
@@ -21955,7 +21927,7 @@ lemmas
   ecclesiologists: root=ecclesiologist
   ecdyses: root=ecdysis
   ecdysiasts: root=ecdysiast
-  ecdysones: root=ecdyson
+  ecdysones: root=ecdysone
   ecdysons: root=ecdyson
   ecesises: root=ecesis
   echards: root=echard
@@ -22696,7 +22668,7 @@ lemmas
   emes: root=eme
   emeses: root=emes
   emetics: root=emetic
-  emetines: root=emetin
+  emetines: root=emetine
   emetins: root=emetin
   emeus: root=emeu
   emeutes: root=emeute
@@ -22781,7 +22753,7 @@ lemmas
   emplaning: root=emplane
   employabilities: root=employability
   employed: root=employ
-  employees: root=employe
+  employees: root=employee
   employers: root=employer
   employes: root=employ
   employing: root=employ
@@ -22824,7 +22796,7 @@ lemmas
   emulsions: root=emulsion
   emulsoids: root=emulsoid
   emus: root=emu
-  emydes: root=emyd
+  emydes: root=emyde
   emyds: root=emyd
   enabled: root=enable
   enablers: root=enabler
@@ -23420,7 +23392,7 @@ lemmas
   enterers: root=enterer
   entering: root=enter
   enteritises: root=enteritis
-  enterocoeles: root=enterocoel
+  enterocoeles: root=enterocoele
   enterocoels: root=enterocoel
   enterocolitises: root=enterocolitis
   enterogastrones: root=enterogastrone
@@ -23593,7 +23565,7 @@ lemmas
   enwreathes: root=enwreathe
   enwreathing: root=enwreathe
   enzootics: root=enzootic
-  enzymes: root=enzym
+  enzymes: root=enzyme
   enzymologies: root=enzymology
   enzymologists: root=enzymologist
   enzyms: root=enzym
@@ -23623,7 +23595,7 @@ lemmas
   ephas: root=epha
   ephebes: root=ephebe
   ephedras: root=ephedra
-  ephedrines: root=ephedrin
+  ephedrines: root=ephedrine
   ephedrins: root=ephedrin
   ephemera: root=ephemeron
   ephemerae: root=ephemera
@@ -23668,7 +23640,7 @@ lemmas
   epifaunas: root=epifauna
   epiglottides: root=epiglottis
   epiglottises: root=epiglottis
-  epigones: root=epigon
+  epigones: root=epigone
   epigonisms: root=epigonism
   epigons: root=epigon
   epigrammatisms: root=epigrammatism
@@ -23690,11 +23662,11 @@ lemmas
   epilogs: root=epilog
   epilogues: root=epilogue
   epimerases: root=epimerase
-  epimeres: root=epimer
+  epimeres: root=epimere
   epimers: root=epimer
   epimysia: root=epimysium
   epinasties: root=epinasty
-  epinephrines: root=epinephrin
+  epinephrines: root=epinephrine
   epinephrins: root=epinephrin
   epineuriums: root=epineurium
   epiphanies: root=epiphany
@@ -23882,7 +23854,7 @@ lemmas
   eristics: root=eristic
   erlkings: root=erlking
   ermines: root=ermine
-  ernes: root=ern
+  ernes: root=erne
   erns: root=ern
   eroded: root=erode
   erodes: root=erode
@@ -23942,7 +23914,7 @@ lemmas
   erythromycins: root=erythromycin
   erythrons: root=erythron
   erythropoietins: root=erythropoietin
-  erythrosines: root=erythrosin
+  erythrosines: root=erythrosine
   erythrosins: root=erythrosin
   escadrilles: root=escadrille
   escaladers: root=escalader
@@ -23961,7 +23933,9 @@ lemmas
   escalops: root=escalop
   escapades: root=escapade
   escaped: root=escape
-  escapees: root=escape
+  escapees: root=escapee
+    m01: pos=noun root=escapee
+    m02: pos=verb root=escape
   escapements: root=escapement
   escapers: root=escaper
   escapes: root=escape
@@ -24102,7 +24076,7 @@ lemmas
   esuriences: root=esurience
   etageres: root=etagere
   etalons: root=etalon
-  etamines: root=etamin
+  etamines: root=etamine
   etamins: root=etamin
   etapes: root=etape
   etas: root=eta
@@ -24217,7 +24191,7 @@ lemmas
   etymologizing: root=etymologize
   etymons: root=etymon
   eucalypti: root=eucalyptus
-  eucalyptoles: root=eucalyptol
+  eucalyptoles: root=eucalyptole
   eucalyptols: root=eucalyptol
   eucalypts: root=eucalypt
   eucalyptuses: root=eucalyptus
@@ -24861,9 +24835,7 @@ lemmas
   exposals: root=exposal
   exposed: root=expose
   exposers: root=exposer
-  exposes: root=expos
-    m01: pos=noun root=expos
-    m02: pos=verb root=expose
+  exposes: root=expose
   exposing: root=expose
   exposited: root=exposit
   expositing: root=exposit
@@ -25210,9 +25182,7 @@ lemmas
   fadeaways: root=fadeaway
   faded: root=fade
   faders: root=fader
-  fades: root=fad
-    m01: pos=noun root=fad
-    m02: pos=verb root=fade
+  fades: root=fade
   fadged: root=fadge
   fadges: root=fadge
   fadging: root=fadge
@@ -25425,7 +25395,7 @@ lemmas
   faring: root=fare
   farinhas: root=farinha
   farkleberries: root=farkleberry
-  farles: root=farl
+  farles: root=farle
   farls: root=farl
   farmed: root=farm
   farmerettes: root=farmerette
@@ -25505,9 +25475,7 @@ lemmas
   fatbirds: root=fatbird
   fated: root=fate
   fatefulnesses: root=fatefulness
-  fates: root=fat
-    m01: pos=noun root=fat
-    m02: pos=verb root=fate
+  fates: root=fate
   fatheadednesses: root=fatheadedness
   fatheads: root=fathead
   fathered: root=father
@@ -25887,9 +25855,7 @@ lemmas
   fetching: root=fetch
   feted: root=fete
   feteritas: root=feterita
-  fetes: root=fet
-    m01: pos=noun root=fet
-    m02: pos=verb root=fete
+  fetes: root=fete
   fetiales: root=fetial
   fetials: root=fetial
   fetiches: root=fetich
@@ -25942,7 +25908,7 @@ lemmas
   feynesses: root=feyness
   fezes: root=fez
   fezzes: root=fez
-  fiancees: root=fiance
+  fiancees: root=fiancee
   fiances: root=fiance
   fianchettoed: root=fianchetto
   fianchettoing: root=fianchetto
@@ -26112,7 +26078,9 @@ lemmas
   filisters: root=filister
   filled: root=fill
   fillers: root=filler
-  filles: root=fill
+  filles: root=fille
+    m01: pos=noun root=fille
+    m02: pos=verb root=fill
   filleted: root=fillet
   filleting: root=fillet
   fillets: root=fillet
@@ -26157,7 +26125,7 @@ lemmas
   finaglers: root=finagler
   finagles: root=finagle
   finagling: root=finagle
-  finales: root=final
+  finales: root=finale
   finalisms: root=finalism
   finalists: root=finalist
   finalities: root=finality
@@ -26180,9 +26148,7 @@ lemmas
   fined: root=fine
   finenesses: root=fineness
   fineries: root=finery
-  fines: root=fin
-    m01: pos=noun root=fin
-    m02: pos=verb root=fine
+  fines: root=fine
   finesses: root=finesse
   finessing: root=fines
   finfoots: root=finfoot
@@ -26274,9 +26240,7 @@ lemmas
   fireproofs: root=fireproof
   firerooms: root=fireroom
   firers: root=firer
-  fires: root=fir
-    m01: pos=noun root=fir
-    m02: pos=verb root=fire
+  fires: root=fire
   firesides: root=fireside
   firestones: root=firestone
   firestorms: root=firestorm
@@ -26363,13 +26327,13 @@ lemmas
   fittings: root=fitting
   fivepences: root=fivepence
   fivers: root=fiver
-  fives: root=fife
+  fives: root=five
   fixated: root=fixate
   fixates: root=fixate
   fixatifs: root=fixatif
   fixating: root=fixate
   fixations: root=fixation
-  fixatives: root=fixatif
+  fixatives: root=fixative
   fixed: root=fix
   fixednesses: root=fixedness
   fixers: root=fixer
@@ -26430,9 +26394,7 @@ lemmas
   flairs: root=flair
   flaked: root=flake
   flakers: root=flaker
-  flakes: root=flak
-    m01: pos=noun root=flak
-    m02: pos=verb root=flake
+  flakes: root=flake
   flakinesses: root=flakiness
   flaking: root=flake
   flambeaus: root=flambeau
@@ -26449,9 +26411,7 @@ lemmas
   flamens: root=flamen
   flameouts: root=flameout
   flamers: root=flamer
-  flames: root=flam
-    m01: pos=noun root=flam
-    m02: pos=verb root=flame
+  flames: root=flame
   flamethrowers: root=flamethrower
   flamines: root=flamen
   flaming: root=flame
@@ -26828,7 +26788,7 @@ lemmas
   fluegelhorns: root=fluegelhorn
   fluencies: root=fluency
   fluerics: root=flueric
-  flues: root=flu
+  flues: root=flue
   fluffed: root=fluff
   fluffinesses: root=fluffiness
   fluffing: root=fluff
@@ -26876,7 +26836,7 @@ lemmas
   fluoridates: root=fluoridate
   fluoridating: root=fluoridate
   fluoridations: root=fluoridation
-  fluorides: root=fluorid
+  fluorides: root=fluoride
   fluoridizations: root=fluoridization
   fluoridized: root=fluoridize
   fluoridizes: root=fluoridize
@@ -26888,7 +26848,7 @@ lemmas
   fluorinates: root=fluorinate
   fluorinating: root=fluorinate
   fluorinations: root=fluorination
-  fluorines: root=fluorin
+  fluorines: root=fluorine
   fluorins: root=fluorin
   fluorites: root=fluorite
   fluorocarbons: root=fluorocarbon
@@ -27045,7 +27005,7 @@ lemmas
   folklores: root=folklore
   folklorists: root=folklorist
   folkmoots: root=folkmoot
-  folkmotes: root=folkmot
+  folkmotes: root=folkmote
   folkmots: root=folkmot
   folks: root=folk
   folksinesses: root=folksiness
@@ -27076,7 +27036,7 @@ lemmas
   fondling: root=fondle
   fondlings: root=fondling
   fondnesses: root=fondness
-  fondues: root=fondu
+  fondues: root=fondue
   fondus: root=fondu
   fons: root=fon
   fontanelles: root=fontanelle
@@ -27490,6 +27450,8 @@ lemmas
   fortalices: root=fortalice
   fortepianos: root=fortepiano
   fortes: root=fort
+    m01: pos=verb root=fort
+    m02: pos=noun root=forte
   forthrightnesses: root=forthrightness
   forties: root=forty
   fortieths: root=fortieth
@@ -27516,7 +27478,7 @@ lemmas
   forzandos: root=forzando
   fossae: root=fossa
   fossas: root=fossa
-  fosses: root=foss
+  fosses: root=fosse
   fossettes: root=fossette
   fossicked: root=fossick
   fossickers: root=fossicker
@@ -27614,9 +27576,7 @@ lemmas
   fractions: root=fraction
   fractiousnesses: root=fractiousness
   fractured: root=fracture
-  fractures: root=fractur
-    m01: pos=noun root=fractur
-    m02: pos=verb root=fracture
+  fractures: root=fracture
   fracturing: root=fracture
   fracturs: root=fractur
   fraena: root=fraenum
@@ -27991,7 +27951,7 @@ lemmas
   frying: root=fry
   frypans: root=frypan
   fuchsias: root=fuchsia
-  fuchsines: root=fuchsin
+  fuchsines: root=fuchsine
   fuchsins: root=fuchsin
   fuci: root=fucus
   fucked: root=fuck
@@ -28029,7 +27989,7 @@ lemmas
   fugles: root=fugle
   fugling: root=fugle
   fugs: root=fug
-  fugues: root=fugu
+  fugues: root=fugue
   fuguists: root=fuguist
   fugus: root=fugu
   fuhrers: root=fuhrer
@@ -28132,7 +28092,7 @@ lemmas
   funning: root=fun
   funnymen: root=funnyman
   funs: root=fun
-  furanes: root=furan
+  furanes: root=furane
   furanoses: root=furanose
   furanosides: root=furanoside
   furans: root=furan
@@ -28171,7 +28131,7 @@ lemmas
   furnishes: root=furnish
   furnishing: root=furnish
   furnitures: root=furniture
-  furores: root=furor
+  furores: root=furore
   furors: root=furor
   furosemides: root=furosemide
   furrieries: root=furriery
@@ -28192,7 +28152,9 @@ lemmas
   furzes: root=furze
   fusains: root=fusain
   fused: root=fuse
-  fusees: root=fuse
+  fusees: root=fusee
+    m01: pos=noun root=fusee
+    m02: pos=verb root=fuse
   fuselages: root=fuselage
   fusels: root=fusel
   fuses: root=fuse
@@ -28240,7 +28202,7 @@ lemmas
   futzed: root=futz
   futzes: root=futz
   futzing: root=futz
-  fuzees: root=fuze
+  fuzees: root=fuzee
   fuzes: root=fuze
   fuzils: root=fuzil
   fuzzes: root=fuzz
@@ -28286,14 +28248,12 @@ lemmas
   gadzookeries: root=gadzookery
   gaes: root=gae
   gaffers: root=gaffer
-  gaffes: root=gaff
+  gaffes: root=gaffe
   gaffs: root=gaff
   gagakus: root=gagaku
   gaged: root=gage
   gagers: root=gager
-  gages: root=gag
-    m01: pos=noun root=gag
-    m02: pos=verb root=gage
+  gages: root=gage
   gagged: root=gag
   gaggers: root=gagger
   gagging: root=gag
@@ -28347,7 +28307,7 @@ lemmas
   galenicals: root=galenical
   galenites: root=galenite
   galeres: root=galere
-  gales: root=gal
+  gales: root=gale
   galilees: root=galilee
   galingales: root=galingale
   galiots: root=galiot
@@ -28434,7 +28394,7 @@ lemmas
   gambadoes: root=gambado
   gambados: root=gambado
   gambas: root=gamba
-  gambes: root=gamb
+  gambes: root=gambe
   gambesons: root=gambeson
   gambias: root=gambia
   gambiers: root=gambier
@@ -28458,9 +28418,7 @@ lemmas
   gamekeepers: root=gamekeeper
   gamelans: root=gamelan
   gamenesses: root=gameness
-  games: root=gam
-    m01: pos=noun root=gam
-    m02: pos=verb root=game
+  games: root=game
   gamesmanships: root=gamesmanship
   gamesmen: root=gamesman
   gamesomenesses: root=gamesomeness
@@ -28470,7 +28428,7 @@ lemmas
   gametocytes: root=gametocyte
   gametophores: root=gametophore
   gametophytes: root=gametophyte
-  gamines: root=gamin
+  gamines: root=gamine
   gaminess: root=gamines
   gaminesses: root=gaminess
   gaming: root=game
@@ -28534,9 +28492,7 @@ lemmas
   gaols: root=gaol
   gaped: root=gape
   gapers: root=gaper
-  gapes: root=gap
-    m01: pos=noun root=gap
-    m02: pos=verb root=gape
+  gapes: root=gape
   gapeseeds: root=gapeseed
   gapeworms: root=gapeworm
   gaping: root=gape
@@ -28706,9 +28662,7 @@ lemmas
   gatekeepers: root=gatekeeper
   gatemen: root=gateman
   gateposts: root=gatepost
-  gates: root=gat
-    m01: pos=noun root=gat
-    m02: pos=verb root=gate
+  gates: root=gate
   gateways: root=gateway
   gathered: root=gather
   gatherers: root=gatherer
@@ -28815,7 +28769,7 @@ lemmas
   gelants: root=gelant
   gelated: root=gelate
   gelates: root=gelate
-  gelatines: root=gelatin
+  gelatines: root=gelatine
   gelating: root=gelate
   gelatinizations: root=gelatinization
   gelatinized: root=gelatinize
@@ -28855,7 +28809,7 @@ lemmas
   gemmules: root=gemmule
   gemologies: root=gemology
   gemologists: root=gemologist
-  gemotes: root=gemot
+  gemotes: root=gemote
   gemots: root=gemot
   gems: root=gem
   gemsboks: root=gemsbok
@@ -28892,7 +28846,7 @@ lemmas
   genericnesses: root=genericness
   generosities: root=generosity
   generousnesses: root=generousness
-  genes: root=gen
+  genes: root=gene
   geneses: root=genesis
   geneticists: root=geneticist
   genets: root=genet
@@ -28912,7 +28866,7 @@ lemmas
   genoas: root=genoa
   genocides: root=genocide
   genoises: root=genoise
-  genomes: root=genom
+  genomes: root=genome
   genoms: root=genom
   genotypes: root=genotype
   genres: root=genre
@@ -28924,7 +28878,7 @@ lemmas
   genteelnesses: root=genteelness
   gentes: root=gens
   gentians: root=gentian
-  gentiles: root=gentil
+  gentiles: root=gentile
   gentilesses: root=gentilesse
   gentilities: root=gentility
   gentled: root=gentle
@@ -29055,7 +29009,7 @@ lemmas
   gestates: root=gestate
   gestating: root=gestate
   gestations: root=gestation
-  gestes: root=gest
+  gestes: root=geste
   gesticulated: root=gesticulate
   gesticulates: root=gesticulate
   gesticulating: root=gesticulate
@@ -29134,9 +29088,7 @@ lemmas
   gibbsites: root=gibbsite
   gibed: root=gibe
   gibers: root=giber
-  gibes: root=gib
-    m01: pos=noun root=gib
-    m02: pos=verb root=gibe
+  gibes: root=gibe
   gibing: root=gibe
   giblets: root=giblet
   gibs: root=gib
@@ -29369,7 +29321,7 @@ lemmas
   gleaning: root=glean
   gleans: root=glean
   glebes: root=glebe
-  gledes: root=gled
+  gledes: root=glede
   gleds: root=gled
   gleeds: root=gleed
   gleefulnesses: root=gleefulness
@@ -29385,7 +29337,7 @@ lemmas
   glens: root=glen
   gleyings: root=gleying
   gleys: root=gley
-  gliadines: root=gliadin
+  gliadines: root=gliadine
   gliadins: root=gliadin
   glias: root=glia
   glibnesses: root=glibness
@@ -29445,7 +29397,7 @@ lemmas
   globalizing: root=globalize
   globefishes: root=globefish
   globeflowers: root=globeflower
-  globes: root=glob
+  globes: root=globe
   globetrots: root=globetrot
   globetrotted: root=globetrot
   globetrotters: root=globetrotter
@@ -29561,11 +29513,11 @@ lemmas
   glycerinated: root=glycerinate
   glycerinates: root=glycerinate
   glycerinating: root=glycerinate
-  glycerines: root=glycerin
+  glycerines: root=glycerine
   glycerins: root=glycerin
   glycerols: root=glycerol
   glyceryls: root=glyceryl
-  glycines: root=glycin
+  glycines: root=glycine
   glycins: root=glycin
   glycogens: root=glycogen
   glycolipids: root=glycolipid
@@ -29744,7 +29696,7 @@ lemmas
   gonopores: root=gonopore
   gonorrheas: root=gonorrhea
   goobers: root=goober
-  goodbyes: root=goodby
+  goodbyes: root=goodbye
   goodbys: root=goodby
   goodies: root=goody
   goodmen: root=goodman
@@ -29783,9 +29735,7 @@ lemmas
   gorbellies: root=gorbelly
   gorcocks: root=gorcock
   gored: root=gore
-  gores: root=gor
-    m01: pos=noun root=gor
-    m02: pos=verb root=gore
+  gores: root=gore
   gorged: root=gorge
   gorgeousnesses: root=gorgeousness
   gorgerins: root=gorgerin
@@ -29845,7 +29795,7 @@ lemmas
   goulashes: root=goulash
   gouramies: root=gourami
   gouramis: root=gourami
-  gourdes: root=gourd
+  gourdes: root=gourde
   gourds: root=gourd
   gourmandises: root=gourmandise
   gourmandisms: root=gourmandism
@@ -29905,11 +29855,9 @@ lemmas
   gradations: root=gradation
   graded: root=grade
   graders: root=grader
-  grades: root=grad
-    m01: pos=noun root=grad
-    m02: pos=verb root=grade
+  grades: root=grade
   gradients: root=gradient
-  gradines: root=gradin
+  gradines: root=gradine
   grading: root=grade
   gradins: root=gradin
   gradiometers: root=gradiometer
@@ -29944,7 +29892,7 @@ lemmas
   graining: root=grain
   grains: root=grain
   gramaries: root=gramary
-  gramaryes: root=gramary
+  gramaryes: root=gramarye
   gramas: root=grama
   gramercies: root=gramercy
   gramicidins: root=gramicidin
@@ -29961,7 +29909,7 @@ lemmas
   granaries: root=granary
   grandaddies: root=grandaddy
   grandads: root=grandad
-  grandames: root=grandam
+  grandames: root=grandame
   grandams: root=grandam
   grandaunts: root=grandaunt
   grandbabies: root=grandbaby
@@ -29987,7 +29935,7 @@ lemmas
   grandparents: root=grandparent
   grandpas: root=grandpa
   grands: root=grand
-  grandsires: root=grandsir
+  grandsires: root=grandsire
   grandsirs: root=grandsir
   grandsons: root=grandson
   grandstanders: root=grandstander
@@ -30042,7 +29990,7 @@ lemmas
   graphologists: root=graphologist
   graphs: root=graph
   grapinesses: root=grapiness
-  graplines: root=graplin
+  graplines: root=grapline
   graplins: root=graplin
   grapnels: root=grapnel
   grappas: root=grappa
@@ -30241,7 +30189,7 @@ lemmas
   grieves: root=grieve
   grieving: root=grieve
   grievousnesses: root=grievousness
-  griffes: root=griff
+  griffes: root=griffe
   griffins: root=griffin
   griffons: root=griffon
   griffs: root=griff
@@ -30255,7 +30203,9 @@ lemmas
   grillages: root=grillage
   grilled: root=grill
   grillers: root=griller
-  grilles: root=grill
+  grilles: root=grille
+    m01: pos=noun root=grille
+    m02: pos=verb root=grill
   grilling: root=grill
   grillrooms: root=grillroom
   grills: root=grill
@@ -30286,9 +30236,7 @@ lemmas
   griots: root=griot
   griped: root=gripe
   gripers: root=griper
-  gripes: root=grip
-    m01: pos=noun root=grip
-    m02: pos=verb root=gripe
+  gripes: root=gripe
   griping: root=gripe
   gripmen: root=gripman
   gripped: root=grip
@@ -30484,9 +30432,9 @@ lemmas
   guanases: root=guanase
   guanays: root=guanay
   guanethidines: root=guanethidine
-  guanidines: root=guanidin
+  guanidines: root=guanidine
   guanidins: root=guanidin
-  guanines: root=guanin
+  guanines: root=guanine
   guanins: root=guanin
   guanos: root=guano
   guanosines: root=guanosine
@@ -30550,9 +30498,7 @@ lemmas
   guidelines: root=guideline
   guideposts: root=guidepost
   guiders: root=guider
-  guides: root=guid
-    m01: pos=noun root=guid
-    m02: pos=verb root=guide
+  guides: root=guide
   guideways: root=guideway
   guiding: root=guide
   guidons: root=guidon
@@ -30955,8 +30901,8 @@ lemmas
   halftones: root=halftone
   halfwits: root=halfwit
   halibuts: root=halibut
-  halides: root=halid
-  halidomes: root=halidom
+  halides: root=halide
+  halidomes: root=halidome
   halidoms: root=halidom
   halids: root=halid
   halites: root=halite
@@ -31032,7 +30978,9 @@ lemmas
   hamboning: root=hambone
   hamburgers: root=hamburger
   hamburgs: root=hamburg
-  hames: root=ham
+  hames: root=hame
+    m01: pos=noun root=hame
+    m02: pos=verb root=ham
   hamlets: root=hamlet
   hammadas: root=hammada
   hammals: root=hammal
@@ -31204,7 +31152,7 @@ lemmas
   happinesses: root=happiness
   happing: root=hap
   haps: root=hap
-  haptenes: root=hapten
+  haptenes: root=haptene
   haptens: root=hapten
   haptoglobins: root=haptoglobin
   harangued: root=harangue
@@ -31290,7 +31238,7 @@ lemmas
   harmed: root=harm
   harmers: root=harmer
   harmfulnesses: root=harmfulness
-  harmines: root=harmin
+  harmines: root=harmine
   harming: root=harm
   harmins: root=harmin
   harmlessnesses: root=harmlessness
@@ -31405,9 +31353,7 @@ lemmas
   hated: root=hate
   hatefulnesses: root=hatefulness
   haters: root=hater
-  hates: root=hat
-    m01: pos=noun root=hat
-    m02: pos=verb root=hate
+  hates: root=hate
   hatfuls: root=hatful
   hating: root=hate
   hatmakers: root=hatmaker
@@ -31476,7 +31422,7 @@ lemmas
   haws: root=haw
   hawseholes: root=hawsehole
   hawsers: root=hawser
-  hawses: root=haws
+  hawses: root=hawse
   hawthorns: root=hawthorn
   haycocks: root=haycock
   hayers: root=hayer
@@ -31709,7 +31655,7 @@ lemmas
   hegaris: root=hegari
   hegemonies: root=hegemony
   hegiras: root=hegira
-  hegumenes: root=hegumen
+  hegumenes: root=hegumene
   hegumenies: root=hegumeny
   hegumens: root=hegumen
   hehs: root=heh
@@ -31829,7 +31775,9 @@ lemmas
   hemelytra: root=hemelytron
   hemerocallises: root=hemerocallis
   hemerythrins: root=hemerythrin
-  hemes: root=hem
+  hemes: root=heme
+    m01: pos=noun root=heme
+    m02: pos=verb root=hem
   hemiacetals: root=hemiacetal
   hemicelluloses: root=hemicellulose
   hemichordates: root=hemichordate
@@ -31988,7 +31936,7 @@ lemmas
   herniations: root=herniation
   herns: root=hern
   heroes: root=hero
-  heroines: root=heroin
+  heroines: root=heroine
   heroinisms: root=heroinism
   heroins: root=heroin
   heroisms: root=heroism
@@ -32290,10 +32238,10 @@ lemmas
   hissing: root=hiss
   hissings: root=hissing
   histaminases: root=histaminase
-  histamines: root=histamin
+  histamines: root=histamine
   histamins: root=histamin
   histed: root=hist
-  histidines: root=histidin
+  histidines: root=histidine
   histidins: root=histidin
   histing: root=hist
   histiocytes: root=histiocyte
@@ -32632,9 +32580,7 @@ lemmas
   hondling: root=hondle
   honed: root=hone
   honers: root=honer
-  hones: root=hon
-    m01: pos=noun root=hon
-    m02: pos=verb root=hone
+  hones: root=hone
   honesties: root=honesty
   honeworts: root=honewort
   honeybees: root=honeybee
@@ -32742,9 +32688,7 @@ lemmas
   hopefuls: root=hopeful
   hopelessnesses: root=hopelessness
   hopers: root=hoper
-  hopes: root=hop
-    m01: pos=noun root=hop
-    m02: pos=verb root=hope
+  hopes: root=hope
   hopheads: root=hophead
   hoping: root=hope
   hoplites: root=hoplite
@@ -33193,7 +33137,7 @@ lemmas
   huzzas: root=huzza
   hyacinths: root=hyacinth
   hyaenas: root=hyaena
-  hyalines: root=hyalin
+  hyalines: root=hyaline
   hyalins: root=hyalin
   hyalites: root=hyalite
   hyalogens: root=hyalogen
@@ -33228,7 +33172,7 @@ lemmas
   hydrators: root=hydrator
   hydrazides: root=hydrazide
   hydrazines: root=hydrazine
-  hydrides: root=hydrid
+  hydrides: root=hydride
   hydrids: root=hydrid
   hydrobiologies: root=hydrobiology
   hydrobiologists: root=hydrobiologist
@@ -33875,7 +33819,7 @@ lemmas
   imbues: root=imbue
   imbuing: root=imbue
   imidazoles: root=imidazole
-  imides: root=imid
+  imides: root=imide
   imids: root=imid
   imines: root=imine
   imipramines: root=imipramine
@@ -34293,7 +34237,7 @@ lemmas
   improvidences: root=improvidence
   improving: root=improve
   improvisations: root=improvisation
-  improvisatores: root=improvisator
+  improvisatores: root=improvisatore
   improvisators: root=improvisator
   improvised: root=improvise
   improvisers: root=improviser
@@ -34614,7 +34558,7 @@ lemmas
   indagating: root=indagate
   indagations: root=indagation
   indagators: root=indagator
-  indamines: root=indamin
+  indamines: root=indamine
   indamins: root=indamin
   indebtednesses: root=indebtedness
   indecencies: root=indecency
@@ -34693,7 +34637,7 @@ lemmas
   indifferentisms: root=indifferentism
   indifferentists: root=indifferentist
   indigences: root=indigence
-  indigenes: root=indigen
+  indigenes: root=indigene
   indigenizations: root=indigenization
   indigenized: root=indigenize
   indigenizes: root=indigenize
@@ -34755,7 +34699,7 @@ lemmas
   indoctrinations: root=indoctrination
   indoctrinators: root=indoctrinator
   indolences: root=indolence
-  indoles: root=indol
+  indoles: root=indole
   indols: root=indol
   indomethacins: root=indomethacin
   indomitabilities: root=indomitability
@@ -34797,7 +34741,7 @@ lemmas
   indulgers: root=indulger
   indulges: root=indulge
   indulging: root=indulge
-  indulines: root=indulin
+  indulines: root=induline
   indulins: root=indulin
   indults: root=indult
   indurations: root=induration
@@ -35777,7 +35721,7 @@ lemmas
   internalized: root=internalize
   internalizes: root=internalize
   internalizing: root=internalize
-  internationales: root=international
+  internationales: root=internationale
   internationalised: root=internationalise
   internationalises: root=internationalise
   internationalising: root=internationalise
@@ -35790,8 +35734,10 @@ lemmas
   internationalizing: root=internationalize
   internationals: root=international
   interned: root=intern
-  internees: root=interne
-  internes: root=intern
+  internees: root=internee
+  internes: root=interne
+    m01: pos=noun root=interne
+    m02: pos=verb root=intern
   interneurons: root=interneuron
   interning: root=intern
   internists: root=internist
@@ -36187,7 +36133,9 @@ lemmas
   invisiblenesses: root=invisibleness
   invitations: root=invitation
   invited: root=invite
-  invitees: root=invite
+  invitees: root=invitee
+    m01: pos=noun root=invitee
+    m02: pos=verb root=invite
   inviters: root=inviter
   invites: root=invite
   inviting: root=invite
@@ -36225,13 +36173,13 @@ lemmas
   inwoven: root=inweave
   inwraps: root=inwrap
   iodations: root=iodation
-  iodides: root=iodid
+  iodides: root=iodide
   iodids: root=iodid
   iodinated: root=iodinate
   iodinates: root=iodinate
   iodinating: root=iodinate
   iodinations: root=iodination
-  iodines: root=iodin
+  iodines: root=iodine
   iodins: root=iodin
   iodised: root=iodise
   iodises: root=iodise
@@ -36381,7 +36329,7 @@ lemmas
   isagogics: root=isagogic
   isallobars: root=isallobar
   isarithms: root=isarithm
-  isatines: root=isatin
+  isatines: root=isatine
   isatins: root=isatin
   isbas: root=isba
   ischaemias: root=ischaemia
@@ -36405,10 +36353,10 @@ lemmas
   isocarboxazids: root=isocarboxazid
   isocheims: root=isocheim
   isochimes: root=isochime
-  isochores: root=isochor
+  isochores: root=isochore
   isochors: root=isochor
   isochromosomes: root=isochromosome
-  isochrones: root=isochron
+  isochrones: root=isochrone
   isochronisms: root=isochronism
   isochrons: root=isochron
   isoclines: root=isocline
@@ -36420,7 +36368,7 @@ lemmas
   isogenies: root=isogeny
   isoglosses: root=isogloss
   isogonals: root=isogonal
-  isogones: root=isogon
+  isogones: root=isogone
   isogonies: root=isogony
   isogons: root=isogon
   isografted: root=isograft
@@ -36695,7 +36643,7 @@ lemmas
   jarring: root=jar
   jars: root=jar
   jarveys: root=jarvey
-  jasmines: root=jasmin
+  jasmines: root=jasmine
   jasmins: root=jasmin
   jaspers: root=jasper
   jasperwares: root=jasperware
@@ -36855,9 +36803,7 @@ lemmas
   jibbs: root=jibb
   jibed: root=jibe
   jibers: root=jiber
-  jibes: root=jib
-    m01: pos=noun root=jib
-    m02: pos=verb root=jibe
+  jibes: root=jibe
   jibing: root=jibe
   jibs: root=jib
   jicamas: root=jicama
@@ -37068,7 +37014,7 @@ lemmas
   jubilates: root=jubilate
   jubilating: root=jubilate
   jubilations: root=jubilation
-  jubilees: root=jubile
+  jubilees: root=jubilee
   jubiles: root=jubile
   judases: root=judas
   juddered: root=judder
@@ -37186,7 +37132,7 @@ lemmas
   justles: root=justle
   justling: root=justle
   justnesses: root=justness
-  jutes: root=jut
+  jutes: root=jute
   juts: root=jut
   jutted: root=jut
   jutties: root=jutty
@@ -37227,7 +37173,7 @@ lemmas
   kaifs: root=kaif
   kails: root=kail
   kailyards: root=kailyard
-  kainites: root=kainit
+  kainites: root=kainite
   kainits: root=kainit
   kains: root=kain
   kaiserdoms: root=kaiserdom
@@ -37277,7 +37223,7 @@ lemmas
   kantars: root=kantar
   kanteles: root=kantele
   kaoliangs: root=kaoliang
-  kaolines: root=kaolin
+  kaolines: root=kaoline
   kaolinites: root=kaolinite
   kaolins: root=kaolin
   kaons: root=kaon
@@ -37290,7 +37236,7 @@ lemmas
   karakuls: root=karakul
   karaokes: root=karaoke
   karateists: root=karateist
-  karates: root=karat
+  karates: root=karate
   karats: root=karat
   karmas: root=karma
   karns: root=karn
@@ -37387,7 +37333,7 @@ lemmas
   keeshonds: root=keeshond
   keesters: root=keester
   keets: root=keet
-  keeves: root=keef
+  keeves: root=keeve
   keffiyehs: root=keffiyeh
   kefirs: root=kefir
   kefs: root=kef
@@ -37635,7 +37581,7 @@ lemmas
   kimchis: root=kimchi
   kimonos: root=kimono
   kinas: root=kina
-  kinases: root=kinas
+  kinases: root=kinase
   kindergarteners: root=kindergartener
   kindergartens: root=kindergarten
   kindergartners: root=kindergartner
@@ -37650,7 +37596,7 @@ lemmas
   kindreds: root=kindred
   kinds: root=kind
   kinemas: root=kinema
-  kines: root=kin
+  kines: root=kine
   kinescopes: root=kinescope
   kineses: root=kines
   kinesics: root=kinesic
@@ -37725,7 +37671,9 @@ lemmas
   kitchenwares: root=kitchenware
   kited: root=kit
   kiters: root=kiter
-  kites: root=kit
+  kites: root=kite
+    m01: pos=noun root=kite
+    m02: pos=verb root=kit
   kitharas: root=kithara
   kithed: root=kithe
   kithes: root=kithe
@@ -38062,9 +38010,7 @@ lemmas
   lacerations: root=laceration
   lacers: root=lacer
   lacertids: root=lacertid
-  laces: root=lac
-    m01: pos=noun root=lac
-    m02: pos=verb root=lace
+  laces: root=lace
   lacewings: root=lacewing
   lacewoods: root=lacewood
   laceworks: root=lacework
@@ -38134,7 +38080,7 @@ lemmas
   ladlers: root=ladler
   ladles: root=ladle
   ladling: root=ladle
-  ladrones: root=ladron
+  ladrones: root=ladrone
   ladrons: root=ladron
   lads: root=lad
   ladybirds: root=ladybird
@@ -38227,9 +38173,7 @@ lemmas
   lamenters: root=lamenter
   lamenting: root=lament
   laments: root=lament
-  lames: root=lam
-    m01: pos=noun root=lam
-    m02: pos=verb root=lame
+  lames: root=lame
   lamiae: root=lamia
   lamias: root=lamia
   laminae: root=lamina
@@ -38384,9 +38328,7 @@ lemmas
   laps: root=lap
   lapsed: root=lapse
   lapsers: root=lapser
-  lapses: root=laps
-    m01: pos=noun root=laps
-    m02: pos=verb root=lapse
+  lapses: root=lapse
   lapsing: root=lapse
   laptops: root=laptop
   lapwings: root=lapwing
@@ -38498,7 +38440,7 @@ lemmas
   latherers: root=latherer
   lathering: root=lather
   lathers: root=lather
-  lathes: root=lath
+  lathes: root=lathe
   lathings: root=lathing
   lathis: root=lathi
   laths: root=lath
@@ -38573,7 +38515,7 @@ lemmas
   lavabos: root=lavabo
   lavages: root=lavage
   lavalavas: root=lavalava
-  lavalieres: root=lavalier
+  lavalieres: root=lavaliere
   lavaliers: root=lavalier
   lavallieres: root=lavalliere
   lavas: root=lava
@@ -38715,9 +38657,7 @@ lemmas
   leaseholders: root=leaseholder
   leaseholds: root=leasehold
   leasers: root=leaser
-  leases: root=leas
-    m01: pos=noun root=leas
-    m02: pos=verb root=lease
+  leases: root=lease
   leashed: root=leash
   leashes: root=leash
   leashing: root=leash
@@ -38800,7 +38740,7 @@ lemmas
   legalizers: root=legalizer
   legalizes: root=legalize
   legalizing: root=legalize
-  legatees: root=legate
+  legatees: root=legatee
   legates: root=legate
   legateships: root=legateship
   legations: root=legation
@@ -38966,7 +38906,7 @@ lemmas
   lettuces: root=lettuce
   letups: root=letup
   leucemias: root=leucemia
-  leucines: root=leucin
+  leucines: root=leucine
   leucins: root=leucin
   leucites: root=leucite
   leucocidins: root=leucocidin
@@ -39126,7 +39066,9 @@ lemmas
   licences: root=licence
   licencing: root=licence
   licensed: root=license
-  licensees: root=license
+  licensees: root=licensee
+    m01: pos=noun root=licensee
+    m02: pos=verb root=license
   licensers: root=licenser
   licenses: root=license
   licensing: root=license
@@ -39235,7 +39177,7 @@ lemmas
   lignites: root=lignite
   lignocelluloses: root=lignocellulose
   lignosulfonates: root=lignosulfonate
-  ligroines: root=ligroin
+  ligroines: root=ligroine
   ligroins: root=ligroin
   ligulae: root=ligula
   ligulas: root=ligula
@@ -39349,9 +39291,7 @@ lemmas
   linens: root=linen
   linerboards: root=linerboard
   liners: root=liner
-  lines: root=lin
-    m01: pos=noun root=lin
-    m02: pos=verb root=line
+  lines: root=line
   linesmen: root=linesman
   lineups: root=lineup
   lingams: root=lingam
@@ -39416,7 +39356,7 @@ lemmas
   lionizing: root=lionize
   lions: root=lion
   lipases: root=lipase
-  lipides: root=lipid
+  lipides: root=lipide
   lipids: root=lipid
   lipins: root=lipin
   lipocytes: root=lipocyte
@@ -39648,7 +39588,9 @@ lemmas
   lobefins: root=lobefin
   lobelias: root=lobelia
   lobelines: root=lobeline
-  lobes: root=lob
+  lobes: root=lobe
+    m01: pos=noun root=lobe
+    m02: pos=verb root=lob
   loblollies: root=loblolly
   lobos: root=lobo
   lobotomies: root=lobotomy
@@ -39667,7 +39609,7 @@ lemmas
   lobulations: root=lobulation
   lobules: root=lobule
   lobworms: root=lobworm
-  locales: root=local
+  locales: root=locale
   localised: root=localise
   localises: root=localise
   localising: root=localise
@@ -39746,7 +39688,9 @@ lemmas
   logaoedics: root=logaoedic
   logarithms: root=logarithm
   logbooks: root=logbook
-  loges: root=log
+  loges: root=loge
+    m01: pos=noun root=loge
+    m02: pos=verb root=log
   logged: root=log
   loggerheads: root=loggerhead
   loggers: root=logger
@@ -40028,7 +39972,7 @@ lemmas
   lucarnes: root=lucarne
   lucences: root=lucence
   lucencies: root=lucency
-  lucernes: root=lucern
+  lucernes: root=lucerne
   lucerns: root=lucern
   luces: root=luce
   lucidities: root=lucidity
@@ -40052,9 +39996,7 @@ lemmas
   luged: root=luge
   lugeing: root=luge
   lugers: root=luger
-  luges: root=lug
-    m01: pos=noun root=lug
-    m02: pos=verb root=luge
+  luges: root=luge
   luggages: root=luggage
   lugged: root=lug
   luggers: root=lugger
@@ -40125,9 +40067,7 @@ lemmas
   lunged: root=lunge
   lungees: root=lunge
   lungers: root=lunger
-  lunges: root=lung
-    m01: pos=noun root=lung
-    m02: pos=verb root=lunge
+  lunges: root=lunge
   lungfishes: root=lungfish
   lungfuls: root=lungful
   lunging: root=lunge
@@ -40146,7 +40086,7 @@ lemmas
   lunulae: root=lunula
   lunules: root=lunule
   lupanars: root=lupanar
-  lupines: root=lupin
+  lupines: root=lupine
   lupins: root=lupin
   lupulins: root=lupulin
   lupuses: root=lupus
@@ -40154,7 +40094,7 @@ lemmas
   lurchers: root=lurcher
   lurches: root=lurch
   lurching: root=lurch
-  lurdanes: root=lurdan
+  lurdanes: root=lurdane
   lurdans: root=lurdan
   lured: root=lure
   lurers: root=lurer
@@ -40278,7 +40218,7 @@ lemmas
   lysed: root=lyse
   lyses: root=lysis
   lysimeters: root=lysimeter
-  lysines: root=lysin
+  lysines: root=lysine
   lysing: root=lyse
   lysins: root=lysin
   lysogenicities: root=lysogenicity
@@ -40318,7 +40258,7 @@ lemmas
   macerations: root=maceration
   macerators: root=macerator
   macers: root=macer
-  maces: root=mac
+  maces: root=mace
   maches: root=mach
   machetes: root=machete
   machicolations: root=machicolation
@@ -40765,7 +40705,9 @@ lemmas
   mandrils: root=mandril
   maned: root=man
   maneges: root=manege
-  manes: root=man
+  manes: root=mane
+    m01: pos=noun root=mane
+    m02: pos=verb root=man
   maneuverabilities: root=maneuverability
   maneuvered: root=maneuver
   maneuverers: root=maneuverer
@@ -40862,7 +40804,7 @@ lemmas
   mans: root=man
   mansards: root=mansard
   manservants: root=manservant
-  manses: root=mans
+  manses: root=manse
   mansions: root=mansion
   manslaughters: root=manslaughter
   manslayers: root=manslayer
@@ -40958,8 +40900,10 @@ lemmas
   marchpanes: root=marchpane
   marcs: root=marc
   maremme: root=maremma
-  mares: root=mar
-  margarines: root=margarin
+  mares: root=mare
+    m01: pos=noun root=mare
+    m02: pos=verb root=mar
+  margarines: root=margarine
   margarins: root=margarin
   margaritas: root=margarita
   margarites: root=margarite
@@ -41028,7 +40972,7 @@ lemmas
   marksmen: root=marksman
   markswomen: root=markswoman
   markups: root=markup
-  marlines: root=marlin
+  marlines: root=marline
   marlinespikes: root=marlinespike
   marlings: root=marling
   marlins: root=marlin
@@ -41045,7 +40989,7 @@ lemmas
   marooning: root=maroon
   maroons: root=maroon
   marplots: root=marplot
-  marquees: root=marque
+  marquees: root=marquee
   marques: root=marque
   marquess: root=marques
   marquessates: root=marquessate
@@ -41232,7 +41176,7 @@ lemmas
   matchups: root=matchup
   matchwoods: root=matchwood
   mated: root=mate
-  matelotes: root=matelot
+  matelotes: root=matelote
   matelots: root=matelot
   materfamiliases: root=materfamilias
   materialised: root=materialise
@@ -41251,9 +41195,7 @@ lemmas
   materiels: root=materiel
   maternities: root=maternity
   maters: root=mater
-  mates: root=mat
-    m01: pos=noun root=mat
-    m02: pos=verb root=mate
+  mates: root=mate
   mateships: root=mateship
   mateynesses: root=mateyness
   mathematicians: root=mathematician
@@ -41290,7 +41232,7 @@ lemmas
   mattered: root=matter
   mattering: root=matter
   matters: root=matter
-  mattes: root=matt
+  mattes: root=matte
   matting: root=mat
   mattings: root=matting
   mattins: root=mattin
@@ -41540,7 +41482,7 @@ lemmas
   megalopses: root=megalops
   megaparsecs: root=megaparsec
   megaphones: root=megaphone
-  megapodes: root=megapod
+  megapodes: root=megapode
   megapods: root=megapod
   megaprojects: root=megaproject
   megasporangia: root=megasporangium
@@ -41803,7 +41745,7 @@ lemmas
   meritoriousnesses: root=meritoriousness
   merits: root=merit
   merks: root=merk
-  merles: root=merl
+  merles: root=merle
   merlins: root=merlin
   merlons: root=merlon
   merlots: root=merlot
@@ -41861,7 +41803,7 @@ lemmas
   mesothoraces: root=mesothorax
   mesothoraxes: root=mesothorax
   mesotrons: root=mesotron
-  mesquites: root=mesquit
+  mesquites: root=mesquite
   mesquits: root=mesquit
   messages: root=message
   messalines: root=messaline
@@ -41930,7 +41872,7 @@ lemmas
   metalworkers: root=metalworker
   metalworkings: root=metalworking
   metalworks: root=metalwork
-  metameres: root=metamer
+  metameres: root=metamere
   metamerisms: root=metamerism
   metamers: root=metamer
   metamorphisms: root=metamorphism
@@ -41981,7 +41923,7 @@ lemmas
   metes: root=mete
   metestruses: root=metestrus
   methacrylates: root=methacrylate
-  methadones: root=methadon
+  methadones: root=methadone
   methadons: root=methadon
   methamphetamines: root=methamphetamine
   methanations: root=methanation
@@ -42069,7 +42011,7 @@ lemmas
   mezereons: root=mezereon
   mezereums: root=mezereum
   mezes: root=meze
-  mezquites: root=mezquit
+  mezquites: root=mezquite
   mezquits: root=mezquit
   mezuzahs: root=mezuzah
   mezuzas: root=mezuza
@@ -42094,7 +42036,7 @@ lemmas
   micas: root=mica
   micawbers: root=micawber
   mice: root=mouse
-  micelles: root=micell
+  micelles: root=micelle
   micells: root=micell
   miched: root=miche
   miching: root=miche
@@ -42375,7 +42317,7 @@ lemmas
   mileometers: root=mileometer
   mileposts: root=milepost
   milers: root=miler
-  miles: root=mil
+  miles: root=mile
   milesimos: root=milesimo
   milestones: root=milestone
   milfoils: root=milfoil
@@ -42428,7 +42370,7 @@ lemmas
   millennialisms: root=millennialism
   millennialists: root=millennialist
   millenniums: root=millennium
-  millepedes: root=milleped
+  millepedes: root=millepede
   millepeds: root=milleped
   millerites: root=millerite
   millers: root=miller
@@ -42469,7 +42411,7 @@ lemmas
   millions: root=million
   millionths: root=millionth
   milliosmols: root=milliosmol
-  millipedes: root=milliped
+  millipedes: root=millipede
   millipeds: root=milliped
   milliradians: root=milliradian
   millirems: root=millirem
@@ -42646,9 +42588,7 @@ lemmas
   miradors: root=mirador
   mirages: root=mirage
   mired: root=mire
-  mires: root=mir
-    m01: pos=noun root=mir
-    m02: pos=verb root=mire
+  mires: root=mire
   mirexes: root=mirex
   miri: root=mir
   mirinesses: root=miriness
@@ -42936,7 +42876,7 @@ lemmas
   misentries: root=misentry
   miserablenesses: root=miserableness
   misereres: root=miserere
-  misericordes: root=misericord
+  misericordes: root=misericorde
   misericords: root=misericord
   miseries: root=misery
   miserlinesses: root=miserliness
@@ -43387,7 +43327,7 @@ lemmas
   misworded: root=misword
   miswording: root=misword
   miswords: root=misword
-  miswrites: root=miswrit
+  miswrites: root=miswrite
   misyoked: root=misyoke
   misyokes: root=misyoke
   misyoking: root=misyoke
@@ -43498,7 +43438,7 @@ lemmas
   modernizing: root=modernize
   modernnesses: root=modernness
   moderns: root=modern
-  modes: root=mod
+  modes: root=mode
   modesties: root=modesty
   modicums: root=modicum
   modifiabilities: root=modifiability
@@ -43570,7 +43510,7 @@ lemmas
   moldwarps: root=moldwarp
   molecules: root=molecule
   molehills: root=molehill
-  moles: root=mol
+  moles: root=mole
   moleskins: root=moleskin
   molestations: root=molestation
   molested: root=molest
@@ -43874,7 +43814,7 @@ lemmas
   moors: root=moor
   moorworts: root=moorwort
   moos: root=moo
-  mooses: root=moos
+  mooses: root=moose
   mooted: root=moot
   mooting: root=moot
   moots: root=moot
@@ -43883,9 +43823,7 @@ lemmas
   mopeds: root=moped
   moperies: root=mopery
   mopers: root=moper
-  mopes: root=mop
-    m01: pos=noun root=mop
-    m02: pos=verb root=mope
+  mopes: root=mope
   moping: root=mope
   mopokes: root=mopoke
   mopped: root=mop
@@ -43896,7 +43834,7 @@ lemmas
   moquettes: root=moquette
   morae: root=mora
   moraines: root=moraine
-  morales: root=moral
+  morales: root=morale
   moralised: root=moralise
   moralises: root=moralise
   moralising: root=moralise
@@ -43925,7 +43863,7 @@ lemmas
   morelles: root=morelle
   morellos: root=morello
   morels: root=morel
-  mores: root=mor
+  mores: root=more
   morganites: root=morganite
   morgans: root=morgan
   morgens: root=morgen
@@ -43944,7 +43882,7 @@ lemmas
   morphallaxes: root=morphallaxis
   morphemes: root=morpheme
   morphias: root=morphia
-  morphines: root=morphin
+  morphines: root=morphine
   morphinisms: root=morphinism
   morphins: root=morphin
   morphogens: root=morphogen
@@ -43967,7 +43905,9 @@ lemmas
   mortaring: root=mortar
   mortars: root=mortar
   mortgaged: root=mortgage
-  mortgagees: root=mortgage
+  mortgagees: root=mortgagee
+    m01: pos=noun root=mortgagee
+    m02: pos=verb root=mortgage
   mortgagers: root=mortgager
   mortgages: root=mortgage
   mortgaging: root=mortgage
@@ -44010,7 +43950,7 @@ lemmas
   mosses: root=moss
   mosts: root=most
   motels: root=motel
-  motes: root=mot
+  motes: root=mote
   motets: root=motet
   mothballed: root=mothball
   mothballing: root=mothball
@@ -44042,7 +43982,7 @@ lemmas
   motivating: root=motivate
   motivations: root=motivation
   motivators: root=motivator
-  motives: root=motif
+  motives: root=motive
   motivities: root=motivity
   motleys: root=motley
   motmots: root=motmot
@@ -44435,7 +44375,7 @@ lemmas
   murrains: root=murrain
   murras: root=murra
   murrelets: root=murrelet
-  murres: root=murr
+  murres: root=murre
   murreys: root=murrey
   murrhas: root=murrha
   murries: root=murry
@@ -44461,9 +44401,7 @@ lemmas
   museologies: root=museology
   museologists: root=museologist
   musers: root=muser
-  muses: root=mus
-    m01: pos=noun root=mus
-    m02: pos=verb root=muse
+  muses: root=muse
   musettes: root=musette
   museums: root=museum
   mushers: root=musher
@@ -44535,9 +44473,7 @@ lemmas
   mutchkins: root=mutchkin
   muted: root=mute
   mutenesses: root=muteness
-  mutes: root=mut
-    m01: pos=noun root=mut
-    m02: pos=verb root=mute
+  mutes: root=mute
   mutilated: root=mutilate
   mutilates: root=mutilate
   mutilating: root=mutilate
@@ -44599,7 +44535,7 @@ lemmas
   mycotoxins: root=mycotoxin
   mydriatics: root=mydriatic
   myelencephala: root=myelencephalon
-  myelines: root=myelin
+  myelines: root=myeline
   myelins: root=myelin
   myeloblasts: root=myeloblast
   myelocytes: root=myelocyte
@@ -44758,7 +44694,9 @@ lemmas
   naoi: root=naos
   napalms: root=napalm
   naperies: root=napery
-  napes: root=nap
+  napes: root=nape
+    m01: pos=noun root=nape
+    m02: pos=verb root=nap
   naphthalenes: root=naphthalene
   naphthas: root=naphtha
   naphthenes: root=naphthene
@@ -44775,7 +44713,7 @@ lemmas
   napping: root=nap
   naprapathies: root=naprapathy
   naps: root=nap
-  narceines: root=narcein
+  narceines: root=narceine
   narceins: root=narcein
   narcisms: root=narcism
   narcissi: root=narcissus
@@ -44816,7 +44754,7 @@ lemmas
   narrows: root=narrow
   narthexes: root=narthex
   narwals: root=narwal
-  narwhales: root=narwhal
+  narwhales: root=narwhale
   narwhals: root=narwhal
   nasalised: root=nasalise
   nasalises: root=nasalise
@@ -45023,7 +44961,7 @@ lemmas
   neglectfulnesses: root=neglectfulness
   neglecting: root=neglect
   neglects: root=neglect
-  negligees: root=neglige
+  negligees: root=negligee
   negligences: root=negligence
   negliges: root=neglige
   negligibilities: root=negligibility
@@ -45174,7 +45112,7 @@ lemmas
   networking: root=network
   networks: root=network
   neuks: root=neuk
-  neumes: root=neum
+  neumes: root=neume
   neums: root=neum
   neuralgias: root=neuralgia
   neuraminidases: root=neuraminidase
@@ -45340,7 +45278,7 @@ lemmas
   nicols: root=nicol
   nicotianas: root=nicotiana
   nicotinamides: root=nicotinamide
-  nicotines: root=nicotin
+  nicotines: root=nicotine
   nicotins: root=nicotin
   nictated: root=nictate
   nictates: root=nictate
@@ -45383,7 +45321,7 @@ lemmas
   nightglows: root=nightglow
   nightgowns: root=nightgown
   nighthawks: root=nighthawk
-  nighties: root=nighty
+  nighties: root=nightie
   nightingales: root=nightingale
   nightjars: root=nightjar
   nightlives: root=nightlife
@@ -45473,7 +45411,7 @@ lemmas
   nitrifiers: root=nitrifier
   nitrifies: root=nitrify
   nitrifying: root=nitrify
-  nitriles: root=nitril
+  nitriles: root=nitrile
   nitrils: root=nitril
   nitrites: root=nitrite
   nitrobenzenes: root=nitrobenzene
@@ -45481,7 +45419,7 @@ lemmas
   nitrofurans: root=nitrofuran
   nitrogenases: root=nitrogenase
   nitrogens: root=nitrogen
-  nitroglycerines: root=nitroglycerin
+  nitroglycerines: root=nitroglycerine
   nitroglycerins: root=nitroglycerin
   nitromethanes: root=nitromethane
   nitroparaffins: root=nitroparaffin
@@ -45515,7 +45453,7 @@ lemmas
   noctambulists: root=noctambulist
   noctuids: root=noctuid
   noctules: root=noctule
-  nocturnes: root=nocturn
+  nocturnes: root=nocturne
   nocturns: root=nocturn
   nodalities: root=nodality
   nodded: root=nod
@@ -45523,7 +45461,9 @@ lemmas
   noddies: root=noddy
   nodding: root=nod
   noddles: root=noddle
-  nodes: root=nod
+  nodes: root=node
+    m01: pos=noun root=node
+    m02: pos=verb root=nod
   nodi: root=nodus
   nodosities: root=nodosity
   nods: root=nod
@@ -45555,7 +45495,7 @@ lemmas
   nombrils: root=nombril
   nomenclators: root=nomenclator
   nomenclatures: root=nomenclature
-  nomes: root=nom
+  nomes: root=nome
   nomina: root=nomen
   nominalisms: root=nominalism
   nominalists: root=nominalist
@@ -46009,7 +45949,7 @@ lemmas
   noosing: root=noose
   noospheres: root=noosphere
   nopals: root=nopal
-  noradrenalines: root=noradrenalin
+  noradrenalines: root=noradrenaline
   noradrenalins: root=noradrenalin
   norepinephrines: root=norepinephrine
   norethindrones: root=norethindrone
@@ -46055,9 +45995,7 @@ lemmas
   noseguards: root=noseguard
   nosepieces: root=nosepiece
   noserings: root=nosering
-  noses: root=nos
-    m01: pos=noun root=nos
-    m02: pos=verb root=nose
+  noses: root=nose
   nosewheels: root=nosewheel
   noshed: root=nosh
   noshers: root=nosher
@@ -46426,7 +46364,7 @@ lemmas
   obnubilations: root=obnubilation
   oboes: root=oboe
   oboists: root=oboist
-  oboles: root=obol
+  oboles: root=obole
   oboli: root=obolus
   obols: root=obol
   obscenities: root=obscenity
@@ -46564,7 +46502,7 @@ lemmas
   octahedra: root=octahedron
   octahedrons: root=octahedron
   octameters: root=octameter
-  octanes: root=octan
+  octanes: root=octane
   octangles: root=octangle
   octanols: root=octanol
   octans: root=octan
@@ -46623,7 +46561,7 @@ lemmas
   odorousnesses: root=odorousness
   odors: root=odor
   odours: root=odour
-  odyles: root=odyl
+  odyles: root=odyle
   odyls: root=odyl
   odysseys: root=odyssey
   oecologies: root=oecology
@@ -46741,7 +46679,7 @@ lemmas
   okays: root=okay
   okehs: root=okeh
   okras: root=okra
-  oldies: root=oldy
+  oldies: root=oldie
   oldnesses: root=oldness
   olds: root=old
   oldsquaws: root=oldsquaw
@@ -46755,7 +46693,7 @@ lemmas
   oleasters: root=oleaster
   oleates: root=oleate
   olecranons: root=olecranon
-  olefines: root=olefin
+  olefines: root=olefine
   olefins: root=olefin
   oleines: root=olein
   oleins: root=olein
@@ -47040,7 +46978,7 @@ lemmas
   orals: root=oral
   orangeades: root=orangeade
   orangeries: root=orangery
-  oranges: root=orang
+  oranges: root=orange
   orangewoods: root=orangewood
   orangs: root=orang
   orangutans: root=orangutan
@@ -47204,7 +47142,7 @@ lemmas
   orphans: root=orphan
   orphreys: root=orphrey
   orpiments: root=orpiment
-  orpines: root=orpin
+  orpines: root=orpine
   orpins: root=orpin
   orreries: root=orrery
   orrices: root=orrice
@@ -47263,7 +47201,7 @@ lemmas
   osmiums: root=osmium
   osmolalities: root=osmolality
   osmolarities: root=osmolarity
-  osmoles: root=osmol
+  osmoles: root=osmole
   osmols: root=osmol
   osmometers: root=osmometer
   osmometries: root=osmometry
@@ -47351,7 +47289,7 @@ lemmas
   ouijas: root=ouija
   ouistitis: root=ouistiti
   ounces: root=ounce
-  ouphes: root=ouph
+  ouphes: root=ouphe
   ouphs: root=ouph
   ourangs: root=ourang
   ouraris: root=ourari
@@ -47454,7 +47392,7 @@ lemmas
   outcapered: root=outcaper
   outcapering: root=outcaper
   outcapers: root=outcaper
-  outcastes: root=outcast
+  outcastes: root=outcaste
   outcasts: root=outcast
   outcatches: root=outcatch
   outcatching: root=outcatch
@@ -48136,7 +48074,7 @@ lemmas
   outwrestled: root=outwrestle
   outwrestles: root=outwrestle
   outwrestling: root=outwrestle
-  outwrites: root=outwrit
+  outwrites: root=outwrite
   outyelled: root=outyell
   outyelling: root=outyell
   outyells: root=outyell
@@ -49122,7 +49060,7 @@ lemmas
   oxidates: root=oxidate
   oxidating: root=oxidate
   oxidations: root=oxidation
-  oxides: root=oxid
+  oxides: root=oxide
   oxidised: root=oxidise
   oxidisers: root=oxidiser
   oxidises: root=oxidise
@@ -49134,7 +49072,7 @@ lemmas
   oxidizing: root=oxidize
   oxidoreductases: root=oxidoreductase
   oxids: root=oxid
-  oximes: root=oxim
+  oximes: root=oxime
   oxims: root=oxim
   oxlips: root=oxlip
   oxpeckers: root=oxpecker
@@ -49154,7 +49092,7 @@ lemmas
   oxyhemoglobins: root=oxyhemoglobin
   oxymora: root=oxymoron
   oxyphenbutazones: root=oxyphenbutazone
-  oxyphiles: root=oxyphil
+  oxyphiles: root=oxyphile
   oxyphils: root=oxyphil
   oxysalts: root=oxysalt
   oxysomes: root=oxysome
@@ -49191,9 +49129,7 @@ lemmas
   pacemakers: root=pacemaker
   pacemakings: root=pacemaking
   pacers: root=pacer
-  paces: root=pac
-    m01: pos=noun root=pac
-    m02: pos=verb root=pace
+  paces: root=pace
   pacesetters: root=pacesetter
   pachadoms: root=pachadom
   pachalics: root=pachalic
@@ -49391,9 +49327,7 @@ lemmas
   paleosols: root=paleosol
   paleozoologies: root=paleozoology
   paleozoologists: root=paleozoologist
-  pales: root=pal
-    m01: pos=noun root=pal
-    m02: pos=verb root=pale
+  pales: root=pale
   palestrae: root=palestra
   palestras: root=palestra
   paletots: root=paletot
@@ -49537,14 +49471,16 @@ lemmas
   panelling: root=panel
   panellings: root=panelling
   panels: root=panel
-  panes: root=pan
+  panes: root=pane
+    m01: pos=noun root=pane
+    m02: pos=verb root=pan
   panetelas: root=panetela
   panettones: root=panettone
   panfishes: root=panfish
   panfries: root=panfry
   panfuls: root=panful
   pangas: root=panga
-  pangenes: root=pangen
+  pangenes: root=pangene
   pangeneses: root=pangenes
   pangens: root=pangen
   pangolins: root=pangolin
@@ -49895,10 +49831,10 @@ lemmas
   parodists: root=parodist
   parodying: root=parody
   paroled: root=parole
-  parolees: root=parole
-  paroles: root=parol
-    m01: pos=noun root=parol
+  parolees: root=parolee
+    m01: pos=noun root=parolee
     m02: pos=verb root=parole
+  paroles: root=parole
   paroling: root=parole
   parols: root=parol
   paronomasias: root=paronomasia
@@ -50057,9 +49993,7 @@ lemmas
   pastellists: root=pastellist
   pastels: root=pastel
   pasterns: root=pastern
-  pastes: root=past
-    m01: pos=noun root=past
-    m02: pos=verb root=paste
+  pastes: root=paste
   pasteups: root=pasteup
   pasteurised: root=pasteurise
   pasteurises: root=pasteurise
@@ -50082,7 +50016,7 @@ lemmas
   pastings: root=pasting
   pastises: root=pastis
   pastnesses: root=pastness
-  pastorales: root=pastoral
+  pastorales: root=pastorale
   pastoralisms: root=pastoralism
   pastoralists: root=pastoralist
   pastoralnesses: root=pastoralness
@@ -50128,7 +50062,9 @@ lemmas
   paternities: root=paternity
   paternosters: root=paternoster
   paters: root=pater
-  pates: root=pat
+  pates: root=pate
+    m01: pos=noun root=pate
+    m02: pos=verb root=pat
   pathfinders: root=pathfinder
   pathfindings: root=pathfinding
   pathlessnesses: root=pathlessness
@@ -50218,7 +50154,7 @@ lemmas
   pausers: root=pauser
   pauses: root=pause
   pausing: root=pause
-  pavanes: root=pavan
+  pavanes: root=pavane
   pavans: root=pavan
   paved: root=pave
   paveed: root=pave
@@ -50683,7 +50619,7 @@ lemmas
   pepsinogens: root=pepsinogen
   pepsins: root=pepsin
   peptidases: root=peptidase
-  peptides: root=peptid
+  peptides: root=peptide
   peptidoglycans: root=peptidoglycan
   peptids: root=peptid
   peptized: root=peptize
@@ -50732,7 +50668,7 @@ lemmas
   percussions: root=percussion
   percussivenesses: root=percussiveness
   perditions: root=perdition
-  perdues: root=perdu
+  perdues: root=perdue
   perdurabilities: root=perdurability
   perdured: root=perdure
   perdures: root=perdure
@@ -50742,7 +50678,7 @@ lemmas
   peregrinates: root=peregrinate
   peregrinating: root=peregrinate
   peregrinations: root=peregrination
-  peregrines: root=peregrin
+  peregrines: root=peregrine
   peregrins: root=peregrin
   pereiopods: root=pereiopod
   peremptorinesses: root=peremptoriness
@@ -50911,9 +50847,7 @@ lemmas
   perovskites: root=perovskite
   peroxidases: root=peroxidase
   peroxided: root=peroxide
-  peroxides: root=peroxid
-    m01: pos=noun root=peroxid
-    m02: pos=verb root=peroxide
+  peroxides: root=peroxide
   peroxiding: root=peroxide
   peroxids: root=peroxid
   peroxisomes: root=peroxisome
@@ -51200,7 +51134,7 @@ lemmas
   phenakites: root=phenakite
   phenanthrenes: root=phenanthrene
   phenates: root=phenate
-  phenazines: root=phenazin
+  phenazines: root=phenazine
   phenazins: root=phenazin
   phencyclidines: root=phencyclidine
   pheneticists: root=pheneticist
@@ -51306,9 +51240,7 @@ lemmas
   phoned: root=phone
   phonemes: root=phoneme
   phonemicists: root=phonemicist
-  phones: root=phon
-    m01: pos=noun root=phon
-    m02: pos=verb root=phone
+  phones: root=phone
   phoneticians: root=phonetician
   phoneys: root=phoney
   phonies: root=phony
@@ -51343,9 +51275,9 @@ lemmas
   phosphatizing: root=phosphatize
   phosphaturias: root=phosphaturia
   phosphenes: root=phosphene
-  phosphides: root=phosphid
+  phosphides: root=phosphide
   phosphids: root=phosphid
-  phosphines: root=phosphin
+  phosphines: root=phosphine
   phosphins: root=phosphin
   phosphites: root=phosphite
   phosphocreatines: root=phosphocreatine
@@ -51662,7 +51594,7 @@ lemmas
   picnics: root=picnic
   picofarads: root=picofarad
   picograms: root=picogram
-  picolines: root=picolin
+  picolines: root=picoline
   picolins: root=picolin
   picomoles: root=picomole
   picornaviruses: root=picornavirus
@@ -51723,7 +51655,7 @@ lemmas
   pierogies: root=pierogi
   pierrots: root=pierrot
   piers: root=pier
-  pies: root=pi
+  pies: root=pie
   pietas: root=pieta
   pieties: root=piety
   pietisms: root=pietism
@@ -51865,9 +51797,7 @@ lemmas
   pinelands: root=pineland
   pinenes: root=pinene
   pineries: root=pinery
-  pines: root=pin
-    m01: pos=noun root=pin
-    m02: pos=verb root=pine
+  pines: root=pine
   pinesaps: root=pinesap
   pineta: root=pinetum
   pinewoods: root=pinewood
@@ -51893,7 +51823,7 @@ lemmas
   pinkened: root=pinken
   pinkening: root=pinken
   pinkens: root=pinken
-  pinkeyes: root=pinkey
+  pinkeyes: root=pinkeye
   pinkeys: root=pinkey
   pinkies: root=pinky
   pinking: root=pink
@@ -51967,9 +51897,7 @@ lemmas
   piperines: root=piperine
   piperonals: root=piperonal
   pipers: root=piper
-  pipes: root=pip
-    m01: pos=noun root=pip
-    m02: pos=verb root=pipe
+  pipes: root=pipe
   pipestems: root=pipestem
   pipestones: root=pipestone
   pipets: root=pipet
@@ -52091,7 +52019,7 @@ lemmas
   pivots: root=pivot
   pixels: root=pixel
   pixes: root=pix
-  pixies: root=pixy
+  pixies: root=pixie
   pixilations: root=pixilation
   pixinesses: root=pixiness
   pizazzes: root=pizazz
@@ -52179,9 +52107,7 @@ lemmas
   planed: root=plane
   planeloads: root=planeload
   planers: root=planer
-  planes: root=plan
-    m01: pos=noun root=plan
-    m02: pos=verb root=plane
+  planes: root=plane
   planetaria: root=planetarium
   planetariums: root=planetarium
   planetesimals: root=planetesimal
@@ -52375,7 +52301,7 @@ lemmas
   pleats: root=pleat
   plebeianisms: root=plebeianism
   plebeians: root=plebeian
-  plebes: root=pleb
+  plebes: root=plebe
   plebiscites: root=plebiscite
   plebs: root=pleb
   plecopterans: root=plecopteran
@@ -52439,7 +52365,7 @@ lemmas
   plighters: root=plighter
   plighting: root=plight
   plights: root=plight
-  plimsoles: root=plimsol
+  plimsoles: root=plimsole
   plimsolls: root=plimsoll
   plimsols: root=plimsol
   plinked: root=plink
@@ -52517,9 +52443,7 @@ lemmas
   plumed: root=plume
   plumelets: root=plumelet
   plumerias: root=plumeria
-  plumes: root=plum
-    m01: pos=noun root=plum
-    m02: pos=verb root=plume
+  plumes: root=plume
   pluming: root=plume
   plumipeds: root=plumiped
   plummeted: root=plummet
@@ -52670,9 +52594,7 @@ lemmas
   pois: root=poi
   poised: root=poise
   poisers: root=poiser
-  poises: root=pois
-    m01: pos=noun root=pois
-    m02: pos=verb root=poise
+  poises: root=poise
   poising: root=poise
   poisoned: root=poison
   poisoners: root=poisoner
@@ -52723,9 +52645,7 @@ lemmas
   polemoniums: root=polemonium
   polentas: root=polenta
   polers: root=poler
-  poles: root=pol
-    m01: pos=noun root=pol
-    m02: pos=verb root=pole
+  poles: root=pole
   polestars: root=polestar
   poleyns: root=poleyn
   policed: root=police
@@ -52934,7 +52854,7 @@ lemmas
   pomatums: root=pomatum
   pomegranates: root=pomegranate
   pomelos: root=pomelo
-  pomes: root=pom
+  pomes: root=pome
   pomfrets: root=pomfret
   pommeled: root=pommel
   pommeling: root=pommel
@@ -53004,11 +52924,13 @@ lemmas
   pooris: root=poori
   poornesses: root=poorness
   poortiths: root=poortith
-  pooves: root=poof
+  pooves: root=poove
   popcorns: root=popcorn
   popedoms: root=popedom
   poperies: root=popery
-  popes: root=pop
+  popes: root=pope
+    m01: pos=noun root=pope
+    m02: pos=verb root=pop
   popguns: root=popgun
   popinjays: root=popinjay
   poplars: root=poplar
@@ -53117,9 +53039,7 @@ lemmas
   posadas: root=posada
   posed: root=pose
   posers: root=poser
-  poses: root=pos
-    m01: pos=noun root=pos
-    m02: pos=verb root=pose
+  poses: root=pose
   poseurs: root=poseur
   poshed: root=posh
   poshes: root=posh
@@ -53315,10 +53235,10 @@ lemmas
   pouched: root=pouch
   pouches: root=pouch
   pouching: root=pouch
-  pouffes: root=pouff
+  pouffes: root=pouffe
   pouffs: root=pouff
   poufs: root=pouf
-  poulardes: root=poulard
+  poulardes: root=poularde
   poulards: root=poulard
   poulterers: root=poulterer
   poulters: root=poulter
@@ -53429,9 +53349,7 @@ lemmas
   prases: root=prase
   prated: root=prate
   praters: root=prater
-  prates: root=prat
-    m01: pos=noun root=prat
-    m02: pos=verb root=prate
+  prates: root=prate
   pratfalls: root=pratfall
   pratincoles: root=pratincole
   prating: root=prate
@@ -53870,9 +53788,7 @@ lemmas
   premeds: root=premed
   premen: root=preman
   premiered: root=premiere
-  premieres: root=premier
-    m01: pos=noun root=premier
-    m02: pos=verb root=premiere
+  premieres: root=premiere
   premiering: root=premiere
   premiers: root=premier
   premierships: root=premiership
@@ -54182,7 +54098,7 @@ lemmas
   pretenses: root=pretense
   pretensions: root=pretension
   pretentiousnesses: root=pretentiousness
-  preterites: root=preterit
+  preterites: root=preterite
   preterits: root=preterit
   preterminations: root=pretermination
   pretermissions: root=pretermission
@@ -54552,7 +54468,7 @@ lemmas
   professionals: root=professional
   professions: root=profession
   professorates: root=professorate
-  professoriates: root=professoriat
+  professoriates: root=professoriate
   professoriats: root=professoriat
   professors: root=professor
   professorships: root=professorship
@@ -54640,7 +54556,7 @@ lemmas
   projets: root=projet
   prokaryotes: root=prokaryote
   prolactins: root=prolactin
-  prolamines: root=prolamin
+  prolamines: root=prolamine
   prolamins: root=prolamin
   prolans: root=prolan
   prolapsed: root=prolapse
@@ -54698,7 +54614,9 @@ lemmas
   promiscuities: root=promiscuity
   promiscuousnesses: root=promiscuousness
   promised: root=promise
-  promisees: root=promise
+  promisees: root=promisee
+    m01: pos=noun root=promisee
+    m02: pos=verb root=promise
   promisers: root=promiser
   promises: root=promise
   promising: root=promise
@@ -54902,7 +54820,7 @@ lemmas
   proseminars: root=proseminar
   prosencephala: root=prosencephalon
   prosers: root=proser
-  proses: root=pros
+  proses: root=prose
   prosimians: root=prosimian
   prosinesses: root=prosiness
   prosobranchs: root=prosobranch
@@ -54948,11 +54866,11 @@ lemmas
   prostrations: root=prostration
   protactiniums: root=protactinium
   protagonists: root=protagonist
-  protamines: root=protamin
+  protamines: root=protamine
   protamins: root=protamin
   protases: root=protasis
   proteas: root=protea
-  proteases: root=proteas
+  proteases: root=protease
   protectants: root=protectant
   protected: root=protect
   protecting: root=protect
@@ -54966,9 +54884,9 @@ lemmas
   protectorships: root=protectorship
   protectresses: root=protectress
   protects: root=protect
-  protegees: root=protege
+  protegees: root=protegee
   proteges: root=protege
-  proteides: root=proteid
+  proteides: root=proteide
   proteids: root=proteid
   proteinases: root=proteinase
   proteins: root=protein
@@ -55042,7 +54960,7 @@ lemmas
   protrusions: root=protrusion
   protrusivenesses: root=protrusiveness
   protuberances: root=protuberance
-  protyles: root=protyl
+  protyles: root=protyle
   protyls: root=protyl
   proustites: root=proustite
   provablenesses: root=provableness
@@ -55253,7 +55171,7 @@ lemmas
   pterygoids: root=pterygoid
   pterylae: root=pteryla
   ptisans: root=ptisan
-  ptomaines: root=ptomain
+  ptomaines: root=ptomaine
   ptomains: root=ptomain
   ptoses: root=ptosis
   ptyalins: root=ptyalin
@@ -55370,9 +55288,7 @@ lemmas
   pulsed: root=pulse
   pulsejets: root=pulsejet
   pulsers: root=pulser
-  pulses: root=puls
-    m01: pos=noun root=puls
-    m02: pos=verb root=pulse
+  pulses: root=pulse
   pulsing: root=pulse
   pulsions: root=pulsion
   pulsojets: root=pulsojet
@@ -55511,7 +55427,7 @@ lemmas
   purifiers: root=purifier
   purifies: root=purify
   purifying: root=purify
-  purines: root=purin
+  purines: root=purine
   purins: root=purin
   puris: root=puri
   purisms: root=purism
@@ -55521,7 +55437,7 @@ lemmas
   purities: root=purity
   purled: root=purl
   purlieus: root=purlieu
-  purlines: root=purlin
+  purlines: root=purline
   purling: root=purl
   purlins: root=purlin
   purloined: root=purloin
@@ -55552,9 +55468,7 @@ lemmas
   purs: root=pur
   pursed: root=purse
   pursers: root=purser
-  purses: root=purs
-    m01: pos=noun root=purs
-    m02: pos=verb root=purse
+  purses: root=purse
   pursinesses: root=pursiness
   pursing: root=purse
   purslanes: root=purslane
@@ -55713,7 +55627,7 @@ lemmas
   pyroxylins: root=pyroxylin
   pyrrhics: root=pyrrhic
   pyrrhotites: root=pyrrhotite
-  pyrroles: root=pyrrol
+  pyrroles: root=pyrrole
   pyrrols: root=pyrrol
   pyruvates: root=pyruvate
   pythonesses: root=pythoness
@@ -56022,12 +55936,12 @@ lemmas
   quinidines: root=quinidine
   quinielas: root=quiniela
   quininas: root=quinina
-  quinines: root=quinin
+  quinines: root=quinine
   quinins: root=quinin
   quinnats: root=quinnat
   quinoas: root=quinoa
   quinoids: root=quinoid
-  quinolines: root=quinolin
+  quinolines: root=quinoline
   quinolins: root=quinolin
   quinols: root=quinol
   quinones: root=quinone
@@ -56288,10 +56202,10 @@ lemmas
   ragas: root=raga
   ragbags: root=ragbag
   raged: root=rage
-  ragees: root=rage
-  rages: root=rag
-    m01: pos=noun root=rag
+  ragees: root=ragee
+    m01: pos=noun root=ragee
     m02: pos=verb root=rage
+  rages: root=rage
   ragged: root=rag
   raggednesses: root=raggedness
   raggees: root=raggee
@@ -56393,7 +56307,7 @@ lemmas
   ramequins: root=ramequin
   ramets: root=ramet
   rami: root=ramus
-  ramies: root=rami
+  ramies: root=ramie
   ramifications: root=ramification
   ramified: root=ramify
   ramifies: root=ramify
@@ -56483,9 +56397,7 @@ lemmas
   rapacities: root=rapacity
   raped: root=rape
   rapers: root=raper
-  rapes: root=rap
-    m01: pos=noun root=rap
-    m02: pos=verb root=rape
+  rapes: root=rape
   rapeseeds: root=rapeseed
   raphae: root=raphe
   raphes: root=raphe
@@ -56564,9 +56476,7 @@ lemmas
   ratemeters: root=ratemeter
   ratepayers: root=ratepayer
   raters: root=rater
-  rates: root=rat
-    m01: pos=noun root=rat
-    m02: pos=verb root=rate
+  rates: root=rate
   ratfinks: root=ratfink
   ratholes: root=rathole
   rathskellers: root=rathskeller
@@ -56602,7 +56512,7 @@ lemmas
   rations: root=ration
   ratios: root=ratio
   ratites: root=ratite
-  ratlines: root=ratlin
+  ratlines: root=ratline
   ratlins: root=ratlin
   ratooned: root=ratoon
   ratooners: root=ratooner
@@ -57930,9 +57840,7 @@ lemmas
   reevaluating: root=reevaluate
   reevaluations: root=reevaluation
   reeved: root=reeve
-  reeves: root=reef
-    m01: pos=noun root=reef
-    m02: pos=verb root=reeve
+  reeves: root=reeve
   reeving: root=reeve
   reevoked: root=reevoke
   reevokes: root=reevoke
@@ -58088,7 +57996,7 @@ lemmas
   reforges: root=reforge
   reforging: root=reforge
   reformabilities: root=reformability
-  reformates: root=reformat
+  reformates: root=reformate
   reformations: root=reformation
   reformatories: root=reformatory
   reformats: root=reformat
@@ -58155,7 +58063,7 @@ lemmas
   refuelling: root=refuel
   refuels: root=refuel
   refugeeisms: root=refugeeism
-  refugees: root=refuge
+  refugees: root=refugee
   refuges: root=refuge
   refugia: root=refugium
   refulgences: root=refulgence
@@ -59055,7 +58963,9 @@ lemmas
   rentals: root=rental
   rented: root=rent
   renters: root=renter
-  rentes: root=rent
+  rentes: root=rente
+    m01: pos=noun root=rente
+    m02: pos=verb root=rent
   rentiers: root=rentier
   renting: root=rent
   rents: root=rent
@@ -59303,9 +59213,7 @@ lemmas
   reposed: root=repose
   reposefulnesses: root=reposefulness
   reposers: root=reposer
-  reposes: root=repos
-    m01: pos=noun root=repos
-    m02: pos=verb root=repose
+  reposes: root=repose
   reposing: root=repose
   repositioned: root=reposition
   repositioning: root=reposition
@@ -60110,7 +60018,9 @@ lemmas
   retirants: root=retirant
   retired: root=retire
   retirednesses: root=retiredness
-  retirees: root=retire
+  retirees: root=retiree
+    m01: pos=noun root=retiree
+    m02: pos=verb root=retire
   retirements: root=retirement
   retirers: root=retirer
   retires: root=retire
@@ -60335,14 +60245,12 @@ lemmas
   reverends: root=reverend
   reverers: root=reverer
   reveres: root=revere
-  reveries: root=revery
+  reveries: root=reverie
   reverifies: root=reverify
   revering: root=revere
   reversals: root=reversal
   reversed: root=reverse
-  reverses: root=revers
-    m01: pos=noun root=revers
-    m02: pos=verb root=reverse
+  reverses: root=reverse
   reversibilities: root=reversibility
   reversibles: root=reversible
   reversing: root=reverse
@@ -60506,7 +60414,7 @@ lemmas
   rhabdomancers: root=rhabdomancer
   rhabdomancies: root=rhabdomancy
   rhabdomeres: root=rhabdomere
-  rhabdomes: root=rhabdom
+  rhabdomes: root=rhabdome
   rhabdoms: root=rhabdom
   rhabdomyosarcomas: root=rhabdomyosarcoma
   rhabdoviruses: root=rhabdovirus
@@ -60555,7 +60463,7 @@ lemmas
   rhizopuses: root=rhizopus
   rhizospheres: root=rhizosphere
   rhizotomies: root=rhizotomy
-  rhodamines: root=rhodamin
+  rhodamines: root=rhodamine
   rhodamins: root=rhodamin
   rhodiums: root=rhodium
   rhodochrosites: root=rhodochrosite
@@ -60750,9 +60658,7 @@ lemmas
   rills: root=rill
   rimed: root=rime
   rimers: root=rimer
-  rimes: root=rim
-    m01: pos=noun root=rim
-    m02: pos=verb root=rime
+  rimes: root=rime
   rimesters: root=rimester
   riminesses: root=riminess
   riming: root=rime
@@ -60792,9 +60698,7 @@ lemmas
   rins: root=rin
   rinsed: root=rinse
   rinsers: root=rinser
-  rinses: root=rins
-    m01: pos=noun root=rins
-    m02: pos=verb root=rinse
+  rinses: root=rinse
   rinsing: root=rinse
   rinsings: root=rinsing
   riojas: root=rioja
@@ -60815,9 +60719,7 @@ lemmas
   riping: root=rip
   ripoffs: root=ripoff
   riposted: root=riposte
-  ripostes: root=ripost
-    m01: pos=noun root=ripost
-    m02: pos=verb root=riposte
+  ripostes: root=riposte
   riposting: root=riposte
   riposts: root=ripost
   ripped: root=rip
@@ -60954,7 +60856,7 @@ lemmas
   rochets: root=rochet
   rockabies: root=rockaby
   rockabillies: root=rockabilly
-  rockabyes: root=rockaby
+  rockabyes: root=rockabye
   rockaways: root=rockaway
   rocked: root=rock
   rockeries: root=rockery
@@ -61176,7 +61078,9 @@ lemmas
   rotaviruses: root=rotavirus
   rotches: root=rotch
   rotenones: root=rotenone
-  rotes: root=rot
+  rotes: root=rote
+    m01: pos=noun root=rote
+    m02: pos=verb root=rot
   rotguts: root=rotgut
   rotifers: root=rotifer
   rotis: root=roti
@@ -61269,9 +61173,7 @@ lemmas
   routemarches: root=routemarch
   routemen: root=routeman
   routers: root=router
-  routes: root=rout
-    m01: pos=noun root=rout
-    m02: pos=verb root=route
+  routes: root=route
   routeways: root=routeway
   rouths: root=routh
   routines: root=routine
@@ -61341,7 +61243,9 @@ lemmas
   rubellas: root=rubella
   rubellites: root=rubellite
   rubeolas: root=rubeola
-  rubes: root=rub
+  rubes: root=rube
+    m01: pos=noun root=rube
+    m02: pos=verb root=rub
   rubicundities: root=rubicundity
   rubidiums: root=rubidium
   rubies: root=ruby
@@ -61468,7 +61372,9 @@ lemmas
   rundles: root=rundle
   rundlets: root=rundlet
   rundowns: root=rundown
-  runes: root=run
+  runes: root=rune
+    m01: pos=noun root=rune
+    m02: pos=verb root=run
   rung: root=ring
   rungs: root=rung
   runkled: root=runkle
@@ -61561,7 +61467,7 @@ lemmas
   sabermetricians: root=sabermetrician
   sabers: root=saber
   sabes: root=sabe
-  sabines: root=sabin
+  sabines: root=sabine
   sabins: root=sabin
   sabirs: root=sabir
   sables: root=sable
@@ -61665,9 +61571,9 @@ lemmas
   safetymen: root=safetyman
   safflowers: root=safflower
   saffrons: root=saffron
-  safranines: root=safranin
+  safranines: root=safranine
   safranins: root=safranin
-  safroles: root=safrol
+  safroles: root=safrole
   safrols: root=safrol
   sagaciousnesses: root=sagaciousness
   sagacities: root=sagacity
@@ -61678,7 +61584,9 @@ lemmas
   sagbuts: root=sagbut
   sagebrushes: root=sagebrush
   sagenesses: root=sageness
-  sages: root=sag
+  sages: root=sage
+    m01: pos=noun root=sage
+    m02: pos=verb root=sag
   saggards: root=saggard
   saggared: root=saggar
   saggaring: root=saggar
@@ -61749,7 +61657,7 @@ lemmas
   saleps: root=salep
   saleratuses: root=saleratus
   salerooms: root=saleroom
-  sales: root=sal
+  sales: root=sale
   salesclerks: root=salesclerk
   salesgirls: root=salesgirl
   salesladies: root=saleslady
@@ -61759,7 +61667,7 @@ lemmas
   salespersons: root=salesperson
   salesrooms: root=salesroom
   saleswomen: root=saleswoman
-  salicines: root=salicin
+  salicines: root=salicine
   salicins: root=salicin
   salicylates: root=salicylate
   saliences: root=salience
@@ -62085,7 +61993,7 @@ lemmas
   saris: root=sari
   sarks: root=sark
   sarments: root=sarment
-  sarodes: root=sarod
+  sarodes: root=sarode
   sarodists: root=sarodist
   sarods: root=sarod
   sarongs: root=sarong
@@ -62194,7 +62102,7 @@ lemmas
   sauternes: root=sauterne
   sauterneses: root=sauternes
   sautes: root=saute
-  sautoires: root=sautoir
+  sautoires: root=sautoire
   sautoirs: root=sautoir
   savaged: root=savage
   savagenesses: root=savageness
@@ -62210,9 +62118,7 @@ lemmas
   saved: root=save
   saveloys: root=saveloy
   savers: root=saver
-  saves: root=safe
-    m01: pos=noun root=safe
-    m02: pos=verb root=save
+  saves: root=save
   savines: root=savin
   saving: root=save
   savings: root=saving
@@ -62365,9 +62271,7 @@ lemmas
   scareheads: root=scarehead
   scaremongers: root=scaremonger
   scarers: root=scarer
-  scares: root=scar
-    m01: pos=noun root=scar
-    m02: pos=verb root=scare
+  scares: root=scare
   scarfed: root=scarf
   scarfing: root=scarf
   scarfpins: root=scarfpin
@@ -62478,8 +62382,8 @@ lemmas
   schizophrenics: root=schizophrenic
   schizos: root=schizo
   schlemiels: root=schlemiel
-  schlepped: root=schlepp
-  schlepping: root=schlepp
+  schlepped: root=schlep
+  schlepping: root=schlep
   schlepps: root=schlepp
   schleps: root=schlep
   schlocks: root=schlock
@@ -62727,9 +62631,7 @@ lemmas
   scrapbooks: root=scrapbook
   scraped: root=scrape
   scrapers: root=scraper
-  scrapes: root=scrap
-    m01: pos=noun root=scrap
-    m02: pos=verb root=scrape
+  scrapes: root=scrape
   scrapheaps: root=scrapheap
   scrapies: root=scrapie
   scraping: root=scrape
@@ -62942,7 +62844,7 @@ lemmas
   scutches: root=scutch
   scutching: root=scutch
   scutella: root=scutellum
-  scutes: root=scut
+  scutes: root=scute
   scuts: root=scut
   scuttered: root=scutter
   scuttering: root=scutter
@@ -63560,7 +63462,7 @@ lemmas
   serigraphers: root=serigrapher
   serigraphies: root=serigraphy
   serigraphs: root=serigraph
-  serines: root=serin
+  serines: root=serine
   sering: root=ser
   seringas: root=seringa
   serins: root=serin
@@ -63598,9 +63500,7 @@ lemmas
   servants: root=servant
   served: root=serve
   servers: root=server
-  serves: root=serf
-    m01: pos=noun root=serf
-    m02: pos=verb root=serve
+  serves: root=serve
   serviceabilities: root=serviceability
   serviceablenesses: root=serviceableness
   serviceberries: root=serviceberry
@@ -63739,9 +63639,7 @@ lemmas
   shaddocks: root=shaddock
   shaded: root=shade
   shaders: root=shader
-  shades: root=shad
-    m01: pos=noun root=shad
-    m02: pos=verb root=shade
+  shades: root=shade
   shadflies: root=shadfly
   shadinesses: root=shadiness
   shading: root=shade
@@ -63803,9 +63701,7 @@ lemmas
   shamefacednesses: root=shamefacedness
   shamefulnesses: root=shamefulness
   shamelessnesses: root=shamelessness
-  shames: root=sham
-    m01: pos=noun root=sham
-    m02: pos=verb root=shame
+  shames: root=shame
   shaming: root=shame
   shammed: root=sham
   shammers: root=shammer
@@ -63930,7 +63826,7 @@ lemmas
   sheenies: root=sheenie
   sheens: root=sheen
   sheepberries: root=sheepberry
-  sheepcotes: root=sheepcot
+  sheepcotes: root=sheepcote
   sheepcots: root=sheepcot
   sheepdogs: root=sheepdog
   sheepfolds: root=sheepfold
@@ -64071,9 +63967,7 @@ lemmas
   shindys: root=shindy
   shined: root=shine
   shiners: root=shiner
-  shines: root=shin
-    m01: pos=noun root=shin
-    m02: pos=verb root=shine
+  shines: root=shine
   shingled: root=shingle
   shinglers: root=shingler
   shingles: root=shingle
@@ -64159,8 +64053,8 @@ lemmas
   shivs: root=shiv
   shlemiehls: root=shlemiehl
   shlemiels: root=shlemiel
-  shlepped: root=shlepp
-  shlepping: root=shlepp
+  shlepped: root=shlep
+  shlepping: root=shlep
   shlepps: root=shlepp
   shleps: root=shlep
   shlocks: root=shlock
@@ -64282,7 +64176,7 @@ lemmas
   shortstops: root=shortstop
   shortwaves: root=shortwave
   shot: root=shoot
-  shotes: root=shot
+  shotes: root=shote
   shotgunned: root=shotgun
   shotgunners: root=shotgunner
   shotgunning: root=shotgun
@@ -64645,7 +64539,7 @@ lemmas
   silicifies: root=silicify
   siliciums: root=silicium
   silicles: root=silicle
-  silicones: root=silicon
+  silicones: root=silicone
   silicons: root=silicon
   silicosises: root=silicosis
   silicotics: root=silicotic
@@ -64752,7 +64646,9 @@ lemmas
   sincipita: root=sinciput
   sinciputs: root=sinciput
   sinecures: root=sinecure
-  sines: root=sin
+  sines: root=sine
+    m01: pos=noun root=sine
+    m02: pos=verb root=sin
   sinews: root=sinew
   sinfonie: root=sinfonia
   sinfoniettas: root=sinfonietta
@@ -64826,9 +64722,7 @@ lemmas
   sirees: root=sire
   sirenians: root=sirenian
   sirens: root=siren
-  sires: root=sir
-    m01: pos=noun root=sir
-    m02: pos=verb root=sire
+  sires: root=sire
   siring: root=sire
   sirloins: root=sirloin
   siroccos: root=sirocco
@@ -64898,15 +64792,13 @@ lemmas
   skateboards: root=skateboard
   skated: root=skate
   skaters: root=skater
-  skates: root=skat
-    m01: pos=noun root=skat
-    m02: pos=verb root=skate
+  skates: root=skate
   skating: root=skate
   skatings: root=skating
-  skatoles: root=skatol
+  skatoles: root=skatole
   skatols: root=skatol
   skats: root=skat
-  skeanes: root=skean
+  skeanes: root=skeane
   skeans: root=skean
   skedaddled: root=skedaddle
   skedaddlers: root=skedaddler
@@ -65160,9 +65052,7 @@ lemmas
   slatches: root=slatch
   slated: root=slate
   slaters: root=slater
-  slates: root=slat
-    m01: pos=noun root=slat
-    m02: pos=verb root=slate
+  slates: root=slate
   slathered: root=slather
   slathering: root=slather
   slathers: root=slather
@@ -65346,9 +65236,7 @@ lemmas
   sloops: root=sloop
   sloped: root=slope
   slopers: root=sloper
-  slopes: root=slop
-    m01: pos=noun root=slop
-    m02: pos=verb root=slope
+  slopes: root=slope
   sloping: root=slope
   slopped: root=slop
   sloppinesses: root=sloppiness
@@ -65461,7 +65349,7 @@ lemmas
   smaltites: root=smaltite
   smaltos: root=smalto
   smalts: root=smalt
-  smaragdes: root=smaragd
+  smaragdes: root=smaragde
   smaragdites: root=smaragdite
   smaragds: root=smaragd
   smarminesses: root=smarminess
@@ -65637,7 +65525,7 @@ lemmas
   snatchers: root=snatcher
   snatches: root=snatch
   snatching: root=snatch
-  snathes: root=snath
+  snathes: root=snathe
   snaths: root=snath
   snawed: root=snaw
   snawing: root=snaw
@@ -65697,9 +65585,7 @@ lemmas
   sniped: root=snipe
   snipers: root=sniper
   sniperscopes: root=sniperscope
-  snipes: root=snip
-    m01: pos=noun root=snip
-    m02: pos=verb root=snipe
+  snipes: root=snipe
   sniping: root=snipe
   snipped: root=snip
   snippers: root=snipper
@@ -65972,7 +65858,7 @@ lemmas
   solacing: root=solace
   solanders: root=solander
   solands: root=soland
-  solanines: root=solanin
+  solanines: root=solanine
   solanins: root=solanin
   solanos: root=solano
   solans: root=solan
@@ -66147,7 +66033,7 @@ lemmas
   sonatinas: root=sonatina
   sonders: root=sonder
   sondes: root=sonde
-  sones: root=son
+  sones: root=sone
   songbirds: root=songbird
   songbooks: root=songbook
   songfests: root=songfest
@@ -66326,9 +66212,7 @@ lemmas
   sous: root=sou
   sousaphones: root=sousaphone
   soused: root=souse
-  souses: root=sous
-    m01: pos=noun root=sous
-    m02: pos=verb root=souse
+  souses: root=souse
   sousing: root=souse
   soutaches: root=soutache
   soutanes: root=soutane
@@ -66376,7 +66260,7 @@ lemmas
   soymilks: root=soymilk
   soys: root=soy
   soyuzes: root=soyuz
-  sozines: root=sozin
+  sozines: root=sozine
   sozins: root=sozin
   spacebands: root=spaceband
   spacecrafts: root=spacecraft
@@ -66450,9 +66334,7 @@ lemmas
   spared: root=spare
   sparenesses: root=spareness
   spareribs: root=sparerib
-  spares: root=spar
-    m01: pos=noun root=spar
-    m02: pos=verb root=spare
+  spares: root=spare
   sparged: root=sparge
   spargers: root=sparger
   sparges: root=sparge
@@ -66486,7 +66368,9 @@ lemmas
   spatchcocked: root=spatchcock
   spatchcocking: root=spatchcock
   spatchcocks: root=spatchcock
-  spates: root=spat
+  spates: root=spate
+    m01: pos=noun root=spate
+    m02: pos=verb root=spat
   spathes: root=spathe
   spatialities: root=spatiality
   spats: root=spat
@@ -66716,9 +66600,7 @@ lemmas
   spicebushes: root=spicebush
   spiced: root=spice
   spiceries: root=spicery
-  spices: root=spic
-    m01: pos=noun root=spic
-    m02: pos=verb root=spice
+  spices: root=spice
   spicinesses: root=spiciness
   spicing: root=spice
   spicks: root=spick
@@ -66749,9 +66631,7 @@ lemmas
   spikelets: root=spikelet
   spikenards: root=spikenard
   spikers: root=spiker
-  spikes: root=spik
-    m01: pos=noun root=spik
-    m02: pos=verb root=spike
+  spikes: root=spike
   spikinesses: root=spikiness
   spiking: root=spike
   spiks: root=spik
@@ -66778,7 +66658,9 @@ lemmas
   spinelessnesses: root=spinelessness
   spinelles: root=spinelle
   spinels: root=spinel
-  spines: root=spin
+  spines: root=spine
+    m01: pos=noun root=spine
+    m02: pos=verb root=spin
   spinets: root=spinet
   spinifexes: root=spinifex
   spininesses: root=spininess
@@ -66810,7 +66692,7 @@ lemmas
   spirals: root=spiral
   spirants: root=spirant
   spireas: root=spirea
-  spiremes: root=spirem
+  spiremes: root=spireme
   spirems: root=spirem
   spires: root=spire
   spirilla: root=spirillum
@@ -66844,9 +66726,7 @@ lemmas
   spitballs: root=spitball
   spited: root=spite
   spitefulnesses: root=spitefulness
-  spites: root=spit
-    m01: pos=noun root=spit
-    m02: pos=verb root=spite
+  spites: root=spite
   spitfires: root=spitfire
   spiting: root=spite
   spits: root=spit
@@ -67082,7 +66962,7 @@ lemmas
   springheads: root=springhead
   springhouses: root=springhouse
   springinesses: root=springiness
-  springing: root=springe
+  springing: root=spring
   springs: root=spring
   springtails: root=springtail
   springtides: root=springtide
@@ -67098,7 +66978,7 @@ lemmas
   sprinters: root=sprinter
   sprinting: root=sprint
   sprints: root=sprint
-  sprites: root=sprit
+  sprites: root=sprite
   sprits: root=sprit
   spritsails: root=spritsail
   spritzed: root=spritz
@@ -67320,9 +67200,7 @@ lemmas
   stagefuls: root=stageful
   stagehands: root=stagehand
   stagers: root=stager
-  stages: root=stag
-    m01: pos=noun root=stag
-    m02: pos=verb root=stage
+  stages: root=stage
   stagflations: root=stagflation
   staggards: root=staggard
   staggarts: root=staggart
@@ -67460,9 +67338,7 @@ lemmas
   stardoms: root=stardom
   stardusts: root=stardust
   stared: root=stare
-  stares: root=star
-    m01: pos=noun root=star
-    m02: pos=verb root=stare
+  stares: root=stare
   starfishes: root=starfish
   starflowers: root=starflower
   stargazed: root=stargaze
@@ -67509,12 +67385,10 @@ lemmas
   statelinesses: root=stateliness
   statements: root=statement
   staterooms: root=stateroom
-  states: root=stat
-    m01: pos=noun root=stat
-    m02: pos=verb root=state
+  states: root=state
   statesmanships: root=statesmanship
   statesmen: root=statesman
-  statices: root=static
+  statices: root=statice
   statics: root=static
   stating: root=state
   stationed: root=station
@@ -68043,7 +67917,7 @@ lemmas
   stounding: root=stound
   stounds: root=stound
   stoups: root=stoup
-  stoures: root=stour
+  stoures: root=stoure
   stours: root=stour
   stoutened: root=stouten
   stoutening: root=stouten
@@ -68242,9 +68116,7 @@ lemmas
   stridences: root=stridence
   stridencies: root=stridency
   striders: root=strider
-  strides: root=strid
-    m01: pos=noun root=strid
-    m02: pos=verb root=stride
+  strides: root=stride
   striding: root=stride
   stridors: root=stridor
   stridulated: root=stridulate
@@ -68272,9 +68144,7 @@ lemmas
   stringybarks: root=stringybark
   striped: root=stripe
   stripers: root=striper
-  stripes: root=strip
-    m01: pos=noun root=strip
-    m02: pos=verb root=stripe
+  stripes: root=stripe
   striping: root=stripe
   stripings: root=striping
   striplings: root=stripling
@@ -68291,7 +68161,7 @@ lemmas
   striving: root=strive
   strobes: root=strobe
   strobilations: root=strobilation
-  strobiles: root=strobil
+  strobiles: root=strobile
   strobili: root=strobilus
   strobils: root=strobil
   stroboscopes: root=stroboscope
@@ -68311,7 +68181,7 @@ lemmas
   strongholds: root=stronghold
   strongmen: root=strongman
   strongrooms: root=strongroom
-  strongyles: root=strongyl
+  strongyles: root=strongyle
   strongyloidosises: root=strongyloidosis
   strongyls: root=strongyl
   strontianites: root=strontianite
@@ -68452,7 +68322,7 @@ lemmas
   stuttering: root=stutter
   stutters: root=stutter
   styed: root=sty
-  styes: root=sty
+  styes: root=stye
   stying: root=sty
   stylebooks: root=stylebook
   styled: root=style
@@ -69091,7 +68961,9 @@ lemmas
   suitcases: root=suitcase
   suited: root=suit
   suiters: root=suiter
-  suites: root=suit
+  suites: root=suite
+    m01: pos=noun root=suite
+    m02: pos=verb root=suit
   suiting: root=suit
   suitings: root=suiting
   suitors: root=suitor
@@ -69106,7 +68978,7 @@ lemmas
   sulfatases: root=sulfatase
   sulfates: root=sulfate
   sulfhydryls: root=sulfhydryl
-  sulfides: root=sulfid
+  sulfides: root=sulfide
   sulfids: root=sulfid
   sulfinpyrazones: root=sulfinpyrazone
   sulfinyls: root=sulfinyl
@@ -69141,7 +69013,7 @@ lemmas
   sullying: root=sully
   sulphas: root=sulpha
   sulphates: root=sulphate
-  sulphides: root=sulphid
+  sulphides: root=sulphide
   sulphids: root=sulphid
   sulphites: root=sulphite
   sulphones: root=sulphone
@@ -69859,9 +69731,7 @@ lemmas
   swatches: root=swatch
   swathed: root=swathe
   swathers: root=swather
-  swathes: root=swath
-    m01: pos=noun root=swath
-    m02: pos=verb root=swathe
+  swathes: root=swathe
   swathing: root=swathe
   swaths: root=swath
   swats: root=swat
@@ -69955,7 +69825,7 @@ lemmas
   swingeing: root=swinge
   swingers: root=swinger
   swinges: root=swinge
-  swinging: root=swinge
+  swinging: root=swing
   swingings: root=swinging
   swingled: root=swingle
   swingletrees: root=swingletree
@@ -70052,7 +69922,7 @@ lemmas
   syboes: root=sybo
   sycamines: root=sycamine
   sycamores: root=sycamore
-  sycees: root=syce
+  sycees: root=sycee
   syces: root=syce
   sycomores: root=sycomore
   syconia: root=syconium
@@ -70091,12 +69961,12 @@ lemmas
   sylvans: root=sylvan
   sylvas: root=sylva
   sylvicultures: root=sylviculture
-  sylvines: root=sylvin
+  sylvines: root=sylvine
   sylvins: root=sylvin
   sylvites: root=sylvite
   symbions: root=symbion
   symbionts: root=symbiont
-  symbiotes: root=symbiot
+  symbiotes: root=symbiote
   symbiots: root=symbiot
   symboled: root=symbol
   symboling: root=symbol
@@ -70312,7 +70182,7 @@ lemmas
   tabled: root=table
   tablefuls: root=tableful
   tablelands: root=tableland
-  tablemates: root=tablemat
+  tablemates: root=tablemate
   tablemats: root=tablemat
   tables: root=table
   tablespoonfuls: root=tablespoonful
@@ -70328,7 +70198,7 @@ lemmas
   taboos: root=taboo
   taborers: root=taborer
   taborets: root=taboret
-  taborines: root=taborin
+  taborines: root=taborine
   taborins: root=taborin
   tabors: root=tabor
   taboulis: root=tabouli
@@ -70348,9 +70218,9 @@ lemmas
   taces: root=tace
   taches: root=tach
   tachinids: root=tachinid
-  tachismes: root=tachism
+  tachismes: root=tachisme
   tachisms: root=tachism
-  tachistes: root=tachist
+  tachistes: root=tachiste
   tachistoscopes: root=tachistoscope
   tachists: root=tachist
   tachographs: root=tachograph
@@ -70512,7 +70382,7 @@ lemmas
   talukas: root=taluka
   taluks: root=taluk
   taluses: root=talus
-  tamales: root=tamal
+  tamales: root=tamale
   tamals: root=tamal
   tamanduas: root=tamandua
   tamandus: root=tamandu
@@ -70627,9 +70497,7 @@ lemmas
   tapering: root=taper
   tapers: root=taper
   tapersticks: root=taperstick
-  tapes: root=tap
-    m01: pos=noun root=tap
-    m02: pos=verb root=tape
+  tapes: root=tape
   tapestries: root=tapestry
   tapeta: root=tapetum
   tapeworms: root=tapeworm
@@ -70664,7 +70532,9 @@ lemmas
   tardinesses: root=tardiness
   tardyons: root=tardyon
   tared: root=tar
-  tares: root=tar
+  tares: root=tare
+    m01: pos=noun root=tare
+    m02: pos=verb root=tar
   targes: root=targe
   targeted: root=target
   targeting: root=target
@@ -70730,7 +70600,7 @@ lemmas
   tasseling: root=tassel
   tasselling: root=tassel
   tassels: root=tassel
-  tasses: root=tass
+  tasses: root=tasse
   tassets: root=tasset
   tassies: root=tassie
   tasted: root=taste
@@ -70794,7 +70664,7 @@ lemmas
   tawninesses: root=tawniness
   tawpies: root=tawpie
   taws: root=taw
-  tawses: root=taws
+  tawses: root=tawse
   taxa: root=taxon
   taxations: root=taxation
   taxed: root=tax
@@ -70870,9 +70740,7 @@ lemmas
   teaselling: root=teasel
   teasels: root=teasel
   teasers: root=teaser
-  teases: root=teas
-    m01: pos=noun root=teas
-    m02: pos=verb root=tease
+  teases: root=tease
   teashops: root=teashop
   teasing: root=tease
   teaspoonfuls: root=teaspoonful
@@ -71167,9 +71035,7 @@ lemmas
   tens: root=ten
   tensed: root=tense
   tensenesses: root=tenseness
-  tenses: root=tens
-    m01: pos=noun root=tens
-    m02: pos=verb root=tense
+  tenses: root=tense
   tensilities: root=tensility
   tensing: root=tense
   tensiometers: root=tensiometer
@@ -71397,7 +71263,7 @@ lemmas
   tetrazoliums: root=tetrazolium
   tetrodes: root=tetrode
   tetrodotoxins: root=tetrodotoxin
-  tetroxides: root=tetroxid
+  tetroxides: root=tetroxide
   tetroxids: root=tetroxid
   tetryls: root=tetryl
   tets: root=tet
@@ -71478,7 +71344,7 @@ lemmas
   theelols: root=theelol
   thefts: root=theft
   thegns: root=thegn
-  theines: root=thein
+  theines: root=theine
   theins: root=thein
   theisms: root=theism
   theists: root=theist
@@ -71594,12 +71460,12 @@ lemmas
   thews: root=thew
   thiabendazoles: root=thiabendazole
   thiaminases: root=thiaminase
-  thiamines: root=thiamin
+  thiamines: root=thiamine
   thiamins: root=thiamin
   thiazides: root=thiazide
-  thiazines: root=thiazin
+  thiazines: root=thiazine
   thiazins: root=thiazin
-  thiazoles: root=thiazol
+  thiazoles: root=thiazole
   thiazols: root=thiazol
   thickened: root=thicken
   thickeners: root=thickener
@@ -71653,11 +71519,11 @@ lemmas
   thiocyanates: root=thiocyanate
   thiols: root=thiol
   thionates: root=thionate
-  thionines: root=thionin
+  thionines: root=thionine
   thionins: root=thionin
   thionyls: root=thionyl
   thiopentals: root=thiopental
-  thiophenes: root=thiophen
+  thiophenes: root=thiophene
   thiophens: root=thiophen
   thioridazines: root=thioridazine
   thiosulfates: root=thiosulfate
@@ -71707,7 +71573,7 @@ lemmas
   thoroughnesses: root=thoroughness
   thoroughpins: root=thoroughpin
   thoroughworts: root=thoroughwort
-  thorpes: root=thorp
+  thorpes: root=thorpe
   thorps: root=thorp
   thought: root=think
   thoughtfulnesses: root=thoughtfulness
@@ -71901,7 +71767,7 @@ lemmas
   thyroids: root=thyroid
   thyrotrophins: root=thyrotrophin
   thyrotropins: root=thyrotropin
-  thyroxines: root=thyroxin
+  thyroxines: root=thyroxine
   thyroxins: root=thyroxin
   thyrses: root=thyrse
   thyrsi: root=thyrsus
@@ -71959,9 +71825,7 @@ lemmas
   tiercels: root=tiercel
   tierces: root=tierce
   tiers: root=tier
-  ties: root=ti
-    m01: pos=noun root=ti
-    m02: pos=verb root=tie
+  ties: root=tie
   tiffanies: root=tiffany
   tiffins: root=tiffin
   tiffs: root=tiff
@@ -71989,9 +71853,7 @@ lemmas
   tiled: root=tile
   tilefishes: root=tilefish
   tilers: root=tiler
-  tiles: root=til
-    m01: pos=noun root=til
-    m02: pos=verb root=tile
+  tiles: root=tile
   tiling: root=tile
   tilings: root=tiling
   tillages: root=tillage
@@ -72013,7 +71875,7 @@ lemmas
   tilts: root=tilt
   tiltyards: root=tiltyard
   timaraus: root=timarau
-  timbales: root=timbal
+  timbales: root=timbale
   timbals: root=timbal
   timberdoodles: root=timberdoodle
   timberheads: root=timberhead
@@ -72066,14 +71928,14 @@ lemmas
   tineas: root=tinea
   tined: root=tin
   tineids: root=tineid
-  tines: root=tin
+  tines: root=tine
+    m01: pos=noun root=tine
+    m02: pos=verb root=tin
   tinfoils: root=tinfoil
   tinfuls: root=tinful
   tinged: root=tinge
   tingeing: root=tinge
-  tinges: root=ting
-    m01: pos=noun root=ting
-    m02: pos=verb root=tinge
+  tinges: root=tinge
   tinging: root=tinge
   tingled: root=tingle
   tinglers: root=tingler
@@ -72299,7 +72161,7 @@ lemmas
   tokologies: root=tokology
   tokomaks: root=tokomak
   tokonomas: root=tokonoma
-  tolanes: root=tolan
+  tolanes: root=tolane
   tolans: root=tolan
   tolas: root=tola
   tolbooths: root=tolbooth
@@ -72314,7 +72176,7 @@ lemmas
   tolerating: root=tolerate
   tolerations: root=toleration
   tolerators: root=tolerator
-  tolidines: root=tolidin
+  tolidines: root=tolidine
   tolidins: root=tolidin
   toling: root=tole
   tollages: root=tollage
@@ -72330,11 +72192,11 @@ lemmas
   tollways: root=tollway
   toluates: root=toluate
   toluenes: root=toluene
-  toluides: root=toluid
-  toluidines: root=toluidin
+  toluides: root=toluide
+  toluidines: root=toluidine
   toluidins: root=toluidin
   toluids: root=toluid
-  toluoles: root=toluol
+  toluoles: root=toluole
   toluols: root=toluol
   tolus: root=tolu
   toluyls: root=toluyl
@@ -72358,7 +72220,7 @@ lemmas
   tomcats: root=tomcat
   tomcods: root=tomcod
   tomenta: root=tomentum
-  tomes: root=tom
+  tomes: root=tome
   tomfooleries: root=tomfoolery
   tomfools: root=tomfool
   tommies: root=tommy
@@ -72378,9 +72240,7 @@ lemmas
   tonelessnesses: root=tonelessness
   tonemes: root=toneme
   toners: root=toner
-  tones: root=ton
-    m01: pos=noun root=ton
-    m02: pos=verb root=tone
+  tones: root=tone
   tonetics: root=tonetic
   tonettes: root=tonette
   tongas: root=tonga
@@ -72456,7 +72316,7 @@ lemmas
   topers: root=toper
   topes: root=tope
   topgallants: root=topgallant
-  tophes: root=toph
+  tophes: root=tophe
   tophi: root=tophus
   tophs: root=toph
   topiaries: root=topiary
@@ -72517,7 +72377,7 @@ lemmas
   tore: root=tear
   toreadors: root=toreador
   toreros: root=torero
-  tores: root=tor
+  tores: root=tore
   toreutics: root=toreutic
   tori: root=torus
   tories: root=tory
@@ -72556,7 +72416,7 @@ lemmas
   torsks: root=torsk
   torsos: root=torso
   tortellinis: root=tortellini
-  tortes: root=tort
+  tortes: root=torte
   torticollises: root=torticollis
   tortillas: root=tortilla
   tortoises: root=tortoise
@@ -72608,9 +72468,7 @@ lemmas
   totemites: root=totemite
   totems: root=totem
   toters: root=toter
-  totes: root=tot
-    m01: pos=noun root=tot
-    m02: pos=verb root=tote
+  totes: root=tote
   toting: root=tote
   totipotencies: root=totipotency
   tots: root=tot
@@ -72774,9 +72632,7 @@ lemmas
   trademarks: root=trademark
   tradeoffs: root=tradeoff
   traders: root=trader
-  trades: root=trad
-    m01: pos=noun root=trad
-    m02: pos=verb root=trade
+  trades: root=trade
   tradescantias: root=tradescantia
   tradesmen: root=tradesman
   trading: root=trade
@@ -73299,7 +73155,7 @@ lemmas
   triathletes: root=triathlete
   triathlons: root=triathlon
   triaxialities: root=triaxiality
-  triazines: root=triazin
+  triazines: root=triazine
   triazins: root=triazin
   triazoles: root=triazole
   tribades: root=tribade
@@ -73365,7 +73221,7 @@ lemmas
   tricolettes: root=tricolette
   tricolors: root=tricolor
   tricolours: root=tricolour
-  tricornes: root=tricorn
+  tricornes: root=tricorne
   tricorns: root=tricorn
   tricotines: root=tricotine
   tricots: root=tricot
@@ -73461,11 +73317,13 @@ lemmas
   triolets: root=triolet
   triols: root=triol
   trios: root=trio
-  trioses: root=trios
-  trioxides: root=trioxid
+  trioses: root=triose
+  trioxides: root=trioxide
   trioxids: root=trioxid
   tripacks: root=tripack
-  tripes: root=trip
+  tripes: root=tripe
+    m01: pos=noun root=tripe
+    m02: pos=verb root=trip
   triphenylmethanes: root=triphenylmethane
   triphosphates: root=triphosphate
   triphthongs: root=triphthong
@@ -73564,7 +73422,7 @@ lemmas
   trocars: root=trocar
   trochanters: root=trochanter
   trochars: root=trochar
-  trochees: root=troche
+  trochees: root=trochee
   troches: root=troche
   trochils: root=trochil
   trochleae: root=trochlea
@@ -73608,7 +73466,7 @@ lemmas
   trooping: root=troop
   troops: root=troop
   troopships: root=troopship
-  tropes: root=trop
+  tropes: root=trope
   trophies: root=trophy
   trophoblasts: root=trophoblast
   trophozoites: root=trophozoite
@@ -73616,7 +73474,7 @@ lemmas
   tropicalizes: root=tropicalize
   tropicalizing: root=tropicalize
   tropics: root=tropic
-  tropines: root=tropin
+  tropines: root=tropine
   tropins: root=tropin
   tropisms: root=tropism
   tropocollagens: root=tropocollagen
@@ -73762,7 +73620,7 @@ lemmas
   trypsinogens: root=trypsinogen
   trypsins: root=trypsin
   tryptamines: root=tryptamine
-  tryptophanes: root=tryptophan
+  tryptophanes: root=tryptophane
   tryptophans: root=tryptophan
   trysails: root=trysail
   trysted: root=tryste
@@ -73798,9 +73656,7 @@ lemmas
   tuberoses: root=tuberose
   tuberosities: root=tuberosity
   tubers: root=tuber
-  tubes: root=tub
-    m01: pos=noun root=tub
-    m02: pos=verb root=tube
+  tubes: root=tube
   tubeworks: root=tubework
   tubfuls: root=tubful
   tubifexes: root=tubifex
@@ -73882,9 +73738,7 @@ lemmas
   tuned: root=tune
   tunefulnesses: root=tunefulness
   tuners: root=tuner
-  tunes: root=tun
-    m01: pos=noun root=tun
-    m02: pos=verb root=tune
+  tunes: root=tune
   tunesmiths: root=tunesmith
   tuneups: root=tuneup
   tungs: root=tung
@@ -73990,7 +73844,7 @@ lemmas
   turpentines: root=turpentine
   turpeths: root=turpeth
   turpitudes: root=turpitude
-  turquoises: root=turquois
+  turquoises: root=turquoise
   turrets: root=turret
   turtlebacks: root=turtleback
   turtledoves: root=turtledove
@@ -74016,7 +73870,7 @@ lemmas
   tussles: root=tussle
   tussling: root=tussle
   tussocks: root=tussock
-  tussores: root=tussor
+  tussores: root=tussore
   tussors: root=tussor
   tussucks: root=tussuck
   tussurs: root=tussur
@@ -74041,7 +73895,7 @@ lemmas
   tuxedoes: root=tuxedo
   tuxedos: root=tuxedo
   tuxes: root=tux
-  tuyeres: root=tuyer
+  tuyeres: root=tuyere
   tuyers: root=tuyer
   twaddled: root=twaddle
   twaddlers: root=twaddler
@@ -74104,9 +73958,7 @@ lemmas
   twills: root=twill
   twinberries: root=twinberry
   twined: root=twine
-  twines: root=twin
-    m01: pos=noun root=twin
-    m02: pos=verb root=twine
+  twines: root=twine
   twinflowers: root=twinflower
   twinged: root=twinge
   twingeing: root=twinge
@@ -74150,7 +74002,7 @@ lemmas
   twosomes: root=twosome
   twyers: root=twyer
   tycoons: root=tycoon
-  tyees: root=tye
+  tyees: root=tyee
   tyers: root=tyer
   tyes: root=tye
   tying: root=tie
@@ -74222,7 +74074,7 @@ lemmas
   tyrannosauruses: root=tyrannosaurus
   tyrants: root=tyrant
   tyres: root=tyre
-  tyrocidines: root=tyrocidin
+  tyrocidines: root=tyrocidine
   tyrocidins: root=tyrocidin
   tyros: root=tiro
   tyrosinases: root=tyrosinase
@@ -75653,7 +75505,7 @@ lemmas
   urchins: root=urchin
   urds: root=urd
   ureas: root=urea
-  ureases: root=ureas
+  ureases: root=urease
   uredinia: root=uredinium
   urediniospores: root=urediniospore
   urediospores: root=urediospore
@@ -75663,7 +75515,7 @@ lemmas
   uremias: root=uremia
   ureotelisms: root=ureotelism
   ureters: root=ureter
-  urethanes: root=urethan
+  urethanes: root=urethane
   urethans: root=urethan
   urethrae: root=urethra
   urethras: root=urethra
@@ -75719,9 +75571,7 @@ lemmas
   usefulnesses: root=usefulness
   uselessnesses: root=uselessness
   users: root=user
-  uses: root=us
-    m01: pos=noun root=us
-    m02: pos=verb root=use
+  uses: root=use
   ushered: root=usher
   usherettes: root=usherette
   ushering: root=usher
@@ -75800,7 +75650,7 @@ lemmas
   vaccinating: root=vaccinate
   vaccinations: root=vaccination
   vaccinators: root=vaccinator
-  vaccinees: root=vaccine
+  vaccinees: root=vaccinee
   vaccines: root=vaccine
   vaccinias: root=vaccinia
   vacillated: root=vacillate
@@ -75931,7 +75781,7 @@ lemmas
   vandals: root=vandal
   vandas: root=vanda
   vandykes: root=vandyke
-  vanes: root=van
+  vanes: root=vane
   vangs: root=vang
   vanguardisms: root=vanguardism
   vanguardists: root=vanguardist
@@ -76035,7 +75885,7 @@ lemmas
   vasectomized: root=vasectomize
   vasectomizes: root=vasectomize
   vasectomizing: root=vasectomize
-  vases: root=vas
+  vases: root=vase
   vasoactivities: root=vasoactivity
   vasoconstrictions: root=vasoconstriction
   vasoconstrictors: root=vasoconstrictor
@@ -76183,7 +76033,7 @@ lemmas
   venges: root=venge
   venging: root=venge
   venialnesses: root=venialness
-  venines: root=venin
+  venines: root=venine
   venins: root=venin
   venipunctures: root=venipuncture
   veniremen: root=venireman
@@ -76231,7 +76081,7 @@ lemmas
   verapamils: root=verapamil
   veratrias: root=veratria
   veratridines: root=veratridine
-  veratrines: root=veratrin
+  veratrines: root=veratrine
   veratrins: root=veratrin
   veratrums: root=veratrum
   verbalisms: root=verbalism
@@ -76628,7 +76478,7 @@ lemmas
   virologies: root=virology
   virologists: root=virologist
   virtualities: root=virtuality
-  virtues: root=virtu
+  virtues: root=virtue
   virtuosas: root=virtuosa
   virtuosi: root=virtuoso
   virtuosities: root=virtuosity
@@ -76657,7 +76507,7 @@ lemmas
   viscounties: root=viscounty
   viscounts: root=viscount
   viscousnesses: root=viscousness
-  vises: root=vis
+  vises: root=vise
   visibilities: root=visibility
   visiblenesses: root=visibleness
   visionaries: root=visionary
@@ -76963,7 +76813,7 @@ lemmas
   vulvovaginitises: root=vulvovaginitis
   vying: root=vie
   wabblers: root=wabbler
-  wackes: root=wack
+  wackes: root=wacke
   wackinesses: root=wackiness
   wackos: root=wacko
   wacks: root=wack
@@ -77015,9 +76865,7 @@ lemmas
   wagerers: root=wagerer
   wagering: root=wager
   wagers: root=wager
-  wages: root=wag
-    m01: pos=noun root=wag
-    m02: pos=verb root=wage
+  wages: root=wage
   wageworkers: root=wageworker
   wagged: root=wag
   waggeries: root=waggery
@@ -77148,9 +76996,7 @@ lemmas
   wanders: root=wander
   wands: root=wand
   waned: root=wane
-  wanes: root=wan
-    m01: pos=noun root=wan
-    m02: pos=verb root=wane
+  wanes: root=wane
   wangans: root=wangan
   wangled: root=wangle
   wanglers: root=wangler
@@ -77205,9 +77051,7 @@ lemmas
   warehouses: root=warehouse
   warehousing: root=warehouse
   warerooms: root=wareroom
-  wares: root=war
-    m01: pos=noun root=war
-    m02: pos=verb root=ware
+  wares: root=ware
   warfares: root=warfare
   warfarins: root=warfarin
   warheads: root=warhead
@@ -77317,16 +77161,14 @@ lemmas
   wastepapers: root=wastepaper
   wasteries: root=wastery
   wasters: root=waster
-  wastes: root=wast
-    m01: pos=noun root=wast
-    m02: pos=verb root=waste
+  wastes: root=waste
   wastewaters: root=wastewater
   wasteways: root=wasteway
   wasting: root=waste
   wastrels: root=wastrel
   wastries: root=wastry
   wasts: root=wast
-  watapes: root=watap
+  watapes: root=watape
   wataps: root=watap
   watchables: root=watchable
   watchbands: root=watchband
@@ -77818,9 +77660,7 @@ lemmas
   whinchats: root=whinchat
   whined: root=whine
   whiners: root=whiner
-  whines: root=whin
-    m01: pos=noun root=whin
-    m02: pos=verb root=whine
+  whines: root=whine
   whinges: root=whinge
   whining: root=whine
   whinnied: root=whinny
@@ -77901,9 +77741,7 @@ lemmas
   whitenings: root=whitening
   whitens: root=whiten
   whiteouts: root=whiteout
-  whites: root=whit
-    m01: pos=noun root=whit
-    m02: pos=verb root=white
+  whites: root=white
   whitesmiths: root=whitesmith
   whitetails: root=whitetail
   whitethorns: root=whitethorn
@@ -78148,9 +77986,7 @@ lemmas
   winegrowers: root=winegrower
   winepresses: root=winepress
   wineries: root=winery
-  wines: root=win
-    m01: pos=noun root=win
-    m02: pos=verb root=wine
+  wines: root=wine
   wineshops: root=wineshop
   wineskins: root=wineskin
   winesops: root=winesop
@@ -78271,7 +78107,7 @@ lemmas
   witching: root=witch
   witchweeds: root=witchweed
   wited: root=wite
-  witenagemotes: root=witenagemot
+  witenagemotes: root=witenagemote
   witenagemots: root=witenagemot
   wites: root=wit
   withdrawals: root=withdrawal
@@ -78388,7 +78224,7 @@ lemmas
   wontons: root=wonton
   wonts: root=wont
   woodbinds: root=woodbind
-  woodbines: root=woodbin
+  woodbines: root=woodbine
   woodbins: root=woodbin
   woodblocks: root=woodblock
   woodboxes: root=woodbox
@@ -78697,7 +78533,7 @@ lemmas
   xanthates: root=xanthate
   xantheins: root=xanthein
   xanthenes: root=xanthene
-  xanthines: root=xanthin
+  xanthines: root=xanthine
   xanthins: root=xanthin
   xanthomas: root=xanthoma
   xanthones: root=xanthone
@@ -78727,7 +78563,7 @@ lemmas
   xiphoids: root=xiphoid
   xylems: root=xylem
   xylenes: root=xylene
-  xylidines: root=xylidin
+  xylidines: root=xylidine
   xylidins: root=xylidin
   xylitols: root=xylitol
   xylocarps: root=xylocarp
@@ -78955,9 +78791,7 @@ lemmas
   yokefellows: root=yokefellow
   yokels: root=yokel
   yokemates: root=yokemate
-  yokes: root=yok
-    m01: pos=noun root=yok
-    m02: pos=verb root=yoke
+  yokes: root=yoke
   yoking: root=yoke
   yokozunas: root=yokozuna
   yoks: root=yok
@@ -79140,7 +78974,7 @@ lemmas
   zoeae: root=zoea
   zoeas: root=zoea
   zoisites: root=zoisite
-  zombies: root=zombi
+  zombies: root=zombie
   zombifications: root=zombification
   zombifies: root=zombify
   zombiisms: root=zombiism

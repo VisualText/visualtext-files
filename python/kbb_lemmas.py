@@ -26,7 +26,7 @@
 #   Both were measured to move real parses.  A knowledge base answers only
 #   when asked and has no effect on the parse.
 #
-#   AMBIGUITY.  Of ~79k inflected forms only ~173 have more than one possible
+#   AMBIGUITY.  Of ~79k inflected forms only ~90 have more than one possible
 #   root ("axes" <- ax / axe, "calves" <- calf / calve).  Those keep a default
 #   root= on the parent so the flat one-hop lookup still answers everywhere,
 #   and add m01/m02 children carrying pos= for a caller that can be exact.
@@ -34,9 +34,10 @@
 #   THE DEFAULT IS THE FIRST READING'S ROOT, which in en-full.kbb is usually
 #   the NOUN -- "calves: root=calf", not "calve".  A caller that knows it is
 #   holding a verb must therefore scan the children for pos=verb before
-#   falling back to the parent.  Measured over the 30,648 verb forms, that
-#   walk reproduces a hand-built verbs-only table entry for entry; taking the
-#   parent's root= blindly gets 172 of them wrong.
+#   falling back to the parent.  Measured over the 30,648 verb forms, taking
+#   the parent's root= blindly gets 88 of them wrong ("attaches" -> attache).
+#   It was 172 before kbb_rootfix.py corrected roots that belonged to a
+#   different word ("cares" -> car); most multi-root forms were that error.
 #
 #   A word that is its own root gets no entry; the caller falls back to the
 #   surface form, which is already correct.
@@ -59,7 +60,7 @@ HEADER = """\
 #       m01: pos=noun root=calf
 #       m02: pos=verb root=calve <- a verb caller must read these
 #
-# Only ~173 of ~79k forms have more than one possible root. Those keep a
+# Only ~90 of ~79k forms have more than one possible root. Those keep a
 # root= on the parent, so a caller that does not know the part of speech
 # still gets one answer in one hop, and add m01/m02 children so one that
 # does can be exact -- scan them for the pos you are holding, and fall
