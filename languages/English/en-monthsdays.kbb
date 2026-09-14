@@ -2,6 +2,9 @@
 # Forward lookup:  month/day name -> num   (e.g. concept "march" -> num=3)
 # Reverse lookup:  num -> name              (e.g. monthbynum "3" -> name=march)
 # Month numbers are 1-12 (january=1); day numbers are 1-7 (monday=1).
+# abbr= is the standard three-letter form.  Where a longer abbreviation is
+# also in common use it is listed in synonym=; every form named here is
+# tagged by en-monthsdays.dict.
 monthsdays
   months
     january: num=1, abbr=jan
@@ -12,7 +15,7 @@ monthsdays
     june: num=6, abbr=jun
     july: num=7, abbr=jul
     august: num=8, abbr=aug
-    september: num=9, abbr=sep
+    september: num=9, abbr=sep, synonym=sept
     october: num=10, abbr=oct
     november: num=11, abbr=nov
     december: num=12, abbr=dec
@@ -31,9 +34,9 @@ monthsdays
     12: name=december, abbr=dec
   days
     monday: num=1, abbr=mon
-    tuesday: num=2, abbr=tue
-    wednesday: num=3, abbr=wed
-    thursday: num=4, abbr=thu
+    tuesday: num=2, abbr=tue, synonym=tues
+    wednesday: num=3, abbr=wed, synonym=weds
+    thursday: num=4, abbr=thu, synonym=[thur,thurs]
     friday: num=5, abbr=fri
     saturday: num=6, abbr=sat
     sunday: num=7, abbr=sun
