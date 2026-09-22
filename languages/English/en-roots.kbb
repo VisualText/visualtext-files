@@ -6152,6 +6152,8 @@ roots
       m02: pos=verb vform=pastpart
     apotheosizes: pos=verb vform=pres3sg tense=present person=3 number=singular
     apotheosizing: pos=verb vform=ger
+  app
+    apps: pos=noun number=plural
   appal
     appalled
       m01: pos=verb vform=past tense=past
@@ -12302,8 +12304,8 @@ roots
       m02: pos=verb vform=pastpart
     bellylaughing: pos=verb vform=ger
     bellylaughs
-      m01: pos=verb vform=pres3sg tense=present person=3 number=singular
-      m02: pos=noun number=plural
+      m01: pos=noun number=plural
+      m02: pos=verb vform=pres3sg tense=present person=3 number=singular
   belong
     belonged
       m01: pos=verb vform=past tense=past freq_verb=19
@@ -14823,6 +14825,16 @@ roots
   blocky
     blockier: pos=adj degree=comparative
     blockiest: pos=adj degree=superlative
+  blog
+    blogged
+      m01: pos=verb vform=past tense=past
+      m02: pos=verb vform=pastpart
+    blogging: pos=verb vform=ger
+    blogs
+      m01: pos=noun number=plural
+      m02: pos=verb vform=pres3sg tense=present person=3 number=singular
+  blogger
+    bloggers: pos=noun number=plural
   bloke
     blokes: pos=noun number=plural freq_noun=1
   blond
@@ -21445,7 +21457,9 @@ roots
       m01: pos=verb vform=past tense=past
       m02: pos=verb vform=pastpart
     carpooling: pos=verb vform=ger
-    carpools: pos=verb vform=pres3sg tense=present person=3 number=singular
+    carpools
+      m01: pos=noun number=plural
+      m02: pos=verb vform=pres3sg tense=present person=3 number=singular
   carpooler
     carpoolers: pos=noun number=plural
   carpophore
@@ -23584,6 +23598,8 @@ roots
       m01: pos=verb vform=past tense=past freq_verb=2
       m02: pos=verb vform=pastpart freq_verb=2
     chatting: pos=verb vform=ger freq_verb=2
+  chatbot
+    chatbots: pos=noun number=plural
   chatchka
     chatchkas: pos=noun number=plural
   chatchke
@@ -34175,8 +34191,8 @@ roots
       m02: pos=verb vform=pastpart
     crosschecking: pos=verb vform=ger
     crosschecks
-      m01: pos=verb vform=pres3sg tense=present person=3 number=singular
-      m02: pos=noun number=plural
+      m01: pos=noun number=plural
+      m02: pos=verb vform=pres3sg tense=present person=3 number=singular
   crosscurrent
     crosscurrents: pos=noun number=plural
   crosscut
@@ -35466,6 +35482,8 @@ roots
     cyanogens: pos=noun number=plural
   cyanohydrin
     cyanohydrins: pos=noun number=plural
+  cyberattack
+    cyberattacks: pos=noun number=plural
   cybernation
     cybernations: pos=noun number=plural
   cybernetician
@@ -44833,7 +44851,9 @@ roots
       m01: pos=verb vform=past tense=past
       m02: pos=verb vform=pastpart
     downloading: pos=verb vform=ger
-    downloads: pos=verb vform=pres3sg tense=present person=3 number=singular
+    downloads
+      m01: pos=noun number=plural
+      m02: pos=verb vform=pres3sg tense=present person=3 number=singular
   downpipe
     downpipes: pos=noun number=plural
   downplay
@@ -46351,6 +46371,8 @@ roots
     ears: pos=noun number=plural freq_noun=50
   earache
     earaches: pos=noun number=plural
+  earbud
+    earbuds: pos=noun number=plural
   eardrop
     eardrops: pos=noun number=plural
   eardrum
@@ -47102,8 +47124,8 @@ roots
       m02: pos=verb vform=pastpart
     egotripping: pos=verb vform=ger
     egotrips
-      m01: pos=verb vform=pres3sg tense=present person=3 number=singular
-      m02: pos=noun number=plural
+      m01: pos=noun number=plural
+      m02: pos=verb vform=pres3sg tense=present person=3 number=singular
   egregiousness
     egregiousnesses: pos=noun number=plural
   egress
@@ -47710,6 +47732,14 @@ roots
     emaciating: pos=verb vform=ger
   emaciation
     emaciations: pos=noun number=plural
+  email
+    emailed
+      m01: pos=verb vform=past tense=past
+      m02: pos=verb vform=pastpart
+    emailing: pos=verb vform=ger
+    emails
+      m01: pos=noun number=plural
+      m02: pos=verb vform=pres3sg tense=present person=3 number=singular
   emanate
     emanated
       m01: pos=verb vform=past tense=past freq_verb=1
@@ -48151,6 +48181,8 @@ roots
     emmets: pos=noun number=plural
   emodin
     emodins: pos=noun number=plural
+  emoji
+    emojis: pos=noun number=plural
   emollient
     emollients: pos=noun number=plural
   emolument
@@ -51430,8 +51462,8 @@ roots
     evenest: pos=adj degree=superlative
     evening: pos=verb vform=ger
     evens
-      m01: pos=verb vform=pres3sg tense=present person=3 number=singular
-      m02: pos=noun number=plural
+      m01: pos=noun number=plural
+      m02: pos=verb vform=pres3sg tense=present person=3 number=singular
   evenfall
     evenfalls: pos=noun number=plural
   evenhandedness
@@ -58389,8 +58421,8 @@ roots
     foxtails: pos=noun number=plural
   foxtrot
     foxtrots
-      m01: pos=verb vform=pres3sg tense=present person=3 number=singular
-      m02: pos=noun number=plural
+      m01: pos=noun number=plural
+      m02: pos=verb vform=pres3sg tense=present person=3 number=singular
     foxtrotted
       m01: pos=verb vform=past tense=past
       m02: pos=verb vform=pastpart
@@ -65854,8 +65886,8 @@ roots
       m02: pos=verb vform=pastpart
     hallowing: pos=verb vform=ger
     hallows
-      m01: pos=verb vform=pres3sg tense=present person=3 number=singular
-      m02: pos=noun number=plural
+      m01: pos=noun number=plural
+      m02: pos=verb vform=pres3sg tense=present person=3 number=singular
   hallower
     hallowers: pos=noun number=plural
   hallucinate
@@ -66703,6 +66735,8 @@ roots
     hashheads: pos=noun number=plural
   hashish
     hashishes: pos=noun number=plural
+  hashtag
+    hashtags: pos=noun number=plural
   haslet
     haslets: pos=noun number=plural
   hasp
@@ -76367,6 +76401,8 @@ roots
     intractabilities: pos=noun number=plural
   intrados
     intradoses: pos=noun number=plural
+  intranet
+    intranets: pos=noun number=plural
   intransigeance
     intransigeances: pos=noun number=plural
   intransigeant
@@ -78644,8 +78680,8 @@ roots
       m01: pos=noun number=plural
       m02: pos=verb vform=pres3sg tense=present person=3 number=singular
     joyriding
-      m01: pos=verb vform=past tense=past
-      m02: pos=verb vform=ger
+      m01: pos=verb vform=ger
+      m02: pos=verb vform=past tense=past
   joyrider
     joyriders: pos=noun number=plural
   joystick
@@ -84035,6 +84071,14 @@ roots
     liverymen: pos=noun number=plural
   livestock
     livestocks: pos=noun number=plural freq_noun=8
+  livestream
+    livestreamed
+      m01: pos=verb vform=past tense=past
+      m02: pos=verb vform=pastpart
+    livestreaming: pos=verb vform=ger
+    livestreams
+      m01: pos=noun number=plural
+      m02: pos=verb vform=pres3sg tense=present person=3 number=singular
   livetrap
     livetraps: pos=noun number=plural
   lividity
@@ -84419,6 +84463,8 @@ roots
       m02: pos=verb vform=pastpart
     logicizes: pos=verb vform=pres3sg tense=present person=3 number=singular
     logicizing: pos=verb vform=ger
+  login
+    logins: pos=noun number=plural
   loginess
     loginesses: pos=noun number=plural
   logion
@@ -84448,6 +84494,8 @@ roots
     logotypes: pos=noun number=plural
   logotypy
     logotypies: pos=noun number=plural
+  logout
+    logouts: pos=noun number=plural
   logroll
     logrolls: pos=noun number=plural
   logroller
@@ -92120,8 +92168,8 @@ roots
     mocker: pos=adj degree=comparative
     mocking: pos=verb vform=ger freq_verb=4
     mocks
-      m01: pos=verb vform=pres3sg tense=present person=3 number=singular freq_verb=4
-      m02: pos=noun number=plural
+      m01: pos=noun number=plural
+      m02: pos=verb vform=pres3sg tense=present person=3 number=singular freq_verb=4
   mocker
     mockers: pos=noun number=plural freq_noun=1
   mockery
@@ -94376,8 +94424,8 @@ roots
     muster: pos=adj degree=comparative
     musting: pos=verb vform=ger
     musts
-      m01: pos=verb vform=pres3sg tense=present person=3 number=singular
-      m02: pos=noun number=plural
+      m01: pos=noun number=plural
+      m02: pos=verb vform=pres3sg tense=present person=3 number=singular
   mustache
     mustaches: pos=noun number=plural freq_noun=6
   mustachio
@@ -97603,8 +97651,8 @@ roots
       m01: pos=verb vform=past tense=past
       m02: pos=verb vform=pastpart
     nosedives
-      m01: pos=verb vform=pres3sg tense=present person=3 number=singular
-      m02: pos=noun number=plural
+      m01: pos=noun number=plural
+      m02: pos=verb vform=pres3sg tense=present person=3 number=singular
     nosediving: pos=verb vform=ger
   nosegay
     nosegays: pos=noun number=plural
@@ -100888,8 +100936,8 @@ roots
     outgnaws: pos=verb vform=pres3sg tense=present person=3 number=singular
   outgo
     outgoes
-      m01: pos=verb vform=pres3sg tense=present person=3 number=singular
-      m02: pos=noun number=plural
+      m01: pos=noun number=plural
+      m02: pos=verb vform=pres3sg tense=present person=3 number=singular
     outgoing: pos=verb vform=ger
     outgone: pos=verb vform=pastpart
     outwent: pos=verb vform=past tense=past
@@ -106273,6 +106321,8 @@ roots
     paysheets: pos=noun number=plural
   payslip
     payslips: pos=noun number=plural
+  paywall
+    paywalls: pos=noun number=plural
   pazazz
     pazazzes: pos=noun number=plural
   pea
@@ -109346,8 +109396,8 @@ roots
       m02: pos=verb vform=pastpart
     piggybacking: pos=verb vform=ger
     piggybacks
-      m01: pos=verb vform=pres3sg tense=present person=3 number=singular
-      m02: pos=noun number=plural
+      m01: pos=noun number=plural
+      m02: pos=verb vform=pres3sg tense=present person=3 number=singular
   pigheadedness
     pigheadednesses: pos=noun number=plural
   piglet
@@ -111193,6 +111243,14 @@ roots
       m02: pos=verb vform=pres3sg tense=present person=3 number=singular
   podagra
     podagras: pos=noun number=plural
+  podcast
+    podcast
+      m01: pos=verb vform=past tense=past
+      m02: pos=verb vform=pastpart
+    podcasting: pos=verb vform=ger
+    podcasts
+      m01: pos=noun number=plural
+      m02: pos=verb vform=pres3sg tense=present person=3 number=singular
   podesta
     podestas: pos=noun number=plural
   podgy
@@ -120097,8 +120155,8 @@ roots
   ready
     readier: pos=adj degree=comparative
     readies
-      m01: pos=verb vform=pres3sg tense=present person=3 number=singular freq_verb=2
-      m02: pos=noun number=plural freq_noun=2
+      m01: pos=noun number=plural freq_noun=2
+      m02: pos=verb vform=pres3sg tense=present person=3 number=singular freq_verb=2
     readiest: pos=adj degree=superlative
     readying: pos=verb vform=ger freq_verb=2
   readymade
@@ -133841,6 +133899,8 @@ roots
     selfheals: pos=noun number=plural
   selfhood
     selfhoods: pos=noun number=plural
+  selfie
+    selfies: pos=noun number=plural
   selfishness
     selfishnesses: pos=noun number=plural freq_noun=2
   selflessness
@@ -135978,8 +136038,8 @@ roots
       m02: pos=verb vform=pastpart
     shortlisting: pos=verb vform=ger
     shortlists
-      m01: pos=verb vform=pres3sg tense=present person=3 number=singular
-      m02: pos=noun number=plural
+      m01: pos=noun number=plural
+      m02: pos=verb vform=pres3sg tense=present person=3 number=singular
   shortness
     shortnesses: pos=noun number=plural freq_noun=1
   shortsightedness
@@ -138727,6 +138787,10 @@ roots
     smartens: pos=verb vform=pres3sg tense=present person=3 number=singular
   smartness
     smartnesses: pos=noun number=plural
+  smartphone
+    smartphones: pos=noun number=plural
+  smartwatch
+    smartwatches: pos=noun number=plural
   smartweed
     smartweeds: pos=noun number=plural
   smarty
@@ -138943,6 +139007,8 @@ roots
     smoothens: pos=verb vform=pres3sg tense=present person=3 number=singular
   smoother
     smoothers: pos=noun number=plural
+  smoothie
+    smoothies: pos=noun number=plural
   smoothness
     smoothnesses: pos=noun number=plural freq_noun=3
   smoothy
@@ -140899,6 +140965,14 @@ roots
     spallers: pos=noun number=plural
   spalpeen
     spalpeens: pos=noun number=plural
+  spam
+    spammed
+      m01: pos=verb vform=past tense=past
+      m02: pos=verb vform=pastpart
+    spamming: pos=verb vform=ger
+    spams
+      m01: pos=noun number=plural
+      m02: pos=verb vform=pres3sg tense=present person=3 number=singular
   span
     spanned
       m01: pos=verb vform=past tense=past freq_verb=8
@@ -141059,8 +141133,8 @@ roots
       m02: pos=verb vform=pastpart
     spatchcocking: pos=verb vform=ger
     spatchcocks
-      m01: pos=verb vform=pres3sg tense=present person=3 number=singular
-      m02: pos=noun number=plural
+      m01: pos=noun number=plural
+      m02: pos=verb vform=pres3sg tense=present person=3 number=singular
   spate
     spates: pos=noun number=plural
   spathe
@@ -142338,8 +142412,8 @@ roots
       m01: pos=verb vform=past tense=past
       m02: pos=verb vform=pastpart
     spreadeagles
-      m01: pos=verb vform=pres3sg tense=present person=3 number=singular
-      m02: pos=noun number=plural
+      m01: pos=noun number=plural
+      m02: pos=verb vform=pres3sg tense=present person=3 number=singular
     spreadeagling: pos=verb vform=ger
   spreader
     spreaders: pos=noun number=plural
@@ -154455,6 +154529,8 @@ roots
     touchlines: pos=noun number=plural
   touchmark
     touchmarks: pos=noun number=plural
+  touchscreen
+    touchscreens: pos=noun number=plural
   touchstone
     touchstones: pos=noun number=plural freq_noun=1
   touchup
@@ -160559,7 +160635,9 @@ roots
       m01: pos=verb vform=past tense=past
       m02: pos=verb vform=pastpart
     uploading: pos=verb vform=ger
-    uploads: pos=verb vform=pres3sg tense=present person=3 number=singular
+    uploads
+      m01: pos=noun number=plural
+      m02: pos=verb vform=pres3sg tense=present person=3 number=singular
   upmanship
     upmanships: pos=noun number=plural
   upper
@@ -160913,6 +160991,8 @@ roots
     urinemias: pos=noun number=plural
   urinometer
     urinometers: pos=noun number=plural
+  url
+    urls: pos=noun number=plural
   urn
     urns: pos=noun number=plural freq_noun=1
   urochord
@@ -160981,6 +161061,8 @@ roots
     uselessnesses: pos=noun number=plural freq_noun=1
   user
     users: pos=noun number=plural freq_noun=4
+  username
+    usernames: pos=noun number=plural
   usher
     ushered
       m01: pos=verb vform=past tense=past freq_verb=2
@@ -163193,6 +163275,8 @@ roots
     voicefulnesses: pos=noun number=plural
   voicelessness
     voicelessnesses: pos=noun number=plural
+  voicemail
+    voicemails: pos=noun number=plural
   voiceprint
     voiceprints: pos=noun number=plural
   voicer
@@ -163998,8 +164082,8 @@ roots
       m02: pos=verb vform=pastpart
     wanking: pos=verb vform=ger
     wanks
-      m01: pos=verb vform=pres3sg tense=present person=3 number=singular
-      m02: pos=noun number=plural
+      m01: pos=noun number=plural
+      m02: pos=verb vform=pres3sg tense=present person=3 number=singular
   wanness
     wannesses: pos=noun number=plural
   wannigan
@@ -164820,8 +164904,14 @@ roots
   webby
     webbier: pos=adj degree=comparative
     webbiest: pos=adj degree=superlative
+  webcam
+    webcams: pos=noun number=plural
   weber
     webers: pos=noun number=plural
+  webpage
+    webpages: pos=noun number=plural
+  website
+    websites: pos=noun number=plural
   webster
     websters: pos=noun number=plural
   webwork
@@ -166990,6 +167080,8 @@ roots
     workers: pos=noun number=plural freq_noun=37
   workfare
     workfares: pos=noun number=plural
+  workflow
+    workflows: pos=noun number=plural
   workfolk
     workfolks: pos=noun number=plural
   workforce

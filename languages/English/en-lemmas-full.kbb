@@ -3180,6 +3180,7 @@ lemmas
   approximates: root=approximate
   approximating: root=approximate
   approximations: root=approximation
+  apps: root=app
   appulses: root=appulse
   appurtenances: root=appurtenance
   apraxias: root=apraxia
@@ -7145,6 +7146,10 @@ lemmas
   blocking: root=block
   blocks: root=block
   blocs: root=bloc
+  blogged: root=blog
+  bloggers: root=blogger
+  blogging: root=blog
+  blogs: root=blog
   blokes: root=bloke
   blondes: root=blonde
   blonds: root=blond
@@ -11137,6 +11142,7 @@ lemmas
   chastising: root=chastise
   chastities: root=chastity
   chasubles: root=chasuble
+  chatbots: root=chatbot
   chatchkas: root=chatchka
   chatchkes: root=chatchke
   chateaubriands: root=chateaubriand
@@ -13140,9 +13146,9 @@ lemmas
   collied: root=colly
   collieries: root=colliery
   colliers: root=collier
-  collies: root=colly
-    m01: pos=verb root=colly
-    m02: pos=noun root=collie
+  collies: root=collie
+    m01: pos=noun root=collie
+    m02: pos=verb root=colly
   collieshangies: root=collieshangie
   colligated: root=colligate
   colligates: root=colligate
@@ -16645,6 +16651,7 @@ lemmas
   cyanoethylations: root=cyanoethylation
   cyanogens: root=cyanogen
   cyanohydrins: root=cyanohydrin
+  cyberattacks: root=cyberattack
   cybernations: root=cybernation
   cyberneticians: root=cybernetician
   cyberneticists: root=cyberneticist
@@ -21821,6 +21828,7 @@ lemmas
   ealdormen: root=ealdorman
   eanlings: root=eanling
   earaches: root=earache
+  earbuds: root=earbud
   eardrops: root=eardrop
   eardrums: root=eardrum
   earflaps: root=earflap
@@ -22477,6 +22485,9 @@ lemmas
   emaciates: root=emaciate
   emaciating: root=emaciate
   emaciations: root=emaciation
+  emailed: root=email
+  emailing: root=email
+  emails: root=email
   emanated: root=emanate
   emanates: root=emanate
   emanating: root=emanate
@@ -22695,6 +22706,7 @@ lemmas
   emmers: root=emmer
   emmets: root=emmet
   emodins: root=emodin
+  emojis: root=emoji
   emollients: root=emollient
   emoluments: root=emolument
   emoted: root=emote
@@ -27449,9 +27461,9 @@ lemmas
   forsythias: root=forsythia
   fortalices: root=fortalice
   fortepianos: root=fortepiano
-  fortes: root=fort
-    m01: pos=verb root=fort
-    m02: pos=noun root=forte
+  fortes: root=forte
+    m01: pos=noun root=forte
+    m02: pos=verb root=fort
   forthrightnesses: root=forthrightness
   forties: root=forty
   fortieths: root=fortieth
@@ -31315,6 +31327,7 @@ lemmas
   hashheads: root=hashhead
   hashing: root=hash
   hashishes: root=hashish
+  hashtags: root=hashtag
   haslets: root=haslet
   hasped: root=hasp
   hasping: root=hasp
@@ -35943,6 +35956,7 @@ lemmas
   intoxications: root=intoxication
   intractabilities: root=intractability
   intradoses: root=intrados
+  intranets: root=intranet
   intransigeances: root=intransigeance
   intransigeants: root=intransigeant
   intransigences: root=intransigence
@@ -39528,6 +39542,9 @@ lemmas
     m01: pos=noun root=life
     m02: pos=verb root=live
   livestocks: root=livestock
+  livestreamed: root=livestream
+  livestreaming: root=livestream
+  livestreams: root=livestream
   livetraps: root=livetrap
   lividities: root=lividity
   lividnesses: root=lividness
@@ -39710,6 +39727,7 @@ lemmas
   logicizing: root=logicize
   logics: root=logic
   loginesses: root=loginess
+  logins: root=login
   logions: root=logion
   logisticians: root=logistician
   logjams: root=logjam
@@ -39723,6 +39741,7 @@ lemmas
   logos: root=logo
   logotypes: root=logotype
   logotypies: root=logotypy
+  logouts: root=logout
   logrollers: root=logroller
   logrollings: root=logrolling
   logrolls: root=logroll
@@ -50210,6 +50229,7 @@ lemmas
   pays: root=pay
   paysheets: root=paysheet
   payslips: root=payslip
+  paywalls: root=paywall
   pazazzes: root=pazazz
   peaceablenesses: root=peaceableness
   peacefulnesses: root=peacefulness
@@ -52524,6 +52544,8 @@ lemmas
   pococurantisms: root=pococurantism
   pocosins: root=pocosin
   podagras: root=podagra
+  podcasting: root=podcast
+  podcasts: root=podcast
   podded: root=pod
   podding: root=pod
   podestas: root=podesta
@@ -63180,6 +63202,7 @@ lemmas
   selfdoms: root=selfdom
   selfheals: root=selfheal
   selfhoods: root=selfhood
+  selfies: root=selfie
   selfishnesses: root=selfishness
   selflessnesses: root=selflessness
   selfnesses: root=selfness
@@ -65362,7 +65385,9 @@ lemmas
   smarties: root=smarty
   smarting: root=smart
   smartnesses: root=smartness
+  smartphones: root=smartphone
   smarts: root=smart
+  smartwatches: root=smartwatch
   smartweeds: root=smartweed
   smashed: root=smash
   smashers: root=smasher
@@ -65450,7 +65475,9 @@ lemmas
   smoothening: root=smoothen
   smoothens: root=smoothen
   smoothers: root=smoother
-  smoothies: root=smoothy
+  smoothies: root=smoothie
+    m01: pos=noun root=smoothie
+    m02: pos=noun root=smoothy
   smoothing: root=smooth
   smoothnesses: root=smoothness
   smooths: root=smooth
@@ -66306,6 +66333,9 @@ lemmas
   spalling: root=spall
   spalls: root=spall
   spalpeens: root=spalpeen
+  spammed: root=spam
+  spamming: root=spam
+  spams: root=spam
   spanakopitas: root=spanakopita
   spanceled: root=spancel
   spanceling: root=spancel
@@ -72489,6 +72519,7 @@ lemmas
   touching: root=touch
   touchlines: root=touchline
   touchmarks: root=touchmark
+  touchscreens: root=touchscreen
   touchstones: root=touchstone
   touchups: root=touchup
   touchwoods: root=touchwood
@@ -75539,6 +75570,7 @@ lemmas
   urinemias: root=urinemia
   urines: root=urine
   urinometers: root=urinometer
+  urls: root=url
   urns: root=urn
   urochordates: root=urochordate
   urochords: root=urochord
@@ -75570,6 +75602,7 @@ lemmas
   used: root=use
   usefulnesses: root=usefulness
   uselessnesses: root=uselessness
+  usernames: root=username
   users: root=user
   uses: root=use
   ushered: root=usher
@@ -76639,6 +76672,7 @@ lemmas
   voiced: root=voice
   voicefulnesses: root=voicefulness
   voicelessnesses: root=voicelessness
+  voicemails: root=voicemail
   voiceprints: root=voiceprint
   voicers: root=voicer
   voices: root=voice
@@ -77374,8 +77408,11 @@ lemmas
   webbed: root=web
   webbing: root=web
   webbings: root=webbing
+  webcams: root=webcam
   webers: root=weber
+  webpages: root=webpage
   webs: root=web
+  websites: root=website
   websters: root=webster
   webworks: root=webwork
   webworms: root=webworm
@@ -78324,6 +78361,7 @@ lemmas
   worked: root=work
   workers: root=worker
   workfares: root=workfare
+  workflows: root=workflow
   workfolks: root=workfolk
   workforces: root=workforce
   workhorses: root=workhorse
