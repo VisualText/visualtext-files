@@ -29,8 +29,8 @@ contain the word and still load eagerly. `en-full-feat.dict` ended in `feat` and
 read whole at startup for that reason alone.
 
 In `languages/English` the lazily loaded files are `en-full.dict`, `en-full.kbb`,
-`en-feat-full.dict` and `en-synonyms-full.kbb`. Still eager, because nothing in this
-repository loads them into an analyzer yet: `en-lemmas.kbb` (2 MB), `en-nouns.dict`
+`en-feat-full.dict`, `en-lemmas-full.kbb` and `en-synonyms-full.kbb`. Still eager,
+because nothing in this repository loads them into an analyzer yet: `en-nouns.dict`
 (2 MB) and `en-roots.kbb` (4 MB). Rename them the same way when something does.
 
 Measured with one file in `kb/user` and a 60-word input:
@@ -40,6 +40,12 @@ Measured with one file in `kb/user` and a 60-word input:
 | `en-full.dict` | 3.8 MB | 0.19 s |
 | the featured dictionary under its old name | 8.3 MB | 1.76 s |
 | the same bytes as `en-feat-full.dict` | 8.3 MB | 0.21 s |
+
+Renaming `en-lemmas.kbb` is what this is worth in a real analyzer rather than a
+benchmark: EnglishPhrases pulls it in with `loadkbb` and went from 5.32 s to 0.70 s
+on the same input, with `phrases.txt` byte-identical across all 52 of its inputs and
+the same 749 lemmas resolved — so the lazily loaded table answered every lookup the
+eager one did.
 
 The attributes arrive on the node either way — a lazily loaded featured dictionary
 still gives a word its `vform`, `tense` and `number`. Only the timing changes.

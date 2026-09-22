@@ -16,7 +16,7 @@
 # back to the parent's root= when none matches.
 #
 # Regenerate with:
-#   python kbb_lemmas.py en-full.kbb en-lemmas.kbb
+#   python kbb_lemmas.py en-full.kbb en-lemmas-full.kbb
 lemmas
   aahed: root=aah
   aahing: root=aah

@@ -1,4 +1,4 @@
-# DESC: Build en-lemmas.kbb (inflected form -> root) from en-full.kbb.
+# DESC: Build en-lemmas-full.kbb (inflected form -> root) from en-full.kbb.
 #
 # WHAT IT DOES
 #   This is the INVERSE of kbb_roots.py.  en-roots.kbb groups inflected forms
@@ -43,7 +43,7 @@
 #   surface form, which is already correct.
 #
 # USAGE
-#   python kbb_lemmas.py <en-full.kbb> <en-lemmas.kbb>
+#   python kbb_lemmas.py <en-full.kbb> <en-lemmas-full.kbb>
 
 import sys
 from collections import OrderedDict
@@ -67,7 +67,7 @@ HEADER = """\
 # back to the parent's root= when none matches.
 #
 # Regenerate with:
-#   python kbb_lemmas.py en-full.kbb en-lemmas.kbb
+#   python kbb_lemmas.py en-full.kbb en-lemmas-full.kbb
 """
 
 
@@ -93,7 +93,7 @@ def concept_line(indent, name, attrs):
 
 def main(argv):
     if len(argv) < 2:
-        sys.stderr.write("usage: kbb_lemmas.py <en-full.kbb> <en-lemmas.kbb>\n")
+        sys.stderr.write("usage: kbb_lemmas.py <en-full.kbb> <en-lemmas-full.kbb>\n")
         return 1
     inpath, outpath = argv[0], argv[1]
 

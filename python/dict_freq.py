@@ -67,7 +67,7 @@
 #
 #   Afterwards regenerate the files derived from it:
 #     python kbb_rootfix.py kbb en-feat-full.dict en-full.kbb
-#     python kbb_lemmas.py en-full.kbb en-lemmas.kbb
+#     python kbb_lemmas.py en-full.kbb en-lemmas-full.kbb
 #     python kbb_roots.py  en-full.kbb en-roots.kbb
 #   and project the pos-only dictionary with dict_project.py.
 
