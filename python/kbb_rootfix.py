@@ -27,7 +27,7 @@
 #     keep    everything else: two plausible variants (aunty / auntie)
 #
 #   The plan is written as a TSV, one row per suspect reading with the reason,
-#   so it can be read before it is applied.  en-lemmas.kbb and en-roots.kbb are
+#   so it can be read before it is applied.  en-lemmas-full.kbb and en-roots.kbb are
 #   generated from en-full.kbb and must be regenerated afterwards.
 #
 # REQUIRES
@@ -39,7 +39,7 @@
 #   python kbb_rootfix.py plan  en-feat-full.dict plan.tsv
 #   python kbb_rootfix.py apply en-feat-full.dict plan.tsv      rewrites the dict in place
 #   python kbb_rootfix.py kbb   en-feat-full.dict en-full.kbb   rebuilds the knowledge base
-#   python kbb_lemmas.py en-full.kbb en-lemmas.kbb
+#   python kbb_lemmas.py en-full.kbb en-lemmas-full.kbb
 #   python kbb_roots.py  en-full.kbb en-roots.kbb
 #
 #   Repeat plan and apply until plan proposes nothing.  One fix can release
