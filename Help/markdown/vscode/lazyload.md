@@ -22,6 +22,28 @@ and a smaller memory footprint** for large dictionaries.
 > load normally (all at once). So: name your large dictionary/KB files `…full.dict` /
 > `…full.kbb` to get lazy loading.
 
+### Which English library files are lazy
+
+The rule is the file name, and `full` has to be the **last** part of it, so a name can
+contain the word and still load eagerly. `en-full-feat.dict` ended in `feat` and was
+read whole at startup for that reason alone.
+
+In `languages/English` the lazily loaded files are `en-full.dict`, `en-full.kbb`,
+`en-feat-full.dict` and `en-synonyms-full.kbb`. Still eager, because nothing in this
+repository loads them into an analyzer yet: `en-lemmas.kbb` (2 MB), `en-nouns.dict`
+(2 MB) and `en-roots.kbb` (4 MB). Rename them the same way when something does.
+
+Measured with one file in `kb/user` and a 60-word input:
+
+| file in `kb/user` | size | dictionary read |
+|---|---|---|
+| `en-full.dict` | 3.8 MB | 0.19 s |
+| the featured dictionary under its old name | 8.3 MB | 1.76 s |
+| the same bytes as `en-feat-full.dict` | 8.3 MB | 0.21 s |
+
+The attributes arrive on the node either way — a lazily loaded featured dictionary
+still gives a word its `vform`, `tense` and `number`. Only the timing changes.
+
 ## Loading a KB or dictionary on demand
 
 When only some inputs need a large domain knowledge base or dictionary, you can load it
