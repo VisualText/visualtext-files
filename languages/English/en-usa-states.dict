@@ -1,105 +1,107 @@
 # USA States & Abbreviations
-alabama s=state abbrev=AL
-alaska s=state abbrev=AK
-arizona s=state abbrev=AZ
-arkansas s=state abbrev=AR
-california s=state abbrev=CA
-colorado s=state abbrev=CO
-connecticut s=state abbrev=CT
-delaware s=state abbrev=DE
-florida s=state abbrev=FL
-georgia s=state abbrev=GA
-hawaii s=state abbrev=HI
-idaho s=state abbrev=ID
-illinois s=state abbrev=IL
-indiana s=state abbrev=IN
-iowa s=state abbrev=IA
-kansas s=state abbrev=KS
-kentucky s=state abbrev=KY
-louisiana s=state abbrev=LA
-maine s=state abbrev=ME
-maryland s=state abbrev=MD
-massachusetts s=state abbrev=MA
-michigan s=state abbrev=MI
-minnesota s=state abbrev=MN
-mississippi s=state abbrev=MS
-missouri s=state abbrev=MO
-montana s=state abbrev=MT
-nebraska s=state abbrev=NE
-nevada s=state abbrev=NV
-new hampshire s=state abbrev=NH
-new jersey s=state abbrev=NJ
-new mexico s=state abbrev=NM
-new york s=state abbrev=NY
-north carolina s=state abbrev=NC
-north dakota s=state abbrev=ND
-ohio s=state abbrev=OH
-oklahoma s=state abbrev=OK
-oregon s=state abbrev=OR
-pennsylvania s=state abbrev=PA
-rhode island s=state abbrev=RI
-south carolina s=state abbrev=SC
-south dakota s=state abbrev=SD
-tennessee s=state abbrev=TN
-texas s=state abbrev=TX
-utah s=state abbrev=UT
-vermont s=state abbrev=VT
-virginia s=state abbrev=VA
-washington s=state abbrev=WA
-west virginia s=state abbrev=WV
-wisconsin s=state abbrev=WI
-wyoming s=state abbrev=WY
+alabama s=state abbrev=AL pos=noun
+alaska s=state abbrev=AK pos=noun
+arizona s=state abbrev=AZ pos=noun
+arkansas s=state abbrev=AR pos=noun
+california s=state abbrev=CA pos=noun
+colorado s=state abbrev=CO pos=noun
+connecticut s=state abbrev=CT pos=noun
+delaware s=state abbrev=DE pos=noun
+florida s=state abbrev=FL pos=noun
+georgia s=state abbrev=GA pos=noun
+hawaii s=state abbrev=HI pos=noun
+idaho s=state abbrev=ID pos=noun
+illinois s=state abbrev=IL pos=noun
+indiana s=state abbrev=IN pos=noun
+iowa s=state abbrev=IA pos=noun
+kansas s=state abbrev=KS pos=noun
+kentucky s=state abbrev=KY pos=noun
+louisiana s=state abbrev=LA pos=noun
+maine s=state abbrev=ME pos=noun
+maryland s=state abbrev=MD pos=noun
+massachusetts s=state abbrev=MA pos=noun
+michigan s=state abbrev=MI pos=noun
+minnesota s=state abbrev=MN pos=noun
+mississippi s=state abbrev=MS pos=noun
+missouri s=state abbrev=MO pos=noun
+montana s=state abbrev=MT pos=noun
+nebraska s=state abbrev=NE pos=noun
+nevada s=state abbrev=NV pos=noun
+new hampshire s=state abbrev=NH pos=noun
+new jersey s=state abbrev=NJ pos=noun
+new mexico s=state abbrev=NM pos=noun
+new york s=state abbrev=NY pos=noun
+north carolina s=state abbrev=NC pos=noun
+north dakota s=state abbrev=ND pos=noun
+ohio s=state abbrev=OH pos=noun
+oklahoma s=state abbrev=OK pos=noun
+oregon s=state abbrev=OR pos=noun
+pennsylvania s=state abbrev=PA pos=noun
+rhode island s=state abbrev=RI pos=noun
+south carolina s=state abbrev=SC pos=noun
+south dakota s=state abbrev=SD pos=noun
+tennessee s=state abbrev=TN pos=noun
+texas s=state abbrev=TX pos=noun
+utah s=state abbrev=UT pos=noun
+vermont s=state abbrev=VT pos=noun
+virginia s=state abbrev=VA pos=noun
+washington s=state abbrev=WA pos=noun
+west virginia s=state abbrev=WV pos=noun
+wisconsin s=state abbrev=WI pos=noun
+wyoming s=state abbrev=WY pos=noun
 
 # ABBREVIATIONS
 
-al s=state abbrev=1 state=alabama
-ak s=state abbrev=1 state=alaska
-az s=state abbrev=1 state=arizona
-ar s=state abbrev=1 state=arkansas
-ca s=state abbrev=1 state=california
-co s=state abbrev=1 state=colorado
-ct s=state abbrev=1 state=connecticut
-de s=state abbrev=1 state=delaware
-fl s=state abbrev=1 state=florida
-ga s=state abbrev=1 state=georgia
-hi s=state abbrev=1 state=hawaii
-id s=state abbrev=1 state=idaho
-il s=state abbrev=1 state=illinois
-in s=state abbrev=1 state=indiana
-ia s=state abbrev=1 state=iowa
-ks s=state abbrev=1 state=kansas
-ky s=state abbrev=1 state=kentucky
-la s=state abbrev=1 state=louisiana
-me s=state abbrev=1 state=maine
-md s=state abbrev=1 state=maryland
-ma s=state abbrev=1 state=massachusetts
-mi s=state abbrev=1 state=michigan
-mn s=state abbrev=1 state=minnesota
-ms s=state abbrev=1 state=mississippi
-mo s=state abbrev=1 state=missouri
-mt s=state abbrev=1 state=montana
-ne s=state abbrev=1 state=nebraska
-nv s=state abbrev=1 state=nevada
-nh s=state abbrev=1 state="new hampshire"
-nj s=state abbrev=1 state="new jersey"
-nm s=state abbrev=1 state="new mexico"
-ny s=state abbrev=1 state="new york"
-nc s=state abbrev=1 state="north carolina"
-nd s=state abbrev=1 state="north dakota"
-oh s=state abbrev=1 state=ohio
-ok s=state abbrev=1 state=oklahoma
-or s=state abbrev=1 state=oregon
-pa s=state abbrev=1 state=pennsylvania
-ri s=state abbrev=1 state="rhode island"
-sc s=state abbrev=1 state="south carolina"
-sd s=state abbrev=1 state="south dakota"
-tn s=state abbrev=1 state=tennessee
-tx s=state abbrev=1 state=texas
-ut s=state abbrev=1 state=utah
-vt s=state abbrev=1 state=vermont
-va s=state abbrev=1 state=virginia
-wa s=state abbrev=1 state=washington
-wv s=state abbrev=1 state="west virginia"
-wi s=state abbrev=1 state=wisconsin
-wy s=state abbrev=1 state=wyoming
+al s=state abbrev=1 state=alabama pos=noun
+ak s=state abbrev=1 state=alaska pos=noun
+az s=state abbrev=1 state=arizona pos=noun
+ar s=state abbrev=1 state=arkansas pos=noun
+ca s=state abbrev=1 state=california pos=noun
+co s=state abbrev=1 state=colorado pos=noun
+ct s=state abbrev=1 state=connecticut pos=noun
+de s=state abbrev=1 state=delaware pos=noun
+fl s=state abbrev=1 state=florida pos=noun
+ga s=state abbrev=1 state=georgia pos=noun
+hi s=state abbrev=1 state=hawaii pos=int
+id s=state abbrev=1 state=idaho pos=noun
+il s=state abbrev=1 state=illinois pos=noun
+in s=state abbrev=1 state=indiana pos=adv
+in pos=noun
+in pos=prep
+ia s=state abbrev=1 state=iowa pos=noun
+ks s=state abbrev=1 state=kansas pos=noun
+ky s=state abbrev=1 state=kentucky pos=noun
+la s=state abbrev=1 state=louisiana pos=noun
+me s=state abbrev=1 state=maine pos=pro
+md s=state abbrev=1 state=maryland pos=noun
+ma s=state abbrev=1 state=massachusetts pos=noun
+mi s=state abbrev=1 state=michigan pos=noun
+mn s=state abbrev=1 state=minnesota pos=noun
+ms s=state abbrev=1 state=mississippi pos=noun
+mo s=state abbrev=1 state=missouri pos=noun
+mt s=state abbrev=1 state=montana pos=noun
+ne s=state abbrev=1 state=nebraska pos=noun
+nv s=state abbrev=1 state=nevada pos=noun
+nh s=state abbrev=1 state="new hampshire" pos=noun
+nj s=state abbrev=1 state="new jersey" pos=noun
+nm s=state abbrev=1 state="new mexico" pos=noun
+ny s=state abbrev=1 state="new york" pos=noun
+nc s=state abbrev=1 state="north carolina" pos=noun
+nd s=state abbrev=1 state="north dakota" pos=noun
+oh s=state abbrev=1 state=ohio pos=int
+ok s=state abbrev=1 state=oklahoma pos=noun
+or s=state abbrev=1 state=oregon pos=conj
+pa s=state abbrev=1 state=pennsylvania pos=noun
+ri s=state abbrev=1 state="rhode island" pos=noun
+sc s=state abbrev=1 state="south carolina" pos=noun
+sd s=state abbrev=1 state="south dakota" pos=noun
+tn s=state abbrev=1 state=tennessee pos=noun
+tx s=state abbrev=1 state=texas pos=noun
+ut s=state abbrev=1 state=utah pos=noun
+vt s=state abbrev=1 state=vermont pos=noun
+va s=state abbrev=1 state=virginia pos=noun
+wa s=state abbrev=1 state=washington pos=noun
+wv s=state abbrev=1 state="west virginia" pos=noun
+wi s=state abbrev=1 state=wisconsin pos=noun
+wy s=state abbrev=1 state=wyoming pos=noun
 

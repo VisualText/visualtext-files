@@ -1,550 +1,715 @@
 # USPS Street Suffix
 # https://pe.usps.com/text/pub28/28apc_002.htm
-allee usps=aly
-aly usps=aly
-alley usps=aly
-ally usps=aly
-anex usps=anx
-anx usps=anx
-annex usps=anx
-annx usps=anx
-arc usps=arc
-arcade usps=arc
-av usps=ave
-ave usps=ave
-aven usps=ave
-avenu usps=ave
-avenue usps=ave
-avn usps=ave
-avnue usps=ave
-bayoo usps=byu
-byu usps=byu
-bayou usps=byu
-bch usps=bch
-beach usps=bch
-bend usps=bnd
-bnd usps=bnd
-blf usps=blf
-bluf usps=blf
-bluff usps=blf
-bluffs usps=blfs
-blfs usps=blfs
-bot usps=btm
-btm usps=btm
-bottm usps=btm
-bottom usps=btm
-blvd usps=blvd
-boul usps=blvd
-boulevard usps=blvd
-boulv usps=blvd
-br usps=br
-brnch usps=br
-branch usps=br
-brdge usps=brg
-brg usps=brg
-bridge usps=brg
-brk usps=brk
-brook usps=brk
-brooks usps=brks
-brks usps=brks
-burg usps=bg
-bg usps=bg
-burgs usps=bgs
-bgs usps=bgs
-byp usps=byp
-bypa usps=byp
-bypas usps=byp
-bypass usps=byp
-byps usps=byp
-camp usps=cp
-cp usps=cp
-cmp usps=cp
-canyn usps=cyn
-cyn usps=cyn
-canyon usps=cyn
-cnyn usps=cyn
-cape usps=cpe
-cpe usps=cpe
-causeway usps=cswy
-cswy usps=cswy
-causwa usps=cswy
-cen usps=ctr
-ctr usps=ctr
-cent usps=ctr
-center usps=ctr
-centr usps=ctr
-centre usps=ctr
-cnter usps=ctr
-cntr usps=ctr
-centers usps=ctrs
-ctrs usps=ctrs
-cir usps=cir
-circ usps=cir
-circl usps=cir
-circle usps=cir
-crcl usps=cir
-crcle usps=cir
-circles usps=cirs
-cirs usps=cirs
-clf usps=clf
-cliff usps=clf
-clfs usps=clfs
-cliffs usps=clfs
-clb usps=clb
-club usps=clb
-common usps=cmn
-cmn usps=cmn
-commons usps=cmns
-cmns usps=cmns
-cor usps=cor
-corner usps=cor
-corners usps=cors
-cors usps=cors
-course usps=crse
-crse usps=crse
-court usps=ct
-ct usps=ct
-courts usps=cts
-cts usps=cts
-cove usps=cv
-cv usps=cv
-coves usps=cvs
-cvs usps=cvs
-creek usps=crk
-crk usps=crk
-crescent usps=cres
-cres usps=cres
-crsent usps=cres
-crsnt usps=cres
-crest usps=crst
-crst usps=crst
-crossing usps=xing
-xing usps=xing
-crssng usps=xing
-crossroad usps=xrd
-xrd usps=xrd
-crossroads usps=xrds
-xrds usps=xrds
-curve usps=curv
-curv usps=curv
-dale usps=dl
-dl usps=dl
-dam usps=dm
-dm usps=dm
-div usps=dv
-dv usps=dv
-divide usps=dv
-dvd usps=dv
-dr usps=dr
-driv usps=dr
-drive usps=dr
-drv usps=dr
-drives usps=drs
-drs usps=drs
-est usps=est
-estate usps=est
-estates usps=ests
-ests usps=ests
-exp usps=expy
-expy usps=expy
-expr usps=expy
-express usps=expy
-expressway usps=expy
-expw usps=expy
-ext usps=ext
-extension usps=ext
-extn usps=ext
-extnsn usps=ext
-exts usps=exts
-fall usps=fall
-falls usps=fls
-fls usps=fls
-ferry usps=fry
-fry usps=fry
-frry usps=fry
-field usps=fld
-fld usps=fld
-fields usps=flds
-flds usps=flds
-flat usps=flt
-flt usps=flt
-flats usps=flts
-flts usps=flts
-ford usps=frd
-frd usps=frd
-fords usps=frds
-frds usps=frds
-forest usps=frst
-frst usps=frst
-forests usps=frst
-forg usps=frg
-frg usps=frg
-forge usps=frg
-forges usps=frgs
-frgs usps=frgs
-fork usps=frk
-frk usps=frk
-forks usps=frks
-frks usps=frks
-fort usps=ft
-ft usps=ft
-frt usps=ft
-freeway usps=fwy
-fwy usps=fwy
-freewy usps=fwy
-frway usps=fwy
-frwy usps=fwy
-garden usps=gdn
-gdn usps=gdn
-gardn usps=gdn
-grden usps=gdn
-grdn usps=gdn
-gardens usps=gdns
-gdns usps=gdns
-grdns usps=gdns
-gateway usps=gtwy
-gtwy usps=gtwy
-gatewy usps=gtwy
-gatway usps=gtwy
-gtway usps=gtwy
-glen usps=gln
-gln usps=gln
-glens usps=glns
-glns usps=glns
-green usps=grn
-grn usps=grn
-greens usps=grns
-grns usps=grns
-grov usps=grv
-grv usps=grv
-grove usps=grv
-groves usps=grvs
-grvs usps=grvs
-harb usps=hbr
-hbr usps=hbr
-harbor usps=hbr
-harbr usps=hbr
-hrbor usps=hbr
-harbors usps=hbrs
-hbrs usps=hbrs
-haven usps=hvn
-hvn usps=hvn
-ht usps=hts
-hts usps=hts
-highway usps=hwy
-hwy usps=hwy
-highwy usps=hwy
-hiway usps=hwy
-hiwy usps=hwy
-hway usps=hwy
-hill usps=hl
-hl usps=hl
-hills usps=hls
-hls usps=hls
-hllw usps=holw
-holw usps=holw
-hollow usps=holw
-hollows usps=holw
-holws usps=holw
-inlt usps=inlt
-is usps=is
-island usps=is
-islnd usps=is
-islands usps=iss
-iss usps=iss
-islnds usps=iss
-isle usps=isle
-isles usps=isle
-jct usps=jct
-jction usps=jct
-jctn usps=jct
-junction usps=jct
-junctn usps=jct
-juncton usps=jct
-jctns usps=jcts
-jcts usps=jcts
-junctions usps=jcts
-key usps=ky
-ky usps=ky
-keys usps=kys
-kys usps=kys
-knl usps=knl
-knol usps=knl
-knoll usps=knl
-knls usps=knls
-knolls usps=knls
-lk usps=lk
-lake usps=lk
-lks usps=lks
-lakes usps=lks
-land usps=land
-landing usps=lndg
-lndg usps=lndg
-lndng usps=lndg
-lane usps=ln
-ln usps=ln
-lgt usps=lgt
-light usps=lgt
-lights usps=lgts
-lgts usps=lgts
-lf usps=lf
-loaf usps=lf
-lck usps=lck
-lock usps=lck
-lcks usps=lcks
-locks usps=lcks
-ldg usps=ldg
-ldge usps=ldg
-lodg usps=ldg
-lodge usps=ldg
-loop usps=loop
-loops usps=loop
-mall usps=mall
-mnr usps=mnr
-manor usps=mnr
-manors usps=mnrs
-mnrs usps=mnrs
-meadow usps=mdw
-mdw usps=mdw
-mdws usps=mdws
-meadows usps=mdws
-medows usps=mdws
-mews usps=mews
-mill usps=ml
-ml usps=ml
-mills usps=mls
-mls usps=mls
-missn usps=msn
-msn usps=msn
-mssn usps=msn
-motorway usps=mtwy
-mtwy usps=mtwy
-mnt usps=mt
-mt usps=mt
-mount usps=mt
-mntain usps=mtn
-mtn usps=mtn
-mntn usps=mtn
-mountain usps=mtn
-mountin usps=mtn
-mtin usps=mtn
-mntns usps=mtns
-mtns usps=mtns
-mountains usps=mtns
-nck usps=nck
-neck usps=nck
-orch usps=orch
-orchard usps=orch
-orchrd usps=orch
-oval usps=oval
-ovl usps=oval
-overpass usps=opas
-opas usps=opas
-park usps=park
-prk usps=park
-parks usps=park
-park usps=park
-parkway usps=pkwy
-pkwy usps=pkwy
-parkwy usps=pkwy
-pkway usps=pkwy
-pky usps=pkwy
-parkways usps=pkwy
-pkwy usps=pkwy
-pkwys usps=pkwy
-pass usps=pass
-passage usps=psge
-psge usps=psge
-path usps=path
-paths usps=path
-pike usps=pike
-pikes usps=pike
-pine usps=pne
-pne usps=pne
-pines usps=pnes
-pnes usps=pnes
-pl usps=pl
-plain usps=pln
-pln usps=pln
-plains usps=plns
-plns usps=plns
-plaza usps=plz
-plz usps=plz
-plza usps=plz
-point usps=pt
-pt usps=pt
-points usps=pts
-pts usps=pts
-port usps=prt
-prt usps=prt
-ports usps=prts
-prts usps=prts
-pr usps=pr
-prairie usps=pr
-prr usps=pr
-rad usps=radl
-radl usps=radl
-radial usps=radl
-radiel usps=radl
-ramp usps=ramp
-ranch usps=rnch
-rnch usps=rnch
-ranches usps=rnch
-rnchs usps=rnch
-rapid usps=rpd
-rpd usps=rpd
-rapids usps=rpds
-rpds usps=rpds
-rest usps=rst
-rst usps=rst
-rdg usps=rdg
-rdge usps=rdg
-ridge usps=rdg
-rdgs usps=rdgs
-ridges usps=rdgs
-riv usps=riv
-river usps=riv
-rvr usps=riv
-rivr usps=riv
-rd usps=rd
-road usps=rd
-roads usps=rds
-rds usps=rds
-route usps=rte
-rte usps=rte
-row usps=row
-rue usps=rue
-run usps=run
-shl usps=shl
-shoal usps=shl
-shls usps=shls
-shoals usps=shls
-shoar usps=shr
-shr usps=shr
-shore usps=shr
-shoars usps=shrs
-shrs usps=shrs
-shores usps=shrs
-skyway usps=skwy
-skwy usps=skwy
-spg usps=spg
-spng usps=spg
-spring usps=spg
-sprng usps=spg
-spgs usps=spgs
-spngs usps=spgs
-springs usps=spgs
-sprngs usps=spgs
-spur usps=spur
-spurs usps=spur
-spur usps=spur
-sq usps=sq
-sqr usps=sq
-sqre usps=sq
-squ usps=sq
-square usps=sq
-sqrs usps=sqs
-sqs usps=sqs
-squares usps=sqs
-sta usps=sta
-station usps=sta
-statn usps=sta
-stn usps=sta
-stra usps=stra
-strav usps=stra
-straven usps=stra
-stravenue usps=stra
-stravn usps=stra
-strvn usps=stra
-strvnue usps=stra
-stream usps=strm
-strm usps=strm
-streme usps=strm
-street usps=st
-st usps=st
-strt usps=st
-str usps=st
-streets usps=sts
-sts usps=sts
-smt usps=smt
-sumit usps=smt
-sumitt usps=smt
-summit usps=smt
-ter usps=ter
-terr usps=ter
-terrace usps=ter
-throughway usps=trwy
-trwy usps=trwy
-trace usps=trce
-trce usps=trce
-traces usps=trce
-track usps=trak
-trak usps=trak
-tracks usps=trak
-trk usps=trak
-trks usps=trak
-trafficway usps=trfy
-trfy usps=trfy
-trail usps=trl
-trl usps=trl
-trails usps=trl
-trls usps=trl
-trailer usps=trlr
-trlr usps=trlr
-trlrs usps=trlr
-tunel usps=tunl
-tunl usps=tunl
-tunls usps=tunl
-tunnel usps=tunl
-tunnels usps=tunl
-tunnl usps=tunl
-trnpk usps=tpke
-tpke usps=tpke
-turnpike usps=tpke
-turnpk usps=tpke
-underpass usps=upas
-upas usps=upas
-un usps=un
-union usps=un
-unions usps=uns
-uns usps=uns
-valley usps=vly
-vly usps=vly
-vally usps=vly
-vlly usps=vly
-valleys usps=vlys
-vlys usps=vlys
-vdct usps=via
-via usps=via
-viadct usps=via
-viaduct usps=via
-view usps=vw
-vw usps=vw
-views usps=vws
-vws usps=vws
-vill usps=vlg
-vlg usps=vlg
-villag usps=vlg
-village usps=vlg
-villg usps=vlg
-villiage usps=vlg
-villages usps=vlgs
-vlgs usps=vlgs
-ville usps=vl
-vl usps=vl
-vis usps=vis
-vist usps=vis
-vista usps=vis
-vst usps=vis
-vsta usps=vis
-walk usps=walk
-walks usps=walk
-walk usps=walk
-wall usps=wall
-wy usps=way
-way usps=way
-ways usps=ways
-well usps=wl
-wl usps=wl
-wells usps=wls
-wls usps=wls
+allee usps=aly pos=noun
+aly usps=aly pos=noun
+alley usps=aly pos=noun
+ally usps=aly pos=noun
+ally pos=verb
+anex usps=anx pos=noun
+anx usps=anx pos=noun
+annex usps=anx pos=noun
+annex pos=verb
+annx usps=anx pos=noun
+arc usps=arc pos=noun
+arc pos=verb
+arcade usps=arc pos=noun
+av usps=ave pos=noun
+ave usps=ave pos=noun
+aven usps=ave pos=noun
+avenu usps=ave pos=noun
+avenue usps=ave pos=noun
+avn usps=ave pos=noun
+avnue usps=ave pos=noun
+bayoo usps=byu pos=noun
+byu usps=byu pos=noun
+bayou usps=byu pos=noun
+bch usps=bch pos=noun
+beach usps=bch pos=noun
+beach pos=verb
+bend usps=bnd pos=noun
+bend pos=verb
+bnd usps=bnd pos=noun
+blf usps=blf pos=noun
+bluf usps=blf pos=noun
+bluff usps=blf pos=adj
+bluff pos=noun
+bluff pos=verb
+bluffs usps=blfs pos=noun
+bluffs pos=verb
+blfs usps=blfs pos=noun
+bot usps=btm pos=noun
+btm usps=btm pos=noun
+bottm usps=btm pos=noun
+bottom usps=btm pos=adj
+bottom pos=noun
+bottom pos=verb
+blvd usps=blvd pos=noun
+boul usps=blvd pos=noun
+boulevard usps=blvd pos=noun
+boulv usps=blvd pos=noun
+br usps=br pos=noun
+brnch usps=br pos=noun
+branch usps=br pos=noun
+branch pos=verb
+brdge usps=brg pos=noun
+brg usps=brg pos=noun
+bridge usps=brg pos=noun
+bridge pos=verb
+brk usps=brk pos=noun
+brook usps=brk pos=noun
+brook pos=verb
+brooks usps=brks pos=noun
+brooks pos=verb
+brks usps=brks pos=noun
+burg usps=bg pos=noun
+bg usps=bg pos=noun
+burgs usps=bgs pos=noun
+bgs usps=bgs pos=noun
+byp usps=byp pos=noun
+bypa usps=byp pos=noun
+bypas usps=byp pos=noun
+bypass usps=byp pos=noun
+bypass pos=verb
+byps usps=byp pos=noun
+camp usps=cp pos=adj
+camp pos=noun
+camp pos=verb
+cp usps=cp pos=abbr
+cmp usps=cp pos=noun
+canyn usps=cyn pos=noun
+cyn usps=cyn pos=noun
+canyon usps=cyn pos=noun
+cnyn usps=cyn pos=noun
+cape usps=cpe pos=noun
+cpe usps=cpe pos=noun
+causeway usps=cswy pos=noun
+causeway pos=verb
+cswy usps=cswy pos=noun
+causwa usps=cswy pos=noun
+cen usps=ctr pos=noun
+ctr usps=ctr pos=noun
+cent usps=ctr pos=noun
+center usps=ctr pos=adj
+center pos=noun
+center pos=verb
+centr usps=ctr pos=noun
+centre usps=ctr pos=noun
+centre pos=verb
+cnter usps=ctr pos=noun
+cntr usps=ctr pos=noun
+centers usps=ctrs pos=noun
+centers pos=verb
+ctrs usps=ctrs pos=noun
+cir usps=cir pos=noun
+circ usps=cir pos=noun
+circl usps=cir pos=noun
+circle usps=cir pos=noun
+circle pos=verb
+crcl usps=cir pos=noun
+crcle usps=cir pos=noun
+circles usps=cirs pos=noun
+circles pos=verb
+cirs usps=cirs pos=noun
+clf usps=clf pos=noun
+cliff usps=clf pos=noun
+clfs usps=clfs pos=noun
+cliffs usps=clfs pos=noun
+clb usps=clb pos=noun
+club usps=clb pos=noun
+club pos=verb
+common usps=cmn pos=adj
+common pos=noun
+cmn usps=cmn pos=noun
+commons usps=cmns pos=noun
+cmns usps=cmns pos=noun
+cor usps=cor pos=noun
+corner usps=cor pos=noun
+corner pos=verb
+corners usps=cors pos=noun
+corners pos=verb
+cors usps=cors pos=noun
+course usps=crse pos=adv
+course pos=noun
+course pos=verb
+crse usps=crse pos=noun
+court usps=ct pos=noun
+court pos=verb
+ct usps=ct pos=noun
+courts usps=cts pos=noun
+courts pos=verb
+cts usps=cts pos=noun
+cove usps=cv pos=noun
+cv usps=cv pos=noun
+coves usps=cvs pos=noun
+cvs usps=cvs pos=noun
+creek usps=crk pos=noun
+crk usps=crk pos=noun
+crescent usps=cres pos=adj
+crescent pos=noun
+cres usps=cres pos=noun
+crsent usps=cres pos=noun
+crsnt usps=cres pos=noun
+crest usps=crst pos=noun
+crest pos=verb
+crst usps=crst pos=noun
+crossing usps=xing pos=adj
+crossing pos=noun
+crossing pos=verb
+xing usps=xing pos=noun
+crssng usps=xing pos=noun
+crossroad usps=xrd pos=noun
+xrd usps=xrd pos=noun
+crossroads usps=xrds pos=noun
+xrds usps=xrds pos=noun
+curve usps=curv pos=noun
+curve pos=verb
+curv usps=curv pos=noun
+dale usps=dl pos=noun
+dl usps=dl pos=noun
+dam usps=dm pos=noun
+dam pos=verb
+dm usps=dm pos=noun
+div usps=dv pos=noun
+dv usps=dv pos=noun
+divide usps=dv pos=noun
+divide pos=verb
+dvd usps=dv pos=noun
+dr usps=dr pos=noun
+driv usps=dr pos=noun
+drive usps=dr pos=noun
+drive pos=verb
+drv usps=dr pos=noun
+drives usps=drs pos=noun
+drives pos=verb
+drs usps=drs pos=noun
+est usps=est pos=noun
+estate usps=est pos=noun
+estates usps=ests pos=noun
+ests usps=ests pos=noun
+exp usps=expy pos=noun
+expy usps=expy pos=noun
+expr usps=expy pos=noun
+express usps=expy pos=adj
+express pos=adv
+express pos=noun
+express pos=verb
+expressway usps=expy pos=noun
+expw usps=expy pos=noun
+ext usps=ext pos=noun
+extension usps=ext pos=noun
+extn usps=ext pos=noun
+extnsn usps=ext pos=noun
+exts usps=exts pos=noun
+fall usps=fall pos=noun
+fall pos=verb
+falls usps=fls pos=noun
+falls pos=verb
+fls usps=fls pos=noun
+ferry usps=fry pos=noun
+ferry pos=verb
+fry usps=fry pos=noun
+fry pos=verb
+frry usps=fry pos=noun
+field usps=fld pos=noun
+field pos=verb
+fld usps=fld pos=noun
+fields usps=flds pos=noun
+fields pos=verb
+flds usps=flds pos=noun
+flat usps=flt pos=adj
+flat pos=adv
+flat pos=noun
+flat pos=verb
+flt usps=flt pos=noun
+flats usps=flts pos=noun
+flts usps=flts pos=noun
+ford usps=frd pos=noun
+ford pos=verb
+frd usps=frd pos=noun
+fords usps=frds pos=noun
+fords pos=verb
+frds usps=frds pos=noun
+forest usps=frst pos=noun
+forest pos=verb
+frst usps=frst pos=noun
+forests usps=frst pos=noun
+forests pos=verb
+forg usps=frg pos=noun
+frg usps=frg pos=noun
+forge usps=frg pos=noun
+forge pos=verb
+forges usps=frgs pos=noun
+forges pos=verb
+frgs usps=frgs pos=noun
+fork usps=frk pos=noun
+fork pos=verb
+frk usps=frk pos=noun
+forks usps=frks pos=noun
+forks pos=verb
+frks usps=frks pos=noun
+fort usps=ft pos=noun
+fort pos=verb
+ft usps=ft pos=abbr
+frt usps=ft pos=noun
+freeway usps=fwy pos=noun
+fwy usps=fwy pos=noun
+freewy usps=fwy pos=noun
+frway usps=fwy pos=noun
+frwy usps=fwy pos=noun
+garden usps=gdn pos=noun
+garden pos=verb
+gdn usps=gdn pos=noun
+gardn usps=gdn pos=noun
+grden usps=gdn pos=noun
+grdn usps=gdn pos=noun
+gardens usps=gdns pos=noun
+gardens pos=verb
+gdns usps=gdns pos=noun
+grdns usps=gdns pos=noun
+gateway usps=gtwy pos=noun
+gtwy usps=gtwy pos=noun
+gatewy usps=gtwy pos=noun
+gatway usps=gtwy pos=noun
+gtway usps=gtwy pos=noun
+glen usps=gln pos=noun
+gln usps=gln pos=noun
+glens usps=glns pos=noun
+glns usps=glns pos=noun
+green usps=grn pos=adj
+green pos=noun
+green pos=verb
+grn usps=grn pos=noun
+greens usps=grns pos=noun
+greens pos=verb
+grns usps=grns pos=noun
+grov usps=grv pos=noun
+grv usps=grv pos=noun
+grove usps=grv pos=noun
+groves usps=grvs pos=noun
+grvs usps=grvs pos=noun
+harb usps=hbr pos=noun
+hbr usps=hbr pos=noun
+harbor usps=hbr pos=noun
+harbor pos=verb
+harbr usps=hbr pos=noun
+hrbor usps=hbr pos=noun
+harbors usps=hbrs pos=noun
+harbors pos=verb
+hbrs usps=hbrs pos=noun
+haven usps=hvn pos=noun
+hvn usps=hvn pos=noun
+ht usps=hts pos=noun
+hts usps=hts pos=noun
+highway usps=hwy pos=noun
+hwy usps=hwy pos=noun
+highwy usps=hwy pos=noun
+hiway usps=hwy pos=noun
+hiwy usps=hwy pos=noun
+hway usps=hwy pos=noun
+hill usps=hl pos=noun
+hill pos=verb
+hl usps=hl pos=noun
+hills usps=hls pos=noun
+hills pos=verb
+hls usps=hls pos=noun
+hllw usps=holw pos=noun
+holw usps=holw pos=noun
+hollow usps=holw pos=adj
+hollow pos=noun
+hollow pos=verb
+hollows usps=holw pos=noun
+hollows pos=verb
+holws usps=holw pos=noun
+inlt usps=inlt pos=noun
+is usps=is pos=verb
+island usps=is pos=noun
+islnd usps=is pos=noun
+islands usps=iss pos=noun
+iss usps=iss pos=noun
+islnds usps=iss pos=noun
+isle usps=isle pos=noun
+isles usps=isle pos=noun
+jct usps=jct pos=noun
+jction usps=jct pos=noun
+jctn usps=jct pos=noun
+junction usps=jct pos=noun
+junctn usps=jct pos=noun
+juncton usps=jct pos=noun
+jctns usps=jcts pos=noun
+jcts usps=jcts pos=noun
+junctions usps=jcts pos=noun
+key usps=ky pos=adj
+key pos=noun
+key pos=verb
+ky usps=ky pos=noun
+keys usps=kys pos=noun
+keys pos=verb
+kys usps=kys pos=noun
+knl usps=knl pos=noun
+knol usps=knl pos=noun
+knoll usps=knl pos=noun
+knls usps=knls pos=noun
+knolls usps=knls pos=noun
+lk usps=lk pos=noun
+lake usps=lk pos=noun
+lks usps=lks pos=noun
+lakes usps=lks pos=noun
+land usps=land pos=adj
+land pos=noun
+land pos=verb
+landing usps=lndg pos=noun
+landing pos=verb
+lndg usps=lndg pos=noun
+lndng usps=lndg pos=noun
+lane usps=ln pos=noun
+ln usps=ln pos=noun
+lgt usps=lgt pos=noun
+light usps=lgt pos=adj
+light pos=adv
+light pos=noun
+light pos=verb
+lights usps=lgts pos=noun
+lights pos=verb
+lgts usps=lgts pos=noun
+lf usps=lf pos=noun
+loaf usps=lf pos=noun
+loaf pos=verb
+lck usps=lck pos=noun
+lock usps=lck pos=noun
+lock pos=verb
+lcks usps=lcks pos=noun
+locks usps=lcks pos=noun
+locks pos=verb
+ldg usps=ldg pos=noun
+ldge usps=ldg pos=noun
+lodg usps=ldg pos=noun
+lodge usps=ldg pos=noun
+lodge pos=verb
+loop usps=loop pos=noun
+loop pos=verb
+loops usps=loop pos=noun
+loops pos=verb
+mall usps=mall pos=noun
+mnr usps=mnr pos=noun
+manor usps=mnr pos=noun
+manors usps=mnrs pos=noun
+mnrs usps=mnrs pos=noun
+meadow usps=mdw pos=noun
+mdw usps=mdw pos=noun
+mdws usps=mdws pos=noun
+meadows usps=mdws pos=noun
+medows usps=mdws pos=noun
+mews usps=mews pos=noun
+mews pos=verb
+mill usps=ml pos=noun
+mill pos=verb
+ml usps=ml pos=abbr
+mills usps=mls pos=noun
+mills pos=verb
+mls usps=mls pos=noun
+missn usps=msn pos=noun
+msn usps=msn pos=noun
+mssn usps=msn pos=noun
+motorway usps=mtwy pos=noun
+mtwy usps=mtwy pos=noun
+mnt usps=mt pos=noun
+mt usps=mt pos=noun
+mount usps=mt pos=noun
+mount pos=verb
+mntain usps=mtn pos=noun
+mtn usps=mtn pos=noun
+mntn usps=mtn pos=noun
+mountain usps=mtn pos=adj
+mountain pos=noun
+mountin usps=mtn pos=noun
+mtin usps=mtn pos=noun
+mntns usps=mtns pos=noun
+mtns usps=mtns pos=noun
+mountains usps=mtns pos=noun
+nck usps=nck pos=noun
+neck usps=nck pos=noun
+neck pos=verb
+orch usps=orch pos=noun
+orchard usps=orch pos=noun
+orchrd usps=orch pos=noun
+oval usps=oval pos=adj
+oval pos=noun
+ovl usps=oval pos=noun
+overpass usps=opas pos=noun
+opas usps=opas pos=noun
+park usps=park pos=noun
+park pos=verb
+prk usps=park pos=noun
+parks usps=park pos=noun
+parks pos=verb
+park usps=park pos=noun
+park pos=verb
+parkway usps=pkwy pos=noun
+pkwy usps=pkwy pos=noun
+parkwy usps=pkwy pos=noun
+pkway usps=pkwy pos=noun
+pky usps=pkwy pos=noun
+parkways usps=pkwy pos=noun
+pkwy usps=pkwy pos=noun
+pkwys usps=pkwy pos=noun
+pass usps=pass pos=adj
+pass pos=noun
+pass pos=verb
+passage usps=psge pos=noun
+psge usps=psge pos=noun
+path usps=path pos=noun
+paths usps=path pos=noun
+pike usps=pike pos=noun
+pikes usps=pike pos=noun
+pine usps=pne pos=noun
+pine pos=verb
+pne usps=pne pos=noun
+pines usps=pnes pos=noun
+pines pos=verb
+pnes usps=pnes pos=noun
+pl usps=pl pos=noun
+plain usps=pln pos=adj
+plain pos=adv
+plain pos=noun
+plain pos=verb
+pln usps=pln pos=noun
+plains usps=plns pos=noun
+plains pos=verb
+plns usps=plns pos=noun
+plaza usps=plz pos=noun
+plz usps=plz pos=noun
+plza usps=plz pos=noun
+point usps=pt pos=noun
+point pos=verb
+pt usps=pt pos=abbr
+points usps=pts pos=noun
+points pos=verb
+pts usps=pts pos=noun
+port usps=prt pos=adj
+port pos=noun
+port pos=verb
+prt usps=prt pos=noun
+ports usps=prts pos=noun
+ports pos=verb
+prts usps=prts pos=noun
+pr usps=pr pos=noun
+prairie usps=pr pos=noun
+prr usps=pr pos=noun
+rad usps=radl pos=noun
+radl usps=radl pos=noun
+radial usps=radl pos=adj
+radial pos=noun
+radiel usps=radl pos=noun
+ramp usps=ramp pos=noun
+ramp pos=verb
+ranch usps=rnch pos=noun
+rnch usps=rnch pos=noun
+ranches usps=rnch pos=noun
+rnchs usps=rnch pos=noun
+rapid usps=rpd pos=adj
+rapid pos=noun
+rpd usps=rpd pos=noun
+rapids usps=rpds pos=noun
+rpds usps=rpds pos=noun
+rest usps=rst pos=noun
+rest pos=verb
+rst usps=rst pos=noun
+rdg usps=rdg pos=noun
+rdge usps=rdg pos=noun
+ridge usps=rdg pos=noun
+ridge pos=verb
+rdgs usps=rdgs pos=noun
+ridges usps=rdgs pos=noun
+ridges pos=verb
+riv usps=riv pos=noun
+river usps=riv pos=noun
+rvr usps=riv pos=noun
+rivr usps=riv pos=noun
+rd usps=rd pos=noun
+road usps=rd pos=adj
+road pos=noun
+roads usps=rds pos=noun
+rds usps=rds pos=noun
+route usps=rte pos=noun
+route pos=verb
+rte usps=rte pos=noun
+row usps=row pos=noun
+row pos=verb
+rue usps=rue pos=noun
+rue pos=verb
+run usps=run pos=noun
+run pos=verb
+shl usps=shl pos=noun
+shoal usps=shl pos=adj
+shoal pos=noun
+shoal pos=verb
+shls usps=shls pos=noun
+shoals usps=shls pos=noun
+shoals pos=verb
+shoar usps=shr pos=noun
+shr usps=shr pos=noun
+shore usps=shr pos=adj
+shore pos=noun
+shore pos=verb
+shoars usps=shrs pos=noun
+shrs usps=shrs pos=noun
+shores usps=shrs pos=noun
+shores pos=verb
+skyway usps=skwy pos=noun
+skwy usps=skwy pos=noun
+spg usps=spg pos=noun
+spng usps=spg pos=noun
+spring usps=spg pos=adj
+spring pos=noun
+spring pos=verb
+sprng usps=spg pos=noun
+spgs usps=spgs pos=noun
+spngs usps=spgs pos=noun
+springs usps=spgs pos=noun
+springs pos=verb
+sprngs usps=spgs pos=noun
+spur usps=spur pos=noun
+spur pos=verb
+spurs usps=spur pos=noun
+spurs pos=verb
+spur usps=spur pos=noun
+spur pos=verb
+sq usps=sq pos=noun
+sqr usps=sq pos=noun
+sqre usps=sq pos=noun
+squ usps=sq pos=noun
+square usps=sq pos=adj
+square pos=adv
+square pos=noun
+square pos=verb
+sqrs usps=sqs pos=noun
+sqs usps=sqs pos=noun
+squares usps=sqs pos=noun
+squares pos=verb
+sta usps=sta pos=noun
+station usps=sta pos=noun
+station pos=verb
+statn usps=sta pos=noun
+stn usps=sta pos=noun
+stra usps=stra pos=noun
+strav usps=stra pos=noun
+straven usps=stra pos=noun
+stravenue usps=stra pos=noun
+stravn usps=stra pos=noun
+strvn usps=stra pos=noun
+strvnue usps=stra pos=noun
+stream usps=strm pos=noun
+stream pos=verb
+strm usps=strm pos=noun
+streme usps=strm pos=noun
+street usps=st pos=noun
+st usps=st pos=noun
+strt usps=st pos=noun
+str usps=st pos=noun
+streets usps=sts pos=noun
+sts usps=sts pos=noun
+smt usps=smt pos=noun
+sumit usps=smt pos=noun
+sumitt usps=smt pos=noun
+summit usps=smt pos=noun
+ter usps=ter pos=noun
+terr usps=ter pos=noun
+terrace usps=ter pos=noun
+terrace pos=verb
+throughway usps=trwy pos=noun
+trwy usps=trwy pos=noun
+trace usps=trce pos=noun
+trace pos=verb
+trce usps=trce pos=noun
+traces usps=trce pos=noun
+traces pos=verb
+track usps=trak pos=noun
+track pos=verb
+trak usps=trak pos=noun
+tracks usps=trak pos=noun
+tracks pos=verb
+trk usps=trak pos=noun
+trks usps=trak pos=noun
+trafficway usps=trfy pos=noun
+trfy usps=trfy pos=noun
+trail usps=trl pos=noun
+trail pos=verb
+trl usps=trl pos=noun
+trails usps=trl pos=noun
+trails pos=verb
+trls usps=trl pos=noun
+trailer usps=trlr pos=noun
+trlr usps=trlr pos=noun
+trlrs usps=trlr pos=noun
+tunel usps=tunl pos=noun
+tunl usps=tunl pos=noun
+tunls usps=tunl pos=noun
+tunnel usps=tunl pos=noun
+tunnel pos=verb
+tunnels usps=tunl pos=noun
+tunnels pos=verb
+tunnl usps=tunl pos=noun
+trnpk usps=tpke pos=noun
+tpke usps=tpke pos=noun
+turnpike usps=tpke pos=noun
+turnpk usps=tpke pos=noun
+underpass usps=upas pos=noun
+upas usps=upas pos=noun
+un usps=un pos=noun
+union usps=un pos=adj
+union pos=noun
+unions usps=uns pos=noun
+uns usps=uns pos=noun
+valley usps=vly pos=noun
+vly usps=vly pos=noun
+vally usps=vly pos=noun
+vlly usps=vly pos=noun
+valleys usps=vlys pos=noun
+vlys usps=vlys pos=noun
+vdct usps=via pos=noun
+via usps=via pos=prep
+viadct usps=via pos=noun
+viaduct usps=via pos=noun
+view usps=vw pos=noun
+view pos=verb
+vw usps=vw pos=noun
+views usps=vws pos=noun
+views pos=verb
+vws usps=vws pos=noun
+vill usps=vlg pos=noun
+vlg usps=vlg pos=noun
+villag usps=vlg pos=noun
+village usps=vlg pos=noun
+villg usps=vlg pos=noun
+villiage usps=vlg pos=noun
+villages usps=vlgs pos=noun
+vlgs usps=vlgs pos=noun
+ville usps=vl pos=noun
+vl usps=vl pos=noun
+vis usps=vis pos=noun
+vist usps=vis pos=noun
+vista usps=vis pos=noun
+vst usps=vis pos=noun
+vsta usps=vis pos=noun
+walk usps=walk pos=noun
+walk pos=verb
+walks usps=walk pos=noun
+walks pos=verb
+walk usps=walk pos=noun
+walk pos=verb
+wall usps=wall pos=noun
+wall pos=verb
+wy usps=way pos=noun
+way usps=way pos=adv
+way pos=noun
+ways usps=ways pos=adv
+ways pos=noun
+well usps=wl pos=adj
+well pos=adv
+well pos=int
+well pos=noun
+well pos=verb
+wl usps=wl pos=noun
+wells usps=wls pos=noun
+wells pos=verb
+wls usps=wls pos=noun

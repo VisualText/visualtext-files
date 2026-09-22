@@ -1,34 +1,67 @@
 # Number words with numberic values
 
-one s=number numeric=1
-two s=number numeric=2
-three s=number numeric=3
-four s=number numeric=4
-five s=number numeric=5
-six s=number numeric=6
-seven s=number numeric=7
-eight s=number numeric=8
-nine s=number numeric=9
-ten s=number numeric=10
-eleven s=number numeric=11
-twelve s=number numeric=12
-thirteen s=number numeric=13
-fourteen s=number numeric=14
-fifteen s=number numeric=15
-sixteen s=number numeric=16
-seventeen s=number numeric=17
-eighteen s=number numeric=18
-nineteen s=number numeric=19
-twenty s=number numeric=20
-thirty s=number numeric=30
-forty s=number numeric=40
-fifty s=number numeric=50
-sixty s=number numeric=60
-seventy s=number numeric=70
-eighty s=number numeric=80
-ninety s=number numeric=90
-hundred s=number numeric=100
-thousand s=number numeric=1000
-million s=number numeric=1000000
-billion s=number numeric=1000000000
-trillion s=number numeric=1000000000000
+one s=number numeric=1 pos=adj
+one pos=noun
+one pos=pro
+two s=number numeric=2 pos=adj
+two pos=noun
+three s=number numeric=3 pos=adj
+three pos=noun
+four s=number numeric=4 pos=adj
+four pos=noun
+five s=number numeric=5 pos=adj
+five pos=noun
+six s=number numeric=6 pos=adj
+six pos=noun
+seven s=number numeric=7 pos=adj
+seven pos=noun
+eight s=number numeric=8 pos=adj
+eight pos=noun
+nine s=number numeric=9 pos=adj
+nine pos=noun
+ten s=number numeric=10 pos=adj
+ten pos=noun
+eleven s=number numeric=11 pos=adj
+eleven pos=noun
+twelve s=number numeric=12 pos=adj
+twelve pos=noun
+thirteen s=number numeric=13 pos=adj
+thirteen pos=noun
+fourteen s=number numeric=14 pos=adj
+fourteen pos=noun
+fifteen s=number numeric=15 pos=adj
+fifteen pos=noun
+sixteen s=number numeric=16 pos=adj
+sixteen pos=noun
+seventeen s=number numeric=17 pos=adj
+seventeen pos=noun
+eighteen s=number numeric=18 pos=adj
+eighteen pos=noun
+nineteen s=number numeric=19 pos=adj
+nineteen pos=noun
+twenty s=number numeric=20 pos=adj
+twenty pos=noun
+thirty s=number numeric=30 pos=adj
+thirty pos=noun
+forty s=number numeric=40 pos=adj
+forty pos=noun
+fifty s=number numeric=50 pos=adj
+fifty pos=noun
+sixty s=number numeric=60 pos=adj
+sixty pos=noun
+seventy s=number numeric=70 pos=adj
+seventy pos=noun
+eighty s=number numeric=80 pos=adj
+eighty pos=noun
+ninety s=number numeric=90 pos=adj
+ninety pos=noun
+hundred s=number numeric=100 pos=adj
+hundred pos=noun
+thousand s=number numeric=1000 pos=adj
+thousand pos=noun
+million s=number numeric=1000000 pos=adj
+million pos=noun
+billion s=number numeric=1000000000 pos=adj
+billion pos=noun
+trillion s=number numeric=1000000000000 pos=adj
+trillion pos=noun

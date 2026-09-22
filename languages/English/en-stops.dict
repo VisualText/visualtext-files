@@ -1,668 +1,1069 @@
 # English stop words
-a s=stop
-able s=stop
-about s=stop
-above s=stop
-abst s=stop
-accordance s=stop
-according s=stop
-accordingly s=stop
-across s=stop
-act s=stop
-actually s=stop
-added s=stop
-adj s=stop
-affected s=stop
-affecting s=stop
-affects s=stop
-after s=stop
-afterwards s=stop
-again s=stop
-against s=stop
-ah s=stop
-all s=stop
-almost s=stop
-alone s=stop
-along s=stop
-already s=stop
-also s=stop
-although s=stop
-always s=stop
-am s=stop
-among s=stop
-amongst s=stop
-an s=stop
-and s=stop
-announce s=stop
-another s=stop
-any s=stop
-anybody s=stop
-anyhow s=stop
-anymore s=stop
-anyone s=stop
-anything s=stop
-anyway s=stop
-anyways s=stop
-anywhere s=stop
-apparently s=stop
-approximately s=stop
-are s=stop
-aren s=stop
-arent s=stop
-arise s=stop
-around s=stop
-as s=stop
-aside s=stop
-ask s=stop
-asking s=stop
-at s=stop
-auth s=stop
-available s=stop
-away s=stop
-awfully s=stop
-b s=stop
-back s=stop
-be s=stop
-became s=stop
-because s=stop
-become s=stop
-becomes s=stop
-becoming s=stop
-been s=stop
-before s=stop
-beforehand s=stop
-begin s=stop
-beginning s=stop
-beginnings s=stop
-begins s=stop
-behind s=stop
-being s=stop
-believe s=stop
-below s=stop
-beside s=stop
-besides s=stop
-between s=stop
-beyond s=stop
-biol s=stop
-both s=stop
-brief s=stop
-briefly s=stop
-but s=stop
-by s=stop
-c s=stop
-ca s=stop
-came s=stop
-can s=stop
-cannot s=stop
-can \' t s=stop
-cause s=stop
-causes s=stop
-certain s=stop
-certainly s=stop
-co s=stop
-com s=stop
-come s=stop
-comes s=stop
-contain s=stop
-containing s=stop
-contains s=stop
-could s=stop
-couldnt s=stop
-d s=stop
-date s=stop
-did s=stop
-didn \' t s=stop
-different s=stop
-do s=stop
-does s=stop
-doesn \' t s=stop
-doing s=stop
-done s=stop
-don \' t s=stop
-down s=stop
-downwards s=stop
-due s=stop
-during s=stop
-e s=stop
-each s=stop
-ed s=stop
-edu s=stop
-effect s=stop
-eg s=stop
-eight s=stop
-eighty s=stop
-either s=stop
-else s=stop
-elsewhere s=stop
-end s=stop
-ending s=stop
-enough s=stop
-especially s=stop
-et s=stop
-et-al s=stop
-etc s=stop
-even s=stop
-ever s=stop
-every s=stop
-everybody s=stop
-everyone s=stop
-everything s=stop
-everywhere s=stop
-ex s=stop
-except s=stop
-f s=stop
-far s=stop
-few s=stop
-ff s=stop
-fifth s=stop
-first s=stop
-five s=stop
-fix s=stop
-followed s=stop
-following s=stop
-follows s=stop
-for s=stop
-former s=stop
-formerly s=stop
-forth s=stop
-found s=stop
-four s=stop
-from s=stop
-further s=stop
-furthermore s=stop
-g s=stop
-gave s=stop
-get s=stop
-gets s=stop
-getting s=stop
-give s=stop
-given s=stop
-gives s=stop
-giving s=stop
-go s=stop
-goes s=stop
-gone s=stop
-got s=stop
-gotten s=stop
-h s=stop
-had s=stop
-happens s=stop
-hardly s=stop
-has s=stop
-hasn \' t s=stop
-have s=stop
-haven \' t s=stop
-having s=stop
-he s=stop
-hed s=stop
-hence s=stop
-her s=stop
-here s=stop
-hereafter s=stop
-hereby s=stop
-herein s=stop
-heres s=stop
-hereupon s=stop
-hers s=stop
-herself s=stop
-hes s=stop
-hi s=stop
-hid s=stop
-him s=stop
-himself s=stop
-his s=stop
-hither s=stop
-home s=stop
-how s=stop
-howbeit s=stop
-however s=stop
-hundred s=stop
-i s=stop
-id s=stop
-ie s=stop
-if s=stop
-i \' ll s=stop
-im s=stop
-immediate s=stop
-immediately s=stop
-importance s=stop
-important s=stop
-in s=stop
-inc s=stop
-indeed s=stop
-index s=stop
-information s=stop
-instead s=stop
-into s=stop
-invention s=stop
-inward s=stop
-is s=stop
-isn \' t s=stop
-it s=stop
-itd s=stop
-it \' ll s=stop
-its s=stop
-itself s=stop
-i \' ve s=stop
-j s=stop
-just s=stop
-k s=stop
-keep s=stop
-keeps s=stop
-kept s=stop
-kg s=stop
-km s=stop
-know s=stop
-known s=stop
-knows s=stop
-l s=stop
-largely s=stop
-last s=stop
-lately s=stop
-later s=stop
-latter s=stop
-latterly s=stop
-least s=stop
-less s=stop
-lest s=stop
-let s=stop
-lets s=stop
-like s=stop
-liked s=stop
-likely s=stop
-line s=stop
-little s=stop
-'ll s=stop
-look s=stop
-looking s=stop
-looks s=stop
-ltd s=stop
-m s=stop
-made s=stop
-mainly s=stop
-make s=stop
-makes s=stop
-many s=stop
-may s=stop
-maybe s=stop
-me s=stop
-mean s=stop
-means s=stop
-meantime s=stop
-meanwhile s=stop
-merely s=stop
-mg s=stop
-might s=stop
-million s=stop
-miss s=stop
-ml s=stop
-more s=stop
-moreover s=stop
-most s=stop
-mostly s=stop
-mr s=stop
-mrs s=stop
-much s=stop
-mug s=stop
-must s=stop
-my s=stop
-myself s=stop
-n s=stop
-na s=stop
-name s=stop
-namely s=stop
-nay s=stop
-nd s=stop
-near s=stop
-nearly s=stop
-necessarily s=stop
-necessary s=stop
-need s=stop
-needs s=stop
-neither s=stop
-never s=stop
-nevertheless s=stop
-new s=stop
-next s=stop
-nine s=stop
-ninety s=stop
-no s=stop
-nobody s=stop
-non s=stop
-none s=stop
-nonetheless s=stop
-noone s=stop
-nor s=stop
-normally s=stop
-nos s=stop
-not s=stop
-noted s=stop
-nothing s=stop
-now s=stop
-nowhere s=stop
-o s=stop
-obtain s=stop
-obtained s=stop
-obviously s=stop
-of s=stop
-off s=stop
-often s=stop
-oh s=stop
-ok s=stop
-okay s=stop
-old s=stop
-omitted s=stop
-on s=stop
-once s=stop
-one s=stop
-ones s=stop
-only s=stop
-onto s=stop
-or s=stop
-ord s=stop
-other s=stop
-others s=stop
-otherwise s=stop
-ought s=stop
-our s=stop
-ours s=stop
-ourselves s=stop
-out s=stop
-outside s=stop
-over s=stop
-overall s=stop
-owing s=stop
-own s=stop
-p s=stop
-page s=stop
-pages s=stop
-part s=stop
-particular s=stop
-particularly s=stop
-past s=stop
-per s=stop
-perhaps s=stop
-placed s=stop
-please s=stop
-plus s=stop
-poorly s=stop
-possible s=stop
-possibly s=stop
-potentially s=stop
-pp s=stop
-predominantly s=stop
-present s=stop
-previously s=stop
-primarily s=stop
-probably s=stop
-promptly s=stop
-proud s=stop
-provides s=stop
-put s=stop
-q s=stop
-que s=stop
-quickly s=stop
-quite s=stop
-qv s=stop
-r s=stop
-ran s=stop
-rather s=stop
-rd s=stop
-re s=stop
-readily s=stop
-really s=stop
-recent s=stop
-recently s=stop
-ref s=stop
-refs s=stop
-regarding s=stop
-regardless s=stop
-regards s=stop
-related s=stop
-relatively s=stop
-research s=stop
-respectively s=stop
-resulted s=stop
-resulting s=stop
-results s=stop
-right s=stop
-run s=stop
-s s=stop
-said s=stop
-same s=stop
-saw s=stop
-say s=stop
-saying s=stop
-says s=stop
-sec s=stop
-section s=stop
-see s=stop
-seeing s=stop
-seem s=stop
-seemed s=stop
-seeming s=stop
-seems s=stop
-seen s=stop
-self s=stop
-selves s=stop
-sent s=stop
-seven s=stop
-several s=stop
-shall s=stop
-she s=stop
-shed s=stop
-she \' ll s=stop
-shes s=stop
-should s=stop
-shouldn \' t s=stop
-show s=stop
-showed s=stop
-shown s=stop
-showns s=stop
-shows s=stop
-significant s=stop
-significantly s=stop
-similar s=stop
-similarly s=stop
-since s=stop
-six s=stop
-slightly s=stop
-so s=stop
-some s=stop
-somebody s=stop
-somehow s=stop
-someone s=stop
-somethan s=stop
-something s=stop
-sometime s=stop
-sometimes s=stop
-somewhat s=stop
-somewhere s=stop
-soon s=stop
-sorry s=stop
-specifically s=stop
-specified s=stop
-specify s=stop
-specifying s=stop
-still s=stop
-stop s=stop
-strongly s=stop
-sub s=stop
-substantially s=stop
-successfully s=stop
-such s=stop
-sufficiently s=stop
-suggest s=stop
-sup s=stop
-sure s=stop
-t s=stop
-take s=stop
-taken s=stop
-taking s=stop
-tell s=stop
-tends s=stop
-th s=stop
-than s=stop
-thank s=stop
-thanks s=stop
-thanx s=stop
-that s=stop
-that \' ll s=stop
-thats s=stop
-that \' ve s=stop
-the s=stop
-their s=stop
-theirs s=stop
-them s=stop
-themselves s=stop
-then s=stop
-thence s=stop
-there s=stop
-thereafter s=stop
-thereby s=stop
-thered s=stop
-therefore s=stop
-therein s=stop
-there \' ll s=stop
-thereof s=stop
-therere s=stop
-theres s=stop
-thereto s=stop
-thereupon s=stop
-there \' ve s=stop
-these s=stop
-they s=stop
-theyd s=stop
-they \' ll s=stop
-theyre s=stop
-they \' ve s=stop
-think s=stop
-this s=stop
-those s=stop
-thou s=stop
-though s=stop
-thoughh s=stop
-thousand s=stop
-throug s=stop
-through s=stop
-throughout s=stop
-thru s=stop
-thus s=stop
-til s=stop
-tip s=stop
-to s=stop
-together s=stop
-too s=stop
-took s=stop
-toward s=stop
-towards s=stop
-tried s=stop
-tries s=stop
-truly s=stop
-try s=stop
-trying s=stop
-ts s=stop
-twice s=stop
-two s=stop
-u s=stop
-un s=stop
-under s=stop
-unfortunately s=stop
-unless s=stop
-unlike s=stop
-unlikely s=stop
-until s=stop
-unto s=stop
-up s=stop
-upon s=stop
-ups s=stop
-us s=stop
-use s=stop
-used s=stop
-useful s=stop
-usefully s=stop
-usefulness s=stop
-uses s=stop
-using s=stop
-usually s=stop
-v s=stop
-value s=stop
-various s=stop
-'ve s=stop
-very s=stop
-via s=stop
-viz s=stop
-vol s=stop
-vols s=stop
-vs s=stop
-w s=stop
-want s=stop
-wants s=stop
-was s=stop
-wasnt s=stop
-way s=stop
-we s=stop
-wed s=stop
-welcome s=stop
-we \' ll s=stop
-went s=stop
-were s=stop
-werent s=stop
-we \' ve s=stop
-what s=stop
-whatever s=stop
-what \' ll s=stop
-whats s=stop
-when s=stop
-whence s=stop
-whenever s=stop
-where s=stop
-whereafter s=stop
-whereas s=stop
-whereby s=stop
-wherein s=stop
-wheres s=stop
-whereupon s=stop
-wherever s=stop
-whether s=stop
-which s=stop
-while s=stop
-whim s=stop
-whither s=stop
-who s=stop
-whod s=stop
-whoever s=stop
-whole s=stop
-who \' ll s=stop
-whom s=stop
-whomever s=stop
-whos s=stop
-whose s=stop
-why s=stop
-widely s=stop
-willing s=stop
-wish s=stop
-with s=stop
-within s=stop
-without s=stop
-wont s=stop
-words s=stop
-world s=stop
-would s=stop
-wouldnt s=stop
-www s=stop
-x s=stop
-y s=stop
-yes s=stop
-yet s=stop
-you s=stop
-youd s=stop
-you \' ll s=stop
-your s=stop
-youre s=stop
-yours s=stop
-yourself s=stop
-yourselves s=stop
-you \' ve s=stop
-z s=stop
-zero s=stop
+a s=stop pos=det
+able s=stop pos=adj
+about s=stop pos=adj
+about pos=adv
+about pos=prep
+above s=stop pos=adj
+above pos=adv
+above pos=prep
+abst s=stop pos=noun
+accordance s=stop pos=noun
+according s=stop pos=adj
+according pos=verb
+accordingly s=stop pos=adv
+across s=stop pos=adj
+across pos=adv
+across pos=prep
+act s=stop pos=noun
+act pos=verb
+actually s=stop pos=adv
+added s=stop pos=adj
+added pos=verb
+adj s=stop pos=noun
+affected s=stop pos=adj
+affected pos=verb
+affecting s=stop pos=adj
+affecting pos=verb
+affects s=stop pos=noun
+affects pos=verb
+after s=stop pos=adj
+after pos=adv
+after pos=conj
+after pos=prep
+afterwards s=stop pos=adv
+again s=stop pos=adv
+against s=stop pos=prep
+ah s=stop pos=int
+all s=stop pos=adj
+all pos=adv
+all pos=noun
+all pos=prefix
+all pos=pro
+almost s=stop pos=adv
+alone s=stop pos=adj
+alone pos=adv
+along s=stop pos=adv
+along pos=prep
+already s=stop pos=adv
+also s=stop pos=adv
+although s=stop pos=adv
+although pos=conj
+always s=stop pos=adv
+am s=stop pos=abbr
+am pos=verb
+among s=stop pos=prep
+amongst s=stop pos=prep
+an s=stop pos=det
+and s=stop pos=conj
+announce s=stop pos=verb
+another s=stop pos=adj
+another pos=pro
+any s=stop pos=adj
+any pos=adv
+any pos=pro
+anybody s=stop pos=noun
+anybody pos=pro
+anyhow s=stop pos=adv
+anymore s=stop pos=adv
+anyone s=stop pos=noun
+anyone pos=pro
+anything s=stop pos=noun
+anything pos=pro
+anyway s=stop pos=adv
+anyways s=stop pos=adv
+anywhere s=stop pos=adv
+apparently s=stop pos=adv
+approximately s=stop pos=adv
+are s=stop pos=noun
+are pos=verb
+aren s=stop pos=noun
+arent s=stop pos=noun
+arise s=stop pos=verb
+around s=stop pos=adv
+around pos=prep
+as s=stop pos=conj
+aside s=stop pos=adv
+aside pos=noun
+ask s=stop pos=verb
+asking s=stop pos=adj
+asking pos=noun
+asking pos=verb
+at s=stop pos=prep
+auth s=stop pos=noun
+available s=stop pos=adj
+away s=stop pos=adj
+away pos=adv
+awfully s=stop pos=adv
+b s=stop pos=noun
+back s=stop pos=adj
+back pos=adv
+back pos=noun
+back pos=verb
+be s=stop pos=verb
+became s=stop pos=verb
+because s=stop pos=conj
+become s=stop pos=verb
+becomes s=stop pos=verb
+becoming s=stop pos=adj
+becoming pos=verb
+been s=stop pos=verb
+before s=stop pos=adv
+before pos=conj
+before pos=prep
+beforehand s=stop pos=adj
+beforehand pos=adv
+begin s=stop pos=verb
+beginning s=stop pos=adj
+beginning pos=noun
+beginning pos=verb
+beginnings s=stop pos=noun
+begins s=stop pos=verb
+behind s=stop pos=adj
+behind pos=adv
+behind pos=noun
+behind pos=prep
+being s=stop pos=noun
+being pos=verb
+believe s=stop pos=verb
+below s=stop pos=adv
+below pos=prep
+beside s=stop pos=prep
+besides s=stop pos=adv
+besides pos=prep
+between s=stop pos=adv
+between pos=prep
+beyond s=stop pos=adv
+beyond pos=prep
+biol s=stop pos=noun
+both s=stop pos=adj
+both pos=adv
+both pos=pro
+brief s=stop pos=adj
+brief pos=noun
+brief pos=verb
+briefly s=stop pos=adv
+but s=stop pos=adv
+but pos=conj
+but pos=prep
+but pos=pro
+by s=stop pos=adv
+by pos=prep
+c s=stop pos=noun
+ca s=stop pos=noun
+came s=stop pos=verb
+can s=stop pos=noun
+can pos=verb
+cannot s=stop pos=verb
+can \' t s=stop pos=noun
+cause s=stop pos=noun
+cause pos=verb
+causes s=stop pos=noun
+causes pos=verb
+certain s=stop pos=adj
+certainly s=stop pos=adv
+co s=stop pos=noun
+com s=stop pos=noun
+come s=stop pos=verb
+comes s=stop pos=verb
+contain s=stop pos=verb
+containing s=stop pos=verb
+contains s=stop pos=verb
+could s=stop pos=verb
+couldnt s=stop pos=noun
+d s=stop pos=noun
+date s=stop pos=noun
+date pos=verb
+did s=stop pos=verb
+didn \' t s=stop pos=noun
+different s=stop pos=adj
+do s=stop pos=noun
+do pos=verb
+does s=stop pos=noun
+does pos=verb
+doesn \' t s=stop pos=noun
+doing s=stop pos=noun
+doing pos=verb
+done s=stop pos=adj
+done pos=verb
+don \' t s=stop pos=noun
+down s=stop pos=adj
+down pos=adv
+down pos=noun
+down pos=prep
+down pos=verb
+downwards s=stop pos=adv
+due s=stop pos=adj
+due pos=adv
+due pos=noun
+during s=stop pos=prep
+e s=stop pos=noun
+each s=stop pos=adj
+each pos=pro
+ed s=stop pos=abbr
+edu s=stop pos=noun
+effect s=stop pos=noun
+effect pos=verb
+eg s=stop pos=abbr
+eight s=stop pos=adj
+eight pos=noun
+eighty s=stop pos=adj
+eighty pos=noun
+either s=stop pos=adj
+either pos=adv
+either pos=conj
+either pos=pro
+else s=stop pos=adj
+else pos=adv
+elsewhere s=stop pos=adv
+end s=stop pos=noun
+end pos=verb
+ending s=stop pos=noun
+ending pos=verb
+enough s=stop pos=adj
+enough pos=adv
+enough pos=noun
+especially s=stop pos=adv
+et s=stop pos=noun
+et-al s=stop pos=noun
+etc s=stop pos=abbr
+even s=stop pos=adj
+even pos=adv
+even pos=noun
+even pos=verb
+ever s=stop pos=adv
+every s=stop pos=adj
+everybody s=stop pos=pro
+everyone s=stop pos=pro
+everything s=stop pos=pro
+everywhere s=stop pos=adv
+ex s=stop pos=noun
+except s=stop pos=conj
+except pos=prep
+except pos=verb
+f s=stop pos=noun
+far s=stop pos=adj
+far pos=adv
+few s=stop pos=adj
+few pos=noun
+few pos=pro
+ff s=stop pos=noun
+fifth s=stop pos=adj
+fifth pos=noun
+first s=stop pos=adj
+first pos=adv
+first pos=noun
+five s=stop pos=adj
+five pos=noun
+fix s=stop pos=noun
+fix pos=verb
+followed s=stop pos=verb
+following s=stop pos=adj
+following pos=noun
+following pos=verb
+follows s=stop pos=verb
+for s=stop pos=conj
+for pos=prep
+former s=stop pos=adj
+former pos=noun
+formerly s=stop pos=adv
+forth s=stop pos=adv
+found s=stop pos=adj
+found pos=noun
+found pos=verb
+four s=stop pos=adj
+four pos=noun
+from s=stop pos=prep
+further s=stop pos=adj
+further pos=adv
+further pos=verb
+furthermore s=stop pos=adv
+g s=stop pos=noun
+gave s=stop pos=verb
+get s=stop pos=verb
+gets s=stop pos=verb
+getting s=stop pos=noun
+getting pos=verb
+give s=stop pos=noun
+give pos=verb
+given s=stop pos=adj
+given pos=noun
+given pos=verb
+gives s=stop pos=noun
+gives pos=verb
+giving s=stop pos=adj
+giving pos=noun
+giving pos=verb
+go s=stop pos=noun
+go pos=verb
+goes s=stop pos=noun
+goes pos=verb
+gone s=stop pos=adj
+gone pos=verb
+got s=stop pos=verb
+gotten s=stop pos=verb
+h s=stop pos=noun
+had s=stop pos=verb
+happens s=stop pos=verb
+hardly s=stop pos=adv
+has s=stop pos=noun
+has pos=verb
+hasn \' t s=stop pos=noun
+have s=stop pos=noun
+have pos=verb
+haven \' t s=stop pos=noun
+having s=stop pos=verb
+he s=stop pos=pro
+hed s=stop pos=noun
+hence s=stop pos=adv
+her s=stop pos=adj
+her pos=pro
+here s=stop pos=adj
+here pos=adv
+here pos=noun
+hereafter s=stop pos=adv
+hereafter pos=noun
+hereby s=stop pos=adv
+herein s=stop pos=adv
+heres s=stop pos=noun
+hereupon s=stop pos=adv
+hers s=stop pos=pro
+herself s=stop pos=pro
+hes s=stop pos=noun
+hi s=stop pos=int
+hid s=stop pos=verb
+him s=stop pos=pro
+himself s=stop pos=pro
+his s=stop pos=adj
+his pos=noun
+his pos=pro
+hither s=stop pos=adv
+home s=stop pos=adj
+home pos=adv
+home pos=noun
+home pos=verb
+how s=stop pos=adv
+howbeit s=stop pos=conj
+however s=stop pos=adv
+hundred s=stop pos=adj
+hundred pos=noun
+i s=stop pos=noun
+i pos=pro
+id s=stop pos=noun
+ie s=stop pos=abbr
+if s=stop pos=conj
+i \' ll s=stop pos=noun
+im s=stop pos=noun
+immediate s=stop pos=adj
+immediately s=stop pos=adv
+immediately pos=conj
+importance s=stop pos=noun
+important s=stop pos=adj
+in s=stop pos=adv
+in pos=noun
+in pos=prep
+inc s=stop pos=noun
+indeed s=stop pos=adv
+index s=stop pos=noun
+index pos=verb
+information s=stop pos=noun
+instead s=stop pos=adv
+into s=stop pos=prep
+invention s=stop pos=noun
+inward s=stop pos=adj
+inward pos=adv
+is s=stop pos=verb
+isn \' t s=stop pos=noun
+it s=stop pos=pro
+itd s=stop pos=noun
+it \' ll s=stop pos=noun
+its s=stop pos=adj
+itself s=stop pos=pro
+i \' ve s=stop pos=noun
+j s=stop pos=noun
+just s=stop pos=adj
+just pos=adv
+k s=stop pos=noun
+keep s=stop pos=noun
+keep pos=verb
+keeps s=stop pos=noun
+keeps pos=verb
+kept s=stop pos=adj
+kept pos=verb
+kg s=stop pos=abbr
+km s=stop pos=abbr
+know s=stop pos=verb
+known s=stop pos=adj
+known pos=verb
+knows s=stop pos=verb
+l s=stop pos=noun
+largely s=stop pos=adv
+last s=stop pos=adj
+last pos=adv
+last pos=noun
+last pos=verb
+lately s=stop pos=adv
+later s=stop pos=adj
+later pos=adv
+latter s=stop pos=adj
+latter pos=noun
+latterly s=stop pos=adv
+least s=stop pos=adj
+least pos=adv
+least pos=noun
+less s=stop pos=adj
+less pos=adv
+less pos=noun
+less pos=prep
+lest s=stop pos=adj
+lest pos=adv
+lest pos=conj
+let s=stop pos=noun
+let pos=verb
+lets s=stop pos=noun
+lets pos=verb
+like s=stop pos=adj
+like pos=verb
+liked s=stop pos=adj
+liked pos=verb
+likely s=stop pos=adj
+likely pos=adv
+line s=stop pos=noun
+line pos=verb
+little s=stop pos=adj
+little pos=adv
+little pos=noun
+'ll s=stop pos=noun
+look s=stop pos=noun
+look pos=verb
+looking s=stop pos=adj
+looking pos=noun
+looking pos=verb
+looks s=stop pos=noun
+looks pos=verb
+ltd s=stop pos=noun
+m s=stop pos=noun
+made s=stop pos=adj
+made pos=verb
+mainly s=stop pos=adv
+make s=stop pos=noun
+make pos=verb
+makes s=stop pos=noun
+makes pos=verb
+many s=stop pos=adj
+many pos=noun
+may s=stop pos=noun
+may pos=verb
+maybe s=stop pos=adv
+me s=stop pos=pro
+mean s=stop pos=adj
+mean pos=noun
+mean pos=verb
+means s=stop pos=noun
+means pos=verb
+meantime s=stop pos=adv
+meantime pos=noun
+meanwhile s=stop pos=adv
+merely s=stop pos=adv
+mg s=stop pos=abbr
+might s=stop pos=noun
+might pos=verb
+million s=stop pos=adj
+million pos=noun
+miss s=stop pos=noun
+miss pos=verb
+ml s=stop pos=abbr
+more s=stop pos=adj
+more pos=adv
+more pos=noun
+moreover s=stop pos=adv
+most s=stop pos=adj
+most pos=adv
+most pos=noun
+mostly s=stop pos=adv
+mr s=stop pos=noun
+mrs s=stop pos=noun
+much s=stop pos=adj
+much pos=adv
+much pos=noun
+mug s=stop pos=noun
+mug pos=verb
+must s=stop pos=adj
+must pos=noun
+must pos=verb
+my s=stop pos=adj
+myself s=stop pos=pro
+n s=stop pos=noun
+na s=stop pos=noun
+name s=stop pos=noun
+name pos=verb
+namely s=stop pos=adv
+nay s=stop pos=adv
+nay pos=noun
+nd s=stop pos=noun
+near s=stop pos=adj
+near pos=adv
+near pos=prep
+near pos=verb
+nearly s=stop pos=adv
+necessarily s=stop pos=adv
+necessary s=stop pos=adj
+necessary pos=noun
+need s=stop pos=noun
+need pos=verb
+needs s=stop pos=adv
+needs pos=noun
+needs pos=verb
+neither s=stop pos=adj
+neither pos=adv
+neither pos=conj
+neither pos=pro
+never s=stop pos=adv
+nevertheless s=stop pos=adv
+nevertheless pos=conj
+new s=stop pos=adj
+new pos=adv
+next s=stop pos=adj
+next pos=adv
+next pos=noun
+next pos=prep
+nine s=stop pos=adj
+nine pos=noun
+ninety s=stop pos=adj
+ninety pos=noun
+no s=stop pos=abbr
+no pos=adj
+no pos=adv
+no pos=int
+no pos=noun
+nobody s=stop pos=noun
+nobody pos=pro
+non s=stop pos=noun
+none s=stop pos=adv
+none pos=pro
+nonetheless s=stop pos=adv
+noone s=stop pos=noun
+nor s=stop pos=conj
+normally s=stop pos=adv
+nos s=stop pos=abbr
+nos pos=noun
+not s=stop pos=adv
+noted s=stop pos=adj
+noted pos=verb
+nothing s=stop pos=adv
+nothing pos=noun
+now s=stop pos=adv
+now pos=conj
+now pos=noun
+nowhere s=stop pos=adv
+nowhere pos=noun
+o s=stop pos=noun
+obtain s=stop pos=verb
+obtained s=stop pos=verb
+obviously s=stop pos=adv
+of s=stop pos=prep
+off s=stop pos=adj
+off pos=adv
+off pos=prefix
+off pos=prep
+often s=stop pos=adv
+oh s=stop pos=int
+ok s=stop pos=noun
+okay s=stop pos=adj
+okay pos=adv
+okay pos=noun
+okay pos=verb
+old s=stop pos=adj
+old pos=noun
+omitted s=stop pos=verb
+on s=stop pos=adv
+on pos=prep
+once s=stop pos=adj
+once pos=adv
+one s=stop pos=adj
+one pos=noun
+one pos=pro
+ones s=stop pos=noun
+only s=stop pos=adj
+only pos=adv
+only pos=conj
+onto s=stop pos=prep
+or s=stop pos=conj
+ord s=stop pos=noun
+other s=stop pos=adj
+other pos=adv
+other pos=noun
+others s=stop pos=noun
+otherwise s=stop pos=adv
+otherwise pos=conj
+ought s=stop pos=verb
+our s=stop pos=adj
+ours s=stop pos=adj
+ours pos=pro
+ourselves s=stop pos=pro
+out s=stop pos=adj
+out pos=adv
+out pos=noun
+out pos=verb
+outside s=stop pos=adj
+outside pos=adv
+outside pos=noun
+outside pos=prep
+over s=stop pos=adj
+over pos=adv
+over pos=noun
+over pos=prep
+overall s=stop pos=adj
+overall pos=noun
+owing s=stop pos=adj
+owing pos=verb
+own s=stop pos=adj
+own pos=pro
+own pos=verb
+p s=stop pos=noun
+page s=stop pos=noun
+page pos=verb
+pages s=stop pos=noun
+pages pos=verb
+part s=stop pos=adj
+part pos=adv
+part pos=noun
+part pos=verb
+particular s=stop pos=adj
+particular pos=noun
+particularly s=stop pos=adv
+past s=stop pos=adj
+past pos=adv
+past pos=noun
+per s=stop pos=prep
+perhaps s=stop pos=adv
+placed s=stop pos=adj
+placed pos=verb
+please s=stop pos=verb
+plus s=stop pos=adj
+plus pos=noun
+plus pos=prep
+poorly s=stop pos=adj
+poorly pos=adv
+possible s=stop pos=adj
+possible pos=noun
+possibly s=stop pos=adv
+potentially s=stop pos=adv
+pp s=stop pos=abbr
+predominantly s=stop pos=adv
+present s=stop pos=adj
+present pos=noun
+present pos=verb
+previously s=stop pos=adv
+primarily s=stop pos=adv
+probably s=stop pos=adv
+promptly s=stop pos=adv
+proud s=stop pos=adj
+provides s=stop pos=verb
+put s=stop pos=noun
+put pos=verb
+q s=stop pos=noun
+que s=stop pos=noun
+quickly s=stop pos=adv
+quite s=stop pos=adv
+qv s=stop pos=abbr
+r s=stop pos=noun
+ran s=stop pos=verb
+rather s=stop pos=adv
+rd s=stop pos=noun
+re s=stop pos=noun
+re pos=prep
+readily s=stop pos=adv
+really s=stop pos=adv
+recent s=stop pos=adj
+recently s=stop pos=adv
+ref s=stop pos=abbr
+ref pos=noun
+refs s=stop pos=noun
+regarding s=stop pos=adj
+regarding pos=verb
+regardless s=stop pos=adj
+regardless pos=adv
+regards s=stop pos=noun
+regards pos=verb
+related s=stop pos=adj
+related pos=verb
+relatively s=stop pos=adv
+research s=stop pos=noun
+research pos=verb
+respectively s=stop pos=adv
+resulted s=stop pos=verb
+resulting s=stop pos=adj
+resulting pos=verb
+results s=stop pos=noun
+results pos=verb
+right s=stop pos=adj
+right pos=adv
+right pos=noun
+right pos=verb
+run s=stop pos=noun
+run pos=verb
+s s=stop pos=noun
+said s=stop pos=adj
+said pos=verb
+same s=stop pos=adj
+same pos=adv
+same pos=pro
+saw s=stop pos=noun
+saw pos=verb
+say s=stop pos=noun
+say pos=verb
+saying s=stop pos=noun
+saying pos=verb
+says s=stop pos=noun
+says pos=verb
+sec s=stop pos=adj
+sec pos=noun
+section s=stop pos=noun
+section pos=verb
+see s=stop pos=noun
+see pos=verb
+seeing s=stop pos=adj
+seeing pos=noun
+seeing pos=verb
+seem s=stop pos=verb
+seemed s=stop pos=verb
+seeming s=stop pos=adj
+seeming pos=verb
+seems s=stop pos=verb
+seen s=stop pos=adj
+seen pos=verb
+self s=stop pos=adj
+self pos=noun
+selves s=stop pos=noun
+sent s=stop pos=adj
+sent pos=noun
+sent pos=verb
+seven s=stop pos=adj
+seven pos=noun
+several s=stop pos=adj
+several pos=pro
+shall s=stop pos=verb
+she s=stop pos=pro
+shed s=stop pos=adj
+shed pos=noun
+shed pos=verb
+she \' ll s=stop pos=noun
+shes s=stop pos=noun
+should s=stop pos=verb
+shouldn \' t s=stop pos=noun
+show s=stop pos=noun
+show pos=verb
+showed s=stop pos=verb
+shown s=stop pos=verb
+showns s=stop pos=noun
+shows s=stop pos=noun
+shows pos=verb
+significant s=stop pos=adj
+significantly s=stop pos=adv
+similar s=stop pos=adj
+similarly s=stop pos=adv
+since s=stop pos=adv
+since pos=conj
+since pos=prep
+six s=stop pos=adj
+six pos=noun
+slightly s=stop pos=adv
+so s=stop pos=adv
+so pos=conj
+so pos=noun
+some s=stop pos=adj
+some pos=adv
+some pos=pro
+somebody s=stop pos=noun
+somebody pos=pro
+somehow s=stop pos=adv
+someone s=stop pos=noun
+someone pos=pro
+somethan s=stop pos=noun
+something s=stop pos=adv
+something pos=noun
+something pos=pro
+sometime s=stop pos=adj
+sometime pos=adv
+sometimes s=stop pos=adv
+somewhat s=stop pos=adv
+somewhere s=stop pos=adv
+soon s=stop pos=adv
+sorry s=stop pos=adj
+specifically s=stop pos=adv
+specified s=stop pos=adj
+specified pos=verb
+specify s=stop pos=verb
+specifying s=stop pos=noun
+specifying pos=verb
+still s=stop pos=adj
+still pos=adv
+still pos=noun
+still pos=verb
+stop s=stop pos=noun
+stop pos=verb
+strongly s=stop pos=adv
+sub s=stop pos=noun
+sub pos=verb
+substantially s=stop pos=adv
+successfully s=stop pos=adv
+such s=stop pos=adj
+such pos=adv
+such pos=pro
+sufficiently s=stop pos=adv
+suggest s=stop pos=verb
+sup s=stop pos=noun
+sup pos=verb
+sure s=stop pos=adj
+sure pos=adv
+t s=stop pos=noun
+take s=stop pos=noun
+take pos=verb
+taken s=stop pos=adj
+taken pos=verb
+taking s=stop pos=adj
+taking pos=noun
+taking pos=verb
+tell s=stop pos=noun
+tell pos=verb
+tends s=stop pos=verb
+th s=stop pos=noun
+than s=stop pos=conj
+thank s=stop pos=verb
+thanks s=stop pos=noun
+thanks pos=verb
+thanx s=stop pos=noun
+that s=stop pos=adj
+that pos=adv
+that pos=conj
+that pos=pro
+that \' ll s=stop pos=noun
+thats s=stop pos=noun
+that \' ve s=stop pos=noun
+the s=stop pos=det
+their s=stop pos=adj
+theirs s=stop pos=pro
+them s=stop pos=pro
+themselves s=stop pos=pro
+then s=stop pos=adj
+then pos=adv
+then pos=noun
+thence s=stop pos=adv
+there s=stop pos=adv
+there pos=int
+there pos=noun
+thereafter s=stop pos=adv
+thereby s=stop pos=adv
+thered s=stop pos=noun
+therefore s=stop pos=adv
+therein s=stop pos=adv
+there \' ll s=stop pos=noun
+thereof s=stop pos=adv
+therere s=stop pos=noun
+theres s=stop pos=noun
+thereto s=stop pos=adv
+thereupon s=stop pos=adv
+there \' ve s=stop pos=noun
+these s=stop pos=adj
+these pos=pro
+they s=stop pos=pro
+theyd s=stop pos=noun
+they \' ll s=stop pos=noun
+theyre s=stop pos=noun
+they \' ve s=stop pos=noun
+think s=stop pos=noun
+think pos=verb
+this s=stop pos=adj
+this pos=adv
+this pos=pro
+those s=stop pos=adj
+those pos=pro
+thou s=stop pos=noun
+thou pos=pro
+though s=stop pos=adv
+though pos=conj
+thoughh s=stop pos=noun
+thousand s=stop pos=adj
+thousand pos=noun
+throug s=stop pos=noun
+through s=stop pos=adj
+through pos=adv
+through pos=prep
+throughout s=stop pos=adv
+throughout pos=prep
+thru s=stop pos=prep
+thus s=stop pos=adv
+til s=stop pos=noun
+tip s=stop pos=noun
+tip pos=verb
+to s=stop pos=adv
+to pos=particle
+to pos=prep
+together s=stop pos=adj
+together pos=adv
+too s=stop pos=adv
+took s=stop pos=verb
+toward s=stop pos=prep
+towards s=stop pos=prep
+tried s=stop pos=adj
+tried pos=verb
+tries s=stop pos=noun
+tries pos=verb
+truly s=stop pos=adv
+try s=stop pos=noun
+try pos=verb
+trying s=stop pos=adj
+trying pos=verb
+ts s=stop pos=noun
+twice s=stop pos=adv
+two s=stop pos=adj
+two pos=noun
+u s=stop pos=noun
+un s=stop pos=noun
+under s=stop pos=adj
+under pos=adv
+under pos=prep
+unfortunately s=stop pos=adv
+unless s=stop pos=conj
+unlike s=stop pos=adj
+unlike pos=prep
+unlikely s=stop pos=adj
+until s=stop pos=conj
+until pos=prep
+unto s=stop pos=prep
+up s=stop pos=adv
+up pos=prep
+up pos=verb
+upon s=stop pos=prep
+ups s=stop pos=noun
+ups pos=verb
+us s=stop pos=noun
+us pos=pro
+use s=stop pos=noun
+use pos=verb
+used s=stop pos=adj
+used pos=verb
+useful s=stop pos=adj
+usefully s=stop pos=adv
+usefulness s=stop pos=noun
+uses s=stop pos=noun
+uses pos=verb
+using s=stop pos=noun
+using pos=verb
+usually s=stop pos=adv
+v s=stop pos=noun
+value s=stop pos=noun
+value pos=verb
+various s=stop pos=adj
+'ve s=stop pos=noun
+very s=stop pos=adj
+very pos=adv
+via s=stop pos=prep
+viz s=stop pos=abbr
+vol s=stop pos=abbr
+vols s=stop pos=abbr
+vs s=stop pos=abbr
+w s=stop pos=noun
+want s=stop pos=noun
+want pos=verb
+wants s=stop pos=noun
+wants pos=verb
+was s=stop pos=verb
+wasnt s=stop pos=noun
+way s=stop pos=adv
+way pos=noun
+we s=stop pos=pro
+wed s=stop pos=adj
+wed pos=noun
+wed pos=verb
+welcome s=stop pos=adj
+welcome pos=noun
+welcome pos=verb
+we \' ll s=stop pos=noun
+went s=stop pos=verb
+were s=stop pos=verb
+werent s=stop pos=noun
+we \' ve s=stop pos=noun
+what s=stop pos=adj
+what pos=pro
+whatever s=stop pos=adj
+whatever pos=pro
+what \' ll s=stop pos=noun
+whats s=stop pos=noun
+when s=stop pos=adv
+when pos=conj
+whence s=stop pos=adv
+whenever s=stop pos=adv
+whenever pos=conj
+where s=stop pos=adv
+whereafter s=stop pos=noun
+whereas s=stop pos=conj
+whereby s=stop pos=adv
+wherein s=stop pos=adv
+wheres s=stop pos=noun
+whereupon s=stop pos=adv
+wherever s=stop pos=adv
+whether s=stop pos=conj
+which s=stop pos=adj
+which pos=pro
+while s=stop pos=conj
+while pos=noun
+while pos=verb
+whim s=stop pos=noun
+whither s=stop pos=adv
+who s=stop pos=noun
+who pos=pro
+whod s=stop pos=noun
+whoever s=stop pos=pro
+whole s=stop pos=adj
+whole pos=adv
+whole pos=noun
+who \' ll s=stop pos=noun
+whom s=stop pos=pro
+whomever s=stop pos=pro
+whos s=stop pos=noun
+whose s=stop pos=pro
+why s=stop pos=adv
+why pos=int
+why pos=noun
+widely s=stop pos=adv
+willing s=stop pos=adj
+willing pos=noun
+willing pos=verb
+wish s=stop pos=noun
+wish pos=verb
+with s=stop pos=prep
+within s=stop pos=adv
+within pos=prep
+without s=stop pos=adv
+without pos=prep
+wont s=stop pos=adj
+wont pos=noun
+words s=stop pos=noun
+words pos=verb
+world s=stop pos=adj
+world pos=noun
+would s=stop pos=verb
+wouldnt s=stop pos=noun
+www s=stop pos=noun
+x s=stop pos=noun
+y s=stop pos=noun
+yes s=stop pos=int
+yes pos=noun
+yet s=stop pos=adv
+yet pos=conj
+you s=stop pos=pro
+youd s=stop pos=noun
+you \' ll s=stop pos=noun
+your s=stop pos=adj
+youre s=stop pos=noun
+yours s=stop pos=adj
+yours pos=pro
+yourself s=stop pos=pro
+yourselves s=stop pos=pro
+you \' ve s=stop pos=noun
+z s=stop pos=noun
+zero s=stop pos=adj
+zero pos=noun
+zero pos=verb
