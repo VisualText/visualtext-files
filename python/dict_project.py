@@ -2,7 +2,7 @@
 #       dictionary it is a projection of.
 #
 # WHY
-#   en-full-feat.dict is the source of truth: one line per grammatical reading,
+#   en-feat-full.dict is the source of truth: one line per grammatical reading,
 #   carrying the root and the verb/noun features.  en-full.dict is what an
 #   analyzer actually loads, and it wants one line per (word, part of speech) --
 #   the morphology would only slow the lookup down and change what every rule
@@ -10,7 +10,7 @@
 #   regenerated the smaller file, so an entry added to one could go missing
 #   from the other.  This makes the projection a command.
 #
-#       en-full-feat.dict   aahed pos=verb root=aah vform=past tense=past
+#       en-feat-full.dict   aahed pos=verb root=aah vform=past tense=past
 #                           aahed pos=verb root=aah vform=pastpart
 #       en-full.dict        aahed pos=verb
 #
@@ -28,7 +28,7 @@
 #   the featured file and in en-full.kbb.
 #
 # USAGE
-#   python dict_project.py <en-full-feat.dict> <en-full.dict>
+#   python dict_project.py <en-feat-full.dict> <en-full.dict>
 #     --check   rebuild and compare against the existing file, write nothing
 
 import sys
@@ -70,7 +70,7 @@ def main():
     args = [a for a in sys.argv[1:] if not a.startswith('--')]
     check = '--check' in sys.argv
     if len(args) < 2:
-        sys.stderr.write("usage: dict_project.py <en-full-feat.dict> <en-full.dict>\n")
+        sys.stderr.write("usage: dict_project.py <en-feat-full.dict> <en-full.dict>\n")
         return 1
     src, dst = args
 

@@ -1,7 +1,7 @@
-# DESC: Correct wrong root= lemmas in en-full-feat.dict, and rebuild en-full.kbb from it.
+# DESC: Correct wrong root= lemmas in en-feat-full.dict, and rebuild en-full.kbb from it.
 #
 # WHAT IT DOES
-#   en-full-feat.dict gives every inflected reading its root, and some of those
+#   en-feat-full.dict gives every inflected reading its root, and some of those
 #   roots are a different word that happens to share the surface form:
 #
 #       states     pos=noun root=stat        should be state
@@ -36,9 +36,9 @@
 #     python -m nltk.downloader wordnet
 #
 # USAGE
-#   python kbb_rootfix.py plan  en-full-feat.dict plan.tsv
-#   python kbb_rootfix.py apply en-full-feat.dict plan.tsv      rewrites the dict in place
-#   python kbb_rootfix.py kbb   en-full-feat.dict en-full.kbb   rebuilds the knowledge base
+#   python kbb_rootfix.py plan  en-feat-full.dict plan.tsv
+#   python kbb_rootfix.py apply en-feat-full.dict plan.tsv      rewrites the dict in place
+#   python kbb_rootfix.py kbb   en-feat-full.dict en-full.kbb   rebuilds the knowledge base
 #   python kbb_lemmas.py en-full.kbb en-lemmas.kbb
 #   python kbb_roots.py  en-full.kbb en-roots.kbb
 #
@@ -49,7 +49,7 @@
 #   proposes nothing.
 #
 #   "kbb" reproduces the shipped en-full.kbb byte for byte from an unmodified
-#   en-full-feat.dict, so a diff of the rebuilt file shows only the fixes.
+#   en-feat-full.dict, so a diff of the rebuilt file shows only the fixes.
 
 import sys, collections
 from nltk.corpus import wordnet as wn
@@ -183,6 +183,6 @@ def kbb(path, out):
 if __name__ == '__main__':
     modes = {'plan': plan, 'apply': apply, 'kbb': kbb}
     if len(sys.argv) != 4 or sys.argv[1] not in modes:
-        sys.stderr.write('usage: kbb_rootfix.py plan|apply|kbb <en-full-feat.dict> <file>\n')
+        sys.stderr.write('usage: kbb_rootfix.py plan|apply|kbb <en-feat-full.dict> <file>\n')
         sys.exit(1)
     modes[sys.argv[1]](sys.argv[2], sys.argv[3])

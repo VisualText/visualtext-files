@@ -62,11 +62,11 @@
 #     python -m nltk.downloader wordnet
 #
 # USAGE
-#   python dict_freq.py <en-full-feat.dict>            rewrites in place
+#   python dict_freq.py <en-feat-full.dict>            rewrites in place
 #     --dry-run    report the counts, write nothing
 #
 #   Afterwards regenerate the files derived from it:
-#     python kbb_rootfix.py kbb en-full-feat.dict en-full.kbb
+#     python kbb_rootfix.py kbb en-feat-full.dict en-full.kbb
 #     python kbb_lemmas.py en-full.kbb en-lemmas.kbb
 #     python kbb_roots.py  en-full.kbb en-roots.kbb
 #   and project the pos-only dictionary with dict_project.py.
@@ -98,7 +98,7 @@ def main():
     args = [a for a in sys.argv[1:] if not a.startswith('--')]
     dry = '--dry-run' in sys.argv
     if not args:
-        sys.stderr.write("usage: dict_freq.py <en-full-feat.dict> [--dry-run]\n")
+        sys.stderr.write("usage: dict_freq.py <en-feat-full.dict> [--dry-run]\n")
         return 1
     path = args[0]
 

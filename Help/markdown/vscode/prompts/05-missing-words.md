@@ -55,4 +55,4 @@ When done:
 
 - Show me a summary: how many words added, broken down by part of speech, and the skipped list.
 - Re-run the analyzer over its inputs with the engine executable and confirm the previously missing words are now recognized (the new missing-words.log should be shorter).
-- Note: these two files are generated from `en-full-feat.dict` (the featured source of truth in the same directory). If it is present, add the same featured entry there as well so the additions survive a future regeneration.
+- Note: these two files are generated from `en-feat-full.dict` (the featured source of truth in the same directory). If it is present, add the same featured entry there as well so the additions survive a future regeneration.
