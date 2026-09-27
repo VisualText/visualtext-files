@@ -43,6 +43,8 @@ the logic is human-written code you can read, [test](testing.md), and ship.
 Significant releases get a short "what's new" page. The newest one you haven't seen
 opens automatically the first time you run that version.
 
+- **[Version 4 — NLP++ Is Debuggable](versions/4.0.0.md)**
+- **[Version 3 — NLP++ Is Now a First-Class Language in VS Code](versions/3.9.0.md)**
 - **[3.2.0 — Help system, regression testing & Python passes](versions/3.2.0.md)**
 - **[Version 3 — Compiled, Cloud-Built, and on npm](versions/3.0.0.md)**
 
