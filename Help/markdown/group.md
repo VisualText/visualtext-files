@@ -4,21 +4,23 @@
 
 ## Purpose
 
-**SEE NOTE BELOW.**  Perform a reduction on the range of rule elements from *node1 *to* node2 *and name the group node *labelString*.  node1 and node2 should be a well-formed range in the current rule match.  For example from N(1) to N(3).
+**SEE NOTE BELOW.**  Perform a reduction on the range of rule elements from *num1* to *num2* and name the group node *labelString*.  num1 and num2 are rule element numbers and should be a well-formed range in the current rule match, for example elements 1 to 3.
 
 ## Syntax
 
 ```
-group(node1, node2, labelString)
+group(num1, num2, labelString)
 ```
 
 ```
-node1- type: parse tree node
+num1 - type: int (the first rule element in the range)
 
-node2 - type: parse tree node
+num2 - type: int (the last rule element in the range)
 
 labelString - type: str
 ```
+
+The range is given by rule element **numbers**, not nodes: write `group(1,2,"_np")`, not `group(N(1),N(2),"_np")`. Passing nodes stops the rule's @POST code with the error `group: Arg must be integer`.
 
 ## Returns
 
@@ -35,7 +37,7 @@ Unlike other reduce actions, **group** can be repeated.  The phrase element mod
 ```
 @POST
 
-L("n") = group(N(1),N(2),"_np");
+L("n") = group(1,2,"_np");
 
 "output.txt" << pnname(L("n")) << "\n";
 
