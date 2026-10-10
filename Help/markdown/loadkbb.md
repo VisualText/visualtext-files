@@ -40,7 +40,7 @@ To load a flat `word attr=val ...` dictionary file instead, use [loaddict](loadd
 
 ```
 if (loadkbb("extra.kbb"))
-    "loaded extra.kbb" >> G("$apppath") + "\\load.log";
+    "load.log" << "loaded extra.kbb\n";
 ```
 
 ```

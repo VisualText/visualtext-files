@@ -30,6 +30,8 @@ Returns **1** if the file was loaded successfully and **0** otherwise (for examp
 
 A `.dict` file uses the flat `word attr=val ...` format, one word per line. `loaddict` adds those words and their attributes to the KB already in memory. If a `.kbb` file with the same stem exists in `kb/user`, its `dictionary` concept is used as the ambiguity KB for the words being added, mirroring how the engine pairs dictionaries with their KB during normal startup.
 
+A `#` outside a quoted string starts a comment, and the engine skips the whole line, including any entry before the `#`. Put comments on lines of their own: `beta pos=verb # a comment` adds nothing for `beta`.
+
 To load an indented hierarchy file instead, use [loadkbb](loadkbb.md).
 
 ## Example
@@ -40,7 +42,7 @@ To load an indented hierarchy file instead, use [loadkbb](loadkbb.md).
 
 ```
 if (loaddict("extra.dict"))
-    "loaded extra.dict" >> G("$apppath") + "\\load.log";
+    "load.log" << "loaded extra.dict\n";
 ```
 
 ```
