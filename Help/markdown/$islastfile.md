@@ -4,7 +4,7 @@
 
 ## Purpose
 
-Checks to see if the current file is the last file being analzyed in a directory.
+Checks to see if the current file is the last file being analyzed in a directory or in an `nlp -STDIN` stream.
 
 ## Syntax
 
@@ -23,6 +23,10 @@ variableType - type: G
 Returns 1 if the current file is the last file, 0 if not.
 
 ## Remarks
+
+Use `$islastfile` to write results collected across every file of a directory run, since the knowledge base carries over from file to file (see [$isdirrun]($isdirrun.md)). For a single-file run `$islastfile` is also 1.
+
+**NEW 4.2.6** In an `nlp -STDIN` stream, the last file is the one before the blank line or end of input that ends the stream. The engine reads one line ahead so it can set `$islastfile` before that file is analyzed.
 
 ## Example
 
