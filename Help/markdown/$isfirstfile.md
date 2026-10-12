@@ -4,7 +4,7 @@
 
 ## Purpose
 
-Checks to see if the current file is the first file being analzyed in a directory.
+Checks to see if the current file is the first file being analyzed in a directory or in an `nlp -STDIN` stream.
 
 ## Syntax
 
@@ -23,6 +23,8 @@ variableType - type: G
 Returns 1 if the current file is the first file, 0 if not.
 
 ## Remarks
+
+The knowledge base is loaded once for a directory run or a `-STDIN` stream and is not reloaded between files (see [$isdirrun]($isdirrun.md)). Do once-per-run setup when `$isfirstfile` is 1, such as clearing a knowledge-base concept the run will fill in or writing a header. For a single-file run `$isfirstfile` is also 1.
 
 ## Example
 
