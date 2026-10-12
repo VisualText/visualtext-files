@@ -13,6 +13,7 @@ Following are some token types that occur in NLP++ code.
 | **"XXX"** | Strings get double quoted. Everything within string taken literally (except backslashed characters). |
 | **\X** | Backslash any nonalphanumeric char you want taken literally. If X = one of a b n r f t v, these are special escapes analogous to C/C++. |
 | **\\** | Literal backslash character. |
+| **“ ” « » ¿ ¡ —** | Non-ASCII punctuation is literal as written, with or without a backslash: `_quote <- “ _xWILD [fail=(”)] ” @@`. Only ASCII punctuation has a role in rule syntax and needs the backslash. **NEW 4.2.7** -- before this, any non-ASCII punctuation in a rule file was a syntax error. |
 
 ## See Also
 
