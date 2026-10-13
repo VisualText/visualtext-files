@@ -150,6 +150,7 @@ Optionally, each element can be followed by a list of key=values *pairs* enclose
 | **"XXX"** | Strings get double quoted. Everything within string taken literally (except backslashed characters). |
 | **\X** | Backslash any nonalphanumeric char you want taken literally. |
 | **\\** | Literal backslash character. |
+| **“ ” « » ¿ ¡ —** | Non-ASCII punctuation is literal as written, with or without a backslash: `_quote <- “ _xWILD [fail=(”)] ” @@`. Only ASCII punctuation has a role in rule syntax and needs the backslash. **NEW 4.2.7** -- before this, any non-ASCII punctuation in a rule file was a syntax error. |
 | **\** | At end of line, escapes end of line to NOTHING. [Unimplemented] |
 | **\X** | where X=abnrftv special escapes in C/C++. |
 | **@AAA** | Reserved start-of-region markers in the pass file (e.g., @RULES). |
