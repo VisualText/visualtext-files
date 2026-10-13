@@ -32,3 +32,30 @@ The folders and files in the analyzer project are outlined below.
 | Uanalyze.h | Code file for standalone driver program. |
 
 This folder structure houses all the information needed to run the analyzer, including folders for input and output, a folder for the knowledge base, etc.
+
+## Log files
+
+A run writes logs in three places. Each file is rewritten on every run, so none of them grows across runs. Two files are both named `dbg.log` but hold different things.
+
+**`logs/`: building the analyzer.** Written when the engine loads the analyzer, before any text is analyzed.
+
+| File | Contents |
+|---|---|
+| make_ana.log | Errors and warnings from reading the pass files, each as `<pass> <line> [message]`. A syntax error in a rule file shows up here. |
+| cgerr.log | Knowledge base loading: which `kb/user` files were read, and KB errors. |
+| dbg.log | How long each step of parsing the analyzer's own rule files took (`tokenize`, `retok`, `bigtok`, ...). Not the analysis timings. |
+| file.log | The input files analyzed in this run, one `File=` line each. |
+
+**`input/<file>_log/`: analyzing one input file.** One folder per input file, next to it.
+
+| File | Contents |
+|---|---|
+| err.log | Errors from running the analyzer on this file, each as `<pass> <line> [message]`. The VS Code extension shows these as squiggles in the pass files. |
+| dbg.log | How long each analyzer pass took on this file, with the slowest passes ranked at the end. |
+| final.tree | The parse tree after the last pass. |
+| ana001.tree, ... | The parse tree after each pass. Only with `-DEV`, and costly to write. |
+| missing-words.log | Words not found in a lazily loaded `*full.dict` or `*full.kbb`, when the analyzer has one. |
+
+Files the analyzer itself writes, such as `out.txt` or a `.kbb` from `SaveKB`, go here too.
+
+**`output/`: engine startup.** `init.log` records loading the optional `bin/user.dll` extension library. `dbg.log` and `def.log` are opened at startup but nothing is written to them; they are always empty.
