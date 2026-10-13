@@ -96,6 +96,7 @@ to a topic.
         - [$rulenum]($rulenum.md)
       - **Run Mode Variables**
         - [$dev]($dev.md)
+        - [$os]($os.md)
         - [$silent]($silent.md)
       - **Test Variables**
         - [$end]($end.md)
@@ -464,6 +465,7 @@ to a topic.
         - [refind](refind.md)
         - [rematch](rematch.md)
         - [resubst](resubst.md)
+        - [rmchars](rmchars.md)
         - [split](split.md)
         - [sqlstr](sqlstr.md)
         - [stem](stem.md)
@@ -602,7 +604,7 @@ above. They are grouped here so that every page remains reachable from this inde
 
 ### Run Mode Variables
 
-[$dev]($dev.md) &nbsp;|&nbsp; [$silent]($silent.md)
+[$dev]($dev.md) &nbsp;|&nbsp; [$os]($os.md) &nbsp;|&nbsp; [$silent]($silent.md)
 
 ### Control Flow Keywords
 

@@ -16,6 +16,7 @@ The return types include:  **STR** (string), **STR ARRAY** (string array), **IN
 | [**refind(str, pattern_str [, flags_str])**](refind.md) | **STR ARRAY** | Regular expression match: element 0 is the whole match, 1..n the capture groups. |
 | [**rematch(str, pattern_str [, flags_str])**](rematch.md) | **BOOL** | True if the regular expression matches the string. |
 | [**resubst(str, pattern_str, replacement_str [, flags_str])**](resubst.md) | **STR** | Replace every regular expression match, with `$1` backreferences. |
+| [**rmchars(str, chars_str)**](rmchars.md) | **STR** | Remove every character of chars_str from str. **NEW 4.2.15** |
 | [**split(str, char_str)**](split.md) | **STR ARRAY** | Split a string using the given char as separator. |
 | [**stem(str)**](stem.md) | **STR** | Compute stem of noun and verb. Return lowercase string. |
 | [**strchar(str, num)**](strchar.md) | **STR** | Index to numth char of string |

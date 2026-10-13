@@ -18,6 +18,8 @@ User passes employ either the **pattern** (or **pat**) and the **recursive** (or
 
 If you need a customized tokenization pass to handle OCR output (already exists, commercially available in conjunction with http://www.XIEO.info)), convert HTML to plain text, or another specialized input format, TAI can help.  Contact us at support@textanalysis.com, 1-877-235-6259 USA toll free.
 
+**Dictionary matching and case.** **dicttok** looks each word up as written, then in lowercase, then Capitalized (first letter uppercase). So a **.dict** entry written in lowercase (`jumps`) or Capitalized (`Jumps`) matches the word in any capitalization: `jumps`, `Jumps`, `JUMPS`. An all-caps entry (`US`) matches only that spelling, which keeps it apart from `us`. Multi-word phrases are matched in lowercase, so write phrase entries in lowercase. Capitalized entries matching other capitalizations is **NEW 4.2.15**.
+
 **dicttok** also puts a **CTRL** attribute on control characters to help manage control characters (e.g., using feature-based matching), as in the code snippet below.
 
 **@PRE** <2,2> **vareq**(**"CTRL"**,128);  # Match ASCII 128 = €** @POST** "output.txt" << "Found ctrl = " << **N**("$text",2) << "\n";** @RULES**** _xNIL** <- â** _xCTRL**** _xALPHA**** @@**

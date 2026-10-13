@@ -9,7 +9,7 @@ Split a string into pieces using a separator character.
 ## Syntax
 
 ```
-returnedArray = str(str, charString)
+returnedArray = split(str, charString)
 ```
 
 ```
@@ -30,7 +30,9 @@ An array of strings, each of which is a component of the given string.
 
 ## Remarks
 
-Similar to the Perl *split* function.
+Similar to the Perl *split* function. Each character in *charString* is a delimiter.
+
+With an empty *charString*, `split` returns the string's characters: `split("héllo", "")` is `h`, `é`, `l`, `l`, `o`. Characters are whole characters, not bytes, so an accented letter or emoji stays one element. **NEW 4.2.15** (it used to be an error).
 
 ## Example
 

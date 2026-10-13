@@ -146,7 +146,7 @@ Optionally, each element can be followed by a list of key=values *pairs* enclose
 | **#** | Comment. Text till the end of the line is ignored. |
 | **/\* \*/** | Block comment. Everything between `/*` and the next `*/` is ignored, including line breaks. Block comments do not nest: the first `*/` closes the comment. Delimiters inside a string or inside a `#` comment are ordinary text. |
 | **AAA or NNN** | Literal tokens. Completely alphabetic or completely numeric. |
-| **_AAA** | Nonliteral tokens must begin with underscore. All the remaining letters MUST be alphabetic. (May expand to underscore,num,dash someday.) |
+| **_AAA** | Nonliteral tokens must begin with underscore, followed by letters, digits and underscores: `_noun`, `_B2`, `_phone_num`. Underscores after the first are **NEW 4.2.15**. Dashes are not allowed. |
 | **"XXX"** | Strings get double quoted. Everything within string taken literally (except backslashed characters). |
 | **\X** | Backslash any nonalphanumeric char you want taken literally. |
 | **\\** | Literal backslash character. |
