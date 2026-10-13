@@ -31,6 +31,7 @@ The return types include:  **INT** (integer), **PNODE** (parse tree node), **ST
 | [**pnrpushval(pnode, var_str, val)**](pnrpushval.md) |   | Push a value onto end of pnode's variable. **New in 2.7.3.2** |
 | [**pndown(pnode)**](pndown.md) | **PNODE** | Fetch the child of a parse tree node. |
 | [**pnsingletdown(pnode)**](pnsingletdown.md) | **PNODE** | Fetch the child of a parse tree node, obeying rules about going down a "singlet chain." I.e., get child only if no branching and if not going past node with BASE flag set. |
+| [**pntype(pnode)**](pntype.md) | **STR** | Fetch a pnode's token type: alpha, num, punct, white, ctrl, emoji, or node for a nonleaf. **New in 4.2.10** |
 | [**pnup(pnode)**](pnup.md) | **PNODE** | Fetch a pnode's parent, if any. Only leftmost pnode in a list has a parent. |
 | [**pnsetfired(pnode, num)**](pnsetfired.md) | **NONE** | Set the fired flag of a pnode (num must be 0 or 1). |
 | [**pnvar(pnode, var_str)**](pnvar.md) | **ARRAY** | Fetch a pnode's variable value(s). |

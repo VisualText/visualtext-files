@@ -425,6 +425,7 @@ to a topic.
         - [pnroot](pnroot.md)
         - [pnsetfired](pnsetfired.md)
         - [pnsingletdown](pnsingletdown.md)
+        - [pntype](pntype.md)
         - [pnup](pnup.md)
         - [pnvar](pnvar.md)
         - [pnvarnames](pnvarnames.md)
