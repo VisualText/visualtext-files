@@ -345,7 +345,13 @@ DisplayAttributes(L("file"),L("con"),L("display type"),L("level")) {
 					L("shorty") = strpiece(L("val"),0,20);
 					L("val") = L("shorty") + "...";
 				}
-				L("file") << QuoteIfNeeded(str(L("val")));
+				# An all-digit string ("12011", "007") written bare reads
+				# back as a number, so quote it to keep it a string.
+				L("val") = str(L("val"));
+				if (strisdigit(L("val")))
+					L("file") << "\"" << L("val") << "\"";
+				else
+					L("file") << QuoteIfNeeded(L("val"));
 			}
 			L("first") = 0;
 			L("vals") = nextval(L("vals"));
