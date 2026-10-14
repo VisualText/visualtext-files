@@ -294,11 +294,13 @@ to a topic.
         - **Change**
           - [attrchange](attrchange.md)
           - [movecleft](movecleft.md)
+          - [moveconcept](moveconcept.md)
           - [movecright](movecright.md)
           - [renameattr](renameattr.md)
           - [renamechild](renamechild.md)
           - [renameconcept](renameconcept.md)
           - [replaceval](replaceval.md)
+          - [sortattrs](sortattrs.md)
           - [sortchilds](sortchilds.md)
           - [sorthier](sorthier.md)
         - **Command File**

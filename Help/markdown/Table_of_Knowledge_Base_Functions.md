@@ -89,8 +89,10 @@ In the table below, a **name** must be a STR, **parent** is a CON, **attr_str** 
 | [**renameattr(con, name, new)**](renameattr.md) | **NONE** | Rename con's named attribute to new. |
 | [**movecleft(con)**](movecleft.md) | **NONE** | Move concept before previous sibling. (Moves concept to the left in its list.) |
 | [**movecright(con)**](movecright.md) | **NONE** | Move concept after next sibling. (Moves concept to the right in its list.) |
+| [**moveconcept(con, parent_c)**](moveconcept.md) | **CON** | Move concept, with its subtree, attributes and phrase, to be the last child of *parent_c*. Returns 0, changing nothing, for the root, a move into its own subtree, or a parent that already has a child of that name. **New in 4.2.21** |
 | [**sortchilds(con)**](sortchilds.md) | **NONE** | Sort concept's immediate children alphabetically. |
 | [**sorthier(con)**](sorthier.md) | **NONE** | Sort concept's subhierarchy alphabetically. |
+| [**sortattrs(con)**](sortattrs.md) | **INT** | Sort concept's attributes alphabetically by name. Each attribute keeps its values in order. **New in 4.2.21** |
 | **Phrase and Node Functions** |   |   |
 | [**findphrase(con)**](findphrase.md) | **PHR** | Fetch concept's phrase. |
 | [**sortphrase(con)**](sortphrase.md) | **NONE** | Sort concept's phrase nodes alphabetically. |
