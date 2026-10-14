@@ -43,6 +43,29 @@ This matches `one two three` when neither `two` nor the spaces around it has a `
 
 **NEW 4.2.20**: before this version, a wildcard with a PRE Action did not stop at the next rule element. It ran past it, so a rule like the second example never matched.
 
+## Conditions on the Element Itself
+
+A PRE Action can also be written as a key on the rule element it applies to, so there is no range to keep in step with the element's position. The key is the action's name, and its value is the action's arguments: a single value, or a list in parentheses for several. An action with no arguments is written by name alone.
+
+```
+@RULES
+_np <- _det _xWILD [plus match=(_noun _adj) vareq=("pos" "noun") varz="num"] @@
+```
+
+means the same as
+
+```
+@PRE
+<2,2> vareq("pos", "noun");
+<2,2> varz("num");
+@RULES
+_np <- _det _xWILD [plus match=(_noun _adj)] @@
+```
+
+Every PRE Action can be written this way: **var**, **varz**, **vareq**, **varne**, **vargt**, **varlt**, **regexp**, **regexpi**, **uppercase**, **lowercase**, **cap**, **length**, **lengthr**, **numrange**, **unknown** and **debug**. For example, `_xALPHA [cap]`, `_xNUM [numrange=(5 10)]`, `_xALPHA [regexp="t*"]`. Conditions on an element and a PRE region on the same rule both apply. A wildcard with a condition behaves as described under PRE Actions on a Wildcard.
+
+**NEW 4.2.26**
+
 ## See Also
 
 [Grammar Region](NLP_PP_Stuff/Grammar_Region.md)
