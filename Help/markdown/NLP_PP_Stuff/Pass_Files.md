@@ -17,7 +17,7 @@ The pass file, which is used by a single analyzer PAT pass, consists of sets of 
 | **Minipass** | **YES** | Recursive minipasses. Each recurse region is named and can contain repeating rules regions. Rule elements in the main RULES region (below) can invoke these named rule sets. |
 | **Grammar** | **YES** | The main actions-rules regions for the current file (i.e., the current pass). |
 
-A pass file must contain at least a @CODE region or a main @RULES region.
+A pass file must contain at least a @CODE region, a @POSTCODE region, or a main @RULES region.
 
 ## Code Region
 
@@ -244,7 +244,7 @@ Output is complex, but to allow the analyzer developer as much flexibility as po
 
 ## Code Actions
 
-Code actions are not tied to any rule, but execute operations for the entire pass. They are placed within the @CODE and @@CODE markers at the head of the file, called the *code region*. There is only one such region per file, and its actions operate before the pattern matching of the rules in the file. This region represents an embryonic programming language that enables the analyzer developer to perform useful tasks without having to write and compile regular programming language code.
+Code actions are not tied to any rule, but execute operations for the entire pass. They are placed within the @CODE and @@CODE markers at the head of the file, called the *code region*. There is only one such region per file, and its actions operate before the pattern matching of the rules in the file. Code that should run after the rules goes in a [@POSTCODE region](../POSTCODE.md). This region represents an embryonic programming language that enables the analyzer developer to perform useful tasks without having to write and compile regular programming language code.
 
 Code actions operate *before* the rules in the file operate on the parse tree. At present, there is no "post code" region to execute actions *after* the rules for a pass have matched. The user must place such code actions in a subsequent analyzer pass.
 
