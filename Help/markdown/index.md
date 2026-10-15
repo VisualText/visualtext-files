@@ -221,6 +221,7 @@ to a topic.
           - [singler](singler.md)
           - [singlex](singlex.md)
           - [singlezap](singlezap.md)
+          - [makeliteral](makeliteral.md)
           - [splice](splice.md)
         - **Print Actions**
           - [fprintgvar](fprintgvar.md)
