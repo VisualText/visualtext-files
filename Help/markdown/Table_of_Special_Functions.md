@@ -16,6 +16,12 @@ The return types include:  **STR** (string), **INT** (integer), and **BOOL** (B
 | [**findana**](findana.md) | **BOOL(1,0)** | See if named project is already resident in memory. **(New in 1.6)** |
 | [**hitconf(hits_num, total_num, fudge_num)**](hitconf.md) | **INT (0 to 100)** | Calculate the keyword density. Fudge factor is typically 3 to 20. |
 | [**interactive()**](interactive.md) | **BOOL(1,0)** | True if analyzer is being run in an interactive environment, e.g., inside VisualText. |
+| [**isarray(value)**](isarray.md) | **BOOL(1,0)** | True if the value is an array (more than one element). **(New in 4.2.34)** |
+| [**iscon(value)**](iscon.md) | **BOOL(1,0)** | True if the value is a knowledge base concept. **(New in 4.2.34)** |
+| [**isfloat(value)**](isfloat.md) | **BOOL(1,0)** | True if the value is a floating-point number. **(New in 4.2.34)** |
+| [**isnum(value)**](isnum.md) | **BOOL(1,0)** | True if the value is an integer. An unset variable reads as 0, so it is one. **(New in 4.2.34)** |
+| [**ispn(value)**](ispn.md) | **BOOL(1,0)** | True if the value is a parse tree node. **(New in 4.2.34)** |
+| [**isstr(value)**](isstr.md) | **BOOL(1,0)** | True if the value is a string, including "" and digit strings. **(New in 4.2.34)** |
 | [**mkdir(dir_str)**](mkdir.md) | **BOOL(1,0)** | Create a directory. Operating system-dependent. |
 | [**permuten(tot_num)**](permuten.md) | **INT ARR** | Permute integers 0 to (tot_num - 1) such that array element k will never be equal to k. |
 | [**succeed()**](succeed.md) | **NONE** | In CHECK Region and CODE Region, succeed without executing further code. See fail(). |
