@@ -2,7 +2,7 @@
 
 # Working with Debugging Tools
 
-VisualText provides a number of debugging tools to make building text analyzers easier. Screen shots from this section are from the VisualText Sample "Corporate" analyzer.
+VisualText provides a number of debugging tools to make building text analyzers easier. Screen shots in this section are from an early VisualText sample analyzer.
 
 **Debug Structure: Trees**
 
@@ -48,7 +48,7 @@ Dump files are created by printing output to any file with a "txt" extension usi
 
 ![](../../helps/HowToBuild/Debugging/Image212.gif)
 
-One convenient Right-Click menu function will get you started in printing to a dump file. It printouts out a line to a "txt" file with the same name as the pass file. In this case, we clicked on the "lookup" pass in our corporate analyzer and the Right-Click menu adds the line above the menu as shown below:
+One convenient Right-Click menu function will get you started in printing to a dump file. It printouts out a line to a "txt" file with the same name as the pass file. In this case, we clicked on the "lookup" pass in a sample analyzer and the Right-Click menu adds the line above the menu as shown below:
 
 ![](../../helps/HowToBuild/Debugging/Image213.gif)
 

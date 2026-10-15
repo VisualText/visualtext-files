@@ -8,7 +8,7 @@ To debug your analyzer it is often helpful to output information to **dump files
 
 1. In the** Ana Tab**,** **right-click on a pass file to open it in the Workspace.
 
-1. In the pass file, add a printing statement using the "<<" operator in the following form: "dump_file_name.txt" << content_to_print.  Below is a rule from the corporate analyzer that dumps the matched rule text into a dump file called "anaphora":
+1. In the pass file, add a printing statement using the "<<" operator in the following form: "dump_file_name.txt" << content_to_print.  Below is a rule from an early sample analyzer that dumps the matched rule text into a dump file called "anaphora":
 
 ![](../../../helps/Using_VisualText/Working_with_Debugging_Tools/Image224.gif)
 
