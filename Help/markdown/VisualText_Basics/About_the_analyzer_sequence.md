@@ -53,6 +53,19 @@ Splitting is done first, then joining, then phrases. A token made by **split** o
 
 **join**, **split** and **_name** lines are **NEW 4.2.30**.
 
+**Finding the entry behind a node.** Run the engine with **-DICTSOURCE** and every node built from a **.dict** entry gets two more attributes: **dictfile**, the file's name, and **dictline**, the entry's line. A token made by **join** or **split** gets the line of that entry, unless the word it spells has its own entry. A word on several lines keeps the first. Entries in a lazily loaded **\*full.dict** have no line number, so they get only **dictfile**. The attributes are ordinary ones (`pnvar(n, "dictline")`), and a KB saved during such a run keeps them. Without the switch nothing is recorded, so normal runs pay nothing for it.
+
+```
+nlp -ANA myanalyzer -WORK C:\nlp-engine -DICTSOURCE input.txt
+```
+
+```
+_bridge [19,25,...,node, ("type" "location") ("kind" "raised") ("dictfile" "words.dict") ("dictline" 14)]
+   viaduct [19,25,...,alpha, ("kind" "raised") ("dictfile" "words.dict") ("dictline" 14)]
+```
+
+**-DICTSOURCE** is **NEW 4.2.33**.
+
 ## Comments in analyzer.seq
 
 A **#** starts a comment that runs to the end of the line, and each pass line normally carries one.  C-style block comments, **/\* ... \*/**, are also allowed and may span several lines:
