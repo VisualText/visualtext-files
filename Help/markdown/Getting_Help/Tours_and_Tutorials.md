@@ -4,9 +4,9 @@
 
 We have provided several tours and tutorials to help you get started with VisualText.
 
-## VisualText Tours
+## The NLP++ Textbook
 
-There are two tours:  the **VisualText Quick Tour** and the **Corporate Analyzer **tour.  The Quick Tour introduces you to the major components of VisualText. The Corporate Analyzer walks you through the analyzer-building process.  We suggest you take the [VisualText Quick Tour](../Introduction/VisualText_Quick_Tour.md), study the tutorials, and then continue with the [Corporate Analyzer](../Sample_Analyzers/Corporate_Analyzer.md) tour.
+The [NLP++ Textbook](../NLP++_Textbook.md) is the best place to start. It teaches NLP++ by building working analyzers, including the analyzers featured on the NLPFix site.
 
 ## VisualText Tutorials
 

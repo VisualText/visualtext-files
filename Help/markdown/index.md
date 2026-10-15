@@ -582,8 +582,7 @@ to a topic.
     - [Special Rule Elements - Variables](Tutorials/tutorial6/tutorial6.md#xwild)
     - [Pass Regions](Tutorials/tutorial6/tutorial6.md#pass_regions)
     - [Finding Unknown Acronyms - PRE Region](Tutorials/tutorial6/tutorial6.md#acrobyms)
-- <a id="sample-analyzers"></a>[Sample Analyzers](Sample_Analyzers/Corporate_Analyzer.md)
-  - [Corporate Analyzer](Sample_Analyzers/Corporate_Analyzer.md)
+- <a id="sample-analyzers"></a>[Sample Analyzers](Sample_Analyzers/Database1_Analyzer.md)
   - [Database1 Analyzer](Sample_Analyzers/Database1_Analyzer.md)
   - [DictTok_Sample](DictTok_Sample.md)
   - [DotNetTest](DotNetTest.md)
@@ -630,7 +629,7 @@ above. They are grouped here so that every page remains reachable from this inde
 
 ### HowToBuild Guides
 
-[Anaphora](HowToBuild/Corporate/Anaphora/Anaphora.md) &nbsp;|&nbsp; [Companies](HowToBuild/Corporate/Companies/Companies.md) &nbsp;|&nbsp; [CompConj](HowToBuild/Corporate/CompConj/CompConj.md) &nbsp;|&nbsp; [Events](HowToBuild/Corporate/Events/Events.md) &nbsp;|&nbsp; [Format](HowToBuild/Corporate/Format/Format.md) &nbsp;|&nbsp; [GramTab](HowToBuild/Corporate/GramTab/GramTab.md) &nbsp;|&nbsp; [HandDict](HowToBuild/Corporate/HandDict/HandDict.md) &nbsp;|&nbsp; [InitKB](HowToBuild/Corporate/InitKB/InitKB.md) &nbsp;|&nbsp; [Intro](HowToBuild/Corporate/Intro/Intro.md) &nbsp;|&nbsp; [Join](HowToBuild/Corporate/Join/Join.md) &nbsp;|&nbsp; [MetaEvents](HowToBuild/Corporate/MetaEvents/MetaEvents.md) &nbsp;|&nbsp; [Money](HowToBuild/Corporate/Money/Money.md) &nbsp;|&nbsp; [Output](HowToBuild/Corporate/Output/Output.md) &nbsp;|&nbsp; [TOC](HowToBuild/Corporate/Toc/TOC.md) &nbsp;|&nbsp; [DictionaryLookup](HowToBuild/DictLookupURL/DictionaryLookup.md) &nbsp;|&nbsp; [Tour_AnalyzerTab](HowToBuild/Tour15/AnalyzerTab/Tour_AnalyzerTab.md) &nbsp;|&nbsp; [Tour_Debug](HowToBuild/Tour15/Debug/Tour_Debug.md) &nbsp;|&nbsp; [Tour_Find](HowToBuild/Tour15/Find/Tour_Find.md) &nbsp;|&nbsp; [Tour_GramTab](HowToBuild/Tour15/GramTab/Tour_GramTab.md) &nbsp;|&nbsp; [Tour_Intro](HowToBuild/Tour15/Intro/Tour_Intro.md) &nbsp;|&nbsp; [Tour_KB](HowToBuild/Tour15/Kb/Tour_KB.md) &nbsp;|&nbsp; [Tour_Load](HowToBuild/Tour15/Load/Tour_Load.md) &nbsp;|&nbsp; [Tour_Log](HowToBuild/Tour15/Log/Tour_Log.md) &nbsp;|&nbsp; [Tour_Output](HowToBuild/Tour15/Output/Tour_Output.md) &nbsp;|&nbsp; [Tour_ParseTrees](HowToBuild/Tour15/ParseTrees/Tour_ParseTrees.md) &nbsp;|&nbsp; [Tour_PassFiles](HowToBuild/Tour15/PassFiles/Tour_PassFiles.md) &nbsp;|&nbsp; [Tour_Run](HowToBuild/Tour15/Run/Tour_Run.md) &nbsp;|&nbsp; [Tour_Screen](HowToBuild/Tour15/Screen/Tour_Screen.md) &nbsp;|&nbsp; [Tour_TextTab](HowToBuild/Tour15/TextTab/Tour_TextTab.md) &nbsp;|&nbsp; [Tour_TOC](HowToBuild/Tour15/Toc/Tour_TOC.md)
+[DictionaryLookup](HowToBuild/DictLookupURL/DictionaryLookup.md)
 
 ### Other Pages
 
