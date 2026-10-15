@@ -28,7 +28,7 @@ Returns **1** if the file was loaded successfully and **0** otherwise (for examp
 
 `file_str` is the **name of a file in the analyzer's `kb/user` directory**, not a full path. The file is resolved as `<app>/kb/user/<file_str>`.
 
-A `.dict` file uses the flat `word attr=val ...` format, one word per line. `loaddict` adds those words and their attributes to the KB already in memory. If a `.kbb` file with the same stem exists in `kb/user`, its `dictionary` concept is used as the ambiguity KB for the words being added, mirroring how the engine pairs dictionaries with their KB during normal startup.
+A `.dict` file uses the flat `word attr=val ...` format, one word per line (see [Dictionary Entries](VisualText_Basics/About_the_analyzer_sequence.md#dictionary-entries)). `loaddict` adds those words and their attributes to the KB already in memory. If a `.kbb` file with the same stem exists in `kb/user`, its `dictionary` concept is used as the ambiguity KB for the words being added, mirroring how the engine pairs dictionaries with their KB during normal startup.
 
 A `#` outside a quoted string starts a comment, and the engine skips the whole line, including any entry before the `#`. Put comments on lines of their own: `beta pos=verb # a comment` adds nothing for `beta`.
 
