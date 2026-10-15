@@ -28,6 +28,31 @@ will match the character (€) in the following text and output it.
 
 â€œsmall
 
+## Dictionary Entries
+
+Each line of a **.dict** file in **kb/user** is one entry: one or more words, then any attributes as `name=value`. **dicttok** puts the attributes on the matching word, or on the node it builds for a phrase.
+
+```
+bridge s=bridge                     # word: build a _bridge node over it
+viaduct s=bridge kind=raised        # several words can suggest the same node
+ice cream s=dessert flavor=vanilla  # phrase: a _dessert node over "ice cream"
+license plate                       # phrase with no attributes: a _phrase node
+hot - rod join=1                    # phrase that becomes one token
+hotrod s=vehicle                    # ... which is then looked up itself
+licenseplate split="license plate"  # token that becomes several words
+_bridge type=location               # attributes for every _bridge node
+```
+
+- **s=name** builds a node named **_name** over the word or phrase. A phrase without **s=** is a **_phrase** node. **l=name** builds a node named **name** (no underscore).
+- **An entry with no attributes** is fine. Before 4.2.30 a line without **=** stopped the file being read, so every entry after it was silently lost. A line that is wrong in some other way, such as a missing closing quote, is reported in **cgerr.log** and skipped, and the rest of the file is read.
+- **join=1** turns a phrase into one token of its words, with the whitespace and punctuation dropped: the input `HOT-ROD` becomes the token `HOTROD`, spanning the same text. The new token is looked up in the dictionary in turn, so the `hotrod s=vehicle` entry builds a `_vehicle` node over it.
+- **split="words"** replaces a token with the words of the value, separated by spaces; they become adjacent tokens, with no whitespace node between them. When the words spell the token (`licenseplate`), each word gets the offsets of its own letters; when they don't (clutter or a misspelling, such as `weathervconditions split="weather conditions"`), each word spans the whole token. The words are then looked up as words and phrases, so `license plate s=plate` can match them.
+- **_name attr=value** lines put attributes on every **_name** node the dictionary builds, so the attributes of a concept with many spellings are written once. An entry's own attribute wins: above, a `_bridge` over `viaduct` gets `kind=raised`.
+
+Splitting is done first, then joining, then phrases. A token made by **split** or **join** is not split again, and a word's `$text` is the word, not the input it spans.
+
+**join**, **split** and **_name** lines are **NEW 4.2.30**.
+
 ## Comments in analyzer.seq
 
 A **#** starts a comment that runs to the end of the line, and each pass line normally carries one.  C-style block comments, **/\* ... \*/**, are also allowed and may span several lines:
