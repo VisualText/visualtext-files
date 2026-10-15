@@ -20,18 +20,26 @@ directoryStr- type: str
 
 ## Returns
 
-True if successful execution of command.
+True (1) if the directory exists afterwards, whether **mkdir** made it or it was already there. False (0) if it could not be made, for example because the path has a character the file system does not allow.
 
 ## Remarks
 
-Mkdir depends on the machine or operating system in use.  Recommended to create one "level" of a directory path at a time, to assure that the code is portable.
+**mkdir** makes any missing parent directories too, the same way on Windows, Linux and macOS. Forward slashes work on every platform. Spaces in the path need no quoting.
+
+From 4.2.31, **mkdir** creates the directory directly. Before 4.2.31 it ran the operating system's `mkdir` command, which caused these problems:
+
+- On Windows a path with forward slashes, such as `G("$apppath") + "/output"`, made nothing.
+- A path with spaces broke.
+- Characters such as `&` in the path were run as commands.
+- It returned true even when nothing was made.
 
 ## Example
 
 ```
 @CODE
 
-mkdir("c:\abc\myfolder"); # This will work on Windows OS even if abc doesn't exist.
+if (!mkdir(G("$apppath") + "/output/by date"))
+    "output.txt" << "Could not make the output directory\n";
 
 @@CODE
 ```
