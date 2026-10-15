@@ -66,6 +66,22 @@ Every PRE Action can be written this way: **var**, **varz**, **vareq**, **varne*
 
 **NEW 4.2.26**
 
+### Attribute Tests
+
+Any other key with one value tests the node's attribute of that name: `attr="value"` is the same as `vareq=("attr" "value")`.
+
+```
+@RULES
+_np <- _det _xALPHA [pos="noun"] @@
+_item <- _xALPHA [count=3] @@
+```
+
+A value of digits only, such as `count=3`, compares as a number. From 4.2.29 that is also true of the value in **vareq**, **varne**, **vargt** and **varlt** written on an element, so `vargt=("count" 2)` compares with the number 2. (Before 4.2.29, **vargt** and **varlt** on an element never matched.)
+
+Because a misspelled modifier would quietly become an attribute test, a key one letter away from a modifier, such as `mtch=(two)`, gets a warning in the analyzer log: *Element key=mtch is not a modifier; testing it as an attribute. Did you mean match?* A key with no value that is not a modifier is still an error.
+
+**NEW 4.2.29**
+
 ## See Also
 
 [Grammar Region](NLP_PP_Stuff/Grammar_Region.md)
