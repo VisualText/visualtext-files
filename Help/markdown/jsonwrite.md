@@ -40,7 +40,11 @@ The serialization is:
 | an attribute | a `"name": "value"` member |
 | counted sibling concepts (`item1`, `item2`, ...) | an array under the shared base name, each element carrying an `"id"` |
 
-Two long-standing quirks of the NLP++ original are reproduced exactly, because existing analyzers' output files depend on them: indentation for level *n* is `max(1,n)` steps rather than *n*, and a concept name containing interior digits is split at the wrong place when deciding whether it is a counted sibling.
+Only the digits at the end of a name count: `a1b1`, `a1b2` are the array `a1b` with ids `1` and `2`. Adjacent counted siblings with different base names (`item1`, `item2`, `thing1`) make separate arrays. An all-digit name such as `12` is an ordinary object.
+
+One long-standing quirk of the NLP++ original is reproduced exactly, because existing analyzers' output files depend on it: indentation for level *n* is `max(1,n)` steps rather than *n*.
+
+**FIXED 4.2.37:** an array followed by a plain sibling (`item1`, `item2`, `name`) was written with a stray `}` and no comma after the `]`, so the file was not JSON. Adjacent arrays with different base names were merged into one, an array element with no attributes or children ended in a trailing comma, and a name with interior digits was split in the wrong place (`a1b2` became array `a1`, id `12`). `JsonKB` in `KBFuncs.nlp` was fixed the same way, so the two still produce identical output; refresh an analyzer's copy of `KBFuncs.nlp` to get it.
 
 ## Example
 
