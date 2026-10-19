@@ -2084,8 +2084,11 @@ if (L("field"))
 	  else if (L("tot") > G("MAX"))	# TRACK AND LIMIT.
 	    {
 		L("del") = G("MAX") - G("LEN");
-		L("xx") = strpiece(L("txt"),0,L("del")-1);
-		L("str") = L("str") + L("xx");
+		if (L("del") > 0)	# A 0 end of -1 would take the whole text.
+		  {
+		  L("xx") = strpiece(L("txt"),0,L("del")-1);
+		  L("str") = L("str") + L("xx");
+		  }
 		G("LEN") = G("MAX");	# TRACK AND LIMIT.
 		return L("str");
 		}
@@ -2140,8 +2143,8 @@ else if (L("ch") != "_" || L("nm") == "_")  # Literal. Alpha, num, punct, etc.
 	else if (L("tot") > G("MAX"))	# HUGE TOKEN!
 	  {
 		L("del") = G("MAX") - G("LEN");
-		L("xx") = strpiece(L("nm"),0,L("del")-1);
-		L("str") = L("xx");
+		if (L("del") > 0)	# A 0 end of -1 would take the whole token.
+		  L("str") = strpiece(L("nm"),0,L("del")-1);
 		G("LEN") = G("MAX");	# TRACK AND LIMIT.
 		return L("str");
 	  }
