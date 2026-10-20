@@ -26,6 +26,8 @@ returnedConcept - type: con
 
 ## Remarks
 
+If **parentConcept** is the top concept of a lazily loaded `…full.kbb` file, getconcept first looks for the name in that file and returns what it finds there, rather than making an empty concept (engine 4.2.39). See [Lazy Loading](vscode/lazyload.md#looking-up-keys-from-any-pass-4239).
+
 All concepts have names (see `makeconcept`) and need to be rooted in the concept hierarchy. This function returns a concept given its name and its parent concept. If the parent concept is bad, an error appears in the log output window. If the parent concept does not have a child concept named conceptNameString, this function creates one with that name. If the parent concept does have a child concept named conceptNamestring, this function returns that concept.
 
 ## Example

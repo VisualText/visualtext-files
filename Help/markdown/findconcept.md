@@ -40,6 +40,8 @@ Numerical version: If a number is passed in instead of a string, the concept wit
 
 ## Remarks
 
+If **parentConcept** is the top concept of a lazily loaded `…full.kbb` file and the name is not in memory yet, findconcept searches that file for it and loads it, with everything under it (engine 4.2.39). With an index instead of a name, it first loads the whole file. See [Lazy Loading](vscode/lazyload.md#looking-up-keys-from-any-pass-4239).
+
 If **parentConcept** is not in the KB, that is, if you don't have a handle on a valid concept, an error is thrown in the output log window: "Arg must be Sem object." If an index is chosen outside of the set of existing concepts, findconcept returns 0.
 
 ## Example

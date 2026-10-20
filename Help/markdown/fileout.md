@@ -26,7 +26,7 @@ Old-style.  Use NLP++ syntax such as
 
 "file.txt" << "hello\n";
 
-to create files in the current output area.  Or, use **openfile** to place files anywhere on your file system.
+to create files in the current output area.  An absolute path is used as given, so `L("f") = G("$apppath") + "/out.txt"; L("f") << "hello\n";` writes to the analyzer folder (engine 4.2.39: it used to write nothing). If the file can't be opened, the engine says so once, in `err.log` and on standard error.  Or, use **openfile** to place files anywhere on your file system.
 
 ## Example
 

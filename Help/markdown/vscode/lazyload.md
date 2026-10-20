@@ -50,6 +50,41 @@ eager one did.
 The attributes arrive on the node either way — a lazily loaded featured dictionary
 still gives a word its `vform`, `tense` and `number`. Only the timing changes.
 
+## Looking up keys from any pass (4.2.39)
+
+A lazily loaded `…full.kbb` answers the ordinary knowledge-base functions in any
+pass, not only during tokenization:
+
+- **[findconcept](../findconcept.md) and [getconcept](../getconcept.md)**: when the
+  parent is the file's top concept and the key is not in memory yet, the engine
+  searches that file for it, loads the key with everything indented under it, and
+  returns it. A name the file doesn't have is remembered, so it is searched once.
+  Names with a space are found whether or not the file quotes them.
+- **[down](../down.md)**: the first call on the file's top concept loads the whole
+  file, so `down` and [next](../next.md) list every key once. That costs what
+  loading the file eagerly would, so scan the keys only when you need all of them.
+  [findconcept](../findconcept.md) with a number does the same.
+
+The tokenizer and [dictfindword](../dictfindword.md) search a `…full.kbb` for every
+word only when it is a dictionary: its top concept is `dictionary` (as in
+`en-full.kbb`), or a `.dict` file with the same name sits beside it (`en-full.kbb`
+with `en-full.dict`). Any other `…full.kbb` is a domain knowledge base, such as
+`en-lemmas-full.kbb`, `en-synonyms-full.kbb` or a code index: look its keys up with
+`findconcept` on its top concept.
+
+```
+@CODE
+L("lemmas") = findconcept(findroot(),"lemmas");    # en-lemmas-full.kbb
+L("con") = findconcept(L("lemmas"),"running");      # loaded now, if not already
+if (L("con"))
+    "out.txt" << strval(L("con"),"root") << "\n";  # run
+@@CODE
+```
+
+Before 4.2.39, `findconcept` found only keys the tokenizer or a `dictfindword` call
+had already loaded, `down` listed only those, and every `…full.kbb` was searched for
+every word and spelling candidate in the input.
+
 ## Loading a KB or dictionary on demand
 
 When only some inputs need a large domain knowledge base or dictionary, you can load it

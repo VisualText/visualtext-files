@@ -24,6 +24,8 @@ First child concept.
 
 ## Remarks
 
+If currentConcept is the top concept of a lazily loaded `…full.kbb` file, the first call loads the whole file, so down and [next](next.md) see every key in it, not only those already looked up (engine 4.2.39). See [Lazy Loading](vscode/lazyload.md#looking-up-keys-from-any-pass-4239).
+
 If currentConcept is a bad concept, a warning is written to output log. If there is no child of currentConcept, a warning is written to the output log.
 
 ## Example
