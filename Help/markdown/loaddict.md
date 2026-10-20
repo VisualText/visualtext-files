@@ -32,6 +32,8 @@ A `.dict` file uses the flat `word attr=val ...` format, one word per line (see 
 
 A `#` outside a quoted string starts a comment, and the engine skips the whole line, including any entry before the `#`. Put comments on lines of their own: `beta pos=verb # a comment` adds nothing for `beta`.
 
+Lines and values can be any length. Before engine 4.2.38 a line of 2,048 or more characters was skipped, with a message in `cgerr.log` only, and a quoted value of 512 or more characters crashed the engine.
+
 To load an indented hierarchy file instead, use [loadkbb](loadkbb.md).
 
 ## Example
