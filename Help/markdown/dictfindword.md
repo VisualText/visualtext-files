@@ -24,6 +24,8 @@ Handle to the word concept if *wordString* is found in the dictionary, NULL othe
 
 ## Remarks
 
+Among lazily loaded `…full.kbb` files, dictfindword searches only dictionaries: a file whose top concept is `dictionary`, or one with a same-named `.dict` file beside it. Before engine 4.2.39 it searched every `…full.kbb`, so it also found keys of a domain knowledge base such as `en-synonyms-full.kbb`; use [findconcept](findconcept.md) on that file's top concept instead. See [Lazy Loading](vscode/lazyload.md#looking-up-keys-from-any-pass-4239).
+
 The dictionary is a specialized part of the KB hierarchy used to store and lookup word forms. You can see it with the KB editor, under **concept > sys > dict**.
 
 ## Example
