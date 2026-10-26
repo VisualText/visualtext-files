@@ -37,6 +37,7 @@ the logic is human-written code you can read, [test](testing.md), and ship.
 - **[Compiling Analyzers](compiling.md)** — turn an analyzer (and/or its knowledge base) into a fast compiled C++ library.
 - **[Regression Testing](testing.md)** — set up golden-file regression tests so you catch changes in your analyzer's output.
 - **[Lazy Loading](lazyload.md)** — keep startup fast and memory low by loading knowledge-base data only when it's needed.
+- **[Large Files](largefiles.md)** — analyze large inputs one zone at a time (forms, sections, paragraphs) with zone mode, and keep large dictionaries and KBs fast with lazy loading.
 
 ## What's new — Version Notes
 
