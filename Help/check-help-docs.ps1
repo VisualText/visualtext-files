@@ -10,6 +10,7 @@
   Reports:
     1.  Broken links     - any ](*.md) reference in the corpus that does not resolve.
     1b. Broken images    - any ![..](img) reference that does not resolve.
+    1c. Help view tree   - vscode/help-tree.json pages that do not exist.
     2.  Orphaned pages   - *.md files not referenced from index.md (legacy candidates).
     3.  Table/index drift- pages linked from a Table_of_* but absent from index.md.
     4.  Engine coverage  - (info) engine function/action names with no help page.
@@ -74,6 +75,34 @@ foreach ($f in $allMd) {
 }
 Write-Host "`n== 1b. Broken image links ($($brokenImg.Count)) ==" -ForegroundColor Cyan
 $brokenImg | Sort-Object | ForEach-Object { Write-Host "   $_" }
+
+# --- 1c. Help view tree (vscode/help-tree.json) --------------------------------
+# The VSCode extension builds its Help view from this file, so every page it
+# names must exist and every source must be one the extension knows.
+$treeErr = @()
+$treePath = Join-Path $HelpDir 'vscode\help-tree.json'
+if (Test-Path $treePath) {
+  try {
+    $tree = Get-Content $treePath -Raw | ConvertFrom-Json
+    $stack = New-Object System.Collections.Stack
+    foreach ($it in @($tree.items)) { $stack.Push($it) }
+    while ($stack.Count -gt 0) {
+      $it = $stack.Pop()
+      if (-not $it.label) { $treeErr += 'item with no label'; continue }
+      if ($it.page -and -not (Test-Path (Join-Path $HelpDir ($it.page + '.md')))) {
+        $treeErr += '{0}  ->  {1}.md' -f $it.label, $it.page
+      }
+      if ($it.source -and ($it.source -notin @('prompts','links','announcements','versions'))) {
+        $treeErr += '{0}  ->  unknown source "{1}"' -f $it.label, $it.source
+      }
+      foreach ($c in @($it.children)) { if ($c) { $stack.Push($c) } }
+    }
+  } catch {
+    $treeErr += "invalid JSON: $($_.Exception.Message)"
+  }
+}
+Write-Host "`n== 1c. Help view tree errors ($($treeErr.Count)) ==" -ForegroundColor Cyan
+$treeErr | ForEach-Object { Write-Host "   $_" }
 
 # --- 2. Orphaned flat pages (not referenced from index.md) --------------------
 $flat = $allMd | Where-Object { $_.DirectoryName -eq $HelpDir -and $_.Name -ne 'index.md' }
@@ -170,6 +199,6 @@ if ($Images) {
 }
 
 Write-Host "`n--- summary ---" -ForegroundColor Green
-Write-Host ("broken links: {0}   broken images: {1}   orphaned pages: {2}   table/index drift: {3}" -f $broken.Count, $brokenImg.Count, $orphans.Count, $tableDrift.Count)
-# Exit non-zero on hard errors (broken .md links / broken images / table-index drift) so it can gate CI.
-if (($broken.Count + $brokenImg.Count + $tableDrift.Count) -gt 0) { exit 1 } else { exit 0 }
+Write-Host ("broken links: {0}   broken images: {1}   help tree: {2}   orphaned pages: {3}   table/index drift: {4}" -f $broken.Count, $brokenImg.Count, $treeErr.Count, $orphans.Count, $tableDrift.Count)
+# Exit non-zero on hard errors (broken .md links / broken images / help tree / table-index drift) so it can gate CI.
+if (($broken.Count + $brokenImg.Count + $treeErr.Count + $tableDrift.Count) -gt 0) { exit 1 } else { exit 0 }
