@@ -1,0 +1,42 @@
+{
+  "_comment": [
+    "The VSCode Help view tree. The NLP extension reads this file, so adding or",
+    "reordering a help page needs only an edit here -- no extension release.",
+    "Each item: label (required), icon (a VSCode codicon name), and one of:",
+    "  page     - a markdown page under Help/markdown/, without .md",
+    "  url      - an external link opened in the browser",
+    "  children - a list of items (a collapsible folder)",
+    "  source   - a folder filled from files on disk: prompts, links,",
+    "             announcements, or versions",
+    "Optional: tooltip (hover text), expanded (folder starts open).",
+    "Help/check-help-docs.ps1 fails if a page here does not exist."
+  ],
+  "items": [
+    { "label": "Home", "page": "vscode/home", "icon": "home" },
+    { "label": "NLP++ Textbook", "page": "NLP++_Textbook", "icon": "book" },
+    { "label": "Quick Start", "page": "vscode/quickstart", "icon": "rocket" },
+    { "label": "LLM Prompts", "icon": "comment-discussion", "source": "prompts" },
+    { "label": "Regression Testing", "page": "vscode/testing", "icon": "beaker" },
+    { "label": "Compiling Analyzers", "page": "vscode/compiling", "icon": "gear" },
+    { "label": "Lazy Loading", "page": "vscode/lazyload", "icon": "symbol-array" },
+    { "label": "Large Files", "page": "vscode/largefiles", "icon": "file-binary" },
+    {
+      "label": "NLP++", "icon": "symbol-namespace",
+      "children": [
+        { "label": "About NLP++", "page": "NLP_PP_Stuff/About_NLP++", "icon": "book" },
+        { "label": "Variables", "page": "NLP_PP_Stuff/About_NLP++_Variables", "icon": "symbol-variable" },
+        { "label": "Tokens", "page": "NLP_PP_Stuff/Tokens", "icon": "symbol-key" },
+        { "label": "String Functions", "page": "Table_of_String_Functions", "icon": "symbol-string" },
+        { "label": "Node / Parse Tree Functions", "page": "Table_of_Parse_Tree_Functions", "icon": "list-tree" },
+        { "label": "Knowledge Base Functions", "page": "Table_of_Knowledge_Base_Functions", "icon": "database" },
+        { "label": "Math Functions", "page": "Table_of_Math_Functions", "icon": "symbol-operator" },
+        { "label": "Array Functions", "page": "Table_of_Array_Functions", "icon": "symbol-array" },
+        { "label": "Formatting & I/O Functions", "page": "Table_of_Formatting_and_I_O_Functions", "icon": "output" },
+        { "label": "Special Functions", "page": "Table_of_Special_Functions", "icon": "symbol-misc" }
+      ]
+    },
+    { "label": "Helpful Links", "icon": "link", "source": "links" },
+    { "label": "Announcements", "icon": "megaphone", "source": "announcements", "expanded": true },
+    { "label": "Version Notes", "icon": "history", "source": "versions", "expanded": true }
+  ]
+}
