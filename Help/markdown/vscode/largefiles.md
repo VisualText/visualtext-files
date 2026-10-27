@@ -60,16 +60,50 @@ How it works:
   file to file in a folder run. Node offsets count from the start of the document,
   and there is one set of output files.
 - **Let the tree go.** After its passes a zone keeps its node, attributes and span,
-  and the tree under it is freed. Memory goes by the **largest zone**, not the
-  document. While a zone runs, the other zones are hidden, earlier ones included.
+  and the tree under it is freed. While a zone runs, the other zones are hidden,
+  earlier ones included.
 - **Wrap up.** The passes after an `endzone` line run once, after the last zone, on
   the zone nodes and the whole KB. Put whole-document work there: totals, a summary,
   dumping the KB.
 
-On *Pride and Prejudice* (738 KB) with parse-en-us zoned by paragraph
-(`_TEXTZONE`), peak memory went from 473 MB to 153 MB, time from 275 to 283
-seconds, 99.995% of words got the same part-of-speech tag, and the KB at the end
-was byte-identical.
+### What memory goes by
+
+Peak memory in zone mode is the larger of two things:
+
+- **The skim tree.** The passes before the `zone` line build a tree of the whole
+  document, at least its tokens, and that tree exists before any zone runs. Zones
+  cannot free it. Keep the skim passes few and cheap.
+- **The largest zone.** Each zone's full tree exists only while its passes run.
+
+So zone mode only works as well as the skim divides the document. Look at the zone
+spans in `final.tree`: if one zone covers most of the document, that zone is
+analyzed whole and memory is barely lower than without zones.
+
+parse-en-us runs in zone mode by default from v1.1.5, one zone per paragraph
+(`_TEXTZONE`). On two novels, peak memory and time:
+
+| Book | Without zones | Zoned |
+|---|---|---|
+| *Pride and Prejudice*, 738 KB, 127,360 words | 473 MB, 275 s | 153 MB, 283 s |
+| *War and Peace*, 3.3 MB, 563,286 words | 1,910 MB, 1,120 s | 455 MB, 1,106 s |
+
+Zoning takes about the same time either way. *War and Peace* ran on a 32-bit
+build, whose limit is 2 GB: without zones it used almost all of it, so a somewhat
+longer book would have failed, while zoned it used under a quarter. Its final
+tree went from 345 MB to 1.3 MB.
+
+On *Pride and Prejudice*, 99.995% of words got the same part-of-speech tag and the
+KB at the end was byte-identical. On *War and Peace*, 97.5% did; the changes go
+both ways, and the zoned run leaves fewer words UNKNOWN (1.6% against 2.1%).
+*War and Peace* is about 4.4 times longer, so its skim tree is too, and that, not
+its paragraphs, sets its 455 MB.
+
+*War and Peace* also showed the cost of one oversized zone. In parse-en-us before
+v1.1.6, a line starting `1.` inside running text (Tolstoy's list of the seven
+Freemason virtues) began a zone that ran to the end of the book: 2.3 MB, 71% of it.
+Zoned, memory fell only to 776 MB. The same huge "paragraph" had also left 18% of
+the book's words tagged UNKNOWN, with or without zones. With the zone stopping at
+the next paragraph, the largest zone is 4.4 KB and 1.6% of words are UNKNOWN.
 
 ### Example: one zone per form
 
@@ -150,8 +184,9 @@ makes the cover page a `_form` of its own.
   `final.tree` shows the zone nodes.
 - **No zones found.** If the skim builds no node of the zone type, the passes after
   the `zone` line run on the whole document, and a warning says so.
-- **Compiled analyzers** ignore the `zone` and `endzone` lines and run every pass on
-  the whole document.
+- **Compiled analyzers** run zones the same way, from engine 4.2.49. Before that
+  they ignored the `zone` and `endzone` lines and ran every pass on the whole
+  document.
 
 ### Splitting a file into pieces
 
@@ -217,6 +252,7 @@ covers this in full; in short:
 |---|---|
 | is a few hundred KB or less | nothing: run it whole |
 | has parts that stand alone (forms, sections, paragraphs) | zone mode: a skim pass, `zone _part`, `endzone` |
+| is zoned but memory barely drops | look in `final.tree` for one zone covering most of the document, and fix the skim |
 | comes as many files, or must be split | stream the pieces through `-STDIN` |
 | might hit a looping rule or run too long | `-TIMELIMIT`; the rec pass limit is on by default |
 | uses a large dictionary or KB | name it `…full.dict` / `…full.kbb`; look keys up with `findconcept` |
