@@ -38,6 +38,7 @@ the logic is human-written code you can read, [test](testing.md), and ship.
 - **[Regression Testing](testing.md)** — set up golden-file regression tests so you catch changes in your analyzer's output.
 - **[Lazy Loading](lazyload.md)** — keep startup fast and memory low by loading knowledge-base data only when it's needed.
 - **[Large Files](largefiles.md)** — analyze large inputs one zone at a time (forms, sections, paragraphs) with zone mode, and keep large dictionaries and KBs fast with lazy loading.
+- **[Command Line](commandline.md)** — every `nlp.exe` switch, the exit codes, and examples for running an analyzer from a terminal, a script or CI.
 
 ## What's new — Version Notes
 

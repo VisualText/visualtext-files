@@ -96,7 +96,10 @@ to a topic.
         - [$passnum]($passnum.md)
         - [$rulenum]($rulenum.md)
       - **Run Mode Variables**
+        - [$datum]($datum.md)
         - [$dev]($dev.md)
+        - [$isfirstzone]($isfirstzone.md)
+        - [$islastzone]($islastzone.md)
         - [$os]($os.md)
         - [$silent]($silent.md)
       - **Test Variables**
@@ -613,7 +616,7 @@ above. They are grouped here so that every page remains reachable from this inde
 
 ### Run Mode Variables
 
-[$dev]($dev.md) &nbsp;|&nbsp; [$os]($os.md) &nbsp;|&nbsp; [$silent]($silent.md)
+[$datum]($datum.md) &nbsp;|&nbsp; [$dev]($dev.md) &nbsp;|&nbsp; [$isfirstzone]($isfirstzone.md) &nbsp;|&nbsp; [$islastzone]($islastzone.md) &nbsp;|&nbsp; [$os]($os.md) &nbsp;|&nbsp; [$silent]($silent.md)
 
 ### Control Flow Keywords
 

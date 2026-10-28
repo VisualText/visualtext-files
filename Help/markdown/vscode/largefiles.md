@@ -321,6 +321,7 @@ covers this in full; in short:
 ## See also
 
 [Lazy Loading](lazyload.md) &nbsp;|&nbsp;
+[Command Line](commandline.md) &nbsp;|&nbsp;
 [The analyzer sequence](../VisualText_Basics/About_the_analyzer_sequence.md) &nbsp;|&nbsp;
 [Special variables](../NLP_PP_Stuff/Special_Variables.md) &nbsp;|&nbsp;
 [$isfirstfile](../$isfirstfile.md) &nbsp;|&nbsp; [$islastfile](../$islastfile.md) &nbsp;|&nbsp;
