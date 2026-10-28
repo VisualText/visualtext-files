@@ -181,12 +181,40 @@ makes the cover page a `_form` of its own.
 - **Debugging.** With `-DEV`, the first three zones write their pass trees as
   `z001-ana040.tree`, `z002-ana040.tree` and so on; later zones write none, which
   keeps a run over thousands of zones from writing hundreds of thousands of files.
-  `final.tree` shows the zone nodes.
+  `final.tree` shows the zone nodes. To debug a later zone, run just that zone with
+  `-ZONES` (below).
 - **No zones found.** If the skim builds no node of the zone type, the passes after
   the `zone` line run on the whole document, and a warning says so.
 - **Compiled analyzers** run zones the same way, from engine 4.2.49. Before that
   they ignored the `zone` and `endzone` lines and ran every pass on the whole
   document.
+
+### Running only some zones (engine 4.2.50)
+
+When one part of a large document goes wrong, rerun only that part. `-ZONES` names
+the zones to run:
+
+```
+nlp -ANA parse-en-us -ZONES 4100-4104 -DEV wp.txt
+```
+
+- **Which zones.** A zone number (`-ZONES 7`), a range (`40-45`) or a list
+  (`3,40-45`). Zones count from 1 in document order: zone 40 is the 40th zone node
+  in `final.tree`, and its pass trees are named `z040-ana###.tree`.
+- **The other zones** get only the skim passes. The passes after `endzone` still run.
+  `$isfirstzone` and `$islastzone` mark the first and last zone that runs, so
+  per-document setup and wrap-up code still works.
+- **With `-DEV`**, every zone that runs writes its pass trees, not only the first
+  three, so you can step through the trees of the zone you care about.
+- **It is quick.** The skim and the analyzer load still cover the whole document,
+  but nothing else does. On *War and Peace*, five zones took 27 seconds, against
+  18 minutes for the whole book (117 seconds with `-DEV`).
+- **Not quite a full run.** The KB and `G()` start without what the skipped zones
+  would have added, so a zone whose analysis depends on earlier zones can come out
+  differently. Check a fix with a full run before you rely on it.
+
+`stderr` says how many zones ran, and a spec that is not zone numbers, such as
+`3-1`, stops the run with an error.
 
 ### Splitting a file into pieces
 
@@ -253,6 +281,7 @@ covers this in full; in short:
 | is a few hundred KB or less | nothing: run it whole |
 | has parts that stand alone (forms, sections, paragraphs) | zone mode: a skim pass, `zone _part`, `endzone` |
 | is zoned but memory barely drops | look in `final.tree` for one zone covering most of the document, and fix the skim |
+| goes wrong in one part, and a full run is slow | rerun that part with `-ZONES 40-45 -DEV` |
 | comes as many files, or must be split | stream the pieces through `-STDIN` |
 | might hit a looping rule or run too long | `-TIMELIMIT`; the rec pass limit is on by default |
 | uses a large dictionary or KB | name it `…full.dict` / `…full.kbb`; look keys up with `findconcept` |
