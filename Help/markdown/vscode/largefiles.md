@@ -28,6 +28,38 @@ analyzer can exhaust memory.
 The largest input the engine accepts is **2,000,000,000 bytes**, on every
 platform. A larger file is refused with a message on stderr.
 
+### When zone mode helps
+
+A single document fits whole further than you might expect. *War and Peace*
+(3.3 MB, 563,286 words) runs through parse-en-us in one tree, in 1.9 GB, even on a
+32-bit build. At about 700 MB per MB of text, a 64-bit machine with 16 GB holds
+roughly 20 MB of text whole. For one document of ordinary length on a 64-bit
+machine, zone mode is insurance, not a necessity.
+
+Zone mode does **not** make a run faster: the same work is done either way
+(*War and Peace*: 1,120 seconds whole, 1,106 zoned). It is not a way to get better
+results either; nearly every word gets the same tag.
+
+What it does buy:
+
+- **Debugging a large document.** `-DEV` writes the whole tree after every pass.
+  Unzoned, *War and Peace*'s tree is 345 MB, and parse-en-us has about 130 passes:
+  some 45 GB of log files, so in practice a book cannot be debugged at all. Zoned,
+  `-DEV` writes trees only for the first three zones, or for the zones you pick.
+- **Rerunning one part.** With `-ZONES` (engine 4.2.50), the part of a document
+  that went wrong reruns alone, with full `-DEV` trees: five zones of *War and
+  Peace* in 27 seconds, against 18 minutes for the book. This is the main reason
+  to zone an analyzer you are still hardening.
+- **Memory when it is short.** Memory goes from the whole document to its skim
+  tree and largest zone: *War and Peace* went from 1,910 MB to 455 MB. That matters
+  when many documents run at once (a server, a batch run in parallel, a Python
+  service), under a memory-limited container or cloud function, or on a 32-bit
+  build.
+- **Documents too big to fit whole.** Tens of MB and up, with a large analyzer:
+  long legal or regulatory filings, logs, concatenated corpora.
+
+If none of these apply, run the document whole.
+
 ### Zone mode (engine 4.2.47)
 
 Zone mode handles a large input the way a person reads one: **skim** it to find its
@@ -60,16 +92,50 @@ How it works:
   file to file in a folder run. Node offsets count from the start of the document,
   and there is one set of output files.
 - **Let the tree go.** After its passes a zone keeps its node, attributes and span,
-  and the tree under it is freed. Memory goes by the **largest zone**, not the
-  document. While a zone runs, the other zones are hidden, earlier ones included.
+  and the tree under it is freed. While a zone runs, the other zones are hidden,
+  earlier ones included.
 - **Wrap up.** The passes after an `endzone` line run once, after the last zone, on
   the zone nodes and the whole KB. Put whole-document work there: totals, a summary,
   dumping the KB.
 
-On *Pride and Prejudice* (738 KB) with parse-en-us zoned by paragraph
-(`_TEXTZONE`), peak memory went from 473 MB to 153 MB, time from 275 to 283
-seconds, 99.995% of words got the same part-of-speech tag, and the KB at the end
-was byte-identical.
+### What memory goes by
+
+Peak memory in zone mode is the larger of two things:
+
+- **The skim tree.** The passes before the `zone` line build a tree of the whole
+  document, at least its tokens, and that tree exists before any zone runs. Zones
+  cannot free it. Keep the skim passes few and cheap.
+- **The largest zone.** Each zone's full tree exists only while its passes run.
+
+So zone mode only works as well as the skim divides the document. Look at the zone
+spans in `final.tree`: if one zone covers most of the document, that zone is
+analyzed whole and memory is barely lower than without zones.
+
+parse-en-us runs in zone mode by default from v1.1.5, one zone per paragraph
+(`_TEXTZONE`). On two novels, peak memory and time:
+
+| Book | Without zones | Zoned |
+|---|---|---|
+| *Pride and Prejudice*, 738 KB, 127,360 words | 473 MB, 275 s | 153 MB, 283 s |
+| *War and Peace*, 3.3 MB, 563,286 words | 1,910 MB, 1,120 s | 455 MB, 1,106 s |
+
+Zoning takes about the same time either way. *War and Peace* ran on a 32-bit
+build, whose limit is 2 GB: without zones it used almost all of it, so a somewhat
+longer book would have failed, while zoned it used under a quarter. Its final
+tree went from 345 MB to 1.3 MB.
+
+On *Pride and Prejudice*, 99.995% of words got the same part-of-speech tag and the
+KB at the end was byte-identical. On *War and Peace*, 97.5% did; the changes go
+both ways, and the zoned run leaves fewer words UNKNOWN (1.6% against 2.1%).
+*War and Peace* is about 4.4 times longer, so its skim tree is too, and that, not
+its paragraphs, sets its 455 MB.
+
+*War and Peace* also showed the cost of one oversized zone. In parse-en-us before
+v1.1.6, a line starting `1.` inside running text (Tolstoy's list of the seven
+Freemason virtues) began a zone that ran to the end of the book: 2.3 MB, 71% of it.
+Zoned, memory fell only to 776 MB. The same huge "paragraph" had also left 18% of
+the book's words tagged UNKNOWN, with or without zones. With the zone stopping at
+the next paragraph, the largest zone is 4.4 KB and 1.6% of words are UNKNOWN.
 
 ### Example: one zone per form
 
@@ -147,11 +213,40 @@ makes the cover page a `_form` of its own.
 - **Debugging.** With `-DEV`, the first three zones write their pass trees as
   `z001-ana040.tree`, `z002-ana040.tree` and so on; later zones write none, which
   keeps a run over thousands of zones from writing hundreds of thousands of files.
-  `final.tree` shows the zone nodes.
+  `final.tree` shows the zone nodes. To debug a later zone, run just that zone with
+  `-ZONES` (below).
 - **No zones found.** If the skim builds no node of the zone type, the passes after
   the `zone` line run on the whole document, and a warning says so.
-- **Compiled analyzers** ignore the `zone` and `endzone` lines and run every pass on
-  the whole document.
+- **Compiled analyzers** run zones the same way, from engine 4.2.49. Before that
+  they ignored the `zone` and `endzone` lines and ran every pass on the whole
+  document.
+
+### Running only some zones (engine 4.2.50)
+
+When one part of a large document goes wrong, rerun only that part. `-ZONES` names
+the zones to run:
+
+```
+nlp -ANA parse-en-us -ZONES 4100-4104 -DEV wp.txt
+```
+
+- **Which zones.** A zone number (`-ZONES 7`), a range (`40-45`) or a list
+  (`3,40-45`). Zones count from 1 in document order: zone 40 is the 40th zone node
+  in `final.tree`, and its pass trees are named `z040-ana###.tree`.
+- **The other zones** get only the skim passes. The passes after `endzone` still run.
+  `$isfirstzone` and `$islastzone` mark the first and last zone that runs, so
+  per-document setup and wrap-up code still works.
+- **With `-DEV`**, every zone that runs writes its pass trees, not only the first
+  three, so you can step through the trees of the zone you care about.
+- **It is quick.** The skim and the analyzer load still cover the whole document,
+  but nothing else does. On *War and Peace*, five zones took 27 seconds, against
+  18 minutes for the whole book (117 seconds with `-DEV`).
+- **Not quite a full run.** The KB and `G()` start without what the skipped zones
+  would have added, so a zone whose analysis depends on earlier zones can come out
+  differently. Check a fix with a full run before you rely on it.
+
+`stderr` says how many zones ran, and a spec that is not zone numbers, such as
+`3-1`, stops the run with an error.
 
 ### Splitting a file into pieces
 
@@ -215,8 +310,10 @@ covers this in full; in short:
 
 | The input... | Do this |
 |---|---|
-| is a few hundred KB or less | nothing: run it whole |
-| has parts that stand alone (forms, sections, paragraphs) | zone mode: a skim pass, `zone _part`, `endzone` |
+| fits in memory, runs alone, and needs no debugging piece by piece | nothing: run it whole |
+| is large and has parts that stand alone (forms, sections, paragraphs), and you need to debug it, run many at once, or save memory | zone mode: a skim pass, `zone _part`, `endzone` |
+| is zoned but memory barely drops | look in `final.tree` for one zone covering most of the document, and fix the skim |
+| goes wrong in one part, and a full run is slow | rerun that part with `-ZONES 40-45 -DEV` |
 | comes as many files, or must be split | stream the pieces through `-STDIN` |
 | might hit a looping rule or run too long | `-TIMELIMIT`; the rec pass limit is on by default |
 | uses a large dictionary or KB | name it `…full.dict` / `…full.kbb`; look keys up with `findconcept` |
