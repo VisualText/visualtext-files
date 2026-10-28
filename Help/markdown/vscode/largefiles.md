@@ -28,6 +28,38 @@ analyzer can exhaust memory.
 The largest input the engine accepts is **2,000,000,000 bytes**, on every
 platform. A larger file is refused with a message on stderr.
 
+### When zone mode helps
+
+A single document fits whole further than you might expect. *War and Peace*
+(3.3 MB, 563,286 words) runs through parse-en-us in one tree, in 1.9 GB, even on a
+32-bit build. At about 700 MB per MB of text, a 64-bit machine with 16 GB holds
+roughly 20 MB of text whole. For one document of ordinary length on a 64-bit
+machine, zone mode is insurance, not a necessity.
+
+Zone mode does **not** make a run faster: the same work is done either way
+(*War and Peace*: 1,120 seconds whole, 1,106 zoned). It is not a way to get better
+results either; nearly every word gets the same tag.
+
+What it does buy:
+
+- **Debugging a large document.** `-DEV` writes the whole tree after every pass.
+  Unzoned, *War and Peace*'s tree is 345 MB, and parse-en-us has about 130 passes:
+  some 45 GB of log files, so in practice a book cannot be debugged at all. Zoned,
+  `-DEV` writes trees only for the first three zones, or for the zones you pick.
+- **Rerunning one part.** With `-ZONES` (engine 4.2.50), the part of a document
+  that went wrong reruns alone, with full `-DEV` trees: five zones of *War and
+  Peace* in 27 seconds, against 18 minutes for the book. This is the main reason
+  to zone an analyzer you are still hardening.
+- **Memory when it is short.** Memory goes from the whole document to its skim
+  tree and largest zone: *War and Peace* went from 1,910 MB to 455 MB. That matters
+  when many documents run at once (a server, a batch run in parallel, a Python
+  service), under a memory-limited container or cloud function, or on a 32-bit
+  build.
+- **Documents too big to fit whole.** Tens of MB and up, with a large analyzer:
+  long legal or regulatory filings, logs, concatenated corpora.
+
+If none of these apply, run the document whole.
+
 ### Zone mode (engine 4.2.47)
 
 Zone mode handles a large input the way a person reads one: **skim** it to find its
@@ -278,8 +310,8 @@ covers this in full; in short:
 
 | The input... | Do this |
 |---|---|
-| is a few hundred KB or less | nothing: run it whole |
-| has parts that stand alone (forms, sections, paragraphs) | zone mode: a skim pass, `zone _part`, `endzone` |
+| fits in memory, runs alone, and needs no debugging piece by piece | nothing: run it whole |
+| is large and has parts that stand alone (forms, sections, paragraphs), and you need to debug it, run many at once, or save memory | zone mode: a skim pass, `zone _part`, `endzone` |
 | is zoned but memory barely drops | look in `final.tree` for one zone covering most of the document, and fix the skim |
 | goes wrong in one part, and a full run is slow | rerun that part with `-ZONES 40-45 -DEV` |
 | comes as many files, or must be split | stream the pieces through `-STDIN` |
