@@ -52,9 +52,12 @@ A consolidated table of NLP++ special variables is provided below. Each item in 
 | [**$dev**](../$dev.md) | G | Check if the engine was run with **-DEV**. Returns 1 under -DEV, else 0. Use it to gate an analyzer's own diagnostic passes on what the caller asked for. **NEW 3.8.4** |
 | [**$os**](../$os.md) | G | Operating system the engine runs on: `windows`, `linux` or `macos`. **NEW 4.2.15** |
 | [**$silent**](../$silent.md) | G | Check if the engine was run with **-SILENT**. Returns 1 under -SILENT, else 0. Note -SILENT also suppresses the analyzer's own output files. **NEW 3.8.4** |
+| [**$datum**](../$datum.md) | G | The string passed with **-DATUM** (or `datum=` from Python or Node.js), such as the output format the caller wants; 0 if none. |
 | [**$isdirrun**](../$isdirrun.md) | G | Check if the engine is processing a directory of files instead of an individual file. Returns 1 if it is analyzing a directory, else 0. **NEW 1.26.0** |
 | [**$isfirstfile**](../$isfirstfile.md) | G | Check if is first file processed in a directory. Returns 1 if it is the first file, else 0. **NEW 1.24.0** |
 | [**$islastfile**](../$islastfile.md) | G | Check if is last file processed in a directory. Returns 1 if it is the last file, else 0. **NEW 1.24.0** |
+| [**$isfirstzone**](../$isfirstzone.md) | G | In zone mode, 1 while the first zone runs, else 0. **NEW 4.2.47** |
+| [**$islastzone**](../$islastzone.md) | G | In zone mode, 1 while the last zone runs, else 0. **NEW 4.2.47** |
 | [**$allcaps**](../$allcaps.md) [**$uppercase**](../$uppercase.md) | **N** | Check if token underlying node is all uppercase. Returns 1 if token is all uppercase. If multiple words (even if all are all-caps), returns 0. WARN: Not identical to the **uppercase**() PRE Action. |
 | [**$lowercase**](../$lowercase.md) | **N** | Check if token underlying node is all lowercase. Returns 1 if token is all lowercase If multiple words (even if all are all-caps), returns 0. WARN: Not identical to the **lowercase**() PRE Action. |
 | [**$cap**](../$cap.md) | **N** | Check if token underlying node is a capitalized word. Returns 1 if token is a capitalized word. WARN: Not identical to the **cap**() PRE Action. |

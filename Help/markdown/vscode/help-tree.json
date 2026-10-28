@@ -20,6 +20,7 @@
     { "label": "Compiling Analyzers", "page": "vscode/compiling", "icon": "gear" },
     { "label": "Lazy Loading", "page": "vscode/lazyload", "icon": "symbol-array" },
     { "label": "Large Files", "page": "vscode/largefiles", "icon": "file-binary" },
+    { "label": "Command Line", "page": "vscode/commandline", "icon": "terminal" },
     {
       "label": "NLP++", "icon": "symbol-namespace",
       "children": [
