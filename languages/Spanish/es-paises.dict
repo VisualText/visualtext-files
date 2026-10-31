@@ -1,0 +1,379 @@
+# Nombres de países en español.
+# Una línea por forma: el nombre canónico (RAE / Fundéu) y sus variantes de uso
+# común (formas latinoamericanas, antiguas, oficiales largas o en otra grafía).
+#   pais=1         toda entrada
+#   sin=1          variante o sinónimo del nombre canónico
+#   raiz=          nombre canónico de una variante
+#   iso2= iso3=    códigos ISO 3166-1, los mismos de en-countries.dict
+#   noiso=1        no es un país ISO 3166-1 (ver abajo)
+# "corea" (kr) y "congo" (cg) son entradas propias, como "korea" y "congo" en
+# en-countries.dict.  Cinco entradas no son países ISO y llevan noiso=1:
+# inglaterra, escocia, gales e irlanda del norte (con los códigos gb/gbr del
+# Reino Unido) y kosovo (xk/xkx, el código de uso común); existen para que
+# cada pais= de es-nacionalidades.dict tenga su entrada aquí.
+# Generado por python/gen_geo_es.py: no editar a mano.
+afganistán pais=1 iso2=af iso3=afg pos=s
+albania pais=1 iso2=al iso3=alb pos=s
+alemania pais=1 iso2=de iso3=deu pos=s
+andorra pais=1 iso2=ad iso3=and pos=s
+angola pais=1 iso2=ao iso3=ago pos=s
+anguila pais=1 iso2=ai iso3=aia pos=s
+anguilla pais=1 sin=1 iso2=ai iso3=aia raiz=anguila pos=s
+antigua y barbuda pais=1 iso2=ag iso3=atg pos=s
+antártica pais=1 sin=1 iso2=aq iso3=ata raiz=antártida pos=adj
+antártida pais=1 iso2=aq iso3=ata pos=s
+arabia saudita pais=1 sin=1 iso2=sa iso3=sau raiz="arabia saudí" pos=s
+arabia saudí pais=1 iso2=sa iso3=sau pos=s
+argelia pais=1 iso2=dz iso3=dza pos=s
+argentina pais=1 iso2=ar iso3=arg pos=adj
+argentina pos=s
+armenia pais=1 iso2=am iso3=arm pos=adj
+armenia pos=s
+aruba pais=1 iso2=aw iso3=abw pos=s
+australia pais=1 iso2=au iso3=aus pos=s
+austria pais=1 iso2=at iso3=aut pos=s
+azerbaiyán pais=1 iso2=az iso3=aze pos=s
+bahamas pais=1 iso2=bs iso3=bhs pos=s
+bahrein pais=1 sin=1 iso2=bh iso3=bhr raiz=baréin pos=s
+bahréin pais=1 sin=1 iso2=bh iso3=bhr raiz=baréin pos=s
+bangladesh pais=1 sin=1 iso2=bd iso3=bgd raiz=bangladés pos=s
+bangladés pais=1 iso2=bd iso3=bgd pos=s
+barbados pais=1 iso2=bb iso3=brb pos=v
+baréin pais=1 iso2=bh iso3=bhr pos=s
+belarús pais=1 sin=1 iso2=by iso3=blr raiz=bielorrusia pos=s
+belice pais=1 iso2=bz iso3=blz pos=s
+benín pais=1 iso2=bj iso3=ben pos=s
+bermuda pais=1 sin=1 iso2=bm iso3=bmu raiz=bermudas pos=s
+bermudas pais=1 iso2=bm iso3=bmu pos=adj
+bermudas pos=s
+bielorrusia pais=1 iso2=by iso3=blr pos=s
+birmania pais=1 iso2=mm iso3=mmr pos=s
+bolivia pais=1 iso2=bo iso3=bol pos=s
+bonaire, san eustaquio y saba pais=1 iso2=bq iso3=bes pos=s
+bosnia pais=1 sin=1 iso2=ba iso3=bih raiz="bosnia y herzegovina" pos=adj
+bosnia pos=s
+bosnia y herzegovina pais=1 iso2=ba iso3=bih pos=s
+bosnia-herzegovina pais=1 sin=1 iso2=ba iso3=bih raiz="bosnia y herzegovina" pos=s
+botsuana pais=1 iso2=bw iso3=bwa pos=s
+botswana pais=1 sin=1 iso2=bw iso3=bwa raiz=botsuana pos=adj
+brasil pais=1 iso2=br iso3=bra pos=s
+brunei pais=1 sin=1 iso2=bn iso3=brn raiz=brunéi pos=s
+brunei darussalam pais=1 sin=1 iso2=bn iso3=brn raiz=brunéi pos=s
+brunéi pais=1 iso2=bn iso3=brn pos=s
+brunéi darusalam pais=1 sin=1 iso2=bn iso3=brn raiz=brunéi pos=s
+bulgaria pais=1 iso2=bg iso3=bgr pos=s
+burkina faso pais=1 iso2=bf iso3=bfa pos=s
+burundi pais=1 iso2=bi iso3=bdi pos=s
+bután pais=1 iso2=bt iso3=btn pos=s
+bélgica pais=1 iso2=be iso3=bel pos=s
+cabo verde pais=1 iso2=cv iso3=cpv pos=s
+camboya pais=1 iso2=kh iso3=khm pos=s
+camerún pais=1 iso2=cm iso3=cmr pos=s
+canadá pais=1 iso2=ca iso3=can pos=s
+caribe neerlandés pais=1 sin=1 iso2=bq iso3=bes raiz="bonaire, san eustaquio y saba" pos=s
+catar pais=1 iso2=qa iso3=qat pos=v
+chad pais=1 iso2=td iso3=tcd pos=s
+chequia pais=1 iso2=cz iso3=cze pos=s
+chile pais=1 iso2=cl iso3=chl pos=s
+china pais=1 iso2=cn iso3=chn pos=adj
+china pos=s
+chipre pais=1 iso2=cy iso3=cyp pos=s
+ciudad del vaticano pais=1 sin=1 iso2=va iso3=vat raiz="santa sede" pos=s
+colombia pais=1 iso2=co iso3=col pos=s
+comoras pais=1 iso2=km iso3=com pos=s
+congo pais=1 iso2=cg iso3=cog pos=s
+congo-brazzaville pais=1 sin=1 iso2=cg iso3=cog raiz=congo pos=s
+congo-kinsasa pais=1 sin=1 iso2=cd iso3=cod raiz="república democrática del congo" pos=s
+corea pais=1 iso2=kr iso3=kor pos=s
+corea pos=v
+corea del norte pais=1 iso2=kp iso3=prk pos=s
+corea del sur pais=1 iso2=kr iso3=kor pos=s
+costa de marfil pais=1 iso2=ci iso3=civ pos=s
+costa rica pais=1 iso2=cr iso3=cri pos=s
+croacia pais=1 iso2=hr iso3=hrv pos=s
+cuba pais=1 iso2=cu iso3=cub pos=s
+curazao pais=1 iso2=cw iso3=cuw pos=s
+curaçao pais=1 sin=1 iso2=cw iso3=cuw raiz=curazao pos=s
+côte d'ivoire pais=1 sin=1 iso2=ci iso3=civ raiz="costa de marfil" pos=s
+dinamarca pais=1 iso2=dk iso3=dnk pos=s
+djibouti pais=1 sin=1 iso2=dj iso3=dji raiz=yibuti pos=s
+dominica pais=1 iso2=dm iso3=dma pos=adj
+dominica pos=s
+ecuador pais=1 iso2=ec iso3=ecu pos=s
+egipto pais=1 iso2=eg iso3=egy pos=s
+el salvador pais=1 iso2=sv iso3=slv pos=s
+emiratos árabes unidos pais=1 iso2=ae iso3=are pos=s
+eritrea pais=1 iso2=er iso3=eri pos=adj
+eritrea pos=s
+escocia pais=1 noiso=1 iso2=gb iso3=gbr pos=s
+eslovaquia pais=1 iso2=sk iso3=svk pos=s
+eslovenia pais=1 iso2=si iso3=svn pos=s
+españa pais=1 iso2=es iso3=esp pos=s
+estado de palestina pais=1 sin=1 iso2=ps iso3=pse raiz=palestina pos=s
+estado plurinacional de bolivia pais=1 sin=1 iso2=bo iso3=bol raiz=bolivia pos=s
+estados federados de micronesia pais=1 sin=1 iso2=fm iso3=fsm raiz=micronesia pos=s
+estados unidos pais=1 iso2=us iso3=usa pos=s
+estados unidos de américa pais=1 sin=1 iso2=us iso3=usa raiz="estados unidos" pos=s
+estonia pais=1 iso2=ee iso3=est pos=adj
+estonia pos=s
+esuatini pais=1 iso2=sz iso3=swz pos=s
+eswatini pais=1 sin=1 iso2=sz iso3=swz raiz=esuatini pos=s
+etiopía pais=1 iso2=et iso3=eth pos=s
+federación de rusia pais=1 sin=1 iso2=ru iso3=rus raiz=rusia pos=s
+federación rusa pais=1 sin=1 iso2=ru iso3=rus raiz=rusia pos=s
+fiji pais=1 sin=1 iso2=fj iso3=fji raiz=fiyi pos=s
+filipinas pais=1 iso2=ph iso3=phl pos=adj
+filipinas pos=s
+finlandia pais=1 iso2=fi iso3=fin pos=s
+fiyi pais=1 iso2=fj iso3=fji pos=s
+francia pais=1 iso2=fr iso3=fra pos=s
+gabón pais=1 iso2=ga iso3=gab pos=s
+gales pais=1 noiso=1 iso2=gb iso3=gbr pos=s
+gambia pais=1 iso2=gm iso3=gmb pos=s
+georgia pais=1 iso2=ge iso3=geo pos=s
+ghana pais=1 iso2=gh iso3=gha pos=s
+gibraltar pais=1 iso2=gi iso3=gib pos=s
+gran bretaña pais=1 sin=1 iso2=gb iso3=gbr raiz="reino unido" pos=s
+granada pais=1 iso2=gd iso3=grd pos=s
+granada pos=v
+grecia pais=1 iso2=gr iso3=grc pos=s
+groenlandia pais=1 iso2=gl iso3=grl pos=s
+guadalupe pais=1 iso2=gp iso3=glp pos=s
+guam pais=1 iso2=gu iso3=gum pos=s
+guatemala pais=1 iso2=gt iso3=gtm pos=s
+guayana francesa pais=1 iso2=gf iso3=guf pos=s
+guernesey pais=1 sin=1 iso2=gg iso3=ggy raiz=guernsey pos=s
+guernsey pais=1 iso2=gg iso3=ggy pos=s
+guinea pais=1 iso2=gn iso3=gin pos=adj
+guinea pos=s
+guinea bisáu pais=1 sin=1 iso2=gw iso3=gnb raiz="guinea-bisáu" pos=s
+guinea ecuatorial pais=1 iso2=gq iso3=gnq pos=s
+guinea-bissau pais=1 sin=1 iso2=gw iso3=gnb raiz="guinea-bisáu" pos=s
+guinea-bisáu pais=1 iso2=gw iso3=gnb pos=s
+guyana pais=1 iso2=gy iso3=guy pos=s
+haití pais=1 iso2=ht iso3=hti pos=s
+holanda pais=1 sin=1 iso2=nl iso3=nld raiz="países bajos" pos=s
+honduras pais=1 iso2=hn iso3=hnd pos=s
+hong kong pais=1 iso2=hk iso3=hkg pos=s
+hungría pais=1 iso2=hu iso3=hun pos=s
+india pais=1 iso2=in iso3=ind pos=adj
+india pos=s
+indonesia pais=1 iso2=id iso3=idn pos=adj
+indonesia pos=s
+inglaterra pais=1 noiso=1 iso2=gb iso3=gbr pos=s
+irak pais=1 iso2=iq iso3=irq pos=s
+iraq pais=1 sin=1 iso2=iq iso3=irq raiz=irak pos=s
+irlanda pais=1 iso2=ie iso3=irl pos=s
+irlanda del norte pais=1 noiso=1 iso2=gb iso3=gbr pos=s
+irán pais=1 iso2=ir iso3=irn pos=v
+isla bouvet pais=1 iso2=bv iso3=bvt pos=s
+isla de la reunión pais=1 sin=1 iso2=re iso3=reu raiz=reunión pos=s
+isla de man pais=1 iso2=im iso3=imn pos=s
+isla de navidad pais=1 iso2=cx iso3=cxr pos=s
+isla norfolk pais=1 iso2=nf iso3=nfk pos=s
+islandia pais=1 iso2=is iso3=isl pos=s
+islas aland pais=1 sin=1 iso2=ax iso3=ala raiz="islas åland" pos=s
+islas caimán pais=1 iso2=ky iso3=cym pos=s
+islas cocos pais=1 iso2=cc iso3=cck pos=s
+islas cook pais=1 iso2=ck iso3=cok pos=s
+islas falkland pais=1 sin=1 iso2=fk iso3=flk raiz="islas malvinas" pos=s
+islas feroe pais=1 iso2=fo iso3=fro pos=s
+islas georgias del sur y sandwich del sur pais=1 iso2=gs iso3=sgs pos=s
+islas heard y mcdonald pais=1 iso2=hm iso3=hmd pos=s
+islas keeling pais=1 sin=1 iso2=cc iso3=cck raiz="islas cocos" pos=s
+islas malvinas pais=1 iso2=fk iso3=flk pos=s
+islas marianas del norte pais=1 iso2=mp iso3=mnp pos=s
+islas marshall pais=1 iso2=mh iso3=mhl pos=s
+islas pitcairn pais=1 iso2=pn iso3=pcn pos=s
+islas salomón pais=1 iso2=sb iso3=slb pos=s
+islas turcas y caicos pais=1 iso2=tc iso3=tca pos=s
+islas ultramarinas menores de los estados unidos pais=1 iso2=um iso3=umi pos=s
+islas vírgenes británicas pais=1 iso2=vg iso3=vgb pos=s
+islas vírgenes de los estados unidos pais=1 iso2=vi iso3=vir pos=s
+islas åland pais=1 iso2=ax iso3=ala pos=s
+israel pais=1 iso2=il iso3=isr pos=s
+italia pais=1 iso2=it iso3=ita pos=s
+jamaica pais=1 iso2=jm iso3=jam pos=s
+japón pais=1 iso2=jp iso3=jpn pos=s
+jersey pais=1 iso2=je iso3=jey pos=s
+jordania pais=1 iso2=jo iso3=jor pos=s
+kazajistán pais=1 iso2=kz iso3=kaz pos=s
+kazajstán pais=1 sin=1 iso2=kz iso3=kaz raiz=kazajistán pos=s
+kenia pais=1 iso2=ke iso3=ken pos=s
+kenya pais=1 sin=1 iso2=ke iso3=ken raiz=kenia pos=s
+kirguistán pais=1 iso2=kg iso3=kgz pos=s
+kirguizistán pais=1 sin=1 iso2=kg iso3=kgz raiz=kirguistán pos=s
+kiribati pais=1 iso2=ki iso3=kir pos=s
+kosovo pais=1 noiso=1 iso2=xk iso3=xkx pos=s
+kuwait pais=1 iso2=kw iso3=kwt pos=s
+la reunión pais=1 sin=1 iso2=re iso3=reu raiz=reunión pos=s
+laos pais=1 iso2=la iso3=lao pos=s
+lesotho pais=1 sin=1 iso2=ls iso3=lso raiz=lesoto pos=s
+lesoto pais=1 iso2=ls iso3=lso pos=s
+letonia pais=1 iso2=lv iso3=lva pos=adj
+liberia pais=1 iso2=lr iso3=lbr pos=s
+libia pais=1 iso2=ly iso3=lby pos=adj
+libia pos=s
+liechtenstein pais=1 iso2=li iso3=lie pos=s
+lituania pais=1 iso2=lt iso3=ltu pos=s
+luxemburgo pais=1 iso2=lu iso3=lux pos=s
+líbano pais=1 iso2=lb iso3=lbn pos=s
+macao pais=1 iso2=mo iso3=mac pos=s
+macedonia pais=1 sin=1 iso2=mk iso3=mkd raiz="macedonia del norte" pos=adj
+macedonia pos=s
+macedonia del norte pais=1 iso2=mk iso3=mkd pos=s
+madagascar pais=1 iso2=mg iso3=mdg pos=s
+malasia pais=1 iso2=my iso3=mys pos=adj
+malaui pais=1 iso2=mw iso3=mwi pos=s
+malawi pais=1 sin=1 iso2=mw iso3=mwi raiz=malaui pos=s
+maldivas pais=1 iso2=mv iso3=mdv pos=s
+malta pais=1 iso2=mt iso3=mlt pos=s
+malvinas pais=1 sin=1 iso2=fk iso3=flk raiz="islas malvinas" pos=s
+malí pais=1 iso2=ml iso3=mli pos=s
+marruecos pais=1 iso2=ma iso3=mar pos=adj
+marruecos pos=s
+martinica pais=1 iso2=mq iso3=mtq pos=s
+mauricio pais=1 iso2=mu iso3=mus pos=s
+mauritania pais=1 iso2=mr iso3=mrt pos=s
+mayotte pais=1 iso2=yt iso3=myt pos=s
+micronesia pais=1 iso2=fm iso3=fsm pos=adj
+moldavia pais=1 iso2=md iso3=mda pos=s
+moldova pais=1 sin=1 iso2=md iso3=mda raiz=moldavia pos=adj
+mongolia pais=1 iso2=mn iso3=mng pos=s
+montenegro pais=1 iso2=me iso3=mne pos=s
+montserrat pais=1 iso2=ms iso3=msr pos=s
+mozambique pais=1 iso2=mz iso3=moz pos=s
+myanmar pais=1 sin=1 iso2=mm iso3=mmr raiz=birmania pos=s
+méjico pais=1 sin=1 iso2=mx iso3=mex raiz=méxico pos=s
+méxico pais=1 iso2=mx iso3=mex pos=s
+mónaco pais=1 iso2=mc iso3=mco pos=s
+namibia pais=1 iso2=na iso3=nam pos=adj
+namibia pos=s
+nauru pais=1 iso2=nr iso3=nru pos=s
+nepal pais=1 iso2=np iso3=npl pos=s
+nicaragua pais=1 iso2=ni iso3=nic pos=s
+nigeria pais=1 iso2=ng iso3=nga pos=s
+niue pais=1 iso2=nu iso3=niu pos=s
+noruega pais=1 iso2=no iso3=nor pos=adj
+noruega pos=s
+nueva caledonia pais=1 iso2=nc iso3=ncl pos=s
+nueva zelanda pais=1 iso2=nz iso3=nzl pos=s
+nueva zelandia pais=1 sin=1 iso2=nz iso3=nzl raiz="nueva zelanda" pos=s
+níger pais=1 iso2=ne iso3=ner pos=s
+omán pais=1 iso2=om iso3=omn pos=s
+pakistán pais=1 iso2=pk iso3=pak pos=s
+palaos pais=1 iso2=pw iso3=plw pos=s
+palau pais=1 sin=1 iso2=pw iso3=plw raiz=palaos pos=s
+palestina pais=1 iso2=ps iso3=pse pos=adj
+palestina pos=s
+panamá pais=1 iso2=pa iso3=pan pos=s
+papúa nueva guinea pais=1 iso2=pg iso3=png pos=s
+paquistán pais=1 sin=1 iso2=pk iso3=pak raiz=pakistán pos=s
+paraguay pais=1 iso2=py iso3=pry pos=s
+país de gales pais=1 sin=1 noiso=1 iso2=gb iso3=gbr raiz=gales pos=s
+países bajos pais=1 iso2=nl iso3=nld pos=s
+perú pais=1 iso2=pe iso3=per pos=s
+polinesia francesa pais=1 iso2=pf iso3=pyf pos=s
+polonia pais=1 iso2=pl iso3=pol pos=s
+portugal pais=1 iso2=pt iso3=prt pos=s
+puerto rico pais=1 iso2=pr iso3=pri pos=s
+qatar pais=1 sin=1 iso2=qa iso3=qat raiz=catar pos=s
+rd del congo pais=1 sin=1 iso2=cd iso3=cod raiz="república democrática del congo" pos=s
+reino unido pais=1 iso2=gb iso3=gbr pos=s
+reino unido de gran bretaña e irlanda del norte pais=1 sin=1 iso2=gb iso3=gbr raiz="reino unido" pos=s
+república bolivariana de venezuela pais=1 sin=1 iso2=ve iso3=ven raiz=venezuela pos=s
+república centroafricana pais=1 iso2=cf iso3=caf pos=s
+república checa pais=1 sin=1 iso2=cz iso3=cze raiz=chequia pos=s
+república de corea pais=1 sin=1 iso2=kr iso3=kor raiz="corea del sur" pos=s
+república de macedonia del norte pais=1 sin=1 iso2=mk iso3=mkd raiz="macedonia del norte" pos=s
+república de moldavia pais=1 sin=1 iso2=md iso3=mda raiz=moldavia pos=s
+república del congo pais=1 sin=1 iso2=cg iso3=cog raiz=congo pos=s
+república democrática del congo pais=1 iso2=cd iso3=cod pos=s
+república democrática popular lao pais=1 sin=1 iso2=la iso3=lao raiz=laos pos=s
+república dominicana pais=1 iso2=do iso3=dom pos=s
+república islámica de irán pais=1 sin=1 iso2=ir iso3=irn raiz=irán pos=s
+república popular china pais=1 sin=1 iso2=cn iso3=chn raiz=china pos=s
+república popular democrática de corea pais=1 sin=1 iso2=kp iso3=prk raiz="corea del norte" pos=s
+república unida de tanzania pais=1 sin=1 iso2=tz iso3=tza raiz=tanzania pos=s
+república árabe siria pais=1 sin=1 iso2=sy iso3=syr raiz=siria pos=s
+reunión pais=1 iso2=re iso3=reu pos=s
+ruanda pais=1 iso2=rw iso3=rwa pos=s
+rumania pais=1 sin=1 iso2=ro iso3=rou raiz=rumanía pos=s
+rumanía pais=1 iso2=ro iso3=rou pos=s
+rusia pais=1 iso2=ru iso3=rus pos=s
+rwanda pais=1 sin=1 iso2=rw iso3=rwa raiz=ruanda pos=s
+sahara occidental pais=1 iso2=eh iso3=esh pos=s
+saint kitts y nevis pais=1 sin=1 iso2=kn iso3=kna raiz="san cristóbal y nieves" pos=s
+samoa pais=1 iso2=ws iso3=wsm pos=s
+samoa americana pais=1 iso2=as iso3=asm pos=s
+samoa estadounidense pais=1 sin=1 iso2=as iso3=asm raiz="samoa americana" pos=s
+san bartolomé pais=1 iso2=bl iso3=blm pos=s
+san cristóbal y nieves pais=1 iso2=kn iso3=kna pos=s
+san marino pais=1 iso2=sm iso3=smr pos=s
+san martín pais=1 iso2=mf iso3=maf pos=s
+san pedro y miquelón pais=1 iso2=pm iso3=spm pos=s
+san vicente y las granadinas pais=1 iso2=vc iso3=vct pos=s
+santa elena pais=1 sin=1 iso2=sh iso3=shn raiz="santa elena, ascensión y tristán de acuña" pos=s
+santa elena, ascensión y tristán de acuña pais=1 iso2=sh iso3=shn pos=s
+santa lucía pais=1 iso2=lc iso3=lca pos=s
+santa sede pais=1 iso2=va iso3=vat pos=s
+santo tomé y príncipe pais=1 iso2=st iso3=stp pos=s
+senegal pais=1 iso2=sn iso3=sen pos=s
+serbia pais=1 iso2=rs iso3=srb pos=adj
+serbia pos=s
+seychelles pais=1 iso2=sc iso3=syc pos=s
+sierra leona pais=1 iso2=sl iso3=sle pos=s
+singapur pais=1 iso2=sg iso3=sgp pos=s
+sint maarten pais=1 iso2=sx iso3=sxm pos=s
+siria pais=1 iso2=sy iso3=syr pos=adj
+siria pos=s
+somalia pais=1 iso2=so iso3=som pos=s
+sri lanka pais=1 iso2=lk iso3=lka pos=s
+suazilandia pais=1 sin=1 iso2=sz iso3=swz raiz=esuatini pos=s
+sudáfrica pais=1 iso2=za iso3=zaf pos=s
+sudán pais=1 iso2=sd iso3=sdn pos=s
+sudán del sur pais=1 iso2=ss iso3=ssd pos=s
+suecia pais=1 iso2=se iso3=swe pos=s
+suiza pais=1 iso2=ch iso3=che pos=adj
+suiza pos=s
+surinam pais=1 iso2=sr iso3=sur pos=s
+suriname pais=1 sin=1 iso2=sr iso3=sur raiz=surinam pos=s
+svalbard y jan mayen pais=1 iso2=sj iso3=sjm pos=s
+sáhara occidental pais=1 sin=1 iso2=eh iso3=esh raiz="sahara occidental" pos=s
+tailandia pais=1 iso2=th iso3=tha pos=s
+taiwán pais=1 iso2=tw iso3=twn pos=s
+tanzania pais=1 iso2=tz iso3=tza pos=s
+tayikistán pais=1 iso2=tj iso3=tjk pos=s
+territorio británico del océano índico pais=1 iso2=io iso3=iot pos=s
+territorios australes franceses pais=1 sin=1 iso2=tf iso3=atf raiz="tierras australes y antárticas francesas" pos=s
+tierras australes y antárticas francesas pais=1 iso2=tf iso3=atf pos=s
+timor leste pais=1 sin=1 iso2=tl iso3=tls raiz="timor oriental" pos=s
+timor oriental pais=1 iso2=tl iso3=tls pos=s
+timor-leste pais=1 sin=1 iso2=tl iso3=tls raiz="timor oriental" pos=s
+togo pais=1 iso2=tg iso3=tgo pos=s
+tokelau pais=1 iso2=tk iso3=tkl pos=s
+tonga pais=1 iso2=to iso3=ton pos=s
+trinidad y tobago pais=1 iso2=tt iso3=tto pos=s
+turkmenistán pais=1 iso2=tm iso3=tkm pos=s
+turquía pais=1 iso2=tr iso3=tur pos=s
+tuvalu pais=1 iso2=tv iso3=tuv pos=s
+túnez pais=1 iso2=tn iso3=tun pos=s
+türkiye pais=1 sin=1 iso2=tr iso3=tur raiz=turquía pos=s
+ucrania pais=1 iso2=ua iso3=ukr pos=adj
+ucrania pos=s
+uganda pais=1 iso2=ug iso3=uga pos=s
+uruguay pais=1 iso2=uy iso3=ury pos=s
+uzbekistán pais=1 iso2=uz iso3=uzb pos=s
+vanuatu pais=1 iso2=vu iso3=vut pos=s
+vaticano pais=1 sin=1 iso2=va iso3=vat raiz="santa sede" pos=adj
+vaticano pos=s
+venezuela pais=1 iso2=ve iso3=ven pos=s
+viet nam pais=1 sin=1 iso2=vn iso3=vnm raiz=vietnam pos=s
+vietnam pais=1 iso2=vn iso3=vnm pos=s
+wallis y futuna pais=1 iso2=wf iso3=wlf pos=s
+yemen pais=1 iso2=ye iso3=yem pos=s
+yibuti pais=1 iso2=dj iso3=dji pos=s
+zambia pais=1 iso2=zm iso3=zmb pos=s
+zimbabue pais=1 iso2=zw iso3=zwe pos=s
+zimbabwe pais=1 sin=1 iso2=zw iso3=zwe raiz=zimbabue pos=s
+åland pais=1 sin=1 iso2=ax iso3=ala raiz="islas åland" pos=s

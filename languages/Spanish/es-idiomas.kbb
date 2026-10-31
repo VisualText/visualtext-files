@@ -1,0 +1,256 @@
+# Nombres de idiomas en español.
+# Cada idioma canónico lleva sus códigos ISO 639-1 (iso2=) e ISO 639-2/B (iso3=),
+# los mismos de en-languages.kbb, y sus variantes en sinonimo=.  Cada variante es
+# también un concepto propio con sin=1 y raiz= (el nombre canónico).
+# Generado por python/gen_geo_es.py: no editar a mano.
+idiomas
+  abjasio: iso2=ab, iso3=abk, sinonimo=abjaso
+  abjaso: sin=1, raiz=abjasio, iso2=ab, iso3=abk
+  afar: iso2=aa, iso3=aar
+  afrikaans: sin=1, raiz=afrikáans, iso2=af, iso3=afr
+  afrikáans: iso2=af, iso3=afr, sinonimo=afrikaans
+  aimara: iso2=ay, iso3=aym, sinonimo=[aimará,aymara]
+  aimará: sin=1, raiz=aimara, iso2=ay, iso3=aym
+  akan: iso2=ak, iso3=aka
+  albanés: iso2=sq, iso3=alb
+  alemán: iso2=de, iso3=ger
+  amhárico: iso2=am, iso3=amh
+  antiguo eslavo eclesiástico: sin=1, raiz="eslavo eclesiástico", iso2=cu, iso3=chu
+  aragonés: iso2=an, iso3=arg
+  armenio: iso2=hy, iso3=arm
+  asamés: iso2=as, iso3=asm
+  avar: iso2=av, iso3=ava
+  avéstico: iso2=ae, iso3=ave
+  aymara: sin=1, raiz=aimara, iso2=ay, iso3=aym
+  azerbaiyano: sin=1, raiz=azerí, iso2=az, iso3=aze
+  azerí: iso2=az, iso3=aze, sinonimo=azerbaiyano
+  bambara: iso2=bm, iso3=bam
+  bangla: sin=1, raiz=bengalí, iso2=bn, iso3=ben
+  baskir: iso2=ba, iso3=bak
+  bengalí: iso2=bn, iso3=ben, sinonimo=bangla
+  bielorruso: iso2=be, iso3=bel
+  birmano: iso2=my, iso3=bur
+  bislama: iso2=bi, iso3=bis
+  bokmål: sin=1, raiz="noruego bokmål", iso2=nb, iso3=nob
+  bosnio: iso2=bs, iso3=bos
+  bretón: iso2=br, iso3=bre
+  búlgaro: iso2=bg, iso3=bul
+  cachemir: iso2=ks, iso3=kas, sinonimo=[cachemiro,cachemiri]
+  cachemiri: sin=1, raiz=cachemir, iso2=ks, iso3=kas
+  cachemiro: sin=1, raiz=cachemir, iso2=ks, iso3=kas
+  camboyano: sin=1, raiz=jemer, iso2=km, iso3=khm
+  canarés: iso2=kn, iso3=kan, sinonimo=kannada
+  castellano: sin=1, raiz=español, iso2=es, iso3=spa
+  catalán: iso2=ca, iso3=cat, sinonimo=valenciano
+  chamorro: iso2=ch, iso3=cha
+  checheno: iso2=ce, iso3=che
+  checo: iso2=cs, iso3=cze
+  chewa: sin=1, raiz=chichewa, iso2=ny, iso3=nya
+  chichewa: iso2=ny, iso3=nya, sinonimo=[chewa,nyanja]
+  chino: iso2=zh, iso3=chi
+  chuang: iso2=za, iso3=zha, sinonimo=zhuang
+  chuvasio: iso2=cv, iso3=chv
+  cingalés: iso2=si, iso3=sin
+  coreano: iso2=ko, iso3=kor
+  corso: iso2=co, iso3=cos
+  cree: iso2=cr, iso3=cre
+  criollo haitiano: iso2=ht, iso3=hat, sinonimo=haitiano
+  croata: iso2=hr, iso3=hrv
+  córnico: iso2=kw, iso3=cor
+  danés: iso2=da, iso3=dan
+  dhivehi: sin=1, raiz=divehi, iso2=dv, iso3=div
+  divehi: iso2=dv, iso3=div, sinonimo=[dhivehi,maldivo]
+  dzongkha: iso2=dz, iso3=dzo
+  eslavo eclesiástico: iso2=cu, iso3=chu, sinonimo=["eslavo eclesiástico antiguo","antiguo eslavo eclesiástico"]
+  eslavo eclesiástico antiguo: sin=1, raiz="eslavo eclesiástico", iso2=cu, iso3=chu
+  eslovaco: iso2=sk, iso3=slo
+  esloveno: iso2=sl, iso3=slv
+  español: iso2=es, iso3=spa, sinonimo=castellano
+  esperanto: iso2=eo, iso3=epo
+  estonio: iso2=et, iso3=est
+  euskara: sin=1, raiz=euskera, iso2=eu, iso3=baq
+  euskera: iso2=eu, iso3=baq, sinonimo=[vasco,vascuence,euskara]
+  ewe: iso2=ee, iso3=ewe
+  farsi: sin=1, raiz=persa, iso2=fa, iso3=per
+  feroés: iso2=fo, iso3=fao
+  finlandés: sin=1, raiz=finés, iso2=fi, iso3=fin
+  finés: iso2=fi, iso3=fin, sinonimo=finlandés
+  fiyiano: iso2=fj, iso3=fij
+  flamenco: sin=1, raiz=neerlandés, iso2=nl, iso3=dut
+  francés: iso2=fr, iso3=fre
+  frisón: iso2=fy, iso3=fry, sinonimo="frisón occidental"
+  frisón occidental: sin=1, raiz=frisón, iso2=fy, iso3=fry
+  fula: iso2=ff, iso3=ful, sinonimo=[fulani,peul]
+  fulani: sin=1, raiz=fula, iso2=ff, iso3=ful
+  gallego: iso2=gl, iso3=glg
+  galés: iso2=cy, iso3=wel
+  ganda: sin=1, raiz=luganda, iso2=lg, iso3=lug
+  gaélico: sin=1, raiz="gaélico escocés", iso2=gd, iso3=gla
+  gaélico escocés: iso2=gd, iso3=gla, sinonimo=gaélico
+  gaélico irlandés: sin=1, raiz=irlandés, iso2=ga, iso3=gle
+  georgiano: iso2=ka, iso3=geo
+  gikuyu: sin=1, raiz=kikuyu, iso2=ki, iso3=kik
+  griego: iso2=el, iso3=gre
+  groenlandés: iso2=kl, iso3=kal, sinonimo=kalaallisut
+  guaraní: iso2=gn, iso3=grn
+  gujarati: sin=1, raiz=guyaratí, iso2=gu, iso3=guj
+  guyaratí: iso2=gu, iso3=guj, sinonimo=gujarati
+  haitiano: sin=1, raiz="criollo haitiano", iso2=ht, iso3=hat
+  hausa: iso2=ha, iso3=hau
+  hebreo: iso2=he, iso3=heb
+  herero: iso2=hz, iso3=her
+  hindi: iso2=hi, iso3=hin
+  hiri motu: iso2=ho, iso3=hmo
+  holandés: sin=1, raiz=neerlandés, iso2=nl, iso3=dut
+  húngaro: iso2=hu, iso3=hun, sinonimo=magiar
+  ido: iso2=io, iso3=ido
+  igbo: iso2=ig, iso3=ibo
+  indonesio: iso2=id, iso3=ind
+  inglés: iso2=en, iso3=eng
+  interlingua: iso2=ia, iso3=ina
+  interlingue: iso2=ie, iso3=ile, sinonimo=occidental
+  inuktitut: iso2=iu, iso3=iku
+  inupiaq: iso2=ik, iso3=ipk
+  irlandés: iso2=ga, iso3=gle, sinonimo="gaélico irlandés"
+  islandés: iso2=is, iso3=ice
+  italiano: iso2=it, iso3=ita
+  japonés: iso2=ja, iso3=jpn
+  javanés: iso2=jv, iso3=jav
+  jemer: iso2=km, iso3=khm, sinonimo=[camboyano,khmer]
+  kalaallisut: sin=1, raiz=groenlandés, iso2=kl, iso3=kal
+  kannada: sin=1, raiz=canarés, iso2=kn, iso3=kan
+  kanuri: iso2=kr, iso3=kau
+  kazajo: iso2=kk, iso3=kaz, sinonimo=kazako
+  kazako: sin=1, raiz=kazajo, iso2=kk, iso3=kaz
+  khmer: sin=1, raiz=jemer, iso2=km, iso3=khm
+  kikongo: iso2=kg, iso3=kon, sinonimo=kongo
+  kikuyu: iso2=ki, iso3=kik, sinonimo=gikuyu
+  kinyarwanda: iso2=rw, iso3=kin
+  kirguiso: sin=1, raiz=kirguís, iso2=ky, iso3=kir
+  kirguís: iso2=ky, iso3=kir, sinonimo=kirguiso
+  kirundi: iso2=rn, iso3=run, sinonimo=rundi
+  komi: iso2=kv, iso3=kom
+  kongo: sin=1, raiz=kikongo, iso2=kg, iso3=kon
+  kuanyama: iso2=kj, iso3=kua, sinonimo=kwanyama
+  kurdo: iso2=ku, iso3=kur
+  kwanyama: sin=1, raiz=kuanyama, iso2=kj, iso3=kua
+  lao: iso2=lo, iso3=lao, sinonimo=laosiano
+  laosiano: sin=1, raiz=lao, iso2=lo, iso3=lao
+  latín: iso2=la, iso3=lat
+  letón: iso2=lv, iso3=lav
+  limburgués: iso2=li, iso3=lim
+  lingala: iso2=ln, iso3=lin
+  lituano: iso2=lt, iso3=lit
+  luba-katanga: iso2=lu, iso3=lub
+  luganda: iso2=lg, iso3=lug, sinonimo=ganda
+  luxemburgués: iso2=lb, iso3=ltz
+  macedonio: iso2=mk, iso3=mac
+  magiar: sin=1, raiz=húngaro, iso2=hu, iso3=hun
+  malayalam: iso2=ml, iso3=mal
+  malayo: iso2=ms, iso3=may
+  maldivo: sin=1, raiz=divehi, iso2=dv, iso3=div
+  malgache: iso2=mg, iso3=mlg
+  maltés: iso2=mt, iso3=mlt
+  manés: iso2=gv, iso3=glv
+  maorí: iso2=mi, iso3=mao
+  marathi: sin=1, raiz=maratí, iso2=mr, iso3=mar
+  maratí: iso2=mr, iso3=mar, sinonimo=marathi
+  marshalés: iso2=mh, iso3=mah
+  moldavo: sin=1, raiz=rumano, iso2=ro, iso3=rum
+  mongol: iso2=mn, iso3=mon
+  nauruano: iso2=na, iso3=nau
+  navaho: sin=1, raiz=navajo, iso2=nv, iso3=nav
+  navajo: iso2=nv, iso3=nav, sinonimo=navaho
+  ndebele del norte: iso2=nd, iso3=nde
+  ndebele del sur: iso2=nr, iso3=nbl
+  ndonga: iso2=ng, iso3=ndo
+  neerlandés: iso2=nl, iso3=dut, sinonimo=[holandés,flamenco]
+  nepalí: iso2=ne, iso3=nep
+  noruego: iso2=no, iso3=nor
+  noruego bokmål: iso2=nb, iso3=nob, sinonimo=bokmål
+  noruego nynorsk: iso2=nn, iso3=nno, sinonimo=nynorsk
+  nuosu: sin=1, raiz="yi de sichuan", iso2=ii, iso3=iii
+  nyanja: sin=1, raiz=chichewa, iso2=ny, iso3=nya
+  nynorsk: sin=1, raiz="noruego nynorsk", iso2=nn, iso3=nno
+  occidental: sin=1, raiz=interlingue, iso2=ie, iso3=ile
+  occitano: iso2=oc, iso3=oci
+  odia: sin=1, raiz=oriya, iso2=or, iso3=ori
+  ojibwa: iso2=oj, iso3=oji, sinonimo=ojibwe
+  ojibwe: sin=1, raiz=ojibwa, iso2=oj, iso3=oji
+  oriya: iso2=or, iso3=ori, sinonimo=odia
+  oromo: iso2=om, iso3=orm
+  oseta: sin=1, raiz=osetio, iso2=os, iso3=oss
+  osetio: iso2=os, iso3=oss, sinonimo=[oseta,osético]
+  osético: sin=1, raiz=osetio, iso2=os, iso3=oss
+  pali: iso2=pi, iso3=pli
+  panjabi: sin=1, raiz=panyabí, iso2=pa, iso3=pan
+  panyabí: iso2=pa, iso3=pan, sinonimo=[punyabí,panjabi,punjabi]
+  pashto: sin=1, raiz=pastún, iso2=ps, iso3=pus
+  pastó: sin=1, raiz=pastún, iso2=ps, iso3=pus
+  pastún: iso2=ps, iso3=pus, sinonimo=[pastó,pashto]
+  persa: iso2=fa, iso3=per, sinonimo=farsi
+  peul: sin=1, raiz=fula, iso2=ff, iso3=ful
+  polaco: iso2=pl, iso3=pol
+  portugués: iso2=pt, iso3=por
+  punjabi: sin=1, raiz=panyabí, iso2=pa, iso3=pan
+  punyabí: sin=1, raiz=panyabí, iso2=pa, iso3=pan
+  quechua: iso2=qu, iso3=que
+  romanche: iso2=rm, iso3=roh
+  rumano: iso2=ro, iso3=rum, sinonimo=moldavo
+  rundi: sin=1, raiz=kirundi, iso2=rn, iso3=run
+  ruso: iso2=ru, iso3=rus
+  sami del norte: sin=1, raiz="sami septentrional", iso2=se, iso3=sme
+  sami septentrional: iso2=se, iso3=sme, sinonimo="sami del norte"
+  samoano: iso2=sm, iso3=smo
+  sango: iso2=sg, iso3=sag
+  sardo: iso2=sc, iso3=srd
+  serbio: iso2=sr, iso3=srp
+  sesotho: iso2=st, iso3=sot, sinonimo="sotho del sur"
+  setsuana: iso2=tn, iso3=tsn, sinonimo=tswana
+  shona: iso2=sn, iso3=sna
+  sindi: iso2=sd, iso3=snd
+  somalí: iso2=so, iso3=som
+  sotho del sur: sin=1, raiz=sesotho, iso2=st, iso3=sot
+  suajili: iso2=sw, iso3=swa, sinonimo=swahili
+  suazi: iso2=ss, iso3=ssw, sinonimo=swati
+  sueco: iso2=sv, iso3=swe
+  sundanés: iso2=su, iso3=sun
+  swahili: sin=1, raiz=suajili, iso2=sw, iso3=swa
+  swati: sin=1, raiz=suazi, iso2=ss, iso3=ssw
+  sánscrito: iso2=sa, iso3=san
+  tagalo: iso2=tl, iso3=tgl
+  tahitiano: iso2=ty, iso3=tah
+  tailandés: iso2=th, iso3=tha
+  tamil: iso2=ta, iso3=tam
+  tayiko: iso2=tg, iso3=tgk
+  telugu: iso2=te, iso3=tel
+  tibetano: iso2=bo, iso3=tib
+  tigriña: iso2=ti, iso3=tir
+  tongano: iso2=to, iso3=ton
+  tsonga: iso2=ts, iso3=tso
+  tswana: sin=1, raiz=setsuana, iso2=tn, iso3=tsn
+  turco: iso2=tr, iso3=tur
+  turcomano: iso2=tk, iso3=tuk, sinonimo=turkmeno
+  turkmeno: sin=1, raiz=turcomano, iso2=tk, iso3=tuk
+  twi: iso2=tw, iso3=twi
+  tártaro: iso2=tt, iso3=tat
+  ucraniano: iso2=uk, iso3=ukr
+  uigur: iso2=ug, iso3=uig
+  urdu: iso2=ur, iso3=urd
+  uzbeko: iso2=uz, iso3=uzb
+  valenciano: sin=1, raiz=catalán, iso2=ca, iso3=cat
+  valón: iso2=wa, iso3=wln
+  vasco: sin=1, raiz=euskera, iso2=eu, iso3=baq
+  vascuence: sin=1, raiz=euskera, iso2=eu, iso3=baq
+  venda: iso2=ve, iso3=ven
+  vietnamita: iso2=vi, iso3=vie
+  volapük: iso2=vo, iso3=vol
+  wolof: iso2=wo, iso3=wol
+  xhosa: iso2=xh, iso3=xho
+  yi de sichuan: iso2=ii, iso3=iii, sinonimo=nuosu
+  yiddish: sin=1, raiz=yidis, iso2=yi, iso3=yid
+  yidis: iso2=yi, iso3=yid, sinonimo=[yiddish,ídish]
+  yoruba: iso2=yo, iso3=yor
+  zhuang: sin=1, raiz=chuang, iso2=za, iso3=zha
+  árabe: iso2=ar, iso3=ara
+  ídish: sin=1, raiz=yidis, iso2=yi, iso3=yid

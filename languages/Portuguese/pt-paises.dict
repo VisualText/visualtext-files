@@ -1,0 +1,405 @@
+# Nomes de países em português (grafia brasileira; variantes europeias como sinônimos).
+# Uma linha por forma:
+#   pais=1         toda entrada
+#   gen=m|f num=s|p  gênero e número do nome (ausentes quando o nome não leva
+#                  artigo e o gênero não é fixo: barbados, jersey, kiribati ...)
+#   sin=1          variante, nome oficial longo ou grafia europeia
+#   raiz=          nome canônico (brasileiro) de uma variante
+#   iso2= iso3=    códigos ISO 3166-1, os mesmos de en-countries.dict
+#   naoiso=1       não é país ISO 3166-1 (inglaterra, escócia, país de gales,
+#                  irlanda do norte com os códigos gb/gbr; kosovo com xk/xkx);
+#                  incluídos porque são o país de nacionalidades frequentes
+# Gerado por python/gen_geo_pt.py; não editar à mão.
+afeganistão pais=1 gen=m num=s iso2=af iso3=afg pos=s
+áfrica do sul pais=1 gen=f num=s iso2=za iso3=zaf pos=s
+albânia pais=1 gen=f num=s iso2=al iso3=alb pos=s
+alemanha pais=1 gen=f num=s iso2=de iso3=deu pos=s
+andorra pais=1 gen=f num=s iso2=ad iso3=and pos=s
+angola pais=1 gen=f num=s iso2=ao iso3=ago pos=adj
+angola pos=s
+anguila pais=1 gen=f num=s iso2=ai iso3=aia pos=s
+antártica pais=1 sin=1 raiz=antártida gen=f num=s iso2=aq iso3=ata pos=s
+antártida pais=1 gen=f num=s iso2=aq iso3=ata pos=s
+antígua e barbuda pais=1 gen=f num=s iso2=ag iso3=atg pos=s
+arábia saudita pais=1 gen=f num=s iso2=sa iso3=sau pos=s
+argélia pais=1 gen=f num=s iso2=dz iso3=dza pos=s
+argentina pais=1 gen=f num=s iso2=ar iso3=arg pos=adj
+argentina pos=s
+arménia pais=1 sin=1 raiz=armênia gen=f num=s iso2=am iso3=arm pos=adj
+arménia pos=s
+armênia pais=1 gen=f num=s iso2=am iso3=arm pos=s
+aruba pais=1 gen=f num=s iso2=aw iso3=abw pos=s
+austrália pais=1 gen=f num=s iso2=au iso3=aus pos=s
+áustria pais=1 gen=f num=s iso2=at iso3=aut pos=s
+azerbaijão pais=1 gen=m num=s iso2=az iso3=aze pos=s
+bahamas pais=1 gen=f num=p iso2=bs iso3=bhs pos=s
+bahrein pais=1 gen=m num=s iso2=bh iso3=bhr pos=s
+bangladesh pais=1 gen=m num=s iso2=bd iso3=bgd pos=s
+barbados pais=1 iso2=bb iso3=brb pos=adj
+barbados pos=s
+barbados pos=v
+barein pais=1 sin=1 raiz=bahrein gen=m num=s iso2=bh iso3=bhr pos=s
+barém pais=1 sin=1 raiz=bahrein gen=m num=s iso2=bh iso3=bhr pos=s
+belarus pais=1 sin=1 raiz=bielorrússia iso2=by iso3=blr pos=s
+bélgica pais=1 gen=f num=s iso2=be iso3=bel pos=s
+belize pais=1 gen=m num=s iso2=bz iso3=blz pos=s
+benim pais=1 sin=1 raiz=benin gen=m num=s iso2=bj iso3=ben pos=s
+benin pais=1 gen=m num=s iso2=bj iso3=ben pos=s
+bermuda pais=1 sin=1 raiz=bermudas gen=f num=s iso2=bm iso3=bmu pos=s
+bermudas pais=1 gen=f num=p iso2=bm iso3=bmu pos=s
+bielorrússia pais=1 gen=f num=s iso2=by iso3=blr pos=s
+birmânia pais=1 sin=1 raiz=mianmar gen=f num=s iso2=mm iso3=mmr pos=s
+bolívia pais=1 gen=f num=s iso2=bo iso3=bol pos=s
+bonaire, santo eustáquio e saba pais=1 iso2=bq iso3=bes pos=s
+bósnia pais=1 sin=1 raiz="bósnia e herzegovina" gen=f num=s iso2=ba iso3=bih pos=adj
+bósnia pos=s
+bósnia e herzegovina pais=1 gen=f num=s iso2=ba iso3=bih pos=s
+bósnia-herzegovina pais=1 sin=1 raiz="bósnia e herzegovina" gen=f num=s iso2=ba iso3=bih pos=s
+botsuana pais=1 gen=m num=s iso2=bw iso3=bwa pos=s
+botswana pais=1 sin=1 raiz=botsuana gen=m num=s iso2=bw iso3=bwa pos=s
+brasil pais=1 gen=m num=s iso2=br iso3=bra pos=adj
+brasil pos=s
+brunei pais=1 gen=m num=s iso2=bn iso3=brn pos=s
+brunei darussalam pais=1 sin=1 raiz=brunei gen=m num=s iso2=bn iso3=brn pos=s
+bulgária pais=1 gen=f num=s iso2=bg iso3=bgr pos=s
+burkina faso pais=1 gen=m num=s iso2=bf iso3=bfa pos=s
+burundi pais=1 gen=m num=s iso2=bi iso3=bdi pos=s
+butão pais=1 gen=m num=s iso2=bt iso3=btn pos=s
+cabo verde pais=1 gen=m num=s iso2=cv iso3=cpv pos=s
+camarões pais=1 gen=m num=p iso2=cm iso3=cmr pos=s
+camboja pais=1 gen=m num=s iso2=kh iso3=khm pos=s
+canadá pais=1 gen=m num=s iso2=ca iso3=can pos=s
+catar pais=1 gen=m num=s iso2=qa iso3=qat pos=s
+catar pos=v
+cazaquistão pais=1 gen=m num=s iso2=kz iso3=kaz pos=s
+chade pais=1 gen=m num=s iso2=td iso3=tcd pos=s
+chéquia pais=1 sin=1 raiz=tchéquia gen=f num=s iso2=cz iso3=cze pos=s
+chile pais=1 gen=m num=s iso2=cl iso3=chl pos=s
+china pais=1 gen=f num=s iso2=cn iso3=chn pos=adj
+china pos=s
+china pos=v
+chipre pais=1 gen=m num=s iso2=cy iso3=cyp pos=s
+cidade do vaticano pais=1 sin=1 raiz="santa sé" gen=f num=s iso2=va iso3=vat pos=s
+cingapura pais=1 sin=1 raiz=singapura gen=f num=s iso2=sg iso3=sgp pos=s
+colômbia pais=1 gen=f num=s iso2=co iso3=col pos=s
+comores pais=1 gen=f num=p iso2=km iso3=com pos=v
+congo pais=1 gen=m num=s iso2=cg iso3=cog pos=s
+congo-brazzaville pais=1 sin=1 raiz=congo gen=m num=s iso2=cg iso3=cog pos=s
+congo-kinshasa pais=1 sin=1 raiz="república democrática do congo" gen=m num=s iso2=cd iso3=cod pos=s
+coreia pais=1 gen=f num=s iso2=kr iso3=kor pos=s
+coreia do norte pais=1 gen=f num=s iso2=kp iso3=prk pos=s
+coreia do sul pais=1 gen=f num=s iso2=kr iso3=kor pos=s
+costa do marfim pais=1 gen=f num=s iso2=ci iso3=civ pos=s
+costa rica pais=1 gen=f num=s iso2=cr iso3=cri pos=s
+côte d'ivoire pais=1 sin=1 raiz="costa do marfim" gen=f num=s iso2=ci iso3=civ pos=s
+croácia pais=1 gen=f num=s iso2=hr iso3=hrv pos=adj
+cuba pais=1 gen=f num=s iso2=cu iso3=cub pos=s
+cuba pos=v
+curaçao pais=1 iso2=cw iso3=cuw pos=s
+curaçau pais=1 sin=1 raiz=curaçao iso2=cw iso3=cuw pos=s
+dinamarca pais=1 gen=f num=s iso2=dk iso3=dnk pos=s
+djibuti pais=1 gen=m num=s iso2=dj iso3=dji pos=s
+dominica pais=1 gen=f num=s iso2=dm iso3=dma pos=s
+egipto pais=1 sin=1 raiz=egito gen=m num=s iso2=eg iso3=egy pos=s
+egito pais=1 gen=m num=s iso2=eg iso3=egy pos=s
+el salvador pais=1 gen=m num=s iso2=sv iso3=slv pos=s
+emirados árabes unidos pais=1 gen=m num=p iso2=ae iso3=are pos=s
+equador pais=1 gen=m num=s iso2=ec iso3=ecu pos=s
+eritreia pais=1 gen=f num=s iso2=er iso3=eri pos=s
+eritréia pais=1 sin=1 raiz=eritreia gen=f num=s iso2=er iso3=eri pos=s
+escócia pais=1 naoiso=1 gen=f num=s iso2=gb iso3=gbr pos=adj
+escócia pos=s
+eslováquia pais=1 gen=f num=s iso2=sk iso3=svk pos=s
+eslovénia pais=1 sin=1 raiz=eslovênia gen=f num=s iso2=si iso3=svn pos=adj
+eslovênia pais=1 gen=f num=s iso2=si iso3=svn pos=s
+espanha pais=1 gen=f num=s iso2=es iso3=esp pos=s
+essuatíni pais=1 gen=m num=s iso2=sz iso3=swz pos=s
+estado da palestina pais=1 sin=1 raiz=palestina gen=m num=s iso2=ps iso3=pse pos=s
+estado plurinacional da bolívia pais=1 sin=1 raiz=bolívia gen=m num=s iso2=bo iso3=bol pos=s
+estados federados da micronésia pais=1 sin=1 raiz=micronésia gen=m num=p iso2=fm iso3=fsm pos=s
+estados unidos pais=1 gen=m num=p iso2=us iso3=usa pos=s
+estados unidos da américa pais=1 sin=1 raiz="estados unidos" gen=m num=p iso2=us iso3=usa pos=s
+estónia pais=1 sin=1 raiz=estônia gen=f num=s iso2=ee iso3=est pos=adj
+estónia pos=s
+estônia pais=1 gen=f num=s iso2=ee iso3=est pos=s
+eswatini pais=1 sin=1 raiz=essuatíni gen=m num=s iso2=sz iso3=swz pos=s
+etiópia pais=1 gen=f num=s iso2=et iso3=eth pos=s
+eua pais=1 sin=1 raiz="estados unidos" gen=m num=p iso2=us iso3=usa pos=s
+federação russa pais=1 sin=1 raiz=rússia gen=f num=s iso2=ru iso3=rus pos=s
+fidji pais=1 sin=1 raiz=fiji gen=m num=s iso2=fj iso3=fji pos=s
+fiji pais=1 gen=m num=s iso2=fj iso3=fji pos=s
+filipinas pais=1 gen=f num=p iso2=ph iso3=phl pos=adj
+filipinas pos=s
+finlândia pais=1 gen=f num=s iso2=fi iso3=fin pos=s
+frança pais=1 gen=f num=s iso2=fr iso3=fra pos=s
+gabão pais=1 gen=m num=s iso2=ga iso3=gab pos=s
+gales pais=1 naoiso=1 sin=1 raiz="país de gales" gen=m num=s iso2=gb iso3=gbr pos=v
+gâmbia pais=1 gen=f num=s iso2=gm iso3=gmb pos=s
+gana pais=1 gen=m num=s iso2=gh iso3=gha pos=s
+gana pos=v
+geórgia pais=1 gen=f num=s iso2=ge iso3=geo pos=s
+gibraltar pais=1 gen=m num=s iso2=gi iso3=gib pos=s
+grã-bretanha pais=1 sin=1 raiz="reino unido" gen=f num=s iso2=gb iso3=gbr pos=s
+granada pais=1 gen=f num=s iso2=gd iso3=grd pos=s
+granada pos=v
+grécia pais=1 gen=f num=s iso2=gr iso3=grc pos=s
+groenlândia pais=1 gen=f num=s iso2=gl iso3=grl pos=s
+gronelândia pais=1 sin=1 raiz=groenlândia gen=f num=s iso2=gl iso3=grl pos=s
+guadalupe pais=1 gen=f num=s iso2=gp iso3=glp pos=s
+guam pais=1 iso2=gu iso3=gum pos=s
+guatemala pais=1 gen=f num=s iso2=gt iso3=gtm pos=s
+guernsey pais=1 iso2=gg iso3=ggy pos=s
+guiana pais=1 gen=f num=s iso2=gy iso3=guy pos=s
+guiana francesa pais=1 gen=f num=s iso2=gf iso3=guf pos=s
+guiné pais=1 gen=f num=s iso2=gn iso3=gin pos=s
+guiné equatorial pais=1 gen=f num=s iso2=gq iso3=gnq pos=s
+guiné-bissau pais=1 gen=f num=s iso2=gw iso3=gnb pos=s
+guiné-conacri pais=1 sin=1 raiz=guiné gen=f num=s iso2=gn iso3=gin pos=s
+haiti pais=1 gen=m num=s iso2=ht iso3=hti pos=s
+holanda pais=1 sin=1 raiz="países baixos" gen=f num=s iso2=nl iso3=nld pos=s
+honduras pais=1 iso2=hn iso3=hnd pos=s
+hong kong pais=1 gen=m num=s iso2=hk iso3=hkg pos=s
+hungria pais=1 gen=f num=s iso2=hu iso3=hun pos=s
+iémen pais=1 sin=1 raiz=iêmen gen=m num=s iso2=ye iso3=yem pos=s
+iêmen pais=1 gen=m num=s iso2=ye iso3=yem pos=s
+ilha bouvet pais=1 gen=f num=s iso2=bv iso3=bvt pos=s
+ilha christmas pais=1 gen=f num=s iso2=cx iso3=cxr pos=s
+ilha da reunião pais=1 sin=1 raiz=reunião gen=f num=s iso2=re iso3=reu pos=s
+ilha de man pais=1 gen=f num=s iso2=im iso3=imn pos=s
+ilha do natal pais=1 sin=1 raiz="ilha christmas" gen=f num=s iso2=cx iso3=cxr pos=s
+ilha heard e ilhas mcdonald pais=1 gen=f num=s iso2=hm iso3=hmd pos=s
+ilha norfolk pais=1 gen=f num=s iso2=nf iso3=nfk pos=s
+ilhas aland pais=1 sin=1 raiz="ilhas åland" gen=f num=p iso2=ax iso3=ala pos=s
+ilhas åland pais=1 gen=f num=p iso2=ax iso3=ala pos=s
+ilhas caimão pais=1 sin=1 raiz="ilhas cayman" gen=f num=p iso2=ky iso3=cym pos=s
+ilhas cayman pais=1 gen=f num=p iso2=ky iso3=cym pos=s
+ilhas cocos pais=1 gen=f num=p iso2=cc iso3=cck pos=s
+ilhas cocos keeling pais=1 sin=1 raiz="ilhas cocos" gen=f num=p iso2=cc iso3=cck pos=s
+ilhas cook pais=1 gen=f num=p iso2=ck iso3=cok pos=s
+ilhas falkland pais=1 sin=1 raiz="ilhas malvinas" gen=f num=p iso2=fk iso3=flk pos=s
+ilhas faroé pais=1 gen=f num=p iso2=fo iso3=fro pos=s
+ilhas feroé pais=1 sin=1 raiz="ilhas faroé" gen=f num=p iso2=fo iso3=fro pos=s
+ilhas geórgia do sul e sandwich do sul pais=1 gen=f num=p iso2=gs iso3=sgs pos=s
+ilhas heard e mcdonald pais=1 sin=1 raiz="ilha heard e ilhas mcdonald" gen=f num=p iso2=hm iso3=hmd pos=s
+ilhas malvinas pais=1 gen=f num=p iso2=fk iso3=flk pos=s
+ilhas marianas do norte pais=1 gen=f num=p iso2=mp iso3=mnp pos=s
+ilhas marshall pais=1 gen=f num=p iso2=mh iso3=mhl pos=s
+ilhas maurício pais=1 sin=1 raiz=maurício gen=f num=p iso2=mu iso3=mus pos=s
+ilhas menores distantes dos estados unidos pais=1 gen=f num=p iso2=um iso3=umi pos=s
+ilhas pitcairn pais=1 gen=f num=p iso2=pn iso3=pcn pos=s
+ilhas salomão pais=1 gen=f num=p iso2=sb iso3=slb pos=s
+ilhas turcas e caicos pais=1 gen=f num=p iso2=tc iso3=tca pos=s
+ilhas virgens americanas pais=1 gen=f num=p iso2=vi iso3=vir pos=s
+ilhas virgens britânicas pais=1 gen=f num=p iso2=vg iso3=vgb pos=s
+ilhas virgens dos estados unidos pais=1 sin=1 raiz="ilhas virgens americanas" gen=f num=p iso2=vi iso3=vir pos=s
+índia pais=1 gen=f num=s iso2=in iso3=ind pos=s
+indonésia pais=1 gen=f num=s iso2=id iso3=idn pos=adj
+indonésia pos=s
+inglaterra pais=1 naoiso=1 gen=f num=s iso2=gb iso3=gbr pos=s
+irã pais=1 gen=m num=s iso2=ir iso3=irn pos=s
+irão pais=1 sin=1 raiz=irã gen=m num=s iso2=ir iso3=irn pos=v
+iraque pais=1 gen=m num=s iso2=iq iso3=irq pos=s
+irlanda pais=1 gen=f num=s iso2=ie iso3=irl pos=s
+irlanda do norte pais=1 naoiso=1 gen=f num=s iso2=gb iso3=gbr pos=s
+islândia pais=1 gen=f num=s iso2=is iso3=isl pos=s
+israel pais=1 gen=m num=s iso2=il iso3=isr pos=s
+itália pais=1 gen=f num=s iso2=it iso3=ita pos=s
+jamaica pais=1 gen=f num=s iso2=jm iso3=jam pos=s
+japão pais=1 gen=m num=s iso2=jp iso3=jpn pos=s
+jersey pais=1 iso2=je iso3=jey pos=s
+jibuti pais=1 sin=1 raiz=djibuti gen=m num=s iso2=dj iso3=dji pos=s
+jordânia pais=1 gen=f num=s iso2=jo iso3=jor pos=s
+kiribati pais=1 iso2=ki iso3=kir pos=s
+kosovo pais=1 naoiso=1 gen=m num=s iso2=xk iso3=xkx pos=s
+koweit pais=1 sin=1 raiz=kuwait gen=m num=s iso2=kw iso3=kwt pos=s
+kuwait pais=1 gen=m num=s iso2=kw iso3=kwt pos=s
+kuweit pais=1 sin=1 raiz=kuwait gen=m num=s iso2=kw iso3=kwt pos=s
+laos pais=1 gen=m num=s iso2=la iso3=lao pos=s
+lesoto pais=1 gen=m num=s iso2=ls iso3=lso pos=s
+letónia pais=1 sin=1 raiz=letônia gen=f num=s iso2=lv iso3=lva pos=s
+letônia pais=1 gen=f num=s iso2=lv iso3=lva pos=s
+líbano pais=1 gen=m num=s iso2=lb iso3=lbn pos=s
+libéria pais=1 gen=f num=s iso2=lr iso3=lbr pos=adj
+libéria pos=s
+líbia pais=1 gen=f num=s iso2=ly iso3=lby pos=adj
+líbia pos=s
+liechtenstein pais=1 gen=m num=s iso2=li iso3=lie pos=s
+lituânia pais=1 gen=f num=s iso2=lt iso3=ltu pos=s
+luxemburgo pais=1 gen=m num=s iso2=lu iso3=lux pos=s
+macau pais=1 gen=m num=s iso2=mo iso3=mac pos=s
+macedónia pais=1 sin=1 raiz="macedônia do norte" gen=f num=s iso2=mk iso3=mkd pos=adj
+macedónia pos=s
+macedônia pais=1 sin=1 raiz="macedônia do norte" gen=f num=s iso2=mk iso3=mkd pos=s
+macedónia do norte pais=1 sin=1 raiz="macedônia do norte" gen=f num=s iso2=mk iso3=mkd pos=s
+macedônia do norte pais=1 gen=f num=s iso2=mk iso3=mkd pos=s
+madagascar pais=1 gen=m num=s iso2=mg iso3=mdg pos=s
+madagáscar pais=1 sin=1 raiz=madagascar gen=m num=s iso2=mg iso3=mdg pos=s
+maiote pais=1 sin=1 raiz=mayotte iso2=yt iso3=myt pos=s
+malásia pais=1 gen=f num=s iso2=my iso3=mys pos=s
+malaui pais=1 sin=1 raiz=malawi gen=m num=s iso2=mw iso3=mwi pos=s
+malawi pais=1 gen=m num=s iso2=mw iso3=mwi pos=s
+maldivas pais=1 gen=f num=p iso2=mv iso3=mdv pos=s
+mali pais=1 gen=m num=s iso2=ml iso3=mli pos=s
+malta pais=1 gen=f num=s iso2=mt iso3=mlt pos=s
+malta pos=v
+malvinas pais=1 sin=1 raiz="ilhas malvinas" gen=f num=p iso2=fk iso3=flk pos=s
+marrocos pais=1 gen=m num=s iso2=ma iso3=mar pos=s
+martinica pais=1 gen=f num=s iso2=mq iso3=mtq pos=s
+maurícia pais=1 sin=1 raiz=maurício gen=f num=s iso2=mu iso3=mus pos=s
+maurício pais=1 gen=m num=s iso2=mu iso3=mus pos=s
+mauritânia pais=1 gen=f num=s iso2=mr iso3=mrt pos=s
+mayotte pais=1 iso2=yt iso3=myt pos=s
+méxico pais=1 gen=m num=s iso2=mx iso3=mex pos=s
+mianmar pais=1 gen=m num=s iso2=mm iso3=mmr pos=s
+micronésia pais=1 gen=f num=s iso2=fm iso3=fsm pos=s
+moçambique pais=1 gen=m num=s iso2=mz iso3=moz pos=s
+moldávia pais=1 gen=f num=s iso2=md iso3=mda pos=s
+moldova pais=1 sin=1 raiz=moldávia gen=f num=s iso2=md iso3=mda pos=s
+mónaco pais=1 sin=1 raiz=mônaco gen=m num=s iso2=mc iso3=mco pos=s
+mônaco pais=1 gen=m num=s iso2=mc iso3=mco pos=s
+mongólia pais=1 gen=f num=s iso2=mn iso3=mng pos=s
+monserrate pais=1 sin=1 raiz=montserrat iso2=ms iso3=msr pos=s
+montenegro pais=1 gen=m num=s iso2=me iso3=mne pos=s
+montserrat pais=1 iso2=ms iso3=msr pos=s
+myanmar pais=1 sin=1 raiz=mianmar gen=m num=s iso2=mm iso3=mmr pos=s
+namíbia pais=1 gen=f num=s iso2=na iso3=nam pos=s
+nauru pais=1 iso2=nr iso3=nru pos=s
+nepal pais=1 gen=m num=s iso2=np iso3=npl pos=s
+nicarágua pais=1 gen=f num=s iso2=ni iso3=nic pos=s
+níger pais=1 gen=m num=s iso2=ne iso3=ner pos=s
+nigéria pais=1 gen=f num=s iso2=ng iso3=nga pos=s
+niue pais=1 iso2=nu iso3=niu pos=s
+noruega pais=1 gen=f num=s iso2=no iso3=nor pos=s
+nova caledónia pais=1 sin=1 raiz="nova caledônia" gen=f num=s iso2=nc iso3=ncl pos=s
+nova caledônia pais=1 gen=f num=s iso2=nc iso3=ncl pos=s
+nova zelândia pais=1 gen=f num=s iso2=nz iso3=nzl pos=s
+omã pais=1 gen=m num=s iso2=om iso3=omn pos=s
+país de gales pais=1 naoiso=1 gen=m num=s iso2=gb iso3=gbr pos=s
+países baixos pais=1 gen=m num=p iso2=nl iso3=nld pos=s
+países baixos caribenhos pais=1 sin=1 raiz="bonaire, santo eustáquio e saba" gen=m num=p iso2=bq iso3=bes pos=s
+palau pais=1 gen=m num=s iso2=pw iso3=plw pos=s
+palestina pais=1 gen=f num=s iso2=ps iso3=pse pos=adj
+palestina pos=s
+panamá pais=1 gen=m num=s iso2=pa iso3=pan pos=s
+papua nova guiné pais=1 sin=1 raiz="papua-nova guiné" gen=f num=s iso2=pg iso3=png pos=s
+papua-nova guiné pais=1 gen=f num=s iso2=pg iso3=png pos=s
+paquistão pais=1 gen=m num=s iso2=pk iso3=pak pos=s
+paraguai pais=1 gen=m num=s iso2=py iso3=pry pos=s
+peru pais=1 gen=m num=s iso2=pe iso3=per pos=s
+pitcairn pais=1 sin=1 raiz="ilhas pitcairn" iso2=pn iso3=pcn pos=s
+polinésia francesa pais=1 gen=f num=s iso2=pf iso3=pyf pos=s
+polónia pais=1 sin=1 raiz=polônia gen=f num=s iso2=pl iso3=pol pos=adj
+polónia pos=s
+polônia pais=1 gen=f num=s iso2=pl iso3=pol pos=s
+porto rico pais=1 gen=m num=s iso2=pr iso3=pri pos=s
+portugal pais=1 gen=m num=s iso2=pt iso3=prt pos=s
+qatar pais=1 sin=1 raiz=catar gen=m num=s iso2=qa iso3=qat pos=s
+quénia pais=1 sin=1 raiz=quênia gen=m num=s iso2=ke iso3=ken pos=s
+quênia pais=1 gen=m num=s iso2=ke iso3=ken pos=s
+quirguistão pais=1 gen=m num=s iso2=kg iso3=kgz pos=s
+quirguízia pais=1 sin=1 raiz=quirguistão gen=f num=s iso2=kg iso3=kgz pos=s
+quiribati pais=1 sin=1 raiz=kiribati iso2=ki iso3=kir pos=s
+reino unido pais=1 gen=m num=s iso2=gb iso3=gbr pos=s
+reino unido da grã-bretanha e irlanda do norte pais=1 sin=1 raiz="reino unido" gen=m num=s iso2=gb iso3=gbr pos=s
+república árabe síria pais=1 sin=1 raiz=síria gen=f num=s iso2=sy iso3=syr pos=s
+república bolivariana da venezuela pais=1 sin=1 raiz=venezuela gen=f num=s iso2=ve iso3=ven pos=s
+república centro-africana pais=1 gen=f num=s iso2=cf iso3=caf pos=s
+república checa pais=1 sin=1 raiz=tchéquia gen=f num=s iso2=cz iso3=cze pos=s
+república da coreia pais=1 sin=1 raiz="coreia do sul" gen=f num=s iso2=kr iso3=kor pos=s
+república da macedónia do norte pais=1 sin=1 raiz="macedônia do norte" gen=f num=s iso2=mk iso3=mkd pos=s
+república da macedônia do norte pais=1 sin=1 raiz="macedônia do norte" gen=f num=s iso2=mk iso3=mkd pos=s
+república da moldávia pais=1 sin=1 raiz=moldávia gen=f num=s iso2=md iso3=mda pos=s
+república democrática do congo pais=1 gen=f num=s iso2=cd iso3=cod pos=s
+república democrática popular do laos pais=1 sin=1 raiz=laos gen=f num=s iso2=la iso3=lao pos=s
+república do congo pais=1 sin=1 raiz=congo gen=f num=s iso2=cg iso3=cog pos=s
+república dominicana pais=1 gen=f num=s iso2=do iso3=dom pos=s
+república federativa do brasil pais=1 sin=1 raiz=brasil gen=f num=s iso2=br iso3=bra pos=s
+república islâmica do irã pais=1 sin=1 raiz=irã gen=f num=s iso2=ir iso3=irn pos=s
+república islâmica do irão pais=1 sin=1 raiz=irã gen=f num=s iso2=ir iso3=irn pos=s
+república popular da china pais=1 sin=1 raiz=china gen=f num=s iso2=cn iso3=chn pos=s
+república popular democrática da coreia pais=1 sin=1 raiz="coreia do norte" gen=f num=s iso2=kp iso3=prk pos=s
+república tcheca pais=1 sin=1 raiz=tchéquia gen=f num=s iso2=cz iso3=cze pos=s
+república unida da tanzânia pais=1 sin=1 raiz=tanzânia gen=f num=s iso2=tz iso3=tza pos=s
+reunião pais=1 gen=f num=s iso2=re iso3=reu pos=s
+roménia pais=1 sin=1 raiz=romênia gen=f num=s iso2=ro iso3=rou pos=s
+romênia pais=1 gen=f num=s iso2=ro iso3=rou pos=s
+ruanda pais=1 iso2=rw iso3=rwa pos=s
+rússia pais=1 gen=f num=s iso2=ru iso3=rus pos=s
+saara ocidental pais=1 gen=m num=s iso2=eh iso3=esh pos=s
+saint-barthélemy pais=1 sin=1 raiz="são bartolomeu" gen=m num=s iso2=bl iso3=blm pos=s
+saint-martin pais=1 sin=1 raiz="são martinho" gen=m num=s iso2=mf iso3=maf pos=s
+saint-pierre e miquelon pais=1 sin=1 raiz="são pedro e miquelão" gen=m num=s iso2=pm iso3=spm pos=s
+samoa pais=1 gen=f num=s iso2=ws iso3=wsm pos=s
+samoa americana pais=1 gen=f num=s iso2=as iso3=asm pos=s
+san marino pais=1 gen=m num=s iso2=sm iso3=smr pos=s
+santa helena pais=1 sin=1 raiz="santa helena, ascensão e tristão da cunha" gen=f num=s iso2=sh iso3=shn pos=s
+santa helena, ascensão e tristão da cunha pais=1 gen=f num=s iso2=sh iso3=shn pos=s
+santa lúcia pais=1 gen=f num=s iso2=lc iso3=lca pos=s
+santa sé pais=1 gen=f num=s iso2=va iso3=vat pos=s
+são bartolomeu pais=1 gen=m num=s iso2=bl iso3=blm pos=s
+são cristóvão e neves pais=1 sin=1 raiz="são cristóvão e névis" gen=m num=s iso2=kn iso3=kna pos=s
+são cristóvão e névis pais=1 gen=m num=s iso2=kn iso3=kna pos=s
+são marinho pais=1 sin=1 raiz="san marino" gen=m num=s iso2=sm iso3=smr pos=s
+são martinho pais=1 gen=m num=s iso2=mf iso3=maf pos=s
+são pedro e miquelão pais=1 gen=m num=s iso2=pm iso3=spm pos=s
+são tomé e príncipe pais=1 gen=m num=s iso2=st iso3=stp pos=s
+são vicente e as granadinas pais=1 sin=1 raiz="são vicente e granadinas" gen=m num=s iso2=vc iso3=vct pos=s
+são vicente e granadinas pais=1 gen=m num=s iso2=vc iso3=vct pos=s
+sara ocidental pais=1 sin=1 raiz="saara ocidental" gen=m num=s iso2=eh iso3=esh pos=s
+seicheles pais=1 gen=f num=p iso2=sc iso3=syc pos=s
+senegal pais=1 gen=m num=s iso2=sn iso3=sen pos=s
+serra leoa pais=1 gen=f num=s iso2=sl iso3=sle pos=s
+sérvia pais=1 gen=f num=s iso2=rs iso3=srb pos=adj
+sérvia pos=s
+seychelles pais=1 sin=1 raiz=seicheles gen=f num=p iso2=sc iso3=syc pos=s
+singapura pais=1 gen=f num=s iso2=sg iso3=sgp pos=s
+sint maarten pais=1 iso2=sx iso3=sxm pos=s
+síria pais=1 gen=f num=s iso2=sy iso3=syr pos=adj
+síria pos=s
+somália pais=1 gen=f num=s iso2=so iso3=som pos=s
+sri lanka pais=1 gen=m num=s iso2=lk iso3=lka pos=s
+suazilândia pais=1 sin=1 raiz=essuatíni gen=f num=s iso2=sz iso3=swz pos=s
+sudão pais=1 gen=m num=s iso2=sd iso3=sdn pos=s
+sudão do sul pais=1 gen=m num=s iso2=ss iso3=ssd pos=s
+suécia pais=1 gen=f num=s iso2=se iso3=swe pos=adj
+suécia pos=s
+suíça pais=1 gen=f num=s iso2=ch iso3=che pos=adj
+suíça pos=s
+suriname pais=1 gen=m num=s iso2=sr iso3=sur pos=s
+svalbard e jan mayen pais=1 iso2=sj iso3=sjm pos=s
+tailândia pais=1 gen=f num=s iso2=th iso3=tha pos=s
+taiwan pais=1 gen=m num=s iso2=tw iso3=twn pos=s
+tajiquistão pais=1 gen=m num=s iso2=tj iso3=tjk pos=s
+tanzânia pais=1 gen=f num=s iso2=tz iso3=tza pos=s
+tchéquia pais=1 gen=f num=s iso2=cz iso3=cze pos=s
+terras austrais e antárticas francesas pais=1 gen=f num=p iso2=tf iso3=atf pos=s
+território britânico do oceano índico pais=1 gen=m num=s iso2=io iso3=iot pos=s
+timor leste pais=1 sin=1 raiz="timor-leste" gen=m num=s iso2=tl iso3=tls pos=s
+timor-leste pais=1 gen=m num=s iso2=tl iso3=tls pos=s
+togo pais=1 gen=m num=s iso2=tg iso3=tgo pos=v
+tokelau pais=1 iso2=tk iso3=tkl pos=s
+tonga pais=1 gen=f num=s iso2=to iso3=ton pos=s
+toquelau pais=1 sin=1 raiz=tokelau iso2=tk iso3=tkl pos=s
+trinidad e tobago pais=1 gen=m num=s iso2=tt iso3=tto pos=s
+tunísia pais=1 gen=f num=s iso2=tn iso3=tun pos=s
+turcomenistão pais=1 gen=m num=s iso2=tm iso3=tkm pos=s
+turquemenistão pais=1 sin=1 raiz=turcomenistão gen=m num=s iso2=tm iso3=tkm pos=s
+turquia pais=1 gen=f num=s iso2=tr iso3=tur pos=s
+tuvalu pais=1 gen=m num=s iso2=tv iso3=tuv pos=s
+ucrânia pais=1 gen=f num=s iso2=ua iso3=ukr pos=s
+uganda pais=1 gen=f num=s iso2=ug iso3=uga pos=s
+união das comores pais=1 sin=1 raiz=comores gen=f num=s iso2=km iso3=com pos=s
+uruguai pais=1 gen=m num=s iso2=uy iso3=ury pos=s
+usbequistão pais=1 sin=1 raiz=uzbequistão gen=m num=s iso2=uz iso3=uzb pos=s
+uzbequistão pais=1 gen=m num=s iso2=uz iso3=uzb pos=s
+vanuatu pais=1 gen=m num=s iso2=vu iso3=vut pos=s
+vaticano pais=1 sin=1 raiz="santa sé" gen=m num=s iso2=va iso3=vat pos=adj
+venezuela pais=1 gen=f num=s iso2=ve iso3=ven pos=s
+vietnã pais=1 gen=m num=s iso2=vn iso3=vnm pos=s
+vietnam pais=1 sin=1 raiz=vietnã gen=m num=s iso2=vn iso3=vnm pos=s
+vietname pais=1 sin=1 raiz=vietnã gen=m num=s iso2=vn iso3=vnm pos=s
+wallis e futuna pais=1 iso2=wf iso3=wlf pos=s
+zâmbia pais=1 gen=f num=s iso2=zm iso3=zmb pos=s
+zimbabué pais=1 sin=1 raiz=zimbábue gen=m num=s iso2=zw iso3=zwe pos=s
+zimbábue pais=1 gen=m num=s iso2=zw iso3=zwe pos=s
+zimbabwe pais=1 sin=1 raiz=zimbábue gen=m num=s iso2=zw iso3=zwe pos=s

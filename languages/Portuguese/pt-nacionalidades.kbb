@@ -1,0 +1,557 @@
+# Nacionalidades (gentílicos) em português, relacionadas a seus países.
+# Consulta direta:   nacionalidade -> país  (conceito "nacionalidades nacionalidade francês" -> pais=frança)
+# Consulta inversa:  país -> nacionalidade  (conceito "nacionalidades pais frança" -> nacionalidade=francês)
+# Cada nacionalidade é nomeada pelo masculino singular e traz fem= (feminino
+# singular), plural= (masculino plural), fempl= (feminino plural), gen=m ou
+# gen=c (comum de dois) e os códigos ISO 3166-1 do país.  Os nomes de país são
+# os de pt-paises.dict / pt-paises.kbb, de modo que as duas bases se juntam.
+# Uma forma que designa mais de um país leva ambig=1 e suas demais leituras
+# ficam abaixo dela como <nome>1, <nome>2, ... (mesma convenção de en-nationalities.kbb).
+# Entradas de país com sin=1 são variantes (holanda, eua, birmânia, irão ...)
+# com raiz= apontando para o nome canônico.
+# Gerado por python/gen_geo_pt.py; não editar à mão.
+nacionalidades
+  nacionalidade
+    afegão: pais=afeganistão, iso2=af, iso3=afg, gen=m, fem=afegã, plural=afegãos, fempl=afegãs
+    alandês: pais="ilhas åland", iso2=ax, iso3=ala, gen=m, fem=alandesa, plural=alandeses, fempl=alandesas
+    albanês: pais=albânia, iso2=al, iso3=alb, gen=m, fem=albanesa, plural=albaneses, fempl=albanesas
+    alemão: pais=alemanha, iso2=de, iso3=deu, gen=m, fem=alemã, plural=alemães, fempl=alemãs
+    americano: pais="estados unidos", iso2=us, iso3=usa, gen=m, fem=americana, plural=americanos, fempl=americanas, sinonimo=["norte-americano",estadunidense,"estado-unidense"]
+    andorrano: pais=andorra, iso2=ad, iso3=and, gen=m, fem=andorrana, plural=andorranos, fempl=andorranas
+    angolano: pais=angola, iso2=ao, iso3=ago, gen=m, fem=angolana, plural=angolanos, fempl=angolanas
+    anguilano: pais=anguila, iso2=ai, iso3=aia, gen=m, fem=anguilana, plural=anguilanos, fempl=anguilanas
+    antiguano: pais="antígua e barbuda", iso2=ag, iso3=atg, gen=m, fem=antiguana, plural=antiguanos, fempl=antiguanas, sinonimo=barbudano
+    argelino: pais=argélia, iso2=dz, iso3=dza, gen=m, fem=argelina, plural=argelinos, fempl=argelinas
+    argentino: pais=argentina, iso2=ar, iso3=arg, gen=m, fem=argentina, plural=argentinos, fempl=argentinas
+    armênio: pais=armênia, iso2=am, iso3=arm, gen=m, fem=armênia, plural=armênios, fempl=armênias, sinonimo=arménio
+    arubano: pais=aruba, iso2=aw, iso3=abw, gen=m, fem=arubana, plural=arubanos, fempl=arubanas
+    australiano: pais=austrália, iso2=au, iso3=aus, gen=m, fem=australiana, plural=australianos, fempl=australianas
+    austríaco: pais="áustria", iso2=at, iso3=aut, gen=m, fem=austríaca, plural=austríacos, fempl=austríacas
+    azerbaijano: pais=azerbaijão, iso2=az, iso3=aze, gen=m, fem=azerbaijana, plural=azerbaijanos, fempl=azerbaijanas, sinonimo=azeri
+    baamiano: pais=bahamas, iso2=bs, iso3=bhs, gen=m, fem=baamiana, plural=baamianos, fempl=baamianas, sinonimo=bahamense
+    barbadiano: pais=barbados, iso2=bb, iso3=brb, gen=m, fem=barbadiana, plural=barbadianos, fempl=barbadianas, sinonimo=barbadense
+    bareinita: pais=bahrein, iso2=bh, iso3=bhr, gen=c, fem=bareinita, plural=bareinitas, fempl=bareinitas
+    belga: pais=bélgica, iso2=be, iso3=bel, gen=c, fem=belga, plural=belgas, fempl=belgas
+    belizenho: pais=belize, iso2=bz, iso3=blz, gen=m, fem=belizenha, plural=belizenhos, fempl=belizenhas, sinonimo=belizense
+    bengali: pais=bangladesh, iso2=bd, iso3=bgd, gen=c, fem=bengali, plural=bengalis, fempl=bengalis, sinonimo=bangladeshiano
+    beninense: pais=benin, iso2=bj, iso3=ben, gen=c, fem=beninense, plural=beninenses, fempl=beninenses
+    bermudense: pais=bermudas, iso2=bm, iso3=bmu, gen=c, fem=bermudense, plural=bermudenses, fempl=bermudenses, sinonimo=bermudiano
+    bielorrusso: pais=bielorrússia, iso2=by, iso3=blr, gen=m, fem=bielorrussa, plural=bielorrussos, fempl=bielorrussas
+    birmanês: pais=mianmar, iso2=mm, iso3=mmr, gen=m, fem=birmanesa, plural=birmaneses, fempl=birmanesas, sinonimo=mianmarense
+    boliviano: pais=bolívia, iso2=bo, iso3=bol, gen=m, fem=boliviana, plural=bolivianos, fempl=bolivianas
+    bósnio: pais="bósnia e herzegovina", iso2=ba, iso3=bih, gen=m, fem=bósnia, plural=bósnios, fempl=bósnias, sinonimo=herzegovino
+    botsuano: pais=botsuana, iso2=bw, iso3=bwa, gen=m, fem=botsuana, plural=botsuanos, fempl=botsuanas, sinonimo=bechuano
+    brasileiro: pais=brasil, iso2=br, iso3=bra, gen=m, fem=brasileira, plural=brasileiros, fempl=brasileiras
+    britânico: pais="reino unido", iso2=gb, iso3=gbr, gen=m, fem=britânica, plural=britânicos, fempl=britânicas
+    bruneano: pais=brunei, iso2=bn, iso3=brn, gen=m, fem=bruneana, plural=bruneanos, fempl=bruneanas
+    búlgaro: pais=bulgária, iso2=bg, iso3=bgr, gen=m, fem=búlgara, plural=búlgaros, fempl=búlgaras
+    burquinense: pais="burkina faso", iso2=bf, iso3=bfa, gen=c, fem=burquinense, plural=burquinenses, fempl=burquinenses, sinonimo=burquinês
+    burundiano: pais=burundi, iso2=bi, iso3=bdi, gen=m, fem=burundiana, plural=burundianos, fempl=burundianas, sinonimo=burundinês
+    butanês: pais=butão, iso2=bt, iso3=btn, gen=m, fem=butanesa, plural=butaneses, fempl=butanesas
+    cabo-verdiano: pais="cabo verde", iso2=cv, iso3=cpv, gen=m, fem="cabo-verdiana", plural="cabo-verdianos", fempl="cabo-verdianas"
+    caimanês: pais="ilhas cayman", iso2=ky, iso3=cym, gen=m, fem=caimanesa, plural=caimaneses, fempl=caimanesas
+    camaronês: pais=camarões, iso2=cm, iso3=cmr, gen=m, fem=camaronesa, plural=camaroneses, fempl=camaronesas
+    cambojano: pais=camboja, iso2=kh, iso3=khm, gen=m, fem=cambojana, plural=cambojanos, fempl=cambojanas
+    canadense: pais=canadá, iso2=ca, iso3=can, gen=c, fem=canadense, plural=canadenses, fempl=canadenses, sinonimo=canadiano
+    catariano: pais=catar, iso2=qa, iso3=qat, gen=m, fem=catariana, plural=catarianos, fempl=catarianas, sinonimo=catari
+    cazaque: pais=cazaquistão, iso2=kz, iso3=kaz, gen=c, fem=cazaque, plural=cazaques, fempl=cazaques, sinonimo=cazaquistanês
+    centro-africano: pais="república centro-africana", iso2=cf, iso3=caf, gen=m, fem="centro-africana", plural="centro-africanos", fempl="centro-africanas"
+    chadiano: pais=chade, iso2=td, iso3=tcd, gen=m, fem=chadiana, plural=chadianos, fempl=chadianas
+    chileno: pais=chile, iso2=cl, iso3=chl, gen=m, fem=chilena, plural=chilenos, fempl=chilenas
+    chinês: pais=china, iso2=cn, iso3=chn, gen=m, fem=chinesa, plural=chineses, fempl=chinesas
+    cingalês: pais="sri lanka", iso2=lk, iso3=lka, gen=m, fem=cingalesa, plural=cingaleses, fempl=cingalesas, sinonimo=srilanquês
+    cipriota: pais=chipre, iso2=cy, iso3=cyp, gen=c, fem=cipriota, plural=cipriotas, fempl=cipriotas
+    colombiano: pais=colômbia, iso2=co, iso3=col, gen=m, fem=colombiana, plural=colombianos, fempl=colombianas
+    comorense: pais=comores, iso2=km, iso3=com, gen=c, fem=comorense, plural=comorenses, fempl=comorenses
+    congolês: ambig=1, pais=congo, iso2=cg, iso3=cog, gen=m, fem=congolesa, plural=congoleses, fempl=congolesas, sinonimo=congolense
+      congolês1: pais="república democrática do congo", iso2=cd, iso3=cod, gen=m, fem=congolesa, plural=congoleses, fempl=congolesas, sinonimo=congolense
+    coreano: pais=coreia, iso2=kr, iso3=kor, gen=m, fem=coreana, plural=coreanos, fempl=coreanas
+    costarriquenho: pais="costa rica", iso2=cr, iso3=cri, gen=m, fem=costarriquenha, plural=costarriquenhos, fempl=costarriquenhas, sinonimo=["costa-riquenho",costarricense]
+    croata: pais=croácia, iso2=hr, iso3=hrv, gen=c, fem=croata, plural=croatas, fempl=croatas
+    cubano: pais=cuba, iso2=cu, iso3=cub, gen=m, fem=cubana, plural=cubanos, fempl=cubanas
+    dinamarquês: pais=dinamarca, iso2=dk, iso3=dnk, gen=m, fem=dinamarquesa, plural=dinamarqueses, fempl=dinamarquesas
+    djibutiano: pais=djibuti, iso2=dj, iso3=dji, gen=m, fem=djibutiana, plural=djibutianos, fempl=djibutianas, sinonimo=jibutiano
+    dominicano: pais="república dominicana", iso2=do, iso3=dom, gen=m, fem=dominicana, plural=dominicanos, fempl=dominicanas
+    dominiquense: pais=dominica, iso2=dm, iso3=dma, gen=c, fem=dominiquense, plural=dominiquenses, fempl=dominiquenses
+    egípcio: pais=egito, iso2=eg, iso3=egy, gen=m, fem=egípcia, plural=egípcios, fempl=egípcias
+    emiradense: pais="emirados árabes unidos", iso2=ae, iso3=are, gen=c, fem=emiradense, plural=emiradenses, fempl=emiradenses, sinonimo=emiratense
+    equato-guineense: pais="guiné equatorial", iso2=gq, iso3=gnq, gen=c, fem="equato-guineense", plural="equato-guineenses", fempl="equato-guineenses"
+    equatoriano: pais=equador, iso2=ec, iso3=ecu, gen=m, fem=equatoriana, plural=equatorianos, fempl=equatorianas
+    eritreu: pais=eritreia, iso2=er, iso3=eri, gen=m, fem=eritreia, plural=eritreus, fempl=eritreias
+    escocês: pais=escócia, iso2=gb, iso3=gbr, gen=m, fem=escocesa, plural=escoceses, fempl=escocesas
+    eslovaco: pais=eslováquia, iso2=sk, iso3=svk, gen=m, fem=eslovaca, plural=eslovacos, fempl=eslovacas
+    esloveno: pais=eslovênia, iso2=si, iso3=svn, gen=m, fem=eslovena, plural=eslovenos, fempl=eslovenas
+    espanhol: pais=espanha, iso2=es, iso3=esp, gen=m, fem=espanhola, plural=espanhóis, fempl=espanholas
+    estoniano: pais=estônia, iso2=ee, iso3=est, gen=m, fem=estoniana, plural=estonianos, fempl=estonianas, sinonimo=estónio
+    etíope: pais=etiópia, iso2=et, iso3=eth, gen=c, fem=etíope, plural=etíopes, fempl=etíopes
+    feroês: pais="ilhas faroé", iso2=fo, iso3=fro, gen=m, fem=feroesa, plural=feroeses, fempl=feroesas, sinonimo=faroês
+    fijiano: pais=fiji, iso2=fj, iso3=fji, gen=m, fem=fijiana, plural=fijianos, fempl=fijianas
+    filipino: pais=filipinas, iso2=ph, iso3=phl, gen=m, fem=filipina, plural=filipinos, fempl=filipinas
+    finlandês: pais=finlândia, iso2=fi, iso3=fin, gen=m, fem=finlandesa, plural=finlandeses, fempl=finlandesas
+    francês: pais=frança, iso2=fr, iso3=fra, gen=m, fem=francesa, plural=franceses, fempl=francesas
+    franco-guianense: pais="guiana francesa", iso2=gf, iso3=guf, gen=c, fem="franco-guianense", plural="franco-guianenses", fempl="franco-guianenses"
+    gabonês: pais=gabão, iso2=ga, iso3=gab, gen=m, fem=gabonesa, plural=gaboneses, fempl=gabonesas
+    galês: pais="país de gales", iso2=gb, iso3=gbr, gen=m, fem=galesa, plural=galeses, fempl=galesas
+    gambiano: pais=gâmbia, iso2=gm, iso3=gmb, gen=m, fem=gambiana, plural=gambianos, fempl=gambianas
+    ganês: pais=gana, iso2=gh, iso3=gha, gen=m, fem=ganesa, plural=ganeses, fempl=ganesas
+    georgiano: pais=geórgia, iso2=ge, iso3=geo, gen=m, fem=georgiana, plural=georgianos, fempl=georgianas
+    gibraltarino: pais=gibraltar, iso2=gi, iso3=gib, gen=m, fem=gibraltarina, plural=gibraltarinos, fempl=gibraltarinas
+    granadino: pais=granada, iso2=gd, iso3=grd, gen=m, fem=granadina, plural=granadinos, fempl=granadinas
+    grego: pais=grécia, iso2=gr, iso3=grc, gen=m, fem=grega, plural=gregos, fempl=gregas, sinonimo=heleno
+    groenlandês: pais=groenlândia, iso2=gl, iso3=grl, gen=m, fem=groenlandesa, plural=groenlandeses, fempl=groenlandesas, sinonimo=gronelandês
+    guadalupense: pais=guadalupe, iso2=gp, iso3=glp, gen=c, fem=guadalupense, plural=guadalupenses, fempl=guadalupenses
+    guatemalteco: pais=guatemala, iso2=gt, iso3=gtm, gen=m, fem=guatemalteca, plural=guatemaltecos, fempl=guatemaltecas
+    guianense: pais=guiana, iso2=gy, iso3=guy, gen=c, fem=guianense, plural=guianenses, fempl=guianenses
+    guineense: ambig=1, pais=guiné, iso2=gn, iso3=gin, gen=c, fem=guineense, plural=guineenses, fempl=guineenses
+      guineense1: pais="guiné-bissau", iso2=gw, iso3=gnb, gen=c, fem=guineense, plural=guineenses, fempl=guineenses, sinonimo="bissau-guineense"
+    haitiano: pais=haiti, iso2=ht, iso3=hti, gen=m, fem=haitiana, plural=haitianos, fempl=haitianas
+    honconguês: pais="hong kong", iso2=hk, iso3=hkg, gen=m, fem=honconguesa, plural=honcongueses, fempl=honconguesas
+    hondurenho: pais=honduras, iso2=hn, iso3=hnd, gen=m, fem=hondurenha, plural=hondurenhos, fempl=hondurenhas
+    húngaro: pais=hungria, iso2=hu, iso3=hun, gen=m, fem=húngara, plural=húngaros, fempl=húngaras, sinonimo=magiar
+    iemenita: pais=iêmen, iso2=ye, iso3=yem, gen=c, fem=iemenita, plural=iemenitas, fempl=iemenitas
+    indiano: pais="índia", iso2=in, iso3=ind, gen=m, fem=indiana, plural=indianos, fempl=indianas
+    indonésio: pais=indonésia, iso2=id, iso3=idn, gen=m, fem=indonésia, plural=indonésios, fempl=indonésias
+    inglês: pais=inglaterra, iso2=gb, iso3=gbr, gen=m, fem=inglesa, plural=ingleses, fempl=inglesas
+    iraniano: pais=irã, iso2=ir, iso3=irn, gen=m, fem=iraniana, plural=iranianos, fempl=iranianas, sinonimo=persa
+    iraquiano: pais=iraque, iso2=iq, iso3=irq, gen=m, fem=iraquiana, plural=iraquianos, fempl=iraquianas
+    irlandês: pais=irlanda, iso2=ie, iso3=irl, gen=m, fem=irlandesa, plural=irlandeses, fempl=irlandesas
+    islandês: pais=islândia, iso2=is, iso3=isl, gen=m, fem=islandesa, plural=islandeses, fempl=islandesas
+    israelense: pais=israel, iso2=il, iso3=isr, gen=c, fem=israelense, plural=israelenses, fempl=israelenses, sinonimo=israelita
+    italiano: pais=itália, iso2=it, iso3=ita, gen=m, fem=italiana, plural=italianos, fempl=italianas
+    jamaicano: pais=jamaica, iso2=jm, iso3=jam, gen=m, fem=jamaicana, plural=jamaicanos, fempl=jamaicanas
+    japonês: pais=japão, iso2=jp, iso3=jpn, gen=m, fem=japonesa, plural=japoneses, fempl=japonesas
+    jordaniano: pais=jordânia, iso2=jo, iso3=jor, gen=m, fem=jordaniana, plural=jordanianos, fempl=jordanianas
+    kiribatiano: pais=kiribati, iso2=ki, iso3=kir, gen=m, fem=kiribatiana, plural=kiribatianos, fempl=kiribatianas, sinonimo=quiribatiano
+    kosovar: pais=kosovo, iso2=xk, iso3=xkx, gen=c, fem=kosovar, plural=kosovares, fempl=kosovares, sinonimo=kosovano
+    kuwaitiano: pais=kuwait, iso2=kw, iso3=kwt, gen=m, fem=kuwaitiana, plural=kuwaitianos, fempl=kuwaitianas, sinonimo=koweitiano
+    laosiano: pais=laos, iso2=la, iso3=lao, gen=m, fem=laosiana, plural=laosianos, fempl=laosianas, sinonimo=laociano
+    lesotiano: pais=lesoto, iso2=ls, iso3=lso, gen=m, fem=lesotiana, plural=lesotianos, fempl=lesotianas
+    letão: pais=letônia, iso2=lv, iso3=lva, gen=m, fem=letã, plural=letões, fempl=letãs
+    libanês: pais=líbano, iso2=lb, iso3=lbn, gen=m, fem=libanesa, plural=libaneses, fempl=libanesas
+    liberiano: pais=libéria, iso2=lr, iso3=lbr, gen=m, fem=liberiana, plural=liberianos, fempl=liberianas
+    líbio: pais=líbia, iso2=ly, iso3=lby, gen=m, fem=líbia, plural=líbios, fempl=líbias
+    liechtensteinense: pais=liechtenstein, iso2=li, iso3=lie, gen=c, fem=liechtensteinense, plural=liechtensteinenses, fempl=liechtensteinenses
+    lituano: pais=lituânia, iso2=lt, iso3=ltu, gen=m, fem=lituana, plural=lituanos, fempl=lituanas
+    luxemburguês: pais=luxemburgo, iso2=lu, iso3=lux, gen=m, fem=luxemburguesa, plural=luxemburgueses, fempl=luxemburguesas
+    macaense: pais=macau, iso2=mo, iso3=mac, gen=c, fem=macaense, plural=macaenses, fempl=macaenses
+    macedônio: pais="macedônia do norte", iso2=mk, iso3=mkd, gen=m, fem=macedônia, plural=macedônios, fempl=macedônias, sinonimo=[macedónio,"norte-macedônio","norte-macedónio"]
+    malaio: pais=malásia, iso2=my, iso3=mys, gen=m, fem=malaia, plural=malaios, fempl=malaias, sinonimo=malásio
+    malawiano: pais=malawi, iso2=mw, iso3=mwi, gen=m, fem=malawiana, plural=malawianos, fempl=malawianas, sinonimo=malauiano
+    maldívio: pais=maldivas, iso2=mv, iso3=mdv, gen=m, fem=maldívia, plural=maldívios, fempl=maldívias
+    malgaxe: pais=madagascar, iso2=mg, iso3=mdg, gen=c, fem=malgaxe, plural=malgaxes, fempl=malgaxes
+    malinês: pais=mali, iso2=ml, iso3=mli, gen=m, fem=malinesa, plural=malineses, fempl=malinesas, sinonimo=maliano
+    maltês: pais=malta, iso2=mt, iso3=mlt, gen=m, fem=maltesa, plural=malteses, fempl=maltesas
+    malvinense: pais="ilhas malvinas", iso2=fk, iso3=flk, gen=c, fem=malvinense, plural=malvinenses, fempl=malvinenses
+    manês: pais="ilha de man", iso2=im, iso3=imn, gen=m, fem=manesa, plural=maneses, fempl=manesas
+    marfinense: pais="costa do marfim", iso2=ci, iso3=civ, gen=c, fem=marfinense, plural=marfinenses, fempl=marfinenses, sinonimo="costa-marfinense"
+    marroquino: pais=marrocos, iso2=ma, iso3=mar, gen=m, fem=marroquina, plural=marroquinos, fempl=marroquinas
+    marshallino: pais="ilhas marshall", iso2=mh, iso3=mhl, gen=m, fem=marshallina, plural=marshallinos, fempl=marshallinas
+    martinicano: pais=martinica, iso2=mq, iso3=mtq, gen=m, fem=martinicana, plural=martinicanos, fempl=martinicanas
+    mauriciano: pais=maurício, iso2=mu, iso3=mus, gen=m, fem=mauriciana, plural=mauricianos, fempl=mauricianas
+    mauritano: pais=mauritânia, iso2=mr, iso3=mrt, gen=m, fem=mauritana, plural=mauritanos, fempl=mauritanas
+    mexicano: pais=méxico, iso2=mx, iso3=mex, gen=m, fem=mexicana, plural=mexicanos, fempl=mexicanas
+    micronésio: pais=micronésia, iso2=fm, iso3=fsm, gen=m, fem=micronésia, plural=micronésios, fempl=micronésias
+    moçambicano: pais=moçambique, iso2=mz, iso3=moz, gen=m, fem=moçambicana, plural=moçambicanos, fempl=moçambicanas
+    moldávio: pais=moldávia, iso2=md, iso3=mda, gen=m, fem=moldávia, plural=moldávios, fempl=moldávias, sinonimo=moldavo
+    monegasco: pais=mônaco, iso2=mc, iso3=mco, gen=m, fem=monegasca, plural=monegascos, fempl=monegascas
+    mongol: pais=mongólia, iso2=mn, iso3=mng, gen=c, fem=mongol, plural=mongóis, fempl=mongóis, sinonimo=mongoliano
+    montenegrino: pais=montenegro, iso2=me, iso3=mne, gen=m, fem=montenegrina, plural=montenegrinos, fempl=montenegrinas
+    namibiano: pais=namíbia, iso2=na, iso3=nam, gen=m, fem=namibiana, plural=namibianos, fempl=namibianas
+    nauruano: pais=nauru, iso2=nr, iso3=nru, gen=m, fem=nauruana, plural=nauruanos, fempl=nauruanas
+    neerlandês: pais="países baixos", iso2=nl, iso3=nld, gen=m, fem=neerlandesa, plural=neerlandeses, fempl=neerlandesas, sinonimo=holandês
+    neocaledônio: pais="nova caledônia", iso2=nc, iso3=ncl, gen=m, fem=neocaledônia, plural=neocaledônios, fempl=neocaledônias, sinonimo=neocaledónio
+    neozelandês: pais="nova zelândia", iso2=nz, iso3=nzl, gen=m, fem=neozelandesa, plural=neozelandeses, fempl=neozelandesas
+    nepalês: pais=nepal, iso2=np, iso3=npl, gen=m, fem=nepalesa, plural=nepaleses, fempl=nepalesas
+    nicaraguense: pais=nicarágua, iso2=ni, iso3=nic, gen=c, fem=nicaraguense, plural=nicaraguenses, fempl=nicaraguenses, sinonimo=nicaraguano
+    nigeriano: pais=nigéria, iso2=ng, iso3=nga, gen=m, fem=nigeriana, plural=nigerianos, fempl=nigerianas
+    nigerino: pais=níger, iso2=ne, iso3=ner, gen=m, fem=nigerina, plural=nigerinos, fempl=nigerinas
+    norte-coreano: pais="coreia do norte", iso2=kp, iso3=prk, gen=m, fem="norte-coreana", plural="norte-coreanos", fempl="norte-coreanas"
+    norte-irlandês: pais="irlanda do norte", iso2=gb, iso3=gbr, gen=m, fem="norte-irlandesa", plural="norte-irlandeses", fempl="norte-irlandesas"
+    norueguês: pais=noruega, iso2=no, iso3=nor, gen=m, fem=norueguesa, plural=noruegueses, fempl=norueguesas
+    omanense: pais=omã, iso2=om, iso3=omn, gen=c, fem=omanense, plural=omanenses, fempl=omanenses, sinonimo=omani
+    palauano: pais=palau, iso2=pw, iso3=plw, gen=m, fem=palauana, plural=palauanos, fempl=palauanas
+    palestino: pais=palestina, iso2=ps, iso3=pse, gen=m, fem=palestina, plural=palestinos, fempl=palestinas, sinonimo=palestiniano
+    panamenho: pais=panamá, iso2=pa, iso3=pan, gen=m, fem=panamenha, plural=panamenhos, fempl=panamenhas
+    papuásio: pais="papua-nova guiné", iso2=pg, iso3=png, gen=m, fem=papuásia, plural=papuásios, fempl=papuásias
+    paquistanês: pais=paquistão, iso2=pk, iso3=pak, gen=m, fem=paquistanesa, plural=paquistaneses, fempl=paquistanesas
+    paraguaio: pais=paraguai, iso2=py, iso3=pry, gen=m, fem=paraguaia, plural=paraguaios, fempl=paraguaias
+    peruano: pais=peru, iso2=pe, iso3=per, gen=m, fem=peruana, plural=peruanos, fempl=peruanas
+    polinésio: pais="polinésia francesa", iso2=pf, iso3=pyf, gen=m, fem=polinésia, plural=polinésios, fempl=polinésias, sinonimo="franco-polinésio"
+    polonês: pais=polônia, iso2=pl, iso3=pol, gen=m, fem=polonesa, plural=poloneses, fempl=polonesas, sinonimo=polaco
+    porto-riquenho: pais="porto rico", iso2=pr, iso3=pri, gen=m, fem="porto-riquenha", plural="porto-riquenhos", fempl="porto-riquenhas", sinonimo=portorriquenho
+    português: pais=portugal, iso2=pt, iso3=prt, gen=m, fem=portuguesa, plural=portugueses, fempl=portuguesas
+    queniano: pais=quênia, iso2=ke, iso3=ken, gen=m, fem=queniana, plural=quenianos, fempl=quenianas
+    quirguiz: pais=quirguistão, iso2=kg, iso3=kgz, gen=c, fem=quirguiz, plural=quirguizes, fempl=quirguizes, sinonimo=quirguistanês
+    reunionense: pais=reunião, iso2=re, iso3=reu, gen=c, fem=reunionense, plural=reunionenses, fempl=reunionenses
+    romeno: pais=romênia, iso2=ro, iso3=rou, gen=m, fem=romena, plural=romenos, fempl=romenas
+    ruandês: pais=ruanda, iso2=rw, iso3=rwa, gen=m, fem=ruandesa, plural=ruandeses, fempl=ruandesas
+    russo: pais=rússia, iso2=ru, iso3=rus, gen=m, fem=russa, plural=russos, fempl=russas
+    saarauí: pais="saara ocidental", iso2=eh, iso3=esh, gen=c, fem=saarauí, plural=saarauís, fempl=saarauís, sinonimo=sarauí
+    salomonense: pais="ilhas salomão", iso2=sb, iso3=slb, gen=c, fem=salomonense, plural=salomonenses, fempl=salomonenses
+    salvadorenho: pais="el salvador", iso2=sv, iso3=slv, gen=m, fem=salvadorenha, plural=salvadorenhos, fempl=salvadorenhas
+    samoano: pais=samoa, iso2=ws, iso3=wsm, gen=m, fem=samoana, plural=samoanos, fempl=samoanas
+    samoano-americano: pais="samoa americana", iso2=as, iso3=asm, gen=m, fem="samoano-americana", plural="samoano-americanos", fempl="samoano-americanas"
+    santa-lucense: pais="santa lúcia", iso2=lc, iso3=lca, gen=c, fem="santa-lucense", plural="santa-lucenses", fempl="santa-lucenses"
+    são-cristovense: pais="são cristóvão e névis", iso2=kn, iso3=kna, gen=c, fem="são-cristovense", plural="são-cristovenses", fempl="são-cristovenses"
+    são-marinense: pais="san marino", iso2=sm, iso3=smr, gen=c, fem="são-marinense", plural="são-marinenses", fempl="são-marinenses", sinonimo=samarinês
+    são-tomense: pais="são tomé e príncipe", iso2=st, iso3=stp, gen=c, fem="são-tomense", plural="são-tomenses", fempl="são-tomenses"
+    são-vicentino: pais="são vicente e granadinas", iso2=vc, iso3=vct, gen=m, fem="são-vicentina", plural="são-vicentinos", fempl="são-vicentinas"
+    saudita: pais="arábia saudita", iso2=sa, iso3=sau, gen=c, fem=saudita, plural=sauditas, fempl=sauditas, sinonimo="árabe-saudita"
+    seichelense: pais=seicheles, iso2=sc, iso3=syc, gen=c, fem=seichelense, plural=seichelenses, fempl=seichelenses
+    senegalês: pais=senegal, iso2=sn, iso3=sen, gen=m, fem=senegalesa, plural=senegaleses, fempl=senegalesas
+    serra-leonês: pais="serra leoa", iso2=sl, iso3=sle, gen=m, fem="serra-leonesa", plural="serra-leoneses", fempl="serra-leonesas"
+    sérvio: pais=sérvia, iso2=rs, iso3=srb, gen=m, fem=sérvia, plural=sérvios, fempl=sérvias
+    singapurense: pais=singapura, iso2=sg, iso3=sgp, gen=c, fem=singapurense, plural=singapurenses, fempl=singapurenses, sinonimo=cingapuriano
+    sírio: pais=síria, iso2=sy, iso3=syr, gen=m, fem=síria, plural=sírios, fempl=sírias
+    somali: pais=somália, iso2=so, iso3=som, gen=c, fem=somali, plural=somalis, fempl=somalis, sinonimo=somaliano
+    suázi: pais=essuatíni, iso2=sz, iso3=swz, gen=c, fem=suázi, plural=suázis, fempl=suázis, sinonimo=suazi
+    sudanês: pais=sudão, iso2=sd, iso3=sdn, gen=m, fem=sudanesa, plural=sudaneses, fempl=sudanesas
+    sueco: pais=suécia, iso2=se, iso3=swe, gen=m, fem=sueca, plural=suecos, fempl=suecas
+    suíço: pais=suíça, iso2=ch, iso3=che, gen=m, fem=suíça, plural=suíços, fempl=suíças
+    sul-africano: pais="áfrica do sul", iso2=za, iso3=zaf, gen=m, fem="sul-africana", plural="sul-africanos", fempl="sul-africanas"
+    sul-coreano: pais="coreia do sul", iso2=kr, iso3=kor, gen=m, fem="sul-coreana", plural="sul-coreanos", fempl="sul-coreanas"
+    sul-sudanês: pais="sudão do sul", iso2=ss, iso3=ssd, gen=m, fem="sul-sudanesa", plural="sul-sudaneses", fempl="sul-sudanesas"
+    surinamês: pais=suriname, iso2=sr, iso3=sur, gen=m, fem=surinamesa, plural=surinameses, fempl=surinamesas
+    tailandês: pais=tailândia, iso2=th, iso3=tha, gen=m, fem=tailandesa, plural=tailandeses, fempl=tailandesas
+    taiwanês: pais=taiwan, iso2=tw, iso3=twn, gen=m, fem=taiwanesa, plural=taiwaneses, fempl=taiwanesas, sinonimo=formosano
+    tajique: pais=tajiquistão, iso2=tj, iso3=tjk, gen=c, fem=tajique, plural=tajiques, fempl=tajiques, sinonimo=tajiquistanês
+    tanzaniano: pais=tanzânia, iso2=tz, iso3=tza, gen=m, fem=tanzaniana, plural=tanzanianos, fempl=tanzanianas
+    tcheco: pais=tchéquia, iso2=cz, iso3=cze, gen=m, fem=tcheca, plural=tchecos, fempl=tchecas, sinonimo=checo
+    timorense: pais="timor-leste", iso2=tl, iso3=tls, gen=c, fem=timorense, plural=timorenses, fempl=timorenses
+    togolês: pais=togo, iso2=tg, iso3=tgo, gen=m, fem=togolesa, plural=togoleses, fempl=togolesas
+    tonganês: pais=tonga, iso2=to, iso3=ton, gen=m, fem=tonganesa, plural=tonganeses, fempl=tonganesas
+    trinitino: pais="trinidad e tobago", iso2=tt, iso3=tto, gen=m, fem=trinitina, plural=trinitinos, fempl=trinitinas, sinonimo=tobaguiano
+    tunisiano: pais=tunísia, iso2=tn, iso3=tun, gen=m, fem=tunisiana, plural=tunisianos, fempl=tunisianas, sinonimo=tunisino
+    turco: pais=turquia, iso2=tr, iso3=tur, gen=m, fem=turca, plural=turcos, fempl=turcas
+    turcomeno: pais=turcomenistão, iso2=tm, iso3=tkm, gen=m, fem=turcomena, plural=turcomenos, fempl=turcomenas, sinonimo=turcomano
+    tuvaluano: pais=tuvalu, iso2=tv, iso3=tuv, gen=m, fem=tuvaluana, plural=tuvaluanos, fempl=tuvaluanas
+    ucraniano: pais=ucrânia, iso2=ua, iso3=ukr, gen=m, fem=ucraniana, plural=ucranianos, fempl=ucranianas
+    ugandense: pais=uganda, iso2=ug, iso3=uga, gen=c, fem=ugandense, plural=ugandenses, fempl=ugandenses, sinonimo=ugandês
+    uruguaio: pais=uruguai, iso2=uy, iso3=ury, gen=m, fem=uruguaia, plural=uruguaios, fempl=uruguaias
+    uzbeque: pais=uzbequistão, iso2=uz, iso3=uzb, gen=c, fem=uzbeque, plural=uzbeques, fempl=uzbeques, sinonimo=uzbequistanês
+    vanuatuense: pais=vanuatu, iso2=vu, iso3=vut, gen=c, fem=vanuatuense, plural=vanuatuenses, fempl=vanuatuenses
+    vaticano: pais="santa sé", iso2=va, iso3=vat, gen=m, fem=vaticana, plural=vaticanos, fempl=vaticanas
+    venezuelano: pais=venezuela, iso2=ve, iso3=ven, gen=m, fem=venezuelana, plural=venezuelanos, fempl=venezuelanas
+    vietnamita: pais=vietnã, iso2=vn, iso3=vnm, gen=c, fem=vietnamita, plural=vietnamitas, fempl=vietnamitas
+    zambiano: pais=zâmbia, iso2=zm, iso3=zmb, gen=m, fem=zambiana, plural=zambianos, fempl=zambianas
+    zimbabuano: pais=zimbábue, iso2=zw, iso3=zwe, gen=m, fem=zimbabuana, plural=zimbabuanos, fempl=zimbabuanas, sinonimo=zimbabueano
+  pais
+    afeganistão: nacionalidade=afegão, iso2=af, iso3=afg, gen=m, fem=afegã, plural=afegãos, fempl=afegãs
+    áfrica do sul: nacionalidade="sul-africano", iso2=za, iso3=zaf, gen=m, fem="sul-africana", plural="sul-africanos", fempl="sul-africanas"
+    albânia: nacionalidade=albanês, iso2=al, iso3=alb, gen=m, fem=albanesa, plural=albaneses, fempl=albanesas
+    alemanha: nacionalidade=alemão, iso2=de, iso3=deu, gen=m, fem=alemã, plural=alemães, fempl=alemãs
+    andorra: nacionalidade=andorrano, iso2=ad, iso3=and, gen=m, fem=andorrana, plural=andorranos, fempl=andorranas
+    angola: nacionalidade=angolano, iso2=ao, iso3=ago, gen=m, fem=angolana, plural=angolanos, fempl=angolanas
+    anguila: nacionalidade=anguilano, iso2=ai, iso3=aia, gen=m, fem=anguilana, plural=anguilanos, fempl=anguilanas
+    antígua e barbuda: nacionalidade=antiguano, iso2=ag, iso3=atg, gen=m, fem=antiguana, plural=antiguanos, fempl=antiguanas
+    arábia saudita: nacionalidade=saudita, iso2=sa, iso3=sau, gen=c, fem=saudita, plural=sauditas, fempl=sauditas
+    argélia: nacionalidade=argelino, iso2=dz, iso3=dza, gen=m, fem=argelina, plural=argelinos, fempl=argelinas
+    argentina: nacionalidade=argentino, iso2=ar, iso3=arg, gen=m, fem=argentina, plural=argentinos, fempl=argentinas
+    arménia: sin=1, raiz=armênia, nacionalidade=armênio, iso2=am, iso3=arm, gen=m, fem=armênia, plural=armênios, fempl=armênias
+    armênia: nacionalidade=armênio, iso2=am, iso3=arm, gen=m, fem=armênia, plural=armênios, fempl=armênias
+    aruba: nacionalidade=arubano, iso2=aw, iso3=abw, gen=m, fem=arubana, plural=arubanos, fempl=arubanas
+    austrália: nacionalidade=australiano, iso2=au, iso3=aus, gen=m, fem=australiana, plural=australianos, fempl=australianas
+    áustria: nacionalidade=austríaco, iso2=at, iso3=aut, gen=m, fem=austríaca, plural=austríacos, fempl=austríacas
+    azerbaijão: nacionalidade=azerbaijano, iso2=az, iso3=aze, gen=m, fem=azerbaijana, plural=azerbaijanos, fempl=azerbaijanas
+    bahamas: nacionalidade=baamiano, iso2=bs, iso3=bhs, gen=m, fem=baamiana, plural=baamianos, fempl=baamianas
+    bahrein: nacionalidade=bareinita, iso2=bh, iso3=bhr, gen=c, fem=bareinita, plural=bareinitas, fempl=bareinitas
+    bangladesh: nacionalidade=bengali, iso2=bd, iso3=bgd, gen=c, fem=bengali, plural=bengalis, fempl=bengalis
+    barbados: nacionalidade=barbadiano, iso2=bb, iso3=brb, gen=m, fem=barbadiana, plural=barbadianos, fempl=barbadianas
+    barein: sin=1, raiz=bahrein, nacionalidade=bareinita, iso2=bh, iso3=bhr, gen=c, fem=bareinita, plural=bareinitas, fempl=bareinitas
+    barém: sin=1, raiz=bahrein, nacionalidade=bareinita, iso2=bh, iso3=bhr, gen=c, fem=bareinita, plural=bareinitas, fempl=bareinitas
+    belarus: sin=1, raiz=bielorrússia, nacionalidade=bielorrusso, iso2=by, iso3=blr, gen=m, fem=bielorrussa, plural=bielorrussos, fempl=bielorrussas
+    bélgica: nacionalidade=belga, iso2=be, iso3=bel, gen=c, fem=belga, plural=belgas, fempl=belgas
+    belize: nacionalidade=belizenho, iso2=bz, iso3=blz, gen=m, fem=belizenha, plural=belizenhos, fempl=belizenhas
+    benim: sin=1, raiz=benin, nacionalidade=beninense, iso2=bj, iso3=ben, gen=c, fem=beninense, plural=beninenses, fempl=beninenses
+    benin: nacionalidade=beninense, iso2=bj, iso3=ben, gen=c, fem=beninense, plural=beninenses, fempl=beninenses
+    bermuda: sin=1, raiz=bermudas, nacionalidade=bermudense, iso2=bm, iso3=bmu, gen=c, fem=bermudense, plural=bermudenses, fempl=bermudenses
+    bermudas: nacionalidade=bermudense, iso2=bm, iso3=bmu, gen=c, fem=bermudense, plural=bermudenses, fempl=bermudenses
+    bielorrússia: nacionalidade=bielorrusso, iso2=by, iso3=blr, gen=m, fem=bielorrussa, plural=bielorrussos, fempl=bielorrussas
+    birmânia: sin=1, raiz=mianmar, nacionalidade=birmanês, iso2=mm, iso3=mmr, gen=m, fem=birmanesa, plural=birmaneses, fempl=birmanesas
+    bolívia: nacionalidade=boliviano, iso2=bo, iso3=bol, gen=m, fem=boliviana, plural=bolivianos, fempl=bolivianas
+    bósnia: sin=1, raiz="bósnia e herzegovina", nacionalidade=bósnio, iso2=ba, iso3=bih, gen=m, fem=bósnia, plural=bósnios, fempl=bósnias
+    bósnia e herzegovina: nacionalidade=bósnio, iso2=ba, iso3=bih, gen=m, fem=bósnia, plural=bósnios, fempl=bósnias
+    bósnia-herzegovina: sin=1, raiz="bósnia e herzegovina", nacionalidade=bósnio, iso2=ba, iso3=bih, gen=m, fem=bósnia, plural=bósnios, fempl=bósnias
+    botsuana: nacionalidade=botsuano, iso2=bw, iso3=bwa, gen=m, fem=botsuana, plural=botsuanos, fempl=botsuanas
+    botswana: sin=1, raiz=botsuana, nacionalidade=botsuano, iso2=bw, iso3=bwa, gen=m, fem=botsuana, plural=botsuanos, fempl=botsuanas
+    brasil: nacionalidade=brasileiro, iso2=br, iso3=bra, gen=m, fem=brasileira, plural=brasileiros, fempl=brasileiras
+    brunei: nacionalidade=bruneano, iso2=bn, iso3=brn, gen=m, fem=bruneana, plural=bruneanos, fempl=bruneanas
+    brunei darussalam: sin=1, raiz=brunei, nacionalidade=bruneano, iso2=bn, iso3=brn, gen=m, fem=bruneana, plural=bruneanos, fempl=bruneanas
+    bulgária: nacionalidade=búlgaro, iso2=bg, iso3=bgr, gen=m, fem=búlgara, plural=búlgaros, fempl=búlgaras
+    burkina faso: nacionalidade=burquinense, iso2=bf, iso3=bfa, gen=c, fem=burquinense, plural=burquinenses, fempl=burquinenses
+    burundi: nacionalidade=burundiano, iso2=bi, iso3=bdi, gen=m, fem=burundiana, plural=burundianos, fempl=burundianas
+    butão: nacionalidade=butanês, iso2=bt, iso3=btn, gen=m, fem=butanesa, plural=butaneses, fempl=butanesas
+    cabo verde: nacionalidade="cabo-verdiano", iso2=cv, iso3=cpv, gen=m, fem="cabo-verdiana", plural="cabo-verdianos", fempl="cabo-verdianas"
+    camarões: nacionalidade=camaronês, iso2=cm, iso3=cmr, gen=m, fem=camaronesa, plural=camaroneses, fempl=camaronesas
+    camboja: nacionalidade=cambojano, iso2=kh, iso3=khm, gen=m, fem=cambojana, plural=cambojanos, fempl=cambojanas
+    canadá: nacionalidade=canadense, iso2=ca, iso3=can, gen=c, fem=canadense, plural=canadenses, fempl=canadenses
+    catar: nacionalidade=catariano, iso2=qa, iso3=qat, gen=m, fem=catariana, plural=catarianos, fempl=catarianas
+    cazaquistão: nacionalidade=cazaque, iso2=kz, iso3=kaz, gen=c, fem=cazaque, plural=cazaques, fempl=cazaques
+    chade: nacionalidade=chadiano, iso2=td, iso3=tcd, gen=m, fem=chadiana, plural=chadianos, fempl=chadianas
+    chéquia: sin=1, raiz=tchéquia, nacionalidade=tcheco, iso2=cz, iso3=cze, gen=m, fem=tcheca, plural=tchecos, fempl=tchecas
+    chile: nacionalidade=chileno, iso2=cl, iso3=chl, gen=m, fem=chilena, plural=chilenos, fempl=chilenas
+    china: nacionalidade=chinês, iso2=cn, iso3=chn, gen=m, fem=chinesa, plural=chineses, fempl=chinesas
+    chipre: nacionalidade=cipriota, iso2=cy, iso3=cyp, gen=c, fem=cipriota, plural=cipriotas, fempl=cipriotas
+    cidade do vaticano: sin=1, raiz="santa sé", nacionalidade=vaticano, iso2=va, iso3=vat, gen=m, fem=vaticana, plural=vaticanos, fempl=vaticanas
+    cingapura: sin=1, raiz=singapura, nacionalidade=singapurense, iso2=sg, iso3=sgp, gen=c, fem=singapurense, plural=singapurenses, fempl=singapurenses
+    colômbia: nacionalidade=colombiano, iso2=co, iso3=col, gen=m, fem=colombiana, plural=colombianos, fempl=colombianas
+    comores: nacionalidade=comorense, iso2=km, iso3=com, gen=c, fem=comorense, plural=comorenses, fempl=comorenses
+    congo: nacionalidade=congolês, iso2=cg, iso3=cog, gen=m, fem=congolesa, plural=congoleses, fempl=congolesas
+    congo-brazzaville: sin=1, raiz=congo, nacionalidade=congolês, iso2=cg, iso3=cog, gen=m, fem=congolesa, plural=congoleses, fempl=congolesas
+    congo-kinshasa: sin=1, raiz="república democrática do congo", nacionalidade=congolês, iso2=cd, iso3=cod, gen=m, fem=congolesa, plural=congoleses, fempl=congolesas
+    coreia: nacionalidade=coreano, iso2=kr, iso3=kor, gen=m, fem=coreana, plural=coreanos, fempl=coreanas
+    coreia do norte: nacionalidade="norte-coreano", iso2=kp, iso3=prk, gen=m, fem="norte-coreana", plural="norte-coreanos", fempl="norte-coreanas"
+    coreia do sul: nacionalidade="sul-coreano", iso2=kr, iso3=kor, gen=m, fem="sul-coreana", plural="sul-coreanos", fempl="sul-coreanas"
+    costa do marfim: nacionalidade=marfinense, iso2=ci, iso3=civ, gen=c, fem=marfinense, plural=marfinenses, fempl=marfinenses
+    costa rica: nacionalidade=costarriquenho, iso2=cr, iso3=cri, gen=m, fem=costarriquenha, plural=costarriquenhos, fempl=costarriquenhas
+    côte d'ivoire: sin=1, raiz="costa do marfim", nacionalidade=marfinense, iso2=ci, iso3=civ, gen=c, fem=marfinense, plural=marfinenses, fempl=marfinenses
+    croácia: nacionalidade=croata, iso2=hr, iso3=hrv, gen=c, fem=croata, plural=croatas, fempl=croatas
+    cuba: nacionalidade=cubano, iso2=cu, iso3=cub, gen=m, fem=cubana, plural=cubanos, fempl=cubanas
+    dinamarca: nacionalidade=dinamarquês, iso2=dk, iso3=dnk, gen=m, fem=dinamarquesa, plural=dinamarqueses, fempl=dinamarquesas
+    djibuti: nacionalidade=djibutiano, iso2=dj, iso3=dji, gen=m, fem=djibutiana, plural=djibutianos, fempl=djibutianas
+    dominica: nacionalidade=dominiquense, iso2=dm, iso3=dma, gen=c, fem=dominiquense, plural=dominiquenses, fempl=dominiquenses
+    egipto: sin=1, raiz=egito, nacionalidade=egípcio, iso2=eg, iso3=egy, gen=m, fem=egípcia, plural=egípcios, fempl=egípcias
+    egito: nacionalidade=egípcio, iso2=eg, iso3=egy, gen=m, fem=egípcia, plural=egípcios, fempl=egípcias
+    el salvador: nacionalidade=salvadorenho, iso2=sv, iso3=slv, gen=m, fem=salvadorenha, plural=salvadorenhos, fempl=salvadorenhas
+    emirados árabes unidos: nacionalidade=emiradense, iso2=ae, iso3=are, gen=c, fem=emiradense, plural=emiradenses, fempl=emiradenses
+    equador: nacionalidade=equatoriano, iso2=ec, iso3=ecu, gen=m, fem=equatoriana, plural=equatorianos, fempl=equatorianas
+    eritreia: nacionalidade=eritreu, iso2=er, iso3=eri, gen=m, fem=eritreia, plural=eritreus, fempl=eritreias
+    eritréia: sin=1, raiz=eritreia, nacionalidade=eritreu, iso2=er, iso3=eri, gen=m, fem=eritreia, plural=eritreus, fempl=eritreias
+    escócia: nacionalidade=escocês, iso2=gb, iso3=gbr, gen=m, fem=escocesa, plural=escoceses, fempl=escocesas
+    eslováquia: nacionalidade=eslovaco, iso2=sk, iso3=svk, gen=m, fem=eslovaca, plural=eslovacos, fempl=eslovacas
+    eslovénia: sin=1, raiz=eslovênia, nacionalidade=esloveno, iso2=si, iso3=svn, gen=m, fem=eslovena, plural=eslovenos, fempl=eslovenas
+    eslovênia: nacionalidade=esloveno, iso2=si, iso3=svn, gen=m, fem=eslovena, plural=eslovenos, fempl=eslovenas
+    espanha: nacionalidade=espanhol, iso2=es, iso3=esp, gen=m, fem=espanhola, plural=espanhóis, fempl=espanholas
+    essuatíni: nacionalidade=suázi, iso2=sz, iso3=swz, gen=c, fem=suázi, plural=suázis, fempl=suázis
+    estado da palestina: sin=1, raiz=palestina, nacionalidade=palestino, iso2=ps, iso3=pse, gen=m, fem=palestina, plural=palestinos, fempl=palestinas
+    estado plurinacional da bolívia: sin=1, raiz=bolívia, nacionalidade=boliviano, iso2=bo, iso3=bol, gen=m, fem=boliviana, plural=bolivianos, fempl=bolivianas
+    estados federados da micronésia: sin=1, raiz=micronésia, nacionalidade=micronésio, iso2=fm, iso3=fsm, gen=m, fem=micronésia, plural=micronésios, fempl=micronésias
+    estados unidos: nacionalidade=americano, iso2=us, iso3=usa, gen=m, fem=americana, plural=americanos, fempl=americanas
+    estados unidos da américa: sin=1, raiz="estados unidos", nacionalidade=americano, iso2=us, iso3=usa, gen=m, fem=americana, plural=americanos, fempl=americanas
+    estónia: sin=1, raiz=estônia, nacionalidade=estoniano, iso2=ee, iso3=est, gen=m, fem=estoniana, plural=estonianos, fempl=estonianas
+    estônia: nacionalidade=estoniano, iso2=ee, iso3=est, gen=m, fem=estoniana, plural=estonianos, fempl=estonianas
+    eswatini: sin=1, raiz=essuatíni, nacionalidade=suázi, iso2=sz, iso3=swz, gen=c, fem=suázi, plural=suázis, fempl=suázis
+    etiópia: nacionalidade=etíope, iso2=et, iso3=eth, gen=c, fem=etíope, plural=etíopes, fempl=etíopes
+    eua: sin=1, raiz="estados unidos", nacionalidade=americano, iso2=us, iso3=usa, gen=m, fem=americana, plural=americanos, fempl=americanas
+    federação russa: sin=1, raiz=rússia, nacionalidade=russo, iso2=ru, iso3=rus, gen=m, fem=russa, plural=russos, fempl=russas
+    fidji: sin=1, raiz=fiji, nacionalidade=fijiano, iso2=fj, iso3=fji, gen=m, fem=fijiana, plural=fijianos, fempl=fijianas
+    fiji: nacionalidade=fijiano, iso2=fj, iso3=fji, gen=m, fem=fijiana, plural=fijianos, fempl=fijianas
+    filipinas: nacionalidade=filipino, iso2=ph, iso3=phl, gen=m, fem=filipina, plural=filipinos, fempl=filipinas
+    finlândia: nacionalidade=finlandês, iso2=fi, iso3=fin, gen=m, fem=finlandesa, plural=finlandeses, fempl=finlandesas
+    frança: nacionalidade=francês, iso2=fr, iso3=fra, gen=m, fem=francesa, plural=franceses, fempl=francesas
+    gabão: nacionalidade=gabonês, iso2=ga, iso3=gab, gen=m, fem=gabonesa, plural=gaboneses, fempl=gabonesas
+    gales: sin=1, raiz="país de gales", nacionalidade=galês, iso2=gb, iso3=gbr, gen=m, fem=galesa, plural=galeses, fempl=galesas
+    gâmbia: nacionalidade=gambiano, iso2=gm, iso3=gmb, gen=m, fem=gambiana, plural=gambianos, fempl=gambianas
+    gana: nacionalidade=ganês, iso2=gh, iso3=gha, gen=m, fem=ganesa, plural=ganeses, fempl=ganesas
+    geórgia: nacionalidade=georgiano, iso2=ge, iso3=geo, gen=m, fem=georgiana, plural=georgianos, fempl=georgianas
+    gibraltar: nacionalidade=gibraltarino, iso2=gi, iso3=gib, gen=m, fem=gibraltarina, plural=gibraltarinos, fempl=gibraltarinas
+    grã-bretanha: sin=1, raiz="reino unido", nacionalidade=britânico, iso2=gb, iso3=gbr, gen=m, fem=britânica, plural=britânicos, fempl=britânicas
+    granada: nacionalidade=granadino, iso2=gd, iso3=grd, gen=m, fem=granadina, plural=granadinos, fempl=granadinas
+    grécia: nacionalidade=grego, iso2=gr, iso3=grc, gen=m, fem=grega, plural=gregos, fempl=gregas
+    groenlândia: nacionalidade=groenlandês, iso2=gl, iso3=grl, gen=m, fem=groenlandesa, plural=groenlandeses, fempl=groenlandesas
+    gronelândia: sin=1, raiz=groenlândia, nacionalidade=groenlandês, iso2=gl, iso3=grl, gen=m, fem=groenlandesa, plural=groenlandeses, fempl=groenlandesas
+    guadalupe: nacionalidade=guadalupense, iso2=gp, iso3=glp, gen=c, fem=guadalupense, plural=guadalupenses, fempl=guadalupenses
+    guatemala: nacionalidade=guatemalteco, iso2=gt, iso3=gtm, gen=m, fem=guatemalteca, plural=guatemaltecos, fempl=guatemaltecas
+    guiana: nacionalidade=guianense, iso2=gy, iso3=guy, gen=c, fem=guianense, plural=guianenses, fempl=guianenses
+    guiana francesa: nacionalidade="franco-guianense", iso2=gf, iso3=guf, gen=c, fem="franco-guianense", plural="franco-guianenses", fempl="franco-guianenses"
+    guiné: nacionalidade=guineense, iso2=gn, iso3=gin, gen=c, fem=guineense, plural=guineenses, fempl=guineenses
+    guiné equatorial: nacionalidade="equato-guineense", iso2=gq, iso3=gnq, gen=c, fem="equato-guineense", plural="equato-guineenses", fempl="equato-guineenses"
+    guiné-bissau: nacionalidade=guineense, iso2=gw, iso3=gnb, gen=c, fem=guineense, plural=guineenses, fempl=guineenses
+    guiné-conacri: sin=1, raiz=guiné, nacionalidade=guineense, iso2=gn, iso3=gin, gen=c, fem=guineense, plural=guineenses, fempl=guineenses
+    haiti: nacionalidade=haitiano, iso2=ht, iso3=hti, gen=m, fem=haitiana, plural=haitianos, fempl=haitianas
+    holanda: sin=1, raiz="países baixos", nacionalidade=neerlandês, iso2=nl, iso3=nld, gen=m, fem=neerlandesa, plural=neerlandeses, fempl=neerlandesas
+    honduras: nacionalidade=hondurenho, iso2=hn, iso3=hnd, gen=m, fem=hondurenha, plural=hondurenhos, fempl=hondurenhas
+    hong kong: nacionalidade=honconguês, iso2=hk, iso3=hkg, gen=m, fem=honconguesa, plural=honcongueses, fempl=honconguesas
+    hungria: nacionalidade=húngaro, iso2=hu, iso3=hun, gen=m, fem=húngara, plural=húngaros, fempl=húngaras
+    iémen: sin=1, raiz=iêmen, nacionalidade=iemenita, iso2=ye, iso3=yem, gen=c, fem=iemenita, plural=iemenitas, fempl=iemenitas
+    iêmen: nacionalidade=iemenita, iso2=ye, iso3=yem, gen=c, fem=iemenita, plural=iemenitas, fempl=iemenitas
+    ilha da reunião: sin=1, raiz=reunião, nacionalidade=reunionense, iso2=re, iso3=reu, gen=c, fem=reunionense, plural=reunionenses, fempl=reunionenses
+    ilha de man: nacionalidade=manês, iso2=im, iso3=imn, gen=m, fem=manesa, plural=maneses, fempl=manesas
+    ilhas aland: sin=1, raiz="ilhas åland", nacionalidade=alandês, iso2=ax, iso3=ala, gen=m, fem=alandesa, plural=alandeses, fempl=alandesas
+    ilhas åland: nacionalidade=alandês, iso2=ax, iso3=ala, gen=m, fem=alandesa, plural=alandeses, fempl=alandesas
+    ilhas caimão: sin=1, raiz="ilhas cayman", nacionalidade=caimanês, iso2=ky, iso3=cym, gen=m, fem=caimanesa, plural=caimaneses, fempl=caimanesas
+    ilhas cayman: nacionalidade=caimanês, iso2=ky, iso3=cym, gen=m, fem=caimanesa, plural=caimaneses, fempl=caimanesas
+    ilhas falkland: sin=1, raiz="ilhas malvinas", nacionalidade=malvinense, iso2=fk, iso3=flk, gen=c, fem=malvinense, plural=malvinenses, fempl=malvinenses
+    ilhas faroé: nacionalidade=feroês, iso2=fo, iso3=fro, gen=m, fem=feroesa, plural=feroeses, fempl=feroesas
+    ilhas feroé: sin=1, raiz="ilhas faroé", nacionalidade=feroês, iso2=fo, iso3=fro, gen=m, fem=feroesa, plural=feroeses, fempl=feroesas
+    ilhas malvinas: nacionalidade=malvinense, iso2=fk, iso3=flk, gen=c, fem=malvinense, plural=malvinenses, fempl=malvinenses
+    ilhas marshall: nacionalidade=marshallino, iso2=mh, iso3=mhl, gen=m, fem=marshallina, plural=marshallinos, fempl=marshallinas
+    ilhas maurício: sin=1, raiz=maurício, nacionalidade=mauriciano, iso2=mu, iso3=mus, gen=m, fem=mauriciana, plural=mauricianos, fempl=mauricianas
+    ilhas salomão: nacionalidade=salomonense, iso2=sb, iso3=slb, gen=c, fem=salomonense, plural=salomonenses, fempl=salomonenses
+    índia: nacionalidade=indiano, iso2=in, iso3=ind, gen=m, fem=indiana, plural=indianos, fempl=indianas
+    indonésia: nacionalidade=indonésio, iso2=id, iso3=idn, gen=m, fem=indonésia, plural=indonésios, fempl=indonésias
+    inglaterra: nacionalidade=inglês, iso2=gb, iso3=gbr, gen=m, fem=inglesa, plural=ingleses, fempl=inglesas
+    irã: nacionalidade=iraniano, iso2=ir, iso3=irn, gen=m, fem=iraniana, plural=iranianos, fempl=iranianas
+    irão: sin=1, raiz=irã, nacionalidade=iraniano, iso2=ir, iso3=irn, gen=m, fem=iraniana, plural=iranianos, fempl=iranianas
+    iraque: nacionalidade=iraquiano, iso2=iq, iso3=irq, gen=m, fem=iraquiana, plural=iraquianos, fempl=iraquianas
+    irlanda: nacionalidade=irlandês, iso2=ie, iso3=irl, gen=m, fem=irlandesa, plural=irlandeses, fempl=irlandesas
+    irlanda do norte: nacionalidade="norte-irlandês", iso2=gb, iso3=gbr, gen=m, fem="norte-irlandesa", plural="norte-irlandeses", fempl="norte-irlandesas"
+    islândia: nacionalidade=islandês, iso2=is, iso3=isl, gen=m, fem=islandesa, plural=islandeses, fempl=islandesas
+    israel: nacionalidade=israelense, iso2=il, iso3=isr, gen=c, fem=israelense, plural=israelenses, fempl=israelenses
+    itália: nacionalidade=italiano, iso2=it, iso3=ita, gen=m, fem=italiana, plural=italianos, fempl=italianas
+    jamaica: nacionalidade=jamaicano, iso2=jm, iso3=jam, gen=m, fem=jamaicana, plural=jamaicanos, fempl=jamaicanas
+    japão: nacionalidade=japonês, iso2=jp, iso3=jpn, gen=m, fem=japonesa, plural=japoneses, fempl=japonesas
+    jibuti: sin=1, raiz=djibuti, nacionalidade=djibutiano, iso2=dj, iso3=dji, gen=m, fem=djibutiana, plural=djibutianos, fempl=djibutianas
+    jordânia: nacionalidade=jordaniano, iso2=jo, iso3=jor, gen=m, fem=jordaniana, plural=jordanianos, fempl=jordanianas
+    kiribati: nacionalidade=kiribatiano, iso2=ki, iso3=kir, gen=m, fem=kiribatiana, plural=kiribatianos, fempl=kiribatianas
+    kosovo: nacionalidade=kosovar, iso2=xk, iso3=xkx, gen=c, fem=kosovar, plural=kosovares, fempl=kosovares
+    koweit: sin=1, raiz=kuwait, nacionalidade=kuwaitiano, iso2=kw, iso3=kwt, gen=m, fem=kuwaitiana, plural=kuwaitianos, fempl=kuwaitianas
+    kuwait: nacionalidade=kuwaitiano, iso2=kw, iso3=kwt, gen=m, fem=kuwaitiana, plural=kuwaitianos, fempl=kuwaitianas
+    kuweit: sin=1, raiz=kuwait, nacionalidade=kuwaitiano, iso2=kw, iso3=kwt, gen=m, fem=kuwaitiana, plural=kuwaitianos, fempl=kuwaitianas
+    laos: nacionalidade=laosiano, iso2=la, iso3=lao, gen=m, fem=laosiana, plural=laosianos, fempl=laosianas
+    lesoto: nacionalidade=lesotiano, iso2=ls, iso3=lso, gen=m, fem=lesotiana, plural=lesotianos, fempl=lesotianas
+    letónia: sin=1, raiz=letônia, nacionalidade=letão, iso2=lv, iso3=lva, gen=m, fem=letã, plural=letões, fempl=letãs
+    letônia: nacionalidade=letão, iso2=lv, iso3=lva, gen=m, fem=letã, plural=letões, fempl=letãs
+    líbano: nacionalidade=libanês, iso2=lb, iso3=lbn, gen=m, fem=libanesa, plural=libaneses, fempl=libanesas
+    libéria: nacionalidade=liberiano, iso2=lr, iso3=lbr, gen=m, fem=liberiana, plural=liberianos, fempl=liberianas
+    líbia: nacionalidade=líbio, iso2=ly, iso3=lby, gen=m, fem=líbia, plural=líbios, fempl=líbias
+    liechtenstein: nacionalidade=liechtensteinense, iso2=li, iso3=lie, gen=c, fem=liechtensteinense, plural=liechtensteinenses, fempl=liechtensteinenses
+    lituânia: nacionalidade=lituano, iso2=lt, iso3=ltu, gen=m, fem=lituana, plural=lituanos, fempl=lituanas
+    luxemburgo: nacionalidade=luxemburguês, iso2=lu, iso3=lux, gen=m, fem=luxemburguesa, plural=luxemburgueses, fempl=luxemburguesas
+    macau: nacionalidade=macaense, iso2=mo, iso3=mac, gen=c, fem=macaense, plural=macaenses, fempl=macaenses
+    macedónia: sin=1, raiz="macedônia do norte", nacionalidade=macedônio, iso2=mk, iso3=mkd, gen=m, fem=macedônia, plural=macedônios, fempl=macedônias
+    macedônia: sin=1, raiz="macedônia do norte", nacionalidade=macedônio, iso2=mk, iso3=mkd, gen=m, fem=macedônia, plural=macedônios, fempl=macedônias
+    macedónia do norte: sin=1, raiz="macedônia do norte", nacionalidade=macedônio, iso2=mk, iso3=mkd, gen=m, fem=macedônia, plural=macedônios, fempl=macedônias
+    macedônia do norte: nacionalidade=macedônio, iso2=mk, iso3=mkd, gen=m, fem=macedônia, plural=macedônios, fempl=macedônias
+    madagascar: nacionalidade=malgaxe, iso2=mg, iso3=mdg, gen=c, fem=malgaxe, plural=malgaxes, fempl=malgaxes
+    madagáscar: sin=1, raiz=madagascar, nacionalidade=malgaxe, iso2=mg, iso3=mdg, gen=c, fem=malgaxe, plural=malgaxes, fempl=malgaxes
+    malásia: nacionalidade=malaio, iso2=my, iso3=mys, gen=m, fem=malaia, plural=malaios, fempl=malaias
+    malaui: sin=1, raiz=malawi, nacionalidade=malawiano, iso2=mw, iso3=mwi, gen=m, fem=malawiana, plural=malawianos, fempl=malawianas
+    malawi: nacionalidade=malawiano, iso2=mw, iso3=mwi, gen=m, fem=malawiana, plural=malawianos, fempl=malawianas
+    maldivas: nacionalidade=maldívio, iso2=mv, iso3=mdv, gen=m, fem=maldívia, plural=maldívios, fempl=maldívias
+    mali: nacionalidade=malinês, iso2=ml, iso3=mli, gen=m, fem=malinesa, plural=malineses, fempl=malinesas
+    malta: nacionalidade=maltês, iso2=mt, iso3=mlt, gen=m, fem=maltesa, plural=malteses, fempl=maltesas
+    malvinas: sin=1, raiz="ilhas malvinas", nacionalidade=malvinense, iso2=fk, iso3=flk, gen=c, fem=malvinense, plural=malvinenses, fempl=malvinenses
+    marrocos: nacionalidade=marroquino, iso2=ma, iso3=mar, gen=m, fem=marroquina, plural=marroquinos, fempl=marroquinas
+    martinica: nacionalidade=martinicano, iso2=mq, iso3=mtq, gen=m, fem=martinicana, plural=martinicanos, fempl=martinicanas
+    maurícia: sin=1, raiz=maurício, nacionalidade=mauriciano, iso2=mu, iso3=mus, gen=m, fem=mauriciana, plural=mauricianos, fempl=mauricianas
+    maurício: nacionalidade=mauriciano, iso2=mu, iso3=mus, gen=m, fem=mauriciana, plural=mauricianos, fempl=mauricianas
+    mauritânia: nacionalidade=mauritano, iso2=mr, iso3=mrt, gen=m, fem=mauritana, plural=mauritanos, fempl=mauritanas
+    méxico: nacionalidade=mexicano, iso2=mx, iso3=mex, gen=m, fem=mexicana, plural=mexicanos, fempl=mexicanas
+    mianmar: nacionalidade=birmanês, iso2=mm, iso3=mmr, gen=m, fem=birmanesa, plural=birmaneses, fempl=birmanesas
+    micronésia: nacionalidade=micronésio, iso2=fm, iso3=fsm, gen=m, fem=micronésia, plural=micronésios, fempl=micronésias
+    moçambique: nacionalidade=moçambicano, iso2=mz, iso3=moz, gen=m, fem=moçambicana, plural=moçambicanos, fempl=moçambicanas
+    moldávia: nacionalidade=moldávio, iso2=md, iso3=mda, gen=m, fem=moldávia, plural=moldávios, fempl=moldávias
+    moldova: sin=1, raiz=moldávia, nacionalidade=moldávio, iso2=md, iso3=mda, gen=m, fem=moldávia, plural=moldávios, fempl=moldávias
+    mónaco: sin=1, raiz=mônaco, nacionalidade=monegasco, iso2=mc, iso3=mco, gen=m, fem=monegasca, plural=monegascos, fempl=monegascas
+    mônaco: nacionalidade=monegasco, iso2=mc, iso3=mco, gen=m, fem=monegasca, plural=monegascos, fempl=monegascas
+    mongólia: nacionalidade=mongol, iso2=mn, iso3=mng, gen=c, fem=mongol, plural=mongóis, fempl=mongóis
+    montenegro: nacionalidade=montenegrino, iso2=me, iso3=mne, gen=m, fem=montenegrina, plural=montenegrinos, fempl=montenegrinas
+    myanmar: sin=1, raiz=mianmar, nacionalidade=birmanês, iso2=mm, iso3=mmr, gen=m, fem=birmanesa, plural=birmaneses, fempl=birmanesas
+    namíbia: nacionalidade=namibiano, iso2=na, iso3=nam, gen=m, fem=namibiana, plural=namibianos, fempl=namibianas
+    nauru: nacionalidade=nauruano, iso2=nr, iso3=nru, gen=m, fem=nauruana, plural=nauruanos, fempl=nauruanas
+    nepal: nacionalidade=nepalês, iso2=np, iso3=npl, gen=m, fem=nepalesa, plural=nepaleses, fempl=nepalesas
+    nicarágua: nacionalidade=nicaraguense, iso2=ni, iso3=nic, gen=c, fem=nicaraguense, plural=nicaraguenses, fempl=nicaraguenses
+    níger: nacionalidade=nigerino, iso2=ne, iso3=ner, gen=m, fem=nigerina, plural=nigerinos, fempl=nigerinas
+    nigéria: nacionalidade=nigeriano, iso2=ng, iso3=nga, gen=m, fem=nigeriana, plural=nigerianos, fempl=nigerianas
+    noruega: nacionalidade=norueguês, iso2=no, iso3=nor, gen=m, fem=norueguesa, plural=noruegueses, fempl=norueguesas
+    nova caledónia: sin=1, raiz="nova caledônia", nacionalidade=neocaledônio, iso2=nc, iso3=ncl, gen=m, fem=neocaledônia, plural=neocaledônios, fempl=neocaledônias
+    nova caledônia: nacionalidade=neocaledônio, iso2=nc, iso3=ncl, gen=m, fem=neocaledônia, plural=neocaledônios, fempl=neocaledônias
+    nova zelândia: nacionalidade=neozelandês, iso2=nz, iso3=nzl, gen=m, fem=neozelandesa, plural=neozelandeses, fempl=neozelandesas
+    omã: nacionalidade=omanense, iso2=om, iso3=omn, gen=c, fem=omanense, plural=omanenses, fempl=omanenses
+    país de gales: nacionalidade=galês, iso2=gb, iso3=gbr, gen=m, fem=galesa, plural=galeses, fempl=galesas
+    países baixos: nacionalidade=neerlandês, iso2=nl, iso3=nld, gen=m, fem=neerlandesa, plural=neerlandeses, fempl=neerlandesas
+    palau: nacionalidade=palauano, iso2=pw, iso3=plw, gen=m, fem=palauana, plural=palauanos, fempl=palauanas
+    palestina: nacionalidade=palestino, iso2=ps, iso3=pse, gen=m, fem=palestina, plural=palestinos, fempl=palestinas
+    panamá: nacionalidade=panamenho, iso2=pa, iso3=pan, gen=m, fem=panamenha, plural=panamenhos, fempl=panamenhas
+    papua nova guiné: sin=1, raiz="papua-nova guiné", nacionalidade=papuásio, iso2=pg, iso3=png, gen=m, fem=papuásia, plural=papuásios, fempl=papuásias
+    papua-nova guiné: nacionalidade=papuásio, iso2=pg, iso3=png, gen=m, fem=papuásia, plural=papuásios, fempl=papuásias
+    paquistão: nacionalidade=paquistanês, iso2=pk, iso3=pak, gen=m, fem=paquistanesa, plural=paquistaneses, fempl=paquistanesas
+    paraguai: nacionalidade=paraguaio, iso2=py, iso3=pry, gen=m, fem=paraguaia, plural=paraguaios, fempl=paraguaias
+    peru: nacionalidade=peruano, iso2=pe, iso3=per, gen=m, fem=peruana, plural=peruanos, fempl=peruanas
+    polinésia francesa: nacionalidade=polinésio, iso2=pf, iso3=pyf, gen=m, fem=polinésia, plural=polinésios, fempl=polinésias
+    polónia: sin=1, raiz=polônia, nacionalidade=polonês, iso2=pl, iso3=pol, gen=m, fem=polonesa, plural=poloneses, fempl=polonesas
+    polônia: nacionalidade=polonês, iso2=pl, iso3=pol, gen=m, fem=polonesa, plural=poloneses, fempl=polonesas
+    porto rico: nacionalidade="porto-riquenho", iso2=pr, iso3=pri, gen=m, fem="porto-riquenha", plural="porto-riquenhos", fempl="porto-riquenhas"
+    portugal: nacionalidade=português, iso2=pt, iso3=prt, gen=m, fem=portuguesa, plural=portugueses, fempl=portuguesas
+    qatar: sin=1, raiz=catar, nacionalidade=catariano, iso2=qa, iso3=qat, gen=m, fem=catariana, plural=catarianos, fempl=catarianas
+    quénia: sin=1, raiz=quênia, nacionalidade=queniano, iso2=ke, iso3=ken, gen=m, fem=queniana, plural=quenianos, fempl=quenianas
+    quênia: nacionalidade=queniano, iso2=ke, iso3=ken, gen=m, fem=queniana, plural=quenianos, fempl=quenianas
+    quirguistão: nacionalidade=quirguiz, iso2=kg, iso3=kgz, gen=c, fem=quirguiz, plural=quirguizes, fempl=quirguizes
+    quirguízia: sin=1, raiz=quirguistão, nacionalidade=quirguiz, iso2=kg, iso3=kgz, gen=c, fem=quirguiz, plural=quirguizes, fempl=quirguizes
+    quiribati: sin=1, raiz=kiribati, nacionalidade=kiribatiano, iso2=ki, iso3=kir, gen=m, fem=kiribatiana, plural=kiribatianos, fempl=kiribatianas
+    reino unido: nacionalidade=britânico, iso2=gb, iso3=gbr, gen=m, fem=britânica, plural=britânicos, fempl=britânicas
+    reino unido da grã-bretanha e irlanda do norte: sin=1, raiz="reino unido", nacionalidade=britânico, iso2=gb, iso3=gbr, gen=m, fem=britânica, plural=britânicos, fempl=britânicas
+    república árabe síria: sin=1, raiz=síria, nacionalidade=sírio, iso2=sy, iso3=syr, gen=m, fem=síria, plural=sírios, fempl=sírias
+    república bolivariana da venezuela: sin=1, raiz=venezuela, nacionalidade=venezuelano, iso2=ve, iso3=ven, gen=m, fem=venezuelana, plural=venezuelanos, fempl=venezuelanas
+    república centro-africana: nacionalidade="centro-africano", iso2=cf, iso3=caf, gen=m, fem="centro-africana", plural="centro-africanos", fempl="centro-africanas"
+    república checa: sin=1, raiz=tchéquia, nacionalidade=tcheco, iso2=cz, iso3=cze, gen=m, fem=tcheca, plural=tchecos, fempl=tchecas
+    república da coreia: sin=1, raiz="coreia do sul", nacionalidade="sul-coreano", iso2=kr, iso3=kor, gen=m, fem="sul-coreana", plural="sul-coreanos", fempl="sul-coreanas"
+    república da macedónia do norte: sin=1, raiz="macedônia do norte", nacionalidade=macedônio, iso2=mk, iso3=mkd, gen=m, fem=macedônia, plural=macedônios, fempl=macedônias
+    república da macedônia do norte: sin=1, raiz="macedônia do norte", nacionalidade=macedônio, iso2=mk, iso3=mkd, gen=m, fem=macedônia, plural=macedônios, fempl=macedônias
+    república da moldávia: sin=1, raiz=moldávia, nacionalidade=moldávio, iso2=md, iso3=mda, gen=m, fem=moldávia, plural=moldávios, fempl=moldávias
+    república democrática do congo: nacionalidade=congolês, iso2=cd, iso3=cod, gen=m, fem=congolesa, plural=congoleses, fempl=congolesas
+    república democrática popular do laos: sin=1, raiz=laos, nacionalidade=laosiano, iso2=la, iso3=lao, gen=m, fem=laosiana, plural=laosianos, fempl=laosianas
+    república do congo: sin=1, raiz=congo, nacionalidade=congolês, iso2=cg, iso3=cog, gen=m, fem=congolesa, plural=congoleses, fempl=congolesas
+    república dominicana: nacionalidade=dominicano, iso2=do, iso3=dom, gen=m, fem=dominicana, plural=dominicanos, fempl=dominicanas
+    república federativa do brasil: sin=1, raiz=brasil, nacionalidade=brasileiro, iso2=br, iso3=bra, gen=m, fem=brasileira, plural=brasileiros, fempl=brasileiras
+    república islâmica do irã: sin=1, raiz=irã, nacionalidade=iraniano, iso2=ir, iso3=irn, gen=m, fem=iraniana, plural=iranianos, fempl=iranianas
+    república islâmica do irão: sin=1, raiz=irã, nacionalidade=iraniano, iso2=ir, iso3=irn, gen=m, fem=iraniana, plural=iranianos, fempl=iranianas
+    república popular da china: sin=1, raiz=china, nacionalidade=chinês, iso2=cn, iso3=chn, gen=m, fem=chinesa, plural=chineses, fempl=chinesas
+    república popular democrática da coreia: sin=1, raiz="coreia do norte", nacionalidade="norte-coreano", iso2=kp, iso3=prk, gen=m, fem="norte-coreana", plural="norte-coreanos", fempl="norte-coreanas"
+    república tcheca: sin=1, raiz=tchéquia, nacionalidade=tcheco, iso2=cz, iso3=cze, gen=m, fem=tcheca, plural=tchecos, fempl=tchecas
+    república unida da tanzânia: sin=1, raiz=tanzânia, nacionalidade=tanzaniano, iso2=tz, iso3=tza, gen=m, fem=tanzaniana, plural=tanzanianos, fempl=tanzanianas
+    reunião: nacionalidade=reunionense, iso2=re, iso3=reu, gen=c, fem=reunionense, plural=reunionenses, fempl=reunionenses
+    roménia: sin=1, raiz=romênia, nacionalidade=romeno, iso2=ro, iso3=rou, gen=m, fem=romena, plural=romenos, fempl=romenas
+    romênia: nacionalidade=romeno, iso2=ro, iso3=rou, gen=m, fem=romena, plural=romenos, fempl=romenas
+    ruanda: nacionalidade=ruandês, iso2=rw, iso3=rwa, gen=m, fem=ruandesa, plural=ruandeses, fempl=ruandesas
+    rússia: nacionalidade=russo, iso2=ru, iso3=rus, gen=m, fem=russa, plural=russos, fempl=russas
+    saara ocidental: nacionalidade=saarauí, iso2=eh, iso3=esh, gen=c, fem=saarauí, plural=saarauís, fempl=saarauís
+    samoa: nacionalidade=samoano, iso2=ws, iso3=wsm, gen=m, fem=samoana, plural=samoanos, fempl=samoanas
+    samoa americana: nacionalidade="samoano-americano", iso2=as, iso3=asm, gen=m, fem="samoano-americana", plural="samoano-americanos", fempl="samoano-americanas"
+    san marino: nacionalidade="são-marinense", iso2=sm, iso3=smr, gen=c, fem="são-marinense", plural="são-marinenses", fempl="são-marinenses"
+    santa lúcia: nacionalidade="santa-lucense", iso2=lc, iso3=lca, gen=c, fem="santa-lucense", plural="santa-lucenses", fempl="santa-lucenses"
+    santa sé: nacionalidade=vaticano, iso2=va, iso3=vat, gen=m, fem=vaticana, plural=vaticanos, fempl=vaticanas
+    são cristóvão e neves: sin=1, raiz="são cristóvão e névis", nacionalidade="são-cristovense", iso2=kn, iso3=kna, gen=c, fem="são-cristovense", plural="são-cristovenses", fempl="são-cristovenses"
+    são cristóvão e névis: nacionalidade="são-cristovense", iso2=kn, iso3=kna, gen=c, fem="são-cristovense", plural="são-cristovenses", fempl="são-cristovenses"
+    são marinho: sin=1, raiz="san marino", nacionalidade="são-marinense", iso2=sm, iso3=smr, gen=c, fem="são-marinense", plural="são-marinenses", fempl="são-marinenses"
+    são tomé e príncipe: nacionalidade="são-tomense", iso2=st, iso3=stp, gen=c, fem="são-tomense", plural="são-tomenses", fempl="são-tomenses"
+    são vicente e as granadinas: sin=1, raiz="são vicente e granadinas", nacionalidade="são-vicentino", iso2=vc, iso3=vct, gen=m, fem="são-vicentina", plural="são-vicentinos", fempl="são-vicentinas"
+    são vicente e granadinas: nacionalidade="são-vicentino", iso2=vc, iso3=vct, gen=m, fem="são-vicentina", plural="são-vicentinos", fempl="são-vicentinas"
+    sara ocidental: sin=1, raiz="saara ocidental", nacionalidade=saarauí, iso2=eh, iso3=esh, gen=c, fem=saarauí, plural=saarauís, fempl=saarauís
+    seicheles: nacionalidade=seichelense, iso2=sc, iso3=syc, gen=c, fem=seichelense, plural=seichelenses, fempl=seichelenses
+    senegal: nacionalidade=senegalês, iso2=sn, iso3=sen, gen=m, fem=senegalesa, plural=senegaleses, fempl=senegalesas
+    serra leoa: nacionalidade="serra-leonês", iso2=sl, iso3=sle, gen=m, fem="serra-leonesa", plural="serra-leoneses", fempl="serra-leonesas"
+    sérvia: nacionalidade=sérvio, iso2=rs, iso3=srb, gen=m, fem=sérvia, plural=sérvios, fempl=sérvias
+    seychelles: sin=1, raiz=seicheles, nacionalidade=seichelense, iso2=sc, iso3=syc, gen=c, fem=seichelense, plural=seichelenses, fempl=seichelenses
+    singapura: nacionalidade=singapurense, iso2=sg, iso3=sgp, gen=c, fem=singapurense, plural=singapurenses, fempl=singapurenses
+    síria: nacionalidade=sírio, iso2=sy, iso3=syr, gen=m, fem=síria, plural=sírios, fempl=sírias
+    somália: nacionalidade=somali, iso2=so, iso3=som, gen=c, fem=somali, plural=somalis, fempl=somalis
+    sri lanka: nacionalidade=cingalês, iso2=lk, iso3=lka, gen=m, fem=cingalesa, plural=cingaleses, fempl=cingalesas
+    suazilândia: sin=1, raiz=essuatíni, nacionalidade=suázi, iso2=sz, iso3=swz, gen=c, fem=suázi, plural=suázis, fempl=suázis
+    sudão: nacionalidade=sudanês, iso2=sd, iso3=sdn, gen=m, fem=sudanesa, plural=sudaneses, fempl=sudanesas
+    sudão do sul: nacionalidade="sul-sudanês", iso2=ss, iso3=ssd, gen=m, fem="sul-sudanesa", plural="sul-sudaneses", fempl="sul-sudanesas"
+    suécia: nacionalidade=sueco, iso2=se, iso3=swe, gen=m, fem=sueca, plural=suecos, fempl=suecas
+    suíça: nacionalidade=suíço, iso2=ch, iso3=che, gen=m, fem=suíça, plural=suíços, fempl=suíças
+    suriname: nacionalidade=surinamês, iso2=sr, iso3=sur, gen=m, fem=surinamesa, plural=surinameses, fempl=surinamesas
+    tailândia: nacionalidade=tailandês, iso2=th, iso3=tha, gen=m, fem=tailandesa, plural=tailandeses, fempl=tailandesas
+    taiwan: nacionalidade=taiwanês, iso2=tw, iso3=twn, gen=m, fem=taiwanesa, plural=taiwaneses, fempl=taiwanesas
+    tajiquistão: nacionalidade=tajique, iso2=tj, iso3=tjk, gen=c, fem=tajique, plural=tajiques, fempl=tajiques
+    tanzânia: nacionalidade=tanzaniano, iso2=tz, iso3=tza, gen=m, fem=tanzaniana, plural=tanzanianos, fempl=tanzanianas
+    tchéquia: nacionalidade=tcheco, iso2=cz, iso3=cze, gen=m, fem=tcheca, plural=tchecos, fempl=tchecas
+    timor leste: sin=1, raiz="timor-leste", nacionalidade=timorense, iso2=tl, iso3=tls, gen=c, fem=timorense, plural=timorenses, fempl=timorenses
+    timor-leste: nacionalidade=timorense, iso2=tl, iso3=tls, gen=c, fem=timorense, plural=timorenses, fempl=timorenses
+    togo: nacionalidade=togolês, iso2=tg, iso3=tgo, gen=m, fem=togolesa, plural=togoleses, fempl=togolesas
+    tonga: nacionalidade=tonganês, iso2=to, iso3=ton, gen=m, fem=tonganesa, plural=tonganeses, fempl=tonganesas
+    trinidad e tobago: nacionalidade=trinitino, iso2=tt, iso3=tto, gen=m, fem=trinitina, plural=trinitinos, fempl=trinitinas
+    tunísia: nacionalidade=tunisiano, iso2=tn, iso3=tun, gen=m, fem=tunisiana, plural=tunisianos, fempl=tunisianas
+    turcomenistão: nacionalidade=turcomeno, iso2=tm, iso3=tkm, gen=m, fem=turcomena, plural=turcomenos, fempl=turcomenas
+    turquemenistão: sin=1, raiz=turcomenistão, nacionalidade=turcomeno, iso2=tm, iso3=tkm, gen=m, fem=turcomena, plural=turcomenos, fempl=turcomenas
+    turquia: nacionalidade=turco, iso2=tr, iso3=tur, gen=m, fem=turca, plural=turcos, fempl=turcas
+    tuvalu: nacionalidade=tuvaluano, iso2=tv, iso3=tuv, gen=m, fem=tuvaluana, plural=tuvaluanos, fempl=tuvaluanas
+    ucrânia: nacionalidade=ucraniano, iso2=ua, iso3=ukr, gen=m, fem=ucraniana, plural=ucranianos, fempl=ucranianas
+    uganda: nacionalidade=ugandense, iso2=ug, iso3=uga, gen=c, fem=ugandense, plural=ugandenses, fempl=ugandenses
+    união das comores: sin=1, raiz=comores, nacionalidade=comorense, iso2=km, iso3=com, gen=c, fem=comorense, plural=comorenses, fempl=comorenses
+    uruguai: nacionalidade=uruguaio, iso2=uy, iso3=ury, gen=m, fem=uruguaia, plural=uruguaios, fempl=uruguaias
+    usbequistão: sin=1, raiz=uzbequistão, nacionalidade=uzbeque, iso2=uz, iso3=uzb, gen=c, fem=uzbeque, plural=uzbeques, fempl=uzbeques
+    uzbequistão: nacionalidade=uzbeque, iso2=uz, iso3=uzb, gen=c, fem=uzbeque, plural=uzbeques, fempl=uzbeques
+    vanuatu: nacionalidade=vanuatuense, iso2=vu, iso3=vut, gen=c, fem=vanuatuense, plural=vanuatuenses, fempl=vanuatuenses
+    vaticano: sin=1, raiz="santa sé", nacionalidade=vaticano, iso2=va, iso3=vat, gen=m, fem=vaticana, plural=vaticanos, fempl=vaticanas
+    venezuela: nacionalidade=venezuelano, iso2=ve, iso3=ven, gen=m, fem=venezuelana, plural=venezuelanos, fempl=venezuelanas
+    vietnã: nacionalidade=vietnamita, iso2=vn, iso3=vnm, gen=c, fem=vietnamita, plural=vietnamitas, fempl=vietnamitas
+    vietnam: sin=1, raiz=vietnã, nacionalidade=vietnamita, iso2=vn, iso3=vnm, gen=c, fem=vietnamita, plural=vietnamitas, fempl=vietnamitas
+    vietname: sin=1, raiz=vietnã, nacionalidade=vietnamita, iso2=vn, iso3=vnm, gen=c, fem=vietnamita, plural=vietnamitas, fempl=vietnamitas
+    zâmbia: nacionalidade=zambiano, iso2=zm, iso3=zmb, gen=m, fem=zambiana, plural=zambianos, fempl=zambianas
+    zimbabué: sin=1, raiz=zimbábue, nacionalidade=zimbabuano, iso2=zw, iso3=zwe, gen=m, fem=zimbabuana, plural=zimbabuanos, fempl=zimbabuanas
+    zimbábue: nacionalidade=zimbabuano, iso2=zw, iso3=zwe, gen=m, fem=zimbabuana, plural=zimbabuanos, fempl=zimbabuanas
+    zimbabwe: sin=1, raiz=zimbábue, nacionalidade=zimbabuano, iso2=zw, iso3=zwe, gen=m, fem=zimbabuana, plural=zimbabuanos, fempl=zimbabuanas

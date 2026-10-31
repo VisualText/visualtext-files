@@ -1,0 +1,550 @@
+# Gentilicios (nacionalidades) en español, relacionados con sus países.
+# Búsqueda directa:  nacionalidad -> país  (concepto "nacionalidades nacionalidad francés" -> pais=francia)
+# Búsqueda inversa:  país -> nacionalidad  (concepto "nacionalidades pais francia" -> nacionalidad=francés)
+# Cada gentilicio lleva el masculino singular (nombre del concepto), el
+# femenino singular (fs=), los plurales masculino y femenino (mp=, fp=) y los
+# códigos ISO 3166-1 de su país.  gen=c marca los de forma común a los dos
+# géneros (belga, estadounidense).  Los nombres de país coinciden con
+# es-paises.dict / es-paises.kbb para que las dos bases de conocimiento se unan.
+# Una forma que nombra más de un país lleva ambig=1 y sus otras lecturas
+# cuelgan debajo como <nombre>1, <nombre>2, ... (la misma convención de
+# en-nationalities.kbb y timezones.kbb).
+# Los países con alias=1 son variantes de es-paises (holanda, birmania,
+# república checa, ...) y no el nombre canónico.
+# Generado por python/gen_geo_es.py: no editar a mano.
+nacionalidades
+  nacionalidad
+    afgano: pais=afganistán, iso2=af, iso3=afg, fs=afgana, mp=afganos, fp=afganas
+    albanés: pais=albania, iso2=al, iso3=alb, fs=albanesa, mp=albaneses, fp=albanesas
+    alemán: pais=alemania, iso2=de, iso3=deu, fs=alemana, mp=alemanes, fp=alemanas
+    andorrano: pais=andorra, iso2=ad, iso3=and, fs=andorrana, mp=andorranos, fp=andorranas
+    angoleño: pais=angola, iso2=ao, iso3=ago, fs=angoleña, mp=angoleños, fp=angoleñas, sinonimo=angolano
+    anguilense: pais=anguila, iso2=ai, iso3=aia, gen=c, fs=anguilense, mp=anguilenses, fp=anguilenses
+    antiguano: pais="antigua y barbuda", iso2=ag, iso3=atg, fs=antiguana, mp=antiguanos, fp=antiguanas, sinonimo=barbudense
+    argelino: pais=argelia, iso2=dz, iso3=dza, fs=argelina, mp=argelinos, fp=argelinas
+    argentino: pais=argentina, iso2=ar, iso3=arg, fs=argentina, mp=argentinos, fp=argentinas
+    armenio: pais=armenia, iso2=am, iso3=arm, fs=armenia, mp=armenios, fp=armenias
+    arubeño: pais=aruba, iso2=aw, iso3=abw, fs=arubeña, mp=arubeños, fp=arubeñas
+    australiano: pais=australia, iso2=au, iso3=aus, fs=australiana, mp=australianos, fp=australianas
+    austriaco: pais=austria, iso2=at, iso3=aut, fs=austriaca, mp=austriacos, fp=austriacas, sinonimo=austríaco
+    azerbaiyano: pais=azerbaiyán, iso2=az, iso3=aze, fs=azerbaiyana, mp=azerbaiyanos, fp=azerbaiyanas, sinonimo=azerí
+    bahameño: pais=bahamas, iso2=bs, iso3=bhs, fs=bahameña, mp=bahameños, fp=bahameñas
+    bangladesí: pais=bangladés, iso2=bd, iso3=bgd, gen=c, fs=bangladesí, mp=bangladesíes, fp=bangladesíes
+    barbadense: pais=barbados, iso2=bb, iso3=brb, gen=c, fs=barbadense, mp=barbadenses, fp=barbadenses
+    bareiní: pais=baréin, iso2=bh, iso3=bhr, gen=c, fs=bareiní, mp=bareiníes, fp=bareiníes, sinonimo=bahreiní
+    belga: pais=bélgica, iso2=be, iso3=bel, gen=c, fs=belga, mp=belgas, fp=belgas
+    beliceño: pais=belice, iso2=bz, iso3=blz, fs=beliceña, mp=beliceños, fp=beliceñas
+    beninés: pais=benín, iso2=bj, iso3=ben, fs=beninesa, mp=benineses, fp=beninesas
+    bermudeño: pais=bermudas, iso2=bm, iso3=bmu, fs=bermudeña, mp=bermudeños, fp=bermudeñas
+    bielorruso: pais=bielorrusia, iso2=by, iso3=blr, fs=bielorrusa, mp=bielorrusos, fp=bielorrusas
+    birmano: pais=birmania, iso2=mm, iso3=mmr, fs=birmana, mp=birmanos, fp=birmanas
+    bisauguineano: pais="guinea-bisáu", iso2=gw, iso3=gnb, fs=bisauguineana, mp=bisauguineanos, fp=bisauguineanas
+    boliviano: pais=bolivia, iso2=bo, iso3=bol, fs=boliviana, mp=bolivianos, fp=bolivianas
+    bosnio: pais="bosnia y herzegovina", iso2=ba, iso3=bih, fs=bosnia, mp=bosnios, fp=bosnias, sinonimo=bosnioherzegovino
+    botsuano: pais=botsuana, iso2=bw, iso3=bwa, fs=botsuana, mp=botsuanos, fp=botsuanas
+    brasileño: pais=brasil, iso2=br, iso3=bra, fs=brasileña, mp=brasileños, fp=brasileñas, sinonimo=brasilero
+    británico: pais="reino unido", iso2=gb, iso3=gbr, fs=británica, mp=británicos, fp=británicas
+    bruneano: pais=brunéi, iso2=bn, iso3=brn, fs=bruneana, mp=bruneanos, fp=bruneanas
+    burkinés: pais="burkina faso", iso2=bf, iso3=bfa, fs=burkinesa, mp=burkineses, fp=burkinesas
+    burundés: pais=burundi, iso2=bi, iso3=bdi, fs=burundesa, mp=burundeses, fp=burundesas
+    butanés: pais=bután, iso2=bt, iso3=btn, fs=butanesa, mp=butaneses, fp=butanesas
+    búlgaro: pais=bulgaria, iso2=bg, iso3=bgr, fs=búlgara, mp=búlgaros, fp=búlgaras
+    caboverdiano: pais="cabo verde", iso2=cv, iso3=cpv, fs=caboverdiana, mp=caboverdianos, fp=caboverdianas
+    caimanés: pais="islas caimán", iso2=ky, iso3=cym, fs=caimanesa, mp=caimaneses, fp=caimanesas
+    camboyano: pais=camboya, iso2=kh, iso3=khm, fs=camboyana, mp=camboyanos, fp=camboyanas, sinonimo=jemer
+    camerunés: pais=camerún, iso2=cm, iso3=cmr, fs=camerunesa, mp=cameruneses, fp=camerunesas
+    canadiense: pais=canadá, iso2=ca, iso3=can, gen=c, fs=canadiense, mp=canadienses, fp=canadienses
+    catarí: pais=catar, iso2=qa, iso3=qat, gen=c, fs=catarí, mp=cataríes, fp=cataríes, sinonimo=qatarí
+    ceilanés: pais="sri lanka", iso2=lk, iso3=lka, fs=ceilanesa, mp=ceilaneses, fp=ceilanesas, sinonimo=esrilanqués
+    centroafricano: pais="república centroafricana", iso2=cf, iso3=caf, fs=centroafricana, mp=centroafricanos, fp=centroafricanas
+    chadiano: pais=chad, iso2=td, iso3=tcd, fs=chadiana, mp=chadianos, fp=chadianas
+    checo: pais=chequia, iso2=cz, iso3=cze, fs=checa, mp=checos, fp=checas
+    chileno: pais=chile, iso2=cl, iso3=chl, fs=chilena, mp=chilenos, fp=chilenas
+    chino: pais=china, iso2=cn, iso3=chn, fs=china, mp=chinos, fp=chinas
+    chipriota: pais=chipre, iso2=cy, iso3=cyp, gen=c, fs=chipriota, mp=chipriotas, fp=chipriotas
+    colombiano: pais=colombia, iso2=co, iso3=col, fs=colombiana, mp=colombianos, fp=colombianas
+    comorense: pais=comoras, iso2=km, iso3=com, gen=c, fs=comorense, mp=comorenses, fp=comorenses
+    congoleño: ambig=1, pais=congo, iso2=cg, iso3=cog, fs=congoleña, mp=congoleños, fp=congoleñas, sinonimo=congolés
+      congoleño1: pais="república democrática del congo", iso2=cd, iso3=cod, fs=congoleña, mp=congoleños, fp=congoleñas, sinonimo=congolés
+    coreano: pais=corea, iso2=kr, iso3=kor, fs=coreana, mp=coreanos, fp=coreanas
+    costarricense: pais="costa rica", iso2=cr, iso3=cri, gen=c, fs=costarricense, mp=costarricenses, fp=costarricenses, sinonimo=costarriqueño
+    croata: pais=croacia, iso2=hr, iso3=hrv, gen=c, fs=croata, mp=croatas, fp=croatas
+    cubano: pais=cuba, iso2=cu, iso3=cub, fs=cubana, mp=cubanos, fp=cubanas
+    curazoleño: pais=curazao, iso2=cw, iso3=cuw, fs=curazoleña, mp=curazoleños, fp=curazoleñas
+    danés: pais=dinamarca, iso2=dk, iso3=dnk, fs=danesa, mp=daneses, fp=danesas, sinonimo=dinamarqués
+    dominicano: pais="república dominicana", iso2=do, iso3=dom, fs=dominicana, mp=dominicanos, fp=dominicanas
+    dominiqués: pais=dominica, iso2=dm, iso3=dma, fs=dominiquesa, mp=dominiqueses, fp=dominiquesas
+    ecuatoguineano: pais="guinea ecuatorial", iso2=gq, iso3=gnq, fs=ecuatoguineana, mp=ecuatoguineanos, fp=ecuatoguineanas, sinonimo=guineoecuatoriano
+    ecuatoriano: pais=ecuador, iso2=ec, iso3=ecu, fs=ecuatoriana, mp=ecuatorianos, fp=ecuatorianas
+    egipcio: pais=egipto, iso2=eg, iso3=egy, fs=egipcia, mp=egipcios, fp=egipcias
+    emiratí: pais="emiratos árabes unidos", iso2=ae, iso3=are, gen=c, fs=emiratí, mp=emiratíes, fp=emiratíes
+    eritreo: pais=eritrea, iso2=er, iso3=eri, fs=eritrea, mp=eritreos, fp=eritreas
+    escocés: pais=escocia, iso2=gb, iso3=gbr, fs=escocesa, mp=escoceses, fp=escocesas
+    eslovaco: pais=eslovaquia, iso2=sk, iso3=svk, fs=eslovaca, mp=eslovacos, fp=eslovacas
+    esloveno: pais=eslovenia, iso2=si, iso3=svn, fs=eslovena, mp=eslovenos, fp=eslovenas
+    español: pais=españa, iso2=es, iso3=esp, fs=española, mp=españoles, fp=españolas
+    estadounidense: pais="estados unidos", iso2=us, iso3=usa, gen=c, fs=estadounidense, mp=estadounidenses, fp=estadounidenses, sinonimo=norteamericano
+    estonio: pais=estonia, iso2=ee, iso3=est, fs=estonia, mp=estonios, fp=estonias
+    etíope: pais=etiopía, iso2=et, iso3=eth, gen=c, fs=etíope, mp=etíopes, fp=etíopes
+    feroés: pais="islas feroe", iso2=fo, iso3=fro, fs=feroesa, mp=feroeses, fp=feroesas
+    filipino: pais=filipinas, iso2=ph, iso3=phl, fs=filipina, mp=filipinos, fp=filipinas
+    finlandés: pais=finlandia, iso2=fi, iso3=fin, fs=finlandesa, mp=finlandeses, fp=finlandesas, sinonimo=finés
+    fiyiano: pais=fiyi, iso2=fj, iso3=fji, fs=fiyiana, mp=fiyianos, fp=fiyianas
+    francés: pais=francia, iso2=fr, iso3=fra, fs=francesa, mp=franceses, fp=francesas
+    gabonés: pais=gabón, iso2=ga, iso3=gab, fs=gabonesa, mp=gaboneses, fp=gabonesas
+    galés: pais=gales, iso2=gb, iso3=gbr, fs=galesa, mp=galeses, fp=galesas
+    gambiano: pais=gambia, iso2=gm, iso3=gmb, fs=gambiana, mp=gambianos, fp=gambianas
+    georgiano: pais=georgia, iso2=ge, iso3=geo, fs=georgiana, mp=georgianos, fp=georgianas
+    ghanés: pais=ghana, iso2=gh, iso3=gha, fs=ghanesa, mp=ghaneses, fp=ghanesas
+    gibraltareño: pais=gibraltar, iso2=gi, iso3=gib, fs=gibraltareña, mp=gibraltareños, fp=gibraltareñas
+    granadino: pais=granada, iso2=gd, iso3=grd, fs=granadina, mp=granadinos, fp=granadinas
+    griego: pais=grecia, iso2=gr, iso3=grc, fs=griega, mp=griegos, fp=griegas, sinonimo=heleno
+    groenlandés: pais=groenlandia, iso2=gl, iso3=grl, fs=groenlandesa, mp=groenlandeses, fp=groenlandesas
+    guadalupeño: pais=guadalupe, iso2=gp, iso3=glp, fs=guadalupeña, mp=guadalupeños, fp=guadalupeñas
+    guameño: pais=guam, iso2=gu, iso3=gum, fs=guameña, mp=guameños, fp=guameñas
+    guatemalteco: pais=guatemala, iso2=gt, iso3=gtm, fs=guatemalteca, mp=guatemaltecos, fp=guatemaltecas
+    guayanés: pais="guayana francesa", iso2=gf, iso3=guf, fs=guayanesa, mp=guayaneses, fp=guayanesas
+    guineano: pais=guinea, iso2=gn, iso3=gin, fs=guineana, mp=guineanos, fp=guineanas
+    guyanés: pais=guyana, iso2=gy, iso3=guy, fs=guyanesa, mp=guyaneses, fp=guyanesas
+    haitiano: pais=haití, iso2=ht, iso3=hti, fs=haitiana, mp=haitianos, fp=haitianas
+    hondureño: pais=honduras, iso2=hn, iso3=hnd, fs=hondureña, mp=hondureños, fp=hondureñas
+    hongkonés: pais="hong kong", iso2=hk, iso3=hkg, fs=hongkonesa, mp=hongkoneses, fp=hongkonesas
+    húngaro: pais=hungría, iso2=hu, iso3=hun, fs=húngara, mp=húngaros, fp=húngaras, sinonimo=magiar
+    indio: pais=india, iso2=in, iso3=ind, fs=india, mp=indios, fp=indias, sinonimo=hindú
+    indonesio: pais=indonesia, iso2=id, iso3=idn, fs=indonesia, mp=indonesios, fp=indonesias
+    inglés: pais=inglaterra, iso2=gb, iso3=gbr, fs=inglesa, mp=ingleses, fp=inglesas
+    iraní: pais=irán, iso2=ir, iso3=irn, gen=c, fs=iraní, mp=iraníes, fp=iraníes, sinonimo=persa
+    iraquí: pais=irak, iso2=iq, iso3=irq, gen=c, fs=iraquí, mp=iraquíes, fp=iraquíes
+    irlandés: pais=irlanda, iso2=ie, iso3=irl, fs=irlandesa, mp=irlandeses, fp=irlandesas
+    islandés: pais=islandia, iso2=is, iso3=isl, fs=islandesa, mp=islandeses, fp=islandesas
+    israelí: pais=israel, iso2=il, iso3=isr, gen=c, fs=israelí, mp=israelíes, fp=israelíes
+    italiano: pais=italia, iso2=it, iso3=ita, fs=italiana, mp=italianos, fp=italianas
+    jamaicano: pais=jamaica, iso2=jm, iso3=jam, fs=jamaicana, mp=jamaicanos, fp=jamaicanas, sinonimo=jamaiquino
+    japonés: pais=japón, iso2=jp, iso3=jpn, fs=japonesa, mp=japoneses, fp=japonesas, sinonimo=nipón
+    jordano: pais=jordania, iso2=jo, iso3=jor, fs=jordana, mp=jordanos, fp=jordanas
+    kazajo: pais=kazajistán, iso2=kz, iso3=kaz, fs=kazaja, mp=kazajos, fp=kazajas, sinonimo=kazako
+    keniano: pais=kenia, iso2=ke, iso3=ken, fs=keniana, mp=kenianos, fp=kenianas, sinonimo=keniata
+    kirguís: pais=kirguistán, iso2=kg, iso3=kgz, gen=c, fs=kirguís, mp=kirguises, fp=kirguises, sinonimo=kirguiso
+    kiribatiano: pais=kiribati, iso2=ki, iso3=kir, fs=kiribatiana, mp=kiribatianos, fp=kiribatianas
+    kosovar: pais=kosovo, iso2=xk, iso3=xkx, gen=c, fs=kosovar, mp=kosovares, fp=kosovares
+    kuwaití: pais=kuwait, iso2=kw, iso3=kwt, gen=c, fs=kuwaití, mp=kuwaitíes, fp=kuwaitíes
+    laosiano: pais=laos, iso2=la, iso3=lao, fs=laosiana, mp=laosianos, fp=laosianas
+    lesotense: pais=lesoto, iso2=ls, iso3=lso, gen=c, fs=lesotense, mp=lesotenses, fp=lesotenses
+    letón: pais=letonia, iso2=lv, iso3=lva, fs=letona, mp=letones, fp=letonas
+    libanés: pais=líbano, iso2=lb, iso3=lbn, fs=libanesa, mp=libaneses, fp=libanesas
+    liberiano: pais=liberia, iso2=lr, iso3=lbr, fs=liberiana, mp=liberianos, fp=liberianas
+    libio: pais=libia, iso2=ly, iso3=lby, fs=libia, mp=libios, fp=libias
+    liechtensteiniano: pais=liechtenstein, iso2=li, iso3=lie, fs=liechtensteiniana, mp=liechtensteinianos, fp=liechtensteinianas
+    lituano: pais=lituania, iso2=lt, iso3=ltu, fs=lituana, mp=lituanos, fp=lituanas
+    luxemburgués: pais=luxemburgo, iso2=lu, iso3=lux, fs=luxemburguesa, mp=luxemburgueses, fp=luxemburguesas
+    macaense: pais=macao, iso2=mo, iso3=mac, gen=c, fs=macaense, mp=macaenses, fp=macaenses
+    macedonio: pais="macedonia del norte", iso2=mk, iso3=mkd, fs=macedonia, mp=macedonios, fp=macedonias, sinonimo=normacedonio
+    mahorés: pais=mayotte, iso2=yt, iso3=myt, fs=mahoresa, mp=mahoreses, fp=mahoresas
+    malasio: pais=malasia, iso2=my, iso3=mys, fs=malasia, mp=malasios, fp=malasias
+    malauí: pais=malaui, iso2=mw, iso3=mwi, gen=c, fs=malauí, mp=malauíes, fp=malauíes
+    maldivo: pais=maldivas, iso2=mv, iso3=mdv, fs=maldiva, mp=maldivos, fp=maldivas
+    malgache: pais=madagascar, iso2=mg, iso3=mdg, gen=c, fs=malgache, mp=malgaches, fp=malgaches
+    maliense: pais=malí, iso2=ml, iso3=mli, gen=c, fs=maliense, mp=malienses, fp=malienses, sinonimo=malí
+    maltés: pais=malta, iso2=mt, iso3=mlt, fs=maltesa, mp=malteses, fp=maltesas
+    malvinense: pais="islas malvinas", iso2=fk, iso3=flk, gen=c, fs=malvinense, mp=malvinenses, fp=malvinenses
+    manés: pais="isla de man", iso2=im, iso3=imn, fs=manesa, mp=maneses, fp=manesas
+    marfileño: pais="costa de marfil", iso2=ci, iso3=civ, fs=marfileña, mp=marfileños, fp=marfileñas
+    marroquí: pais=marruecos, iso2=ma, iso3=mar, gen=c, fs=marroquí, mp=marroquíes, fp=marroquíes
+    marshalés: pais="islas marshall", iso2=mh, iso3=mhl, fs=marshalesa, mp=marshaleses, fp=marshalesas
+    martiniqués: pais=martinica, iso2=mq, iso3=mtq, fs=martiniquesa, mp=martiniqueses, fp=martiniquesas
+    mauriciano: pais=mauricio, iso2=mu, iso3=mus, fs=mauriciana, mp=mauricianos, fp=mauricianas
+    mauritano: pais=mauritania, iso2=mr, iso3=mrt, fs=mauritana, mp=mauritanos, fp=mauritanas
+    mexicano: pais=méxico, iso2=mx, iso3=mex, fs=mexicana, mp=mexicanos, fp=mexicanas, sinonimo=mejicano
+    micronesio: pais=micronesia, iso2=fm, iso3=fsm, fs=micronesia, mp=micronesios, fp=micronesias
+    moldavo: pais=moldavia, iso2=md, iso3=mda, fs=moldava, mp=moldavos, fp=moldavas
+    monegasco: pais=mónaco, iso2=mc, iso3=mco, fs=monegasca, mp=monegascos, fp=monegascas
+    mongol: pais=mongolia, iso2=mn, iso3=mng, fs=mongola, mp=mongoles, fp=mongolas
+    montenegrino: pais=montenegro, iso2=me, iso3=mne, fs=montenegrina, mp=montenegrinos, fp=montenegrinas
+    montserratense: pais=montserrat, iso2=ms, iso3=msr, gen=c, fs=montserratense, mp=montserratenses, fp=montserratenses
+    mozambiqueño: pais=mozambique, iso2=mz, iso3=moz, fs=mozambiqueña, mp=mozambiqueños, fp=mozambiqueñas
+    namibio: pais=namibia, iso2=na, iso3=nam, fs=namibia, mp=namibios, fp=namibias
+    nauruano: pais=nauru, iso2=nr, iso3=nru, fs=nauruana, mp=nauruanos, fp=nauruanas
+    neerlandés: pais="países bajos", iso2=nl, iso3=nld, fs=neerlandesa, mp=neerlandeses, fp=neerlandesas, sinonimo=holandés
+    neocaledonio: pais="nueva caledonia", iso2=nc, iso3=ncl, fs=neocaledonia, mp=neocaledonios, fp=neocaledonias
+    neozelandés: pais="nueva zelanda", iso2=nz, iso3=nzl, fs=neozelandesa, mp=neozelandeses, fp=neozelandesas
+    nepalí: pais=nepal, iso2=np, iso3=npl, gen=c, fs=nepalí, mp=nepalíes, fp=nepalíes, sinonimo=nepalés
+    nicaragüense: pais=nicaragua, iso2=ni, iso3=nic, gen=c, fs=nicaragüense, mp=nicaragüenses, fp=nicaragüenses
+    nigeriano: pais=nigeria, iso2=ng, iso3=nga, fs=nigeriana, mp=nigerianos, fp=nigerianas
+    nigerino: pais=níger, iso2=ne, iso3=ner, fs=nigerina, mp=nigerinos, fp=nigerinas
+    niuano: pais=niue, iso2=nu, iso3=niu, fs=niuana, mp=niuanos, fp=niuanas
+    norcoreano: pais="corea del norte", iso2=kp, iso3=prk, fs=norcoreana, mp=norcoreanos, fp=norcoreanas
+    norirlandés: pais="irlanda del norte", iso2=gb, iso3=gbr, fs=norirlandesa, mp=norirlandeses, fp=norirlandesas
+    noruego: pais=noruega, iso2=no, iso3=nor, fs=noruega, mp=noruegos, fp=noruegas
+    omaní: pais=omán, iso2=om, iso3=omn, gen=c, fs=omaní, mp=omaníes, fp=omaníes
+    pakistaní: pais=pakistán, iso2=pk, iso3=pak, gen=c, fs=pakistaní, mp=pakistaníes, fp=pakistaníes, sinonimo=paquistaní
+    palauano: pais=palaos, iso2=pw, iso3=plw, fs=palauana, mp=palauanos, fp=palauanas
+    palestino: pais=palestina, iso2=ps, iso3=pse, fs=palestina, mp=palestinos, fp=palestinas
+    panameño: pais=panamá, iso2=pa, iso3=pan, fs=panameña, mp=panameños, fp=panameñas
+    papú: pais="papúa nueva guinea", iso2=pg, iso3=png, gen=c, fs=papú, mp=papúes, fp=papúes, sinonimo=papuano
+    paraguayo: pais=paraguay, iso2=py, iso3=pry, fs=paraguaya, mp=paraguayos, fp=paraguayas
+    peruano: pais=perú, iso2=pe, iso3=per, fs=peruana, mp=peruanos, fp=peruanas
+    polaco: pais=polonia, iso2=pl, iso3=pol, fs=polaca, mp=polacos, fp=polacas
+    polinesio: pais="polinesia francesa", iso2=pf, iso3=pyf, fs=polinesia, mp=polinesios, fp=polinesias
+    portugués: pais=portugal, iso2=pt, iso3=prt, fs=portuguesa, mp=portugueses, fp=portuguesas, sinonimo=luso
+    puertorriqueño: pais="puerto rico", iso2=pr, iso3=pri, fs=puertorriqueña, mp=puertorriqueños, fp=puertorriqueñas, sinonimo=[portorriqueño,boricua]
+    reunionés: pais=reunión, iso2=re, iso3=reu, fs=reunionesa, mp=reunioneses, fp=reunionesas
+    ruandés: pais=ruanda, iso2=rw, iso3=rwa, fs=ruandesa, mp=ruandeses, fp=ruandesas
+    rumano: pais=rumanía, iso2=ro, iso3=rou, fs=rumana, mp=rumanos, fp=rumanas
+    ruso: pais=rusia, iso2=ru, iso3=rus, fs=rusa, mp=rusos, fp=rusas
+    saharaui: pais="sahara occidental", iso2=eh, iso3=esh, gen=c, fs=saharaui, mp=saharauis, fp=saharauis
+    salomonense: pais="islas salomón", iso2=sb, iso3=slb, gen=c, fs=salomonense, mp=salomonenses, fp=salomonenses
+    salvadoreño: pais="el salvador", iso2=sv, iso3=slv, fs=salvadoreña, mp=salvadoreños, fp=salvadoreñas
+    samoano: ambig=1, pais=samoa, iso2=ws, iso3=wsm, fs=samoana, mp=samoanos, fp=samoanas
+      samoano1: pais="samoa americana", iso2=as, iso3=asm, fs=samoana, mp=samoanos, fp=samoanas
+    sancristobaleño: pais="san cristóbal y nieves", iso2=kn, iso3=kna, fs=sancristobaleña, mp=sancristobaleños, fp=sancristobaleñas
+    sanmarinense: pais="san marino", iso2=sm, iso3=smr, gen=c, fs=sanmarinense, mp=sanmarinenses, fp=sanmarinenses
+    santalucense: pais="santa lucía", iso2=lc, iso3=lca, gen=c, fs=santalucense, mp=santalucenses, fp=santalucenses
+    santotomense: pais="santo tomé y príncipe", iso2=st, iso3=stp, gen=c, fs=santotomense, mp=santotomenses, fp=santotomenses
+    sanvicentino: pais="san vicente y las granadinas", iso2=vc, iso3=vct, fs=sanvicentina, mp=sanvicentinos, fp=sanvicentinas
+    saudí: pais="arabia saudí", iso2=sa, iso3=sau, gen=c, fs=saudí, mp=saudíes, fp=saudíes, sinonimo=saudita
+    senegalés: pais=senegal, iso2=sn, iso3=sen, fs=senegalesa, mp=senegaleses, fp=senegalesas
+    serbio: pais=serbia, iso2=rs, iso3=srb, fs=serbia, mp=serbios, fp=serbias
+    seychellense: pais=seychelles, iso2=sc, iso3=syc, gen=c, fs=seychellense, mp=seychellenses, fp=seychellenses
+    sierraleonés: pais="sierra leona", iso2=sl, iso3=sle, fs=sierraleonesa, mp=sierraleoneses, fp=sierraleonesas
+    singapurense: pais=singapur, iso2=sg, iso3=sgp, gen=c, fs=singapurense, mp=singapurenses, fp=singapurenses
+    sirio: pais=siria, iso2=sy, iso3=syr, fs=siria, mp=sirios, fp=sirias
+    somalí: pais=somalia, iso2=so, iso3=som, gen=c, fs=somalí, mp=somalíes, fp=somalíes
+    suazi: pais=esuatini, iso2=sz, iso3=swz, gen=c, fs=suazi, mp=suazis, fp=suazis, sinonimo=suazilandés
+    sudafricano: pais=sudáfrica, iso2=za, iso3=zaf, fs=sudafricana, mp=sudafricanos, fp=sudafricanas
+    sudanés: pais=sudán, iso2=sd, iso3=sdn, fs=sudanesa, mp=sudaneses, fp=sudanesas
+    sueco: pais=suecia, iso2=se, iso3=swe, fs=sueca, mp=suecos, fp=suecas
+    suizo: pais=suiza, iso2=ch, iso3=che, fs=suiza, mp=suizos, fp=suizas
+    surcoreano: pais="corea del sur", iso2=kr, iso3=kor, fs=surcoreana, mp=surcoreanos, fp=surcoreanas
+    surinamés: pais=surinam, iso2=sr, iso3=sur, fs=surinamesa, mp=surinameses, fp=surinamesas
+    sursudanés: pais="sudán del sur", iso2=ss, iso3=ssd, fs=sursudanesa, mp=sursudaneses, fp=sursudanesas
+    tailandés: pais=tailandia, iso2=th, iso3=tha, fs=tailandesa, mp=tailandeses, fp=tailandesas
+    taiwanés: pais=taiwán, iso2=tw, iso3=twn, fs=taiwanesa, mp=taiwaneses, fp=taiwanesas
+    tanzano: pais=tanzania, iso2=tz, iso3=tza, fs=tanzana, mp=tanzanos, fp=tanzanas
+    tayiko: pais=tayikistán, iso2=tj, iso3=tjk, fs=tayika, mp=tayikos, fp=tayikas
+    timorense: pais="timor oriental", iso2=tl, iso3=tls, gen=c, fs=timorense, mp=timorenses, fp=timorenses
+    togolés: pais=togo, iso2=tg, iso3=tgo, fs=togolesa, mp=togoleses, fp=togolesas
+    tokelauano: pais=tokelau, iso2=tk, iso3=tkl, fs=tokelauana, mp=tokelauanos, fp=tokelauanas
+    tongano: pais=tonga, iso2=to, iso3=ton, fs=tongana, mp=tonganos, fp=tonganas
+    trinitense: pais="trinidad y tobago", iso2=tt, iso3=tto, gen=c, fs=trinitense, mp=trinitenses, fp=trinitenses
+    tunecino: pais=túnez, iso2=tn, iso3=tun, fs=tunecina, mp=tunecinos, fp=tunecinas
+    turco: pais=turquía, iso2=tr, iso3=tur, fs=turca, mp=turcos, fp=turcas
+    turcomano: pais=turkmenistán, iso2=tm, iso3=tkm, fs=turcomana, mp=turcomanos, fp=turcomanas, sinonimo=turkmeno
+    tuvaluano: pais=tuvalu, iso2=tv, iso3=tuv, fs=tuvaluana, mp=tuvaluanos, fp=tuvaluanas
+    ucraniano: pais=ucrania, iso2=ua, iso3=ukr, fs=ucraniana, mp=ucranianos, fp=ucranianas, sinonimo=ucranio
+    ugandés: pais=uganda, iso2=ug, iso3=uga, fs=ugandesa, mp=ugandeses, fp=ugandesas
+    uruguayo: pais=uruguay, iso2=uy, iso3=ury, fs=uruguaya, mp=uruguayos, fp=uruguayas
+    uzbeko: pais=uzbekistán, iso2=uz, iso3=uzb, fs=uzbeka, mp=uzbekos, fp=uzbekas
+    vanuatuense: pais=vanuatu, iso2=vu, iso3=vut, gen=c, fs=vanuatuense, mp=vanuatuenses, fp=vanuatuenses
+    vaticano: pais="santa sede", iso2=va, iso3=vat, fs=vaticana, mp=vaticanos, fp=vaticanas
+    venezolano: pais=venezuela, iso2=ve, iso3=ven, fs=venezolana, mp=venezolanos, fp=venezolanas
+    vietnamita: pais=vietnam, iso2=vn, iso3=vnm, gen=c, fs=vietnamita, mp=vietnamitas, fp=vietnamitas
+    yemení: pais=yemen, iso2=ye, iso3=yem, gen=c, fs=yemení, mp=yemeníes, fp=yemeníes
+    yibutiano: pais=yibuti, iso2=dj, iso3=dji, fs=yibutiana, mp=yibutianos, fp=yibutianas
+    zambiano: pais=zambia, iso2=zm, iso3=zmb, fs=zambiana, mp=zambianos, fp=zambianas
+    zimbabuense: pais=zimbabue, iso2=zw, iso3=zwe, gen=c, fs=zimbabuense, mp=zimbabuenses, fp=zimbabuenses
+  pais
+    afganistán: nacionalidad=afgano, iso2=af, iso3=afg, fs=afgana, mp=afganos, fp=afganas
+    albania: nacionalidad=albanés, iso2=al, iso3=alb, fs=albanesa, mp=albaneses, fp=albanesas
+    alemania: nacionalidad=alemán, iso2=de, iso3=deu, fs=alemana, mp=alemanes, fp=alemanas
+    andorra: nacionalidad=andorrano, iso2=ad, iso3=and, fs=andorrana, mp=andorranos, fp=andorranas
+    angola: nacionalidad=angoleño, iso2=ao, iso3=ago, fs=angoleña, mp=angoleños, fp=angoleñas
+    anguila: nacionalidad=anguilense, iso2=ai, iso3=aia, gen=c, fs=anguilense, mp=anguilenses, fp=anguilenses
+    anguilla: alias=1, nacionalidad=anguilense, iso2=ai, iso3=aia, gen=c, fs=anguilense, mp=anguilenses, fp=anguilenses
+    antigua y barbuda: nacionalidad=antiguano, iso2=ag, iso3=atg, fs=antiguana, mp=antiguanos, fp=antiguanas
+    arabia saudita: alias=1, nacionalidad=saudí, iso2=sa, iso3=sau, gen=c, fs=saudí, mp=saudíes, fp=saudíes
+    arabia saudí: nacionalidad=saudí, iso2=sa, iso3=sau, gen=c, fs=saudí, mp=saudíes, fp=saudíes
+    argelia: nacionalidad=argelino, iso2=dz, iso3=dza, fs=argelina, mp=argelinos, fp=argelinas
+    argentina: nacionalidad=argentino, iso2=ar, iso3=arg, fs=argentina, mp=argentinos, fp=argentinas
+    armenia: nacionalidad=armenio, iso2=am, iso3=arm, fs=armenia, mp=armenios, fp=armenias
+    aruba: nacionalidad=arubeño, iso2=aw, iso3=abw, fs=arubeña, mp=arubeños, fp=arubeñas
+    australia: nacionalidad=australiano, iso2=au, iso3=aus, fs=australiana, mp=australianos, fp=australianas
+    austria: nacionalidad=austriaco, iso2=at, iso3=aut, fs=austriaca, mp=austriacos, fp=austriacas
+    azerbaiyán: nacionalidad=azerbaiyano, iso2=az, iso3=aze, fs=azerbaiyana, mp=azerbaiyanos, fp=azerbaiyanas
+    bahamas: nacionalidad=bahameño, iso2=bs, iso3=bhs, fs=bahameña, mp=bahameños, fp=bahameñas
+    bahrein: alias=1, nacionalidad=bareiní, iso2=bh, iso3=bhr, gen=c, fs=bareiní, mp=bareiníes, fp=bareiníes
+    bahréin: alias=1, nacionalidad=bareiní, iso2=bh, iso3=bhr, gen=c, fs=bareiní, mp=bareiníes, fp=bareiníes
+    bangladesh: alias=1, nacionalidad=bangladesí, iso2=bd, iso3=bgd, gen=c, fs=bangladesí, mp=bangladesíes, fp=bangladesíes
+    bangladés: nacionalidad=bangladesí, iso2=bd, iso3=bgd, gen=c, fs=bangladesí, mp=bangladesíes, fp=bangladesíes
+    barbados: nacionalidad=barbadense, iso2=bb, iso3=brb, gen=c, fs=barbadense, mp=barbadenses, fp=barbadenses
+    baréin: nacionalidad=bareiní, iso2=bh, iso3=bhr, gen=c, fs=bareiní, mp=bareiníes, fp=bareiníes
+    belarús: alias=1, nacionalidad=bielorruso, iso2=by, iso3=blr, fs=bielorrusa, mp=bielorrusos, fp=bielorrusas
+    belice: nacionalidad=beliceño, iso2=bz, iso3=blz, fs=beliceña, mp=beliceños, fp=beliceñas
+    benín: nacionalidad=beninés, iso2=bj, iso3=ben, fs=beninesa, mp=benineses, fp=beninesas
+    bermuda: alias=1, nacionalidad=bermudeño, iso2=bm, iso3=bmu, fs=bermudeña, mp=bermudeños, fp=bermudeñas
+    bermudas: nacionalidad=bermudeño, iso2=bm, iso3=bmu, fs=bermudeña, mp=bermudeños, fp=bermudeñas
+    bielorrusia: nacionalidad=bielorruso, iso2=by, iso3=blr, fs=bielorrusa, mp=bielorrusos, fp=bielorrusas
+    birmania: nacionalidad=birmano, iso2=mm, iso3=mmr, fs=birmana, mp=birmanos, fp=birmanas
+    bolivia: nacionalidad=boliviano, iso2=bo, iso3=bol, fs=boliviana, mp=bolivianos, fp=bolivianas
+    bosnia: alias=1, nacionalidad=bosnio, iso2=ba, iso3=bih, fs=bosnia, mp=bosnios, fp=bosnias
+    bosnia y herzegovina: nacionalidad=bosnio, iso2=ba, iso3=bih, fs=bosnia, mp=bosnios, fp=bosnias
+    bosnia-herzegovina: alias=1, nacionalidad=bosnio, iso2=ba, iso3=bih, fs=bosnia, mp=bosnios, fp=bosnias
+    botsuana: nacionalidad=botsuano, iso2=bw, iso3=bwa, fs=botsuana, mp=botsuanos, fp=botsuanas
+    botswana: alias=1, nacionalidad=botsuano, iso2=bw, iso3=bwa, fs=botsuana, mp=botsuanos, fp=botsuanas
+    brasil: nacionalidad=brasileño, iso2=br, iso3=bra, fs=brasileña, mp=brasileños, fp=brasileñas
+    brunei: alias=1, nacionalidad=bruneano, iso2=bn, iso3=brn, fs=bruneana, mp=bruneanos, fp=bruneanas
+    brunei darussalam: alias=1, nacionalidad=bruneano, iso2=bn, iso3=brn, fs=bruneana, mp=bruneanos, fp=bruneanas
+    brunéi: nacionalidad=bruneano, iso2=bn, iso3=brn, fs=bruneana, mp=bruneanos, fp=bruneanas
+    brunéi darusalam: alias=1, nacionalidad=bruneano, iso2=bn, iso3=brn, fs=bruneana, mp=bruneanos, fp=bruneanas
+    bulgaria: nacionalidad=búlgaro, iso2=bg, iso3=bgr, fs=búlgara, mp=búlgaros, fp=búlgaras
+    burkina faso: nacionalidad=burkinés, iso2=bf, iso3=bfa, fs=burkinesa, mp=burkineses, fp=burkinesas
+    burundi: nacionalidad=burundés, iso2=bi, iso3=bdi, fs=burundesa, mp=burundeses, fp=burundesas
+    bután: nacionalidad=butanés, iso2=bt, iso3=btn, fs=butanesa, mp=butaneses, fp=butanesas
+    bélgica: nacionalidad=belga, iso2=be, iso3=bel, gen=c, fs=belga, mp=belgas, fp=belgas
+    cabo verde: nacionalidad=caboverdiano, iso2=cv, iso3=cpv, fs=caboverdiana, mp=caboverdianos, fp=caboverdianas
+    camboya: nacionalidad=camboyano, iso2=kh, iso3=khm, fs=camboyana, mp=camboyanos, fp=camboyanas
+    camerún: nacionalidad=camerunés, iso2=cm, iso3=cmr, fs=camerunesa, mp=cameruneses, fp=camerunesas
+    canadá: nacionalidad=canadiense, iso2=ca, iso3=can, gen=c, fs=canadiense, mp=canadienses, fp=canadienses
+    catar: nacionalidad=catarí, iso2=qa, iso3=qat, gen=c, fs=catarí, mp=cataríes, fp=cataríes
+    chad: nacionalidad=chadiano, iso2=td, iso3=tcd, fs=chadiana, mp=chadianos, fp=chadianas
+    chequia: nacionalidad=checo, iso2=cz, iso3=cze, fs=checa, mp=checos, fp=checas
+    chile: nacionalidad=chileno, iso2=cl, iso3=chl, fs=chilena, mp=chilenos, fp=chilenas
+    china: nacionalidad=chino, iso2=cn, iso3=chn, fs=china, mp=chinos, fp=chinas
+    chipre: nacionalidad=chipriota, iso2=cy, iso3=cyp, gen=c, fs=chipriota, mp=chipriotas, fp=chipriotas
+    ciudad del vaticano: alias=1, nacionalidad=vaticano, iso2=va, iso3=vat, fs=vaticana, mp=vaticanos, fp=vaticanas
+    colombia: nacionalidad=colombiano, iso2=co, iso3=col, fs=colombiana, mp=colombianos, fp=colombianas
+    comoras: nacionalidad=comorense, iso2=km, iso3=com, gen=c, fs=comorense, mp=comorenses, fp=comorenses
+    congo: nacionalidad=congoleño, iso2=cg, iso3=cog, fs=congoleña, mp=congoleños, fp=congoleñas
+    congo-brazzaville: alias=1, nacionalidad=congoleño, iso2=cg, iso3=cog, fs=congoleña, mp=congoleños, fp=congoleñas
+    congo-kinsasa: alias=1, nacionalidad=congoleño, iso2=cd, iso3=cod, fs=congoleña, mp=congoleños, fp=congoleñas
+    corea: nacionalidad=coreano, iso2=kr, iso3=kor, fs=coreana, mp=coreanos, fp=coreanas
+    corea del norte: nacionalidad=norcoreano, iso2=kp, iso3=prk, fs=norcoreana, mp=norcoreanos, fp=norcoreanas
+    corea del sur: nacionalidad=surcoreano, iso2=kr, iso3=kor, fs=surcoreana, mp=surcoreanos, fp=surcoreanas
+    costa de marfil: nacionalidad=marfileño, iso2=ci, iso3=civ, fs=marfileña, mp=marfileños, fp=marfileñas
+    costa rica: nacionalidad=costarricense, iso2=cr, iso3=cri, gen=c, fs=costarricense, mp=costarricenses, fp=costarricenses
+    croacia: nacionalidad=croata, iso2=hr, iso3=hrv, gen=c, fs=croata, mp=croatas, fp=croatas
+    cuba: nacionalidad=cubano, iso2=cu, iso3=cub, fs=cubana, mp=cubanos, fp=cubanas
+    curazao: nacionalidad=curazoleño, iso2=cw, iso3=cuw, fs=curazoleña, mp=curazoleños, fp=curazoleñas
+    curaçao: alias=1, nacionalidad=curazoleño, iso2=cw, iso3=cuw, fs=curazoleña, mp=curazoleños, fp=curazoleñas
+    côte d'ivoire: alias=1, nacionalidad=marfileño, iso2=ci, iso3=civ, fs=marfileña, mp=marfileños, fp=marfileñas
+    dinamarca: nacionalidad=danés, iso2=dk, iso3=dnk, fs=danesa, mp=daneses, fp=danesas
+    djibouti: alias=1, nacionalidad=yibutiano, iso2=dj, iso3=dji, fs=yibutiana, mp=yibutianos, fp=yibutianas
+    dominica: nacionalidad=dominiqués, iso2=dm, iso3=dma, fs=dominiquesa, mp=dominiqueses, fp=dominiquesas
+    ecuador: nacionalidad=ecuatoriano, iso2=ec, iso3=ecu, fs=ecuatoriana, mp=ecuatorianos, fp=ecuatorianas
+    egipto: nacionalidad=egipcio, iso2=eg, iso3=egy, fs=egipcia, mp=egipcios, fp=egipcias
+    el salvador: nacionalidad=salvadoreño, iso2=sv, iso3=slv, fs=salvadoreña, mp=salvadoreños, fp=salvadoreñas
+    emiratos árabes unidos: nacionalidad=emiratí, iso2=ae, iso3=are, gen=c, fs=emiratí, mp=emiratíes, fp=emiratíes
+    eritrea: nacionalidad=eritreo, iso2=er, iso3=eri, fs=eritrea, mp=eritreos, fp=eritreas
+    escocia: nacionalidad=escocés, iso2=gb, iso3=gbr, fs=escocesa, mp=escoceses, fp=escocesas
+    eslovaquia: nacionalidad=eslovaco, iso2=sk, iso3=svk, fs=eslovaca, mp=eslovacos, fp=eslovacas
+    eslovenia: nacionalidad=esloveno, iso2=si, iso3=svn, fs=eslovena, mp=eslovenos, fp=eslovenas
+    españa: nacionalidad=español, iso2=es, iso3=esp, fs=española, mp=españoles, fp=españolas
+    estado de palestina: alias=1, nacionalidad=palestino, iso2=ps, iso3=pse, fs=palestina, mp=palestinos, fp=palestinas
+    estado plurinacional de bolivia: alias=1, nacionalidad=boliviano, iso2=bo, iso3=bol, fs=boliviana, mp=bolivianos, fp=bolivianas
+    estados federados de micronesia: alias=1, nacionalidad=micronesio, iso2=fm, iso3=fsm, fs=micronesia, mp=micronesios, fp=micronesias
+    estados unidos: nacionalidad=estadounidense, iso2=us, iso3=usa, gen=c, fs=estadounidense, mp=estadounidenses, fp=estadounidenses
+    estados unidos de américa: alias=1, nacionalidad=estadounidense, iso2=us, iso3=usa, gen=c, fs=estadounidense, mp=estadounidenses, fp=estadounidenses
+    estonia: nacionalidad=estonio, iso2=ee, iso3=est, fs=estonia, mp=estonios, fp=estonias
+    esuatini: nacionalidad=suazi, iso2=sz, iso3=swz, gen=c, fs=suazi, mp=suazis, fp=suazis
+    eswatini: alias=1, nacionalidad=suazi, iso2=sz, iso3=swz, gen=c, fs=suazi, mp=suazis, fp=suazis
+    etiopía: nacionalidad=etíope, iso2=et, iso3=eth, gen=c, fs=etíope, mp=etíopes, fp=etíopes
+    federación de rusia: alias=1, nacionalidad=ruso, iso2=ru, iso3=rus, fs=rusa, mp=rusos, fp=rusas
+    federación rusa: alias=1, nacionalidad=ruso, iso2=ru, iso3=rus, fs=rusa, mp=rusos, fp=rusas
+    fiji: alias=1, nacionalidad=fiyiano, iso2=fj, iso3=fji, fs=fiyiana, mp=fiyianos, fp=fiyianas
+    filipinas: nacionalidad=filipino, iso2=ph, iso3=phl, fs=filipina, mp=filipinos, fp=filipinas
+    finlandia: nacionalidad=finlandés, iso2=fi, iso3=fin, fs=finlandesa, mp=finlandeses, fp=finlandesas
+    fiyi: nacionalidad=fiyiano, iso2=fj, iso3=fji, fs=fiyiana, mp=fiyianos, fp=fiyianas
+    francia: nacionalidad=francés, iso2=fr, iso3=fra, fs=francesa, mp=franceses, fp=francesas
+    gabón: nacionalidad=gabonés, iso2=ga, iso3=gab, fs=gabonesa, mp=gaboneses, fp=gabonesas
+    gales: nacionalidad=galés, iso2=gb, iso3=gbr, fs=galesa, mp=galeses, fp=galesas
+    gambia: nacionalidad=gambiano, iso2=gm, iso3=gmb, fs=gambiana, mp=gambianos, fp=gambianas
+    georgia: nacionalidad=georgiano, iso2=ge, iso3=geo, fs=georgiana, mp=georgianos, fp=georgianas
+    ghana: nacionalidad=ghanés, iso2=gh, iso3=gha, fs=ghanesa, mp=ghaneses, fp=ghanesas
+    gibraltar: nacionalidad=gibraltareño, iso2=gi, iso3=gib, fs=gibraltareña, mp=gibraltareños, fp=gibraltareñas
+    gran bretaña: alias=1, nacionalidad=británico, iso2=gb, iso3=gbr, fs=británica, mp=británicos, fp=británicas
+    granada: nacionalidad=granadino, iso2=gd, iso3=grd, fs=granadina, mp=granadinos, fp=granadinas
+    grecia: nacionalidad=griego, iso2=gr, iso3=grc, fs=griega, mp=griegos, fp=griegas
+    groenlandia: nacionalidad=groenlandés, iso2=gl, iso3=grl, fs=groenlandesa, mp=groenlandeses, fp=groenlandesas
+    guadalupe: nacionalidad=guadalupeño, iso2=gp, iso3=glp, fs=guadalupeña, mp=guadalupeños, fp=guadalupeñas
+    guam: nacionalidad=guameño, iso2=gu, iso3=gum, fs=guameña, mp=guameños, fp=guameñas
+    guatemala: nacionalidad=guatemalteco, iso2=gt, iso3=gtm, fs=guatemalteca, mp=guatemaltecos, fp=guatemaltecas
+    guayana francesa: nacionalidad=guayanés, iso2=gf, iso3=guf, fs=guayanesa, mp=guayaneses, fp=guayanesas
+    guinea: nacionalidad=guineano, iso2=gn, iso3=gin, fs=guineana, mp=guineanos, fp=guineanas
+    guinea bisáu: alias=1, nacionalidad=bisauguineano, iso2=gw, iso3=gnb, fs=bisauguineana, mp=bisauguineanos, fp=bisauguineanas
+    guinea ecuatorial: nacionalidad=ecuatoguineano, iso2=gq, iso3=gnq, fs=ecuatoguineana, mp=ecuatoguineanos, fp=ecuatoguineanas
+    guinea-bissau: alias=1, nacionalidad=bisauguineano, iso2=gw, iso3=gnb, fs=bisauguineana, mp=bisauguineanos, fp=bisauguineanas
+    guinea-bisáu: nacionalidad=bisauguineano, iso2=gw, iso3=gnb, fs=bisauguineana, mp=bisauguineanos, fp=bisauguineanas
+    guyana: nacionalidad=guyanés, iso2=gy, iso3=guy, fs=guyanesa, mp=guyaneses, fp=guyanesas
+    haití: nacionalidad=haitiano, iso2=ht, iso3=hti, fs=haitiana, mp=haitianos, fp=haitianas
+    holanda: alias=1, nacionalidad=neerlandés, iso2=nl, iso3=nld, fs=neerlandesa, mp=neerlandeses, fp=neerlandesas
+    honduras: nacionalidad=hondureño, iso2=hn, iso3=hnd, fs=hondureña, mp=hondureños, fp=hondureñas
+    hong kong: nacionalidad=hongkonés, iso2=hk, iso3=hkg, fs=hongkonesa, mp=hongkoneses, fp=hongkonesas
+    hungría: nacionalidad=húngaro, iso2=hu, iso3=hun, fs=húngara, mp=húngaros, fp=húngaras
+    india: nacionalidad=indio, iso2=in, iso3=ind, fs=india, mp=indios, fp=indias
+    indonesia: nacionalidad=indonesio, iso2=id, iso3=idn, fs=indonesia, mp=indonesios, fp=indonesias
+    inglaterra: nacionalidad=inglés, iso2=gb, iso3=gbr, fs=inglesa, mp=ingleses, fp=inglesas
+    irak: nacionalidad=iraquí, iso2=iq, iso3=irq, gen=c, fs=iraquí, mp=iraquíes, fp=iraquíes
+    iraq: alias=1, nacionalidad=iraquí, iso2=iq, iso3=irq, gen=c, fs=iraquí, mp=iraquíes, fp=iraquíes
+    irlanda: nacionalidad=irlandés, iso2=ie, iso3=irl, fs=irlandesa, mp=irlandeses, fp=irlandesas
+    irlanda del norte: nacionalidad=norirlandés, iso2=gb, iso3=gbr, fs=norirlandesa, mp=norirlandeses, fp=norirlandesas
+    irán: nacionalidad=iraní, iso2=ir, iso3=irn, gen=c, fs=iraní, mp=iraníes, fp=iraníes
+    isla de la reunión: alias=1, nacionalidad=reunionés, iso2=re, iso3=reu, fs=reunionesa, mp=reunioneses, fp=reunionesas
+    isla de man: nacionalidad=manés, iso2=im, iso3=imn, fs=manesa, mp=maneses, fp=manesas
+    islandia: nacionalidad=islandés, iso2=is, iso3=isl, fs=islandesa, mp=islandeses, fp=islandesas
+    islas caimán: nacionalidad=caimanés, iso2=ky, iso3=cym, fs=caimanesa, mp=caimaneses, fp=caimanesas
+    islas falkland: alias=1, nacionalidad=malvinense, iso2=fk, iso3=flk, gen=c, fs=malvinense, mp=malvinenses, fp=malvinenses
+    islas feroe: nacionalidad=feroés, iso2=fo, iso3=fro, fs=feroesa, mp=feroeses, fp=feroesas
+    islas malvinas: nacionalidad=malvinense, iso2=fk, iso3=flk, gen=c, fs=malvinense, mp=malvinenses, fp=malvinenses
+    islas marshall: nacionalidad=marshalés, iso2=mh, iso3=mhl, fs=marshalesa, mp=marshaleses, fp=marshalesas
+    islas salomón: nacionalidad=salomonense, iso2=sb, iso3=slb, gen=c, fs=salomonense, mp=salomonenses, fp=salomonenses
+    israel: nacionalidad=israelí, iso2=il, iso3=isr, gen=c, fs=israelí, mp=israelíes, fp=israelíes
+    italia: nacionalidad=italiano, iso2=it, iso3=ita, fs=italiana, mp=italianos, fp=italianas
+    jamaica: nacionalidad=jamaicano, iso2=jm, iso3=jam, fs=jamaicana, mp=jamaicanos, fp=jamaicanas
+    japón: nacionalidad=japonés, iso2=jp, iso3=jpn, fs=japonesa, mp=japoneses, fp=japonesas
+    jordania: nacionalidad=jordano, iso2=jo, iso3=jor, fs=jordana, mp=jordanos, fp=jordanas
+    kazajistán: nacionalidad=kazajo, iso2=kz, iso3=kaz, fs=kazaja, mp=kazajos, fp=kazajas
+    kazajstán: alias=1, nacionalidad=kazajo, iso2=kz, iso3=kaz, fs=kazaja, mp=kazajos, fp=kazajas
+    kenia: nacionalidad=keniano, iso2=ke, iso3=ken, fs=keniana, mp=kenianos, fp=kenianas
+    kenya: alias=1, nacionalidad=keniano, iso2=ke, iso3=ken, fs=keniana, mp=kenianos, fp=kenianas
+    kirguistán: nacionalidad=kirguís, iso2=kg, iso3=kgz, gen=c, fs=kirguís, mp=kirguises, fp=kirguises
+    kirguizistán: alias=1, nacionalidad=kirguís, iso2=kg, iso3=kgz, gen=c, fs=kirguís, mp=kirguises, fp=kirguises
+    kiribati: nacionalidad=kiribatiano, iso2=ki, iso3=kir, fs=kiribatiana, mp=kiribatianos, fp=kiribatianas
+    kosovo: nacionalidad=kosovar, iso2=xk, iso3=xkx, gen=c, fs=kosovar, mp=kosovares, fp=kosovares
+    kuwait: nacionalidad=kuwaití, iso2=kw, iso3=kwt, gen=c, fs=kuwaití, mp=kuwaitíes, fp=kuwaitíes
+    la reunión: alias=1, nacionalidad=reunionés, iso2=re, iso3=reu, fs=reunionesa, mp=reunioneses, fp=reunionesas
+    laos: nacionalidad=laosiano, iso2=la, iso3=lao, fs=laosiana, mp=laosianos, fp=laosianas
+    lesotho: alias=1, nacionalidad=lesotense, iso2=ls, iso3=lso, gen=c, fs=lesotense, mp=lesotenses, fp=lesotenses
+    lesoto: nacionalidad=lesotense, iso2=ls, iso3=lso, gen=c, fs=lesotense, mp=lesotenses, fp=lesotenses
+    letonia: nacionalidad=letón, iso2=lv, iso3=lva, fs=letona, mp=letones, fp=letonas
+    liberia: nacionalidad=liberiano, iso2=lr, iso3=lbr, fs=liberiana, mp=liberianos, fp=liberianas
+    libia: nacionalidad=libio, iso2=ly, iso3=lby, fs=libia, mp=libios, fp=libias
+    liechtenstein: nacionalidad=liechtensteiniano, iso2=li, iso3=lie, fs=liechtensteiniana, mp=liechtensteinianos, fp=liechtensteinianas
+    lituania: nacionalidad=lituano, iso2=lt, iso3=ltu, fs=lituana, mp=lituanos, fp=lituanas
+    luxemburgo: nacionalidad=luxemburgués, iso2=lu, iso3=lux, fs=luxemburguesa, mp=luxemburgueses, fp=luxemburguesas
+    líbano: nacionalidad=libanés, iso2=lb, iso3=lbn, fs=libanesa, mp=libaneses, fp=libanesas
+    macao: nacionalidad=macaense, iso2=mo, iso3=mac, gen=c, fs=macaense, mp=macaenses, fp=macaenses
+    macedonia: alias=1, nacionalidad=macedonio, iso2=mk, iso3=mkd, fs=macedonia, mp=macedonios, fp=macedonias
+    macedonia del norte: nacionalidad=macedonio, iso2=mk, iso3=mkd, fs=macedonia, mp=macedonios, fp=macedonias
+    madagascar: nacionalidad=malgache, iso2=mg, iso3=mdg, gen=c, fs=malgache, mp=malgaches, fp=malgaches
+    malasia: nacionalidad=malasio, iso2=my, iso3=mys, fs=malasia, mp=malasios, fp=malasias
+    malaui: nacionalidad=malauí, iso2=mw, iso3=mwi, gen=c, fs=malauí, mp=malauíes, fp=malauíes
+    malawi: alias=1, nacionalidad=malauí, iso2=mw, iso3=mwi, gen=c, fs=malauí, mp=malauíes, fp=malauíes
+    maldivas: nacionalidad=maldivo, iso2=mv, iso3=mdv, fs=maldiva, mp=maldivos, fp=maldivas
+    malta: nacionalidad=maltés, iso2=mt, iso3=mlt, fs=maltesa, mp=malteses, fp=maltesas
+    malvinas: alias=1, nacionalidad=malvinense, iso2=fk, iso3=flk, gen=c, fs=malvinense, mp=malvinenses, fp=malvinenses
+    malí: nacionalidad=maliense, iso2=ml, iso3=mli, gen=c, fs=maliense, mp=malienses, fp=malienses
+    marruecos: nacionalidad=marroquí, iso2=ma, iso3=mar, gen=c, fs=marroquí, mp=marroquíes, fp=marroquíes
+    martinica: nacionalidad=martiniqués, iso2=mq, iso3=mtq, fs=martiniquesa, mp=martiniqueses, fp=martiniquesas
+    mauricio: nacionalidad=mauriciano, iso2=mu, iso3=mus, fs=mauriciana, mp=mauricianos, fp=mauricianas
+    mauritania: nacionalidad=mauritano, iso2=mr, iso3=mrt, fs=mauritana, mp=mauritanos, fp=mauritanas
+    mayotte: nacionalidad=mahorés, iso2=yt, iso3=myt, fs=mahoresa, mp=mahoreses, fp=mahoresas
+    micronesia: nacionalidad=micronesio, iso2=fm, iso3=fsm, fs=micronesia, mp=micronesios, fp=micronesias
+    moldavia: nacionalidad=moldavo, iso2=md, iso3=mda, fs=moldava, mp=moldavos, fp=moldavas
+    moldova: alias=1, nacionalidad=moldavo, iso2=md, iso3=mda, fs=moldava, mp=moldavos, fp=moldavas
+    mongolia: nacionalidad=mongol, iso2=mn, iso3=mng, fs=mongola, mp=mongoles, fp=mongolas
+    montenegro: nacionalidad=montenegrino, iso2=me, iso3=mne, fs=montenegrina, mp=montenegrinos, fp=montenegrinas
+    montserrat: nacionalidad=montserratense, iso2=ms, iso3=msr, gen=c, fs=montserratense, mp=montserratenses, fp=montserratenses
+    mozambique: nacionalidad=mozambiqueño, iso2=mz, iso3=moz, fs=mozambiqueña, mp=mozambiqueños, fp=mozambiqueñas
+    myanmar: alias=1, nacionalidad=birmano, iso2=mm, iso3=mmr, fs=birmana, mp=birmanos, fp=birmanas
+    méjico: alias=1, nacionalidad=mexicano, iso2=mx, iso3=mex, fs=mexicana, mp=mexicanos, fp=mexicanas
+    méxico: nacionalidad=mexicano, iso2=mx, iso3=mex, fs=mexicana, mp=mexicanos, fp=mexicanas
+    mónaco: nacionalidad=monegasco, iso2=mc, iso3=mco, fs=monegasca, mp=monegascos, fp=monegascas
+    namibia: nacionalidad=namibio, iso2=na, iso3=nam, fs=namibia, mp=namibios, fp=namibias
+    nauru: nacionalidad=nauruano, iso2=nr, iso3=nru, fs=nauruana, mp=nauruanos, fp=nauruanas
+    nepal: nacionalidad=nepalí, iso2=np, iso3=npl, gen=c, fs=nepalí, mp=nepalíes, fp=nepalíes
+    nicaragua: nacionalidad=nicaragüense, iso2=ni, iso3=nic, gen=c, fs=nicaragüense, mp=nicaragüenses, fp=nicaragüenses
+    nigeria: nacionalidad=nigeriano, iso2=ng, iso3=nga, fs=nigeriana, mp=nigerianos, fp=nigerianas
+    niue: nacionalidad=niuano, iso2=nu, iso3=niu, fs=niuana, mp=niuanos, fp=niuanas
+    noruega: nacionalidad=noruego, iso2=no, iso3=nor, fs=noruega, mp=noruegos, fp=noruegas
+    nueva caledonia: nacionalidad=neocaledonio, iso2=nc, iso3=ncl, fs=neocaledonia, mp=neocaledonios, fp=neocaledonias
+    nueva zelanda: nacionalidad=neozelandés, iso2=nz, iso3=nzl, fs=neozelandesa, mp=neozelandeses, fp=neozelandesas
+    nueva zelandia: alias=1, nacionalidad=neozelandés, iso2=nz, iso3=nzl, fs=neozelandesa, mp=neozelandeses, fp=neozelandesas
+    níger: nacionalidad=nigerino, iso2=ne, iso3=ner, fs=nigerina, mp=nigerinos, fp=nigerinas
+    omán: nacionalidad=omaní, iso2=om, iso3=omn, gen=c, fs=omaní, mp=omaníes, fp=omaníes
+    pakistán: nacionalidad=pakistaní, iso2=pk, iso3=pak, gen=c, fs=pakistaní, mp=pakistaníes, fp=pakistaníes
+    palaos: nacionalidad=palauano, iso2=pw, iso3=plw, fs=palauana, mp=palauanos, fp=palauanas
+    palau: alias=1, nacionalidad=palauano, iso2=pw, iso3=plw, fs=palauana, mp=palauanos, fp=palauanas
+    palestina: nacionalidad=palestino, iso2=ps, iso3=pse, fs=palestina, mp=palestinos, fp=palestinas
+    panamá: nacionalidad=panameño, iso2=pa, iso3=pan, fs=panameña, mp=panameños, fp=panameñas
+    papúa nueva guinea: nacionalidad=papú, iso2=pg, iso3=png, gen=c, fs=papú, mp=papúes, fp=papúes
+    paquistán: alias=1, nacionalidad=pakistaní, iso2=pk, iso3=pak, gen=c, fs=pakistaní, mp=pakistaníes, fp=pakistaníes
+    paraguay: nacionalidad=paraguayo, iso2=py, iso3=pry, fs=paraguaya, mp=paraguayos, fp=paraguayas
+    país de gales: alias=1, nacionalidad=galés, iso2=gb, iso3=gbr, fs=galesa, mp=galeses, fp=galesas
+    países bajos: nacionalidad=neerlandés, iso2=nl, iso3=nld, fs=neerlandesa, mp=neerlandeses, fp=neerlandesas
+    perú: nacionalidad=peruano, iso2=pe, iso3=per, fs=peruana, mp=peruanos, fp=peruanas
+    polinesia francesa: nacionalidad=polinesio, iso2=pf, iso3=pyf, fs=polinesia, mp=polinesios, fp=polinesias
+    polonia: nacionalidad=polaco, iso2=pl, iso3=pol, fs=polaca, mp=polacos, fp=polacas
+    portugal: nacionalidad=portugués, iso2=pt, iso3=prt, fs=portuguesa, mp=portugueses, fp=portuguesas
+    puerto rico: nacionalidad=puertorriqueño, iso2=pr, iso3=pri, fs=puertorriqueña, mp=puertorriqueños, fp=puertorriqueñas
+    qatar: alias=1, nacionalidad=catarí, iso2=qa, iso3=qat, gen=c, fs=catarí, mp=cataríes, fp=cataríes
+    rd del congo: alias=1, nacionalidad=congoleño, iso2=cd, iso3=cod, fs=congoleña, mp=congoleños, fp=congoleñas
+    reino unido: nacionalidad=británico, iso2=gb, iso3=gbr, fs=británica, mp=británicos, fp=británicas
+    reino unido de gran bretaña e irlanda del norte: alias=1, nacionalidad=británico, iso2=gb, iso3=gbr, fs=británica, mp=británicos, fp=británicas
+    república bolivariana de venezuela: alias=1, nacionalidad=venezolano, iso2=ve, iso3=ven, fs=venezolana, mp=venezolanos, fp=venezolanas
+    república centroafricana: nacionalidad=centroafricano, iso2=cf, iso3=caf, fs=centroafricana, mp=centroafricanos, fp=centroafricanas
+    república checa: alias=1, nacionalidad=checo, iso2=cz, iso3=cze, fs=checa, mp=checos, fp=checas
+    república de corea: alias=1, nacionalidad=surcoreano, iso2=kr, iso3=kor, fs=surcoreana, mp=surcoreanos, fp=surcoreanas
+    república de macedonia del norte: alias=1, nacionalidad=macedonio, iso2=mk, iso3=mkd, fs=macedonia, mp=macedonios, fp=macedonias
+    república de moldavia: alias=1, nacionalidad=moldavo, iso2=md, iso3=mda, fs=moldava, mp=moldavos, fp=moldavas
+    república del congo: alias=1, nacionalidad=congoleño, iso2=cg, iso3=cog, fs=congoleña, mp=congoleños, fp=congoleñas
+    república democrática del congo: nacionalidad=congoleño, iso2=cd, iso3=cod, fs=congoleña, mp=congoleños, fp=congoleñas
+    república democrática popular lao: alias=1, nacionalidad=laosiano, iso2=la, iso3=lao, fs=laosiana, mp=laosianos, fp=laosianas
+    república dominicana: nacionalidad=dominicano, iso2=do, iso3=dom, fs=dominicana, mp=dominicanos, fp=dominicanas
+    república islámica de irán: alias=1, nacionalidad=iraní, iso2=ir, iso3=irn, gen=c, fs=iraní, mp=iraníes, fp=iraníes
+    república popular china: alias=1, nacionalidad=chino, iso2=cn, iso3=chn, fs=china, mp=chinos, fp=chinas
+    república popular democrática de corea: alias=1, nacionalidad=norcoreano, iso2=kp, iso3=prk, fs=norcoreana, mp=norcoreanos, fp=norcoreanas
+    república unida de tanzania: alias=1, nacionalidad=tanzano, iso2=tz, iso3=tza, fs=tanzana, mp=tanzanos, fp=tanzanas
+    república árabe siria: alias=1, nacionalidad=sirio, iso2=sy, iso3=syr, fs=siria, mp=sirios, fp=sirias
+    reunión: nacionalidad=reunionés, iso2=re, iso3=reu, fs=reunionesa, mp=reunioneses, fp=reunionesas
+    ruanda: nacionalidad=ruandés, iso2=rw, iso3=rwa, fs=ruandesa, mp=ruandeses, fp=ruandesas
+    rumania: alias=1, nacionalidad=rumano, iso2=ro, iso3=rou, fs=rumana, mp=rumanos, fp=rumanas
+    rumanía: nacionalidad=rumano, iso2=ro, iso3=rou, fs=rumana, mp=rumanos, fp=rumanas
+    rusia: nacionalidad=ruso, iso2=ru, iso3=rus, fs=rusa, mp=rusos, fp=rusas
+    rwanda: alias=1, nacionalidad=ruandés, iso2=rw, iso3=rwa, fs=ruandesa, mp=ruandeses, fp=ruandesas
+    sahara occidental: nacionalidad=saharaui, iso2=eh, iso3=esh, gen=c, fs=saharaui, mp=saharauis, fp=saharauis
+    saint kitts y nevis: alias=1, nacionalidad=sancristobaleño, iso2=kn, iso3=kna, fs=sancristobaleña, mp=sancristobaleños, fp=sancristobaleñas
+    samoa: nacionalidad=samoano, iso2=ws, iso3=wsm, fs=samoana, mp=samoanos, fp=samoanas
+    samoa americana: nacionalidad=samoano, iso2=as, iso3=asm, fs=samoana, mp=samoanos, fp=samoanas
+    samoa estadounidense: alias=1, nacionalidad=samoano, iso2=as, iso3=asm, fs=samoana, mp=samoanos, fp=samoanas
+    san cristóbal y nieves: nacionalidad=sancristobaleño, iso2=kn, iso3=kna, fs=sancristobaleña, mp=sancristobaleños, fp=sancristobaleñas
+    san marino: nacionalidad=sanmarinense, iso2=sm, iso3=smr, gen=c, fs=sanmarinense, mp=sanmarinenses, fp=sanmarinenses
+    san vicente y las granadinas: nacionalidad=sanvicentino, iso2=vc, iso3=vct, fs=sanvicentina, mp=sanvicentinos, fp=sanvicentinas
+    santa lucía: nacionalidad=santalucense, iso2=lc, iso3=lca, gen=c, fs=santalucense, mp=santalucenses, fp=santalucenses
+    santa sede: nacionalidad=vaticano, iso2=va, iso3=vat, fs=vaticana, mp=vaticanos, fp=vaticanas
+    santo tomé y príncipe: nacionalidad=santotomense, iso2=st, iso3=stp, gen=c, fs=santotomense, mp=santotomenses, fp=santotomenses
+    senegal: nacionalidad=senegalés, iso2=sn, iso3=sen, fs=senegalesa, mp=senegaleses, fp=senegalesas
+    serbia: nacionalidad=serbio, iso2=rs, iso3=srb, fs=serbia, mp=serbios, fp=serbias
+    seychelles: nacionalidad=seychellense, iso2=sc, iso3=syc, gen=c, fs=seychellense, mp=seychellenses, fp=seychellenses
+    sierra leona: nacionalidad=sierraleonés, iso2=sl, iso3=sle, fs=sierraleonesa, mp=sierraleoneses, fp=sierraleonesas
+    singapur: nacionalidad=singapurense, iso2=sg, iso3=sgp, gen=c, fs=singapurense, mp=singapurenses, fp=singapurenses
+    siria: nacionalidad=sirio, iso2=sy, iso3=syr, fs=siria, mp=sirios, fp=sirias
+    somalia: nacionalidad=somalí, iso2=so, iso3=som, gen=c, fs=somalí, mp=somalíes, fp=somalíes
+    sri lanka: nacionalidad=ceilanés, iso2=lk, iso3=lka, fs=ceilanesa, mp=ceilaneses, fp=ceilanesas
+    suazilandia: alias=1, nacionalidad=suazi, iso2=sz, iso3=swz, gen=c, fs=suazi, mp=suazis, fp=suazis
+    sudáfrica: nacionalidad=sudafricano, iso2=za, iso3=zaf, fs=sudafricana, mp=sudafricanos, fp=sudafricanas
+    sudán: nacionalidad=sudanés, iso2=sd, iso3=sdn, fs=sudanesa, mp=sudaneses, fp=sudanesas
+    sudán del sur: nacionalidad=sursudanés, iso2=ss, iso3=ssd, fs=sursudanesa, mp=sursudaneses, fp=sursudanesas
+    suecia: nacionalidad=sueco, iso2=se, iso3=swe, fs=sueca, mp=suecos, fp=suecas
+    suiza: nacionalidad=suizo, iso2=ch, iso3=che, fs=suiza, mp=suizos, fp=suizas
+    surinam: nacionalidad=surinamés, iso2=sr, iso3=sur, fs=surinamesa, mp=surinameses, fp=surinamesas
+    suriname: alias=1, nacionalidad=surinamés, iso2=sr, iso3=sur, fs=surinamesa, mp=surinameses, fp=surinamesas
+    sáhara occidental: alias=1, nacionalidad=saharaui, iso2=eh, iso3=esh, gen=c, fs=saharaui, mp=saharauis, fp=saharauis
+    tailandia: nacionalidad=tailandés, iso2=th, iso3=tha, fs=tailandesa, mp=tailandeses, fp=tailandesas
+    taiwán: nacionalidad=taiwanés, iso2=tw, iso3=twn, fs=taiwanesa, mp=taiwaneses, fp=taiwanesas
+    tanzania: nacionalidad=tanzano, iso2=tz, iso3=tza, fs=tanzana, mp=tanzanos, fp=tanzanas
+    tayikistán: nacionalidad=tayiko, iso2=tj, iso3=tjk, fs=tayika, mp=tayikos, fp=tayikas
+    timor leste: alias=1, nacionalidad=timorense, iso2=tl, iso3=tls, gen=c, fs=timorense, mp=timorenses, fp=timorenses
+    timor oriental: nacionalidad=timorense, iso2=tl, iso3=tls, gen=c, fs=timorense, mp=timorenses, fp=timorenses
+    timor-leste: alias=1, nacionalidad=timorense, iso2=tl, iso3=tls, gen=c, fs=timorense, mp=timorenses, fp=timorenses
+    togo: nacionalidad=togolés, iso2=tg, iso3=tgo, fs=togolesa, mp=togoleses, fp=togolesas
+    tokelau: nacionalidad=tokelauano, iso2=tk, iso3=tkl, fs=tokelauana, mp=tokelauanos, fp=tokelauanas
+    tonga: nacionalidad=tongano, iso2=to, iso3=ton, fs=tongana, mp=tonganos, fp=tonganas
+    trinidad y tobago: nacionalidad=trinitense, iso2=tt, iso3=tto, gen=c, fs=trinitense, mp=trinitenses, fp=trinitenses
+    turkmenistán: nacionalidad=turcomano, iso2=tm, iso3=tkm, fs=turcomana, mp=turcomanos, fp=turcomanas
+    turquía: nacionalidad=turco, iso2=tr, iso3=tur, fs=turca, mp=turcos, fp=turcas
+    tuvalu: nacionalidad=tuvaluano, iso2=tv, iso3=tuv, fs=tuvaluana, mp=tuvaluanos, fp=tuvaluanas
+    túnez: nacionalidad=tunecino, iso2=tn, iso3=tun, fs=tunecina, mp=tunecinos, fp=tunecinas
+    türkiye: alias=1, nacionalidad=turco, iso2=tr, iso3=tur, fs=turca, mp=turcos, fp=turcas
+    ucrania: nacionalidad=ucraniano, iso2=ua, iso3=ukr, fs=ucraniana, mp=ucranianos, fp=ucranianas
+    uganda: nacionalidad=ugandés, iso2=ug, iso3=uga, fs=ugandesa, mp=ugandeses, fp=ugandesas
+    uruguay: nacionalidad=uruguayo, iso2=uy, iso3=ury, fs=uruguaya, mp=uruguayos, fp=uruguayas
+    uzbekistán: nacionalidad=uzbeko, iso2=uz, iso3=uzb, fs=uzbeka, mp=uzbekos, fp=uzbekas
+    vanuatu: nacionalidad=vanuatuense, iso2=vu, iso3=vut, gen=c, fs=vanuatuense, mp=vanuatuenses, fp=vanuatuenses
+    vaticano: alias=1, nacionalidad=vaticano, iso2=va, iso3=vat, fs=vaticana, mp=vaticanos, fp=vaticanas
+    venezuela: nacionalidad=venezolano, iso2=ve, iso3=ven, fs=venezolana, mp=venezolanos, fp=venezolanas
+    viet nam: alias=1, nacionalidad=vietnamita, iso2=vn, iso3=vnm, gen=c, fs=vietnamita, mp=vietnamitas, fp=vietnamitas
+    vietnam: nacionalidad=vietnamita, iso2=vn, iso3=vnm, gen=c, fs=vietnamita, mp=vietnamitas, fp=vietnamitas
+    yemen: nacionalidad=yemení, iso2=ye, iso3=yem, gen=c, fs=yemení, mp=yemeníes, fp=yemeníes
+    yibuti: nacionalidad=yibutiano, iso2=dj, iso3=dji, fs=yibutiana, mp=yibutianos, fp=yibutianas
+    zambia: nacionalidad=zambiano, iso2=zm, iso3=zmb, fs=zambiana, mp=zambianos, fp=zambianas
+    zimbabue: nacionalidad=zimbabuense, iso2=zw, iso3=zwe, gen=c, fs=zimbabuense, mp=zimbabuenses, fp=zimbabuenses
+    zimbabwe: alias=1, nacionalidad=zimbabuense, iso2=zw, iso3=zwe, gen=c, fs=zimbabuense, mp=zimbabuenses, fp=zimbabuenses

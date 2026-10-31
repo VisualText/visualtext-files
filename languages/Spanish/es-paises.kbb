@@ -1,0 +1,348 @@
+# Nombres de países en español.
+# Cada país canónico lleva sus códigos ISO 3166-1 (los mismos de en-countries.kbb,
+# para unir las dos bases de conocimiento) y, si las tiene, sus variantes en
+# sinonimo=.  Cada variante es también un concepto propio con sin=1 y raiz=
+# (el nombre canónico).  noiso=1 marca las cinco entradas que no son países ISO
+# (inglaterra, escocia, gales, irlanda del norte, kosovo).
+# Generado por python/gen_geo_es.py: no editar a mano.
+paises
+  afganistán: iso2=af, iso3=afg
+  albania: iso2=al, iso3=alb
+  alemania: iso2=de, iso3=deu
+  andorra: iso2=ad, iso3=and
+  angola: iso2=ao, iso3=ago
+  anguila: iso2=ai, iso3=aia, sinonimo=anguilla
+  anguilla: sin=1, raiz=anguila, iso2=ai, iso3=aia
+  antigua y barbuda: iso2=ag, iso3=atg
+  antártica: sin=1, raiz=antártida, iso2=aq, iso3=ata
+  antártida: iso2=aq, iso3=ata, sinonimo=antártica
+  arabia saudita: sin=1, raiz="arabia saudí", iso2=sa, iso3=sau
+  arabia saudí: iso2=sa, iso3=sau, sinonimo="arabia saudita"
+  argelia: iso2=dz, iso3=dza
+  argentina: iso2=ar, iso3=arg
+  armenia: iso2=am, iso3=arm
+  aruba: iso2=aw, iso3=abw
+  australia: iso2=au, iso3=aus
+  austria: iso2=at, iso3=aut
+  azerbaiyán: iso2=az, iso3=aze
+  bahamas: iso2=bs, iso3=bhs
+  bahrein: sin=1, raiz=baréin, iso2=bh, iso3=bhr
+  bahréin: sin=1, raiz=baréin, iso2=bh, iso3=bhr
+  bangladesh: sin=1, raiz=bangladés, iso2=bd, iso3=bgd
+  bangladés: iso2=bd, iso3=bgd, sinonimo=bangladesh
+  barbados: iso2=bb, iso3=brb
+  baréin: iso2=bh, iso3=bhr, sinonimo=[bahréin,bahrein]
+  belarús: sin=1, raiz=bielorrusia, iso2=by, iso3=blr
+  belice: iso2=bz, iso3=blz
+  benín: iso2=bj, iso3=ben
+  bermuda: sin=1, raiz=bermudas, iso2=bm, iso3=bmu
+  bermudas: iso2=bm, iso3=bmu, sinonimo=bermuda
+  bielorrusia: iso2=by, iso3=blr, sinonimo=belarús
+  birmania: iso2=mm, iso3=mmr, sinonimo=myanmar
+  bolivia: iso2=bo, iso3=bol, sinonimo="estado plurinacional de bolivia"
+  bonaire, san eustaquio y saba: iso2=bq, iso3=bes, sinonimo="caribe neerlandés"
+  bosnia: sin=1, raiz="bosnia y herzegovina", iso2=ba, iso3=bih
+  bosnia y herzegovina: iso2=ba, iso3=bih, sinonimo=["bosnia-herzegovina",bosnia]
+  bosnia-herzegovina: sin=1, raiz="bosnia y herzegovina", iso2=ba, iso3=bih
+  botsuana: iso2=bw, iso3=bwa, sinonimo=botswana
+  botswana: sin=1, raiz=botsuana, iso2=bw, iso3=bwa
+  brasil: iso2=br, iso3=bra
+  brunei: sin=1, raiz=brunéi, iso2=bn, iso3=brn
+  brunei darussalam: sin=1, raiz=brunéi, iso2=bn, iso3=brn
+  brunéi: iso2=bn, iso3=brn, sinonimo=[brunei,"brunéi darusalam","brunei darussalam"]
+  brunéi darusalam: sin=1, raiz=brunéi, iso2=bn, iso3=brn
+  bulgaria: iso2=bg, iso3=bgr
+  burkina faso: iso2=bf, iso3=bfa
+  burundi: iso2=bi, iso3=bdi
+  bután: iso2=bt, iso3=btn
+  bélgica: iso2=be, iso3=bel
+  cabo verde: iso2=cv, iso3=cpv
+  camboya: iso2=kh, iso3=khm
+  camerún: iso2=cm, iso3=cmr
+  canadá: iso2=ca, iso3=can
+  caribe neerlandés: sin=1, raiz="bonaire, san eustaquio y saba", iso2=bq, iso3=bes
+  catar: iso2=qa, iso3=qat, sinonimo=qatar
+  chad: iso2=td, iso3=tcd
+  chequia: iso2=cz, iso3=cze, sinonimo="república checa"
+  chile: iso2=cl, iso3=chl
+  china: iso2=cn, iso3=chn, sinonimo="república popular china"
+  chipre: iso2=cy, iso3=cyp
+  ciudad del vaticano: sin=1, raiz="santa sede", iso2=va, iso3=vat
+  colombia: iso2=co, iso3=col
+  comoras: iso2=km, iso3=com
+  congo: iso2=cg, iso3=cog, sinonimo=["república del congo","congo-brazzaville"]
+  congo-brazzaville: sin=1, raiz=congo, iso2=cg, iso3=cog
+  congo-kinsasa: sin=1, raiz="república democrática del congo", iso2=cd, iso3=cod
+  corea: iso2=kr, iso3=kor
+  corea del norte: iso2=kp, iso3=prk, sinonimo="república popular democrática de corea"
+  corea del sur: iso2=kr, iso3=kor, sinonimo="república de corea"
+  costa de marfil: iso2=ci, iso3=civ, sinonimo="côte d'ivoire"
+  costa rica: iso2=cr, iso3=cri
+  croacia: iso2=hr, iso3=hrv
+  cuba: iso2=cu, iso3=cub
+  curazao: iso2=cw, iso3=cuw, sinonimo=curaçao
+  curaçao: sin=1, raiz=curazao, iso2=cw, iso3=cuw
+  côte d'ivoire: sin=1, raiz="costa de marfil", iso2=ci, iso3=civ
+  dinamarca: iso2=dk, iso3=dnk
+  djibouti: sin=1, raiz=yibuti, iso2=dj, iso3=dji
+  dominica: iso2=dm, iso3=dma
+  ecuador: iso2=ec, iso3=ecu
+  egipto: iso2=eg, iso3=egy
+  el salvador: iso2=sv, iso3=slv
+  emiratos árabes unidos: iso2=ae, iso3=are
+  eritrea: iso2=er, iso3=eri
+  escocia: noiso=1, iso2=gb, iso3=gbr
+  eslovaquia: iso2=sk, iso3=svk
+  eslovenia: iso2=si, iso3=svn
+  españa: iso2=es, iso3=esp
+  estado de palestina: sin=1, raiz=palestina, iso2=ps, iso3=pse
+  estado plurinacional de bolivia: sin=1, raiz=bolivia, iso2=bo, iso3=bol
+  estados federados de micronesia: sin=1, raiz=micronesia, iso2=fm, iso3=fsm
+  estados unidos: iso2=us, iso3=usa, sinonimo="estados unidos de américa"
+  estados unidos de américa: sin=1, raiz="estados unidos", iso2=us, iso3=usa
+  estonia: iso2=ee, iso3=est
+  esuatini: iso2=sz, iso3=swz, sinonimo=[suazilandia,eswatini]
+  eswatini: sin=1, raiz=esuatini, iso2=sz, iso3=swz
+  etiopía: iso2=et, iso3=eth
+  federación de rusia: sin=1, raiz=rusia, iso2=ru, iso3=rus
+  federación rusa: sin=1, raiz=rusia, iso2=ru, iso3=rus
+  fiji: sin=1, raiz=fiyi, iso2=fj, iso3=fji
+  filipinas: iso2=ph, iso3=phl
+  finlandia: iso2=fi, iso3=fin
+  fiyi: iso2=fj, iso3=fji, sinonimo=fiji
+  francia: iso2=fr, iso3=fra
+  gabón: iso2=ga, iso3=gab
+  gales: noiso=1, iso2=gb, iso3=gbr, sinonimo="país de gales"
+  gambia: iso2=gm, iso3=gmb
+  georgia: iso2=ge, iso3=geo
+  ghana: iso2=gh, iso3=gha
+  gibraltar: iso2=gi, iso3=gib
+  gran bretaña: sin=1, raiz="reino unido", iso2=gb, iso3=gbr
+  granada: iso2=gd, iso3=grd
+  grecia: iso2=gr, iso3=grc
+  groenlandia: iso2=gl, iso3=grl
+  guadalupe: iso2=gp, iso3=glp
+  guam: iso2=gu, iso3=gum
+  guatemala: iso2=gt, iso3=gtm
+  guayana francesa: iso2=gf, iso3=guf
+  guernesey: sin=1, raiz=guernsey, iso2=gg, iso3=ggy
+  guernsey: iso2=gg, iso3=ggy, sinonimo=guernesey
+  guinea: iso2=gn, iso3=gin
+  guinea bisáu: sin=1, raiz="guinea-bisáu", iso2=gw, iso3=gnb
+  guinea ecuatorial: iso2=gq, iso3=gnq
+  guinea-bissau: sin=1, raiz="guinea-bisáu", iso2=gw, iso3=gnb
+  guinea-bisáu: iso2=gw, iso3=gnb, sinonimo=["guinea-bissau","guinea bisáu"]
+  guyana: iso2=gy, iso3=guy
+  haití: iso2=ht, iso3=hti
+  holanda: sin=1, raiz="países bajos", iso2=nl, iso3=nld
+  honduras: iso2=hn, iso3=hnd
+  hong kong: iso2=hk, iso3=hkg
+  hungría: iso2=hu, iso3=hun
+  india: iso2=in, iso3=ind
+  indonesia: iso2=id, iso3=idn
+  inglaterra: noiso=1, iso2=gb, iso3=gbr
+  irak: iso2=iq, iso3=irq, sinonimo=iraq
+  iraq: sin=1, raiz=irak, iso2=iq, iso3=irq
+  irlanda: iso2=ie, iso3=irl
+  irlanda del norte: noiso=1, iso2=gb, iso3=gbr
+  irán: iso2=ir, iso3=irn, sinonimo="república islámica de irán"
+  isla bouvet: iso2=bv, iso3=bvt
+  isla de la reunión: sin=1, raiz=reunión, iso2=re, iso3=reu
+  isla de man: iso2=im, iso3=imn
+  isla de navidad: iso2=cx, iso3=cxr
+  isla norfolk: iso2=nf, iso3=nfk
+  islandia: iso2=is, iso3=isl
+  islas aland: sin=1, raiz="islas åland", iso2=ax, iso3=ala
+  islas caimán: iso2=ky, iso3=cym
+  islas cocos: iso2=cc, iso3=cck, sinonimo="islas keeling"
+  islas cook: iso2=ck, iso3=cok
+  islas falkland: sin=1, raiz="islas malvinas", iso2=fk, iso3=flk
+  islas feroe: iso2=fo, iso3=fro
+  islas georgias del sur y sandwich del sur: iso2=gs, iso3=sgs
+  islas heard y mcdonald: iso2=hm, iso3=hmd
+  islas keeling: sin=1, raiz="islas cocos", iso2=cc, iso3=cck
+  islas malvinas: iso2=fk, iso3=flk, sinonimo=[malvinas,"islas falkland"]
+  islas marianas del norte: iso2=mp, iso3=mnp
+  islas marshall: iso2=mh, iso3=mhl
+  islas pitcairn: iso2=pn, iso3=pcn
+  islas salomón: iso2=sb, iso3=slb
+  islas turcas y caicos: iso2=tc, iso3=tca
+  islas ultramarinas menores de los estados unidos: iso2=um, iso3=umi
+  islas vírgenes británicas: iso2=vg, iso3=vgb
+  islas vírgenes de los estados unidos: iso2=vi, iso3=vir
+  islas åland: iso2=ax, iso3=ala, sinonimo=[åland,"islas aland"]
+  israel: iso2=il, iso3=isr
+  italia: iso2=it, iso3=ita
+  jamaica: iso2=jm, iso3=jam
+  japón: iso2=jp, iso3=jpn
+  jersey: iso2=je, iso3=jey
+  jordania: iso2=jo, iso3=jor
+  kazajistán: iso2=kz, iso3=kaz, sinonimo=kazajstán
+  kazajstán: sin=1, raiz=kazajistán, iso2=kz, iso3=kaz
+  kenia: iso2=ke, iso3=ken, sinonimo=kenya
+  kenya: sin=1, raiz=kenia, iso2=ke, iso3=ken
+  kirguistán: iso2=kg, iso3=kgz, sinonimo=kirguizistán
+  kirguizistán: sin=1, raiz=kirguistán, iso2=kg, iso3=kgz
+  kiribati: iso2=ki, iso3=kir
+  kosovo: noiso=1, iso2=xk, iso3=xkx
+  kuwait: iso2=kw, iso3=kwt
+  la reunión: sin=1, raiz=reunión, iso2=re, iso3=reu
+  laos: iso2=la, iso3=lao, sinonimo="república democrática popular lao"
+  lesotho: sin=1, raiz=lesoto, iso2=ls, iso3=lso
+  lesoto: iso2=ls, iso3=lso, sinonimo=lesotho
+  letonia: iso2=lv, iso3=lva
+  liberia: iso2=lr, iso3=lbr
+  libia: iso2=ly, iso3=lby
+  liechtenstein: iso2=li, iso3=lie
+  lituania: iso2=lt, iso3=ltu
+  luxemburgo: iso2=lu, iso3=lux
+  líbano: iso2=lb, iso3=lbn
+  macao: iso2=mo, iso3=mac
+  macedonia: sin=1, raiz="macedonia del norte", iso2=mk, iso3=mkd
+  macedonia del norte: iso2=mk, iso3=mkd, sinonimo=[macedonia,"república de macedonia del norte"]
+  madagascar: iso2=mg, iso3=mdg
+  malasia: iso2=my, iso3=mys
+  malaui: iso2=mw, iso3=mwi, sinonimo=malawi
+  malawi: sin=1, raiz=malaui, iso2=mw, iso3=mwi
+  maldivas: iso2=mv, iso3=mdv
+  malta: iso2=mt, iso3=mlt
+  malvinas: sin=1, raiz="islas malvinas", iso2=fk, iso3=flk
+  malí: iso2=ml, iso3=mli
+  marruecos: iso2=ma, iso3=mar
+  martinica: iso2=mq, iso3=mtq
+  mauricio: iso2=mu, iso3=mus
+  mauritania: iso2=mr, iso3=mrt
+  mayotte: iso2=yt, iso3=myt
+  micronesia: iso2=fm, iso3=fsm, sinonimo="estados federados de micronesia"
+  moldavia: iso2=md, iso3=mda, sinonimo=[moldova,"república de moldavia"]
+  moldova: sin=1, raiz=moldavia, iso2=md, iso3=mda
+  mongolia: iso2=mn, iso3=mng
+  montenegro: iso2=me, iso3=mne
+  montserrat: iso2=ms, iso3=msr
+  mozambique: iso2=mz, iso3=moz
+  myanmar: sin=1, raiz=birmania, iso2=mm, iso3=mmr
+  méjico: sin=1, raiz=méxico, iso2=mx, iso3=mex
+  méxico: iso2=mx, iso3=mex, sinonimo=méjico
+  mónaco: iso2=mc, iso3=mco
+  namibia: iso2=na, iso3=nam
+  nauru: iso2=nr, iso3=nru
+  nepal: iso2=np, iso3=npl
+  nicaragua: iso2=ni, iso3=nic
+  nigeria: iso2=ng, iso3=nga
+  niue: iso2=nu, iso3=niu
+  noruega: iso2=no, iso3=nor
+  nueva caledonia: iso2=nc, iso3=ncl
+  nueva zelanda: iso2=nz, iso3=nzl, sinonimo="nueva zelandia"
+  nueva zelandia: sin=1, raiz="nueva zelanda", iso2=nz, iso3=nzl
+  níger: iso2=ne, iso3=ner
+  omán: iso2=om, iso3=omn
+  pakistán: iso2=pk, iso3=pak, sinonimo=paquistán
+  palaos: iso2=pw, iso3=plw, sinonimo=palau
+  palau: sin=1, raiz=palaos, iso2=pw, iso3=plw
+  palestina: iso2=ps, iso3=pse, sinonimo="estado de palestina"
+  panamá: iso2=pa, iso3=pan
+  papúa nueva guinea: iso2=pg, iso3=png
+  paquistán: sin=1, raiz=pakistán, iso2=pk, iso3=pak
+  paraguay: iso2=py, iso3=pry
+  país de gales: sin=1, raiz=gales, iso2=gb, iso3=gbr
+  países bajos: iso2=nl, iso3=nld, sinonimo=holanda
+  perú: iso2=pe, iso3=per
+  polinesia francesa: iso2=pf, iso3=pyf
+  polonia: iso2=pl, iso3=pol
+  portugal: iso2=pt, iso3=prt
+  puerto rico: iso2=pr, iso3=pri
+  qatar: sin=1, raiz=catar, iso2=qa, iso3=qat
+  rd del congo: sin=1, raiz="república democrática del congo", iso2=cd, iso3=cod
+  reino unido: iso2=gb, iso3=gbr, sinonimo=["reino unido de gran bretaña e irlanda del norte","gran bretaña"]
+  reino unido de gran bretaña e irlanda del norte: sin=1, raiz="reino unido", iso2=gb, iso3=gbr
+  república bolivariana de venezuela: sin=1, raiz=venezuela, iso2=ve, iso3=ven
+  república centroafricana: iso2=cf, iso3=caf
+  república checa: sin=1, raiz=chequia, iso2=cz, iso3=cze
+  república de corea: sin=1, raiz="corea del sur", iso2=kr, iso3=kor
+  república de macedonia del norte: sin=1, raiz="macedonia del norte", iso2=mk, iso3=mkd
+  república de moldavia: sin=1, raiz=moldavia, iso2=md, iso3=mda
+  república del congo: sin=1, raiz=congo, iso2=cg, iso3=cog
+  república democrática del congo: iso2=cd, iso3=cod, sinonimo=["congo-kinsasa","rd del congo"]
+  república democrática popular lao: sin=1, raiz=laos, iso2=la, iso3=lao
+  república dominicana: iso2=do, iso3=dom
+  república islámica de irán: sin=1, raiz=irán, iso2=ir, iso3=irn
+  república popular china: sin=1, raiz=china, iso2=cn, iso3=chn
+  república popular democrática de corea: sin=1, raiz="corea del norte", iso2=kp, iso3=prk
+  república unida de tanzania: sin=1, raiz=tanzania, iso2=tz, iso3=tza
+  república árabe siria: sin=1, raiz=siria, iso2=sy, iso3=syr
+  reunión: iso2=re, iso3=reu, sinonimo=["la reunión","isla de la reunión"]
+  ruanda: iso2=rw, iso3=rwa, sinonimo=rwanda
+  rumania: sin=1, raiz=rumanía, iso2=ro, iso3=rou
+  rumanía: iso2=ro, iso3=rou, sinonimo=rumania
+  rusia: iso2=ru, iso3=rus, sinonimo=["federación de rusia","federación rusa"]
+  rwanda: sin=1, raiz=ruanda, iso2=rw, iso3=rwa
+  sahara occidental: iso2=eh, iso3=esh, sinonimo="sáhara occidental"
+  saint kitts y nevis: sin=1, raiz="san cristóbal y nieves", iso2=kn, iso3=kna
+  samoa: iso2=ws, iso3=wsm
+  samoa americana: iso2=as, iso3=asm, sinonimo="samoa estadounidense"
+  samoa estadounidense: sin=1, raiz="samoa americana", iso2=as, iso3=asm
+  san bartolomé: iso2=bl, iso3=blm
+  san cristóbal y nieves: iso2=kn, iso3=kna, sinonimo="saint kitts y nevis"
+  san marino: iso2=sm, iso3=smr
+  san martín: iso2=mf, iso3=maf
+  san pedro y miquelón: iso2=pm, iso3=spm
+  san vicente y las granadinas: iso2=vc, iso3=vct
+  santa elena: sin=1, raiz="santa elena, ascensión y tristán de acuña", iso2=sh, iso3=shn
+  santa elena, ascensión y tristán de acuña: iso2=sh, iso3=shn, sinonimo="santa elena"
+  santa lucía: iso2=lc, iso3=lca
+  santa sede: iso2=va, iso3=vat, sinonimo=["ciudad del vaticano",vaticano]
+  santo tomé y príncipe: iso2=st, iso3=stp
+  senegal: iso2=sn, iso3=sen
+  serbia: iso2=rs, iso3=srb
+  seychelles: iso2=sc, iso3=syc
+  sierra leona: iso2=sl, iso3=sle
+  singapur: iso2=sg, iso3=sgp
+  sint maarten: iso2=sx, iso3=sxm
+  siria: iso2=sy, iso3=syr, sinonimo="república árabe siria"
+  somalia: iso2=so, iso3=som
+  sri lanka: iso2=lk, iso3=lka
+  suazilandia: sin=1, raiz=esuatini, iso2=sz, iso3=swz
+  sudáfrica: iso2=za, iso3=zaf
+  sudán: iso2=sd, iso3=sdn
+  sudán del sur: iso2=ss, iso3=ssd
+  suecia: iso2=se, iso3=swe
+  suiza: iso2=ch, iso3=che
+  surinam: iso2=sr, iso3=sur, sinonimo=suriname
+  suriname: sin=1, raiz=surinam, iso2=sr, iso3=sur
+  svalbard y jan mayen: iso2=sj, iso3=sjm
+  sáhara occidental: sin=1, raiz="sahara occidental", iso2=eh, iso3=esh
+  tailandia: iso2=th, iso3=tha
+  taiwán: iso2=tw, iso3=twn
+  tanzania: iso2=tz, iso3=tza, sinonimo="república unida de tanzania"
+  tayikistán: iso2=tj, iso3=tjk
+  territorio británico del océano índico: iso2=io, iso3=iot
+  territorios australes franceses: sin=1, raiz="tierras australes y antárticas francesas", iso2=tf, iso3=atf
+  tierras australes y antárticas francesas: iso2=tf, iso3=atf, sinonimo="territorios australes franceses"
+  timor leste: sin=1, raiz="timor oriental", iso2=tl, iso3=tls
+  timor oriental: iso2=tl, iso3=tls, sinonimo=["timor-leste","timor leste"]
+  timor-leste: sin=1, raiz="timor oriental", iso2=tl, iso3=tls
+  togo: iso2=tg, iso3=tgo
+  tokelau: iso2=tk, iso3=tkl
+  tonga: iso2=to, iso3=ton
+  trinidad y tobago: iso2=tt, iso3=tto
+  turkmenistán: iso2=tm, iso3=tkm
+  turquía: iso2=tr, iso3=tur, sinonimo=türkiye
+  tuvalu: iso2=tv, iso3=tuv
+  túnez: iso2=tn, iso3=tun
+  türkiye: sin=1, raiz=turquía, iso2=tr, iso3=tur
+  ucrania: iso2=ua, iso3=ukr
+  uganda: iso2=ug, iso3=uga
+  uruguay: iso2=uy, iso3=ury
+  uzbekistán: iso2=uz, iso3=uzb
+  vanuatu: iso2=vu, iso3=vut
+  vaticano: sin=1, raiz="santa sede", iso2=va, iso3=vat
+  venezuela: iso2=ve, iso3=ven, sinonimo="república bolivariana de venezuela"
+  viet nam: sin=1, raiz=vietnam, iso2=vn, iso3=vnm
+  vietnam: iso2=vn, iso3=vnm, sinonimo="viet nam"
+  wallis y futuna: iso2=wf, iso3=wlf
+  yemen: iso2=ye, iso3=yem
+  yibuti: iso2=dj, iso3=dji, sinonimo=djibouti
+  zambia: iso2=zm, iso3=zmb
+  zimbabue: iso2=zw, iso3=zwe, sinonimo=zimbabwe
+  zimbabwe: sin=1, raiz=zimbabue, iso2=zw, iso3=zwe
+  åland: sin=1, raiz="islas åland", iso2=ax, iso3=ala
