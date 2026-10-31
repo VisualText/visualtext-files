@@ -1,0 +1,855 @@
+# Áreas de estudio en español: asignaturas escolares y disciplinas académicas.
+# Una línea por forma de superficie.
+#   area=         el nombre canónico de la materia -- en todas las entradas, de
+#                 modo que las reglas se unen a es-areas-de-estudio.kbb por este
+#                 atributo y no por $text
+#   rama=         la gran división en la que se sitúa (ciencias naturales,
+#                 ciencias formales, ciencias sociales, humanidades, artes,
+#                 ingeniería, salud, negocios, educación, derecho, agricultura,
+#                 interdisciplinario)
+#   padre=        la materia más amplia de la que depende, si la hay
+#   canonico=1    la forma es el nombre canónico    sin=1  un sinónimo
+#   adj=1         una forma adjetiva (biológico, matemática)
+#   gen=m|f       género de una forma adjetiva que lo marca (biológico /
+#                 biológica); los adjetivos invariables (ambiental) no lo llevan
+#   escolar=1     una asignatura habitual de primaria o secundaria en España o
+#                 Latinoamérica
+#   idioma=1      el nombre es también una lengua y un gentilicio (inglés,
+#                 francés, latín) -- véanse es-idiomas.dict, es-nacionalidades.dict
+#   carrera=1     la forma es también el nombre de un título en
+#                 es-grados-academicos.dict (ingeniería civil, arquitectura)
+#   ambig=1       la forma es también una entrada de otro diccionario de la
+#                 biblioteca
+# Casi todos los nombres de materia son también palabras corrientes (arte,
+# historia, lectura, diseño, derecho), así que una lectura como materia siempre
+# necesita contexto: "licenciado en", "estudió", "clase de", "departamento de"
+# o un plan de estudios.  El diccionario no lo marca; solo se marcan las
+# colisiones con otros diccionarios de la biblioteca.
+# Los nombres canónicos son el vocabulario de area= en
+# es-grados-academicos.dict, de modo que un título se une a su materia por ese
+# atributo.
+# Generado por python/gen_subjects_es.py; no editar a mano.
+actuaría sin=1 area="ciencias actuariales" rama=negocios padre="administración de empresas" pos=v
+actuarial adj=1 area="ciencias actuariales" rama=negocios padre="administración de empresas" pos=adj
+acuicultura sin=1 area=pesquerías rama=agricultura padre=agricultura pos=s
+ade sin=1 area="administración de empresas" rama=negocios escolar=1 pos=v
+administración sin=1 area="administración de empresas" rama=negocios escolar=1 pos=s
+administración de empresas canonico=1 area="administración de empresas" rama=negocios escolar=1 pos=s
+administración de servicios de salud canonico=1 area="administración de servicios de salud" rama=salud padre="salud pública" pos=s
+administración hospitalaria sin=1 area="administración de servicios de salud" rama=salud padre="salud pública" pos=s
+administración hotelera sin=1 area=turismo rama=negocios padre=gestión pos=s
+administración pública canonico=1 area="administración pública" rama="ciencias sociales" padre="ciencia política" pos=s
+administración y dirección de empresas sin=1 area="administración de empresas" rama=negocios escolar=1 pos=s
+agrícola adj=1 area=agricultura rama=agricultura pos=adj
+agrícola pos=s
+agricultura canonico=1 area=agricultura rama=agricultura pos=s
+agronomía canonico=1 area=agronomía rama=agricultura padre=agricultura pos=s
+agronomía general sin=1 area=agricultura rama=agricultura pos=s
+agronómica adj=1 area=agronomía rama=agricultura padre=agricultura gen=f pos=adj
+agronómico adj=1 area=agronomía rama=agricultura padre=agricultura gen=m pos=adj
+alemán canonico=1 area=alemán rama=humanidades padre="lenguas extranjeras" escolar=1 idioma=1 ambig=1 pos=adj
+alemán pos=s
+alfarería sin=1 area=cerámica rama=artes padre=arte pos=s
+álgebra canonico=1 area="álgebra" rama="ciencias formales" padre=matemáticas escolar=1 pos=s
+álgebra lineal canonico=1 area="álgebra lineal" rama="ciencias formales" padre=matemáticas pos=s
+algebraica adj=1 area="álgebra" rama="ciencias formales" padre=matemáticas gen=f escolar=1 pos=adj
+algebraico adj=1 area="álgebra" rama="ciencias formales" padre=matemáticas gen=m escolar=1 pos=adj
+alimentaria adj=1 area="ciencia de los alimentos" rama=agricultura padre=agricultura gen=f pos=adj
+alimentario adj=1 area="ciencia de los alimentos" rama=agricultura padre=agricultura gen=m pos=adj
+ambiental adj=1 area="ciencias ambientales" rama="ciencias naturales" padre="ciencias de la tierra" escolar=1 pos=adj
+anatomía canonico=1 area=anatomía rama="ciencias naturales" padre=biología pos=s
+anatomía patológica sin=1 area=patología rama=salud padre=medicina pos=s
+anatómica adj=1 area=anatomía rama="ciencias naturales" padre=biología gen=f pos=adj
+anatómico adj=1 area=anatomía rama="ciencias naturales" padre=biología gen=m pos=adj
+anestesia sin=1 area=anestesiología rama=salud padre=medicina pos=s
+anestesia pos=v
+anestesiología canonico=1 area=anestesiología rama=salud padre=medicina pos=s
+antropología canonico=1 area=antropología rama="ciencias sociales" pos=s
+antropológica adj=1 area=antropología rama="ciencias sociales" gen=f pos=adj
+antropológico adj=1 area=antropología rama="ciencias sociales" gen=m pos=adj
+aprendizaje automático canonico=1 area="aprendizaje automático" rama="ciencias formales" padre="inteligencia artificial" pos=s
+aprendizaje de máquina sin=1 area="aprendizaje automático" rama="ciencias formales" padre="inteligencia artificial" pos=s
+árabe canonico=1 area="árabe" rama=humanidades padre="lenguas extranjeras" idioma=1 ambig=1 pos=adj
+árabe pos=s
+aritmética canonico=1 area=aritmética rama="ciencias formales" padre=matemáticas escolar=1 pos=adj
+aritmética pos=s
+aritmético adj=1 area=aritmética rama="ciencias formales" padre=matemáticas gen=m escolar=1 pos=adj
+arqueología canonico=1 area=arqueología rama="ciencias sociales" padre=antropología pos=s
+arqueológica adj=1 area=arqueología rama="ciencias sociales" padre=antropología gen=f pos=adj
+arqueológico adj=1 area=arqueología rama="ciencias sociales" padre=antropología gen=m pos=adj
+arquitectónica adj=1 area=arquitectura rama=artes gen=f pos=adj
+arquitectónico adj=1 area=arquitectura rama=artes gen=m pos=adj
+arquitectura canonico=1 area=arquitectura rama=artes carrera=1 pos=s
+arquitectura del paisaje canonico=1 area="arquitectura del paisaje" rama=artes padre=arquitectura pos=s
+arte canonico=1 area=arte rama=artes escolar=1 pos=s
+arte dramático sin=1 area=teatro rama=artes escolar=1 pos=s
+artes sin=1 area=arte rama=artes escolar=1 pos=s
+artes aplicadas canonico=1 area="artes aplicadas" rama=interdisciplinario pos=s
+artes escénicas sin=1 area=teatro rama=artes escolar=1 pos=s
+artes liberales sin=1 area="estudios generales" rama=interdisciplinario pos=s
+artes plásticas sin=1 area=arte rama=artes escolar=1 pos=s
+artes visuales sin=1 area=arte rama=artes escolar=1 pos=s
+artes y oficios sin=1 area="artes aplicadas" rama=interdisciplinario pos=s
+artística adj=1 area=arte rama=artes gen=f escolar=1 pos=adj
+artístico adj=1 area=arte rama=artes gen=m escolar=1 pos=adj
+astrofísica canonico=1 area=astrofísica rama="ciencias naturales" padre=física pos=adj
+astrofísica pos=s
+astronomía canonico=1 area=astronomía rama="ciencias naturales" padre="ciencias naturales" pos=s
+astronómica adj=1 area=astronomía rama="ciencias naturales" padre="ciencias naturales" gen=f pos=adj
+astronómico adj=1 area=astronomía rama="ciencias naturales" padre="ciencias naturales" gen=m pos=adj
+asuntos internacionales sin=1 area="relaciones internacionales" rama="ciencias sociales" padre="ciencia política" pos=s
+audiología canonico=1 area=audiología rama=salud pos=s
+bacteriología canonico=1 area=bacteriología rama="ciencias naturales" padre=biología pos=s
+baile sin=1 area=danza rama=artes escolar=1 pos=s
+baile pos=v
+bellas artes sin=1 area=arte rama=artes escolar=1 pos=s
+bibliotecología sin=1 area=biblioteconomía rama="ciencias formales" pos=s
+biblioteconomía canonico=1 area=biblioteconomía rama="ciencias formales" pos=s
+biblioteconomía y documentación sin=1 area=biblioteconomía rama="ciencias formales" pos=s
+bienes raíces canonico=1 area="bienes raíces" rama=negocios padre="administración de empresas" pos=s
+biofísica canonico=1 area=biofísica rama="ciencias naturales" padre=biología pos=adj
+biofísica pos=s
+biofísico adj=1 area=biofísica rama="ciencias naturales" padre=biología gen=m pos=adj
+biofísico pos=s
+bioingeniería sin=1 area="ingeniería biomédica" rama=ingeniería padre=ingeniería pos=s
+biología canonico=1 area=biología rama="ciencias naturales" padre="ciencias naturales" escolar=1 pos=s
+biología animal sin=1 area=zoología rama="ciencias naturales" padre=biología pos=s
+biología celular canonico=1 area="biología celular" rama="ciencias naturales" padre=biología pos=s
+biología evolutiva canonico=1 area="biología evolutiva" rama="ciencias naturales" padre=biología pos=s
+biología marina canonico=1 area="biología marina" rama="ciencias naturales" padre=biología pos=s
+biología molecular canonico=1 area="biología molecular" rama="ciencias naturales" padre=biología pos=s
+biología vegetal sin=1 area=botánica rama="ciencias naturales" padre=biología pos=s
+biología y geología canonico=1 area="biología y geología" rama="ciencias naturales" padre="ciencias naturales" escolar=1 pos=s
+biológica adj=1 area=biología rama="ciencias naturales" padre="ciencias naturales" gen=f escolar=1 pos=adj
+biológico adj=1 area=biología rama="ciencias naturales" padre="ciencias naturales" gen=m escolar=1 pos=adj
+bioquímica canonico=1 area=bioquímica rama="ciencias naturales" padre=biología pos=adj
+bioquímica pos=s
+bioquímico adj=1 area=bioquímica rama="ciencias naturales" padre=biología gen=m pos=adj
+bioquímico pos=s
+biotecnología canonico=1 area=biotecnología rama="ciencias naturales" padre=biología pos=s
+biotecnológica adj=1 area=biotecnología rama="ciencias naturales" padre=biología gen=f pos=adj
+biotecnológico adj=1 area=biotecnología rama="ciencias naturales" padre=biología gen=m pos=adj
+botánica canonico=1 area=botánica rama="ciencias naturales" padre=biología pos=adj
+botánica pos=s
+botánico adj=1 area=botánica rama="ciencias naturales" padre=biología gen=m pos=adj
+botánico pos=s
+cadena de suministro sin=1 area=logística rama=negocios padre=gestión pos=s
+cafyd sin=1 area="ciencias del deporte" rama=salud pos=s
+cálculo canonico=1 area=cálculo rama="ciencias formales" padre=matemáticas escolar=1 pos=s
+cardiología canonico=1 area=cardiología rama=salud padre=medicina pos=s
+castellano sin=1 area="lengua castellana" rama=humanidades padre=humanidades escolar=1 idioma=1 ambig=1 pos=adj
+castellano pos=s
+catalán canonico=1 area=catalán rama=humanidades padre="lenguas cooficiales" escolar=1 idioma=1 ambig=1 pos=adj
+catalán pos=s
+cerámica canonico=1 area=cerámica rama=artes padre=arte pos=adj
+cerámica pos=s
+chino canonico=1 area=chino rama=humanidades padre="lenguas extranjeras" idioma=1 ambig=1 pos=adj
+chino pos=s
+chino mandarín sin=1 area=chino rama=humanidades padre="lenguas extranjeras" idioma=1 pos=s
+ciberseguridad canonico=1 area=ciberseguridad rama="ciencias formales" padre=informática pos=s
+ciencia sin=1 area="ciencias naturales" rama="ciencias naturales" escolar=1 pos=s
+ciencia cognitiva sin=1 area="ciencias cognitivas" rama="ciencias sociales" padre=psicología pos=s
+ciencia de datos canonico=1 area="ciencia de datos" rama="ciencias formales" padre=informática pos=s
+ciencia de la computación sin=1 area=informática rama="ciencias formales" escolar=1 pos=s
+ciencia de los alimentos canonico=1 area="ciencia de los alimentos" rama=agricultura padre=agricultura pos=s
+ciencia de materiales canonico=1 area="ciencia de materiales" rama=ingeniería padre=ingeniería pos=s
+ciencia del suelo sin=1 area=edafología rama="ciencias naturales" padre="ciencias de la tierra" pos=s
+ciencia e ingeniería de materiales sin=1 area="ciencia de materiales" rama=ingeniería padre=ingeniería pos=s
+ciencia política canonico=1 area="ciencia política" rama="ciencias sociales" padre="ciencias sociales" pos=s
+ciencia y tecnología de los alimentos sin=1 area="ciencia de los alimentos" rama=agricultura padre=agricultura pos=s
+ciencias sin=1 area="ciencias naturales" rama="ciencias naturales" escolar=1 pos=s
+ciencias actuariales canonico=1 area="ciencias actuariales" rama=negocios padre="administración de empresas" pos=s
+ciencias agrarias sin=1 area=agricultura rama=agricultura pos=s
+ciencias agrícolas sin=1 area=agricultura rama=agricultura pos=s
+ciencias ambientales canonico=1 area="ciencias ambientales" rama="ciencias naturales" padre="ciencias de la tierra" escolar=1 pos=s
+ciencias aplicadas canonico=1 area="ciencias aplicadas" rama=interdisciplinario pos=s
+ciencias biológicas sin=1 area=biología rama="ciencias naturales" padre="ciencias naturales" escolar=1 pos=s
+ciencias cognitivas canonico=1 area="ciencias cognitivas" rama="ciencias sociales" padre=psicología pos=s
+ciencias de la actividad física y del deporte sin=1 area="ciencias del deporte" rama=salud pos=s
+ciencias de la computación sin=1 area=informática rama="ciencias formales" escolar=1 pos=s
+ciencias de la comunicación sin=1 area=comunicación rama="ciencias sociales" pos=s
+ciencias de la educación sin=1 area=educación rama=educación pos=s
+ciencias de la información sin=1 area=biblioteconomía rama="ciencias formales" pos=s
+ciencias de la informática sin=1 area=informática rama="ciencias formales" escolar=1 pos=s
+ciencias de la naturaleza sin=1 area="ciencias naturales" rama="ciencias naturales" escolar=1 pos=s
+ciencias de la tierra canonico=1 area="ciencias de la tierra" rama="ciencias naturales" padre="ciencias naturales" escolar=1 pos=s
+ciencias de la vida sin=1 area=biología rama="ciencias naturales" padre="ciencias naturales" escolar=1 pos=s
+ciencias de las religiones canonico=1 area="ciencias de las religiones" rama=humanidades padre=humanidades pos=s
+ciencias del deporte canonico=1 area="ciencias del deporte" rama=salud pos=s
+ciencias del entorno sin=1 area="conocimiento del medio" rama="ciencias naturales" padre="ciencias naturales" escolar=1 pos=s
+ciencias del mar sin=1 area=oceanografía rama="ciencias naturales" padre="ciencias de la tierra" pos=s
+ciencias del medio ambiente sin=1 area="ciencias ambientales" rama="ciencias naturales" padre="ciencias de la tierra" escolar=1 pos=s
+ciencias económicas sin=1 area=economía rama="ciencias sociales" padre="ciencias sociales" escolar=1 pos=s
+ciencias empresariales sin=1 area="administración de empresas" rama=negocios escolar=1 pos=s
+ciencias farmacéuticas sin=1 area=farmacia rama=salud pos=s
+ciencias físicas sin=1 area=física rama="ciencias naturales" padre="ciencias naturales" escolar=1 pos=s
+ciencias forestales sin=1 area="ingeniería forestal" rama=agricultura padre=agricultura pos=s
+ciencias geológicas sin=1 area=geología rama="ciencias naturales" padre="ciencias de la tierra" pos=s
+ciencias jurídicas sin=1 area=derecho rama=derecho pos=s
+ciencias médicas sin=1 area=medicina rama=salud pos=s
+ciencias naturales canonico=1 area="ciencias naturales" rama="ciencias naturales" escolar=1 pos=s
+ciencias penales sin=1 area=criminalística rama=derecho padre=derecho pos=s
+ciencias pesqueras sin=1 area=pesquerías rama=agricultura padre=agricultura pos=s
+ciencias planetarias canonico=1 area="ciencias planetarias" rama="ciencias naturales" padre=astronomía pos=s
+ciencias políticas sin=1 area="ciencia política" rama="ciencias sociales" padre="ciencias sociales" pos=s
+ciencias químicas sin=1 area=química rama="ciencias naturales" padre="ciencias naturales" escolar=1 pos=s
+ciencias religiosas sin=1 area=teología rama=humanidades padre="ciencias de las religiones" pos=s
+ciencias sociales canonico=1 area="ciencias sociales" rama="ciencias sociales" escolar=1 pos=s
+científica adj=1 area="ciencias naturales" rama="ciencias naturales" gen=f escolar=1 pos=adj
+científica pos=s
+científico adj=1 area="ciencias naturales" rama="ciencias naturales" gen=m escolar=1 pos=adj
+científico pos=s
+cine canonico=1 area=cine rama=artes pos=s
+cinematografía sin=1 area=cine rama=artes pos=s
+cinematográfica adj=1 area=cine rama=artes gen=f pos=adj
+cinematográfico adj=1 area=cine rama=artes gen=m pos=adj
+cirugía canonico=1 area=cirugía rama=salud padre=medicina pos=s
+cirugía dental sin=1 area=odontología rama=salud pos=s
+citología sin=1 area="biología celular" rama="ciencias naturales" padre=biología pos=s
+cívica adj=1 area="educación cívica" rama="ciencias sociales" padre="ciencias sociales" gen=f escolar=1 pos=adj
+cívico adj=1 area="educación cívica" rama="ciencias sociales" padre="ciencias sociales" gen=m escolar=1 pos=adj
+civismo sin=1 area="educación cívica" rama="ciencias sociales" padre="ciencias sociales" escolar=1 pos=s
+clásica adj=1 area="estudios clásicos" rama=humanidades padre=humanidades gen=f escolar=1 pos=adj
+clásico adj=1 area="estudios clásicos" rama=humanidades padre=humanidades gen=m escolar=1 pos=adj
+clásico pos=s
+climatología canonico=1 area=climatología rama="ciencias naturales" padre="ciencias de la tierra" pos=s
+climatológica adj=1 area=climatología rama="ciencias naturales" padre="ciencias de la tierra" gen=f pos=adj
+climatológico adj=1 area=climatología rama="ciencias naturales" padre="ciencias de la tierra" gen=m pos=adj
+cognitiva adj=1 area="ciencias cognitivas" rama="ciencias sociales" padre=psicología gen=f pos=adj
+cognitivo adj=1 area="ciencias cognitivas" rama="ciencias sociales" padre=psicología gen=m pos=adj
+comercio internacional canonico=1 area="comercio internacional" rama=negocios padre="administración de empresas" pos=s
+composición sin=1 area=redacción rama=humanidades padre="lengua castellana" escolar=1 pos=s
+composición musical canonico=1 area="composición musical" rama=artes padre=música pos=s
+comprensión lectora sin=1 area=lectura rama=humanidades padre="lengua castellana" escolar=1 pos=s
+computación sin=1 area=informática rama="ciencias formales" escolar=1 pos=s
+computación gráfica sin=1 area="gráficos por computadora" rama="ciencias formales" padre=informática pos=s
+computacional adj=1 area=informática rama="ciencias formales" escolar=1 pos=adj
+comunicación canonico=1 area=comunicación rama="ciencias sociales" pos=s
+comunicación audiovisual canonico=1 area="comunicación audiovisual" rama="ciencias sociales" padre=comunicación pos=s
+comunicación social sin=1 area=comunicación rama="ciencias sociales" pos=s
+conocimiento del medio canonico=1 area="conocimiento del medio" rama="ciencias naturales" padre="ciencias naturales" escolar=1 pos=s
+conocimiento del medio natural sin=1 area="conocimiento del medio" rama="ciencias naturales" padre="ciencias naturales" escolar=1 pos=s
+contabilidad canonico=1 area=contabilidad rama=negocios padre="administración de empresas" escolar=1 pos=s
+contable adj=1 area=contabilidad rama=negocios padre="administración de empresas" escolar=1 pos=adj
+contable pos=s
+contaduría sin=1 area=contabilidad rama=negocios padre="administración de empresas" escolar=1 pos=s
+contaduría pública sin=1 area=contabilidad rama=negocios padre="administración de empresas" escolar=1 pos=s
+coreano canonico=1 area=coreano rama=humanidades padre="lenguas extranjeras" idioma=1 ambig=1 pos=adj
+coreano pos=s
+cosmología canonico=1 area=cosmología rama="ciencias naturales" padre=astronomía pos=s
+cosmológica adj=1 area=cosmología rama="ciencias naturales" padre=astronomía gen=f pos=adj
+cosmológico adj=1 area=cosmología rama="ciencias naturales" padre=astronomía gen=m pos=adj
+creación literaria sin=1 area="escritura creativa" rama=humanidades padre="lengua castellana" pos=s
+criminalística canonico=1 area=criminalística rama=derecho padre=derecho pos=adj
+criminalística pos=s
+criminalística y ciencias forenses sin=1 area=criminalística rama=derecho padre=derecho pos=s
+criminología canonico=1 area=criminología rama="ciencias sociales" padre=sociología pos=s
+criminológica adj=1 area=criminología rama="ciencias sociales" padre=sociología gen=f pos=adj
+criminológico adj=1 area=criminología rama="ciencias sociales" padre=sociología gen=m pos=adj
+cultura clásica sin=1 area="estudios clásicos" rama=humanidades padre=humanidades escolar=1 pos=s
+currículo y didáctica sin=1 area=didáctica rama=educación padre=educación pos=s
+danza canonico=1 area=danza rama=artes escolar=1 pos=s
+danza pos=v
+demografía canonico=1 area=demografía rama="ciencias sociales" padre=sociología pos=s
+demográfica adj=1 area=demografía rama="ciencias sociales" padre=sociología gen=f pos=adj
+demográfico adj=1 area=demografía rama="ciencias sociales" padre=sociología gen=m pos=adj
+dental adj=1 area=odontología rama=salud pos=adj
+dental pos=s
+derecho canonico=1 area=derecho rama=derecho pos=adj
+derecho pos=s
+derecho civil canonico=1 area="derecho civil" rama=derecho padre=derecho pos=s
+derecho constitucional canonico=1 area="derecho constitucional" rama=derecho padre=derecho pos=s
+derecho internacional canonico=1 area="derecho internacional" rama=derecho padre=derecho pos=s
+derecho notarial sin=1 area=notariado rama=derecho padre=derecho pos=s
+derecho penal canonico=1 area="derecho penal" rama=derecho padre=derecho pos=s
+dermatología canonico=1 area=dermatología rama=salud padre=medicina pos=s
+desarrollo sostenible sin=1 area=sostenibilidad rama=interdisciplinario padre="estudios ambientales" pos=s
+dibujo canonico=1 area=dibujo rama=artes padre=arte escolar=1 pos=s
+dibujo pos=v
+dibujo técnico canonico=1 area="dibujo técnico" rama=ingeniería padre=tecnología escolar=1 pos=s
+didáctica canonico=1 area=didáctica rama=educación padre=educación pos=adj
+didáctica pos=s
+didáctico adj=1 area=didáctica rama=educación padre=educación gen=m pos=adj
+didáctico pos=s
+dietética sin=1 area=nutrición rama=salud pos=adj
+dietética pos=s
+dirección sin=1 area=gestión rama=negocios padre="administración de empresas" pos=s
+diseño canonico=1 area=diseño rama=artes pos=s
+diseño pos=v
+diseño de interiores canonico=1 area="diseño de interiores" rama=artes padre=diseño pos=s
+diseño de moda canonico=1 area="diseño de moda" rama=artes padre=diseño pos=s
+diseño de modas sin=1 area="diseño de moda" rama=artes padre=diseño pos=s
+diseño gráfico canonico=1 area="diseño gráfico" rama=artes padre=diseño pos=s
+diseño industrial canonico=1 area="diseño industrial" rama=artes padre=diseño pos=s
+docencia sin=1 area=pedagogía rama=educación padre=educación pos=s
+dramática adj=1 area=teatro rama=artes gen=f escolar=1 pos=adj
+dramática pos=s
+dramático adj=1 area=teatro rama=artes gen=m escolar=1 pos=adj
+dramático pos=s
+dramaturgia sin=1 area=teatro rama=artes escolar=1 pos=s
+ecología canonico=1 area=ecología rama="ciencias naturales" padre=biología pos=s
+ecológica adj=1 area=ecología rama="ciencias naturales" padre=biología gen=f pos=adj
+ecológico adj=1 area=ecología rama="ciencias naturales" padre=biología gen=m pos=adj
+econometría canonico=1 area=econometría rama="ciencias sociales" padre=economía pos=s
+economía canonico=1 area=economía rama="ciencias sociales" padre="ciencias sociales" escolar=1 pos=s
+economía doméstica canonico=1 area="economía doméstica" rama=interdisciplinario escolar=1 pos=s
+económica adj=1 area=economía rama="ciencias sociales" padre="ciencias sociales" gen=f escolar=1 pos=adj
+económico adj=1 area=economía rama="ciencias sociales" padre="ciencias sociales" gen=m escolar=1 pos=adj
+ed física sin=1 area="educación física" rama=salud escolar=1 pos=s
+edafología canonico=1 area=edafología rama="ciencias naturales" padre="ciencias de la tierra" pos=s
+educación canonico=1 area=educación rama=educación pos=s
+educación artística sin=1 area=arte rama=artes escolar=1 pos=s
+educación básica sin=1 area="educación primaria" rama=educación padre=educación pos=s
+educación cívica canonico=1 area="educación cívica" rama="ciencias sociales" padre="ciencias sociales" escolar=1 pos=s
+educación especial canonico=1 area="educación especial" rama=educación padre=educación pos=s
+educación física canonico=1 area="educación física" rama=salud escolar=1 pos=s
+educación física y deportes sin=1 area="educación física" rama=salud escolar=1 pos=s
+educación infantil canonico=1 area="educación infantil" rama=educación padre=educación pos=s
+educación inicial sin=1 area="educación infantil" rama=educación padre=educación pos=s
+educación media sin=1 area="educación secundaria" rama=educación padre=educación pos=s
+educación musical sin=1 area=música rama=artes escolar=1 pos=s
+educación para el hogar sin=1 area="economía doméstica" rama=interdisciplinario escolar=1 pos=s
+educación para la ciudadanía sin=1 area="educación cívica" rama="ciencias sociales" padre="ciencias sociales" escolar=1 pos=s
+educación para la salud canonico=1 area="educación para la salud" rama=salud escolar=1 pos=s
+educación parvularia sin=1 area="educación infantil" rama=educación padre=educación pos=s
+educación plástica sin=1 area=arte rama=artes escolar=1 pos=s
+educación plástica y visual sin=1 area=arte rama=artes escolar=1 pos=s
+educación preescolar sin=1 area="educación infantil" rama=educación padre=educación pos=s
+educación primaria canonico=1 area="educación primaria" rama=educación padre=educación pos=s
+educación religiosa sin=1 area=religión rama=humanidades padre="ciencias de las religiones" escolar=1 pos=s
+educación secundaria canonico=1 area="educación secundaria" rama=educación padre=educación pos=s
+educación tecnológica sin=1 area=talleres rama=ingeniería padre=tecnología escolar=1 pos=s
+educación vial canonico=1 area="educación vial" rama=interdisciplinario escolar=1 pos=s
+educativa adj=1 area=educación rama=educación gen=f pos=adj
+educativo adj=1 area=educación rama=educación gen=m pos=adj
+emprendimiento canonico=1 area=emprendimiento rama=negocios padre="administración de empresas" pos=s
+empresarial adj=1 area="administración de empresas" rama=negocios escolar=1 pos=adj
+empresariales sin=1 area="administración de empresas" rama=negocios escolar=1 pos=adj
+enfermería canonico=1 area=enfermería rama=salud pos=s
+entomología canonico=1 area=entomología rama="ciencias naturales" padre=biología pos=s
+epidemiología canonico=1 area=epidemiología rama=salud padre="salud pública" pos=s
+epidemiológica adj=1 area=epidemiología rama=salud padre="salud pública" gen=f pos=adj
+epidemiológico adj=1 area=epidemiología rama=salud padre="salud pública" gen=m pos=adj
+epistemología canonico=1 area=epistemología rama=humanidades padre=filosofía pos=s
+epistemológica adj=1 area=epistemología rama=humanidades padre=filosofía gen=f pos=adj
+epistemológico adj=1 area=epistemología rama=humanidades padre=filosofía gen=m pos=adj
+escritura creativa canonico=1 area="escritura creativa" rama=humanidades padre="lengua castellana" pos=s
+escultórica adj=1 area=escultura rama=artes padre=arte gen=f pos=adj
+escultórico adj=1 area=escultura rama=artes padre=arte gen=m pos=adj
+escultura canonico=1 area=escultura rama=artes padre=arte pos=s
+español sin=1 area="lengua castellana" rama=humanidades padre=humanidades escolar=1 idioma=1 ambig=1 pos=adj
+español pos=s
+estadística canonico=1 area=estadística rama="ciencias formales" padre=matemáticas escolar=1 pos=adj
+estadística pos=s
+estadístico adj=1 area=estadística rama="ciencias formales" padre=matemáticas gen=m escolar=1 pos=adj
+estomatología sin=1 area=odontología rama=salud pos=s
+estudios ambientales canonico=1 area="estudios ambientales" rama=interdisciplinario pos=s
+estudios cinematográficos sin=1 area=cine rama=artes pos=s
+estudios clásicos canonico=1 area="estudios clásicos" rama=humanidades padre=humanidades escolar=1 pos=s
+estudios de género canonico=1 area="estudios de género" rama="ciencias sociales" pos=s
+estudios de la mujer sin=1 area="estudios de género" rama="ciencias sociales" pos=s
+estudios de medios sin=1 area="comunicación audiovisual" rama="ciencias sociales" padre=comunicación pos=s
+estudios generales canonico=1 area="estudios generales" rama=interdisciplinario pos=s
+estudios interdisciplinarios canonico=1 area="estudios interdisciplinarios" rama=interdisciplinario pos=s
+estudios internacionales sin=1 area="relaciones internacionales" rama="ciencias sociales" padre="ciencia política" pos=s
+estudios liberales sin=1 area="estudios generales" rama=interdisciplinario pos=s
+estudios multidisciplinarios sin=1 area="estudios interdisciplinarios" rama=interdisciplinario pos=s
+estudios religiosos sin=1 area="ciencias de las religiones" rama=humanidades padre=humanidades pos=s
+estudios sociales sin=1 area="ciencias sociales" rama="ciencias sociales" escolar=1 pos=s
+estudios urbanos sin=1 area=urbanismo rama="ciencias sociales" pos=s
+ética canonico=1 area="ética" rama=humanidades padre=filosofía escolar=1 pos=adj
+ética pos=s
+ético adj=1 area="ética" rama=humanidades padre=filosofía gen=m escolar=1 pos=adj
+euskara sin=1 area=euskera rama=humanidades padre="lenguas cooficiales" escolar=1 idioma=1 ambig=1 pos=s
+euskera canonico=1 area=euskera rama=humanidades padre="lenguas cooficiales" escolar=1 idioma=1 ambig=1 pos=adj
+euskera pos=s
+expresión escrita sin=1 area=redacción rama=humanidades padre="lengua castellana" escolar=1 pos=s
+expresión plástica sin=1 area=arte rama=artes escolar=1 pos=s
+farmacéutica adj=1 area=farmacia rama=salud gen=f pos=adj
+farmacéutica pos=s
+farmacéutico adj=1 area=farmacia rama=salud gen=m pos=adj
+farmacéutico pos=s
+farmacia canonico=1 area=farmacia rama=salud pos=s
+filología canonico=1 area=filología rama=humanidades padre=humanidades pos=s
+filología clásica sin=1 area="estudios clásicos" rama=humanidades padre=humanidades escolar=1 pos=s
+filología hispánica sin=1 area=filología rama=humanidades padre=humanidades pos=s
+filológica adj=1 area=filología rama=humanidades padre=humanidades gen=f pos=adj
+filológico adj=1 area=filología rama=humanidades padre=humanidades gen=m pos=adj
+filosofía canonico=1 area=filosofía rama=humanidades padre=humanidades escolar=1 pos=s
+filosofía y letras sin=1 area=letras rama=humanidades padre=humanidades pos=s
+filosófica adj=1 area=filosofía rama=humanidades padre=humanidades gen=f escolar=1 pos=adj
+filosófico adj=1 area=filosofía rama=humanidades padre=humanidades gen=m escolar=1 pos=adj
+financiera adj=1 area=finanzas rama=negocios padre="administración de empresas" gen=f pos=adj
+financiera pos=s
+financiero adj=1 area=finanzas rama=negocios padre="administración de empresas" gen=m pos=adj
+financiero pos=s
+finanzas canonico=1 area=finanzas rama=negocios padre="administración de empresas" pos=s
+fiscal adj=1 area=tributación rama=negocios padre=contabilidad pos=adj
+fiscal pos=s
+fiscalidad sin=1 area=tributación rama=negocios padre=contabilidad pos=s
+física canonico=1 area=física rama="ciencias naturales" padre="ciencias naturales" escolar=1 pos=adj
+física pos=s
+física cuántica sin=1 area="mecánica cuántica" rama="ciencias naturales" padre=física pos=s
+física de altas energías sin=1 area="física de partículas" rama="ciencias naturales" padre=física pos=s
+física de partículas canonico=1 area="física de partículas" rama="ciencias naturales" padre=física pos=s
+física nuclear canonico=1 area="física nuclear" rama="ciencias naturales" padre=física pos=s
+física y química canonico=1 area="física y química" rama="ciencias naturales" padre="ciencias naturales" escolar=1 pos=s
+físico adj=1 area=física rama="ciencias naturales" padre="ciencias naturales" gen=m escolar=1 pos=adj
+físico pos=s
+fisicoquímica canonico=1 area=fisicoquímica rama="ciencias naturales" padre=química pos=adj
+fisicoquímica pos=s
+fisiología canonico=1 area=fisiología rama="ciencias naturales" padre=biología pos=s
+fisiológica adj=1 area=fisiología rama="ciencias naturales" padre=biología gen=f pos=adj
+fisiológico adj=1 area=fisiología rama="ciencias naturales" padre=biología gen=m pos=adj
+fisioterapia canonico=1 area=fisioterapia rama=salud pos=s
+fonoaudiología sin=1 area=audiología rama=salud pos=s
+fonoaudiología clínica sin=1 area=logopedia rama=salud pos=s
+forestal adj=1 area="ingeniería forestal" rama=agricultura padre=agricultura pos=adj
+formación ciudadana sin=1 area="educación cívica" rama="ciencias sociales" padre="ciencias sociales" escolar=1 pos=s
+fotografía canonico=1 area=fotografía rama=artes padre=arte pos=s
+fotografía pos=v
+fotográfica adj=1 area=fotografía rama=artes padre=arte gen=f pos=adj
+fotográfico adj=1 area=fotografía rama=artes padre=arte gen=m pos=adj
+francés canonico=1 area=francés rama=humanidades padre="lenguas extranjeras" escolar=1 idioma=1 ambig=1 pos=adj
+francés pos=s
+gallego canonico=1 area=gallego rama=humanidades padre="lenguas cooficiales" escolar=1 idioma=1 ambig=1 pos=adj
+gallego pos=s
+ganadería sin=1 area=zootecnia rama=agricultura padre=agricultura pos=s
+genética canonico=1 area=genética rama="ciencias naturales" padre=biología pos=adj
+genética pos=s
+genético adj=1 area=genética rama="ciencias naturales" padre=biología gen=m pos=adj
+genómica canonico=1 area=genómica rama="ciencias naturales" padre=genética pos=s
+genómico adj=1 area=genómica rama="ciencias naturales" padre=genética gen=m pos=adj
+geociencias sin=1 area="ciencias de la tierra" rama="ciencias naturales" padre="ciencias naturales" escolar=1 pos=s
+geografía canonico=1 area=geografía rama="ciencias sociales" padre="ciencias sociales" escolar=1 pos=s
+geografía e historia canonico=1 area="geografía e historia" rama="ciencias sociales" padre="ciencias sociales" escolar=1 pos=s
+geografía física canonico=1 area="geografía física" rama="ciencias sociales" padre=geografía pos=s
+geografía humana canonico=1 area="geografía humana" rama="ciencias sociales" padre=geografía pos=s
+geográfica adj=1 area=geografía rama="ciencias sociales" padre="ciencias sociales" gen=f escolar=1 pos=adj
+geográfico adj=1 area=geografía rama="ciencias sociales" padre="ciencias sociales" gen=m escolar=1 pos=adj
+geología canonico=1 area=geología rama="ciencias naturales" padre="ciencias de la tierra" pos=s
+geológica adj=1 area=geología rama="ciencias naturales" padre="ciencias de la tierra" gen=f pos=adj
+geológico adj=1 area=geología rama="ciencias naturales" padre="ciencias de la tierra" gen=m pos=adj
+geometría canonico=1 area=geometría rama="ciencias formales" padre=matemáticas escolar=1 pos=s
+geométrica adj=1 area=geometría rama="ciencias formales" padre=matemáticas gen=f escolar=1 pos=adj
+geométrico adj=1 area=geometría rama="ciencias formales" padre=matemáticas gen=m escolar=1 pos=adj
+gerencia sin=1 area=gestión rama=negocios padre="administración de empresas" pos=s
+gerencial adj=1 area=gestión rama=negocios padre="administración de empresas" pos=adj
+geriatría canonico=1 area=geriatría rama=salud padre=medicina pos=s
+geriátrica adj=1 area=geriatría rama=salud padre=medicina gen=f pos=adj
+geriátrico adj=1 area=geriatría rama=salud padre=medicina gen=m pos=adj
+gestión canonico=1 area=gestión rama=negocios padre="administración de empresas" pos=s
+gestión de la cadena de suministro sin=1 area=logística rama=negocios padre=gestión pos=s
+gestión de la ingeniería canonico=1 area="gestión de la ingeniería" rama=ingeniería padre=ingeniería pos=s
+gestión de recursos humanos sin=1 area="recursos humanos" rama=negocios padre=gestión pos=s
+gestión inmobiliaria sin=1 area="bienes raíces" rama=negocios padre="administración de empresas" pos=s
+gestión pública sin=1 area="administración pública" rama="ciencias sociales" padre="ciencia política" pos=s
+gestión sanitaria sin=1 area="administración de servicios de salud" rama=salud padre="salud pública" pos=s
+gimnasia sin=1 area="educación física" rama=salud escolar=1 pos=s
+ginecología canonico=1 area=ginecología rama=salud padre=medicina pos=s
+ginecológica adj=1 area=ginecología rama=salud padre=medicina gen=f pos=adj
+ginecológico adj=1 area=ginecología rama=salud padre=medicina gen=m pos=adj
+grabado canonico=1 area=grabado rama=artes padre=arte pos=s
+grabado pos=v
+gráficos por computadora canonico=1 area="gráficos por computadora" rama="ciencias formales" padre=informática pos=s
+gramática canonico=1 area=gramática rama=humanidades padre="lengua castellana" escolar=1 pos=adj
+gramática pos=s
+gramatical adj=1 area=gramática rama=humanidades padre="lengua castellana" escolar=1 pos=adj
+griego canonico=1 area=griego rama=humanidades padre="estudios clásicos" escolar=1 idioma=1 ambig=1 pos=adj
+griego pos=s
+griego antiguo sin=1 area=griego rama=humanidades padre="estudios clásicos" escolar=1 idioma=1 pos=s
+hebreo canonico=1 area=hebreo rama=humanidades padre="lenguas extranjeras" idioma=1 ambig=1 pos=adj
+hebreo pos=s
+hidrología canonico=1 area=hidrología rama="ciencias naturales" padre="ciencias de la tierra" pos=s
+historia canonico=1 area=historia rama="ciencias sociales" padre="ciencias sociales" escolar=1 pos=s
+historia antigua canonico=1 area="historia antigua" rama="ciencias sociales" padre=historia pos=s
+historia de américa canonico=1 area="historia de américa" rama="ciencias sociales" padre=historia pos=s
+historia de américa latina sin=1 area="historia de américa" rama="ciencias sociales" padre=historia pos=s
+historia de españa canonico=1 area="historia de españa" rama="ciencias sociales" padre=historia escolar=1 pos=s
+historia de méxico canonico=1 area="historia de méxico" rama="ciencias sociales" padre=historia escolar=1 pos=s
+historia del arte canonico=1 area="historia del arte" rama="ciencias sociales" padre=historia escolar=1 pos=s
+historia del mundo contemporáneo sin=1 area="historia universal" rama="ciencias sociales" padre=historia escolar=1 pos=s
+historia latinoamericana sin=1 area="historia de américa" rama="ciencias sociales" padre=historia pos=s
+historia mundial sin=1 area="historia universal" rama="ciencias sociales" padre=historia escolar=1 pos=s
+historia universal canonico=1 area="historia universal" rama="ciencias sociales" padre=historia escolar=1 pos=s
+histórica adj=1 area=historia rama="ciencias sociales" padre="ciencias sociales" gen=f escolar=1 pos=adj
+histórico adj=1 area=historia rama="ciencias sociales" padre="ciencias sociales" gen=m escolar=1 pos=adj
+hogar sin=1 area="economía doméstica" rama=interdisciplinario escolar=1 pos=s
+hortícola adj=1 area=horticultura rama=agricultura padre=agricultura pos=adj
+horticultura canonico=1 area=horticultura rama=agricultura padre=agricultura pos=s
+hotelería sin=1 area=turismo rama=negocios padre=gestión pos=s
+hotelería y turismo sin=1 area=turismo rama=negocios padre=gestión pos=s
+humanidades canonico=1 area=humanidades rama=humanidades pos=s
+humanística adj=1 area=humanidades rama=humanidades gen=f pos=adj
+humanístico adj=1 area=humanidades rama=humanidades gen=m pos=adj
+ia sin=1 area="inteligencia artificial" rama="ciencias formales" padre=informática pos=s
+idioma extranjero sin=1 area="lenguas extranjeras" rama=humanidades padre=humanidades escolar=1 pos=s
+idiomas sin=1 area="lenguas extranjeras" rama=humanidades padre=humanidades escolar=1 pos=s
+informática canonico=1 area=informática rama="ciencias formales" escolar=1 pos=adj
+informática pos=s
+informática gráfica sin=1 area="gráficos por computadora" rama="ciencias formales" padre=informática pos=s
+informático adj=1 area=informática rama="ciencias formales" gen=m escolar=1 pos=adj
+informático pos=s
+ingeniería canonico=1 area=ingeniería rama=ingeniería carrera=1 pos=s
+ingeniería aeroespacial canonico=1 area="ingeniería aeroespacial" rama=ingeniería padre=ingeniería carrera=1 pos=s
+ingeniería aeronáutica sin=1 area="ingeniería aeroespacial" rama=ingeniería padre=ingeniería carrera=1 pos=s
+ingeniería agrícola sin=1 area=agronomía rama=agricultura padre=agricultura carrera=1 pos=s
+ingeniería agronómica sin=1 area=agronomía rama=agricultura padre=agricultura carrera=1 pos=s
+ingeniería ambiental canonico=1 area="ingeniería ambiental" rama=ingeniería padre=ingeniería carrera=1 pos=s
+ingeniería biomédica canonico=1 area="ingeniería biomédica" rama=ingeniería padre=ingeniería carrera=1 pos=s
+ingeniería civil canonico=1 area="ingeniería civil" rama=ingeniería padre=ingeniería carrera=1 pos=s
+ingeniería de alimentos sin=1 area="ciencia de los alimentos" rama=agricultura padre=agricultura carrera=1 pos=s
+ingeniería de caminos sin=1 area="ingeniería civil" rama=ingeniería padre=ingeniería carrera=1 pos=s
+ingeniería de caminos canales y puertos sin=1 area="ingeniería civil" rama=ingeniería padre=ingeniería pos=s
+ingeniería de computadores sin=1 area="ingeniería informática" rama=ingeniería padre=ingeniería pos=s
+ingeniería de materiales sin=1 area="ciencia de materiales" rama=ingeniería padre=ingeniería pos=s
+ingeniería de minas canonico=1 area="ingeniería de minas" rama=ingeniería padre=ingeniería carrera=1 pos=s
+ingeniería de petróleos sin=1 area="ingeniería petrolera" rama=ingeniería padre=ingeniería carrera=1 pos=s
+ingeniería de sistemas canonico=1 area="ingeniería de sistemas" rama=ingeniería padre=ingeniería carrera=1 pos=s
+ingeniería de software canonico=1 area="ingeniería de software" rama="ciencias formales" padre=informática carrera=1 pos=s
+ingeniería de telecomunicaciones canonico=1 area="ingeniería de telecomunicaciones" rama=ingeniería padre=ingeniería carrera=1 pos=s
+ingeniería del software sin=1 area="ingeniería de software" rama="ciencias formales" padre=informática pos=s
+ingeniería eléctrica canonico=1 area="ingeniería eléctrica" rama=ingeniería padre=ingeniería carrera=1 pos=s
+ingeniería electrónica canonico=1 area="ingeniería electrónica" rama=ingeniería padre=ingeniería carrera=1 pos=s
+ingeniería en computación sin=1 area="ingeniería informática" rama=ingeniería padre=ingeniería carrera=1 pos=s
+ingeniería en informática sin=1 area="ingeniería informática" rama=ingeniería padre=ingeniería pos=s
+ingeniería en petróleo sin=1 area="ingeniería petrolera" rama=ingeniería padre=ingeniería pos=s
+ingeniería en sistemas sin=1 area="ingeniería de sistemas" rama=ingeniería padre=ingeniería pos=s
+ingeniería en telecomunicaciones sin=1 area="ingeniería de telecomunicaciones" rama=ingeniería padre=ingeniería pos=s
+ingeniería estructural canonico=1 area="ingeniería estructural" rama=ingeniería padre="ingeniería civil" pos=s
+ingeniería forestal canonico=1 area="ingeniería forestal" rama=agricultura padre=agricultura carrera=1 pos=s
+ingeniería industrial canonico=1 area="ingeniería industrial" rama=ingeniería padre=ingeniería carrera=1 pos=s
+ingeniería informática canonico=1 area="ingeniería informática" rama=ingeniería padre=ingeniería carrera=1 pos=s
+ingeniería mecánica canonico=1 area="ingeniería mecánica" rama=ingeniería padre=ingeniería carrera=1 pos=s
+ingeniería nuclear canonico=1 area="ingeniería nuclear" rama=ingeniería padre=ingeniería pos=s
+ingeniería petrolera canonico=1 area="ingeniería petrolera" rama=ingeniería padre=ingeniería carrera=1 pos=s
+ingeniería química canonico=1 area="ingeniería química" rama=ingeniería padre=ingeniería carrera=1 pos=s
+inglés canonico=1 area=inglés rama=humanidades padre="lenguas extranjeras" escolar=1 idioma=1 ambig=1 pos=adj
+inglés pos=s
+inmobiliaria adj=1 area="bienes raíces" rama=negocios padre="administración de empresas" gen=f pos=adj
+inmobiliaria pos=s
+inmobiliario adj=1 area="bienes raíces" rama=negocios padre="administración de empresas" gen=m pos=adj
+inmunología canonico=1 area=inmunología rama="ciencias naturales" padre=biología pos=s
+inmunológica adj=1 area=inmunología rama="ciencias naturales" padre=biología gen=f pos=adj
+inmunológico adj=1 area=inmunología rama="ciencias naturales" padre=biología gen=m pos=adj
+inteligencia artificial canonico=1 area="inteligencia artificial" rama="ciencias formales" padre=informática pos=s
+interacción humano-computadora sin=1 area="interacción persona-computadora" rama="ciencias formales" padre=informática pos=s
+interacción persona-computadora canonico=1 area="interacción persona-computadora" rama="ciencias formales" padre=informática pos=s
+interacción persona-ordenador sin=1 area="interacción persona-computadora" rama="ciencias formales" padre=informática pos=s
+interiorismo sin=1 area="diseño de interiores" rama=artes padre=diseño pos=s
+investigación canonico=1 area=investigación rama=interdisciplinario pos=s
+italiano canonico=1 area=italiano rama=humanidades padre="lenguas extranjeras" idioma=1 ambig=1 pos=adj
+italiano pos=s
+japonés canonico=1 area=japonés rama=humanidades padre="lenguas extranjeras" idioma=1 ambig=1 pos=adj
+japonés pos=s
+jurídica adj=1 area=derecho rama=derecho gen=f pos=adj
+jurídico adj=1 area=derecho rama=derecho gen=m pos=adj
+jurisprudencia sin=1 area=derecho rama=derecho pos=s
+kinesiología sin=1 area=fisioterapia rama=salud pos=s
+latín canonico=1 area=latín rama=humanidades padre="estudios clásicos" escolar=1 idioma=1 ambig=1 pos=s
+lectoescritura sin=1 area=lectura rama=humanidades padre="lengua castellana" escolar=1 pos=s
+lectura canonico=1 area=lectura rama=humanidades padre="lengua castellana" escolar=1 pos=s
+legal adj=1 area=derecho rama=derecho pos=adj
+lengua sin=1 area="lengua castellana" rama=humanidades padre=humanidades escolar=1 idioma=1 pos=s
+lengua alemana sin=1 area=alemán rama=humanidades padre="lenguas extranjeras" escolar=1 idioma=1 pos=s
+lengua castellana canonico=1 area="lengua castellana" rama=humanidades padre=humanidades escolar=1 idioma=1 pos=s
+lengua castellana y literatura sin=1 area="lengua castellana" rama=humanidades padre=humanidades escolar=1 idioma=1 pos=s
+lengua catalana sin=1 area=catalán rama=humanidades padre="lenguas cooficiales" escolar=1 idioma=1 pos=s
+lengua cooficial sin=1 area="lenguas cooficiales" rama=humanidades padre=humanidades escolar=1 pos=s
+lengua española sin=1 area="lengua castellana" rama=humanidades padre=humanidades escolar=1 idioma=1 pos=s
+lengua francesa sin=1 area=francés rama=humanidades padre="lenguas extranjeras" escolar=1 idioma=1 pos=s
+lengua gallega sin=1 area=gallego rama=humanidades padre="lenguas cooficiales" escolar=1 idioma=1 pos=s
+lengua inglesa sin=1 area=inglés rama=humanidades padre="lenguas extranjeras" escolar=1 idioma=1 pos=s
+lengua propia sin=1 area="lenguas cooficiales" rama=humanidades padre=humanidades escolar=1 pos=s
+lengua vasca sin=1 area=euskera rama=humanidades padre="lenguas cooficiales" escolar=1 idioma=1 pos=s
+lengua y literatura sin=1 area="lengua castellana" rama=humanidades padre=humanidades escolar=1 idioma=1 pos=s
+lenguaje sin=1 area="lengua castellana" rama=humanidades padre=humanidades escolar=1 idioma=1 pos=s
+lenguaje musical sin=1 area="teoría musical" rama=artes padre=música escolar=1 pos=s
+lenguaje y comunicación sin=1 area="lengua castellana" rama=humanidades padre=humanidades escolar=1 idioma=1 pos=s
+lenguas cooficiales canonico=1 area="lenguas cooficiales" rama=humanidades padre=humanidades escolar=1 pos=s
+lenguas extranjeras canonico=1 area="lenguas extranjeras" rama=humanidades padre=humanidades escolar=1 pos=s
+lenguas modernas sin=1 area="lenguas extranjeras" rama=humanidades padre=humanidades escolar=1 pos=s
+letras canonico=1 area=letras rama=humanidades padre=humanidades pos=s
+leyes sin=1 area=derecho rama=derecho pos=s
+lingüística canonico=1 area=lingüística rama="ciencias sociales" pos=adj
+lingüística pos=s
+lingüístico adj=1 area=lingüística rama="ciencias sociales" gen=m pos=adj
+literaria adj=1 area=literatura rama=humanidades padre="lengua castellana" gen=f escolar=1 pos=adj
+literario adj=1 area=literatura rama=humanidades padre="lengua castellana" gen=m escolar=1 pos=adj
+literatura canonico=1 area=literatura rama=humanidades padre="lengua castellana" escolar=1 pos=s
+lógica canonico=1 area=lógica rama="ciencias formales" pos=adj
+lógica pos=s
+lógico adj=1 area=lógica rama="ciencias formales" gen=m pos=adj
+lógico pos=s
+logística canonico=1 area=logística rama=negocios padre=gestión pos=adj
+logística pos=s
+logístico adj=1 area=logística rama=negocios padre=gestión gen=m pos=adj
+logopedia canonico=1 area=logopedia rama=salud pos=s
+macroeconomía canonico=1 area=macroeconomía rama="ciencias sociales" padre=economía pos=s
+magisterio sin=1 area=pedagogía rama=educación padre=educación pos=s
+mandarín sin=1 area=chino rama=humanidades padre="lenguas extranjeras" idioma=1 pos=adj
+mandarín pos=s
+marketing sin=1 area=mercadotecnia rama=negocios padre="administración de empresas" pos=s
+matemática sin=1 area=matemáticas rama="ciencias formales" escolar=1 pos=adj
+matemática pos=s
+matemática aplicada canonico=1 area="matemática aplicada" rama="ciencias formales" padre=matemáticas pos=s
+matemática discreta canonico=1 area="matemática discreta" rama="ciencias formales" padre=matemáticas pos=s
+matemáticas canonico=1 area=matemáticas rama="ciencias formales" escolar=1 pos=adj
+matemáticas pos=s
+matemáticas aplicadas sin=1 area="matemática aplicada" rama="ciencias formales" padre=matemáticas pos=s
+matemáticas discretas sin=1 area="matemática discreta" rama="ciencias formales" padre=matemáticas pos=s
+matemático adj=1 area=matemáticas rama="ciencias formales" gen=m escolar=1 pos=adj
+matemático pos=s
+mates sin=1 area=matemáticas rama="ciencias formales" escolar=1 pos=adj
+mates pos=s
+mates pos=v
+mecánica canonico=1 area=mecánica rama="ciencias naturales" padre=física pos=adj
+mecánica pos=s
+mecánica cuántica canonico=1 area="mecánica cuántica" rama="ciencias naturales" padre=física pos=s
+mecánico adj=1 area=mecánica rama="ciencias naturales" padre=física gen=m pos=adj
+mecánico pos=s
+mecanografía canonico=1 area=mecanografía rama=interdisciplinario escolar=1 pos=s
+mecanografía pos=v
+mecanografía y taquigrafía sin=1 area=mecanografía rama=interdisciplinario escolar=1 pos=s
+médica adj=1 area=medicina rama=salud gen=f carrera=1 pos=adj
+médica pos=s
+medicina canonico=1 area=medicina rama=salud pos=s
+medicina pos=v
+medicina de familia sin=1 area="medicina familiar" rama=salud padre=medicina pos=s
+medicina familiar canonico=1 area="medicina familiar" rama=salud padre=medicina pos=s
+medicina general sin=1 area="medicina familiar" rama=salud padre=medicina pos=s
+medicina veterinaria sin=1 area=veterinaria rama=salud pos=s
+medicina veterinaria y zootecnia sin=1 area=veterinaria rama=salud pos=s
+médico adj=1 area=medicina rama=salud gen=m carrera=1 pos=adj
+médico pos=s
+mercadeo sin=1 area=mercadotecnia rama=negocios padre="administración de empresas" pos=s
+mercadeo pos=v
+mercadotecnia canonico=1 area=mercadotecnia rama=negocios padre="administración de empresas" pos=s
+metafísica canonico=1 area=metafísica rama=humanidades padre=filosofía pos=adj
+metafísica pos=s
+metafísico adj=1 area=metafísica rama=humanidades padre=filosofía gen=m pos=adj
+metafísico pos=s
+meteorología canonico=1 area=meteorología rama="ciencias naturales" padre="ciencias de la tierra" pos=s
+meteorológica adj=1 area=meteorología rama="ciencias naturales" padre="ciencias de la tierra" gen=f pos=adj
+meteorológico adj=1 area=meteorología rama="ciencias naturales" padre="ciencias de la tierra" gen=m pos=adj
+micología canonico=1 area=micología rama="ciencias naturales" padre=biología pos=s
+microbiología canonico=1 area=microbiología rama="ciencias naturales" padre=biología pos=s
+microbiológica adj=1 area=microbiología rama="ciencias naturales" padre=biología gen=f pos=adj
+microbiológico adj=1 area=microbiología rama="ciencias naturales" padre=biología gen=m pos=adj
+microeconomía canonico=1 area=microeconomía rama="ciencias sociales" padre=economía pos=s
+moral sin=1 area="ética" rama=humanidades padre=filosofía escolar=1 pos=adj
+moral pos=s
+música canonico=1 area=música rama=artes escolar=1 pos=adj
+música pos=s
+musical adj=1 area=música rama=artes escolar=1 pos=adj
+musical pos=s
+negocios sin=1 area="administración de empresas" rama=negocios escolar=1 pos=s
+negocios internacionales sin=1 area="comercio internacional" rama=negocios padre="administración de empresas" pos=s
+neurobiología sin=1 area=neurociencia rama="ciencias naturales" padre=biología pos=s
+neurociencia canonico=1 area=neurociencia rama="ciencias naturales" padre=biología pos=s
+neurociencias sin=1 area=neurociencia rama="ciencias naturales" padre=biología pos=s
+neurología canonico=1 area=neurología rama=salud padre=medicina pos=s
+neurológica adj=1 area=neurología rama=salud padre=medicina gen=f pos=adj
+neurológico adj=1 area=neurología rama=salud padre=medicina gen=m pos=adj
+notariado canonico=1 area=notariado rama=derecho padre=derecho pos=adj
+notariado pos=s
+notarial adj=1 area=notariado rama=derecho padre=derecho pos=adj
+nutrición canonico=1 area=nutrición rama=salud pos=s
+nutrición y dietética sin=1 area=nutrición rama=salud pos=s
+nutricional adj=1 area=nutrición rama=salud pos=adj
+obstetricia canonico=1 area=obstetricia rama=salud padre=medicina pos=s
+oceanografía canonico=1 area=oceanografía rama="ciencias naturales" padre="ciencias de la tierra" pos=s
+oceanográfica adj=1 area=oceanografía rama="ciencias naturales" padre="ciencias de la tierra" gen=f pos=adj
+oceanográfico adj=1 area=oceanografía rama="ciencias naturales" padre="ciencias de la tierra" gen=m pos=adj
+odontología canonico=1 area=odontología rama=salud pos=s
+odontológica adj=1 area=odontología rama=salud gen=f pos=adj
+odontológico adj=1 area=odontología rama=salud gen=m pos=adj
+oncología canonico=1 area=oncología rama=salud padre=medicina pos=s
+oncológica adj=1 area=oncología rama=salud padre=medicina gen=f pos=adj
+oncológico adj=1 area=oncología rama=salud padre=medicina gen=m pos=adj
+óptica canonico=1 area="óptica" rama="ciencias naturales" padre=física pos=adj
+óptica pos=s
+óptica y optometría sin=1 area=optometría rama=salud pos=s
+óptico adj=1 area="óptica" rama="ciencias naturales" padre=física gen=m pos=adj
+óptico pos=s
+optometría canonico=1 area=optometría rama=salud pos=s
+orientación canonico=1 area=orientación rama=educación padre=educación escolar=1 pos=s
+orientación educativa sin=1 area=orientación rama=educación padre=educación escolar=1 pos=s
+orientación vocacional sin=1 area=orientación rama=educación padre=educación escolar=1 pos=s
+ornitología canonico=1 area=ornitología rama="ciencias naturales" padre=biología pos=s
+ortografía canonico=1 area=ortografía rama=humanidades padre="lengua castellana" escolar=1 pos=s
+ortografía pos=v
+ortográfica adj=1 area=ortografía rama=humanidades padre="lengua castellana" gen=f escolar=1 pos=adj
+ortográfico adj=1 area=ortografía rama=humanidades padre="lengua castellana" gen=m escolar=1 pos=adj
+ortopedia sin=1 area=traumatología rama=salud padre=medicina pos=s
+paisajismo sin=1 area="arquitectura del paisaje" rama=artes padre=arquitectura pos=s
+paleontología canonico=1 area=paleontología rama="ciencias naturales" padre=biología pos=s
+paleontológica adj=1 area=paleontología rama="ciencias naturales" padre=biología gen=f pos=adj
+paleontológico adj=1 area=paleontología rama="ciencias naturales" padre=biología gen=m pos=adj
+patología canonico=1 area=patología rama=salud padre=medicina pos=s
+patológica adj=1 area=patología rama=salud padre=medicina gen=f pos=adj
+patológico adj=1 area=patología rama=salud padre=medicina gen=m pos=adj
+pedagogía canonico=1 area=pedagogía rama=educación padre=educación pos=s
+pedagogía terapéutica sin=1 area="educación especial" rama=educación padre=educación pos=s
+pedagógica adj=1 area=pedagogía rama=educación padre=educación gen=f pos=adj
+pedagógico adj=1 area=pedagogía rama=educación padre=educación gen=m pos=adj
+pediatría canonico=1 area=pediatría rama=salud padre=medicina pos=s
+pediátrica adj=1 area=pediatría rama=salud padre=medicina gen=f pos=adj
+pediátrico adj=1 area=pediatría rama=salud padre=medicina gen=m pos=adj
+periodismo canonico=1 area=periodismo rama="ciencias sociales" padre=comunicación pos=s
+periodística adj=1 area=periodismo rama="ciencias sociales" padre=comunicación gen=f pos=adj
+periodístico adj=1 area=periodismo rama="ciencias sociales" padre=comunicación gen=m pos=adj
+pesquera adj=1 area=pesquerías rama=agricultura padre=agricultura gen=f pos=adj
+pesquera pos=s
+pesquerías canonico=1 area=pesquerías rama=agricultura padre=agricultura pos=s
+pesquero adj=1 area=pesquerías rama=agricultura padre=agricultura gen=m pos=adj
+pesquero pos=s
+pictórica adj=1 area=pintura rama=artes padre=arte gen=f pos=adj
+pictórico adj=1 area=pintura rama=artes padre=arte gen=m pos=adj
+pintura canonico=1 area=pintura rama=artes padre=arte pos=s
+planeación urbana sin=1 area=urbanismo rama="ciencias sociales" pos=s
+planificación urbana sin=1 area=urbanismo rama="ciencias sociales" pos=s
+plástica sin=1 area=arte rama=artes escolar=1 pos=adj
+plástica pos=s
+podología canonico=1 area=podología rama=salud pos=s
+poesía canonico=1 area=poesía rama=humanidades padre=literatura pos=s
+poética adj=1 area=poesía rama=humanidades padre=literatura gen=f pos=adj
+poética pos=s
+poético adj=1 area=poesía rama=humanidades padre=literatura gen=m pos=adj
+política sin=1 area="ciencia política" rama="ciencias sociales" padre="ciencias sociales" pos=adj
+política pos=s
+políticas públicas canonico=1 area="políticas públicas" rama="ciencias sociales" padre="ciencia política" pos=s
+político adj=1 area="ciencia política" rama="ciencias sociales" padre="ciencias sociales" gen=m pos=adj
+político pos=s
+politología sin=1 area="ciencia política" rama="ciencias sociales" padre="ciencias sociales" pos=s
+portugués canonico=1 area=portugués rama=humanidades padre="lenguas extranjeras" escolar=1 idioma=1 ambig=1 pos=adj
+portugués pos=s
+probabilidad canonico=1 area=probabilidad rama="ciencias formales" padre=matemáticas pos=s
+producción animal sin=1 area=zootecnia rama=agricultura padre=agricultura pos=s
+psicología canonico=1 area=psicología rama="ciencias sociales" escolar=1 pos=s
+psicología clínica canonico=1 area="psicología clínica" rama="ciencias sociales" padre=psicología pos=s
+psicología de la educación sin=1 area="psicología educativa" rama="ciencias sociales" padre=psicología pos=s
+psicología del desarrollo canonico=1 area="psicología del desarrollo" rama="ciencias sociales" padre=psicología pos=s
+psicología educativa canonico=1 area="psicología educativa" rama="ciencias sociales" padre=psicología pos=s
+psicología evolutiva sin=1 area="psicología del desarrollo" rama="ciencias sociales" padre=psicología pos=s
+psicología social canonico=1 area="psicología social" rama="ciencias sociales" padre=psicología pos=s
+psicológica adj=1 area=psicología rama="ciencias sociales" gen=f escolar=1 pos=adj
+psicológico adj=1 area=psicología rama="ciencias sociales" gen=m escolar=1 pos=adj
+psicopedagogía sin=1 area="psicología educativa" rama="ciencias sociales" padre=psicología pos=s
+psiquiatría canonico=1 area=psiquiatría rama=salud padre=medicina pos=s
+psiquiátrica adj=1 area=psiquiatría rama=salud padre=medicina gen=f pos=adj
+psiquiátrico adj=1 area=psiquiatría rama=salud padre=medicina gen=m pos=adj
+publicidad canonico=1 area=publicidad rama="ciencias sociales" padre=comunicación pos=s
+publicidad y relaciones públicas sin=1 area=publicidad rama="ciencias sociales" padre=comunicación pos=s
+publicitaria adj=1 area=publicidad rama="ciencias sociales" padre=comunicación gen=f pos=adj
+publicitaria pos=s
+publicitario adj=1 area=publicidad rama="ciencias sociales" padre=comunicación gen=m pos=adj
+publicitario pos=s
+química canonico=1 area=química rama="ciencias naturales" padre="ciencias naturales" escolar=1 pos=adj
+química pos=s
+química analítica canonico=1 area="química analítica" rama="ciencias naturales" padre=química pos=s
+química farmacéutica sin=1 area=farmacia rama=salud carrera=1 pos=s
+química física sin=1 area=fisicoquímica rama="ciencias naturales" padre=química pos=s
+química inorgánica canonico=1 area="química inorgánica" rama="ciencias naturales" padre=química pos=s
+química orgánica canonico=1 area="química orgánica" rama="ciencias naturales" padre=química pos=s
+químico adj=1 area=química rama="ciencias naturales" padre="ciencias naturales" gen=m escolar=1 pos=adj
+químico pos=s
+quiropráctica canonico=1 area=quiropráctica rama=salud pos=s
+quirúrgica adj=1 area=cirugía rama=salud padre=medicina gen=f pos=adj
+quirúrgico adj=1 area=cirugía rama=salud padre=medicina gen=m pos=adj
+radiología canonico=1 area=radiología rama=salud padre=medicina pos=s
+recursos humanos canonico=1 area="recursos humanos" rama=negocios padre=gestión pos=s
+redacción canonico=1 area=redacción rama=humanidades padre="lengua castellana" escolar=1 pos=s
+relaciones internacionales canonico=1 area="relaciones internacionales" rama="ciencias sociales" padre="ciencia política" pos=s
+relaciones laborales sin=1 area="recursos humanos" rama=negocios padre=gestión pos=s
+relaciones públicas canonico=1 area="relaciones públicas" rama="ciencias sociales" padre=comunicación pos=s
+religión canonico=1 area=religión rama=humanidades padre="ciencias de las religiones" escolar=1 pos=s
+religión católica sin=1 area=religión rama=humanidades padre="ciencias de las religiones" escolar=1 pos=s
+religiosa adj=1 area=religión rama=humanidades padre="ciencias de las religiones" gen=f escolar=1 pos=adj
+religiosa pos=s
+religioso adj=1 area=religión rama=humanidades padre="ciencias de las religiones" gen=m escolar=1 pos=adj
+religioso pos=s
+retórica canonico=1 area=retórica rama=humanidades padre="lengua castellana" pos=adj
+retórica pos=s
+retórico adj=1 area=retórica rama=humanidades padre="lengua castellana" gen=m pos=adj
+retórico pos=s
+robótica canonico=1 area=robótica rama=ingeniería padre=ingeniería pos=adj
+robótica pos=s
+ruso canonico=1 area=ruso rama=humanidades padre="lenguas extranjeras" idioma=1 ambig=1 pos=adj
+ruso pos=s
+salud sin=1 area="educación para la salud" rama=salud escolar=1 pos=s
+salud pública canonico=1 area="salud pública" rama=salud pos=s
+seguridad de la información sin=1 area=ciberseguridad rama="ciencias formales" padre=informática pos=s
+seguridad informática sin=1 area=ciberseguridad rama="ciencias formales" padre=informática pos=s
+seguridad vial sin=1 area="educación vial" rama=interdisciplinario escolar=1 pos=s
+silvicultura sin=1 area="ingeniería forestal" rama=agricultura padre=agricultura pos=s
+sismología canonico=1 area=sismología rama="ciencias naturales" padre="ciencias de la tierra" pos=s
+sistemas sin=1 area="sistemas de información" rama="ciencias formales" padre=informática pos=s
+sistemas de información canonico=1 area="sistemas de información" rama="ciencias formales" padre=informática pos=s
+sociología canonico=1 area=sociología rama="ciencias sociales" escolar=1 pos=s
+sociológica adj=1 area=sociología rama="ciencias sociales" gen=f escolar=1 pos=adj
+sociológico adj=1 area=sociología rama="ciencias sociales" gen=m escolar=1 pos=adj
+solfeo sin=1 area="teoría musical" rama=artes padre=música escolar=1 pos=s
+solfeo pos=v
+sostenibilidad canonico=1 area=sostenibilidad rama=interdisciplinario padre="estudios ambientales" pos=s
+sostenible adj=1 area=sostenibilidad rama=interdisciplinario padre="estudios ambientales" pos=adj
+sustentabilidad sin=1 area=sostenibilidad rama=interdisciplinario padre="estudios ambientales" pos=s
+sustentable adj=1 area=sostenibilidad rama=interdisciplinario padre="estudios ambientales" pos=adj
+taller sin=1 area=talleres rama=ingeniería padre=tecnología escolar=1 pos=s
+talleres canonico=1 area=talleres rama=ingeniería padre=tecnología escolar=1 pos=s
+teatral adj=1 area=teatro rama=artes escolar=1 pos=adj
+teatro canonico=1 area=teatro rama=artes escolar=1 pos=s
+tecnología canonico=1 area=tecnología rama=ingeniería escolar=1 pos=s
+tecnología de alimentos sin=1 area="ciencia de los alimentos" rama=agricultura padre=agricultura pos=s
+tecnologías de la información canonico=1 area="tecnologías de la información" rama="ciencias formales" padre=informática escolar=1 pos=s
+tecnologías de la información y la comunicación sin=1 area="tecnologías de la información" rama="ciencias formales" padre=informática escolar=1 pos=s
+tecnológica adj=1 area=tecnología rama=ingeniería gen=f escolar=1 pos=adj
+tecnológico adj=1 area=tecnología rama=ingeniería gen=m escolar=1 pos=adj
+telecomunicaciones sin=1 area="ingeniería de telecomunicaciones" rama=ingeniería padre=ingeniería pos=s
+teología canonico=1 area=teología rama=humanidades padre="ciencias de las religiones" pos=s
+teológica adj=1 area=teología rama=humanidades padre="ciencias de las religiones" gen=f pos=adj
+teológico adj=1 area=teología rama=humanidades padre="ciencias de las religiones" gen=m pos=adj
+teoría de números canonico=1 area="teoría de números" rama="ciencias formales" padre=matemáticas pos=s
+teoría musical canonico=1 area="teoría musical" rama=artes padre=música escolar=1 pos=s
+terapia del lenguaje sin=1 area=logopedia rama=salud pos=s
+terapia física sin=1 area=fisioterapia rama=salud pos=s
+terapia ocupacional canonico=1 area="terapia ocupacional" rama=salud pos=s
+termodinámica canonico=1 area=termodinámica rama="ciencias naturales" padre=física pos=adj
+termodinámica pos=s
+ti sin=1 area="tecnologías de la información" rama="ciencias formales" padre=informática escolar=1 ambig=1 pos=pron
+tic sin=1 area="tecnologías de la información" rama="ciencias formales" padre=informática escolar=1 pos=s
+topología canonico=1 area=topología rama="ciencias formales" padre=matemáticas pos=s
+topológica adj=1 area=topología rama="ciencias formales" padre=matemáticas gen=f pos=adj
+topológico adj=1 area=topología rama="ciencias formales" padre=matemáticas gen=m pos=adj
+trabajo social canonico=1 area="trabajo social" rama="ciencias sociales" padre=sociología pos=s
+traumatología canonico=1 area=traumatología rama=salud padre=medicina pos=s
+tributación canonico=1 area=tributación rama=negocios padre=contabilidad pos=s
+tributaria adj=1 area=tributación rama=negocios padre=contabilidad gen=f pos=adj
+tributario adj=1 area=tributación rama=negocios padre=contabilidad gen=m pos=adj
+tributario pos=s
+trigonometría canonico=1 area=trigonometría rama="ciencias formales" padre=matemáticas escolar=1 pos=s
+trigonométrica adj=1 area=trigonometría rama="ciencias formales" padre=matemáticas gen=f escolar=1 pos=adj
+trigonométrico adj=1 area=trigonometría rama="ciencias formales" padre=matemáticas gen=m escolar=1 pos=adj
+turismo canonico=1 area=turismo rama=negocios padre=gestión pos=s
+turística adj=1 area=turismo rama=negocios padre=gestión gen=f pos=adj
+turístico adj=1 area=turismo rama=negocios padre=gestión gen=m pos=adj
+tutoría sin=1 area=orientación rama=educación padre=educación escolar=1 pos=s
+urbanismo canonico=1 area=urbanismo rama="ciencias sociales" pos=s
+urbanística adj=1 area=urbanismo rama="ciencias sociales" gen=f pos=adj
+urbanístico adj=1 area=urbanismo rama="ciencias sociales" gen=m pos=adj
+valenciano sin=1 area=catalán rama=humanidades padre="lenguas cooficiales" escolar=1 idioma=1 ambig=1 pos=adj
+valenciano pos=s
+vasco sin=1 area=euskera rama=humanidades padre="lenguas cooficiales" escolar=1 idioma=1 ambig=1 pos=adj
+vasco pos=s
+veterinaria canonico=1 area=veterinaria rama=salud pos=adj
+veterinaria pos=s
+veterinario adj=1 area=veterinaria rama=salud gen=m pos=adj
+veterinario pos=s
+virología canonico=1 area=virología rama="ciencias naturales" padre=biología pos=s
+zoología canonico=1 area=zoología rama="ciencias naturales" padre=biología pos=s
+zoológica adj=1 area=zoología rama="ciencias naturales" padre=biología gen=f pos=adj
+zoológico adj=1 area=zoología rama="ciencias naturales" padre=biología gen=m pos=adj
+zoológico pos=s
+zootecnia canonico=1 area=zootecnia rama=agricultura padre=agricultura pos=s
+zootécnica adj=1 area=zootecnia rama=agricultura padre=agricultura gen=f pos=adj
+zootécnico adj=1 area=zootecnia rama=agricultura padre=agricultura gen=m pos=adj

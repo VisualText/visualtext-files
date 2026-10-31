@@ -1,0 +1,313 @@
+# Áreas de estudio en español, relacionadas con sus grandes ramas.
+# Búsqueda directa:  materia -> rama   (concepto "areas area biología" -> rama="ciencias naturales")
+# Búsqueda por rama: rama -> sus materias
+# El árbol se recorre en ambos sentidos: padre= apunta hacia arriba, hijo= hacia abajo.
+#   rama=         ciencias naturales | ciencias formales | ciencias sociales |
+#                 humanidades | artes | ingeniería | salud | negocios |
+#                 educación | derecho | agricultura | interdisciplinario
+#   padre=        la materia más amplia de la que depende
+#   hijo=         las materias que dependen directamente de esta
+#   sinonimo=     nombres alternativos     adjetivo=  formas adjetivas (masculino)
+#   escolar=1     una asignatura habitual de primaria o secundaria
+#   idioma=1      el nombre es también una lengua y un gentilicio
+# En la rama: total= número de materias, raiz= las que no tienen padre,
+# area= todas las materias de la rama.
+# Los nombres de materia son el vocabulario de area= en
+# es-grados-academicos.dict, de modo que un título se une a su materia por ese
+# atributo.
+# Todas las formas nombradas aquí están etiquetadas en es-areas-de-estudio.dict.
+# Generado por python/gen_subjects_es.py; no editar a mano.
+areas
+  area
+    administración de empresas: rama=negocios, sinonimo=[administración,"administración y dirección de empresas",ade,empresariales,"ciencias empresariales",negocios], adjetivo=empresarial, hijo=[contabilidad,finanzas,mercadotecnia,gestión,emprendimiento,"comercio internacional","bienes raíces","ciencias actuariales"], escolar=1
+    administración de servicios de salud: rama=salud, padre="salud pública", sinonimo=["gestión sanitaria","administración hospitalaria"]
+    administración pública: rama="ciencias sociales", padre="ciencia política", sinonimo="gestión pública"
+    agricultura: rama=agricultura, sinonimo=["ciencias agrarias","ciencias agrícolas","agronomía general"], adjetivo=agrícola, hijo=[agronomía,horticultura,zootecnia,"ingeniería forestal","ciencia de los alimentos",pesquerías]
+    agronomía: rama=agricultura, padre=agricultura, sinonimo=["ingeniería agronómica","ingeniería agrícola"], adjetivo=agronómico
+    alemán: rama=humanidades, padre="lenguas extranjeras", sinonimo="lengua alemana", escolar=1, idioma=1
+    álgebra: rama="ciencias formales", padre=matemáticas, adjetivo=algebraico, escolar=1
+    álgebra lineal: rama="ciencias formales", padre=matemáticas
+    anatomía: rama="ciencias naturales", padre=biología, adjetivo=anatómico
+    anestesiología: rama=salud, padre=medicina, sinonimo=anestesia
+    antropología: rama="ciencias sociales", adjetivo=antropológico, hijo=arqueología
+    aprendizaje automático: rama="ciencias formales", padre="inteligencia artificial", sinonimo="aprendizaje de máquina"
+    árabe: rama=humanidades, padre="lenguas extranjeras", idioma=1
+    aritmética: rama="ciencias formales", padre=matemáticas, adjetivo=aritmético, escolar=1
+    arqueología: rama="ciencias sociales", padre=antropología, adjetivo=arqueológico
+    arquitectura: rama=artes, adjetivo=arquitectónico, hijo="arquitectura del paisaje"
+    arquitectura del paisaje: rama=artes, padre=arquitectura, sinonimo=paisajismo
+    arte: rama=artes, sinonimo=["artes visuales","artes plásticas","bellas artes",artes,"educación artística","educación plástica",plástica,"educación plástica y visual","expresión plástica"], adjetivo=artístico, hijo=[dibujo,pintura,escultura,fotografía,cerámica,grabado], escolar=1
+    artes aplicadas: rama=interdisciplinario, sinonimo="artes y oficios"
+    astrofísica: rama="ciencias naturales", padre=física
+    astronomía: rama="ciencias naturales", padre="ciencias naturales", adjetivo=astronómico, hijo=[cosmología,"ciencias planetarias"]
+    audiología: rama=salud, sinonimo=fonoaudiología
+    bacteriología: rama="ciencias naturales", padre=biología
+    biblioteconomía: rama="ciencias formales", sinonimo=[bibliotecología,"ciencias de la información","biblioteconomía y documentación"]
+    bienes raíces: rama=negocios, padre="administración de empresas", sinonimo="gestión inmobiliaria", adjetivo=inmobiliario
+    biofísica: rama="ciencias naturales", padre=biología, adjetivo=biofísico
+    biología: rama="ciencias naturales", padre="ciencias naturales", sinonimo=["ciencias biológicas","ciencias de la vida"], adjetivo=biológico, hijo=[botánica,zoología,microbiología,"biología molecular","biología celular",genética,bioquímica,biofísica,ecología,"biología marina",neurociencia,fisiología,anatomía,inmunología,virología,bacteriología,micología,entomología,ornitología,paleontología,"biología evolutiva",biotecnología], escolar=1
+    biología celular: rama="ciencias naturales", padre=biología, sinonimo=citología
+    biología evolutiva: rama="ciencias naturales", padre=biología
+    biología marina: rama="ciencias naturales", padre=biología
+    biología molecular: rama="ciencias naturales", padre=biología
+    biología y geología: rama="ciencias naturales", padre="ciencias naturales", escolar=1
+    bioquímica: rama="ciencias naturales", padre=biología, adjetivo=bioquímico
+    biotecnología: rama="ciencias naturales", padre=biología, adjetivo=biotecnológico
+    botánica: rama="ciencias naturales", padre=biología, sinonimo="biología vegetal", adjetivo=botánico
+    cálculo: rama="ciencias formales", padre=matemáticas, escolar=1
+    cardiología: rama=salud, padre=medicina
+    catalán: rama=humanidades, padre="lenguas cooficiales", sinonimo=[valenciano,"lengua catalana"], escolar=1, idioma=1
+    cerámica: rama=artes, padre=arte, sinonimo=alfarería
+    chino: rama=humanidades, padre="lenguas extranjeras", sinonimo=[mandarín,"chino mandarín"], idioma=1
+    ciberseguridad: rama="ciencias formales", padre=informática, sinonimo=["seguridad informática","seguridad de la información"]
+    ciencia de datos: rama="ciencias formales", padre=informática
+    ciencia de los alimentos: rama=agricultura, padre=agricultura, sinonimo=["ciencia y tecnología de los alimentos","ingeniería de alimentos","tecnología de alimentos"], adjetivo=alimentario
+    ciencia de materiales: rama=ingeniería, padre=ingeniería, sinonimo=["ingeniería de materiales","ciencia e ingeniería de materiales"]
+    ciencia política: rama="ciencias sociales", padre="ciencias sociales", sinonimo=["ciencias políticas",politología,política], adjetivo=político, hijo=["relaciones internacionales","políticas públicas","administración pública"]
+    ciencias actuariales: rama=negocios, padre="administración de empresas", sinonimo=actuaría, adjetivo=actuarial
+    ciencias ambientales: rama="ciencias naturales", padre="ciencias de la tierra", sinonimo="ciencias del medio ambiente", adjetivo=ambiental, escolar=1
+    ciencias aplicadas: rama=interdisciplinario
+    ciencias cognitivas: rama="ciencias sociales", padre=psicología, sinonimo="ciencia cognitiva", adjetivo=cognitivo
+    ciencias de la tierra: rama="ciencias naturales", padre="ciencias naturales", sinonimo=geociencias, hijo=[geología,meteorología,oceanografía,climatología,sismología,hidrología,edafología,"ciencias ambientales"], escolar=1
+    ciencias de las religiones: rama=humanidades, padre=humanidades, sinonimo="estudios religiosos", hijo=[religión,teología]
+    ciencias del deporte: rama=salud, sinonimo=["ciencias de la actividad física y del deporte",cafyd]
+    ciencias naturales: rama="ciencias naturales", sinonimo=[ciencias,ciencia,"ciencias de la naturaleza"], adjetivo=científico, hijo=["conocimiento del medio",biología,"biología y geología",química,"física y química",física,astronomía,"ciencias de la tierra"], escolar=1
+    ciencias planetarias: rama="ciencias naturales", padre=astronomía
+    ciencias sociales: rama="ciencias sociales", sinonimo="estudios sociales", hijo=[historia,geografía,"geografía e historia",economía,"ciencia política","educación cívica"], escolar=1
+    cine: rama=artes, sinonimo=[cinematografía,"estudios cinematográficos"], adjetivo=cinematográfico
+    cirugía: rama=salud, padre=medicina, adjetivo=quirúrgico
+    climatología: rama="ciencias naturales", padre="ciencias de la tierra", adjetivo=climatológico
+    comercio internacional: rama=negocios, padre="administración de empresas", sinonimo="negocios internacionales"
+    composición musical: rama=artes, padre=música
+    comunicación: rama="ciencias sociales", sinonimo=["ciencias de la comunicación","comunicación social"], hijo=[periodismo,"relaciones públicas","comunicación audiovisual",publicidad]
+    comunicación audiovisual: rama="ciencias sociales", padre=comunicación, sinonimo="estudios de medios"
+    conocimiento del medio: rama="ciencias naturales", padre="ciencias naturales", sinonimo=["conocimiento del medio natural","ciencias del entorno"], escolar=1
+    contabilidad: rama=negocios, padre="administración de empresas", sinonimo=[contaduría,"contaduría pública"], adjetivo=contable, hijo=tributación, escolar=1
+    coreano: rama=humanidades, padre="lenguas extranjeras", idioma=1
+    cosmología: rama="ciencias naturales", padre=astronomía, adjetivo=cosmológico
+    criminalística: rama=derecho, padre=derecho, sinonimo=["ciencias penales","criminalística y ciencias forenses"]
+    criminología: rama="ciencias sociales", padre=sociología, adjetivo=criminológico
+    danza: rama=artes, sinonimo=baile, escolar=1
+    demografía: rama="ciencias sociales", padre=sociología, adjetivo=demográfico
+    derecho: rama=derecho, sinonimo=["ciencias jurídicas",jurisprudencia,leyes], adjetivo=[jurídico,legal], hijo=[criminalística,"derecho internacional","derecho constitucional","derecho penal","derecho civil",notariado]
+    derecho civil: rama=derecho, padre=derecho
+    derecho constitucional: rama=derecho, padre=derecho
+    derecho internacional: rama=derecho, padre=derecho
+    derecho penal: rama=derecho, padre=derecho
+    dermatología: rama=salud, padre=medicina
+    dibujo: rama=artes, padre=arte, escolar=1
+    dibujo técnico: rama=ingeniería, padre=tecnología, escolar=1
+    didáctica: rama=educación, padre=educación, sinonimo="currículo y didáctica", adjetivo=didáctico
+    diseño: rama=artes, hijo=["diseño gráfico","diseño industrial","diseño de moda","diseño de interiores"]
+    diseño de interiores: rama=artes, padre=diseño, sinonimo=interiorismo
+    diseño de moda: rama=artes, padre=diseño, sinonimo="diseño de modas"
+    diseño gráfico: rama=artes, padre=diseño
+    diseño industrial: rama=artes, padre=diseño
+    ecología: rama="ciencias naturales", padre=biología, adjetivo=ecológico
+    econometría: rama="ciencias sociales", padre=economía
+    economía: rama="ciencias sociales", padre="ciencias sociales", sinonimo="ciencias económicas", adjetivo=económico, hijo=[microeconomía,macroeconomía,econometría], escolar=1
+    economía doméstica: rama=interdisciplinario, sinonimo=[hogar,"educación para el hogar"], escolar=1
+    edafología: rama="ciencias naturales", padre="ciencias de la tierra", sinonimo="ciencia del suelo"
+    educación: rama=educación, sinonimo="ciencias de la educación", adjetivo=educativo, hijo=["educación infantil","educación primaria","educación secundaria","educación especial",didáctica,pedagogía,orientación]
+    educación cívica: rama="ciencias sociales", padre="ciencias sociales", sinonimo=[civismo,"educación para la ciudadanía","formación ciudadana"], adjetivo=cívico, escolar=1
+    educación especial: rama=educación, padre=educación, sinonimo="pedagogía terapéutica"
+    educación física: rama=salud, sinonimo=["educación física y deportes",gimnasia,"ed física"], escolar=1
+    educación infantil: rama=educación, padre=educación, sinonimo=["educación preescolar","educación inicial","educación parvularia"]
+    educación para la salud: rama=salud, sinonimo=salud, escolar=1
+    educación primaria: rama=educación, padre=educación, sinonimo="educación básica"
+    educación secundaria: rama=educación, padre=educación, sinonimo="educación media"
+    educación vial: rama=interdisciplinario, sinonimo="seguridad vial", escolar=1
+    emprendimiento: rama=negocios, padre="administración de empresas"
+    enfermería: rama=salud
+    entomología: rama="ciencias naturales", padre=biología
+    epidemiología: rama=salud, padre="salud pública", adjetivo=epidemiológico
+    epistemología: rama=humanidades, padre=filosofía, adjetivo=epistemológico
+    escritura creativa: rama=humanidades, padre="lengua castellana", sinonimo="creación literaria"
+    escultura: rama=artes, padre=arte, adjetivo=escultórico
+    estadística: rama="ciencias formales", padre=matemáticas, adjetivo=estadístico, escolar=1
+    estudios ambientales: rama=interdisciplinario, hijo=sostenibilidad
+    estudios clásicos: rama=humanidades, padre=humanidades, sinonimo=["filología clásica","cultura clásica"], adjetivo=clásico, hijo=[latín,griego], escolar=1
+    estudios de género: rama="ciencias sociales", sinonimo="estudios de la mujer"
+    estudios generales: rama=interdisciplinario, sinonimo=["estudios liberales","artes liberales"]
+    estudios interdisciplinarios: rama=interdisciplinario, sinonimo="estudios multidisciplinarios"
+    ética: rama=humanidades, padre=filosofía, sinonimo=moral, adjetivo="ético", escolar=1
+    euskera: rama=humanidades, padre="lenguas cooficiales", sinonimo=[vasco,euskara,"lengua vasca"], escolar=1, idioma=1
+    farmacia: rama=salud, sinonimo=["ciencias farmacéuticas","química farmacéutica"], adjetivo=farmacéutico
+    filología: rama=humanidades, padre=humanidades, sinonimo="filología hispánica", adjetivo=filológico
+    filosofía: rama=humanidades, padre=humanidades, adjetivo=filosófico, hijo=["ética",metafísica,epistemología], escolar=1
+    finanzas: rama=negocios, padre="administración de empresas", adjetivo=financiero
+    física: rama="ciencias naturales", padre="ciencias naturales", sinonimo="ciencias físicas", adjetivo=físico, hijo=[astrofísica,"física nuclear","física de partículas","mecánica cuántica",termodinámica,"óptica",mecánica], escolar=1
+    física de partículas: rama="ciencias naturales", padre=física, sinonimo="física de altas energías"
+    física nuclear: rama="ciencias naturales", padre=física
+    física y química: rama="ciencias naturales", padre="ciencias naturales", escolar=1
+    fisicoquímica: rama="ciencias naturales", padre=química, sinonimo="química física"
+    fisiología: rama="ciencias naturales", padre=biología, adjetivo=fisiológico
+    fisioterapia: rama=salud, sinonimo=[kinesiología,"terapia física"]
+    fotografía: rama=artes, padre=arte, adjetivo=fotográfico
+    francés: rama=humanidades, padre="lenguas extranjeras", sinonimo="lengua francesa", escolar=1, idioma=1
+    gallego: rama=humanidades, padre="lenguas cooficiales", sinonimo="lengua gallega", escolar=1, idioma=1
+    genética: rama="ciencias naturales", padre=biología, adjetivo=genético, hijo=genómica
+    genómica: rama="ciencias naturales", padre=genética, adjetivo=genómico
+    geografía: rama="ciencias sociales", padre="ciencias sociales", adjetivo=geográfico, hijo=["geografía humana","geografía física"], escolar=1
+    geografía e historia: rama="ciencias sociales", padre="ciencias sociales", escolar=1
+    geografía física: rama="ciencias sociales", padre=geografía
+    geografía humana: rama="ciencias sociales", padre=geografía
+    geología: rama="ciencias naturales", padre="ciencias de la tierra", sinonimo="ciencias geológicas", adjetivo=geológico
+    geometría: rama="ciencias formales", padre=matemáticas, adjetivo=geométrico, escolar=1
+    geriatría: rama=salud, padre=medicina, adjetivo=geriátrico
+    gestión: rama=negocios, padre="administración de empresas", sinonimo=[dirección,gerencia], adjetivo=gerencial, hijo=["recursos humanos",logística,turismo]
+    gestión de la ingeniería: rama=ingeniería, padre=ingeniería
+    ginecología: rama=salud, padre=medicina, adjetivo=ginecológico
+    grabado: rama=artes, padre=arte
+    gráficos por computadora: rama="ciencias formales", padre=informática, sinonimo=["computación gráfica","informática gráfica"]
+    gramática: rama=humanidades, padre="lengua castellana", adjetivo=gramatical, escolar=1
+    griego: rama=humanidades, padre="estudios clásicos", sinonimo="griego antiguo", escolar=1, idioma=1
+    hebreo: rama=humanidades, padre="lenguas extranjeras", idioma=1
+    hidrología: rama="ciencias naturales", padre="ciencias de la tierra"
+    historia: rama="ciencias sociales", padre="ciencias sociales", adjetivo=histórico, hijo=["historia antigua","historia universal","historia de españa","historia de méxico","historia de américa","historia del arte"], escolar=1
+    historia antigua: rama="ciencias sociales", padre=historia
+    historia de américa: rama="ciencias sociales", padre=historia, sinonimo=["historia de américa latina","historia latinoamericana"]
+    historia de españa: rama="ciencias sociales", padre=historia, escolar=1
+    historia de méxico: rama="ciencias sociales", padre=historia, escolar=1
+    historia del arte: rama="ciencias sociales", padre=historia, escolar=1
+    historia universal: rama="ciencias sociales", padre=historia, sinonimo=["historia del mundo contemporáneo","historia mundial"], escolar=1
+    horticultura: rama=agricultura, padre=agricultura, adjetivo=hortícola
+    humanidades: rama=humanidades, adjetivo=humanístico, hijo=["lengua castellana",filología,filosofía,"estudios clásicos","ciencias de las religiones","lenguas extranjeras","lenguas cooficiales",letras]
+    informática: rama="ciencias formales", sinonimo=["ciencias de la computación","ciencias de la informática",computación,"ciencia de la computación"], adjetivo=[informático,computacional], hijo=["ingeniería de software","inteligencia artificial","ciencia de datos",ciberseguridad,"tecnologías de la información","sistemas de información","gráficos por computadora","interacción persona-computadora"], escolar=1
+    ingeniería: rama=ingeniería, hijo=["ingeniería civil","ingeniería mecánica","ingeniería eléctrica","ingeniería electrónica","ingeniería química","ingeniería aeroespacial","ingeniería biomédica","ingeniería industrial","ingeniería ambiental","ingeniería nuclear","ingeniería de minas","ingeniería petrolera","ingeniería de sistemas","ingeniería informática","ingeniería de telecomunicaciones","gestión de la ingeniería","ciencia de materiales",robótica]
+    ingeniería aeroespacial: rama=ingeniería, padre=ingeniería, sinonimo="ingeniería aeronáutica"
+    ingeniería ambiental: rama=ingeniería, padre=ingeniería
+    ingeniería biomédica: rama=ingeniería, padre=ingeniería, sinonimo=bioingeniería
+    ingeniería civil: rama=ingeniería, padre=ingeniería, sinonimo=["ingeniería de caminos","ingeniería de caminos canales y puertos"], hijo="ingeniería estructural"
+    ingeniería de minas: rama=ingeniería, padre=ingeniería
+    ingeniería de sistemas: rama=ingeniería, padre=ingeniería, sinonimo="ingeniería en sistemas"
+    ingeniería de software: rama="ciencias formales", padre=informática, sinonimo="ingeniería del software"
+    ingeniería de telecomunicaciones: rama=ingeniería, padre=ingeniería, sinonimo=["ingeniería en telecomunicaciones",telecomunicaciones]
+    ingeniería eléctrica: rama=ingeniería, padre=ingeniería
+    ingeniería electrónica: rama=ingeniería, padre=ingeniería
+    ingeniería estructural: rama=ingeniería, padre="ingeniería civil"
+    ingeniería forestal: rama=agricultura, padre=agricultura, sinonimo=["ciencias forestales",silvicultura], adjetivo=forestal
+    ingeniería industrial: rama=ingeniería, padre=ingeniería
+    ingeniería informática: rama=ingeniería, padre=ingeniería, sinonimo=["ingeniería en computación","ingeniería en informática","ingeniería de computadores"]
+    ingeniería mecánica: rama=ingeniería, padre=ingeniería
+    ingeniería nuclear: rama=ingeniería, padre=ingeniería
+    ingeniería petrolera: rama=ingeniería, padre=ingeniería, sinonimo=["ingeniería de petróleos","ingeniería en petróleo"]
+    ingeniería química: rama=ingeniería, padre=ingeniería
+    inglés: rama=humanidades, padre="lenguas extranjeras", sinonimo="lengua inglesa", escolar=1, idioma=1
+    inmunología: rama="ciencias naturales", padre=biología, adjetivo=inmunológico
+    inteligencia artificial: rama="ciencias formales", padre=informática, sinonimo=ia, hijo="aprendizaje automático"
+    interacción persona-computadora: rama="ciencias formales", padre=informática, sinonimo=["interacción persona-ordenador","interacción humano-computadora"]
+    investigación: rama=interdisciplinario
+    italiano: rama=humanidades, padre="lenguas extranjeras", idioma=1
+    japonés: rama=humanidades, padre="lenguas extranjeras", idioma=1
+    latín: rama=humanidades, padre="estudios clásicos", escolar=1, idioma=1
+    lectura: rama=humanidades, padre="lengua castellana", sinonimo=["comprensión lectora",lectoescritura], escolar=1
+    lengua castellana: rama=humanidades, padre=humanidades, sinonimo=["lengua castellana y literatura","lengua y literatura",lengua,castellano,lenguaje,"lenguaje y comunicación","lengua española",español], hijo=[literatura,"escritura creativa",redacción,retórica,gramática,ortografía,lectura], escolar=1, idioma=1
+    lenguas cooficiales: rama=humanidades, padre=humanidades, sinonimo=["lengua cooficial","lengua propia"], hijo=[catalán,gallego,euskera], escolar=1
+    lenguas extranjeras: rama=humanidades, padre=humanidades, sinonimo=["lenguas modernas",idiomas,"idioma extranjero"], hijo=[inglés,francés,alemán,italiano,portugués,ruso,chino,japonés,coreano,"árabe",hebreo], escolar=1
+    letras: rama=humanidades, padre=humanidades, sinonimo="filosofía y letras"
+    lingüística: rama="ciencias sociales", adjetivo=lingüístico
+    literatura: rama=humanidades, padre="lengua castellana", adjetivo=literario, hijo=poesía, escolar=1
+    lógica: rama="ciencias formales", adjetivo=lógico
+    logística: rama=negocios, padre=gestión, sinonimo=["gestión de la cadena de suministro","cadena de suministro"], adjetivo=logístico
+    logopedia: rama=salud, sinonimo=["terapia del lenguaje","fonoaudiología clínica"]
+    macroeconomía: rama="ciencias sociales", padre=economía
+    matemática aplicada: rama="ciencias formales", padre=matemáticas, sinonimo="matemáticas aplicadas"
+    matemática discreta: rama="ciencias formales", padre=matemáticas, sinonimo="matemáticas discretas"
+    matemáticas: rama="ciencias formales", sinonimo=[matemática,mates], adjetivo=matemático, hijo=[aritmética,"álgebra",geometría,trigonometría,cálculo,estadística,probabilidad,"teoría de números",topología,"álgebra lineal","matemática discreta","matemática aplicada"], escolar=1
+    mecánica: rama="ciencias naturales", padre=física, adjetivo=mecánico
+    mecánica cuántica: rama="ciencias naturales", padre=física, sinonimo="física cuántica"
+    mecanografía: rama=interdisciplinario, sinonimo="mecanografía y taquigrafía", escolar=1
+    medicina: rama=salud, sinonimo="ciencias médicas", adjetivo=médico, hijo=[cirugía,pediatría,psiquiatría,cardiología,oncología,radiología,neurología,patología,anestesiología,dermatología,obstetricia,ginecología,traumatología,geriatría,"medicina familiar"]
+    medicina familiar: rama=salud, padre=medicina, sinonimo=["medicina de familia","medicina general"]
+    mercadotecnia: rama=negocios, padre="administración de empresas", sinonimo=[marketing,mercadeo]
+    metafísica: rama=humanidades, padre=filosofía, adjetivo=metafísico
+    meteorología: rama="ciencias naturales", padre="ciencias de la tierra", adjetivo=meteorológico
+    micología: rama="ciencias naturales", padre=biología
+    microbiología: rama="ciencias naturales", padre=biología, adjetivo=microbiológico
+    microeconomía: rama="ciencias sociales", padre=economía
+    música: rama=artes, sinonimo="educación musical", adjetivo=musical, hijo=["teoría musical","composición musical"], escolar=1
+    neurociencia: rama="ciencias naturales", padre=biología, sinonimo=[neurociencias,neurobiología]
+    neurología: rama=salud, padre=medicina, adjetivo=neurológico
+    notariado: rama=derecho, padre=derecho, sinonimo="derecho notarial", adjetivo=notarial
+    nutrición: rama=salud, sinonimo=["nutrición y dietética",dietética], adjetivo=nutricional
+    obstetricia: rama=salud, padre=medicina
+    oceanografía: rama="ciencias naturales", padre="ciencias de la tierra", sinonimo="ciencias del mar", adjetivo=oceanográfico
+    odontología: rama=salud, sinonimo=[estomatología,"cirugía dental"], adjetivo=[odontológico,dental]
+    oncología: rama=salud, padre=medicina, adjetivo=oncológico
+    óptica: rama="ciencias naturales", padre=física, adjetivo="óptico"
+    optometría: rama=salud, sinonimo="óptica y optometría"
+    orientación: rama=educación, padre=educación, sinonimo=[tutoría,"orientación educativa","orientación vocacional"], escolar=1
+    ornitología: rama="ciencias naturales", padre=biología
+    ortografía: rama=humanidades, padre="lengua castellana", adjetivo=ortográfico, escolar=1
+    paleontología: rama="ciencias naturales", padre=biología, adjetivo=paleontológico
+    patología: rama=salud, padre=medicina, sinonimo="anatomía patológica", adjetivo=patológico
+    pedagogía: rama=educación, padre=educación, sinonimo=[docencia,magisterio], adjetivo=pedagógico
+    pediatría: rama=salud, padre=medicina, adjetivo=pediátrico
+    periodismo: rama="ciencias sociales", padre=comunicación, adjetivo=periodístico
+    pesquerías: rama=agricultura, padre=agricultura, sinonimo=["ciencias pesqueras",acuicultura], adjetivo=pesquero
+    pintura: rama=artes, padre=arte, adjetivo=pictórico
+    podología: rama=salud
+    poesía: rama=humanidades, padre=literatura, adjetivo=poético
+    políticas públicas: rama="ciencias sociales", padre="ciencia política"
+    portugués: rama=humanidades, padre="lenguas extranjeras", escolar=1, idioma=1
+    probabilidad: rama="ciencias formales", padre=matemáticas
+    psicología: rama="ciencias sociales", adjetivo=psicológico, hijo=["psicología clínica","psicología del desarrollo","psicología social","psicología educativa","ciencias cognitivas"], escolar=1
+    psicología clínica: rama="ciencias sociales", padre=psicología
+    psicología del desarrollo: rama="ciencias sociales", padre=psicología, sinonimo="psicología evolutiva"
+    psicología educativa: rama="ciencias sociales", padre=psicología, sinonimo=["psicología de la educación",psicopedagogía]
+    psicología social: rama="ciencias sociales", padre=psicología
+    psiquiatría: rama=salud, padre=medicina, adjetivo=psiquiátrico
+    publicidad: rama="ciencias sociales", padre=comunicación, sinonimo="publicidad y relaciones públicas", adjetivo=publicitario
+    química: rama="ciencias naturales", padre="ciencias naturales", sinonimo="ciencias químicas", adjetivo=químico, hijo=["química orgánica","química inorgánica",fisicoquímica,"química analítica"], escolar=1
+    química analítica: rama="ciencias naturales", padre=química
+    química inorgánica: rama="ciencias naturales", padre=química
+    química orgánica: rama="ciencias naturales", padre=química
+    quiropráctica: rama=salud
+    radiología: rama=salud, padre=medicina
+    recursos humanos: rama=negocios, padre=gestión, sinonimo=["gestión de recursos humanos","relaciones laborales"]
+    redacción: rama=humanidades, padre="lengua castellana", sinonimo=[composición,"expresión escrita"], escolar=1
+    relaciones internacionales: rama="ciencias sociales", padre="ciencia política", sinonimo=["estudios internacionales","asuntos internacionales"]
+    relaciones públicas: rama="ciencias sociales", padre=comunicación
+    religión: rama=humanidades, padre="ciencias de las religiones", sinonimo=["educación religiosa","religión católica"], adjetivo=religioso, escolar=1
+    retórica: rama=humanidades, padre="lengua castellana", adjetivo=retórico
+    robótica: rama=ingeniería, padre=ingeniería
+    ruso: rama=humanidades, padre="lenguas extranjeras", idioma=1
+    salud pública: rama=salud, hijo=[epidemiología,"administración de servicios de salud"]
+    sismología: rama="ciencias naturales", padre="ciencias de la tierra"
+    sistemas de información: rama="ciencias formales", padre=informática, sinonimo=sistemas
+    sociología: rama="ciencias sociales", adjetivo=sociológico, hijo=[criminología,demografía,"trabajo social"], escolar=1
+    sostenibilidad: rama=interdisciplinario, padre="estudios ambientales", sinonimo=[sustentabilidad,"desarrollo sostenible"], adjetivo=[sostenible,sustentable]
+    talleres: rama=ingeniería, padre=tecnología, sinonimo=[taller,"educación tecnológica"], escolar=1
+    teatro: rama=artes, sinonimo=["artes escénicas","arte dramático",dramaturgia], adjetivo=[teatral,dramático], escolar=1
+    tecnología: rama=ingeniería, adjetivo=tecnológico, hijo=[talleres,"dibujo técnico"], escolar=1
+    tecnologías de la información: rama="ciencias formales", padre=informática, sinonimo=[ti,tic,"tecnologías de la información y la comunicación"], escolar=1
+    teología: rama=humanidades, padre="ciencias de las religiones", sinonimo="ciencias religiosas", adjetivo=teológico
+    teoría de números: rama="ciencias formales", padre=matemáticas
+    teoría musical: rama=artes, padre=música, sinonimo=["lenguaje musical",solfeo], escolar=1
+    terapia ocupacional: rama=salud
+    termodinámica: rama="ciencias naturales", padre=física
+    topología: rama="ciencias formales", padre=matemáticas, adjetivo=topológico
+    trabajo social: rama="ciencias sociales", padre=sociología
+    traumatología: rama=salud, padre=medicina, sinonimo=ortopedia
+    tributación: rama=negocios, padre=contabilidad, sinonimo=fiscalidad, adjetivo=[tributario,fiscal]
+    trigonometría: rama="ciencias formales", padre=matemáticas, adjetivo=trigonométrico, escolar=1
+    turismo: rama=negocios, padre=gestión, sinonimo=[hotelería,"administración hotelera","hotelería y turismo"], adjetivo=turístico
+    urbanismo: rama="ciencias sociales", sinonimo=["planificación urbana","planeación urbana","estudios urbanos"], adjetivo=urbanístico
+    veterinaria: rama=salud, sinonimo=["medicina veterinaria","medicina veterinaria y zootecnia"], adjetivo=veterinario
+    virología: rama="ciencias naturales", padre=biología
+    zoología: rama="ciencias naturales", padre=biología, sinonimo="biología animal", adjetivo=zoológico
+    zootecnia: rama=agricultura, padre=agricultura, sinonimo=["producción animal",ganadería], adjetivo=zootécnico
+  rama
+    ciencias naturales: total=53, raiz=["ciencias naturales"], area=[anatomía,astrofísica,astronomía,bacteriología,biofísica,biología,"biología celular","biología evolutiva","biología marina","biología molecular","biología y geología",bioquímica,biotecnología,botánica,"ciencias ambientales","ciencias de la tierra","ciencias naturales","ciencias planetarias",climatología,"conocimiento del medio",cosmología,ecología,edafología,entomología,física,"física de partículas","física nuclear","física y química",fisicoquímica,fisiología,genética,genómica,geología,hidrología,inmunología,mecánica,"mecánica cuántica",meteorología,micología,microbiología,neurociencia,oceanografía,"óptica",ornitología,paleontología,química,"química analítica","química inorgánica","química orgánica",sismología,termodinámica,virología,zoología]
+    ciencias formales: total=25, raiz=[biblioteconomía,informática,lógica,matemáticas], area=["álgebra","álgebra lineal","aprendizaje automático",aritmética,biblioteconomía,cálculo,ciberseguridad,"ciencia de datos",estadística,geometría,"gráficos por computadora",informática,"ingeniería de software","inteligencia artificial","interacción persona-computadora",lógica,"matemática aplicada","matemática discreta",matemáticas,probabilidad,"sistemas de información","tecnologías de la información","teoría de números",topología,trigonometría]
+    ciencias sociales: total=41, raiz=[antropología,"ciencias sociales",comunicación,"estudios de género",lingüística,psicología,sociología,urbanismo], area=["administración pública",antropología,arqueología,"ciencia política","ciencias cognitivas","ciencias sociales",comunicación,"comunicación audiovisual",criminología,demografía,econometría,economía,"educación cívica","estudios de género",geografía,"geografía e historia","geografía física","geografía humana",historia,"historia antigua","historia de américa","historia de españa","historia de méxico","historia del arte","historia universal",lingüística,macroeconomía,microeconomía,periodismo,"políticas públicas",psicología,"psicología clínica","psicología del desarrollo","psicología educativa","psicología social",publicidad,"relaciones internacionales","relaciones públicas",sociología,"trabajo social",urbanismo]
+    humanidades: total=38, raiz=[humanidades], area=[alemán,"árabe",catalán,chino,"ciencias de las religiones",coreano,epistemología,"escritura creativa","estudios clásicos","ética",euskera,filología,filosofía,francés,gallego,gramática,griego,hebreo,humanidades,inglés,italiano,japonés,latín,lectura,"lengua castellana","lenguas cooficiales","lenguas extranjeras",letras,literatura,metafísica,ortografía,poesía,portugués,redacción,religión,retórica,ruso,teología]
+    artes: total=20, raiz=[arquitectura,arte,cine,danza,diseño,música,teatro], area=[arquitectura,"arquitectura del paisaje",arte,cerámica,cine,"composición musical",danza,dibujo,diseño,"diseño de interiores","diseño de moda","diseño gráfico","diseño industrial",escultura,fotografía,grabado,música,pintura,teatro,"teoría musical"]
+    ingeniería: total=23, raiz=[ingeniería,tecnología], area=["ciencia de materiales","dibujo técnico","gestión de la ingeniería",ingeniería,"ingeniería aeroespacial","ingeniería ambiental","ingeniería biomédica","ingeniería civil","ingeniería de minas","ingeniería de sistemas","ingeniería de telecomunicaciones","ingeniería eléctrica","ingeniería electrónica","ingeniería estructural","ingeniería industrial","ingeniería informática","ingeniería mecánica","ingeniería nuclear","ingeniería petrolera","ingeniería química",robótica,talleres,tecnología]
+    salud: total=34, raiz=[audiología,"ciencias del deporte","educación física","educación para la salud",enfermería,farmacia,fisioterapia,logopedia,medicina,nutrición,odontología,optometría,podología,quiropráctica,"salud pública","terapia ocupacional",veterinaria], area=["administración de servicios de salud",anestesiología,audiología,cardiología,"ciencias del deporte",cirugía,dermatología,"educación física","educación para la salud",enfermería,epidemiología,farmacia,fisioterapia,geriatría,ginecología,logopedia,medicina,"medicina familiar",neurología,nutrición,obstetricia,odontología,oncología,optometría,patología,pediatría,podología,psiquiatría,quiropráctica,radiología,"salud pública","terapia ocupacional",traumatología,veterinaria]
+    negocios: total=13, raiz=["administración de empresas"], area=["administración de empresas","bienes raíces","ciencias actuariales","comercio internacional",contabilidad,emprendimiento,finanzas,gestión,logística,mercadotecnia,"recursos humanos",tributación,turismo]
+    educación: total=8, raiz=[educación], area=[didáctica,educación,"educación especial","educación infantil","educación primaria","educación secundaria",orientación,pedagogía]
+    derecho: total=7, raiz=[derecho], area=[criminalística,derecho,"derecho civil","derecho constitucional","derecho internacional","derecho penal",notariado]
+    agricultura: total=7, raiz=[agricultura], area=[agricultura,agronomía,"ciencia de los alimentos",horticultura,"ingeniería forestal",pesquerías,zootecnia]
+    interdisciplinario: total=10, raiz=["artes aplicadas","ciencias aplicadas","economía doméstica","educación vial","estudios ambientales","estudios generales","estudios interdisciplinarios",investigación,mecanografía], area=["artes aplicadas","ciencias aplicadas","economía doméstica","educación vial","estudios ambientales","estudios generales","estudios interdisciplinarios",investigación,mecanografía,sostenibilidad]

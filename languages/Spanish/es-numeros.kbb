@@ -1,0 +1,196 @@
+# Numerales en español con su valor numérico.
+# Búsqueda directa:  palabra -> valor   (concepto "doce" -> valor=12)
+# Búsqueda inversa:  valor -> palabra    (numeroporvalor "12" -> nombre=doce)
+# El mismo par existe para los ordinales: "duodécimo" -> valor=12, y
+# ordinalporvalor "12" -> nombre=duodécimo.
+# Los índices inversos solo cubren las palabras de las listas directas (cero a
+# veintinueve, las decenas, las centenas y las palabras de escala).
+#   valor=       el valor numérico
+#   femenino=    la forma femenina (una, doscientas, primera)
+#   apocope=     la forma apocopada ante sustantivo masculino (un, primer)
+#   sinonimo=    variantes: sin tilde, forma de compuesto (ciento), arcaicas
+#   plural=      la forma plural (millones, docenas)
+# Escala larga: billón = 10^12, trillón = 10^18, millardo = 10^9.
+# grupos contiene los colectivos de cantidad (docena, centenar, millar).
+# Todas las formas nombradas aquí están etiquetadas en es-numeros.dict.
+numeros
+  palabras
+    cero: valor=0
+    uno: valor=1, femenino=una, apocope=un
+    dos: valor=2
+    tres: valor=3
+    cuatro: valor=4
+    cinco: valor=5
+    seis: valor=6
+    siete: valor=7
+    ocho: valor=8
+    nueve: valor=9
+    diez: valor=10
+    once: valor=11
+    doce: valor=12
+    trece: valor=13
+    catorce: valor=14
+    quince: valor=15
+    dieciséis: valor=16, sinonimo=dieciseis
+    diecisiete: valor=17
+    dieciocho: valor=18
+    diecinueve: valor=19
+    veinte: valor=20
+    veintiuno: valor=21, femenino=veintiuna, apocope=veintiún, sinonimo=veintiun
+    veintidós: valor=22, sinonimo=veintidos
+    veintitrés: valor=23, sinonimo=veintitres
+    veinticuatro: valor=24
+    veinticinco: valor=25
+    veintiséis: valor=26, sinonimo=veintiseis
+    veintisiete: valor=27
+    veintiocho: valor=28
+    veintinueve: valor=29
+    treinta: valor=30
+    cuarenta: valor=40
+    cincuenta: valor=50
+    sesenta: valor=60
+    setenta: valor=70
+    ochenta: valor=80
+    noventa: valor=90
+    cien: valor=100, sinonimo=ciento, plural=cientos
+    doscientos: valor=200, femenino=doscientas
+    trescientos: valor=300, femenino=trescientas
+    cuatrocientos: valor=400, femenino=cuatrocientas
+    quinientos: valor=500, femenino=quinientas
+    seiscientos: valor=600, femenino=seiscientas
+    setecientos: valor=700, femenino=setecientas
+    ochocientos: valor=800, femenino=ochocientas
+    novecientos: valor=900, femenino=novecientas
+    mil: valor=1000, plural=miles
+    millón: valor=1000000, sinonimo=millon, plural=millones
+    millardo: valor=1000000000, plural=millardos
+    billón: valor=1000000000000, sinonimo=billon, plural=billones
+    trillón: valor=1000000000000000000, sinonimo=trillon, plural=trillones
+  numeroporvalor
+    0: nombre=cero
+    1: nombre=uno
+    2: nombre=dos
+    3: nombre=tres
+    4: nombre=cuatro
+    5: nombre=cinco
+    6: nombre=seis
+    7: nombre=siete
+    8: nombre=ocho
+    9: nombre=nueve
+    10: nombre=diez
+    11: nombre=once
+    12: nombre=doce
+    13: nombre=trece
+    14: nombre=catorce
+    15: nombre=quince
+    16: nombre=dieciséis
+    17: nombre=diecisiete
+    18: nombre=dieciocho
+    19: nombre=diecinueve
+    20: nombre=veinte
+    21: nombre=veintiuno
+    22: nombre=veintidós
+    23: nombre=veintitrés
+    24: nombre=veinticuatro
+    25: nombre=veinticinco
+    26: nombre=veintiséis
+    27: nombre=veintisiete
+    28: nombre=veintiocho
+    29: nombre=veintinueve
+    30: nombre=treinta
+    40: nombre=cuarenta
+    50: nombre=cincuenta
+    60: nombre=sesenta
+    70: nombre=setenta
+    80: nombre=ochenta
+    90: nombre=noventa
+    100: nombre=cien
+    200: nombre=doscientos
+    300: nombre=trescientos
+    400: nombre=cuatrocientos
+    500: nombre=quinientos
+    600: nombre=seiscientos
+    700: nombre=setecientos
+    800: nombre=ochocientos
+    900: nombre=novecientos
+    1000: nombre=mil
+    1000000: nombre=millón
+    1000000000: nombre=millardo
+    1000000000000: nombre=billón
+    1000000000000000000: nombre=trillón
+  ordinales
+    primero: valor=1, femenino=primera, apocope=primer
+    segundo: valor=2, femenino=segunda
+    tercero: valor=3, femenino=tercera, apocope=tercer
+    cuarto: valor=4, femenino=cuarta
+    quinto: valor=5, femenino=quinta
+    sexto: valor=6, femenino=sexta
+    séptimo: valor=7, femenino=séptima, sinonimo=[sétimo,septimo]
+    octavo: valor=8, femenino=octava
+    noveno: valor=9, femenino=novena, sinonimo=nono
+    décimo: valor=10, femenino=décima, sinonimo=decimo
+    undécimo: valor=11, femenino=undécima, sinonimo=[decimoprimero,decimoprimer]
+    duodécimo: valor=12, femenino=duodécima, sinonimo=decimosegundo
+    decimotercero: valor=13, femenino=decimotercera, apocope=decimotercer
+    decimocuarto: valor=14, femenino=decimocuarta
+    decimoquinto: valor=15, femenino=decimoquinta
+    decimosexto: valor=16, femenino=decimosexta
+    decimoséptimo: valor=17, femenino=decimoséptima
+    decimoctavo: valor=18, femenino=decimoctava, sinonimo=decimooctavo
+    decimonoveno: valor=19, femenino=decimonovena, sinonimo=decimonono
+    vigésimo: valor=20, femenino=vigésima
+    trigésimo: valor=30, femenino=trigésima
+    cuadragésimo: valor=40, femenino=cuadragésima
+    quincuagésimo: valor=50, femenino=quincuagésima
+    sexagésimo: valor=60, femenino=sexagésima
+    septuagésimo: valor=70, femenino=septuagésima
+    octogésimo: valor=80, femenino=octogésima
+    nonagésimo: valor=90, femenino=nonagésima
+    centésimo: valor=100, femenino=centésima
+    milésimo: valor=1000, femenino=milésima
+    millonésimo: valor=1000000, femenino=millonésima
+    billonésimo: valor=1000000000000, femenino=billonésima
+  ordinalporvalor
+    1: nombre=primero
+    2: nombre=segundo
+    3: nombre=tercero
+    4: nombre=cuarto
+    5: nombre=quinto
+    6: nombre=sexto
+    7: nombre=séptimo
+    8: nombre=octavo
+    9: nombre=noveno
+    10: nombre=décimo
+    11: nombre=undécimo
+    12: nombre=duodécimo
+    13: nombre=decimotercero
+    14: nombre=decimocuarto
+    15: nombre=decimoquinto
+    16: nombre=decimosexto
+    17: nombre=decimoséptimo
+    18: nombre=decimoctavo
+    19: nombre=decimonoveno
+    20: nombre=vigésimo
+    30: nombre=trigésimo
+    40: nombre=cuadragésimo
+    50: nombre=quincuagésimo
+    60: nombre=sexagésimo
+    70: nombre=septuagésimo
+    80: nombre=octogésimo
+    90: nombre=nonagésimo
+    100: nombre=centésimo
+    1000: nombre=milésimo
+    1000000: nombre=millonésimo
+    1000000000000: nombre=billonésimo
+  grupos
+    par: valor=2, plural=pares
+    decena: valor=10, plural=decenas
+    docena: valor=12, plural=docenas
+    quincena: valor=15
+    veintena: valor=20
+    treintena: valor=30
+    cuarentena: valor=40
+    centena: valor=100, plural=centenas
+    centenar: valor=100, plural=centenares
+    millar: valor=1000, plural=millares
+    gruesa: valor=144

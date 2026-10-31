@@ -1,0 +1,83 @@
+# Direções da rosa dos ventos (norte, sul, no, norte-nordeste, etc.)
+# Os dezasseis rumos: os quatro pontos cardeais, os quatro colaterais e os
+# oito subcolaterais.
+#   direcao=   nome canónico do rumo, tal como é chave em pt-direcoes.kbb
+#   abrev=     a abreviatura padrão, na forma por extenso
+#   rumo=      o rumo em graus, no sentido horário a partir do norte
+#   sin=1      outra forma por extenso do mesmo rumo (nor-nordeste, sueste)
+#   pt=1       forma de uso europeu: Portugal diz "este" e abrevia E, onde o
+#              Brasil diz "leste" e abrevia L
+#   internacional=1  abreviatura internacional (inglesa) também usada em
+#              mapas e boletins meteorológicos (sw, w, nw)
+#   ambig=1    a forma é também uma palavra comum (no, o, e, se, este, leste)
+#              e só é direção em contexto
+# Abreviaturas canónicas no uso brasileiro: N NNE NE LNE L LSE SE SSE S SSO
+# SO OSO O ONO NO NNO.
+norte direcao=norte abrev=n rumo=0 pos=adj
+norte pos=s
+norte-nordeste direcao=norte-nordeste abrev=nne rumo=22.5 pos=s
+nor-nordeste direcao=norte-nordeste rumo=22.5 sin=1 pos=s
+nordeste direcao=nordeste abrev=ne rumo=45 pos=s
+leste-nordeste direcao=leste-nordeste abrev=lne rumo=67.5 pos=s
+lés-nordeste direcao=leste-nordeste rumo=67.5 sin=1 pos=s
+este-nordeste direcao=leste-nordeste rumo=67.5 sin=1 pt=1 pos=s
+és-nordeste direcao=leste-nordeste rumo=67.5 sin=1 pt=1 pos=s
+leste direcao=leste abrev=l rumo=90 ambig=1 pos=s
+leste pos=v
+este direcao=leste rumo=90 sin=1 pt=1 ambig=1 pos=pron
+leste-sudeste direcao=leste-sudeste abrev=lse rumo=112.5 pos=s
+lés-sudeste direcao=leste-sudeste rumo=112.5 sin=1 pos=s
+este-sudeste direcao=leste-sudeste rumo=112.5 sin=1 pt=1 pos=s
+és-sueste direcao=leste-sudeste rumo=112.5 sin=1 pt=1 pos=s
+sudeste direcao=sudeste abrev=se rumo=135 pos=s
+sueste direcao=sudeste rumo=135 sin=1 pt=1 pos=adj
+sueste pos=s
+sueste pos=v
+sul-sudeste direcao=sul-sudeste abrev=sse rumo=157.5 pos=s
+su-sudeste direcao=sul-sudeste rumo=157.5 sin=1 pos=s
+su-sueste direcao=sul-sudeste rumo=157.5 sin=1 pt=1 pos=s
+sul direcao=sul abrev=s rumo=180 pos=s
+sul-sudoeste direcao=sul-sudoeste abrev=sso rumo=202.5 pos=s
+su-sudoeste direcao=sul-sudoeste rumo=202.5 sin=1 pos=s
+sudoeste direcao=sudoeste abrev=so rumo=225 pos=s
+sudoeste pos=v
+oeste-sudoeste direcao=oeste-sudoeste abrev=oso rumo=247.5 pos=s
+oés-sudoeste direcao=oeste-sudoeste rumo=247.5 sin=1 pos=s
+oeste direcao=oeste abrev=o rumo=270 pos=s
+oeste-noroeste direcao=oeste-noroeste abrev=ono rumo=292.5 pos=s
+oés-noroeste direcao=oeste-noroeste rumo=292.5 sin=1 pos=s
+noroeste direcao=noroeste abrev=no rumo=315 pos=s
+norte-noroeste direcao=norte-noroeste abrev=nno rumo=337.5 pos=s
+nor-noroeste direcao=norte-noroeste rumo=337.5 sin=1 pos=s
+
+# Abreviaturas
+n direcao=norte rumo=0 pos=s
+nne direcao=norte-nordeste rumo=22.5 pos=s
+ne direcao=nordeste rumo=45 pos=s
+lne direcao=leste-nordeste rumo=67.5 pos=s
+ene direcao=leste-nordeste rumo=67.5 pt=1 internacional=1 pos=s
+l direcao=leste rumo=90 pos=s
+e direcao=leste rumo=90 pt=1 internacional=1 ambig=1 pos=conj
+e pos=s
+lse direcao=leste-sudeste rumo=112.5 pos=s
+ese direcao=leste-sudeste rumo=112.5 pt=1 internacional=1 pos=s
+se direcao=sudeste rumo=135 ambig=1 pos=conj
+se pos=pron
+sse direcao=sul-sudeste rumo=157.5 pos=s
+s direcao=sul rumo=180 pos=s
+sso direcao=sul-sudoeste rumo=202.5 pos=s
+ssw direcao=sul-sudoeste rumo=202.5 internacional=1 pos=s
+so direcao=sudoeste rumo=225 pos=s
+sw direcao=sudoeste rumo=225 internacional=1 pos=s
+oso direcao=oeste-sudoeste rumo=247.5 pos=s
+wsw direcao=oeste-sudoeste rumo=247.5 internacional=1 pos=s
+o direcao=oeste rumo=270 ambig=1 pos=art
+o pos=pron
+o pos=s
+w direcao=oeste rumo=270 internacional=1 pos=s
+ono direcao=oeste-noroeste rumo=292.5 pos=s
+wnw direcao=oeste-noroeste rumo=292.5 internacional=1 pos=s
+no direcao=noroeste rumo=315 ambig=1 pos=prep
+nw direcao=noroeste rumo=315 internacional=1 pos=s
+nno direcao=norte-noroeste rumo=337.5 pos=s
+nnw direcao=norte-noroeste rumo=337.5 internacional=1 pos=s

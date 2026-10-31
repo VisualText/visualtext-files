@@ -1,0 +1,103 @@
+# Puntos cardinales y rumbos (norte, sur, no, nornoreste, etc.)
+# Los dieciséis puntos de la rosa de los vientos: los cuatro cardinales, los
+# cuatro colaterales y los ocho secundarios.
+#   direccion=  nombre canónico del punto, como clave de es-direcciones.kbb
+#   abrev=      la abreviatura normalizada en español, en la forma desarrollada
+#   rumbo=      rumbo en grados, en el sentido de las agujas del reloj desde
+#               el norte
+#   sin=1       una variante: nordeste, sudeste, sudoeste; las formas con
+#               guion (norte-noreste); oriente, levante, poniente, occidente y
+#               mediodía; y las abreviaturas internacionales con W (sw, nw...)
+#   ambig=1     la forma es también una palabra corriente: este (demostrativo),
+#               e, o (conjunciones), no, se, so, ese, oso, ene (la letra; y ene
+#               abrevia enero en es-mesesdias.dict), levante y oriente (formas
+#               verbales), mediodía (la hora), y las letras sueltas n y s
+# En español el oeste se abrevia O (so, oso, ono, no, nno); las formas con W
+# de la notación internacional se listan como variantes.
+
+norte direccion=norte abrev=n rumbo=0 pos=s
+nornoreste direccion=nornoreste abrev=nne rumbo=22.5 pos=s
+noreste direccion=noreste abrev=ne rumbo=45 pos=adj
+noreste pos=s
+estenoreste direccion=estenoreste abrev=ene rumbo=67.5 pos=s
+este direccion=este abrev=e rumbo=90 ambig=1 pos=pron
+este pos=s
+estesureste direccion=estesureste abrev=ese rumbo=112.5 pos=s
+sureste direccion=sureste abrev=se rumbo=135 pos=adj
+sureste pos=s
+sursureste direccion=sursureste abrev=sse rumbo=157.5 pos=s
+sur direccion=sur abrev=s rumbo=180 pos=s
+sursuroeste direccion=sursuroeste abrev=sso rumbo=202.5 pos=s
+suroeste direccion=suroeste abrev=so rumbo=225 pos=adj
+suroeste pos=s
+oestesuroeste direccion=oestesuroeste abrev=oso rumbo=247.5 pos=s
+oeste direccion=oeste abrev=o rumbo=270 pos=s
+oestenoroeste direccion=oestenoroeste abrev=ono rumbo=292.5 pos=s
+noroeste direccion=noroeste abrev=no rumbo=315 pos=adj
+noroeste pos=s
+nornoroeste direccion=nornoroeste abrev=nno rumbo=337.5 pos=s
+
+# Variantes de nombre
+norte-noreste direccion=nornoreste abrev=nne rumbo=22.5 sin=1 pos=s
+nor-noreste direccion=nornoreste abrev=nne rumbo=22.5 sin=1 pos=s
+nornordeste direccion=nornoreste abrev=nne rumbo=22.5 sin=1 pos=s
+nor-nordeste direccion=nornoreste abrev=nne rumbo=22.5 sin=1 pos=s
+nordeste direccion=noreste abrev=ne rumbo=45 sin=1 pos=s
+este-noreste direccion=estenoreste abrev=ene rumbo=67.5 sin=1 pos=s
+estenordeste direccion=estenoreste abrev=ene rumbo=67.5 sin=1 pos=s
+este-nordeste direccion=estenoreste abrev=ene rumbo=67.5 sin=1 pos=s
+oriente direccion=este abrev=e rumbo=90 sin=1 ambig=1 pos=s
+oriente pos=v
+levante direccion=este abrev=e rumbo=90 sin=1 ambig=1 pos=s
+levante pos=v
+este-sureste direccion=estesureste abrev=ese rumbo=112.5 sin=1 pos=s
+estesudeste direccion=estesureste abrev=ese rumbo=112.5 sin=1 pos=s
+este-sudeste direccion=estesureste abrev=ese rumbo=112.5 sin=1 pos=s
+sudeste direccion=sureste abrev=se rumbo=135 sin=1 pos=s
+sur-sureste direccion=sursureste abrev=sse rumbo=157.5 sin=1 pos=s
+sursudeste direccion=sursureste abrev=sse rumbo=157.5 sin=1 pos=s
+sur-sudeste direccion=sursureste abrev=sse rumbo=157.5 sin=1 pos=s
+mediodía direccion=sur abrev=s rumbo=180 sin=1 ambig=1 pos=s
+sur-suroeste direccion=sursuroeste abrev=sso rumbo=202.5 sin=1 pos=s
+sursudoeste direccion=sursuroeste abrev=sso rumbo=202.5 sin=1 pos=s
+sur-sudoeste direccion=sursuroeste abrev=sso rumbo=202.5 sin=1 pos=s
+sudoeste direccion=suroeste abrev=so rumbo=225 sin=1 pos=s
+oeste-suroeste direccion=oestesuroeste abrev=oso rumbo=247.5 sin=1 pos=s
+oessudoeste direccion=oestesuroeste abrev=oso rumbo=247.5 sin=1 pos=s
+oeste-sudoeste direccion=oestesuroeste abrev=oso rumbo=247.5 sin=1 pos=s
+poniente direccion=oeste abrev=o rumbo=270 sin=1 pos=s
+occidente direccion=oeste abrev=o rumbo=270 sin=1 pos=s
+oeste-noroeste direccion=oestenoroeste abrev=ono rumbo=292.5 sin=1 pos=s
+oesnoroeste direccion=oestenoroeste abrev=ono rumbo=292.5 sin=1 pos=s
+norte-noroeste direccion=nornoroeste abrev=nno rumbo=337.5 sin=1 pos=s
+nor-noroeste direccion=nornoroeste abrev=nno rumbo=337.5 sin=1 pos=s
+
+# Abreviaturas
+n direccion=norte rumbo=0 ambig=1 pos=s
+nne direccion=nornoreste rumbo=22.5 pos=s
+ne direccion=noreste rumbo=45 pos=s
+ene direccion=estenoreste rumbo=67.5 ambig=1 pos=s
+e direccion=este rumbo=90 ambig=1 pos=conj
+e pos=s
+ese direccion=estesureste rumbo=112.5 ambig=1 pos=pron
+se direccion=sureste rumbo=135 ambig=1 pos=pron
+sse direccion=sursureste rumbo=157.5 pos=s
+s direccion=sur rumbo=180 ambig=1 pos=s
+sso direccion=sursuroeste rumbo=202.5 pos=s
+so direccion=suroeste rumbo=225 ambig=1 pos=int
+so pos=prep
+oso direccion=oestesuroeste rumbo=247.5 ambig=1 pos=s
+oso pos=v
+o direccion=oeste rumbo=270 ambig=1 pos=conj
+o pos=s
+ono direccion=oestenoroeste rumbo=292.5 pos=s
+no direccion=noroeste rumbo=315 ambig=1 pos=adv
+no pos=s
+nno direccion=nornoroeste rumbo=337.5 pos=s
+ssw direccion=sursuroeste rumbo=202.5 sin=1 pos=s
+sw direccion=suroeste rumbo=225 sin=1 pos=s
+wsw direccion=oestesuroeste rumbo=247.5 sin=1 pos=s
+w direccion=oeste rumbo=270 sin=1 pos=s
+wnw direccion=oestenoroeste rumbo=292.5 sin=1 pos=s
+nw direccion=noroeste rumbo=315 sin=1 pos=s
+nnw direccion=nornoroeste rumbo=337.5 sin=1 pos=s

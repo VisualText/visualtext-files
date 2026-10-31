@@ -1,0 +1,372 @@
+# Nomes de países em português, com códigos ISO 3166-1 (os mesmos de en-countries.kbb).
+# Cada nome canônico traz gen=/num= e a lista sinonimo=[...] de suas variantes;
+# cada variante traz raiz= apontando para o nome canônico.
+# naoiso=1 marca nomes que não são países ISO 3166-1 (inglaterra, kosovo ...).
+# Gerado por python/gen_geo_pt.py; não editar à mão.
+paises
+  afeganistão: iso2=af, iso3=afg, gen=m, num=s
+  áfrica do sul: iso2=za, iso3=zaf, gen=f, num=s
+  albânia: iso2=al, iso3=alb, gen=f, num=s
+  alemanha: iso2=de, iso3=deu, gen=f, num=s
+  andorra: iso2=ad, iso3=and, gen=f, num=s
+  angola: iso2=ao, iso3=ago, gen=f, num=s
+  anguila: iso2=ai, iso3=aia, gen=f, num=s
+  antártica: iso2=aq, iso3=ata, gen=f, num=s, sin=1, raiz=antártida
+  antártida: iso2=aq, iso3=ata, gen=f, num=s, sinonimo=antártica
+  antígua e barbuda: iso2=ag, iso3=atg, gen=f, num=s
+  arábia saudita: iso2=sa, iso3=sau, gen=f, num=s
+  argélia: iso2=dz, iso3=dza, gen=f, num=s
+  argentina: iso2=ar, iso3=arg, gen=f, num=s
+  arménia: iso2=am, iso3=arm, gen=f, num=s, sin=1, raiz=armênia
+  armênia: iso2=am, iso3=arm, gen=f, num=s, sinonimo=arménia
+  aruba: iso2=aw, iso3=abw, gen=f, num=s
+  austrália: iso2=au, iso3=aus, gen=f, num=s
+  áustria: iso2=at, iso3=aut, gen=f, num=s
+  azerbaijão: iso2=az, iso3=aze, gen=m, num=s
+  bahamas: iso2=bs, iso3=bhs, gen=f, num=p
+  bahrein: iso2=bh, iso3=bhr, gen=m, num=s, sinonimo=[barein,barém]
+  bangladesh: iso2=bd, iso3=bgd, gen=m, num=s
+  barbados: iso2=bb, iso3=brb
+  barein: iso2=bh, iso3=bhr, gen=m, num=s, sin=1, raiz=bahrein
+  barém: iso2=bh, iso3=bhr, gen=m, num=s, sin=1, raiz=bahrein
+  belarus: iso2=by, iso3=blr, sin=1, raiz=bielorrússia
+  bélgica: iso2=be, iso3=bel, gen=f, num=s
+  belize: iso2=bz, iso3=blz, gen=m, num=s
+  benim: iso2=bj, iso3=ben, gen=m, num=s, sin=1, raiz=benin
+  benin: iso2=bj, iso3=ben, gen=m, num=s, sinonimo=benim
+  bermuda: iso2=bm, iso3=bmu, gen=f, num=s, sin=1, raiz=bermudas
+  bermudas: iso2=bm, iso3=bmu, gen=f, num=p, sinonimo=bermuda
+  bielorrússia: iso2=by, iso3=blr, gen=f, num=s, sinonimo=belarus
+  birmânia: iso2=mm, iso3=mmr, gen=f, num=s, sin=1, raiz=mianmar
+  bolívia: iso2=bo, iso3=bol, gen=f, num=s, sinonimo="estado plurinacional da bolívia"
+  bonaire, santo eustáquio e saba: iso2=bq, iso3=bes, sinonimo="países baixos caribenhos"
+  bósnia: iso2=ba, iso3=bih, gen=f, num=s, sin=1, raiz="bósnia e herzegovina"
+  bósnia e herzegovina: iso2=ba, iso3=bih, gen=f, num=s, sinonimo=["bósnia-herzegovina",bósnia]
+  bósnia-herzegovina: iso2=ba, iso3=bih, gen=f, num=s, sin=1, raiz="bósnia e herzegovina"
+  botsuana: iso2=bw, iso3=bwa, gen=m, num=s, sinonimo=botswana
+  botswana: iso2=bw, iso3=bwa, gen=m, num=s, sin=1, raiz=botsuana
+  brasil: iso2=br, iso3=bra, gen=m, num=s, sinonimo="república federativa do brasil"
+  brunei: iso2=bn, iso3=brn, gen=m, num=s, sinonimo="brunei darussalam"
+  brunei darussalam: iso2=bn, iso3=brn, gen=m, num=s, sin=1, raiz=brunei
+  bulgária: iso2=bg, iso3=bgr, gen=f, num=s
+  burkina faso: iso2=bf, iso3=bfa, gen=m, num=s
+  burundi: iso2=bi, iso3=bdi, gen=m, num=s
+  butão: iso2=bt, iso3=btn, gen=m, num=s
+  cabo verde: iso2=cv, iso3=cpv, gen=m, num=s
+  camarões: iso2=cm, iso3=cmr, gen=m, num=p
+  camboja: iso2=kh, iso3=khm, gen=m, num=s
+  canadá: iso2=ca, iso3=can, gen=m, num=s
+  catar: iso2=qa, iso3=qat, gen=m, num=s, sinonimo=qatar
+  cazaquistão: iso2=kz, iso3=kaz, gen=m, num=s
+  chade: iso2=td, iso3=tcd, gen=m, num=s
+  chéquia: iso2=cz, iso3=cze, gen=f, num=s, sin=1, raiz=tchéquia
+  chile: iso2=cl, iso3=chl, gen=m, num=s
+  china: iso2=cn, iso3=chn, gen=f, num=s, sinonimo="república popular da china"
+  chipre: iso2=cy, iso3=cyp, gen=m, num=s
+  cidade do vaticano: iso2=va, iso3=vat, gen=f, num=s, sin=1, raiz="santa sé"
+  cingapura: iso2=sg, iso3=sgp, gen=f, num=s, sin=1, raiz=singapura
+  colômbia: iso2=co, iso3=col, gen=f, num=s
+  comores: iso2=km, iso3=com, gen=f, num=p, sinonimo="união das comores"
+  congo: iso2=cg, iso3=cog, gen=m, num=s, sinonimo=["república do congo","congo-brazzaville"]
+  congo-brazzaville: iso2=cg, iso3=cog, gen=m, num=s, sin=1, raiz=congo
+  congo-kinshasa: iso2=cd, iso3=cod, gen=m, num=s, sin=1, raiz="república democrática do congo"
+  coreia: iso2=kr, iso3=kor, gen=f, num=s
+  coreia do norte: iso2=kp, iso3=prk, gen=f, num=s, sinonimo="república popular democrática da coreia"
+  coreia do sul: iso2=kr, iso3=kor, gen=f, num=s, sinonimo="república da coreia"
+  costa do marfim: iso2=ci, iso3=civ, gen=f, num=s, sinonimo="côte d'ivoire"
+  costa rica: iso2=cr, iso3=cri, gen=f, num=s
+  côte d'ivoire: iso2=ci, iso3=civ, gen=f, num=s, sin=1, raiz="costa do marfim"
+  croácia: iso2=hr, iso3=hrv, gen=f, num=s
+  cuba: iso2=cu, iso3=cub, gen=f, num=s
+  curaçao: iso2=cw, iso3=cuw, sinonimo=curaçau
+  curaçau: iso2=cw, iso3=cuw, sin=1, raiz=curaçao
+  dinamarca: iso2=dk, iso3=dnk, gen=f, num=s
+  djibuti: iso2=dj, iso3=dji, gen=m, num=s, sinonimo=jibuti
+  dominica: iso2=dm, iso3=dma, gen=f, num=s
+  egipto: iso2=eg, iso3=egy, gen=m, num=s, sin=1, raiz=egito
+  egito: iso2=eg, iso3=egy, gen=m, num=s, sinonimo=egipto
+  el salvador: iso2=sv, iso3=slv, gen=m, num=s
+  emirados árabes unidos: iso2=ae, iso3=are, gen=m, num=p
+  equador: iso2=ec, iso3=ecu, gen=m, num=s
+  eritreia: iso2=er, iso3=eri, gen=f, num=s, sinonimo=eritréia
+  eritréia: iso2=er, iso3=eri, gen=f, num=s, sin=1, raiz=eritreia
+  escócia: iso2=gb, iso3=gbr, gen=f, num=s, naoiso=1
+  eslováquia: iso2=sk, iso3=svk, gen=f, num=s
+  eslovénia: iso2=si, iso3=svn, gen=f, num=s, sin=1, raiz=eslovênia
+  eslovênia: iso2=si, iso3=svn, gen=f, num=s, sinonimo=eslovénia
+  espanha: iso2=es, iso3=esp, gen=f, num=s
+  essuatíni: iso2=sz, iso3=swz, gen=m, num=s, sinonimo=[eswatini,suazilândia]
+  estado da palestina: iso2=ps, iso3=pse, gen=m, num=s, sin=1, raiz=palestina
+  estado plurinacional da bolívia: iso2=bo, iso3=bol, gen=m, num=s, sin=1, raiz=bolívia
+  estados federados da micronésia: iso2=fm, iso3=fsm, gen=m, num=p, sin=1, raiz=micronésia
+  estados unidos: iso2=us, iso3=usa, gen=m, num=p, sinonimo=["estados unidos da américa",eua]
+  estados unidos da américa: iso2=us, iso3=usa, gen=m, num=p, sin=1, raiz="estados unidos"
+  estónia: iso2=ee, iso3=est, gen=f, num=s, sin=1, raiz=estônia
+  estônia: iso2=ee, iso3=est, gen=f, num=s, sinonimo=estónia
+  eswatini: iso2=sz, iso3=swz, gen=m, num=s, sin=1, raiz=essuatíni
+  etiópia: iso2=et, iso3=eth, gen=f, num=s
+  eua: iso2=us, iso3=usa, gen=m, num=p, sin=1, raiz="estados unidos"
+  federação russa: iso2=ru, iso3=rus, gen=f, num=s, sin=1, raiz=rússia
+  fidji: iso2=fj, iso3=fji, gen=m, num=s, sin=1, raiz=fiji
+  fiji: iso2=fj, iso3=fji, gen=m, num=s, sinonimo=fidji
+  filipinas: iso2=ph, iso3=phl, gen=f, num=p
+  finlândia: iso2=fi, iso3=fin, gen=f, num=s
+  frança: iso2=fr, iso3=fra, gen=f, num=s
+  gabão: iso2=ga, iso3=gab, gen=m, num=s
+  gales: iso2=gb, iso3=gbr, gen=m, num=s, naoiso=1, sin=1, raiz="país de gales"
+  gâmbia: iso2=gm, iso3=gmb, gen=f, num=s
+  gana: iso2=gh, iso3=gha, gen=m, num=s
+  geórgia: iso2=ge, iso3=geo, gen=f, num=s
+  gibraltar: iso2=gi, iso3=gib, gen=m, num=s
+  grã-bretanha: iso2=gb, iso3=gbr, gen=f, num=s, sin=1, raiz="reino unido"
+  granada: iso2=gd, iso3=grd, gen=f, num=s
+  grécia: iso2=gr, iso3=grc, gen=f, num=s
+  groenlândia: iso2=gl, iso3=grl, gen=f, num=s, sinonimo=gronelândia
+  gronelândia: iso2=gl, iso3=grl, gen=f, num=s, sin=1, raiz=groenlândia
+  guadalupe: iso2=gp, iso3=glp, gen=f, num=s
+  guam: iso2=gu, iso3=gum
+  guatemala: iso2=gt, iso3=gtm, gen=f, num=s
+  guernsey: iso2=gg, iso3=ggy
+  guiana: iso2=gy, iso3=guy, gen=f, num=s
+  guiana francesa: iso2=gf, iso3=guf, gen=f, num=s
+  guiné: iso2=gn, iso3=gin, gen=f, num=s, sinonimo="guiné-conacri"
+  guiné equatorial: iso2=gq, iso3=gnq, gen=f, num=s
+  guiné-bissau: iso2=gw, iso3=gnb, gen=f, num=s
+  guiné-conacri: iso2=gn, iso3=gin, gen=f, num=s, sin=1, raiz=guiné
+  haiti: iso2=ht, iso3=hti, gen=m, num=s
+  holanda: iso2=nl, iso3=nld, gen=f, num=s, sin=1, raiz="países baixos"
+  honduras: iso2=hn, iso3=hnd
+  hong kong: iso2=hk, iso3=hkg, gen=m, num=s
+  hungria: iso2=hu, iso3=hun, gen=f, num=s
+  iémen: iso2=ye, iso3=yem, gen=m, num=s, sin=1, raiz=iêmen
+  iêmen: iso2=ye, iso3=yem, gen=m, num=s, sinonimo=iémen
+  ilha bouvet: iso2=bv, iso3=bvt, gen=f, num=s
+  ilha christmas: iso2=cx, iso3=cxr, gen=f, num=s, sinonimo="ilha do natal"
+  ilha da reunião: iso2=re, iso3=reu, gen=f, num=s, sin=1, raiz=reunião
+  ilha de man: iso2=im, iso3=imn, gen=f, num=s
+  ilha do natal: iso2=cx, iso3=cxr, gen=f, num=s, sin=1, raiz="ilha christmas"
+  ilha heard e ilhas mcdonald: iso2=hm, iso3=hmd, gen=f, num=s, sinonimo="ilhas heard e mcdonald"
+  ilha norfolk: iso2=nf, iso3=nfk, gen=f, num=s
+  ilhas aland: iso2=ax, iso3=ala, gen=f, num=p, sin=1, raiz="ilhas åland"
+  ilhas åland: iso2=ax, iso3=ala, gen=f, num=p, sinonimo="ilhas aland"
+  ilhas caimão: iso2=ky, iso3=cym, gen=f, num=p, sin=1, raiz="ilhas cayman"
+  ilhas cayman: iso2=ky, iso3=cym, gen=f, num=p, sinonimo="ilhas caimão"
+  ilhas cocos: iso2=cc, iso3=cck, gen=f, num=p, sinonimo="ilhas cocos keeling"
+  ilhas cocos keeling: iso2=cc, iso3=cck, gen=f, num=p, sin=1, raiz="ilhas cocos"
+  ilhas cook: iso2=ck, iso3=cok, gen=f, num=p
+  ilhas falkland: iso2=fk, iso3=flk, gen=f, num=p, sin=1, raiz="ilhas malvinas"
+  ilhas faroé: iso2=fo, iso3=fro, gen=f, num=p, sinonimo="ilhas feroé"
+  ilhas feroé: iso2=fo, iso3=fro, gen=f, num=p, sin=1, raiz="ilhas faroé"
+  ilhas geórgia do sul e sandwich do sul: iso2=gs, iso3=sgs, gen=f, num=p
+  ilhas heard e mcdonald: iso2=hm, iso3=hmd, gen=f, num=p, sin=1, raiz="ilha heard e ilhas mcdonald"
+  ilhas malvinas: iso2=fk, iso3=flk, gen=f, num=p, sinonimo=["ilhas falkland",malvinas]
+  ilhas marianas do norte: iso2=mp, iso3=mnp, gen=f, num=p
+  ilhas marshall: iso2=mh, iso3=mhl, gen=f, num=p
+  ilhas maurício: iso2=mu, iso3=mus, gen=f, num=p, sin=1, raiz=maurício
+  ilhas menores distantes dos estados unidos: iso2=um, iso3=umi, gen=f, num=p
+  ilhas pitcairn: iso2=pn, iso3=pcn, gen=f, num=p, sinonimo=pitcairn
+  ilhas salomão: iso2=sb, iso3=slb, gen=f, num=p
+  ilhas turcas e caicos: iso2=tc, iso3=tca, gen=f, num=p
+  ilhas virgens americanas: iso2=vi, iso3=vir, gen=f, num=p, sinonimo="ilhas virgens dos estados unidos"
+  ilhas virgens britânicas: iso2=vg, iso3=vgb, gen=f, num=p
+  ilhas virgens dos estados unidos: iso2=vi, iso3=vir, gen=f, num=p, sin=1, raiz="ilhas virgens americanas"
+  índia: iso2=in, iso3=ind, gen=f, num=s
+  indonésia: iso2=id, iso3=idn, gen=f, num=s
+  inglaterra: iso2=gb, iso3=gbr, gen=f, num=s, naoiso=1
+  irã: iso2=ir, iso3=irn, gen=m, num=s, sinonimo=[irão,"república islâmica do irã","república islâmica do irão"]
+  irão: iso2=ir, iso3=irn, gen=m, num=s, sin=1, raiz=irã
+  iraque: iso2=iq, iso3=irq, gen=m, num=s
+  irlanda: iso2=ie, iso3=irl, gen=f, num=s
+  irlanda do norte: iso2=gb, iso3=gbr, gen=f, num=s, naoiso=1
+  islândia: iso2=is, iso3=isl, gen=f, num=s
+  israel: iso2=il, iso3=isr, gen=m, num=s
+  itália: iso2=it, iso3=ita, gen=f, num=s
+  jamaica: iso2=jm, iso3=jam, gen=f, num=s
+  japão: iso2=jp, iso3=jpn, gen=m, num=s
+  jersey: iso2=je, iso3=jey
+  jibuti: iso2=dj, iso3=dji, gen=m, num=s, sin=1, raiz=djibuti
+  jordânia: iso2=jo, iso3=jor, gen=f, num=s
+  kiribati: iso2=ki, iso3=kir, sinonimo=quiribati
+  kosovo: iso2=xk, iso3=xkx, gen=m, num=s, naoiso=1
+  koweit: iso2=kw, iso3=kwt, gen=m, num=s, sin=1, raiz=kuwait
+  kuwait: iso2=kw, iso3=kwt, gen=m, num=s, sinonimo=[kuweit,koweit]
+  kuweit: iso2=kw, iso3=kwt, gen=m, num=s, sin=1, raiz=kuwait
+  laos: iso2=la, iso3=lao, gen=m, num=s, sinonimo="república democrática popular do laos"
+  lesoto: iso2=ls, iso3=lso, gen=m, num=s
+  letónia: iso2=lv, iso3=lva, gen=f, num=s, sin=1, raiz=letônia
+  letônia: iso2=lv, iso3=lva, gen=f, num=s, sinonimo=letónia
+  líbano: iso2=lb, iso3=lbn, gen=m, num=s
+  libéria: iso2=lr, iso3=lbr, gen=f, num=s
+  líbia: iso2=ly, iso3=lby, gen=f, num=s
+  liechtenstein: iso2=li, iso3=lie, gen=m, num=s
+  lituânia: iso2=lt, iso3=ltu, gen=f, num=s
+  luxemburgo: iso2=lu, iso3=lux, gen=m, num=s
+  macau: iso2=mo, iso3=mac, gen=m, num=s
+  macedónia: iso2=mk, iso3=mkd, gen=f, num=s, sin=1, raiz="macedônia do norte"
+  macedônia: iso2=mk, iso3=mkd, gen=f, num=s, sin=1, raiz="macedônia do norte"
+  macedónia do norte: iso2=mk, iso3=mkd, gen=f, num=s, sin=1, raiz="macedônia do norte"
+  macedônia do norte: iso2=mk, iso3=mkd, gen=f, num=s, sinonimo=["macedónia do norte","república da macedônia do norte","república da macedónia do norte",macedônia,macedónia]
+  madagascar: iso2=mg, iso3=mdg, gen=m, num=s, sinonimo=madagáscar
+  madagáscar: iso2=mg, iso3=mdg, gen=m, num=s, sin=1, raiz=madagascar
+  maiote: iso2=yt, iso3=myt, sin=1, raiz=mayotte
+  malásia: iso2=my, iso3=mys, gen=f, num=s
+  malaui: iso2=mw, iso3=mwi, gen=m, num=s, sin=1, raiz=malawi
+  malawi: iso2=mw, iso3=mwi, gen=m, num=s, sinonimo=malaui
+  maldivas: iso2=mv, iso3=mdv, gen=f, num=p
+  mali: iso2=ml, iso3=mli, gen=m, num=s
+  malta: iso2=mt, iso3=mlt, gen=f, num=s
+  malvinas: iso2=fk, iso3=flk, gen=f, num=p, sin=1, raiz="ilhas malvinas"
+  marrocos: iso2=ma, iso3=mar, gen=m, num=s
+  martinica: iso2=mq, iso3=mtq, gen=f, num=s
+  maurícia: iso2=mu, iso3=mus, gen=f, num=s, sin=1, raiz=maurício
+  maurício: iso2=mu, iso3=mus, gen=m, num=s, sinonimo=[maurícia,"ilhas maurício"]
+  mauritânia: iso2=mr, iso3=mrt, gen=f, num=s
+  mayotte: iso2=yt, iso3=myt, sinonimo=maiote
+  méxico: iso2=mx, iso3=mex, gen=m, num=s
+  mianmar: iso2=mm, iso3=mmr, gen=m, num=s, sinonimo=[myanmar,birmânia]
+  micronésia: iso2=fm, iso3=fsm, gen=f, num=s, sinonimo="estados federados da micronésia"
+  moçambique: iso2=mz, iso3=moz, gen=m, num=s
+  moldávia: iso2=md, iso3=mda, gen=f, num=s, sinonimo=["república da moldávia",moldova]
+  moldova: iso2=md, iso3=mda, gen=f, num=s, sin=1, raiz=moldávia
+  mónaco: iso2=mc, iso3=mco, gen=m, num=s, sin=1, raiz=mônaco
+  mônaco: iso2=mc, iso3=mco, gen=m, num=s, sinonimo=mónaco
+  mongólia: iso2=mn, iso3=mng, gen=f, num=s
+  monserrate: iso2=ms, iso3=msr, sin=1, raiz=montserrat
+  montenegro: iso2=me, iso3=mne, gen=m, num=s
+  montserrat: iso2=ms, iso3=msr, sinonimo=monserrate
+  myanmar: iso2=mm, iso3=mmr, gen=m, num=s, sin=1, raiz=mianmar
+  namíbia: iso2=na, iso3=nam, gen=f, num=s
+  nauru: iso2=nr, iso3=nru
+  nepal: iso2=np, iso3=npl, gen=m, num=s
+  nicarágua: iso2=ni, iso3=nic, gen=f, num=s
+  níger: iso2=ne, iso3=ner, gen=m, num=s
+  nigéria: iso2=ng, iso3=nga, gen=f, num=s
+  niue: iso2=nu, iso3=niu
+  noruega: iso2=no, iso3=nor, gen=f, num=s
+  nova caledónia: iso2=nc, iso3=ncl, gen=f, num=s, sin=1, raiz="nova caledônia"
+  nova caledônia: iso2=nc, iso3=ncl, gen=f, num=s, sinonimo="nova caledónia"
+  nova zelândia: iso2=nz, iso3=nzl, gen=f, num=s
+  omã: iso2=om, iso3=omn, gen=m, num=s
+  país de gales: iso2=gb, iso3=gbr, gen=m, num=s, naoiso=1, sinonimo=gales
+  países baixos: iso2=nl, iso3=nld, gen=m, num=p, sinonimo=holanda
+  países baixos caribenhos: iso2=bq, iso3=bes, gen=m, num=p, sin=1, raiz="bonaire, santo eustáquio e saba"
+  palau: iso2=pw, iso3=plw, gen=m, num=s
+  palestina: iso2=ps, iso3=pse, gen=f, num=s, sinonimo="estado da palestina"
+  panamá: iso2=pa, iso3=pan, gen=m, num=s
+  papua nova guiné: iso2=pg, iso3=png, gen=f, num=s, sin=1, raiz="papua-nova guiné"
+  papua-nova guiné: iso2=pg, iso3=png, gen=f, num=s, sinonimo="papua nova guiné"
+  paquistão: iso2=pk, iso3=pak, gen=m, num=s
+  paraguai: iso2=py, iso3=pry, gen=m, num=s
+  peru: iso2=pe, iso3=per, gen=m, num=s
+  pitcairn: iso2=pn, iso3=pcn, sin=1, raiz="ilhas pitcairn"
+  polinésia francesa: iso2=pf, iso3=pyf, gen=f, num=s
+  polónia: iso2=pl, iso3=pol, gen=f, num=s, sin=1, raiz=polônia
+  polônia: iso2=pl, iso3=pol, gen=f, num=s, sinonimo=polónia
+  porto rico: iso2=pr, iso3=pri, gen=m, num=s
+  portugal: iso2=pt, iso3=prt, gen=m, num=s
+  qatar: iso2=qa, iso3=qat, gen=m, num=s, sin=1, raiz=catar
+  quénia: iso2=ke, iso3=ken, gen=m, num=s, sin=1, raiz=quênia
+  quênia: iso2=ke, iso3=ken, gen=m, num=s, sinonimo=quénia
+  quirguistão: iso2=kg, iso3=kgz, gen=m, num=s, sinonimo=quirguízia
+  quirguízia: iso2=kg, iso3=kgz, gen=f, num=s, sin=1, raiz=quirguistão
+  quiribati: iso2=ki, iso3=kir, sin=1, raiz=kiribati
+  reino unido: iso2=gb, iso3=gbr, gen=m, num=s, sinonimo=["reino unido da grã-bretanha e irlanda do norte","grã-bretanha"]
+  reino unido da grã-bretanha e irlanda do norte: iso2=gb, iso3=gbr, gen=m, num=s, sin=1, raiz="reino unido"
+  república árabe síria: iso2=sy, iso3=syr, gen=f, num=s, sin=1, raiz=síria
+  república bolivariana da venezuela: iso2=ve, iso3=ven, gen=f, num=s, sin=1, raiz=venezuela
+  república centro-africana: iso2=cf, iso3=caf, gen=f, num=s
+  república checa: iso2=cz, iso3=cze, gen=f, num=s, sin=1, raiz=tchéquia
+  república da coreia: iso2=kr, iso3=kor, gen=f, num=s, sin=1, raiz="coreia do sul"
+  república da macedónia do norte: iso2=mk, iso3=mkd, gen=f, num=s, sin=1, raiz="macedônia do norte"
+  república da macedônia do norte: iso2=mk, iso3=mkd, gen=f, num=s, sin=1, raiz="macedônia do norte"
+  república da moldávia: iso2=md, iso3=mda, gen=f, num=s, sin=1, raiz=moldávia
+  república democrática do congo: iso2=cd, iso3=cod, gen=f, num=s, sinonimo="congo-kinshasa"
+  república democrática popular do laos: iso2=la, iso3=lao, gen=f, num=s, sin=1, raiz=laos
+  república do congo: iso2=cg, iso3=cog, gen=f, num=s, sin=1, raiz=congo
+  república dominicana: iso2=do, iso3=dom, gen=f, num=s
+  república federativa do brasil: iso2=br, iso3=bra, gen=f, num=s, sin=1, raiz=brasil
+  república islâmica do irã: iso2=ir, iso3=irn, gen=f, num=s, sin=1, raiz=irã
+  república islâmica do irão: iso2=ir, iso3=irn, gen=f, num=s, sin=1, raiz=irã
+  república popular da china: iso2=cn, iso3=chn, gen=f, num=s, sin=1, raiz=china
+  república popular democrática da coreia: iso2=kp, iso3=prk, gen=f, num=s, sin=1, raiz="coreia do norte"
+  república tcheca: iso2=cz, iso3=cze, gen=f, num=s, sin=1, raiz=tchéquia
+  república unida da tanzânia: iso2=tz, iso3=tza, gen=f, num=s, sin=1, raiz=tanzânia
+  reunião: iso2=re, iso3=reu, gen=f, num=s, sinonimo="ilha da reunião"
+  roménia: iso2=ro, iso3=rou, gen=f, num=s, sin=1, raiz=romênia
+  romênia: iso2=ro, iso3=rou, gen=f, num=s, sinonimo=roménia
+  ruanda: iso2=rw, iso3=rwa
+  rússia: iso2=ru, iso3=rus, gen=f, num=s, sinonimo="federação russa"
+  saara ocidental: iso2=eh, iso3=esh, gen=m, num=s, sinonimo="sara ocidental"
+  saint-barthélemy: iso2=bl, iso3=blm, gen=m, num=s, sin=1, raiz="são bartolomeu"
+  saint-martin: iso2=mf, iso3=maf, gen=m, num=s, sin=1, raiz="são martinho"
+  saint-pierre e miquelon: iso2=pm, iso3=spm, gen=m, num=s, sin=1, raiz="são pedro e miquelão"
+  samoa: iso2=ws, iso3=wsm, gen=f, num=s
+  samoa americana: iso2=as, iso3=asm, gen=f, num=s
+  san marino: iso2=sm, iso3=smr, gen=m, num=s, sinonimo="são marinho"
+  santa helena: iso2=sh, iso3=shn, gen=f, num=s, sin=1, raiz="santa helena, ascensão e tristão da cunha"
+  santa helena, ascensão e tristão da cunha: iso2=sh, iso3=shn, gen=f, num=s, sinonimo="santa helena"
+  santa lúcia: iso2=lc, iso3=lca, gen=f, num=s
+  santa sé: iso2=va, iso3=vat, gen=f, num=s, sinonimo=[vaticano,"cidade do vaticano"]
+  são bartolomeu: iso2=bl, iso3=blm, gen=m, num=s, sinonimo="saint-barthélemy"
+  são cristóvão e neves: iso2=kn, iso3=kna, gen=m, num=s, sin=1, raiz="são cristóvão e névis"
+  são cristóvão e névis: iso2=kn, iso3=kna, gen=m, num=s, sinonimo="são cristóvão e neves"
+  são marinho: iso2=sm, iso3=smr, gen=m, num=s, sin=1, raiz="san marino"
+  são martinho: iso2=mf, iso3=maf, gen=m, num=s, sinonimo="saint-martin"
+  são pedro e miquelão: iso2=pm, iso3=spm, gen=m, num=s, sinonimo="saint-pierre e miquelon"
+  são tomé e príncipe: iso2=st, iso3=stp, gen=m, num=s
+  são vicente e as granadinas: iso2=vc, iso3=vct, gen=m, num=s, sin=1, raiz="são vicente e granadinas"
+  são vicente e granadinas: iso2=vc, iso3=vct, gen=m, num=s, sinonimo="são vicente e as granadinas"
+  sara ocidental: iso2=eh, iso3=esh, gen=m, num=s, sin=1, raiz="saara ocidental"
+  seicheles: iso2=sc, iso3=syc, gen=f, num=p, sinonimo=seychelles
+  senegal: iso2=sn, iso3=sen, gen=m, num=s
+  serra leoa: iso2=sl, iso3=sle, gen=f, num=s
+  sérvia: iso2=rs, iso3=srb, gen=f, num=s
+  seychelles: iso2=sc, iso3=syc, gen=f, num=p, sin=1, raiz=seicheles
+  singapura: iso2=sg, iso3=sgp, gen=f, num=s, sinonimo=cingapura
+  sint maarten: iso2=sx, iso3=sxm
+  síria: iso2=sy, iso3=syr, gen=f, num=s, sinonimo="república árabe síria"
+  somália: iso2=so, iso3=som, gen=f, num=s
+  sri lanka: iso2=lk, iso3=lka, gen=m, num=s
+  suazilândia: iso2=sz, iso3=swz, gen=f, num=s, sin=1, raiz=essuatíni
+  sudão: iso2=sd, iso3=sdn, gen=m, num=s
+  sudão do sul: iso2=ss, iso3=ssd, gen=m, num=s
+  suécia: iso2=se, iso3=swe, gen=f, num=s
+  suíça: iso2=ch, iso3=che, gen=f, num=s
+  suriname: iso2=sr, iso3=sur, gen=m, num=s
+  svalbard e jan mayen: iso2=sj, iso3=sjm
+  tailândia: iso2=th, iso3=tha, gen=f, num=s
+  taiwan: iso2=tw, iso3=twn, gen=m, num=s
+  tajiquistão: iso2=tj, iso3=tjk, gen=m, num=s
+  tanzânia: iso2=tz, iso3=tza, gen=f, num=s, sinonimo="república unida da tanzânia"
+  tchéquia: iso2=cz, iso3=cze, gen=f, num=s, sinonimo=["república tcheca",chéquia,"república checa"]
+  terras austrais e antárticas francesas: iso2=tf, iso3=atf, gen=f, num=p
+  território britânico do oceano índico: iso2=io, iso3=iot, gen=m, num=s
+  timor leste: iso2=tl, iso3=tls, gen=m, num=s, sin=1, raiz="timor-leste"
+  timor-leste: iso2=tl, iso3=tls, gen=m, num=s, sinonimo="timor leste"
+  togo: iso2=tg, iso3=tgo, gen=m, num=s
+  tokelau: iso2=tk, iso3=tkl, sinonimo=toquelau
+  tonga: iso2=to, iso3=ton, gen=f, num=s
+  toquelau: iso2=tk, iso3=tkl, sin=1, raiz=tokelau
+  trinidad e tobago: iso2=tt, iso3=tto, gen=m, num=s
+  tunísia: iso2=tn, iso3=tun, gen=f, num=s
+  turcomenistão: iso2=tm, iso3=tkm, gen=m, num=s, sinonimo=turquemenistão
+  turquemenistão: iso2=tm, iso3=tkm, gen=m, num=s, sin=1, raiz=turcomenistão
+  turquia: iso2=tr, iso3=tur, gen=f, num=s
+  tuvalu: iso2=tv, iso3=tuv, gen=m, num=s
+  ucrânia: iso2=ua, iso3=ukr, gen=f, num=s
+  uganda: iso2=ug, iso3=uga, gen=f, num=s
+  união das comores: iso2=km, iso3=com, gen=f, num=s, sin=1, raiz=comores
+  uruguai: iso2=uy, iso3=ury, gen=m, num=s
+  usbequistão: iso2=uz, iso3=uzb, gen=m, num=s, sin=1, raiz=uzbequistão
+  uzbequistão: iso2=uz, iso3=uzb, gen=m, num=s, sinonimo=usbequistão
+  vanuatu: iso2=vu, iso3=vut, gen=m, num=s
+  vaticano: iso2=va, iso3=vat, gen=m, num=s, sin=1, raiz="santa sé"
+  venezuela: iso2=ve, iso3=ven, gen=f, num=s, sinonimo="república bolivariana da venezuela"
+  vietnã: iso2=vn, iso3=vnm, gen=m, num=s, sinonimo=[vietname,vietnam]
+  vietnam: iso2=vn, iso3=vnm, gen=m, num=s, sin=1, raiz=vietnã
+  vietname: iso2=vn, iso3=vnm, gen=m, num=s, sin=1, raiz=vietnã
+  wallis e futuna: iso2=wf, iso3=wlf
+  zâmbia: iso2=zm, iso3=zmb, gen=f, num=s
+  zimbabué: iso2=zw, iso3=zwe, gen=m, num=s, sin=1, raiz=zimbábue
+  zimbábue: iso2=zw, iso3=zwe, gen=m, num=s, sinonimo=[zimbabué,zimbabwe]
+  zimbabwe: iso2=zw, iso3=zwe, gen=m, num=s, sin=1, raiz=zimbábue

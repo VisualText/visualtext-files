@@ -1,0 +1,70 @@
+# Meses e dias da semana em português
+#   mes=        número do mês, 1-12 (janeiro=1)
+#   dia=        número do dia da semana, 1-7 (segunda-feira=1, domingo=7,
+#               como em en-monthsdays.dict e na ISO 8601)
+#   abrev=      a abreviatura padrão, na forma por extenso
+#   completo=   na abreviatura ou forma curta, o nome por extenso
+#   ambig=1     a forma é também uma palavra comum ou entrada de outro
+#               dicionário da biblioteca (mar, set, segunda, quinta, dom), por
+#               isso só é mês ou dia em contexto
+# Em português os meses e os dias escrevem-se com minúscula.  Os dias úteis
+# têm forma curta sem "-feira" (segunda, terça).  A forma numérica (2ª-feira,
+# 2ª, 2a) não está aqui: o tokenizador separa o número do ª, e uma chave de
+# dicionário que começa por algarismo nunca casa.  Uma regra deve casar
+# número + ª/a (+ "-feira") e procurar o dia por feira= em pt-mesesdias.kbb.
+janeiro mes=1 abrev=jan pos=s
+jan mes=1 completo=janeiro pos=s
+fevereiro mes=2 abrev=fev pos=s
+fev mes=2 completo=fevereiro pos=s
+março mes=3 abrev=mar pos=s
+mar mes=3 completo=março ambig=1 pos=s
+abril mes=4 abrev=abr pos=s
+abr mes=4 completo=abril pos=s
+maio mes=5 abrev=mai pos=adj
+maio pos=s
+mai mes=5 completo=maio pos=s
+junho mes=6 abrev=jun pos=s
+jun mes=6 completo=junho pos=s
+julho mes=7 abrev=jul pos=s
+jul mes=7 completo=julho pos=s
+agosto mes=8 abrev=ago pos=s
+agosto pos=v
+ago mes=8 completo=agosto pos=s
+setembro mes=9 abrev=set pos=s
+set mes=9 completo=setembro ambig=1 pos=s
+outubro mes=10 abrev=out pos=s
+out mes=10 completo=outubro ambig=1 pos=s
+novembro mes=11 abrev=nov pos=s
+nov mes=11 completo=novembro pos=s
+dezembro mes=12 abrev=dez pos=s
+dez mes=12 completo=dezembro ambig=1 pos=s
+
+segunda-feira dia=1 abrev=seg pos=s
+segunda dia=1 completo=segunda-feira ambig=1 pos=adj
+segunda pos=s
+segunda pos=v
+seg dia=1 completo=segunda-feira pos=s
+terça-feira dia=2 abrev=ter pos=s
+terça dia=2 completo=terça-feira ambig=1 pos=adj
+terça pos=s
+terça pos=v
+ter dia=2 completo=terça-feira ambig=1 pos=v
+quarta-feira dia=3 abrev=qua pos=s
+quarta dia=3 completo=quarta-feira ambig=1 pos=adj
+quarta pos=s
+quarta pos=v
+qua dia=3 completo=quarta-feira pos=s
+quinta-feira dia=4 abrev=qui pos=s
+quinta dia=4 completo=quinta-feira ambig=1 pos=adj
+quinta pos=s
+quinta pos=v
+qui dia=4 completo=quinta-feira pos=s
+sexta-feira dia=5 abrev=sex pos=s
+sexta dia=5 completo=sexta-feira ambig=1 pos=adj
+sexta pos=s
+sex dia=5 completo=sexta-feira ambig=1 pos=s
+sábado dia=6 abrev=sáb pos=s
+sáb dia=6 completo=sábado pos=s
+sab dia=6 completo=sábado pos=s
+domingo dia=7 abrev=dom pos=s
+dom dia=7 completo=domingo ambig=1 pos=s

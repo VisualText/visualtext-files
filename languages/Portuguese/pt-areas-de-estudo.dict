@@ -1,0 +1,719 @@
+# Áreas de estudo em português: disciplinas escolares e áreas académicas.
+# Uma linha por forma.
+#   area=         o nome canónico da área -- em toda entrada, para que as
+#                 regras façam a junção com pt-areas-de-estudo.kbb por este
+#                 atributo e não por $text
+#   grandearea=   a grande área do CNPq / CAPES em que a área se encaixa
+#                 (ciências exatas e da terra, ciências biológicas,
+#                 engenharias, ciências da saúde, ciências agrárias, ciências
+#                 sociais aplicadas, ciências humanas, linguística, letras e
+#                 artes, multidisciplinar)
+#   pai=          a área mais ampla de que esta faz parte, quando existe
+#   nome=1        a forma é o nome canónico           sin=1  um sinónimo
+#   adj=1         uma forma adjetiva (biológico, matemática)
+#   gen=m|f       género, nas formas adjetivas
+#   escolar=1     disciplina comum do ensino fundamental / médio (Brasil) ou
+#                 básico / secundário (Portugal)
+#   idioma=1      o nome é também um idioma e uma nacionalidade (português,
+#                 inglês, latim) -- ver pt-idiomas.dict, pt-nacionalidades.dict
+#   br=1          nome usado só no Brasil       pt=1  usado só em Portugal
+#   ambig=1       a forma é também entrada de outro dicionário da biblioteca
+# Quase todo nome de área é também uma palavra comum (arte, história,
+# leitura, desenho, direito), por isso a leitura como área precisa de
+# contexto: "formado em", "graduação em", "aula de", "departamento de" ou uma
+# grade curricular.  O dicionário não marca isso; só marca as colisões entre
+# dicionários da biblioteca.
+# Os nomes canónicos daqui são o vocabulário de area= em
+# pt-graus-academicos.dict, para que um grau se ligue à sua área por esse
+# atributo.
+administrativa adj=1 area=administração grandearea="ciências sociais aplicadas" gen=f pos=adj
+administrativo adj=1 area=administração grandearea="ciências sociais aplicadas" gen=m pos=adj
+administração nome=1 area=administração grandearea="ciências sociais aplicadas" pos=s
+administração de empresas sin=1 area=administração grandearea="ciências sociais aplicadas" pos=s
+administração hospitalar sin=1 area="gestão em saúde" grandearea="ciências da saúde" pai="saúde coletiva" pos=s
+administração pública nome=1 area="administração pública" grandearea="ciências sociais aplicadas" pos=s
+agricultura sin=1 area="ciências agrárias" grandearea="ciências agrárias" pos=s
+agronomia nome=1 area=agronomia grandearea="ciências agrárias" pai="ciências agrárias" pos=s
+agronómica adj=1 area=agronomia grandearea="ciências agrárias" pai="ciências agrárias" gen=f pos=adj
+agronómico adj=1 area=agronomia grandearea="ciências agrárias" pai="ciências agrárias" gen=m pos=adj
+agronômica adj=1 area=agronomia grandearea="ciências agrárias" pai="ciências agrárias" gen=f pos=adj
+agronômico adj=1 area=agronomia grandearea="ciências agrárias" pai="ciências agrárias" gen=m pos=adj
+agrária adj=1 area="ciências agrárias" grandearea="ciências agrárias" gen=f pos=adj
+agrário adj=1 area="ciências agrárias" grandearea="ciências agrárias" gen=m pos=adj
+agrícola adj=1 area="ciências agrárias" grandearea="ciências agrárias" pos=adj
+alemão nome=1 area=alemão grandearea="linguística, letras e artes" pai="línguas estrangeiras" escolar=1 idioma=1 ambig=1 pos=adj
+alemão pos=s
+algébrica adj=1 area="álgebra" grandearea="ciências exatas e da terra" pai=matemática gen=f escolar=1 pos=adj
+algébrico adj=1 area="álgebra" grandearea="ciências exatas e da terra" pai=matemática gen=m escolar=1 pos=adj
+ambiental adj=1 area="ciências ambientais" grandearea=multidisciplinar pos=adj
+anatomia nome=1 area=anatomia grandearea="ciências biológicas" pai=biologia pos=s
+anatómica adj=1 area=anatomia grandearea="ciências biológicas" pai=biologia gen=f pos=adj
+anatómico adj=1 area=anatomia grandearea="ciências biológicas" pai=biologia gen=m pos=adj
+anatômica adj=1 area=anatomia grandearea="ciências biológicas" pai=biologia gen=f pos=adj
+anatômico adj=1 area=anatomia grandearea="ciências biológicas" pai=biologia gen=m pos=adj
+anestesiologia nome=1 area=anestesiologia grandearea="ciências da saúde" pai=medicina pos=s
+antropologia nome=1 area=antropologia grandearea="ciências humanas" pos=s
+antropológica adj=1 area=antropologia grandearea="ciências humanas" gen=f pos=adj
+antropológico adj=1 area=antropologia grandearea="ciências humanas" gen=m pos=adj
+aprendizado de máquina nome=1 area="aprendizado de máquina" grandearea="ciências exatas e da terra" pai="inteligência artificial" pos=s
+aprendizagem automática sin=1 area="aprendizado de máquina" grandearea="ciências exatas e da terra" pai="inteligência artificial" pos=s
+aprendizagem de máquina sin=1 area="aprendizado de máquina" grandearea="ciências exatas e da terra" pai="inteligência artificial" pos=s
+aquicultura sin=1 area="engenharia de pesca" grandearea="ciências agrárias" pai="ciências agrárias" pos=s
+aritmética nome=1 area=aritmética grandearea="ciências exatas e da terra" pai=matemática escolar=1 pos=adj
+aritmética pos=s
+arqueologia nome=1 area=arqueologia grandearea="ciências humanas" pai=antropologia pos=s
+arqueológica adj=1 area=arqueologia grandearea="ciências humanas" pai=antropologia gen=f pos=adj
+arqueológico adj=1 area=arqueologia grandearea="ciências humanas" pai=antropologia gen=m pos=adj
+arquitectura sin=1 area=arquitetura grandearea="ciências sociais aplicadas" pos=s
+arquitetura nome=1 area=arquitetura grandearea="ciências sociais aplicadas" pos=s
+arquitetura e urbanismo sin=1 area=arquitetura grandearea="ciências sociais aplicadas" pos=s
+arquitetura paisagista sin=1 area=paisagismo grandearea="ciências sociais aplicadas" pai=arquitetura pos=s
+arquitetura paisagística sin=1 area=paisagismo grandearea="ciências sociais aplicadas" pai=arquitetura pos=s
+arquitetónica adj=1 area=arquitetura grandearea="ciências sociais aplicadas" gen=f pos=s
+arquitetónico adj=1 area=arquitetura grandearea="ciências sociais aplicadas" gen=m pos=adj
+arquitetônica adj=1 area=arquitetura grandearea="ciências sociais aplicadas" gen=f pos=adj
+arquitetônico adj=1 area=arquitetura grandearea="ciências sociais aplicadas" gen=m pos=adj
+arquivologia nome=1 area=arquivologia grandearea="ciências sociais aplicadas" pai="ciência da informação" pos=s
+arquivística sin=1 area=arquivologia grandearea="ciências sociais aplicadas" pai="ciência da informação" pos=adj
+arte nome=1 area=arte grandearea="linguística, letras e artes" escolar=1 pos=s
+arte dramática sin=1 area=teatro grandearea="linguística, letras e artes" pai="artes cênicas" escolar=1 pos=s
+artes sin=1 area=arte grandearea="linguística, letras e artes" escolar=1 pos=s
+artes aplicadas nome=1 area="artes aplicadas" grandearea="linguística, letras e artes" pai=arte pos=s
+artes cénicas sin=1 area="artes cênicas" grandearea="linguística, letras e artes" pos=s
+artes cênicas nome=1 area="artes cênicas" grandearea="linguística, letras e artes" pos=s
+artes do espetáculo sin=1 area="artes cênicas" grandearea="linguística, letras e artes" pos=s
+artes liberais nome=1 area="artes liberais" grandearea=multidisciplinar pos=s
+artes performativas sin=1 area="artes cênicas" grandearea="linguística, letras e artes" pos=s
+artes visuais sin=1 area=arte grandearea="linguística, letras e artes" escolar=1 pos=s
+artística adj=1 area=arte grandearea="linguística, letras e artes" gen=f escolar=1 pos=adj
+artístico adj=1 area=arte grandearea="linguística, letras e artes" gen=m escolar=1 pos=adj
+assistência social sin=1 area="serviço social" grandearea="ciências sociais aplicadas" pos=s
+astrofísica nome=1 area=astrofísica grandearea="ciências exatas e da terra" pai=física pos=adj
+astrofísica pos=s
+astronomia nome=1 area=astronomia grandearea="ciências exatas e da terra" pai=ciências pos=s
+astronómica adj=1 area=astronomia grandearea="ciências exatas e da terra" pai=ciências gen=f pos=adj
+astronómico adj=1 area=astronomia grandearea="ciências exatas e da terra" pai=ciências gen=m pos=adj
+astronômica adj=1 area=astronomia grandearea="ciências exatas e da terra" pai=ciências gen=f pos=adj
+astronômico adj=1 area=astronomia grandearea="ciências exatas e da terra" pai=ciências gen=m pos=adj
+atuarial adj=1 area="ciências atuariais" grandearea="ciências sociais aplicadas" pai=administração pos=adj
+atuária sin=1 area="ciências atuariais" grandearea="ciências sociais aplicadas" pai=administração pos=s
+audiologia nome=1 area=audiologia grandearea="ciências da saúde" pai=fonoaudiologia pos=s
+audiovisual sin=1 area=cinema grandearea="linguística, letras e artes" pos=adj
+audiovisual pos=s
+bacteriologia nome=1 area=bacteriologia grandearea="ciências biológicas" pai=biologia pos=s
+belas artes sin=1 area=belas-artes grandearea="linguística, letras e artes" pai=arte pos=s
+belas-artes nome=1 area=belas-artes grandearea="linguística, letras e artes" pai=arte pos=s
+biblioteconomia nome=1 area=biblioteconomia grandearea="ciências sociais aplicadas" pai="ciência da informação" pos=s
+biblioteconomia e documentação sin=1 area=biblioteconomia grandearea="ciências sociais aplicadas" pai="ciência da informação" pos=s
+bio sin=1 area=biologia grandearea="ciências biológicas" pai=ciências escolar=1 pos=adj
+bioengenharia sin=1 area="engenharia biomédica" grandearea=engenharias pai=engenharia pos=s
+biofísica nome=1 area=biofísica grandearea="ciências biológicas" pai=biologia pos=s
+biofísico adj=1 area=biofísica grandearea="ciências biológicas" pai=biologia gen=m pos=s
+biologia nome=1 area=biologia grandearea="ciências biológicas" pai=ciências escolar=1 pos=s
+biologia celular nome=1 area="biologia celular" grandearea="ciências biológicas" pai=biologia pos=s
+biologia evolucionária sin=1 area="biologia evolutiva" grandearea="ciências biológicas" pai=biologia pos=s
+biologia evolutiva nome=1 area="biologia evolutiva" grandearea="ciências biológicas" pai=biologia pos=s
+biologia marinha nome=1 area="biologia marinha" grandearea="ciências biológicas" pai=biologia pos=s
+biologia molecular nome=1 area="biologia molecular" grandearea="ciências biológicas" pai=biologia pos=s
+biologia vegetal sin=1 area=botânica grandearea="ciências biológicas" pai=biologia pos=s
+biológica adj=1 area=biologia grandearea="ciências biológicas" pai=ciências gen=f escolar=1 pos=adj
+biológico adj=1 area=biologia grandearea="ciências biológicas" pai=ciências gen=m escolar=1 pos=adj
+biomedicina nome=1 area=biomedicina grandearea="ciências da saúde" br=1 pos=s
+bioquímica nome=1 area=bioquímica grandearea="ciências biológicas" pai=biologia pos=adj
+bioquímica pos=s
+bioquímico adj=1 area=bioquímica grandearea="ciências biológicas" pai=biologia gen=m pos=adj
+bioquímico pos=s
+biotecnologia nome=1 area=biotecnologia grandearea=multidisciplinar pai=biologia pos=s
+botânica nome=1 area=botânica grandearea="ciências biológicas" pai=biologia pos=adj
+botânica pos=s
+botânico adj=1 area=botânica grandearea="ciências biológicas" pai=biologia gen=m pos=adj
+botânico pos=s
+cadeia de suprimentos sin=1 area=logística grandearea="ciências sociais aplicadas" pai=administração pos=s
+cardiologia nome=1 area=cardiologia grandearea="ciências da saúde" pai=medicina pos=s
+castelhano sin=1 area=espanhol grandearea="linguística, letras e artes" pai="línguas estrangeiras" escolar=1 idioma=1 ambig=1 pos=s
+cerâmica nome=1 area=cerâmica grandearea="linguística, letras e artes" pai=arte pos=adj
+cerâmica pos=s
+chinês nome=1 area=chinês grandearea="linguística, letras e artes" pai="línguas estrangeiras" idioma=1 ambig=1 pos=adj
+chinês pos=s
+cibersegurança sin=1 area="segurança da informação" grandearea="ciências exatas e da terra" pai="ciência da computação" pos=s
+cidadania e desenvolvimento nome=1 area="cidadania e desenvolvimento" grandearea="ciências humanas" pai="estudos sociais" escolar=1 pt=1 pos=s
+científica adj=1 area=ciências grandearea="ciências exatas e da terra" gen=f escolar=1 pos=adj
+científico adj=1 area=ciências grandearea="ciências exatas e da terra" gen=m escolar=1 pos=adj
+cinema nome=1 area=cinema grandearea="linguística, letras e artes" pos=s
+cinema e audiovisual sin=1 area=cinema grandearea="linguística, letras e artes" pos=s
+cinematográfica adj=1 area=cinema grandearea="linguística, letras e artes" gen=f pos=adj
+cinematográfico adj=1 area=cinema grandearea="linguística, letras e artes" gen=m pos=adj
+cirurgia nome=1 area=cirurgia grandearea="ciências da saúde" pai=medicina pos=s
+cirúrgica adj=1 area=cirurgia grandearea="ciências da saúde" pai=medicina gen=f pos=adj
+cirúrgico adj=1 area=cirurgia grandearea="ciências da saúde" pai=medicina gen=m pos=adj
+citologia sin=1 area="biologia celular" grandearea="ciências biológicas" pai=biologia pos=s
+ciência sin=1 area=ciências grandearea="ciências exatas e da terra" escolar=1 pos=s
+ciência ambiental sin=1 area="ciências ambientais" grandearea=multidisciplinar pos=s
+ciência cognitiva nome=1 area="ciência cognitiva" grandearea="ciências humanas" pai=psicologia pos=s
+ciência da computação nome=1 area="ciência da computação" grandearea="ciências exatas e da terra" pos=s
+ciência da informação nome=1 area="ciência da informação" grandearea="ciências sociais aplicadas" pos=s
+ciência da religião sin=1 area="ciências da religião" grandearea="ciências humanas" pai=humanidades pos=s
+ciência de dados nome=1 area="ciência de dados" grandearea="ciências exatas e da terra" pai="ciência da computação" pos=s
+ciência de materiais sin=1 area="engenharia de materiais" grandearea=engenharias pai=engenharia pos=s
+ciência do esporte sin=1 area="ciências do esporte" grandearea="ciências da saúde" pos=s
+ciência do solo nome=1 area="ciência do solo" grandearea="ciências agrárias" pai="ciências agrárias" pos=s
+ciência dos alimentos sin=1 area="ciência e tecnologia de alimentos" grandearea="ciências agrárias" pai="ciências agrárias" pos=s
+ciência dos materiais sin=1 area="engenharia de materiais" grandearea=engenharias pai=engenharia pos=s
+ciência e engenharia de materiais sin=1 area="engenharia de materiais" grandearea=engenharias pai=engenharia pos=s
+ciência e tecnologia de alimentos nome=1 area="ciência e tecnologia de alimentos" grandearea="ciências agrárias" pai="ciências agrárias" pos=s
+ciência política nome=1 area="ciência política" grandearea="ciências humanas" pos=s
+ciências nome=1 area=ciências grandearea="ciências exatas e da terra" escolar=1 pos=s
+ciências agrárias nome=1 area="ciências agrárias" grandearea="ciências agrárias" pos=s
+ciências ambientais nome=1 area="ciências ambientais" grandearea=multidisciplinar pos=s
+ciências aplicadas nome=1 area="ciências aplicadas" grandearea=multidisciplinar pos=s
+ciências atuariais nome=1 area="ciências atuariais" grandearea="ciências sociais aplicadas" pai=administração pos=s
+ciências biológicas sin=1 area=biologia grandearea="ciências biológicas" pai=ciências escolar=1 pos=s
+ciências cognitivas sin=1 area="ciência cognitiva" grandearea="ciências humanas" pai=psicologia pos=s
+ciências contabilísticas sin=1 area=contabilidade grandearea="ciências sociais aplicadas" pai=administração pos=s
+ciências contábeis sin=1 area=contabilidade grandearea="ciências sociais aplicadas" pai=administração pos=s
+ciências da computação sin=1 area="ciência da computação" grandearea="ciências exatas e da terra" pos=s
+ciências da comunicação sin=1 area=comunicação grandearea="ciências sociais aplicadas" pos=s
+ciências da religião nome=1 area="ciências da religião" grandearea="ciências humanas" pai=humanidades pos=s
+ciências da terra sin=1 area=geociências grandearea="ciências exatas e da terra" pai=ciências pos=s
+ciências da vida sin=1 area=biologia grandearea="ciências biológicas" pai=ciências escolar=1 pos=s
+ciências do clima sin=1 area=climatologia grandearea="ciências exatas e da terra" pai=geociências pos=s
+ciências do desporto sin=1 area="ciências do esporte" grandearea="ciências da saúde" pos=s
+ciências do esporte nome=1 area="ciências do esporte" grandearea="ciências da saúde" pos=s
+ciências do mar sin=1 area=oceanografia grandearea="ciências exatas e da terra" pai=geociências pos=s
+ciências domésticas sin=1 area="economia doméstica" grandearea=multidisciplinar escolar=1 pos=s
+ciências económicas sin=1 area=economia grandearea="ciências sociais aplicadas" pos=s
+ciências econômicas sin=1 area=economia grandearea="ciências sociais aplicadas" pos=s
+ciências farmacêuticas sin=1 area=farmácia grandearea="ciências da saúde" pos=s
+ciências florestais sin=1 area="engenharia florestal" grandearea="ciências agrárias" pai="ciências agrárias" pos=s
+ciências físico-químicas sin=1 area=físico-química grandearea="ciências exatas e da terra" pai=química escolar=1 pos=s
+ciências humanas sin=1 area=humanidades grandearea="ciências humanas" pos=s
+ciências jurídicas sin=1 area=direito grandearea="ciências sociais aplicadas" pos=s
+ciências jurídicas e sociais sin=1 area=direito grandearea="ciências sociais aplicadas" pos=s
+ciências naturais sin=1 area=ciências grandearea="ciências exatas e da terra" escolar=1 pos=s
+ciências planetárias nome=1 area="ciências planetárias" grandearea="ciências exatas e da terra" pai=astronomia pos=s
+ciências políticas sin=1 area="ciência política" grandearea="ciências humanas" pos=s
+climatologia nome=1 area=climatologia grandearea="ciências exatas e da terra" pai=geociências pos=s
+clássica adj=1 area="estudos clássicos" grandearea="linguística, letras e artes" pai=letras gen=f pos=adj
+clássico adj=1 area="estudos clássicos" grandearea="linguística, letras e artes" pai=letras gen=m pos=adj
+clássico pos=s
+cognitiva adj=1 area="ciência cognitiva" grandearea="ciências humanas" pai=psicologia gen=f pos=adj
+cognitivo adj=1 area="ciência cognitiva" grandearea="ciências humanas" pai=psicologia gen=m pos=adj
+composição musical nome=1 area="composição musical" grandearea="linguística, letras e artes" pai=música pos=s
+computacional adj=1 area="ciência da computação" grandearea="ciências exatas e da terra" pos=adj
+computação sin=1 area="ciência da computação" grandearea="ciências exatas e da terra" pos=s
+computação gráfica nome=1 area="computação gráfica" grandearea="ciências exatas e da terra" pai="ciência da computação" pos=s
+comunicação nome=1 area=comunicação grandearea="ciências sociais aplicadas" pos=s
+comunicação social sin=1 area=comunicação grandearea="ciências sociais aplicadas" pos=s
+comunicação visual sin=1 area="design gráfico" grandearea="ciências sociais aplicadas" pai=design pos=s
+comércio exterior nome=1 area="comércio exterior" grandearea="ciências sociais aplicadas" pai=administração pos=s
+comércio internacional sin=1 area="comércio exterior" grandearea="ciências sociais aplicadas" pai=administração pos=s
+contabilidade nome=1 area=contabilidade grandearea="ciências sociais aplicadas" pai=administração pos=s
+contabilística adj=1 area=contabilidade grandearea="ciências sociais aplicadas" pai=administração gen=f pos=adj
+contabilístico adj=1 area=contabilidade grandearea="ciências sociais aplicadas" pai=administração gen=m pos=adj
+contábil adj=1 area=contabilidade grandearea="ciências sociais aplicadas" pai=administração pos=adj
+coreano nome=1 area=coreano grandearea="linguística, letras e artes" pai="línguas estrangeiras" idioma=1 ambig=1 pos=s
+cosmologia nome=1 area=cosmologia grandearea="ciências exatas e da terra" pai=astronomia pos=s
+cosmológica adj=1 area=cosmologia grandearea="ciências exatas e da terra" pai=astronomia gen=f pos=adj
+cosmológico adj=1 area=cosmologia grandearea="ciências exatas e da terra" pai=astronomia gen=m pos=adj
+criminologia nome=1 area=criminologia grandearea="ciências humanas" pai=sociologia pos=s
+cálculo nome=1 area=cálculo grandearea="ciências exatas e da terra" pai=matemática pos=s
+cálculo diferencial e integral sin=1 area=cálculo grandearea="ciências exatas e da terra" pai=matemática pos=s
+cênica adj=1 area="artes cênicas" grandearea="linguística, letras e artes" gen=f pos=adj
+cênico adj=1 area="artes cênicas" grandearea="linguística, letras e artes" gen=m pos=adj
+dança nome=1 area=dança grandearea="linguística, letras e artes" pai="artes cênicas" escolar=1 pos=s
+dança pos=v
+datilografia nome=1 area=datilografia grandearea=multidisciplinar escolar=1 pos=s
+demografia nome=1 area=demografia grandearea="ciências sociais aplicadas" pos=s
+demográfica adj=1 area=demografia grandearea="ciências sociais aplicadas" gen=f pos=adj
+demográfico adj=1 area=demografia grandearea="ciências sociais aplicadas" gen=m pos=adj
+dermatologia nome=1 area=dermatologia grandearea="ciências da saúde" pai=medicina pos=s
+desenho nome=1 area=desenho grandearea="linguística, letras e artes" pai=arte escolar=1 pos=s
+desenho pos=v
+desenho industrial sin=1 area="design de produto" grandearea="ciências sociais aplicadas" pai=design pos=s
+desenho técnico nome=1 area="desenho técnico" grandearea=engenharias pai=tecnologia pos=s
+design nome=1 area=design grandearea="ciências sociais aplicadas" pos=s
+design de interiores nome=1 area="design de interiores" grandearea="ciências sociais aplicadas" pai=design pos=s
+design de moda nome=1 area="design de moda" grandearea="ciências sociais aplicadas" pai=design pos=s
+design de produto nome=1 area="design de produto" grandearea="ciências sociais aplicadas" pai=design pos=s
+design gráfico nome=1 area="design gráfico" grandearea="ciências sociais aplicadas" pai=design pos=s
+design industrial sin=1 area="design de produto" grandearea="ciências sociais aplicadas" pai=design pos=s
+didática nome=1 area=didática grandearea="ciências humanas" pai=educação pos=s
+didático adj=1 area=didática grandearea="ciências humanas" pai=educação gen=m pos=adj
+dietética sin=1 area=nutrição grandearea="ciências da saúde" pos=adj
+dietética pos=s
+digitação sin=1 area=datilografia grandearea=multidisciplinar escolar=1 pos=s
+direito nome=1 area=direito grandearea="ciências sociais aplicadas" pos=adj
+direito pos=s
+direito administrativo nome=1 area="direito administrativo" grandearea="ciências sociais aplicadas" pai=direito pos=s
+direito civil nome=1 area="direito civil" grandearea="ciências sociais aplicadas" pai=direito pos=s
+direito comercial sin=1 area="direito empresarial" grandearea="ciências sociais aplicadas" pai=direito pos=s
+direito constitucional nome=1 area="direito constitucional" grandearea="ciências sociais aplicadas" pai=direito pos=s
+direito criminal sin=1 area="direito penal" grandearea="ciências sociais aplicadas" pai=direito pos=s
+direito do trabalho nome=1 area="direito do trabalho" grandearea="ciências sociais aplicadas" pai=direito pos=s
+direito empresarial nome=1 area="direito empresarial" grandearea="ciências sociais aplicadas" pai=direito pos=s
+direito fiscal sin=1 area="direito tributário" grandearea="ciências sociais aplicadas" pai=direito pos=s
+direito internacional nome=1 area="direito internacional" grandearea="ciências sociais aplicadas" pai=direito pos=s
+direito penal nome=1 area="direito penal" grandearea="ciências sociais aplicadas" pai=direito pos=s
+direito trabalhista sin=1 area="direito do trabalho" grandearea="ciências sociais aplicadas" pai=direito pos=s
+direito tributário nome=1 area="direito tributário" grandearea="ciências sociais aplicadas" pai=direito pos=s
+ecologia nome=1 area=ecologia grandearea="ciências biológicas" pai=biologia pos=s
+ecológica adj=1 area=ecologia grandearea="ciências biológicas" pai=biologia gen=f pos=adj
+ecológico adj=1 area=ecologia grandearea="ciências biológicas" pai=biologia gen=m pos=adj
+econometria nome=1 area=econometria grandearea="ciências sociais aplicadas" pai=economia pos=s
+economia nome=1 area=economia grandearea="ciências sociais aplicadas" pos=s
+economia doméstica nome=1 area="economia doméstica" grandearea=multidisciplinar escolar=1 pos=s
+económica adj=1 area=economia grandearea="ciências sociais aplicadas" gen=f pos=adj
+económico adj=1 area=economia grandearea="ciências sociais aplicadas" gen=m pos=adj
+econômica adj=1 area=economia grandearea="ciências sociais aplicadas" gen=f pos=adj
+econômico adj=1 area=economia grandearea="ciências sociais aplicadas" gen=m pos=adj
+educacional adj=1 area=educação grandearea="ciências humanas" pos=adj
+educação nome=1 area=educação grandearea="ciências humanas" pos=s
+educação ambiental nome=1 area="educação ambiental" grandearea=multidisciplinar pai="ciências ambientais" escolar=1 pos=s
+educação artística nome=1 area="educação artística" grandearea="linguística, letras e artes" pai=arte escolar=1 br=1 pos=s
+educação especial nome=1 area="educação especial" grandearea="ciências humanas" pai=educação pos=s
+educação financeira nome=1 area="educação financeira" grandearea="ciências sociais aplicadas" pai=finanças escolar=1 pos=s
+educação física nome=1 area="educação física" grandearea="ciências da saúde" escolar=1 pos=s
+educação inclusiva sin=1 area="educação especial" grandearea="ciências humanas" pai=educação pos=s
+educação infantil nome=1 area="educação infantil" grandearea="ciências humanas" pai=educação pos=s
+educação moral e cívica nome=1 area="educação moral e cívica" grandearea="ciências humanas" pai="estudos sociais" escolar=1 br=1 pos=s
+educação moral e religiosa sin=1 area="ensino religioso" grandearea="ciências humanas" pai="ciências da religião" escolar=1 pos=s
+educação no trânsito sin=1 area="educação para o trânsito" grandearea=multidisciplinar escolar=1 pos=s
+educação para a saúde sin=1 area=saúde grandearea="ciências da saúde" pos=s
+educação para o trânsito nome=1 area="educação para o trânsito" grandearea=multidisciplinar escolar=1 pos=s
+educação religiosa sin=1 area="ensino religioso" grandearea="ciências humanas" pai="ciências da religião" escolar=1 pos=s
+educação rodoviária sin=1 area="educação para o trânsito" grandearea=multidisciplinar escolar=1 pos=s
+educação tecnológica nome=1 area="educação tecnológica" grandearea=engenharias pai=tecnologia escolar=1 pt=1 pos=s
+educação visual nome=1 area="educação visual" grandearea="linguística, letras e artes" pai=arte escolar=1 pt=1 pos=s
+emc sin=1 area="educação moral e cívica" grandearea="ciências humanas" pai="estudos sociais" escolar=1 br=1 pos=s
+empreendedorismo nome=1 area=empreendedorismo grandearea="ciências sociais aplicadas" pai=administração pos=s
+enfermagem nome=1 area=enfermagem grandearea="ciências da saúde" pos=s
+engenharia nome=1 area=engenharia grandearea=engenharias pos=s
+engenharia pos=v
+engenharia aeroespacial nome=1 area="engenharia aeroespacial" grandearea=engenharias pai=engenharia pos=s
+engenharia aeronáutica sin=1 area="engenharia aeroespacial" grandearea=engenharias pai=engenharia pos=s
+engenharia agronómica sin=1 area=agronomia grandearea="ciências agrárias" pai="ciências agrárias" pos=s
+engenharia agronômica sin=1 area=agronomia grandearea="ciências agrárias" pai="ciências agrárias" pos=s
+engenharia agrícola nome=1 area="engenharia agrícola" grandearea="ciências agrárias" pai="ciências agrárias" pos=s
+engenharia ambiental nome=1 area="engenharia ambiental" grandearea=engenharias pai=engenharia pos=s
+engenharia biomédica nome=1 area="engenharia biomédica" grandearea=engenharias pai=engenharia pos=s
+engenharia civil nome=1 area="engenharia civil" grandearea=engenharias pai=engenharia pos=s
+engenharia da computação sin=1 area="engenharia de computação" grandearea=engenharias pai=engenharia pos=s
+engenharia de alimentos sin=1 area="ciência e tecnologia de alimentos" grandearea="ciências agrárias" pai="ciências agrárias" pos=s
+engenharia de automação sin=1 area="engenharia de controle e automação" grandearea=engenharias pai=engenharia pos=s
+engenharia de computação nome=1 area="engenharia de computação" grandearea=engenharias pai=engenharia pos=s
+engenharia de controle e automação nome=1 area="engenharia de controle e automação" grandearea=engenharias pai=engenharia pos=s
+engenharia de estruturas nome=1 area="engenharia de estruturas" grandearea=engenharias pai="engenharia civil" pos=s
+engenharia de materiais nome=1 area="engenharia de materiais" grandearea=engenharias pai=engenharia pos=s
+engenharia de minas nome=1 area="engenharia de minas" grandearea=engenharias pai=engenharia pos=s
+engenharia de pesca nome=1 area="engenharia de pesca" grandearea="ciências agrárias" pai="ciências agrárias" pos=s
+engenharia de petróleo nome=1 area="engenharia de petróleo" grandearea=engenharias pai=engenharia pos=s
+engenharia de produção nome=1 area="engenharia de produção" grandearea=engenharias pai=engenharia pos=s
+engenharia de sistemas nome=1 area="engenharia de sistemas" grandearea=engenharias pai=engenharia pos=s
+engenharia de software nome=1 area="engenharia de software" grandearea="ciências exatas e da terra" pai="ciência da computação" pos=s
+engenharia de telecomunicações nome=1 area="engenharia de telecomunicações" grandearea=engenharias pai="engenharia elétrica" pos=s
+engenharia do petróleo sin=1 area="engenharia de petróleo" grandearea=engenharias pai=engenharia pos=s
+engenharia electrotécnica sin=1 area="engenharia elétrica" grandearea=engenharias pai=engenharia pos=s
+engenharia eletrotécnica sin=1 area="engenharia elétrica" grandearea=engenharias pai=engenharia pos=s
+engenharia eletrónica sin=1 area="engenharia eletrônica" grandearea=engenharias pai="engenharia elétrica" pos=s
+engenharia eletrônica nome=1 area="engenharia eletrônica" grandearea=engenharias pai="engenharia elétrica" pos=s
+engenharia elétrica nome=1 area="engenharia elétrica" grandearea=engenharias pai=engenharia pos=s
+engenharia estrutural sin=1 area="engenharia de estruturas" grandearea=engenharias pai="engenharia civil" pos=s
+engenharia florestal nome=1 area="engenharia florestal" grandearea="ciências agrárias" pai="ciências agrárias" pos=s
+engenharia industrial sin=1 area="engenharia de produção" grandearea=engenharias pai=engenharia pos=s
+engenharia informática sin=1 area="engenharia de computação" grandearea=engenharias pai=engenharia pos=s
+engenharia mecatrônica sin=1 area="engenharia de controle e automação" grandearea=engenharias pai=engenharia pos=s
+engenharia mecânica nome=1 area="engenharia mecânica" grandearea=engenharias pai=engenharia pos=s
+engenharia naval nome=1 area="engenharia naval" grandearea=engenharias pai=engenharia pos=s
+engenharia naval e oceânica sin=1 area="engenharia naval" grandearea=engenharias pai=engenharia pos=s
+engenharia nuclear nome=1 area="engenharia nuclear" grandearea=engenharias pai=engenharia pos=s
+engenharia química nome=1 area="engenharia química" grandearea=engenharias pai=engenharia pos=s
+engenharia rural sin=1 area="engenharia agrícola" grandearea="ciências agrárias" pai="ciências agrárias" pos=s
+engenharia sanitária nome=1 area="engenharia sanitária" grandearea=engenharias pai="engenharia civil" pos=s
+engenharia sanitária e ambiental sin=1 area="engenharia ambiental" grandearea=engenharias pai=engenharia pos=s
+engenharias sin=1 area=engenharia grandearea=engenharias pos=s
+engenharias pos=v
+ensino religioso nome=1 area="ensino religioso" grandearea="ciências humanas" pai="ciências da religião" escolar=1 pos=s
+entomologia nome=1 area=entomologia grandearea="ciências biológicas" pai=biologia pos=s
+epidemiologia nome=1 area=epidemiologia grandearea="ciências da saúde" pai="saúde coletiva" pos=s
+epidemiológica adj=1 area=epidemiologia grandearea="ciências da saúde" pai="saúde coletiva" gen=f pos=adj
+epidemiológico adj=1 area=epidemiologia grandearea="ciências da saúde" pai="saúde coletiva" gen=m pos=adj
+epistemologia nome=1 area=epistemologia grandearea="ciências humanas" pai=filosofia pos=s
+escrita criativa nome=1 area="escrita criativa" grandearea="linguística, letras e artes" pai=letras pos=s
+escultura nome=1 area=escultura grandearea="linguística, letras e artes" pai=arte pos=s
+escultura pos=v
+espanhol nome=1 area=espanhol grandearea="linguística, letras e artes" pai="línguas estrangeiras" escolar=1 idioma=1 ambig=1 pos=adj
+espanhol pos=s
+estatística nome=1 area=estatística grandearea="ciências exatas e da terra" pai=matemática pos=adj
+estatística pos=s
+estatístico adj=1 area=estatística grandearea="ciências exatas e da terra" pai=matemática gen=m pos=adj
+estudo do meio nome=1 area="estudo do meio" grandearea="ciências humanas" pai="estudos sociais" escolar=1 pt=1 pos=s
+estudos ambientais sin=1 area="ciências ambientais" grandearea=multidisciplinar pos=s
+estudos clássicos nome=1 area="estudos clássicos" grandearea="linguística, letras e artes" pai=letras pos=s
+estudos de cinema sin=1 area=cinema grandearea="linguística, letras e artes" pos=s
+estudos de género sin=1 area="estudos de gênero" grandearea="ciências humanas" pos=s
+estudos de gênero nome=1 area="estudos de gênero" grandearea="ciências humanas" pos=s
+estudos de mídia sin=1 area="rádio e televisão" grandearea="ciências sociais aplicadas" pai=comunicação pos=s
+estudos dos media sin=1 area="rádio e televisão" grandearea="ciências sociais aplicadas" pai=comunicação pos=s
+estudos feministas sin=1 area="estudos de gênero" grandearea="ciências humanas" pos=s
+estudos interdisciplinares nome=1 area="estudos interdisciplinares" grandearea=multidisciplinar pos=s
+estudos internacionais sin=1 area="relações internacionais" grandearea="ciências sociais aplicadas" pos=s
+estudos liberais sin=1 area="artes liberais" grandearea=multidisciplinar pos=s
+estudos multidisciplinares sin=1 area="estudos interdisciplinares" grandearea=multidisciplinar pos=s
+estudos religiosos sin=1 area="ciências da religião" grandearea="ciências humanas" pai=humanidades pos=s
+estudos sociais nome=1 area="estudos sociais" grandearea="ciências humanas" escolar=1 pos=s
+farmacologia nome=1 area=farmacologia grandearea="ciências biológicas" pai=biologia pos=s
+farmacológica adj=1 area=farmacologia grandearea="ciências biológicas" pai=biologia gen=f pos=adj
+farmacológico adj=1 area=farmacologia grandearea="ciências biológicas" pai=biologia gen=m pos=adj
+farmacêutica adj=1 area=farmácia grandearea="ciências da saúde" gen=f pos=adj
+farmacêutica pos=s
+farmacêutico adj=1 area=farmácia grandearea="ciências da saúde" gen=m pos=adj
+farmacêutico pos=s
+farmácia nome=1 area=farmácia grandearea="ciências da saúde" pos=s
+filosofia nome=1 area=filosofia grandearea="ciências humanas" pai=humanidades escolar=1 pos=s
+filosófica adj=1 area=filosofia grandearea="ciências humanas" pai=humanidades gen=f escolar=1 pos=adj
+filosófico adj=1 area=filosofia grandearea="ciências humanas" pai=humanidades gen=m escolar=1 pos=adj
+financeira adj=1 area=finanças grandearea="ciências sociais aplicadas" pai=administração gen=f pos=adj
+financeira pos=s
+financeiro adj=1 area=finanças grandearea="ciências sociais aplicadas" pai=administração gen=m pos=adj
+financeiro pos=s
+finanças nome=1 area=finanças grandearea="ciências sociais aplicadas" pai=administração pos=s
+fisiologia nome=1 area=fisiologia grandearea="ciências biológicas" pai=biologia pos=s
+fisiológica adj=1 area=fisiologia grandearea="ciências biológicas" pai=biologia gen=f pos=adj
+fisiológico adj=1 area=fisiologia grandearea="ciências biológicas" pai=biologia gen=m pos=adj
+fisioterapia nome=1 area=fisioterapia grandearea="ciências da saúde" pos=s
+fonoaudiologia nome=1 area=fonoaudiologia grandearea="ciências da saúde" pos=s
+fotografia nome=1 area=fotografia grandearea="linguística, letras e artes" pai=arte pos=s
+fotográfica adj=1 area=fotografia grandearea="linguística, letras e artes" pai=arte gen=f pos=adj
+fotográfico adj=1 area=fotografia grandearea="linguística, letras e artes" pai=arte gen=m pos=adj
+francês nome=1 area=francês grandearea="linguística, letras e artes" pai="línguas estrangeiras" escolar=1 idioma=1 ambig=1 pos=adj
+francês pos=s
+física nome=1 area=física grandearea="ciências exatas e da terra" pai=ciências escolar=1 pos=adj
+física pos=s
+física de altas energias sin=1 area="física de partículas" grandearea="ciências exatas e da terra" pai=física pos=s
+física de partículas nome=1 area="física de partículas" grandearea="ciências exatas e da terra" pai=física pos=s
+física nuclear nome=1 area="física nuclear" grandearea="ciências exatas e da terra" pai=física pos=s
+física quântica sin=1 area="mecânica quântica" grandearea="ciências exatas e da terra" pai=física pos=s
+físico-química nome=1 area=físico-química grandearea="ciências exatas e da terra" pai=química escolar=1 pos=s
+genética nome=1 area=genética grandearea="ciências biológicas" pai=biologia pos=adj
+genética pos=s
+genético adj=1 area=genética grandearea="ciências biológicas" pai=biologia gen=m pos=adj
+genómica sin=1 area=genômica grandearea="ciências biológicas" pai=genética pos=s
+genómico adj=1 area=genômica grandearea="ciências biológicas" pai=genética gen=m pos=adj
+genômica nome=1 area=genômica grandearea="ciências biológicas" pai=genética pos=s
+genômico adj=1 area=genômica grandearea="ciências biológicas" pai=genética gen=m pos=adj
+geociências nome=1 area=geociências grandearea="ciências exatas e da terra" pai=ciências pos=s
+geografia nome=1 area=geografia grandearea="ciências humanas" pai="estudos sociais" escolar=1 pos=s
+geografia física nome=1 area="geografia física" grandearea="ciências humanas" pai=geografia pos=s
+geografia humana nome=1 area="geografia humana" grandearea="ciências humanas" pai=geografia pos=s
+geográfica adj=1 area=geografia grandearea="ciências humanas" pai="estudos sociais" gen=f escolar=1 pos=adj
+geográfico adj=1 area=geografia grandearea="ciências humanas" pai="estudos sociais" gen=m escolar=1 pos=adj
+geologia nome=1 area=geologia grandearea="ciências exatas e da terra" pai=geociências pos=s
+geológica adj=1 area=geologia grandearea="ciências exatas e da terra" pai=geociências gen=f pos=adj
+geológico adj=1 area=geologia grandearea="ciências exatas e da terra" pai=geociências gen=m pos=adj
+geometria nome=1 area=geometria grandearea="ciências exatas e da terra" pai=matemática escolar=1 pos=s
+geométrica adj=1 area=geometria grandearea="ciências exatas e da terra" pai=matemática gen=f escolar=1 pos=adj
+geométrico adj=1 area=geometria grandearea="ciências exatas e da terra" pai=matemática gen=m escolar=1 pos=adj
+geriatria nome=1 area=geriatria grandearea="ciências da saúde" pai=medicina pos=s
+gestão sin=1 area=administração grandearea="ciências sociais aplicadas" pos=s
+gestão ambiental sin=1 area="ciências ambientais" grandearea=multidisciplinar pos=s
+gestão da cadeia de suprimentos sin=1 area=logística grandearea="ciências sociais aplicadas" pai=administração pos=s
+gestão de empresas sin=1 area=administração grandearea="ciências sociais aplicadas" pos=s
+gestão de pessoas sin=1 area="recursos humanos" grandearea="ciências sociais aplicadas" pai=administração pos=s
+gestão de recursos humanos sin=1 area="recursos humanos" grandearea="ciências sociais aplicadas" pai=administração pos=s
+gestão em saúde nome=1 area="gestão em saúde" grandearea="ciências da saúde" pai="saúde coletiva" pos=s
+gestão hospitalar sin=1 area="gestão em saúde" grandearea="ciências da saúde" pai="saúde coletiva" pos=s
+gestão hoteleira sin=1 area=hotelaria grandearea="ciências sociais aplicadas" pai=administração pos=s
+gestão imobiliária nome=1 area="gestão imobiliária" grandearea="ciências sociais aplicadas" pai=administração pos=s
+gestão pública sin=1 area="administração pública" grandearea="ciências sociais aplicadas" pos=s
+ginecologia nome=1 area=ginecologia grandearea="ciências da saúde" pai=medicina pos=s
+gramatical adj=1 area=gramática grandearea="linguística, letras e artes" pai="língua portuguesa" escolar=1 pos=adj
+gramática nome=1 area=gramática grandearea="linguística, letras e artes" pai="língua portuguesa" escolar=1 pos=adj
+gramática pos=s
+gravura nome=1 area=gravura grandearea="linguística, letras e artes" pai=arte pos=s
+grego nome=1 area=grego grandearea="linguística, letras e artes" pai="estudos clássicos" idioma=1 ambig=1 pos=adj
+grego pos=s
+hebraico nome=1 area=hebraico grandearea="linguística, letras e artes" pai="línguas estrangeiras" idioma=1 ambig=1 pos=adj
+hebraico pos=s
+hidrologia nome=1 area=hidrologia grandearea="ciências exatas e da terra" pai=geociências pos=s
+história nome=1 area=história grandearea="ciências humanas" pai="estudos sociais" escolar=1 pos=s
+história antiga nome=1 area="história antiga" grandearea="ciências humanas" pai=história pos=s
+história da arte nome=1 area="história da arte" grandearea="ciências humanas" pai=história pos=s
+história de portugal nome=1 area="história de portugal" grandearea="ciências humanas" pai=história escolar=1 pt=1 pos=s
+história do brasil nome=1 area="história do brasil" grandearea="ciências humanas" pai=história escolar=1 br=1 pos=s
+história geral nome=1 area="história geral" grandearea="ciências humanas" pai=história escolar=1 pos=s
+história mundial sin=1 area="história geral" grandearea="ciências humanas" pai=história escolar=1 pos=s
+histórica adj=1 area=história grandearea="ciências humanas" pai="estudos sociais" gen=f escolar=1 pos=adj
+histórica pos=s
+histórico adj=1 area=história grandearea="ciências humanas" pai="estudos sociais" gen=m escolar=1 pos=adj
+histórico pos=s
+horticultura nome=1 area=horticultura grandearea="ciências agrárias" pai="ciências agrárias" pos=s
+hotelaria nome=1 area=hotelaria grandearea="ciências sociais aplicadas" pai=administração pos=s
+humanidades nome=1 area=humanidades grandearea="ciências humanas" pos=s
+ia sin=1 area="inteligência artificial" grandearea="ciências exatas e da terra" pai="ciência da computação" pos=v
+ihc sin=1 area="interação humano-computador" grandearea="ciências exatas e da terra" pai="ciência da computação" pos=s
+imunologia nome=1 area=imunologia grandearea="ciências biológicas" pai=biologia pos=s
+imunológica adj=1 area=imunologia grandearea="ciências biológicas" pai=biologia gen=f pos=adj
+imunológico adj=1 area=imunologia grandearea="ciências biológicas" pai=biologia gen=m pos=adj
+informática sin=1 area="ciência da computação" grandearea="ciências exatas e da terra" pos=s
+inglês nome=1 area=inglês grandearea="linguística, letras e artes" pai="línguas estrangeiras" escolar=1 idioma=1 ambig=1 pos=adj
+inglês pos=s
+inteligência artificial nome=1 area="inteligência artificial" grandearea="ciências exatas e da terra" pai="ciência da computação" pos=s
+interação humano-computador nome=1 area="interação humano-computador" grandearea="ciências exatas e da terra" pai="ciência da computação" pos=s
+interação pessoa-computador sin=1 area="interação humano-computador" grandearea="ciências exatas e da terra" pai="ciência da computação" pos=s
+interdisciplinar sin=1 area="estudos interdisciplinares" grandearea=multidisciplinar pos=adj
+investigação sin=1 area=pesquisa grandearea=multidisciplinar pos=s
+italiano nome=1 area=italiano grandearea="linguística, letras e artes" pai="línguas estrangeiras" idioma=1 ambig=1 pos=adj
+italiano pos=s
+japonês nome=1 area=japonês grandearea="linguística, letras e artes" pai="línguas estrangeiras" idioma=1 ambig=1 pos=adj
+japonês pos=s
+jornalismo nome=1 area=jornalismo grandearea="ciências sociais aplicadas" pai=comunicação pos=s
+jornalística adj=1 area=jornalismo grandearea="ciências sociais aplicadas" pai=comunicação gen=f pos=adj
+jornalístico adj=1 area=jornalismo grandearea="ciências sociais aplicadas" pai=comunicação gen=m pos=adj
+jurídica adj=1 area=direito grandearea="ciências sociais aplicadas" gen=f pos=adj
+jurídico adj=1 area=direito grandearea="ciências sociais aplicadas" gen=m pos=adj
+latim nome=1 area=latim grandearea="linguística, letras e artes" pai="estudos clássicos" idioma=1 ambig=1 pos=s
+leitura nome=1 area=leitura grandearea="linguística, letras e artes" pai="língua portuguesa" escolar=1 pos=s
+letras nome=1 area=letras grandearea="linguística, letras e artes" pos=s
+letras clássicas sin=1 area="estudos clássicos" grandearea="linguística, letras e artes" pai=letras pos=s
+libras nome=1 area=libras grandearea="linguística, letras e artes" pai=letras escolar=1 idioma=1 br=1 pos=s
+libras pos=v
+linguística nome=1 area=linguística grandearea="linguística, letras e artes" pai=letras pos=adj
+linguística pos=s
+linguístico adj=1 area=linguística grandearea="linguística, letras e artes" pai=letras gen=m pos=adj
+lingüística sin=1 area=linguística grandearea="linguística, letras e artes" pai=letras pos=s
+literatura nome=1 area=literatura grandearea="linguística, letras e artes" pai=letras escolar=1 pos=s
+literária adj=1 area=literatura grandearea="linguística, letras e artes" pai=letras gen=f escolar=1 pos=adj
+literário adj=1 area=literatura grandearea="linguística, letras e artes" pai=letras gen=m escolar=1 pos=adj
+logística nome=1 area=logística grandearea="ciências sociais aplicadas" pai=administração pos=adj
+logística pos=s
+língua alemã sin=1 area=alemão grandearea="linguística, letras e artes" pai="línguas estrangeiras" escolar=1 idioma=1 pos=s
+língua brasileira de sinais sin=1 area=libras grandearea="linguística, letras e artes" pai=letras escolar=1 idioma=1 br=1 pos=s
+língua espanhola sin=1 area=espanhol grandearea="linguística, letras e artes" pai="línguas estrangeiras" escolar=1 idioma=1 pos=s
+língua estrangeira sin=1 area="línguas estrangeiras" grandearea="linguística, letras e artes" pai=letras escolar=1 pos=s
+língua estrangeira moderna sin=1 area="línguas estrangeiras" grandearea="linguística, letras e artes" pai=letras escolar=1 pos=s
+língua francesa sin=1 area=francês grandearea="linguística, letras e artes" pai="línguas estrangeiras" escolar=1 idioma=1 pos=s
+língua inglesa sin=1 area=inglês grandearea="linguística, letras e artes" pai="línguas estrangeiras" escolar=1 idioma=1 pos=s
+língua italiana sin=1 area=italiano grandearea="linguística, letras e artes" pai="línguas estrangeiras" idioma=1 pos=s
+língua portuguesa nome=1 area="língua portuguesa" grandearea="linguística, letras e artes" pai=letras escolar=1 idioma=1 pos=s
+línguas estrangeiras nome=1 area="línguas estrangeiras" grandearea="linguística, letras e artes" pai=letras escolar=1 pos=s
+línguas modernas sin=1 area="línguas estrangeiras" grandearea="linguística, letras e artes" pai=letras escolar=1 pos=s
+lógica nome=1 area=lógica grandearea="ciências exatas e da terra" pos=adj
+lógica pos=s
+lógico adj=1 area=lógica grandearea="ciências exatas e da terra" gen=m pos=adj
+lógico pos=s
+machine learning sin=1 area="aprendizado de máquina" grandearea="ciências exatas e da terra" pai="inteligência artificial" pos=s
+macroeconomia nome=1 area=macroeconomia grandearea="ciências sociais aplicadas" pai=economia pos=s
+mandarim sin=1 area=chinês grandearea="linguística, letras e artes" pai="línguas estrangeiras" idioma=1 pos=s
+marketing nome=1 area=marketing grandearea="ciências sociais aplicadas" pai=administração pos=s
+matemática nome=1 area=matemática grandearea="ciências exatas e da terra" escolar=1 pos=adj
+matemática pos=s
+matemática aplicada nome=1 area="matemática aplicada" grandearea="ciências exatas e da terra" pai=matemática pos=s
+matemática discreta nome=1 area="matemática discreta" grandearea="ciências exatas e da terra" pai=matemática pos=s
+matemáticas sin=1 area=matemática grandearea="ciências exatas e da terra" escolar=1 pos=adj
+matemáticas pos=s
+matemático adj=1 area=matemática grandearea="ciências exatas e da terra" gen=m escolar=1 pos=adj
+matemático pos=s
+mecatrónica sin=1 area="engenharia de controle e automação" grandearea=engenharias pai=engenharia pos=s
+mecatrônica sin=1 area="engenharia de controle e automação" grandearea=engenharias pai=engenharia pos=s
+mecânica nome=1 area=mecânica grandearea="ciências exatas e da terra" pai=física pos=adj
+mecânica pos=s
+mecânica quântica nome=1 area="mecânica quântica" grandearea="ciências exatas e da terra" pai=física pos=s
+medicina nome=1 area=medicina grandearea="ciências da saúde" pos=s
+medicina pos=v
+medicina de família nome=1 area="medicina de família" grandearea="ciências da saúde" pai=medicina pos=s
+medicina de família e comunidade sin=1 area="medicina de família" grandearea="ciências da saúde" pai=medicina pos=s
+medicina dentária sin=1 area=odontologia grandearea="ciências da saúde" pos=s
+medicina geral e familiar sin=1 area="medicina de família" grandearea="ciências da saúde" pai=medicina pos=s
+medicina veterinária nome=1 area="medicina veterinária" grandearea="ciências agrárias" pos=s
+mercadologia sin=1 area=marketing grandearea="ciências sociais aplicadas" pai=administração pos=s
+metafísica nome=1 area=metafísica grandearea="ciências humanas" pai=filosofia pos=adj
+metafísica pos=s
+meteorologia nome=1 area=meteorologia grandearea="ciências exatas e da terra" pai=geociências pos=s
+meteorológica adj=1 area=meteorologia grandearea="ciências exatas e da terra" pai=geociências gen=f pos=adj
+meteorológico adj=1 area=meteorologia grandearea="ciências exatas e da terra" pai=geociências gen=m pos=adj
+micologia nome=1 area=micologia grandearea="ciências biológicas" pai=biologia pos=s
+microbiologia nome=1 area=microbiologia grandearea="ciências biológicas" pai=biologia pos=s
+microbiológica adj=1 area=microbiologia grandearea="ciências biológicas" pai=biologia gen=f pos=adj
+microbiológico adj=1 area=microbiologia grandearea="ciências biológicas" pai=biologia gen=m pos=adj
+microeconomia nome=1 area=microeconomia grandearea="ciências sociais aplicadas" pai=economia pos=s
+moral e cívica sin=1 area="educação moral e cívica" grandearea="ciências humanas" pai="estudos sociais" escolar=1 br=1 pos=s
+museologia nome=1 area=museologia grandearea="ciências sociais aplicadas" pai="ciência da informação" pos=s
+musical adj=1 area=música grandearea="linguística, letras e artes" escolar=1 pos=adj
+musical pos=s
+médica adj=1 area=medicina grandearea="ciências da saúde" gen=f pos=adj
+médica pos=s
+médico adj=1 area=medicina grandearea="ciências da saúde" gen=m pos=adj
+médico pos=s
+música nome=1 area=música grandearea="linguística, letras e artes" escolar=1 pos=adj
+música pos=s
+negócios sin=1 area=administração grandearea="ciências sociais aplicadas" pos=s
+negócios imobiliários sin=1 area="gestão imobiliária" grandearea="ciências sociais aplicadas" pai=administração pos=s
+negócios internacionais sin=1 area="comércio exterior" grandearea="ciências sociais aplicadas" pai=administração pos=s
+neurobiologia sin=1 area=neurociência grandearea="ciências biológicas" pai=biologia pos=s
+neurociência nome=1 area=neurociência grandearea="ciências biológicas" pai=biologia pos=s
+neurociências sin=1 area=neurociência grandearea="ciências biológicas" pai=biologia pos=s
+neurologia nome=1 area=neurologia grandearea="ciências da saúde" pai=medicina pos=s
+nutricional adj=1 area=nutrição grandearea="ciências da saúde" pos=adj
+nutrição nome=1 area=nutrição grandearea="ciências da saúde" pos=s
+nutrição e dietética sin=1 area=nutrição grandearea="ciências da saúde" pos=s
+obstetrícia nome=1 area=obstetrícia grandearea="ciências da saúde" pai=medicina pos=adj
+obstetrícia pos=s
+oceanografia nome=1 area=oceanografia grandearea="ciências exatas e da terra" pai=geociências pos=s
+oceanográfica adj=1 area=oceanografia grandearea="ciências exatas e da terra" pai=geociências gen=f pos=adj
+oceanográfico adj=1 area=oceanografia grandearea="ciências exatas e da terra" pai=geociências gen=m pos=adj
+odontologia nome=1 area=odontologia grandearea="ciências da saúde" pos=s
+odontológica adj=1 area=odontologia grandearea="ciências da saúde" gen=f pos=adj
+odontológico adj=1 area=odontologia grandearea="ciências da saúde" gen=m pos=adj
+oncologia nome=1 area=oncologia grandearea="ciências da saúde" pai=medicina pos=s
+optometria nome=1 area=optometria grandearea="ciências da saúde" pos=s
+organização social e política brasileira nome=1 area="organização social e política brasileira" grandearea="ciências humanas" pai="estudos sociais" escolar=1 br=1 pos=s
+ornitologia nome=1 area=ornitologia grandearea="ciências biológicas" pai=biologia pos=s
+ortopedia nome=1 area=ortopedia grandearea="ciências da saúde" pai=medicina pos=s
+ospb sin=1 area="organização social e política brasileira" grandearea="ciências humanas" pai="estudos sociais" escolar=1 br=1 pos=s
+paisagismo nome=1 area=paisagismo grandearea="ciências sociais aplicadas" pai=arquitetura pos=s
+paleontologia nome=1 area=paleontologia grandearea="ciências exatas e da terra" pai=geociências pos=s
+parasitologia nome=1 area=parasitologia grandearea="ciências biológicas" pai=biologia pos=s
+patologia nome=1 area=patologia grandearea="ciências da saúde" pai=medicina pos=s
+patológica adj=1 area=patologia grandearea="ciências da saúde" pai=medicina gen=f pos=adj
+patológico adj=1 area=patologia grandearea="ciências da saúde" pai=medicina gen=m pos=adj
+pedagogia nome=1 area=pedagogia grandearea="ciências humanas" pai=educação pos=s
+pedagógica adj=1 area=pedagogia grandearea="ciências humanas" pai=educação gen=f pos=adj
+pedagógico adj=1 area=pedagogia grandearea="ciências humanas" pai=educação gen=m pos=adj
+pediatria nome=1 area=pediatria grandearea="ciências da saúde" pai=medicina pos=s
+pediátrica adj=1 area=pediatria grandearea="ciências da saúde" pai=medicina gen=f pos=adj
+pediátrico adj=1 area=pediatria grandearea="ciências da saúde" pai=medicina gen=m pos=adj
+pedologia sin=1 area="ciência do solo" grandearea="ciências agrárias" pai="ciências agrárias" pos=s
+pesquisa nome=1 area=pesquisa grandearea=multidisciplinar pos=s
+pesquisa pos=v
+pintura nome=1 area=pintura grandearea="linguística, letras e artes" pai=arte pos=s
+planeamento urbano sin=1 area="planejamento urbano" grandearea="ciências sociais aplicadas" pos=s
+planejamento urbano nome=1 area="planejamento urbano" grandearea="ciências sociais aplicadas" pos=s
+planejamento urbano e regional sin=1 area="planejamento urbano" grandearea="ciências sociais aplicadas" pos=s
+planetologia sin=1 area="ciências planetárias" grandearea="ciências exatas e da terra" pai=astronomia pos=s
+podologia nome=1 area=podologia grandearea="ciências da saúde" pos=s
+poesia nome=1 area=poesia grandearea="linguística, letras e artes" pai=literatura pos=s
+política sin=1 area="ciência política" grandearea="ciências humanas" pos=adj
+política pos=s
+política pública sin=1 area="políticas públicas" grandearea="ciências sociais aplicadas" pai="administração pública" pos=s
+políticas públicas nome=1 area="políticas públicas" grandearea="ciências sociais aplicadas" pai="administração pública" pos=s
+político adj=1 area="ciência política" grandearea="ciências humanas" gen=m pos=adj
+político pos=s
+português sin=1 area="língua portuguesa" grandearea="linguística, letras e artes" pai=letras escolar=1 idioma=1 ambig=1 pos=adj
+português pos=s
+poética adj=1 area=poesia grandearea="linguística, letras e artes" pai=literatura gen=f pos=adj
+poética pos=s
+poético adj=1 area=poesia grandearea="linguística, letras e artes" pai=literatura gen=m pos=adj
+probabilidade nome=1 area=probabilidade grandearea="ciências exatas e da terra" pai=matemática pos=s
+probabilidade e estatística sin=1 area=estatística grandearea="ciências exatas e da terra" pai=matemática pos=s
+produção animal sin=1 area=zootecnia grandearea="ciências agrárias" pai="ciências agrárias" pos=s
+produção de texto sin=1 area=redação grandearea="linguística, letras e artes" pai="língua portuguesa" escolar=1 pos=s
+produção textual sin=1 area=redação grandearea="linguística, letras e artes" pai="língua portuguesa" escolar=1 pos=s
+projeto de vida nome=1 area="projeto de vida" grandearea=multidisciplinar escolar=1 br=1 pos=s
+psicologia nome=1 area=psicologia grandearea="ciências humanas" pos=s
+psicologia clínica nome=1 area="psicologia clínica" grandearea="ciências humanas" pai=psicologia pos=s
+psicologia da educação nome=1 area="psicologia da educação" grandearea="ciências humanas" pai=psicologia pos=s
+psicologia do desenvolvimento nome=1 area="psicologia do desenvolvimento" grandearea="ciências humanas" pai=psicologia pos=s
+psicologia educacional sin=1 area="psicologia da educação" grandearea="ciências humanas" pai=psicologia pos=s
+psicologia social nome=1 area="psicologia social" grandearea="ciências humanas" pai=psicologia pos=s
+psicológica adj=1 area=psicologia grandearea="ciências humanas" gen=f pos=adj
+psicológico adj=1 area=psicologia grandearea="ciências humanas" gen=m pos=adj
+psiquiatria nome=1 area=psiquiatria grandearea="ciências da saúde" pai=medicina pos=s
+psiquiátrica adj=1 area=psiquiatria grandearea="ciências da saúde" pai=medicina gen=f pos=adj
+psiquiátrico adj=1 area=psiquiatria grandearea="ciências da saúde" pai=medicina gen=m pos=adj
+publicidade sin=1 area="publicidade e propaganda" grandearea="ciências sociais aplicadas" pai=comunicação pos=s
+publicidade e propaganda nome=1 area="publicidade e propaganda" grandearea="ciências sociais aplicadas" pai=comunicação pos=s
+publicitária adj=1 area="publicidade e propaganda" grandearea="ciências sociais aplicadas" pai=comunicação gen=f pos=adj
+publicitária pos=s
+publicitário adj=1 area="publicidade e propaganda" grandearea="ciências sociais aplicadas" pai=comunicação gen=m pos=adj
+publicitário pos=s
+quiropraxia nome=1 area=quiropraxia grandearea="ciências da saúde" pos=s
+química nome=1 area=química grandearea="ciências exatas e da terra" pai=ciências escolar=1 pos=adj
+química pos=s
+química analítica nome=1 area="química analítica" grandearea="ciências exatas e da terra" pai=química pos=s
+química inorgânica nome=1 area="química inorgânica" grandearea="ciências exatas e da terra" pai=química pos=s
+química orgânica nome=1 area="química orgânica" grandearea="ciências exatas e da terra" pai=química pos=s
+químico adj=1 area=química grandearea="ciências exatas e da terra" pai=ciências gen=m escolar=1 pos=adj
+químico pos=s
+radiologia nome=1 area=radiologia grandearea="ciências da saúde" pai=medicina pos=s
+recursos humanos nome=1 area="recursos humanos" grandearea="ciências sociais aplicadas" pai=administração pos=s
+recursos pesqueiros sin=1 area="engenharia de pesca" grandearea="ciências agrárias" pai="ciências agrárias" pos=s
+redação nome=1 area=redação grandearea="linguística, letras e artes" pai="língua portuguesa" escolar=1 pos=s
+relações internacionais nome=1 area="relações internacionais" grandearea="ciências sociais aplicadas" pos=s
+relações públicas nome=1 area="relações públicas" grandearea="ciências sociais aplicadas" pai=comunicação pos=s
+retórica nome=1 area=retórica grandearea="linguística, letras e artes" pai=letras pos=adj
+retórica pos=s
+retórico adj=1 area=retórica grandearea="linguística, letras e artes" pai=letras gen=m pos=adj
+retórico pos=s
+robótica nome=1 area=robótica grandearea=engenharias pai=engenharia pos=adj
+robótica pos=s
+russo nome=1 area=russo grandearea="linguística, letras e artes" pai="línguas estrangeiras" idioma=1 ambig=1 pos=adj
+russo pos=s
+rádio e televisão nome=1 area="rádio e televisão" grandearea="ciências sociais aplicadas" pai=comunicação pos=s
+rádio, tv e internet sin=1 area="rádio e televisão" grandearea="ciências sociais aplicadas" pai=comunicação pos=s
+saúde nome=1 area=saúde grandearea="ciências da saúde" pos=s
+saúde pos=v
+saúde coletiva nome=1 area="saúde coletiva" grandearea="ciências da saúde" pos=s
+saúde pública sin=1 area="saúde coletiva" grandearea="ciências da saúde" pos=s
+secretariado nome=1 area=secretariado grandearea="ciências sociais aplicadas" pai=administração pos=s
+secretariado pos=v
+secretariado executivo sin=1 area=secretariado grandearea="ciências sociais aplicadas" pai=administração pos=s
+segurança cibernética sin=1 area="segurança da informação" grandearea="ciências exatas e da terra" pai="ciência da computação" pos=s
+segurança da informação nome=1 area="segurança da informação" grandearea="ciências exatas e da terra" pai="ciência da computação" pos=s
+serviço social nome=1 area="serviço social" grandearea="ciências sociais aplicadas" pos=s
+silvicultura sin=1 area="engenharia florestal" grandearea="ciências agrárias" pai="ciências agrárias" pos=s
+sismologia nome=1 area=sismologia grandearea="ciências exatas e da terra" pai=geociências pos=s
+sistemas de informação nome=1 area="sistemas de informação" grandearea="ciências exatas e da terra" pai="ciência da computação" pos=s
+sociologia nome=1 area=sociologia grandearea="ciências humanas" escolar=1 pos=s
+sociológica adj=1 area=sociologia grandearea="ciências humanas" gen=f escolar=1 pos=adj
+sociológico adj=1 area=sociologia grandearea="ciências humanas" gen=m escolar=1 pos=adj
+sustentabilidade nome=1 area=sustentabilidade grandearea=multidisciplinar pai="ciências ambientais" pos=s
+teatral adj=1 area=teatro grandearea="linguística, letras e artes" pai="artes cênicas" escolar=1 pos=adj
+teatro nome=1 area=teatro grandearea="linguística, letras e artes" pai="artes cênicas" escolar=1 pos=s
+tecnologia nome=1 area=tecnologia grandearea=engenharias pos=s
+tecnologia da informação nome=1 area="tecnologia da informação" grandearea="ciências exatas e da terra" pai="ciência da computação" pos=s
+tecnologia de alimentos sin=1 area="ciência e tecnologia de alimentos" grandearea="ciências agrárias" pai="ciências agrárias" pos=s
+tecnologias da informação e comunicação nome=1 area="tecnologias da informação e comunicação" grandearea="ciências exatas e da terra" pai="tecnologia da informação" escolar=1 pt=1 pos=s
+tecnológica adj=1 area=tecnologia grandearea=engenharias gen=f pos=adj
+tecnológico adj=1 area=tecnologia grandearea=engenharias gen=m pos=adj
+teologia nome=1 area=teologia grandearea="ciências humanas" pai="ciências da religião" pos=s
+teológica adj=1 area=teologia grandearea="ciências humanas" pai="ciências da religião" gen=f pos=adj
+teológico adj=1 area=teologia grandearea="ciências humanas" pai="ciências da religião" gen=m pos=adj
+teoria dos números nome=1 area="teoria dos números" grandearea="ciências exatas e da terra" pai=matemática pos=s
+teoria musical nome=1 area="teoria musical" grandearea="linguística, letras e artes" pai=música pos=s
+terapia da fala sin=1 area=fonoaudiologia grandearea="ciências da saúde" pos=s
+terapia ocupacional nome=1 area="terapia ocupacional" grandearea="ciências da saúde" pos=s
+termodinâmica nome=1 area=termodinâmica grandearea="ciências exatas e da terra" pai=física pos=adj
+termodinâmica pos=s
+ti sin=1 area="tecnologia da informação" grandearea="ciências exatas e da terra" pai="ciência da computação" pos=pron
+ti pos=s
+tic sin=1 area="tecnologias da informação e comunicação" grandearea="ciências exatas e da terra" pai="tecnologia da informação" escolar=1 pt=1 pos=s
+topologia nome=1 area=topologia grandearea="ciências exatas e da terra" pai=matemática pos=s
+trigonometria nome=1 area=trigonometria grandearea="ciências exatas e da terra" pai=matemática escolar=1 pos=s
+trigonométrica adj=1 area=trigonometria grandearea="ciências exatas e da terra" pai=matemática gen=f escolar=1 pos=adj
+trigonométrico adj=1 area=trigonometria grandearea="ciências exatas e da terra" pai=matemática gen=m escolar=1 pos=adj
+turismo nome=1 area=turismo grandearea="ciências sociais aplicadas" pos=s
+turística adj=1 area=turismo grandearea="ciências sociais aplicadas" gen=f pos=adj
+turístico adj=1 area=turismo grandearea="ciências sociais aplicadas" gen=m pos=adj
+urbanismo sin=1 area="planejamento urbano" grandearea="ciências sociais aplicadas" pos=s
+veterinária sin=1 area="medicina veterinária" grandearea="ciências agrárias" pos=adj
+veterinária pos=s
+veterinário adj=1 area="medicina veterinária" grandearea="ciências agrárias" gen=m pos=adj
+veterinário pos=s
+virologia nome=1 area=virologia grandearea="ciências biológicas" pai=biologia pos=s
+zoologia nome=1 area=zoologia grandearea="ciências biológicas" pai=biologia pos=s
+zoológica adj=1 area=zoologia grandearea="ciências biológicas" pai=biologia gen=f pos=adj
+zoológico adj=1 area=zoologia grandearea="ciências biológicas" pai=biologia gen=m pos=adj
+zootecnia nome=1 area=zootecnia grandearea="ciências agrárias" pai="ciências agrárias" pos=s
+álgebra nome=1 area="álgebra" grandearea="ciências exatas e da terra" pai=matemática escolar=1 pos=s
+álgebra linear nome=1 area="álgebra linear" grandearea="ciências exatas e da terra" pai=matemática pos=s
+árabe nome=1 area="árabe" grandearea="linguística, letras e artes" pai="línguas estrangeiras" idioma=1 ambig=1 pos=adj
+árabe pos=s
+ética nome=1 area="ética" grandearea="ciências humanas" pai=filosofia pos=adj
+ética pos=s
+ético adj=1 area="ética" grandearea="ciências humanas" pai=filosofia gen=m pos=adj
+óptica nome=1 area="óptica" grandearea="ciências exatas e da terra" pai=física pos=adj
+óptica pos=s
+óptico adj=1 area="óptica" grandearea="ciências exatas e da terra" pai=física gen=m pos=adj
+óptico pos=s
+ótica sin=1 area="óptica" grandearea="ciências exatas e da terra" pai=física pos=adj
+ótico adj=1 area="óptica" grandearea="ciências exatas e da terra" pai=física gen=m pos=adj

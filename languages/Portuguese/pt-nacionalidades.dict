@@ -1,0 +1,1535 @@
+# Nacionalidades (gentílicos) em português (grafia brasileira; variantes europeias como sinônimos).
+# Uma linha por forma flexionada: masculino e feminino, singular e plural.
+# Os gentílicos são ao mesmo tempo adjetivo e substantivo.
+#   nacionalidade=1  toda entrada
+#   gen=m|f|c      gênero (c = comum de dois gêneros: belga, canadense)
+#   num=s|p        número
+#   sin=1          variante, gentílico alternativo ou grafia europeia
+#   raiz=          gentílico canônico (masculino singular) da forma
+#   pais=          nome do país como em pt-paises.dict (chave de junção)
+#   iso2= iso3=    códigos ISO 3166-1, os mesmos de pt-paises.dict e en-nationalities.dict
+#   ambig=1        a forma designa mais de um país (ver pt-nacionalidades.kbb)
+# Territórios desabitados (antártida, ilha bouvet, ilhas heard e mcdonald, terras
+# austrais francesas, geórgia do sul, ilhas menores distantes dos estados unidos,
+# território britânico do oceano índico, svalbard) não têm gentílico.  Também ficam
+# de fora pequenos territórios sem gentílico consagrado em português (guernsey,
+# jersey, ilhas cook, ilha christmas, ilhas cocos, ilha norfolk, pitcairn, curaçao,
+# sint maarten, ilhas virgens, ...).
+# Gerado por python/gen_geo_pt.py; não editar à mão.
+afegã nacionalidade=1 gen=f num=s raiz=afegão pais=afeganistão iso2=af iso3=afg pos=adj
+afegã pos=s
+afegão nacionalidade=1 gen=m num=s pais=afeganistão iso2=af iso3=afg pos=adj
+afegão pos=s
+afegãos nacionalidade=1 gen=m num=p raiz=afegão pais=afeganistão iso2=af iso3=afg pos=adj
+afegãos pos=s
+afegãs nacionalidade=1 gen=f num=p raiz=afegão pais=afeganistão iso2=af iso3=afg pos=adj
+afegãs pos=s
+alandês nacionalidade=1 gen=m num=s pais="ilhas åland" iso2=ax iso3=ala pos=s
+alandesa nacionalidade=1 gen=f num=s raiz=alandês pais="ilhas åland" iso2=ax iso3=ala pos=s
+alandesas nacionalidade=1 gen=f num=p raiz=alandês pais="ilhas åland" iso2=ax iso3=ala pos=s
+alandeses nacionalidade=1 gen=m num=p raiz=alandês pais="ilhas åland" iso2=ax iso3=ala pos=s
+albanês nacionalidade=1 gen=m num=s pais=albânia iso2=al iso3=alb pos=adj
+albanês pos=s
+albanesa nacionalidade=1 gen=f num=s raiz=albanês pais=albânia iso2=al iso3=alb pos=adj
+albanesa pos=s
+albanesas nacionalidade=1 gen=f num=p raiz=albanês pais=albânia iso2=al iso3=alb pos=adj
+albanesas pos=s
+albaneses nacionalidade=1 gen=m num=p raiz=albanês pais=albânia iso2=al iso3=alb pos=adj
+albaneses pos=s
+alemã nacionalidade=1 gen=f num=s raiz=alemão pais=alemanha iso2=de iso3=deu pos=adj
+alemã pos=s
+alemães nacionalidade=1 gen=m num=p raiz=alemão pais=alemanha iso2=de iso3=deu pos=adj
+alemães pos=s
+alemão nacionalidade=1 gen=m num=s pais=alemanha iso2=de iso3=deu pos=adj
+alemão pos=s
+alemãs nacionalidade=1 gen=f num=p raiz=alemão pais=alemanha iso2=de iso3=deu pos=adj
+alemãs pos=s
+americana nacionalidade=1 gen=f num=s raiz=americano pais="estados unidos" iso2=us iso3=usa pos=adj
+americana pos=s
+americanas nacionalidade=1 gen=f num=p raiz=americano pais="estados unidos" iso2=us iso3=usa pos=adj
+americanas pos=s
+americano nacionalidade=1 gen=m num=s pais="estados unidos" iso2=us iso3=usa pos=adj
+americano pos=s
+americanos nacionalidade=1 gen=m num=p raiz=americano pais="estados unidos" iso2=us iso3=usa pos=adj
+americanos pos=s
+andorrana nacionalidade=1 gen=f num=s raiz=andorrano pais=andorra iso2=ad iso3=and pos=adj
+andorrana pos=s
+andorranas nacionalidade=1 gen=f num=p raiz=andorrano pais=andorra iso2=ad iso3=and pos=adj
+andorranas pos=s
+andorrano nacionalidade=1 gen=m num=s pais=andorra iso2=ad iso3=and pos=adj
+andorrano pos=s
+andorranos nacionalidade=1 gen=m num=p raiz=andorrano pais=andorra iso2=ad iso3=and pos=adj
+andorranos pos=s
+angolana nacionalidade=1 gen=f num=s raiz=angolano pais=angola iso2=ao iso3=ago pos=adj
+angolana pos=s
+angolanas nacionalidade=1 gen=f num=p raiz=angolano pais=angola iso2=ao iso3=ago pos=adj
+angolanas pos=s
+angolano nacionalidade=1 gen=m num=s pais=angola iso2=ao iso3=ago pos=adj
+angolano pos=s
+angolanos nacionalidade=1 gen=m num=p raiz=angolano pais=angola iso2=ao iso3=ago pos=adj
+angolanos pos=s
+anguilana nacionalidade=1 gen=f num=s raiz=anguilano pais=anguila iso2=ai iso3=aia pos=s
+anguilanas nacionalidade=1 gen=f num=p raiz=anguilano pais=anguila iso2=ai iso3=aia pos=s
+anguilano nacionalidade=1 gen=m num=s pais=anguila iso2=ai iso3=aia pos=s
+anguilanos nacionalidade=1 gen=m num=p raiz=anguilano pais=anguila iso2=ai iso3=aia pos=s
+antiguana nacionalidade=1 gen=f num=s raiz=antiguano pais="antígua e barbuda" iso2=ag iso3=atg pos=s
+antiguanas nacionalidade=1 gen=f num=p raiz=antiguano pais="antígua e barbuda" iso2=ag iso3=atg pos=s
+antiguano nacionalidade=1 gen=m num=s pais="antígua e barbuda" iso2=ag iso3=atg pos=s
+antiguanos nacionalidade=1 gen=m num=p raiz=antiguano pais="antígua e barbuda" iso2=ag iso3=atg pos=s
+árabe-saudita nacionalidade=1 gen=c num=s sin=1 raiz=saudita pais="arábia saudita" iso2=sa iso3=sau pos=s
+árabe-sauditas nacionalidade=1 gen=c num=p sin=1 raiz=saudita pais="arábia saudita" iso2=sa iso3=sau pos=s
+argelina nacionalidade=1 gen=f num=s raiz=argelino pais=argélia iso2=dz iso3=dza pos=adj
+argelina pos=s
+argelinas nacionalidade=1 gen=f num=p raiz=argelino pais=argélia iso2=dz iso3=dza pos=adj
+argelinas pos=s
+argelino nacionalidade=1 gen=m num=s pais=argélia iso2=dz iso3=dza pos=adj
+argelino pos=s
+argelinos nacionalidade=1 gen=m num=p raiz=argelino pais=argélia iso2=dz iso3=dza pos=adj
+argelinos pos=s
+argentina nacionalidade=1 gen=f num=s raiz=argentino pais=argentina iso2=ar iso3=arg pos=adj
+argentina pos=s
+argentinas nacionalidade=1 gen=f num=p raiz=argentino pais=argentina iso2=ar iso3=arg pos=adj
+argentinas pos=s
+argentino nacionalidade=1 gen=m num=s pais=argentina iso2=ar iso3=arg pos=adj
+argentino pos=s
+argentinos nacionalidade=1 gen=m num=p raiz=argentino pais=argentina iso2=ar iso3=arg pos=adj
+argentinos pos=s
+arménia nacionalidade=1 gen=f num=s sin=1 raiz=armênio pais=armênia iso2=am iso3=arm pos=adj
+arménia pos=s
+armênia nacionalidade=1 gen=f num=s raiz=armênio pais=armênia iso2=am iso3=arm pos=s
+arménias nacionalidade=1 gen=f num=p sin=1 raiz=armênio pais=armênia iso2=am iso3=arm pos=adj
+arménias pos=s
+armênias nacionalidade=1 gen=f num=p raiz=armênio pais=armênia iso2=am iso3=arm pos=s
+arménio nacionalidade=1 gen=m num=s sin=1 raiz=armênio pais=armênia iso2=am iso3=arm pos=adj
+arménio pos=s
+armênio nacionalidade=1 gen=m num=s pais=armênia iso2=am iso3=arm pos=s
+arménios nacionalidade=1 gen=m num=p sin=1 raiz=armênio pais=armênia iso2=am iso3=arm pos=adj
+arménios pos=s
+armênios nacionalidade=1 gen=m num=p raiz=armênio pais=armênia iso2=am iso3=arm pos=s
+arubana nacionalidade=1 gen=f num=s raiz=arubano pais=aruba iso2=aw iso3=abw pos=s
+arubanas nacionalidade=1 gen=f num=p raiz=arubano pais=aruba iso2=aw iso3=abw pos=s
+arubano nacionalidade=1 gen=m num=s pais=aruba iso2=aw iso3=abw pos=s
+arubanos nacionalidade=1 gen=m num=p raiz=arubano pais=aruba iso2=aw iso3=abw pos=s
+australiana nacionalidade=1 gen=f num=s raiz=australiano pais=austrália iso2=au iso3=aus pos=adj
+australiana pos=s
+australianas nacionalidade=1 gen=f num=p raiz=australiano pais=austrália iso2=au iso3=aus pos=adj
+australianas pos=s
+australiano nacionalidade=1 gen=m num=s pais=austrália iso2=au iso3=aus pos=adj
+australiano pos=s
+australianos nacionalidade=1 gen=m num=p raiz=australiano pais=austrália iso2=au iso3=aus pos=adj
+australianos pos=s
+austríaca nacionalidade=1 gen=f num=s raiz=austríaco pais="áustria" iso2=at iso3=aut pos=adj
+austríaca pos=s
+austríacas nacionalidade=1 gen=f num=p raiz=austríaco pais="áustria" iso2=at iso3=aut pos=adj
+austríacas pos=s
+austríaco nacionalidade=1 gen=m num=s pais="áustria" iso2=at iso3=aut pos=adj
+austríaco pos=s
+austríacos nacionalidade=1 gen=m num=p raiz=austríaco pais="áustria" iso2=at iso3=aut pos=adj
+austríacos pos=s
+azerbaijana nacionalidade=1 gen=f num=s raiz=azerbaijano pais=azerbaijão iso2=az iso3=aze pos=s
+azerbaijanas nacionalidade=1 gen=f num=p raiz=azerbaijano pais=azerbaijão iso2=az iso3=aze pos=s
+azerbaijano nacionalidade=1 gen=m num=s pais=azerbaijão iso2=az iso3=aze pos=s
+azerbaijanos nacionalidade=1 gen=m num=p raiz=azerbaijano pais=azerbaijão iso2=az iso3=aze pos=s
+azeri nacionalidade=1 gen=c num=s sin=1 raiz=azerbaijano pais=azerbaijão iso2=az iso3=aze pos=adj
+azeri pos=s
+azeris nacionalidade=1 gen=c num=p sin=1 raiz=azerbaijano pais=azerbaijão iso2=az iso3=aze pos=adj
+azeris pos=s
+baamiana nacionalidade=1 gen=f num=s raiz=baamiano pais=bahamas iso2=bs iso3=bhs pos=s
+baamianas nacionalidade=1 gen=f num=p raiz=baamiano pais=bahamas iso2=bs iso3=bhs pos=s
+baamiano nacionalidade=1 gen=m num=s pais=bahamas iso2=bs iso3=bhs pos=s
+baamianos nacionalidade=1 gen=m num=p raiz=baamiano pais=bahamas iso2=bs iso3=bhs pos=s
+bahamense nacionalidade=1 gen=c num=s sin=1 raiz=baamiano pais=bahamas iso2=bs iso3=bhs pos=s
+bahamenses nacionalidade=1 gen=c num=p sin=1 raiz=baamiano pais=bahamas iso2=bs iso3=bhs pos=s
+bangladeshiana nacionalidade=1 gen=f num=s sin=1 raiz=bengali pais=bangladesh iso2=bd iso3=bgd pos=s
+bangladeshianas nacionalidade=1 gen=f num=p sin=1 raiz=bengali pais=bangladesh iso2=bd iso3=bgd pos=s
+bangladeshiano nacionalidade=1 gen=m num=s sin=1 raiz=bengali pais=bangladesh iso2=bd iso3=bgd pos=s
+bangladeshianos nacionalidade=1 gen=m num=p sin=1 raiz=bengali pais=bangladesh iso2=bd iso3=bgd pos=s
+barbadense nacionalidade=1 gen=c num=s sin=1 raiz=barbadiano pais=barbados iso2=bb iso3=brb pos=s
+barbadenses nacionalidade=1 gen=c num=p sin=1 raiz=barbadiano pais=barbados iso2=bb iso3=brb pos=s
+barbadiana nacionalidade=1 gen=f num=s raiz=barbadiano pais=barbados iso2=bb iso3=brb pos=s
+barbadianas nacionalidade=1 gen=f num=p raiz=barbadiano pais=barbados iso2=bb iso3=brb pos=s
+barbadiano nacionalidade=1 gen=m num=s pais=barbados iso2=bb iso3=brb pos=s
+barbadianos nacionalidade=1 gen=m num=p raiz=barbadiano pais=barbados iso2=bb iso3=brb pos=s
+barbudana nacionalidade=1 gen=f num=s sin=1 raiz=antiguano pais="antígua e barbuda" iso2=ag iso3=atg pos=s
+barbudanas nacionalidade=1 gen=f num=p sin=1 raiz=antiguano pais="antígua e barbuda" iso2=ag iso3=atg pos=s
+barbudano nacionalidade=1 gen=m num=s sin=1 raiz=antiguano pais="antígua e barbuda" iso2=ag iso3=atg pos=s
+barbudanos nacionalidade=1 gen=m num=p sin=1 raiz=antiguano pais="antígua e barbuda" iso2=ag iso3=atg pos=s
+bareinita nacionalidade=1 gen=c num=s pais=bahrein iso2=bh iso3=bhr pos=s
+bareinitas nacionalidade=1 gen=c num=p raiz=bareinita pais=bahrein iso2=bh iso3=bhr pos=s
+bechuana nacionalidade=1 gen=f num=s sin=1 raiz=botsuano pais=botsuana iso2=bw iso3=bwa pos=s
+bechuanas nacionalidade=1 gen=f num=p sin=1 raiz=botsuano pais=botsuana iso2=bw iso3=bwa pos=s
+bechuano nacionalidade=1 gen=m num=s sin=1 raiz=botsuano pais=botsuana iso2=bw iso3=bwa pos=s
+bechuanos nacionalidade=1 gen=m num=p sin=1 raiz=botsuano pais=botsuana iso2=bw iso3=bwa pos=s
+belga nacionalidade=1 gen=c num=s pais=bélgica iso2=be iso3=bel pos=adj
+belga pos=s
+belgas nacionalidade=1 gen=c num=p raiz=belga pais=bélgica iso2=be iso3=bel pos=adj
+belgas pos=s
+belizenha nacionalidade=1 gen=f num=s raiz=belizenho pais=belize iso2=bz iso3=blz pos=s
+belizenhas nacionalidade=1 gen=f num=p raiz=belizenho pais=belize iso2=bz iso3=blz pos=s
+belizenho nacionalidade=1 gen=m num=s pais=belize iso2=bz iso3=blz pos=s
+belizenhos nacionalidade=1 gen=m num=p raiz=belizenho pais=belize iso2=bz iso3=blz pos=s
+belizense nacionalidade=1 gen=c num=s sin=1 raiz=belizenho pais=belize iso2=bz iso3=blz pos=s
+belizenses nacionalidade=1 gen=c num=p sin=1 raiz=belizenho pais=belize iso2=bz iso3=blz pos=s
+bengali nacionalidade=1 gen=c num=s pais=bangladesh iso2=bd iso3=bgd pos=s
+bengalis nacionalidade=1 gen=c num=p raiz=bengali pais=bangladesh iso2=bd iso3=bgd pos=s
+beninense nacionalidade=1 gen=c num=s pais=benin iso2=bj iso3=ben pos=s
+beninenses nacionalidade=1 gen=c num=p raiz=beninense pais=benin iso2=bj iso3=ben pos=s
+bermudense nacionalidade=1 gen=c num=s pais=bermudas iso2=bm iso3=bmu pos=s
+bermudenses nacionalidade=1 gen=c num=p raiz=bermudense pais=bermudas iso2=bm iso3=bmu pos=s
+bermudiana nacionalidade=1 gen=f num=s sin=1 raiz=bermudense pais=bermudas iso2=bm iso3=bmu pos=s
+bermudianas nacionalidade=1 gen=f num=p sin=1 raiz=bermudense pais=bermudas iso2=bm iso3=bmu pos=s
+bermudiano nacionalidade=1 gen=m num=s sin=1 raiz=bermudense pais=bermudas iso2=bm iso3=bmu pos=s
+bermudianos nacionalidade=1 gen=m num=p sin=1 raiz=bermudense pais=bermudas iso2=bm iso3=bmu pos=s
+bielorrussa nacionalidade=1 gen=f num=s raiz=bielorrusso pais=bielorrússia iso2=by iso3=blr pos=adj
+bielorrussa pos=s
+bielorrussas nacionalidade=1 gen=f num=p raiz=bielorrusso pais=bielorrússia iso2=by iso3=blr pos=adj
+bielorrussas pos=s
+bielorrusso nacionalidade=1 gen=m num=s pais=bielorrússia iso2=by iso3=blr pos=adj
+bielorrusso pos=s
+bielorrussos nacionalidade=1 gen=m num=p raiz=bielorrusso pais=bielorrússia iso2=by iso3=blr pos=adj
+bielorrussos pos=s
+birmanês nacionalidade=1 gen=m num=s pais=mianmar iso2=mm iso3=mmr pos=adj
+birmanês pos=s
+birmanesa nacionalidade=1 gen=f num=s raiz=birmanês pais=mianmar iso2=mm iso3=mmr pos=adj
+birmanesa pos=s
+birmanesas nacionalidade=1 gen=f num=p raiz=birmanês pais=mianmar iso2=mm iso3=mmr pos=adj
+birmanesas pos=s
+birmaneses nacionalidade=1 gen=m num=p raiz=birmanês pais=mianmar iso2=mm iso3=mmr pos=adj
+birmaneses pos=s
+bissau-guineense nacionalidade=1 gen=c num=s sin=1 raiz=guineense pais="guiné-bissau" iso2=gw iso3=gnb pos=s
+bissau-guineenses nacionalidade=1 gen=c num=p sin=1 raiz=guineense pais="guiné-bissau" iso2=gw iso3=gnb pos=s
+boliviana nacionalidade=1 gen=f num=s raiz=boliviano pais=bolívia iso2=bo iso3=bol pos=adj
+boliviana pos=s
+bolivianas nacionalidade=1 gen=f num=p raiz=boliviano pais=bolívia iso2=bo iso3=bol pos=adj
+bolivianas pos=s
+boliviano nacionalidade=1 gen=m num=s pais=bolívia iso2=bo iso3=bol pos=adj
+boliviano pos=s
+bolivianos nacionalidade=1 gen=m num=p raiz=boliviano pais=bolívia iso2=bo iso3=bol pos=adj
+bolivianos pos=s
+bósnia nacionalidade=1 gen=f num=s raiz=bósnio pais="bósnia e herzegovina" iso2=ba iso3=bih pos=adj
+bósnia pos=s
+bósnias nacionalidade=1 gen=f num=p raiz=bósnio pais="bósnia e herzegovina" iso2=ba iso3=bih pos=adj
+bósnias pos=s
+bósnio nacionalidade=1 gen=m num=s pais="bósnia e herzegovina" iso2=ba iso3=bih pos=adj
+bósnio pos=s
+bósnios nacionalidade=1 gen=m num=p raiz=bósnio pais="bósnia e herzegovina" iso2=ba iso3=bih pos=adj
+bósnios pos=s
+botsuana nacionalidade=1 gen=f num=s raiz=botsuano pais=botsuana iso2=bw iso3=bwa pos=s
+botsuanas nacionalidade=1 gen=f num=p raiz=botsuano pais=botsuana iso2=bw iso3=bwa pos=s
+botsuano nacionalidade=1 gen=m num=s pais=botsuana iso2=bw iso3=bwa pos=s
+botsuanos nacionalidade=1 gen=m num=p raiz=botsuano pais=botsuana iso2=bw iso3=bwa pos=s
+brasileira nacionalidade=1 gen=f num=s raiz=brasileiro pais=brasil iso2=br iso3=bra pos=adj
+brasileira pos=s
+brasileiras nacionalidade=1 gen=f num=p raiz=brasileiro pais=brasil iso2=br iso3=bra pos=adj
+brasileiras pos=s
+brasileiro nacionalidade=1 gen=m num=s pais=brasil iso2=br iso3=bra pos=adj
+brasileiro pos=s
+brasileiros nacionalidade=1 gen=m num=p raiz=brasileiro pais=brasil iso2=br iso3=bra pos=adj
+brasileiros pos=s
+britânica nacionalidade=1 gen=f num=s raiz=britânico pais="reino unido" iso2=gb iso3=gbr pos=adj
+britânica pos=s
+britânicas nacionalidade=1 gen=f num=p raiz=britânico pais="reino unido" iso2=gb iso3=gbr pos=adj
+britânicas pos=s
+britânico nacionalidade=1 gen=m num=s pais="reino unido" iso2=gb iso3=gbr pos=adj
+britânico pos=s
+britânicos nacionalidade=1 gen=m num=p raiz=britânico pais="reino unido" iso2=gb iso3=gbr pos=adj
+britânicos pos=s
+bruneana nacionalidade=1 gen=f num=s raiz=bruneano pais=brunei iso2=bn iso3=brn pos=s
+bruneanas nacionalidade=1 gen=f num=p raiz=bruneano pais=brunei iso2=bn iso3=brn pos=s
+bruneano nacionalidade=1 gen=m num=s pais=brunei iso2=bn iso3=brn pos=s
+bruneanos nacionalidade=1 gen=m num=p raiz=bruneano pais=brunei iso2=bn iso3=brn pos=s
+búlgara nacionalidade=1 gen=f num=s raiz=búlgaro pais=bulgária iso2=bg iso3=bgr pos=adj
+búlgara pos=s
+búlgaras nacionalidade=1 gen=f num=p raiz=búlgaro pais=bulgária iso2=bg iso3=bgr pos=adj
+búlgaras pos=s
+búlgaro nacionalidade=1 gen=m num=s pais=bulgária iso2=bg iso3=bgr pos=adj
+búlgaro pos=s
+búlgaros nacionalidade=1 gen=m num=p raiz=búlgaro pais=bulgária iso2=bg iso3=bgr pos=adj
+búlgaros pos=s
+burquinense nacionalidade=1 gen=c num=s pais="burkina faso" iso2=bf iso3=bfa pos=s
+burquinenses nacionalidade=1 gen=c num=p raiz=burquinense pais="burkina faso" iso2=bf iso3=bfa pos=s
+burquinês nacionalidade=1 gen=m num=s sin=1 raiz=burquinense pais="burkina faso" iso2=bf iso3=bfa pos=s
+burquinesa nacionalidade=1 gen=f num=s sin=1 raiz=burquinense pais="burkina faso" iso2=bf iso3=bfa pos=s
+burquinesas nacionalidade=1 gen=f num=p sin=1 raiz=burquinense pais="burkina faso" iso2=bf iso3=bfa pos=s
+burquineses nacionalidade=1 gen=m num=p sin=1 raiz=burquinense pais="burkina faso" iso2=bf iso3=bfa pos=s
+burundiana nacionalidade=1 gen=f num=s raiz=burundiano pais=burundi iso2=bi iso3=bdi pos=adj
+burundiana pos=s
+burundianas nacionalidade=1 gen=f num=p raiz=burundiano pais=burundi iso2=bi iso3=bdi pos=adj
+burundianas pos=s
+burundiano nacionalidade=1 gen=m num=s pais=burundi iso2=bi iso3=bdi pos=adj
+burundiano pos=s
+burundianos nacionalidade=1 gen=m num=p raiz=burundiano pais=burundi iso2=bi iso3=bdi pos=adj
+burundianos pos=s
+burundinês nacionalidade=1 gen=m num=s sin=1 raiz=burundiano pais=burundi iso2=bi iso3=bdi pos=s
+burundinesa nacionalidade=1 gen=f num=s sin=1 raiz=burundiano pais=burundi iso2=bi iso3=bdi pos=s
+burundinesas nacionalidade=1 gen=f num=p sin=1 raiz=burundiano pais=burundi iso2=bi iso3=bdi pos=s
+burundineses nacionalidade=1 gen=m num=p sin=1 raiz=burundiano pais=burundi iso2=bi iso3=bdi pos=s
+butanês nacionalidade=1 gen=m num=s pais=butão iso2=bt iso3=btn pos=s
+butanesa nacionalidade=1 gen=f num=s raiz=butanês pais=butão iso2=bt iso3=btn pos=s
+butanesas nacionalidade=1 gen=f num=p raiz=butanês pais=butão iso2=bt iso3=btn pos=s
+butaneses nacionalidade=1 gen=m num=p raiz=butanês pais=butão iso2=bt iso3=btn pos=s
+cabo-verdiana nacionalidade=1 gen=f num=s raiz="cabo-verdiano" pais="cabo verde" iso2=cv iso3=cpv pos=s
+cabo-verdianas nacionalidade=1 gen=f num=p raiz="cabo-verdiano" pais="cabo verde" iso2=cv iso3=cpv pos=s
+cabo-verdiano nacionalidade=1 gen=m num=s pais="cabo verde" iso2=cv iso3=cpv pos=s
+cabo-verdianos nacionalidade=1 gen=m num=p raiz="cabo-verdiano" pais="cabo verde" iso2=cv iso3=cpv pos=s
+caimanês nacionalidade=1 gen=m num=s pais="ilhas cayman" iso2=ky iso3=cym pos=s
+caimanesa nacionalidade=1 gen=f num=s raiz=caimanês pais="ilhas cayman" iso2=ky iso3=cym pos=s
+caimanesas nacionalidade=1 gen=f num=p raiz=caimanês pais="ilhas cayman" iso2=ky iso3=cym pos=s
+caimaneses nacionalidade=1 gen=m num=p raiz=caimanês pais="ilhas cayman" iso2=ky iso3=cym pos=s
+camaronês nacionalidade=1 gen=m num=s pais=camarões iso2=cm iso3=cmr pos=s
+camaronesa nacionalidade=1 gen=f num=s raiz=camaronês pais=camarões iso2=cm iso3=cmr pos=s
+camaronesas nacionalidade=1 gen=f num=p raiz=camaronês pais=camarões iso2=cm iso3=cmr pos=s
+camaroneses nacionalidade=1 gen=m num=p raiz=camaronês pais=camarões iso2=cm iso3=cmr pos=s
+cambojana nacionalidade=1 gen=f num=s raiz=cambojano pais=camboja iso2=kh iso3=khm pos=adj
+cambojana pos=s
+cambojanas nacionalidade=1 gen=f num=p raiz=cambojano pais=camboja iso2=kh iso3=khm pos=adj
+cambojanas pos=s
+cambojano nacionalidade=1 gen=m num=s pais=camboja iso2=kh iso3=khm pos=adj
+cambojano pos=s
+cambojanos nacionalidade=1 gen=m num=p raiz=cambojano pais=camboja iso2=kh iso3=khm pos=adj
+cambojanos pos=s
+canadense nacionalidade=1 gen=c num=s pais=canadá iso2=ca iso3=can pos=adj
+canadense pos=s
+canadenses nacionalidade=1 gen=c num=p raiz=canadense pais=canadá iso2=ca iso3=can pos=adj
+canadenses pos=s
+canadiana nacionalidade=1 gen=f num=s sin=1 raiz=canadense pais=canadá iso2=ca iso3=can pos=adj
+canadiana pos=s
+canadianas nacionalidade=1 gen=f num=p sin=1 raiz=canadense pais=canadá iso2=ca iso3=can pos=adj
+canadianas pos=s
+canadiano nacionalidade=1 gen=m num=s sin=1 raiz=canadense pais=canadá iso2=ca iso3=can pos=adj
+canadiano pos=s
+canadianos nacionalidade=1 gen=m num=p sin=1 raiz=canadense pais=canadá iso2=ca iso3=can pos=adj
+canadianos pos=s
+catari nacionalidade=1 gen=c num=s sin=1 raiz=catariano pais=catar iso2=qa iso3=qat pos=s
+catariana nacionalidade=1 gen=f num=s raiz=catariano pais=catar iso2=qa iso3=qat pos=s
+catarianas nacionalidade=1 gen=f num=p raiz=catariano pais=catar iso2=qa iso3=qat pos=s
+catariano nacionalidade=1 gen=m num=s pais=catar iso2=qa iso3=qat pos=s
+catarianos nacionalidade=1 gen=m num=p raiz=catariano pais=catar iso2=qa iso3=qat pos=s
+cataris nacionalidade=1 gen=c num=p sin=1 raiz=catariano pais=catar iso2=qa iso3=qat pos=s
+cazaque nacionalidade=1 gen=c num=s pais=cazaquistão iso2=kz iso3=kaz pos=s
+cazaques nacionalidade=1 gen=c num=p raiz=cazaque pais=cazaquistão iso2=kz iso3=kaz pos=s
+cazaquistanês nacionalidade=1 gen=m num=s sin=1 raiz=cazaque pais=cazaquistão iso2=kz iso3=kaz pos=s
+cazaquistanesa nacionalidade=1 gen=f num=s sin=1 raiz=cazaque pais=cazaquistão iso2=kz iso3=kaz pos=s
+cazaquistanesas nacionalidade=1 gen=f num=p sin=1 raiz=cazaque pais=cazaquistão iso2=kz iso3=kaz pos=s
+cazaquistaneses nacionalidade=1 gen=m num=p sin=1 raiz=cazaque pais=cazaquistão iso2=kz iso3=kaz pos=s
+centro-africana nacionalidade=1 gen=f num=s raiz="centro-africano" pais="república centro-africana" iso2=cf iso3=caf pos=s
+centro-africanas nacionalidade=1 gen=f num=p raiz="centro-africano" pais="república centro-africana" iso2=cf iso3=caf pos=s
+centro-africano nacionalidade=1 gen=m num=s pais="república centro-africana" iso2=cf iso3=caf pos=s
+centro-africanos nacionalidade=1 gen=m num=p raiz="centro-africano" pais="república centro-africana" iso2=cf iso3=caf pos=s
+chadiana nacionalidade=1 gen=f num=s raiz=chadiano pais=chade iso2=td iso3=tcd pos=s
+chadianas nacionalidade=1 gen=f num=p raiz=chadiano pais=chade iso2=td iso3=tcd pos=s
+chadiano nacionalidade=1 gen=m num=s pais=chade iso2=td iso3=tcd pos=s
+chadianos nacionalidade=1 gen=m num=p raiz=chadiano pais=chade iso2=td iso3=tcd pos=s
+checa nacionalidade=1 gen=f num=s sin=1 raiz=tcheco pais=tchéquia iso2=cz iso3=cze pos=adj
+checa pos=s
+checa pos=v
+checas nacionalidade=1 gen=f num=p sin=1 raiz=tcheco pais=tchéquia iso2=cz iso3=cze pos=adj
+checas pos=s
+checas pos=v
+checo nacionalidade=1 gen=m num=s sin=1 raiz=tcheco pais=tchéquia iso2=cz iso3=cze pos=adj
+checo pos=s
+checo pos=v
+checos nacionalidade=1 gen=m num=p sin=1 raiz=tcheco pais=tchéquia iso2=cz iso3=cze pos=adj
+checos pos=s
+chilena nacionalidade=1 gen=f num=s raiz=chileno pais=chile iso2=cl iso3=chl pos=adj
+chilena pos=s
+chilenas nacionalidade=1 gen=f num=p raiz=chileno pais=chile iso2=cl iso3=chl pos=adj
+chilenas pos=s
+chileno nacionalidade=1 gen=m num=s pais=chile iso2=cl iso3=chl pos=adj
+chileno pos=s
+chilenos nacionalidade=1 gen=m num=p raiz=chileno pais=chile iso2=cl iso3=chl pos=adj
+chilenos pos=s
+chinês nacionalidade=1 gen=m num=s pais=china iso2=cn iso3=chn pos=adj
+chinês pos=s
+chinesa nacionalidade=1 gen=f num=s raiz=chinês pais=china iso2=cn iso3=chn pos=adj
+chinesa pos=s
+chinesas nacionalidade=1 gen=f num=p raiz=chinês pais=china iso2=cn iso3=chn pos=adj
+chinesas pos=s
+chineses nacionalidade=1 gen=m num=p raiz=chinês pais=china iso2=cn iso3=chn pos=adj
+chineses pos=s
+cingalês nacionalidade=1 gen=m num=s pais="sri lanka" iso2=lk iso3=lka pos=adj
+cingalês pos=s
+cingalesa nacionalidade=1 gen=f num=s raiz=cingalês pais="sri lanka" iso2=lk iso3=lka pos=adj
+cingalesa pos=s
+cingalesas nacionalidade=1 gen=f num=p raiz=cingalês pais="sri lanka" iso2=lk iso3=lka pos=adj
+cingalesas pos=s
+cingaleses nacionalidade=1 gen=m num=p raiz=cingalês pais="sri lanka" iso2=lk iso3=lka pos=adj
+cingaleses pos=s
+cingapuriana nacionalidade=1 gen=f num=s sin=1 raiz=singapurense pais=singapura iso2=sg iso3=sgp pos=s
+cingapurianas nacionalidade=1 gen=f num=p sin=1 raiz=singapurense pais=singapura iso2=sg iso3=sgp pos=s
+cingapuriano nacionalidade=1 gen=m num=s sin=1 raiz=singapurense pais=singapura iso2=sg iso3=sgp pos=s
+cingapurianos nacionalidade=1 gen=m num=p sin=1 raiz=singapurense pais=singapura iso2=sg iso3=sgp pos=s
+cipriota nacionalidade=1 gen=c num=s pais=chipre iso2=cy iso3=cyp pos=adj
+cipriota pos=s
+cipriotas nacionalidade=1 gen=c num=p raiz=cipriota pais=chipre iso2=cy iso3=cyp pos=adj
+cipriotas pos=s
+colombiana nacionalidade=1 gen=f num=s raiz=colombiano pais=colômbia iso2=co iso3=col pos=adj
+colombiana pos=s
+colombianas nacionalidade=1 gen=f num=p raiz=colombiano pais=colômbia iso2=co iso3=col pos=adj
+colombianas pos=s
+colombiano nacionalidade=1 gen=m num=s pais=colômbia iso2=co iso3=col pos=adj
+colombiano pos=s
+colombianos nacionalidade=1 gen=m num=p raiz=colombiano pais=colômbia iso2=co iso3=col pos=adj
+colombianos pos=s
+comorense nacionalidade=1 gen=c num=s pais=comores iso2=km iso3=com pos=s
+comorenses nacionalidade=1 gen=c num=p raiz=comorense pais=comores iso2=km iso3=com pos=s
+congolense nacionalidade=1 gen=c num=s sin=1 ambig=1 raiz=congolês pais=congo iso2=cg iso3=cog pos=s
+congolenses nacionalidade=1 gen=c num=p sin=1 ambig=1 raiz=congolês pais=congo iso2=cg iso3=cog pos=s
+congolês nacionalidade=1 gen=m num=s ambig=1 pais=congo iso2=cg iso3=cog pos=adj
+congolês pos=s
+congolesa nacionalidade=1 gen=f num=s ambig=1 raiz=congolês pais=congo iso2=cg iso3=cog pos=adj
+congolesa pos=s
+congolesas nacionalidade=1 gen=f num=p ambig=1 raiz=congolês pais=congo iso2=cg iso3=cog pos=adj
+congolesas pos=s
+congoleses nacionalidade=1 gen=m num=p ambig=1 raiz=congolês pais=congo iso2=cg iso3=cog pos=adj
+congoleses pos=s
+coreana nacionalidade=1 gen=f num=s raiz=coreano pais=coreia iso2=kr iso3=kor pos=s
+coreanas nacionalidade=1 gen=f num=p raiz=coreano pais=coreia iso2=kr iso3=kor pos=s
+coreano nacionalidade=1 gen=m num=s pais=coreia iso2=kr iso3=kor pos=s
+coreanos nacionalidade=1 gen=m num=p raiz=coreano pais=coreia iso2=kr iso3=kor pos=s
+costa-marfinense nacionalidade=1 gen=c num=s sin=1 raiz=marfinense pais="costa do marfim" iso2=ci iso3=civ pos=s
+costa-marfinenses nacionalidade=1 gen=c num=p sin=1 raiz=marfinense pais="costa do marfim" iso2=ci iso3=civ pos=s
+costa-riquenha nacionalidade=1 gen=f num=s sin=1 raiz=costarriquenho pais="costa rica" iso2=cr iso3=cri pos=s
+costa-riquenhas nacionalidade=1 gen=f num=p sin=1 raiz=costarriquenho pais="costa rica" iso2=cr iso3=cri pos=s
+costa-riquenho nacionalidade=1 gen=m num=s sin=1 raiz=costarriquenho pais="costa rica" iso2=cr iso3=cri pos=s
+costa-riquenhos nacionalidade=1 gen=m num=p sin=1 raiz=costarriquenho pais="costa rica" iso2=cr iso3=cri pos=s
+costarricense nacionalidade=1 gen=c num=s sin=1 raiz=costarriquenho pais="costa rica" iso2=cr iso3=cri pos=s
+costarricenses nacionalidade=1 gen=c num=p sin=1 raiz=costarriquenho pais="costa rica" iso2=cr iso3=cri pos=s
+costarriquenha nacionalidade=1 gen=f num=s raiz=costarriquenho pais="costa rica" iso2=cr iso3=cri pos=s
+costarriquenhas nacionalidade=1 gen=f num=p raiz=costarriquenho pais="costa rica" iso2=cr iso3=cri pos=s
+costarriquenho nacionalidade=1 gen=m num=s pais="costa rica" iso2=cr iso3=cri pos=s
+costarriquenhos nacionalidade=1 gen=m num=p raiz=costarriquenho pais="costa rica" iso2=cr iso3=cri pos=s
+croata nacionalidade=1 gen=c num=s pais=croácia iso2=hr iso3=hrv pos=adj
+croata pos=s
+croatas nacionalidade=1 gen=c num=p raiz=croata pais=croácia iso2=hr iso3=hrv pos=adj
+croatas pos=s
+cubana nacionalidade=1 gen=f num=s raiz=cubano pais=cuba iso2=cu iso3=cub pos=adj
+cubana pos=s
+cubanas nacionalidade=1 gen=f num=p raiz=cubano pais=cuba iso2=cu iso3=cub pos=adj
+cubanas pos=s
+cubano nacionalidade=1 gen=m num=s pais=cuba iso2=cu iso3=cub pos=adj
+cubano pos=s
+cubanos nacionalidade=1 gen=m num=p raiz=cubano pais=cuba iso2=cu iso3=cub pos=adj
+cubanos pos=s
+dinamarquês nacionalidade=1 gen=m num=s pais=dinamarca iso2=dk iso3=dnk pos=adj
+dinamarquês pos=s
+dinamarquesa nacionalidade=1 gen=f num=s raiz=dinamarquês pais=dinamarca iso2=dk iso3=dnk pos=adj
+dinamarquesa pos=s
+dinamarquesas nacionalidade=1 gen=f num=p raiz=dinamarquês pais=dinamarca iso2=dk iso3=dnk pos=adj
+dinamarquesas pos=s
+dinamarqueses nacionalidade=1 gen=m num=p raiz=dinamarquês pais=dinamarca iso2=dk iso3=dnk pos=adj
+dinamarqueses pos=s
+djibutiana nacionalidade=1 gen=f num=s raiz=djibutiano pais=djibuti iso2=dj iso3=dji pos=s
+djibutianas nacionalidade=1 gen=f num=p raiz=djibutiano pais=djibuti iso2=dj iso3=dji pos=s
+djibutiano nacionalidade=1 gen=m num=s pais=djibuti iso2=dj iso3=dji pos=s
+djibutianos nacionalidade=1 gen=m num=p raiz=djibutiano pais=djibuti iso2=dj iso3=dji pos=s
+dominicana nacionalidade=1 gen=f num=s raiz=dominicano pais="república dominicana" iso2=do iso3=dom pos=adj
+dominicana pos=s
+dominicanas nacionalidade=1 gen=f num=p raiz=dominicano pais="república dominicana" iso2=do iso3=dom pos=adj
+dominicanas pos=s
+dominicano nacionalidade=1 gen=m num=s pais="república dominicana" iso2=do iso3=dom pos=adj
+dominicano pos=s
+dominicanos nacionalidade=1 gen=m num=p raiz=dominicano pais="república dominicana" iso2=do iso3=dom pos=adj
+dominicanos pos=s
+dominiquense nacionalidade=1 gen=c num=s pais=dominica iso2=dm iso3=dma pos=s
+dominiquenses nacionalidade=1 gen=c num=p raiz=dominiquense pais=dominica iso2=dm iso3=dma pos=s
+egípcia nacionalidade=1 gen=f num=s raiz=egípcio pais=egito iso2=eg iso3=egy pos=adj
+egípcia pos=s
+egípcias nacionalidade=1 gen=f num=p raiz=egípcio pais=egito iso2=eg iso3=egy pos=adj
+egípcias pos=s
+egípcio nacionalidade=1 gen=m num=s pais=egito iso2=eg iso3=egy pos=adj
+egípcio pos=s
+egípcios nacionalidade=1 gen=m num=p raiz=egípcio pais=egito iso2=eg iso3=egy pos=adj
+egípcios pos=s
+emiradense nacionalidade=1 gen=c num=s pais="emirados árabes unidos" iso2=ae iso3=are pos=s
+emiradenses nacionalidade=1 gen=c num=p raiz=emiradense pais="emirados árabes unidos" iso2=ae iso3=are pos=s
+emiratense nacionalidade=1 gen=c num=s sin=1 raiz=emiradense pais="emirados árabes unidos" iso2=ae iso3=are pos=s
+emiratenses nacionalidade=1 gen=c num=p sin=1 raiz=emiradense pais="emirados árabes unidos" iso2=ae iso3=are pos=s
+equato-guineense nacionalidade=1 gen=c num=s pais="guiné equatorial" iso2=gq iso3=gnq pos=s
+equato-guineenses nacionalidade=1 gen=c num=p raiz="equato-guineense" pais="guiné equatorial" iso2=gq iso3=gnq pos=s
+equatoriana nacionalidade=1 gen=f num=s raiz=equatoriano pais=equador iso2=ec iso3=ecu pos=adj
+equatoriana pos=s
+equatorianas nacionalidade=1 gen=f num=p raiz=equatoriano pais=equador iso2=ec iso3=ecu pos=adj
+equatorianas pos=s
+equatoriano nacionalidade=1 gen=m num=s pais=equador iso2=ec iso3=ecu pos=adj
+equatoriano pos=s
+equatorianos nacionalidade=1 gen=m num=p raiz=equatoriano pais=equador iso2=ec iso3=ecu pos=adj
+equatorianos pos=s
+eritreia nacionalidade=1 gen=f num=s raiz=eritreu pais=eritreia iso2=er iso3=eri pos=s
+eritreias nacionalidade=1 gen=f num=p raiz=eritreu pais=eritreia iso2=er iso3=eri pos=s
+eritreu nacionalidade=1 gen=m num=s pais=eritreia iso2=er iso3=eri pos=s
+eritreus nacionalidade=1 gen=m num=p raiz=eritreu pais=eritreia iso2=er iso3=eri pos=s
+escocês nacionalidade=1 gen=m num=s pais=escócia iso2=gb iso3=gbr pos=adj
+escocês pos=s
+escocesa nacionalidade=1 gen=f num=s raiz=escocês pais=escócia iso2=gb iso3=gbr pos=adj
+escocesa pos=s
+escocesas nacionalidade=1 gen=f num=p raiz=escocês pais=escócia iso2=gb iso3=gbr pos=adj
+escocesas pos=s
+escoceses nacionalidade=1 gen=m num=p raiz=escocês pais=escócia iso2=gb iso3=gbr pos=adj
+escoceses pos=s
+eslovaca nacionalidade=1 gen=f num=s raiz=eslovaco pais=eslováquia iso2=sk iso3=svk pos=adj
+eslovaca pos=s
+eslovacas nacionalidade=1 gen=f num=p raiz=eslovaco pais=eslováquia iso2=sk iso3=svk pos=adj
+eslovacas pos=s
+eslovaco nacionalidade=1 gen=m num=s pais=eslováquia iso2=sk iso3=svk pos=adj
+eslovaco pos=s
+eslovacos nacionalidade=1 gen=m num=p raiz=eslovaco pais=eslováquia iso2=sk iso3=svk pos=adj
+eslovacos pos=s
+eslovena nacionalidade=1 gen=f num=s raiz=esloveno pais=eslovênia iso2=si iso3=svn pos=adj
+eslovena pos=s
+eslovenas nacionalidade=1 gen=f num=p raiz=esloveno pais=eslovênia iso2=si iso3=svn pos=adj
+eslovenas pos=s
+esloveno nacionalidade=1 gen=m num=s pais=eslovênia iso2=si iso3=svn pos=adj
+esloveno pos=s
+eslovenos nacionalidade=1 gen=m num=p raiz=esloveno pais=eslovênia iso2=si iso3=svn pos=adj
+eslovenos pos=s
+espanhóis nacionalidade=1 gen=m num=p raiz=espanhol pais=espanha iso2=es iso3=esp pos=adj
+espanhóis pos=s
+espanhol nacionalidade=1 gen=m num=s pais=espanha iso2=es iso3=esp pos=adj
+espanhol pos=s
+espanhola nacionalidade=1 gen=f num=s raiz=espanhol pais=espanha iso2=es iso3=esp pos=adj
+espanhola pos=s
+espanhola pos=v
+espanholas nacionalidade=1 gen=f num=p raiz=espanhol pais=espanha iso2=es iso3=esp pos=adj
+espanholas pos=s
+espanholas pos=v
+estado-unidense nacionalidade=1 gen=c num=s sin=1 raiz=americano pais="estados unidos" iso2=us iso3=usa pos=s
+estado-unidenses nacionalidade=1 gen=c num=p sin=1 raiz=americano pais="estados unidos" iso2=us iso3=usa pos=s
+estadunidense nacionalidade=1 gen=c num=s sin=1 raiz=americano pais="estados unidos" iso2=us iso3=usa pos=s
+estadunidenses nacionalidade=1 gen=c num=p sin=1 raiz=americano pais="estados unidos" iso2=us iso3=usa pos=s
+estónia nacionalidade=1 gen=f num=s sin=1 raiz=estoniano pais=estônia iso2=ee iso3=est pos=adj
+estónia pos=s
+estoniana nacionalidade=1 gen=f num=s raiz=estoniano pais=estônia iso2=ee iso3=est pos=adj
+estoniana pos=s
+estonianas nacionalidade=1 gen=f num=p raiz=estoniano pais=estônia iso2=ee iso3=est pos=adj
+estonianas pos=s
+estoniano nacionalidade=1 gen=m num=s pais=estônia iso2=ee iso3=est pos=adj
+estoniano pos=s
+estonianos nacionalidade=1 gen=m num=p raiz=estoniano pais=estônia iso2=ee iso3=est pos=adj
+estonianos pos=s
+estónias nacionalidade=1 gen=f num=p sin=1 raiz=estoniano pais=estônia iso2=ee iso3=est pos=adj
+estónias pos=s
+estónio nacionalidade=1 gen=m num=s sin=1 raiz=estoniano pais=estônia iso2=ee iso3=est pos=adj
+estónio pos=s
+estónios nacionalidade=1 gen=m num=p sin=1 raiz=estoniano pais=estônia iso2=ee iso3=est pos=adj
+estónios pos=s
+etíope nacionalidade=1 gen=c num=s pais=etiópia iso2=et iso3=eth pos=adj
+etíope pos=s
+etíopes nacionalidade=1 gen=c num=p raiz=etíope pais=etiópia iso2=et iso3=eth pos=adj
+etíopes pos=s
+faroês nacionalidade=1 gen=m num=s sin=1 raiz=feroês pais="ilhas faroé" iso2=fo iso3=fro pos=s
+faroesa nacionalidade=1 gen=f num=s sin=1 raiz=feroês pais="ilhas faroé" iso2=fo iso3=fro pos=s
+faroesas nacionalidade=1 gen=f num=p sin=1 raiz=feroês pais="ilhas faroé" iso2=fo iso3=fro pos=s
+faroeses nacionalidade=1 gen=m num=p sin=1 raiz=feroês pais="ilhas faroé" iso2=fo iso3=fro pos=s
+feroês nacionalidade=1 gen=m num=s pais="ilhas faroé" iso2=fo iso3=fro pos=s
+feroesa nacionalidade=1 gen=f num=s raiz=feroês pais="ilhas faroé" iso2=fo iso3=fro pos=s
+feroesas nacionalidade=1 gen=f num=p raiz=feroês pais="ilhas faroé" iso2=fo iso3=fro pos=s
+feroeses nacionalidade=1 gen=m num=p raiz=feroês pais="ilhas faroé" iso2=fo iso3=fro pos=s
+fijiana nacionalidade=1 gen=f num=s raiz=fijiano pais=fiji iso2=fj iso3=fji pos=s
+fijianas nacionalidade=1 gen=f num=p raiz=fijiano pais=fiji iso2=fj iso3=fji pos=s
+fijiano nacionalidade=1 gen=m num=s pais=fiji iso2=fj iso3=fji pos=s
+fijianos nacionalidade=1 gen=m num=p raiz=fijiano pais=fiji iso2=fj iso3=fji pos=s
+filipina nacionalidade=1 gen=f num=s raiz=filipino pais=filipinas iso2=ph iso3=phl pos=adj
+filipina pos=s
+filipinas nacionalidade=1 gen=f num=p raiz=filipino pais=filipinas iso2=ph iso3=phl pos=adj
+filipinas pos=s
+filipino nacionalidade=1 gen=m num=s pais=filipinas iso2=ph iso3=phl pos=adj
+filipino pos=s
+filipinos nacionalidade=1 gen=m num=p raiz=filipino pais=filipinas iso2=ph iso3=phl pos=adj
+filipinos pos=s
+finlandês nacionalidade=1 gen=m num=s pais=finlândia iso2=fi iso3=fin pos=adj
+finlandês pos=s
+finlandesa nacionalidade=1 gen=f num=s raiz=finlandês pais=finlândia iso2=fi iso3=fin pos=adj
+finlandesa pos=s
+finlandesas nacionalidade=1 gen=f num=p raiz=finlandês pais=finlândia iso2=fi iso3=fin pos=adj
+finlandesas pos=s
+finlandeses nacionalidade=1 gen=m num=p raiz=finlandês pais=finlândia iso2=fi iso3=fin pos=adj
+finlandeses pos=s
+formosana nacionalidade=1 gen=f num=s sin=1 raiz=taiwanês pais=taiwan iso2=tw iso3=twn pos=s
+formosanas nacionalidade=1 gen=f num=p sin=1 raiz=taiwanês pais=taiwan iso2=tw iso3=twn pos=s
+formosano nacionalidade=1 gen=m num=s sin=1 raiz=taiwanês pais=taiwan iso2=tw iso3=twn pos=s
+formosanos nacionalidade=1 gen=m num=p sin=1 raiz=taiwanês pais=taiwan iso2=tw iso3=twn pos=s
+francês nacionalidade=1 gen=m num=s pais=frança iso2=fr iso3=fra pos=adj
+francês pos=s
+francesa nacionalidade=1 gen=f num=s raiz=francês pais=frança iso2=fr iso3=fra pos=adj
+francesa pos=s
+francesas nacionalidade=1 gen=f num=p raiz=francês pais=frança iso2=fr iso3=fra pos=adj
+francesas pos=s
+franceses nacionalidade=1 gen=m num=p raiz=francês pais=frança iso2=fr iso3=fra pos=adj
+franceses pos=s
+franco-guianense nacionalidade=1 gen=c num=s pais="guiana francesa" iso2=gf iso3=guf pos=s
+franco-guianenses nacionalidade=1 gen=c num=p raiz="franco-guianense" pais="guiana francesa" iso2=gf iso3=guf pos=s
+franco-polinésia nacionalidade=1 gen=f num=s sin=1 raiz=polinésio pais="polinésia francesa" iso2=pf iso3=pyf pos=s
+franco-polinésias nacionalidade=1 gen=f num=p sin=1 raiz=polinésio pais="polinésia francesa" iso2=pf iso3=pyf pos=s
+franco-polinésio nacionalidade=1 gen=m num=s sin=1 raiz=polinésio pais="polinésia francesa" iso2=pf iso3=pyf pos=s
+franco-polinésios nacionalidade=1 gen=m num=p sin=1 raiz=polinésio pais="polinésia francesa" iso2=pf iso3=pyf pos=s
+gabonês nacionalidade=1 gen=m num=s pais=gabão iso2=ga iso3=gab pos=s
+gabonesa nacionalidade=1 gen=f num=s raiz=gabonês pais=gabão iso2=ga iso3=gab pos=s
+gabonesas nacionalidade=1 gen=f num=p raiz=gabonês pais=gabão iso2=ga iso3=gab pos=s
+gaboneses nacionalidade=1 gen=m num=p raiz=gabonês pais=gabão iso2=ga iso3=gab pos=s
+galês nacionalidade=1 gen=m num=s pais="país de gales" iso2=gb iso3=gbr pos=adj
+galês pos=s
+galesa nacionalidade=1 gen=f num=s raiz=galês pais="país de gales" iso2=gb iso3=gbr pos=adj
+galesa pos=s
+galesas nacionalidade=1 gen=f num=p raiz=galês pais="país de gales" iso2=gb iso3=gbr pos=adj
+galesas pos=s
+galeses nacionalidade=1 gen=m num=p raiz=galês pais="país de gales" iso2=gb iso3=gbr pos=adj
+galeses pos=s
+gambiana nacionalidade=1 gen=f num=s raiz=gambiano pais=gâmbia iso2=gm iso3=gmb pos=s
+gambianas nacionalidade=1 gen=f num=p raiz=gambiano pais=gâmbia iso2=gm iso3=gmb pos=s
+gambiano nacionalidade=1 gen=m num=s pais=gâmbia iso2=gm iso3=gmb pos=s
+gambianos nacionalidade=1 gen=m num=p raiz=gambiano pais=gâmbia iso2=gm iso3=gmb pos=s
+ganês nacionalidade=1 gen=m num=s pais=gana iso2=gh iso3=gha pos=adj
+ganês pos=s
+ganesa nacionalidade=1 gen=f num=s raiz=ganês pais=gana iso2=gh iso3=gha pos=adj
+ganesa pos=s
+ganesas nacionalidade=1 gen=f num=p raiz=ganês pais=gana iso2=gh iso3=gha pos=adj
+ganesas pos=s
+ganeses nacionalidade=1 gen=m num=p raiz=ganês pais=gana iso2=gh iso3=gha pos=adj
+ganeses pos=s
+georgiana nacionalidade=1 gen=f num=s raiz=georgiano pais=geórgia iso2=ge iso3=geo pos=adj
+georgiana pos=s
+georgianas nacionalidade=1 gen=f num=p raiz=georgiano pais=geórgia iso2=ge iso3=geo pos=adj
+georgianas pos=s
+georgiano nacionalidade=1 gen=m num=s pais=geórgia iso2=ge iso3=geo pos=adj
+georgiano pos=s
+georgianos nacionalidade=1 gen=m num=p raiz=georgiano pais=geórgia iso2=ge iso3=geo pos=adj
+georgianos pos=s
+gibraltarina nacionalidade=1 gen=f num=s raiz=gibraltarino pais=gibraltar iso2=gi iso3=gib pos=s
+gibraltarinas nacionalidade=1 gen=f num=p raiz=gibraltarino pais=gibraltar iso2=gi iso3=gib pos=s
+gibraltarino nacionalidade=1 gen=m num=s pais=gibraltar iso2=gi iso3=gib pos=s
+gibraltarinos nacionalidade=1 gen=m num=p raiz=gibraltarino pais=gibraltar iso2=gi iso3=gib pos=s
+granadina nacionalidade=1 gen=f num=s raiz=granadino pais=granada iso2=gd iso3=grd pos=adj
+granadina pos=s
+granadinas nacionalidade=1 gen=f num=p raiz=granadino pais=granada iso2=gd iso3=grd pos=adj
+granadinas pos=s
+granadino nacionalidade=1 gen=m num=s pais=granada iso2=gd iso3=grd pos=adj
+granadino pos=s
+granadinos nacionalidade=1 gen=m num=p raiz=granadino pais=granada iso2=gd iso3=grd pos=adj
+granadinos pos=s
+grega nacionalidade=1 gen=f num=s raiz=grego pais=grécia iso2=gr iso3=grc pos=adj
+grega pos=s
+gregas nacionalidade=1 gen=f num=p raiz=grego pais=grécia iso2=gr iso3=grc pos=adj
+gregas pos=s
+grego nacionalidade=1 gen=m num=s pais=grécia iso2=gr iso3=grc pos=adj
+grego pos=s
+gregos nacionalidade=1 gen=m num=p raiz=grego pais=grécia iso2=gr iso3=grc pos=adj
+gregos pos=s
+groenlandês nacionalidade=1 gen=m num=s pais=groenlândia iso2=gl iso3=grl pos=s
+groenlandesa nacionalidade=1 gen=f num=s raiz=groenlandês pais=groenlândia iso2=gl iso3=grl pos=s
+groenlandesas nacionalidade=1 gen=f num=p raiz=groenlandês pais=groenlândia iso2=gl iso3=grl pos=s
+groenlandeses nacionalidade=1 gen=m num=p raiz=groenlandês pais=groenlândia iso2=gl iso3=grl pos=s
+gronelandês nacionalidade=1 gen=m num=s sin=1 raiz=groenlandês pais=groenlândia iso2=gl iso3=grl pos=adj
+gronelandês pos=s
+gronelandesa nacionalidade=1 gen=f num=s sin=1 raiz=groenlandês pais=groenlândia iso2=gl iso3=grl pos=adj
+gronelandesa pos=s
+gronelandesas nacionalidade=1 gen=f num=p sin=1 raiz=groenlandês pais=groenlândia iso2=gl iso3=grl pos=adj
+gronelandesas pos=s
+gronelandeses nacionalidade=1 gen=m num=p sin=1 raiz=groenlandês pais=groenlândia iso2=gl iso3=grl pos=adj
+gronelandeses pos=s
+guadalupense nacionalidade=1 gen=c num=s pais=guadalupe iso2=gp iso3=glp pos=s
+guadalupenses nacionalidade=1 gen=c num=p raiz=guadalupense pais=guadalupe iso2=gp iso3=glp pos=s
+guatemalteca nacionalidade=1 gen=f num=s raiz=guatemalteco pais=guatemala iso2=gt iso3=gtm pos=adj
+guatemalteca pos=s
+guatemaltecas nacionalidade=1 gen=f num=p raiz=guatemalteco pais=guatemala iso2=gt iso3=gtm pos=adj
+guatemaltecas pos=s
+guatemalteco nacionalidade=1 gen=m num=s pais=guatemala iso2=gt iso3=gtm pos=adj
+guatemalteco pos=s
+guatemaltecos nacionalidade=1 gen=m num=p raiz=guatemalteco pais=guatemala iso2=gt iso3=gtm pos=adj
+guatemaltecos pos=s
+guianense nacionalidade=1 gen=c num=s pais=guiana iso2=gy iso3=guy pos=adj
+guianense pos=s
+guianenses nacionalidade=1 gen=c num=p raiz=guianense pais=guiana iso2=gy iso3=guy pos=adj
+guianenses pos=s
+guineense nacionalidade=1 gen=c num=s ambig=1 pais=guiné iso2=gn iso3=gin pos=adj
+guineense pos=s
+guineenses nacionalidade=1 gen=c num=p ambig=1 raiz=guineense pais=guiné iso2=gn iso3=gin pos=adj
+guineenses pos=s
+haitiana nacionalidade=1 gen=f num=s raiz=haitiano pais=haiti iso2=ht iso3=hti pos=adj
+haitiana pos=s
+haitianas nacionalidade=1 gen=f num=p raiz=haitiano pais=haiti iso2=ht iso3=hti pos=adj
+haitianas pos=s
+haitiano nacionalidade=1 gen=m num=s pais=haiti iso2=ht iso3=hti pos=adj
+haitiano pos=s
+haitianos nacionalidade=1 gen=m num=p raiz=haitiano pais=haiti iso2=ht iso3=hti pos=adj
+haitianos pos=s
+helena nacionalidade=1 gen=f num=s sin=1 raiz=grego pais=grécia iso2=gr iso3=grc pos=adj
+helena pos=s
+helenas nacionalidade=1 gen=f num=p sin=1 raiz=grego pais=grécia iso2=gr iso3=grc pos=adj
+helenas pos=s
+heleno nacionalidade=1 gen=m num=s sin=1 raiz=grego pais=grécia iso2=gr iso3=grc pos=adj
+heleno pos=s
+helenos nacionalidade=1 gen=m num=p sin=1 raiz=grego pais=grécia iso2=gr iso3=grc pos=adj
+helenos pos=s
+herzegovina nacionalidade=1 gen=f num=s sin=1 raiz=bósnio pais="bósnia e herzegovina" iso2=ba iso3=bih pos=s
+herzegovinas nacionalidade=1 gen=f num=p sin=1 raiz=bósnio pais="bósnia e herzegovina" iso2=ba iso3=bih pos=s
+herzegovino nacionalidade=1 gen=m num=s sin=1 raiz=bósnio pais="bósnia e herzegovina" iso2=ba iso3=bih pos=s
+herzegovinos nacionalidade=1 gen=m num=p sin=1 raiz=bósnio pais="bósnia e herzegovina" iso2=ba iso3=bih pos=s
+holandês nacionalidade=1 gen=m num=s sin=1 raiz=neerlandês pais="países baixos" iso2=nl iso3=nld pos=adj
+holandês pos=s
+holandesa nacionalidade=1 gen=f num=s sin=1 raiz=neerlandês pais="países baixos" iso2=nl iso3=nld pos=adj
+holandesa pos=s
+holandesas nacionalidade=1 gen=f num=p sin=1 raiz=neerlandês pais="países baixos" iso2=nl iso3=nld pos=adj
+holandesas pos=s
+holandeses nacionalidade=1 gen=m num=p sin=1 raiz=neerlandês pais="países baixos" iso2=nl iso3=nld pos=adj
+holandeses pos=s
+honconguês nacionalidade=1 gen=m num=s pais="hong kong" iso2=hk iso3=hkg pos=s
+honconguesa nacionalidade=1 gen=f num=s raiz=honconguês pais="hong kong" iso2=hk iso3=hkg pos=s
+honconguesas nacionalidade=1 gen=f num=p raiz=honconguês pais="hong kong" iso2=hk iso3=hkg pos=s
+honcongueses nacionalidade=1 gen=m num=p raiz=honconguês pais="hong kong" iso2=hk iso3=hkg pos=s
+hondurenha nacionalidade=1 gen=f num=s raiz=hondurenho pais=honduras iso2=hn iso3=hnd pos=adj
+hondurenha pos=s
+hondurenhas nacionalidade=1 gen=f num=p raiz=hondurenho pais=honduras iso2=hn iso3=hnd pos=adj
+hondurenhas pos=s
+hondurenho nacionalidade=1 gen=m num=s pais=honduras iso2=hn iso3=hnd pos=adj
+hondurenho pos=s
+hondurenhos nacionalidade=1 gen=m num=p raiz=hondurenho pais=honduras iso2=hn iso3=hnd pos=adj
+hondurenhos pos=s
+húngara nacionalidade=1 gen=f num=s raiz=húngaro pais=hungria iso2=hu iso3=hun pos=adj
+húngara pos=s
+húngaras nacionalidade=1 gen=f num=p raiz=húngaro pais=hungria iso2=hu iso3=hun pos=adj
+húngaras pos=s
+húngaro nacionalidade=1 gen=m num=s pais=hungria iso2=hu iso3=hun pos=adj
+húngaro pos=s
+húngaros nacionalidade=1 gen=m num=p raiz=húngaro pais=hungria iso2=hu iso3=hun pos=adj
+húngaros pos=s
+iemenita nacionalidade=1 gen=c num=s pais=iêmen iso2=ye iso3=yem pos=s
+iemenitas nacionalidade=1 gen=c num=p raiz=iemenita pais=iêmen iso2=ye iso3=yem pos=s
+indiana nacionalidade=1 gen=f num=s raiz=indiano pais="índia" iso2=in iso3=ind pos=adj
+indiana pos=s
+indianas nacionalidade=1 gen=f num=p raiz=indiano pais="índia" iso2=in iso3=ind pos=adj
+indianas pos=s
+indiano nacionalidade=1 gen=m num=s pais="índia" iso2=in iso3=ind pos=adj
+indiano pos=s
+indianos nacionalidade=1 gen=m num=p raiz=indiano pais="índia" iso2=in iso3=ind pos=adj
+indianos pos=s
+indonésia nacionalidade=1 gen=f num=s raiz=indonésio pais=indonésia iso2=id iso3=idn pos=adj
+indonésia pos=s
+indonésias nacionalidade=1 gen=f num=p raiz=indonésio pais=indonésia iso2=id iso3=idn pos=adj
+indonésias pos=s
+indonésio nacionalidade=1 gen=m num=s pais=indonésia iso2=id iso3=idn pos=adj
+indonésio pos=s
+indonésios nacionalidade=1 gen=m num=p raiz=indonésio pais=indonésia iso2=id iso3=idn pos=adj
+indonésios pos=s
+inglês nacionalidade=1 gen=m num=s pais=inglaterra iso2=gb iso3=gbr pos=adj
+inglês pos=s
+inglesa nacionalidade=1 gen=f num=s raiz=inglês pais=inglaterra iso2=gb iso3=gbr pos=adj
+inglesa pos=s
+inglesa pos=v
+inglesas nacionalidade=1 gen=f num=p raiz=inglês pais=inglaterra iso2=gb iso3=gbr pos=adj
+inglesas pos=s
+inglesas pos=v
+ingleses nacionalidade=1 gen=m num=p raiz=inglês pais=inglaterra iso2=gb iso3=gbr pos=adj
+ingleses pos=s
+ingleses pos=v
+iraniana nacionalidade=1 gen=f num=s raiz=iraniano pais=irã iso2=ir iso3=irn pos=adj
+iraniana pos=s
+iranianas nacionalidade=1 gen=f num=p raiz=iraniano pais=irã iso2=ir iso3=irn pos=adj
+iranianas pos=s
+iraniano nacionalidade=1 gen=m num=s pais=irã iso2=ir iso3=irn pos=adj
+iraniano pos=s
+iranianos nacionalidade=1 gen=m num=p raiz=iraniano pais=irã iso2=ir iso3=irn pos=adj
+iranianos pos=s
+iraquiana nacionalidade=1 gen=f num=s raiz=iraquiano pais=iraque iso2=iq iso3=irq pos=adj
+iraquiana pos=s
+iraquianas nacionalidade=1 gen=f num=p raiz=iraquiano pais=iraque iso2=iq iso3=irq pos=adj
+iraquianas pos=s
+iraquiano nacionalidade=1 gen=m num=s pais=iraque iso2=iq iso3=irq pos=adj
+iraquiano pos=s
+iraquianos nacionalidade=1 gen=m num=p raiz=iraquiano pais=iraque iso2=iq iso3=irq pos=adj
+iraquianos pos=s
+irlandês nacionalidade=1 gen=m num=s pais=irlanda iso2=ie iso3=irl pos=adj
+irlandês pos=s
+irlandesa nacionalidade=1 gen=f num=s raiz=irlandês pais=irlanda iso2=ie iso3=irl pos=adj
+irlandesa pos=s
+irlandesas nacionalidade=1 gen=f num=p raiz=irlandês pais=irlanda iso2=ie iso3=irl pos=adj
+irlandesas pos=s
+irlandeses nacionalidade=1 gen=m num=p raiz=irlandês pais=irlanda iso2=ie iso3=irl pos=adj
+irlandeses pos=s
+islandês nacionalidade=1 gen=m num=s pais=islândia iso2=is iso3=isl pos=adj
+islandês pos=s
+islandesa nacionalidade=1 gen=f num=s raiz=islandês pais=islândia iso2=is iso3=isl pos=adj
+islandesa pos=s
+islandesas nacionalidade=1 gen=f num=p raiz=islandês pais=islândia iso2=is iso3=isl pos=adj
+islandesas pos=s
+islandeses nacionalidade=1 gen=m num=p raiz=islandês pais=islândia iso2=is iso3=isl pos=adj
+islandeses pos=s
+israelense nacionalidade=1 gen=c num=s pais=israel iso2=il iso3=isr pos=s
+israelenses nacionalidade=1 gen=c num=p raiz=israelense pais=israel iso2=il iso3=isr pos=s
+israelita nacionalidade=1 gen=c num=s sin=1 raiz=israelense pais=israel iso2=il iso3=isr pos=adj
+israelita pos=s
+israelitas nacionalidade=1 gen=c num=p sin=1 raiz=israelense pais=israel iso2=il iso3=isr pos=adj
+israelitas pos=s
+italiana nacionalidade=1 gen=f num=s raiz=italiano pais=itália iso2=it iso3=ita pos=adj
+italiana pos=s
+italianas nacionalidade=1 gen=f num=p raiz=italiano pais=itália iso2=it iso3=ita pos=adj
+italianas pos=s
+italiano nacionalidade=1 gen=m num=s pais=itália iso2=it iso3=ita pos=adj
+italiano pos=s
+italianos nacionalidade=1 gen=m num=p raiz=italiano pais=itália iso2=it iso3=ita pos=adj
+italianos pos=s
+jamaicana nacionalidade=1 gen=f num=s raiz=jamaicano pais=jamaica iso2=jm iso3=jam pos=adj
+jamaicanas nacionalidade=1 gen=f num=p raiz=jamaicano pais=jamaica iso2=jm iso3=jam pos=adj
+jamaicano nacionalidade=1 gen=m num=s pais=jamaica iso2=jm iso3=jam pos=adj
+jamaicanos nacionalidade=1 gen=m num=p raiz=jamaicano pais=jamaica iso2=jm iso3=jam pos=adj
+japonês nacionalidade=1 gen=m num=s pais=japão iso2=jp iso3=jpn pos=adj
+japonês pos=s
+japonesa nacionalidade=1 gen=f num=s raiz=japonês pais=japão iso2=jp iso3=jpn pos=adj
+japonesa pos=s
+japonesa pos=v
+japonesas nacionalidade=1 gen=f num=p raiz=japonês pais=japão iso2=jp iso3=jpn pos=adj
+japonesas pos=s
+japonesas pos=v
+japoneses nacionalidade=1 gen=m num=p raiz=japonês pais=japão iso2=jp iso3=jpn pos=adj
+japoneses pos=s
+japoneses pos=v
+jibutiana nacionalidade=1 gen=f num=s sin=1 raiz=djibutiano pais=djibuti iso2=dj iso3=dji pos=s
+jibutianas nacionalidade=1 gen=f num=p sin=1 raiz=djibutiano pais=djibuti iso2=dj iso3=dji pos=s
+jibutiano nacionalidade=1 gen=m num=s sin=1 raiz=djibutiano pais=djibuti iso2=dj iso3=dji pos=s
+jibutianos nacionalidade=1 gen=m num=p sin=1 raiz=djibutiano pais=djibuti iso2=dj iso3=dji pos=s
+jordaniana nacionalidade=1 gen=f num=s raiz=jordaniano pais=jordânia iso2=jo iso3=jor pos=s
+jordanianas nacionalidade=1 gen=f num=p raiz=jordaniano pais=jordânia iso2=jo iso3=jor pos=s
+jordaniano nacionalidade=1 gen=m num=s pais=jordânia iso2=jo iso3=jor pos=s
+jordanianos nacionalidade=1 gen=m num=p raiz=jordaniano pais=jordânia iso2=jo iso3=jor pos=s
+kiribatiana nacionalidade=1 gen=f num=s raiz=kiribatiano pais=kiribati iso2=ki iso3=kir pos=s
+kiribatianas nacionalidade=1 gen=f num=p raiz=kiribatiano pais=kiribati iso2=ki iso3=kir pos=s
+kiribatiano nacionalidade=1 gen=m num=s pais=kiribati iso2=ki iso3=kir pos=s
+kiribatianos nacionalidade=1 gen=m num=p raiz=kiribatiano pais=kiribati iso2=ki iso3=kir pos=s
+kosovana nacionalidade=1 gen=f num=s sin=1 raiz=kosovar pais=kosovo iso2=xk iso3=xkx pos=s
+kosovanas nacionalidade=1 gen=f num=p sin=1 raiz=kosovar pais=kosovo iso2=xk iso3=xkx pos=s
+kosovano nacionalidade=1 gen=m num=s sin=1 raiz=kosovar pais=kosovo iso2=xk iso3=xkx pos=s
+kosovanos nacionalidade=1 gen=m num=p sin=1 raiz=kosovar pais=kosovo iso2=xk iso3=xkx pos=s
+kosovar nacionalidade=1 gen=c num=s pais=kosovo iso2=xk iso3=xkx pos=s
+kosovares nacionalidade=1 gen=c num=p raiz=kosovar pais=kosovo iso2=xk iso3=xkx pos=s
+koweitiana nacionalidade=1 gen=f num=s sin=1 raiz=kuwaitiano pais=kuwait iso2=kw iso3=kwt pos=s
+koweitianas nacionalidade=1 gen=f num=p sin=1 raiz=kuwaitiano pais=kuwait iso2=kw iso3=kwt pos=s
+koweitiano nacionalidade=1 gen=m num=s sin=1 raiz=kuwaitiano pais=kuwait iso2=kw iso3=kwt pos=s
+koweitianos nacionalidade=1 gen=m num=p sin=1 raiz=kuwaitiano pais=kuwait iso2=kw iso3=kwt pos=s
+kuwaitiana nacionalidade=1 gen=f num=s raiz=kuwaitiano pais=kuwait iso2=kw iso3=kwt pos=s
+kuwaitianas nacionalidade=1 gen=f num=p raiz=kuwaitiano pais=kuwait iso2=kw iso3=kwt pos=s
+kuwaitiano nacionalidade=1 gen=m num=s pais=kuwait iso2=kw iso3=kwt pos=s
+kuwaitianos nacionalidade=1 gen=m num=p raiz=kuwaitiano pais=kuwait iso2=kw iso3=kwt pos=s
+laociana nacionalidade=1 gen=f num=s sin=1 raiz=laosiano pais=laos iso2=la iso3=lao pos=s
+laocianas nacionalidade=1 gen=f num=p sin=1 raiz=laosiano pais=laos iso2=la iso3=lao pos=s
+laociano nacionalidade=1 gen=m num=s sin=1 raiz=laosiano pais=laos iso2=la iso3=lao pos=s
+laocianos nacionalidade=1 gen=m num=p sin=1 raiz=laosiano pais=laos iso2=la iso3=lao pos=s
+laosiana nacionalidade=1 gen=f num=s raiz=laosiano pais=laos iso2=la iso3=lao pos=s
+laosianas nacionalidade=1 gen=f num=p raiz=laosiano pais=laos iso2=la iso3=lao pos=s
+laosiano nacionalidade=1 gen=m num=s pais=laos iso2=la iso3=lao pos=s
+laosianos nacionalidade=1 gen=m num=p raiz=laosiano pais=laos iso2=la iso3=lao pos=s
+lesotiana nacionalidade=1 gen=f num=s raiz=lesotiano pais=lesoto iso2=ls iso3=lso pos=s
+lesotianas nacionalidade=1 gen=f num=p raiz=lesotiano pais=lesoto iso2=ls iso3=lso pos=s
+lesotiano nacionalidade=1 gen=m num=s pais=lesoto iso2=ls iso3=lso pos=s
+lesotianos nacionalidade=1 gen=m num=p raiz=lesotiano pais=lesoto iso2=ls iso3=lso pos=s
+letã nacionalidade=1 gen=f num=s raiz=letão pais=letônia iso2=lv iso3=lva pos=s
+letão nacionalidade=1 gen=m num=s pais=letônia iso2=lv iso3=lva pos=s
+letãs nacionalidade=1 gen=f num=p raiz=letão pais=letônia iso2=lv iso3=lva pos=s
+letões nacionalidade=1 gen=m num=p raiz=letão pais=letônia iso2=lv iso3=lva pos=s
+libanês nacionalidade=1 gen=m num=s pais=líbano iso2=lb iso3=lbn pos=adj
+libanês pos=s
+libanesa nacionalidade=1 gen=f num=s raiz=libanês pais=líbano iso2=lb iso3=lbn pos=adj
+libanesa pos=s
+libanesas nacionalidade=1 gen=f num=p raiz=libanês pais=líbano iso2=lb iso3=lbn pos=adj
+libanesas pos=s
+libaneses nacionalidade=1 gen=m num=p raiz=libanês pais=líbano iso2=lb iso3=lbn pos=adj
+libaneses pos=s
+liberiana nacionalidade=1 gen=f num=s raiz=liberiano pais=libéria iso2=lr iso3=lbr pos=adj
+liberiana pos=s
+liberianas nacionalidade=1 gen=f num=p raiz=liberiano pais=libéria iso2=lr iso3=lbr pos=adj
+liberianas pos=s
+liberiano nacionalidade=1 gen=m num=s pais=libéria iso2=lr iso3=lbr pos=adj
+liberiano pos=s
+liberianos nacionalidade=1 gen=m num=p raiz=liberiano pais=libéria iso2=lr iso3=lbr pos=adj
+liberianos pos=s
+líbia nacionalidade=1 gen=f num=s raiz=líbio pais=líbia iso2=ly iso3=lby pos=adj
+líbia pos=s
+líbias nacionalidade=1 gen=f num=p raiz=líbio pais=líbia iso2=ly iso3=lby pos=adj
+líbias pos=s
+líbio nacionalidade=1 gen=m num=s pais=líbia iso2=ly iso3=lby pos=adj
+líbio pos=s
+líbios nacionalidade=1 gen=m num=p raiz=líbio pais=líbia iso2=ly iso3=lby pos=adj
+líbios pos=s
+liechtensteinense nacionalidade=1 gen=c num=s pais=liechtenstein iso2=li iso3=lie pos=s
+liechtensteinenses nacionalidade=1 gen=c num=p raiz=liechtensteinense pais=liechtenstein iso2=li iso3=lie pos=s
+lituana nacionalidade=1 gen=f num=s raiz=lituano pais=lituânia iso2=lt iso3=ltu pos=adj
+lituana pos=s
+lituanas nacionalidade=1 gen=f num=p raiz=lituano pais=lituânia iso2=lt iso3=ltu pos=adj
+lituanas pos=s
+lituano nacionalidade=1 gen=m num=s pais=lituânia iso2=lt iso3=ltu pos=adj
+lituano pos=s
+lituanos nacionalidade=1 gen=m num=p raiz=lituano pais=lituânia iso2=lt iso3=ltu pos=adj
+lituanos pos=s
+luxemburguês nacionalidade=1 gen=m num=s pais=luxemburgo iso2=lu iso3=lux pos=adj
+luxemburguês pos=s
+luxemburguesa nacionalidade=1 gen=f num=s raiz=luxemburguês pais=luxemburgo iso2=lu iso3=lux pos=adj
+luxemburguesa pos=s
+luxemburguesas nacionalidade=1 gen=f num=p raiz=luxemburguês pais=luxemburgo iso2=lu iso3=lux pos=adj
+luxemburguesas pos=s
+luxemburgueses nacionalidade=1 gen=m num=p raiz=luxemburguês pais=luxemburgo iso2=lu iso3=lux pos=adj
+luxemburgueses pos=s
+macaense nacionalidade=1 gen=c num=s pais=macau iso2=mo iso3=mac pos=adj
+macaense pos=s
+macaenses nacionalidade=1 gen=c num=p raiz=macaense pais=macau iso2=mo iso3=mac pos=adj
+macaenses pos=s
+macedónia nacionalidade=1 gen=f num=s sin=1 raiz=macedônio pais="macedônia do norte" iso2=mk iso3=mkd pos=adj
+macedónia pos=s
+macedônia nacionalidade=1 gen=f num=s raiz=macedônio pais="macedônia do norte" iso2=mk iso3=mkd pos=s
+macedónias nacionalidade=1 gen=f num=p sin=1 raiz=macedônio pais="macedônia do norte" iso2=mk iso3=mkd pos=adj
+macedónias pos=s
+macedônias nacionalidade=1 gen=f num=p raiz=macedônio pais="macedônia do norte" iso2=mk iso3=mkd pos=s
+macedónio nacionalidade=1 gen=m num=s sin=1 raiz=macedônio pais="macedônia do norte" iso2=mk iso3=mkd pos=adj
+macedónio pos=s
+macedônio nacionalidade=1 gen=m num=s pais="macedônia do norte" iso2=mk iso3=mkd pos=s
+macedónios nacionalidade=1 gen=m num=p sin=1 raiz=macedônio pais="macedônia do norte" iso2=mk iso3=mkd pos=adj
+macedónios pos=s
+macedônios nacionalidade=1 gen=m num=p raiz=macedônio pais="macedônia do norte" iso2=mk iso3=mkd pos=s
+magiar nacionalidade=1 gen=c num=s sin=1 raiz=húngaro pais=hungria iso2=hu iso3=hun pos=adj
+magiar pos=s
+magiares nacionalidade=1 gen=c num=p sin=1 raiz=húngaro pais=hungria iso2=hu iso3=hun pos=adj
+magiares pos=s
+malaia nacionalidade=1 gen=f num=s raiz=malaio pais=malásia iso2=my iso3=mys pos=adj
+malaia pos=s
+malaias nacionalidade=1 gen=f num=p raiz=malaio pais=malásia iso2=my iso3=mys pos=adj
+malaias pos=s
+malaio nacionalidade=1 gen=m num=s pais=malásia iso2=my iso3=mys pos=adj
+malaio pos=s
+malaios nacionalidade=1 gen=m num=p raiz=malaio pais=malásia iso2=my iso3=mys pos=adj
+malaios pos=s
+malásia nacionalidade=1 gen=f num=s sin=1 raiz=malaio pais=malásia iso2=my iso3=mys pos=s
+malásias nacionalidade=1 gen=f num=p sin=1 raiz=malaio pais=malásia iso2=my iso3=mys pos=s
+malásio nacionalidade=1 gen=m num=s sin=1 raiz=malaio pais=malásia iso2=my iso3=mys pos=s
+malásios nacionalidade=1 gen=m num=p sin=1 raiz=malaio pais=malásia iso2=my iso3=mys pos=s
+malauiana nacionalidade=1 gen=f num=s sin=1 raiz=malawiano pais=malawi iso2=mw iso3=mwi pos=s
+malauianas nacionalidade=1 gen=f num=p sin=1 raiz=malawiano pais=malawi iso2=mw iso3=mwi pos=s
+malauiano nacionalidade=1 gen=m num=s sin=1 raiz=malawiano pais=malawi iso2=mw iso3=mwi pos=s
+malauianos nacionalidade=1 gen=m num=p sin=1 raiz=malawiano pais=malawi iso2=mw iso3=mwi pos=s
+malawiana nacionalidade=1 gen=f num=s raiz=malawiano pais=malawi iso2=mw iso3=mwi pos=s
+malawianas nacionalidade=1 gen=f num=p raiz=malawiano pais=malawi iso2=mw iso3=mwi pos=s
+malawiano nacionalidade=1 gen=m num=s pais=malawi iso2=mw iso3=mwi pos=s
+malawianos nacionalidade=1 gen=m num=p raiz=malawiano pais=malawi iso2=mw iso3=mwi pos=s
+maldívia nacionalidade=1 gen=f num=s raiz=maldívio pais=maldivas iso2=mv iso3=mdv pos=s
+maldívias nacionalidade=1 gen=f num=p raiz=maldívio pais=maldivas iso2=mv iso3=mdv pos=s
+maldívio nacionalidade=1 gen=m num=s pais=maldivas iso2=mv iso3=mdv pos=s
+maldívios nacionalidade=1 gen=m num=p raiz=maldívio pais=maldivas iso2=mv iso3=mdv pos=s
+malgaxe nacionalidade=1 gen=c num=s pais=madagascar iso2=mg iso3=mdg pos=adj
+malgaxe pos=s
+malgaxes nacionalidade=1 gen=c num=p raiz=malgaxe pais=madagascar iso2=mg iso3=mdg pos=adj
+malgaxes pos=s
+maliana nacionalidade=1 gen=f num=s sin=1 raiz=malinês pais=mali iso2=ml iso3=mli pos=s
+malianas nacionalidade=1 gen=f num=p sin=1 raiz=malinês pais=mali iso2=ml iso3=mli pos=s
+maliano nacionalidade=1 gen=m num=s sin=1 raiz=malinês pais=mali iso2=ml iso3=mli pos=s
+malianos nacionalidade=1 gen=m num=p sin=1 raiz=malinês pais=mali iso2=ml iso3=mli pos=s
+malinês nacionalidade=1 gen=m num=s pais=mali iso2=ml iso3=mli pos=s
+malinesa nacionalidade=1 gen=f num=s raiz=malinês pais=mali iso2=ml iso3=mli pos=s
+malinesas nacionalidade=1 gen=f num=p raiz=malinês pais=mali iso2=ml iso3=mli pos=s
+malineses nacionalidade=1 gen=m num=p raiz=malinês pais=mali iso2=ml iso3=mli pos=s
+maltês nacionalidade=1 gen=m num=s pais=malta iso2=mt iso3=mlt pos=adj
+maltês pos=s
+maltesa nacionalidade=1 gen=f num=s raiz=maltês pais=malta iso2=mt iso3=mlt pos=adj
+maltesa pos=s
+maltesas nacionalidade=1 gen=f num=p raiz=maltês pais=malta iso2=mt iso3=mlt pos=adj
+maltesas pos=s
+malteses nacionalidade=1 gen=m num=p raiz=maltês pais=malta iso2=mt iso3=mlt pos=adj
+malteses pos=s
+malvinense nacionalidade=1 gen=c num=s pais="ilhas malvinas" iso2=fk iso3=flk pos=s
+malvinenses nacionalidade=1 gen=c num=p raiz=malvinense pais="ilhas malvinas" iso2=fk iso3=flk pos=s
+manês nacionalidade=1 gen=m num=s pais="ilha de man" iso2=im iso3=imn pos=s
+manesa nacionalidade=1 gen=f num=s raiz=manês pais="ilha de man" iso2=im iso3=imn pos=s
+manesas nacionalidade=1 gen=f num=p raiz=manês pais="ilha de man" iso2=im iso3=imn pos=s
+maneses nacionalidade=1 gen=m num=p raiz=manês pais="ilha de man" iso2=im iso3=imn pos=s
+marfinense nacionalidade=1 gen=c num=s pais="costa do marfim" iso2=ci iso3=civ pos=s
+marfinenses nacionalidade=1 gen=c num=p raiz=marfinense pais="costa do marfim" iso2=ci iso3=civ pos=s
+marroquina nacionalidade=1 gen=f num=s raiz=marroquino pais=marrocos iso2=ma iso3=mar pos=adj
+marroquina pos=s
+marroquina pos=v
+marroquinas nacionalidade=1 gen=f num=p raiz=marroquino pais=marrocos iso2=ma iso3=mar pos=adj
+marroquinas pos=s
+marroquinas pos=v
+marroquino nacionalidade=1 gen=m num=s pais=marrocos iso2=ma iso3=mar pos=adj
+marroquino pos=s
+marroquino pos=v
+marroquinos nacionalidade=1 gen=m num=p raiz=marroquino pais=marrocos iso2=ma iso3=mar pos=adj
+marroquinos pos=s
+marshallina nacionalidade=1 gen=f num=s raiz=marshallino pais="ilhas marshall" iso2=mh iso3=mhl pos=s
+marshallinas nacionalidade=1 gen=f num=p raiz=marshallino pais="ilhas marshall" iso2=mh iso3=mhl pos=s
+marshallino nacionalidade=1 gen=m num=s pais="ilhas marshall" iso2=mh iso3=mhl pos=s
+marshallinos nacionalidade=1 gen=m num=p raiz=marshallino pais="ilhas marshall" iso2=mh iso3=mhl pos=s
+martinicana nacionalidade=1 gen=f num=s raiz=martinicano pais=martinica iso2=mq iso3=mtq pos=s
+martinicanas nacionalidade=1 gen=f num=p raiz=martinicano pais=martinica iso2=mq iso3=mtq pos=s
+martinicano nacionalidade=1 gen=m num=s pais=martinica iso2=mq iso3=mtq pos=s
+martinicanos nacionalidade=1 gen=m num=p raiz=martinicano pais=martinica iso2=mq iso3=mtq pos=s
+mauriciana nacionalidade=1 gen=f num=s raiz=mauriciano pais=maurício iso2=mu iso3=mus pos=s
+mauricianas nacionalidade=1 gen=f num=p raiz=mauriciano pais=maurício iso2=mu iso3=mus pos=s
+mauriciano nacionalidade=1 gen=m num=s pais=maurício iso2=mu iso3=mus pos=s
+mauricianos nacionalidade=1 gen=m num=p raiz=mauriciano pais=maurício iso2=mu iso3=mus pos=s
+mauritana nacionalidade=1 gen=f num=s raiz=mauritano pais=mauritânia iso2=mr iso3=mrt pos=adj
+mauritana pos=s
+mauritanas nacionalidade=1 gen=f num=p raiz=mauritano pais=mauritânia iso2=mr iso3=mrt pos=adj
+mauritanas pos=s
+mauritano nacionalidade=1 gen=m num=s pais=mauritânia iso2=mr iso3=mrt pos=adj
+mauritano pos=s
+mauritanos nacionalidade=1 gen=m num=p raiz=mauritano pais=mauritânia iso2=mr iso3=mrt pos=adj
+mauritanos pos=s
+mexicana nacionalidade=1 gen=f num=s raiz=mexicano pais=méxico iso2=mx iso3=mex pos=adj
+mexicana pos=s
+mexicanas nacionalidade=1 gen=f num=p raiz=mexicano pais=méxico iso2=mx iso3=mex pos=adj
+mexicanas pos=s
+mexicano nacionalidade=1 gen=m num=s pais=méxico iso2=mx iso3=mex pos=adj
+mexicano pos=s
+mexicanos nacionalidade=1 gen=m num=p raiz=mexicano pais=méxico iso2=mx iso3=mex pos=adj
+mexicanos pos=s
+mianmarense nacionalidade=1 gen=c num=s sin=1 raiz=birmanês pais=mianmar iso2=mm iso3=mmr pos=s
+mianmarenses nacionalidade=1 gen=c num=p sin=1 raiz=birmanês pais=mianmar iso2=mm iso3=mmr pos=s
+micronésia nacionalidade=1 gen=f num=s raiz=micronésio pais=micronésia iso2=fm iso3=fsm pos=s
+micronésias nacionalidade=1 gen=f num=p raiz=micronésio pais=micronésia iso2=fm iso3=fsm pos=s
+micronésio nacionalidade=1 gen=m num=s pais=micronésia iso2=fm iso3=fsm pos=s
+micronésios nacionalidade=1 gen=m num=p raiz=micronésio pais=micronésia iso2=fm iso3=fsm pos=s
+moçambicana nacionalidade=1 gen=f num=s raiz=moçambicano pais=moçambique iso2=mz iso3=moz pos=adj
+moçambicana pos=s
+moçambicanas nacionalidade=1 gen=f num=p raiz=moçambicano pais=moçambique iso2=mz iso3=moz pos=adj
+moçambicanas pos=s
+moçambicano nacionalidade=1 gen=m num=s pais=moçambique iso2=mz iso3=moz pos=adj
+moçambicano pos=s
+moçambicanos nacionalidade=1 gen=m num=p raiz=moçambicano pais=moçambique iso2=mz iso3=moz pos=adj
+moçambicanos pos=s
+moldava nacionalidade=1 gen=f num=s sin=1 raiz=moldávio pais=moldávia iso2=md iso3=mda pos=v
+moldavas nacionalidade=1 gen=f num=p sin=1 raiz=moldávio pais=moldávia iso2=md iso3=mda pos=v
+moldávia nacionalidade=1 gen=f num=s raiz=moldávio pais=moldávia iso2=md iso3=mda pos=s
+moldávias nacionalidade=1 gen=f num=p raiz=moldávio pais=moldávia iso2=md iso3=mda pos=s
+moldávio nacionalidade=1 gen=m num=s pais=moldávia iso2=md iso3=mda pos=s
+moldávios nacionalidade=1 gen=m num=p raiz=moldávio pais=moldávia iso2=md iso3=mda pos=s
+moldavo nacionalidade=1 gen=m num=s sin=1 raiz=moldávio pais=moldávia iso2=md iso3=mda pos=s
+moldavos nacionalidade=1 gen=m num=p sin=1 raiz=moldávio pais=moldávia iso2=md iso3=mda pos=s
+monegasca nacionalidade=1 gen=f num=s raiz=monegasco pais=mônaco iso2=mc iso3=mco pos=adj
+monegasca pos=s
+monegascas nacionalidade=1 gen=f num=p raiz=monegasco pais=mônaco iso2=mc iso3=mco pos=adj
+monegascas pos=s
+monegasco nacionalidade=1 gen=m num=s pais=mônaco iso2=mc iso3=mco pos=adj
+monegasco pos=s
+monegascos nacionalidade=1 gen=m num=p raiz=monegasco pais=mônaco iso2=mc iso3=mco pos=adj
+monegascos pos=s
+mongóis nacionalidade=1 gen=c num=p raiz=mongol pais=mongólia iso2=mn iso3=mng pos=adj
+mongóis pos=s
+mongol nacionalidade=1 gen=c num=s pais=mongólia iso2=mn iso3=mng pos=adj
+mongol pos=s
+mongoliana nacionalidade=1 gen=f num=s sin=1 raiz=mongol pais=mongólia iso2=mn iso3=mng pos=s
+mongolianas nacionalidade=1 gen=f num=p sin=1 raiz=mongol pais=mongólia iso2=mn iso3=mng pos=s
+mongoliano nacionalidade=1 gen=m num=s sin=1 raiz=mongol pais=mongólia iso2=mn iso3=mng pos=s
+mongolianos nacionalidade=1 gen=m num=p sin=1 raiz=mongol pais=mongólia iso2=mn iso3=mng pos=s
+montenegrina nacionalidade=1 gen=f num=s raiz=montenegrino pais=montenegro iso2=me iso3=mne pos=adj
+montenegrina pos=s
+montenegrinas nacionalidade=1 gen=f num=p raiz=montenegrino pais=montenegro iso2=me iso3=mne pos=adj
+montenegrinas pos=s
+montenegrino nacionalidade=1 gen=m num=s pais=montenegro iso2=me iso3=mne pos=adj
+montenegrino pos=s
+montenegrinos nacionalidade=1 gen=m num=p raiz=montenegrino pais=montenegro iso2=me iso3=mne pos=adj
+montenegrinos pos=s
+namibiana nacionalidade=1 gen=f num=s raiz=namibiano pais=namíbia iso2=na iso3=nam pos=adj
+namibiana pos=s
+namibianas nacionalidade=1 gen=f num=p raiz=namibiano pais=namíbia iso2=na iso3=nam pos=adj
+namibianas pos=s
+namibiano nacionalidade=1 gen=m num=s pais=namíbia iso2=na iso3=nam pos=adj
+namibiano pos=s
+namibianos nacionalidade=1 gen=m num=p raiz=namibiano pais=namíbia iso2=na iso3=nam pos=adj
+namibianos pos=s
+nauruana nacionalidade=1 gen=f num=s raiz=nauruano pais=nauru iso2=nr iso3=nru pos=s
+nauruanas nacionalidade=1 gen=f num=p raiz=nauruano pais=nauru iso2=nr iso3=nru pos=s
+nauruano nacionalidade=1 gen=m num=s pais=nauru iso2=nr iso3=nru pos=s
+nauruanos nacionalidade=1 gen=m num=p raiz=nauruano pais=nauru iso2=nr iso3=nru pos=s
+neerlandês nacionalidade=1 gen=m num=s pais="países baixos" iso2=nl iso3=nld pos=adj
+neerlandês pos=s
+neerlandesa nacionalidade=1 gen=f num=s raiz=neerlandês pais="países baixos" iso2=nl iso3=nld pos=adj
+neerlandesa pos=s
+neerlandesas nacionalidade=1 gen=f num=p raiz=neerlandês pais="países baixos" iso2=nl iso3=nld pos=adj
+neerlandesas pos=s
+neerlandeses nacionalidade=1 gen=m num=p raiz=neerlandês pais="países baixos" iso2=nl iso3=nld pos=adj
+neerlandeses pos=s
+neocaledónia nacionalidade=1 gen=f num=s sin=1 raiz=neocaledônio pais="nova caledônia" iso2=nc iso3=ncl pos=s
+neocaledônia nacionalidade=1 gen=f num=s raiz=neocaledônio pais="nova caledônia" iso2=nc iso3=ncl pos=s
+neocaledónias nacionalidade=1 gen=f num=p sin=1 raiz=neocaledônio pais="nova caledônia" iso2=nc iso3=ncl pos=s
+neocaledônias nacionalidade=1 gen=f num=p raiz=neocaledônio pais="nova caledônia" iso2=nc iso3=ncl pos=s
+neocaledónio nacionalidade=1 gen=m num=s sin=1 raiz=neocaledônio pais="nova caledônia" iso2=nc iso3=ncl pos=s
+neocaledônio nacionalidade=1 gen=m num=s pais="nova caledônia" iso2=nc iso3=ncl pos=s
+neocaledónios nacionalidade=1 gen=m num=p sin=1 raiz=neocaledônio pais="nova caledônia" iso2=nc iso3=ncl pos=s
+neocaledônios nacionalidade=1 gen=m num=p raiz=neocaledônio pais="nova caledônia" iso2=nc iso3=ncl pos=s
+neozelandês nacionalidade=1 gen=m num=s pais="nova zelândia" iso2=nz iso3=nzl pos=adj
+neozelandês pos=s
+neozelandesa nacionalidade=1 gen=f num=s raiz=neozelandês pais="nova zelândia" iso2=nz iso3=nzl pos=adj
+neozelandesa pos=s
+neozelandesas nacionalidade=1 gen=f num=p raiz=neozelandês pais="nova zelândia" iso2=nz iso3=nzl pos=adj
+neozelandesas pos=s
+neozelandeses nacionalidade=1 gen=m num=p raiz=neozelandês pais="nova zelândia" iso2=nz iso3=nzl pos=adj
+neozelandeses pos=s
+nepalês nacionalidade=1 gen=m num=s pais=nepal iso2=np iso3=npl pos=adj
+nepalês pos=s
+nepalesa nacionalidade=1 gen=f num=s raiz=nepalês pais=nepal iso2=np iso3=npl pos=adj
+nepalesa pos=s
+nepalesas nacionalidade=1 gen=f num=p raiz=nepalês pais=nepal iso2=np iso3=npl pos=adj
+nepalesas pos=s
+nepaleses nacionalidade=1 gen=m num=p raiz=nepalês pais=nepal iso2=np iso3=npl pos=adj
+nepaleses pos=s
+nicaraguana nacionalidade=1 gen=f num=s sin=1 raiz=nicaraguense pais=nicarágua iso2=ni iso3=nic pos=adj
+nicaraguana pos=s
+nicaraguanas nacionalidade=1 gen=f num=p sin=1 raiz=nicaraguense pais=nicarágua iso2=ni iso3=nic pos=adj
+nicaraguanas pos=s
+nicaraguano nacionalidade=1 gen=m num=s sin=1 raiz=nicaraguense pais=nicarágua iso2=ni iso3=nic pos=adj
+nicaraguano pos=s
+nicaraguanos nacionalidade=1 gen=m num=p sin=1 raiz=nicaraguense pais=nicarágua iso2=ni iso3=nic pos=adj
+nicaraguanos pos=s
+nicaraguense nacionalidade=1 gen=c num=s pais=nicarágua iso2=ni iso3=nic pos=s
+nicaraguenses nacionalidade=1 gen=c num=p raiz=nicaraguense pais=nicarágua iso2=ni iso3=nic pos=s
+nigeriana nacionalidade=1 gen=f num=s raiz=nigeriano pais=nigéria iso2=ng iso3=nga pos=adj
+nigeriana pos=s
+nigerianas nacionalidade=1 gen=f num=p raiz=nigeriano pais=nigéria iso2=ng iso3=nga pos=adj
+nigerianas pos=s
+nigeriano nacionalidade=1 gen=m num=s pais=nigéria iso2=ng iso3=nga pos=adj
+nigeriano pos=s
+nigerianos nacionalidade=1 gen=m num=p raiz=nigeriano pais=nigéria iso2=ng iso3=nga pos=adj
+nigerianos pos=s
+nigerina nacionalidade=1 gen=f num=s raiz=nigerino pais=níger iso2=ne iso3=ner pos=s
+nigerinas nacionalidade=1 gen=f num=p raiz=nigerino pais=níger iso2=ne iso3=ner pos=s
+nigerino nacionalidade=1 gen=m num=s pais=níger iso2=ne iso3=ner pos=s
+nigerinos nacionalidade=1 gen=m num=p raiz=nigerino pais=níger iso2=ne iso3=ner pos=s
+norte-americana nacionalidade=1 gen=f num=s sin=1 raiz=americano pais="estados unidos" iso2=us iso3=usa pos=adj
+norte-americana pos=s
+norte-americanas nacionalidade=1 gen=f num=p sin=1 raiz=americano pais="estados unidos" iso2=us iso3=usa pos=adj
+norte-americanas pos=s
+norte-americano nacionalidade=1 gen=m num=s sin=1 raiz=americano pais="estados unidos" iso2=us iso3=usa pos=adj
+norte-americano pos=s
+norte-americanos nacionalidade=1 gen=m num=p sin=1 raiz=americano pais="estados unidos" iso2=us iso3=usa pos=adj
+norte-americanos pos=s
+norte-coreana nacionalidade=1 gen=f num=s raiz="norte-coreano" pais="coreia do norte" iso2=kp iso3=prk pos=s
+norte-coreanas nacionalidade=1 gen=f num=p raiz="norte-coreano" pais="coreia do norte" iso2=kp iso3=prk pos=s
+norte-coreano nacionalidade=1 gen=m num=s pais="coreia do norte" iso2=kp iso3=prk pos=s
+norte-coreanos nacionalidade=1 gen=m num=p raiz="norte-coreano" pais="coreia do norte" iso2=kp iso3=prk pos=s
+norte-irlandês nacionalidade=1 gen=m num=s pais="irlanda do norte" iso2=gb iso3=gbr pos=s
+norte-irlandesa nacionalidade=1 gen=f num=s raiz="norte-irlandês" pais="irlanda do norte" iso2=gb iso3=gbr pos=s
+norte-irlandesas nacionalidade=1 gen=f num=p raiz="norte-irlandês" pais="irlanda do norte" iso2=gb iso3=gbr pos=s
+norte-irlandeses nacionalidade=1 gen=m num=p raiz="norte-irlandês" pais="irlanda do norte" iso2=gb iso3=gbr pos=s
+norte-macedónia nacionalidade=1 gen=f num=s sin=1 raiz=macedônio pais="macedônia do norte" iso2=mk iso3=mkd pos=s
+norte-macedônia nacionalidade=1 gen=f num=s sin=1 raiz=macedônio pais="macedônia do norte" iso2=mk iso3=mkd pos=s
+norte-macedónias nacionalidade=1 gen=f num=p sin=1 raiz=macedônio pais="macedônia do norte" iso2=mk iso3=mkd pos=s
+norte-macedônias nacionalidade=1 gen=f num=p sin=1 raiz=macedônio pais="macedônia do norte" iso2=mk iso3=mkd pos=s
+norte-macedónio nacionalidade=1 gen=m num=s sin=1 raiz=macedônio pais="macedônia do norte" iso2=mk iso3=mkd pos=s
+norte-macedônio nacionalidade=1 gen=m num=s sin=1 raiz=macedônio pais="macedônia do norte" iso2=mk iso3=mkd pos=s
+norte-macedónios nacionalidade=1 gen=m num=p sin=1 raiz=macedônio pais="macedônia do norte" iso2=mk iso3=mkd pos=s
+norte-macedônios nacionalidade=1 gen=m num=p sin=1 raiz=macedônio pais="macedônia do norte" iso2=mk iso3=mkd pos=s
+norueguês nacionalidade=1 gen=m num=s pais=noruega iso2=no iso3=nor pos=adj
+norueguês pos=s
+norueguesa nacionalidade=1 gen=f num=s raiz=norueguês pais=noruega iso2=no iso3=nor pos=adj
+norueguesa pos=s
+norueguesas nacionalidade=1 gen=f num=p raiz=norueguês pais=noruega iso2=no iso3=nor pos=adj
+norueguesas pos=s
+noruegueses nacionalidade=1 gen=m num=p raiz=norueguês pais=noruega iso2=no iso3=nor pos=adj
+noruegueses pos=s
+omanense nacionalidade=1 gen=c num=s pais=omã iso2=om iso3=omn pos=s
+omanenses nacionalidade=1 gen=c num=p raiz=omanense pais=omã iso2=om iso3=omn pos=s
+omani nacionalidade=1 gen=c num=s sin=1 raiz=omanense pais=omã iso2=om iso3=omn pos=s
+omanis nacionalidade=1 gen=c num=p sin=1 raiz=omanense pais=omã iso2=om iso3=omn pos=s
+palauana nacionalidade=1 gen=f num=s raiz=palauano pais=palau iso2=pw iso3=plw pos=s
+palauanas nacionalidade=1 gen=f num=p raiz=palauano pais=palau iso2=pw iso3=plw pos=s
+palauano nacionalidade=1 gen=m num=s pais=palau iso2=pw iso3=plw pos=s
+palauanos nacionalidade=1 gen=m num=p raiz=palauano pais=palau iso2=pw iso3=plw pos=s
+palestina nacionalidade=1 gen=f num=s raiz=palestino pais=palestina iso2=ps iso3=pse pos=adj
+palestina pos=s
+palestinas nacionalidade=1 gen=f num=p raiz=palestino pais=palestina iso2=ps iso3=pse pos=adj
+palestinas pos=s
+palestiniana nacionalidade=1 gen=f num=s sin=1 raiz=palestino pais=palestina iso2=ps iso3=pse pos=adj
+palestiniana pos=s
+palestinianas nacionalidade=1 gen=f num=p sin=1 raiz=palestino pais=palestina iso2=ps iso3=pse pos=adj
+palestinianas pos=s
+palestiniano nacionalidade=1 gen=m num=s sin=1 raiz=palestino pais=palestina iso2=ps iso3=pse pos=adj
+palestiniano pos=s
+palestinianos nacionalidade=1 gen=m num=p sin=1 raiz=palestino pais=palestina iso2=ps iso3=pse pos=adj
+palestinianos pos=s
+palestino nacionalidade=1 gen=m num=s pais=palestina iso2=ps iso3=pse pos=adj
+palestino pos=s
+palestinos nacionalidade=1 gen=m num=p raiz=palestino pais=palestina iso2=ps iso3=pse pos=adj
+palestinos pos=s
+panamenha nacionalidade=1 gen=f num=s raiz=panamenho pais=panamá iso2=pa iso3=pan pos=s
+panamenhas nacionalidade=1 gen=f num=p raiz=panamenho pais=panamá iso2=pa iso3=pan pos=s
+panamenho nacionalidade=1 gen=m num=s pais=panamá iso2=pa iso3=pan pos=s
+panamenhos nacionalidade=1 gen=m num=p raiz=panamenho pais=panamá iso2=pa iso3=pan pos=s
+papuásia nacionalidade=1 gen=f num=s raiz=papuásio pais="papua-nova guiné" iso2=pg iso3=png pos=s
+papuásias nacionalidade=1 gen=f num=p raiz=papuásio pais="papua-nova guiné" iso2=pg iso3=png pos=s
+papuásio nacionalidade=1 gen=m num=s pais="papua-nova guiné" iso2=pg iso3=png pos=s
+papuásios nacionalidade=1 gen=m num=p raiz=papuásio pais="papua-nova guiné" iso2=pg iso3=png pos=s
+paquistanês nacionalidade=1 gen=m num=s pais=paquistão iso2=pk iso3=pak pos=s
+paquistanesa nacionalidade=1 gen=f num=s raiz=paquistanês pais=paquistão iso2=pk iso3=pak pos=s
+paquistanesas nacionalidade=1 gen=f num=p raiz=paquistanês pais=paquistão iso2=pk iso3=pak pos=s
+paquistaneses nacionalidade=1 gen=m num=p raiz=paquistanês pais=paquistão iso2=pk iso3=pak pos=s
+paraguaia nacionalidade=1 gen=f num=s raiz=paraguaio pais=paraguai iso2=py iso3=pry pos=adj
+paraguaias nacionalidade=1 gen=f num=p raiz=paraguaio pais=paraguai iso2=py iso3=pry pos=adj
+paraguaio nacionalidade=1 gen=m num=s pais=paraguai iso2=py iso3=pry pos=adj
+paraguaios nacionalidade=1 gen=m num=p raiz=paraguaio pais=paraguai iso2=py iso3=pry pos=adj
+persa nacionalidade=1 gen=c num=s sin=1 raiz=iraniano pais=irã iso2=ir iso3=irn pos=adj
+persa pos=s
+persas nacionalidade=1 gen=c num=p sin=1 raiz=iraniano pais=irã iso2=ir iso3=irn pos=adj
+persas pos=s
+peruana nacionalidade=1 gen=f num=s raiz=peruano pais=peru iso2=pe iso3=per pos=adj
+peruana pos=s
+peruanas nacionalidade=1 gen=f num=p raiz=peruano pais=peru iso2=pe iso3=per pos=adj
+peruanas pos=s
+peruano nacionalidade=1 gen=m num=s pais=peru iso2=pe iso3=per pos=adj
+peruano pos=s
+peruanos nacionalidade=1 gen=m num=p raiz=peruano pais=peru iso2=pe iso3=per pos=adj
+peruanos pos=s
+polaca nacionalidade=1 gen=f num=s sin=1 raiz=polonês pais=polônia iso2=pl iso3=pol pos=adj
+polaca pos=s
+polacas nacionalidade=1 gen=f num=p sin=1 raiz=polonês pais=polônia iso2=pl iso3=pol pos=adj
+polacas pos=s
+polaco nacionalidade=1 gen=m num=s sin=1 raiz=polonês pais=polônia iso2=pl iso3=pol pos=adj
+polaco pos=s
+polacos nacionalidade=1 gen=m num=p sin=1 raiz=polonês pais=polônia iso2=pl iso3=pol pos=adj
+polacos pos=s
+polinésia nacionalidade=1 gen=f num=s raiz=polinésio pais="polinésia francesa" iso2=pf iso3=pyf pos=adj
+polinésia pos=s
+polinésias nacionalidade=1 gen=f num=p raiz=polinésio pais="polinésia francesa" iso2=pf iso3=pyf pos=adj
+polinésias pos=s
+polinésio nacionalidade=1 gen=m num=s pais="polinésia francesa" iso2=pf iso3=pyf pos=adj
+polinésio pos=s
+polinésios nacionalidade=1 gen=m num=p raiz=polinésio pais="polinésia francesa" iso2=pf iso3=pyf pos=adj
+polinésios pos=s
+polonês nacionalidade=1 gen=m num=s pais=polônia iso2=pl iso3=pol pos=adj
+polonesa nacionalidade=1 gen=f num=s raiz=polonês pais=polônia iso2=pl iso3=pol pos=adj
+polonesa pos=s
+polonesas nacionalidade=1 gen=f num=p raiz=polonês pais=polônia iso2=pl iso3=pol pos=adj
+polonesas pos=s
+poloneses nacionalidade=1 gen=m num=p raiz=polonês pais=polônia iso2=pl iso3=pol pos=adj
+porto-riquenha nacionalidade=1 gen=f num=s raiz="porto-riquenho" pais="porto rico" iso2=pr iso3=pri pos=s
+porto-riquenhas nacionalidade=1 gen=f num=p raiz="porto-riquenho" pais="porto rico" iso2=pr iso3=pri pos=s
+porto-riquenho nacionalidade=1 gen=m num=s pais="porto rico" iso2=pr iso3=pri pos=s
+porto-riquenhos nacionalidade=1 gen=m num=p raiz="porto-riquenho" pais="porto rico" iso2=pr iso3=pri pos=s
+portorriquenha nacionalidade=1 gen=f num=s sin=1 raiz="porto-riquenho" pais="porto rico" iso2=pr iso3=pri pos=s
+portorriquenhas nacionalidade=1 gen=f num=p sin=1 raiz="porto-riquenho" pais="porto rico" iso2=pr iso3=pri pos=s
+portorriquenho nacionalidade=1 gen=m num=s sin=1 raiz="porto-riquenho" pais="porto rico" iso2=pr iso3=pri pos=s
+portorriquenhos nacionalidade=1 gen=m num=p sin=1 raiz="porto-riquenho" pais="porto rico" iso2=pr iso3=pri pos=s
+português nacionalidade=1 gen=m num=s pais=portugal iso2=pt iso3=prt pos=adj
+português pos=s
+portuguesa nacionalidade=1 gen=f num=s raiz=português pais=portugal iso2=pt iso3=prt pos=adj
+portuguesa pos=s
+portuguesa pos=v
+portuguesas nacionalidade=1 gen=f num=p raiz=português pais=portugal iso2=pt iso3=prt pos=adj
+portuguesas pos=s
+portuguesas pos=v
+portugueses nacionalidade=1 gen=m num=p raiz=português pais=portugal iso2=pt iso3=prt pos=adj
+portugueses pos=s
+portugueses pos=v
+queniana nacionalidade=1 gen=f num=s raiz=queniano pais=quênia iso2=ke iso3=ken pos=adj
+queniana pos=s
+quenianas nacionalidade=1 gen=f num=p raiz=queniano pais=quênia iso2=ke iso3=ken pos=adj
+quenianas pos=s
+queniano nacionalidade=1 gen=m num=s pais=quênia iso2=ke iso3=ken pos=adj
+queniano pos=s
+quenianos nacionalidade=1 gen=m num=p raiz=queniano pais=quênia iso2=ke iso3=ken pos=adj
+quenianos pos=s
+quirguistanês nacionalidade=1 gen=m num=s sin=1 raiz=quirguiz pais=quirguistão iso2=kg iso3=kgz pos=s
+quirguistanesa nacionalidade=1 gen=f num=s sin=1 raiz=quirguiz pais=quirguistão iso2=kg iso3=kgz pos=s
+quirguistanesas nacionalidade=1 gen=f num=p sin=1 raiz=quirguiz pais=quirguistão iso2=kg iso3=kgz pos=s
+quirguistaneses nacionalidade=1 gen=m num=p sin=1 raiz=quirguiz pais=quirguistão iso2=kg iso3=kgz pos=s
+quirguiz nacionalidade=1 gen=c num=s pais=quirguistão iso2=kg iso3=kgz pos=s
+quirguizes nacionalidade=1 gen=c num=p raiz=quirguiz pais=quirguistão iso2=kg iso3=kgz pos=s
+quiribatiana nacionalidade=1 gen=f num=s sin=1 raiz=kiribatiano pais=kiribati iso2=ki iso3=kir pos=s
+quiribatianas nacionalidade=1 gen=f num=p sin=1 raiz=kiribatiano pais=kiribati iso2=ki iso3=kir pos=s
+quiribatiano nacionalidade=1 gen=m num=s sin=1 raiz=kiribatiano pais=kiribati iso2=ki iso3=kir pos=s
+quiribatianos nacionalidade=1 gen=m num=p sin=1 raiz=kiribatiano pais=kiribati iso2=ki iso3=kir pos=s
+reunionense nacionalidade=1 gen=c num=s pais=reunião iso2=re iso3=reu pos=s
+reunionenses nacionalidade=1 gen=c num=p raiz=reunionense pais=reunião iso2=re iso3=reu pos=s
+romena nacionalidade=1 gen=f num=s raiz=romeno pais=romênia iso2=ro iso3=rou pos=adj
+romena pos=s
+romenas nacionalidade=1 gen=f num=p raiz=romeno pais=romênia iso2=ro iso3=rou pos=adj
+romenas pos=s
+romeno nacionalidade=1 gen=m num=s pais=romênia iso2=ro iso3=rou pos=adj
+romeno pos=s
+romenos nacionalidade=1 gen=m num=p raiz=romeno pais=romênia iso2=ro iso3=rou pos=adj
+romenos pos=s
+ruandês nacionalidade=1 gen=m num=s pais=ruanda iso2=rw iso3=rwa pos=adj
+ruandês pos=s
+ruandesa nacionalidade=1 gen=f num=s raiz=ruandês pais=ruanda iso2=rw iso3=rwa pos=adj
+ruandesa pos=s
+ruandesas nacionalidade=1 gen=f num=p raiz=ruandês pais=ruanda iso2=rw iso3=rwa pos=adj
+ruandesas pos=s
+ruandeses nacionalidade=1 gen=m num=p raiz=ruandês pais=ruanda iso2=rw iso3=rwa pos=adj
+ruandeses pos=s
+russa nacionalidade=1 gen=f num=s raiz=russo pais=rússia iso2=ru iso3=rus pos=adj
+russa pos=s
+russas nacionalidade=1 gen=f num=p raiz=russo pais=rússia iso2=ru iso3=rus pos=adj
+russas pos=s
+russo nacionalidade=1 gen=m num=s pais=rússia iso2=ru iso3=rus pos=adj
+russo pos=s
+russos nacionalidade=1 gen=m num=p raiz=russo pais=rússia iso2=ru iso3=rus pos=adj
+russos pos=s
+saarauí nacionalidade=1 gen=c num=s pais="saara ocidental" iso2=eh iso3=esh pos=s
+saarauís nacionalidade=1 gen=c num=p raiz=saarauí pais="saara ocidental" iso2=eh iso3=esh pos=s
+salomonense nacionalidade=1 gen=c num=s pais="ilhas salomão" iso2=sb iso3=slb pos=s
+salomonenses nacionalidade=1 gen=c num=p raiz=salomonense pais="ilhas salomão" iso2=sb iso3=slb pos=s
+salvadorenha nacionalidade=1 gen=f num=s raiz=salvadorenho pais="el salvador" iso2=sv iso3=slv pos=adj
+salvadorenha pos=s
+salvadorenhas nacionalidade=1 gen=f num=p raiz=salvadorenho pais="el salvador" iso2=sv iso3=slv pos=adj
+salvadorenhas pos=s
+salvadorenho nacionalidade=1 gen=m num=s pais="el salvador" iso2=sv iso3=slv pos=adj
+salvadorenho pos=s
+salvadorenhos nacionalidade=1 gen=m num=p raiz=salvadorenho pais="el salvador" iso2=sv iso3=slv pos=adj
+salvadorenhos pos=s
+samarinês nacionalidade=1 gen=m num=s sin=1 raiz="são-marinense" pais="san marino" iso2=sm iso3=smr pos=s
+samarinesa nacionalidade=1 gen=f num=s sin=1 raiz="são-marinense" pais="san marino" iso2=sm iso3=smr pos=s
+samarinesas nacionalidade=1 gen=f num=p sin=1 raiz="são-marinense" pais="san marino" iso2=sm iso3=smr pos=s
+samarineses nacionalidade=1 gen=m num=p sin=1 raiz="são-marinense" pais="san marino" iso2=sm iso3=smr pos=s
+samoana nacionalidade=1 gen=f num=s raiz=samoano pais=samoa iso2=ws iso3=wsm pos=s
+samoanas nacionalidade=1 gen=f num=p raiz=samoano pais=samoa iso2=ws iso3=wsm pos=s
+samoano nacionalidade=1 gen=m num=s pais=samoa iso2=ws iso3=wsm pos=s
+samoano-americana nacionalidade=1 gen=f num=s raiz="samoano-americano" pais="samoa americana" iso2=as iso3=asm pos=s
+samoano-americanas nacionalidade=1 gen=f num=p raiz="samoano-americano" pais="samoa americana" iso2=as iso3=asm pos=s
+samoano-americano nacionalidade=1 gen=m num=s pais="samoa americana" iso2=as iso3=asm pos=s
+samoano-americanos nacionalidade=1 gen=m num=p raiz="samoano-americano" pais="samoa americana" iso2=as iso3=asm pos=s
+samoanos nacionalidade=1 gen=m num=p raiz=samoano pais=samoa iso2=ws iso3=wsm pos=s
+santa-lucense nacionalidade=1 gen=c num=s pais="santa lúcia" iso2=lc iso3=lca pos=s
+santa-lucenses nacionalidade=1 gen=c num=p raiz="santa-lucense" pais="santa lúcia" iso2=lc iso3=lca pos=s
+são-cristovense nacionalidade=1 gen=c num=s pais="são cristóvão e névis" iso2=kn iso3=kna pos=s
+são-cristovenses nacionalidade=1 gen=c num=p raiz="são-cristovense" pais="são cristóvão e névis" iso2=kn iso3=kna pos=s
+são-marinense nacionalidade=1 gen=c num=s pais="san marino" iso2=sm iso3=smr pos=s
+são-marinenses nacionalidade=1 gen=c num=p raiz="são-marinense" pais="san marino" iso2=sm iso3=smr pos=s
+são-tomense nacionalidade=1 gen=c num=s pais="são tomé e príncipe" iso2=st iso3=stp pos=s
+são-tomenses nacionalidade=1 gen=c num=p raiz="são-tomense" pais="são tomé e príncipe" iso2=st iso3=stp pos=s
+são-vicentina nacionalidade=1 gen=f num=s raiz="são-vicentino" pais="são vicente e granadinas" iso2=vc iso3=vct pos=s
+são-vicentinas nacionalidade=1 gen=f num=p raiz="são-vicentino" pais="são vicente e granadinas" iso2=vc iso3=vct pos=s
+são-vicentino nacionalidade=1 gen=m num=s pais="são vicente e granadinas" iso2=vc iso3=vct pos=s
+são-vicentinos nacionalidade=1 gen=m num=p raiz="são-vicentino" pais="são vicente e granadinas" iso2=vc iso3=vct pos=s
+sarauí nacionalidade=1 gen=c num=s sin=1 raiz=saarauí pais="saara ocidental" iso2=eh iso3=esh pos=s
+sarauís nacionalidade=1 gen=c num=p sin=1 raiz=saarauí pais="saara ocidental" iso2=eh iso3=esh pos=s
+saudita nacionalidade=1 gen=c num=s pais="arábia saudita" iso2=sa iso3=sau pos=s
+sauditas nacionalidade=1 gen=c num=p raiz=saudita pais="arábia saudita" iso2=sa iso3=sau pos=s
+seichelense nacionalidade=1 gen=c num=s pais=seicheles iso2=sc iso3=syc pos=s
+seichelenses nacionalidade=1 gen=c num=p raiz=seichelense pais=seicheles iso2=sc iso3=syc pos=s
+senegalês nacionalidade=1 gen=m num=s pais=senegal iso2=sn iso3=sen pos=adj
+senegalês pos=s
+senegalesa nacionalidade=1 gen=f num=s raiz=senegalês pais=senegal iso2=sn iso3=sen pos=adj
+senegalesa pos=s
+senegalesas nacionalidade=1 gen=f num=p raiz=senegalês pais=senegal iso2=sn iso3=sen pos=adj
+senegalesas pos=s
+senegaleses nacionalidade=1 gen=m num=p raiz=senegalês pais=senegal iso2=sn iso3=sen pos=adj
+senegaleses pos=s
+serra-leonês nacionalidade=1 gen=m num=s pais="serra leoa" iso2=sl iso3=sle pos=s
+serra-leonesa nacionalidade=1 gen=f num=s raiz="serra-leonês" pais="serra leoa" iso2=sl iso3=sle pos=s
+serra-leonesas nacionalidade=1 gen=f num=p raiz="serra-leonês" pais="serra leoa" iso2=sl iso3=sle pos=s
+serra-leoneses nacionalidade=1 gen=m num=p raiz="serra-leonês" pais="serra leoa" iso2=sl iso3=sle pos=s
+sérvia nacionalidade=1 gen=f num=s raiz=sérvio pais=sérvia iso2=rs iso3=srb pos=adj
+sérvia pos=s
+sérvias nacionalidade=1 gen=f num=p raiz=sérvio pais=sérvia iso2=rs iso3=srb pos=adj
+sérvias pos=s
+sérvio nacionalidade=1 gen=m num=s pais=sérvia iso2=rs iso3=srb pos=adj
+sérvio pos=s
+sérvios nacionalidade=1 gen=m num=p raiz=sérvio pais=sérvia iso2=rs iso3=srb pos=adj
+sérvios pos=s
+singapurense nacionalidade=1 gen=c num=s pais=singapura iso2=sg iso3=sgp pos=s
+singapurenses nacionalidade=1 gen=c num=p raiz=singapurense pais=singapura iso2=sg iso3=sgp pos=s
+síria nacionalidade=1 gen=f num=s raiz=sírio pais=síria iso2=sy iso3=syr pos=adj
+síria pos=s
+sírias nacionalidade=1 gen=f num=p raiz=sírio pais=síria iso2=sy iso3=syr pos=adj
+sírias pos=s
+sírio nacionalidade=1 gen=m num=s pais=síria iso2=sy iso3=syr pos=adj
+sírio pos=s
+sírios nacionalidade=1 gen=m num=p raiz=sírio pais=síria iso2=sy iso3=syr pos=adj
+sírios pos=s
+somali nacionalidade=1 gen=c num=s pais=somália iso2=so iso3=som pos=s
+somaliana nacionalidade=1 gen=f num=s sin=1 raiz=somali pais=somália iso2=so iso3=som pos=s
+somalianas nacionalidade=1 gen=f num=p sin=1 raiz=somali pais=somália iso2=so iso3=som pos=s
+somaliano nacionalidade=1 gen=m num=s sin=1 raiz=somali pais=somália iso2=so iso3=som pos=s
+somalianos nacionalidade=1 gen=m num=p sin=1 raiz=somali pais=somália iso2=so iso3=som pos=s
+somalis nacionalidade=1 gen=c num=p raiz=somali pais=somália iso2=so iso3=som pos=s
+srilanquês nacionalidade=1 gen=m num=s sin=1 raiz=cingalês pais="sri lanka" iso2=lk iso3=lka pos=s
+srilanquesa nacionalidade=1 gen=f num=s sin=1 raiz=cingalês pais="sri lanka" iso2=lk iso3=lka pos=s
+srilanquesas nacionalidade=1 gen=f num=p sin=1 raiz=cingalês pais="sri lanka" iso2=lk iso3=lka pos=s
+srilanqueses nacionalidade=1 gen=m num=p sin=1 raiz=cingalês pais="sri lanka" iso2=lk iso3=lka pos=s
+suazi nacionalidade=1 gen=c num=s sin=1 raiz=suázi pais=essuatíni iso2=sz iso3=swz pos=s
+suázi nacionalidade=1 gen=c num=s pais=essuatíni iso2=sz iso3=swz pos=s
+suazis nacionalidade=1 gen=c num=p sin=1 raiz=suázi pais=essuatíni iso2=sz iso3=swz pos=s
+suázis nacionalidade=1 gen=c num=p raiz=suázi pais=essuatíni iso2=sz iso3=swz pos=s
+sudanês nacionalidade=1 gen=m num=s pais=sudão iso2=sd iso3=sdn pos=adj
+sudanês pos=s
+sudanesa nacionalidade=1 gen=f num=s raiz=sudanês pais=sudão iso2=sd iso3=sdn pos=adj
+sudanesa pos=s
+sudanesas nacionalidade=1 gen=f num=p raiz=sudanês pais=sudão iso2=sd iso3=sdn pos=adj
+sudanesas pos=s
+sudaneses nacionalidade=1 gen=m num=p raiz=sudanês pais=sudão iso2=sd iso3=sdn pos=adj
+sudaneses pos=s
+sueca nacionalidade=1 gen=f num=s raiz=sueco pais=suécia iso2=se iso3=swe pos=adj
+sueca pos=s
+suecas nacionalidade=1 gen=f num=p raiz=sueco pais=suécia iso2=se iso3=swe pos=adj
+suecas pos=s
+sueco nacionalidade=1 gen=m num=s pais=suécia iso2=se iso3=swe pos=adj
+sueco pos=s
+suecos nacionalidade=1 gen=m num=p raiz=sueco pais=suécia iso2=se iso3=swe pos=adj
+suecos pos=s
+suíça nacionalidade=1 gen=f num=s raiz=suíço pais=suíça iso2=ch iso3=che pos=adj
+suíça pos=s
+suíças nacionalidade=1 gen=f num=p raiz=suíço pais=suíça iso2=ch iso3=che pos=adj
+suíças pos=s
+suíço nacionalidade=1 gen=m num=s pais=suíça iso2=ch iso3=che pos=adj
+suíço pos=s
+suíços nacionalidade=1 gen=m num=p raiz=suíço pais=suíça iso2=ch iso3=che pos=adj
+suíços pos=s
+sul-africana nacionalidade=1 gen=f num=s raiz="sul-africano" pais="áfrica do sul" iso2=za iso3=zaf pos=s
+sul-africanas nacionalidade=1 gen=f num=p raiz="sul-africano" pais="áfrica do sul" iso2=za iso3=zaf pos=s
+sul-africano nacionalidade=1 gen=m num=s pais="áfrica do sul" iso2=za iso3=zaf pos=s
+sul-africanos nacionalidade=1 gen=m num=p raiz="sul-africano" pais="áfrica do sul" iso2=za iso3=zaf pos=s
+sul-coreana nacionalidade=1 gen=f num=s raiz="sul-coreano" pais="coreia do sul" iso2=kr iso3=kor pos=s
+sul-coreanas nacionalidade=1 gen=f num=p raiz="sul-coreano" pais="coreia do sul" iso2=kr iso3=kor pos=s
+sul-coreano nacionalidade=1 gen=m num=s pais="coreia do sul" iso2=kr iso3=kor pos=s
+sul-coreanos nacionalidade=1 gen=m num=p raiz="sul-coreano" pais="coreia do sul" iso2=kr iso3=kor pos=s
+sul-sudanês nacionalidade=1 gen=m num=s pais="sudão do sul" iso2=ss iso3=ssd pos=s
+sul-sudanesa nacionalidade=1 gen=f num=s raiz="sul-sudanês" pais="sudão do sul" iso2=ss iso3=ssd pos=s
+sul-sudanesas nacionalidade=1 gen=f num=p raiz="sul-sudanês" pais="sudão do sul" iso2=ss iso3=ssd pos=s
+sul-sudaneses nacionalidade=1 gen=m num=p raiz="sul-sudanês" pais="sudão do sul" iso2=ss iso3=ssd pos=s
+surinamês nacionalidade=1 gen=m num=s pais=suriname iso2=sr iso3=sur pos=s
+surinamesa nacionalidade=1 gen=f num=s raiz=surinamês pais=suriname iso2=sr iso3=sur pos=s
+surinamesas nacionalidade=1 gen=f num=p raiz=surinamês pais=suriname iso2=sr iso3=sur pos=s
+surinameses nacionalidade=1 gen=m num=p raiz=surinamês pais=suriname iso2=sr iso3=sur pos=s
+tailandês nacionalidade=1 gen=m num=s pais=tailândia iso2=th iso3=tha pos=adj
+tailandês pos=s
+tailandesa nacionalidade=1 gen=f num=s raiz=tailandês pais=tailândia iso2=th iso3=tha pos=adj
+tailandesa pos=s
+tailandesas nacionalidade=1 gen=f num=p raiz=tailandês pais=tailândia iso2=th iso3=tha pos=adj
+tailandesas pos=s
+tailandeses nacionalidade=1 gen=m num=p raiz=tailandês pais=tailândia iso2=th iso3=tha pos=adj
+tailandeses pos=s
+taiwanês nacionalidade=1 gen=m num=s pais=taiwan iso2=tw iso3=twn pos=s
+taiwanesa nacionalidade=1 gen=f num=s raiz=taiwanês pais=taiwan iso2=tw iso3=twn pos=s
+taiwanesas nacionalidade=1 gen=f num=p raiz=taiwanês pais=taiwan iso2=tw iso3=twn pos=s
+taiwaneses nacionalidade=1 gen=m num=p raiz=taiwanês pais=taiwan iso2=tw iso3=twn pos=s
+tajique nacionalidade=1 gen=c num=s pais=tajiquistão iso2=tj iso3=tjk pos=s
+tajiques nacionalidade=1 gen=c num=p raiz=tajique pais=tajiquistão iso2=tj iso3=tjk pos=s
+tajiquistanês nacionalidade=1 gen=m num=s sin=1 raiz=tajique pais=tajiquistão iso2=tj iso3=tjk pos=s
+tajiquistanesa nacionalidade=1 gen=f num=s sin=1 raiz=tajique pais=tajiquistão iso2=tj iso3=tjk pos=s
+tajiquistanesas nacionalidade=1 gen=f num=p sin=1 raiz=tajique pais=tajiquistão iso2=tj iso3=tjk pos=s
+tajiquistaneses nacionalidade=1 gen=m num=p sin=1 raiz=tajique pais=tajiquistão iso2=tj iso3=tjk pos=s
+tanzaniana nacionalidade=1 gen=f num=s raiz=tanzaniano pais=tanzânia iso2=tz iso3=tza pos=adj
+tanzaniana pos=s
+tanzanianas nacionalidade=1 gen=f num=p raiz=tanzaniano pais=tanzânia iso2=tz iso3=tza pos=adj
+tanzanianas pos=s
+tanzaniano nacionalidade=1 gen=m num=s pais=tanzânia iso2=tz iso3=tza pos=adj
+tanzaniano pos=s
+tanzanianos nacionalidade=1 gen=m num=p raiz=tanzaniano pais=tanzânia iso2=tz iso3=tza pos=adj
+tanzanianos pos=s
+tcheca nacionalidade=1 gen=f num=s raiz=tcheco pais=tchéquia iso2=cz iso3=cze pos=s
+tchecas nacionalidade=1 gen=f num=p raiz=tcheco pais=tchéquia iso2=cz iso3=cze pos=s
+tcheco nacionalidade=1 gen=m num=s pais=tchéquia iso2=cz iso3=cze pos=s
+tchecos nacionalidade=1 gen=m num=p raiz=tcheco pais=tchéquia iso2=cz iso3=cze pos=s
+timorense nacionalidade=1 gen=c num=s pais="timor-leste" iso2=tl iso3=tls pos=adj
+timorense pos=s
+timorenses nacionalidade=1 gen=c num=p raiz=timorense pais="timor-leste" iso2=tl iso3=tls pos=adj
+timorenses pos=s
+tobaguiana nacionalidade=1 gen=f num=s sin=1 raiz=trinitino pais="trinidad e tobago" iso2=tt iso3=tto pos=s
+tobaguianas nacionalidade=1 gen=f num=p sin=1 raiz=trinitino pais="trinidad e tobago" iso2=tt iso3=tto pos=s
+tobaguiano nacionalidade=1 gen=m num=s sin=1 raiz=trinitino pais="trinidad e tobago" iso2=tt iso3=tto pos=s
+tobaguianos nacionalidade=1 gen=m num=p sin=1 raiz=trinitino pais="trinidad e tobago" iso2=tt iso3=tto pos=s
+togolês nacionalidade=1 gen=m num=s pais=togo iso2=tg iso3=tgo pos=s
+togolesa nacionalidade=1 gen=f num=s raiz=togolês pais=togo iso2=tg iso3=tgo pos=s
+togolesas nacionalidade=1 gen=f num=p raiz=togolês pais=togo iso2=tg iso3=tgo pos=s
+togoleses nacionalidade=1 gen=m num=p raiz=togolês pais=togo iso2=tg iso3=tgo pos=s
+tonganês nacionalidade=1 gen=m num=s pais=tonga iso2=to iso3=ton pos=s
+tonganesa nacionalidade=1 gen=f num=s raiz=tonganês pais=tonga iso2=to iso3=ton pos=s
+tonganesas nacionalidade=1 gen=f num=p raiz=tonganês pais=tonga iso2=to iso3=ton pos=s
+tonganeses nacionalidade=1 gen=m num=p raiz=tonganês pais=tonga iso2=to iso3=ton pos=s
+trinitina nacionalidade=1 gen=f num=s raiz=trinitino pais="trinidad e tobago" iso2=tt iso3=tto pos=s
+trinitinas nacionalidade=1 gen=f num=p raiz=trinitino pais="trinidad e tobago" iso2=tt iso3=tto pos=s
+trinitino nacionalidade=1 gen=m num=s pais="trinidad e tobago" iso2=tt iso3=tto pos=s
+trinitinos nacionalidade=1 gen=m num=p raiz=trinitino pais="trinidad e tobago" iso2=tt iso3=tto pos=s
+tunisiana nacionalidade=1 gen=f num=s raiz=tunisiano pais=tunísia iso2=tn iso3=tun pos=s
+tunisianas nacionalidade=1 gen=f num=p raiz=tunisiano pais=tunísia iso2=tn iso3=tun pos=s
+tunisiano nacionalidade=1 gen=m num=s pais=tunísia iso2=tn iso3=tun pos=s
+tunisianos nacionalidade=1 gen=m num=p raiz=tunisiano pais=tunísia iso2=tn iso3=tun pos=s
+tunisina nacionalidade=1 gen=f num=s sin=1 raiz=tunisiano pais=tunísia iso2=tn iso3=tun pos=adj
+tunisina pos=s
+tunisinas nacionalidade=1 gen=f num=p sin=1 raiz=tunisiano pais=tunísia iso2=tn iso3=tun pos=adj
+tunisinas pos=s
+tunisino nacionalidade=1 gen=m num=s sin=1 raiz=tunisiano pais=tunísia iso2=tn iso3=tun pos=adj
+tunisino pos=s
+tunisinos nacionalidade=1 gen=m num=p sin=1 raiz=tunisiano pais=tunísia iso2=tn iso3=tun pos=adj
+tunisinos pos=s
+turca nacionalidade=1 gen=f num=s raiz=turco pais=turquia iso2=tr iso3=tur pos=adj
+turca pos=s
+turcas nacionalidade=1 gen=f num=p raiz=turco pais=turquia iso2=tr iso3=tur pos=adj
+turcas pos=s
+turco nacionalidade=1 gen=m num=s pais=turquia iso2=tr iso3=tur pos=adj
+turco pos=s
+turcomana nacionalidade=1 gen=f num=s sin=1 raiz=turcomeno pais=turcomenistão iso2=tm iso3=tkm pos=s
+turcomanas nacionalidade=1 gen=f num=p sin=1 raiz=turcomeno pais=turcomenistão iso2=tm iso3=tkm pos=s
+turcomano nacionalidade=1 gen=m num=s sin=1 raiz=turcomeno pais=turcomenistão iso2=tm iso3=tkm pos=s
+turcomanos nacionalidade=1 gen=m num=p sin=1 raiz=turcomeno pais=turcomenistão iso2=tm iso3=tkm pos=s
+turcomena nacionalidade=1 gen=f num=s raiz=turcomeno pais=turcomenistão iso2=tm iso3=tkm pos=s
+turcomenas nacionalidade=1 gen=f num=p raiz=turcomeno pais=turcomenistão iso2=tm iso3=tkm pos=s
+turcomeno nacionalidade=1 gen=m num=s pais=turcomenistão iso2=tm iso3=tkm pos=s
+turcomenos nacionalidade=1 gen=m num=p raiz=turcomeno pais=turcomenistão iso2=tm iso3=tkm pos=s
+turcos nacionalidade=1 gen=m num=p raiz=turco pais=turquia iso2=tr iso3=tur pos=adj
+turcos pos=s
+tuvaluana nacionalidade=1 gen=f num=s raiz=tuvaluano pais=tuvalu iso2=tv iso3=tuv pos=s
+tuvaluanas nacionalidade=1 gen=f num=p raiz=tuvaluano pais=tuvalu iso2=tv iso3=tuv pos=s
+tuvaluano nacionalidade=1 gen=m num=s pais=tuvalu iso2=tv iso3=tuv pos=s
+tuvaluanos nacionalidade=1 gen=m num=p raiz=tuvaluano pais=tuvalu iso2=tv iso3=tuv pos=s
+ucraniana nacionalidade=1 gen=f num=s raiz=ucraniano pais=ucrânia iso2=ua iso3=ukr pos=adj
+ucraniana pos=s
+ucranianas nacionalidade=1 gen=f num=p raiz=ucraniano pais=ucrânia iso2=ua iso3=ukr pos=adj
+ucranianas pos=s
+ucraniano nacionalidade=1 gen=m num=s pais=ucrânia iso2=ua iso3=ukr pos=adj
+ucraniano pos=s
+ucranianos nacionalidade=1 gen=m num=p raiz=ucraniano pais=ucrânia iso2=ua iso3=ukr pos=adj
+ucranianos pos=s
+ugandense nacionalidade=1 gen=c num=s pais=uganda iso2=ug iso3=uga pos=s
+ugandenses nacionalidade=1 gen=c num=p raiz=ugandense pais=uganda iso2=ug iso3=uga pos=s
+ugandês nacionalidade=1 gen=m num=s sin=1 raiz=ugandense pais=uganda iso2=ug iso3=uga pos=adj
+ugandês pos=s
+ugandesa nacionalidade=1 gen=f num=s sin=1 raiz=ugandense pais=uganda iso2=ug iso3=uga pos=adj
+ugandesa pos=s
+ugandesas nacionalidade=1 gen=f num=p sin=1 raiz=ugandense pais=uganda iso2=ug iso3=uga pos=adj
+ugandesas pos=s
+ugandeses nacionalidade=1 gen=m num=p sin=1 raiz=ugandense pais=uganda iso2=ug iso3=uga pos=adj
+ugandeses pos=s
+uruguaia nacionalidade=1 gen=f num=s raiz=uruguaio pais=uruguai iso2=uy iso3=ury pos=adj
+uruguaia pos=s
+uruguaias nacionalidade=1 gen=f num=p raiz=uruguaio pais=uruguai iso2=uy iso3=ury pos=adj
+uruguaias pos=s
+uruguaio nacionalidade=1 gen=m num=s pais=uruguai iso2=uy iso3=ury pos=adj
+uruguaio pos=s
+uruguaios nacionalidade=1 gen=m num=p raiz=uruguaio pais=uruguai iso2=uy iso3=ury pos=adj
+uruguaios pos=s
+uzbeque nacionalidade=1 gen=c num=s pais=uzbequistão iso2=uz iso3=uzb pos=s
+uzbeques nacionalidade=1 gen=c num=p raiz=uzbeque pais=uzbequistão iso2=uz iso3=uzb pos=s
+uzbequistanês nacionalidade=1 gen=m num=s sin=1 raiz=uzbeque pais=uzbequistão iso2=uz iso3=uzb pos=s
+uzbequistanesa nacionalidade=1 gen=f num=s sin=1 raiz=uzbeque pais=uzbequistão iso2=uz iso3=uzb pos=s
+uzbequistanesas nacionalidade=1 gen=f num=p sin=1 raiz=uzbeque pais=uzbequistão iso2=uz iso3=uzb pos=s
+uzbequistaneses nacionalidade=1 gen=m num=p sin=1 raiz=uzbeque pais=uzbequistão iso2=uz iso3=uzb pos=s
+vanuatuense nacionalidade=1 gen=c num=s pais=vanuatu iso2=vu iso3=vut pos=s
+vanuatuenses nacionalidade=1 gen=c num=p raiz=vanuatuense pais=vanuatu iso2=vu iso3=vut pos=s
+vaticana nacionalidade=1 gen=f num=s raiz=vaticano pais="santa sé" iso2=va iso3=vat pos=adj
+vaticanas nacionalidade=1 gen=f num=p raiz=vaticano pais="santa sé" iso2=va iso3=vat pos=adj
+vaticano nacionalidade=1 gen=m num=s pais="santa sé" iso2=va iso3=vat pos=adj
+vaticanos nacionalidade=1 gen=m num=p raiz=vaticano pais="santa sé" iso2=va iso3=vat pos=adj
+venezuelana nacionalidade=1 gen=f num=s raiz=venezuelano pais=venezuela iso2=ve iso3=ven pos=adj
+venezuelanas nacionalidade=1 gen=f num=p raiz=venezuelano pais=venezuela iso2=ve iso3=ven pos=adj
+venezuelano nacionalidade=1 gen=m num=s pais=venezuela iso2=ve iso3=ven pos=adj
+venezuelanos nacionalidade=1 gen=m num=p raiz=venezuelano pais=venezuela iso2=ve iso3=ven pos=adj
+vietnamita nacionalidade=1 gen=c num=s pais=vietnã iso2=vn iso3=vnm pos=adj
+vietnamita pos=s
+vietnamitas nacionalidade=1 gen=c num=p raiz=vietnamita pais=vietnã iso2=vn iso3=vnm pos=adj
+vietnamitas pos=s
+zambiana nacionalidade=1 gen=f num=s raiz=zambiano pais=zâmbia iso2=zm iso3=zmb pos=adj
+zambiana pos=s
+zambianas nacionalidade=1 gen=f num=p raiz=zambiano pais=zâmbia iso2=zm iso3=zmb pos=adj
+zambianas pos=s
+zambiano nacionalidade=1 gen=m num=s pais=zâmbia iso2=zm iso3=zmb pos=adj
+zambiano pos=s
+zambianos nacionalidade=1 gen=m num=p raiz=zambiano pais=zâmbia iso2=zm iso3=zmb pos=adj
+zambianos pos=s
+zimbabuana nacionalidade=1 gen=f num=s raiz=zimbabuano pais=zimbábue iso2=zw iso3=zwe pos=s
+zimbabuanas nacionalidade=1 gen=f num=p raiz=zimbabuano pais=zimbábue iso2=zw iso3=zwe pos=s
+zimbabuano nacionalidade=1 gen=m num=s pais=zimbábue iso2=zw iso3=zwe pos=s
+zimbabuanos nacionalidade=1 gen=m num=p raiz=zimbabuano pais=zimbábue iso2=zw iso3=zwe pos=s
+zimbabueana nacionalidade=1 gen=f num=s sin=1 raiz=zimbabuano pais=zimbábue iso2=zw iso3=zwe pos=adj
+zimbabueana pos=s
+zimbabueanas nacionalidade=1 gen=f num=p sin=1 raiz=zimbabuano pais=zimbábue iso2=zw iso3=zwe pos=adj
+zimbabueanas pos=s
+zimbabueano nacionalidade=1 gen=m num=s sin=1 raiz=zimbabuano pais=zimbábue iso2=zw iso3=zwe pos=adj
+zimbabueano pos=s
+zimbabueanos nacionalidade=1 gen=m num=p sin=1 raiz=zimbabuano pais=zimbábue iso2=zw iso3=zwe pos=adj
+zimbabueanos pos=s

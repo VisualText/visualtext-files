@@ -1,0 +1,298 @@
+# Graus académicos em português: nomes, títulos, estudantes e abreviaturas.
+# Abrange o sistema brasileiro (bacharelado, licenciatura, tecnólogo,
+# especialização e MBA lato sensu, mestrado e doutorado stricto sensu,
+# pós-doutorado, livre-docência), o sistema português de Bolonha (licenciatura,
+# mestrado integrado, doutoramento, agregação, CTeSP) e os graus estrangeiros
+# que se costumam citar em currículos (phd, msc, llm, mba...).
+# Uma linha por forma.
+#   grau=         a forma canónica do grau -- em toda entrada de grau, para que
+#                 as regras façam a junção com pt-graus-academicos.kbb por este
+#                 atributo e não por $text.  É o nome do grau (mestrado,
+#                 doutorado) ou, para um grau citado pela sigla, a sigla (phd)
+#   nome=1        a forma é o nome do grau          sin=1  um nome alternativo
+#   titulo=1      o título de quem tem o grau (mestre, doutora, bacharel)
+#   estudante=1   quem cursa o grau (mestrando, doutoranda)
+#   completo=     numa abreviatura, a palavra que ela abrevia (dr -> doutor,
+#                 bel -> bacharel, phd -> "doctor of philosophy")
+#   gen=m|f       género do título         num=s|p  número
+#   nivel=        curta duração | graduação | especialização | mestrado |
+#                 doutorado | pós-doutorado | livre-docência
+#   ciclo=        graduação | pós-graduação
+#   sensu=        lato (especialização, MBA) | stricto (mestrado, doutorado)
+#   area=         área de estudo, um nome canónico de pt-areas-de-estudo.dict
+#   br=1          grau do sistema brasileiro      pt=1  do sistema português,
+#                 ou forma de uso europeu (doutoramento)
+#   estrangeiro=1 grau estrangeiro (no Brasil, o MBA é especialização lato
+#                 sensu, por isso tem br=1 e estrangeiro=1)
+#   profissional=1  grau profissional (mestrado profissional, residência)
+#   honorario=1   conferido honoris causa
+#   tratamento=1  também está em pt-tratamentos.dict como forma de tratamento
+#   ambig=1       a forma é também uma palavra comum com outro sentido, uma
+#                 sigla de estado ou uma forma de tratamento (ver pt-full.dict,
+#                 pt-estados.dict, pt-tratamentos.dict).  Em Portugal "dr." e
+#                 "dra." tratam qualquer licenciado, não só o doutor
+#   sentido=n     a forma pertence à n-ésima leitura adicional de um grau
+#                 ambíguo; o conceito na kbb é <grau><n> (licenciatura1)
+#   palavranivel=1  palavra genérica de nível ou ciclo (graduação,
+#                 pós-graduação, stricto sensu), que nomeia um nível e não um
+#                 grau, e por isso não tem grau=
+# As formas com pontos (Ph.D., Dr., Me., M.Sc.) estão sem os pontos: o
+# tokenizador separa os pontos em tokens próprios.
+ab completo="bachelor of arts" grau=ba nivel=graduação ciclo=graduação area="artes liberais" estrangeiro=1 pos=s
+agregação nome=1 grau=agregação num=s nivel=livre-docência pt=1 ambig=1 pos=s
+aperfeiçoamento nome=1 grau=aperfeiçoamento num=s nivel=especialização ciclo=pós-graduação sensu=lato br=1 ambig=1 pos=s
+associate degree nome=1 grau="associate degree" num=s nivel="curta duração" estrangeiro=1 pos=s
+associate of arts sin=1 grau="associate degree" nivel="curta duração" estrangeiro=1 pos=s
+associate of science sin=1 grau="associate degree" nivel="curta duração" estrangeiro=1 pos=s
+ba completo="bachelor of arts" grau=ba nivel=graduação ciclo=graduação area="artes liberais" estrangeiro=1 ambig=1 pos=s
+bacharel titulo=1 grau=bacharelado gen=m num=s nivel=graduação ciclo=graduação br=1 pos=s
+bacharela titulo=1 grau=bacharelado gen=f num=s nivel=graduação ciclo=graduação br=1 pos=s
+bacharela pos=v
+bacharelado nome=1 grau=bacharelado num=s nivel=graduação ciclo=graduação br=1 pos=adj
+bacharelado pos=s
+bacharelado pos=v
+bacharelados sin=1 grau=bacharelado num=p nivel=graduação ciclo=graduação br=1 pos=adj
+bacharelados pos=s
+bacharelados pos=v
+bacharelanda estudante=1 grau=bacharelado gen=f num=s nivel=graduação ciclo=graduação br=1 pos=s
+bacharelandas estudante=1 grau=bacharelado gen=f num=p nivel=graduação ciclo=graduação br=1 pos=s
+bacharelando estudante=1 grau=bacharelado gen=m num=s nivel=graduação ciclo=graduação br=1 pos=s
+bacharelando pos=v
+bacharelandos estudante=1 grau=bacharelado gen=m num=p nivel=graduação ciclo=graduação br=1 pos=s
+bacharelas titulo=1 grau=bacharelado gen=f num=p nivel=graduação ciclo=graduação br=1 pos=s
+bacharelas pos=v
+bacharelato nome=1 grau=bacharelato num=s nivel=graduação ciclo=graduação pt=1 pos=s
+bacharelatos sin=1 grau=bacharelato num=p nivel=graduação ciclo=graduação pt=1 pos=s
+bacharéis titulo=1 grau=bacharelado gen=m num=p nivel=graduação ciclo=graduação br=1 pos=s
+bachelor of arts nome=1 grau=ba nivel=graduação ciclo=graduação area="artes liberais" estrangeiro=1 pos=s
+bachelor of business administration nome=1 grau=bba nivel=graduação ciclo=graduação area=administração estrangeiro=1 pos=s
+bachelor of engineering nome=1 grau=beng nivel=graduação ciclo=graduação area=engenharia estrangeiro=1 pos=s
+bachelor of laws nome=1 grau=llb nivel=graduação ciclo=graduação area=direito estrangeiro=1 pos=s
+bachelor of science nome=1 grau=bsc nivel=graduação ciclo=graduação area=ciências estrangeiro=1 pos=s
+bachelor palavranivel=1 nivel=graduação ciclo=graduação estrangeiro=1 pos=s
+bachelors palavranivel=1 nivel=graduação ciclo=graduação num=p estrangeiro=1 pos=s
+bba completo="bachelor of business administration" grau=bba nivel=graduação ciclo=graduação area=administração estrangeiro=1 pos=s
+bel completo=bacharel grau=bacharelado gen=m nivel=graduação ciclo=graduação br=1 tratamento=1 ambig=1 pos=adj
+bel pos=s
+bela completo=bacharela grau=bacharelado gen=f nivel=graduação ciclo=graduação br=1 ambig=1 pos=adj
+bela pos=s
+beng completo="bachelor of engineering" grau=beng nivel=graduação ciclo=graduação area=engenharia estrangeiro=1 pos=s
+bs completo="bachelor of science" grau=bsc nivel=graduação ciclo=graduação area=ciências estrangeiro=1 pos=s
+bsc completo="bachelor of science" grau=bsc nivel=graduação ciclo=graduação area=ciências estrangeiro=1 pos=s
+cst completo="curso superior de tecnologia" grau=tecnólogo nivel=graduação ciclo=graduação br=1 pos=s
+ctesp completo="curso técnico superior profissional" grau=ctesp nivel="curta duração" pt=1 pos=s
+curso de aperfeiçoamento sin=1 grau=aperfeiçoamento nivel=especialização ciclo=pós-graduação sensu=lato br=1 pos=s
+curso de especialização sin=1 grau=especialização nivel=especialização ciclo=pós-graduação sensu=lato br=1 pt=1 pos=s
+curso superior de tecnologia sin=1 grau=tecnólogo nivel=graduação ciclo=graduação br=1 pos=s
+curso superior palavranivel=1 nivel=graduação ciclo=graduação pos=s
+curso técnico superior profissional nome=1 grau=ctesp nivel="curta duração" pt=1 pos=s
+dba completo="doctor of business administration" grau=dba nivel=doutorado ciclo=pós-graduação area=administração estrangeiro=1 pos=s
+doctor of business administration nome=1 grau=dba nivel=doutorado ciclo=pós-graduação area=administração estrangeiro=1 pos=s
+doctor of education nome=1 grau=edd nivel=doutorado ciclo=pós-graduação area=educação estrangeiro=1 pos=s
+doctor of juridical science nome=1 grau=sjd nivel=doutorado ciclo=pós-graduação area=direito estrangeiro=1 pos=s
+doctor of medicine nome=1 grau=md nivel=doutorado ciclo=pós-graduação area=medicina estrangeiro=1 profissional=1 pos=s
+doctor of philosophy nome=1 grau=phd nivel=doutorado ciclo=pós-graduação area=filosofia estrangeiro=1 pos=s
+doctor of science nome=1 grau=dsc nivel=doutorado ciclo=pós-graduação area=ciências estrangeiro=1 pos=s
+doctorate palavranivel=1 nivel=doutorado ciclo=pós-graduação estrangeiro=1 pos=s
+doutor honoris causa titulo=1 grau="doutorado honoris causa" gen=m num=s nivel=doutorado ciclo=pós-graduação br=1 pt=1 honorario=1 pos=s
+doutor titulo=1 grau=doutorado gen=m num=s nivel=doutorado ciclo=pós-graduação sensu=stricto br=1 pt=1 tratamento=1 ambig=1 pos=s
+doutora honoris causa titulo=1 grau="doutorado honoris causa" gen=f num=s nivel=doutorado ciclo=pós-graduação br=1 pt=1 honorario=1 pos=s
+doutora titulo=1 grau=doutorado gen=f num=s nivel=doutorado ciclo=pós-graduação sensu=stricto br=1 pt=1 tratamento=1 ambig=1 pos=s
+doutora pos=v
+doutorado honoris causa nome=1 grau="doutorado honoris causa" num=s nivel=doutorado ciclo=pós-graduação br=1 pt=1 honorario=1 pos=s
+doutorado nome=1 grau=doutorado num=s nivel=doutorado ciclo=pós-graduação sensu=stricto br=1 pt=1 pos=adj
+doutorado pos=s
+doutorado pos=v
+doutorado profissional nome=1 grau="doutorado profissional" num=s nivel=doutorado ciclo=pós-graduação sensu=stricto br=1 profissional=1 pos=s
+doutorado stricto sensu sin=1 grau=doutorado nivel=doutorado ciclo=pós-graduação sensu=stricto br=1 pt=1 pos=s
+doutorados profissionais sin=1 grau="doutorado profissional" num=p nivel=doutorado ciclo=pós-graduação sensu=stricto br=1 profissional=1 pos=s
+doutorados sin=1 grau=doutorado num=p nivel=doutorado ciclo=pós-graduação sensu=stricto br=1 pt=1 pos=adj
+doutorados pos=s
+doutorados pos=v
+doutorais palavranivel=1 nivel=doutorado ciclo=pós-graduação num=p pos=adj
+doutorais pos=s
+doutorais pos=v
+doutoral palavranivel=1 nivel=doutorado ciclo=pós-graduação pos=adj
+doutoramento honoris causa sin=1 grau="doutorado honoris causa" nivel=doutorado ciclo=pós-graduação br=1 pt=1 honorario=1 pos=s
+doutoramento sin=1 grau=doutorado nivel=doutorado ciclo=pós-graduação sensu=stricto br=1 pt=1 pos=s
+doutoramentos sin=1 grau=doutorado num=p nivel=doutorado ciclo=pós-graduação sensu=stricto br=1 pt=1 pos=s
+doutoranda estudante=1 grau=doutorado gen=f num=s nivel=doutorado ciclo=pós-graduação sensu=stricto br=1 pt=1 pos=s
+doutorandas estudante=1 grau=doutorado gen=f num=p nivel=doutorado ciclo=pós-graduação sensu=stricto br=1 pt=1 pos=s
+doutorando estudante=1 grau=doutorado gen=m num=s nivel=doutorado ciclo=pós-graduação sensu=stricto br=1 pt=1 pos=s
+doutorando pos=v
+doutorandos estudante=1 grau=doutorado gen=m num=p nivel=doutorado ciclo=pós-graduação sensu=stricto br=1 pt=1 pos=s
+doutoras titulo=1 grau=doutorado gen=f num=p nivel=doutorado ciclo=pós-graduação sensu=stricto br=1 pt=1 ambig=1 pos=s
+doutoras pos=v
+doutores titulo=1 grau=doutorado gen=m num=p nivel=doutorado ciclo=pós-graduação sensu=stricto br=1 pt=1 ambig=1 pos=s
+doutores pos=v
+dphil completo="doctor of philosophy" grau=phd nivel=doutorado ciclo=pós-graduação area=filosofia estrangeiro=1 pos=s
+dr completo=doutor grau=doutorado gen=m nivel=doutorado ciclo=pós-graduação sensu=stricto br=1 pt=1 tratamento=1 ambig=1 pos=s
+dra completo=doutora grau=doutorado gen=f nivel=doutorado ciclo=pós-graduação sensu=stricto br=1 pt=1 tratamento=1 ambig=1 pos=s
+dras completo=doutoras grau=doutorado gen=f nivel=doutorado ciclo=pós-graduação sensu=stricto br=1 pt=1 tratamento=1 ambig=1 pos=s
+drs completo=doutores grau=doutorado gen=m nivel=doutorado ciclo=pós-graduação sensu=stricto br=1 pt=1 tratamento=1 ambig=1 pos=s
+dsc completo="doctor of science" grau=dsc nivel=doutorado ciclo=pós-graduação area=ciências estrangeiro=1 pos=s
+edd completo="doctor of education" grau=edd nivel=doutorado ciclo=pós-graduação area=educação estrangeiro=1 pos=s
+ensino superior palavranivel=1 nivel=graduação ciclo=graduação pos=s
+esp completo=especialista grau=especialização nivel=especialização ciclo=pós-graduação sensu=lato br=1 pt=1 pos=s
+especialista titulo=1 grau=especialização num=s nivel=especialização ciclo=pós-graduação sensu=lato br=1 pt=1 ambig=1 pos=adj
+especialista pos=s
+especialistas titulo=1 grau=especialização num=p nivel=especialização ciclo=pós-graduação sensu=lato br=1 pt=1 ambig=1 pos=adj
+especialistas pos=s
+especializanda estudante=1 grau=especialização gen=f num=s nivel=especialização ciclo=pós-graduação sensu=lato br=1 pt=1 pos=s
+especializandas estudante=1 grau=especialização gen=f num=p nivel=especialização ciclo=pós-graduação sensu=lato br=1 pt=1 pos=s
+especializando estudante=1 grau=especialização gen=m num=s nivel=especialização ciclo=pós-graduação sensu=lato br=1 pt=1 pos=v
+especializandos estudante=1 grau=especialização gen=m num=p nivel=especialização ciclo=pós-graduação sensu=lato br=1 pt=1 pos=s
+especialização lato sensu sin=1 grau=especialização nivel=especialização ciclo=pós-graduação sensu=lato br=1 pt=1 pos=s
+especialização nome=1 grau=especialização num=s nivel=especialização ciclo=pós-graduação sensu=lato br=1 pt=1 pos=s
+especializações sin=1 grau=especialização num=p nivel=especialização ciclo=pós-graduação sensu=lato br=1 pt=1 pos=s
+estágio de pós-doutorado sin=1 grau=pós-doutorado nivel=pós-doutorado br=1 pt=1 pos=s
+estágio pós-doutoral sin=1 grau=pós-doutorado nivel=pós-doutorado br=1 pt=1 pos=s
+formação superior palavranivel=1 nivel=graduação ciclo=graduação pos=s
+graduada palavranivel=1 nivel=graduação ciclo=graduação gen=f num=s ambig=1 pos=adj
+graduada pos=s
+graduada pos=v
+graduadas palavranivel=1 nivel=graduação ciclo=graduação gen=f num=p ambig=1 pos=adj
+graduadas pos=s
+graduadas pos=v
+graduado palavranivel=1 nivel=graduação ciclo=graduação gen=m num=s ambig=1 pos=adj
+graduado pos=s
+graduado pos=v
+graduados palavranivel=1 nivel=graduação ciclo=graduação gen=m num=p ambig=1 pos=adj
+graduados pos=s
+graduados pos=v
+graduanda palavranivel=1 nivel=graduação ciclo=graduação estudante=1 gen=f num=s pos=s
+graduandas palavranivel=1 nivel=graduação ciclo=graduação estudante=1 gen=f num=p pos=s
+graduando palavranivel=1 nivel=graduação ciclo=graduação estudante=1 gen=m num=s pos=v
+graduandos palavranivel=1 nivel=graduação ciclo=graduação estudante=1 gen=m num=p pos=s
+graduação palavranivel=1 nivel=graduação ciclo=graduação ambig=1 pos=s
+graduação tecnológica sin=1 grau=tecnólogo nivel=graduação ciclo=graduação br=1 pos=s
+graduações palavranivel=1 nivel=graduação ciclo=graduação num=p ambig=1 pos=s
+grau de bacharel sin=1 grau=bacharelado nivel=graduação ciclo=graduação br=1 pos=s
+honoris causa sin=1 grau="doutorado honoris causa" nivel=doutorado ciclo=pós-graduação br=1 pt=1 honorario=1 pos=s
+jd completo="juris doctor" grau=jd nivel=doutorado ciclo=pós-graduação area=direito estrangeiro=1 profissional=1 pos=s
+jsd completo="doctor of juridical science" grau=sjd nivel=doutorado ciclo=pós-graduação area=direito estrangeiro=1 pos=s
+juris doctor nome=1 grau=jd nivel=doutorado ciclo=pós-graduação area=direito estrangeiro=1 profissional=1 pos=s
+lato sensu palavranivel=1 nivel=especialização ciclo=pós-graduação sensu=lato pos=s
+lic completo=licenciado grau=licenciatura nivel=graduação ciclo=graduação area=educação br=1 ambig=1 pos=s
+licenciada titulo=1 grau=licenciatura gen=f num=s nivel=graduação ciclo=graduação area=educação br=1 ambig=1 pos=adj
+licenciada pos=s
+licenciada pos=v
+licenciadas titulo=1 grau=licenciatura gen=f num=p nivel=graduação ciclo=graduação area=educação br=1 ambig=1 pos=adj
+licenciadas pos=s
+licenciadas pos=v
+licenciado titulo=1 grau=licenciatura gen=m num=s nivel=graduação ciclo=graduação area=educação br=1 ambig=1 pos=adj
+licenciado pos=s
+licenciado pos=v
+licenciados titulo=1 grau=licenciatura gen=m num=p nivel=graduação ciclo=graduação area=educação br=1 ambig=1 pos=adj
+licenciados pos=s
+licenciados pos=v
+licencianda estudante=1 grau=licenciatura gen=f num=s nivel=graduação ciclo=graduação area=educação br=1 pos=s
+licenciandas estudante=1 grau=licenciatura gen=f num=p nivel=graduação ciclo=graduação area=educação br=1 pos=s
+licenciando estudante=1 grau=licenciatura gen=m num=s nivel=graduação ciclo=graduação area=educação br=1 pos=s
+licenciando pos=v
+licenciandos estudante=1 grau=licenciatura gen=m num=p nivel=graduação ciclo=graduação area=educação br=1 pos=s
+licenciatura nome=1 grau=licenciatura num=s nivel=graduação ciclo=graduação area=educação br=1 ambig=1 pos=s
+licenciatura plena sin=1 grau=licenciatura nivel=graduação ciclo=graduação area=educação br=1 pos=s
+licenciatura pré-bolonha sin=1 grau=licenciatura sentido=1 nivel=graduação ciclo=graduação pt=1 pos=s
+licenciaturas sin=1 grau=licenciatura num=p nivel=graduação ciclo=graduação area=educação br=1 pos=s
+livre docente titulo=1 grau=livre-docência num=s nivel=livre-docência br=1 pos=s
+livre docência sin=1 grau=livre-docência nivel=livre-docência br=1 pos=s
+livre-docente titulo=1 grau=livre-docência num=s nivel=livre-docência br=1 pos=s
+livre-docência nome=1 grau=livre-docência num=s nivel=livre-docência br=1 pos=s
+livres-docentes titulo=1 grau=livre-docência num=p nivel=livre-docência br=1 pos=s
+llb completo="bachelor of laws" grau=llb nivel=graduação ciclo=graduação area=direito estrangeiro=1 pos=s
+llm completo="master of laws" grau=llm nivel=mestrado ciclo=pós-graduação area=direito estrangeiro=1 pos=s
+ma completo="master of arts" grau=ma nivel=mestrado ciclo=pós-graduação area="artes liberais" estrangeiro=1 ambig=1 pos=pron
+master in business administration sin=1 grau=mba nivel=especialização ciclo=pós-graduação sensu=lato area=administração br=1 estrangeiro=1 pos=s
+master of arts nome=1 grau=ma nivel=mestrado ciclo=pós-graduação area="artes liberais" estrangeiro=1 pos=s
+master of business administration nome=1 grau=mba nivel=especialização ciclo=pós-graduação sensu=lato area=administração br=1 estrangeiro=1 pos=s
+master of engineering nome=1 grau=meng nivel=mestrado ciclo=pós-graduação area=engenharia estrangeiro=1 pos=s
+master of fine arts nome=1 grau=mfa nivel=mestrado ciclo=pós-graduação area=belas-artes estrangeiro=1 pos=s
+master of laws nome=1 grau=llm nivel=mestrado ciclo=pós-graduação area=direito estrangeiro=1 pos=s
+master of philosophy nome=1 grau=mphil nivel=mestrado ciclo=pós-graduação area=filosofia estrangeiro=1 pos=s
+master of public administration nome=1 grau=mpa nivel=mestrado ciclo=pós-graduação area="administração pública" estrangeiro=1 pos=s
+master of public health nome=1 grau=mph nivel=mestrado ciclo=pós-graduação area="saúde coletiva" estrangeiro=1 pos=s
+master of science nome=1 grau=msc nivel=mestrado ciclo=pós-graduação area=ciências estrangeiro=1 pos=s
+master palavranivel=1 nivel=mestrado ciclo=pós-graduação estrangeiro=1 ambig=1 pos=s
+masters palavranivel=1 nivel=mestrado ciclo=pós-graduação num=p estrangeiro=1 ambig=1 pos=s
+mba completo="master of business administration" grau=mba nivel=especialização ciclo=pós-graduação sensu=lato area=administração br=1 estrangeiro=1 tratamento=1 pos=s
+mba executivo sin=1 grau=mba nivel=especialização ciclo=pós-graduação sensu=lato area=administração br=1 estrangeiro=1 pos=s
+mbas sin=1 grau=mba num=p nivel=especialização ciclo=pós-graduação sensu=lato area=administração br=1 estrangeiro=1 pos=s
+md completo="doctor of medicine" grau=md nivel=doutorado ciclo=pós-graduação area=medicina estrangeiro=1 profissional=1 pos=s
+me completo=mestre grau=mestrado gen=m nivel=mestrado ciclo=pós-graduação sensu=stricto br=1 pt=1 tratamento=1 ambig=1 pos=pron
+meng completo="master of engineering" grau=meng nivel=mestrado ciclo=pós-graduação area=engenharia estrangeiro=1 ambig=1 pos=s
+mestr completo=mestre grau=mestrado nivel=mestrado ciclo=pós-graduação sensu=stricto br=1 pt=1 pos=s
+mestra titulo=1 grau=mestrado gen=f num=s nivel=mestrado ciclo=pós-graduação sensu=stricto br=1 pt=1 ambig=1 pos=adj
+mestra pos=s
+mestrado académico sin=1 grau=mestrado nivel=mestrado ciclo=pós-graduação sensu=stricto br=1 pt=1 pos=s
+mestrado acadêmico sin=1 grau=mestrado nivel=mestrado ciclo=pós-graduação sensu=stricto br=1 pt=1 pos=s
+mestrado integrado nome=1 grau="mestrado integrado" num=s nivel=mestrado ciclo=pós-graduação pt=1 pos=s
+mestrado nome=1 grau=mestrado num=s nivel=mestrado ciclo=pós-graduação sensu=stricto br=1 pt=1 pos=s
+mestrado profissional nome=1 grau="mestrado profissional" num=s nivel=mestrado ciclo=pós-graduação sensu=stricto br=1 profissional=1 pos=s
+mestrado profissionalizante sin=1 grau="mestrado profissional" nivel=mestrado ciclo=pós-graduação sensu=stricto br=1 profissional=1 pos=s
+mestrado stricto sensu sin=1 grau=mestrado nivel=mestrado ciclo=pós-graduação sensu=stricto br=1 pt=1 pos=s
+mestrados integrados sin=1 grau="mestrado integrado" num=p nivel=mestrado ciclo=pós-graduação pt=1 pos=s
+mestrados profissionais sin=1 grau="mestrado profissional" num=p nivel=mestrado ciclo=pós-graduação sensu=stricto br=1 profissional=1 pos=s
+mestrados sin=1 grau=mestrado num=p nivel=mestrado ciclo=pós-graduação sensu=stricto br=1 pt=1 pos=s
+mestranda estudante=1 grau=mestrado gen=f num=s nivel=mestrado ciclo=pós-graduação sensu=stricto br=1 pt=1 pos=s
+mestrandas estudante=1 grau=mestrado gen=f num=p nivel=mestrado ciclo=pós-graduação sensu=stricto br=1 pt=1 pos=s
+mestrando estudante=1 grau=mestrado gen=m num=s nivel=mestrado ciclo=pós-graduação sensu=stricto br=1 pt=1 pos=s
+mestrandos estudante=1 grau=mestrado gen=m num=p nivel=mestrado ciclo=pós-graduação sensu=stricto br=1 pt=1 pos=s
+mestras titulo=1 grau=mestrado gen=f num=p nivel=mestrado ciclo=pós-graduação sensu=stricto br=1 pt=1 ambig=1 pos=adj
+mestras pos=s
+mestre titulo=1 grau=mestrado gen=m num=s nivel=mestrado ciclo=pós-graduação sensu=stricto br=1 pt=1 tratamento=1 ambig=1 pos=adj
+mestre pos=s
+mestres titulo=1 grau=mestrado gen=m num=p nivel=mestrado ciclo=pós-graduação sensu=stricto br=1 pt=1 ambig=1 pos=adj
+mestres pos=s
+mfa completo="master of fine arts" grau=mfa nivel=mestrado ciclo=pós-graduação area=belas-artes estrangeiro=1 pos=s
+mpa completo="master of public administration" grau=mpa nivel=mestrado ciclo=pós-graduação area="administração pública" estrangeiro=1 pos=s
+mph completo="master of public health" grau=mph nivel=mestrado ciclo=pós-graduação area="saúde coletiva" estrangeiro=1 pos=s
+mphil completo="master of philosophy" grau=mphil nivel=mestrado ciclo=pós-graduação area=filosofia estrangeiro=1 pos=s
+ms completo="master of science" grau=msc nivel=mestrado ciclo=pós-graduação area=ciências estrangeiro=1 ambig=1 pos=s
+msc completo="master of science" grau=msc nivel=mestrado ciclo=pós-graduação area=ciências estrangeiro=1 tratamento=1 pos=s
+médica residente titulo=1 grau="residência médica" gen=f num=s nivel=especialização ciclo=pós-graduação sensu=lato area=medicina br=1 profissional=1 pos=s
+médico residente titulo=1 grau="residência médica" gen=m num=s nivel=especialização ciclo=pós-graduação sensu=lato area=medicina br=1 profissional=1 pos=s
+médicos residentes titulo=1 grau="residência médica" gen=m num=p nivel=especialização ciclo=pós-graduação sensu=lato area=medicina br=1 profissional=1 pos=s
+nível superior palavranivel=1 nivel=graduação ciclo=graduação pos=s
+phd completo="doctor of philosophy" grau=phd nivel=doutorado ciclo=pós-graduação area=filosofia estrangeiro=1 tratamento=1 pos=s
+pos-doc completo=pós-doutorado grau=pós-doutorado nivel=pós-doutorado br=1 pt=1 pos=s
+posdoc completo=pós-doutorado grau=pós-doutorado nivel=pós-doutorado br=1 pt=1 pos=s
+postdoc completo=pós-doutorado grau=pós-doutorado nivel=pós-doutorado br=1 pt=1 pos=s
+postgraduate palavranivel=1 ciclo=pós-graduação estrangeiro=1 pos=s
+programa de residência médica sin=1 grau="residência médica" nivel=especialização ciclo=pós-graduação sensu=lato area=medicina br=1 profissional=1 pos=s
+provas de agregação sin=1 grau=agregação nivel=livre-docência pt=1 pos=s
+pós palavranivel=1 ciclo=pós-graduação ambig=1 pos=adj
+pós pos=s
+pós-doc completo=pós-doutorado grau=pós-doutorado nivel=pós-doutorado br=1 pt=1 pos=s
+pós-doutor titulo=1 grau=pós-doutorado gen=m num=s nivel=pós-doutorado br=1 pt=1 pos=s
+pós-doutora titulo=1 grau=pós-doutorado gen=f num=s nivel=pós-doutorado br=1 pt=1 pos=s
+pós-doutorado nome=1 grau=pós-doutorado num=s nivel=pós-doutorado br=1 pt=1 pos=s
+pós-doutorados sin=1 grau=pós-doutorado num=p nivel=pós-doutorado br=1 pt=1 pos=s
+pós-doutoramento sin=1 grau=pós-doutorado nivel=pós-doutorado br=1 pt=1 pos=s
+pós-doutoranda estudante=1 grau=pós-doutorado gen=f num=s nivel=pós-doutorado br=1 pt=1 pos=s
+pós-doutorando estudante=1 grau=pós-doutorado gen=m num=s nivel=pós-doutorado br=1 pt=1 pos=s
+pós-graduada palavranivel=1 ciclo=pós-graduação gen=f num=s pos=s
+pós-graduadas palavranivel=1 ciclo=pós-graduação gen=f num=p pos=s
+pós-graduado palavranivel=1 ciclo=pós-graduação gen=m num=s pos=s
+pós-graduados palavranivel=1 ciclo=pós-graduação gen=m num=p pos=s
+pós-graduanda palavranivel=1 ciclo=pós-graduação estudante=1 gen=f num=s pos=s
+pós-graduando palavranivel=1 ciclo=pós-graduação estudante=1 gen=m num=s pos=s
+pós-graduação lato sensu sin=1 grau=especialização nivel=especialização ciclo=pós-graduação sensu=lato br=1 pt=1 pos=s
+pós-graduação palavranivel=1 ciclo=pós-graduação pos=s
+pós-graduações palavranivel=1 ciclo=pós-graduação num=p pos=s
+residência em saúde sin=1 grau="residência multiprofissional" nivel=especialização ciclo=pós-graduação sensu=lato area="saúde coletiva" br=1 profissional=1 pos=s
+residência multiprofissional nome=1 grau="residência multiprofissional" num=s nivel=especialização ciclo=pós-graduação sensu=lato area="saúde coletiva" br=1 profissional=1 pos=s
+residência médica nome=1 grau="residência médica" num=s nivel=especialização ciclo=pós-graduação sensu=lato area=medicina br=1 profissional=1 pos=s
+scd completo="doctor of science" grau=dsc nivel=doutorado ciclo=pós-graduação area=ciências estrangeiro=1 pos=s
+sjd completo="doctor of juridical science" grau=sjd nivel=doutorado ciclo=pós-graduação area=direito estrangeiro=1 pos=s
+stricto sensu palavranivel=1 ciclo=pós-graduação sensu=stricto pos=s
+superior completo palavranivel=1 nivel=graduação ciclo=graduação pos=s
+superior incompleto palavranivel=1 nivel=graduação ciclo=graduação pos=s
+tecnóloga titulo=1 grau=tecnólogo gen=f num=s nivel=graduação ciclo=graduação br=1 pos=s
+tecnólogas titulo=1 grau=tecnólogo gen=f num=p nivel=graduação ciclo=graduação br=1 pos=s
+tecnólogo nome=1 grau=tecnólogo num=s nivel=graduação ciclo=graduação br=1 pos=s
+tecnólogos titulo=1 grau=tecnólogo gen=m num=p nivel=graduação ciclo=graduação br=1 pos=s
+técnico superior profissional sin=1 grau=ctesp nivel="curta duração" pt=1 pos=s
+título de agregado sin=1 grau=agregação nivel=livre-docência pt=1 pos=s
+título de doutor honoris causa sin=1 grau="doutorado honoris causa" nivel=doutorado ciclo=pós-graduação br=1 pt=1 honorario=1 pos=s
+undergraduate palavranivel=1 nivel=graduação ciclo=graduação estrangeiro=1 pos=s

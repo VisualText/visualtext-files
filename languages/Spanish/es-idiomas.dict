@@ -1,0 +1,368 @@
+# Nombres de idiomas en español.
+# Una línea por forma: el nombre canónico (RAE / Fundéu) y sus variantes.
+#   idioma=1       toda entrada
+#   sin=1          variante o sinónimo del nombre canónico
+#   laiso2=        código ISO 639-1, como en en-languages.dict
+#   iso3=          código ISO 639-2/B, como en en-languages.dict
+#   raiz=          nombre canónico de una variante
+# Muchas formas coinciden con el gentilicio masculino singular (español,
+# francés); esas lecturas de nacionalidad están en es-nacionalidades.dict.
+# Generado por python/gen_geo_es.py: no editar a mano.
+abjasio idioma=1 laiso2=ab iso3=abk pos=s
+abjaso idioma=1 sin=1 laiso2=ab iso3=abk raiz=abjasio pos=s
+afar idioma=1 laiso2=aa iso3=aar pos=s
+afrikaans idioma=1 sin=1 laiso2=af iso3=afr raiz=afrikáans pos=s
+afrikáans idioma=1 laiso2=af iso3=afr pos=s
+aimara idioma=1 laiso2=ay iso3=aym pos=s
+aimará idioma=1 sin=1 laiso2=ay iso3=aym raiz=aimara pos=adj
+aimará pos=s
+akan idioma=1 laiso2=ak iso3=aka pos=s
+albanés idioma=1 laiso2=sq iso3=alb pos=adj
+albanés pos=s
+alemán idioma=1 laiso2=de iso3=ger pos=adj
+alemán pos=s
+amhárico idioma=1 laiso2=am iso3=amh pos=s
+antiguo eslavo eclesiástico idioma=1 sin=1 laiso2=cu iso3=chu raiz="eslavo eclesiástico" pos=s
+aragonés idioma=1 laiso2=an iso3=arg pos=adj
+aragonés pos=s
+armenio idioma=1 laiso2=hy iso3=arm pos=adj
+armenio pos=s
+asamés idioma=1 laiso2=as iso3=asm pos=s
+avar idioma=1 laiso2=av iso3=ava pos=s
+avéstico idioma=1 laiso2=ae iso3=ave pos=adj
+avéstico pos=s
+aymara idioma=1 sin=1 laiso2=ay iso3=aym raiz=aimara pos=s
+azerbaiyano idioma=1 sin=1 laiso2=az iso3=aze raiz=azerí pos=adj
+azerbaiyano pos=s
+azerí idioma=1 laiso2=az iso3=aze pos=s
+bambara idioma=1 laiso2=bm iso3=bam pos=s
+bangla idioma=1 sin=1 laiso2=bn iso3=ben raiz=bengalí pos=s
+baskir idioma=1 laiso2=ba iso3=bak pos=s
+bengalí idioma=1 laiso2=bn iso3=ben pos=adj
+bengalí pos=s
+bielorruso idioma=1 laiso2=be iso3=bel pos=adj
+bielorruso pos=s
+birmano idioma=1 laiso2=my iso3=bur pos=adj
+birmano pos=s
+bislama idioma=1 laiso2=bi iso3=bis pos=s
+bokmål idioma=1 sin=1 laiso2=nb iso3=nob raiz="noruego bokmål" pos=s
+bosnio idioma=1 laiso2=bs iso3=bos pos=adj
+bosnio pos=s
+bretón idioma=1 laiso2=br iso3=bre pos=adj
+bretón pos=s
+búlgaro idioma=1 laiso2=bg iso3=bul pos=adj
+búlgaro pos=s
+cachemir idioma=1 laiso2=ks iso3=kas pos=s
+cachemiri idioma=1 sin=1 laiso2=ks iso3=kas raiz=cachemir pos=s
+cachemiro idioma=1 sin=1 laiso2=ks iso3=kas raiz=cachemir pos=s
+camboyano idioma=1 sin=1 laiso2=km iso3=khm raiz=jemer pos=adj
+camboyano pos=s
+canarés idioma=1 laiso2=kn iso3=kan pos=s
+castellano idioma=1 sin=1 laiso2=es iso3=spa raiz=español pos=adj
+castellano pos=s
+catalán idioma=1 laiso2=ca iso3=cat pos=adj
+catalán pos=s
+chamorro idioma=1 laiso2=ch iso3=cha pos=adj
+chamorro pos=s
+checheno idioma=1 laiso2=ce iso3=che pos=adj
+checheno pos=s
+checo idioma=1 laiso2=cs iso3=cze pos=adj
+checo pos=s
+chewa idioma=1 sin=1 laiso2=ny iso3=nya raiz=chichewa pos=s
+chichewa idioma=1 laiso2=ny iso3=nya pos=s
+chino idioma=1 laiso2=zh iso3=chi pos=adj
+chino pos=s
+chuang idioma=1 laiso2=za iso3=zha pos=s
+chuvasio idioma=1 laiso2=cv iso3=chv pos=s
+cingalés idioma=1 laiso2=si iso3=sin pos=adj
+cingalés pos=s
+coreano idioma=1 laiso2=ko iso3=kor pos=adj
+coreano pos=s
+corso idioma=1 laiso2=co iso3=cos pos=adj
+corso pos=s
+cree idioma=1 laiso2=cr iso3=cre pos=v
+criollo haitiano idioma=1 laiso2=ht iso3=hat pos=s
+croata idioma=1 laiso2=hr iso3=hrv pos=adj
+croata pos=s
+córnico idioma=1 laiso2=kw iso3=cor pos=s
+danés idioma=1 laiso2=da iso3=dan pos=adj
+danés pos=s
+dhivehi idioma=1 sin=1 laiso2=dv iso3=div raiz=divehi pos=s
+divehi idioma=1 laiso2=dv iso3=div pos=s
+dzongkha idioma=1 laiso2=dz iso3=dzo pos=s
+eslavo eclesiástico idioma=1 laiso2=cu iso3=chu pos=s
+eslavo eclesiástico antiguo idioma=1 sin=1 laiso2=cu iso3=chu raiz="eslavo eclesiástico" pos=s
+eslovaco idioma=1 laiso2=sk iso3=slo pos=adj
+eslovaco pos=s
+esloveno idioma=1 laiso2=sl iso3=slv pos=adj
+esloveno pos=s
+español idioma=1 laiso2=es iso3=spa pos=adj
+español pos=s
+esperanto idioma=1 laiso2=eo iso3=epo pos=s
+estonio idioma=1 laiso2=et iso3=est pos=adj
+estonio pos=s
+euskara idioma=1 sin=1 laiso2=eu iso3=baq raiz=euskera pos=s
+euskera idioma=1 laiso2=eu iso3=baq pos=adj
+euskera pos=s
+ewe idioma=1 laiso2=ee iso3=ewe pos=s
+farsi idioma=1 sin=1 laiso2=fa iso3=per raiz=persa pos=s
+feroés idioma=1 laiso2=fo iso3=fao pos=s
+finlandés idioma=1 sin=1 laiso2=fi iso3=fin raiz=finés pos=adj
+finlandés pos=s
+finés idioma=1 laiso2=fi iso3=fin pos=adj
+finés pos=s
+fiyiano idioma=1 laiso2=fj iso3=fij pos=adj
+fiyiano pos=s
+flamenco idioma=1 sin=1 laiso2=nl iso3=dut raiz=neerlandés pos=adj
+flamenco pos=s
+francés idioma=1 laiso2=fr iso3=fre pos=adj
+francés pos=s
+frisón idioma=1 laiso2=fy iso3=fry pos=adj
+frisón pos=s
+frisón occidental idioma=1 sin=1 laiso2=fy iso3=fry raiz=frisón pos=s
+fula idioma=1 laiso2=ff iso3=ful pos=s
+fulani idioma=1 sin=1 laiso2=ff iso3=ful raiz=fula pos=s
+gallego idioma=1 laiso2=gl iso3=glg pos=adj
+gallego pos=s
+galés idioma=1 laiso2=cy iso3=wel pos=adj
+galés pos=s
+ganda idioma=1 sin=1 laiso2=lg iso3=lug raiz=luganda pos=s
+gaélico idioma=1 sin=1 laiso2=gd iso3=gla raiz="gaélico escocés" pos=adj
+gaélico pos=s
+gaélico escocés idioma=1 laiso2=gd iso3=gla pos=s
+gaélico irlandés idioma=1 sin=1 laiso2=ga iso3=gle raiz=irlandés pos=s
+georgiano idioma=1 laiso2=ka iso3=geo pos=adj
+georgiano pos=s
+gikuyu idioma=1 sin=1 laiso2=ki iso3=kik raiz=kikuyu pos=s
+griego idioma=1 laiso2=el iso3=gre pos=adj
+griego pos=s
+groenlandés idioma=1 laiso2=kl iso3=kal pos=adj
+groenlandés pos=s
+guaraní idioma=1 laiso2=gn iso3=grn pos=adj
+guaraní pos=s
+gujarati idioma=1 sin=1 laiso2=gu iso3=guj raiz=guyaratí pos=s
+guyaratí idioma=1 laiso2=gu iso3=guj pos=s
+haitiano idioma=1 sin=1 laiso2=ht iso3=hat raiz="criollo haitiano" pos=adj
+haitiano pos=s
+hausa idioma=1 laiso2=ha iso3=hau pos=adj
+hausa pos=s
+hebreo idioma=1 laiso2=he iso3=heb pos=adj
+hebreo pos=s
+herero idioma=1 laiso2=hz iso3=her pos=s
+hindi idioma=1 laiso2=hi iso3=hin pos=s
+hiri motu idioma=1 laiso2=ho iso3=hmo pos=s
+holandés idioma=1 sin=1 laiso2=nl iso3=dut raiz=neerlandés pos=adj
+holandés pos=s
+húngaro idioma=1 laiso2=hu iso3=hun pos=adj
+húngaro pos=s
+ido idioma=1 laiso2=io iso3=ido pos=v
+igbo idioma=1 laiso2=ig iso3=ibo pos=s
+indonesio idioma=1 laiso2=id iso3=ind pos=adj
+indonesio pos=s
+inglés idioma=1 laiso2=en iso3=eng pos=adj
+inglés pos=s
+interlingua idioma=1 laiso2=ia iso3=ina pos=s
+interlingue idioma=1 laiso2=ie iso3=ile pos=s
+inuktitut idioma=1 laiso2=iu iso3=iku pos=s
+inupiaq idioma=1 laiso2=ik iso3=ipk pos=s
+irlandés idioma=1 laiso2=ga iso3=gle pos=adj
+irlandés pos=s
+islandés idioma=1 laiso2=is iso3=ice pos=adj
+islandés pos=s
+italiano idioma=1 laiso2=it iso3=ita pos=adj
+italiano pos=s
+japonés idioma=1 laiso2=ja iso3=jpn pos=adj
+japonés pos=s
+javanés idioma=1 laiso2=jv iso3=jav pos=adj
+javanés pos=s
+jemer idioma=1 laiso2=km iso3=khm pos=adj
+jemer pos=s
+kalaallisut idioma=1 sin=1 laiso2=kl iso3=kal raiz=groenlandés pos=s
+kannada idioma=1 sin=1 laiso2=kn iso3=kan raiz=canarés pos=s
+kanuri idioma=1 laiso2=kr iso3=kau pos=s
+kazajo idioma=1 laiso2=kk iso3=kaz pos=s
+kazako idioma=1 sin=1 laiso2=kk iso3=kaz raiz=kazajo pos=s
+khmer idioma=1 sin=1 laiso2=km iso3=khm raiz=jemer pos=adj
+khmer pos=s
+kikongo idioma=1 laiso2=kg iso3=kon pos=s
+kikuyu idioma=1 laiso2=ki iso3=kik pos=s
+kinyarwanda idioma=1 laiso2=rw iso3=kin pos=s
+kirguiso idioma=1 sin=1 laiso2=ky iso3=kir raiz=kirguís pos=s
+kirguís idioma=1 laiso2=ky iso3=kir pos=s
+kirundi idioma=1 laiso2=rn iso3=run pos=s
+komi idioma=1 laiso2=kv iso3=kom pos=s
+kongo idioma=1 sin=1 laiso2=kg iso3=kon raiz=kikongo pos=s
+kuanyama idioma=1 laiso2=kj iso3=kua pos=s
+kurdo idioma=1 laiso2=ku iso3=kur pos=adj
+kurdo pos=s
+kwanyama idioma=1 sin=1 laiso2=kj iso3=kua raiz=kuanyama pos=s
+lao idioma=1 laiso2=lo iso3=lao pos=s
+laosiano idioma=1 sin=1 laiso2=lo iso3=lao raiz=lao pos=adj
+laosiano pos=s
+latín idioma=1 laiso2=la iso3=lat pos=s
+letón idioma=1 laiso2=lv iso3=lav pos=adj
+letón pos=s
+limburgués idioma=1 laiso2=li iso3=lim pos=s
+lingala idioma=1 laiso2=ln iso3=lin pos=s
+lituano idioma=1 laiso2=lt iso3=lit pos=adj
+lituano pos=s
+luba-katanga idioma=1 laiso2=lu iso3=lub pos=s
+luganda idioma=1 laiso2=lg iso3=lug pos=s
+luxemburgués idioma=1 laiso2=lb iso3=ltz pos=adj
+luxemburgués pos=s
+macedonio idioma=1 laiso2=mk iso3=mac pos=adj
+macedonio pos=s
+magiar idioma=1 sin=1 laiso2=hu iso3=hun raiz=húngaro pos=adj
+magiar pos=s
+malayalam idioma=1 laiso2=ml iso3=mal pos=s
+malayo idioma=1 laiso2=ms iso3=may pos=adj
+malayo pos=s
+maldivo idioma=1 sin=1 laiso2=dv iso3=div raiz=divehi pos=s
+malgache idioma=1 laiso2=mg iso3=mlg pos=adj
+malgache pos=s
+maltés idioma=1 laiso2=mt iso3=mlt pos=adj
+maltés pos=s
+manés idioma=1 laiso2=gv iso3=glv pos=s
+maorí idioma=1 laiso2=mi iso3=mao pos=adj
+maorí pos=s
+marathi idioma=1 sin=1 laiso2=mr iso3=mar raiz=maratí pos=s
+maratí idioma=1 laiso2=mr iso3=mar pos=s
+marshalés idioma=1 laiso2=mh iso3=mah pos=s
+moldavo idioma=1 sin=1 laiso2=ro iso3=rum raiz=rumano pos=adj
+moldavo pos=s
+mongol idioma=1 laiso2=mn iso3=mon pos=adj
+mongol pos=s
+nauruano idioma=1 laiso2=na iso3=nau pos=s
+navaho idioma=1 sin=1 laiso2=nv iso3=nav raiz=navajo pos=s
+navajo idioma=1 laiso2=nv iso3=nav pos=adj
+navajo pos=s
+ndebele del norte idioma=1 laiso2=nd iso3=nde pos=s
+ndebele del sur idioma=1 laiso2=nr iso3=nbl pos=s
+ndonga idioma=1 laiso2=ng iso3=ndo pos=s
+neerlandés idioma=1 laiso2=nl iso3=dut pos=adj
+neerlandés pos=s
+nepalí idioma=1 laiso2=ne iso3=nep pos=adj
+nepalí pos=s
+noruego idioma=1 laiso2=no iso3=nor pos=adj
+noruego pos=s
+noruego bokmål idioma=1 laiso2=nb iso3=nob pos=s
+noruego nynorsk idioma=1 laiso2=nn iso3=nno pos=s
+nuosu idioma=1 sin=1 laiso2=ii iso3=iii raiz="yi de sichuan" pos=s
+nyanja idioma=1 sin=1 laiso2=ny iso3=nya raiz=chichewa pos=s
+nynorsk idioma=1 sin=1 laiso2=nn iso3=nno raiz="noruego nynorsk" pos=s
+occidental idioma=1 sin=1 laiso2=ie iso3=ile raiz=interlingue pos=adj
+occidental pos=s
+occitano idioma=1 laiso2=oc iso3=oci pos=adj
+occitano pos=s
+odia idioma=1 sin=1 laiso2=or iso3=ori raiz=oriya pos=v
+ojibwa idioma=1 laiso2=oj iso3=oji pos=adj
+ojibwa pos=s
+ojibwe idioma=1 sin=1 laiso2=oj iso3=oji raiz=ojibwa pos=s
+oriya idioma=1 laiso2=or iso3=ori pos=s
+oromo idioma=1 laiso2=om iso3=orm pos=s
+oseta idioma=1 sin=1 laiso2=os iso3=oss raiz=osetio pos=s
+osetio idioma=1 laiso2=os iso3=oss pos=s
+osético idioma=1 sin=1 laiso2=os iso3=oss raiz=osetio pos=s
+pali idioma=1 laiso2=pi iso3=pli pos=adj
+pali pos=s
+panjabi idioma=1 sin=1 laiso2=pa iso3=pan raiz=panyabí pos=s
+panyabí idioma=1 laiso2=pa iso3=pan pos=s
+pashto idioma=1 sin=1 laiso2=ps iso3=pus raiz=pastún pos=s
+pastó idioma=1 sin=1 laiso2=ps iso3=pus raiz=pastún pos=v
+pastún idioma=1 laiso2=ps iso3=pus pos=s
+persa idioma=1 laiso2=fa iso3=per pos=adj
+persa pos=s
+peul idioma=1 sin=1 laiso2=ff iso3=ful raiz=fula pos=s
+polaco idioma=1 laiso2=pl iso3=pol pos=adj
+polaco pos=s
+portugués idioma=1 laiso2=pt iso3=por pos=adj
+portugués pos=s
+punjabi idioma=1 sin=1 laiso2=pa iso3=pan raiz=panyabí pos=s
+punyabí idioma=1 sin=1 laiso2=pa iso3=pan raiz=panyabí pos=s
+quechua idioma=1 laiso2=qu iso3=que pos=adj
+quechua pos=s
+romanche idioma=1 laiso2=rm iso3=roh pos=adj
+romanche pos=s
+rumano idioma=1 laiso2=ro iso3=rum pos=adj
+rumano pos=s
+rundi idioma=1 sin=1 laiso2=rn iso3=run raiz=kirundi pos=s
+ruso idioma=1 laiso2=ru iso3=rus pos=adj
+ruso pos=s
+sami del norte idioma=1 sin=1 laiso2=se iso3=sme raiz="sami septentrional" pos=s
+sami septentrional idioma=1 laiso2=se iso3=sme pos=s
+samoano idioma=1 laiso2=sm iso3=smo pos=adj
+sango idioma=1 laiso2=sg iso3=sag pos=s
+sardo idioma=1 laiso2=sc iso3=srd pos=adj
+sardo pos=s
+serbio idioma=1 laiso2=sr iso3=srp pos=adj
+serbio pos=s
+sesotho idioma=1 laiso2=st iso3=sot pos=s
+setsuana idioma=1 laiso2=tn iso3=tsn pos=s
+shona idioma=1 laiso2=sn iso3=sna pos=adj
+shona pos=s
+sindi idioma=1 laiso2=sd iso3=snd pos=s
+somalí idioma=1 laiso2=so iso3=som pos=adj
+somalí pos=s
+sotho del sur idioma=1 sin=1 laiso2=st iso3=sot raiz=sesotho pos=s
+suajili idioma=1 laiso2=sw iso3=swa pos=s
+suazi idioma=1 laiso2=ss iso3=ssw pos=s
+sueco idioma=1 laiso2=sv iso3=swe pos=adj
+sueco pos=s
+sundanés idioma=1 laiso2=su iso3=sun pos=s
+swahili idioma=1 sin=1 laiso2=sw iso3=swa raiz=suajili pos=s
+swati idioma=1 sin=1 laiso2=ss iso3=ssw raiz=suazi pos=s
+sánscrito idioma=1 laiso2=sa iso3=san pos=adj
+sánscrito pos=s
+tagalo idioma=1 laiso2=tl iso3=tgl pos=adj
+tagalo pos=s
+tahitiano idioma=1 laiso2=ty iso3=tah pos=adj
+tahitiano pos=s
+tailandés idioma=1 laiso2=th iso3=tha pos=adj
+tailandés pos=s
+tamil idioma=1 laiso2=ta iso3=tam pos=adj
+tamil pos=s
+tayiko idioma=1 laiso2=tg iso3=tgk pos=s
+telugu idioma=1 laiso2=te iso3=tel pos=s
+tibetano idioma=1 laiso2=bo iso3=tib pos=adj
+tibetano pos=s
+tigriña idioma=1 laiso2=ti iso3=tir pos=s
+tongano idioma=1 laiso2=to iso3=ton pos=s
+tsonga idioma=1 laiso2=ts iso3=tso pos=s
+tswana idioma=1 sin=1 laiso2=tn iso3=tsn raiz=setsuana pos=s
+turco idioma=1 laiso2=tr iso3=tur pos=adj
+turco pos=s
+turcomano idioma=1 laiso2=tk iso3=tuk pos=s
+turkmeno idioma=1 sin=1 laiso2=tk iso3=tuk raiz=turcomano pos=s
+twi idioma=1 laiso2=tw iso3=twi pos=s
+tártaro idioma=1 laiso2=tt iso3=tat pos=adj
+tártaro pos=s
+ucraniano idioma=1 laiso2=uk iso3=ukr pos=adj
+ucraniano pos=s
+uigur idioma=1 laiso2=ug iso3=uig pos=s
+urdu idioma=1 laiso2=ur iso3=urd pos=s
+uzbeko idioma=1 laiso2=uz iso3=uzb pos=adj
+uzbeko pos=s
+valenciano idioma=1 sin=1 laiso2=ca iso3=cat raiz=catalán pos=adj
+valenciano pos=s
+valón idioma=1 laiso2=wa iso3=wln pos=adj
+valón pos=s
+vasco idioma=1 sin=1 laiso2=eu iso3=baq raiz=euskera pos=adj
+vasco pos=s
+vascuence idioma=1 sin=1 laiso2=eu iso3=baq raiz=euskera pos=adj
+vascuence pos=s
+venda idioma=1 laiso2=ve iso3=ven pos=s
+venda pos=v
+vietnamita idioma=1 laiso2=vi iso3=vie pos=adj
+vietnamita pos=s
+volapük idioma=1 laiso2=vo iso3=vol pos=s
+wolof idioma=1 laiso2=wo iso3=wol pos=s
+xhosa idioma=1 laiso2=xh iso3=xho pos=s
+yi de sichuan idioma=1 laiso2=ii iso3=iii pos=s
+yiddish idioma=1 sin=1 laiso2=yi iso3=yid raiz=yidis pos=s
+yidis idioma=1 laiso2=yi iso3=yid pos=s
+yoruba idioma=1 laiso2=yo iso3=yor pos=adj
+yoruba pos=s
+zhuang idioma=1 sin=1 laiso2=za iso3=zha raiz=chuang pos=s
+árabe idioma=1 laiso2=ar iso3=ara pos=adj
+árabe pos=s
+ídish idioma=1 sin=1 laiso2=yi iso3=yid raiz=yidis pos=s

@@ -1,0 +1,54 @@
+# Meses e dias da semana em português, com os seus números de ordem.
+# Consulta direta:   nome do mês/dia -> número  (ex.: conceito "março" -> mes=3)
+# Consulta inversa:  número -> nome              (ex.: mespornum "3" -> nome=março)
+# Os meses vão de 1 a 12 (janeiro=1); os dias de 1 a 7 (segunda-feira=1,
+# domingo=7, como em en-monthsdays.kbb).
+#   abrev=      a abreviatura padrão de três letras
+#   sinonimo=   outra forma em uso: a forma curta sem "-feira" (segunda)
+#   feira=      o número da forma numérica (2 em 2ª-feira, 2ª, 2a); o
+#               tokenizador separa essa forma em número + ª, por isso ela não
+#               está em pt-mesesdias.dict e uma regra deve casá-la
+# Toda forma aqui citada é etiquetada por pt-mesesdias.dict.
+mesesdias
+  meses
+    janeiro: mes=1, abrev=jan
+    fevereiro: mes=2, abrev=fev
+    março: mes=3, abrev=mar
+    abril: mes=4, abrev=abr
+    maio: mes=5, abrev=mai
+    junho: mes=6, abrev=jun
+    julho: mes=7, abrev=jul
+    agosto: mes=8, abrev=ago
+    setembro: mes=9, abrev=set
+    outubro: mes=10, abrev=out
+    novembro: mes=11, abrev=nov
+    dezembro: mes=12, abrev=dez
+  mespornum
+    1: nome=janeiro, abrev=jan
+    2: nome=fevereiro, abrev=fev
+    3: nome=março, abrev=mar
+    4: nome=abril, abrev=abr
+    5: nome=maio, abrev=mai
+    6: nome=junho, abrev=jun
+    7: nome=julho, abrev=jul
+    8: nome=agosto, abrev=ago
+    9: nome=setembro, abrev=set
+    10: nome=outubro, abrev=out
+    11: nome=novembro, abrev=nov
+    12: nome=dezembro, abrev=dez
+  dias
+    segunda-feira: dia=1, abrev=seg, sinonimo=segunda, feira=2
+    terça-feira: dia=2, abrev=ter, sinonimo=terça, feira=3
+    quarta-feira: dia=3, abrev=qua, sinonimo=quarta, feira=4
+    quinta-feira: dia=4, abrev=qui, sinonimo=quinta, feira=5
+    sexta-feira: dia=5, abrev=sex, sinonimo=sexta, feira=6
+    sábado: dia=6, abrev=sáb, sinonimo=sab
+    domingo: dia=7, abrev=dom
+  diapornum
+    1: nome=segunda-feira, abrev=seg
+    2: nome=terça-feira, abrev=ter
+    3: nome=quarta-feira, abrev=qua
+    4: nome=quinta-feira, abrev=qui
+    5: nome=sexta-feira, abrev=sex
+    6: nome=sábado, abrev=sáb
+    7: nome=domingo, abrev=dom

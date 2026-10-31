@@ -1,0 +1,53 @@
+# Meses y días de la semana en español con su número de orden.
+# Búsqueda directa:  nombre del mes o del día -> número   (concepto "marzo" -> mes=3)
+# Búsqueda inversa:  número -> nombre                     (mespornum "3" -> nombre=marzo)
+# Los meses van de 1 a 12 (enero=1); los días de 1 a 7 (lunes=1, como en
+# ISO 8601 y en en-monthsdays.kbb).
+#   mes= / dia=  el número          abrev=  la abreviatura habitual de tres letras
+#   sinonimo=    otras formas en uso (sept, setiembre, mié sin tilde...)
+#   nombre=      en las ramas inversas, la forma desarrollada
+# "mar" abrevia tanto marzo como martes.
+# Todas las formas nombradas aquí están etiquetadas en es-mesesdias.dict.
+mesesdias
+  meses
+    enero: mes=1, abrev=ene
+    febrero: mes=2, abrev=feb
+    marzo: mes=3, abrev=mar
+    abril: mes=4, abrev=abr
+    mayo: mes=5, abrev=may
+    junio: mes=6, abrev=jun
+    julio: mes=7, abrev=jul
+    agosto: mes=8, abrev=ago
+    septiembre: mes=9, abrev=sep, sinonimo=[sept,setiembre,set]
+    octubre: mes=10, abrev=oct
+    noviembre: mes=11, abrev=nov
+    diciembre: mes=12, abrev=dic
+  mespornum
+    1: nombre=enero, abrev=ene
+    2: nombre=febrero, abrev=feb
+    3: nombre=marzo, abrev=mar
+    4: nombre=abril, abrev=abr
+    5: nombre=mayo, abrev=may
+    6: nombre=junio, abrev=jun
+    7: nombre=julio, abrev=jul
+    8: nombre=agosto, abrev=ago
+    9: nombre=septiembre, abrev=sep
+    10: nombre=octubre, abrev=oct
+    11: nombre=noviembre, abrev=nov
+    12: nombre=diciembre, abrev=dic
+  dias
+    lunes: dia=1, abrev=lun
+    martes: dia=2, abrev=mar
+    miércoles: dia=3, abrev=mié, sinonimo=[mie,miér,mier,miercoles]
+    jueves: dia=4, abrev=jue
+    viernes: dia=5, abrev=vie
+    sábado: dia=6, abrev=sáb, sinonimo=[sab,sabado]
+    domingo: dia=7, abrev=dom
+  diapornum
+    1: nombre=lunes, abrev=lun
+    2: nombre=martes, abrev=mar
+    3: nombre=miércoles, abrev=mié
+    4: nombre=jueves, abrev=jue
+    5: nombre=viernes, abrev=vie
+    6: nombre=sábado, abrev=sáb
+    7: nombre=domingo, abrev=dom

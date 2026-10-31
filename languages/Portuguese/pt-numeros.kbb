@@ -1,0 +1,284 @@
+# Numerais em português com os seus valores numéricos.
+# Consulta direta:   palavra -> valor  (ex.: conceito "doze" -> valor=12)
+# Consulta inversa:  valor -> palavra  (ex.: numeroporvalor "12" -> nome=doze)
+# O mesmo par existe para os ordinais: "décimo segundo" -> valor=12, e
+# ordinalporvalor "12" -> nome="décimo segundo".
+# Os índices inversos só cobrem as palavras com valor das listas diretas.
+# coletivos guarda os numerais coletivos (par, dezena, dúzia, centena, milhar).
+#   valor=      o valor numérico (em pt-numeros.dict este valor está em num=;
+#               aqui chama-se valor= porque num= é o número gramatical s/p em
+#               pt-full.kbb)
+#   sinonimo=   outra forma do mesmo numeral: a variante europeia (dezasseis)
+#               ou brasileira (quatorze), ou uma forma rara
+#   feminino=   a forma feminina          plural=  a forma plural
+#   escala=     curta (bilhão = 10^9, Brasil) | longa (bilião = 10^12, Portugal)
+#   potencia=n  nos nomes em -ilião (escala longa), a potência de um milhão;
+#               nos ordinais em -ilionésimo, o n de pt-numeros.dict
+#   br=1        forma brasileira          pt=1  forma europeia
+#   europeu=    na consulta inversa, o nome europeu do mesmo valor quando
+#               difere (10^9 = "mil milhões", 10^12 = bilião)
+# Os nomes em -ilião acima de sextilião não têm valor=, só potencia=.
+# Atenção: pt-numeros.dict dá a bilião..sextilião um num= da escala curta
+# (bilião num=10^9); aqui valor= segue a escala longa, coerente com
+# potencia=.  Os ordinais em -ilionésimo seguem o num= do dicionário (escala
+# curta, uso brasileiro).
+# Toda forma aqui citada é etiquetada por pt-numeros.dict.
+numeros
+  palavras
+    zero: valor=0
+    um: valor=1, feminino=uma
+    dois: valor=2, feminino=duas
+    três: valor=3
+    quatro: valor=4
+    cinco: valor=5
+    seis: valor=6, sinonimo=meia
+    sete: valor=7
+    oito: valor=8
+    nove: valor=9
+    dez: valor=10
+    onze: valor=11
+    doze: valor=12
+    treze: valor=13
+    catorze: valor=14, sinonimo=quatorze
+    quinze: valor=15
+    dezesseis: valor=16, sinonimo=dezasseis
+    dezessete: valor=17, sinonimo=dezassete
+    dezoito: valor=18
+    dezenove: valor=19, sinonimo=dezanove
+    vinte: valor=20
+    trinta: valor=30
+    quarenta: valor=40
+    cinquenta: valor=50
+    sessenta: valor=60
+    setenta: valor=70
+    oitenta: valor=80
+    noventa: valor=90
+    cem: valor=100, sinonimo=cento
+    duzentos: valor=200, feminino=duzentas
+    trezentos: valor=300, feminino=trezentas
+    quatrocentos: valor=400, feminino=quatrocentas
+    quinhentos: valor=500, feminino=quinhentas
+    seiscentos: valor=600, feminino=seiscentas
+    setecentos: valor=700, feminino=setecentas
+    oitocentos: valor=800, feminino=oitocentas
+    novecentos: valor=900, feminino=novecentas
+    mil: valor=1000
+    milhão: valor=1000000, plural=milhões
+    bilhão: valor=1000000000, escala=curta, plural=bilhões, br=1
+    trilhão: valor=1000000000000, escala=curta, plural=trilhões, br=1
+    quatrilhão: valor=1000000000000000, escala=curta, br=1
+    quintilhão: valor=1000000000000000000, escala=curta, br=1
+    sextilhão: valor=1000000000000000000000, escala=curta, br=1
+    bilião: valor=1000000000000, potencia=2, escala=longa, pt=1
+    trilião: valor=1000000000000000000, potencia=3, escala=longa, pt=1
+    quatrilião: valor=1000000000000000000000000, potencia=4, escala=longa, pt=1
+    quintilião: valor=1000000000000000000000000000000, potencia=5, escala=longa, pt=1
+    sextilião: valor=1000000000000000000000000000000000000, potencia=6, escala=longa, pt=1
+    septilião: potencia=7, escala=longa, pt=1
+    octilião: potencia=8, escala=longa, pt=1
+    nonilião: potencia=9, escala=longa, pt=1
+    decilião: potencia=10, escala=longa, pt=1
+    undecilião: potencia=11, escala=longa, pt=1
+    duodecilião: potencia=12, escala=longa, pt=1
+    tredecilião: potencia=13, escala=longa, pt=1
+    quatuordecilião: potencia=14, escala=longa, pt=1
+    quindecilião: potencia=15, escala=longa, pt=1
+    sexdecilião: potencia=16, escala=longa, pt=1
+    septendecilião: potencia=17, escala=longa, pt=1
+    octodecilião: potencia=18, escala=longa, pt=1
+    novendecilião: potencia=19, escala=longa, pt=1
+    vigintilião: potencia=20, escala=longa, pt=1
+    trigintilião: potencia=30, escala=longa, pt=1
+    quadragintilião: potencia=40, escala=longa, pt=1
+    quinquagintilião: potencia=50, escala=longa, pt=1
+    sexagintilião: potencia=60, escala=longa, pt=1
+    septuagintilião: potencia=70, escala=longa, pt=1
+    octogintilião: potencia=80, escala=longa, pt=1
+    nonagintilião: potencia=90, escala=longa, pt=1
+    centilião: potencia=100, escala=longa, pt=1
+    ducentilião: potencia=200, escala=longa, pt=1
+    trecentilião: potencia=300, escala=longa, pt=1
+    quadringentilião: potencia=400, escala=longa, pt=1
+    quingentilião: potencia=500, escala=longa, pt=1
+    sescentilião: potencia=600, escala=longa, pt=1
+    septingentilião: potencia=700, escala=longa, pt=1
+    octingentilião: potencia=800, escala=longa, pt=1
+    nongentilião: potencia=900, escala=longa, pt=1
+    miliatilião: potencia=1000, escala=longa, pt=1
+    miliamiliatilião: valor=1000000, potencia=1, escala=longa, pt=1
+  numeroporvalor
+    0: nome=zero
+    1: nome=um
+    2: nome=dois
+    3: nome=três
+    4: nome=quatro
+    5: nome=cinco
+    6: nome=seis
+    7: nome=sete
+    8: nome=oito
+    9: nome=nove
+    10: nome=dez
+    11: nome=onze
+    12: nome=doze
+    13: nome=treze
+    14: nome=catorze
+    15: nome=quinze
+    16: nome=dezesseis
+    17: nome=dezessete
+    18: nome=dezoito
+    19: nome=dezenove
+    20: nome=vinte
+    30: nome=trinta
+    40: nome=quarenta
+    50: nome=cinquenta
+    60: nome=sessenta
+    70: nome=setenta
+    80: nome=oitenta
+    90: nome=noventa
+    100: nome=cem
+    200: nome=duzentos
+    300: nome=trezentos
+    400: nome=quatrocentos
+    500: nome=quinhentos
+    600: nome=seiscentos
+    700: nome=setecentos
+    800: nome=oitocentos
+    900: nome=novecentos
+    1000: nome=mil
+    1000000: nome=milhão
+    1000000000: nome=bilhão, europeu="mil milhões"
+    1000000000000: nome=trilhão, europeu=bilião
+    1000000000000000: nome=quatrilhão, europeu="mil biliões"
+    1000000000000000000: nome=quintilhão, europeu=trilião
+    1000000000000000000000: nome=sextilhão, europeu="mil triliões"
+  ordinais
+    primeiro: valor=1, feminino=primeira
+    segundo: valor=2, feminino=segunda
+    terceiro: valor=3, feminino=terceira
+    quarto: valor=4, feminino=quarta
+    quinto: valor=5, feminino=quinta
+    sexto: valor=6, feminino=sexta
+    sétimo: valor=7, feminino=sétima
+    oitavo: valor=8, feminino=oitava
+    nono: valor=9, feminino=nona
+    décimo: valor=10, feminino=décima
+    décimo primeiro: valor=11, sinonimo=undécimo
+    décimo segundo: valor=12, sinonimo=duodécimo
+    décimo terceiro: valor=13
+    décimo quarto: valor=14
+    décimo quinto: valor=15
+    décimo sexto: valor=16
+    décimo sétimo: valor=17
+    décimo oitavo: valor=18
+    décimo nono: valor=19
+    vigésimo: valor=20
+    trigésimo: valor=30
+    quadragésimo: valor=40
+    quinquagésimo: valor=50
+    sexagésimo: valor=60
+    septuagésimo: valor=70, sinonimo=setuagésimo
+    octogésimo: valor=80
+    nonagésimo: valor=90
+    centésimo: valor=100
+    ducentésimo: valor=200
+    trecentésimo: valor=300
+    quadringentésimo: valor=400, sinonimo=quadrigentésimo
+    quingentésimo: valor=500
+    sexcentésimo: valor=600, sinonimo=seiscentésimo
+    septingentésimo: valor=700, sinonimo=[setingentésimo,septicentésimo]
+    octingentésimo: valor=800
+    nongentésimo: valor=900
+    milésimo: valor=1000
+    milionésimo: valor=1000000
+    bilionésimo: valor=1000000000, potencia=2
+    trilionésimo: valor=1000000000000, potencia=3
+    quatrilionésimo: valor=1000000000000000, potencia=4
+    quintilionésimo: valor=1000000000000000000, potencia=5
+    sextilionésimo: valor=1000000000000000000000, potencia=6
+    septilionésimo: potencia=7
+    octilionésimo: potencia=8
+    nonilionésimo: potencia=9
+    decilionésimo: potencia=10
+    undecilionésimo: potencia=11
+    duodecilionésimo: potencia=12
+    tredecilionésimo: potencia=13
+    quatuordecilionésimo: potencia=14
+    quindecilionésimo: potencia=15
+    sexdecilionésimo: potencia=16
+    septendecilionésimo: potencia=17
+    octodecilionésimo: potencia=18
+    novendecilionésimo: potencia=19
+    vigintilionésimo: potencia=20
+    trigintilionésimo: potencia=30
+    quadragintilionésimo: potencia=40
+    quinquagintilionésimo: potencia=50
+    sexagintilionésimo: potencia=60
+    septuagintilionésimo: potencia=70
+    octogintilionésimo: potencia=80
+    nonagintilionésimo: potencia=90
+    centilionésimo: potencia=100
+    ducentilionésimo: potencia=200
+    trecentilionésimo: potencia=300
+    quadringentilionésimo: potencia=400
+    quingentilionésimo: potencia=500
+    sescentilionésimo: potencia=600
+    septingentilionésimo: potencia=700
+    octingentilionésimo: potencia=800
+    nongentilionésimo: potencia=900
+    miliatilionésimo: potencia=1000
+    miliamiliatilionésimo: potencia=1
+  ordinalporvalor
+    1: nome=primeiro
+    2: nome=segundo
+    3: nome=terceiro
+    4: nome=quarto
+    5: nome=quinto
+    6: nome=sexto
+    7: nome=sétimo
+    8: nome=oitavo
+    9: nome=nono
+    10: nome=décimo
+    11: nome="décimo primeiro"
+    12: nome="décimo segundo"
+    13: nome="décimo terceiro"
+    14: nome="décimo quarto"
+    15: nome="décimo quinto"
+    16: nome="décimo sexto"
+    17: nome="décimo sétimo"
+    18: nome="décimo oitavo"
+    19: nome="décimo nono"
+    20: nome=vigésimo
+    30: nome=trigésimo
+    40: nome=quadragésimo
+    50: nome=quinquagésimo
+    60: nome=sexagésimo
+    70: nome=septuagésimo
+    80: nome=octogésimo
+    90: nome=nonagésimo
+    100: nome=centésimo
+    200: nome=ducentésimo
+    300: nome=trecentésimo
+    400: nome=quadringentésimo
+    500: nome=quingentésimo
+    600: nome=sexcentésimo
+    700: nome=septingentésimo
+    800: nome=octingentésimo
+    900: nome=nongentésimo
+    1000: nome=milésimo
+    1000000: nome=milionésimo
+    1000000000: nome=bilionésimo
+    1000000000000: nome=trilionésimo
+    1000000000000000: nome=quatrilionésimo
+    1000000000000000000: nome=quintilionésimo
+    1000000000000000000000: nome=sextilionésimo
+  coletivos
+    par: valor=2
+    meia dúzia: valor=6
+    dezena: valor=10, plural=dezenas
+    dúzia: valor=12, plural=dúzias
+    quinzena: valor=15
+    vintena: valor=20
+    centena: valor=100, plural=centenas
+    grosa: valor=144
+    milhar: valor=1000, plural=milhares
+    milheiro: valor=1000

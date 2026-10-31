@@ -1,0 +1,79 @@
+# Puntos cardinales y rumbos (norte, sur, no, nornoreste, etc.)
+# Los dieciséis puntos de la rosa de los vientos.  Tanto el nombre desarrollado
+# como su abreviatura y sus variantes son conceptos aquí, y todos llevan rumbo=
+# (grados desde el norte en el sentido de las agujas del reloj), de modo que
+# cualquier forma se resuelve por sí sola.
+#   direccion=  nombre canónico del punto    abrev=  abreviatura normalizada
+#   rumbo=      rumbo en grados               sin=1   variante (nordeste, w...)
+# Todas las formas nombradas aquí están etiquetadas en es-direcciones.dict.
+direcciones
+  norte: direccion=norte, abrev=n, rumbo=0
+  nornoreste: direccion=nornoreste, abrev=nne, rumbo=22.5
+  noreste: direccion=noreste, abrev=ne, rumbo=45
+  estenoreste: direccion=estenoreste, abrev=ene, rumbo=67.5
+  este: direccion=este, abrev=e, rumbo=90
+  estesureste: direccion=estesureste, abrev=ese, rumbo=112.5
+  sureste: direccion=sureste, abrev=se, rumbo=135
+  sursureste: direccion=sursureste, abrev=sse, rumbo=157.5
+  sur: direccion=sur, abrev=s, rumbo=180
+  sursuroeste: direccion=sursuroeste, abrev=sso, rumbo=202.5
+  suroeste: direccion=suroeste, abrev=so, rumbo=225
+  oestesuroeste: direccion=oestesuroeste, abrev=oso, rumbo=247.5
+  oeste: direccion=oeste, abrev=o, rumbo=270
+  oestenoroeste: direccion=oestenoroeste, abrev=ono, rumbo=292.5
+  noroeste: direccion=noroeste, abrev=no, rumbo=315
+  nornoroeste: direccion=nornoroeste, abrev=nno, rumbo=337.5
+  norte-noreste: direccion=nornoreste, abrev=nne, rumbo=22.5, sin=1
+  nor-noreste: direccion=nornoreste, abrev=nne, rumbo=22.5, sin=1
+  nornordeste: direccion=nornoreste, abrev=nne, rumbo=22.5, sin=1
+  nor-nordeste: direccion=nornoreste, abrev=nne, rumbo=22.5, sin=1
+  nordeste: direccion=noreste, abrev=ne, rumbo=45, sin=1
+  este-noreste: direccion=estenoreste, abrev=ene, rumbo=67.5, sin=1
+  estenordeste: direccion=estenoreste, abrev=ene, rumbo=67.5, sin=1
+  este-nordeste: direccion=estenoreste, abrev=ene, rumbo=67.5, sin=1
+  oriente: direccion=este, abrev=e, rumbo=90, sin=1
+  levante: direccion=este, abrev=e, rumbo=90, sin=1
+  este-sureste: direccion=estesureste, abrev=ese, rumbo=112.5, sin=1
+  estesudeste: direccion=estesureste, abrev=ese, rumbo=112.5, sin=1
+  este-sudeste: direccion=estesureste, abrev=ese, rumbo=112.5, sin=1
+  sudeste: direccion=sureste, abrev=se, rumbo=135, sin=1
+  sur-sureste: direccion=sursureste, abrev=sse, rumbo=157.5, sin=1
+  sursudeste: direccion=sursureste, abrev=sse, rumbo=157.5, sin=1
+  sur-sudeste: direccion=sursureste, abrev=sse, rumbo=157.5, sin=1
+  mediodía: direccion=sur, abrev=s, rumbo=180, sin=1
+  sur-suroeste: direccion=sursuroeste, abrev=sso, rumbo=202.5, sin=1
+  sursudoeste: direccion=sursuroeste, abrev=sso, rumbo=202.5, sin=1
+  sur-sudoeste: direccion=sursuroeste, abrev=sso, rumbo=202.5, sin=1
+  sudoeste: direccion=suroeste, abrev=so, rumbo=225, sin=1
+  oeste-suroeste: direccion=oestesuroeste, abrev=oso, rumbo=247.5, sin=1
+  oessudoeste: direccion=oestesuroeste, abrev=oso, rumbo=247.5, sin=1
+  oeste-sudoeste: direccion=oestesuroeste, abrev=oso, rumbo=247.5, sin=1
+  poniente: direccion=oeste, abrev=o, rumbo=270, sin=1
+  occidente: direccion=oeste, abrev=o, rumbo=270, sin=1
+  oeste-noroeste: direccion=oestenoroeste, abrev=ono, rumbo=292.5, sin=1
+  oesnoroeste: direccion=oestenoroeste, abrev=ono, rumbo=292.5, sin=1
+  norte-noroeste: direccion=nornoroeste, abrev=nno, rumbo=337.5, sin=1
+  nor-noroeste: direccion=nornoroeste, abrev=nno, rumbo=337.5, sin=1
+  n: direccion=norte, rumbo=0
+  nne: direccion=nornoreste, rumbo=22.5
+  ne: direccion=noreste, rumbo=45
+  ene: direccion=estenoreste, rumbo=67.5
+  e: direccion=este, rumbo=90
+  ese: direccion=estesureste, rumbo=112.5
+  se: direccion=sureste, rumbo=135
+  sse: direccion=sursureste, rumbo=157.5
+  s: direccion=sur, rumbo=180
+  sso: direccion=sursuroeste, rumbo=202.5
+  so: direccion=suroeste, rumbo=225
+  oso: direccion=oestesuroeste, rumbo=247.5
+  o: direccion=oeste, rumbo=270
+  ono: direccion=oestenoroeste, rumbo=292.5
+  no: direccion=noroeste, rumbo=315
+  nno: direccion=nornoroeste, rumbo=337.5
+  ssw: direccion=sursuroeste, rumbo=202.5, sin=1
+  sw: direccion=suroeste, rumbo=225, sin=1
+  wsw: direccion=oestesuroeste, rumbo=247.5, sin=1
+  w: direccion=oeste, rumbo=270, sin=1
+  wnw: direccion=oestenoroeste, rumbo=292.5, sin=1
+  nw: direccion=noroeste, rumbo=315, sin=1
+  nnw: direccion=nornoroeste, rumbo=337.5, sin=1

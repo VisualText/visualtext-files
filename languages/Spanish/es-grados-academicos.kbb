@@ -1,0 +1,163 @@
+# Títulos y grados académicos en español, con sus niveles, áreas y abreviaturas.
+# Búsqueda directa:  nombre -> nivel, área  (concepto "grados titulo licenciatura" -> nivel=grado)
+# Búsqueda inversa:  abreviatura -> nombre  (concepto "grados abrev mba" -> titulo="maestría en administración de empresas")
+# Búsqueda por nivel: nivel -> sus palabras genéricas y sus títulos
+# A diferencia de en-degrees.kbb, la clave es el nombre desarrollado: los
+# títulos en español se nombran, casi nunca se abrevian.
+#   nivel=        técnico | grado | especialización | maestría | doctorado
+#   area=         la materia (nombre canónico de es-areas-de-estudio.kbb)
+#   abrev=        la abreviatura canónica    sinonimo=  abreviaturas variantes
+#   variante=     nombres alternativos del título
+#   poseedor=     los sustantivos de quien lo posee (masculino, femenino...)
+#   es=1  latam=1  extranjero=1  antiguo=1  profesional=1  honorifico=1
+#                 como en es-grados-academicos.dict
+#   tratamiento=1 la abreviatura figura también en es-tratamientos.dict
+# En la rama abrev, una abreviatura de varios títulos lleva ambig=1 y
+# titulo=[...] con todos ellos.
+# En la rama nivel, palabra= son las palabras genéricas, titulo= los títulos
+# de ese nivel e incluye= los niveles que abarca un término genérico (posgrado).
+# Todas las formas nombradas aquí están etiquetadas en es-grados-academicos.dict.
+# Generado por python/gen_degrees_es.py; no editar a mano.
+grados
+  titulo
+    arquitectura: nivel=grado, area=arquitectura, abrev=arq, variante="título de arquitecto", poseedor=[arquitecto,arquitecta], profesional=1
+    arquitectura técnica: nivel=grado, area=arquitectura, poseedor=["arquitecto técnico","arquitecta técnica",aparejador,aparejadora], es=1, antiguo=1, profesional=1
+    bachelor of arts: nivel=grado, area=humanidades, abrev=ba, extranjero=1
+    bachelor of business administration: nivel=grado, area="administración de empresas", abrev=bba, extranjero=1
+    bachelor of science: nivel=grado, area="ciencias naturales", abrev=bsc, extranjero=1
+    bachillerato universitario: nivel=grado, abrev=bach, variante=["grado de bachiller","grado académico de bachiller"], poseedor=bachiller, latam=1
+    diploma de estudios avanzados: nivel=maestría, abrev=dea, variante="suficiencia investigadora", es=1, antiguo=1
+    diplomatura: nivel=grado, poseedor=[diplomado,diplomada], es=1, antiguo=1
+    doctor of medicine: nivel=doctorado, area=medicina, abrev=md, extranjero=1, profesional=1
+    doctor of philosophy: nivel=doctorado, abrev=phd, sinonimo=dphil, variante="philosophiae doctor", extranjero=1
+    doctorado: nivel=doctorado, variante=["título de doctor","grado de doctor"], poseedor=[doctor,doctora]
+    doctorado en ciencias: nivel=doctorado, area="ciencias naturales", poseedor=["doctor en ciencias","doctora en ciencias"]
+    doctorado en derecho: nivel=doctorado, area=derecho, poseedor=["doctor en derecho","doctora en derecho"]
+    doctorado en educación: nivel=doctorado, area=educación, poseedor=["doctor en educación","doctora en educación"]
+    doctorado en filosofía: nivel=doctorado, area=filosofía, poseedor=["doctor en filosofía","doctora en filosofía"]
+    doctorado honoris causa: nivel=doctorado, variante=["doctor honoris causa","doctora honoris causa","honoris causa"], honorifico=1
+    especialidad médica: nivel=especialización, area=medicina, variante="residencia médica", poseedor=["médico especialista","médica especialista"], profesional=1
+    especialización: nivel=especialización, abrev=esp, variante=[especialidad,"título de especialista","diploma de especialización"], poseedor=especialista
+    grado: nivel=grado, variante=["título de grado","grado universitario"], poseedor=[graduado,graduada,"graduado universitario","graduada universitaria"], es=1
+    ingeniería: nivel=grado, area=ingeniería, abrev=ing, variante="título de ingeniero", poseedor=[ingeniero,ingeniera], profesional=1
+    ingeniería aeroespacial: nivel=grado, area="ingeniería aeroespacial", variante="ingeniería aeronáutica", poseedor=["ingeniero aeronáutico","ingeniera aeronáutica","ingeniero aeroespacial","ingeniera aeroespacial"], profesional=1
+    ingeniería agronómica: nivel=grado, area=agronomía, variante="ingeniería agrícola", poseedor=["ingeniero agrónomo","ingeniera agrónoma"], profesional=1
+    ingeniería ambiental: nivel=grado, area="ingeniería ambiental", poseedor=["ingeniero ambiental","ingeniera ambiental"]
+    ingeniería biomédica: nivel=grado, area="ingeniería biomédica", poseedor=["ingeniero biomédico","ingeniera biomédica"]
+    ingeniería civil: nivel=grado, area="ingeniería civil", variante="ingeniería de caminos", poseedor=["ingeniero civil","ingeniera civil","ingeniero de caminos","ingeniera de caminos"], profesional=1
+    ingeniería de alimentos: nivel=grado, area="ciencia de los alimentos", poseedor=["ingeniero en alimentos","ingeniera en alimentos"]
+    ingeniería de minas: nivel=grado, area="ingeniería de minas", poseedor=["ingeniero de minas","ingeniera de minas"], profesional=1
+    ingeniería de sistemas: nivel=grado, area="ingeniería de sistemas", poseedor=["ingeniero de sistemas","ingeniera de sistemas","ingeniero en sistemas","ingeniera en sistemas"]
+    ingeniería de software: nivel=grado, area="ingeniería de software", poseedor=["ingeniero de software","ingeniera de software"]
+    ingeniería de telecomunicaciones: nivel=grado, area="ingeniería de telecomunicaciones", poseedor=["ingeniero de telecomunicaciones","ingeniera de telecomunicaciones","ingeniero en telecomunicaciones","ingeniera en telecomunicaciones"], profesional=1
+    ingeniería eléctrica: nivel=grado, area="ingeniería eléctrica", poseedor=["ingeniero electricista","ingeniera electricista"], profesional=1
+    ingeniería electrónica: nivel=grado, area="ingeniería electrónica", poseedor=["ingeniero electrónico","ingeniera electrónica"], profesional=1
+    ingeniería forestal: nivel=grado, area="ingeniería forestal", variante="ingeniería de montes", poseedor=["ingeniero forestal","ingeniera forestal","ingeniero de montes","ingeniera de montes"], profesional=1
+    ingeniería industrial: nivel=grado, area="ingeniería industrial", poseedor=["ingeniero industrial","ingeniera industrial"], profesional=1
+    ingeniería informática: nivel=grado, area="ingeniería informática", variante="ingeniería en computación", poseedor=["ingeniero informático","ingeniera informática","ingeniero en computación","ingeniera en computación"]
+    ingeniería mecánica: nivel=grado, area="ingeniería mecánica", poseedor=["ingeniero mecánico","ingeniera mecánica"], profesional=1
+    ingeniería petrolera: nivel=grado, area="ingeniería petrolera", variante="ingeniería de petróleos", poseedor=["ingeniero petrolero","ingeniera petrolera"]
+    ingeniería química: nivel=grado, area="ingeniería química", poseedor=["ingeniero químico","ingeniera química"], profesional=1
+    ingeniería técnica: nivel=grado, area=ingeniería, poseedor=["ingeniero técnico","ingeniera técnica"], es=1, antiguo=1, profesional=1
+    juris doctor: nivel=doctorado, area=derecho, abrev=jd, extranjero=1, profesional=1
+    licenciatura: nivel=grado, abrev=lic, variante="título de licenciado", poseedor=[licenciado,licenciada]
+    licenciatura en administración de empresas: nivel=grado, area="administración de empresas", variante=["grado en administración y dirección de empresas","grado en administración de empresas","licenciatura en administración"], poseedor=["licenciado en administración de empresas","licenciada en administración de empresas"]
+    licenciatura en antropología: nivel=grado, area=antropología, variante="grado en antropología", poseedor=["licenciado en antropología","licenciada en antropología"]
+    licenciatura en bellas artes: nivel=grado, area=arte, variante=["grado en bellas artes","licenciatura en artes visuales"], poseedor=["licenciado en bellas artes","licenciada en bellas artes"]
+    licenciatura en biología: nivel=grado, area=biología, variante="grado en biología", poseedor=["licenciado en biología","licenciada en biología"]
+    licenciatura en ciencia política: nivel=grado, area="ciencia política", variante=["licenciatura en ciencias políticas","grado en ciencia política","grado en ciencias políticas"], poseedor=["licenciado en ciencia política","licenciada en ciencia política"]
+    licenciatura en comunicación: nivel=grado, area=comunicación, variante=["licenciatura en ciencias de la comunicación","grado en comunicación"], poseedor=["licenciado en comunicación","licenciada en comunicación"]
+    licenciatura en contaduría pública: nivel=grado, area=contabilidad, variante=["licenciatura en contaduría","licenciatura en contabilidad","grado en contabilidad"], poseedor=["contador público","contadora pública"], latam=1, profesional=1
+    licenciatura en derecho: nivel=grado, area=derecho, variante=["grado en derecho","título de abogado"], poseedor=["licenciado en derecho","licenciada en derecho",abogado,abogada], profesional=1
+    licenciatura en diseño gráfico: nivel=grado, area="diseño gráfico", variante="grado en diseño", poseedor=["licenciado en diseño gráfico","licenciada en diseño gráfico"]
+    licenciatura en economía: nivel=grado, area=economía, variante="grado en economía", poseedor=["licenciado en economía","licenciada en economía"]
+    licenciatura en educación: nivel=grado, area=educación, variante=["grado en educación","grado en magisterio"], poseedor=["licenciado en educación","licenciada en educación"], profesional=1
+    licenciatura en enfermería: nivel=grado, area=enfermería, variante="grado en enfermería", poseedor=["licenciado en enfermería","licenciada en enfermería"], profesional=1
+    licenciatura en farmacia: nivel=grado, area=farmacia, variante=["grado en farmacia","licenciatura en química farmacéutica"], poseedor=["químico farmacéutico","química farmacéutica","químico farmacéutico biólogo"], profesional=1
+    licenciatura en filosofía: nivel=grado, area=filosofía, variante="grado en filosofía", poseedor=["licenciado en filosofía","licenciada en filosofía"]
+    licenciatura en física: nivel=grado, area=física, variante="grado en física", poseedor=["licenciado en física","licenciada en física"]
+    licenciatura en geografía: nivel=grado, area=geografía, variante="grado en geografía", poseedor=["licenciado en geografía","licenciada en geografía"]
+    licenciatura en historia: nivel=grado, area=historia, variante="grado en historia", poseedor=["licenciado en historia","licenciada en historia"]
+    licenciatura en informática: nivel=grado, area=informática, variante=["licenciatura en ciencias de la computación","grado en informática"], poseedor=["licenciado en informática","licenciada en informática"]
+    licenciatura en letras: nivel=grado, area=letras, variante=["licenciatura en letras hispánicas","grado en filología hispánica","licenciatura en filología hispánica"], poseedor=["licenciado en letras","licenciada en letras"]
+    licenciatura en matemáticas: nivel=grado, area=matemáticas, variante="grado en matemáticas", poseedor=["licenciado en matemáticas","licenciada en matemáticas"]
+    licenciatura en medicina: nivel=grado, area=medicina, variante=["grado en medicina","licenciatura en medicina y cirugía","título de médico cirujano"], poseedor=["médico cirujano","médica cirujana",médico,médica], profesional=1
+    licenciatura en mercadotecnia: nivel=grado, area=mercadotecnia, variante=["grado en marketing","licenciatura en marketing"], poseedor=["licenciado en mercadotecnia","licenciada en mercadotecnia"]
+    licenciatura en música: nivel=grado, area=música, variante="grado en música", poseedor=["licenciado en música","licenciada en música"]
+    licenciatura en nutrición: nivel=grado, area=nutrición, variante="grado en nutrición humana y dietética", poseedor=["licenciado en nutrición","licenciada en nutrición"]
+    licenciatura en odontología: nivel=grado, area=odontología, variante=["grado en odontología","título de cirujano dentista"], poseedor=["cirujano dentista","cirujana dentista",odontólogo,odontóloga], profesional=1
+    licenciatura en pedagogía: nivel=grado, area=pedagogía, variante="grado en pedagogía", poseedor=["licenciado en pedagogía","licenciada en pedagogía"]
+    licenciatura en periodismo: nivel=grado, area=periodismo, variante="grado en periodismo", poseedor=["licenciado en periodismo","licenciada en periodismo"]
+    licenciatura en psicología: nivel=grado, area=psicología, variante="grado en psicología", poseedor=["licenciado en psicología","licenciada en psicología"]
+    licenciatura en química: nivel=grado, area=química, variante="grado en química", poseedor=["licenciado en química","licenciada en química"]
+    licenciatura en relaciones internacionales: nivel=grado, area="relaciones internacionales", variante="grado en relaciones internacionales", poseedor=["licenciado en relaciones internacionales","licenciada en relaciones internacionales"]
+    licenciatura en sociología: nivel=grado, area=sociología, variante="grado en sociología", poseedor=["licenciado en sociología","licenciada en sociología"]
+    licenciatura en trabajo social: nivel=grado, area="trabajo social", variante="grado en trabajo social", poseedor=["licenciado en trabajo social","licenciada en trabajo social"]
+    licenciatura en turismo: nivel=grado, area=turismo, variante="grado en turismo", poseedor=["licenciado en turismo","licenciada en turismo"]
+    licenciatura en veterinaria: nivel=grado, area=veterinaria, variante=["grado en veterinaria","título de médico veterinario"], poseedor=["médico veterinario","médica veterinaria","médico veterinario zootecnista"], profesional=1
+    maestría: nivel=maestría, variante=["título de maestría","grado de maestro","grado de maestría"], poseedor=[maestro,maestra], latam=1
+    maestría en administración de empresas: nivel=maestría, area="administración de empresas", abrev=mba, variante=["máster en administración de empresas","máster en administración y dirección de empresas","maestría en administración de negocios","master of business administration"]
+    maestría en ciencias: nivel=maestría, area="ciencias naturales", variante="máster en ciencias", poseedor=["maestro en ciencias","maestra en ciencias"], latam=1
+    maestría en derecho: nivel=maestría, area=derecho, variante="máster en derecho", poseedor=["maestro en derecho","maestra en derecho"]
+    maestría en educación: nivel=maestría, area=educación, variante="máster en educación", poseedor=["maestro en educación","maestra en educación"]
+    maestría en finanzas: nivel=maestría, area=finanzas, variante="máster en finanzas"
+    maestría en salud pública: nivel=maestría, area="salud pública", variante="máster en salud pública"
+    magíster: nivel=maestría, abrev=mg, sinonimo=mag, variante=[magister,"grado de magíster"], latam=1
+    máster: nivel=maestría, variante=[master,"máster universitario","máster oficial","título de máster"], es=1
+    máster de acceso a la abogacía: nivel=maestría, area=derecho, variante=["máster de abogacía","máster en abogacía"], es=1, profesional=1
+    máster en formación del profesorado: nivel=maestría, area=educación, variante=["máster de profesorado","máster del profesorado","máster en profesorado"], es=1, profesional=1
+    master of arts: nivel=maestría, area=humanidades, abrev=ma, extranjero=1
+    master of laws: nivel=maestría, area=derecho, abrev=llm, extranjero=1
+    master of philosophy: nivel=maestría, abrev=mphil, extranjero=1
+    master of science: nivel=maestría, area="ciencias naturales", abrev=msc, extranjero=1
+    profesorado: nivel=técnico, area=educación, variante="título de profesor", latam=1
+    técnico superior: nivel=técnico, variante=["ciclo formativo de grado superior","formación profesional de grado superior","fp de grado superior"], poseedor="técnica superior", es=1
+    técnico superior universitario: nivel=técnico, abrev=tsu, poseedor="técnica superior universitaria", latam=1
+    técnico universitario: nivel=técnico, variante="título técnico universitario", poseedor="técnica universitaria", latam=1
+    tecnólogo: nivel=técnico, variante="título de tecnólogo", poseedor=tecnóloga, latam=1
+  abrev
+    abg: titulo="licenciatura en derecho", completo=abogado, poseedor=1, nivel=grado, tratamiento=1
+    abog: titulo="licenciatura en derecho", completo=abogado, poseedor=1, nivel=grado, tratamiento=1
+    arq: titulo=arquitectura, nivel=grado, tratamiento=1
+    ba: titulo="bachelor of arts", nivel=grado
+    bach: titulo="bachillerato universitario", nivel=grado
+    bba: titulo="bachelor of business administration", nivel=grado
+    bsc: titulo="bachelor of science", nivel=grado
+    cp: titulo="licenciatura en contaduría pública", completo="contador público", poseedor=1, nivel=grado, tratamiento=1
+    cpc: titulo="licenciatura en contaduría pública", completo="contador público colegiado", poseedor=1, nivel=grado
+    dea: titulo="diploma de estudios avanzados", nivel=maestría
+    dphil: titulo="doctor of philosophy", nivel=doctorado
+    dr: titulo=doctorado, completo=doctor, poseedor=1, gen=m, nivel=doctorado, tratamiento=1
+    dra: titulo=doctorado, completo=doctora, poseedor=1, gen=f, nivel=doctorado, tratamiento=1
+    esp: titulo=especialización, nivel=especialización
+    ing: titulo=ingeniería, nivel=grado, tratamiento=1
+    jd: titulo="juris doctor", nivel=doctorado
+    lcda: titulo=licenciatura, completo=licenciada, poseedor=1, gen=f, nivel=grado, tratamiento=1
+    lcdo: titulo=licenciatura, completo=licenciado, poseedor=1, gen=m, nivel=grado, tratamiento=1
+    lda: titulo=licenciatura, completo=licenciada, poseedor=1, gen=f, nivel=grado, tratamiento=1
+    ldo: titulo=licenciatura, completo=licenciado, poseedor=1, gen=m, nivel=grado, tratamiento=1
+    lic: titulo=licenciatura, nivel=grado, tratamiento=1
+    licda: titulo=licenciatura, completo=licenciada, poseedor=1, gen=f, nivel=grado, tratamiento=1
+    licdo: titulo=licenciatura, completo=licenciado, poseedor=1, gen=m, nivel=grado, tratamiento=1
+    llm: titulo="master of laws", nivel=maestría
+    ma: titulo="master of arts", nivel=maestría
+    mag: titulo=magíster, nivel=maestría
+    mba: titulo="maestría en administración de empresas", nivel=maestría, tratamiento=1
+    md: titulo="doctor of medicine", nivel=doctorado, tratamiento=1
+    mg: titulo=magíster, nivel=maestría
+    mphil: titulo="master of philosophy", nivel=maestría
+    msc: titulo="master of science", nivel=maestría, tratamiento=1
+    mtra: titulo=maestría, completo=maestra, poseedor=1, gen=f, nivel=maestría, tratamiento=1
+    mtro: titulo=maestría, completo=maestro, poseedor=1, gen=m, nivel=maestría, tratamiento=1
+    mvz: titulo="licenciatura en veterinaria", completo="médico veterinario zootecnista", poseedor=1, nivel=grado, tratamiento=1
+    phd: titulo="doctor of philosophy", nivel=doctorado, tratamiento=1
+    qfb: titulo="licenciatura en farmacia", completo="químico farmacéutico biólogo", poseedor=1, nivel=grado
+    tsu: titulo="técnico superior universitario", nivel=técnico
+  nivel
+    técnico: titulo=[profesorado,"técnico superior","técnico superior universitario","técnico universitario",tecnólogo]
+    grado: palabra=[pregrado], titulo=[arquitectura,"arquitectura técnica","bachelor of arts","bachelor of business administration","bachelor of science","bachillerato universitario",diplomatura,grado,ingeniería,"ingeniería aeroespacial","ingeniería agronómica","ingeniería ambiental","ingeniería biomédica","ingeniería civil","ingeniería de alimentos","ingeniería de minas","ingeniería de sistemas","ingeniería de software","ingeniería de telecomunicaciones","ingeniería eléctrica","ingeniería electrónica","ingeniería forestal","ingeniería industrial","ingeniería informática","ingeniería mecánica","ingeniería petrolera","ingeniería química","ingeniería técnica",licenciatura,"licenciatura en administración de empresas","licenciatura en antropología","licenciatura en bellas artes","licenciatura en biología","licenciatura en ciencia política","licenciatura en comunicación","licenciatura en contaduría pública","licenciatura en derecho","licenciatura en diseño gráfico","licenciatura en economía","licenciatura en educación","licenciatura en enfermería","licenciatura en farmacia","licenciatura en filosofía","licenciatura en física","licenciatura en geografía","licenciatura en historia","licenciatura en informática","licenciatura en letras","licenciatura en matemáticas","licenciatura en medicina","licenciatura en mercadotecnia","licenciatura en música","licenciatura en nutrición","licenciatura en odontología","licenciatura en pedagogía","licenciatura en periodismo","licenciatura en psicología","licenciatura en química","licenciatura en relaciones internacionales","licenciatura en sociología","licenciatura en trabajo social","licenciatura en turismo","licenciatura en veterinaria"]
+    especialización: titulo=["especialidad médica",especialización]
+    maestría: titulo=["diploma de estudios avanzados",maestría,"maestría en administración de empresas","maestría en ciencias","maestría en derecho","maestría en educación","maestría en finanzas","maestría en salud pública",magíster,máster,"máster de acceso a la abogacía","máster en formación del profesorado","master of arts","master of laws","master of philosophy","master of science"]
+    doctorado: titulo=["doctor of medicine","doctor of philosophy",doctorado,"doctorado en ciencias","doctorado en derecho","doctorado en educación","doctorado en filosofía","doctorado honoris causa","juris doctor"]
+    posdoctorado: palabra=[posdoctorado,postdoctorado,posdoc,postdoc,posdoctoral,postdoctoral]
+    posgrado: palabra=[posgrado,postgrado,posgrados,postgrados], incluye=[especialización,maestría,doctorado]

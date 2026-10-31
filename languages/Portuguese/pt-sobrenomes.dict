@@ -1,0 +1,504 @@
+# Sobrenomes portugueses e brasileiros
+#   nome=sobrenome  toda entrada
+# Os sobrenomes mais comuns no Brasil e em Portugal, com acentos (araújo,
+# gonçalves, conceição) e as grafias antigas ainda em uso (mello, mattos,
+# vianna, salles) e alguns compostos (castelo branco, vilas boas).  As
+# partículas (da, de, do, das, dos) não estão, nem sozinhas nem coladas ao
+# sobrenome ("da silva"): a regra de nome deve tratá-las à parte.
+# Quase todo sobrenome é também uma palavra comum ou um nome de lugar
+# (rocha, leite, rosa, ramos, lisboa), por isso só é sobrenome em contexto.
+abrantes nome=sobrenome pos=s
+abreu nome=sobrenome pos=s
+accioly nome=sobrenome pos=s
+adorno nome=sobrenome pos=s
+adorno pos=v
+afonso nome=sobrenome pos=s
+aguiar nome=sobrenome pos=v
+alencar nome=sobrenome pos=s
+alencastro nome=sobrenome pos=s
+almada nome=sobrenome pos=s
+almeida nome=sobrenome pos=s
+alvarenga nome=sobrenome pos=s
+alves nome=sobrenome pos=s
+alvim nome=sobrenome pos=s
+amaral nome=sobrenome pos=s
+amorim nome=sobrenome pos=s
+andrade nome=sobrenome pos=s
+antunes nome=sobrenome pos=s
+aragão nome=sobrenome pos=s
+arantes nome=sobrenome pos=s
+araújo nome=sobrenome pos=s
+arruda nome=sobrenome pos=s
+assis nome=sobrenome pos=s
+assunção nome=sobrenome pos=s
+ataíde nome=sobrenome pos=s
+athayde nome=sobrenome pos=s
+azevedo nome=sobrenome pos=s
+bandeira nome=sobrenome pos=adj
+bandeira pos=s
+bandeira pos=v
+baptista nome=sobrenome pos=adj
+baptista pos=s
+barbosa nome=sobrenome pos=s
+barreiros nome=sobrenome pos=s
+barreto nome=sobrenome pos=s
+barros nome=sobrenome pos=s
+barroso nome=sobrenome pos=adj
+barroso pos=s
+bastos nome=sobrenome pos=adj
+bastos pos=s
+batista nome=sobrenome pos=s
+belém nome=sobrenome pos=s
+benevides nome=sobrenome pos=s
+bento nome=sobrenome pos=adj
+bento pos=s
+bettencourt nome=sobrenome pos=s
+bezerra nome=sobrenome pos=s
+bittencourt nome=sobrenome pos=s
+boaventura nome=sobrenome pos=s
+borges nome=sobrenome pos=s
+botelho nome=sobrenome pos=s
+bragança nome=sobrenome pos=s
+brandão nome=sobrenome pos=s
+brasil nome=sobrenome pos=adj
+brasil pos=s
+brito nome=sobrenome pos=v
+bueno nome=sobrenome pos=s
+cabral nome=sobrenome pos=s
+caetano nome=sobrenome pos=s
+calado nome=sobrenome pos=adj
+calado pos=s
+calado pos=v
+caldeira nome=sobrenome pos=s
+caldeira pos=v
+calixto nome=sobrenome pos=s
+camacho nome=sobrenome pos=s
+camargo nome=sobrenome pos=s
+campelo nome=sobrenome pos=s
+campos nome=sobrenome pos=s
+cancela nome=sobrenome pos=s
+cancela pos=v
+cantanhede nome=sobrenome pos=s
+canário nome=sobrenome pos=s
+capistrano nome=sobrenome pos=s
+cardoso nome=sobrenome pos=s
+carmo nome=sobrenome pos=s
+carneiro nome=sobrenome pos=adj
+carneiro pos=s
+carrilho nome=sobrenome pos=s
+carvalhal nome=sobrenome pos=s
+carvalho nome=sobrenome pos=s
+casado nome=sobrenome pos=adj
+casado pos=s
+casado pos=v
+casimiro nome=sobrenome pos=s
+castelo branco nome=sobrenome pos=s
+castilho nome=sobrenome pos=s
+castro nome=sobrenome pos=s
+castro pos=v
+cavalcante nome=sobrenome pos=s
+cavalcanti nome=sobrenome pos=s
+cerqueira nome=sobrenome pos=adj
+chaves nome=sobrenome pos=s
+coelho nome=sobrenome pos=s
+coimbra nome=sobrenome pos=s
+conceição nome=sobrenome pos=s
+conde nome=sobrenome pos=s
+conde pos=v
+cordeiro nome=sobrenome pos=s
+cordovil nome=sobrenome pos=adj
+correa nome=sobrenome pos=s
+correia nome=sobrenome pos=s
+correia pos=v
+corte-real nome=sobrenome pos=s
+costa nome=sobrenome pos=s
+coutinho nome=sobrenome pos=s
+couto nome=sobrenome pos=s
+couto pos=v
+crespo nome=sobrenome pos=s
+crespo pos=v
+cristóvão nome=sobrenome pos=s
+cruz nome=sobrenome pos=s
+cunha nome=sobrenome pos=s
+cunha pos=v
+câmara nome=sobrenome pos=s
+damasceno nome=sobrenome pos=adj
+damasceno pos=s
+dantas nome=sobrenome pos=s
+delgado nome=sobrenome pos=adj
+dias nome=sobrenome pos=s
+domingues nome=sobrenome pos=s
+dourado nome=sobrenome pos=adj
+dourado pos=v
+drummond nome=sobrenome pos=s
+duarte nome=sobrenome pos=s
+espíndola nome=sobrenome pos=s
+espínola nome=sobrenome pos=s
+espírito santo nome=sobrenome pos=s
+esteves nome=sobrenome pos=v
+estrela nome=sobrenome pos=adj
+estrela pos=s
+estrela pos=v
+evangelista nome=sobrenome pos=s
+fagundes nome=sobrenome pos=s
+falcão nome=sobrenome pos=s
+faria nome=sobrenome pos=v
+farias nome=sobrenome pos=v
+feitosa nome=sobrenome pos=s
+fernandes nome=sobrenome pos=s
+ferreira nome=sobrenome pos=s
+fialho nome=sobrenome pos=s
+figueira nome=sobrenome pos=s
+figueiredo nome=sobrenome pos=s
+figueiroa nome=sobrenome pos=s
+florêncio nome=sobrenome pos=s
+fonseca nome=sobrenome pos=s
+fontes nome=sobrenome pos=s
+fontoura nome=sobrenome pos=s
+fraga nome=sobrenome pos=s
+franco nome=sobrenome pos=adj
+franco pos=s
+frança nome=sobrenome pos=s
+frazão nome=sobrenome pos=s
+freire nome=sobrenome pos=s
+freitas nome=sobrenome pos=s
+frota nome=sobrenome pos=s
+furtado nome=sobrenome pos=adj
+furtado pos=v
+galvão nome=sobrenome pos=s
+gama nome=sobrenome pos=s
+gama pos=v
+gameiro nome=sobrenome pos=adj
+garcez nome=sobrenome pos=s
+garcia nome=sobrenome pos=s
+gaspar nome=sobrenome pos=s
+gentil nome=sobrenome pos=adj
+godinho nome=sobrenome pos=s
+godoy nome=sobrenome pos=s
+gomes nome=sobrenome pos=v
+gonçalves nome=sobrenome pos=s
+goulart nome=sobrenome pos=s
+gouveia nome=sobrenome pos=adj
+graça nome=sobrenome pos=s
+guedes nome=sobrenome pos=s
+guerra nome=sobrenome pos=s
+guimarães nome=sobrenome pos=s
+gusmão nome=sobrenome pos=s
+henriques nome=sobrenome pos=s
+holanda nome=sobrenome pos=s
+hollanda nome=sobrenome pos=s
+honorato nome=sobrenome pos=s
+inácio nome=sobrenome pos=s
+jardim nome=sobrenome pos=s
+jesus nome=sobrenome pos=int
+jesus pos=s
+jordão nome=sobrenome pos=s
+junqueira nome=sobrenome pos=s
+justo nome=sobrenome pos=adj
+justo pos=s
+justo pos=v
+jácome nome=sobrenome pos=s
+lacerda nome=sobrenome pos=s
+lages nome=sobrenome pos=s
+lago nome=sobrenome pos=s
+lamego nome=sobrenome pos=s
+lameira nome=sobrenome pos=s
+lancastre nome=sobrenome pos=s
+landim nome=sobrenome pos=s
+leal nome=sobrenome pos=adj
+leal pos=s
+leite nome=sobrenome pos=s
+leme nome=sobrenome pos=s
+lemos nome=sobrenome pos=v
+lessa nome=sobrenome pos=s
+leão nome=sobrenome pos=s
+lima nome=sobrenome pos=s
+lima pos=v
+lisboa nome=sobrenome pos=s
+lobato nome=sobrenome pos=s
+lobo nome=sobrenome pos=s
+lopes nome=sobrenome pos=s
+loureiro nome=sobrenome pos=s
+lourenço nome=sobrenome pos=s
+lucena nome=sobrenome pos=s
+lustosa nome=sobrenome pos=s
+luz nome=sobrenome pos=s
+luz pos=v
+macedo nome=sobrenome pos=s
+machado nome=sobrenome pos=s
+machado pos=v
+maciel nome=sobrenome pos=s
+madeira nome=sobrenome pos=s
+madeira pos=v
+magalhães nome=sobrenome pos=s
+magro nome=sobrenome pos=adj
+magro pos=s
+maia nome=sobrenome pos=adj
+maia pos=s
+malheiros nome=sobrenome pos=s
+malta nome=sobrenome pos=s
+malta pos=v
+mamede nome=sobrenome pos=s
+mangueira nome=sobrenome pos=s
+manso nome=sobrenome pos=adj
+manso pos=adv
+marcondes nome=sobrenome pos=s
+mariano nome=sobrenome pos=adj
+mariano pos=s
+marinho nome=sobrenome pos=adj
+marinho pos=s
+marinho pos=v
+marins nome=sobrenome pos=s
+marques nome=sobrenome pos=v
+marreiro nome=sobrenome pos=s
+martinho nome=sobrenome pos=s
+martins nome=sobrenome pos=s
+marçal nome=sobrenome pos=s
+mascarenhas nome=sobrenome pos=s
+matias nome=sobrenome pos=adj
+matias pos=s
+matos nome=sobrenome pos=s
+matoso nome=sobrenome pos=adj
+mattos nome=sobrenome pos=s
+medeiros nome=sobrenome pos=s
+medina nome=sobrenome pos=s
+meira nome=sobrenome pos=s
+meireles nome=sobrenome pos=s
+meirelles nome=sobrenome pos=s
+mello nome=sobrenome pos=s
+melo nome=sobrenome pos=s
+melo pos=v
+mendes nome=sobrenome pos=s
+meneses nome=sobrenome pos=s
+menezes nome=sobrenome pos=s
+mesquita nome=sobrenome pos=s
+messias nome=sobrenome pos=s
+miguel nome=sobrenome pos=s
+milhomem nome=sobrenome pos=s
+miranda nome=sobrenome pos=s
+moniz nome=sobrenome pos=s
+monteiro nome=sobrenome pos=adj
+monteiro pos=s
+montenegro nome=sobrenome pos=s
+moraes nome=sobrenome pos=s
+morais nome=sobrenome pos=adj
+morais pos=s
+morais pos=v
+moreira nome=sobrenome pos=s
+mota nome=sobrenome pos=s
+motta nome=sobrenome pos=s
+moura nome=sobrenome pos=adj
+moura pos=s
+moura pos=v
+mourão nome=sobrenome pos=s
+muniz nome=sobrenome pos=s
+nascimento nome=sobrenome pos=s
+nazaré nome=sobrenome pos=s
+negrão nome=sobrenome pos=s
+nepomuceno nome=sobrenome pos=s
+neves nome=sobrenome pos=s
+neves pos=v
+nogueira nome=sobrenome pos=s
+noronha nome=sobrenome pos=s
+novaes nome=sobrenome pos=s
+novais nome=sobrenome pos=s
+nunes nome=sobrenome pos=adj
+nunes pos=s
+nóbrega nome=sobrenome pos=s
+oliva nome=sobrenome pos=s
+oliveira nome=sobrenome pos=s
+ornelas nome=sobrenome pos=s
+ourique nome=sobrenome pos=s
+pacheco nome=sobrenome pos=s
+padilha nome=sobrenome pos=s
+paes nome=sobrenome pos=s
+pais nome=sobrenome pos=s
+paiva nome=sobrenome pos=s
+paixão nome=sobrenome pos=s
+palhares nome=sobrenome pos=s
+palmeira nome=sobrenome pos=adj
+palmeira pos=s
+pantoja nome=sobrenome pos=s
+paranhos nome=sobrenome pos=s
+paredes nome=sobrenome pos=s
+passos nome=sobrenome pos=s
+patrício nome=sobrenome pos=adj
+patrício pos=s
+paula nome=sobrenome pos=s
+pedrosa nome=sobrenome pos=adj
+pedroso nome=sobrenome pos=adj
+peixoto nome=sobrenome pos=s
+pena nome=sobrenome pos=s
+pena pos=v
+penha nome=sobrenome pos=s
+pereira nome=sobrenome pos=s
+peres nome=sobrenome pos=s
+pestana nome=sobrenome pos=s
+pimenta nome=sobrenome pos=s
+pimentel nome=sobrenome pos=s
+pinheiro nome=sobrenome pos=s
+pinho nome=sobrenome pos=s
+pinto nome=sobrenome pos=adj
+pinto pos=s
+pinto pos=v
+piragibe nome=sobrenome pos=s
+pires nome=sobrenome pos=adj
+pires pos=s
+pires pos=v
+pontes nome=sobrenome pos=s
+pontes pos=v
+portela nome=sobrenome pos=s
+porto nome=sobrenome pos=s
+porto pos=v
+portugal nome=sobrenome pos=s
+prado nome=sobrenome pos=s
+prates nome=sobrenome pos=s
+quadros nome=sobrenome pos=s
+quaresma nome=sobrenome pos=s
+quaresma pos=v
+queiroz nome=sobrenome pos=s
+queirós nome=sobrenome pos=s
+quintanilha nome=sobrenome pos=s
+quintela nome=sobrenome pos=s
+quintão nome=sobrenome pos=adj
+quintão pos=s
+rabelo nome=sobrenome pos=adj
+rabelo pos=s
+ramalho nome=sobrenome pos=s
+ramalho pos=v
+ramires nome=sobrenome pos=s
+ramos nome=sobrenome pos=s
+rangel nome=sobrenome pos=s
+raposo nome=sobrenome pos=s
+raposo pos=v
+rebello nome=sobrenome pos=s
+rebelo nome=sobrenome pos=adj
+rebelo pos=v
+rebouças nome=sobrenome pos=s
+rego nome=sobrenome pos=s
+rego pos=v
+regueira nome=sobrenome pos=s
+reis nome=sobrenome pos=s
+resende nome=sobrenome pos=s
+rezende nome=sobrenome pos=s
+ribas nome=sobrenome pos=s
+ribeiro nome=sobrenome pos=s
+ricardo nome=sobrenome pos=s
+rios nome=sobrenome pos=s
+rocha nome=sobrenome pos=s
+rodrigues nome=sobrenome pos=v
+rolim nome=sobrenome pos=s
+romeiro nome=sobrenome pos=adj
+romeiro pos=s
+romão nome=sobrenome pos=s
+rosa nome=sobrenome pos=adj
+rosa pos=s
+rosa pos=v
+rosário nome=sobrenome pos=s
+rufino nome=sobrenome pos=s
+régis nome=sobrenome pos=s
+rêgo nome=sobrenome pos=s
+sacramento nome=sobrenome pos=s
+sacramento pos=v
+saldanha nome=sobrenome pos=s
+sales nome=sobrenome pos=s
+salgado nome=sobrenome pos=adj
+salgado pos=s
+salgado pos=v
+salles nome=sobrenome pos=s
+salvador nome=sobrenome pos=adj
+salvador pos=s
+sampaio nome=sobrenome pos=s
+sanches nome=sobrenome pos=s
+sant'ana nome=sobrenome pos=s
+sant'anna nome=sobrenome pos=s
+santa cruz nome=sobrenome pos=s
+santana nome=sobrenome pos=s
+santiago nome=sobrenome pos=int
+santiago pos=s
+santos nome=sobrenome pos=adj
+santos pos=s
+sardinha nome=sobrenome pos=s
+sarmento nome=sobrenome pos=s
+seabra nome=sobrenome pos=s
+seixas nome=sobrenome pos=s
+sequeira nome=sobrenome pos=adj
+sequeira pos=s
+serra nome=sobrenome pos=s
+serra pos=v
+serrano nome=sobrenome pos=adj
+serrano pos=s
+severo nome=sobrenome pos=adj
+silva nome=sobrenome pos=s
+silva pos=v
+silveira nome=sobrenome pos=adj
+silveira pos=s
+simas nome=sobrenome pos=s
+simões nome=sobrenome pos=s
+siqueira nome=sobrenome pos=s
+soares nome=sobrenome pos=v
+sobral nome=sobrenome pos=s
+sobrinho nome=sobrenome pos=s
+sotero nome=sobrenome pos=s
+sousa nome=sobrenome pos=s
+souza nome=sobrenome pos=s
+sá nome=sobrenome pos=s
+tamandaré nome=sobrenome pos=s
+tavares nome=sobrenome pos=s
+taveira nome=sobrenome pos=s
+teixeira nome=sobrenome pos=s
+teles nome=sobrenome pos=s
+telles nome=sobrenome pos=s
+tenório nome=sobrenome pos=s
+toledo nome=sobrenome pos=s
+tomé nome=sobrenome pos=s
+torres nome=sobrenome pos=s
+torres pos=v
+toscano nome=sobrenome pos=adj
+toscano pos=s
+trancoso nome=sobrenome pos=s
+trindade nome=sobrenome pos=s
+uchoa nome=sobrenome pos=s
+ulhoa nome=sobrenome pos=s
+valadares nome=sobrenome pos=s
+valadão nome=sobrenome pos=s
+vale nome=sobrenome pos=s
+vale pos=v
+valente nome=sobrenome pos=adj
+valente pos=s
+valença nome=sobrenome pos=s
+valle nome=sobrenome pos=s
+varela nome=sobrenome pos=adj
+varela pos=s
+vargas nome=sobrenome pos=s
+vasconcellos nome=sobrenome pos=s
+vasconcelos nome=sobrenome pos=s
+vaz nome=sobrenome pos=s
+veiga nome=sobrenome pos=s
+velasco nome=sobrenome pos=s
+velho nome=sobrenome pos=adj
+velho pos=s
+veloso nome=sobrenome pos=adj
+ventura nome=sobrenome pos=adj
+ventura pos=s
+venâncio nome=sobrenome pos=s
+vergueiro nome=sobrenome pos=adj
+vergueiro pos=s
+viana nome=sobrenome pos=s
+vianna nome=sobrenome pos=s
+vidal nome=sobrenome pos=s
+viegas nome=sobrenome pos=s
+vieira nome=sobrenome pos=s
+vilar nome=sobrenome pos=s
+vilas boas nome=sobrenome pos=s
+vilas-boas nome=sobrenome pos=s
+vilaça nome=sobrenome pos=s
+vilela nome=sobrenome pos=s
+vilhena nome=sobrenome pos=s
+villas boas nome=sobrenome pos=s
+villas-boas nome=sobrenome pos=s
+xavier nome=sobrenome pos=s
+zago nome=sobrenome pos=s
+zanella nome=sobrenome pos=s
+zanetti nome=sobrenome pos=s
+ávila nome=sobrenome pos=s

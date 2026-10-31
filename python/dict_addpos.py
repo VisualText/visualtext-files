@@ -43,10 +43,18 @@
 #   python dict_addpos.py <en-full.dict> <domain.dict> [more.dict ...]
 #     --dry-run    report what would change, write nothing
 #
-#   Rewrites each domain dictionary in place.
+#   python dict_addpos.py <pt-full.dict> <pt-domain.dict> [...]
+#   python dict_addpos.py <es-full.dict> <es-domain.dict> [...]
+#
+#   Rewrites each domain dictionary in place.  The noun default follows the
+#   lexicon's own tag set: pos=noun for en-full, pos=s for pt-full / es-full.
 
+import os
 import sys
 import collections
+
+# lexicon prefix -> the tag it uses for a noun
+NOUN = {"en": "noun", "pt": "s", "es": "s"}
 
 
 def load_full(path):
@@ -73,17 +81,17 @@ def entry_word(parts):
     return ' '.join(head) if head else parts[0]
 
 
-def roles_from_attrs(attrs):
+def roles_from_attrs(attrs, noun='noun'):
     """What the file itself says the entry is, where it says so."""
     out = []
     if attrs.get('adj') == '1':
         out.append('adj')
     if attrs.get('noun') == '1' or attrs.get('plural') == '1':
-        out.append('noun')
+        out.append(noun)
     return out
 
 
-def process(full, path, dry_run=False):
+def process(full, path, dry_run=False, noun='noun'):
     added = lines_added = already = 0
     out = []
     with open(path, encoding='utf-8', errors='replace') as fh:
@@ -101,7 +109,7 @@ def process(full, path, dry_run=False):
             word = entry_word(parts)
             ps = sorted(full.get(word.lower(), ()))
             if not ps:
-                ps = roles_from_attrs(attrs) or ['noun']
+                ps = roles_from_attrs(attrs, noun) or [noun]
             out.append(f"{line} pos={ps[0]}")
             for extra in ps[1:]:
                 out.append(f"{word} pos={extra}")
@@ -123,8 +131,9 @@ def main():
         sys.stderr.write("usage: dict_addpos.py <en-full.dict> <domain.dict> [...]\n")
         return 1
     full = load_full(args[0])
+    noun = NOUN.get(os.path.basename(args[0]).split('-')[0], 'noun')
     for path in args[1:]:
-        process(full, path, dry)
+        process(full, path, dry, noun)
     return 0
 
 
