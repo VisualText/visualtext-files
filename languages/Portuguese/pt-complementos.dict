@@ -1,0 +1,136 @@
+# Complementos de endereço (designadores secundários)
+#   complemento=1  toda entrada
+#   abrev=         na forma por extenso, a abreviatura principal
+#   completo=      na abreviatura, a forma por extenso
+#   raiz=          numa grafia sem acento (terreo, edificio), a forma canónica
+#   pt=1           uso de Portugal (rés-do-chão, esquerdo, direito)
+#   ambig=1        a forma é também entrada de outro dicionário da biblioteca
+#                  (bl, lt, st e res em pt-logradouro.dict, quarto em
+#                  pt-numeros.dict, ap em pt-estados.dict)
+# Quase toda forma por extenso é também uma palavra comum (casa, sala, loja,
+# frente), por isso a leitura como complemento precisa de contexto: vir depois
+# do número do logradouro ou antes de um número ("apto 302", "bloco b").
+# As abreviaturas estão sem os pontos: o tokenizador separa os pontos.
+apartamento complemento=1 abrev=apto pos=s
+apto complemento=1 completo=apartamento pos=adj
+apto pos=v
+ap complemento=1 completo=apartamento ambig=1 pos=s
+apt complemento=1 completo=apartamento pos=s
+bloco complemento=1 abrev=bl ambig=1 pos=s
+bl complemento=1 completo=bloco ambig=1 pos=s
+blc complemento=1 completo=bloco pos=s
+casa complemento=1 abrev=cs pos=s
+casa pos=v
+cs complemento=1 completo=casa pos=s
+conjunto complemento=1 abrev=cj ambig=1 pos=adj
+conjunto pos=s
+conjunto pos=v
+cj complemento=1 completo=conjunto ambig=1 pos=s
+conj complemento=1 completo=conjunto pos=s
+sala complemento=1 abrev=sl pos=s
+sl complemento=1 completo=sala pos=s
+andar complemento=1 abrev=and pos=s
+andar pos=v
+and complemento=1 completo=andar pos=s
+pavimento complemento=1 abrev=pav pos=s
+pavimento pos=v
+pav complemento=1 completo=pavimento pos=s
+loja complemento=1 abrev=lj pos=s
+lj complemento=1 completo=loja pos=s
+sobreloja complemento=1 abrev=slj pos=s
+slj complemento=1 completo=sobreloja pos=s
+fundos complemento=1 abrev=fds pos=adj
+fundos pos=s
+fds complemento=1 completo=fundos pos=s
+frente complemento=1 abrev=frt pos=s
+frt complemento=1 completo=frente pos=s
+térreo complemento=1 completo=térreo abrev=térreo pos=adj
+terreo complemento=1 raiz=térreo pos=s
+cobertura complemento=1 abrev=cob pos=s
+cob complemento=1 completo=cobertura pos=s
+subsolo complemento=1 completo=subsolo abrev=subsolo pos=s
+mezanino complemento=1 abrev=mez pos=s
+mez complemento=1 completo=mezanino pos=s
+quadra complemento=1 abrev=qd ambig=1 pos=s
+quadra pos=v
+qd complemento=1 completo=quadra pos=s
+q complemento=1 completo=quadra ambig=1 pos=s
+lote complemento=1 abrev=lt ambig=1 pos=s
+lote pos=v
+lt complemento=1 completo=lote ambig=1 pos=s
+edifício complemento=1 abrev=ed pos=s
+ed complemento=1 completo=edifício pos=s
+edif complemento=1 completo=edifício pos=s
+edificio complemento=1 raiz=edifício pos=s
+prédio complemento=1 completo=prédio abrev=prédio pos=s
+predio complemento=1 raiz=prédio pos=s
+torre complemento=1 abrev=tr pos=s
+torre pos=v
+tr complemento=1 completo=torre ambig=1 pos=s
+condomínio complemento=1 abrev=cond ambig=1 pos=s
+cond complemento=1 completo=condomínio pos=s
+condominio complemento=1 raiz=condomínio pos=s
+residencial complemento=1 abrev=res ambig=1 pos=adj
+residencial pos=s
+res complemento=1 completo=residencial ambig=1 pos=s
+galpão complemento=1 abrev=galp pos=s
+galp complemento=1 completo=galpão pos=s
+galpao complemento=1 raiz=galpão pos=s
+módulo complemento=1 abrev=mod pos=s
+mod complemento=1 completo=módulo ambig=1 pos=s
+modulo complemento=1 raiz=módulo ambig=1 pos=v
+box complemento=1 completo=box abrev=box pos=s
+garagem complemento=1 completo=garagem abrev=garagem pos=s
+sobrado complemento=1 completo=sobrado abrev=sobrado pos=adj
+sobrado pos=s
+sobrado pos=v
+quarto complemento=1 abrev=qto ambig=1 pos=adj
+quarto pos=s
+quarto pos=v
+qto complemento=1 completo=quarto pos=s
+unidade complemento=1 abrev=und ambig=1 pos=s
+und complemento=1 completo=unidade pos=s
+un complemento=1 completo=unidade pos=s
+setor complemento=1 abrev=st ambig=1 pos=s
+st complemento=1 completo=setor ambig=1 pos=s
+anexo complemento=1 abrev=anx pos=adj
+anexo pos=s
+anexo pos=v
+anx complemento=1 completo=anexo pos=s
+escritório complemento=1 abrev=esc pos=s
+esc complemento=1 completo=escritório ambig=1 pos=s
+escritorio complemento=1 raiz=escritório pos=s
+chácara complemento=1 abrev=chac ambig=1 pos=s
+chac complemento=1 completo=chácara pos=s
+chacara complemento=1 raiz=chácara pos=s
+sítio complemento=1 abrev=sit pos=s
+sit complemento=1 completo=sítio ambig=1 pos=s
+sitio complemento=1 raiz=sítio ambig=1 pos=v
+fazenda complemento=1 abrev=faz ambig=1 pos=s
+faz complemento=1 completo=fazenda ambig=1 pos=v
+gleba complemento=1 abrev=gl pos=s
+gl complemento=1 completo=gleba pos=s
+quilômetro complemento=1 abrev=km pos=s
+km complemento=1 completo=quilômetro pos=s
+quilometro complemento=1 raiz=quilômetro pos=v
+caixa postal complemento=1 abrev="cx postal" pos=s
+cx postal complemento=1 completo="caixa postal" pos=s
+cp complemento=1 completo="caixa postal" pos=s
+cxp complemento=1 completo="caixa postal" pos=s
+rés-do-chão complemento=1 abrev="r/c" pt=1 pos=s
+r/c complemento=1 completo=rés-do-chão pt=1 pos=s
+rc complemento=1 completo=rés-do-chão pt=1 pos=s
+res-do-chao complemento=1 raiz=rés-do-chão pt=1 pos=s
+esquerdo complemento=1 abrev=esq pt=1 pos=adj
+esquerdo pos=v
+esq complemento=1 completo=esquerdo pt=1 pos=s
+direito complemento=1 abrev=dto pt=1 pos=adj
+direito pos=s
+dto complemento=1 completo=direito pt=1 pos=s
+dt complemento=1 completo=direito pt=1 ambig=1 pos=s
+cave complemento=1 completo=cave abrev=cave pt=1 pos=s
+cave pos=v
+sótão complemento=1 completo=sótão abrev=sótão pt=1 pos=s
+sotao complemento=1 raiz=sótão pt=1 pos=s
+porta complemento=1 completo=porta abrev=porta pt=1 pos=s
+porta pos=v

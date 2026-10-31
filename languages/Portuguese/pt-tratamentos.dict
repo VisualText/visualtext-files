@@ -1,0 +1,267 @@
+# Formas de tratamento: prefixos e sufixos de nomes de pessoas
+#   sufixo=   o que o sufixo indica (geração, grau)
+#   prefixo=  o que o título indica, por extenso (dr -> doutor, pe -> padre)
+#   tipo=     geração | grau | cortesia | nobreza | profissional | religioso |
+#             militar | civil
+#   gen=m|f   género do título, quando é marcado
+#   ambig=1   a forma é também uma palavra comum ou entrada de outro
+#             dicionário da biblioteca, por isso só é tratamento junto de um
+#             nome (filho, neto, dona, dom, padre, pe, general, cabo)
+# Os sufixos de geração filho, neto, sobrinho e júnior são muito comuns em
+# nomes brasileiros ("José da Silva Filho", "Pedro Alves Neto").
+# Em Portugal "dr." e "dra." tratam qualquer licenciado, não só o doutor.
+# As abreviaturas estão sem os pontos (Sr., Dra., V. Exa.): o tokenizador
+# separa os pontos em tokens próprios, e "V. Exa." chega como v . exa .,
+# por isso exa, sa e ema estão aqui sozinhos e as formas por extenso
+# ("vossa excelência") como entradas de duas palavras.
+# "d." abrevia tanto dom (D. Pedro II) como dona (D. Maria); está como dom.
+# As formas com ª / º (Profª, Engº, Fº) não estão listadas: o tokenizador
+# separa o indicador ordinal.
+# Os graus estrangeiros só aparecem como sufixo (phd, msc, mba); os títulos
+# académicos brasileiros (me, dr, bel) estão em pt-graus-academicos.dict.
+
+# Sufixos de nomes
+júnior sufixo=júnior tipo=geração gen=m pos=adj
+júnior pos=s
+junior sufixo=júnior tipo=geração gen=m pos=s
+jr sufixo=júnior tipo=geração gen=m pos=s
+filho sufixo=filho tipo=geração gen=m ambig=1 pos=adj
+filho pos=s
+filho pos=v
+filha sufixo=filha tipo=geração gen=f ambig=1 pos=adj
+filha pos=s
+filha pos=v
+neto sufixo=neto tipo=geração gen=m ambig=1 pos=s
+neta sufixo=neta tipo=geração gen=f ambig=1 pos=s
+bisneto sufixo=bisneto tipo=geração gen=m ambig=1 pos=s
+sobrinho sufixo=sobrinho tipo=geração gen=m ambig=1 pos=s
+segundo sufixo=2 tipo=geração gen=m ambig=1 pos=adj
+segundo pos=adv
+segundo pos=conj
+segundo pos=prep
+segundo pos=s
+segundo pos=v
+ii sufixo=2 tipo=geração pos=s
+iii sufixo=3 tipo=geração pos=s
+iv sufixo=4 tipo=geração pos=s
+v sufixo=5 tipo=geração ambig=1 pos=s
+vi sufixo=6 tipo=geração ambig=1 pos=v
+vii sufixo=7 tipo=geração pos=s
+viii sufixo=8 tipo=geração pos=s
+ix sufixo=9 tipo=geração pos=s
+x sufixo=10 tipo=geração ambig=1 pos=s
+phd sufixo=phd tipo=grau pos=s
+msc sufixo=mestre tipo=grau pos=s
+mba sufixo=mba tipo=grau pos=s
+reformado sufixo=reformado tipo=militar gen=m ambig=1 pos=adj
+reformado pos=s
+
+# Prefixos de nomes
+sr prefixo=senhor tipo=cortesia gen=m pos=s
+sra prefixo=senhora tipo=cortesia gen=f pos=s
+srta prefixo=senhorita tipo=cortesia gen=f pos=s
+srs prefixo=senhores tipo=cortesia gen=m pos=s
+sras prefixo=senhoras tipo=cortesia gen=f pos=s
+snr prefixo=senhor tipo=cortesia gen=m pos=s
+snra prefixo=senhora tipo=cortesia gen=f pos=s
+senhor prefixo=senhor tipo=cortesia gen=m ambig=1 pos=s
+senhora prefixo=senhora tipo=cortesia gen=f ambig=1 pos=s
+senhorita prefixo=senhorita tipo=cortesia gen=f ambig=1 pos=s
+seu prefixo=senhor tipo=cortesia gen=m ambig=1 pos=adj
+seu pos=pron
+seu pos=s
+dona prefixo=dona tipo=cortesia gen=f ambig=1 pos=s
+dom prefixo=dom tipo=cortesia gen=m ambig=1 pos=s
+d prefixo=dom tipo=cortesia ambig=1 pos=s
+exmo prefixo=excelentíssimo tipo=cortesia gen=m pos=s
+exma prefixo=excelentíssima tipo=cortesia gen=f pos=s
+excelentíssimo prefixo=excelentíssimo tipo=cortesia gen=m pos=adj
+excelentíssima prefixo=excelentíssima tipo=cortesia gen=f pos=adj
+ilmo prefixo=ilustríssimo tipo=cortesia gen=m pos=s
+ilma prefixo=ilustríssima tipo=cortesia gen=f pos=s
+ilustríssimo prefixo=ilustríssimo tipo=cortesia gen=m pos=adj
+ilustríssima prefixo=ilustríssima tipo=cortesia gen=f pos=adj
+dd prefixo=digníssimo tipo=cortesia gen=m pos=s
+digníssimo prefixo=digníssimo tipo=cortesia gen=m pos=adj
+vossa excelência prefixo="vossa excelência" tipo=cortesia pos=s
+vossa senhoria prefixo="vossa senhoria" tipo=cortesia pos=s
+vossa eminência prefixo="vossa eminência" tipo=religioso pos=s
+vossa santidade prefixo="vossa santidade" tipo=religioso pos=s
+vossa majestade prefixo="vossa majestade" tipo=nobreza pos=s
+vossa alteza prefixo="vossa alteza" tipo=nobreza pos=s
+vossa magnificência prefixo="vossa magnificência" tipo=civil pos=s
+exa prefixo=excelência tipo=cortesia pos=s
+sa prefixo=senhoria tipo=cortesia ambig=1 pos=s
+ema prefixo=eminência tipo=religioso ambig=1 pos=s
+magnífico prefixo=magnífico tipo=civil gen=m ambig=1 pos=adj
+magnífico pos=s
+magnífica prefixo=magnífica tipo=civil gen=f ambig=1 pos=adj
+magnífica pos=s
+príncipe prefixo=príncipe tipo=nobreza gen=m ambig=1 pos=adj
+príncipe pos=s
+princesa prefixo=princesa tipo=nobreza gen=f ambig=1 pos=s
+duque prefixo=duque tipo=nobreza gen=m ambig=1 pos=s
+duquesa prefixo=duquesa tipo=nobreza gen=f ambig=1 pos=s
+marquês prefixo=marquês tipo=nobreza gen=m ambig=1 pos=adj
+marquês pos=s
+marquesa prefixo=marquesa tipo=nobreza gen=f ambig=1 pos=adj
+marquesa pos=s
+conde prefixo=conde tipo=nobreza gen=m ambig=1 pos=s
+conde pos=v
+condessa prefixo=condessa tipo=nobreza gen=f ambig=1 pos=s
+condessa pos=v
+visconde prefixo=visconde tipo=nobreza gen=m ambig=1 pos=s
+viscondessa prefixo=viscondessa tipo=nobreza gen=f ambig=1 pos=s
+barão prefixo=barão tipo=nobreza gen=m ambig=1 pos=s
+baronesa prefixo=baronesa tipo=nobreza gen=f ambig=1 pos=s
+dr prefixo=doutor tipo=profissional gen=m pos=s
+dra prefixo=doutora tipo=profissional gen=f pos=s
+drs prefixo=doutores tipo=profissional gen=m pos=s
+dras prefixo=doutoras tipo=profissional gen=f pos=s
+doutor prefixo=doutor tipo=profissional gen=m ambig=1 pos=s
+doutora prefixo=doutora tipo=profissional gen=f ambig=1 pos=s
+doutora pos=v
+prof prefixo=professor tipo=profissional gen=m pos=s
+profa prefixo=professora tipo=profissional gen=f pos=s
+profs prefixo=professores tipo=profissional gen=m pos=s
+professor prefixo=professor tipo=profissional gen=m ambig=1 pos=s
+professora prefixo=professora tipo=profissional gen=f ambig=1 pos=s
+professora pos=v
+me prefixo=mestre tipo=profissional gen=m ambig=1 pos=pron
+mestre prefixo=mestre tipo=profissional gen=m ambig=1 pos=adj
+mestre pos=s
+bel prefixo=bacharel tipo=profissional ambig=1 pos=adj
+bel pos=s
+eng prefixo=engenheiro tipo=profissional gen=m pos=s
+enga prefixo=engenheira tipo=profissional gen=f pos=v
+engenheiro prefixo=engenheiro tipo=profissional gen=m ambig=1 pos=s
+engenheira prefixo=engenheira tipo=profissional gen=f ambig=1 pos=s
+arq prefixo=arquiteto tipo=profissional gen=m pos=s
+arquiteto prefixo=arquiteto tipo=profissional gen=m ambig=1 pos=s
+arquiteta prefixo=arquiteta tipo=profissional gen=f ambig=1 pos=s
+adv prefixo=advogado tipo=profissional gen=m pos=s
+advogado prefixo=advogado tipo=profissional gen=m ambig=1 pos=adj
+advogado pos=s
+advogado pos=v
+advogada prefixo=advogada tipo=profissional gen=f ambig=1 pos=adj
+advogada pos=s
+advogada pos=v
+enf prefixo=enfermeiro tipo=profissional pos=s
+enfermeiro prefixo=enfermeiro tipo=profissional gen=m ambig=1 pos=s
+enfermeira prefixo=enfermeira tipo=profissional gen=f ambig=1 pos=s
+pe prefixo=padre tipo=religioso gen=m ambig=1 pos=s
+padre prefixo=padre tipo=religioso gen=m ambig=1 pos=s
+padre pos=v
+frei prefixo=frei tipo=religioso gen=m pos=s
+fr prefixo=frei tipo=religioso gen=m pos=s
+sóror prefixo=sóror tipo=religioso gen=f pos=s
+soror prefixo=sóror tipo=religioso gen=f pos=s
+irmã prefixo=irmã tipo=religioso gen=f ambig=1 pos=adj
+irmã pos=s
+irmão prefixo=irmão tipo=religioso gen=m ambig=1 pos=adj
+irmão pos=s
+ir prefixo=irmão tipo=religioso ambig=1 pos=v
+madre prefixo=madre tipo=religioso gen=f ambig=1 pos=s
+monsenhor prefixo=monsenhor tipo=religioso gen=m pos=s
+mons prefixo=monsenhor tipo=religioso gen=m pos=s
+cônego prefixo=cônego tipo=religioso gen=m ambig=1 pos=s
+bispo prefixo=bispo tipo=religioso gen=m ambig=1 pos=s
+bispo pos=v
+arcebispo prefixo=arcebispo tipo=religioso gen=m ambig=1 pos=s
+cardeal prefixo=cardeal tipo=religioso gen=m ambig=1 pos=adj
+cardeal pos=s
+pastor prefixo=pastor tipo=religioso gen=m ambig=1 pos=s
+pastora prefixo=pastora tipo=religioso gen=f ambig=1 pos=s
+pastora pos=v
+pr prefixo=pastor tipo=religioso gen=m ambig=1 pos=s
+reverendo prefixo=reverendo tipo=religioso gen=m ambig=1 pos=adj
+reverendo pos=s
+rev prefixo=reverendo tipo=religioso gen=m pos=s
+revmo prefixo=reverendíssimo tipo=religioso gen=m pos=s
+revma prefixo=reverendíssima tipo=religioso gen=f pos=s
+diácono prefixo=diácono tipo=religioso gen=m ambig=1 pos=s
+rabino prefixo=rabino tipo=religioso gen=m ambig=1 pos=adj
+rabino pos=s
+são prefixo=são tipo=religioso gen=m ambig=1 pos=adj
+são pos=s
+são pos=v
+santo prefixo=santo tipo=religioso gen=m ambig=1 pos=adj
+santo pos=s
+santa prefixo=santa tipo=religioso gen=f ambig=1 pos=adj
+santa pos=s
+sto prefixo=santo tipo=religioso gen=m pos=s
+sta prefixo=santa tipo=religioso gen=f pos=s
+marechal prefixo=marechal tipo=militar gen=m ambig=1 pos=s
+general prefixo=general tipo=militar gen=m ambig=1 pos=adj
+general pos=s
+gen prefixo=general tipo=militar gen=m ambig=1 pos=s
+brigadeiro prefixo=brigadeiro tipo=militar gen=m ambig=1 pos=s
+brig prefixo=brigadeiro tipo=militar gen=m pos=s
+almirante prefixo=almirante tipo=militar gen=m ambig=1 pos=s
+alm prefixo=almirante tipo=militar gen=m pos=s
+coronel prefixo=coronel tipo=militar gen=m ambig=1 pos=s
+cel prefixo=coronel tipo=militar gen=m pos=s
+tenente-coronel prefixo=tenente-coronel tipo=militar gen=m pos=s
+major prefixo=major tipo=militar gen=m ambig=1 pos=adj
+major pos=s
+maj prefixo=major tipo=militar gen=m pos=s
+capitão prefixo=capitão tipo=militar gen=m ambig=1 pos=s
+cap prefixo=capitão tipo=militar gen=m ambig=1 pos=s
+cmte prefixo=comandante tipo=militar gen=m pos=s
+comandante prefixo=comandante tipo=militar gen=m ambig=1 pos=adj
+comandante pos=s
+tenente prefixo=tenente tipo=militar gen=m ambig=1 pos=s
+ten prefixo=tenente tipo=militar gen=m pos=s
+sargento prefixo=sargento tipo=militar gen=m ambig=1 pos=s
+sgt prefixo=sargento tipo=militar gen=m pos=s
+cabo prefixo=cabo tipo=militar gen=m ambig=1 pos=s
+cb prefixo=cabo tipo=militar gen=m pos=s
+soldado prefixo=soldado tipo=militar gen=m ambig=1 pos=adj
+soldado pos=s
+soldado pos=v
+sd prefixo=soldado tipo=militar gen=m pos=s
+presidente prefixo=presidente tipo=civil ambig=1 pos=adj
+presidente pos=s
+pres prefixo=presidente tipo=civil pos=s
+governador prefixo=governador tipo=civil gen=m ambig=1 pos=adj
+governador pos=s
+governadora prefixo=governadora tipo=civil gen=f ambig=1 pos=adj
+governadora pos=s
+gov prefixo=governador tipo=civil pos=s
+ministro prefixo=ministro tipo=civil gen=m ambig=1 pos=s
+ministro pos=v
+ministra prefixo=ministra tipo=civil gen=f ambig=1 pos=s
+ministra pos=v
+min prefixo=ministro tipo=civil ambig=1 pos=s
+senador prefixo=senador tipo=civil gen=m ambig=1 pos=s
+senadora prefixo=senadora tipo=civil gen=f ambig=1 pos=s
+sen prefixo=senador tipo=civil pos=s
+deputado prefixo=deputado tipo=civil gen=m ambig=1 pos=s
+deputado pos=v
+deputada prefixo=deputada tipo=civil gen=f ambig=1 pos=s
+deputada pos=v
+dep prefixo=deputado tipo=civil pos=s
+vereador prefixo=vereador tipo=civil gen=m ambig=1 pos=s
+vereadora prefixo=vereadora tipo=civil gen=f ambig=1 pos=s
+ver prefixo=vereador tipo=civil ambig=1 pos=v
+prefeito prefixo=prefeito tipo=civil gen=m ambig=1 pos=s
+prefeita prefixo=prefeita tipo=civil gen=f ambig=1 pos=s
+pref prefixo=prefeito tipo=civil pos=s
+embaixador prefixo=embaixador tipo=civil gen=m ambig=1 pos=s
+embaixadora prefixo=embaixadora tipo=civil gen=f ambig=1 pos=s
+emb prefixo=embaixador tipo=civil pos=s
+juiz prefixo=juiz tipo=civil gen=m ambig=1 pos=s
+juíza prefixo=juíza tipo=civil gen=f ambig=1 pos=s
+desembargador prefixo=desembargador tipo=civil gen=m ambig=1 pos=adj
+desembargador pos=s
+desembargadora prefixo=desembargadora tipo=civil gen=f ambig=1 pos=adj
+desembargadora pos=s
+des prefixo=desembargador tipo=civil pos=s
+mm prefixo=meritíssimo tipo=civil gen=m pos=s
+meritíssimo prefixo=meritíssimo tipo=civil gen=m ambig=1 pos=adj
+meritíssimo pos=s
+meritíssima prefixo=meritíssima tipo=civil gen=f ambig=1 pos=adj
+conselheiro prefixo=conselheiro tipo=civil gen=m ambig=1 pos=adj
+conselheiro pos=s
+cons prefixo=conselheiro tipo=civil gen=m pos=s
+comendador prefixo=comendador tipo=civil gen=m ambig=1 pos=s

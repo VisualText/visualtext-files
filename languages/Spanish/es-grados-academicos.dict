@@ -1,0 +1,485 @@
+# Títulos y grados académicos en español: nombres, abreviaturas y
+# denominaciones de quien los posee.  Una línea por forma de superficie.
+# Cubre el sistema español (grado, máster, doctorado y los planes extinguidos:
+# diplomatura, licenciatura, ingeniería técnica), el latinoamericano (técnico
+# superior universitario, tecnólogo, licenciatura, ingeniería, especialización,
+# maestría / magíster, doctorado) y los títulos extranjeros más citados.
+#   titulo=       el nombre canónico del título -- en todas las entradas de un
+#                 título, de modo que las reglas se unen a
+#                 es-grados-academicos.kbb por este atributo y no por $text
+#   canonico=1    la forma es el nombre canónico    sin=1  un nombre o una
+#                 abreviatura variante
+#   abrev=        la abreviatura canónica, en la forma desarrollada
+#   completo=     la forma desarrollada, en una abreviatura (el nombre del
+#                 título, o el sustantivo de poseedor: mtra -> maestra)
+#   poseedor=1    la forma designa a quien posee el título (licenciado,
+#                 ingeniera civil, mtro)
+#   gen=m|f       género de una forma de poseedor (sin gen= si es común:
+#                 especialista, bachiller)
+#   num=p         forma plural (licenciaturas, másteres)
+#   nivel=        técnico | grado | especialización | maestría | doctorado
+#                 (los genéricos añaden posgrado y posdoctorado)
+#   area=         la materia; es un nombre canónico de es-areas-de-estudio.dict
+#   es=1          propio de España              latam=1  propio de Latinoamérica
+#   extranjero=1  título extranjero (en inglés) citado en textos en español
+#   antiguo=1     título de un plan de estudios extinguido
+#   profesional=1 habilita para una profesión regulada
+#   honorifico=1  se concede honoris causa
+#   tratamiento=1 también figura en es-tratamientos.dict como tratamiento
+#   materia=1     la forma es también una entrada de es-areas-de-estudio.dict
+#                 (ingeniería civil, arquitectura): el título y su materia
+#   ambig=1       la forma es también una palabra corriente (maestro, doctor,
+#                 grado), otra abreviatura frecuente (cp, mg) o nombra más de
+#                 un título
+#   generico=1    una palabra genérica de nivel (posgrado, pregrado,
+#                 posdoctorado), que nombra un nivel y no un título concreto y
+#                 por eso no lleva titulo=
+# Las formas con puntos (Lic., Ph.D., Dr.ª) no se listan: el tokenizador las
+# separa en varios tokens.  Las abreviaturas van sin puntos (phd, mtra).
+# Generado por python/gen_degrees_es.py; no editar a mano.
+abg poseedor=1 titulo="licenciatura en derecho" completo=abogado nivel=grado area=derecho profesional=1 tratamiento=1 pos=s
+abog poseedor=1 titulo="licenciatura en derecho" completo=abogado nivel=grado area=derecho profesional=1 tratamiento=1 pos=s
+abogada poseedor=1 titulo="licenciatura en derecho" gen=f nivel=grado area=derecho profesional=1 tratamiento=1 pos=s
+abogada pos=v
+abogado poseedor=1 titulo="licenciatura en derecho" gen=m nivel=grado area=derecho profesional=1 tratamiento=1 pos=s
+abogado pos=v
+aparejador poseedor=1 titulo="arquitectura técnica" gen=m nivel=grado area=arquitectura es=1 antiguo=1 profesional=1 ambig=1 pos=adj
+aparejador pos=s
+aparejadora poseedor=1 titulo="arquitectura técnica" gen=f nivel=grado area=arquitectura es=1 antiguo=1 profesional=1 pos=adj
+aparejadora pos=s
+arq titulo=arquitectura completo=arquitectura nivel=grado area=arquitectura profesional=1 tratamiento=1 pos=s
+arquitecta poseedor=1 titulo=arquitectura gen=f nivel=grado area=arquitectura profesional=1 tratamiento=1 pos=s
+arquitecta técnica poseedor=1 titulo="arquitectura técnica" gen=f nivel=grado area=arquitectura es=1 antiguo=1 profesional=1 pos=s
+arquitecto poseedor=1 titulo=arquitectura gen=m nivel=grado area=arquitectura profesional=1 tratamiento=1 pos=s
+arquitecto técnico poseedor=1 titulo="arquitectura técnica" gen=m nivel=grado area=arquitectura es=1 antiguo=1 profesional=1 pos=s
+arquitectura canonico=1 titulo=arquitectura abrev=arq nivel=grado area=arquitectura profesional=1 materia=1 pos=s
+arquitectura técnica canonico=1 titulo="arquitectura técnica" nivel=grado area=arquitectura es=1 antiguo=1 profesional=1 pos=s
+ba titulo="bachelor of arts" completo="bachelor of arts" nivel=grado area=humanidades extranjero=1 ambig=1 pos=s
+bach titulo="bachillerato universitario" completo="bachillerato universitario" nivel=grado latam=1 pos=s
+bachelor of arts canonico=1 titulo="bachelor of arts" abrev=ba nivel=grado area=humanidades extranjero=1 pos=s
+bachelor of business administration canonico=1 titulo="bachelor of business administration" abrev=bba nivel=grado area="administración de empresas" extranjero=1 pos=s
+bachelor of science canonico=1 titulo="bachelor of science" abrev=bsc nivel=grado area="ciencias naturales" extranjero=1 pos=s
+bachiller poseedor=1 titulo="bachillerato universitario" nivel=grado latam=1 ambig=1 pos=s
+bachillerato universitario canonico=1 titulo="bachillerato universitario" abrev=bach nivel=grado latam=1 pos=s
+bba titulo="bachelor of business administration" completo="bachelor of business administration" nivel=grado area="administración de empresas" extranjero=1 pos=s
+bsc titulo="bachelor of science" completo="bachelor of science" nivel=grado area="ciencias naturales" extranjero=1 pos=s
+ciclo formativo de grado superior sin=1 titulo="técnico superior" nivel=técnico es=1 pos=s
+cirujana dentista poseedor=1 titulo="licenciatura en odontología" gen=f nivel=grado area=odontología profesional=1 pos=s
+cirujano dentista poseedor=1 titulo="licenciatura en odontología" gen=m nivel=grado area=odontología profesional=1 pos=s
+contador público poseedor=1 titulo="licenciatura en contaduría pública" gen=m nivel=grado area=contabilidad latam=1 profesional=1 pos=s
+contadora pública poseedor=1 titulo="licenciatura en contaduría pública" gen=f nivel=grado area=contabilidad latam=1 profesional=1 pos=s
+cp poseedor=1 titulo="licenciatura en contaduría pública" completo="contador público" nivel=grado area=contabilidad latam=1 profesional=1 tratamiento=1 ambig=1 pos=s
+cpc poseedor=1 titulo="licenciatura en contaduría pública" completo="contador público colegiado" nivel=grado area=contabilidad latam=1 profesional=1 pos=s
+dea titulo="diploma de estudios avanzados" completo="diploma de estudios avanzados" nivel=maestría es=1 antiguo=1 ambig=1 pos=s
+diploma de especialización sin=1 titulo=especialización nivel=especialización pos=s
+diploma de estudios avanzados canonico=1 titulo="diploma de estudios avanzados" abrev=dea nivel=maestría es=1 antiguo=1 pos=s
+diplomada poseedor=1 titulo=diplomatura gen=f nivel=grado es=1 antiguo=1 ambig=1 pos=adj
+diplomada pos=s
+diplomado poseedor=1 titulo=diplomatura gen=m nivel=grado es=1 antiguo=1 ambig=1 pos=adj
+diplomado pos=s
+diplomatura canonico=1 titulo=diplomatura nivel=grado es=1 antiguo=1 pos=s
+diplomaturas titulo=diplomatura num=p nivel=grado es=1 antiguo=1 pos=s
+doctor poseedor=1 titulo=doctorado gen=m nivel=doctorado tratamiento=1 ambig=1 pos=s
+doctor en ciencias poseedor=1 titulo="doctorado en ciencias" gen=m nivel=doctorado area="ciencias naturales" pos=s
+doctor en derecho poseedor=1 titulo="doctorado en derecho" gen=m nivel=doctorado area=derecho pos=s
+doctor en educación poseedor=1 titulo="doctorado en educación" gen=m nivel=doctorado area=educación pos=s
+doctor en filosofía poseedor=1 titulo="doctorado en filosofía" gen=m nivel=doctorado area=filosofía pos=s
+doctor honoris causa sin=1 titulo="doctorado honoris causa" nivel=doctorado honorifico=1 pos=s
+doctor of medicine canonico=1 titulo="doctor of medicine" abrev=md nivel=doctorado area=medicina extranjero=1 profesional=1 pos=s
+doctor of philosophy canonico=1 titulo="doctor of philosophy" abrev=phd nivel=doctorado extranjero=1 pos=s
+doctora poseedor=1 titulo=doctorado gen=f nivel=doctorado tratamiento=1 ambig=1 pos=s
+doctora pos=v
+doctora en ciencias poseedor=1 titulo="doctorado en ciencias" gen=f nivel=doctorado area="ciencias naturales" pos=s
+doctora en derecho poseedor=1 titulo="doctorado en derecho" gen=f nivel=doctorado area=derecho pos=s
+doctora en educación poseedor=1 titulo="doctorado en educación" gen=f nivel=doctorado area=educación pos=s
+doctora en filosofía poseedor=1 titulo="doctorado en filosofía" gen=f nivel=doctorado area=filosofía pos=s
+doctora honoris causa sin=1 titulo="doctorado honoris causa" nivel=doctorado honorifico=1 pos=s
+doctorado canonico=1 titulo=doctorado nivel=doctorado pos=s
+doctorado pos=v
+doctorado en ciencias canonico=1 titulo="doctorado en ciencias" nivel=doctorado area="ciencias naturales" pos=s
+doctorado en derecho canonico=1 titulo="doctorado en derecho" nivel=doctorado area=derecho pos=s
+doctorado en educación canonico=1 titulo="doctorado en educación" nivel=doctorado area=educación pos=s
+doctorado en filosofía canonico=1 titulo="doctorado en filosofía" nivel=doctorado area=filosofía pos=s
+doctorado honoris causa canonico=1 titulo="doctorado honoris causa" nivel=doctorado honorifico=1 pos=s
+doctorados titulo=doctorado num=p nivel=doctorado pos=s
+doctorados pos=v
+dphil sin=1 titulo="doctor of philosophy" completo="doctor of philosophy" nivel=doctorado extranjero=1 pos=s
+dr poseedor=1 titulo=doctorado completo=doctor gen=m nivel=doctorado tratamiento=1 pos=s
+dra poseedor=1 titulo=doctorado completo=doctora gen=f nivel=doctorado tratamiento=1 pos=s
+esp titulo=especialización completo=especialización nivel=especialización ambig=1 pos=s
+especialidad sin=1 titulo=especialización nivel=especialización ambig=1 pos=s
+especialidad médica canonico=1 titulo="especialidad médica" nivel=especialización area=medicina profesional=1 pos=s
+especialidades titulo=especialización num=p nivel=especialización ambig=1 pos=s
+especialista poseedor=1 titulo=especialización nivel=especialización ambig=1 pos=adj
+especialista pos=s
+especialización canonico=1 titulo=especialización abrev=esp nivel=especialización pos=s
+especializaciones titulo=especialización num=p nivel=especialización pos=s
+formación profesional de grado superior sin=1 titulo="técnico superior" nivel=técnico es=1 pos=s
+fp de grado superior sin=1 titulo="técnico superior" nivel=técnico es=1 pos=s
+grado canonico=1 titulo=grado nivel=grado es=1 ambig=1 pos=s
+grado pos=v
+grado académico de bachiller sin=1 titulo="bachillerato universitario" nivel=grado latam=1 pos=s
+grado de bachiller sin=1 titulo="bachillerato universitario" nivel=grado latam=1 pos=s
+grado de doctor sin=1 titulo=doctorado nivel=doctorado pos=s
+grado de maestría sin=1 titulo=maestría nivel=maestría latam=1 pos=s
+grado de maestro sin=1 titulo=maestría nivel=maestría latam=1 pos=s
+grado de magíster sin=1 titulo=magíster nivel=maestría latam=1 pos=s
+grado en administración de empresas sin=1 titulo="licenciatura en administración de empresas" nivel=grado area="administración de empresas" pos=s
+grado en administración y dirección de empresas sin=1 titulo="licenciatura en administración de empresas" nivel=grado area="administración de empresas" pos=s
+grado en antropología sin=1 titulo="licenciatura en antropología" nivel=grado area=antropología pos=s
+grado en bellas artes sin=1 titulo="licenciatura en bellas artes" nivel=grado area=arte pos=s
+grado en biología sin=1 titulo="licenciatura en biología" nivel=grado area=biología pos=s
+grado en ciencia política sin=1 titulo="licenciatura en ciencia política" nivel=grado area="ciencia política" pos=s
+grado en ciencias políticas sin=1 titulo="licenciatura en ciencia política" nivel=grado area="ciencia política" pos=s
+grado en comunicación sin=1 titulo="licenciatura en comunicación" nivel=grado area=comunicación pos=s
+grado en contabilidad sin=1 titulo="licenciatura en contaduría pública" nivel=grado area=contabilidad latam=1 profesional=1 pos=s
+grado en derecho sin=1 titulo="licenciatura en derecho" nivel=grado area=derecho profesional=1 pos=s
+grado en diseño sin=1 titulo="licenciatura en diseño gráfico" nivel=grado area="diseño gráfico" pos=s
+grado en economía sin=1 titulo="licenciatura en economía" nivel=grado area=economía pos=s
+grado en educación sin=1 titulo="licenciatura en educación" nivel=grado area=educación profesional=1 pos=s
+grado en enfermería sin=1 titulo="licenciatura en enfermería" nivel=grado area=enfermería profesional=1 pos=s
+grado en farmacia sin=1 titulo="licenciatura en farmacia" nivel=grado area=farmacia profesional=1 pos=s
+grado en filología hispánica sin=1 titulo="licenciatura en letras" nivel=grado area=letras pos=s
+grado en filosofía sin=1 titulo="licenciatura en filosofía" nivel=grado area=filosofía pos=s
+grado en física sin=1 titulo="licenciatura en física" nivel=grado area=física pos=s
+grado en geografía sin=1 titulo="licenciatura en geografía" nivel=grado area=geografía pos=s
+grado en historia sin=1 titulo="licenciatura en historia" nivel=grado area=historia pos=s
+grado en informática sin=1 titulo="licenciatura en informática" nivel=grado area=informática pos=s
+grado en magisterio sin=1 titulo="licenciatura en educación" nivel=grado area=educación profesional=1 pos=s
+grado en marketing sin=1 titulo="licenciatura en mercadotecnia" nivel=grado area=mercadotecnia pos=s
+grado en matemáticas sin=1 titulo="licenciatura en matemáticas" nivel=grado area=matemáticas pos=s
+grado en medicina sin=1 titulo="licenciatura en medicina" nivel=grado area=medicina profesional=1 pos=s
+grado en música sin=1 titulo="licenciatura en música" nivel=grado area=música pos=s
+grado en nutrición humana y dietética sin=1 titulo="licenciatura en nutrición" nivel=grado area=nutrición pos=s
+grado en odontología sin=1 titulo="licenciatura en odontología" nivel=grado area=odontología profesional=1 pos=s
+grado en pedagogía sin=1 titulo="licenciatura en pedagogía" nivel=grado area=pedagogía pos=s
+grado en periodismo sin=1 titulo="licenciatura en periodismo" nivel=grado area=periodismo pos=s
+grado en psicología sin=1 titulo="licenciatura en psicología" nivel=grado area=psicología pos=s
+grado en química sin=1 titulo="licenciatura en química" nivel=grado area=química pos=s
+grado en relaciones internacionales sin=1 titulo="licenciatura en relaciones internacionales" nivel=grado area="relaciones internacionales" pos=s
+grado en sociología sin=1 titulo="licenciatura en sociología" nivel=grado area=sociología pos=s
+grado en trabajo social sin=1 titulo="licenciatura en trabajo social" nivel=grado area="trabajo social" pos=s
+grado en turismo sin=1 titulo="licenciatura en turismo" nivel=grado area=turismo pos=s
+grado en veterinaria sin=1 titulo="licenciatura en veterinaria" nivel=grado area=veterinaria profesional=1 pos=s
+grado universitario sin=1 titulo=grado nivel=grado es=1 pos=s
+grados titulo=grado num=p nivel=grado es=1 ambig=1 pos=s
+graduada poseedor=1 titulo=grado gen=f nivel=grado es=1 ambig=1 pos=s
+graduada pos=v
+graduada universitaria poseedor=1 titulo=grado gen=f nivel=grado es=1 pos=s
+graduado poseedor=1 titulo=grado gen=m nivel=grado es=1 ambig=1 pos=s
+graduado pos=v
+graduado universitario poseedor=1 titulo=grado gen=m nivel=grado es=1 pos=s
+honoris causa sin=1 titulo="doctorado honoris causa" nivel=doctorado honorifico=1 ambig=1 pos=s
+ing titulo=ingeniería completo=ingeniería nivel=grado area=ingeniería profesional=1 tratamiento=1 pos=s
+ingeniera poseedor=1 titulo=ingeniería gen=f nivel=grado area=ingeniería profesional=1 tratamiento=1 pos=s
+ingeniera aeroespacial poseedor=1 titulo="ingeniería aeroespacial" gen=f nivel=grado area="ingeniería aeroespacial" profesional=1 pos=s
+ingeniera aeronáutica poseedor=1 titulo="ingeniería aeroespacial" gen=f nivel=grado area="ingeniería aeroespacial" profesional=1 pos=s
+ingeniera agrónoma poseedor=1 titulo="ingeniería agronómica" gen=f nivel=grado area=agronomía profesional=1 pos=s
+ingeniera ambiental poseedor=1 titulo="ingeniería ambiental" gen=f nivel=grado area="ingeniería ambiental" pos=s
+ingeniera biomédica poseedor=1 titulo="ingeniería biomédica" gen=f nivel=grado area="ingeniería biomédica" pos=s
+ingeniera civil poseedor=1 titulo="ingeniería civil" gen=f nivel=grado area="ingeniería civil" profesional=1 pos=s
+ingeniera de caminos poseedor=1 titulo="ingeniería civil" gen=f nivel=grado area="ingeniería civil" profesional=1 pos=s
+ingeniera de minas poseedor=1 titulo="ingeniería de minas" gen=f nivel=grado area="ingeniería de minas" profesional=1 pos=s
+ingeniera de montes poseedor=1 titulo="ingeniería forestal" gen=f nivel=grado area="ingeniería forestal" profesional=1 pos=s
+ingeniera de sistemas poseedor=1 titulo="ingeniería de sistemas" gen=f nivel=grado area="ingeniería de sistemas" pos=s
+ingeniera de software poseedor=1 titulo="ingeniería de software" gen=f nivel=grado area="ingeniería de software" pos=s
+ingeniera de telecomunicaciones poseedor=1 titulo="ingeniería de telecomunicaciones" gen=f nivel=grado area="ingeniería de telecomunicaciones" profesional=1 pos=s
+ingeniera electricista poseedor=1 titulo="ingeniería eléctrica" gen=f nivel=grado area="ingeniería eléctrica" profesional=1 pos=s
+ingeniera electrónica poseedor=1 titulo="ingeniería electrónica" gen=f nivel=grado area="ingeniería electrónica" profesional=1 pos=s
+ingeniera en alimentos poseedor=1 titulo="ingeniería de alimentos" gen=f nivel=grado area="ciencia de los alimentos" pos=s
+ingeniera en computación poseedor=1 titulo="ingeniería informática" gen=f nivel=grado area="ingeniería informática" pos=s
+ingeniera en sistemas poseedor=1 titulo="ingeniería de sistemas" gen=f nivel=grado area="ingeniería de sistemas" pos=s
+ingeniera en telecomunicaciones poseedor=1 titulo="ingeniería de telecomunicaciones" gen=f nivel=grado area="ingeniería de telecomunicaciones" profesional=1 pos=s
+ingeniera forestal poseedor=1 titulo="ingeniería forestal" gen=f nivel=grado area="ingeniería forestal" profesional=1 pos=s
+ingeniera industrial poseedor=1 titulo="ingeniería industrial" gen=f nivel=grado area="ingeniería industrial" profesional=1 pos=s
+ingeniera informática poseedor=1 titulo="ingeniería informática" gen=f nivel=grado area="ingeniería informática" pos=s
+ingeniera mecánica poseedor=1 titulo="ingeniería mecánica" gen=f nivel=grado area="ingeniería mecánica" profesional=1 pos=s
+ingeniera petrolera poseedor=1 titulo="ingeniería petrolera" gen=f nivel=grado area="ingeniería petrolera" pos=s
+ingeniera química poseedor=1 titulo="ingeniería química" gen=f nivel=grado area="ingeniería química" profesional=1 pos=s
+ingeniera técnica poseedor=1 titulo="ingeniería técnica" gen=f nivel=grado area=ingeniería es=1 antiguo=1 profesional=1 pos=s
+ingeniería canonico=1 titulo=ingeniería abrev=ing nivel=grado area=ingeniería profesional=1 materia=1 pos=s
+ingeniería aeroespacial canonico=1 titulo="ingeniería aeroespacial" nivel=grado area="ingeniería aeroespacial" profesional=1 materia=1 pos=s
+ingeniería aeronáutica sin=1 titulo="ingeniería aeroespacial" nivel=grado area="ingeniería aeroespacial" profesional=1 materia=1 pos=s
+ingeniería agrícola sin=1 titulo="ingeniería agronómica" nivel=grado area=agronomía profesional=1 materia=1 pos=s
+ingeniería agronómica canonico=1 titulo="ingeniería agronómica" nivel=grado area=agronomía profesional=1 materia=1 pos=s
+ingeniería ambiental canonico=1 titulo="ingeniería ambiental" nivel=grado area="ingeniería ambiental" materia=1 pos=s
+ingeniería biomédica canonico=1 titulo="ingeniería biomédica" nivel=grado area="ingeniería biomédica" materia=1 pos=s
+ingeniería civil canonico=1 titulo="ingeniería civil" nivel=grado area="ingeniería civil" profesional=1 materia=1 pos=s
+ingeniería de alimentos canonico=1 titulo="ingeniería de alimentos" nivel=grado area="ciencia de los alimentos" materia=1 pos=s
+ingeniería de caminos sin=1 titulo="ingeniería civil" nivel=grado area="ingeniería civil" profesional=1 materia=1 pos=s
+ingeniería de minas canonico=1 titulo="ingeniería de minas" nivel=grado area="ingeniería de minas" profesional=1 materia=1 pos=s
+ingeniería de montes sin=1 titulo="ingeniería forestal" nivel=grado area="ingeniería forestal" profesional=1 pos=s
+ingeniería de petróleos sin=1 titulo="ingeniería petrolera" nivel=grado area="ingeniería petrolera" materia=1 pos=s
+ingeniería de sistemas canonico=1 titulo="ingeniería de sistemas" nivel=grado area="ingeniería de sistemas" materia=1 pos=s
+ingeniería de software canonico=1 titulo="ingeniería de software" nivel=grado area="ingeniería de software" materia=1 pos=s
+ingeniería de telecomunicaciones canonico=1 titulo="ingeniería de telecomunicaciones" nivel=grado area="ingeniería de telecomunicaciones" profesional=1 materia=1 pos=s
+ingeniería eléctrica canonico=1 titulo="ingeniería eléctrica" nivel=grado area="ingeniería eléctrica" profesional=1 materia=1 pos=s
+ingeniería electrónica canonico=1 titulo="ingeniería electrónica" nivel=grado area="ingeniería electrónica" profesional=1 materia=1 pos=s
+ingeniería en computación sin=1 titulo="ingeniería informática" nivel=grado area="ingeniería informática" materia=1 pos=s
+ingeniería forestal canonico=1 titulo="ingeniería forestal" nivel=grado area="ingeniería forestal" profesional=1 materia=1 pos=s
+ingeniería industrial canonico=1 titulo="ingeniería industrial" nivel=grado area="ingeniería industrial" profesional=1 materia=1 pos=s
+ingeniería informática canonico=1 titulo="ingeniería informática" nivel=grado area="ingeniería informática" materia=1 pos=s
+ingeniería mecánica canonico=1 titulo="ingeniería mecánica" nivel=grado area="ingeniería mecánica" profesional=1 materia=1 pos=s
+ingeniería petrolera canonico=1 titulo="ingeniería petrolera" nivel=grado area="ingeniería petrolera" materia=1 pos=s
+ingeniería química canonico=1 titulo="ingeniería química" nivel=grado area="ingeniería química" profesional=1 materia=1 pos=s
+ingeniería técnica canonico=1 titulo="ingeniería técnica" nivel=grado area=ingeniería es=1 antiguo=1 profesional=1 pos=s
+ingenierías titulo=ingeniería num=p nivel=grado area=ingeniería profesional=1 pos=s
+ingeniero poseedor=1 titulo=ingeniería gen=m nivel=grado area=ingeniería profesional=1 tratamiento=1 pos=s
+ingeniero aeroespacial poseedor=1 titulo="ingeniería aeroespacial" gen=m nivel=grado area="ingeniería aeroespacial" profesional=1 pos=s
+ingeniero aeronáutico poseedor=1 titulo="ingeniería aeroespacial" gen=m nivel=grado area="ingeniería aeroespacial" profesional=1 pos=s
+ingeniero agrónomo poseedor=1 titulo="ingeniería agronómica" gen=m nivel=grado area=agronomía profesional=1 pos=s
+ingeniero ambiental poseedor=1 titulo="ingeniería ambiental" gen=m nivel=grado area="ingeniería ambiental" pos=s
+ingeniero biomédico poseedor=1 titulo="ingeniería biomédica" gen=m nivel=grado area="ingeniería biomédica" pos=s
+ingeniero civil poseedor=1 titulo="ingeniería civil" gen=m nivel=grado area="ingeniería civil" profesional=1 pos=s
+ingeniero de caminos poseedor=1 titulo="ingeniería civil" gen=m nivel=grado area="ingeniería civil" profesional=1 pos=s
+ingeniero de minas poseedor=1 titulo="ingeniería de minas" gen=m nivel=grado area="ingeniería de minas" profesional=1 pos=s
+ingeniero de montes poseedor=1 titulo="ingeniería forestal" gen=m nivel=grado area="ingeniería forestal" profesional=1 pos=s
+ingeniero de sistemas poseedor=1 titulo="ingeniería de sistemas" gen=m nivel=grado area="ingeniería de sistemas" pos=s
+ingeniero de software poseedor=1 titulo="ingeniería de software" gen=m nivel=grado area="ingeniería de software" pos=s
+ingeniero de telecomunicaciones poseedor=1 titulo="ingeniería de telecomunicaciones" gen=m nivel=grado area="ingeniería de telecomunicaciones" profesional=1 pos=s
+ingeniero electricista poseedor=1 titulo="ingeniería eléctrica" gen=m nivel=grado area="ingeniería eléctrica" profesional=1 pos=s
+ingeniero electrónico poseedor=1 titulo="ingeniería electrónica" gen=m nivel=grado area="ingeniería electrónica" profesional=1 pos=s
+ingeniero en alimentos poseedor=1 titulo="ingeniería de alimentos" gen=m nivel=grado area="ciencia de los alimentos" pos=s
+ingeniero en computación poseedor=1 titulo="ingeniería informática" gen=m nivel=grado area="ingeniería informática" pos=s
+ingeniero en sistemas poseedor=1 titulo="ingeniería de sistemas" gen=m nivel=grado area="ingeniería de sistemas" pos=s
+ingeniero en telecomunicaciones poseedor=1 titulo="ingeniería de telecomunicaciones" gen=m nivel=grado area="ingeniería de telecomunicaciones" profesional=1 pos=s
+ingeniero forestal poseedor=1 titulo="ingeniería forestal" gen=m nivel=grado area="ingeniería forestal" profesional=1 pos=s
+ingeniero industrial poseedor=1 titulo="ingeniería industrial" gen=m nivel=grado area="ingeniería industrial" profesional=1 pos=s
+ingeniero informático poseedor=1 titulo="ingeniería informática" gen=m nivel=grado area="ingeniería informática" pos=s
+ingeniero mecánico poseedor=1 titulo="ingeniería mecánica" gen=m nivel=grado area="ingeniería mecánica" profesional=1 pos=s
+ingeniero petrolero poseedor=1 titulo="ingeniería petrolera" gen=m nivel=grado area="ingeniería petrolera" pos=s
+ingeniero químico poseedor=1 titulo="ingeniería química" gen=m nivel=grado area="ingeniería química" profesional=1 pos=s
+ingeniero técnico poseedor=1 titulo="ingeniería técnica" gen=m nivel=grado area=ingeniería es=1 antiguo=1 profesional=1 pos=s
+jd titulo="juris doctor" completo="juris doctor" nivel=doctorado area=derecho extranjero=1 profesional=1 pos=s
+juris doctor canonico=1 titulo="juris doctor" abrev=jd nivel=doctorado area=derecho extranjero=1 profesional=1 pos=s
+lcda poseedor=1 titulo=licenciatura completo=licenciada gen=f nivel=grado tratamiento=1 pos=s
+lcdo poseedor=1 titulo=licenciatura completo=licenciado gen=m nivel=grado tratamiento=1 pos=s
+lda poseedor=1 titulo=licenciatura completo=licenciada gen=f nivel=grado tratamiento=1 pos=s
+ldo poseedor=1 titulo=licenciatura completo=licenciado gen=m nivel=grado tratamiento=1 pos=s
+lic titulo=licenciatura completo=licenciatura nivel=grado tratamiento=1 pos=s
+licda poseedor=1 titulo=licenciatura completo=licenciada gen=f nivel=grado tratamiento=1 pos=s
+licdo poseedor=1 titulo=licenciatura completo=licenciado gen=m nivel=grado tratamiento=1 pos=s
+licenciada poseedor=1 titulo=licenciatura gen=f nivel=grado tratamiento=1 pos=s
+licenciada pos=v
+licenciada en administración de empresas poseedor=1 titulo="licenciatura en administración de empresas" gen=f nivel=grado area="administración de empresas" pos=s
+licenciada en antropología poseedor=1 titulo="licenciatura en antropología" gen=f nivel=grado area=antropología pos=s
+licenciada en bellas artes poseedor=1 titulo="licenciatura en bellas artes" gen=f nivel=grado area=arte pos=s
+licenciada en biología poseedor=1 titulo="licenciatura en biología" gen=f nivel=grado area=biología pos=s
+licenciada en ciencia política poseedor=1 titulo="licenciatura en ciencia política" gen=f nivel=grado area="ciencia política" pos=s
+licenciada en comunicación poseedor=1 titulo="licenciatura en comunicación" gen=f nivel=grado area=comunicación pos=s
+licenciada en derecho poseedor=1 titulo="licenciatura en derecho" gen=f nivel=grado area=derecho profesional=1 pos=s
+licenciada en diseño gráfico poseedor=1 titulo="licenciatura en diseño gráfico" gen=f nivel=grado area="diseño gráfico" pos=s
+licenciada en economía poseedor=1 titulo="licenciatura en economía" gen=f nivel=grado area=economía pos=s
+licenciada en educación poseedor=1 titulo="licenciatura en educación" gen=f nivel=grado area=educación profesional=1 pos=s
+licenciada en enfermería poseedor=1 titulo="licenciatura en enfermería" gen=f nivel=grado area=enfermería profesional=1 pos=s
+licenciada en filosofía poseedor=1 titulo="licenciatura en filosofía" gen=f nivel=grado area=filosofía pos=s
+licenciada en física poseedor=1 titulo="licenciatura en física" gen=f nivel=grado area=física pos=s
+licenciada en geografía poseedor=1 titulo="licenciatura en geografía" gen=f nivel=grado area=geografía pos=s
+licenciada en historia poseedor=1 titulo="licenciatura en historia" gen=f nivel=grado area=historia pos=s
+licenciada en informática poseedor=1 titulo="licenciatura en informática" gen=f nivel=grado area=informática pos=s
+licenciada en letras poseedor=1 titulo="licenciatura en letras" gen=f nivel=grado area=letras pos=s
+licenciada en matemáticas poseedor=1 titulo="licenciatura en matemáticas" gen=f nivel=grado area=matemáticas pos=s
+licenciada en mercadotecnia poseedor=1 titulo="licenciatura en mercadotecnia" gen=f nivel=grado area=mercadotecnia pos=s
+licenciada en música poseedor=1 titulo="licenciatura en música" gen=f nivel=grado area=música pos=s
+licenciada en nutrición poseedor=1 titulo="licenciatura en nutrición" gen=f nivel=grado area=nutrición pos=s
+licenciada en pedagogía poseedor=1 titulo="licenciatura en pedagogía" gen=f nivel=grado area=pedagogía pos=s
+licenciada en periodismo poseedor=1 titulo="licenciatura en periodismo" gen=f nivel=grado area=periodismo pos=s
+licenciada en psicología poseedor=1 titulo="licenciatura en psicología" gen=f nivel=grado area=psicología pos=s
+licenciada en química poseedor=1 titulo="licenciatura en química" gen=f nivel=grado area=química pos=s
+licenciada en relaciones internacionales poseedor=1 titulo="licenciatura en relaciones internacionales" gen=f nivel=grado area="relaciones internacionales" pos=s
+licenciada en sociología poseedor=1 titulo="licenciatura en sociología" gen=f nivel=grado area=sociología pos=s
+licenciada en trabajo social poseedor=1 titulo="licenciatura en trabajo social" gen=f nivel=grado area="trabajo social" pos=s
+licenciada en turismo poseedor=1 titulo="licenciatura en turismo" gen=f nivel=grado area=turismo pos=s
+licenciado poseedor=1 titulo=licenciatura gen=m nivel=grado tratamiento=1 pos=s
+licenciado pos=v
+licenciado en administración de empresas poseedor=1 titulo="licenciatura en administración de empresas" gen=m nivel=grado area="administración de empresas" pos=s
+licenciado en antropología poseedor=1 titulo="licenciatura en antropología" gen=m nivel=grado area=antropología pos=s
+licenciado en bellas artes poseedor=1 titulo="licenciatura en bellas artes" gen=m nivel=grado area=arte pos=s
+licenciado en biología poseedor=1 titulo="licenciatura en biología" gen=m nivel=grado area=biología pos=s
+licenciado en ciencia política poseedor=1 titulo="licenciatura en ciencia política" gen=m nivel=grado area="ciencia política" pos=s
+licenciado en comunicación poseedor=1 titulo="licenciatura en comunicación" gen=m nivel=grado area=comunicación pos=s
+licenciado en derecho poseedor=1 titulo="licenciatura en derecho" gen=m nivel=grado area=derecho profesional=1 pos=s
+licenciado en diseño gráfico poseedor=1 titulo="licenciatura en diseño gráfico" gen=m nivel=grado area="diseño gráfico" pos=s
+licenciado en economía poseedor=1 titulo="licenciatura en economía" gen=m nivel=grado area=economía pos=s
+licenciado en educación poseedor=1 titulo="licenciatura en educación" gen=m nivel=grado area=educación profesional=1 pos=s
+licenciado en enfermería poseedor=1 titulo="licenciatura en enfermería" gen=m nivel=grado area=enfermería profesional=1 pos=s
+licenciado en filosofía poseedor=1 titulo="licenciatura en filosofía" gen=m nivel=grado area=filosofía pos=s
+licenciado en física poseedor=1 titulo="licenciatura en física" gen=m nivel=grado area=física pos=s
+licenciado en geografía poseedor=1 titulo="licenciatura en geografía" gen=m nivel=grado area=geografía pos=s
+licenciado en historia poseedor=1 titulo="licenciatura en historia" gen=m nivel=grado area=historia pos=s
+licenciado en informática poseedor=1 titulo="licenciatura en informática" gen=m nivel=grado area=informática pos=s
+licenciado en letras poseedor=1 titulo="licenciatura en letras" gen=m nivel=grado area=letras pos=s
+licenciado en matemáticas poseedor=1 titulo="licenciatura en matemáticas" gen=m nivel=grado area=matemáticas pos=s
+licenciado en mercadotecnia poseedor=1 titulo="licenciatura en mercadotecnia" gen=m nivel=grado area=mercadotecnia pos=s
+licenciado en música poseedor=1 titulo="licenciatura en música" gen=m nivel=grado area=música pos=s
+licenciado en nutrición poseedor=1 titulo="licenciatura en nutrición" gen=m nivel=grado area=nutrición pos=s
+licenciado en pedagogía poseedor=1 titulo="licenciatura en pedagogía" gen=m nivel=grado area=pedagogía pos=s
+licenciado en periodismo poseedor=1 titulo="licenciatura en periodismo" gen=m nivel=grado area=periodismo pos=s
+licenciado en psicología poseedor=1 titulo="licenciatura en psicología" gen=m nivel=grado area=psicología pos=s
+licenciado en química poseedor=1 titulo="licenciatura en química" gen=m nivel=grado area=química pos=s
+licenciado en relaciones internacionales poseedor=1 titulo="licenciatura en relaciones internacionales" gen=m nivel=grado area="relaciones internacionales" pos=s
+licenciado en sociología poseedor=1 titulo="licenciatura en sociología" gen=m nivel=grado area=sociología pos=s
+licenciado en trabajo social poseedor=1 titulo="licenciatura en trabajo social" gen=m nivel=grado area="trabajo social" pos=s
+licenciado en turismo poseedor=1 titulo="licenciatura en turismo" gen=m nivel=grado area=turismo pos=s
+licenciatura canonico=1 titulo=licenciatura abrev=lic nivel=grado pos=s
+licenciatura en administración sin=1 titulo="licenciatura en administración de empresas" nivel=grado area="administración de empresas" pos=s
+licenciatura en administración de empresas canonico=1 titulo="licenciatura en administración de empresas" nivel=grado area="administración de empresas" pos=s
+licenciatura en antropología canonico=1 titulo="licenciatura en antropología" nivel=grado area=antropología pos=s
+licenciatura en artes visuales sin=1 titulo="licenciatura en bellas artes" nivel=grado area=arte pos=s
+licenciatura en bellas artes canonico=1 titulo="licenciatura en bellas artes" nivel=grado area=arte pos=s
+licenciatura en biología canonico=1 titulo="licenciatura en biología" nivel=grado area=biología pos=s
+licenciatura en ciencia política canonico=1 titulo="licenciatura en ciencia política" nivel=grado area="ciencia política" pos=s
+licenciatura en ciencias de la computación sin=1 titulo="licenciatura en informática" nivel=grado area=informática pos=s
+licenciatura en ciencias de la comunicación sin=1 titulo="licenciatura en comunicación" nivel=grado area=comunicación pos=s
+licenciatura en ciencias políticas sin=1 titulo="licenciatura en ciencia política" nivel=grado area="ciencia política" pos=s
+licenciatura en comunicación canonico=1 titulo="licenciatura en comunicación" nivel=grado area=comunicación pos=s
+licenciatura en contabilidad sin=1 titulo="licenciatura en contaduría pública" nivel=grado area=contabilidad latam=1 profesional=1 pos=s
+licenciatura en contaduría sin=1 titulo="licenciatura en contaduría pública" nivel=grado area=contabilidad latam=1 profesional=1 pos=s
+licenciatura en contaduría pública canonico=1 titulo="licenciatura en contaduría pública" nivel=grado area=contabilidad latam=1 profesional=1 pos=s
+licenciatura en derecho canonico=1 titulo="licenciatura en derecho" nivel=grado area=derecho profesional=1 pos=s
+licenciatura en diseño gráfico canonico=1 titulo="licenciatura en diseño gráfico" nivel=grado area="diseño gráfico" pos=s
+licenciatura en economía canonico=1 titulo="licenciatura en economía" nivel=grado area=economía pos=s
+licenciatura en educación canonico=1 titulo="licenciatura en educación" nivel=grado area=educación profesional=1 pos=s
+licenciatura en enfermería canonico=1 titulo="licenciatura en enfermería" nivel=grado area=enfermería profesional=1 pos=s
+licenciatura en farmacia canonico=1 titulo="licenciatura en farmacia" nivel=grado area=farmacia profesional=1 pos=s
+licenciatura en filología hispánica sin=1 titulo="licenciatura en letras" nivel=grado area=letras pos=s
+licenciatura en filosofía canonico=1 titulo="licenciatura en filosofía" nivel=grado area=filosofía pos=s
+licenciatura en física canonico=1 titulo="licenciatura en física" nivel=grado area=física pos=s
+licenciatura en geografía canonico=1 titulo="licenciatura en geografía" nivel=grado area=geografía pos=s
+licenciatura en historia canonico=1 titulo="licenciatura en historia" nivel=grado area=historia pos=s
+licenciatura en informática canonico=1 titulo="licenciatura en informática" nivel=grado area=informática pos=s
+licenciatura en letras canonico=1 titulo="licenciatura en letras" nivel=grado area=letras pos=s
+licenciatura en letras hispánicas sin=1 titulo="licenciatura en letras" nivel=grado area=letras pos=s
+licenciatura en marketing sin=1 titulo="licenciatura en mercadotecnia" nivel=grado area=mercadotecnia pos=s
+licenciatura en matemáticas canonico=1 titulo="licenciatura en matemáticas" nivel=grado area=matemáticas pos=s
+licenciatura en medicina canonico=1 titulo="licenciatura en medicina" nivel=grado area=medicina profesional=1 pos=s
+licenciatura en medicina y cirugía sin=1 titulo="licenciatura en medicina" nivel=grado area=medicina profesional=1 pos=s
+licenciatura en mercadotecnia canonico=1 titulo="licenciatura en mercadotecnia" nivel=grado area=mercadotecnia pos=s
+licenciatura en música canonico=1 titulo="licenciatura en música" nivel=grado area=música pos=s
+licenciatura en nutrición canonico=1 titulo="licenciatura en nutrición" nivel=grado area=nutrición pos=s
+licenciatura en odontología canonico=1 titulo="licenciatura en odontología" nivel=grado area=odontología profesional=1 pos=s
+licenciatura en pedagogía canonico=1 titulo="licenciatura en pedagogía" nivel=grado area=pedagogía pos=s
+licenciatura en periodismo canonico=1 titulo="licenciatura en periodismo" nivel=grado area=periodismo pos=s
+licenciatura en psicología canonico=1 titulo="licenciatura en psicología" nivel=grado area=psicología pos=s
+licenciatura en química canonico=1 titulo="licenciatura en química" nivel=grado area=química pos=s
+licenciatura en química farmacéutica sin=1 titulo="licenciatura en farmacia" nivel=grado area=farmacia profesional=1 pos=s
+licenciatura en relaciones internacionales canonico=1 titulo="licenciatura en relaciones internacionales" nivel=grado area="relaciones internacionales" pos=s
+licenciatura en sociología canonico=1 titulo="licenciatura en sociología" nivel=grado area=sociología pos=s
+licenciatura en trabajo social canonico=1 titulo="licenciatura en trabajo social" nivel=grado area="trabajo social" pos=s
+licenciatura en turismo canonico=1 titulo="licenciatura en turismo" nivel=grado area=turismo pos=s
+licenciatura en veterinaria canonico=1 titulo="licenciatura en veterinaria" nivel=grado area=veterinaria profesional=1 pos=s
+licenciaturas titulo=licenciatura num=p nivel=grado pos=s
+llm titulo="master of laws" completo="master of laws" nivel=maestría area=derecho extranjero=1 pos=s
+ma titulo="master of arts" completo="master of arts" nivel=maestría area=humanidades extranjero=1 ambig=1 pos=s
+maestra poseedor=1 titulo=maestría gen=f nivel=maestría latam=1 tratamiento=1 ambig=1 pos=adj
+maestra pos=s
+maestra en ciencias poseedor=1 titulo="maestría en ciencias" gen=f nivel=maestría area="ciencias naturales" latam=1 pos=s
+maestra en derecho poseedor=1 titulo="maestría en derecho" gen=f nivel=maestría area=derecho pos=s
+maestra en educación poseedor=1 titulo="maestría en educación" gen=f nivel=maestría area=educación pos=s
+maestría canonico=1 titulo=maestría nivel=maestría latam=1 pos=s
+maestría en administración de empresas canonico=1 titulo="maestría en administración de empresas" abrev=mba nivel=maestría area="administración de empresas" pos=s
+maestría en administración de negocios sin=1 titulo="maestría en administración de empresas" nivel=maestría area="administración de empresas" pos=s
+maestría en ciencias canonico=1 titulo="maestría en ciencias" nivel=maestría area="ciencias naturales" latam=1 pos=s
+maestría en derecho canonico=1 titulo="maestría en derecho" nivel=maestría area=derecho pos=s
+maestría en educación canonico=1 titulo="maestría en educación" nivel=maestría area=educación pos=s
+maestría en finanzas canonico=1 titulo="maestría en finanzas" nivel=maestría area=finanzas pos=s
+maestría en salud pública canonico=1 titulo="maestría en salud pública" nivel=maestría area="salud pública" pos=s
+maestrías titulo=maestría num=p nivel=maestría latam=1 pos=s
+maestro poseedor=1 titulo=maestría gen=m nivel=maestría latam=1 tratamiento=1 ambig=1 pos=adj
+maestro pos=s
+maestro en ciencias poseedor=1 titulo="maestría en ciencias" gen=m nivel=maestría area="ciencias naturales" latam=1 pos=s
+maestro en derecho poseedor=1 titulo="maestría en derecho" gen=m nivel=maestría area=derecho pos=s
+maestro en educación poseedor=1 titulo="maestría en educación" gen=m nivel=maestría area=educación pos=s
+mag sin=1 titulo=magíster completo=magíster nivel=maestría latam=1 pos=s
+magister sin=1 titulo=magíster nivel=maestría latam=1 ambig=1 pos=s
+magíster canonico=1 titulo=magíster abrev=mg nivel=maestría latam=1 pos=s
+master sin=1 titulo=máster nivel=maestría es=1 ambig=1 pos=s
+máster canonico=1 titulo=máster nivel=maestría es=1 pos=s
+máster de abogacía sin=1 titulo="máster de acceso a la abogacía" nivel=maestría area=derecho es=1 profesional=1 pos=s
+máster de acceso a la abogacía canonico=1 titulo="máster de acceso a la abogacía" nivel=maestría area=derecho es=1 profesional=1 pos=s
+máster de profesorado sin=1 titulo="máster en formación del profesorado" nivel=maestría area=educación es=1 profesional=1 pos=s
+máster del profesorado sin=1 titulo="máster en formación del profesorado" nivel=maestría area=educación es=1 profesional=1 pos=s
+máster en abogacía sin=1 titulo="máster de acceso a la abogacía" nivel=maestría area=derecho es=1 profesional=1 pos=s
+máster en administración de empresas sin=1 titulo="maestría en administración de empresas" nivel=maestría area="administración de empresas" pos=s
+máster en administración y dirección de empresas sin=1 titulo="maestría en administración de empresas" nivel=maestría area="administración de empresas" pos=s
+máster en ciencias sin=1 titulo="maestría en ciencias" nivel=maestría area="ciencias naturales" latam=1 pos=s
+máster en derecho sin=1 titulo="maestría en derecho" nivel=maestría area=derecho pos=s
+máster en educación sin=1 titulo="maestría en educación" nivel=maestría area=educación pos=s
+máster en finanzas sin=1 titulo="maestría en finanzas" nivel=maestría area=finanzas pos=s
+máster en formación del profesorado canonico=1 titulo="máster en formación del profesorado" nivel=maestría area=educación es=1 profesional=1 pos=s
+máster en profesorado sin=1 titulo="máster en formación del profesorado" nivel=maestría area=educación es=1 profesional=1 pos=s
+máster en salud pública sin=1 titulo="maestría en salud pública" nivel=maestría area="salud pública" pos=s
+master of arts canonico=1 titulo="master of arts" abrev=ma nivel=maestría area=humanidades extranjero=1 pos=s
+master of business administration sin=1 titulo="maestría en administración de empresas" nivel=maestría area="administración de empresas" pos=s
+master of laws canonico=1 titulo="master of laws" abrev=llm nivel=maestría area=derecho extranjero=1 pos=s
+master of philosophy canonico=1 titulo="master of philosophy" abrev=mphil nivel=maestría extranjero=1 pos=s
+master of science canonico=1 titulo="master of science" abrev=msc nivel=maestría area="ciencias naturales" extranjero=1 pos=s
+máster oficial sin=1 titulo=máster nivel=maestría es=1 pos=s
+máster universitario sin=1 titulo=máster nivel=maestría es=1 pos=s
+másteres titulo=máster num=p nivel=maestría es=1 pos=s
+masters titulo=máster num=p nivel=maestría es=1 ambig=1 pos=s
+mba titulo="maestría en administración de empresas" completo="maestría en administración de empresas" nivel=maestría area="administración de empresas" tratamiento=1 pos=s
+md titulo="doctor of medicine" completo="doctor of medicine" nivel=doctorado area=medicina extranjero=1 profesional=1 tratamiento=1 pos=s
+médica poseedor=1 titulo="licenciatura en medicina" gen=f nivel=grado area=medicina profesional=1 materia=1 ambig=1 pos=adj
+médica pos=s
+médica cirujana poseedor=1 titulo="licenciatura en medicina" gen=f nivel=grado area=medicina profesional=1 pos=s
+médica especialista poseedor=1 titulo="especialidad médica" gen=f nivel=especialización area=medicina profesional=1 pos=s
+médica veterinaria poseedor=1 titulo="licenciatura en veterinaria" gen=f nivel=grado area=veterinaria profesional=1 pos=s
+médico poseedor=1 titulo="licenciatura en medicina" gen=m nivel=grado area=medicina profesional=1 materia=1 ambig=1 pos=adj
+médico pos=s
+médico cirujano poseedor=1 titulo="licenciatura en medicina" gen=m nivel=grado area=medicina profesional=1 pos=s
+médico especialista poseedor=1 titulo="especialidad médica" gen=m nivel=especialización area=medicina profesional=1 pos=s
+médico veterinario poseedor=1 titulo="licenciatura en veterinaria" gen=m nivel=grado area=veterinaria profesional=1 pos=s
+médico veterinario zootecnista poseedor=1 titulo="licenciatura en veterinaria" gen=m nivel=grado area=veterinaria profesional=1 pos=s
+mg titulo=magíster completo=magíster nivel=maestría latam=1 ambig=1 pos=s
+mphil titulo="master of philosophy" completo="master of philosophy" nivel=maestría extranjero=1 pos=s
+msc titulo="master of science" completo="master of science" nivel=maestría area="ciencias naturales" extranjero=1 tratamiento=1 pos=s
+mtra poseedor=1 titulo=maestría completo=maestra gen=f nivel=maestría latam=1 tratamiento=1 pos=s
+mtro poseedor=1 titulo=maestría completo=maestro gen=m nivel=maestría latam=1 tratamiento=1 pos=s
+mvz poseedor=1 titulo="licenciatura en veterinaria" completo="médico veterinario zootecnista" nivel=grado area=veterinaria profesional=1 tratamiento=1 pos=s
+odontóloga poseedor=1 titulo="licenciatura en odontología" gen=f nivel=grado area=odontología profesional=1 pos=s
+odontólogo poseedor=1 titulo="licenciatura en odontología" gen=m nivel=grado area=odontología profesional=1 pos=s
+phd titulo="doctor of philosophy" completo="doctor of philosophy" nivel=doctorado extranjero=1 tratamiento=1 pos=s
+philosophiae doctor sin=1 titulo="doctor of philosophy" nivel=doctorado extranjero=1 pos=s
+posdoc generico=1 nivel=posdoctorado pos=s
+posdoctorado generico=1 nivel=posdoctorado pos=s
+posdoctoral generico=1 nivel=posdoctorado pos=s
+posgrado generico=1 nivel=posgrado pos=s
+posgrados generico=1 nivel=posgrado num=p pos=s
+postdoc generico=1 nivel=posdoctorado pos=s
+postdoctorado generico=1 nivel=posdoctorado pos=s
+postdoctoral generico=1 nivel=posdoctorado pos=adj
+postgrado generico=1 nivel=posgrado pos=s
+postgrados generico=1 nivel=posgrado num=p pos=s
+pregrado generico=1 nivel=grado pos=s
+profesorado canonico=1 titulo=profesorado nivel=técnico area=educación latam=1 ambig=1 pos=s
+qfb poseedor=1 titulo="licenciatura en farmacia" completo="químico farmacéutico biólogo" nivel=grado area=farmacia profesional=1 pos=s
+química farmacéutica poseedor=1 titulo="licenciatura en farmacia" gen=f nivel=grado area=farmacia profesional=1 materia=1 pos=s
+químico farmacéutico poseedor=1 titulo="licenciatura en farmacia" gen=m nivel=grado area=farmacia profesional=1 pos=s
+químico farmacéutico biólogo poseedor=1 titulo="licenciatura en farmacia" gen=m nivel=grado area=farmacia profesional=1 pos=s
+residencia médica sin=1 titulo="especialidad médica" nivel=especialización area=medicina profesional=1 pos=s
+suficiencia investigadora sin=1 titulo="diploma de estudios avanzados" nivel=maestría es=1 antiguo=1 pos=s
+técnica superior poseedor=1 titulo="técnico superior" gen=f nivel=técnico es=1 pos=s
+técnica superior universitaria poseedor=1 titulo="técnico superior universitario" gen=f nivel=técnico latam=1 pos=s
+técnica universitaria poseedor=1 titulo="técnico universitario" gen=f nivel=técnico latam=1 pos=s
+técnico superior canonico=1 titulo="técnico superior" nivel=técnico es=1 pos=s
+técnico superior universitario canonico=1 titulo="técnico superior universitario" abrev=tsu nivel=técnico latam=1 pos=s
+técnico universitario canonico=1 titulo="técnico universitario" nivel=técnico latam=1 pos=s
+tecnóloga poseedor=1 titulo=tecnólogo gen=f nivel=técnico latam=1 pos=s
+tecnólogo canonico=1 titulo=tecnólogo nivel=técnico latam=1 pos=s
+título de abogado sin=1 titulo="licenciatura en derecho" nivel=grado area=derecho profesional=1 pos=s
+título de arquitecto sin=1 titulo=arquitectura nivel=grado area=arquitectura profesional=1 pos=s
+título de cirujano dentista sin=1 titulo="licenciatura en odontología" nivel=grado area=odontología profesional=1 pos=s
+título de doctor sin=1 titulo=doctorado nivel=doctorado pos=s
+título de especialista sin=1 titulo=especialización nivel=especialización pos=s
+título de grado sin=1 titulo=grado nivel=grado es=1 pos=s
+título de ingeniero sin=1 titulo=ingeniería nivel=grado area=ingeniería profesional=1 pos=s
+título de licenciado sin=1 titulo=licenciatura nivel=grado pos=s
+título de maestría sin=1 titulo=maestría nivel=maestría latam=1 pos=s
+título de máster sin=1 titulo=máster nivel=maestría es=1 pos=s
+título de médico cirujano sin=1 titulo="licenciatura en medicina" nivel=grado area=medicina profesional=1 pos=s
+título de médico veterinario sin=1 titulo="licenciatura en veterinaria" nivel=grado area=veterinaria profesional=1 pos=s
+título de profesor sin=1 titulo=profesorado nivel=técnico area=educación latam=1 pos=s
+título de tecnólogo sin=1 titulo=tecnólogo nivel=técnico latam=1 pos=s
+título técnico universitario sin=1 titulo="técnico universitario" nivel=técnico latam=1 pos=s
+tsu titulo="técnico superior universitario" completo="técnico superior universitario" nivel=técnico latam=1 pos=s

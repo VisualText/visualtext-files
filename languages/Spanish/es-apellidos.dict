@@ -1,0 +1,826 @@
+# Apellidos españoles y latinoamericanos
+#   nombre=apellido  en todas las entradas (como name=surname en en-surnames.dict)
+#   raiz=            la forma con tilde o eñe, en la forma escrita sin ellas
+#                    (garcia -> garcía, munoz -> muñoz), frecuente en datos
+#                    en mayúsculas o pasados por sistemas sin acentos
+# Los apellidos más frecuentes de España y de Latinoamérica, incluidos los
+# compuestos con partícula (de la cruz, del río, montes de oca).  Muchos son
+# también palabras corrientes (león, castillo, blanco, rey, cruz) o nombres
+# de pila (martín, lorenzo, vicente); como en en-surnames.dict, no se marcan.
+abad nombre=apellido pos=s
+abad pos=v
+abreu nombre=apellido pos=s
+acevedo nombre=apellido pos=s
+acosta nombre=apellido pos=s
+acuna nombre=apellido raiz=acuña pos=v
+acuña nombre=apellido pos=v
+adame nombre=apellido pos=v
+aguero nombre=apellido raiz=agüero pos=s
+agüero nombre=apellido pos=s
+agüero pos=v
+aguilar nombre=apellido pos=s
+aguirre nombre=apellido pos=s
+alarcon nombre=apellido raiz=alarcón pos=s
+alarcón nombre=apellido pos=s
+albornoz nombre=apellido pos=s
+alcala nombre=apellido raiz=alcalá pos=s
+alcalá nombre=apellido pos=s
+alcantara nombre=apellido raiz=alcántara pos=s
+alcántara nombre=apellido pos=s
+alcaraz nombre=apellido pos=s
+alfaro nombre=apellido pos=s
+almeida nombre=apellido pos=s
+almonte nombre=apellido pos=s
+alonso nombre=apellido pos=s
+altamirano nombre=apellido pos=s
+alvarado nombre=apellido pos=s
+alvarez nombre=apellido raiz="álvarez" pos=s
+álvarez nombre=apellido pos=s
+amador nombre=apellido pos=s
+amaya nombre=apellido pos=s
+anaya nombre=apellido pos=s
+andrade nombre=apellido pos=s
+andres nombre=apellido raiz=andrés pos=s
+andrés nombre=apellido pos=s
+anguiano nombre=apellido pos=s
+angulo nombre=apellido pos=s
+aparicio nombre=apellido pos=s
+aragon nombre=apellido raiz=aragón pos=s
+aragón nombre=apellido pos=s
+aranda nombre=apellido pos=adj
+aranda pos=s
+arango nombre=apellido pos=s
+araya nombre=apellido pos=s
+arboleda nombre=apellido pos=s
+arce nombre=apellido pos=s
+arellano nombre=apellido pos=s
+arenas nombre=apellido pos=s
+arenas pos=v
+arevalo nombre=apellido raiz=arévalo pos=s
+arévalo nombre=apellido pos=s
+arguello nombre=apellido raiz=argüello pos=s
+argüello nombre=apellido pos=s
+arias nombre=apellido pos=adj
+arias pos=s
+armas nombre=apellido pos=s
+armas pos=v
+arrieta nombre=apellido pos=s
+arroyo nombre=apellido pos=s
+arroyo pos=v
+arteaga nombre=apellido pos=s
+ascencio nombre=apellido pos=s
+avendano nombre=apellido raiz=avendaño pos=s
+avendaño nombre=apellido pos=s
+avila nombre=apellido raiz="ávila" pos=s
+ávila nombre=apellido pos=s
+aviles nombre=apellido raiz=avilés pos=s
+avilés nombre=apellido pos=adj
+avilés pos=s
+ayala nombre=apellido pos=s
+baez nombre=apellido raiz=báez pos=s
+báez nombre=apellido pos=s
+baeza nombre=apellido pos=s
+balderas nombre=apellido pos=s
+ballesteros nombre=apellido pos=s
+banuelos nombre=apellido raiz=bañuelos pos=s
+bañuelos nombre=apellido pos=s
+barajas nombre=apellido pos=s
+barajas pos=v
+barragan nombre=apellido raiz=barragán pos=s
+barragán nombre=apellido pos=s
+barraza nombre=apellido pos=s
+barrera nombre=apellido pos=s
+barreto nombre=apellido pos=s
+barrientos nombre=apellido pos=s
+barrios nombre=apellido pos=s
+batista nombre=apellido pos=s
+bautista nombre=apellido pos=adj
+bautista pos=s
+becerra nombre=apellido pos=s
+becerril nombre=apellido pos=s
+bello nombre=apellido pos=adj
+beltran nombre=apellido raiz=beltrán pos=s
+beltrán nombre=apellido pos=s
+benavides nombre=apellido pos=s
+benitez nombre=apellido raiz=benítez pos=s
+benítez nombre=apellido pos=s
+benito nombre=apellido pos=adj
+benito pos=s
+bermejo nombre=apellido pos=adj
+bermudez nombre=apellido raiz=bermúdez pos=s
+bermúdez nombre=apellido pos=s
+bernal nombre=apellido pos=s
+berrios nombre=apellido raiz=berríos pos=s
+berríos nombre=apellido pos=s
+betancur nombre=apellido pos=s
+blanco nombre=apellido pos=adj
+blanco pos=s
+bolanos nombre=apellido raiz=bolaños pos=s
+bolaños nombre=apellido pos=s
+bonilla nombre=apellido pos=s
+borja nombre=apellido pos=s
+bravo nombre=apellido pos=adj
+bravo pos=int
+briones nombre=apellido pos=s
+brito nombre=apellido pos=s
+bueno nombre=apellido pos=adj
+bueno pos=int
+burgos nombre=apellido pos=s
+bustamante nombre=apellido pos=s
+bustos nombre=apellido pos=s
+caballero nombre=apellido pos=adj
+caballero pos=s
+cabello nombre=apellido pos=s
+cabello pos=v
+cabral nombre=apellido pos=s
+cabrera nombre=apellido pos=s
+caceres nombre=apellido raiz=cáceres pos=s
+cáceres nombre=apellido pos=s
+calderon nombre=apellido raiz=calderón pos=s
+calderón nombre=apellido pos=s
+calles nombre=apellido pos=s
+calles pos=v
+calvo nombre=apellido pos=adj
+calvo pos=s
+camacho nombre=apellido pos=s
+camargo nombre=apellido pos=s
+campos nombre=apellido pos=s
+campuzano nombre=apellido pos=s
+canales nombre=apellido pos=s
+candelaria nombre=apellido pos=s
+cano nombre=apellido pos=adj
+cano pos=s
+cantu nombre=apellido raiz=cantú pos=s
+cantú nombre=apellido pos=s
+carbajal nombre=apellido pos=s
+cardenas nombre=apellido raiz=cárdenas pos=s
+cárdenas nombre=apellido pos=adj
+cardona nombre=apellido pos=s
+carmona nombre=apellido pos=s
+caro nombre=apellido pos=adj
+caro pos=adv
+carranza nombre=apellido pos=s
+carrasco nombre=apellido pos=s
+carreno nombre=apellido raiz=carreño pos=s
+carreño nombre=apellido pos=s
+carrera nombre=apellido pos=s
+carrillo nombre=apellido pos=s
+carvajal nombre=apellido pos=s
+casado nombre=apellido pos=s
+casado pos=v
+casas nombre=apellido pos=s
+casas pos=v
+casillas nombre=apellido pos=s
+castaneda nombre=apellido raiz=castañeda pos=s
+castañeda nombre=apellido pos=s
+castano nombre=apellido raiz=castaño pos=s
+castaño nombre=apellido pos=adj
+castaño pos=s
+castellano nombre=apellido pos=adj
+castellano pos=s
+castellanos nombre=apellido pos=adj
+castellanos pos=s
+castelo nombre=apellido pos=s
+castilla nombre=apellido pos=s
+castillo nombre=apellido pos=s
+castro nombre=apellido pos=s
+castro pos=v
+cazares nombre=apellido pos=v
+cepeda nombre=apellido pos=s
+cerda nombre=apellido pos=s
+cervantes nombre=apellido pos=s
+cervera nombre=apellido pos=s
+chacon nombre=apellido raiz=chacón pos=s
+chacón nombre=apellido pos=s
+chaparro nombre=apellido pos=adj
+chaparro pos=s
+chavez nombre=apellido raiz=chávez pos=s
+chávez nombre=apellido pos=s
+cifuentes nombre=apellido pos=s
+cisneros nombre=apellido pos=s
+cobos nombre=apellido pos=s
+collado nombre=apellido pos=s
+colon nombre=apellido raiz=colón pos=s
+colón nombre=apellido pos=s
+contreras nombre=apellido pos=s
+cordero nombre=apellido pos=s
+cordoba nombre=apellido raiz=córdoba pos=s
+córdoba nombre=apellido pos=s
+cordova nombre=apellido raiz=córdova pos=s
+córdova nombre=apellido pos=s
+corona nombre=apellido pos=s
+corona pos=v
+coronado nombre=apellido pos=v
+corral nombre=apellido pos=s
+correa nombre=apellido pos=s
+correa pos=v
+cortes nombre=apellido raiz=cortés pos=adj
+cortes pos=s
+cortes pos=v
+cortés nombre=apellido pos=adj
+cortés pos=s
+cortez nombre=apellido pos=s
+cortina nombre=apellido pos=s
+cota nombre=apellido pos=s
+cota pos=v
+covarrubias nombre=apellido pos=s
+crespo nombre=apellido pos=adj
+cruz nombre=apellido pos=s
+cuellar nombre=apellido raiz=cuéllar pos=s
+cuéllar nombre=apellido pos=s
+cuesta nombre=apellido pos=s
+cuesta pos=v
+cuevas nombre=apellido pos=s
+davalos nombre=apellido raiz=dávalos pos=s
+dávalos nombre=apellido pos=s
+davila nombre=apellido raiz=dávila pos=s
+dávila nombre=apellido pos=s
+de jesus nombre=apellido raiz="de jesús" pos=s
+de jesús nombre=apellido pos=s
+de la cruz nombre=apellido pos=s
+de la fuente nombre=apellido pos=s
+de la pena nombre=apellido raiz="de la peña" pos=s
+de la peña nombre=apellido pos=s
+de la rosa nombre=apellido pos=s
+de la torre nombre=apellido pos=s
+de la vega nombre=apellido pos=s
+de leon nombre=apellido raiz="de león" pos=s
+de león nombre=apellido pos=s
+de los santos nombre=apellido pos=s
+del castillo nombre=apellido pos=s
+del rio nombre=apellido raiz="del río" pos=s
+del río nombre=apellido pos=s
+del valle nombre=apellido pos=s
+delgado nombre=apellido pos=adj
+delgado pos=s
+diaz nombre=apellido raiz=díaz pos=s
+díaz nombre=apellido pos=s
+diez nombre=apellido raiz=díez pos=s
+díez nombre=apellido pos=s
+dominguez nombre=apellido raiz=domínguez pos=s
+domínguez nombre=apellido pos=s
+duque nombre=apellido pos=s
+duran nombre=apellido raiz=durán pos=v
+durán nombre=apellido pos=s
+echeverria nombre=apellido raiz=echeverría pos=s
+echeverría nombre=apellido pos=s
+elizondo nombre=apellido pos=s
+enriquez nombre=apellido raiz=enríquez pos=s
+enríquez nombre=apellido pos=s
+escalante nombre=apellido pos=s
+escamilla nombre=apellido pos=s
+escobar nombre=apellido pos=s
+escudero nombre=apellido pos=adj
+escudero pos=s
+esparza nombre=apellido pos=v
+espejo nombre=apellido pos=s
+espejo pos=v
+espinosa nombre=apellido pos=adj
+espinoza nombre=apellido pos=s
+esquivel nombre=apellido pos=s
+esteban nombre=apellido pos=s
+estevez nombre=apellido raiz=estévez pos=s
+estévez nombre=apellido pos=s
+estrada nombre=apellido pos=s
+estrella nombre=apellido pos=s
+estrella pos=v
+exposito nombre=apellido raiz=expósito pos=s
+expósito nombre=apellido pos=adj
+expósito pos=s
+fajardo nombre=apellido pos=s
+farias nombre=apellido raiz=farías pos=s
+farías nombre=apellido pos=s
+felix nombre=apellido raiz=félix pos=s
+félix nombre=apellido pos=s
+fernandez nombre=apellido raiz=fernández pos=s
+fernández nombre=apellido pos=s
+ferreira nombre=apellido pos=s
+ferrer nombre=apellido pos=s
+fierro nombre=apellido pos=s
+fierro pos=v
+figueroa nombre=apellido pos=s
+flores nombre=apellido pos=s
+florez nombre=apellido raiz=flórez pos=s
+flórez nombre=apellido pos=s
+franco nombre=apellido pos=adj
+franco pos=s
+frias nombre=apellido raiz=frías pos=s
+frías nombre=apellido pos=adj
+frías pos=v
+fuentes nombre=apellido pos=s
+fuenzalida nombre=apellido pos=s
+galan nombre=apellido raiz=galán pos=s
+galán nombre=apellido pos=s
+galindo nombre=apellido pos=s
+gallardo nombre=apellido pos=adj
+gallego nombre=apellido pos=adj
+gallego pos=s
+gallegos nombre=apellido pos=adj
+gallegos pos=s
+galvan nombre=apellido raiz=galván pos=s
+galván nombre=apellido pos=s
+galvez nombre=apellido raiz=gálvez pos=s
+gálvez nombre=apellido pos=s
+gamboa nombre=apellido pos=s
+gaona nombre=apellido pos=s
+garces nombre=apellido raiz=garcés pos=s
+garcés nombre=apellido pos=s
+garcia nombre=apellido raiz=garcía pos=s
+garcía nombre=apellido pos=s
+garrido nombre=apellido pos=adj
+garza nombre=apellido pos=adj
+garza pos=s
+gaytan nombre=apellido raiz=gaytán pos=s
+gaytán nombre=apellido pos=s
+gil nombre=apellido pos=s
+gimenez nombre=apellido raiz=giménez pos=s
+giménez nombre=apellido pos=s
+giraldo nombre=apellido pos=s
+giron nombre=apellido raiz=girón pos=s
+girón nombre=apellido pos=s
+godoy nombre=apellido pos=s
+gomez nombre=apellido raiz=gómez pos=s
+gómez nombre=apellido pos=s
+gonzalez nombre=apellido raiz=gonzález pos=s
+gonzález nombre=apellido pos=s
+gordillo nombre=apellido pos=s
+grajales nombre=apellido pos=s
+granados nombre=apellido pos=s
+granados pos=v
+grijalva nombre=apellido pos=s
+guerra nombre=apellido pos=s
+guerrero nombre=apellido pos=adj
+guerrero pos=s
+guevara nombre=apellido pos=s
+guillen nombre=apellido raiz=guillén pos=v
+guillén nombre=apellido pos=s
+gutierrez nombre=apellido raiz=gutiérrez pos=s
+gutiérrez nombre=apellido pos=s
+guzman nombre=apellido raiz=guzmán pos=s
+guzmán nombre=apellido pos=s
+haro nombre=apellido pos=s
+henao nombre=apellido pos=s
+heredia nombre=apellido pos=s
+hernandez nombre=apellido raiz=hernández pos=s
+hernández nombre=apellido pos=s
+herrera nombre=apellido pos=s
+herrero nombre=apellido pos=s
+hidalgo nombre=apellido pos=adj
+hidalgo pos=s
+hinojosa nombre=apellido pos=s
+hurtado nombre=apellido pos=v
+ibanez nombre=apellido raiz=ibáñez pos=s
+ibáñez nombre=apellido pos=s
+ibarra nombre=apellido pos=s
+iglesias nombre=apellido pos=s
+iturbide nombre=apellido pos=s
+izquierdo nombre=apellido pos=adj
+jaramillo nombre=apellido pos=s
+jimenez nombre=apellido raiz=jiménez pos=s
+jiménez nombre=apellido pos=s
+juarez nombre=apellido raiz=juárez pos=s
+juárez nombre=apellido pos=s
+jurado nombre=apellido pos=s
+jurado pos=v
+lara nombre=apellido pos=s
+ledesma nombre=apellido pos=s
+lemus nombre=apellido pos=s
+leon nombre=apellido raiz=león pos=s
+león nombre=apellido pos=s
+leyva nombre=apellido pos=s
+limon nombre=apellido raiz=limón pos=s
+limón nombre=apellido pos=s
+llamas nombre=apellido pos=s
+llamas pos=v
+lomeli nombre=apellido raiz=lomelí pos=s
+lomelí nombre=apellido pos=s
+londono nombre=apellido raiz=londoño pos=s
+londoño nombre=apellido pos=s
+lopez nombre=apellido raiz=lópez pos=s
+lópez nombre=apellido pos=s
+lorenzo nombre=apellido pos=s
+lozada nombre=apellido pos=s
+lozano nombre=apellido pos=adj
+lucas nombre=apellido pos=s
+lucero nombre=apellido pos=s
+lucio nombre=apellido pos=adj
+lucio pos=s
+luevano nombre=apellido raiz=luévano pos=s
+luévano nombre=apellido pos=s
+lugo nombre=apellido pos=s
+luna nombre=apellido pos=s
+luque nombre=apellido pos=s
+machado nombre=apellido pos=s
+machado pos=v
+macias nombre=apellido raiz=macías pos=s
+macías nombre=apellido pos=s
+madero nombre=apellido pos=s
+madero pos=v
+madrigal nombre=apellido pos=s
+magana nombre=apellido raiz=magaña pos=s
+magaña nombre=apellido pos=s
+maldonado nombre=apellido pos=s
+mancilla nombre=apellido pos=s
+mancilla pos=v
+manrique nombre=apellido pos=s
+manzano nombre=apellido pos=s
+marcos nombre=apellido pos=s
+mares nombre=apellido pos=s
+marin nombre=apellido raiz=marín pos=s
+marín nombre=apellido pos=s
+mariscal nombre=apellido pos=s
+marquez nombre=apellido raiz=márquez pos=s
+márquez nombre=apellido pos=s
+marrero nombre=apellido pos=s
+marroquin nombre=apellido raiz=marroquín pos=s
+marroquín nombre=apellido pos=adj
+marroquín pos=s
+marti nombre=apellido raiz=martí pos=s
+martí nombre=apellido pos=s
+martin nombre=apellido raiz=martín pos=s
+martín nombre=apellido pos=s
+martinez nombre=apellido raiz=martínez pos=s
+martínez nombre=apellido pos=s
+mascarenas nombre=apellido raiz=mascareñas pos=s
+mascareñas nombre=apellido pos=s
+mata nombre=apellido pos=s
+mata pos=v
+mateo nombre=apellido pos=v
+matos nombre=apellido pos=s
+maya nombre=apellido pos=adj
+maya pos=s
+maya pos=v
+medellin nombre=apellido raiz=medellín pos=s
+medellín nombre=apellido pos=s
+medina nombre=apellido pos=s
+medrano nombre=apellido pos=s
+mejia nombre=apellido raiz=mejía pos=s
+mejía nombre=apellido pos=s
+melendez nombre=apellido raiz=meléndez pos=s
+meléndez nombre=apellido pos=s
+melgar nombre=apellido pos=s
+mena nombre=apellido pos=s
+mendez nombre=apellido raiz=méndez pos=s
+méndez nombre=apellido pos=s
+mendieta nombre=apellido pos=s
+mendiola nombre=apellido pos=s
+mendoza nombre=apellido pos=s
+menendez nombre=apellido raiz=menéndez pos=s
+menéndez nombre=apellido pos=s
+mercado nombre=apellido pos=s
+mercado pos=v
+merino nombre=apellido pos=adj
+merino pos=s
+mesa nombre=apellido pos=s
+mesa pos=v
+meza nombre=apellido pos=v
+miranda nombre=apellido pos=s
+mireles nombre=apellido pos=s
+moctezuma nombre=apellido pos=s
+mojica nombre=apellido pos=s
+molina nombre=apellido pos=s
+monroy nombre=apellido pos=s
+montalvo nombre=apellido pos=s
+montano nombre=apellido raiz=montaño pos=adj
+montaño nombre=apellido pos=s
+montenegro nombre=apellido pos=s
+montero nombre=apellido pos=s
+montes nombre=apellido pos=s
+montes pos=v
+montes de oca nombre=apellido pos=s
+montiel nombre=apellido pos=s
+montoya nombre=apellido pos=s
+mora nombre=apellido pos=adj
+mora pos=s
+mora pos=v
+morales nombre=apellido pos=adj
+morales pos=s
+moran nombre=apellido raiz=morán pos=v
+morán nombre=apellido pos=s
+moreira nombre=apellido pos=s
+moreno nombre=apellido pos=adj
+moreno pos=s
+mosquera nombre=apellido pos=s
+mota nombre=apellido pos=s
+moya nombre=apellido pos=s
+mugica nombre=apellido raiz=múgica pos=s
+múgica nombre=apellido pos=s
+muniz nombre=apellido raiz=muñiz pos=s
+muñiz nombre=apellido pos=s
+munoz nombre=apellido raiz=muñoz pos=s
+muñoz nombre=apellido pos=s
+murillo nombre=apellido pos=s
+najera nombre=apellido raiz=nájera pos=s
+nájera nombre=apellido pos=s
+naranjo nombre=apellido pos=s
+narvaez nombre=apellido raiz=narváez pos=s
+narváez nombre=apellido pos=s
+nava nombre=apellido pos=s
+navarrete nombre=apellido pos=s
+navarro nombre=apellido pos=adj
+navarro pos=s
+navas nombre=apellido pos=s
+negrete nombre=apellido pos=s
+nieto nombre=apellido pos=s
+nieves nombre=apellido pos=s
+nino nombre=apellido raiz=niño pos=s
+niño nombre=apellido pos=adj
+niño pos=s
+nolasco nombre=apellido pos=s
+noriega nombre=apellido pos=s
+nunez nombre=apellido raiz=núñez pos=s
+núñez nombre=apellido pos=s
+obregon nombre=apellido raiz=obregón pos=s
+obregón nombre=apellido pos=s
+ocampo nombre=apellido pos=s
+ocana nombre=apellido raiz=ocaña pos=s
+ocaña nombre=apellido pos=s
+ochoa nombre=apellido pos=s
+ojeda nombre=apellido pos=s
+olivares nombre=apellido pos=adj
+olivares pos=s
+olivares pos=v
+olivas nombre=apellido pos=s
+olivas pos=v
+olivera nombre=apellido pos=s
+olmedo nombre=apellido pos=s
+olmos nombre=apellido pos=s
+ordonez nombre=apellido raiz=ordóñez pos=s
+ordóñez nombre=apellido pos=s
+orellana nombre=apellido pos=s
+ornelas nombre=apellido pos=s
+oropeza nombre=apellido pos=s
+orozco nombre=apellido pos=s
+orta nombre=apellido pos=s
+ortega nombre=apellido pos=s
+ortiz nombre=apellido pos=s
+osorio nombre=apellido pos=s
+osuna nombre=apellido pos=adj
+otero nombre=apellido pos=s
+pacheco nombre=apellido pos=s
+padilla nombre=apellido pos=s
+palacio nombre=apellido pos=s
+palacios nombre=apellido pos=s
+palma nombre=apellido pos=s
+palma pos=v
+palomino nombre=apellido pos=adj
+palomino pos=s
+pantoja nombre=apellido pos=s
+pardo nombre=apellido pos=adj
+pardo pos=s
+paredes nombre=apellido pos=s
+parra nombre=apellido pos=s
+pascual nombre=apellido pos=adj
+pastor nombre=apellido pos=s
+patino nombre=apellido raiz=patiño pos=v
+patiño nombre=apellido pos=s
+paz nombre=apellido pos=s
+pedraza nombre=apellido pos=s
+pena nombre=apellido raiz=peña pos=s
+pena pos=v
+peña nombre=apellido pos=s
+penaloza nombre=apellido raiz=peñaloza pos=s
+peñaloza nombre=apellido pos=s
+perales nombre=apellido pos=s
+peralta nombre=apellido pos=v
+pereda nombre=apellido pos=s
+perez nombre=apellido raiz=pérez pos=s
+pérez nombre=apellido pos=s
+pichardo nombre=apellido pos=s
+pina nombre=apellido raiz=piña pos=adj
+piña nombre=apellido pos=s
+pineda nombre=apellido pos=s
+pinto nombre=apellido pos=v
+pizarro nombre=apellido pos=s
+plaza nombre=apellido pos=s
+poblete nombre=apellido pos=s
+polanco nombre=apellido pos=s
+ponce nombre=apellido pos=s
+portillo nombre=apellido pos=s
+prado nombre=apellido pos=s
+prieto nombre=apellido pos=adj
+quesada nombre=apellido pos=s
+quezada nombre=apellido pos=s
+quinones nombre=apellido raiz=quiñones pos=s
+quiñones nombre=apellido pos=s
+quintana nombre=apellido pos=s
+quintanilla nombre=apellido pos=s
+quintero nombre=apellido pos=s
+quiroga nombre=apellido pos=s
+quiroz nombre=apellido pos=s
+ramirez nombre=apellido raiz=ramírez pos=s
+ramírez nombre=apellido pos=s
+ramos nombre=apellido pos=s
+rangel nombre=apellido pos=s
+redondo nombre=apellido pos=adj
+redondo pos=s
+rendon nombre=apellido raiz=rendón pos=s
+rendón nombre=apellido pos=s
+renteria nombre=apellido raiz=rentería pos=s
+rentería nombre=apellido pos=s
+resendiz nombre=apellido raiz=reséndiz pos=s
+reséndiz nombre=apellido pos=s
+restrepo nombre=apellido pos=s
+rey nombre=apellido pos=s
+reyes nombre=apellido pos=s
+reynoso nombre=apellido pos=s
+rico nombre=apellido pos=adj
+rico pos=s
+rincon nombre=apellido raiz=rincón pos=s
+rincón nombre=apellido pos=s
+rios nombre=apellido raiz=ríos pos=s
+ríos nombre=apellido pos=s
+riquelme nombre=apellido pos=s
+rivas nombre=apellido pos=s
+rivera nombre=apellido pos=s
+rivero nombre=apellido pos=s
+robledo nombre=apellido pos=s
+robles nombre=apellido pos=s
+robles pos=v
+rocha nombre=apellido pos=s
+rodas nombre=apellido pos=s
+rodrigo nombre=apellido pos=v
+rodriguez nombre=apellido raiz=rodríguez pos=s
+rodríguez nombre=apellido pos=s
+rojas nombre=apellido pos=adj
+rojo nombre=apellido pos=adj
+rojo pos=s
+roldan nombre=apellido raiz=roldán pos=s
+roldán nombre=apellido pos=s
+roman nombre=apellido raiz=román pos=s
+román nombre=apellido pos=s
+romero nombre=apellido pos=adj
+romero pos=s
+romo nombre=apellido pos=adj
+ros nombre=apellido pos=s
+rosales nombre=apellido pos=s
+rosario nombre=apellido pos=s
+rosas nombre=apellido pos=adj
+rosas pos=s
+rubio nombre=apellido pos=adj
+rubio pos=s
+rueda nombre=apellido pos=s
+rueda pos=v
+ruelas nombre=apellido pos=s
+ruiz nombre=apellido pos=s
+ruvalcaba nombre=apellido pos=s
+saavedra nombre=apellido pos=s
+saez nombre=apellido raiz=sáez pos=s
+sáez nombre=apellido pos=s
+salas nombre=apellido pos=s
+salas pos=v
+salazar nombre=apellido pos=s
+salcedo nombre=apellido pos=s
+saldana nombre=apellido raiz=saldaña pos=s
+saldaña nombre=apellido pos=s
+salgado nombre=apellido pos=v
+salinas nombre=apellido pos=adj
+salinas pos=s
+samaniego nombre=apellido pos=s
+san juan nombre=apellido pos=s
+san martin nombre=apellido raiz="san martín" pos=s
+san martín nombre=apellido pos=s
+sanabria nombre=apellido pos=s
+sanchez nombre=apellido raiz=sánchez pos=s
+sánchez nombre=apellido pos=s
+sandoval nombre=apellido pos=s
+santacruz nombre=apellido pos=s
+santamaria nombre=apellido raiz=santamaría pos=s
+santamaría nombre=apellido pos=s
+santana nombre=apellido pos=s
+santiago nombre=apellido pos=s
+santillan nombre=apellido raiz=santillán pos=s
+santillán nombre=apellido pos=s
+santos nombre=apellido pos=adj
+santos pos=s
+santoyo nombre=apellido pos=s
+sanz nombre=apellido pos=s
+sarmiento nombre=apellido pos=s
+sarmiento pos=v
+sauceda nombre=apellido pos=s
+saucedo nombre=apellido pos=s
+sedano nombre=apellido pos=s
+segovia nombre=apellido pos=s
+segura nombre=apellido pos=adj
+sepulveda nombre=apellido raiz=sepúlveda pos=s
+sepúlveda nombre=apellido pos=s
+serna nombre=apellido pos=s
+serrano nombre=apellido pos=adj
+serrano pos=s
+serrato nombre=apellido pos=adj
+serrato pos=s
+sevilla nombre=apellido pos=s
+sierra nombre=apellido pos=s
+sierra pos=v
+sifuentes nombre=apellido pos=s
+silva nombre=apellido pos=s
+solano nombre=apellido pos=s
+soler nombre=apellido pos=s
+soler pos=v
+solis nombre=apellido raiz=solís pos=s
+solís nombre=apellido pos=s
+solorzano nombre=apellido raiz=solórzano pos=s
+solórzano nombre=apellido pos=s
+soria nombre=apellido pos=s
+soriano nombre=apellido pos=adj
+soriano pos=s
+sosa nombre=apellido pos=adj
+sosa pos=s
+soto nombre=apellido pos=s
+sotomayor nombre=apellido pos=s
+suarez nombre=apellido raiz=suárez pos=s
+suárez nombre=apellido pos=s
+tafoya nombre=apellido pos=s
+tamayo nombre=apellido pos=s
+tapia nombre=apellido pos=s
+tapia pos=v
+tellez nombre=apellido raiz=téllez pos=s
+téllez nombre=apellido pos=s
+tello nombre=apellido pos=s
+teran nombre=apellido raiz=terán pos=s
+terán nombre=apellido pos=s
+tirado nombre=apellido pos=s
+tirado pos=v
+toledo nombre=apellido pos=s
+toro nombre=apellido pos=s
+torres nombre=apellido pos=s
+torres pos=v
+toscano nombre=apellido pos=adj
+toscano pos=s
+tostado nombre=apellido pos=s
+tostado pos=v
+tovar nombre=apellido pos=s
+trejo nombre=apellido pos=s
+trevino nombre=apellido raiz=treviño pos=s
+treviño nombre=apellido pos=s
+trujillo nombre=apellido pos=s
+ulloa nombre=apellido pos=s
+urbina nombre=apellido pos=s
+urias nombre=apellido raiz=urías pos=s
+urías nombre=apellido pos=s
+uribe nombre=apellido pos=s
+urrutia nombre=apellido pos=s
+valadez nombre=apellido pos=s
+valdes nombre=apellido raiz=valdés pos=s
+valdés nombre=apellido pos=s
+valdez nombre=apellido pos=s
+valencia nombre=apellido pos=s
+valenzuela nombre=apellido pos=s
+valero nombre=apellido pos=s
+valladares nombre=apellido pos=s
+valle nombre=apellido pos=s
+valle pos=v
+valles nombre=apellido pos=s
+valles pos=v
+varas nombre=apellido pos=s
+varas pos=v
+varela nombre=apellido pos=s
+vargas nombre=apellido pos=s
+vasquez nombre=apellido raiz=vásquez pos=s
+vásquez nombre=apellido pos=s
+vazquez nombre=apellido raiz=vázquez pos=s
+vázquez nombre=apellido pos=s
+vega nombre=apellido pos=s
+vela nombre=apellido pos=s
+vela pos=v
+velarde nombre=apellido pos=s
+velasco nombre=apellido pos=s
+velazquez nombre=apellido raiz=velázquez pos=s
+velázquez nombre=apellido pos=s
+velez nombre=apellido raiz=vélez pos=s
+vélez nombre=apellido pos=s
+venegas nombre=apellido pos=s
+vera nombre=apellido pos=s
+verdugo nombre=apellido pos=adj
+verdugo pos=s
+vergara nombre=apellido pos=s
+vicente nombre=apellido pos=s
+vidal nombre=apellido pos=s
+viera nombre=apellido pos=v
+vigil nombre=apellido pos=s
+vila nombre=apellido pos=s
+villa nombre=apellido pos=s
+villalba nombre=apellido pos=s
+villalobos nombre=apellido pos=s
+villanueva nombre=apellido pos=s
+villar nombre=apellido pos=s
+villarreal nombre=apellido pos=s
+villasenor nombre=apellido raiz=villaseñor pos=s
+villaseñor nombre=apellido pos=s
+villegas nombre=apellido pos=s
+yanez nombre=apellido raiz=yáñez pos=s
+yáñez nombre=apellido pos=s
+ybarra nombre=apellido pos=s
+yepez nombre=apellido raiz=yépez pos=s
+yépez nombre=apellido pos=s
+zambrano nombre=apellido pos=s
+zamora nombre=apellido pos=s
+zamudio nombre=apellido pos=s
+zapata nombre=apellido pos=s
+zaragoza nombre=apellido pos=s
+zarate nombre=apellido pos=s
+zárate nombre=apellido pos=s
+zavala nombre=apellido pos=s
+zepeda nombre=apellido pos=s
+zuniga nombre=apellido raiz=zúñiga pos=s
+zúñiga nombre=apellido pos=s

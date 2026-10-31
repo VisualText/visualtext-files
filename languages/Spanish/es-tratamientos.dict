@@ -1,0 +1,191 @@
+# Tratamientos y sufijos de nombres de persona
+#   sufijo=   lo que denota el sufijo (número de generación, título)
+#   prefijo=  la forma desarrollada del tratamiento que precede al nombre
+#   tipo=     generación | título | cortesía | profesional | religioso |
+#             militar | civil | nobiliario
+#   gen=m|f   género, en las formas que lo marcan
+#   num=p     forma plural (sres, sras)
+#   ambig=1   la forma es también una palabra corriente del español o una
+#             entrada de otro diccionario de la biblioteca, así que solo es un
+#             tratamiento junto a un nombre
+# Las abreviaturas van sin punto (sr., dña., lic.): el tokenizador separa el
+# punto.  En español sr abrevia señor, no senior; el sufijo de generación es
+# jr, hijo o h (Argentina).  Las abreviaturas de grado académico (lic, ing,
+# mtro, dr, phd, mba...) figuran también en es-grados-academicos.dict.
+
+# Sufijos de nombres de persona
+jr sufijo=júnior tipo=generación pos=s
+júnior sufijo=júnior tipo=generación ambig=1 pos=adj
+júnior pos=s
+hijo sufijo=hijo tipo=generación gen=m ambig=1 pos=s
+h sufijo=hijo tipo=generación gen=m ambig=1 pos=s
+ii sufijo=2 tipo=generación pos=s
+iii sufijo=3 tipo=generación pos=s
+iv sufijo=4 tipo=generación pos=s
+v sufijo=5 tipo=generación ambig=1 pos=s
+vi sufijo=6 tipo=generación ambig=1 pos=v
+vii sufijo=7 tipo=generación pos=s
+viii sufijo=8 tipo=generación pos=s
+ix sufijo=9 tipo=generación pos=s
+x sufijo=10 tipo=generación ambig=1 pos=s
+phd sufijo=doctorado tipo=título pos=s
+md sufijo=medicina tipo=título pos=s
+mba sufijo=maestría tipo=título pos=s
+msc sufijo=maestría tipo=título pos=s
+
+# Tratamientos que preceden al nombre
+sr prefijo=señor tipo=cortesía gen=m pos=s
+sra prefijo=señora tipo=cortesía gen=f pos=s
+srta prefijo=señorita tipo=cortesía gen=f pos=s
+sres prefijo=señores tipo=cortesía gen=m num=p pos=s
+srs prefijo=señores tipo=cortesía gen=m num=p pos=s
+sras prefijo=señoras tipo=cortesía gen=f num=p pos=s
+señor prefijo=señor tipo=cortesía gen=m ambig=1 pos=adj
+señor pos=int
+señor pos=s
+señora prefijo=señora tipo=cortesía gen=f ambig=1 pos=adj
+señora pos=s
+señorita prefijo=señorita tipo=cortesía gen=f ambig=1 pos=s
+don prefijo=don tipo=cortesía gen=m ambig=1 pos=s
+doña prefijo=doña tipo=cortesía gen=f pos=s
+d prefijo=don tipo=cortesía gen=m ambig=1 pos=s
+dn prefijo=don tipo=cortesía gen=m pos=s
+dña prefijo=doña tipo=cortesía gen=f pos=s
+excmo prefijo=excelentísimo tipo=cortesía gen=m pos=s
+excma prefijo=excelentísima tipo=cortesía gen=f pos=s
+ilmo prefijo=ilustrísimo tipo=cortesía gen=m pos=s
+ilma prefijo=ilustrísima tipo=cortesía gen=f pos=s
+dr prefijo=doctor tipo=profesional gen=m pos=s
+dra prefijo=doctora tipo=profesional gen=f pos=s
+doctor prefijo=doctor tipo=profesional gen=m ambig=1 pos=s
+doctora prefijo=doctora tipo=profesional gen=f ambig=1 pos=s
+doctora pos=v
+lic prefijo=licenciado tipo=profesional pos=s
+lcdo prefijo=licenciado tipo=profesional gen=m pos=s
+lcda prefijo=licenciada tipo=profesional gen=f pos=s
+licdo prefijo=licenciado tipo=profesional gen=m pos=s
+licda prefijo=licenciada tipo=profesional gen=f pos=s
+ldo prefijo=licenciado tipo=profesional gen=m pos=s
+lda prefijo=licenciada tipo=profesional gen=f pos=s
+licenciado prefijo=licenciado tipo=profesional gen=m ambig=1 pos=s
+licenciado pos=v
+licenciada prefijo=licenciada tipo=profesional gen=f ambig=1 pos=s
+licenciada pos=v
+ing prefijo=ingeniero tipo=profesional pos=s
+ingeniero prefijo=ingeniero tipo=profesional gen=m ambig=1 pos=s
+ingeniera prefijo=ingeniera tipo=profesional gen=f ambig=1 pos=s
+arq prefijo=arquitecto tipo=profesional pos=s
+arquitecto prefijo=arquitecto tipo=profesional gen=m ambig=1 pos=s
+arquitecta prefijo=arquitecta tipo=profesional gen=f ambig=1 pos=s
+prof prefijo=profesor tipo=profesional gen=m pos=s
+profa prefijo=profesora tipo=profesional gen=f pos=s
+profesor prefijo=profesor tipo=profesional gen=m ambig=1 pos=s
+profesora prefijo=profesora tipo=profesional gen=f ambig=1 pos=s
+mtro prefijo=maestro tipo=profesional gen=m pos=s
+mtra prefijo=maestra tipo=profesional gen=f pos=s
+maestro prefijo=maestro tipo=profesional gen=m ambig=1 pos=adj
+maestro pos=s
+maestra prefijo=maestra tipo=profesional gen=f ambig=1 pos=adj
+maestra pos=s
+abg prefijo=abogado tipo=profesional pos=s
+abog prefijo=abogado tipo=profesional pos=s
+abogado prefijo=abogado tipo=profesional gen=m ambig=1 pos=s
+abogado pos=v
+abogada prefijo=abogada tipo=profesional gen=f ambig=1 pos=s
+abogada pos=v
+cp prefijo="contador público" tipo=profesional ambig=1 pos=s
+mvz prefijo="médico veterinario zootecnista" tipo=profesional pos=s
+fray prefijo=fray tipo=religioso gen=m pos=s
+fr prefijo=fray tipo=religioso gen=m pos=s
+sor prefijo=sor tipo=religioso gen=f pos=s
+padre prefijo=padre tipo=religioso gen=m ambig=1 pos=s
+p prefijo=padre tipo=religioso gen=m ambig=1 pos=s
+pbro prefijo=presbítero tipo=religioso gen=m pos=s
+mons prefijo=monseñor tipo=religioso gen=m pos=s
+monseñor prefijo=monseñor tipo=religioso gen=m ambig=1 pos=s
+hno prefijo=hermano tipo=religioso gen=m pos=s
+hna prefijo=hermana tipo=religioso gen=f pos=s
+hermano prefijo=hermano tipo=religioso gen=m ambig=1 pos=s
+hermano pos=v
+hermana prefijo=hermana tipo=religioso gen=f ambig=1 pos=s
+hermana pos=v
+madre prefijo=madre tipo=religioso gen=f ambig=1 pos=s
+rvdo prefijo=reverendo tipo=religioso gen=m pos=s
+rvda prefijo=reverenda tipo=religioso gen=f pos=s
+rev prefijo=reverendo tipo=religioso pos=s
+reverendo prefijo=reverendo tipo=religioso gen=m ambig=1 pos=adj
+reverendo pos=s
+san prefijo=santo tipo=religioso gen=m ambig=1 pos=adj
+san pos=s
+santo prefijo=santo tipo=religioso gen=m ambig=1 pos=adj
+santo pos=s
+santa prefijo=santa tipo=religioso gen=f ambig=1 pos=adj
+santa pos=s
+sto prefijo=santo tipo=religioso gen=m pos=s
+sta prefijo=santa tipo=religioso gen=f pos=s
+obispo prefijo=obispo tipo=religioso gen=m ambig=1 pos=s
+arzobispo prefijo=arzobispo tipo=religioso gen=m ambig=1 pos=s
+cardenal prefijo=cardenal tipo=religioso gen=m ambig=1 pos=s
+pastor prefijo=pastor tipo=religioso gen=m ambig=1 pos=s
+pastora prefijo=pastora tipo=religioso gen=f ambig=1 pos=s
+rabino prefijo=rabino tipo=religioso gen=m ambig=1 pos=s
+imán prefijo=imán tipo=religioso gen=m ambig=1 pos=s
+gral prefijo=general tipo=militar pos=s
+general prefijo=general tipo=militar ambig=1 pos=adj
+general pos=s
+cap prefijo=capitán tipo=militar ambig=1 pos=s
+capitán prefijo=capitán tipo=militar gen=m ambig=1 pos=s
+cnel prefijo=coronel tipo=militar pos=s
+coronel prefijo=coronel tipo=militar ambig=1 pos=s
+tte prefijo=teniente tipo=militar pos=s
+teniente prefijo=teniente tipo=militar ambig=1 pos=adj
+teniente pos=s
+sgto prefijo=sargento tipo=militar pos=s
+sargento prefijo=sargento tipo=militar ambig=1 pos=s
+cabo prefijo=cabo tipo=militar ambig=1 pos=s
+cmdte prefijo=comandante tipo=militar pos=s
+cte prefijo=comandante tipo=militar pos=s
+comandante prefijo=comandante tipo=militar ambig=1 pos=s
+almte prefijo=almirante tipo=militar pos=s
+almirante prefijo=almirante tipo=militar ambig=1 pos=s
+pdte prefijo=presidente tipo=civil gen=m pos=s
+pdta prefijo=presidenta tipo=civil gen=f pos=s
+presidente prefijo=presidente tipo=civil gen=m ambig=1 pos=s
+presidenta prefijo=presidenta tipo=civil gen=f ambig=1 pos=s
+gob prefijo=gobernador tipo=civil ambig=1 pos=s
+gobernador prefijo=gobernador tipo=civil gen=m ambig=1 pos=adj
+gobernador pos=s
+gobernadora prefijo=gobernadora tipo=civil gen=f ambig=1 pos=adj
+gobernadora pos=s
+dip prefijo=diputado tipo=civil pos=s
+diputado prefijo=diputado tipo=civil gen=m ambig=1 pos=s
+diputado pos=v
+diputada prefijo=diputada tipo=civil gen=f ambig=1 pos=s
+diputada pos=v
+senador prefijo=senador tipo=civil gen=m ambig=1 pos=s
+senadora prefijo=senadora tipo=civil gen=f ambig=1 pos=s
+alcalde prefijo=alcalde tipo=civil gen=m ambig=1 pos=s
+alcaldesa prefijo=alcaldesa tipo=civil gen=f ambig=1 pos=s
+juez prefijo=juez tipo=civil ambig=1 pos=s
+jueza prefijo=jueza tipo=civil gen=f ambig=1 pos=s
+ministro prefijo=ministro tipo=civil gen=m ambig=1 pos=s
+ministra prefijo=ministra tipo=civil gen=f ambig=1 pos=s
+embajador prefijo=embajador tipo=civil gen=m ambig=1 pos=s
+embajadora prefijo=embajadora tipo=civil gen=f ambig=1 pos=s
+honorable prefijo=honorable tipo=civil ambig=1 pos=adj
+rey prefijo=rey tipo=nobiliario gen=m ambig=1 pos=s
+reina prefijo=reina tipo=nobiliario gen=f ambig=1 pos=s
+reina pos=v
+príncipe prefijo=príncipe tipo=nobiliario gen=m ambig=1 pos=adj
+príncipe pos=s
+princesa prefijo=princesa tipo=nobiliario gen=f ambig=1 pos=s
+infante prefijo=infante tipo=nobiliario gen=m ambig=1 pos=s
+infanta prefijo=infanta tipo=nobiliario gen=f ambig=1 pos=s
+duque prefijo=duque tipo=nobiliario gen=m ambig=1 pos=s
+duquesa prefijo=duquesa tipo=nobiliario gen=f ambig=1 pos=s
+marqués prefijo=marqués tipo=nobiliario gen=m ambig=1 pos=s
+marquesa prefijo=marquesa tipo=nobiliario gen=f ambig=1 pos=s
+conde prefijo=conde tipo=nobiliario gen=m ambig=1 pos=s
+condesa prefijo=condesa tipo=nobiliario gen=f ambig=1 pos=s
+barón prefijo=barón tipo=nobiliario gen=m ambig=1 pos=s
+baronesa prefijo=baronesa tipo=nobiliario gen=f ambig=1 pos=s

@@ -1,0 +1,317 @@
+# Áreas de estudo em português, ligadas às grandes áreas do CNPq / CAPES.
+# Consulta direta:  área -> grande área   (conceito "areas area biologia" -> grandearea="ciências biológicas")
+# Grandes áreas:    grande área -> as suas áreas
+# A árvore percorre-se nos dois sentidos: pai= aponta para cima, filho= para baixo.
+#   grandearea=   ciências exatas e da terra | ciências biológicas |
+#                 engenharias | ciências da saúde | ciências agrárias |
+#                 ciências sociais aplicadas | ciências humanas |
+#                 linguística, letras e artes | multidisciplinar
+#   pai=          a área mais ampla de que esta faz parte
+#   filho=        os filhos imediatos desta área
+#   sinonimo=     nomes alternativos       adjetivo=  formas adjetivas
+#   escolar=1     disciplina escolar comum
+#   idioma=1      o nome é também um idioma e uma nacionalidade
+#   br=1          só no Brasil             pt=1  só em Portugal
+# Os nomes de área daqui são o vocabulário de area= em
+# pt-graus-academicos.dict, para que um grau se ligue à sua área por esse
+# atributo.
+# Toda forma aqui citada é etiquetada por pt-areas-de-estudo.dict.
+areas
+  area
+    administração: grandearea="ciências sociais aplicadas", sinonimo=["administração de empresas",gestão,"gestão de empresas",negócios], adjetivo=[administrativo,administrativa], filho=[contabilidade,finanças,marketing,empreendedorismo,"recursos humanos","comércio exterior",logística,"gestão imobiliária",hotelaria,"ciências atuariais",secretariado]
+    administração pública: grandearea="ciências sociais aplicadas", sinonimo="gestão pública", filho="políticas públicas"
+    agronomia: grandearea="ciências agrárias", pai="ciências agrárias", sinonimo=["engenharia agronômica","engenharia agronómica"], adjetivo=[agronômico,agronômica,agronómico,agronómica]
+    alemão: grandearea="linguística, letras e artes", pai="línguas estrangeiras", sinonimo="língua alemã", escolar=1, idioma=1
+    anatomia: grandearea="ciências biológicas", pai=biologia, adjetivo=[anatômico,anatômica,anatómico,anatómica]
+    anestesiologia: grandearea="ciências da saúde", pai=medicina
+    antropologia: grandearea="ciências humanas", adjetivo=[antropológico,antropológica], filho=arqueologia
+    aprendizado de máquina: grandearea="ciências exatas e da terra", pai="inteligência artificial", sinonimo=["aprendizagem de máquina","aprendizagem automática","machine learning"]
+    aritmética: grandearea="ciências exatas e da terra", pai=matemática, escolar=1
+    arqueologia: grandearea="ciências humanas", pai=antropologia, adjetivo=[arqueológico,arqueológica]
+    arquitetura: grandearea="ciências sociais aplicadas", sinonimo=["arquitetura e urbanismo",arquitectura], adjetivo=[arquitetônico,arquitetônica,arquitetónico,arquitetónica], filho=paisagismo
+    arquivologia: grandearea="ciências sociais aplicadas", pai="ciência da informação", sinonimo=arquivística
+    arte: grandearea="linguística, letras e artes", sinonimo=[artes,"artes visuais"], adjetivo=[artístico,artística], filho=["educação artística","educação visual",belas-artes,desenho,pintura,escultura,fotografia,cerâmica,gravura,"artes aplicadas"], escolar=1
+    artes aplicadas: grandearea="linguística, letras e artes", pai=arte
+    artes cênicas: grandearea="linguística, letras e artes", sinonimo=["artes cénicas","artes do espetáculo","artes performativas"], adjetivo=[cênico,cênica], filho=[teatro,dança]
+    artes liberais: grandearea=multidisciplinar, sinonimo="estudos liberais"
+    astrofísica: grandearea="ciências exatas e da terra", pai=física
+    astronomia: grandearea="ciências exatas e da terra", pai=ciências, adjetivo=[astronômico,astronômica,astronómico,astronómica], filho=[cosmologia,"ciências planetárias"]
+    audiologia: grandearea="ciências da saúde", pai=fonoaudiologia
+    bacteriologia: grandearea="ciências biológicas", pai=biologia
+    belas-artes: grandearea="linguística, letras e artes", pai=arte, sinonimo="belas artes"
+    biblioteconomia: grandearea="ciências sociais aplicadas", pai="ciência da informação", sinonimo="biblioteconomia e documentação"
+    biofísica: grandearea="ciências biológicas", pai=biologia, adjetivo=[biofísico,biofísica]
+    biologia: grandearea="ciências biológicas", pai=ciências, sinonimo=[bio,"ciências biológicas","ciências da vida"], adjetivo=[biológico,biológica], filho=[botânica,zoologia,microbiologia,"biologia molecular","biologia celular",genética,bioquímica,biofísica,ecologia,"biologia marinha",neurociência,fisiologia,anatomia,imunologia,virologia,bacteriologia,micologia,parasitologia,entomologia,ornitologia,"biologia evolutiva",farmacologia,biotecnologia], escolar=1
+    biologia celular: grandearea="ciências biológicas", pai=biologia, sinonimo=citologia
+    biologia evolutiva: grandearea="ciências biológicas", pai=biologia, sinonimo="biologia evolucionária"
+    biologia marinha: grandearea="ciências biológicas", pai=biologia
+    biologia molecular: grandearea="ciências biológicas", pai=biologia
+    biomedicina: grandearea="ciências da saúde", br=1
+    bioquímica: grandearea="ciências biológicas", pai=biologia, adjetivo=[bioquímico,bioquímica]
+    biotecnologia: grandearea=multidisciplinar, pai=biologia
+    botânica: grandearea="ciências biológicas", pai=biologia, sinonimo="biologia vegetal", adjetivo=[botânico,botânica]
+    cardiologia: grandearea="ciências da saúde", pai=medicina
+    cerâmica: grandearea="linguística, letras e artes", pai=arte
+    chinês: grandearea="linguística, letras e artes", pai="línguas estrangeiras", sinonimo=mandarim, idioma=1
+    cidadania e desenvolvimento: grandearea="ciências humanas", pai="estudos sociais", escolar=1, pt=1
+    cinema: grandearea="linguística, letras e artes", sinonimo=["cinema e audiovisual",audiovisual,"estudos de cinema"], adjetivo=[cinematográfico,cinematográfica]
+    cirurgia: grandearea="ciências da saúde", pai=medicina, adjetivo=[cirúrgico,cirúrgica]
+    ciência cognitiva: grandearea="ciências humanas", pai=psicologia, sinonimo="ciências cognitivas", adjetivo=[cognitivo,cognitiva]
+    ciência da computação: grandearea="ciências exatas e da terra", sinonimo=[computação,"ciências da computação",informática], adjetivo=computacional, filho=["engenharia de software","inteligência artificial","ciência de dados","segurança da informação","tecnologia da informação","sistemas de informação","computação gráfica","interação humano-computador"]
+    ciência da informação: grandearea="ciências sociais aplicadas", filho=[biblioteconomia,arquivologia,museologia]
+    ciência de dados: grandearea="ciências exatas e da terra", pai="ciência da computação"
+    ciência do solo: grandearea="ciências agrárias", pai="ciências agrárias", sinonimo=pedologia
+    ciência e tecnologia de alimentos: grandearea="ciências agrárias", pai="ciências agrárias", sinonimo=["ciência dos alimentos","tecnologia de alimentos","engenharia de alimentos"]
+    ciência política: grandearea="ciências humanas", sinonimo=["ciências políticas",política], adjetivo=[político,política]
+    ciências: grandearea="ciências exatas e da terra", sinonimo=[ciência,"ciências naturais"], adjetivo=[científico,científica], filho=[química,física,astronomia,geociências,biologia], escolar=1
+    ciências agrárias: grandearea="ciências agrárias", sinonimo=agricultura, adjetivo=[agrário,agrária,agrícola], filho=[agronomia,horticultura,zootecnia,"engenharia florestal","ciência e tecnologia de alimentos","engenharia de pesca","engenharia agrícola","ciência do solo"]
+    ciências ambientais: grandearea=multidisciplinar, sinonimo=["ciência ambiental","estudos ambientais","gestão ambiental"], adjetivo=ambiental, filho=[sustentabilidade,"educação ambiental"]
+    ciências aplicadas: grandearea=multidisciplinar
+    ciências atuariais: grandearea="ciências sociais aplicadas", pai=administração, sinonimo=atuária, adjetivo=atuarial
+    ciências da religião: grandearea="ciências humanas", pai=humanidades, sinonimo=["ciência da religião","estudos religiosos"], filho=[teologia,"ensino religioso"]
+    ciências do esporte: grandearea="ciências da saúde", sinonimo=["ciências do desporto","ciência do esporte"]
+    ciências planetárias: grandearea="ciências exatas e da terra", pai=astronomia, sinonimo=planetologia
+    climatologia: grandearea="ciências exatas e da terra", pai=geociências, sinonimo="ciências do clima"
+    composição musical: grandearea="linguística, letras e artes", pai=música
+    computação gráfica: grandearea="ciências exatas e da terra", pai="ciência da computação"
+    comunicação: grandearea="ciências sociais aplicadas", sinonimo=["comunicação social","ciências da comunicação"], filho=[jornalismo,"relações públicas","publicidade e propaganda","rádio e televisão"]
+    comércio exterior: grandearea="ciências sociais aplicadas", pai=administração, sinonimo=["comércio internacional","negócios internacionais"]
+    contabilidade: grandearea="ciências sociais aplicadas", pai=administração, sinonimo=["ciências contábeis","ciências contabilísticas"], adjetivo=[contábil,contabilístico,contabilística]
+    coreano: grandearea="linguística, letras e artes", pai="línguas estrangeiras", idioma=1
+    cosmologia: grandearea="ciências exatas e da terra", pai=astronomia, adjetivo=[cosmológico,cosmológica]
+    criminologia: grandearea="ciências humanas", pai=sociologia
+    cálculo: grandearea="ciências exatas e da terra", pai=matemática, sinonimo="cálculo diferencial e integral"
+    dança: grandearea="linguística, letras e artes", pai="artes cênicas", escolar=1
+    datilografia: grandearea=multidisciplinar, sinonimo=digitação, escolar=1
+    demografia: grandearea="ciências sociais aplicadas", adjetivo=[demográfico,demográfica]
+    dermatologia: grandearea="ciências da saúde", pai=medicina
+    desenho: grandearea="linguística, letras e artes", pai=arte, escolar=1
+    desenho técnico: grandearea=engenharias, pai=tecnologia
+    design: grandearea="ciências sociais aplicadas", filho=["design gráfico","design de produto","design de moda","design de interiores"]
+    design de interiores: grandearea="ciências sociais aplicadas", pai=design
+    design de moda: grandearea="ciências sociais aplicadas", pai=design
+    design de produto: grandearea="ciências sociais aplicadas", pai=design, sinonimo=["desenho industrial","design industrial"]
+    design gráfico: grandearea="ciências sociais aplicadas", pai=design, sinonimo="comunicação visual"
+    didática: grandearea="ciências humanas", pai=educação, adjetivo=[didático,didática]
+    direito: grandearea="ciências sociais aplicadas", sinonimo=["ciências jurídicas","ciências jurídicas e sociais"], adjetivo=[jurídico,jurídica], filho=["direito penal","direito civil","direito constitucional","direito internacional","direito tributário","direito do trabalho","direito administrativo","direito empresarial"]
+    direito administrativo: grandearea="ciências sociais aplicadas", pai=direito
+    direito civil: grandearea="ciências sociais aplicadas", pai=direito
+    direito constitucional: grandearea="ciências sociais aplicadas", pai=direito
+    direito do trabalho: grandearea="ciências sociais aplicadas", pai=direito, sinonimo="direito trabalhista"
+    direito empresarial: grandearea="ciências sociais aplicadas", pai=direito, sinonimo="direito comercial"
+    direito internacional: grandearea="ciências sociais aplicadas", pai=direito
+    direito penal: grandearea="ciências sociais aplicadas", pai=direito, sinonimo="direito criminal"
+    direito tributário: grandearea="ciências sociais aplicadas", pai=direito, sinonimo="direito fiscal"
+    ecologia: grandearea="ciências biológicas", pai=biologia, adjetivo=[ecológico,ecológica]
+    econometria: grandearea="ciências sociais aplicadas", pai=economia
+    economia: grandearea="ciências sociais aplicadas", sinonimo=["ciências econômicas","ciências económicas"], adjetivo=[econômico,econômica,económico,económica], filho=[microeconomia,macroeconomia,econometria]
+    economia doméstica: grandearea=multidisciplinar, sinonimo="ciências domésticas", escolar=1
+    educação: grandearea="ciências humanas", adjetivo=educacional, filho=[pedagogia,"educação infantil","educação especial",didática]
+    educação ambiental: grandearea=multidisciplinar, pai="ciências ambientais", escolar=1
+    educação artística: grandearea="linguística, letras e artes", pai=arte, escolar=1, br=1
+    educação especial: grandearea="ciências humanas", pai=educação, sinonimo="educação inclusiva"
+    educação financeira: grandearea="ciências sociais aplicadas", pai=finanças, escolar=1
+    educação física: grandearea="ciências da saúde", escolar=1
+    educação infantil: grandearea="ciências humanas", pai=educação
+    educação moral e cívica: grandearea="ciências humanas", pai="estudos sociais", sinonimo=["moral e cívica",emc], escolar=1, br=1
+    educação para o trânsito: grandearea=multidisciplinar, sinonimo=["educação no trânsito","educação rodoviária"], escolar=1
+    educação tecnológica: grandearea=engenharias, pai=tecnologia, escolar=1, pt=1
+    educação visual: grandearea="linguística, letras e artes", pai=arte, escolar=1, pt=1
+    empreendedorismo: grandearea="ciências sociais aplicadas", pai=administração
+    enfermagem: grandearea="ciências da saúde"
+    engenharia: grandearea=engenharias, sinonimo=engenharias, filho=["engenharia civil","engenharia mecânica","engenharia elétrica","engenharia química","engenharia aeroespacial","engenharia biomédica","engenharia de produção","engenharia ambiental","engenharia nuclear","engenharia de petróleo","engenharia de minas","engenharia naval","engenharia de sistemas","engenharia de computação","engenharia de controle e automação","engenharia de materiais",robótica]
+    engenharia aeroespacial: grandearea=engenharias, pai=engenharia, sinonimo="engenharia aeronáutica"
+    engenharia agrícola: grandearea="ciências agrárias", pai="ciências agrárias", sinonimo="engenharia rural"
+    engenharia ambiental: grandearea=engenharias, pai=engenharia, sinonimo="engenharia sanitária e ambiental"
+    engenharia biomédica: grandearea=engenharias, pai=engenharia, sinonimo=bioengenharia
+    engenharia civil: grandearea=engenharias, pai=engenharia, filho=["engenharia sanitária","engenharia de estruturas"]
+    engenharia de computação: grandearea=engenharias, pai=engenharia, sinonimo=["engenharia da computação","engenharia informática"]
+    engenharia de controle e automação: grandearea=engenharias, pai=engenharia, sinonimo=["engenharia de automação","engenharia mecatrônica",mecatrônica,mecatrónica]
+    engenharia de estruturas: grandearea=engenharias, pai="engenharia civil", sinonimo="engenharia estrutural"
+    engenharia de materiais: grandearea=engenharias, pai=engenharia, sinonimo=["ciência dos materiais","ciência de materiais","ciência e engenharia de materiais"]
+    engenharia de minas: grandearea=engenharias, pai=engenharia
+    engenharia de pesca: grandearea="ciências agrárias", pai="ciências agrárias", sinonimo=["recursos pesqueiros",aquicultura]
+    engenharia de petróleo: grandearea=engenharias, pai=engenharia, sinonimo="engenharia do petróleo"
+    engenharia de produção: grandearea=engenharias, pai=engenharia, sinonimo="engenharia industrial"
+    engenharia de sistemas: grandearea=engenharias, pai=engenharia
+    engenharia de software: grandearea="ciências exatas e da terra", pai="ciência da computação"
+    engenharia de telecomunicações: grandearea=engenharias, pai="engenharia elétrica"
+    engenharia eletrônica: grandearea=engenharias, pai="engenharia elétrica", sinonimo="engenharia eletrónica"
+    engenharia elétrica: grandearea=engenharias, pai=engenharia, sinonimo=["engenharia eletrotécnica","engenharia electrotécnica"], filho=["engenharia eletrônica","engenharia de telecomunicações"]
+    engenharia florestal: grandearea="ciências agrárias", pai="ciências agrárias", sinonimo=["ciências florestais",silvicultura]
+    engenharia mecânica: grandearea=engenharias, pai=engenharia
+    engenharia naval: grandearea=engenharias, pai=engenharia, sinonimo="engenharia naval e oceânica"
+    engenharia nuclear: grandearea=engenharias, pai=engenharia
+    engenharia química: grandearea=engenharias, pai=engenharia
+    engenharia sanitária: grandearea=engenharias, pai="engenharia civil"
+    ensino religioso: grandearea="ciências humanas", pai="ciências da religião", sinonimo=["educação religiosa","educação moral e religiosa"], escolar=1
+    entomologia: grandearea="ciências biológicas", pai=biologia
+    epidemiologia: grandearea="ciências da saúde", pai="saúde coletiva", adjetivo=[epidemiológico,epidemiológica]
+    epistemologia: grandearea="ciências humanas", pai=filosofia
+    escrita criativa: grandearea="linguística, letras e artes", pai=letras
+    escultura: grandearea="linguística, letras e artes", pai=arte
+    espanhol: grandearea="linguística, letras e artes", pai="línguas estrangeiras", sinonimo=["língua espanhola",castelhano], escolar=1, idioma=1
+    estatística: grandearea="ciências exatas e da terra", pai=matemática, sinonimo="probabilidade e estatística", adjetivo=[estatístico,estatística]
+    estudo do meio: grandearea="ciências humanas", pai="estudos sociais", escolar=1, pt=1
+    estudos clássicos: grandearea="linguística, letras e artes", pai=letras, sinonimo="letras clássicas", adjetivo=[clássico,clássica], filho=[latim,grego]
+    estudos de gênero: grandearea="ciências humanas", sinonimo=["estudos de género","estudos feministas"]
+    estudos interdisciplinares: grandearea=multidisciplinar, sinonimo=["estudos multidisciplinares",interdisciplinar]
+    estudos sociais: grandearea="ciências humanas", filho=[história,geografia,"estudo do meio","educação moral e cívica","organização social e política brasileira","cidadania e desenvolvimento"], escolar=1
+    farmacologia: grandearea="ciências biológicas", pai=biologia, adjetivo=[farmacológico,farmacológica]
+    farmácia: grandearea="ciências da saúde", sinonimo="ciências farmacêuticas", adjetivo=[farmacêutico,farmacêutica]
+    filosofia: grandearea="ciências humanas", pai=humanidades, adjetivo=[filosófico,filosófica], filho=["ética",metafísica,epistemologia], escolar=1
+    finanças: grandearea="ciências sociais aplicadas", pai=administração, adjetivo=[financeiro,financeira], filho="educação financeira"
+    fisiologia: grandearea="ciências biológicas", pai=biologia, adjetivo=[fisiológico,fisiológica]
+    fisioterapia: grandearea="ciências da saúde"
+    fonoaudiologia: grandearea="ciências da saúde", sinonimo="terapia da fala", filho=audiologia
+    fotografia: grandearea="linguística, letras e artes", pai=arte, adjetivo=[fotográfico,fotográfica]
+    francês: grandearea="linguística, letras e artes", pai="línguas estrangeiras", sinonimo="língua francesa", escolar=1, idioma=1
+    física: grandearea="ciências exatas e da terra", pai=ciências, filho=[astrofísica,"física nuclear","física de partículas","mecânica quântica",termodinâmica,"óptica",mecânica], escolar=1
+    física de partículas: grandearea="ciências exatas e da terra", pai=física, sinonimo="física de altas energias"
+    física nuclear: grandearea="ciências exatas e da terra", pai=física
+    físico-química: grandearea="ciências exatas e da terra", pai=química, sinonimo="ciências físico-químicas", escolar=1
+    genética: grandearea="ciências biológicas", pai=biologia, adjetivo=[genético,genética], filho=genômica
+    genômica: grandearea="ciências biológicas", pai=genética, sinonimo=genómica, adjetivo=[genômico,genômica,genómico,genómica]
+    geociências: grandearea="ciências exatas e da terra", pai=ciências, sinonimo="ciências da terra", filho=[geologia,meteorologia,oceanografia,climatologia,sismologia,hidrologia,paleontologia]
+    geografia: grandearea="ciências humanas", pai="estudos sociais", adjetivo=[geográfico,geográfica], filho=["geografia humana","geografia física"], escolar=1
+    geografia física: grandearea="ciências humanas", pai=geografia
+    geografia humana: grandearea="ciências humanas", pai=geografia
+    geologia: grandearea="ciências exatas e da terra", pai=geociências, adjetivo=[geológico,geológica]
+    geometria: grandearea="ciências exatas e da terra", pai=matemática, adjetivo=[geométrico,geométrica], escolar=1
+    geriatria: grandearea="ciências da saúde", pai=medicina
+    gestão em saúde: grandearea="ciências da saúde", pai="saúde coletiva", sinonimo=["gestão hospitalar","administração hospitalar"]
+    gestão imobiliária: grandearea="ciências sociais aplicadas", pai=administração, sinonimo="negócios imobiliários"
+    ginecologia: grandearea="ciências da saúde", pai=medicina
+    gramática: grandearea="linguística, letras e artes", pai="língua portuguesa", adjetivo=gramatical, escolar=1
+    gravura: grandearea="linguística, letras e artes", pai=arte
+    grego: grandearea="linguística, letras e artes", pai="estudos clássicos", idioma=1
+    hebraico: grandearea="linguística, letras e artes", pai="línguas estrangeiras", idioma=1
+    hidrologia: grandearea="ciências exatas e da terra", pai=geociências
+    história: grandearea="ciências humanas", pai="estudos sociais", adjetivo=[histórico,histórica], filho=["história antiga","história geral","história do brasil","história de portugal","história da arte"], escolar=1
+    história antiga: grandearea="ciências humanas", pai=história
+    história da arte: grandearea="ciências humanas", pai=história
+    história de portugal: grandearea="ciências humanas", pai=história, escolar=1, pt=1
+    história do brasil: grandearea="ciências humanas", pai=história, escolar=1, br=1
+    história geral: grandearea="ciências humanas", pai=história, sinonimo="história mundial", escolar=1
+    horticultura: grandearea="ciências agrárias", pai="ciências agrárias"
+    hotelaria: grandearea="ciências sociais aplicadas", pai=administração, sinonimo="gestão hoteleira"
+    humanidades: grandearea="ciências humanas", sinonimo="ciências humanas", filho=[filosofia,"ciências da religião"]
+    imunologia: grandearea="ciências biológicas", pai=biologia, adjetivo=[imunológico,imunológica]
+    inglês: grandearea="linguística, letras e artes", pai="línguas estrangeiras", sinonimo="língua inglesa", escolar=1, idioma=1
+    inteligência artificial: grandearea="ciências exatas e da terra", pai="ciência da computação", sinonimo=ia, filho="aprendizado de máquina"
+    interação humano-computador: grandearea="ciências exatas e da terra", pai="ciência da computação", sinonimo=[ihc,"interação pessoa-computador"]
+    italiano: grandearea="linguística, letras e artes", pai="línguas estrangeiras", sinonimo="língua italiana", idioma=1
+    japonês: grandearea="linguística, letras e artes", pai="línguas estrangeiras", idioma=1
+    jornalismo: grandearea="ciências sociais aplicadas", pai=comunicação, adjetivo=[jornalístico,jornalística]
+    latim: grandearea="linguística, letras e artes", pai="estudos clássicos", idioma=1
+    leitura: grandearea="linguística, letras e artes", pai="língua portuguesa", escolar=1
+    letras: grandearea="linguística, letras e artes", filho=[linguística,"língua portuguesa",literatura,"escrita criativa",retórica,"estudos clássicos","línguas estrangeiras",libras]
+    libras: grandearea="linguística, letras e artes", pai=letras, sinonimo="língua brasileira de sinais", escolar=1, idioma=1, br=1
+    linguística: grandearea="linguística, letras e artes", pai=letras, sinonimo=lingüística, adjetivo=[linguístico,linguística]
+    literatura: grandearea="linguística, letras e artes", pai=letras, adjetivo=[literário,literária], filho=poesia, escolar=1
+    logística: grandearea="ciências sociais aplicadas", pai=administração, sinonimo=["cadeia de suprimentos","gestão da cadeia de suprimentos"]
+    língua portuguesa: grandearea="linguística, letras e artes", pai=letras, sinonimo=português, filho=[redação,gramática,leitura], escolar=1, idioma=1
+    línguas estrangeiras: grandearea="linguística, letras e artes", pai=letras, sinonimo=["língua estrangeira","línguas modernas","língua estrangeira moderna"], filho=[inglês,espanhol,francês,alemão,italiano,russo,chinês,japonês,coreano,"árabe",hebraico], escolar=1
+    lógica: grandearea="ciências exatas e da terra", adjetivo=[lógico,lógica]
+    macroeconomia: grandearea="ciências sociais aplicadas", pai=economia
+    marketing: grandearea="ciências sociais aplicadas", pai=administração, sinonimo=mercadologia
+    matemática: grandearea="ciências exatas e da terra", sinonimo=matemáticas, adjetivo=[matemático,matemática], filho=[aritmética,"álgebra",geometria,trigonometria,cálculo,estatística,probabilidade,"teoria dos números",topologia,"álgebra linear","matemática discreta","matemática aplicada"], escolar=1
+    matemática aplicada: grandearea="ciências exatas e da terra", pai=matemática
+    matemática discreta: grandearea="ciências exatas e da terra", pai=matemática
+    mecânica: grandearea="ciências exatas e da terra", pai=física
+    mecânica quântica: grandearea="ciências exatas e da terra", pai=física, sinonimo="física quântica"
+    medicina: grandearea="ciências da saúde", adjetivo=[médico,médica], filho=[cirurgia,pediatria,psiquiatria,cardiologia,oncologia,radiologia,neurologia,patologia,anestesiologia,dermatologia,obstetrícia,ginecologia,ortopedia,geriatria,"medicina de família"]
+    medicina de família: grandearea="ciências da saúde", pai=medicina, sinonimo=["medicina de família e comunidade","medicina geral e familiar"]
+    medicina veterinária: grandearea="ciências agrárias", sinonimo=veterinária, adjetivo=[veterinário,veterinária]
+    metafísica: grandearea="ciências humanas", pai=filosofia
+    meteorologia: grandearea="ciências exatas e da terra", pai=geociências, adjetivo=[meteorológico,meteorológica]
+    micologia: grandearea="ciências biológicas", pai=biologia
+    microbiologia: grandearea="ciências biológicas", pai=biologia, adjetivo=[microbiológico,microbiológica]
+    microeconomia: grandearea="ciências sociais aplicadas", pai=economia
+    museologia: grandearea="ciências sociais aplicadas", pai="ciência da informação"
+    música: grandearea="linguística, letras e artes", adjetivo=musical, filho=["teoria musical","composição musical"], escolar=1
+    neurociência: grandearea="ciências biológicas", pai=biologia, sinonimo=[neurociências,neurobiologia]
+    neurologia: grandearea="ciências da saúde", pai=medicina
+    nutrição: grandearea="ciências da saúde", sinonimo=["nutrição e dietética",dietética], adjetivo=nutricional
+    obstetrícia: grandearea="ciências da saúde", pai=medicina
+    oceanografia: grandearea="ciências exatas e da terra", pai=geociências, sinonimo="ciências do mar", adjetivo=[oceanográfico,oceanográfica]
+    odontologia: grandearea="ciências da saúde", sinonimo="medicina dentária", adjetivo=[odontológico,odontológica]
+    oncologia: grandearea="ciências da saúde", pai=medicina
+    optometria: grandearea="ciências da saúde"
+    organização social e política brasileira: grandearea="ciências humanas", pai="estudos sociais", sinonimo=ospb, escolar=1, br=1
+    ornitologia: grandearea="ciências biológicas", pai=biologia
+    ortopedia: grandearea="ciências da saúde", pai=medicina
+    paisagismo: grandearea="ciências sociais aplicadas", pai=arquitetura, sinonimo=["arquitetura paisagista","arquitetura paisagística"]
+    paleontologia: grandearea="ciências exatas e da terra", pai=geociências
+    parasitologia: grandearea="ciências biológicas", pai=biologia
+    patologia: grandearea="ciências da saúde", pai=medicina, adjetivo=[patológico,patológica]
+    pedagogia: grandearea="ciências humanas", pai=educação, adjetivo=[pedagógico,pedagógica]
+    pediatria: grandearea="ciências da saúde", pai=medicina, adjetivo=[pediátrico,pediátrica]
+    pesquisa: grandearea=multidisciplinar, sinonimo=investigação
+    pintura: grandearea="linguística, letras e artes", pai=arte
+    planejamento urbano: grandearea="ciências sociais aplicadas", sinonimo=["planejamento urbano e regional",urbanismo,"planeamento urbano"]
+    podologia: grandearea="ciências da saúde"
+    poesia: grandearea="linguística, letras e artes", pai=literatura, adjetivo=[poético,poética]
+    políticas públicas: grandearea="ciências sociais aplicadas", pai="administração pública", sinonimo="política pública"
+    probabilidade: grandearea="ciências exatas e da terra", pai=matemática
+    projeto de vida: grandearea=multidisciplinar, escolar=1, br=1
+    psicologia: grandearea="ciências humanas", adjetivo=[psicológico,psicológica], filho=["psicologia clínica","psicologia do desenvolvimento","psicologia social","psicologia da educação","ciência cognitiva"]
+    psicologia clínica: grandearea="ciências humanas", pai=psicologia
+    psicologia da educação: grandearea="ciências humanas", pai=psicologia, sinonimo="psicologia educacional"
+    psicologia do desenvolvimento: grandearea="ciências humanas", pai=psicologia
+    psicologia social: grandearea="ciências humanas", pai=psicologia
+    psiquiatria: grandearea="ciências da saúde", pai=medicina, adjetivo=[psiquiátrico,psiquiátrica]
+    publicidade e propaganda: grandearea="ciências sociais aplicadas", pai=comunicação, sinonimo=publicidade, adjetivo=[publicitário,publicitária]
+    quiropraxia: grandearea="ciências da saúde"
+    química: grandearea="ciências exatas e da terra", pai=ciências, adjetivo=[químico,química], filho=["química orgânica","química inorgânica",físico-química,"química analítica"], escolar=1
+    química analítica: grandearea="ciências exatas e da terra", pai=química
+    química inorgânica: grandearea="ciências exatas e da terra", pai=química
+    química orgânica: grandearea="ciências exatas e da terra", pai=química
+    radiologia: grandearea="ciências da saúde", pai=medicina
+    recursos humanos: grandearea="ciências sociais aplicadas", pai=administração, sinonimo=["gestão de pessoas","gestão de recursos humanos"]
+    redação: grandearea="linguística, letras e artes", pai="língua portuguesa", sinonimo=["produção de texto","produção textual"], escolar=1
+    relações internacionais: grandearea="ciências sociais aplicadas", sinonimo="estudos internacionais"
+    relações públicas: grandearea="ciências sociais aplicadas", pai=comunicação
+    retórica: grandearea="linguística, letras e artes", pai=letras, adjetivo=[retórico,retórica]
+    robótica: grandearea=engenharias, pai=engenharia
+    russo: grandearea="linguística, letras e artes", pai="línguas estrangeiras", idioma=1
+    rádio e televisão: grandearea="ciências sociais aplicadas", pai=comunicação, sinonimo=["rádio, tv e internet","estudos de mídia","estudos dos media"]
+    saúde: grandearea="ciências da saúde", sinonimo="educação para a saúde"
+    saúde coletiva: grandearea="ciências da saúde", sinonimo="saúde pública", filho=[epidemiologia,"gestão em saúde"]
+    secretariado: grandearea="ciências sociais aplicadas", pai=administração, sinonimo="secretariado executivo"
+    segurança da informação: grandearea="ciências exatas e da terra", pai="ciência da computação", sinonimo=[cibersegurança,"segurança cibernética"]
+    serviço social: grandearea="ciências sociais aplicadas", sinonimo="assistência social"
+    sismologia: grandearea="ciências exatas e da terra", pai=geociências
+    sistemas de informação: grandearea="ciências exatas e da terra", pai="ciência da computação"
+    sociologia: grandearea="ciências humanas", adjetivo=[sociológico,sociológica], filho=criminologia, escolar=1
+    sustentabilidade: grandearea=multidisciplinar, pai="ciências ambientais"
+    teatro: grandearea="linguística, letras e artes", pai="artes cênicas", sinonimo="arte dramática", adjetivo=teatral, escolar=1
+    tecnologia: grandearea=engenharias, adjetivo=[tecnológico,tecnológica], filho=["educação tecnológica","desenho técnico"]
+    tecnologia da informação: grandearea="ciências exatas e da terra", pai="ciência da computação", sinonimo=ti, filho="tecnologias da informação e comunicação"
+    tecnologias da informação e comunicação: grandearea="ciências exatas e da terra", pai="tecnologia da informação", sinonimo=tic, escolar=1, pt=1
+    teologia: grandearea="ciências humanas", pai="ciências da religião", adjetivo=[teológico,teológica]
+    teoria dos números: grandearea="ciências exatas e da terra", pai=matemática
+    teoria musical: grandearea="linguística, letras e artes", pai=música
+    terapia ocupacional: grandearea="ciências da saúde"
+    termodinâmica: grandearea="ciências exatas e da terra", pai=física
+    topologia: grandearea="ciências exatas e da terra", pai=matemática
+    trigonometria: grandearea="ciências exatas e da terra", pai=matemática, adjetivo=[trigonométrico,trigonométrica], escolar=1
+    turismo: grandearea="ciências sociais aplicadas", adjetivo=[turístico,turística]
+    virologia: grandearea="ciências biológicas", pai=biologia
+    zoologia: grandearea="ciências biológicas", pai=biologia, adjetivo=[zoológico,zoológica]
+    zootecnia: grandearea="ciências agrárias", pai="ciências agrárias", sinonimo="produção animal"
+    álgebra: grandearea="ciências exatas e da terra", pai=matemática, adjetivo=[algébrico,algébrica], escolar=1
+    álgebra linear: grandearea="ciências exatas e da terra", pai=matemática
+    árabe: grandearea="linguística, letras e artes", pai="línguas estrangeiras", idioma=1
+    ética: grandearea="ciências humanas", pai=filosofia, adjetivo=["ético","ética"]
+    óptica: grandearea="ciências exatas e da terra", pai=física, sinonimo="ótica", adjetivo=["óptico","óptica","ótico","ótica"]
+  grandearea
+    ciências exatas e da terra: total=50, topo=["ciência da computação",ciências,lógica,matemática], area=["aprendizado de máquina",aritmética,astrofísica,astronomia,"ciência da computação","ciência de dados",ciências,"ciências planetárias",climatologia,"computação gráfica",cosmologia,cálculo,"engenharia de software",estatística,física,"física de partículas","física nuclear",físico-química,geociências,geologia,geometria,hidrologia,"inteligência artificial","interação humano-computador",lógica,matemática,"matemática aplicada","matemática discreta",mecânica,"mecânica quântica",meteorologia,oceanografia,paleontologia,probabilidade,química,"química analítica","química inorgânica","química orgânica","segurança da informação",sismologia,"sistemas de informação","tecnologia da informação","tecnologias da informação e comunicação","teoria dos números",termodinâmica,topologia,trigonometria,"álgebra","álgebra linear","óptica"]
+    ciências biológicas: total=24, area=[anatomia,bacteriologia,biofísica,biologia,"biologia celular","biologia evolutiva","biologia marinha","biologia molecular",bioquímica,botânica,ecologia,entomologia,farmacologia,fisiologia,genética,genômica,imunologia,micologia,microbiologia,neurociência,ornitologia,parasitologia,virologia,zoologia]
+    engenharias: total=25, topo=[engenharia,tecnologia], area=["desenho técnico","educação tecnológica",engenharia,"engenharia aeroespacial","engenharia ambiental","engenharia biomédica","engenharia civil","engenharia de computação","engenharia de controle e automação","engenharia de estruturas","engenharia de materiais","engenharia de minas","engenharia de petróleo","engenharia de produção","engenharia de sistemas","engenharia de telecomunicações","engenharia eletrônica","engenharia elétrica","engenharia mecânica","engenharia naval","engenharia nuclear","engenharia química","engenharia sanitária",robótica,tecnologia]
+    ciências da saúde: total=34, topo=[biomedicina,"ciências do esporte","educação física",enfermagem,farmácia,fisioterapia,fonoaudiologia,medicina,nutrição,odontologia,optometria,podologia,quiropraxia,saúde,"saúde coletiva","terapia ocupacional"], area=[anestesiologia,audiologia,biomedicina,cardiologia,cirurgia,"ciências do esporte",dermatologia,"educação física",enfermagem,epidemiologia,farmácia,fisioterapia,fonoaudiologia,geriatria,"gestão em saúde",ginecologia,medicina,"medicina de família",neurologia,nutrição,obstetrícia,odontologia,oncologia,optometria,ortopedia,patologia,pediatria,podologia,psiquiatria,quiropraxia,radiologia,saúde,"saúde coletiva","terapia ocupacional"]
+    ciências agrárias: total=10, topo=["ciências agrárias","medicina veterinária"], area=[agronomia,"ciência do solo","ciência e tecnologia de alimentos","ciências agrárias","engenharia agrícola","engenharia de pesca","engenharia florestal",horticultura,"medicina veterinária",zootecnia]
+    ciências sociais aplicadas: total=49, topo=[administração,"administração pública",arquitetura,"ciência da informação",comunicação,demografia,design,direito,economia,"planejamento urbano","relações internacionais","serviço social",turismo], area=[administração,"administração pública",arquitetura,arquivologia,biblioteconomia,"ciência da informação","ciências atuariais",comunicação,"comércio exterior",contabilidade,demografia,design,"design de interiores","design de moda","design de produto","design gráfico",direito,"direito administrativo","direito civil","direito constitucional","direito do trabalho","direito empresarial","direito internacional","direito penal","direito tributário",econometria,economia,"educação financeira",empreendedorismo,finanças,"gestão imobiliária",hotelaria,jornalismo,logística,macroeconomia,marketing,microeconomia,museologia,paisagismo,"planejamento urbano","políticas públicas","publicidade e propaganda","recursos humanos","relações internacionais","relações públicas","rádio e televisão",secretariado,"serviço social",turismo]
+    ciências humanas: total=39, topo=[antropologia,"ciência política",educação,"estudos de gênero","estudos sociais",humanidades,psicologia,sociologia], area=[antropologia,arqueologia,"cidadania e desenvolvimento","ciência cognitiva","ciência política","ciências da religião",criminologia,didática,educação,"educação especial","educação infantil","educação moral e cívica","ensino religioso",epistemologia,"estudo do meio","estudos de gênero","estudos sociais",filosofia,geografia,"geografia física","geografia humana",história,"história antiga","história da arte","história de portugal","história do brasil","história geral",humanidades,metafísica,"organização social e política brasileira",pedagogia,psicologia,"psicologia clínica","psicologia da educação","psicologia do desenvolvimento","psicologia social",sociologia,teologia,"ética"]
+    linguística, letras e artes: total=44, topo=[arte,"artes cênicas",cinema,letras,música], area=[alemão,arte,"artes aplicadas","artes cênicas",belas-artes,cerâmica,chinês,cinema,"composição musical",coreano,dança,desenho,"educação artística","educação visual","escrita criativa",escultura,espanhol,"estudos clássicos",fotografia,francês,gramática,gravura,grego,hebraico,inglês,italiano,japonês,latim,leitura,letras,libras,linguística,literatura,"língua portuguesa","línguas estrangeiras",música,pintura,poesia,redação,retórica,russo,teatro,"teoria musical","árabe"]
+    multidisciplinar: total=12, topo=["artes liberais","ciências ambientais","ciências aplicadas",datilografia,"economia doméstica","educação para o trânsito","estudos interdisciplinares",pesquisa,"projeto de vida"], area=["artes liberais",biotecnologia,"ciências ambientais","ciências aplicadas",datilografia,"economia doméstica","educação ambiental","educação para o trânsito","estudos interdisciplinares",pesquisa,"projeto de vida",sustentabilidade]

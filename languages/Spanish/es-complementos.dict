@@ -1,0 +1,142 @@
+# Complementos de dirección: piso, puerta, escalera, departamento...
+# Lo que sigue al número de la calle en una dirección de España o de
+# Latinoamérica (equivale a en-postal-secondary-designators.dict).
+#   complemento=1  en todas las entradas
+#   abrev=         la abreviatura canónica, en la forma desarrollada
+#   completo=      la forma desarrollada, en una abreviatura
+#   sin=1          una abreviatura variante (dpto, dto junto a depto)
+#   ambig=1        la abreviatura es también una palabra corriente u otra
+#                  abreviatura frecuente (p, pl = plaza, pta = peseta,
+#                  of, ed, sec...), o la forma desarrollada es
+#                  además una palabra gramatical (bajo) o de otro uso
+#                  frecuente (apartado)
+# Casi todas las formas desarrolladas son también palabras corrientes (piso,
+# puerta, local, planta, torre), así que la lectura como complemento necesita
+# contexto: tras el número de la calle o delante de un número u ordinal
+# (3º izda, depto 4B).  Solo se marcan con ambig=1 los casos de arriba.
+# Las abreviaturas van sin punto (dpto., izq.): el tokenizador separa el punto.
+apart complemento=1 completo=apartamento sin=1 pos=s
+apartado complemento=1 abrev=apdo ambig=1 pos=s
+apartado pos=v
+apartamento complemento=1 abrev=apto pos=s
+apdo complemento=1 completo=apartado pos=s
+apt complemento=1 completo=apartamento sin=1 ambig=1 pos=s
+aptdo complemento=1 completo=apartado sin=1 pos=s
+apto complemento=1 completo=apartamento ambig=1 pos=adj
+apto pos=s
+apto pos=v
+át complemento=1 completo="ático" pos=s
+atco complemento=1 completo="ático" sin=1 pos=s
+ático complemento=1 abrev="át" pos=adj
+ático pos=s
+bajo complemento=1 abrev=bj ambig=1 pos=adj
+bajo pos=adv
+bajo pos=prep
+bajo pos=s
+bajo pos=v
+bj complemento=1 completo=bajo pos=s
+bjo complemento=1 completo=bajo sin=1 pos=s
+bl complemento=1 completo=bloque sin=1 pos=s
+bloq complemento=1 completo=bloque sin=1 pos=s
+bloque complemento=1 abrev=blq pos=s
+bloque pos=v
+blq complemento=1 completo=bloque pos=s
+casa complemento=1 abrev=cs pos=s
+casa pos=v
+centro complemento=1 abrev=ctro pos=s
+centro pos=v
+conj complemento=1 completo=conjunto ambig=1 pos=s
+conjunto complemento=1 abrev=conj pos=adj
+conjunto pos=s
+conjunto pos=v
+cs complemento=1 completo=casa ambig=1 pos=s
+ctro complemento=1 completo=centro pos=s
+dcha complemento=1 completo=derecha pos=s
+departamento complemento=1 abrev=depto pos=s
+depto complemento=1 completo=departamento pos=s
+der complemento=1 completo=derecha sin=1 ambig=1 pos=s
+derecha complemento=1 abrev=dcha pos=adj
+derecha pos=s
+dpto complemento=1 completo=departamento sin=1 pos=s
+dto complemento=1 completo=departamento sin=1 ambig=1 pos=s
+ed complemento=1 completo=edificio sin=1 ambig=1 pos=s
+edf complemento=1 completo=edificio sin=1 pos=s
+edif complemento=1 completo=edificio pos=s
+edificio complemento=1 abrev=edif pos=s
+entl complemento=1 completo=entresuelo sin=1 pos=s
+entlo complemento=1 completo=entresuelo pos=s
+entresuelo complemento=1 abrev=entlo pos=s
+esc complemento=1 completo=escalera ambig=1 pos=s
+escal complemento=1 completo=escalera sin=1 pos=s
+escalera complemento=1 abrev=esc pos=s
+et complemento=1 completo=etapa ambig=1 pos=s
+etapa complemento=1 abrev=et pos=s
+ext complemento=1 completo=exterior ambig=1 pos=s
+exterior complemento=1 abrev=ext pos=adj
+exterior pos=s
+fase complemento=1 pos=s
+hab complemento=1 completo=habitación ambig=1 pos=s
+habitación complemento=1 abrev=hab pos=s
+int complemento=1 completo=interior ambig=1 pos=s
+interior complemento=1 abrev=int pos=adj
+interior pos=s
+izda complemento=1 completo=izquierda sin=1 pos=s
+izq complemento=1 completo=izquierda pos=s
+izqda complemento=1 completo=izquierda sin=1 pos=s
+izquierda complemento=1 abrev=izq pos=adj
+izquierda pos=s
+lc complemento=1 completo=local sin=1 pos=s
+loc complemento=1 completo=local ambig=1 pos=s
+local complemento=1 abrev=loc pos=adj
+local pos=s
+lote complemento=1 abrev=lt pos=s
+lt complemento=1 completo=lote ambig=1 pos=s
+lte complemento=1 completo=lote sin=1 pos=s
+manz complemento=1 completo=manzana sin=1 pos=s
+manzana complemento=1 abrev=mz pos=s
+mod complemento=1 completo=módulo sin=1 ambig=1 pos=s
+mód complemento=1 completo=módulo pos=s
+módulo complemento=1 abrev=mód pos=s
+mz complemento=1 completo=manzana pos=s
+mza complemento=1 completo=manzana sin=1 pos=s
+nave complemento=1 pos=s
+of complemento=1 completo=oficina ambig=1 pos=s
+ofic complemento=1 completo=oficina sin=1 pos=s
+oficina complemento=1 abrev=of pos=s
+ofna complemento=1 completo=oficina sin=1 pos=s
+p complemento=1 completo=piso ambig=1 pos=s
+parc complemento=1 completo=parcela pos=s
+parcela complemento=1 abrev=parc pos=s
+parcela pos=v
+penthouse complemento=1 abrev=ph pos=s
+ph complemento=1 completo=penthouse pos=s
+piso complemento=1 abrev=p pos=s
+piso pos=v
+pl complemento=1 completo=planta ambig=1 pos=s
+planta complemento=1 abrev=pl pos=s
+planta pos=v
+plta complemento=1 completo=planta sin=1 pos=s
+port complemento=1 completo=portal sin=1 ambig=1 pos=s
+portal complemento=1 abrev=ptal pos=adj
+portal pos=s
+ppal complemento=1 completo=principal sin=1 pos=s
+pral complemento=1 completo=principal pos=s
+principal complemento=1 abrev=pral pos=adj
+principal pos=s
+pso complemento=1 completo=piso sin=1 pos=s
+pt complemento=1 completo=puerta sin=1 ambig=1 pos=s
+pta complemento=1 completo=puerta ambig=1 pos=s
+ptal complemento=1 completo=portal pos=s
+puerta complemento=1 abrev=pta pos=s
+sec complemento=1 completo=sector sin=1 ambig=1 pos=s
+sect complemento=1 completo=sector pos=s
+sector complemento=1 abrev=sect pos=s
+semisótano complemento=1 abrev=ssot pos=s
+sot complemento=1 completo=sótano sin=1 ambig=1 pos=s
+sót complemento=1 completo=sótano pos=s
+sótano complemento=1 abrev=sót pos=s
+ssot complemento=1 completo=semisótano pos=s
+suite complemento=1 pos=s
+torre complemento=1 abrev=tr pos=s
+torre pos=v
+tr complemento=1 completo=torre pos=s

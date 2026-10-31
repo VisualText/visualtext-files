@@ -1,0 +1,67 @@
+# Direções da rosa dos ventos (norte, sul, no, norte-nordeste, etc.)
+# Os dezasseis rumos.  Tanto o nome por extenso como as suas variantes e
+# abreviaturas são conceitos aqui, e todos levam rumo= (graus no sentido
+# horário a partir do norte), para que qualquer forma se resolva sozinha.
+#   direcao=   nome canónico do rumo       abrev=  abreviatura padrão (Brasil)
+#   sin=1      outra forma por extenso     pt=1    uso europeu (este, E)
+#   internacional=1  abreviatura internacional (sw, w, nw)
+#   ambig=1    também é palavra comum (no, o, e, se, este, leste)
+# Toda forma aqui citada é etiquetada por pt-direcoes.dict.
+direcoes
+  norte: direcao=norte, abrev=n, rumo=0
+  norte-nordeste: direcao=norte-nordeste, abrev=nne, rumo=22.5
+  nor-nordeste: direcao=norte-nordeste, rumo=22.5, sin=1
+  nordeste: direcao=nordeste, abrev=ne, rumo=45
+  leste-nordeste: direcao=leste-nordeste, abrev=lne, rumo=67.5
+  lés-nordeste: direcao=leste-nordeste, rumo=67.5, sin=1
+  este-nordeste: direcao=leste-nordeste, rumo=67.5, sin=1, pt=1
+  és-nordeste: direcao=leste-nordeste, rumo=67.5, sin=1, pt=1
+  leste: direcao=leste, abrev=l, rumo=90, ambig=1
+  este: direcao=leste, rumo=90, sin=1, pt=1, ambig=1
+  leste-sudeste: direcao=leste-sudeste, abrev=lse, rumo=112.5
+  lés-sudeste: direcao=leste-sudeste, rumo=112.5, sin=1
+  este-sudeste: direcao=leste-sudeste, rumo=112.5, sin=1, pt=1
+  és-sueste: direcao=leste-sudeste, rumo=112.5, sin=1, pt=1
+  sudeste: direcao=sudeste, abrev=se, rumo=135
+  sueste: direcao=sudeste, rumo=135, sin=1, pt=1
+  sul-sudeste: direcao=sul-sudeste, abrev=sse, rumo=157.5
+  su-sudeste: direcao=sul-sudeste, rumo=157.5, sin=1
+  su-sueste: direcao=sul-sudeste, rumo=157.5, sin=1, pt=1
+  sul: direcao=sul, abrev=s, rumo=180
+  sul-sudoeste: direcao=sul-sudoeste, abrev=sso, rumo=202.5
+  su-sudoeste: direcao=sul-sudoeste, rumo=202.5, sin=1
+  sudoeste: direcao=sudoeste, abrev=so, rumo=225
+  oeste-sudoeste: direcao=oeste-sudoeste, abrev=oso, rumo=247.5
+  oés-sudoeste: direcao=oeste-sudoeste, rumo=247.5, sin=1
+  oeste: direcao=oeste, abrev=o, rumo=270
+  oeste-noroeste: direcao=oeste-noroeste, abrev=ono, rumo=292.5
+  oés-noroeste: direcao=oeste-noroeste, rumo=292.5, sin=1
+  noroeste: direcao=noroeste, abrev=no, rumo=315
+  norte-noroeste: direcao=norte-noroeste, abrev=nno, rumo=337.5
+  nor-noroeste: direcao=norte-noroeste, rumo=337.5, sin=1
+  n: direcao=norte, rumo=0
+  nne: direcao=norte-nordeste, rumo=22.5
+  ne: direcao=nordeste, rumo=45
+  lne: direcao=leste-nordeste, rumo=67.5
+  ene: direcao=leste-nordeste, rumo=67.5, pt=1, internacional=1
+  l: direcao=leste, rumo=90
+  e: direcao=leste, rumo=90, pt=1, internacional=1, ambig=1
+  lse: direcao=leste-sudeste, rumo=112.5
+  ese: direcao=leste-sudeste, rumo=112.5, pt=1, internacional=1
+  se: direcao=sudeste, rumo=135, ambig=1
+  sse: direcao=sul-sudeste, rumo=157.5
+  s: direcao=sul, rumo=180
+  sso: direcao=sul-sudoeste, rumo=202.5
+  ssw: direcao=sul-sudoeste, rumo=202.5, internacional=1
+  so: direcao=sudoeste, rumo=225
+  sw: direcao=sudoeste, rumo=225, internacional=1
+  oso: direcao=oeste-sudoeste, rumo=247.5
+  wsw: direcao=oeste-sudoeste, rumo=247.5, internacional=1
+  o: direcao=oeste, rumo=270, ambig=1
+  w: direcao=oeste, rumo=270, internacional=1
+  ono: direcao=oeste-noroeste, rumo=292.5
+  wnw: direcao=oeste-noroeste, rumo=292.5, internacional=1
+  no: direcao=noroeste, rumo=315, ambig=1
+  nw: direcao=noroeste, rumo=315, internacional=1
+  nno: direcao=norte-noroeste, rumo=337.5
+  nnw: direcao=norte-noroeste, rumo=337.5, internacional=1

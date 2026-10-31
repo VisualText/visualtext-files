@@ -1,0 +1,239 @@
+# Graus académicos em português, ligados aos seus títulos, níveis e áreas.
+# Consulta direta:   grau -> nível, área, títulos  (conceito "graus grau mestrado" -> titulo=[mestre,...])
+# Consulta inversa:  nome -> grau    (conceito "graus nome doctor of philosophy" -> grau=phd)
+# Títulos:           título ou estudante -> grau  ("graus titulo doutora" -> grau=doutorado, gen=f)
+# Abreviaturas:      abreviatura -> grau  ("graus abrev dr" -> grau=doutorado, completo=doutor)
+# Níveis:            nível -> as suas palavras genéricas e os seus graus
+#   nome=         o nome por extenso de um grau citado pela sigla (phd)
+#   nivel=        curta duração | graduação | especialização | mestrado |
+#                 doutorado | pós-doutorado | livre-docência
+#   ciclo=        graduação | pós-graduação
+#   sensu=        lato | stricto
+#   area=         área de estudo, um nome canónico de pt-areas-de-estudo.kbb
+#   latim=        o nome latino que a sigla de facto abrevia
+#   sinonimo=     nomes alternativos          plural=  nomes no plural
+#   titulo=       títulos de quem tem o grau  estudante=  quem o cursa
+#   abrev=        abreviaturas                completo=  o que a abreviatura abrevia
+#   gen=m|f, num=s|p
+#   br=1, pt=1, estrangeiro=1   sistema a que o grau pertence
+#   profissional=1  grau profissional        honorario=1  honoris causa
+#   tratamento=1  também é forma de tratamento (pt-tratamentos.dict)
+# Um grau com mais de uma leitura tem ambig=1 e as leituras adicionais ficam
+# por baixo dele como <grau>1, <grau>2, ... (mesma convenção de
+# en-degrees.kbb).
+# Toda forma aqui citada é etiquetada por pt-graus-academicos.dict.
+graus
+  grau
+    agregação: nivel=livre-docência, sinonimo=["título de agregado","provas de agregação"], pt=1
+    aperfeiçoamento: nivel=especialização, ciclo=pós-graduação, sensu=lato, sinonimo="curso de aperfeiçoamento", br=1
+    associate degree: nivel="curta duração", sinonimo=["associate of arts","associate of science"], estrangeiro=1
+    ba: nome="bachelor of arts", nivel=graduação, ciclo=graduação, area="artes liberais", latim="artium baccalaureus", abrev=ab, estrangeiro=1
+    bacharelado: nivel=graduação, ciclo=graduação, sinonimo="grau de bacharel", plural=bacharelados, titulo=[bacharel,bacharela,bacharéis,bacharelas], estudante=[bacharelando,bacharelanda,bacharelandos,bacharelandas], abrev=[bel,bela], br=1
+    bacharelato: nivel=graduação, ciclo=graduação, plural=bacharelatos, pt=1
+    bba: nome="bachelor of business administration", nivel=graduação, ciclo=graduação, area=administração, estrangeiro=1
+    beng: nome="bachelor of engineering", nivel=graduação, ciclo=graduação, area=engenharia, estrangeiro=1
+    bsc: nome="bachelor of science", nivel=graduação, ciclo=graduação, area=ciências, latim="scientiae baccalaureus", abrev=bs, estrangeiro=1
+    ctesp: nome="curso técnico superior profissional", nivel="curta duração", sinonimo="técnico superior profissional", pt=1
+    dba: nome="doctor of business administration", nivel=doutorado, ciclo=pós-graduação, area=administração, estrangeiro=1
+    doutorado: nivel=doutorado, ciclo=pós-graduação, sensu=stricto, sinonimo=[doutoramento,"doutorado stricto sensu"], plural=[doutorados,doutoramentos], titulo=[doutor,doutora,doutores,doutoras], estudante=[doutorando,doutoranda,doutorandos,doutorandas], abrev=[dr,dra,drs,dras], br=1, pt=1
+    doutorado honoris causa: nivel=doutorado, ciclo=pós-graduação, latim="doctor honoris causa", sinonimo=["honoris causa","doutoramento honoris causa","título de doutor honoris causa"], titulo=["doutor honoris causa","doutora honoris causa"], br=1, pt=1, honorario=1
+    doutorado profissional: nivel=doutorado, ciclo=pós-graduação, sensu=stricto, plural="doutorados profissionais", br=1, profissional=1
+    dsc: nome="doctor of science", nivel=doutorado, ciclo=pós-graduação, area=ciências, latim="scientiae doctor", abrev=scd, estrangeiro=1
+    edd: nome="doctor of education", nivel=doutorado, ciclo=pós-graduação, area=educação, estrangeiro=1
+    especialização: nivel=especialização, ciclo=pós-graduação, sensu=lato, sinonimo=["pós-graduação lato sensu","especialização lato sensu","curso de especialização"], plural=especializações, titulo=[especialista,especialistas], estudante=[especializando,especializanda,especializandos,especializandas], abrev=esp, br=1, pt=1
+    jd: nome="juris doctor", nivel=doutorado, ciclo=pós-graduação, area=direito, latim="juris doctor", estrangeiro=1, profissional=1
+    licenciatura: ambig=1, nivel=graduação, ciclo=graduação, area=educação, sinonimo="licenciatura plena", plural=licenciaturas, titulo=[licenciado,licenciada,licenciados,licenciadas], estudante=[licenciando,licencianda,licenciandos,licenciandas], abrev=lic, br=1
+      licenciatura1: nivel=graduação, ciclo=graduação, sinonimo="licenciatura pré-bolonha", pt=1
+    livre-docência: nivel=livre-docência, sinonimo="livre docência", titulo=[livre-docente,"livre docente",livres-docentes], br=1
+    llb: nome="bachelor of laws", nivel=graduação, ciclo=graduação, area=direito, latim="legum baccalaureus", estrangeiro=1
+    llm: nome="master of laws", nivel=mestrado, ciclo=pós-graduação, area=direito, latim="legum magister", estrangeiro=1
+    ma: nome="master of arts", nivel=mestrado, ciclo=pós-graduação, area="artes liberais", latim="artium magister", estrangeiro=1
+    mba: nome="master of business administration", nivel=especialização, ciclo=pós-graduação, sensu=lato, area=administração, sinonimo=["master in business administration","mba executivo"], plural=mbas, br=1, estrangeiro=1, tratamento=1
+    md: nome="doctor of medicine", nivel=doutorado, ciclo=pós-graduação, area=medicina, latim="medicinae doctor", estrangeiro=1, profissional=1
+    meng: nome="master of engineering", nivel=mestrado, ciclo=pós-graduação, area=engenharia, estrangeiro=1
+    mestrado: nivel=mestrado, ciclo=pós-graduação, sensu=stricto, sinonimo=["mestrado acadêmico","mestrado académico","mestrado stricto sensu"], plural=mestrados, titulo=[mestre,mestra,mestres,mestras], estudante=[mestrando,mestranda,mestrandos,mestrandas], abrev=[me,mestr], br=1, pt=1
+    mestrado integrado: nivel=mestrado, ciclo=pós-graduação, plural="mestrados integrados", pt=1
+    mestrado profissional: nivel=mestrado, ciclo=pós-graduação, sensu=stricto, sinonimo="mestrado profissionalizante", plural="mestrados profissionais", br=1, profissional=1
+    mfa: nome="master of fine arts", nivel=mestrado, ciclo=pós-graduação, area=belas-artes, estrangeiro=1
+    mpa: nome="master of public administration", nivel=mestrado, ciclo=pós-graduação, area="administração pública", estrangeiro=1
+    mph: nome="master of public health", nivel=mestrado, ciclo=pós-graduação, area="saúde coletiva", estrangeiro=1
+    mphil: nome="master of philosophy", nivel=mestrado, ciclo=pós-graduação, area=filosofia, estrangeiro=1
+    msc: nome="master of science", nivel=mestrado, ciclo=pós-graduação, area=ciências, latim="scientiae magister", abrev=ms, estrangeiro=1, tratamento=1
+    phd: nome="doctor of philosophy", nivel=doutorado, ciclo=pós-graduação, area=filosofia, latim="philosophiae doctor", abrev=dphil, estrangeiro=1, tratamento=1
+    pós-doutorado: nivel=pós-doutorado, sinonimo=[pós-doutoramento,"estágio pós-doutoral","estágio de pós-doutorado"], plural=pós-doutorados, titulo=[pós-doutor,pós-doutora], estudante=[pós-doutorando,pós-doutoranda], abrev=[pós-doc,pos-doc,posdoc,postdoc], br=1, pt=1
+    residência multiprofissional: nivel=especialização, ciclo=pós-graduação, sensu=lato, area="saúde coletiva", sinonimo="residência em saúde", br=1, profissional=1
+    residência médica: nivel=especialização, ciclo=pós-graduação, sensu=lato, area=medicina, sinonimo="programa de residência médica", titulo=["médico residente","médica residente","médicos residentes"], br=1, profissional=1
+    sjd: nome="doctor of juridical science", nivel=doutorado, ciclo=pós-graduação, area=direito, latim="scientiae juridicae doctor", abrev=jsd, estrangeiro=1
+    tecnólogo: nivel=graduação, ciclo=graduação, sinonimo=["curso superior de tecnologia","graduação tecnológica"], titulo=[tecnóloga,tecnólogos,tecnólogas], abrev=cst, br=1
+  nome
+    associate of arts: grau="associate degree", nivel="curta duração", sin=1
+    associate of science: grau="associate degree", nivel="curta duração", sin=1
+    bacharelados: grau=bacharelado, nivel=graduação, sin=1, num=p
+    bacharelatos: grau=bacharelato, nivel=graduação, sin=1, num=p
+    bachelor of arts: grau=ba, nivel=graduação
+    bachelor of business administration: grau=bba, nivel=graduação
+    bachelor of engineering: grau=beng, nivel=graduação
+    bachelor of laws: grau=llb, nivel=graduação
+    bachelor of science: grau=bsc, nivel=graduação
+    curso de aperfeiçoamento: grau=aperfeiçoamento, nivel=especialização, sin=1
+    curso de especialização: grau=especialização, nivel=especialização, sin=1
+    curso superior de tecnologia: grau=tecnólogo, nivel=graduação, sin=1
+    curso técnico superior profissional: grau=ctesp, nivel="curta duração"
+    doctor of business administration: grau=dba, nivel=doutorado
+    doctor of education: grau=edd, nivel=doutorado
+    doctor of juridical science: grau=sjd, nivel=doutorado
+    doctor of medicine: grau=md, nivel=doutorado
+    doctor of philosophy: grau=phd, nivel=doutorado
+    doctor of science: grau=dsc, nivel=doutorado
+    doutorado stricto sensu: grau=doutorado, nivel=doutorado, sin=1
+    doutorados: grau=doutorado, nivel=doutorado, sin=1, num=p
+    doutorados profissionais: grau="doutorado profissional", nivel=doutorado, sin=1, num=p
+    doutoramento: grau=doutorado, nivel=doutorado, sin=1, pt=1
+    doutoramento honoris causa: grau="doutorado honoris causa", nivel=doutorado, sin=1, pt=1
+    doutoramentos: grau=doutorado, nivel=doutorado, sin=1, num=p, pt=1
+    especialização lato sensu: grau=especialização, nivel=especialização, sin=1
+    especializações: grau=especialização, nivel=especialização, sin=1, num=p
+    estágio de pós-doutorado: grau=pós-doutorado, nivel=pós-doutorado, sin=1
+    estágio pós-doutoral: grau=pós-doutorado, nivel=pós-doutorado, sin=1
+    graduação tecnológica: grau=tecnólogo, nivel=graduação, sin=1
+    grau de bacharel: grau=bacharelado, nivel=graduação, sin=1
+    honoris causa: grau="doutorado honoris causa", nivel=doutorado, sin=1
+    juris doctor: grau=jd, nivel=doutorado
+    licenciatura plena: grau=licenciatura, nivel=graduação, sin=1
+    licenciatura pré-bolonha: grau=licenciatura, sentido=1, nivel=graduação, sin=1
+    licenciaturas: grau=licenciatura, nivel=graduação, sin=1, num=p
+    livre docência: grau=livre-docência, nivel=livre-docência, sin=1
+    master in business administration: grau=mba, nivel=especialização, sin=1
+    master of arts: grau=ma, nivel=mestrado
+    master of business administration: grau=mba, nivel=especialização
+    master of engineering: grau=meng, nivel=mestrado
+    master of fine arts: grau=mfa, nivel=mestrado
+    master of laws: grau=llm, nivel=mestrado
+    master of philosophy: grau=mphil, nivel=mestrado
+    master of public administration: grau=mpa, nivel=mestrado
+    master of public health: grau=mph, nivel=mestrado
+    master of science: grau=msc, nivel=mestrado
+    mba executivo: grau=mba, nivel=especialização, sin=1
+    mbas: grau=mba, nivel=especialização, sin=1, num=p
+    mestrado académico: grau=mestrado, nivel=mestrado, sin=1, pt=1
+    mestrado acadêmico: grau=mestrado, nivel=mestrado, sin=1
+    mestrado profissionalizante: grau="mestrado profissional", nivel=mestrado, sin=1
+    mestrado stricto sensu: grau=mestrado, nivel=mestrado, sin=1
+    mestrados: grau=mestrado, nivel=mestrado, sin=1, num=p
+    mestrados integrados: grau="mestrado integrado", nivel=mestrado, sin=1, num=p
+    mestrados profissionais: grau="mestrado profissional", nivel=mestrado, sin=1, num=p
+    programa de residência médica: grau="residência médica", nivel=especialização, sin=1
+    provas de agregação: grau=agregação, nivel=livre-docência, sin=1
+    pós-doutorados: grau=pós-doutorado, nivel=pós-doutorado, sin=1, num=p
+    pós-doutoramento: grau=pós-doutorado, nivel=pós-doutorado, sin=1, pt=1
+    pós-graduação lato sensu: grau=especialização, nivel=especialização, sin=1
+    residência em saúde: grau="residência multiprofissional", nivel=especialização, sin=1
+    técnico superior profissional: grau=ctesp, nivel="curta duração", sin=1
+    título de agregado: grau=agregação, nivel=livre-docência, sin=1
+    título de doutor honoris causa: grau="doutorado honoris causa", nivel=doutorado, sin=1
+  titulo
+    bacharel: grau=bacharelado, nivel=graduação, gen=m, num=s
+    bacharela: grau=bacharelado, nivel=graduação, gen=f, num=s
+    bacharelanda: grau=bacharelado, nivel=graduação, estudante=1, gen=f, num=s
+    bacharelandas: grau=bacharelado, nivel=graduação, estudante=1, gen=f, num=p
+    bacharelando: grau=bacharelado, nivel=graduação, estudante=1, gen=m, num=s
+    bacharelandos: grau=bacharelado, nivel=graduação, estudante=1, gen=m, num=p
+    bacharelas: grau=bacharelado, nivel=graduação, gen=f, num=p
+    bacharéis: grau=bacharelado, nivel=graduação, gen=m, num=p
+    doutor: grau=doutorado, nivel=doutorado, gen=m, num=s, tratamento=1
+    doutor honoris causa: grau="doutorado honoris causa", nivel=doutorado, gen=m, num=s
+    doutora: grau=doutorado, nivel=doutorado, gen=f, num=s, tratamento=1
+    doutora honoris causa: grau="doutorado honoris causa", nivel=doutorado, gen=f, num=s
+    doutoranda: grau=doutorado, nivel=doutorado, estudante=1, gen=f, num=s
+    doutorandas: grau=doutorado, nivel=doutorado, estudante=1, gen=f, num=p
+    doutorando: grau=doutorado, nivel=doutorado, estudante=1, gen=m, num=s
+    doutorandos: grau=doutorado, nivel=doutorado, estudante=1, gen=m, num=p
+    doutoras: grau=doutorado, nivel=doutorado, gen=f, num=p
+    doutores: grau=doutorado, nivel=doutorado, gen=m, num=p
+    especialista: grau=especialização, nivel=especialização, num=s
+    especialistas: grau=especialização, nivel=especialização, num=p
+    especializanda: grau=especialização, nivel=especialização, estudante=1, gen=f, num=s
+    especializandas: grau=especialização, nivel=especialização, estudante=1, gen=f, num=p
+    especializando: grau=especialização, nivel=especialização, estudante=1, gen=m, num=s
+    especializandos: grau=especialização, nivel=especialização, estudante=1, gen=m, num=p
+    licenciada: grau=licenciatura, nivel=graduação, gen=f, num=s
+    licenciadas: grau=licenciatura, nivel=graduação, gen=f, num=p
+    licenciado: grau=licenciatura, nivel=graduação, gen=m, num=s
+    licenciados: grau=licenciatura, nivel=graduação, gen=m, num=p
+    licencianda: grau=licenciatura, nivel=graduação, estudante=1, gen=f, num=s
+    licenciandas: grau=licenciatura, nivel=graduação, estudante=1, gen=f, num=p
+    licenciando: grau=licenciatura, nivel=graduação, estudante=1, gen=m, num=s
+    licenciandos: grau=licenciatura, nivel=graduação, estudante=1, gen=m, num=p
+    livre docente: grau=livre-docência, nivel=livre-docência, num=s
+    livre-docente: grau=livre-docência, nivel=livre-docência, num=s
+    livres-docentes: grau=livre-docência, nivel=livre-docência, num=p
+    mestra: grau=mestrado, nivel=mestrado, gen=f, num=s
+    mestranda: grau=mestrado, nivel=mestrado, estudante=1, gen=f, num=s
+    mestrandas: grau=mestrado, nivel=mestrado, estudante=1, gen=f, num=p
+    mestrando: grau=mestrado, nivel=mestrado, estudante=1, gen=m, num=s
+    mestrandos: grau=mestrado, nivel=mestrado, estudante=1, gen=m, num=p
+    mestras: grau=mestrado, nivel=mestrado, gen=f, num=p
+    mestre: grau=mestrado, nivel=mestrado, gen=m, num=s, tratamento=1
+    mestres: grau=mestrado, nivel=mestrado, gen=m, num=p
+    médica residente: grau="residência médica", nivel=especialização, gen=f, num=s
+    médico residente: grau="residência médica", nivel=especialização, gen=m, num=s
+    médicos residentes: grau="residência médica", nivel=especialização, gen=m, num=p
+    pós-doutor: grau=pós-doutorado, nivel=pós-doutorado, gen=m, num=s
+    pós-doutora: grau=pós-doutorado, nivel=pós-doutorado, gen=f, num=s
+    pós-doutoranda: grau=pós-doutorado, nivel=pós-doutorado, estudante=1, gen=f, num=s
+    pós-doutorando: grau=pós-doutorado, nivel=pós-doutorado, estudante=1, gen=m, num=s
+    tecnóloga: grau=tecnólogo, nivel=graduação, gen=f, num=s
+    tecnólogas: grau=tecnólogo, nivel=graduação, gen=f, num=p
+    tecnólogos: grau=tecnólogo, nivel=graduação, gen=m, num=p
+  abrev
+    ab: grau=ba, completo="bachelor of arts", nivel=graduação
+    ba: grau=ba, completo="bachelor of arts", nivel=graduação
+    bba: grau=bba, completo="bachelor of business administration", nivel=graduação
+    bel: grau=bacharelado, completo=bacharel, nivel=graduação, gen=m, tratamento=1
+    bela: grau=bacharelado, completo=bacharela, nivel=graduação, gen=f
+    beng: grau=beng, completo="bachelor of engineering", nivel=graduação
+    bs: grau=bsc, completo="bachelor of science", nivel=graduação
+    bsc: grau=bsc, completo="bachelor of science", nivel=graduação
+    cst: grau=tecnólogo, completo="curso superior de tecnologia", nivel=graduação
+    ctesp: grau=ctesp, completo="curso técnico superior profissional", nivel="curta duração"
+    dba: grau=dba, completo="doctor of business administration", nivel=doutorado
+    dphil: grau=phd, completo="doctor of philosophy", nivel=doutorado
+    dr: grau=doutorado, completo=doutor, nivel=doutorado, gen=m, tratamento=1
+    dra: grau=doutorado, completo=doutora, nivel=doutorado, gen=f, tratamento=1
+    dras: grau=doutorado, completo=doutoras, nivel=doutorado, gen=f, tratamento=1
+    drs: grau=doutorado, completo=doutores, nivel=doutorado, gen=m, tratamento=1
+    dsc: grau=dsc, completo="doctor of science", nivel=doutorado
+    edd: grau=edd, completo="doctor of education", nivel=doutorado
+    esp: grau=especialização, completo=especialista, nivel=especialização
+    jd: grau=jd, completo="juris doctor", nivel=doutorado
+    jsd: grau=sjd, completo="doctor of juridical science", nivel=doutorado
+    lic: grau=licenciatura, completo=licenciado, nivel=graduação
+    llb: grau=llb, completo="bachelor of laws", nivel=graduação
+    llm: grau=llm, completo="master of laws", nivel=mestrado
+    ma: grau=ma, completo="master of arts", nivel=mestrado
+    mba: grau=mba, completo="master of business administration", nivel=especialização, tratamento=1
+    md: grau=md, completo="doctor of medicine", nivel=doutorado
+    me: grau=mestrado, completo=mestre, nivel=mestrado, gen=m, tratamento=1
+    meng: grau=meng, completo="master of engineering", nivel=mestrado
+    mestr: grau=mestrado, completo=mestre, nivel=mestrado
+    mfa: grau=mfa, completo="master of fine arts", nivel=mestrado
+    mpa: grau=mpa, completo="master of public administration", nivel=mestrado
+    mph: grau=mph, completo="master of public health", nivel=mestrado
+    mphil: grau=mphil, completo="master of philosophy", nivel=mestrado
+    ms: grau=msc, completo="master of science", nivel=mestrado
+    msc: grau=msc, completo="master of science", nivel=mestrado, tratamento=1
+    phd: grau=phd, completo="doctor of philosophy", nivel=doutorado, tratamento=1
+    pos-doc: grau=pós-doutorado, completo=pós-doutorado, nivel=pós-doutorado
+    posdoc: grau=pós-doutorado, completo=pós-doutorado, nivel=pós-doutorado
+    postdoc: grau=pós-doutorado, completo=pós-doutorado, nivel=pós-doutorado
+    pós-doc: grau=pós-doutorado, completo=pós-doutorado, nivel=pós-doutorado
+    scd: grau=dsc, completo="doctor of science", nivel=doutorado
+    sjd: grau=sjd, completo="doctor of juridical science", nivel=doutorado
+  nivel
+    curta duração: grau=["associate degree",ctesp]
+    graduação: ciclo=graduação, palavra=[graduação,graduações,graduado,graduada,graduados,graduadas,graduando,graduanda,graduandos,graduandas,"ensino superior","nível superior","curso superior","formação superior","superior completo","superior incompleto",bachelor,bachelors,undergraduate], grau=[ba,bacharelado,bacharelato,bba,beng,bsc,licenciatura,llb,tecnólogo]
+    especialização: ciclo=pós-graduação, palavra="lato sensu", grau=[aperfeiçoamento,especialização,mba,"residência multiprofissional","residência médica"]
+    mestrado: ciclo=pós-graduação, palavra=[master,masters], grau=[llm,ma,meng,mestrado,"mestrado integrado","mestrado profissional",mfa,mpa,mph,mphil,msc]
+    doutorado: ciclo=pós-graduação, palavra=[doutoral,doutorais,doctorate], grau=[dba,doutorado,"doutorado honoris causa","doutorado profissional",dsc,edd,jd,md,phd,sjd]
+    pós-doutorado: grau=pós-doutorado
+    livre-docência: grau=[agregação,livre-docência]

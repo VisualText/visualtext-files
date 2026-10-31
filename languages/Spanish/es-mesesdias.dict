@@ -1,0 +1,64 @@
+# Meses y días de la semana en español
+#   mes=        número del mes, 1-12 (enero=1)
+#   dia=        número del día de la semana, 1-7 (lunes=1, como en ISO 8601)
+#   abrev=      la abreviatura habitual, en la forma desarrollada
+#   completo=   la forma desarrollada, en una abreviatura
+#   sin=1       una variante: setiembre (Perú, Uruguay...), sept, mie, miér,
+#               o la forma escrita sin tilde (miercoles, sabado)
+#   raiz=       la forma canónica, en una variante desarrollada
+#   ambig=1     la forma es también una palabra corriente u otra entrada:
+#               mar (el mar; abrevia a la vez marzo y martes, así que lleva
+#               mes=3 y dia=2 y no lleva completo=), ene (la letra; abrevia también estenoreste en
+#               es-direcciones.dict), set (en tenis), domingo (nombre de pila)
+# Las abreviaturas van sin punto (ene., mié.): el tokenizador separa el punto.
+# Las iniciales de calendario (L M X J V S D) no se listan: son demasiado
+# ambiguas fuera de una cabecera de tabla.
+enero mes=1 abrev=ene pos=s
+ene mes=1 completo=enero ambig=1 pos=s
+febrero mes=2 abrev=feb pos=s
+feb mes=2 completo=febrero pos=s
+marzo mes=3 abrev=mar pos=s
+mar mes=3 dia=2 ambig=1 pos=s
+abril mes=4 abrev=abr pos=s
+abr mes=4 completo=abril pos=s
+mayo mes=5 abrev=may pos=s
+mayo pos=v
+may mes=5 completo=mayo pos=s
+junio mes=6 abrev=jun pos=s
+jun mes=6 completo=junio pos=s
+julio mes=7 abrev=jul pos=s
+jul mes=7 completo=julio pos=s
+agosto mes=8 abrev=ago pos=s
+agosto pos=v
+ago mes=8 completo=agosto pos=s
+septiembre mes=9 abrev=sep pos=s
+sep mes=9 completo=septiembre pos=s
+sept mes=9 completo=septiembre sin=1 pos=s
+setiembre mes=9 abrev=set sin=1 raiz=septiembre pos=s
+set mes=9 completo=setiembre sin=1 ambig=1 pos=s
+octubre mes=10 abrev=oct pos=s
+oct mes=10 completo=octubre pos=s
+noviembre mes=11 abrev=nov pos=s
+nov mes=11 completo=noviembre pos=s
+diciembre mes=12 abrev=dic pos=s
+dic mes=12 completo=diciembre pos=s
+
+lunes dia=1 abrev=lun pos=s
+lun dia=1 completo=lunes pos=s
+martes dia=2 abrev=mar pos=s
+miércoles dia=3 abrev=mié pos=s
+mié dia=3 completo=miércoles pos=v
+mie dia=3 completo=miércoles sin=1 pos=s
+miér dia=3 completo=miércoles sin=1 pos=s
+mier dia=3 completo=miércoles sin=1 pos=s
+miercoles dia=3 abrev=mié sin=1 raiz=miércoles pos=s
+jueves dia=4 abrev=jue pos=s
+jue dia=4 completo=jueves pos=s
+viernes dia=5 abrev=vie pos=s
+vie dia=5 completo=viernes pos=s
+sábado dia=6 abrev=sáb pos=s
+sáb dia=6 completo=sábado pos=s
+sab dia=6 completo=sábado sin=1 pos=s
+sabado dia=6 abrev=sáb sin=1 raiz=sábado pos=s
+domingo dia=7 abrev=dom ambig=1 pos=s
+dom dia=7 completo=domingo pos=s

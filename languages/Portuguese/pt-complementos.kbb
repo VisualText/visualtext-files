@@ -1,0 +1,109 @@
+# Complementos de endereço (designadores secundários)
+#   abrev=     na forma por extenso, as abreviaturas (a principal primeiro)
+#   completo=  na abreviatura, a forma por extenso
+#   raiz=      numa grafia sem acento, a forma canónica
+#   pt=1       uso de Portugal        ambig=1  também noutro dicionário
+# Toda forma aqui citada é etiquetada por pt-complementos.dict.
+complementos
+  apartamento: abrev=[apto,ap,apt]
+  apto: completo=apartamento
+  ap: completo=apartamento, ambig=1
+  apt: completo=apartamento
+  bloco: abrev=[bl,blc], ambig=1
+  bl: completo=bloco, ambig=1
+  blc: completo=bloco
+  casa: abrev=cs
+  cs: completo=casa
+  conjunto: abrev=[cj,conj], ambig=1
+  cj: completo=conjunto, ambig=1
+  conj: completo=conjunto
+  sala: abrev=sl
+  sl: completo=sala
+  andar: abrev=and
+  and: completo=andar
+  pavimento: abrev=pav
+  pav: completo=pavimento
+  loja: abrev=lj
+  lj: completo=loja
+  sobreloja: abrev=slj
+  slj: completo=sobreloja
+  fundos: abrev=fds
+  fds: completo=fundos
+  frente: abrev=frt
+  frt: completo=frente
+  térreo: completo=térreo, abrev=térreo
+  terreo: raiz=térreo
+  cobertura: abrev=cob
+  cob: completo=cobertura
+  subsolo: completo=subsolo, abrev=subsolo
+  mezanino: abrev=mez
+  mez: completo=mezanino
+  quadra: abrev=[qd,q], ambig=1
+  qd: completo=quadra
+  q: completo=quadra, ambig=1
+  lote: abrev=lt, ambig=1
+  lt: completo=lote, ambig=1
+  edifício: abrev=[ed,edif]
+  ed: completo=edifício
+  edif: completo=edifício
+  edificio: raiz=edifício
+  prédio: completo=prédio, abrev=prédio
+  predio: raiz=prédio
+  torre: abrev=tr
+  tr: completo=torre, ambig=1
+  condomínio: abrev=cond, ambig=1
+  cond: completo=condomínio
+  condominio: raiz=condomínio
+  residencial: abrev=res, ambig=1
+  res: completo=residencial, ambig=1
+  galpão: abrev=galp
+  galp: completo=galpão
+  galpao: raiz=galpão
+  módulo: abrev=mod
+  mod: completo=módulo, ambig=1
+  modulo: raiz=módulo, ambig=1
+  box: completo=box, abrev=box
+  garagem: completo=garagem, abrev=garagem
+  sobrado: completo=sobrado, abrev=sobrado
+  quarto: abrev=qto, ambig=1
+  qto: completo=quarto
+  unidade: abrev=[und,un], ambig=1
+  und: completo=unidade
+  un: completo=unidade
+  setor: abrev=st, ambig=1
+  st: completo=setor, ambig=1
+  anexo: abrev=anx
+  anx: completo=anexo
+  escritório: abrev=esc
+  esc: completo=escritório, ambig=1
+  escritorio: raiz=escritório
+  chácara: abrev=chac, ambig=1
+  chac: completo=chácara
+  chacara: raiz=chácara
+  sítio: abrev=sit
+  sit: completo=sítio, ambig=1
+  sitio: raiz=sítio, ambig=1
+  fazenda: abrev=faz, ambig=1
+  faz: completo=fazenda, ambig=1
+  gleba: abrev=gl
+  gl: completo=gleba
+  quilômetro: abrev=km
+  km: completo=quilômetro
+  quilometro: raiz=quilômetro
+  caixa postal: abrev=["cx postal",cp,cxp]
+  cx postal: completo="caixa postal"
+  cp: completo="caixa postal"
+  cxp: completo="caixa postal"
+  rés-do-chão: abrev=["r/c",rc], pt=1
+  r/c: completo=rés-do-chão, pt=1
+  rc: completo=rés-do-chão, pt=1
+  res-do-chao: raiz=rés-do-chão, pt=1
+  esquerdo: abrev=esq, pt=1
+  esq: completo=esquerdo, pt=1
+  direito: abrev=[dto,dt], pt=1
+  dto: completo=direito, pt=1
+  dt: completo=direito, pt=1, ambig=1
+  cave: completo=cave, abrev=cave, pt=1
+  sótão: completo=sótão, abrev=sótão, pt=1
+  sotao: raiz=sótão, pt=1
+  porta: completo=porta, abrev=porta, pt=1

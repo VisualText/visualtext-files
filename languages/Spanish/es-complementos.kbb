@@ -1,0 +1,109 @@
+# Complementos de dirección en español (piso, puerta, escalera, departamento...)
+#   abrev=     la abreviatura canónica         sinonimo=  abreviaturas variantes
+#   completo=  la forma desarrollada, en una abreviatura
+#   sin=1      la abreviatura es una variante
+# Una forma sin abreviatura lleva abrev= y completo= iguales a sí misma, como
+# en en-postal-secondary-designators.kbb.
+# Todas las formas nombradas aquí están etiquetadas en es-complementos.dict.
+complementos
+  apart: completo=apartamento, sin=1
+  apartado: abrev=apdo, sinonimo=aptdo
+  apartamento: abrev=apto, sinonimo=[apt,apart]
+  apdo: completo=apartado
+  apt: completo=apartamento, sin=1
+  aptdo: completo=apartado, sin=1
+  apto: completo=apartamento
+  át: completo="ático"
+  atco: completo="ático", sin=1
+  ático: abrev="át", sinonimo=atco
+  bajo: abrev=bj, sinonimo=bjo
+  bj: completo=bajo
+  bjo: completo=bajo, sin=1
+  bl: completo=bloque, sin=1
+  bloq: completo=bloque, sin=1
+  bloque: abrev=blq, sinonimo=[bl,bloq]
+  blq: completo=bloque
+  casa: abrev=cs
+  centro: abrev=ctro
+  conj: completo=conjunto
+  conjunto: abrev=conj
+  cs: completo=casa
+  ctro: completo=centro
+  dcha: completo=derecha
+  departamento: abrev=depto, sinonimo=[dpto,dto]
+  depto: completo=departamento
+  der: completo=derecha, sin=1
+  derecha: abrev=dcha, sinonimo=der
+  dpto: completo=departamento, sin=1
+  dto: completo=departamento, sin=1
+  ed: completo=edificio, sin=1
+  edf: completo=edificio, sin=1
+  edif: completo=edificio
+  edificio: abrev=edif, sinonimo=[ed,edf]
+  entl: completo=entresuelo, sin=1
+  entlo: completo=entresuelo
+  entresuelo: abrev=entlo, sinonimo=entl
+  esc: completo=escalera
+  escal: completo=escalera, sin=1
+  escalera: abrev=esc, sinonimo=escal
+  et: completo=etapa
+  etapa: abrev=et
+  ext: completo=exterior
+  exterior: abrev=ext
+  fase: completo=fase, abrev=fase
+  hab: completo=habitación
+  habitación: abrev=hab
+  int: completo=interior
+  interior: abrev=int
+  izda: completo=izquierda, sin=1
+  izq: completo=izquierda
+  izqda: completo=izquierda, sin=1
+  izquierda: abrev=izq, sinonimo=[izda,izqda]
+  lc: completo=local, sin=1
+  loc: completo=local
+  local: abrev=loc, sinonimo=lc
+  lote: abrev=lt, sinonimo=lte
+  lt: completo=lote
+  lte: completo=lote, sin=1
+  manz: completo=manzana, sin=1
+  manzana: abrev=mz, sinonimo=[mza,manz]
+  mod: completo=módulo, sin=1
+  mód: completo=módulo
+  módulo: abrev=mód, sinonimo=mod
+  mz: completo=manzana
+  mza: completo=manzana, sin=1
+  nave: completo=nave, abrev=nave
+  of: completo=oficina
+  ofic: completo=oficina, sin=1
+  oficina: abrev=of, sinonimo=[ofic,ofna]
+  ofna: completo=oficina, sin=1
+  p: completo=piso
+  parc: completo=parcela
+  parcela: abrev=parc
+  penthouse: abrev=ph
+  ph: completo=penthouse
+  piso: abrev=p, sinonimo=pso
+  pl: completo=planta
+  planta: abrev=pl, sinonimo=plta
+  plta: completo=planta, sin=1
+  port: completo=portal, sin=1
+  portal: abrev=ptal, sinonimo=port
+  ppal: completo=principal, sin=1
+  pral: completo=principal
+  principal: abrev=pral, sinonimo=ppal
+  pso: completo=piso, sin=1
+  pt: completo=puerta, sin=1
+  pta: completo=puerta
+  ptal: completo=portal
+  puerta: abrev=pta, sinonimo=pt
+  sec: completo=sector, sin=1
+  sect: completo=sector
+  sector: abrev=sect, sinonimo=sec
+  semisótano: abrev=ssot
+  sot: completo=sótano, sin=1
+  sót: completo=sótano
+  sótano: abrev=sót, sinonimo=sot
+  ssot: completo=semisótano
+  suite: completo=suite, abrev=suite
+  torre: abrev=tr
+  tr: completo=torre

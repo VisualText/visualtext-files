@@ -1,0 +1,160 @@
+# Tratamientos y sufijos de nombres de persona
+#   sufijo=   lo que denota el sufijo (número de generación, título)
+#   prefijo=  la forma desarrollada del tratamiento que precede al nombre
+#   tipo=     generación | título | cortesía | profesional | religioso |
+#             militar | civil | nobiliario
+#   gen=m|f   género, en las formas que lo marcan
+#   num=p     forma plural (sres, sras)
+#   ambig=1   la forma es también una palabra corriente del español o una
+#             entrada de otro diccionario de la biblioteca, así que solo es un
+#             tratamiento junto a un nombre
+# Todas las formas nombradas aquí están etiquetadas en es-tratamientos.dict.
+tratamientos
+  jr: sufijo=júnior, tipo=generación
+  júnior: sufijo=júnior, tipo=generación, ambig=1
+  hijo: sufijo=hijo, tipo=generación, gen=m, ambig=1
+  h: sufijo=hijo, tipo=generación, gen=m, ambig=1
+  ii: sufijo=2, tipo=generación
+  iii: sufijo=3, tipo=generación
+  iv: sufijo=4, tipo=generación
+  v: sufijo=5, tipo=generación, ambig=1
+  vi: sufijo=6, tipo=generación, ambig=1
+  vii: sufijo=7, tipo=generación
+  viii: sufijo=8, tipo=generación
+  ix: sufijo=9, tipo=generación
+  x: sufijo=10, tipo=generación, ambig=1
+  phd: sufijo=doctorado, tipo=título
+  md: sufijo=medicina, tipo=título
+  mba: sufijo=maestría, tipo=título
+  msc: sufijo=maestría, tipo=título
+  sr: prefijo=señor, tipo=cortesía, gen=m
+  sra: prefijo=señora, tipo=cortesía, gen=f
+  srta: prefijo=señorita, tipo=cortesía, gen=f
+  sres: prefijo=señores, tipo=cortesía, gen=m, num=p
+  srs: prefijo=señores, tipo=cortesía, gen=m, num=p
+  sras: prefijo=señoras, tipo=cortesía, gen=f, num=p
+  señor: prefijo=señor, tipo=cortesía, gen=m, ambig=1
+  señora: prefijo=señora, tipo=cortesía, gen=f, ambig=1
+  señorita: prefijo=señorita, tipo=cortesía, gen=f, ambig=1
+  don: prefijo=don, tipo=cortesía, gen=m, ambig=1
+  doña: prefijo=doña, tipo=cortesía, gen=f
+  d: prefijo=don, tipo=cortesía, gen=m, ambig=1
+  dn: prefijo=don, tipo=cortesía, gen=m
+  dña: prefijo=doña, tipo=cortesía, gen=f
+  excmo: prefijo=excelentísimo, tipo=cortesía, gen=m
+  excma: prefijo=excelentísima, tipo=cortesía, gen=f
+  ilmo: prefijo=ilustrísimo, tipo=cortesía, gen=m
+  ilma: prefijo=ilustrísima, tipo=cortesía, gen=f
+  dr: prefijo=doctor, tipo=profesional, gen=m
+  dra: prefijo=doctora, tipo=profesional, gen=f
+  doctor: prefijo=doctor, tipo=profesional, gen=m, ambig=1
+  doctora: prefijo=doctora, tipo=profesional, gen=f, ambig=1
+  lic: prefijo=licenciado, tipo=profesional
+  lcdo: prefijo=licenciado, tipo=profesional, gen=m
+  lcda: prefijo=licenciada, tipo=profesional, gen=f
+  licdo: prefijo=licenciado, tipo=profesional, gen=m
+  licda: prefijo=licenciada, tipo=profesional, gen=f
+  ldo: prefijo=licenciado, tipo=profesional, gen=m
+  lda: prefijo=licenciada, tipo=profesional, gen=f
+  licenciado: prefijo=licenciado, tipo=profesional, gen=m, ambig=1
+  licenciada: prefijo=licenciada, tipo=profesional, gen=f, ambig=1
+  ing: prefijo=ingeniero, tipo=profesional
+  ingeniero: prefijo=ingeniero, tipo=profesional, gen=m, ambig=1
+  ingeniera: prefijo=ingeniera, tipo=profesional, gen=f, ambig=1
+  arq: prefijo=arquitecto, tipo=profesional
+  arquitecto: prefijo=arquitecto, tipo=profesional, gen=m, ambig=1
+  arquitecta: prefijo=arquitecta, tipo=profesional, gen=f, ambig=1
+  prof: prefijo=profesor, tipo=profesional, gen=m
+  profa: prefijo=profesora, tipo=profesional, gen=f
+  profesor: prefijo=profesor, tipo=profesional, gen=m, ambig=1
+  profesora: prefijo=profesora, tipo=profesional, gen=f, ambig=1
+  mtro: prefijo=maestro, tipo=profesional, gen=m
+  mtra: prefijo=maestra, tipo=profesional, gen=f
+  maestro: prefijo=maestro, tipo=profesional, gen=m, ambig=1
+  maestra: prefijo=maestra, tipo=profesional, gen=f, ambig=1
+  abg: prefijo=abogado, tipo=profesional
+  abog: prefijo=abogado, tipo=profesional
+  abogado: prefijo=abogado, tipo=profesional, gen=m, ambig=1
+  abogada: prefijo=abogada, tipo=profesional, gen=f, ambig=1
+  cp: prefijo="contador público", tipo=profesional, ambig=1
+  mvz: prefijo="médico veterinario zootecnista", tipo=profesional
+  fray: prefijo=fray, tipo=religioso, gen=m
+  fr: prefijo=fray, tipo=religioso, gen=m
+  sor: prefijo=sor, tipo=religioso, gen=f
+  padre: prefijo=padre, tipo=religioso, gen=m, ambig=1
+  p: prefijo=padre, tipo=religioso, gen=m, ambig=1
+  pbro: prefijo=presbítero, tipo=religioso, gen=m
+  mons: prefijo=monseñor, tipo=religioso, gen=m
+  monseñor: prefijo=monseñor, tipo=religioso, gen=m, ambig=1
+  hno: prefijo=hermano, tipo=religioso, gen=m
+  hna: prefijo=hermana, tipo=religioso, gen=f
+  hermano: prefijo=hermano, tipo=religioso, gen=m, ambig=1
+  hermana: prefijo=hermana, tipo=religioso, gen=f, ambig=1
+  madre: prefijo=madre, tipo=religioso, gen=f, ambig=1
+  rvdo: prefijo=reverendo, tipo=religioso, gen=m
+  rvda: prefijo=reverenda, tipo=religioso, gen=f
+  rev: prefijo=reverendo, tipo=religioso
+  reverendo: prefijo=reverendo, tipo=religioso, gen=m, ambig=1
+  san: prefijo=santo, tipo=religioso, gen=m, ambig=1
+  santo: prefijo=santo, tipo=religioso, gen=m, ambig=1
+  santa: prefijo=santa, tipo=religioso, gen=f, ambig=1
+  sto: prefijo=santo, tipo=religioso, gen=m
+  sta: prefijo=santa, tipo=religioso, gen=f
+  obispo: prefijo=obispo, tipo=religioso, gen=m, ambig=1
+  arzobispo: prefijo=arzobispo, tipo=religioso, gen=m, ambig=1
+  cardenal: prefijo=cardenal, tipo=religioso, gen=m, ambig=1
+  pastor: prefijo=pastor, tipo=religioso, gen=m, ambig=1
+  pastora: prefijo=pastora, tipo=religioso, gen=f, ambig=1
+  rabino: prefijo=rabino, tipo=religioso, gen=m, ambig=1
+  imán: prefijo=imán, tipo=religioso, gen=m, ambig=1
+  gral: prefijo=general, tipo=militar
+  general: prefijo=general, tipo=militar, ambig=1
+  cap: prefijo=capitán, tipo=militar, ambig=1
+  capitán: prefijo=capitán, tipo=militar, gen=m, ambig=1
+  cnel: prefijo=coronel, tipo=militar
+  coronel: prefijo=coronel, tipo=militar, ambig=1
+  tte: prefijo=teniente, tipo=militar
+  teniente: prefijo=teniente, tipo=militar, ambig=1
+  sgto: prefijo=sargento, tipo=militar
+  sargento: prefijo=sargento, tipo=militar, ambig=1
+  cabo: prefijo=cabo, tipo=militar, ambig=1
+  cmdte: prefijo=comandante, tipo=militar
+  cte: prefijo=comandante, tipo=militar
+  comandante: prefijo=comandante, tipo=militar, ambig=1
+  almte: prefijo=almirante, tipo=militar
+  almirante: prefijo=almirante, tipo=militar, ambig=1
+  pdte: prefijo=presidente, tipo=civil, gen=m
+  pdta: prefijo=presidenta, tipo=civil, gen=f
+  presidente: prefijo=presidente, tipo=civil, gen=m, ambig=1
+  presidenta: prefijo=presidenta, tipo=civil, gen=f, ambig=1
+  gob: prefijo=gobernador, tipo=civil, ambig=1
+  gobernador: prefijo=gobernador, tipo=civil, gen=m, ambig=1
+  gobernadora: prefijo=gobernadora, tipo=civil, gen=f, ambig=1
+  dip: prefijo=diputado, tipo=civil
+  diputado: prefijo=diputado, tipo=civil, gen=m, ambig=1
+  diputada: prefijo=diputada, tipo=civil, gen=f, ambig=1
+  senador: prefijo=senador, tipo=civil, gen=m, ambig=1
+  senadora: prefijo=senadora, tipo=civil, gen=f, ambig=1
+  alcalde: prefijo=alcalde, tipo=civil, gen=m, ambig=1
+  alcaldesa: prefijo=alcaldesa, tipo=civil, gen=f, ambig=1
+  juez: prefijo=juez, tipo=civil, ambig=1
+  jueza: prefijo=jueza, tipo=civil, gen=f, ambig=1
+  ministro: prefijo=ministro, tipo=civil, gen=m, ambig=1
+  ministra: prefijo=ministra, tipo=civil, gen=f, ambig=1
+  embajador: prefijo=embajador, tipo=civil, gen=m, ambig=1
+  embajadora: prefijo=embajadora, tipo=civil, gen=f, ambig=1
+  honorable: prefijo=honorable, tipo=civil, ambig=1
+  rey: prefijo=rey, tipo=nobiliario, gen=m, ambig=1
+  reina: prefijo=reina, tipo=nobiliario, gen=f, ambig=1
+  príncipe: prefijo=príncipe, tipo=nobiliario, gen=m, ambig=1
+  princesa: prefijo=princesa, tipo=nobiliario, gen=f, ambig=1
+  infante: prefijo=infante, tipo=nobiliario, gen=m, ambig=1
+  infanta: prefijo=infanta, tipo=nobiliario, gen=f, ambig=1
+  duque: prefijo=duque, tipo=nobiliario, gen=m, ambig=1
+  duquesa: prefijo=duquesa, tipo=nobiliario, gen=f, ambig=1
+  marqués: prefijo=marqués, tipo=nobiliario, gen=m, ambig=1
+  marquesa: prefijo=marquesa, tipo=nobiliario, gen=f, ambig=1
+  conde: prefijo=conde, tipo=nobiliario, gen=m, ambig=1
+  condesa: prefijo=condesa, tipo=nobiliario, gen=f, ambig=1
+  barón: prefijo=barón, tipo=nobiliario, gen=m, ambig=1
+  baronesa: prefijo=baronesa, tipo=nobiliario, gen=f, ambig=1

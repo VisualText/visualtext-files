@@ -1,0 +1,247 @@
+# Numerales con su valor numérico
+#   s=numero   en todas las entradas: el tokenizador envuelve la forma en un
+#              nodo _numero (igual que s=number en en-numbers.dict da _number)
+#   valor=     el valor que nombra la palabra
+#   ord=1      un ordinal (primero, segundo...) y no un cardinal
+#   grupo=1    un sustantivo colectivo de cantidad (docena, centenar, millar)
+#   raiz=      la forma canónica, en una variante: femenino (una, doscientas,
+#              primera), apócope (un, primer, veintiún), forma sin tilde
+#              (dieciseis, veintidos), variante (sétimo, decimoprimero) o
+#              plural (millones, docenas)
+#   gen=m|f    género, en las formas que lo marcan
+#   num=p      forma plural (cientos, miles, millones, docenas)
+#   ambig=1    la forma es también una palabra corriente: un/una/uno
+#              (artículo y pronombre), segundo (unidad de tiempo), cuarto
+#              (habitación), par, quincena, cuarentena, gruesa, décimo (de
+#              lotería), sexto, nono, quinta (casa de campo), octava (música)
+#              y novena (rezo)
+# Escala larga: billón = 10^12, trillón = 10^18 (no 10^9 y 10^12 como en el
+# inglés billion / trillion); millardo = 10^9.  Los compuestos de varias
+# palabras (treinta y uno, dos mil) no se listan, como en en-numbers.dict.
+
+cero s=numero valor=0 pos=s
+uno s=numero valor=1 gen=m ambig=1 pos=pron
+uno pos=v
+un s=numero valor=1 raiz=uno gen=m ambig=1 pos=pron
+una s=numero valor=1 raiz=uno gen=f ambig=1 pos=pron
+una pos=v
+dos s=numero valor=2 pos=s
+tres s=numero valor=3 pos=s
+cuatro s=numero valor=4 pos=s
+cinco s=numero valor=5 pos=v
+seis s=numero valor=6 pos=s
+siete s=numero valor=7 pos=s
+ocho s=numero valor=8 pos=s
+nueve s=numero valor=9 pos=s
+diez s=numero valor=10 pos=s
+once s=numero valor=11 pos=s
+doce s=numero valor=12 pos=s
+trece s=numero valor=13 pos=s
+catorce s=numero valor=14 pos=s
+quince s=numero valor=15 pos=s
+dieciséis s=numero valor=16 pos=s
+dieciseis s=numero valor=16 raiz=dieciséis pos=s
+diecisiete s=numero valor=17 pos=s
+dieciocho s=numero valor=18 pos=s
+diecinueve s=numero valor=19 pos=s
+veinte s=numero valor=20 pos=s
+veintiuno s=numero valor=21 gen=m pos=s
+veintiún s=numero valor=21 raiz=veintiuno gen=m pos=s
+veintiuna s=numero valor=21 raiz=veintiuno gen=f pos=s
+veintiun s=numero valor=21 raiz=veintiuno pos=s
+veintidós s=numero valor=22 pos=s
+veintidos s=numero valor=22 raiz=veintidós pos=s
+veintitrés s=numero valor=23 pos=s
+veintitres s=numero valor=23 raiz=veintitrés pos=s
+veinticuatro s=numero valor=24 pos=s
+veinticinco s=numero valor=25 pos=s
+veintiséis s=numero valor=26 pos=s
+veintiseis s=numero valor=26 raiz=veintiséis pos=s
+veintisiete s=numero valor=27 pos=s
+veintiocho s=numero valor=28 pos=s
+veintinueve s=numero valor=29 pos=s
+treinta s=numero valor=30 pos=s
+cuarenta s=numero valor=40 pos=s
+cincuenta s=numero valor=50 pos=s
+sesenta s=numero valor=60 pos=s
+setenta s=numero valor=70 pos=s
+ochenta s=numero valor=80 pos=s
+noventa s=numero valor=90 pos=s
+cien s=numero valor=100 pos=s
+doscientos s=numero valor=200 gen=m pos=s
+doscientas s=numero valor=200 raiz=doscientos gen=f pos=s
+trescientos s=numero valor=300 gen=m pos=s
+trescientas s=numero valor=300 raiz=trescientos gen=f pos=s
+cuatrocientos s=numero valor=400 gen=m pos=s
+cuatrocientas s=numero valor=400 raiz=cuatrocientos gen=f pos=s
+quinientos s=numero valor=500 gen=m pos=s
+quinientas s=numero valor=500 raiz=quinientos gen=f pos=s
+seiscientos s=numero valor=600 gen=m pos=s
+seiscientas s=numero valor=600 raiz=seiscientos gen=f pos=s
+setecientos s=numero valor=700 gen=m pos=s
+setecientas s=numero valor=700 raiz=setecientos gen=f pos=s
+ochocientos s=numero valor=800 gen=m pos=s
+ochocientas s=numero valor=800 raiz=ochocientos gen=f pos=s
+novecientos s=numero valor=900 gen=m pos=s
+novecientas s=numero valor=900 raiz=novecientos gen=f pos=s
+mil s=numero valor=1000 pos=adj
+millón s=numero valor=1000000 pos=s
+millon s=numero valor=1000000 raiz=millón pos=s
+millardo s=numero valor=1000000000 pos=s
+billón s=numero valor=1000000000000 pos=s
+billon s=numero valor=1000000000000 raiz=billón pos=s
+trillón s=numero valor=1000000000000000000 pos=s
+trillon s=numero valor=1000000000000000000 raiz=trillón pos=s
+ciento s=numero valor=100 raiz=cien pos=s
+cientos s=numero valor=100 raiz=cien gen=m num=p pos=s
+miles s=numero valor=1000 raiz=mil gen=m num=p pos=s
+millones s=numero valor=1000000 raiz=millón gen=m num=p pos=s
+millardos s=numero valor=1000000000 raiz=millardo gen=m num=p pos=s
+billones s=numero valor=1000000000000 raiz=billón gen=m num=p pos=s
+trillones s=numero valor=1000000000000000000 raiz=trillón gen=m num=p pos=s
+
+# ORDINALES
+
+primero s=numero ord=1 valor=1 gen=m pos=adj
+primero pos=adv
+primer s=numero ord=1 valor=1 raiz=primero gen=m pos=adj
+primera s=numero ord=1 valor=1 raiz=primero gen=f pos=adj
+primera pos=s
+segundo s=numero ord=1 valor=2 gen=m ambig=1 pos=adj
+segundo pos=s
+segundo pos=v
+segunda s=numero ord=1 valor=2 raiz=segundo gen=f ambig=1 pos=adj
+segunda pos=s
+segunda pos=v
+tercero s=numero ord=1 valor=3 gen=m pos=adj
+tercero pos=s
+tercer s=numero ord=1 valor=3 raiz=tercero gen=m pos=adj
+tercera s=numero ord=1 valor=3 raiz=tercero gen=f pos=adj
+tercera pos=s
+cuarto s=numero ord=1 valor=4 gen=m ambig=1 pos=adj
+cuarto pos=s
+cuarto pos=v
+cuarta s=numero ord=1 valor=4 raiz=cuarto gen=f ambig=1 pos=adj
+cuarta pos=s
+cuarta pos=v
+quinto s=numero ord=1 valor=5 gen=m pos=adj
+quinto pos=s
+quinto pos=v
+quinta s=numero ord=1 valor=5 raiz=quinto gen=f ambig=1 pos=adj
+quinta pos=s
+quinta pos=v
+sexto s=numero ord=1 valor=6 gen=m ambig=1 pos=adj
+sexto pos=s
+sexta s=numero ord=1 valor=6 raiz=sexto gen=f pos=adj
+sexta pos=s
+séptimo s=numero ord=1 valor=7 gen=m pos=adj
+séptimo pos=s
+séptima s=numero ord=1 valor=7 raiz=séptimo gen=f pos=adj
+séptima pos=s
+sétimo s=numero ord=1 valor=7 raiz=séptimo gen=m pos=adj
+septimo s=numero ord=1 valor=7 raiz=séptimo gen=m pos=s
+octavo s=numero ord=1 valor=8 gen=m pos=adj
+octavo pos=s
+octavo pos=v
+octava s=numero ord=1 valor=8 raiz=octavo gen=f ambig=1 pos=adj
+octava pos=s
+octava pos=v
+noveno s=numero ord=1 valor=9 gen=m pos=adj
+noveno pos=s
+novena s=numero ord=1 valor=9 raiz=noveno gen=f ambig=1 pos=adj
+novena pos=s
+nono s=numero ord=1 valor=9 raiz=noveno gen=m ambig=1 pos=adj
+nono pos=s
+décimo s=numero ord=1 valor=10 gen=m ambig=1 pos=adj
+décimo pos=s
+décima s=numero ord=1 valor=10 raiz=décimo gen=f pos=adj
+décima pos=s
+decimo s=numero ord=1 valor=10 raiz=décimo gen=m ambig=1 pos=s
+undécimo s=numero ord=1 valor=11 gen=m pos=adj
+undécima s=numero ord=1 valor=11 raiz=undécimo gen=f pos=adj
+decimoprimero s=numero ord=1 valor=11 raiz=undécimo gen=m pos=s
+decimoprimer s=numero ord=1 valor=11 raiz=undécimo gen=m pos=s
+duodécimo s=numero ord=1 valor=12 gen=m pos=adj
+duodécima s=numero ord=1 valor=12 raiz=duodécimo gen=f pos=adj
+decimosegundo s=numero ord=1 valor=12 raiz=duodécimo gen=m pos=s
+decimotercero s=numero ord=1 valor=13 gen=m pos=adj
+decimotercer s=numero ord=1 valor=13 raiz=decimotercero gen=m pos=s
+decimotercera s=numero ord=1 valor=13 raiz=decimotercero gen=f pos=adj
+decimocuarto s=numero ord=1 valor=14 gen=m pos=adj
+decimocuarta s=numero ord=1 valor=14 raiz=decimocuarto gen=f pos=adj
+decimoquinto s=numero ord=1 valor=15 gen=m pos=adj
+decimoquinta s=numero ord=1 valor=15 raiz=decimoquinto gen=f pos=adj
+decimosexto s=numero ord=1 valor=16 gen=m pos=adj
+decimosexta s=numero ord=1 valor=16 raiz=decimosexto gen=f pos=adj
+decimoséptimo s=numero ord=1 valor=17 gen=m pos=adj
+decimoséptima s=numero ord=1 valor=17 raiz=decimoséptimo gen=f pos=adj
+decimoctavo s=numero ord=1 valor=18 gen=m pos=adj
+decimoctava s=numero ord=1 valor=18 raiz=decimoctavo gen=f pos=adj
+decimooctavo s=numero ord=1 valor=18 raiz=decimoctavo gen=m pos=adj
+decimonoveno s=numero ord=1 valor=19 gen=m pos=adj
+decimonovena s=numero ord=1 valor=19 raiz=decimonoveno gen=f pos=adj
+decimonono s=numero ord=1 valor=19 raiz=decimonoveno gen=m pos=adj
+vigésimo s=numero ord=1 valor=20 gen=m pos=adj
+vigésima s=numero ord=1 valor=20 raiz=vigésimo gen=f pos=adj
+trigésimo s=numero ord=1 valor=30 gen=m pos=adj
+trigésima s=numero ord=1 valor=30 raiz=trigésimo gen=f pos=adj
+cuadragésimo s=numero ord=1 valor=40 gen=m pos=adj
+cuadragésimo pos=s
+cuadragésima s=numero ord=1 valor=40 raiz=cuadragésimo gen=f pos=adj
+cuadragésima pos=s
+quincuagésimo s=numero ord=1 valor=50 gen=m pos=adj
+quincuagésimo pos=s
+quincuagésima s=numero ord=1 valor=50 raiz=quincuagésimo gen=f pos=adj
+quincuagésima pos=s
+sexagésimo s=numero ord=1 valor=60 gen=m pos=adj
+sexagésima s=numero ord=1 valor=60 raiz=sexagésimo gen=f pos=adj
+septuagésimo s=numero ord=1 valor=70 gen=m pos=adj
+septuagésima s=numero ord=1 valor=70 raiz=septuagésimo gen=f pos=adj
+octogésimo s=numero ord=1 valor=80 gen=m pos=adj
+octogésima s=numero ord=1 valor=80 raiz=octogésimo gen=f pos=adj
+nonagésimo s=numero ord=1 valor=90 gen=m pos=adj
+nonagésimo pos=s
+nonagésima s=numero ord=1 valor=90 raiz=nonagésimo gen=f pos=adj
+nonagésima pos=s
+centésimo s=numero ord=1 valor=100 gen=m pos=adj
+centésimo pos=s
+centésima s=numero ord=1 valor=100 raiz=centésimo gen=f pos=adj
+centésima pos=s
+milésimo s=numero ord=1 valor=1000 gen=m pos=adj
+milésimo pos=s
+milésima s=numero ord=1 valor=1000 raiz=milésimo gen=f pos=adj
+milésima pos=s
+millonésimo s=numero ord=1 valor=1000000 gen=m pos=adj
+millonésimo pos=s
+millonésima s=numero ord=1 valor=1000000 raiz=millonésimo gen=f pos=adj
+millonésima pos=s
+billonésimo s=numero ord=1 valor=1000000000000 gen=m pos=adj
+billonésimo pos=s
+billonésima s=numero ord=1 valor=1000000000000 raiz=billonésimo gen=f pos=adj
+billonésima pos=s
+
+# COLECTIVOS
+
+par s=numero grupo=1 valor=2 gen=m ambig=1 pos=adj
+par pos=s
+decena s=numero grupo=1 valor=10 gen=f pos=s
+docena s=numero grupo=1 valor=12 gen=f pos=adj
+docena pos=s
+quincena s=numero grupo=1 valor=15 gen=f ambig=1 pos=s
+veintena s=numero grupo=1 valor=20 gen=f pos=s
+treintena s=numero grupo=1 valor=30 gen=f pos=s
+cuarentena s=numero grupo=1 valor=40 gen=f ambig=1 pos=s
+centena s=numero grupo=1 valor=100 gen=f pos=s
+centenar s=numero grupo=1 valor=100 gen=m pos=s
+millar s=numero grupo=1 valor=1000 gen=m pos=s
+gruesa s=numero grupo=1 valor=144 gen=f ambig=1 pos=adj
+gruesa pos=s
+pares s=numero grupo=1 valor=2 raiz=par gen=m num=p ambig=1 pos=adj
+pares pos=s
+pares pos=v
+decenas s=numero grupo=1 valor=10 raiz=decena gen=f num=p pos=s
+docenas s=numero grupo=1 valor=12 raiz=docena gen=f num=p pos=adj
+docenas pos=s
+centenas s=numero grupo=1 valor=100 raiz=centena gen=f num=p pos=s
+centenares s=numero grupo=1 valor=100 raiz=centenar gen=m num=p pos=s
+millares s=numero grupo=1 valor=1000 raiz=millar gen=m num=p pos=s

@@ -1,0 +1,195 @@
+# Formas de tratamento: prefixos e sufixos de nomes de pessoas
+#   sufixo= / prefixo=  o que a forma indica, por extenso
+#   tipo=               geração | grau | cortesia | nobreza | profissional |
+#                       religioso | militar | civil
+#   gen=m|f             género do título
+#   ambig=1             também é palavra comum ou entrada de outro dicionário
+#                       da biblioteca, por isso só é tratamento junto de um nome
+# Toda forma aqui citada é etiquetada por pt-tratamentos.dict.
+tratamentos
+  júnior: sufixo=júnior, tipo=geração, gen=m
+  junior: sufixo=júnior, tipo=geração, gen=m
+  jr: sufixo=júnior, tipo=geração, gen=m
+  filho: sufixo=filho, tipo=geração, gen=m, ambig=1
+  filha: sufixo=filha, tipo=geração, gen=f, ambig=1
+  neto: sufixo=neto, tipo=geração, gen=m, ambig=1
+  neta: sufixo=neta, tipo=geração, gen=f, ambig=1
+  bisneto: sufixo=bisneto, tipo=geração, gen=m, ambig=1
+  sobrinho: sufixo=sobrinho, tipo=geração, gen=m, ambig=1
+  segundo: sufixo=2, tipo=geração, gen=m, ambig=1
+  ii: sufixo=2, tipo=geração
+  iii: sufixo=3, tipo=geração
+  iv: sufixo=4, tipo=geração
+  v: sufixo=5, tipo=geração, ambig=1
+  vi: sufixo=6, tipo=geração, ambig=1
+  vii: sufixo=7, tipo=geração
+  viii: sufixo=8, tipo=geração
+  ix: sufixo=9, tipo=geração
+  x: sufixo=10, tipo=geração, ambig=1
+  phd: sufixo=phd, tipo=grau
+  msc: sufixo=mestre, tipo=grau
+  mba: sufixo=mba, tipo=grau
+  reformado: sufixo=reformado, tipo=militar, gen=m, ambig=1
+  sr: prefixo=senhor, tipo=cortesia, gen=m
+  sra: prefixo=senhora, tipo=cortesia, gen=f
+  srta: prefixo=senhorita, tipo=cortesia, gen=f
+  srs: prefixo=senhores, tipo=cortesia, gen=m
+  sras: prefixo=senhoras, tipo=cortesia, gen=f
+  snr: prefixo=senhor, tipo=cortesia, gen=m
+  snra: prefixo=senhora, tipo=cortesia, gen=f
+  senhor: prefixo=senhor, tipo=cortesia, gen=m, ambig=1
+  senhora: prefixo=senhora, tipo=cortesia, gen=f, ambig=1
+  senhorita: prefixo=senhorita, tipo=cortesia, gen=f, ambig=1
+  seu: prefixo=senhor, tipo=cortesia, gen=m, ambig=1
+  dona: prefixo=dona, tipo=cortesia, gen=f, ambig=1
+  dom: prefixo=dom, tipo=cortesia, gen=m, ambig=1
+  d: prefixo=dom, tipo=cortesia, ambig=1
+  exmo: prefixo=excelentíssimo, tipo=cortesia, gen=m
+  exma: prefixo=excelentíssima, tipo=cortesia, gen=f
+  excelentíssimo: prefixo=excelentíssimo, tipo=cortesia, gen=m
+  excelentíssima: prefixo=excelentíssima, tipo=cortesia, gen=f
+  ilmo: prefixo=ilustríssimo, tipo=cortesia, gen=m
+  ilma: prefixo=ilustríssima, tipo=cortesia, gen=f
+  ilustríssimo: prefixo=ilustríssimo, tipo=cortesia, gen=m
+  ilustríssima: prefixo=ilustríssima, tipo=cortesia, gen=f
+  dd: prefixo=digníssimo, tipo=cortesia, gen=m
+  digníssimo: prefixo=digníssimo, tipo=cortesia, gen=m
+  vossa excelência: prefixo="vossa excelência", tipo=cortesia
+  vossa senhoria: prefixo="vossa senhoria", tipo=cortesia
+  vossa eminência: prefixo="vossa eminência", tipo=religioso
+  vossa santidade: prefixo="vossa santidade", tipo=religioso
+  vossa majestade: prefixo="vossa majestade", tipo=nobreza
+  vossa alteza: prefixo="vossa alteza", tipo=nobreza
+  vossa magnificência: prefixo="vossa magnificência", tipo=civil
+  exa: prefixo=excelência, tipo=cortesia
+  sa: prefixo=senhoria, tipo=cortesia, ambig=1
+  ema: prefixo=eminência, tipo=religioso, ambig=1
+  magnífico: prefixo=magnífico, tipo=civil, gen=m, ambig=1
+  magnífica: prefixo=magnífica, tipo=civil, gen=f, ambig=1
+  príncipe: prefixo=príncipe, tipo=nobreza, gen=m, ambig=1
+  princesa: prefixo=princesa, tipo=nobreza, gen=f, ambig=1
+  duque: prefixo=duque, tipo=nobreza, gen=m, ambig=1
+  duquesa: prefixo=duquesa, tipo=nobreza, gen=f, ambig=1
+  marquês: prefixo=marquês, tipo=nobreza, gen=m, ambig=1
+  marquesa: prefixo=marquesa, tipo=nobreza, gen=f, ambig=1
+  conde: prefixo=conde, tipo=nobreza, gen=m, ambig=1
+  condessa: prefixo=condessa, tipo=nobreza, gen=f, ambig=1
+  visconde: prefixo=visconde, tipo=nobreza, gen=m, ambig=1
+  viscondessa: prefixo=viscondessa, tipo=nobreza, gen=f, ambig=1
+  barão: prefixo=barão, tipo=nobreza, gen=m, ambig=1
+  baronesa: prefixo=baronesa, tipo=nobreza, gen=f, ambig=1
+  dr: prefixo=doutor, tipo=profissional, gen=m
+  dra: prefixo=doutora, tipo=profissional, gen=f
+  drs: prefixo=doutores, tipo=profissional, gen=m
+  dras: prefixo=doutoras, tipo=profissional, gen=f
+  doutor: prefixo=doutor, tipo=profissional, gen=m, ambig=1
+  doutora: prefixo=doutora, tipo=profissional, gen=f, ambig=1
+  prof: prefixo=professor, tipo=profissional, gen=m
+  profa: prefixo=professora, tipo=profissional, gen=f
+  profs: prefixo=professores, tipo=profissional, gen=m
+  professor: prefixo=professor, tipo=profissional, gen=m, ambig=1
+  professora: prefixo=professora, tipo=profissional, gen=f, ambig=1
+  me: prefixo=mestre, tipo=profissional, gen=m, ambig=1
+  mestre: prefixo=mestre, tipo=profissional, gen=m, ambig=1
+  bel: prefixo=bacharel, tipo=profissional, ambig=1
+  eng: prefixo=engenheiro, tipo=profissional, gen=m
+  enga: prefixo=engenheira, tipo=profissional, gen=f
+  engenheiro: prefixo=engenheiro, tipo=profissional, gen=m, ambig=1
+  engenheira: prefixo=engenheira, tipo=profissional, gen=f, ambig=1
+  arq: prefixo=arquiteto, tipo=profissional, gen=m
+  arquiteto: prefixo=arquiteto, tipo=profissional, gen=m, ambig=1
+  arquiteta: prefixo=arquiteta, tipo=profissional, gen=f, ambig=1
+  adv: prefixo=advogado, tipo=profissional, gen=m
+  advogado: prefixo=advogado, tipo=profissional, gen=m, ambig=1
+  advogada: prefixo=advogada, tipo=profissional, gen=f, ambig=1
+  enf: prefixo=enfermeiro, tipo=profissional
+  enfermeiro: prefixo=enfermeiro, tipo=profissional, gen=m, ambig=1
+  enfermeira: prefixo=enfermeira, tipo=profissional, gen=f, ambig=1
+  pe: prefixo=padre, tipo=religioso, gen=m, ambig=1
+  padre: prefixo=padre, tipo=religioso, gen=m, ambig=1
+  frei: prefixo=frei, tipo=religioso, gen=m
+  fr: prefixo=frei, tipo=religioso, gen=m
+  sóror: prefixo=sóror, tipo=religioso, gen=f
+  soror: prefixo=sóror, tipo=religioso, gen=f
+  irmã: prefixo=irmã, tipo=religioso, gen=f, ambig=1
+  irmão: prefixo=irmão, tipo=religioso, gen=m, ambig=1
+  ir: prefixo=irmão, tipo=religioso, ambig=1
+  madre: prefixo=madre, tipo=religioso, gen=f, ambig=1
+  monsenhor: prefixo=monsenhor, tipo=religioso, gen=m
+  mons: prefixo=monsenhor, tipo=religioso, gen=m
+  cônego: prefixo=cônego, tipo=religioso, gen=m, ambig=1
+  bispo: prefixo=bispo, tipo=religioso, gen=m, ambig=1
+  arcebispo: prefixo=arcebispo, tipo=religioso, gen=m, ambig=1
+  cardeal: prefixo=cardeal, tipo=religioso, gen=m, ambig=1
+  pastor: prefixo=pastor, tipo=religioso, gen=m, ambig=1
+  pastora: prefixo=pastora, tipo=religioso, gen=f, ambig=1
+  pr: prefixo=pastor, tipo=religioso, gen=m, ambig=1
+  reverendo: prefixo=reverendo, tipo=religioso, gen=m, ambig=1
+  rev: prefixo=reverendo, tipo=religioso, gen=m
+  revmo: prefixo=reverendíssimo, tipo=religioso, gen=m
+  revma: prefixo=reverendíssima, tipo=religioso, gen=f
+  diácono: prefixo=diácono, tipo=religioso, gen=m, ambig=1
+  rabino: prefixo=rabino, tipo=religioso, gen=m, ambig=1
+  são: prefixo=são, tipo=religioso, gen=m, ambig=1
+  santo: prefixo=santo, tipo=religioso, gen=m, ambig=1
+  santa: prefixo=santa, tipo=religioso, gen=f, ambig=1
+  sto: prefixo=santo, tipo=religioso, gen=m
+  sta: prefixo=santa, tipo=religioso, gen=f
+  marechal: prefixo=marechal, tipo=militar, gen=m, ambig=1
+  general: prefixo=general, tipo=militar, gen=m, ambig=1
+  gen: prefixo=general, tipo=militar, gen=m, ambig=1
+  brigadeiro: prefixo=brigadeiro, tipo=militar, gen=m, ambig=1
+  brig: prefixo=brigadeiro, tipo=militar, gen=m
+  almirante: prefixo=almirante, tipo=militar, gen=m, ambig=1
+  alm: prefixo=almirante, tipo=militar, gen=m
+  coronel: prefixo=coronel, tipo=militar, gen=m, ambig=1
+  cel: prefixo=coronel, tipo=militar, gen=m
+  tenente-coronel: prefixo=tenente-coronel, tipo=militar, gen=m
+  major: prefixo=major, tipo=militar, gen=m, ambig=1
+  maj: prefixo=major, tipo=militar, gen=m
+  capitão: prefixo=capitão, tipo=militar, gen=m, ambig=1
+  cap: prefixo=capitão, tipo=militar, gen=m, ambig=1
+  cmte: prefixo=comandante, tipo=militar, gen=m
+  comandante: prefixo=comandante, tipo=militar, gen=m, ambig=1
+  tenente: prefixo=tenente, tipo=militar, gen=m, ambig=1
+  ten: prefixo=tenente, tipo=militar, gen=m
+  sargento: prefixo=sargento, tipo=militar, gen=m, ambig=1
+  sgt: prefixo=sargento, tipo=militar, gen=m
+  cabo: prefixo=cabo, tipo=militar, gen=m, ambig=1
+  cb: prefixo=cabo, tipo=militar, gen=m
+  soldado: prefixo=soldado, tipo=militar, gen=m, ambig=1
+  sd: prefixo=soldado, tipo=militar, gen=m
+  presidente: prefixo=presidente, tipo=civil, ambig=1
+  pres: prefixo=presidente, tipo=civil
+  governador: prefixo=governador, tipo=civil, gen=m, ambig=1
+  governadora: prefixo=governadora, tipo=civil, gen=f, ambig=1
+  gov: prefixo=governador, tipo=civil
+  ministro: prefixo=ministro, tipo=civil, gen=m, ambig=1
+  ministra: prefixo=ministra, tipo=civil, gen=f, ambig=1
+  min: prefixo=ministro, tipo=civil, ambig=1
+  senador: prefixo=senador, tipo=civil, gen=m, ambig=1
+  senadora: prefixo=senadora, tipo=civil, gen=f, ambig=1
+  sen: prefixo=senador, tipo=civil
+  deputado: prefixo=deputado, tipo=civil, gen=m, ambig=1
+  deputada: prefixo=deputada, tipo=civil, gen=f, ambig=1
+  dep: prefixo=deputado, tipo=civil
+  vereador: prefixo=vereador, tipo=civil, gen=m, ambig=1
+  vereadora: prefixo=vereadora, tipo=civil, gen=f, ambig=1
+  ver: prefixo=vereador, tipo=civil, ambig=1
+  prefeito: prefixo=prefeito, tipo=civil, gen=m, ambig=1
+  prefeita: prefixo=prefeita, tipo=civil, gen=f, ambig=1
+  pref: prefixo=prefeito, tipo=civil
+  embaixador: prefixo=embaixador, tipo=civil, gen=m, ambig=1
+  embaixadora: prefixo=embaixadora, tipo=civil, gen=f, ambig=1
+  emb: prefixo=embaixador, tipo=civil
+  juiz: prefixo=juiz, tipo=civil, gen=m, ambig=1
+  juíza: prefixo=juíza, tipo=civil, gen=f, ambig=1
+  desembargador: prefixo=desembargador, tipo=civil, gen=m, ambig=1
+  desembargadora: prefixo=desembargadora, tipo=civil, gen=f, ambig=1
+  des: prefixo=desembargador, tipo=civil
+  mm: prefixo=meritíssimo, tipo=civil, gen=m
+  meritíssimo: prefixo=meritíssimo, tipo=civil, gen=m, ambig=1
+  meritíssima: prefixo=meritíssima, tipo=civil, gen=f, ambig=1
+  conselheiro: prefixo=conselheiro, tipo=civil, gen=m, ambig=1
+  cons: prefixo=conselheiro, tipo=civil, gen=m
+  comendador: prefixo=comendador, tipo=civil, gen=m, ambig=1

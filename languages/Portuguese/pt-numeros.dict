@@ -1,145 +1,286 @@
 # Numeros em Portugues
-zero num=0 cardinal=1 numero=1
-um num=1 cardinal=1 numero=1
-dois num=2 cardinal=1 numero=1
-três num=3 cardinal=1 numero=1
-quatro num=4 cardinal=1 numero=1
-cinco num=5 cardinal=1 numero=1
-seis num=6 cardinal=1 numero=1
-sete num=7 cardinal=1 numero=1
-oito num=8 cardinal=1 numero=1
-nove num=9 cardinal=1 numero=1
-dez num=10 cardinal=1 numero=1
-onze num=11 cardinal=1 numero=1
-doze num=12 cardinal=1 numero=1
-treze num=13 cardinal=1 numero=1
-catorze num=14 cardinal=1 numero=1
-quinze num=15 cardinal=1 numero=1
-dezasseis num=16 cardinal=1 numero=1
-dezassete num=17 cardinal=1 numero=1
-dezoito num=18 cardinal=1 numero=1
-dezanove num=19 cardinal=1 numero=1
-vinte num=20 cardinal=1 numero=1
-trinta num=30 cardinal=1 numero=1
-quarenta num=40 cardinal=1 numero=1
-cinquenta num=50 cardinal=1 numero=1
-sessenta num=60 cardinal=1 numero=1
-setenta num=70 cardinal=1 numero=1
-oitenta num=80 cardinal=1 numero=1
-noventa num=90 cardinal=1 numero=1
-cem num=100 cardinal=1 numero=1
-duzentos num=200 cardinal=1 numero=1
-trezentos num=300 cardinal=1 numero=1
-quatrocentos num=400 cardinal=1 numero=1
-quinhentos num=500 cardinal=1 numero=1
-seiscentos num=600 cardinal=1 numero=1
-setecentos num=700 cardinal=1 numero=1
-oitocentos num=800 cardinal=1 numero=1
-novecentos num=900 cardinal=1 numero=1
-mil num=1000 cardinal=1 numero=1
-milhão num=1000000 cardinal=1 numero=1
-bilião num=1000000000 potencia=2 cardinal=1 numero=1
-trilião num=1000000000000 potencia=3 cardinal=1 numero=1
-quatrilião num=1000000000000000 potencia=4 cardinal=1 numero=1
-quintilião num=1000000000000000000 potencia=5 cardinal=1 numero=1
-sextilião num=1000000000000000000000 potencia=6 cardinal=1 numero=1
-septilião potencia=7 cardinal=1 numero=1
-octilião potencia=8 cardinal=1 numero=1
-nonilião potencia=9 cardinal=1 numero=1
-decilião potencia=10 cardinal=1 numero=1
-undecilião potencia=11 cardinal=1 numero=1
-duodecilião potencia=12 cardinal=1 numero=1
-tredecilião potencia=13 cardinal=1 numero=1
-quatuordecilião potencia=14 cardinal=1 numero=1
-quindecilião potencia=15 cardinal=1 numero=1
-sexdecilião potencia=16 cardinal=1 numero=1
-septendecilião potencia=17 cardinal=1 numero=1
-octodecilião potencia=18 cardinal=1 numero=1
-novendecilião potencia=19 cardinal=1 numero=1
-vigintilião potencia=20 cardinal=1 numero=1
-trigintilião potencia=30 cardinal=1 numero=1
-quadragintilião potencia=40 cardinal=1 numero=1
-quinquagintilião potencia=50 cardinal=1 numero=1
-sexagintilião potencia=60 cardinal=1 numero=1
-septuagintilião potencia=70 cardinal=1 numero=1
-octogintilião potencia=80 cardinal=1 numero=1
-nonagintilião potencia=90 cardinal=1 numero=1
-centilião potencia=100 cardinal=1 numero=1
-ducentilião potencia=200 cardinal=1 numero=1
-trecentilião potencia=300 cardinal=1 numero=1
-quadringentilião potencia=400 cardinal=1 numero=1
-quingentilião potencia=500 cardinal=1 numero=1
-sescentilião potencia=600 cardinal=1 numero=1
-septingentilião potencia=700 cardinal=1 numero=1
-octingentilião potencia=800 cardinal=1 numero=1
-nongentilião potencia=900 cardinal=1 numero=1
-miliatilião potencia=1000 cardinal=1 numero=1
-miliamiliatilião potencia=1 cardinal=1 numero=1
+# Numerais por extenso com o seu valor numérico.
+#   numero=1    toda entrada
+#   num=        o valor numérico (nesta lista num= é o valor, não o número
+#               gramatical s/p de pt-full.dict; pt-numeros.kbb chama-lhe valor=)
+#   cardinal=1  numeral cardinal (um, dois, cem)
+#   ordinal=1   numeral ordinal (primeiro, segundo)
+#   coletivo=1  numeral coletivo (par, dezena, dúzia, centena, milhar)
+#   potencia=n  nos nomes em -ilião (escala longa, uso europeu), a potência de
+#               um milhão: bilião = 10^12, trilião = 10^18
+#   gen=f       forma feminina (uma, duas, duzentas, primeira)
+#   plural=1    forma plural (milhões, bilhões, dezenas, milhares)
+#   coloquial=1 uso coloquial ("meia" por seis ao ditar números, no Brasil)
+#   ambig=1     também é palavra comum ou entrada de outro dicionário da
+#               biblioteca (segunda, quinta, par, meia)
+# Formas brasileiras e europeias convivem: dezesseis / dezasseis,
+# dezessete / dezassete, dezenove / dezanove, quatorze / catorze.  Os nomes
+# em -ilhão (bilhão = 10^9, escala curta) são brasileiros; os nomes em -ilião
+# são europeus e seguem a escala longa (ver potencia=).  Atenção: o num= das
+# linhas bilião..sextilião segue a escala curta e não coincide com potencia=.
+zero num=0 cardinal=1 numero=1 pos=s
+um num=1 cardinal=1 numero=1 pos=pron
+um pos=s
+dois num=2 cardinal=1 numero=1 pos=s
+três num=3 cardinal=1 numero=1 pos=s
+quatro num=4 cardinal=1 numero=1 pos=num
+cinco num=5 cardinal=1 numero=1 pos=v
+seis num=6 cardinal=1 numero=1 pos=s
+sete num=7 cardinal=1 numero=1 pos=num
+oito num=8 cardinal=1 numero=1 pos=s
+nove num=9 cardinal=1 numero=1 pos=s
+dez num=10 cardinal=1 numero=1 pos=s
+onze num=11 cardinal=1 numero=1 pos=s
+doze num=12 cardinal=1 numero=1 pos=s
+treze num=13 cardinal=1 numero=1 pos=s
+catorze num=14 cardinal=1 numero=1 pos=s
+quinze num=15 cardinal=1 numero=1 pos=s
+dezasseis num=16 cardinal=1 numero=1 pos=s
+dezassete num=17 cardinal=1 numero=1 pos=s
+dezoito num=18 cardinal=1 numero=1 pos=s
+dezanove num=19 cardinal=1 numero=1 pos=s
+vinte num=20 cardinal=1 numero=1 pos=s
+trinta num=30 cardinal=1 numero=1 pos=v
+quarenta num=40 cardinal=1 numero=1 pos=v
+cinquenta num=50 cardinal=1 numero=1 pos=s
+sessenta num=60 cardinal=1 numero=1 pos=s
+setenta num=70 cardinal=1 numero=1 pos=s
+oitenta num=80 cardinal=1 numero=1 pos=s
+noventa num=90 cardinal=1 numero=1 pos=s
+cem num=100 cardinal=1 numero=1 pos=s
+duzentos num=200 cardinal=1 numero=1 pos=s
+trezentos num=300 cardinal=1 numero=1 pos=s
+quatrocentos num=400 cardinal=1 numero=1 pos=s
+quinhentos num=500 cardinal=1 numero=1 pos=s
+seiscentos num=600 cardinal=1 numero=1 pos=s
+setecentos num=700 cardinal=1 numero=1 pos=s
+oitocentos num=800 cardinal=1 numero=1 pos=s
+novecentos num=900 cardinal=1 numero=1 pos=s
+mil num=1000 cardinal=1 numero=1 pos=s
+milhão num=1000000 cardinal=1 numero=1 pos=s
+bilião num=1000000000 potencia=2 cardinal=1 numero=1 pos=s
+trilião num=1000000000000 potencia=3 cardinal=1 numero=1 pos=s
+quatrilião num=1000000000000000 potencia=4 cardinal=1 numero=1 pos=s
+quintilião num=1000000000000000000 potencia=5 cardinal=1 numero=1 pos=s
+sextilião num=1000000000000000000000 potencia=6 cardinal=1 numero=1 pos=s
+septilião potencia=7 cardinal=1 numero=1 pos=s
+octilião potencia=8 cardinal=1 numero=1 pos=s
+nonilião potencia=9 cardinal=1 numero=1 pos=s
+decilião potencia=10 cardinal=1 numero=1 pos=s
+undecilião potencia=11 cardinal=1 numero=1 pos=s
+duodecilião potencia=12 cardinal=1 numero=1 pos=s
+tredecilião potencia=13 cardinal=1 numero=1 pos=s
+quatuordecilião potencia=14 cardinal=1 numero=1 pos=s
+quindecilião potencia=15 cardinal=1 numero=1 pos=s
+sexdecilião potencia=16 cardinal=1 numero=1 pos=s
+septendecilião potencia=17 cardinal=1 numero=1 pos=s
+octodecilião potencia=18 cardinal=1 numero=1 pos=s
+novendecilião potencia=19 cardinal=1 numero=1 pos=s
+vigintilião potencia=20 cardinal=1 numero=1 pos=s
+trigintilião potencia=30 cardinal=1 numero=1 pos=s
+quadragintilião potencia=40 cardinal=1 numero=1 pos=s
+quinquagintilião potencia=50 cardinal=1 numero=1 pos=s
+sexagintilião potencia=60 cardinal=1 numero=1 pos=s
+septuagintilião potencia=70 cardinal=1 numero=1 pos=s
+octogintilião potencia=80 cardinal=1 numero=1 pos=s
+nonagintilião potencia=90 cardinal=1 numero=1 pos=s
+centilião potencia=100 cardinal=1 numero=1 pos=s
+ducentilião potencia=200 cardinal=1 numero=1 pos=s
+trecentilião potencia=300 cardinal=1 numero=1 pos=s
+quadringentilião potencia=400 cardinal=1 numero=1 pos=s
+quingentilião potencia=500 cardinal=1 numero=1 pos=s
+sescentilião potencia=600 cardinal=1 numero=1 pos=s
+septingentilião potencia=700 cardinal=1 numero=1 pos=s
+octingentilião potencia=800 cardinal=1 numero=1 pos=s
+nongentilião potencia=900 cardinal=1 numero=1 pos=s
+miliatilião potencia=1000 cardinal=1 numero=1 pos=s
+miliamiliatilião potencia=1 cardinal=1 numero=1 pos=s
+
+# Formas brasileiras, femininas e plurais
+uma num=1 cardinal=1 numero=1 gen=f pos=pron
+uma pos=s
+uma pos=v
+duas num=2 cardinal=1 numero=1 gen=f pos=s
+quatorze num=14 cardinal=1 numero=1 pos=s
+dezesseis num=16 cardinal=1 numero=1 pos=s
+dezessete num=17 cardinal=1 numero=1 pos=s
+dezenove num=19 cardinal=1 numero=1 pos=s
+cento num=100 cardinal=1 numero=1 pos=s
+duzentas num=200 cardinal=1 numero=1 gen=f pos=s
+trezentas num=300 cardinal=1 numero=1 gen=f pos=s
+quatrocentas num=400 cardinal=1 numero=1 gen=f pos=s
+quinhentas num=500 cardinal=1 numero=1 gen=f pos=s
+seiscentas num=600 cardinal=1 numero=1 gen=f pos=s
+setecentas num=700 cardinal=1 numero=1 gen=f pos=s
+oitocentas num=800 cardinal=1 numero=1 gen=f pos=s
+novecentas num=900 cardinal=1 numero=1 gen=f pos=s
+milhões num=1000000 cardinal=1 numero=1 plural=1 pos=s
+bilhão num=1000000000 cardinal=1 numero=1 pos=s
+bilhões num=1000000000 cardinal=1 numero=1 plural=1 pos=s
+trilhão num=1000000000000 cardinal=1 numero=1 pos=s
+trilhões num=1000000000000 cardinal=1 numero=1 plural=1 pos=s
+quatrilhão num=1000000000000000 cardinal=1 numero=1 pos=s
+quintilhão num=1000000000000000000 cardinal=1 numero=1 pos=s
+sextilhão num=1000000000000000000000 cardinal=1 numero=1 pos=s
+meia num=6 cardinal=1 numero=1 coloquial=1 ambig=1 pos=adj
+meia pos=s
+meia pos=v
 
 # Numeros ordinais
-primeiro num=1 ordinal=1 numero=1
-segundo num=2 ordinal=1 numero=1
-terceiro num=3 ordinal=1 numero=1
-quarto num=4 ordinal=1 numero=1
-quinto num=5 ordinal=1 numero=1
-sexto num=6 ordinal=1 numero=1
-sétimo num=7 ordinal=1 numero=1
-oitavo num=8 ordinal=1 numero=1
-nono num=9 ordinal=1 numero=1
-décimo num=10 ordinal=1 numero=1
-vigésimo num=20 ordinal=1 numero=1
-trigésimo num=30 ordinal=1 numero=1
-quadragésimo num=40 ordinal=1 numero=1
-quinquagésimo num=50 ordinal=1 numero=1
-sexagésimo num=60 ordinal=1 numero=1
-septuagésimo num=70 ordinal=1 numero=1
-octogésimo num=80 ordinal=1 numero=1
-nonagésimo num=90 ordinal=1 numero=1
-centésimo num=100 ordinal=1 numero=1
-ducentésimo num=200 ordinal=1 numero=1
-trecentésimo num=300 ordinal=1 numero=1
-quadrigentésimo num=400 ordinal=1 numero=1
-quingentésimo num=500 ordinal=1 numero=1
-sexcentésimo num=600 ordinal=1 numero=1
-septicentésimo num=700 ordinal=1 numero=1
-octingentésimo num=800 ordinal=1 numero=1
-nongentésimo num=900 ordinal=1 numero=1
-milésimo num=1000 ordinal=1 numero=1
-milionésimo num=1000000 ordinal=1 numero=1
-bilionésimo num=1000000000 potencia=2 ordinal=1 numero=1
-trilionésimo num=1000000000000 potencia=3 ordinal=1 numero=1
-quatrilionésimo num=1000000000000000 potencia=4 ordinal=1 numero=1
-quintilionésimo num=1000000000000000000 potencia=5 ordinal=1 numero=1
-sextilionésimo num=1000000000000000000000 potencia=6 ordinal=1 numero=1
-septilionésimo potencia=7 ordinal=1 numero=1
-octilionésimo potencia=8 ordinal=1 numero=1
-nonilionésimo potencia=9 ordinal=1 numero=1
-decilionésimo potencia=10 ordinal=1 numero=1
-undecilionésimo potencia=11 ordinal=1 numero=1
-duodecilionésimo potencia=12 ordinal=1 numero=1
-tredecilionésimo potencia=13 ordinal=1 numero=1
-quatuordecilionésimo potencia=14 ordinal=1 numero=1
-quindecilionésimo potencia=15 ordinal=1 numero=1
-sexdecilionésimo potencia=16 ordinal=1 numero=1
-septendecilionésimo potencia=17 ordinal=1 numero=1
-octodecilionésimo potencia=18 ordinal=1 numero=1
-novendecilionésimo potencia=19 ordinal=1 numero=1
-vigintilionésimo potencia=20 ordinal=1 numero=1
-trigintilionésimo potencia=30 ordinal=1 numero=1
-quadragintilionésimo potencia=40 ordinal=1 numero=1
-quinquagintilionésimo potencia=50 ordinal=1 numero=1
-sexagintilionésimo potencia=60 ordinal=1 numero=1
-septuagintilionésimo potencia=70 ordinal=1 numero=1
-octogintilionésimo potencia=80 ordinal=1 numero=1
-nonagintilionésimo potencia=90 ordinal=1 numero=1
-centilionésimo potencia=100 ordinal=1 numero=1
-ducentilionésimo potencia=200 ordinal=1 numero=1
-trecentilionésimo potencia=300 ordinal=1 numero=1
-quadringentilionésimo potencia=400 ordinal=1 numero=1
-quingentilionésimo potencia=500 ordinal=1 numero=1
-sescentilionésimo potencia=600 ordinal=1 numero=1
-septingentilionésimo potencia=700 ordinal=1 numero=1
-octingentilionésimo potencia=800 ordinal=1 numero=1
-nongentilionésimo potencia=900 ordinal=1 numero=1
-miliatilionésimo potencia=1000 ordinal=1 numero=1
-miliamiliatilionésimo potencia=1 ordinal=1 numero=1
+primeiro num=1 ordinal=1 numero=1 pos=adj
+primeiro pos=adv
+primeiro pos=s
+segundo num=2 ordinal=1 numero=1 pos=adj
+segundo pos=adv
+segundo pos=conj
+segundo pos=prep
+segundo pos=s
+segundo pos=v
+terceiro num=3 ordinal=1 numero=1 pos=adj
+terceiro pos=v
+quarto num=4 ordinal=1 numero=1 pos=adj
+quarto pos=s
+quarto pos=v
+quinto num=5 ordinal=1 numero=1 pos=adj
+quinto pos=s
+quinto pos=v
+sexto num=6 ordinal=1 numero=1 pos=adj
+sexto pos=s
+sétimo num=7 ordinal=1 numero=1 pos=adj
+sétimo pos=s
+oitavo num=8 ordinal=1 numero=1 pos=adj
+oitavo pos=s
+oitavo pos=v
+nono num=9 ordinal=1 numero=1 pos=adj
+nono pos=s
+décimo num=10 ordinal=1 numero=1 pos=adj
+vigésimo num=20 ordinal=1 numero=1 pos=adj
+vigésimo pos=s
+trigésimo num=30 ordinal=1 numero=1 pos=adj
+trigésimo pos=s
+quadragésimo num=40 ordinal=1 numero=1 pos=adj
+quadragésimo pos=s
+quinquagésimo num=50 ordinal=1 numero=1 pos=adj
+quinquagésimo pos=s
+sexagésimo num=60 ordinal=1 numero=1 pos=adj
+sexagésimo pos=s
+septuagésimo num=70 ordinal=1 numero=1 pos=adj
+octogésimo num=80 ordinal=1 numero=1 pos=adj
+nonagésimo num=90 ordinal=1 numero=1 pos=adj
+nonagésimo pos=s
+centésimo num=100 ordinal=1 numero=1 pos=adj
+ducentésimo num=200 ordinal=1 numero=1 pos=adj
+trecentésimo num=300 ordinal=1 numero=1 pos=adj
+quadrigentésimo num=400 ordinal=1 numero=1 pos=adj
+quingentésimo num=500 ordinal=1 numero=1 pos=adj
+quingentésimo pos=s
+sexcentésimo num=600 ordinal=1 numero=1 pos=adj
+septicentésimo num=700 ordinal=1 numero=1 pos=s
+octingentésimo num=800 ordinal=1 numero=1 pos=adj
+nongentésimo num=900 ordinal=1 numero=1 pos=adj
+milésimo num=1000 ordinal=1 numero=1 pos=adj
+milésimo pos=s
+milionésimo num=1000000 ordinal=1 numero=1 pos=adj
+milionésimo pos=s
+bilionésimo num=1000000000 potencia=2 ordinal=1 numero=1 pos=adj
+trilionésimo num=1000000000000 potencia=3 ordinal=1 numero=1 pos=adj
+quatrilionésimo num=1000000000000000 potencia=4 ordinal=1 numero=1 pos=s
+quintilionésimo num=1000000000000000000 potencia=5 ordinal=1 numero=1 pos=adj
+sextilionésimo num=1000000000000000000000 potencia=6 ordinal=1 numero=1 pos=s
+septilionésimo potencia=7 ordinal=1 numero=1 pos=s
+octilionésimo potencia=8 ordinal=1 numero=1 pos=s
+nonilionésimo potencia=9 ordinal=1 numero=1 pos=s
+decilionésimo potencia=10 ordinal=1 numero=1 pos=s
+undecilionésimo potencia=11 ordinal=1 numero=1 pos=s
+duodecilionésimo potencia=12 ordinal=1 numero=1 pos=s
+tredecilionésimo potencia=13 ordinal=1 numero=1 pos=s
+quatuordecilionésimo potencia=14 ordinal=1 numero=1 pos=s
+quindecilionésimo potencia=15 ordinal=1 numero=1 pos=s
+sexdecilionésimo potencia=16 ordinal=1 numero=1 pos=s
+septendecilionésimo potencia=17 ordinal=1 numero=1 pos=s
+octodecilionésimo potencia=18 ordinal=1 numero=1 pos=s
+novendecilionésimo potencia=19 ordinal=1 numero=1 pos=s
+vigintilionésimo potencia=20 ordinal=1 numero=1 pos=s
+trigintilionésimo potencia=30 ordinal=1 numero=1 pos=s
+quadragintilionésimo potencia=40 ordinal=1 numero=1 pos=s
+quinquagintilionésimo potencia=50 ordinal=1 numero=1 pos=s
+sexagintilionésimo potencia=60 ordinal=1 numero=1 pos=s
+septuagintilionésimo potencia=70 ordinal=1 numero=1 pos=s
+octogintilionésimo potencia=80 ordinal=1 numero=1 pos=s
+nonagintilionésimo potencia=90 ordinal=1 numero=1 pos=s
+centilionésimo potencia=100 ordinal=1 numero=1 pos=s
+ducentilionésimo potencia=200 ordinal=1 numero=1 pos=s
+trecentilionésimo potencia=300 ordinal=1 numero=1 pos=s
+quadringentilionésimo potencia=400 ordinal=1 numero=1 pos=s
+quingentilionésimo potencia=500 ordinal=1 numero=1 pos=s
+sescentilionésimo potencia=600 ordinal=1 numero=1 pos=s
+septingentilionésimo potencia=700 ordinal=1 numero=1 pos=s
+octingentilionésimo potencia=800 ordinal=1 numero=1 pos=s
+nongentilionésimo potencia=900 ordinal=1 numero=1 pos=s
+miliatilionésimo potencia=1000 ordinal=1 numero=1 pos=s
+miliamiliatilionésimo potencia=1 ordinal=1 numero=1 pos=s
+
+# Ordinais femininos, de 11 a 19 e variantes
+primeira num=1 ordinal=1 numero=1 gen=f pos=adj
+primeira pos=s
+segunda num=2 ordinal=1 numero=1 gen=f ambig=1 pos=adj
+segunda pos=s
+segunda pos=v
+terceira num=3 ordinal=1 numero=1 gen=f pos=adj
+terceira pos=s
+terceira pos=v
+quarta num=4 ordinal=1 numero=1 gen=f ambig=1 pos=adj
+quarta pos=s
+quarta pos=v
+quinta num=5 ordinal=1 numero=1 gen=f ambig=1 pos=adj
+quinta pos=s
+quinta pos=v
+sexta num=6 ordinal=1 numero=1 gen=f ambig=1 pos=adj
+sexta pos=s
+sétima num=7 ordinal=1 numero=1 gen=f pos=adj
+sétima pos=s
+oitava num=8 ordinal=1 numero=1 gen=f pos=adj
+oitava pos=s
+oitava pos=v
+nona num=9 ordinal=1 numero=1 gen=f pos=adj
+nona pos=s
+décima num=10 ordinal=1 numero=1 gen=f pos=adj
+décima pos=s
+décimo primeiro num=11 ordinal=1 numero=1 pos=s
+undécimo num=11 ordinal=1 numero=1 pos=adj
+undécimo pos=s
+décimo segundo num=12 ordinal=1 numero=1 pos=s
+duodécimo num=12 ordinal=1 numero=1 pos=adj
+duodécimo pos=s
+décimo terceiro num=13 ordinal=1 numero=1 pos=s
+décimo quarto num=14 ordinal=1 numero=1 pos=s
+décimo quinto num=15 ordinal=1 numero=1 pos=s
+décimo sexto num=16 ordinal=1 numero=1 pos=s
+décimo sétimo num=17 ordinal=1 numero=1 pos=s
+décimo oitavo num=18 ordinal=1 numero=1 pos=s
+décimo nono num=19 ordinal=1 numero=1 pos=s
+setuagésimo num=70 ordinal=1 numero=1 pos=s
+quadringentésimo num=400 ordinal=1 numero=1 pos=s
+seiscentésimo num=600 ordinal=1 numero=1 pos=adj
+seiscentésimo pos=s
+septingentésimo num=700 ordinal=1 numero=1 pos=adj
+setingentésimo num=700 ordinal=1 numero=1 pos=s
+
+# Numerais coletivos
+par num=2 coletivo=1 numero=1 ambig=1 pos=adj
+par pos=s
+dezena num=10 coletivo=1 numero=1 pos=s
+dezenas num=10 coletivo=1 numero=1 plural=1 pos=s
+dúzia num=12 coletivo=1 numero=1 pos=s
+dúzias num=12 coletivo=1 numero=1 plural=1 pos=s
+meia dúzia num=6 coletivo=1 numero=1 pos=s
+quinzena num=15 coletivo=1 numero=1 pos=s
+vintena num=20 coletivo=1 numero=1 pos=adj
+vintena pos=s
+centena num=100 coletivo=1 numero=1 pos=s
+centenas num=100 coletivo=1 numero=1 plural=1 pos=s
+grosa num=144 coletivo=1 numero=1 pos=s
+grosa pos=v
+milhar num=1000 coletivo=1 numero=1 pos=s
+milhares num=1000 coletivo=1 numero=1 plural=1 pos=s
+milheiro num=1000 coletivo=1 numero=1 pos=s
