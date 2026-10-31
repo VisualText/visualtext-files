@@ -1,5 +1,5 @@
-# Lograouro para enderços
-a completo=área logradouro=1
+# Logradouros para endereços
+a completo="área" logradouro=1
 a v completo="área verde" logradouro=1
 ac completo=acesso logradouro=1
 aca completo=acampamento logradouro=1
@@ -354,6 +354,6 @@ viaduto abrev=viaduto logradouro=1
 viela abrev=viela logradouro=1
 vila abrev=vila logradouro=1
 zigue-zague abrev="zigue-zague" logradouro=1
-área abrev=área logradouro=1
+área abrev="área" logradouro=1
 área especial abrev="área especial" logradouro=1
 área verde abrev="área verde" logradouro=1
