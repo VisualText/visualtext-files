@@ -1,0 +1,47 @@
+# Meses y días de la semana (español), con sus números.
+# The same attributes as English/en-monthsdays.dict -- month= and day= -- so
+# an analyzer that loads both reads a month in either language with one rule.
+# Meses 1-12 (enero=1); días 1-7 (lunes=1), as in en-monthsdays.
+# "set" and "setiembre" are September in Peru, Uruguay and elsewhere.
+# "mar" is both March (marzo) and Tuesday (martes): one line, both values.
+enero month=1
+ene month=1
+febrero month=2
+feb month=2
+marzo month=3
+mar month=3 day=2
+abril month=4
+abr month=4
+mayo month=5
+may month=5
+junio month=6
+jun month=6
+julio month=7
+jul month=7
+agosto month=8
+ago month=8
+septiembre month=9
+sep month=9
+sept month=9
+set month=9
+setiembre month=9
+octubre month=10
+oct month=10
+noviembre month=11
+nov month=11
+diciembre month=12
+dic month=12
+
+lunes day=1
+lun day=1
+martes day=2
+miércoles day=3
+mié day=3
+jueves day=4
+jue day=4
+viernes day=5
+vie day=5
+sábado day=6
+sáb day=6
+domingo day=7
+dom day=7

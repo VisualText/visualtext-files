@@ -1,0 +1,38 @@
+# Meses e dias da semana (português do Brasil), com seus números.
+# The same shape as English/en-monthsdays.kbb: num=, abbr=, synonym=.
+# Every form named here is tagged by pt-monthsdays.dict.
+monthsdays
+  months
+    janeiro: num=1, abbr=jan
+    fevereiro: num=2, abbr=fev
+    março: num=3, abbr=mar
+    abril: num=4, abbr=abr
+    maio: num=5, abbr=mai
+    junho: num=6, abbr=jun
+    julho: num=7, abbr=jul
+    agosto: num=8, abbr=ago
+    setembro: num=9, abbr=set
+    outubro: num=10, abbr=out
+    novembro: num=11, abbr=nov
+    dezembro: num=12, abbr=dez
+  monthbynum
+    1: name=janeiro, abbr=jan
+    2: name=fevereiro, abbr=fev
+    3: name=março, abbr=mar
+    4: name=abril, abbr=abr
+    5: name=maio, abbr=mai
+    6: name=junho, abbr=jun
+    7: name=julho, abbr=jul
+    8: name=agosto, abbr=ago
+    9: name=setembro, abbr=set
+    10: name=outubro, abbr=out
+    11: name=novembro, abbr=nov
+    12: name=dezembro, abbr=dez
+  days
+    segunda-feira: num=1, abbr=seg
+    terça-feira: num=2, abbr=ter
+    quarta-feira: num=3, abbr=qua
+    quinta-feira: num=4, abbr=qui
+    sexta-feira: num=5, abbr=sex
+    sábado: num=6, abbr=sáb
+    domingo: num=7, abbr=dom

@@ -1,0 +1,38 @@
+# Meses y días de la semana (español), con sus números.
+# The same shape as English/en-monthsdays.kbb: num=, abbr=, synonym=.
+# Every form named here is tagged by es-monthsdays.dict.
+monthsdays
+  months
+    enero: num=1, abbr=ene
+    febrero: num=2, abbr=feb
+    marzo: num=3, abbr=mar
+    abril: num=4, abbr=abr
+    mayo: num=5, abbr=may
+    junio: num=6, abbr=jun
+    julio: num=7, abbr=jul
+    agosto: num=8, abbr=ago
+    septiembre: num=9, abbr=sep, synonym=[sept,set,setiembre]
+    octubre: num=10, abbr=oct
+    noviembre: num=11, abbr=nov
+    diciembre: num=12, abbr=dic
+  monthbynum
+    1: name=enero, abbr=ene
+    2: name=febrero, abbr=feb
+    3: name=marzo, abbr=mar
+    4: name=abril, abbr=abr
+    5: name=mayo, abbr=may
+    6: name=junio, abbr=jun
+    7: name=julio, abbr=jul
+    8: name=agosto, abbr=ago
+    9: name=septiembre, abbr=sep
+    10: name=octubre, abbr=oct
+    11: name=noviembre, abbr=nov
+    12: name=diciembre, abbr=dic
+  days
+    lunes: num=1, abbr=lun
+    martes: num=2, abbr=mar
+    miércoles: num=3, abbr=mié
+    jueves: num=4, abbr=jue
+    viernes: num=5, abbr=vie
+    sábado: num=6, abbr=sáb
+    domingo: num=7, abbr=dom

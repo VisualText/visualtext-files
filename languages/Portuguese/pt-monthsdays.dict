@@ -1,0 +1,45 @@
+# Meses e dias da semana (português do Brasil), com seus números.
+# The same attributes as English/en-monthsdays.dict -- month= and day=, not
+# mes= -- so an analyzer that loads both reads a month in either language
+# with one rule ("05 OUT/OCT 1989" on a Brazilian passport).
+# Meses 1-12 (janeiro=1); dias 1-7 (segunda-feira=1), as in en-monthsdays.
+# Abbreviations are the three-letter forms a Brazilian document prints.
+janeiro month=1
+jan month=1
+fevereiro month=2
+fev month=2
+março month=3
+mar month=3
+abril month=4
+abr month=4
+maio month=5
+mai month=5
+junho month=6
+jun month=6
+julho month=7
+jul month=7
+agosto month=8
+ago month=8
+setembro month=9
+set month=9
+outubro month=10
+out month=10
+novembro month=11
+nov month=11
+dezembro month=12
+dez month=12
+
+segunda-feira day=1
+seg day=1
+terça-feira day=2
+ter day=2
+quarta-feira day=3
+qua day=3
+quinta-feira day=4
+qui day=4
+sexta-feira day=5
+sex day=5
+sábado day=6
+sáb day=6
+domingo day=7
+dom day=7
