@@ -30,7 +30,7 @@ Returns **1** if the file was loaded successfully and **0** otherwise (for examp
 
 A `.dict` file uses the flat `word attr=val ...` format, one word per line (see [Dictionary Entries](VisualText_Basics/About_the_analyzer_sequence.md#dictionary-entries)). `loaddict` adds those words and their attributes to the KB already in memory. If a `.kbb` file with the same stem exists in `kb/user`, its `dictionary` concept is used as the ambiguity KB for the words being added, mirroring how the engine pairs dictionaries with their KB during normal startup.
 
-A `#` outside a quoted string starts a comment, and the engine skips the whole line, including any entry before the `#`. Put comments on lines of their own: `beta pos=verb # a comment` adds nothing for `beta`.
+A `#` outside a quoted string starts a comment that runs to the end of the line. The entry before it is kept: `beta pos=verb # a comment` adds `beta` with `pos=verb`. Write `\#` for a literal pound sign. (Before 4.2.53 the engine skipped the whole line, entry and all.)
 
 Lines and values can be any length. Before engine 4.2.38 a line of 2,048 or more characters was skipped, with a message in `cgerr.log` only, and a quoted value of 512 or more characters crashed the engine.
 
