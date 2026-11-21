@@ -1,5 +1,7 @@
 # VisualText Files
 
+[![PyPI: NLPPlus](https://img.shields.io/pypi/v/NLPPlus?label=PyPI%20NLPPlus&logo=pypi&logoColor=white)](https://pypi.org/project/NLPPlus/) [![npm: nlpplus](https://img.shields.io/npm/v/nlpplus?label=npm%20nlpplus&logo=npm)](https://www.npmjs.com/package/nlpplus)
+
 Support files distributed with the [VisualText VSCode extension](http://vscode.visualtext.org) and the [NLP++ engine](https://github.com/VisualText/nlp-engine). These files are copied into the `visualtext` directory of an NLP++ installation and provide the starter analyzers, help content, dictionaries, code libraries, and language assets that the extension exposes to end users.
 
 A GitHub release of this repository zips the contents into `visualtext.zip`, which the VSCode extension downloads and unpacks the first time a user installs NLP++. See [`.github/workflows/visualtextfiles.yml`](.github/workflows/visualtextfiles.yml) for the release pipeline.
