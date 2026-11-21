@@ -1,7 +1,7 @@
 # Calling Analyzers from Python & Node.js
 
-The NLP++ engine ships as a native package for both **Python** (`NLPPlus` on PyPI) and
-**Node.js** (`nlpplus` on npm). Both link the engine's C++ libraries directly into the
+The NLP++ engine ships as a native package for both **Python** ([`NLPPlus` on PyPI](https://pypi.org/project/NLPPlus/)) and
+**Node.js** ([`nlpplus` on npm](https://www.npmjs.com/package/nlpplus)). Both link the engine's C++ libraries directly into the
 process, so your program calls an analyzer **in‑process** — far faster than shelling out
 to the command‑line `nlp` engine.
 
