@@ -122,7 +122,7 @@ Rerun zones 40 to 45 of a large document with full trees, into a folder of their
 nlp -ANA parse-en-us -WORK C:\nlp-engine -ZONES 40-45 -DEV -OUT C:\debug\z40 book.txt
 ```
 
-From Python or Node.js, the same engine runs through the `NLPPlus` and `nlpplus`
+From Python or Node.js, the same engine runs through the [`NLPPlus`](https://pypi.org/project/NLPPlus/) and [`nlpplus`](https://www.npmjs.com/package/nlpplus)
 packages; see [Calling Analyzers from Python & Node.js](packages.md).
 
 ## See also
