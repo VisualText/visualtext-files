@@ -29,6 +29,6 @@ VisualText invokes it with the bundled engine, e.g.:
 python nlp_regress.py test "<analyzer-dir>" --cli --engine "<nlp-engine-dir>"
 ```
 
-Engine backend is auto-detected: the `NLPPlus` pip package if installed, else the
+Engine backend is auto-detected: the [`NLPPlus`](https://pypi.org/project/NLPPlus/) pip package if installed, else the
 `nlp` / `nlp.exe` CLI (`--engine` / `$NLP_ENGINE`). See the full docs in the
 extractors repo at `tools/regress/README.md`.
